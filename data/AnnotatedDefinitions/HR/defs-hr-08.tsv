@@ -1,0 +1,454 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=﻿stup: Stup formiran spajanjem stalaktita s pratećim stalagmitom.
+1-1	0-5	﻿stup	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-2	5-6	:	_	_	_	_	_	
+1-3	7-11	Stup	stup	_	_	_	_	
+1-4	12-20	formiran	_	_	_	HAS\_CAUSE[25]	frame\_CAUSE	
+1-5	21-30	spajanjem	_	B.4 Transformation	_	HAS\_CAUSE[25]	_	
+1-6	31-41	stalaktita	_	A.2 Underground landform	_	HAS\_CAUSE[25]	_	
+1-7	42-43	s	_	_	_	HAS\_CAUSE[25]	_	
+1-8	44-52	pratećim	_	_	_	HAS\_CAUSE[25]	_	
+1-9	53-64	stalagmitom	_	A.2 Underground landform	_	HAS\_CAUSE[25]	_	
+1-10	64-65	.	_	_	_	_	_	
+
+#Text=kondenzacijska korozija: Proces kojim voda iz zraka koja sadrži veliku količinu ugljičnog dioksida kondenzira na površini sloja stijene ili na speleotemi i korodira je. Proces trošenja plinom. Značajan proces kod povećanja nekih špiljskih hodnika (Hill, 1987).
+2-1	67-81	kondenzacijska	_	B.2 Loss[1]	DEFINIENDUM[13]	_	_	
+2-2	82-90	korozija	_	B.2 Loss[1]	DEFINIENDUM[13]	_	_	
+2-3	90-91	:	_	_	_	_	_	
+2-4	92-98	Proces	_	_	GENUS	_	_	
+2-5	99-104	kojim	_	_	_	_	_	
+2-6	105-109	voda	_	_	_	DEFINED\_AS[26]	_	
+2-7	110-112	iz	_	_	_	DEFINED\_AS[26]	_	
+2-8	113-118	zraka	_	_	_	DEFINED\_AS[26]	_	
+2-9	119-123	koja	_	_	_	DEFINED\_AS[26]	_	
+2-10	124-130	sadrži	_	_	_	DEFINED\_AS[26]	_	
+2-11	131-137	veliku	_	_	_	DEFINED\_AS[26]	_	
+2-12	138-146	količinu	_	_	_	DEFINED\_AS[26]	_	
+2-13	147-156	ugljičnog	_	_	_	DEFINED\_AS[26]	_	
+2-14	157-165	dioksida	_	_	_	DEFINED\_AS[26]	_	
+2-15	166-176	kondenzira	_	_	_	DEFINED\_AS[26]	_	
+2-16	177-179	na	_	_	_	HAS\_LOCATION[27]	frame\_LOCATION	
+2-17	180-188	površini	_	_	_	HAS\_LOCATION[27]	_	
+2-18	189-194	sloja	_	_	_	HAS\_LOCATION[27]	_	
+2-19	195-202	stijene	_	_	_	HAS\_LOCATION[27]	_	
+2-20	203-206	ili	_	_	_	HAS\_LOCATION[27]	_	
+2-21	207-209	na	_	_	_	HAS\_LOCATION[27]	_	
+2-22	210-220	speleotemi	_	_	_	HAS\_LOCATION[27]	_	
+2-23	221-222	i	_	_	_	_	_	
+2-24	223-231	korodira	_	_	_	HAS\_RESULT[28]	_	
+2-25	232-234	je	_	_	_	HAS\_RESULT[28]	_	
+2-26	234-235	.	_	_	_	_	_	
+2-27	236-242	Proces	_	_	_	_	_	
+2-28	243-251	trošenja	_	_	_	_	_	
+2-29	252-258	plinom	_	_	_	_	_	
+2-30	258-259	.	_	_	_	_	_	
+2-31	260-268	Značajan	_	_	_	_	_	
+2-32	269-275	proces	_	_	_	_	_	
+2-33	276-279	kod	_	_	_	_	_	
+2-34	280-289	povećanja	_	_	_	HAS\_RESULT[29]	_	
+2-35	290-295	nekih	_	_	_	HAS\_RESULT[29]	_	
+2-36	296-305	špiljskih	_	A.2 Underground landform[2]	_	HAS\_RESULT[29]	_	
+2-37	306-313	hodnika	_	A.2 Underground landform[2]	_	HAS\_RESULT[29]	_	
+2-38	314-315	(	_	_	_	_	_	
+2-39	315-319	Hill	_	_	_	_	_	
+2-40	319-320	,	_	_	_	_	_	
+2-41	321-325	1987	_	_	_	_	_	
+2-42	325-326	)	_	_	_	_	_	
+2-43	326-327	.	_	_	_	_	_	
+
+#Text=kondenzacijska dvorana: Područje u špilji u kojem se voda kondenzira na stijenkama zbog niže temperature stijenki  od zraka koji ulazi u prostoriju.
+3-1	329-343	kondenzacijska	_	A.2 Underground landform[3]	DEFINIENDUM[14]	_	_	
+3-2	344-351	dvorana	_	A.2 Underground landform[3]	DEFINIENDUM[14]	_	_	
+3-3	351-352	:	_	_	_	_	_	
+3-4	353-361	Područje	_	_	_	_	_	
+3-5	362-363	u	_	_	_	_	_	
+3-6	364-370	špilji	_	A.2 Underground landform	_	_	_	
+3-7	371-372	u	_	_	_	HAS\_FUNCTION[30]	_	
+3-8	373-378	kojem	_	_	_	HAS\_FUNCTION[30]	_	
+3-9	379-381	se	_	_	_	HAS\_FUNCTION[30]	_	
+3-10	382-386	voda	_	_	_	HAS\_FUNCTION[30]	_	
+3-11	387-397	kondenzira	_	_	_	HAS\_FUNCTION[30]	_	
+3-12	398-400	na	_	_	_	HAS\_FUNCTION[30]	_	
+3-13	401-411	stijenkama	_	_	_	HAS\_FUNCTION[30]	_	
+3-14	412-416	zbog	_	_	_	HAS\_CAUSE[31]	frame\_CAUSE	
+3-15	417-421	niže	_	_	_	HAS\_CAUSE[31]	_	
+3-16	422-433	temperature	_	_	_	HAS\_CAUSE[31]	_	
+3-17	434-442	stijenki	_	_	_	HAS\_CAUSE[31]	_	
+3-18	444-446	od	_	_	_	HAS\_CAUSE[31]	_	
+3-19	447-452	zraka	_	_	_	HAS\_CAUSE[31]	_	
+3-20	453-457	koji	_	_	_	HAS\_CAUSE[31]	_	
+3-21	458-463	ulazi	_	_	_	HAS\_CAUSE[31]	_	
+3-22	464-465	u	_	_	_	HAS\_CAUSE[31]	_	
+3-23	466-476	prostoriju	_	_	_	HAS\_CAUSE[31]	_	
+3-24	476-477	.	_	_	_	_	_	
+
+#Text=cijev: 1 Kanal u podzemnoj špilji, često okrugla ili eliptična presjeka koji je u cijelosti ispunjen vodom pod hidrostatičkim tlakom. 2. Suhi kanal za kojeg se može zaključiti da je njime tekla voda. 3 Izraz se katkada koristi kao sinonim za špilju i kanal, ali se općenito podrazumijeva da se odnosi na kanal koji je suviše mali da se čovjek provuče kroz njega ili je dovoljno velik ali je nedostupan.
+4-1	479-484	cijev	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-2	484-485	:	_	_	_	_	_	
+4-3	486-487	1	_	_	_	_	_	
+4-4	488-493	Kanal	_	A.2 Underground landform	GENUS	_	_	
+4-5	494-495	u	_	_	_	HAS\_LOCATION[32]	frame\_LOCATION	
+4-6	496-505	podzemnoj	_	_	_	HAS\_LOCATION[32]	_	
+4-7	506-512	špilji	_	A.2 Underground landform	_	HAS\_LOCATION[32]	_	
+4-8	512-513	,	_	_	_	_	_	
+4-9	514-519	često	_	_	_	_	_	
+4-10	520-527	okrugla	_	_	_	HAS\_FORM[33]	_	
+4-11	528-531	ili	_	_	_	HAS\_FORM[33]	_	
+4-12	532-541	eliptična	_	_	_	HAS\_FORM[33]	_	
+4-13	542-550	presjeka	_	_	_	HAS\_FORM[33]	_	
+4-14	551-555	koji	_	_	_	_	_	
+4-15	556-558	je	_	_	_	_	_	
+4-16	559-560	u	_	_	_	CONTAINS[34]	frame\_CONTAINS[60]	
+4-17	561-570	cijelosti	_	_	_	CONTAINS[34]	frame\_CONTAINS[60]	
+4-18	571-579	ispunjen	_	_	_	CONTAINS[34]	frame\_CONTAINS[60]	
+4-19	580-585	vodom	_	_	_	CONTAINS[34]	_	
+4-20	586-589	pod	_	_	_	CONTAINS[34]	_	
+4-21	590-604	hidrostatičkim	_	_	_	CONTAINS[34]	_	
+4-22	605-611	tlakom	_	_	_	CONTAINS[34]	_	
+4-23	611-612	.	_	_	_	_	_	
+4-24	613-614	2	_	_	_	_	_	
+4-25	614-615	.	_	_	_	_	_	
+4-26	616-620	Suhi	_	_	GENUS[15]	_	_	
+4-27	621-626	kanal	_	_	GENUS[15]	_	_	
+4-28	627-629	za	_	_	_	_	_	
+4-29	630-635	kojeg	_	_	_	_	_	
+4-30	636-638	se	_	_	_	_	_	
+4-31	639-643	može	_	_	_	_	_	
+4-32	644-654	zaključiti	_	_	_	_	_	
+4-33	655-657	da	_	_	_	_	_	
+4-34	658-660	je	_	_	_	_	_	
+4-35	661-666	njime	_	_	_	_	_	
+4-36	667-672	tekla	_	_	_	_	_	
+4-37	673-677	voda	_	_	_	_	_	
+4-38	677-678	.	_	_	_	_	_	
+4-39	679-680	3	_	_	_	_	_	
+4-40	681-686	Izraz	_	_	_	_	_	
+4-41	687-689	se	_	_	_	_	_	
+4-42	690-697	katkada	_	_	_	_	_	
+4-43	698-705	koristi	_	_	_	_	_	
+4-44	706-709	kao	_	_	_	_	_	
+4-45	710-717	sinonim	_	_	_	_	_	
+4-46	718-720	za	_	_	_	_	_	
+4-47	721-727	špilju	_	A.2 Underground landform	_	_	_	
+4-48	728-729	i	_	_	_	_	_	
+4-49	730-735	kanal	_	A.2 Underground landform	_	_	_	
+4-50	735-736	,	_	_	_	_	_	
+4-51	737-740	ali	_	_	_	_	_	
+4-52	741-743	se	_	_	_	_	_	
+4-53	744-752	općenito	_	_	_	_	_	
+4-54	753-766	podrazumijeva	_	_	_	_	_	
+4-55	767-769	da	_	_	_	_	_	
+4-56	770-772	se	_	_	_	_	_	
+4-57	773-779	odnosi	_	_	_	_	_	
+4-58	780-782	na	_	_	_	_	_	
+4-59	783-788	kanal	_	_	_	_	_	
+4-60	789-793	koji	_	_	_	_	_	
+4-61	794-796	je	_	_	_	_	_	
+4-62	797-803	suviše	_	_	_	HAS\_SIZE[35]	_	
+4-63	804-808	mali	_	_	_	HAS\_SIZE[35]	_	
+4-64	809-811	da	_	_	_	HAS\_SIZE[35]	_	
+4-65	812-814	se	_	_	_	HAS\_SIZE[35]	_	
+4-66	815-821	čovjek	_	_	_	HAS\_SIZE[35]	_	
+4-67	822-829	provuče	_	_	_	HAS\_SIZE[35]	_	
+4-68	830-834	kroz	_	_	_	HAS\_SIZE[35]	_	
+4-69	835-840	njega	_	_	_	HAS\_SIZE[35]	_	
+4-70	841-844	ili	_	_	_	_	_	
+4-71	845-847	je	_	_	_	_	_	
+4-72	848-856	dovoljno	_	_	_	HAS\_ATTRIBUTE[36]	_	
+4-73	857-862	velik	_	_	_	HAS\_ATTRIBUTE[36]	_	
+4-74	863-866	ali	_	_	_	HAS\_ATTRIBUTE[36]	_	
+4-75	867-869	je	_	_	_	HAS\_ATTRIBUTE[36]	_	
+4-76	870-880	nedostupan	_	_	_	HAS\_ATTRIBUTE[36]	_	
+4-77	880-881	.	_	_	_	_	_	
+
+#Text=konusni krš: Tip topografije krša, čest u tropskom području. Izraz naglašava brda konusna oblika između zvjezdastih depresija. Prijelazni između kokpit krša i tornjastog krša.
+5-1	883-890	konusni	_	C. Geome[4]	DEFINIENDUM[16]	_	_	
+5-2	891-894	krš	_	C. Geome[4]	DEFINIENDUM[16]	_	_	
+5-3	894-895	:	_	_	_	_	_	
+5-4	896-899	Tip	_	_	GENUS[17]	_	_	
+5-5	900-911	topografije	_	_	GENUS[17]	_	_	
+5-6	912-916	krša	_	C. Geome	GENUS[17]	_	_	
+5-7	916-917	,	_	_	_	_	_	
+5-8	918-922	čest	_	_	_	_	_	
+5-9	923-924	u	_	_	_	HAS\_LOCATION[37]	frame\_LOCATION	
+5-10	925-933	tropskom	_	_	_	HAS\_LOCATION[37]	_	
+5-11	934-942	području	_	_	_	HAS\_LOCATION[37]	_	
+5-12	942-943	.	_	_	_	_	_	
+5-13	944-949	Izraz	_	_	_	_	_	
+5-14	950-959	naglašava	_	_	_	_	_	
+5-15	960-964	brda	_	_	_	HAS\_FORM[38]	_	
+5-16	965-972	konusna	_	_	_	HAS\_FORM[38]	_	
+5-17	973-979	oblika	_	_	_	HAS\_FORM[38]	_	
+5-18	980-986	između	_	_	_	_	_	
+5-19	987-998	zvjezdastih	_	_	_	HAS\_FORM[39]	_	
+5-20	999-1008	depresija	_	_	_	HAS\_FORM[39]	_	
+5-21	1008-1009	.	_	_	_	_	_	
+5-22	1010-1020	Prijelazni	_	_	_	_	_	
+5-23	1021-1027	između	_	_	_	_	_	
+5-24	1028-1034	kokpit	_	C. Geome[5]	_	_	_	
+5-25	1035-1039	krša	_	C. Geome[5]	_	_	_	
+5-26	1040-1041	i	_	_	_	_	_	
+5-27	1042-1052	tornjastog	_	C. Geome[6]	_	_	_	
+5-28	1053-1057	krša	_	C. Geome[6]	_	_	_	
+5-29	1057-1058	.	_	_	_	_	_	
+
+#Text=dodirni krš: Međusobno povezana, zrakom ili vodom ispunjena mreža šupljina otapanja ili hidrološka mreža u okolišu karstificiranih karbonatnih stijena.
+6-1	1060-1067	dodirni	_	C. Geome[7]	DEFINIENDUM[18]	_	_	
+6-2	1068-1071	krš	_	C. Geome[7]	DEFINIENDUM[18]	_	_	
+6-3	1071-1072	:	_	_	_	_	_	
+6-4	1073-1082	Međusobno	_	_	_	HAS\_ATTRIBUTE[40]	_	
+6-5	1083-1091	povezana	_	_	_	HAS\_ATTRIBUTE[40]	_	
+6-6	1091-1092	,	_	_	_	_	_	
+6-7	1093-1099	zrakom	_	_	_	CONTAINS[41]	_	
+6-8	1100-1103	ili	_	_	_	CONTAINS[41]	_	
+6-9	1104-1109	vodom	_	_	_	CONTAINS[41]	_	
+6-10	1110-1119	ispunjena	_	_	_	CONTAINS[41]	frame\_CONTAINS	
+6-11	1120-1125	mreža	_	_	GENUS[19]	_	_	
+6-12	1126-1134	šupljina	_	A.1 Surface landform[8]	GENUS[19]	_	_	
+6-13	1135-1143	otapanja	_	A.1 Surface landform[8]	GENUS[19]	_	_	
+6-14	1144-1147	ili	_	_	_	_	_	
+6-15	1148-1158	hidrološka	_	_	GENUS[20]	_	_	
+6-16	1159-1164	mreža	_	_	GENUS[20]	_	_	
+6-17	1165-1166	u	_	_	_	HAS\_LOCATION[42]	frame\_LOCATION	
+6-18	1167-1174	okolišu	_	_	_	HAS\_LOCATION[42]	_	
+6-19	1175-1190	karstificiranih	_	_	_	HAS\_LOCATION[42]	_	
+6-20	1191-1202	karbonatnih	_	_	_	HAS\_LOCATION[42]	_	
+6-21	1203-1210	stijena	_	_	_	HAS\_LOCATION[42]	_	
+6-22	1210-1211	.	_	_	_	HAS\_LOCATION[42]	_	
+
+#Text=konulit: Šuplja i konična siga s vrhom usmjerenim na dolje. Formirana je u siltu ili nekom drugom mekanom materijalu, npr. u rupi u koju kaplje voda sa svoda. Kapanjem se oslobađa ugljièčni dioksid, taloži se kalcijev karbonat koji služi kao ljepilo za razmaknuta mineralna zrna. S vremenom se može formirati kalcificirani udarni krater, ili konulit, sa svojim vlastitim izbačenim kalcificiranim pokrovom. Središnja udarna rupa će se cementirati s kalcijevim karbonatom, a kasnija erozija može učiniti da mineralna obloga ostaje slobodno stajati.
+7-1	1213-1220	konulit	_	A.2 Underground landform	DEFINIENDUM	_	_	
+7-2	1220-1221	:	_	_	_	_	_	
+7-3	1222-1228	Šuplja	_	_	_	HAS\_FORM[43]	_	
+7-4	1229-1230	i	_	_	_	HAS\_FORM[43]	_	
+7-5	1231-1238	konična	_	_	_	HAS\_FORM[43]	_	
+7-6	1239-1243	siga	_	A.2 Underground landform	GENUS	_	_	
+7-7	1244-1245	s	_	_	_	_	_	
+7-8	1246-1251	vrhom	_	_	_	HAS\_ATTRIBUTE[44]	_	
+7-9	1252-1262	usmjerenim	_	_	_	HAS\_ATTRIBUTE[44]	_	
+7-10	1263-1265	na	_	_	_	HAS\_ATTRIBUTE[44]	_	
+7-11	1266-1271	dolje	_	_	_	HAS\_ATTRIBUTE[44]	_	
+7-12	1271-1272	.	_	_	_	_	_	
+7-13	1273-1282	Formirana	_	_	_	_	_	
+7-14	1283-1285	je	_	_	_	_	_	
+7-15	1286-1287	u	_	_	_	HAS\_LOCATION[45]	frame\_LOCATION	
+7-16	1288-1293	siltu	_	D.1 Abiotic	_	HAS\_LOCATION[45]	_	
+7-17	1294-1297	ili	_	_	_	HAS\_LOCATION[45]	_	
+7-18	1298-1303	nekom	_	_	_	HAS\_LOCATION[45]	_	
+7-19	1304-1310	drugom	_	_	_	HAS\_LOCATION[45]	_	
+7-20	1311-1318	mekanom	_	_	_	HAS\_LOCATION[45]	_	
+7-21	1319-1329	materijalu	_	_	_	HAS\_LOCATION[45]	_	
+7-22	1329-1330	,	_	_	_	_	_	
+7-23	1331-1334	npr	_	_	_	_	_	
+7-24	1334-1335	.	_	_	_	_	_	
+7-25	1336-1337	u	_	_	_	HAS\_LOCATION[46]	_	
+7-26	1338-1342	rupi	_	D.1 Abiotic	_	HAS\_LOCATION[46]	_	
+7-27	1343-1344	u	_	_	_	HAS\_LOCATION[46]	_	
+7-28	1345-1349	koju	_	_	_	HAS\_LOCATION[46]	_	
+7-29	1350-1356	kaplje	_	_	_	HAS\_LOCATION[46]	_	
+7-30	1357-1361	voda	_	_	_	HAS\_LOCATION[46]	_	
+7-31	1362-1364	sa	_	_	_	HAS\_LOCATION[46]	_	
+7-32	1365-1370	svoda	_	_	_	HAS\_LOCATION[46]	_	
+7-33	1370-1371	.	_	_	_	_	_	
+7-34	1372-1380	Kapanjem	_	_	_	_	_	
+7-35	1381-1383	se	_	_	_	_	_	
+7-36	1384-1392	oslobađa	_	_	_	_	_	
+7-37	1393-1402	ugljièčni	_	_	_	_	_	
+7-38	1403-1410	dioksid	_	_	_	_	_	
+7-39	1410-1411	,	_	_	_	_	_	
+7-40	1412-1418	taloži	_	_	_	_	_	
+7-41	1419-1421	se	_	_	_	_	_	
+7-42	1422-1430	kalcijev	_	_	_	_	_	
+7-43	1431-1439	karbonat	_	_	_	_	_	
+7-44	1440-1444	koji	_	_	_	_	_	
+7-45	1445-1450	služi	_	_	_	_	_	
+7-46	1451-1454	kao	_	_	_	_	_	
+7-47	1455-1462	ljepilo	_	_	_	_	_	
+7-48	1463-1465	za	_	_	_	_	_	
+7-49	1466-1476	razmaknuta	_	_	_	_	_	
+7-50	1477-1486	mineralna	_	_	_	_	_	
+7-51	1487-1491	zrna	_	_	_	_	_	
+7-52	1491-1492	.	_	_	_	_	_	
+7-53	1493-1494	S	_	_	_	_	_	
+7-54	1495-1503	vremenom	_	_	_	_	_	
+7-55	1504-1506	se	_	_	_	_	_	
+7-56	1507-1511	može	_	_	_	_	_	
+7-57	1512-1521	formirati	_	_	_	_	_	
+7-58	1522-1535	kalcificirani	_	_	_	_	_	
+7-59	1536-1542	udarni	_	_	_	_	_	
+7-60	1543-1549	krater	_	_	_	_	_	
+7-61	1549-1550	,	_	_	_	_	_	
+7-62	1551-1554	ili	_	_	_	_	_	
+7-63	1555-1562	konulit	_	_	_	_	_	
+7-64	1562-1563	,	_	_	_	_	_	
+7-65	1564-1566	sa	_	_	_	_	_	
+7-66	1567-1573	svojim	_	_	_	_	_	
+7-67	1574-1583	vlastitim	_	_	_	_	_	
+7-68	1584-1593	izbačenim	_	_	_	_	_	
+7-69	1594-1608	kalcificiranim	_	_	_	_	_	
+7-70	1609-1617	pokrovom	_	_	_	_	_	
+7-71	1617-1618	.	_	_	_	_	_	
+7-72	1619-1628	Središnja	_	_	_	_	_	
+7-73	1629-1635	udarna	_	_	_	_	_	
+7-74	1636-1640	rupa	_	_	_	_	_	
+7-75	1641-1643	će	_	_	_	_	_	
+7-76	1644-1646	se	_	_	_	_	_	
+7-77	1647-1658	cementirati	_	_	_	_	_	
+7-78	1659-1660	s	_	_	_	_	_	
+7-79	1661-1671	kalcijevim	_	_	_	_	_	
+7-80	1672-1682	karbonatom	_	_	_	_	_	
+7-81	1682-1683	,	_	_	_	_	_	
+7-82	1684-1685	a	_	_	_	_	_	
+7-83	1686-1693	kasnija	_	_	_	_	_	
+7-84	1694-1701	erozija	_	_	_	_	_	
+7-85	1702-1706	može	_	_	_	_	_	
+7-86	1707-1714	učiniti	_	_	_	_	_	
+7-87	1715-1717	da	_	_	_	_	_	
+7-88	1718-1727	mineralna	_	_	_	_	_	
+7-89	1728-1734	obloga	_	_	_	_	_	
+7-90	1735-1741	ostaje	_	_	_	_	_	
+7-91	1742-1750	slobodno	_	_	_	_	_	
+7-92	1751-1758	stajati	_	_	_	_	_	
+7-93	1758-1759	.	_	_	_	_	_	
+
+#Text=padinska špilja: Engleski izraz za šupljinu na padini brda ili planine; špilja.
+8-1	1761-1769	padinska	_	A.2 Underground landform[9]	DEFINIENDUM[21]	_	_	
+8-2	1770-1776	špilja	_	A.2 Underground landform[9]	DEFINIENDUM[21]	_	_	
+8-3	1776-1777	:	_	_	_	_	_	
+8-4	1778-1786	Engleski	_	_	_	_	_	
+8-5	1787-1792	izraz	_	_	_	_	_	
+8-6	1793-1795	za	_	_	_	_	_	
+8-7	1796-1804	šupljinu	_	_	GENUS	_	_	
+8-8	1805-1807	na	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION	
+8-9	1808-1814	padini	_	_	_	HAS\_LOCATION[47]	_	
+8-10	1815-1819	brda	_	_	_	HAS\_LOCATION[47]	_	
+8-11	1820-1823	ili	_	_	_	HAS\_LOCATION[47]	_	
+8-12	1824-1831	planine	_	_	_	HAS\_LOCATION[47]	_	
+8-13	1831-1832	;	_	_	_	_	_	
+8-14	1833-1839	špilja	_	_	_	_	_	
+8-15	1839-1840	.	_	_	_	_	_	
+
+#Text=koridor: Poprečni kanal u špilji, općenito prostran, dug, nalik na tunel, uzak i ravan.
+9-1	1842-1849	koridor	_	A.2 Underground landform	DEFINIENDUM	_	_	
+9-2	1849-1850	:	_	_	_	_	_	
+9-3	1851-1859	Poprečni	_	_	_	_	_	
+9-4	1860-1865	kanal	_	_	_	_	_	
+9-5	1866-1867	u	_	_	_	HAS\_LOCATION[48]	_	
+9-6	1868-1874	špilji	_	_	_	HAS\_LOCATION[48]	_	
+9-7	1874-1875	,	_	_	_	_	_	
+9-8	1876-1884	općenito	_	_	_	_	_	
+9-9	1885-1893	prostran	_	_	_	_	_	
+9-10	1893-1894	,	_	_	_	_	_	
+9-11	1895-1898	dug	_	_	_	_	_	
+9-12	1898-1899	,	_	_	_	_	_	
+9-13	1900-1905	nalik	_	_	_	_	_	
+9-14	1906-1908	na	_	_	_	_	_	
+9-15	1909-1914	tunel	_	_	_	_	_	
+9-16	1914-1915	,	_	_	_	_	_	
+9-17	1916-1920	uzak	_	_	_	_	_	
+9-18	1921-1922	i	_	_	_	_	_	
+9-19	1923-1928	ravan	_	_	_	_	_	
+9-20	1928-1929	.	_	_	_	_	_	
+
+#Text=kuloar: Francuski izraz za kanal u špilji ili vertikalnu pukotinu u litici.
+10-1	1931-1937	kuloar	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	1937-1938	:	_	_	_	_	_	
+10-3	1939-1948	Francuski	_	_	_	_	_	
+10-4	1949-1954	izraz	_	_	_	_	_	
+10-5	1955-1957	za	_	_	_	_	_	
+10-6	1958-1963	kanal	_	_	_	_	_	
+10-7	1964-1965	u	_	_	_	HAS\_LOCATION[49]	_	
+10-8	1966-1972	špilji	_	_	_	HAS\_LOCATION[49]	_	
+10-9	1973-1976	ili	_	_	_	_	_	
+10-10	1977-1987	vertikalnu	_	_	_	_	_	
+10-11	1988-1996	pukotinu	_	_	_	_	_	
+10-12	1997-1998	u	_	_	_	HAS\_LOCATION[50]	_	
+10-13	1999-2005	litici	_	_	_	HAS\_LOCATION[50]	_	
+10-14	2005-2006	.	_	_	_	_	_	
+
+#Text=pokriveni krš: Krš formiran ispod zemljanog pokrova koji ublažava njegove topografske oblike.
+11-1	2008-2017	pokriveni	_	C. Geome[10]	DEFINIENDUM[22]	_	_	
+11-2	2018-2021	krš	_	C. Geome[10]	DEFINIENDUM[22]	_	_	
+11-3	2021-2022	:	_	_	_	_	_	
+11-4	2023-2026	Krš	_	_	GENUS	_	_	
+11-5	2027-2035	formiran	_	_	_	HAS\_LOCATION[51]	_	
+11-6	2036-2041	ispod	_	_	_	HAS\_LOCATION[51]	_	
+11-7	2042-2051	zemljanog	_	_	_	HAS\_LOCATION[51]	_	
+11-8	2052-2059	pokrova	_	_	_	HAS\_LOCATION[51]	_	
+11-9	2060-2064	koji	_	_	_	_	_	
+11-10	2065-2073	ublažava	_	_	_	_	_	
+11-11	2074-2081	njegove	_	_	_	_	_	
+11-12	2082-2093	topografske	_	_	_	_	_	
+11-13	2094-2100	oblike	_	_	_	_	_	
+11-14	2100-2101	.	_	_	_	_	_	
+
+#Text=puzaona: Kanal u špilji koji je tako nizak da se njime može proći samo klečeći.
+12-1	2104-2111	puzaona	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	2111-2112	:	_	_	_	_	_	
+12-3	2113-2118	Kanal	_	_	GENUS	_	_	
+12-4	2119-2120	u	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION	
+12-5	2121-2127	špilji	_	A.2 Underground landform	_	HAS\_LOCATION[52]	_	
+12-6	2128-2132	koji	_	_	_	HAS\_SIZE[53]	_	
+12-7	2133-2135	je	_	_	_	HAS\_SIZE[53]	_	
+12-8	2136-2140	tako	_	_	_	HAS\_SIZE[53]	_	
+12-9	2141-2146	nizak	_	_	_	HAS\_SIZE[53]	_	
+12-10	2147-2149	da	_	_	_	HAS\_SIZE[53]	_	
+12-11	2150-2152	se	_	_	_	HAS\_SIZE[53]	_	
+12-12	2153-2158	njime	_	_	_	HAS\_SIZE[53]	_	
+12-13	2159-2163	može	_	_	_	HAS\_SIZE[53]	_	
+12-14	2164-2169	proći	_	_	_	HAS\_SIZE[53]	_	
+12-15	2170-2174	samo	_	_	_	HAS\_SIZE[53]	_	
+12-16	2175-2182	klečeći	_	_	_	HAS\_SIZE[53]	_	
+12-17	2182-2183	.	_	_	_	_	_	
+
+#Text=pukotinski krš: Zamršeni nepravilni sustav pukotina formiran otapanjem i proširenjem tijesno smještenih pukotina.
+13-1	2185-2195	pukotinski	_	C. Geome[11]	DEFINIENDUM[23]	_	_	
+13-2	2196-2199	krš	_	C. Geome[11]	DEFINIENDUM[23]	_	_	
+13-3	2199-2200	:	_	_	_	_	_	
+13-4	2201-2209	Zamršeni	_	_	_	HAS\_ATTRIBUTE[54]	_	
+13-5	2210-2220	nepravilni	_	_	_	HAS\_ATTRIBUTE[54]	_	
+13-6	2221-2227	sustav	_	_	GENUS[24]	_	_	
+13-7	2228-2236	pukotina	_	_	GENUS[24]	_	_	
+13-8	2237-2245	formiran	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE	
+13-9	2246-2255	otapanjem	_	B.2 Loss	_	HAS\_CAUSE[55]	_	
+13-10	2256-2257	i	_	_	_	HAS\_CAUSE[55]	_	
+13-11	2258-2269	proširenjem	_	B.1 Movement	_	HAS\_CAUSE[55]	_	
+13-12	2270-2277	tijesno	_	_	_	HAS\_CAUSE[55]	_	
+13-13	2278-2288	smještenih	_	_	_	HAS\_CAUSE[55]	_	
+13-14	2289-2297	pukotina	_	_	_	HAS\_CAUSE[55]	_	
+13-15	2297-2298	.	_	_	_	HAS\_CAUSE[55]	_	
+
+#Text=kora: Siga koja je izgrađena od tankih mineralnih slojeva na temeljnoj stijeni ili površini tla u špilji.
+14-1	2301-2305	kora	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	2305-2306	:	_	_	_	_	_	
+14-3	2307-2311	Siga	_	A.2 Underground landform	GENUS	_	_	
+14-4	2312-2316	koja	_	_	_	_	_	
+14-5	2317-2319	je	_	_	_	_	_	
+14-6	2320-2329	izgrađena	_	_	_	COMPOSITION\_MEDIUM[56]	frame\_COMPOSITION[61]	
+14-7	2330-2332	od	_	_	_	COMPOSITION\_MEDIUM[56]	frame\_COMPOSITION[61]	
+14-8	2333-2339	tankih	_	_	_	COMPOSITION\_MEDIUM[56]	_	
+14-9	2340-2350	mineralnih	_	D.1 Abiotic[12]	_	COMPOSITION\_MEDIUM[56]	_	
+14-10	2351-2358	slojeva	_	D.1 Abiotic[12]	_	COMPOSITION\_MEDIUM[56]	_	
+14-11	2359-2361	na	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION	
+14-12	2362-2371	temeljnoj	_	_	_	HAS\_LOCATION[57]	_	
+14-13	2372-2379	stijeni	_	_	_	HAS\_LOCATION[57]	_	
+14-14	2380-2383	ili	_	_	_	_	_	
+14-15	2384-2392	površini	_	_	_	HAS\_LOCATION[58]	_	
+14-16	2393-2396	tla	_	_	_	HAS\_LOCATION[58]	_	
+14-17	2397-2398	u	_	_	_	HAS\_LOCATION[58]	_	
+14-18	2399-2405	špilji	_	A.2 Underground landform	_	HAS\_LOCATION[58]	_	
+14-19	2405-2406	.	_	_	_	_	_	
+
+#Text=kriokrš: Europski ekvivalent termokrša
+15-1	2408-2415	kriokrš	_	C. Geome	DEFINIENDUM	_	_	
+15-2	2415-2416	:	_	_	_	_	_	
+15-3	2417-2425	Europski	_	_	_	DEFINED\_AS[59]	_	
+15-4	2426-2436	ekvivalent	_	_	_	DEFINED\_AS[59]	_	
+15-5	2437-2446	termokrša	_	C. Geome	_	DEFINED\_AS[59]	_	

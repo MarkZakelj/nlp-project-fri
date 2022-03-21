@@ -1,0 +1,550 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=The exokarstic  storey represents  the upper part of the karstosphere between the topographic surface and a depth of 0.5 to 7.0 km.
+1-1	0-3	The	_	C. Geome[1]	_	_	_	
+1-2	4-14	exokarstic	_	C. Geome[1]	DEFINIENDUM[39]	_	_	
+1-3	16-22	storey	_	C. Geome[1]	DEFINIENDUM[39]	_	_	
+1-4	23-33	represents	_	_	DEFINITOR	_	_	
+1-5	35-38	the	_	_	_	_	_	
+1-6	39-44	upper	_	_	GENUS[40]	HAS\_LOCATION[67]	frame\_LOCATION[95]	
+1-7	45-49	part	_	_	GENUS[40]	HAS\_LOCATION[67]	frame\_LOCATION[95]	
+1-8	50-52	of	_	_	GENUS[40]	HAS\_LOCATION[67]	frame\_LOCATION[95]	
+1-9	53-56	the	_	_	GENUS[40]	HAS\_LOCATION[67]	frame\_LOCATION[95]	
+1-10	57-69	karstosphere	_	C. Geome	GENUS[40]	HAS\_LOCATION[67]	_	
+1-11	70-77	between	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[96]	
+1-12	78-81	the	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[96]	
+1-13	82-93	topographic	_	_	_	HAS\_LOCATION[68]	_	
+1-14	94-101	surface	_	_	_	HAS\_LOCATION[68]	_	
+1-15	102-105	and	_	_	_	HAS\_LOCATION[68]	_	
+1-16	106-107	a	_	_	_	HAS\_LOCATION[68]	_	
+1-17	108-113	depth	_	_	_	HAS\_LOCATION[68]	_	
+1-18	114-116	of	_	_	_	HAS\_LOCATION[68]	_	
+1-19	117-120	0.5	_	_	_	HAS\_LOCATION[68]	_	
+1-20	121-123	to	_	_	_	HAS\_LOCATION[68]	_	
+1-21	124-127	7.0	_	_	_	HAS\_LOCATION[68]	_	
+1-22	128-130	km	_	_	_	HAS\_LOCATION[68]	_	
+1-23	130-131	.	_	_	_	_	_	
+
+#Text=In structural geology, faults  are defined as  fractures in the rocks of the earth's crust along which movement has occurred or still occurs (Davis & Reynolds 1996).
+2-1	134-136	In	_	_	_	_	_	
+2-2	137-147	structural	_	_	_	_	_	
+2-3	148-155	geology	_	_	_	_	_	
+2-4	155-156	,	_	_	_	_	_	
+2-5	157-163	faults	_	D.1 Abiotic	DEFINIENDUM	_	_	
+2-6	165-168	are	_	_	DEFINITOR[41]	_	_	
+2-7	169-176	defined	_	_	DEFINITOR[41]	_	_	
+2-8	177-179	as	_	_	DEFINITOR[41]	_	_	
+2-9	181-190	fractures	_	D.1 Abiotic	GENUS	_	_	
+2-10	191-193	in	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[97]	
+2-11	194-197	the	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[97]	
+2-12	198-203	rocks	_	D.1 Abiotic	_	HAS\_LOCATION[69]	_	
+2-13	204-206	of	_	_	_	HAS\_LOCATION[69]	_	
+2-14	207-210	the	_	_	_	HAS\_LOCATION[69]	_	
+2-15	211-218	earth's	_	C. Geome[2]	_	HAS\_LOCATION[69]	_	
+2-16	219-224	crust	_	C. Geome[2]	_	HAS\_LOCATION[69]	_	
+2-17	225-230	along	_	_	_	HAS\_LOCATION[70]	frame\_LOCATION[98]	
+2-18	231-236	which	_	_	_	HAS\_LOCATION[70]	frame\_LOCATION[98]	
+2-19	237-245	movement	_	B.1 Movement	_	HAS\_LOCATION[70]	_	
+2-20	246-249	has	_	_	_	HAS\_LOCATION[70]	_	
+2-21	250-258	occurred	_	_	_	HAS\_LOCATION[70]	_	
+2-22	259-261	or	_	_	_	HAS\_LOCATION[70]	_	
+2-23	262-267	still	_	_	_	HAS\_LOCATION[70]	_	
+2-24	268-274	occurs	_	_	_	HAS\_LOCATION[70]	_	
+2-25	275-276	(	_	_	_	_	_	
+2-26	276-281	Davis	_	_	_	_	_	
+2-27	282-283	&	_	_	_	_	_	
+2-28	284-292	Reynolds	_	_	_	_	_	
+2-29	293-297	1996	_	_	_	_	_	
+2-30	297-298	)	_	_	_	_	_	
+2-31	298-299	.	_	_	_	_	_	
+
+#Text=Fission-track  method is a radiogenic method  of age estimation based on accumulation of damage trails left by nuclei that are expelled during fission decays of 238U.
+3-1	302-315	Fission-track	_	E.2 Method[3]	DEFINIENDUM[42]	_	_	
+3-2	317-323	method	_	E.2 Method[3]	DEFINIENDUM[42]	_	_	
+3-3	324-326	is	_	_	DEFINITOR[43]	_	_	
+3-4	327-328	a	_	_	DEFINITOR[43]	_	_	
+3-5	329-339	radiogenic	_	E.2 Method[4]	GENUS[44]	_	_	
+3-6	340-346	method	_	E.2 Method[4]	GENUS[44]	_	_	
+3-7	348-350	of	_	E.2 Method[4]	_	_	_	
+3-8	351-354	age	_	E.2 Method[4]	_	_	_	
+3-9	355-365	estimation	_	E.2 Method[4]	_	_	_	
+3-10	366-371	based	_	_	_	MEASURES[71]	frame\_MEASURES[99]	
+3-11	372-374	on	_	_	_	MEASURES[71]	frame\_MEASURES[99]	
+3-12	375-387	accumulation	_	B.3 Addition	_	MEASURES[71]	_	
+3-13	388-390	of	_	_	_	MEASURES[71]	_	
+3-14	391-397	damage	_	_	_	MEASURES[71]	_	
+3-15	398-404	trails	_	_	_	MEASURES[71]	_	
+3-16	405-409	left	_	_	_	MEASURES[71]	_	
+3-17	410-412	by	_	_	_	MEASURES[71]	_	
+3-18	413-419	nuclei	_	_	_	MEASURES[71]	_	
+3-19	420-424	that	_	_	_	MEASURES[71]	_	
+3-20	425-428	are	_	_	_	MEASURES[71]	_	
+3-21	429-437	expelled	_	_	_	MEASURES[71]	_	
+3-22	438-444	during	_	_	_	MEASURES[71]	_	
+3-23	445-452	fission	_	_	_	MEASURES[71]	_	
+3-24	453-459	decays	_	_	_	MEASURES[71]	_	
+3-25	460-462	of	_	_	_	MEASURES[71]	_	
+3-26	463-467	238U	_	_	_	MEASURES[71]	_	
+3-27	467-468	.	_	_	_	_	_	
+
+#Text=Flowstone is a general  term  referring to a deposit formed from thin films or trickles of water, the minerals are usually calcium carbonate and encrust floors or walls.
+4-1	471-480	Flowstone	_	D.1 Abiotic	DEFINIENDUM	_	_	
+4-2	481-483	is	_	_	DEFINITOR[45]	_	_	
+4-3	484-485	a	_	_	DEFINITOR[45]	_	_	
+4-4	486-493	general	_	_	DEFINITOR[45]	_	_	
+4-5	495-499	term	_	_	DEFINITOR[45]	_	_	
+4-6	501-510	referring	_	_	DEFINITOR[45]	_	_	
+4-7	511-513	to	_	_	DEFINITOR[45]	_	_	
+4-8	514-515	a	_	_	_	_	_	
+4-9	516-523	deposit	_	_	GENUS	_	_	
+4-10	524-530	formed	_	_	_	HAS\_CAUSE[72]	frame\_CAUSE[100]	
+4-11	531-535	from	_	_	_	HAS\_CAUSE[72]	frame\_CAUSE[100]	
+4-12	536-540	thin	_	_	_	HAS\_CAUSE[72]	_	
+4-13	541-546	films	_	_	_	HAS\_CAUSE[72]	_	
+4-14	547-549	or	_	_	_	HAS\_CAUSE[72]	_	
+4-15	550-558	trickles	_	_	_	HAS\_CAUSE[72]	_	
+4-16	559-561	of	_	_	_	HAS\_CAUSE[72]	_	
+4-17	562-567	water	_	_	_	HAS\_CAUSE[72]	_	
+4-18	567-568	,	_	_	_	_	_	
+4-19	569-572	the	_	_	_	_	_	
+4-20	573-581	minerals	mineral	D.1 Abiotic	_	COMPOSITION\_MEDIUM[73]	_	
+4-21	582-585	are	_	_	_	COMPOSITION\_MEDIUM[73]	frame\_COMPOSITION[101]	
+4-22	586-593	usually	_	_	_	COMPOSITION\_MEDIUM[73]	frame\_COMPOSITION[101]	
+4-23	594-601	calcium	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[73]	_	
+4-24	602-611	carbonate	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[73]	_	
+4-25	612-615	and	_	_	_	_	_	
+4-26	616-623	encrust	_	_	_	HAS\_LOCATION[74]	frame\_LOCATION	
+4-27	624-630	floors	_	_	_	HAS\_LOCATION[74]	_	
+4-28	631-633	or	_	_	_	HAS\_LOCATION[74]	_	
+4-29	634-639	walls	_	_	_	HAS\_LOCATION[74]	_	
+4-30	639-640	.	_	_	_	_	_	
+
+#Text=The  term  fluviokarst is used to describe a karst landscape in which the dominant physical landforms are valleys initially cut by surface streams that have been partly or completely diverted underground by subsurface conduit piracy (Field, 2002a).
+5-1	643-646	The	_	_	_	_	_	
+5-2	648-652	term	_	_	_	_	_	
+5-3	654-665	fluviokarst	_	C. Geome	DEFINIENDUM	_	_	
+5-4	666-668	is	_	_	DEFINITOR[46]	_	_	
+5-5	669-673	used	_	_	DEFINITOR[46]	_	_	
+5-6	674-676	to	_	_	DEFINITOR[46]	_	_	
+5-7	677-685	describe	_	_	DEFINITOR[46]	_	_	
+5-8	686-687	a	_	_	_	_	_	
+5-9	688-693	karst	_	C. Geome[6]	GENUS[47]	_	_	
+5-10	694-703	landscape	_	C. Geome[6]	GENUS[47]	_	_	
+5-11	704-706	in	_	_	_	_	_	
+5-12	707-712	which	_	_	_	_	_	
+5-13	713-716	the	_	_	_	CONTAINS[75]	_	
+5-14	717-725	dominant	_	_	_	CONTAINS[75]	_	
+5-15	726-734	physical	_	_	_	CONTAINS[75]	_	
+5-16	735-744	landforms	_	_	_	CONTAINS[75]	_	
+5-17	745-748	are	_	_	_	CONTAINS[75]	_	
+5-18	749-756	valleys	_	A.1 Surface landform	_	CONTAINS[75]	_	
+5-19	757-766	initially	_	_	_	_	_	
+5-20	767-770	cut	_	_	_	_	_	
+5-21	771-773	by	_	_	_	_	_	
+5-22	774-781	surface	_	D.1 Abiotic[7]	_	_	_	
+5-23	782-789	streams	_	D.1 Abiotic[7]	_	_	_	
+5-24	790-794	that	_	_	_	_	_	
+5-25	795-799	have	_	_	_	_	_	
+5-26	800-804	been	_	_	_	_	_	
+5-27	805-811	partly	_	_	_	_	_	
+5-28	812-814	or	_	_	_	_	_	
+5-29	815-825	completely	_	_	_	_	_	
+5-30	826-834	diverted	_	_	_	_	_	
+5-31	835-846	underground	_	_	_	_	_	
+5-32	847-849	by	_	_	_	_	_	
+5-33	850-860	subsurface	_	B. Process[8]	_	_	_	
+5-34	861-868	conduit	_	B. Process[8]	_	_	_	
+5-35	869-875	piracy	_	B. Process[8]	_	_	_	
+5-36	876-877	(	_	_	_	_	_	
+5-37	877-882	Field	_	_	_	_	_	
+5-38	882-883	,	_	_	_	_	_	
+5-39	884-889	2002a	_	_	_	_	_	
+5-40	889-890	)	_	_	_	_	_	
+5-41	890-891	.	_	_	_	_	_	
+
+#Text=Kluftkarren or grikes are merely the visible surface expression of the fissures of a karstifiable rock; as such, they are a significant component of the epikarst, or the outer skin of the whole karst system.
+6-1	894-905	Kluftkarren	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-2	906-908	or	_	_	_	_	_	
+6-3	908-909	 	_	_	_	_	_	
+6-4	909-915	grikes	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-5	916-919	are	_	_	DEFINITOR[48]	_	_	
+6-6	919-920	 	_	_	DEFINITOR[48]	_	_	
+6-7	920-926	merely	_	_	_	_	_	
+6-8	927-930	the	_	_	_	_	_	
+6-9	931-938	visible	_	_	_	HAS\_FORM[76]	frame\_FORM[102]	
+6-10	939-946	surface	_	_	_	HAS\_FORM[76]	frame\_FORM[102]	
+6-11	947-957	expression	_	_	_	HAS\_FORM[76]	frame\_FORM[102]	
+6-12	958-960	of	_	_	_	HAS\_FORM[76]	frame\_FORM[102]	
+6-13	961-964	the	_	_	_	HAS\_FORM[76]	_	
+6-14	965-973	fissures	_	D.1 Abiotic	GENUS[49]	HAS\_FORM[76]	_	
+6-15	974-976	of	_	_	GENUS[49]	HAS\_FORM[76]	_	
+6-16	977-978	a	_	_	GENUS[49]	HAS\_FORM[76]	_	
+6-17	979-991	karstifiable	_	D.1 Abiotic[9]	GENUS[49]	HAS\_FORM[76]	_	
+6-18	992-996	rock	_	D.1 Abiotic[9]	GENUS[49]	HAS\_FORM[76]	_	
+6-19	996-997	;	_	_	_	_	_	
+6-20	998-1000	as	_	_	_	_	_	
+6-21	1001-1005	such	_	_	_	_	_	
+6-22	1005-1006	,	_	_	_	_	_	
+6-23	1007-1011	they	_	_	_	_	_	
+6-24	1012-1015	are	_	_	_	HAS\_LOCATION[77]	frame\_LOCATION[103]	
+6-25	1016-1017	a	_	_	_	HAS\_LOCATION[77]	frame\_LOCATION[103]	
+6-26	1018-1029	significant	_	_	_	HAS\_LOCATION[77]	frame\_LOCATION[103]	
+6-27	1030-1039	component	_	_	_	HAS\_LOCATION[77]	frame\_LOCATION[103]	
+6-28	1040-1042	of	_	_	_	HAS\_LOCATION[77]	frame\_LOCATION[103]	
+6-29	1043-1046	the	_	_	_	HAS\_LOCATION[77]	frame\_LOCATION[103]	
+6-30	1047-1055	epikarst	_	C. Geome[10]	_	HAS\_LOCATION[77]	_	
+6-31	1055-1056	,	_	C. Geome[10]	_	_	_	
+6-32	1057-1059	or	_	_	_	_	_	
+6-33	1060-1063	the	_	_	_	_	_	
+6-34	1064-1069	outer	_	_	_	_	_	
+6-35	1070-1074	skin	_	_	_	_	_	
+6-36	1075-1077	of	_	_	_	_	_	
+6-37	1078-1081	the	_	_	_	_	_	
+6-38	1082-1087	whole	_	_	_	_	_	
+6-39	1088-1093	karst	_	C. Geome[11]	_	_	_	
+6-40	1094-1100	system	_	C. Geome[11]	_	_	_	
+6-41	1100-1101	.	_	_	_	_	_	
+
+#Text=Hypogene karst  is defined as  the formation of caves by water that recharges the soluble formation from below, driven by hydrostatic pressure or other sources of energy, independent of the recharge from the overlying or immediately adjacent surface (Ford, 2000).
+7-1	1103-1111	Hypogene	_	C. Geome[12]	DEFINIENDUM[50]	_	_	
+7-2	1112-1117	karst	_	C. Geome[12]	DEFINIENDUM[50]	_	_	
+7-3	1119-1121	is	_	_	DEFINITOR[51]	_	_	
+7-4	1122-1129	defined	_	_	DEFINITOR[51]	_	_	
+7-5	1130-1132	as	_	_	DEFINITOR[51]	_	_	
+7-6	1134-1137	the	_	_	GENUS[52]	_	_	
+7-7	1138-1147	formation	_	B.4 Transformation[13]	GENUS[52]	HAS\_CAUSE[78]	_	
+7-8	1148-1150	of	_	B.4 Transformation[13]	GENUS[52]	HAS\_CAUSE[78]	_	
+7-9	1151-1156	caves	_	B.4 Transformation[13]|A.2 Underground landform[14]	GENUS[52]	HAS\_CAUSE[78]	_	
+7-10	1157-1159	by	_	_	_	HAS\_CAUSE[78]	frame\_CAUSE	
+7-11	1160-1165	water	_	D.1 Abiotic	_	HAS\_CAUSE[78]	_	
+7-12	1166-1170	that	_	_	_	HAS\_CAUSE[78]	_	
+7-13	1171-1180	recharges	_	_	_	HAS\_CAUSE[78]	_	
+7-14	1181-1184	the	_	_	_	HAS\_CAUSE[78]	_	
+7-15	1185-1192	soluble	_	_	_	HAS\_CAUSE[78]	_	
+7-16	1193-1202	formation	_	_	_	HAS\_CAUSE[78]	_	
+7-17	1203-1207	from	_	_	_	HAS\_CAUSE[78]	_	
+7-18	1208-1213	below	_	_	_	HAS\_CAUSE[78]	_	
+7-19	1213-1214	,	_	_	_	HAS\_CAUSE[78]	_	
+7-20	1215-1221	driven	_	_	_	HAS\_CAUSE[79]	frame\_CAUSE[104]	
+7-21	1222-1224	by	_	_	_	HAS\_CAUSE[79]	frame\_CAUSE[104]	
+7-22	1225-1236	hydrostatic	_	D. Entity/Element/Property[15]	_	HAS\_CAUSE[79]	_	
+7-23	1237-1245	pressure	_	D. Entity/Element/Property[15]	_	HAS\_CAUSE[79]	_	
+7-24	1246-1248	or	_	_	_	HAS\_CAUSE[79]	_	
+7-25	1249-1254	other	_	_	_	HAS\_CAUSE[79]	_	
+7-26	1255-1262	sources	_	_	_	HAS\_CAUSE[79]	_	
+7-27	1263-1265	of	_	_	_	HAS\_CAUSE[79]	_	
+7-28	1266-1272	energy	_	_	_	HAS\_CAUSE[79]	_	
+7-29	1272-1273	,	_	_	_	_	_	
+7-30	1274-1285	independent	_	_	_	HAS\_CAUSE[80]	frame\_CAUSE[105]	
+7-31	1286-1288	of	_	_	_	HAS\_CAUSE[80]	frame\_CAUSE[105]	
+7-32	1289-1292	the	_	_	_	HAS\_CAUSE[80]	_	
+7-33	1293-1301	recharge	_	_	_	HAS\_CAUSE[80]	_	
+7-34	1302-1306	from	_	_	_	HAS\_CAUSE[80]	_	
+7-35	1307-1310	the	_	_	_	HAS\_CAUSE[80]	_	
+7-36	1311-1320	overlying	_	_	_	HAS\_CAUSE[80]	_	
+7-37	1321-1323	or	_	_	_	HAS\_CAUSE[80]	_	
+7-38	1324-1335	immediately	_	_	_	HAS\_CAUSE[80]	_	
+7-39	1336-1344	adjacent	_	_	_	HAS\_CAUSE[80]	_	
+7-40	1345-1352	surface	_	_	_	HAS\_CAUSE[80]	_	
+7-41	1353-1354	(	_	_	_	_	_	
+7-42	1354-1358	Ford	_	_	_	_	_	
+7-43	1358-1359	,	_	_	_	_	_	
+7-44	1360-1364	2000	_	_	_	_	_	
+7-45	1364-1365	)	_	_	_	_	_	
+7-46	1365-1366	.	_	_	_	_	_	
+
+#Text=The inphase component  is defined as  the amplitude of the secondary field at the point where the primary field amplitude peaks.
+8-1	1369-1372	The	_	_	_	_	_	
+8-2	1373-1380	inphase	_	E.2 Method[16]	DEFINIENDUM[53]	_	_	
+8-3	1381-1390	component	_	E.2 Method[16]	DEFINIENDUM[53]	_	_	
+8-4	1392-1394	is	_	_	DEFINITOR[54]	_	_	
+8-5	1395-1402	defined	_	_	DEFINITOR[54]	_	_	
+8-6	1403-1405	as	_	_	DEFINITOR[54]	_	_	
+8-7	1407-1410	the	_	_	_	_	_	
+8-8	1411-1420	amplitude	_	D.3 Property[17]	GENUS[55]	_	_	
+8-9	1421-1423	of	_	D.3 Property[17]	GENUS[55]	_	_	
+8-10	1424-1427	the	_	D.3 Property[17]	GENUS[55]	_	_	
+8-11	1428-1437	secondary	_	D.3 Property[17]	GENUS[55]	_	_	
+8-12	1438-1443	field	_	D.3 Property[17]	GENUS[55]	_	_	
+8-13	1444-1446	at	_	_	_	MEASURES[81]	_	
+8-14	1447-1450	the	_	_	_	MEASURES[81]	_	
+8-15	1451-1456	point	_	_	_	MEASURES[81]	_	
+8-16	1457-1462	where	_	_	_	MEASURES[81]	_	
+8-17	1463-1466	the	_	_	_	MEASURES[81]	_	
+8-18	1467-1474	primary	_	_	_	MEASURES[81]	_	
+8-19	1475-1480	field	_	_	_	MEASURES[81]	_	
+8-20	1481-1490	amplitude	_	_	_	MEASURES[81]	_	
+8-21	1491-1496	peaks	_	_	_	MEASURES[81]	_	
+8-22	1496-1497	.	_	_	_	_	_	
+
+#Text=Karren is a common  term  used for dissolution features on exposed soluble rock surfaces (Gines 2009).
+9-1	1500-1506	Karren	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	1507-1509	is	_	_	DEFINITOR[56]	_	_	
+9-3	1510-1511	a	_	_	DEFINITOR[56]	_	_	
+9-4	1512-1518	common	_	_	DEFINITOR[56]	_	_	
+9-5	1520-1524	term	_	_	DEFINITOR[56]	_	_	
+9-6	1526-1530	used	_	_	DEFINITOR[56]	_	_	
+9-7	1531-1534	for	_	_	DEFINITOR[56]	_	_	
+9-8	1535-1546	dissolution	_	A.1 Surface landform[18]|B.4 Transformation[19]	GENUS[57]	_	_	
+9-9	1547-1555	features	_	A.1 Surface landform[18]	GENUS[57]	_	_	
+9-10	1556-1558	on	_	_	_	HAS\_LOCATION[82]	frame\_LOCATION	
+9-11	1559-1566	exposed	_	_	_	HAS\_LOCATION[82]	_	
+9-12	1567-1574	soluble	_	_	_	HAS\_LOCATION[82]	_	
+9-13	1575-1579	rock	_	D.1 Abiotic	_	HAS\_LOCATION[82]	_	
+9-14	1580-1588	surfaces	_	_	_	HAS\_LOCATION[82]	_	
+9-15	1589-1590	(	_	_	_	_	_	
+9-16	1590-1595	Gines	_	_	_	_	_	
+9-17	1596-1600	2009	_	_	_	_	_	
+9-18	1600-1601	)	_	_	_	_	_	
+9-19	1601-1602	.	_	_	_	_	_	
+
+#Text=Karren range from 1 cm to 10 m in greatest dimension in most instances, although kluftkarren and some solution channels can be longer.
+10-1	1603-1609	Karren	_	A.1 Surface landform	DEFINIENDUM	_	_	
+10-2	1610-1615	range	_	_	_	HAS\_SIZE[83]	frame\_SIZE[106]	
+10-3	1616-1620	from	_	_	_	HAS\_SIZE[83]	frame\_SIZE[106]	
+10-4	1621-1622	1	_	_	_	HAS\_SIZE[83]	_	
+10-5	1623-1625	cm	_	_	_	HAS\_SIZE[83]	_	
+10-6	1626-1628	to	_	_	_	HAS\_SIZE[83]	_	
+10-7	1629-1631	10	_	_	_	HAS\_SIZE[83]	_	
+10-8	1632-1633	m	_	_	_	HAS\_SIZE[83]	_	
+10-9	1634-1636	in	_	_	_	HAS\_SIZE[83]	_	
+10-10	1637-1645	greatest	_	_	_	HAS\_SIZE[83]	_	
+10-11	1646-1655	dimension	_	_	_	HAS\_SIZE[83]	_	
+10-12	1656-1658	in	_	_	_	_	_	
+10-13	1659-1663	most	_	_	_	_	_	
+10-14	1664-1673	instances	_	_	_	_	_	
+10-15	1673-1674	,	_	_	_	_	_	
+10-16	1675-1683	although	_	_	_	_	_	
+10-17	1684-1695	kluftkarren	_	A.1 Surface landform	_	_	_	
+10-18	1696-1699	and	_	_	_	_	_	
+10-19	1700-1704	some	_	_	_	_	_	
+10-20	1705-1713	solution	_	A.1 Surface landform[20]	_	_	_	
+10-21	1714-1722	channels	_	A.1 Surface landform[20]	_	_	_	
+10-22	1723-1726	can	_	_	_	_	_	
+10-23	1727-1729	be	_	_	_	_	_	
+10-24	1730-1736	longer	_	_	_	_	_	
+10-25	1736-1737	.	_	_	_	_	_	
+
+#Text=In the most general  terms , karst may be defined as a process of interaction between soluble rocks and different waters, as a result of which characteristic features develop on the Earth's surface and underground.
+11-1	1739-1741	In	_	_	_	_	_	
+11-2	1742-1745	the	_	_	_	_	_	
+11-3	1746-1750	most	_	_	_	_	_	
+11-4	1751-1758	general	_	_	_	_	_	
+11-5	1760-1765	terms	_	_	_	_	_	
+11-6	1766-1767	,	_	_	_	_	_	
+11-7	1768-1773	karst	_	C. Geome	DEFINIENDUM	_	_	
+11-8	1774-1777	may	_	_	DEFINITOR[58]	_	_	
+11-9	1778-1780	be	_	_	DEFINITOR[58]	_	_	
+11-10	1781-1788	defined	_	_	DEFINITOR[58]	_	_	
+11-11	1789-1791	as	_	_	DEFINITOR[58]	_	_	
+11-12	1792-1793	a	_	_	_	_	_	
+11-13	1794-1801	process	_	B.4 Transformation[21]|B. Process[22]	GENUS	_	_	
+11-14	1802-1804	of	_	B.4 Transformation[21]	_	_	_	
+11-15	1805-1816	interaction	_	B.4 Transformation[21]	_	HAS\_CAUSE[84]	frame\_CAUSE[107]	
+11-16	1817-1824	between	_	_	_	HAS\_CAUSE[84]	frame\_CAUSE[107]	
+11-17	1825-1832	soluble	_	D.1 Abiotic[23]	_	HAS\_CAUSE[84]	_	
+11-18	1833-1838	rocks	_	D.1 Abiotic[23]	_	HAS\_CAUSE[84]	_	
+11-19	1839-1842	and	_	_	_	HAS\_CAUSE[84]	_	
+11-20	1843-1852	different	_	_	_	HAS\_CAUSE[84]	_	
+11-21	1853-1859	waters	_	_	_	HAS\_CAUSE[84]	_	
+11-22	1859-1860	,	_	_	_	_	_	
+11-23	1861-1863	as	_	_	_	HAS\_RESULT[85]	frame\_RESULT[108]	
+11-24	1864-1865	a	_	_	_	HAS\_RESULT[85]	frame\_RESULT[108]	
+11-25	1866-1872	result	_	_	_	HAS\_RESULT[85]	frame\_RESULT[108]	
+11-26	1873-1875	of	_	_	_	HAS\_RESULT[85]	frame\_RESULT[108]	
+11-27	1876-1881	which	_	_	_	HAS\_RESULT[85]	frame\_RESULT[108]	
+11-28	1882-1896	characteristic	_	_	_	HAS\_RESULT[85]	_	
+11-29	1897-1905	features	_	_	_	HAS\_RESULT[85]	_	
+11-30	1906-1913	develop	_	_	_	HAS\_RESULT[85]	_	
+11-31	1914-1916	on	_	_	_	HAS\_RESULT[85]	_	
+11-32	1917-1920	the	_	_	_	HAS\_RESULT[85]	_	
+11-33	1921-1928	Earth's	_	C. Geome[24]	_	HAS\_RESULT[85]	_	
+11-34	1929-1936	surface	_	C. Geome[24]	_	HAS\_RESULT[85]	_	
+11-35	1937-1940	and	_	_	_	HAS\_RESULT[85]	_	
+11-36	1941-1952	underground	_	C. Geome	_	HAS\_RESULT[85]	_	
+11-37	1952-1953	.	_	_	_	_	_	
+
+#Text=Karstification is the geologic process of differential chemical and mechanical erosion by water on soluble bodies of rock, such as limestone, dolomite, gypsum, or salt, at or near the Earth’s surface.
+12-1	1956-1970	Karstification	_	B.4 Transformation	DEFINIENDUM	_	_	
+12-2	1971-1973	is	_	_	DEFINITOR[59]	_	_	
+12-3	1974-1977	the	_	_	DEFINITOR[59]	_	_	
+12-4	1978-1986	geologic	_	B. Process[25]	GENUS[60]	_	_	
+12-5	1987-1994	process	_	B. Process[25]	GENUS[60]	_	_	
+12-6	1995-1997	of	_	_	_	_	_	
+12-7	1998-2010	differential	_	B.2 Loss[26]	_	HAS\_CAUSE[86]	_	
+12-8	2011-2019	chemical	_	B.2 Loss[26]	_	HAS\_CAUSE[86]	_	
+12-9	2020-2023	and	_	B.2 Loss[26]	_	HAS\_CAUSE[86]	_	
+12-10	2024-2034	mechanical	_	B.2 Loss[26]	_	HAS\_CAUSE[86]	_	
+12-11	2035-2042	erosion	_	B.2 Loss[26]	_	HAS\_CAUSE[86]	_	
+12-12	2043-2045	by	_	_	_	HAS\_CAUSE[86]	frame\_CAUSE	
+12-13	2046-2051	water	_	D.1 Abiotic	_	HAS\_CAUSE[86]	_	
+12-14	2052-2054	on	_	_	_	HAS\_CAUSE[86]	_	
+12-15	2055-2062	soluble	_	D.1 Abiotic[27]	_	HAS\_CAUSE[86]	_	
+12-16	2063-2069	bodies	_	D.1 Abiotic[27]	_	HAS\_CAUSE[86]	_	
+12-17	2070-2072	of	_	D.1 Abiotic[27]	_	HAS\_CAUSE[86]	_	
+12-18	2073-2077	rock	_	D.1 Abiotic[27]	_	HAS\_CAUSE[86]	_	
+12-19	2077-2078	,	_	_	_	_	_	
+12-20	2079-2083	such	_	_	_	_	_	
+12-21	2084-2086	as	_	_	_	_	_	
+12-22	2087-2096	limestone	_	D.1 Abiotic	_	_	_	
+12-23	2096-2097	,	_	_	_	_	_	
+12-24	2098-2106	dolomite	_	D.1 Abiotic	_	_	_	
+12-25	2106-2107	,	_	_	_	_	_	
+12-26	2108-2114	gypsum	_	D.1 Abiotic	_	_	_	
+12-27	2114-2115	,	_	_	_	_	_	
+12-28	2116-2118	or	_	_	_	_	_	
+12-29	2119-2123	salt	_	D.1 Abiotic	_	_	_	
+12-30	2123-2124	,	_	_	_	_	_	
+12-31	2125-2127	at	_	_	_	HAS\_LOCATION[87]	frame\_LOCATION[109]	
+12-32	2128-2130	or	_	_	_	HAS\_LOCATION[87]	frame\_LOCATION[109]	
+12-33	2131-2135	near	_	_	_	HAS\_LOCATION[87]	frame\_LOCATION[109]	
+12-34	2136-2139	the	_	_	_	HAS\_LOCATION[87]	_	
+12-35	2140-2145	Earth	_	C. Geome[28]	_	HAS\_LOCATION[87]	_	
+12-36	2145-2146	’	_	C. Geome[28]	_	HAS\_LOCATION[87]	_	
+12-37	2146-2147	s	_	C. Geome[28]	_	HAS\_LOCATION[87]	_	
+12-38	2148-2155	surface	_	C. Geome[28]	_	HAS\_LOCATION[87]	_	
+12-39	2155-2156	.	_	_	_	_	_	
+
+#Text=The  term  karst describes a distinctive topography that indicates dissolution (also called chemical solution) of underlying soluble rocks by surface water or ground water.
+13-1	2159-2162	The	_	_	DEFINITOR[61]	_	_	
+13-2	2164-2168	term	_	_	DEFINITOR[61]	_	_	
+13-3	2170-2175	karst	_	C. Geome	DEFINIENDUM	_	_	
+13-4	2176-2185	describes	_	_	DEFINITOR	_	_	
+13-5	2186-2187	a	_	_	_	_	_	
+13-6	2188-2199	distinctive	_	_	_	_	_	
+13-7	2200-2210	topography	_	_	GENUS	_	_	
+13-8	2211-2215	that	_	_	_	_	_	
+13-9	2216-2225	indicates	_	_	_	HAS\_CAUSE[88]	frame\_CAUSE	
+13-10	2226-2237	dissolution	_	B.4 Transformation	_	HAS\_CAUSE[88]	_	
+13-11	2238-2239	(	_	_	_	HAS\_CAUSE[88]	_	
+13-12	2239-2243	also	_	_	_	HAS\_CAUSE[88]	_	
+13-13	2244-2250	called	_	_	_	HAS\_CAUSE[88]	_	
+13-14	2251-2259	chemical	_	B.4 Transformation[29]	_	HAS\_CAUSE[88]	_	
+13-15	2260-2268	solution	_	B.4 Transformation[29]	_	HAS\_CAUSE[88]	_	
+13-16	2268-2269	)	_	_	_	HAS\_CAUSE[88]	_	
+13-17	2270-2272	of	_	_	_	HAS\_CAUSE[88]	_	
+13-18	2273-2283	underlying	_	_	_	HAS\_CAUSE[88]	_	
+13-19	2284-2291	soluble	_	D.1 Abiotic[30]	_	HAS\_CAUSE[88]	_	
+13-20	2292-2297	rocks	_	D.1 Abiotic[30]	_	HAS\_CAUSE[88]	_	
+13-21	2298-2300	by	_	_	_	HAS\_CAUSE[88]	_	
+13-22	2301-2308	surface	_	D.1 Abiotic[31]	_	HAS\_CAUSE[88]	_	
+13-23	2309-2314	water	_	D.1 Abiotic[31]	_	HAS\_CAUSE[88]	_	
+13-24	2315-2317	or	_	_	_	HAS\_CAUSE[88]	_	
+13-25	2318-2324	ground	_	D.1 Abiotic[32]	_	HAS\_CAUSE[88]	_	
+13-26	2325-2330	water	_	D.1 Abiotic[32]	_	HAS\_CAUSE[88]	_	
+13-27	2330-2331	.	_	_	_	_	_	
+
+#Text=The  term karst applies to a distinctive type of landscape that develops from the dissolving action of water on soluble bedrock, primarily limestone and marble but also dolostone, gypsum and halite.
+14-1	2334-2337	The	_	_	DEFINITOR[62]	_	_	
+14-2	2339-2343	term	_	_	DEFINITOR[62]	_	_	
+14-3	2344-2349	karst	_	C. Geome	DEFINIENDUM	_	_	
+14-4	2350-2357	applies	_	_	DEFINITOR[63]	_	_	
+14-5	2358-2360	to	_	_	DEFINITOR[63]	_	_	
+14-6	2361-2362	a	_	_	_	_	_	
+14-7	2363-2374	distinctive	_	_	_	HAS\_CAUSE[89]	_	
+14-8	2375-2379	type	_	_	GENUS[64]	HAS\_CAUSE[89]	_	
+14-9	2380-2382	of	_	_	GENUS[64]	HAS\_CAUSE[89]	_	
+14-10	2383-2392	landscape	_	_	GENUS[64]	HAS\_CAUSE[89]	_	
+14-11	2393-2397	that	_	_	_	HAS\_CAUSE[89]	_	
+14-12	2398-2406	develops	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[110]	
+14-13	2407-2411	from	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[110]	
+14-14	2412-2415	the	_	_	_	HAS\_CAUSE[89]	_	
+14-15	2416-2426	dissolving	_	B.2 Loss[33]	_	HAS\_CAUSE[89]	_	
+14-16	2427-2433	action	_	B.2 Loss[33]	_	HAS\_CAUSE[89]	_	
+14-17	2434-2436	of	_	_	_	HAS\_CAUSE[89]	_	
+14-18	2437-2442	water	_	D.1 Abiotic	_	HAS\_CAUSE[89]	_	
+14-19	2443-2445	on	_	_	_	HAS\_CAUSE[89]	_	
+14-20	2446-2453	soluble	_	D.1 Abiotic[34]	_	HAS\_CAUSE[89]	_	
+14-21	2454-2461	bedrock	_	D.1 Abiotic[34]	_	HAS\_CAUSE[89]	_	
+14-22	2461-2462	,	_	_	_	HAS\_CAUSE[89]	_	
+14-23	2463-2472	primarily	_	_	_	HAS\_CAUSE[89]	_	
+14-24	2473-2482	limestone	_	D.1 Abiotic	_	HAS\_CAUSE[89]	_	
+14-25	2483-2486	and	_	_	_	HAS\_CAUSE[89]	_	
+14-26	2487-2493	marble	_	D.1 Abiotic	_	HAS\_CAUSE[89]	_	
+14-27	2494-2497	but	_	_	_	HAS\_CAUSE[89]	_	
+14-28	2498-2502	also	_	_	_	HAS\_CAUSE[89]	_	
+14-29	2503-2512	dolostone	_	D.1 Abiotic	_	HAS\_CAUSE[89]	_	
+14-30	2512-2513	,	_	_	_	HAS\_CAUSE[89]	_	
+14-31	2514-2520	gypsum	_	D.1 Abiotic	_	HAS\_CAUSE[89]	_	
+14-32	2521-2524	and	_	_	_	HAS\_CAUSE[89]	_	
+14-33	2525-2531	halite	_	D.1 Abiotic	_	HAS\_CAUSE[89]	_	
+14-34	2531-2532	.	_	_	_	_	_	
+
+#Text=Karst  is defined as a terrain, generally underlain by limestone or dolomite, in which the topography is chiefly formed by the dissolving of rock, and which may be characterised by sinkholes, sinking streams, closed depressions, subterranean drainage and caves (Field 2002).
+15-1	2535-2540	Karst	_	C. Geome	DEFINIENDUM	_	_	
+15-2	2542-2544	is	_	_	DEFINITOR[65]	_	_	
+15-3	2545-2552	defined	_	_	DEFINITOR[65]	_	_	
+15-4	2553-2555	as	_	_	DEFINITOR[65]	_	_	
+15-5	2556-2557	a	_	_	DEFINITOR[65]	_	_	
+15-6	2558-2565	terrain	_	_	GENUS	HAS\_LOCATION[90]	_	
+15-7	2565-2566	,	_	_	_	HAS\_LOCATION[90]	_	
+15-8	2567-2576	generally	_	_	_	HAS\_LOCATION[90]	_	
+15-9	2577-2586	underlain	_	_	_	HAS\_LOCATION[90]|COMPOSITION\_MEDIUM[91]	frame\_LOCATION[111]	
+15-10	2587-2589	by	_	_	_	HAS\_LOCATION[90]|COMPOSITION\_MEDIUM[91]	frame\_LOCATION[111]	
+15-11	2590-2599	limestone	_	D.1 Abiotic	_	HAS\_LOCATION[90]|COMPOSITION\_MEDIUM[91]	_	
+15-12	2600-2602	or	_	_	_	HAS\_LOCATION[90]|COMPOSITION\_MEDIUM[91]	_	
+15-13	2603-2611	dolomite	_	D.1 Abiotic	_	HAS\_LOCATION[90]|COMPOSITION\_MEDIUM[91]	_	
+15-14	2611-2612	,	_	_	_	COMPOSITION\_MEDIUM[91]	_	
+15-15	2613-2615	in	_	_	_	_	_	
+15-16	2616-2621	which	_	_	_	_	_	
+15-17	2622-2625	the	_	_	_	_	_	
+15-18	2626-2636	topography	_	_	_	_	_	
+15-19	2637-2639	is	_	_	_	_	_	
+15-20	2640-2647	chiefly	_	_	_	_	_	
+15-21	2648-2654	formed	_	_	_	HAS\_CAUSE[92]	frame\_CAUSE[112]	
+15-22	2655-2657	by	_	_	_	HAS\_CAUSE[92]	frame\_CAUSE[112]	
+15-23	2658-2661	the	_	_	_	HAS\_CAUSE[92]	_	
+15-24	2662-2672	dissolving	_	B.2 Loss[35]	_	HAS\_CAUSE[92]	_	
+15-25	2673-2675	of	_	B.2 Loss[35]	_	HAS\_CAUSE[92]	_	
+15-26	2676-2680	rock	_	B.2 Loss[35]	_	HAS\_CAUSE[92]	_	
+15-27	2680-2681	,	_	_	_	_	_	
+15-28	2682-2685	and	_	_	_	_	_	
+15-29	2686-2691	which	_	_	_	_	_	
+15-30	2692-2695	may	_	_	_	_	_	
+15-31	2696-2698	be	_	_	_	_	_	
+15-32	2699-2712	characterised	_	_	_	CONTAINS[93]	frame\_CONTAINS[113]	
+15-33	2713-2715	by	_	_	_	CONTAINS[93]	frame\_CONTAINS[113]	
+15-34	2716-2725	sinkholes	_	A.1 Surface landform	_	CONTAINS[93]	_	
+15-35	2725-2726	,	_	_	_	CONTAINS[93]	_	
+15-36	2727-2734	sinking	_	A.3 Hydrological form[36]	_	CONTAINS[93]	_	
+15-37	2735-2742	streams	_	A.3 Hydrological form[36]	_	CONTAINS[93]	_	
+15-38	2742-2743	,	_	_	_	CONTAINS[93]	_	
+15-39	2744-2750	closed	_	A.1 Surface landform[37]	_	CONTAINS[93]	_	
+15-40	2751-2762	depressions	_	A.1 Surface landform[37]	_	CONTAINS[93]	_	
+15-41	2762-2763	,	_	_	_	CONTAINS[93]	_	
+15-42	2764-2776	subterranean	_	_	_	CONTAINS[93]	_	
+15-43	2777-2785	drainage	_	_	_	CONTAINS[93]	_	
+15-44	2786-2789	and	_	_	_	CONTAINS[93]	_	
+15-45	2790-2795	caves	_	A.2 Underground landform	_	CONTAINS[93]	_	
+15-46	2796-2797	(	_	_	_	_	_	
+15-47	2797-2802	Field	_	_	_	_	_	
+15-48	2803-2807	2002	_	_	_	_	_	
+15-49	2807-2808	)	_	_	_	_	_	
+15-50	2808-2809	.	_	_	_	_	_	
+
+#Text=Karst is the  term  applied to terrains underlain by soluble rock: mainly limestone, dolomite and gypsum.
+16-1	2812-2817	Karst	_	C. Geome	DEFINIENDUM	_	_	
+16-2	2818-2820	is	_	_	DEFINITOR[66]	_	_	
+16-3	2821-2824	the	_	_	DEFINITOR[66]	_	_	
+16-4	2826-2830	term	_	_	DEFINITOR[66]	_	_	
+16-5	2832-2839	applied	_	_	DEFINITOR[66]	_	_	
+16-6	2840-2842	to	_	_	DEFINITOR[66]	_	_	
+16-7	2843-2851	terrains	_	_	GENUS	HAS\_LOCATION[94]	_	
+16-8	2852-2861	underlain	_	_	_	HAS\_LOCATION[94]	frame\_LOCATION[114]	
+16-9	2862-2864	by	_	_	_	HAS\_LOCATION[94]	frame\_LOCATION[114]	
+16-10	2865-2872	soluble	_	D.1 Abiotic[38]	_	HAS\_LOCATION[94]	_	
+16-11	2873-2877	rock	_	D.1 Abiotic[38]	_	HAS\_LOCATION[94]	_	
+16-12	2877-2878	:	_	_	_	_	_	
+16-13	2879-2885	mainly	_	_	_	_	_	
+16-14	2886-2895	limestone	_	D.1 Abiotic	_	_	_	
+16-15	2895-2896	,	_	_	_	_	_	
+16-16	2897-2905	dolomite	_	D.1 Abiotic	_	_	_	
+16-17	2906-2909	and	_	_	_	_	_	
+16-18	2910-2916	gypsum	_	D.1 Abiotic	_	_	_	
+16-19	2916-2917	.	_	_	_	_	_	

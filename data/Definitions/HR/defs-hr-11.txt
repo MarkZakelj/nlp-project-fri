@@ -1,0 +1,15 @@
+﻿epifreatik: Zona u sustavu špilja iznad freatske zone u kojoj djeluje morfološki i hidrološki utjecaj obilnih poplava koje sustav ne može odjednom apsorbirati.
+eksfolijacijska špilja: Špilja formirana djelomičnim razaranjem pločaste stijene nastale eksfolijacijom, koja ima ravnu zadnju stijenku s produženom eksfolijacijskom pukotinom u svodu špilje.
+egzokrš: Svi oblici nađeni na površini krškog terena, raspona veličine od sitnih škrapa do prostranih polja. Reljef oblikovan korozijom površinskog dijela karbonatnih stijena. 
+eksurgencija: Izbijanje vodotoka iz špilje, i to vode koja se procijeđivanjem kroz pokrovni vapnenac nakupila u špilji.
+ekshumirani krš: Krški oblici ponovno izložni eroziji odnošenjem pokrovnih slojeva.
+lažno dno: Kod špilja, više ili manje horizontalni sloj od kalcijeva karbonata ili nekog drugog minerala ispod kojeg postoji otvoreni prostor. Ostatak ploče istaložene na sedimentima koji su kasnije erozijom odneseni.
+rasjedna špilja: Špilja formirana duž rasjeda ili rasjedne zone bilo zbog samog kretanja na rasjedu ili olakšanog otapanja duž rasjedne plohe.
+fengkong: Kineski izraz za hrpu krških tornjeva koji se izdižu iz zajedničke baze, a odvojeni su velikim udubljenjim.
+fenglin: Kineski izraz za krški toranj koji se izdiže iznad aluvijalne ravni. 
+ispuna: Dendritični materijal koji djelomično ili u cijelosti ispunjava špilju.
+pukotinska špilja: Uski vertikalni kanal, često ali ne i nužno razvijen duž pukotine. Obično kao posljedica otapanja, katkada zbog naprezanja.
+pukotinski kanal: Visoki, linearni kanal u špilji formiran od jedne ili više pukotina.
+bočno-rubna špilja: Špilja razvijena nekanaliziranim tokom, unutar karbonatnog otoka ili obalne linije, na rubu izlijevanja leće slatke vode (Mylroie, i Carew, 1990). 
+zaležnica: Kanal u špilji, često veće dužine i dovoljne širine ali koji je tako nizak da se njime može kretati samo u ležećem položaju.
+sigovina: Opći izraz za bilo koje naslage kalcijeva karbonata ili drugih minerala istaloženih iz tekuće vode na zidove ili na dno špilje.

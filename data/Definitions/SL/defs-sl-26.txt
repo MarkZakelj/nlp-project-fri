@@ -1,0 +1,14 @@
+poroznost - Delež praznega prostora v določeni prostomini kamnine.  
+porušena cona - Območje tektonsko pretrtih kamnin, največkrat med dvema prelomoma ter na zunanji strani zdrobljene cone. 
+pospešena korozija - Krajevno učinkovitejša korozija, katere učinki se pokažejo kot izrazite površinske ali podzemske reliefue oblike. 
+preboj - Trenutek, ko vzdolž celotne sekvence od ponora do izvira laminarni tok preide v turbulentnega. 
+prebojni čas - Čas med začetjem in prebojem. 
+prevajanje - speleogenetska faza ko je paragenetski prag prekoračen. 
+prežeta cona - Območje speleogenetskega prostora pod gladino podtalnice. Prevaja s soseščine doteklo freatično vodo in zbira krajevne dotoke padavinske vode skozi neprežeto cono. 
+rast - Speleogenetska faza med prebojem in paragenetskim pragom. 
+razpoka - Mehansko nastala ploskev nezveznosti v kamnini, ob kateri je prišlo le do neznatnih premikov. 
+razpoklinska poroznost - Hidrogeološki izraz. Delež praznega prostora v določeni prostomini kamnine, ki ga prispevajo odprte razpoke in lezike. 
+razpoklinska cona - Bolj ali manj gost, do več 10O m širok, usmerjen sistem razpok. Premiki ob razpokah so neznatni ali zelo majhni. 
+rov - Jamski kanal brez izrazitih prepadnih odsekov, prehoden človeku. Izvor ni pomemben. 
+sifon - Kolenasta poglobitev jamskega dna, kjer naj bi na krajšo razdaljo podzemska reka tekla ob pritisnjeni gladini. 
+snovanje - Speleogenetska faza med začetjem in prebojem. V času snovanja je tok skozi kanal laminaren. 

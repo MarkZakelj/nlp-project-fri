@@ -1,0 +1,356 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=fosilna jama: V preteklih geoloških razdobjih nastala jama, ki se, danes ne oblikuje več. Objekt fosilnega krasa (gl. fosilni kras).
+1-1	0-7	fosilna	_	A.2 Underground landform[1]	DEFINIENDUM[22]	_	_	
+1-2	8-12	jama	_	A.2 Underground landform[1]	DEFINIENDUM[22]	_	_	
+1-3	12-13	:	_	_	_	_	_	
+1-4	14-15	V	_	_	_	_	_	
+1-5	16-25	preteklih	_	_	_	HAS\_CAUSE[38]	_	
+1-6	26-35	geoloških	_	_	_	HAS\_CAUSE[38]	_	
+1-7	36-45	razdobjih	_	_	_	HAS\_CAUSE[38]	_	
+1-8	46-53	nastala	_	_	_	HAS\_CAUSE[38]	_	
+1-9	54-58	jama	_	A.2 Underground landform	GENUS	_	_	
+1-10	58-59	,	_	_	_	_	_	
+1-11	60-62	ki	_	_	_	_	_	
+1-12	63-65	se	_	_	_	HAS\_FUNCTION[39]	_	
+1-13	65-66	,	_	_	_	HAS\_FUNCTION[39]	_	
+1-14	67-72	danes	_	_	_	HAS\_FUNCTION[39]	_	
+1-15	73-75	ne	_	_	_	HAS\_FUNCTION[39]	_	
+1-16	76-84	oblikuje	_	_	_	HAS\_FUNCTION[39]	_	
+1-17	85-88	več	_	_	_	HAS\_FUNCTION[39]	_	
+1-18	88-89	.	_	_	_	_	_	
+1-19	90-96	Objekt	_	_	_	_	_	
+1-20	97-106	fosilnega	_	_	_	_	_	
+1-21	107-112	krasa	_	_	_	_	_	
+1-22	113-114	(	_	_	_	_	_	
+1-23	114-116	gl	_	_	_	_	_	
+1-24	116-117	.	_	_	_	_	_	
+1-25	118-125	fosilni	_	_	_	_	_	
+1-26	126-130	kras	_	_	_	_	_	
+1-27	130-131	)	_	_	_	_	_	
+1-28	131-132	.	_	_	_	_	_	
+
+#Text=podorna jama: Nastala s podiranjem. Jama ali del jame s podornim skalovjem, oziroma so jo podori bistveno preoblikovali.
+2-1	137-144	podorna	_	A.2 Underground landform[2]	DEFINIENDUM[23]	_	_	
+2-2	145-149	jama	_	A.2 Underground landform[2]	DEFINIENDUM[23]	_	_	
+2-3	149-150	:	_	_	_	_	_	
+2-4	151-158	Nastala	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[59]	
+2-5	159-160	s	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[59]	
+2-6	161-171	podiranjem	_	B.1 Movement	_	HAS\_CAUSE[40]	_	
+2-7	171-172	.	_	_	_	_	_	
+2-8	173-177	Jama	_	A.2 Underground landform	GENUS	_	_	
+2-9	178-181	ali	_	_	_	_	_	
+2-10	182-185	del	_	_	_	_	_	
+2-11	186-190	jame	_	_	_	_	_	
+2-12	191-192	s	_	_	_	CONTAINS[41]	_	
+2-13	193-201	podornim	_	D.1 Abiotic[3]	_	CONTAINS[41]	_	
+2-14	202-211	skalovjem	_	D.1 Abiotic[3]	_	CONTAINS[41]	_	
+2-15	211-212	,	_	_	_	_	_	
+2-16	213-220	oziroma	_	_	_	_	_	
+2-17	221-223	so	_	_	_	HAS\_CAUSE[42]	_	
+2-18	224-226	jo	_	_	_	HAS\_CAUSE[42]	_	
+2-19	227-233	podori	_	B.1 Movement	_	HAS\_CAUSE[42]	_	
+2-20	234-242	bistveno	_	_	_	HAS\_CAUSE[42]	_	
+2-21	243-256	preoblikovali	_	_	_	HAS\_CAUSE[42]	_	
+2-22	256-257	.	_	_	_	_	_	
+
+#Text=tektonska jama: Nastala neposredno s tektonskimi procesi in je drugi procesi kasneje niso bistveno preoblikovali.
+3-1	262-271	tektonska	_	A.2 Underground landform[4]	DEFINIENDUM[24]	_	_	
+3-2	272-276	jama	_	A.2 Underground landform[4]	DEFINIENDUM[24]	_	_	
+3-3	276-277	:	_	_	_	_	_	
+3-4	278-285	Nastala	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[60]	
+3-5	286-296	neposredno	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[60]	
+3-6	297-298	s	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[60]	
+3-7	299-310	tektonskimi	_	B.1 Movement[5]	_	HAS\_CAUSE[43]	_	
+3-8	311-318	procesi	_	B.1 Movement[5]	_	HAS\_CAUSE[43]	_	
+3-9	319-321	in	_	_	_	_	_	
+3-10	322-324	je	_	_	_	_	_	
+3-11	325-330	drugi	_	_	_	_	_	
+3-12	331-338	procesi	_	_	_	_	_	
+3-13	339-346	kasneje	_	_	_	_	_	
+3-14	347-351	niso	_	_	_	_	_	
+3-15	352-360	bistveno	_	_	_	_	_	
+3-16	361-374	preoblikovali	_	_	_	_	_	
+3-17	374-375	.	_	_	_	_	_	
+
+#Text=rečna jama: Jama, po kateri teče reka ali potok. V širšem smislu vsaka jama, ki jo je izoblikoval vodni tok.
+4-1	380-385	rečna	_	A.2 Underground landform[6]	DEFINIENDUM[25]	_	_	
+4-2	386-390	jama	_	A.2 Underground landform[6]	DEFINIENDUM[25]	_	_	
+4-3	390-391	:	_	_	_	_	_	
+4-4	392-396	Jama	_	A.2 Underground landform	GENUS	_	_	
+4-5	396-397	,	_	_	_	_	_	
+4-6	398-400	po	_	_	_	HAS\_FUNCTION[44]	_	
+4-7	401-407	kateri	_	_	_	HAS\_FUNCTION[44]	_	
+4-8	408-412	teče	_	_	_	HAS\_FUNCTION[44]	_	
+4-9	413-417	reka	_	D.1 Abiotic	_	HAS\_FUNCTION[44]	_	
+4-10	418-421	ali	_	_	_	HAS\_FUNCTION[44]	_	
+4-11	422-427	potok	_	D.1 Abiotic	_	HAS\_FUNCTION[44]	_	
+4-12	427-428	.	_	_	_	_	_	
+4-13	429-430	V	_	_	_	_	_	
+4-14	431-437	širšem	_	_	_	_	_	
+4-15	438-444	smislu	_	_	_	_	_	
+4-16	445-450	vsaka	_	_	_	_	_	
+4-17	451-455	jama	_	A.2 Underground landform	_	_	_	
+4-18	455-456	,	_	_	_	_	_	
+4-19	457-459	ki	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[61]	
+4-20	460-462	jo	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[61]	
+4-21	463-465	je	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[61]	
+4-22	466-477	izoblikoval	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[61]	
+4-23	478-483	vodni	_	_	_	HAS\_CAUSE[45]	_	
+4-24	484-487	tok	_	_	_	HAS\_CAUSE[45]	_	
+4-25	487-488	.	_	_	_	_	_	
+
+#Text=lezična jama: Jama, ki kaže jasne znake nastanka ob leziki.
+5-1	493-500	lezična	_	A.2 Underground landform[7]	DEFINIENDUM[26]	_	_	
+5-2	501-505	jama	_	A.2 Underground landform[7]	DEFINIENDUM[26]	_	_	
+5-3	505-506	:	_	_	_	_	_	
+5-4	507-511	Jama	_	A.2 Underground landform	GENUS	_	_	
+5-5	511-512	,	_	_	_	_	_	
+5-6	513-515	ki	_	_	_	HAS\_CAUSE[46]	_	
+5-7	516-520	kaže	_	_	_	HAS\_CAUSE[46]	_	
+5-8	521-526	jasne	_	_	_	HAS\_CAUSE[46]	_	
+5-9	527-532	znake	_	_	_	HAS\_CAUSE[46]	_	
+5-10	533-541	nastanka	_	_	_	HAS\_CAUSE[46]	_	
+5-11	542-544	ob	_	_	_	HAS\_CAUSE[46]	_	
+5-12	545-551	leziki	_	A.1 Surface landform	_	HAS\_CAUSE[46]	_	
+5-13	551-552	.	_	_	_	_	_	
+
+#Text=kontaktna jama: Jama na stiku različnih kamnin, često kraških in nekraških.
+6-1	557-566	kontaktna	_	A.2 Underground landform[8]	DEFINIENDUM[27]	_	_	
+6-2	567-571	jama	_	A.2 Underground landform[8]	DEFINIENDUM[27]	_	_	
+6-3	571-572	:	_	_	_	_	_	
+6-4	573-577	Jama	_	A.2 Underground landform	GENUS	_	_	
+6-5	578-580	na	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION[62]	
+6-6	581-586	stiku	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION[62]	
+6-7	587-596	različnih	_	_	_	HAS\_LOCATION[47]	_	
+6-8	597-603	kamnin	_	D.1 Abiotic	_	HAS\_LOCATION[47]	_	
+6-9	603-604	,	_	_	_	_	_	
+6-10	605-610	često	_	_	_	_	_	
+6-11	611-618	kraških	_	_	_	_	_	
+6-12	619-621	in	_	_	_	_	_	
+6-13	622-631	nekraških	_	_	_	_	_	
+6-14	631-632	.	_	_	_	_	_	
+
+#Text=etažna jama, jama v nadstropjih: Jama, ki ima rove vidno razvrščene v dveh ali več nadstropjih (etažah), ki jih lahko povezujejo brezna ali skoki.
+7-1	637-643	etažna	_	A.2 Underground landform[9]	DEFINIENDUM[28]	_	_	
+7-2	644-648	jama	_	A.2 Underground landform[9]	DEFINIENDUM[28]	_	_	
+7-3	648-649	,	_	_	_	_	_	
+7-4	650-654	jama	_	A.2 Underground landform[10]	DEFINIENDUM[29]	_	_	
+7-5	655-656	v	_	A.2 Underground landform[10]	DEFINIENDUM[29]	_	_	
+7-6	657-668	nadstropjih	_	A.2 Underground landform[10]	DEFINIENDUM[29]	_	_	
+7-7	668-669	:	_	_	_	_	_	
+7-8	670-674	Jama	_	A.2 Underground landform	GENUS	_	_	
+7-9	674-675	,	_	_	_	_	_	
+7-10	676-678	ki	_	_	_	HAS\_FORM[48]	_	
+7-11	679-682	ima	_	_	_	HAS\_FORM[48]	_	
+7-12	683-687	rove	_	_	_	HAS\_FORM[48]	_	
+7-13	688-693	vidno	_	_	_	HAS\_FORM[48]	_	
+7-14	694-704	razvrščene	_	_	_	HAS\_FORM[48]	_	
+7-15	705-706	v	_	_	_	HAS\_FORM[48]	_	
+7-16	707-711	dveh	_	_	_	HAS\_FORM[48]	_	
+7-17	712-715	ali	_	_	_	HAS\_FORM[48]	_	
+7-18	716-719	več	_	_	_	HAS\_FORM[48]	_	
+7-19	720-731	nadstropjih	_	_	_	HAS\_FORM[48]	_	
+7-20	732-733	(	_	_	_	_	_	
+7-21	733-739	etažah	_	_	_	_	_	
+7-22	739-740	)	_	_	_	_	_	
+7-23	740-741	,	_	_	_	_	_	
+7-24	742-744	ki	_	_	_	HAS\_FORM[49]	_	
+7-25	745-748	jih	_	_	_	HAS\_FORM[49]	_	
+7-26	749-754	lahko	_	_	_	HAS\_FORM[49]	_	
+7-27	755-765	povezujejo	_	_	_	HAS\_FORM[49]	_	
+7-28	766-772	brezna	_	A.2 Underground landform	_	HAS\_FORM[49]	_	
+7-29	773-776	ali	_	_	_	HAS\_FORM[49]	_	
+7-30	777-782	skoki	_	_	_	HAS\_FORM[49]	_	
+7-31	782-783	.	_	_	_	_	_	
+
+#Text=hudourna jama: Izraz je postal zgodovinski in etnološki. Pomeni jamo, iz katere so po starinskem verovanju prihajale nevihte s točo. Naše hudourne jame je opisal J. V. Valvasor.
+8-1	788-796	hudourna	_	A.2 Underground landform[11]	DEFINIENDUM[30]	_	_	
+8-2	797-801	jama	_	A.2 Underground landform[11]	DEFINIENDUM[30]	_	_	
+8-3	801-802	:	_	_	_	_	_	
+8-4	803-808	Izraz	_	_	_	_	_	
+8-5	809-811	je	_	_	_	_	_	
+8-6	812-818	postal	_	_	_	_	_	
+8-7	819-830	zgodovinski	_	_	_	_	_	
+8-8	831-833	in	_	_	_	_	_	
+8-9	834-843	etnološki	_	_	_	_	_	
+8-10	843-844	.	_	_	_	_	_	
+8-11	845-851	Pomeni	_	_	_	_	_	
+8-12	852-856	jamo	_	A.2 Underground landform	GENUS	_	_	
+8-13	856-857	,	_	_	_	_	_	
+8-14	858-860	iz	_	_	_	HAS\_RESULT[50]	frame\_RESULT[63]	
+8-15	861-867	katere	_	_	_	HAS\_RESULT[50]	frame\_RESULT[63]	
+8-16	868-870	so	_	_	_	HAS\_RESULT[50]	frame\_RESULT[63]	
+8-17	871-873	po	_	_	_	HAS\_RESULT[50]	_	
+8-18	874-884	starinskem	_	_	_	HAS\_RESULT[50]	_	
+8-19	885-894	verovanju	_	_	_	HAS\_RESULT[50]	_	
+8-20	895-904	prihajale	_	_	_	HAS\_RESULT[50]	_	
+8-21	905-912	nevihte	_	D.1 Abiotic[12]	_	HAS\_RESULT[50]	_	
+8-22	913-914	s	_	D.1 Abiotic[12]	_	HAS\_RESULT[50]	_	
+8-23	915-919	točo	_	D.1 Abiotic[12]	_	HAS\_RESULT[50]	_	
+8-24	919-920	.	_	_	_	_	_	
+8-25	921-925	Naše	_	_	_	_	_	
+8-26	926-934	hudourne	_	_	_	_	_	
+8-27	935-939	jame	_	_	_	_	_	
+8-28	940-942	je	_	_	_	_	_	
+8-29	943-949	opisal	_	_	_	_	_	
+8-30	950-951	J	_	_	_	_	_	
+8-31	951-952	.	_	_	_	_	_	
+8-32	953-954	V	_	_	_	_	_	
+8-33	954-955	.	_	_	_	_	_	
+8-34	956-964	Valvasor	_	_	_	_	_	
+8-35	964-965	.	_	_	_	_	_	
+
+#Text=turistična jama: Jama, ki je opremljena za splošni obisk turistov in ima organizirano vodniško službo.
+9-1	970-980	turistična	_	A.2 Underground landform[13]	DEFINIENDUM[31]	_	_	
+9-2	981-985	jama	_	A.2 Underground landform[13]	DEFINIENDUM[31]	_	_	
+9-3	985-986	:	_	_	_	_	_	
+9-4	987-991	Jama	_	A.2 Underground landform	GENUS	_	_	
+9-5	991-992	,	_	_	_	_	_	
+9-6	993-995	ki	_	_	_	HAS\_FUNCTION[51]	_	
+9-7	996-998	je	_	_	_	HAS\_FUNCTION[51]	frame\_FUNCTION[64]	
+9-8	999-1009	opremljena	_	_	_	HAS\_FUNCTION[51]	frame\_FUNCTION[64]	
+9-9	1010-1012	za	_	_	_	HAS\_FUNCTION[51]	frame\_FUNCTION[64]	
+9-10	1013-1020	splošni	_	_	_	HAS\_FUNCTION[51]	_	
+9-11	1021-1026	obisk	_	_	_	HAS\_FUNCTION[51]	_	
+9-12	1027-1035	turistov	_	D.2 Biotic	_	HAS\_FUNCTION[51]	_	
+9-13	1036-1038	in	_	_	_	HAS\_FUNCTION[51]	_	
+9-14	1039-1042	ima	_	_	_	HAS\_FUNCTION[51]	_	
+9-15	1043-1055	organizirano	_	_	_	HAS\_FUNCTION[51]	_	
+9-16	1056-1064	vodniško	_	_	_	HAS\_FUNCTION[51]	_	
+9-17	1065-1071	službo	_	_	_	HAS\_FUNCTION[51]	_	
+9-18	1071-1072	.	_	_	_	_	_	
+
+#Text=tunelska jama: Jama, ki predira vzpetino od enega pobočja do drugega.
+10-1	1077-1085	tunelska	_	A.2 Underground landform[14]	DEFINIENDUM[32]	_	_	
+10-2	1086-1090	jama	_	A.2 Underground landform[14]	DEFINIENDUM[32]	_	_	
+10-3	1090-1091	:	_	_	_	_	_	
+10-4	1092-1096	Jama	_	A.2 Underground landform	GENUS	_	_	
+10-5	1096-1097	,	_	_	_	_	_	
+10-6	1098-1100	ki	_	_	_	HAS\_FORM[52]	_	
+10-7	1101-1108	predira	_	_	_	HAS\_FORM[52]	_	
+10-8	1109-1117	vzpetino	_	D.1 Abiotic	_	HAS\_FORM[52]	_	
+10-9	1118-1120	od	_	_	_	HAS\_FORM[52]	_	
+10-10	1121-1126	enega	_	_	_	HAS\_FORM[52]	_	
+10-11	1127-1134	pobočja	_	_	_	HAS\_FORM[52]	_	
+10-12	1135-1137	do	_	_	_	HAS\_FORM[52]	_	
+10-13	1138-1145	drugega	_	_	_	HAS\_FORM[52]	_	
+10-14	1145-1146	.	_	_	_	_	_	
+
+#Text=zadušna jama: Jama, v kateri so zadušni plini.
+11-1	1151-1158	zadušna	_	A.2 Underground landform[15]	DEFINIENDUM[33]	_	_	
+11-2	1159-1163	jama	_	A.2 Underground landform[15]	DEFINIENDUM[33]	_	_	
+11-3	1163-1164	:	_	_	_	_	_	
+11-4	1165-1169	Jama	_	A.2 Underground landform	GENUS	_	_	
+11-5	1169-1170	,	_	_	_	_	_	
+11-6	1171-1172	v	_	_	_	CONTAINS[53]	frame\_CONTAINS[65]	
+11-7	1173-1179	kateri	_	_	_	CONTAINS[53]	frame\_CONTAINS[65]	
+11-8	1180-1182	so	_	_	_	CONTAINS[53]	frame\_CONTAINS[65]	
+11-9	1183-1190	zadušni	_	D.1 Abiotic[16]	_	CONTAINS[53]	_	
+11-10	1191-1196	plini	_	D.1 Abiotic[16]	_	CONTAINS[53]	_	
+11-11	1196-1197	.	_	_	_	_	_	
+
+#Text=jamar: Človek, ki odkriva, obiskuje in opisuje jame iz neturističnih namenov. V vsakdanji rabi človek, ki organizirano raziskuje jame bolj iz športnih nagibov.
+12-1	1202-1207	jamar	_	D.2 Biotic	DEFINIENDUM	_	_	
+12-2	1207-1208	:	_	_	_	_	_	
+12-3	1209-1215	Človek	_	D.2 Biotic	GENUS	_	_	
+12-4	1215-1216	,	_	_	_	_	_	
+12-5	1217-1219	ki	_	_	_	STUDIES[54]	_	
+12-6	1220-1227	odkriva	_	_	_	STUDIES[54]	_	
+12-7	1227-1228	,	_	_	_	STUDIES[54]	_	
+12-8	1229-1237	obiskuje	_	_	_	STUDIES[54]	_	
+12-9	1238-1240	in	_	_	_	STUDIES[54]	_	
+12-10	1241-1248	opisuje	_	_	_	STUDIES[54]	_	
+12-11	1249-1253	jame	_	A.2 Underground landform	_	STUDIES[54]	_	
+12-12	1254-1256	iz	_	_	_	STUDIES[54]	_	
+12-13	1257-1270	neturističnih	_	_	_	STUDIES[54]	_	
+12-14	1271-1278	namenov	_	_	_	STUDIES[54]	_	
+12-15	1278-1279	.	_	_	_	_	_	
+12-16	1280-1281	V	_	_	_	_	_	
+12-17	1282-1291	vsakdanji	_	_	_	_	_	
+12-18	1292-1296	rabi	_	_	_	_	_	
+12-19	1297-1303	človek	_	_	_	_	_	
+12-20	1303-1304	,	_	_	_	_	_	
+12-21	1305-1307	ki	_	_	_	_	_	
+12-22	1308-1320	organizirano	_	_	_	_	_	
+12-23	1321-1330	raziskuje	_	_	_	_	_	
+12-24	1331-1335	jame	_	_	_	_	_	
+12-25	1336-1340	bolj	_	_	_	_	_	
+12-26	1341-1343	iz	_	_	_	_	_	
+12-27	1344-1352	športnih	_	_	_	_	_	
+12-28	1353-1360	nagibov	_	_	_	_	_	
+12-29	1360-1361	.	_	_	_	_	_	
+
+#Text=jamoslovec (speleolog): strokovnjak na področju speleologije.
+13-1	1366-1376	jamoslovec	_	D.2 Biotic	DEFINIENDUM	_	_	
+13-2	1377-1378	(	_	_	_	_	_	
+13-3	1378-1387	speleolog	_	_	_	_	_	
+13-4	1387-1388	)	_	_	_	_	_	
+13-5	1388-1389	:	_	_	_	_	_	
+13-6	1390-1401	strokovnjak	_	D.2 Biotic	GENUS	_	_	
+13-7	1402-1404	na	_	_	_	STUDIES[55]	_	
+13-8	1405-1413	področju	_	_	_	STUDIES[55]	_	
+13-9	1414-1426	speleologije	_	E.2 Method	_	STUDIES[55]	_	
+13-10	1426-1427	.	_	_	_	_	_	
+
+#Text=jamska ilovica: Ilovica v jami. Po nastanku avtohtona (nastala na licu mesta), paravtohtona (premeščena znotraj jame) ali alohtona (prinesena od zunaj).
+14-1	1432-1438	jamska	_	D.1 Abiotic[17]	DEFINIENDUM[34]	_	_	
+14-2	1439-1446	ilovica	_	D.1 Abiotic[17]	DEFINIENDUM[34]	_	_	
+14-3	1446-1447	:	_	_	_	_	_	
+14-4	1448-1455	Ilovica	_	D.1 Abiotic	GENUS	_	_	
+14-5	1456-1457	v	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION	
+14-6	1458-1462	jami	_	_	_	HAS\_LOCATION[56]	_	
+14-7	1462-1463	.	_	_	_	_	_	
+14-8	1464-1466	Po	_	_	_	HAS\_CAUSE[57]	_	
+14-9	1467-1475	nastanku	_	_	_	HAS\_CAUSE[57]	_	
+14-10	1476-1485	avtohtona	avtohtona jamska ilovica	D.1 Abiotic	SPECIES	HAS\_CAUSE[57]	_	
+14-11	1486-1487	(	_	_	_	HAS\_CAUSE[57]	_	
+14-12	1487-1494	nastala	_	_	_	HAS\_CAUSE[57]	_	
+14-13	1495-1497	na	_	_	_	HAS\_CAUSE[57]	_	
+14-14	1498-1502	licu	_	_	_	HAS\_CAUSE[57]	_	
+14-15	1503-1508	mesta	_	_	_	HAS\_CAUSE[57]	_	
+14-16	1508-1509	)	_	_	_	HAS\_CAUSE[57]	_	
+14-17	1509-1510	,	_	_	_	HAS\_CAUSE[57]	_	
+14-18	1511-1523	paravtohtona	paravtohtona jamska ilovica	D.1 Abiotic	SPECIES	HAS\_CAUSE[57]	_	
+14-19	1524-1525	(	_	_	_	HAS\_CAUSE[57]	_	
+14-20	1525-1535	premeščena	_	_	_	HAS\_CAUSE[57]	_	
+14-21	1536-1543	znotraj	_	_	_	HAS\_CAUSE[57]	_	
+14-22	1544-1548	jame	_	_	_	HAS\_CAUSE[57]	_	
+14-23	1548-1549	)	_	_	_	HAS\_CAUSE[57]	_	
+14-24	1550-1553	ali	_	_	_	HAS\_CAUSE[57]	_	
+14-25	1554-1562	alohtona	alohtona jamska ilovica	D.1 Abiotic	SPECIES	HAS\_CAUSE[57]	_	
+14-26	1563-1564	(	_	_	_	HAS\_CAUSE[57]	_	
+14-27	1564-1573	prinesena	_	_	_	HAS\_CAUSE[57]	_	
+14-28	1574-1576	od	_	_	_	HAS\_CAUSE[57]	_	
+14-29	1577-1582	zunaj	_	_	_	HAS\_CAUSE[57]	_	
+14-30	1582-1583	)	_	_	_	HAS\_CAUSE[57]	_	
+14-31	1583-1584	.	_	_	_	_	_	
+
+#Text=jamska klimatologija, jamska meteorologija: Mlada znanstvena disciplina, ki raziskuje klimatske (meteorološke) razmere v podzemeljskih votlinah.
+15-1	1588-1594	jamska	_	E.2 Method[18]	DEFINIENDUM[35]	_	_	
+15-2	1595-1608	klimatologija	_	E.2 Method[18]	DEFINIENDUM[35]	_	_	
+15-3	1608-1609	,	_	_	_	_	_	
+15-4	1610-1616	jamska	_	E.2 Method[19]	DEFINIENDUM[36]	_	_	
+15-5	1617-1630	meteorologija	_	E.2 Method[19]	DEFINIENDUM[36]	_	_	
+15-6	1630-1631	:	_	_	_	_	_	
+15-7	1632-1637	Mlada	_	_	_	_	_	
+15-8	1638-1648	znanstvena	_	E.2 Method[20]	GENUS[37]	_	_	
+15-9	1649-1659	disciplina	_	E.2 Method[20]	GENUS[37]	_	_	
+15-10	1659-1660	,	_	_	_	_	_	
+15-11	1661-1663	ki	_	_	_	_	_	
+15-12	1664-1673	raziskuje	_	_	_	STUDIES[58]	frame\_STUDIES	
+15-13	1674-1683	klimatske	_	_	_	STUDIES[58]	_	
+15-14	1684-1685	(	_	_	_	STUDIES[58]	_	
+15-15	1685-1697	meteorološke	_	_	_	STUDIES[58]	_	
+15-16	1697-1698	)	_	_	_	STUDIES[58]	_	
+15-17	1699-1706	razmere	_	_	_	STUDIES[58]	_	
+15-18	1707-1708	v	_	_	_	STUDIES[58]	_	
+15-19	1709-1722	podzemeljskih	_	A.2 Underground landform[21]	_	STUDIES[58]	_	
+15-20	1723-1731	votlinah	_	A.2 Underground landform[21]	_	STUDIES[58]	_	
+15-21	1731-1732	.	_	_	_	_	_	

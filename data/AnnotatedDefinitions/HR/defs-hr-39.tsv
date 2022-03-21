@@ -1,0 +1,289 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=I korozija je diferenciran proces, jače struže niže plohe – gljivasti oblici monolita, a manje otporne stijene.
+1-1	0-1	I	_	_	_	_	_	
+1-2	2-10	korozija	_	B.2 Loss	DEFINIENDUM	_	_	
+1-3	11-13	je	_	_	_	_	_	
+1-4	14-26	diferenciran	_	_	GENUS[24]	_	_	
+1-5	27-33	proces	_	_	GENUS[24]	_	_	
+1-6	33-34	,	_	_	_	_	_	
+1-7	35-39	jače	_	_	_	HAS\_ATTRIBUTE[36]	_	
+1-8	40-46	struže	_	_	_	HAS\_ATTRIBUTE[36]	_	
+1-9	47-51	niže	_	_	_	HAS\_ATTRIBUTE[36]	_	
+1-10	52-57	plohe	_	_	_	HAS\_ATTRIBUTE[36]	_	
+1-11	58-59	–	_	_	_	_	_	
+1-12	60-69	gljivasti	_	_	_	_	_	
+1-13	70-76	oblici	_	_	_	_	_	
+1-14	77-85	monolita	_	_	_	_	_	
+1-15	85-86	,	_	_	_	_	_	
+1-16	87-88	a	_	_	_	_	_	
+1-17	89-94	manje	_	_	_	HAS\_ATTRIBUTE[37]	_	
+1-18	95-102	otporne	_	_	_	HAS\_ATTRIBUTE[37]	_	
+1-19	103-110	stijene	_	_	_	HAS\_ATTRIBUTE[37]	_	
+1-20	110-111	.	_	_	_	_	_	
+
+#Text=Najznačajnija vrsta sedimentnih stijena autohtonog porijekla je sigovina (sige).
+2-1	113-126	Najznačajnija	_	_	_	_	_	
+2-2	127-132	vrsta	_	_	_	_	_	
+2-3	133-144	sedimentnih	sedimentne stijene[1]	D.1 Abiotic[7]	GENUS[25]	_	_	
+2-4	145-152	stijena	sedimentne stijene[1]	D.1 Abiotic[7]	GENUS[25]	_	_	
+2-5	153-163	autohtonog	_	_	_	_	_	
+2-6	164-173	porijekla	_	_	_	_	_	
+2-7	174-176	je	_	_	_	_	_	
+2-8	177-185	sigovina	_	D.1 Abiotic	DEFINIENDUM	_	_	
+2-9	186-187	(	_	_	_	_	_	
+2-10	187-191	sige	_	_	_	_	_	
+2-11	191-192	)	_	_	_	_	_	
+2-12	192-193	.	_	_	_	_	_	
+
+#Text=Speleologija je bitan dio karstologije.
+3-1	195-207	Speleologija	_	E.2 Method	DEFINIENDUM	_	_	
+3-2	208-210	je	_	_	_	_	_	
+3-3	211-216	bitan	_	_	_	_	_	
+3-4	217-220	dio	_	_	_	_	_	
+3-5	221-233	karstologije	karstologija	E.2 Method	GENUS	_	_	
+3-6	233-234	.	_	_	_	_	_	
+
+#Text=Grozdasti stalaktit je složena tvorevina u obliku grozda.
+4-1	236-245	Grozdasti	_	D.1 Abiotic[8]	DEFINIENDUM[26]	_	_	
+4-2	246-255	stalaktit	_	D.1 Abiotic[8]	DEFINIENDUM[26]	_	_	
+4-3	256-258	je	_	_	_	_	_	
+4-4	259-266	složena	_	_	_	_	_	
+4-5	267-276	tvorevina	sigasta tvorevina	D.1 Abiotic	GENUS	_	_	
+4-6	277-278	u	_	_	_	HAS\_FORM[38]	frame\_FORM[46]	
+4-7	279-285	obliku	_	_	_	HAS\_FORM[38]	frame\_FORM[46]	
+4-8	286-292	grozda	_	_	_	HAS\_FORM[38]	_	
+4-9	292-293	.	_	_	_	_	_	
+
+#Text=Ponikve su najtipičniji površinski krški oblik koji se smatra i dijagnostičkim oblikom krša.
+5-1	295-302	Ponikve	_	A.1 Surface landform	DEFINIENDUM	_	_	
+5-2	303-305	su	_	_	_	_	_	
+5-3	306-318	najtipičniji	_	_	_	_	_	
+5-4	319-329	površinski	_	A.1 Surface landform[9]	GENUS[27]	_	_	
+5-5	330-335	krški	_	A.1 Surface landform[9]	GENUS[27]	_	_	
+5-6	336-341	oblik	_	A.1 Surface landform[9]	GENUS[27]	_	_	
+5-7	342-346	koji	_	_	_	_	_	
+5-8	347-349	se	_	_	_	_	_	
+5-9	350-356	smatra	_	_	_	_	_	
+5-10	357-358	i	_	_	_	_	_	
+5-11	359-373	dijagnostičkim	dijagnostički oblik krša[2]	A.1 Surface landform[10]	GENUS[28]	_	_	
+5-12	374-381	oblikom	dijagnostički oblik krša[2]	A.1 Surface landform[10]	GENUS[28]	_	_	
+5-13	382-386	krša	dijagnostički oblik krša[2]	A.1 Surface landform[10]	GENUS[28]	_	_	
+5-14	386-387	.	_	_	_	_	_	
+
+#Text=Kao što je Grund u svom odgovoru naglasio, dolomiti su stijene po svom sastavu , a naročito po reljefu koji se na njima razvija, prelaznih osobina .
+6-1	389-392	Kao	_	_	_	_	_	
+6-2	393-396	što	_	_	_	_	_	
+6-3	397-399	je	_	_	_	_	_	
+6-4	400-405	Grund	_	_	_	_	_	
+6-5	406-407	u	_	_	_	_	_	
+6-6	408-412	svom	_	_	_	_	_	
+6-7	413-421	odgovoru	_	_	_	_	_	
+6-8	422-430	naglasio	_	_	_	_	_	
+6-9	430-431	,	_	_	_	_	_	
+6-10	432-440	dolomiti	_	_	_	_	_	
+6-11	441-443	su	_	_	_	_	_	
+6-12	444-451	stijene	_	_	_	_	_	
+6-13	452-454	po	_	_	_	_	_	
+6-14	455-459	svom	_	_	_	_	_	
+6-15	460-467	sastavu	_	_	_	_	_	
+6-16	468-469	,	_	_	_	_	_	
+6-17	470-471	a	_	_	_	_	_	
+6-18	472-480	naročito	_	_	_	_	_	
+6-19	481-483	po	_	_	_	_	_	
+6-20	484-491	reljefu	_	_	_	_	_	
+6-21	492-496	koji	_	_	_	_	_	
+6-22	497-499	se	_	_	_	_	_	
+6-23	500-502	na	_	_	_	_	_	
+6-24	503-508	njima	_	_	_	_	_	
+6-25	509-516	razvija	_	_	_	_	_	
+6-26	516-517	,	_	_	_	_	_	
+6-27	518-527	prelaznih	_	_	_	_	_	
+6-28	528-535	osobina	_	_	_	_	_	
+6-29	536-537	.	_	_	_	_	_	
+
+#Text=Suprotno tome akumulirana terasa je rubni ostatak naplavnog pokrova, koji je ispunjavao raniju dolinu .
+7-1	539-547	Suprotno	_	_	_	_	_	
+7-2	548-552	tome	_	_	_	_	_	
+7-3	553-564	akumulirana	_	A.1 Surface landform[11]	DEFINIENDUM[29]	_	_	
+7-4	565-571	terasa	_	A.1 Surface landform[11]	DEFINIENDUM[29]	_	_	
+7-5	572-574	je	_	_	_	_	_	
+7-6	575-580	rubni	_	_	_	_	_	
+7-7	581-588	ostatak	_	A.1 Surface landform[12]	GENUS[30]	_	_	
+7-8	589-598	naplavnog	_	A.1 Surface landform[12]	GENUS[30]	_	_	
+7-9	599-606	pokrova	_	A.1 Surface landform[12]	GENUS[30]	_	_	
+7-10	606-607	,	_	_	_	_	_	
+7-11	608-612	koji	_	_	_	_	_	
+7-12	613-615	je	_	_	_	_	_	
+7-13	616-626	ispunjavao	_	_	_	_	_	
+7-14	627-633	raniju	_	_	_	_	_	
+7-15	634-640	dolinu	_	_	_	_	_	
+7-16	641-642	.	_	_	_	_	_	
+
+#Text=Autohtoni sediment – taložine koje se sastoje od trošina matičnih stijena u podlozi .
+8-1	644-653	Autohtoni	_	D.1 Abiotic[13]	DEFINIENDUM[31]	_	_	
+8-2	654-662	sediment	_	D.1 Abiotic[13]	DEFINIENDUM[31]	_	_	
+8-3	663-664	–	_	_	_	_	_	
+8-4	665-673	taložine	_	D.1 Abiotic	GENUS	_	_	
+8-5	674-678	koje	_	_	_	_	_	
+8-6	679-681	se	_	_	_	COMPOSITION\_MEDIUM[39]	frame\_COMPOSITION[47]	
+8-7	682-689	sastoje	_	_	_	COMPOSITION\_MEDIUM[39]	frame\_COMPOSITION[47]	
+8-8	690-692	od	_	_	_	COMPOSITION\_MEDIUM[39]	frame\_COMPOSITION[47]	
+8-9	693-700	trošina	_	D.1 Abiotic[14]	_	COMPOSITION\_MEDIUM[39]	_	
+8-10	701-709	matičnih	_	D.1 Abiotic[14]	_	COMPOSITION\_MEDIUM[39]	_	
+8-11	710-717	stijena	_	D.1 Abiotic[14]	_	COMPOSITION\_MEDIUM[39]	_	
+8-12	718-719	u	_	_	_	COMPOSITION\_MEDIUM[39]	_	
+8-13	720-727	podlozi	_	_	_	COMPOSITION\_MEDIUM[39]	_	
+8-14	728-729	.	_	_	_	_	_	
+
+#Text=Tufovi i tufne breče koji su utvrđeni na više lokaliteta sastoje se od fragmenata piroklastičnog kvarca plagioklasa , čestica vulkanskog stakla i litoidnog tufa .
+9-1	731-737	Tufovi	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	738-739	i	_	_	_	_	_	
+9-3	740-745	tufne	_	A.1 Surface landform[15]	DEFINIENDUM[32]	_	_	
+9-4	746-751	breče	_	A.1 Surface landform[15]	DEFINIENDUM[32]	_	_	
+9-5	752-756	koji	_	_	_	_	_	
+9-6	757-759	su	_	_	_	_	_	
+9-7	760-768	utvrđeni	_	_	_	_	_	
+9-8	769-771	na	_	_	_	_	_	
+9-9	772-776	više	_	_	_	_	_	
+9-10	777-787	lokaliteta	_	_	_	_	_	
+9-11	788-795	sastoje	_	_	_	COMPOSITION\_MEDIUM[40]	frame\_COMPOSITION[48]	
+9-12	796-798	se	_	_	_	COMPOSITION\_MEDIUM[40]	frame\_COMPOSITION[48]	
+9-13	799-801	od	_	_	_	COMPOSITION\_MEDIUM[40]	frame\_COMPOSITION[48]	
+9-14	802-812	fragmenata	fragmenti piroklastičnog kvarca plagioklasa[3]	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[40]	_	
+9-15	813-827	piroklastičnog	fragmenti piroklastičnog kvarca plagioklasa[3]	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[40]	_	
+9-16	828-834	kvarca	fragmenti piroklastičnog kvarca plagioklasa[3]	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[40]	_	
+9-17	835-846	plagioklasa	fragmenti piroklastičnog kvarca plagioklasa[3]	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[40]	_	
+9-18	847-848	,	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+9-19	849-856	čestica	_	D.1 Abiotic[17]	_	COMPOSITION\_MEDIUM[40]	_	
+9-20	857-867	vulkanskog	_	D.1 Abiotic[17]	_	COMPOSITION\_MEDIUM[40]	_	
+9-21	868-874	stakla	_	D.1 Abiotic[17]	_	COMPOSITION\_MEDIUM[40]	_	
+9-22	875-876	i	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+9-23	877-886	litoidnog	litoidni tuf[4]	D.1 Abiotic[18]	_	COMPOSITION\_MEDIUM[40]	_	
+9-24	887-891	tufa	litoidni tuf[4]	D.1 Abiotic[18]	_	COMPOSITION\_MEDIUM[40]	_	
+9-25	892-893	.	_	_	_	_	_	
+
+#Text=Krško okno je krški oblik koji ima značajke izvora i ponora ili duboke vrtače .
+10-1	895-900	Krško	_	A.1 Surface landform[19]	DEFINIENDUM[33]	_	_	
+10-2	901-905	okno	_	A.1 Surface landform[19]	DEFINIENDUM[33]	_	_	
+10-3	906-908	je	_	_	_	_	_	
+10-4	909-914	krški	_	A. Landform[20]	GENUS[34]	_	_	
+10-5	915-920	oblik	_	A. Landform[20]	GENUS[34]	_	_	
+10-6	921-925	koji	_	_	_	_	_	
+10-7	926-929	ima	_	_	_	HAS\_ATTRIBUTE[41]	frame\_ATTRIBUTE[49]	
+10-8	930-938	značajke	_	_	_	HAS\_ATTRIBUTE[41]	frame\_ATTRIBUTE[49]	
+10-9	939-945	izvora	izvor	A.3 Hydrological form	_	HAS\_ATTRIBUTE[41]	_	
+10-10	946-947	i	_	_	_	HAS\_ATTRIBUTE[41]	_	
+10-11	948-954	ponora	ponor	A.3 Hydrological form	_	HAS\_ATTRIBUTE[41]	_	
+10-12	955-958	ili	_	_	_	HAS\_ATTRIBUTE[41]	_	
+10-13	959-965	duboke	duboka vrtača[5]	A.1 Surface landform[21]	_	HAS\_ATTRIBUTE[41]	_	
+10-14	966-972	vrtače	duboka vrtača[5]	A.1 Surface landform[21]	_	HAS\_ATTRIBUTE[41]	_	
+10-15	973-974	.	_	_	_	_	_	
+
+#Text=Plavina se sastoji od materijala razne veličine , od sitnog pijeska do blokova koji imaju u promjeru 25 cm.
+11-1	976-983	Plavina	_	D.1 Abiotic	DEFINIENDUM	_	_	
+11-2	984-986	se	_	_	_	COMPOSITION\_MEDIUM[42]	frame\_COMPOSITION[50]	
+11-3	987-994	sastoji	_	_	_	COMPOSITION\_MEDIUM[42]	frame\_COMPOSITION[50]	
+11-4	995-997	od	_	_	_	COMPOSITION\_MEDIUM[42]	frame\_COMPOSITION[50]	
+11-5	998-1008	materijala	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+11-6	1009-1014	razne	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+11-7	1015-1023	veličine	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+11-8	1024-1025	,	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+11-9	1026-1028	od	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+11-10	1029-1035	sitnog	sitni pijesak[6]	D.1 Abiotic[22]	_	COMPOSITION\_MEDIUM[42]	_	
+11-11	1036-1043	pijeska	sitni pijesak[6]	D.1 Abiotic[22]	_	COMPOSITION\_MEDIUM[42]	_	
+11-12	1044-1046	do	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+11-13	1047-1054	blokova	blokovi	D.1 Abiotic	_	COMPOSITION\_MEDIUM[42]	_	
+11-14	1055-1059	koji	_	_	_	_	_	
+11-15	1060-1065	imaju	_	_	_	_	_	
+11-16	1066-1067	u	_	_	_	_	_	
+11-17	1068-1076	promjeru	_	_	_	_	_	
+11-18	1077-1079	25	_	_	_	_	_	
+11-19	1080-1082	cm	_	_	_	_	_	
+11-20	1082-1083	.	_	_	_	_	_	
+
+#Text=Proces izotopne frakcionacije matematički se prikazuje uspoređivanjem izotopnih omjera dvije komponente u ravnotežnom odnosu ili omjera komponenti prije i poslije fizičkog ili kemijskog procesa ( A → B ) ( Mook , 2000 ) .
+12-1	1085-1091	Proces	_	_	_	_	_	
+12-2	1092-1100	izotopne	_	_	_	_	_	
+12-3	1101-1114	frakcionacije	_	_	_	_	_	
+12-4	1115-1126	matematički	_	_	_	_	_	
+12-5	1127-1129	se	_	_	_	_	_	
+12-6	1130-1139	prikazuje	_	_	_	_	_	
+12-7	1140-1154	uspoređivanjem	_	_	_	_	_	
+12-8	1155-1164	izotopnih	_	_	_	_	_	
+12-9	1165-1171	omjera	_	_	_	_	_	
+12-10	1172-1177	dvije	_	_	_	_	_	
+12-11	1178-1188	komponente	_	_	_	_	_	
+12-12	1189-1190	u	_	_	_	_	_	
+12-13	1191-1202	ravnotežnom	_	_	_	_	_	
+12-14	1203-1209	odnosu	_	_	_	_	_	
+12-15	1210-1213	ili	_	_	_	_	_	
+12-16	1214-1220	omjera	_	_	_	_	_	
+12-17	1221-1231	komponenti	_	_	_	_	_	
+12-18	1232-1237	prije	_	_	_	_	_	
+12-19	1238-1239	i	_	_	_	_	_	
+12-20	1240-1247	poslije	_	_	_	_	_	
+12-21	1248-1256	fizičkog	_	_	_	_	_	
+12-22	1257-1260	ili	_	_	_	_	_	
+12-23	1261-1270	kemijskog	_	_	_	_	_	
+12-24	1271-1278	procesa	_	_	_	_	_	
+12-25	1279-1280	(	_	_	_	_	_	
+12-26	1281-1282	A	_	_	_	_	_	
+12-27	1283-1284	→	_	_	_	_	_	
+12-28	1285-1286	B	_	_	_	_	_	
+12-29	1287-1288	)	_	_	_	_	_	
+12-30	1289-1290	(	_	_	_	_	_	
+12-31	1291-1295	Mook	_	_	_	_	_	
+12-32	1296-1297	,	_	_	_	_	_	
+12-33	1298-1302	2000	_	_	_	_	_	
+12-34	1303-1304	)	_	_	_	_	_	
+12-35	1305-1306	.	_	_	_	_	_	
+
+#Text=Oscilacije su rezultat pritjecanja zraka različitih temperatura i vlažnosti s površine u spilju .
+13-1	1308-1318	Oscilacije	_	B. Process	DEFINIENDUM	_	_	
+13-2	1319-1321	su	_	_	_	_	_	
+13-3	1322-1330	rezultat	_	_	_	HAS\_CAUSE[43]	_	
+13-4	1331-1342	pritjecanja	_	_	_	HAS\_CAUSE[43]	_	
+13-5	1343-1348	zraka	_	_	_	HAS\_CAUSE[43]	_	
+13-6	1349-1359	različitih	_	_	_	HAS\_CAUSE[43]	_	
+13-7	1360-1371	temperatura	_	_	_	HAS\_CAUSE[43]	_	
+13-8	1372-1373	i	_	_	_	HAS\_CAUSE[43]	_	
+13-9	1374-1383	vlažnosti	_	_	_	HAS\_CAUSE[43]	_	
+13-10	1384-1385	s	_	_	_	HAS\_CAUSE[43]	_	
+13-11	1386-1394	površine	_	_	_	HAS\_CAUSE[43]	_	
+13-12	1395-1396	u	_	_	_	HAS\_CAUSE[43]	_	
+13-13	1397-1403	spilju	_	_	_	HAS\_CAUSE[43]	_	
+13-14	1404-1405	.	_	_	_	_	_	
+
+#Text=Duboko i raščlanjeno podzemlje je glavna osobina dubokog krša .
+14-1	1407-1413	Duboko	_	_	_	CONTAINS[44]	_	
+14-2	1414-1415	i	_	_	_	CONTAINS[44]	_	
+14-3	1416-1427	raščlanjeno	_	_	_	CONTAINS[44]	_	
+14-4	1428-1437	podzemlje	_	_	_	CONTAINS[44]	_	
+14-5	1438-1440	je	_	_	_	_	_	
+14-6	1441-1447	glavna	_	_	_	_	_	
+14-7	1448-1455	osobina	_	_	_	_	_	
+14-8	1456-1463	dubokog	_	C. Geome[23]	DEFINIENDUM[35]	_	_	
+14-9	1464-1468	krša	_	C. Geome[23]	DEFINIENDUM[35]	_	_	
+14-10	1469-1470	.	_	_	_	_	_	
+
+#Text=Pištet je malo vrelo iz kojeg u vlažnom dijelu godine pišti voda .
+15-1	1472-1478	Pištet	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+15-2	1479-1481	je	_	_	_	_	_	
+15-3	1482-1486	malo	_	_	_	_	_	
+15-4	1487-1492	vrelo	_	A.3 Hydrological form	GENUS	_	_	
+15-5	1493-1495	iz	_	_	_	HAS\_FUNCTION[45]	_	
+15-6	1496-1501	kojeg	_	_	_	HAS\_FUNCTION[45]	_	
+15-7	1502-1503	u	_	_	_	HAS\_FUNCTION[45]	_	
+15-8	1504-1511	vlažnom	_	_	_	HAS\_FUNCTION[45]	_	
+15-9	1512-1518	dijelu	_	_	_	HAS\_FUNCTION[45]	_	
+15-10	1519-1525	godine	_	_	_	HAS\_FUNCTION[45]	_	
+15-11	1526-1531	pišti	_	_	_	HAS\_FUNCTION[45]	_	
+15-12	1532-1536	voda	_	_	_	HAS\_FUNCTION[45]	_	
+15-13	1537-1538	.	_	_	_	_	_	

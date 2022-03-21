@@ -1,0 +1,271 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=dolasta uvala: Je izrazito podolgovata, dolu podobna vdolbina.
+1-1	0-7	dolasta	_	A.1 Surface landform[1]	DEFINIENDUM[16]	_	_	
+1-2	8-13	uvala	_	A.1 Surface landform[1]	DEFINIENDUM[16]	_	_	
+1-3	13-14	:	_	_	_	_	_	
+1-4	15-17	Je	_	_	_	_	_	
+1-5	18-26	izrazito	_	_	_	_	_	
+1-6	27-38	podolgovata	_	_	_	HAS\_FORM	_	
+1-7	38-39	,	_	_	_	_	_	
+1-8	40-44	dolu	_	_	_	HAS\_FORM[29]	_	
+1-9	45-52	podobna	_	_	_	HAS\_FORM[29]	frame\_FORM	
+1-10	53-61	vdolbina	_	D.1 Abiotic	GENUS	_	_	
+1-11	61-62	.	_	_	_	_	_	
+
+#Text=vrtačasta uvala: Sestavljajo jo zraščene razsežne vrtače.
+2-1	67-76	vrtačasta	_	A.1 Surface landform[2]	DEFINIENDUM[17]	_	_	
+2-2	77-82	uvala	_	A.1 Surface landform[2]	DEFINIENDUM[17]	_	_	
+2-3	82-83	:	_	_	_	_	_	
+2-4	84-95	Sestavljajo	_	_	_	CONTAINS[30]	frame\_CONTAINS[48]	
+2-5	96-98	jo	_	_	_	CONTAINS[30]	frame\_CONTAINS[48]	
+2-6	99-107	zraščene	_	_	_	CONTAINS[30]	_	
+2-7	108-116	razsežne	_	_	_	CONTAINS[30]	_	
+2-8	117-123	vrtače	_	A.1 Surface landform	_	CONTAINS[30]	_	
+2-9	123-124	.	_	_	_	_	_	
+
+#Text=viseča suha dolina: Na krasu suha dolina, ki se kot odsekana končuje na pobočju.
+3-1	129-135	viseča	_	A.1 Surface landform[3]	DEFINIENDUM[18]	_	_	
+3-2	136-140	suha	_	A.1 Surface landform[3]	DEFINIENDUM[18]	_	_	
+3-3	141-147	dolina	_	A.1 Surface landform[3]	DEFINIENDUM[18]	_	_	
+3-4	147-148	:	_	_	_	_	_	
+3-5	149-151	Na	_	_	_	HAS\_LOCATION[31]	frame\_LOCATION	
+3-6	152-157	krasu	_	C. Geome	_	HAS\_LOCATION[31]	_	
+3-7	158-162	suha	_	A.1 Surface landform[4]	GENUS[19]	_	_	
+3-8	163-169	dolina	_	A.1 Surface landform[4]	GENUS[19]	_	_	
+3-9	169-170	,	_	_	_	_	_	
+3-10	171-173	ki	_	_	_	HAS\_FORM[32]	_	
+3-11	174-176	se	_	_	_	HAS\_FORM[32]	_	
+3-12	177-180	kot	_	_	_	HAS\_FORM[32]	_	
+3-13	181-189	odsekana	_	_	_	HAS\_FORM[32]	_	
+3-14	190-197	končuje	_	_	_	HAS\_FORM[32]	_	
+3-15	198-200	na	_	_	_	HAS\_FORM[32]	_	
+3-16	201-208	pobočju	_	D.1 Abiotic	_	HAS\_FORM[32]	_	
+3-17	208-209	.	_	_	_	_	_	
+
+#Text=vetrnica: Jama, iz katere stalno ali obdobno piha.
+4-1	214-222	vetrnica	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-2	222-223	:	_	_	_	_	_	
+4-3	224-228	Jama	_	A.2 Underground landform	GENUS	_	_	
+4-4	228-229	,	_	_	_	_	_	
+4-5	230-232	iz	_	_	_	HAS\_FUNCTION[33]	frame\_FUNCTION[49]	
+4-6	233-239	katere	_	_	_	HAS\_FUNCTION[33]	frame\_FUNCTION[49]	
+4-7	240-246	stalno	_	_	_	HAS\_FUNCTION[33]	_	
+4-8	247-250	ali	_	_	_	HAS\_FUNCTION[33]	_	
+4-9	251-258	obdobno	_	_	_	HAS\_FUNCTION[33]	_	
+4-10	259-263	piha	_	_	_	HAS\_FUNCTION[33]	_	
+4-11	263-264	.	_	_	_	_	_	
+
+#Text=Vorfluter, Vorfluterniveau: Nivo površinske kraške vode, ki ga določuje morska ali jezerska gladina v zaledju. Izraz se uporablja zlasti pri opisu tropskega krasa, kjer so številna dna kraških polj v višini Vorflutra.
+5-1	269-278	Vorfluter	_	D.3 Property	DEFINIENDUM	_	_	
+5-2	278-279	,	_	_	_	_	_	
+5-3	280-295	Vorfluterniveau	_	D.3 Property	DEFINIENDUM	_	_	
+5-4	295-296	:	_	_	_	_	_	
+5-5	297-301	Nivo	_	D.3 Property	_	DEFINED\_AS[34]	_	
+5-6	302-312	površinske	_	_	_	DEFINED\_AS[34]	_	
+5-7	313-319	kraške	_	_	_	DEFINED\_AS[34]	_	
+5-8	320-324	vode	_	_	_	DEFINED\_AS[34]	_	
+5-9	324-325	,	_	_	_	DEFINED\_AS[34]	_	
+5-10	326-328	ki	_	_	_	DEFINED\_AS[34]	_	
+5-11	329-331	ga	_	_	_	DEFINED\_AS[34]	_	
+5-12	332-340	določuje	_	_	_	DEFINED\_AS[34]	_	
+5-13	341-347	morska	_	_	_	DEFINED\_AS[34]	_	
+5-14	348-351	ali	_	_	_	DEFINED\_AS[34]	_	
+5-15	352-360	jezerska	_	_	_	DEFINED\_AS[34]	_	
+5-16	361-368	gladina	_	_	_	DEFINED\_AS[34]	_	
+5-17	369-370	v	_	_	_	DEFINED\_AS[34]	_	
+5-18	371-378	zaledju	_	_	_	DEFINED\_AS[34]	_	
+5-19	378-379	.	_	_	_	_	_	
+5-20	380-385	Izraz	_	_	_	_	_	
+5-21	386-388	se	_	_	_	_	_	
+5-22	389-398	uporablja	_	_	_	_	_	
+5-23	399-405	zlasti	_	_	_	_	_	
+5-24	406-409	pri	_	_	_	_	_	
+5-25	410-415	opisu	_	_	_	_	_	
+5-26	416-425	tropskega	_	C. Geome[5]	_	_	_	
+5-27	426-431	krasa	_	C. Geome[5]	_	_	_	
+5-28	431-432	,	_	_	_	_	_	
+5-29	433-437	kjer	_	_	_	_	_	
+5-30	438-440	so	_	_	_	_	_	
+5-31	441-449	številna	_	_	_	_	_	
+5-32	450-453	dna	_	_	_	_	_	
+5-33	454-461	kraških	_	A.1 Surface landform[6]	_	_	_	
+5-34	462-466	polj	_	A.1 Surface landform[6]	_	_	_	
+5-35	467-468	v	_	_	_	_	_	
+5-36	469-475	višini	_	_	_	_	_	
+5-37	476-485	Vorflutra	_	_	_	_	_	
+5-38	485-486	.	_	_	_	_	_	
+
+#Text=votlikavost, kavernoznost: Delež, ki odpade na votline v kraškem podzemlju.
+6-1	492-503	votlikavost	_	D.3 Property	DEFINIENDUM	_	_	
+6-2	503-504	,	_	_	_	_	_	
+6-3	505-517	kavernoznost	_	D.3 Property	DEFINIENDUM	_	_	
+6-4	517-518	:	_	_	_	_	_	
+6-5	519-524	Delež	_	D.3 Property	_	DEFINED\_AS[35]	_	
+6-6	524-525	,	_	_	_	DEFINED\_AS[35]	_	
+6-7	526-528	ki	_	_	_	DEFINED\_AS[35]	_	
+6-8	529-535	odpade	_	_	_	DEFINED\_AS[35]	_	
+6-9	536-538	na	_	_	_	DEFINED\_AS[35]	_	
+6-10	539-546	votline	_	D.1 Abiotic	_	DEFINED\_AS[35]	_	
+6-11	547-548	v	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION	
+6-12	549-556	kraškem	_	C. Geome[7]	_	HAS\_LOCATION[36]	_	
+6-13	557-566	podzemlju	_	C. Geome[7]	_	HAS\_LOCATION[36]	_	
+6-14	566-567	.	_	_	_	_	_	
+
+#Text=votlina: Vsak podzemeljski prostor.
+7-1	574-581	votlina	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-2	581-582	:	_	_	_	_	_	
+7-3	583-587	Vsak	_	_	_	_	_	
+7-4	588-600	podzemeljski	_	_	GENUS[20]	HAS\_FORM[37]	_	
+7-5	601-608	prostor	_	_	GENUS[20]	HAS\_FORM[37]	_	
+7-6	608-609	.	_	_	_	_	_	
+
+#Text=votlina: Večji podzemeljski prostor v nasprotju z ožjimi in nižjimi rovi.
+8-1	614-621	votlina	_	D.1 Abiotic	DEFINIENDUM	_	_	
+8-2	621-622	:	_	_	_	_	_	
+8-3	623-628	Večji	_	_	_	HAS\_SIZE	_	
+8-4	629-641	podzemeljski	_	D.1 Abiotic[8]	GENUS[21]	_	_	
+8-5	642-649	prostor	_	D.1 Abiotic[8]	GENUS[21]	_	_	
+8-6	650-651	v	_	_	_	_	_	
+8-7	652-661	nasprotju	_	_	_	_	_	
+8-8	662-663	z	_	_	_	_	_	
+8-9	664-670	ožjimi	_	_	_	_	_	
+8-10	671-673	in	_	_	_	_	_	
+8-11	674-681	nižjimi	_	_	_	_	_	
+8-12	682-686	rovi	_	_	_	_	_	
+8-13	686-687	.	_	_	_	_	_	
+
+#Text=vrtrača: V Sloveniji ljudsko dolina, le v Beli Krajini draga. V slovenskem strokovnem slovstvu se je vrtača uveljavila v prvi polovici XX. stol., ker je dolina preširok pojem. Vrtača je depresijska oblika, navadno globoka več metrov in je bolj široka kot globoka.
+9-1	692-699	vrtrača	vrtača	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	699-700	:	_	_	_	_	_	
+9-3	701-702	V	_	_	_	_	_	
+9-4	703-712	Sloveniji	_	D.3.1 Geolocation	_	_	_	
+9-5	713-720	ljudsko	_	_	_	_	_	
+9-6	721-727	dolina	_	_	_	_	_	
+9-7	727-728	,	_	_	_	_	_	
+9-8	729-731	le	_	_	_	_	_	
+9-9	732-733	v	_	_	_	_	_	
+9-10	734-738	Beli	_	D.3.1 Geolocation[9]	_	_	_	
+9-11	739-746	Krajini	_	D.3.1 Geolocation[9]	_	_	_	
+9-12	747-752	draga	_	_	_	_	_	
+9-13	752-753	.	_	_	_	_	_	
+9-14	754-755	V	_	_	_	_	_	
+9-15	756-766	slovenskem	_	_	_	_	_	
+9-16	767-777	strokovnem	_	_	_	_	_	
+9-17	778-786	slovstvu	_	_	_	_	_	
+9-18	787-789	se	_	_	_	_	_	
+9-19	790-792	je	_	_	_	_	_	
+9-20	793-799	vrtača	_	_	_	_	_	
+9-21	800-810	uveljavila	_	_	_	_	_	
+9-22	811-812	v	_	_	_	_	_	
+9-23	813-817	prvi	_	_	_	_	_	
+9-24	818-826	polovici	_	_	_	_	_	
+9-25	827-829	XX	_	_	_	_	_	
+9-26	829-830	.	_	_	_	_	_	
+9-27	831-835	stol	_	_	_	_	_	
+9-28	835-836	.	_	_	_	_	_	
+9-29	836-837	,	_	_	_	_	_	
+9-30	838-841	ker	_	_	_	_	_	
+9-31	842-844	je	_	_	_	_	_	
+9-32	845-851	dolina	_	D.1 Abiotic	_	_	_	
+9-33	852-860	preširok	_	_	_	_	_	
+9-34	861-866	pojem	_	_	_	_	_	
+9-35	866-867	.	_	_	_	_	_	
+9-36	868-874	Vrtača	_	_	_	_	_	
+9-37	875-877	je	_	_	_	_	_	
+9-38	878-889	depresijska	_	_	GENUS[22]	_	_	
+9-39	890-896	oblika	_	_	GENUS[22]	_	_	
+9-40	896-897	,	_	_	_	_	_	
+9-41	898-905	navadno	_	_	_	HAS\_SIZE[38]	_	
+9-42	906-913	globoka	_	_	_	HAS\_SIZE[38]	frame\_SIZE	
+9-43	914-917	več	_	_	_	HAS\_SIZE[38]	_	
+9-44	918-924	metrov	_	_	_	HAS\_SIZE[38]	_	
+9-45	925-927	in	_	_	_	HAS\_FORM[39]	_	
+9-46	928-930	je	_	_	_	HAS\_FORM[39]	_	
+9-47	931-935	bolj	_	_	_	HAS\_FORM[39]	_	
+9-48	936-942	široka	_	_	_	HAS\_FORM[39]	_	
+9-49	943-946	kot	_	_	_	HAS\_FORM[39]	_	
+9-50	947-954	globoka	_	_	_	HAS\_FORM[39]	_	
+9-51	954-955	.	_	_	_	_	_	
+
+#Text=skledasta vrtača: V prečnem profilu je podobna skledi.
+10-1	960-969	skledasta	_	A.1 Surface landform[10]	DEFINIENDUM[23]	_	_	
+10-2	970-976	vrtača	_	A.1 Surface landform[10]	DEFINIENDUM[23]	_	_	
+10-3	976-977	:	_	_	_	_	_	
+10-4	978-979	V	_	_	_	HAS\_FORM[40]	_	
+10-5	980-987	prečnem	_	_	_	HAS\_FORM[40]	_	
+10-6	988-995	profilu	_	_	_	HAS\_FORM[40]	_	
+10-7	996-998	je	_	_	_	HAS\_FORM[40]	frame\_FORM[50]	
+10-8	999-1006	podobna	_	_	_	HAS\_FORM[40]	frame\_FORM[50]	
+10-9	1007-1013	skledi	_	_	_	HAS\_FORM[40]	_	
+10-10	1013-1014	.	_	_	_	HAS\_FORM[40]	_	
+
+#Text=lijakasta vrtača: Je brez ravnega dna, pobočja pa se navzgor odpirajo.
+11-1	1019-1028	lijakasta	_	A.1 Surface landform[11]	DEFINIENDUM[24]	_	_	
+11-2	1029-1035	vrtača	_	A.1 Surface landform[11]	DEFINIENDUM[24]	_	_	
+11-3	1035-1036	:	_	_	_	_	_	
+11-4	1037-1039	Je	_	_	DEFINITOR	HAS\_FORM[41]	_	
+11-5	1040-1044	brez	_	_	_	HAS\_FORM[41]	frame\_FORM	
+11-6	1045-1052	ravnega	_	_	_	HAS\_FORM[41]	_	
+11-7	1053-1056	dna	_	D.1 Abiotic	_	HAS\_FORM[41]	_	
+11-8	1056-1057	,	_	_	_	_	_	
+11-9	1058-1065	pobočja	_	D.1 Abiotic	_	HAS\_FORM[42]	_	
+11-10	1066-1068	pa	_	_	_	HAS\_FORM[42]	_	
+11-11	1069-1071	se	_	_	_	HAS\_FORM[42]	_	
+11-12	1072-1079	navzgor	_	_	_	HAS\_FORM[42]	_	
+11-13	1080-1088	odpirajo	_	_	_	HAS\_FORM[42]	_	
+11-14	1088-1089	.	_	_	_	_	_	
+
+#Text=kotlasta vrtača: Ima strme stene in ravnejše dno.
+12-1	1094-1102	kotlasta	_	A.1 Surface landform[12]	DEFINIENDUM[25]	_	_	
+12-2	1103-1109	vrtača	_	A.1 Surface landform[12]	DEFINIENDUM[25]	_	_	
+12-3	1109-1110	:	_	_	_	_	_	
+12-4	1111-1114	Ima	_	_	_	HAS\_FORM[43]	frame\_FORM	
+12-5	1115-1120	strme	_	_	_	HAS\_FORM[43]	_	
+12-6	1121-1126	stene	_	D.1 Abiotic	_	HAS\_FORM[43]	_	
+12-7	1127-1129	in	_	_	_	HAS\_FORM[44]	_	
+12-8	1130-1138	ravnejše	_	_	_	HAS\_FORM[44]	_	
+12-9	1139-1142	dno	_	D.1 Abiotic	_	HAS\_FORM[44]	_	
+12-10	1142-1143	.	_	_	_	_	_	
+
+#Text=vodnjakasta vrtača: Globoka vrtača s strmimi stenami.
+13-1	1148-1159	vodnjakasta	_	A.1 Surface landform[13]	DEFINIENDUM[26]	_	_	
+13-2	1160-1166	vrtača	_	A.1 Surface landform[13]	DEFINIENDUM[26]	_	_	
+13-3	1166-1167	:	_	_	_	_	_	
+13-4	1168-1175	Globoka	_	_	_	HAS\_SIZE	_	
+13-5	1176-1182	vrtača	_	A.1 Surface landform	GENUS	_	_	
+13-6	1183-1184	s	_	_	_	HAS\_FORM[45]	frame\_FORM	
+13-7	1185-1192	strmimi	_	_	_	HAS\_FORM[45]	_	
+13-8	1193-1200	stenami	_	D.1 Abiotic	_	HAS\_FORM[45]	_	
+13-9	1200-1201	.	_	_	_	_	_	
+
+#Text=aluvialna vrtača: Vrtača, nastala v naplavinah.
+14-1	1206-1215	aluvialna	_	A.1 Surface landform[14]	DEFINIENDUM[27]	_	_	
+14-2	1216-1222	vrtača	_	A.1 Surface landform[14]	DEFINIENDUM[27]	_	_	
+14-3	1222-1223	:	_	_	_	_	_	
+14-4	1224-1230	Vrtača	_	A.1 Surface landform	GENUS	_	_	
+14-5	1230-1231	,	_	_	_	_	_	
+14-6	1232-1239	nastala	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[51]	
+14-7	1240-1241	v	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[51]	
+14-8	1242-1252	naplavinah	_	_	_	HAS\_CAUSE[46]	_	
+14-9	1252-1253	.	_	_	_	_	_	
+
+#Text=skalna vrtača: Vrtača, katere dno in pobočje je skalnato.
+15-1	1258-1264	skalna	_	A.1 Surface landform[15]	DEFINIENDUM[28]	_	_	
+15-2	1265-1271	vrtača	_	A.1 Surface landform[15]	DEFINIENDUM[28]	_	_	
+15-3	1271-1272	:	_	_	_	_	_	
+15-4	1273-1279	Vrtača	_	A.1 Surface landform	GENUS	_	_	
+15-5	1279-1280	,	_	_	_	_	_	
+15-6	1281-1287	katere	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+15-7	1288-1291	dno	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[47]	_	
+15-8	1292-1294	in	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+15-9	1295-1302	pobočje	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[47]	_	
+15-10	1303-1305	je	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+15-11	1306-1314	skalnato	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+15-12	1314-1315	.	_	_	_	_	_	

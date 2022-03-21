@@ -1,0 +1,530 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=gelifrakcija – drobljenje stijena zbog naizmjeničnog zamržnjavanja (širenje) i odmržnjavanja vode u pukotinama. Tim procesom nastaju stjenoviti pejzaži u planinskom kršu (v. krš) i osuline (v.) pod strmcima. Proces je bio posebno intenzivan za vrijeme pleistocenskih oledbi.
+1-1	0-12	gelifrakcija	_	B.4 Transformation	DEFINIENDUM	_	_	
+1-2	13-14	–	_	_	_	_	_	
+1-3	15-25	drobljenje	_	B.4 Transformation[3]	GENUS[16]	_	_	
+1-4	26-33	stijena	_	B.4 Transformation[3]	GENUS[16]	_	_	
+1-5	34-38	zbog	_	_	_	HAS\_CAUSE[26]	frame\_CAUSE	
+1-6	39-52	naizmjeničnog	_	_	_	HAS\_CAUSE[26]	_	
+1-7	53-66	zamržnjavanja	zamržnjavanje vode	B.4 Transformation	_	HAS\_CAUSE[26]	_	
+1-8	67-68	(	_	_	_	HAS\_CAUSE[26]	_	
+1-9	68-75	širenje	_	_	_	HAS\_CAUSE[26]	_	
+1-10	75-76	)	_	_	_	HAS\_CAUSE[26]	_	
+1-11	77-78	i	_	_	_	HAS\_CAUSE[26]	_	
+1-12	79-92	odmržnjavanja	_	B.4 Transformation[4]	_	HAS\_CAUSE[26]	_	
+1-13	93-97	vode	_	B.4 Transformation[4]	_	HAS\_CAUSE[26]	_	
+1-14	98-99	u	_	_	_	HAS\_CAUSE[26]	_	
+1-15	100-110	pukotinama	_	_	_	HAS\_CAUSE[26]	_	
+1-16	110-111	.	_	_	_	_	_	
+1-17	112-115	Tim	_	_	_	_	_	
+1-18	116-124	procesom	_	_	_	_	_	
+1-19	125-132	nastaju	_	_	_	HAS\_RESULT[27]	_	
+1-20	133-143	stjenoviti	_	_	_	HAS\_RESULT[27]	_	
+1-21	144-151	pejzaži	_	_	_	HAS\_RESULT[27]	_	
+1-22	152-153	u	_	_	_	HAS\_LOCATION[28]	frame\_LOCATION	
+1-23	154-164	planinskom	_	_	_	HAS\_LOCATION[28]	_	
+1-24	165-169	kršu	_	_	_	HAS\_LOCATION[28]	_	
+1-25	170-171	(	_	_	_	_	_	
+1-26	171-172	v	_	_	_	_	_	
+1-27	172-173	.	_	_	_	_	_	
+1-28	174-177	krš	_	_	_	_	_	
+1-29	177-178	)	_	_	_	_	_	
+1-30	179-180	i	_	_	_	_	_	
+1-31	181-188	osuline	_	_	_	HAS\_RESULT	_	
+1-32	189-190	(	_	_	_	_	_	
+1-33	190-191	v	_	_	_	_	_	
+1-34	191-192	.	_	_	_	_	_	
+1-35	192-193	)	_	_	_	_	_	
+1-36	194-197	pod	_	_	_	HAS\_LOCATION[29]	_	
+1-37	198-206	strmcima	_	_	_	HAS\_LOCATION[29]	_	
+1-38	206-207	.	_	_	_	_	_	
+1-39	208-214	Proces	_	_	_	_	_	
+1-40	215-217	je	_	_	_	_	_	
+1-41	218-221	bio	_	_	_	_	_	
+1-42	222-229	posebno	_	_	_	_	_	
+1-43	230-240	intenzivan	_	_	_	_	_	
+1-44	241-243	za	_	_	_	OCCURS\_IN\_TIME[30]	frame\_TIME[63]	
+1-45	244-251	vrijeme	_	_	_	OCCURS\_IN\_TIME[30]	frame\_TIME[63]	
+1-46	252-266	pleistocenskih	_	_	_	OCCURS\_IN\_TIME[30]	_	
+1-47	267-273	oledbi	_	_	_	OCCURS\_IN\_TIME[30]	_	
+1-48	273-274	.	_	_	_	_	_	
+
+#Text=geoda – šupljina u stijeni ispunjena sekrecijom minerala (v. vrsta).
+2-1	276-281	geoda	_	A.2 Underground landform	DEFINIENDUM	_	_	
+2-2	282-283	–	_	_	_	_	_	
+2-3	284-292	šupljina	_	_	GENUS[17]	_	_	
+2-4	293-294	u	_	_	GENUS[17]	HAS\_LOCATION[31]	_	
+2-5	295-302	stijeni	_	D.1 Abiotic	GENUS[17]	HAS\_LOCATION[31]	_	
+2-6	303-312	ispunjena	_	_	_	CONTAINS[32]	_	
+2-7	313-323	sekrecijom	_	_	_	CONTAINS[32]	_	
+2-8	324-332	minerala	_	_	_	CONTAINS[32]	_	
+2-9	333-334	(	_	_	_	_	_	
+2-10	334-335	v	_	_	_	_	_	
+2-11	335-336	.	_	_	_	_	_	
+2-12	337-342	vrsta	_	_	_	_	_	
+2-13	342-343	)	_	_	_	_	_	
+2-14	343-344	.	_	_	_	_	_	
+
+#Text=geološke orgulje – korozijske udubine ispunjene mlađim sedimentima ili naplavinama; karakteristične su za podzemni, ekshumirani, pokriveni i subkutani krš (v. krš).
+3-1	346-354	geološke	_	A.2 Underground landform[5]	DEFINIENDUM[18]	_	_	
+3-2	355-362	orgulje	_	A.2 Underground landform[5]	DEFINIENDUM[18]	_	_	
+3-3	363-364	–	_	_	_	_	_	
+3-4	365-375	korozijske	_	A. Landform[6]	GENUS[19]	_	_	
+3-5	376-383	udubine	_	A. Landform[6]	GENUS[19]	_	_	
+3-6	384-393	ispunjene	_	_	_	CONTAINS[33]	_	
+3-7	394-400	mlađim	_	_	_	CONTAINS[33]	_	
+3-8	401-412	sedimentima	_	_	_	CONTAINS[33]	_	
+3-9	413-416	ili	_	_	_	CONTAINS[33]	_	
+3-10	417-428	naplavinama	_	_	_	CONTAINS[33]	_	
+3-11	428-429	;	_	_	_	_	_	
+3-12	430-445	karakteristične	_	_	_	_	_	
+3-13	446-448	su	_	_	_	_	_	
+3-14	449-451	za	_	_	_	_	_	
+3-15	452-460	podzemni	_	_	_	HAS\_LOCATION[34]	_	
+3-16	460-461	,	_	_	_	HAS\_LOCATION[34]	_	
+3-17	462-473	ekshumirani	_	_	_	HAS\_LOCATION[34]	_	
+3-18	473-474	,	_	_	_	HAS\_LOCATION[34]	_	
+3-19	475-484	pokriveni	_	_	_	HAS\_LOCATION[34]	_	
+3-20	485-486	i	_	_	_	HAS\_LOCATION[34]	_	
+3-21	487-496	subkutani	_	_	_	HAS\_LOCATION[34]	_	
+3-22	497-500	krš	_	_	_	HAS\_LOCATION[34]	_	
+3-23	501-502	(	_	_	_	_	_	
+3-24	502-503	v	_	_	_	_	_	
+3-25	503-504	.	_	_	_	_	_	
+3-26	505-508	krš	_	_	_	_	_	
+3-27	508-509	)	_	_	_	_	_	
+3-28	509-510	.	_	_	_	_	_	
+
+#Text=glina – taložine sa stavljene od najfinijih čestica (promjer manje od 0,004 mm); različitog su kemijskog sastava. Vlažna g. (mulj) postaje veoma plastična. U kršu su posebno važne g. nastale dekalcifikacijom (v.).
+4-1	512-517	glina	_	D.1 Abiotic	DEFINIENDUM	_	_	
+4-2	518-519	–	_	_	_	_	_	
+4-3	520-528	taložine	_	D.1 Abiotic	GENUS	_	_	
+4-4	529-531	sa	_	_	_	_	_	
+4-5	532-541	stavljene	_	_	_	_	_	
+4-6	542-544	od	_	_	_	COMPOSITION\_MEDIUM[35]	_	
+4-7	545-555	najfinijih	_	_	_	COMPOSITION\_MEDIUM[35]	_	
+4-8	556-563	čestica	_	_	_	COMPOSITION\_MEDIUM[35]	_	
+4-9	564-565	(	_	_	_	_	_	
+4-10	565-572	promjer	_	_	_	_	_	
+4-11	573-578	manje	_	_	_	_	_	
+4-12	579-581	od	_	_	_	_	_	
+4-13	582-587	0,004	_	_	_	_	_	
+4-14	588-590	mm	_	_	_	_	_	
+4-15	590-591	)	_	_	_	_	_	
+4-16	591-592	;	_	_	_	_	_	
+4-17	593-603	različitog	_	_	_	_	_	
+4-18	604-606	su	_	_	_	_	_	
+4-19	607-616	kemijskog	_	_	_	_	_	
+4-20	617-624	sastava	_	_	_	_	_	
+4-21	624-625	.	_	_	_	_	_	
+4-22	626-632	Vlažna	_	_	_	_	_	
+4-23	633-634	g	_	_	_	_	_	
+4-24	634-635	.	_	_	_	_	_	
+4-25	636-637	(	_	_	_	_	_	
+4-26	637-641	mulj	_	_	_	_	_	
+4-27	641-642	)	_	_	_	_	_	
+4-28	643-650	postaje	_	_	_	HAS\_FORM[36]	_	
+4-29	651-656	veoma	_	_	_	HAS\_FORM[36]	_	
+4-30	657-666	plastična	_	_	_	HAS\_FORM[36]	_	
+4-31	666-667	.	_	_	_	_	_	
+4-32	668-669	U	_	_	_	_	_	
+4-33	670-674	kršu	_	_	_	_	_	
+4-34	675-677	su	_	_	_	_	_	
+4-35	678-685	posebno	_	_	_	_	_	
+4-36	686-691	važne	_	_	_	_	_	
+4-37	692-693	g	_	_	_	_	_	
+4-38	693-694	.	_	_	_	_	_	
+4-39	695-702	nastale	_	_	_	HAS\_CAUSE[37]	_	
+4-40	703-719	dekalcifikacijom	_	_	_	HAS\_CAUSE[37]	_	
+4-41	720-721	(	_	_	_	_	_	
+4-42	721-722	v	_	_	_	_	_	
+4-43	722-723	.	_	_	_	_	_	
+4-44	723-724	)	_	_	_	_	_	
+4-45	724-725	.	_	_	_	_	_	
+
+#Text=glinena piramida – piramidni i slični oblici, visoki od nekoliko centimetara do nekoliko decimetara, izmodelirani kapnicom (v.) u glinovitom pokrovu dna spilja i pećina.
+5-1	727-734	glinena	_	A.2 Underground landform[7]	DEFINIENDUM[20]	_	_	
+5-2	735-743	piramida	_	A.2 Underground landform[7]	DEFINIENDUM[20]	_	_	
+5-3	744-745	–	_	_	_	_	_	
+5-4	746-755	piramidni	_	_	_	DEFINED\_AS[38]	_	
+5-5	756-757	i	_	_	_	DEFINED\_AS[38]	_	
+5-6	758-764	slični	_	_	_	DEFINED\_AS[38]	_	
+5-7	765-771	oblici	_	_	_	DEFINED\_AS[38]	_	
+5-8	771-772	,	_	_	_	_	_	
+5-9	773-779	visoki	_	_	_	HAS\_SIZE[39]	_	
+5-10	780-782	od	_	_	_	HAS\_SIZE[39]	_	
+5-11	783-791	nekoliko	_	_	_	HAS\_SIZE[39]	_	
+5-12	792-803	centimetara	_	_	_	HAS\_SIZE[39]	_	
+5-13	804-806	do	_	_	_	HAS\_SIZE[39]	_	
+5-14	807-815	nekoliko	_	_	_	HAS\_SIZE[39]	_	
+5-15	816-826	decimetara	_	_	_	HAS\_SIZE[39]	_	
+5-16	826-827	,	_	_	_	_	_	
+5-17	828-840	izmodelirani	_	_	_	_	_	
+5-18	841-849	kapnicom	_	_	_	_	_	
+5-19	850-851	(	_	_	_	_	_	
+5-20	851-852	v	_	_	_	_	_	
+5-21	852-853	.	_	_	_	_	_	
+5-22	853-854	)	_	_	_	_	_	
+5-23	855-856	u	_	_	_	HAS\_LOCATION[40]	_	
+5-24	857-867	glinovitom	_	_	_	HAS\_LOCATION[40]	_	
+5-25	868-875	pokrovu	_	_	_	HAS\_LOCATION[40]	_	
+5-26	876-879	dna	_	_	_	HAS\_LOCATION[40]	_	
+5-27	880-886	spilja	_	_	_	HAS\_LOCATION[40]	_	
+5-28	887-888	i	_	_	_	HAS\_LOCATION[40]	_	
+5-29	889-895	pećina	_	_	_	HAS\_LOCATION[40]	_	
+5-30	895-896	.	_	_	_	_	_	
+
+#Text=gomila – narodni termin za umjetnu, rjeđe prirodnu nakupinu stjenovitog kršja. G. su česti prethistorijski spomenici u pojasu po kretnog submediteranskog stočarenja, a posebno su karakteristične za krčevine na kršu; svaki rad na kršu povezan je s izdvajanjem stjenovitih od rahlih dijelova i njihovim gomilanjem u gomile. I gelifrakcijom (v.) u pla ninskom kršu nastaju gomilasti oblici. G. često susrećemo u toponimima.
+6-1	898-904	gomila	_	D.1 Abiotic	DEFINIENDUM	_	_	
+6-2	905-906	–	_	_	_	_	_	
+6-3	907-914	narodni	_	_	_	_	_	
+6-4	915-921	termin	_	_	_	_	_	
+6-5	922-924	za	_	_	_	_	_	
+6-6	925-932	umjetnu	_	_	_	DEFINED\_AS[41]	_	
+6-7	932-933	,	_	_	_	DEFINED\_AS[41]	_	
+6-8	934-939	rjeđe	_	_	_	DEFINED\_AS[41]	_	
+6-9	940-948	prirodnu	_	_	_	DEFINED\_AS[41]	_	
+6-10	949-957	nakupinu	_	_	_	DEFINED\_AS[41]	_	
+6-11	958-969	stjenovitog	stjenovito kršje[1]	_	_	DEFINED\_AS[41]	_	
+6-12	970-975	kršja	stjenovito kršje[1]	_	_	DEFINED\_AS[41]	_	
+6-13	975-976	.	_	_	_	_	_	
+6-14	977-978	G	_	_	_	_	_	
+6-15	978-979	.	_	_	_	_	_	
+6-16	980-982	su	_	_	_	_	_	
+6-17	983-988	česti	_	_	_	_	_	
+6-18	989-1004	prethistorijski	_	_	_	_	_	
+6-19	1005-1014	spomenici	_	_	_	_	_	
+6-20	1015-1016	u	_	_	_	HAS\_LOCATION[42]	_	
+6-21	1017-1023	pojasu	_	_	_	HAS\_LOCATION[42]	_	
+6-22	1024-1026	po	_	_	_	HAS\_LOCATION[42]	_	
+6-23	1027-1034	kretnog	_	_	_	HAS\_LOCATION[42]	_	
+6-24	1035-1051	submediteranskog	_	_	_	HAS\_LOCATION[42]	_	
+6-25	1052-1062	stočarenja	_	_	_	HAS\_LOCATION[42]	_	
+6-26	1062-1063	,	_	_	_	_	_	
+6-27	1064-1065	a	_	_	_	_	_	
+6-28	1066-1073	posebno	_	_	_	_	_	
+6-29	1074-1076	su	_	_	_	_	_	
+6-30	1077-1092	karakteristične	_	_	_	_	_	
+6-31	1093-1095	za	_	_	_	_	_	
+6-32	1096-1104	krčevine	_	_	_	HAS\_LOCATION[43]	_	
+6-33	1105-1107	na	_	_	_	HAS\_LOCATION[43]	_	
+6-34	1108-1112	kršu	_	_	_	HAS\_LOCATION[43]	_	
+6-35	1112-1113	;	_	_	_	_	_	
+6-36	1114-1119	svaki	_	_	_	_	_	
+6-37	1120-1123	rad	_	_	_	_	_	
+6-38	1124-1126	na	_	_	_	_	_	
+6-39	1127-1131	kršu	_	_	_	_	_	
+6-40	1132-1139	povezan	_	_	_	_	_	
+6-41	1140-1142	je	_	_	_	_	_	
+6-42	1143-1144	s	_	_	_	_	_	
+6-43	1145-1156	izdvajanjem	_	_	_	HAS\_CAUSE[44]	_	
+6-44	1157-1168	stjenovitih	_	_	_	HAS\_CAUSE[44]	_	
+6-45	1169-1171	od	_	_	_	HAS\_CAUSE[44]	_	
+6-46	1172-1178	rahlih	_	_	_	HAS\_CAUSE[44]	_	
+6-47	1179-1187	dijelova	_	_	_	HAS\_CAUSE[44]	_	
+6-48	1188-1189	i	_	_	_	HAS\_CAUSE[44]	_	
+6-49	1190-1198	njihovim	_	_	_	HAS\_CAUSE[44]	_	
+6-50	1199-1209	gomilanjem	_	_	_	HAS\_CAUSE[44]	_	
+6-51	1210-1211	u	_	_	_	_	_	
+6-52	1212-1218	gomile	_	_	_	_	_	
+6-53	1218-1219	.	_	_	_	_	_	
+6-54	1220-1221	I	_	_	_	_	_	
+6-55	1222-1235	gelifrakcijom	_	_	_	HAS\_CAUSE	_	
+6-56	1236-1237	(	_	_	_	_	_	
+6-57	1237-1238	v	_	_	_	_	_	
+6-58	1238-1239	.	_	_	_	_	_	
+6-59	1239-1240	)	_	_	_	_	_	
+6-60	1241-1242	u	_	_	_	_	_	
+6-61	1243-1246	pla	_	_	_	_	_	
+6-62	1247-1254	ninskom	_	_	_	_	_	
+6-63	1255-1259	kršu	_	_	_	_	_	
+6-64	1260-1267	nastaju	_	_	_	_	_	
+6-65	1268-1277	gomilasti	_	_	_	_	_	
+6-66	1278-1284	oblici	_	_	_	_	_	
+6-67	1284-1285	.	_	_	_	_	_	
+6-68	1286-1287	G	_	_	_	_	_	
+6-69	1287-1288	.	_	_	_	_	_	
+6-70	1289-1294	često	_	_	_	_	_	
+6-71	1295-1304	susrećemo	_	_	_	_	_	
+6-72	1305-1306	u	_	_	_	_	_	
+6-73	1307-1317	toponimima	_	_	_	_	_	
+6-74	1317-1318	.	_	_	_	_	_	
+
+#Text=greda – istaknut i izdužen stjenoviti oblik, značajan za reljef krša i uvjetovan otpornijim slojevima ili bankov skim vapnencima.
+7-1	1320-1325	greda	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-2	1326-1327	–	_	_	_	_	_	
+7-3	1328-1336	istaknut	_	_	_	DEFINED\_AS[45]	_	
+7-4	1337-1338	i	_	_	_	DEFINED\_AS[45]	_	
+7-5	1339-1346	izdužen	_	_	_	DEFINED\_AS[45]	_	
+7-6	1347-1357	stjenoviti	_	_	_	DEFINED\_AS[45]	_	
+7-7	1358-1363	oblik	_	_	_	DEFINED\_AS[45]	_	
+7-8	1363-1364	,	_	_	_	_	_	
+7-9	1365-1373	značajan	_	_	_	_	_	
+7-10	1374-1376	za	_	_	_	_	_	
+7-11	1377-1383	reljef	_	_	_	HAS\_LOCATION[46]	_	
+7-12	1384-1388	krša	_	_	_	HAS\_LOCATION[46]	_	
+7-13	1389-1390	i	_	_	_	_	_	
+7-14	1391-1400	uvjetovan	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+7-15	1401-1411	otpornijim	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+7-16	1412-1421	slojevima	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+7-17	1422-1425	ili	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+7-18	1426-1432	bankov	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+7-19	1433-1437	skim	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+7-20	1438-1448	vapnencima	_	_	_	COMPOSITION\_MEDIUM[47]	_	
+7-21	1448-1449	.	_	_	_	_	_	
+
+#Text=griža – kamenjara (v.) razbijena u blokove, koji su korozijski jako i nepravilno na griženi. Termin raširen u primorskom kršu, a odražava se i u toponimima (Grižane).
+8-1	1451-1456	griža	_	D.1 Abiotic	DEFINIENDUM	_	_	
+8-2	1457-1458	–	_	_	_	_	_	
+8-3	1459-1468	kamenjara	_	D.1 Abiotic	_	DEFINED\_AS[48]	_	
+8-4	1469-1470	(	_	_	_	DEFINED\_AS[48]	_	
+8-5	1470-1471	v	_	_	_	DEFINED\_AS[48]	_	
+8-6	1471-1472	.	_	_	_	DEFINED\_AS[48]	_	
+8-7	1472-1473	)	_	_	_	DEFINED\_AS[48]	_	
+8-8	1474-1483	razbijena	_	_	_	DEFINED\_AS[48]	_	
+8-9	1484-1485	u	_	_	_	DEFINED\_AS[48]	_	
+8-10	1486-1493	blokove	_	_	_	DEFINED\_AS[48]	_	
+8-11	1493-1494	,	_	_	_	_	_	
+8-12	1495-1499	koji	_	_	_	_	_	
+8-13	1500-1502	su	_	_	_	_	_	
+8-14	1503-1513	korozijski	_	_	_	_	_	
+8-15	1514-1518	jako	_	_	_	_	_	
+8-16	1519-1520	i	_	_	_	_	_	
+8-17	1521-1531	nepravilno	_	_	_	_	_	
+8-18	1532-1534	na	_	_	_	_	_	
+8-19	1535-1542	griženi	_	_	_	_	_	
+8-20	1542-1543	.	_	_	_	_	_	
+8-21	1544-1550	Termin	_	_	_	_	_	
+8-22	1551-1558	raširen	_	_	_	_	_	
+8-23	1559-1560	u	_	_	_	HAS\_LOCATION[49]	_	
+8-24	1561-1571	primorskom	_	_	_	HAS\_LOCATION[49]	_	
+8-25	1572-1576	kršu	_	_	_	HAS\_LOCATION[49]	_	
+8-26	1576-1577	,	_	_	_	_	_	
+8-27	1578-1579	a	_	_	_	_	_	
+8-28	1580-1588	odražava	_	_	_	_	_	
+8-29	1589-1591	se	_	_	_	_	_	
+8-30	1592-1593	i	_	_	_	_	_	
+8-31	1594-1595	u	_	_	_	_	_	
+8-32	1596-1606	toponimima	_	_	_	_	_	
+8-33	1607-1608	(	_	_	_	_	_	
+8-34	1608-1615	Grižane	_	_	_	_	_	
+8-35	1615-1616	)	_	_	_	_	_	
+8-36	1616-1617	.	_	_	_	_	_	
+
+#Text=grižine – udubine kojima su najedene plohe vapnenaca, sinonim za škrape.
+9-1	1619-1626	grižine	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	1627-1628	–	_	_	_	_	_	
+9-3	1629-1636	udubine	_	_	_	DEFINED\_AS[50]	_	
+9-4	1637-1643	kojima	_	_	_	DEFINED\_AS[50]	_	
+9-5	1644-1646	su	_	_	_	DEFINED\_AS[50]	_	
+9-6	1647-1655	najedene	_	_	_	DEFINED\_AS[50]	_	
+9-7	1656-1661	plohe	_	_	_	DEFINED\_AS[50]	_	
+9-8	1662-1671	vapnenaca	_	_	_	DEFINED\_AS[50]	_	
+9-9	1671-1672	,	_	_	_	_	_	
+9-10	1673-1680	sinonim	_	_	_	_	_	
+9-11	1681-1683	za	_	_	_	_	_	
+9-12	1684-1690	škrape	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-13	1690-1691	.	_	_	_	_	_	
+
+#Text=heliktit – sigasta tvorevina, prvenstveno stalaktit, koja je razvijena u obliku složenih grančica i radijalnih stupčića. Ti složeni oblici redovito nastaju pri kristaliziranju aragonita (v.), a ima i kalcitnih. Posebni uvjeti kristaliziranja su utjecali na razvoj.
+10-1	1693-1701	heliktit	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	1702-1703	–	_	_	_	_	_	
+10-3	1704-1711	sigasta	_	A.2 Underground landform[8]	_	DEFINED\_AS[51]	_	
+10-4	1712-1721	tvorevina	_	A.2 Underground landform[8]	_	DEFINED\_AS[51]	_	
+10-5	1721-1722	,	_	_	_	_	_	
+10-6	1723-1734	prvenstveno	_	_	_	_	_	
+10-7	1735-1744	stalaktit	_	A.2 Underground landform	GENUS	_	_	
+10-8	1744-1745	,	_	_	_	_	_	
+10-9	1746-1750	koja	_	_	_	_	_	
+10-10	1751-1753	je	_	_	_	_	_	
+10-11	1754-1763	razvijena	_	_	_	_	_	
+10-12	1764-1765	u	_	_	_	HAS\_FORM[52]	_	
+10-13	1766-1772	obliku	_	_	_	HAS\_FORM[52]	_	
+10-14	1773-1781	složenih	_	_	_	HAS\_FORM[52]	_	
+10-15	1782-1790	grančica	_	_	_	HAS\_FORM[52]	_	
+10-16	1791-1792	i	_	_	_	HAS\_FORM[52]	_	
+10-17	1793-1803	radijalnih	_	_	_	HAS\_FORM[52]	_	
+10-18	1804-1812	stupčića	_	_	_	HAS\_FORM[52]	_	
+10-19	1812-1813	.	_	_	_	_	_	
+10-20	1814-1816	Ti	_	_	_	_	_	
+10-21	1817-1824	složeni	_	_	_	_	_	
+10-22	1825-1831	oblici	_	_	_	_	_	
+10-23	1832-1840	redovito	_	_	_	_	_	
+10-24	1841-1848	nastaju	_	_	_	HAS\_CAUSE[53]	_	
+10-25	1849-1852	pri	_	_	_	HAS\_CAUSE[53]	_	
+10-26	1853-1868	kristaliziranju	_	_	_	HAS\_CAUSE[53]	_	
+10-27	1869-1878	aragonita	_	_	_	HAS\_CAUSE[53]	_	
+10-28	1879-1880	(	_	_	_	_	_	
+10-29	1880-1881	v	_	_	_	_	_	
+10-30	1881-1882	.	_	_	_	_	_	
+10-31	1882-1883	)	_	_	_	_	_	
+10-32	1883-1884	,	_	_	_	_	_	
+10-33	1885-1886	a	_	_	_	_	_	
+10-34	1887-1890	ima	_	_	_	_	_	
+10-35	1891-1892	i	_	_	_	_	_	
+10-36	1893-1902	kalcitnih	_	_	_	HAS\_CAUSE	_	
+10-37	1902-1903	.	_	_	_	_	_	
+10-38	1904-1911	Posebni	_	_	_	_	_	
+10-39	1912-1918	uvjeti	_	_	_	_	_	
+10-40	1919-1934	kristaliziranja	_	_	_	_	_	
+10-41	1935-1937	su	_	_	_	_	_	
+10-42	1938-1946	utjecali	_	_	_	_	_	
+10-43	1947-1949	na	_	_	_	_	_	
+10-44	1950-1956	razvoj	_	_	_	_	_	
+10-45	1956-1957	.	_	_	_	_	_	
+
+#Text=hidrogeologija krša – istražuje geološke uvjete pojavljivanja i tečenja voda u kršu. Hidrogeološko istraživanje je osnova umjetnih vodnih zahvata u kršu.
+11-1	1959-1973	hidrogeologija	_	E.2 Method[9]	DEFINIENDUM[21]	_	_	
+11-2	1974-1978	krša	_	E.2 Method[9]	DEFINIENDUM[21]	_	_	
+11-3	1979-1980	–	_	_	_	_	_	
+11-4	1981-1990	istražuje	_	_	_	STUDIES[54]	_	
+11-5	1991-1999	geološke	_	_	_	STUDIES[54]	_	
+11-6	2000-2006	uvjete	_	_	_	STUDIES[54]	_	
+11-7	2007-2020	pojavljivanja	_	_	_	STUDIES[54]	_	
+11-8	2021-2022	i	_	_	_	STUDIES[54]	_	
+11-9	2023-2030	tečenja	_	_	_	STUDIES[54]	_	
+11-10	2031-2035	voda	_	_	_	STUDIES[54]	_	
+11-11	2036-2037	u	_	_	_	STUDIES[54]	_	
+11-12	2038-2042	kršu	_	_	_	STUDIES[54]	_	
+11-13	2042-2043	.	_	_	_	_	_	
+11-14	2044-2057	Hidrogeološko	_	_	_	_	_	
+11-15	2058-2070	istraživanje	_	_	_	_	_	
+11-16	2071-2073	je	_	_	_	_	_	
+11-17	2074-2080	osnova	_	_	_	_	_	
+11-18	2081-2089	umjetnih	_	_	_	_	_	
+11-19	2090-2096	vodnih	_	_	_	_	_	
+11-20	2097-2104	zahvata	_	_	_	_	_	
+11-21	2105-2106	u	_	_	_	_	_	
+11-22	2107-2111	kršu	_	_	_	_	_	
+11-23	2111-2112	.	_	_	_	_	_	
+
+#Text=hidrogeološki regulator (m) – izdanak nepropusne klastične podloge koji uvjetuje pojavu stalnih izvora, odnosno rijeka u kršu. Tim izbijanjima su određena hidrografska čvorišta (v.).
+12-1	2114-2127	hidrogeološki	_	A.3 Hydrological form[10]	DEFINIENDUM[22]	_	_	
+12-2	2128-2137	regulator	_	A.3 Hydrological form[10]	DEFINIENDUM[22]	_	_	
+12-3	2138-2139	(	_	_	_	_	_	
+12-4	2139-2140	m	_	_	_	_	_	
+12-5	2140-2141	)	_	_	_	_	_	
+12-6	2142-2143	–	_	_	_	_	_	
+12-7	2144-2151	izdanak	_	_	_	DEFINED\_AS[55]	_	
+12-8	2152-2162	nepropusne	_	_	_	DEFINED\_AS[55]	_	
+12-9	2163-2172	klastične	_	_	_	DEFINED\_AS[55]	_	
+12-10	2173-2180	podloge	_	_	_	DEFINED\_AS[55]	_	
+12-11	2181-2185	koji	_	_	_	_	_	
+12-12	2186-2194	uvjetuje	_	_	_	HAS\_RESULT[56]	_	
+12-13	2195-2201	pojavu	_	_	_	HAS\_RESULT[56]	_	
+12-14	2202-2209	stalnih	_	A.3 Hydrological form[11]	_	HAS\_RESULT[56]	_	
+12-15	2210-2216	izvora	_	A.3 Hydrological form[11]	_	HAS\_RESULT[56]	_	
+12-16	2216-2217	,	_	_	_	HAS\_RESULT[56]	_	
+12-17	2218-2225	odnosno	_	_	_	HAS\_RESULT[56]	_	
+12-18	2226-2232	rijeka	pojava rijeka u kršu[2]	_	_	HAS\_RESULT[56]	_	
+12-19	2233-2234	u	pojava rijeka u kršu[2]	_	_	HAS\_RESULT[56]	_	
+12-20	2235-2239	kršu	pojava rijeka u kršu[2]	_	_	HAS\_RESULT[56]	_	
+12-21	2239-2240	.	_	_	_	_	_	
+12-22	2241-2244	Tim	_	_	_	_	_	
+12-23	2245-2256	izbijanjima	_	_	_	_	_	
+12-24	2257-2259	su	_	_	_	HAS\_FUNCTION[57]	_	
+12-25	2260-2268	određena	_	_	_	HAS\_FUNCTION[57]	_	
+12-26	2269-2281	hidrografska	_	_	_	HAS\_FUNCTION[57]	_	
+12-27	2282-2290	čvorišta	_	_	_	HAS\_FUNCTION[57]	_	
+12-28	2291-2292	(	_	_	_	_	_	
+12-29	2292-2293	v	_	_	_	_	_	
+12-30	2293-2294	.	_	_	_	_	_	
+12-31	2294-2295	)	_	_	_	_	_	
+12-32	2295-2296	.	_	_	_	_	_	
+
+#Text=hidrografija krša – utvrđuje i predočuje raspored i osobine voda u kršu.
+13-1	2298-2310	hidrografija	_	E.2 Method[12]	DEFINIENDUM[23]	_	_	
+13-2	2311-2315	krša	_	E.2 Method[12]	DEFINIENDUM[23]	_	_	
+13-3	2316-2317	–	_	_	_	_	_	
+13-4	2318-2326	utvrđuje	_	_	_	STUDIES[58]	_	
+13-5	2327-2328	i	_	_	_	STUDIES[58]	_	
+13-6	2329-2338	predočuje	_	_	_	STUDIES[58]	_	
+13-7	2339-2347	raspored	_	_	_	STUDIES[58]	_	
+13-8	2348-2349	i	_	_	_	STUDIES[58]	_	
+13-9	2350-2357	osobine	_	_	_	STUDIES[58]	_	
+13-10	2358-2362	voda	_	_	_	STUDIES[58]	_	
+13-11	2363-2364	u	_	_	_	STUDIES[58]	_	
+13-12	2365-2369	kršu	_	_	_	STUDIES[58]	_	
+13-13	2369-2370	.	_	_	_	_	_	
+
+#Text=hidrografsko čvorište – kraj gdje pojavom hidrogeološkog regulatora (v.) izbijaju vrela i razilaze se glavne tekućice Dinarskog krša.
+14-1	2372-2384	hidrografsko	_	A.3 Hydrological form[13]	DEFINIENDUM[24]	_	_	
+14-2	2385-2393	čvorište	_	A.3 Hydrological form[13]	DEFINIENDUM[24]	_	_	
+14-3	2394-2395	–	_	_	_	_	_	
+14-4	2396-2400	kraj	_	_	_	_	_	
+14-5	2401-2405	gdje	_	_	_	_	_	
+14-6	2406-2413	pojavom	_	_	_	HAS\_CAUSE[59]	_	
+14-7	2414-2428	hidrogeološkog	_	A.3 Hydrological form[14]	_	HAS\_CAUSE[59]	_	
+14-8	2429-2439	regulatora	_	A.3 Hydrological form[14]	_	HAS\_CAUSE[59]	_	
+14-9	2440-2441	(	_	_	_	_	_	
+14-10	2441-2442	v	_	_	_	_	_	
+14-11	2442-2443	.	_	_	_	_	_	
+14-12	2443-2444	)	_	_	_	_	_	
+14-13	2445-2453	izbijaju	_	_	_	HAS\_RESULT[60]	_	
+14-14	2454-2459	vrela	_	A.3 Hydrological form	_	HAS\_RESULT[60]	_	
+14-15	2460-2461	i	_	_	_	_	_	
+14-16	2462-2470	razilaze	_	_	_	HAS\_RESULT[61]	_	
+14-17	2471-2473	se	_	_	_	HAS\_RESULT[61]	_	
+14-18	2474-2480	glavne	_	_	_	HAS\_RESULT[61]	_	
+14-19	2481-2489	tekućice	_	_	_	HAS\_RESULT[61]	_	
+14-20	2490-2499	Dinarskog	_	_	_	HAS\_RESULT[61]	_	
+14-21	2500-2504	krša	_	_	_	HAS\_RESULT[61]	_	
+14-22	2504-2505	.	_	_	_	_	_	
+
+#Text=hidrologija krša – disciplina koja izučava odnos padalina i količine protjecanja te raspored voda u podzemnim šupljinama, vrelima, ponorima i tekućicama krša, zatim fizičke, kemijske i biološke osobine voda u kršu. Ponekad se pogrešno upotrebljava u značenju hidrogeologije krša (v.).
+15-1	2507-2518	hidrologija	_	E.2 Method[15]	DEFINIENDUM[25]	_	_	
+15-2	2519-2523	krša	_	E.2 Method[15]	DEFINIENDUM[25]	_	_	
+15-3	2524-2525	–	_	_	_	_	_	
+15-4	2526-2536	disciplina	_	_	_	STUDIES[62]	_	
+15-5	2537-2541	koja	_	_	_	STUDIES[62]	_	
+15-6	2542-2549	izučava	_	_	_	STUDIES[62]	_	
+15-7	2550-2555	odnos	_	_	_	STUDIES[62]	_	
+15-8	2556-2564	padalina	_	_	_	STUDIES[62]	_	
+15-9	2565-2566	i	_	_	_	STUDIES[62]	_	
+15-10	2567-2575	količine	_	_	_	STUDIES[62]	_	
+15-11	2576-2587	protjecanja	_	_	_	STUDIES[62]	_	
+15-12	2588-2590	te	_	_	_	STUDIES[62]	_	
+15-13	2591-2599	raspored	_	_	_	STUDIES[62]	_	
+15-14	2600-2604	voda	_	_	_	STUDIES[62]	_	
+15-15	2605-2606	u	_	_	_	STUDIES[62]	_	
+15-16	2607-2616	podzemnim	_	_	_	STUDIES[62]	_	
+15-17	2617-2627	šupljinama	_	_	_	STUDIES[62]	_	
+15-18	2627-2628	,	_	_	_	STUDIES[62]	_	
+15-19	2629-2636	vrelima	_	_	_	STUDIES[62]	_	
+15-20	2636-2637	,	_	_	_	STUDIES[62]	_	
+15-21	2638-2646	ponorima	_	_	_	STUDIES[62]	_	
+15-22	2647-2648	i	_	_	_	STUDIES[62]	_	
+15-23	2649-2659	tekućicama	_	_	_	STUDIES[62]	_	
+15-24	2660-2664	krša	_	_	_	STUDIES[62]	_	
+15-25	2664-2665	,	_	_	_	STUDIES[62]	_	
+15-26	2666-2671	zatim	_	_	_	STUDIES[62]	_	
+15-27	2672-2679	fizičke	_	_	_	STUDIES[62]	_	
+15-28	2679-2680	,	_	_	_	STUDIES[62]	_	
+15-29	2681-2689	kemijske	_	_	_	STUDIES[62]	_	
+15-30	2690-2691	i	_	_	_	STUDIES[62]	_	
+15-31	2692-2700	biološke	_	_	_	STUDIES[62]	_	
+15-32	2701-2708	osobine	_	_	_	STUDIES[62]	_	
+15-33	2709-2713	voda	_	_	_	STUDIES[62]	_	
+15-34	2714-2715	u	_	_	_	STUDIES[62]	_	
+15-35	2716-2720	kršu	_	_	_	STUDIES[62]	_	
+15-36	2720-2721	.	_	_	_	_	_	
+15-37	2722-2729	Ponekad	_	_	_	_	_	
+15-38	2730-2732	se	_	_	_	_	_	
+15-39	2733-2741	pogrešno	_	_	_	_	_	
+15-40	2742-2754	upotrebljava	_	_	_	_	_	
+15-41	2755-2756	u	_	_	_	_	_	
+15-42	2757-2765	značenju	_	_	_	_	_	
+15-43	2766-2780	hidrogeologije	_	_	_	_	_	
+15-44	2781-2785	krša	_	_	_	_	_	
+15-45	2786-2787	(	_	_	_	_	_	
+15-46	2787-2788	v	_	_	_	_	_	
+15-47	2788-2789	.	_	_	_	_	_	
+15-48	2789-2790	)	_	_	_	_	_	
+15-49	2790-2791	.	_	_	_	_	_	

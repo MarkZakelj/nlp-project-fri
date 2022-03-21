@@ -1,0 +1,414 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=biogena korozija: Korozija pod vplivom organizmov.
+1-1	0-7	biogena	_	B.2 Loss[2]	DEFINIENDUM[46]	_	_	
+1-2	8-16	korozija	_	B.2 Loss[2]	DEFINIENDUM[46]	_	_	
+1-3	16-17	:	_	_	_	_	_	
+1-4	18-26	Korozija	_	B.2 Loss	GENUS	_	_	
+1-5	27-30	pod	_	_	_	HAS\_CAUSE[64]	frame\_CAUSE[107]	
+1-6	31-38	vplivom	_	_	_	HAS\_CAUSE[64]	frame\_CAUSE[107]	
+1-7	39-49	organizmov	_	D.2 Biotic	_	HAS\_CAUSE[64]	_	
+1-8	49-50	.	_	_	_	_	_	
+
+#Text=korozija mešanice: Korozija mešanice temperaturno ali kemično neenakih vod, ki je postala po mešanju ponovno agresivna.
+2-1	55-63	korozija	_	B.2 Loss[3]	DEFINIENDUM[47]	_	_	
+2-2	64-72	mešanice	_	B.2 Loss[3]	DEFINIENDUM[47]	_	_	
+2-3	72-73	:	_	_	_	_	_	
+2-4	74-82	Korozija	_	B.2 Loss	GENUS	_	_	
+2-5	83-91	mešanice	_	_	_	HAS\_CAUSE[65]	_	
+2-6	92-104	temperaturno	_	_	_	HAS\_CAUSE[65]	_	
+2-7	105-108	ali	_	_	_	HAS\_CAUSE[65]	_	
+2-8	109-116	kemično	_	_	_	HAS\_CAUSE[65]	_	
+2-9	117-125	neenakih	_	_	_	HAS\_CAUSE[65]	_	
+2-10	126-129	vod	_	D.1 Abiotic	_	HAS\_CAUSE[65]	_	
+2-11	129-130	,	_	_	_	HAS\_CAUSE[65]	_	
+2-12	131-133	ki	_	_	_	HAS\_CAUSE[65]	_	
+2-13	134-136	je	_	_	_	HAS\_CAUSE[65]	_	
+2-14	137-144	postala	_	_	_	HAS\_CAUSE[65]	_	
+2-15	145-147	po	_	_	_	HAS\_CAUSE[65]	_	
+2-16	148-155	mešanju	_	_	_	HAS\_CAUSE[65]	_	
+2-17	156-163	ponovno	_	_	_	HAS\_CAUSE[65]	_	
+2-18	164-173	agresivna	_	D.3 Property	_	HAS\_CAUSE[65]	_	
+2-19	173-174	.	_	_	_	_	_	
+
+#Text=aluvialna korozija: Pospešena korozija karbonatne podlage, ki nastane zaradi premikanja vode skozi aluvialno odejo, bogato z ogljikovim dioksidom. Je značilna za prepustna dna kraških polj in slepih dolin, ki jih poglablja.
+3-1	179-188	aluvialna	_	B.2 Loss[4]	DEFINIENDUM[48]	_	_	
+3-2	189-197	korozija	_	B.2 Loss[4]	DEFINIENDUM[48]	_	_	
+3-3	197-198	:	_	_	_	_	_	
+3-4	199-208	Pospešena	_	_	_	_	_	
+3-5	209-217	korozija	_	B.2 Loss	GENUS	_	_	
+3-6	218-228	karbonatne	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[66]	_	
+3-7	229-236	podlage	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[66]	_	
+3-8	236-237	,	_	_	_	_	_	
+3-9	238-240	ki	_	_	_	HAS\_CAUSE[67]	_	
+3-10	241-248	nastane	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[108]	
+3-11	249-255	zaradi	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[108]	
+3-12	256-266	premikanja	_	B.1 Movement	_	HAS\_CAUSE[67]	_	
+3-13	267-271	vode	_	D.1 Abiotic	_	HAS\_CAUSE[67]	_	
+3-14	272-277	skozi	_	_	_	HAS\_CAUSE[67]	_	
+3-15	278-287	aluvialno	_	_	_	HAS\_CAUSE[67]	_	
+3-16	288-293	odejo	_	_	_	HAS\_CAUSE[67]	_	
+3-17	293-294	,	_	_	_	HAS\_CAUSE[67]	_	
+3-18	295-301	bogato	_	_	_	HAS\_CAUSE[67]	_	
+3-19	302-303	z	_	_	_	HAS\_CAUSE[67]	_	
+3-20	304-314	ogljikovim	_	D.1 Abiotic[6]	_	HAS\_CAUSE[67]	_	
+3-21	315-324	dioksidom	_	D.1 Abiotic[6]	_	HAS\_CAUSE[67]	_	
+3-22	324-325	.	_	_	_	_	_	
+3-23	326-328	Je	_	_	_	_	_	
+3-24	329-337	značilna	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[109]	
+3-25	338-340	za	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[109]	
+3-26	341-350	prepustna	_	D.3 Property[7]	_	HAS\_LOCATION[68]	_	
+3-27	351-354	dna	_	D.3 Property[7]	_	HAS\_LOCATION[68]	_	
+3-28	355-362	kraških	_	A.1 Surface landform[8]	_	HAS\_LOCATION[68]	_	
+3-29	363-367	polj	_	A.1 Surface landform[8]	_	HAS\_LOCATION[68]	_	
+3-30	368-370	in	_	_	_	HAS\_LOCATION[68]	_	
+3-31	371-377	slepih	_	A.1 Surface landform[9]	_	HAS\_LOCATION[68]	_	
+3-32	378-383	dolin	_	A.1 Surface landform[9]	_	HAS\_LOCATION[68]	_	
+3-33	383-384	,	_	_	_	_	_	
+3-34	385-387	ki	_	_	_	HAS\_RESULT[69]	_	
+3-35	388-391	jih	_	_	_	HAS\_RESULT[69]	_	
+3-36	392-401	poglablja	_	_	_	HAS\_RESULT[69]	_	
+3-37	401-402	.	_	_	_	_	_	
+
+#Text=podtalna korozija: Korozija karbonatne kamnine neposredno pod prstjo.
+4-1	407-415	podtalna	_	B.2 Loss[10]	DEFINIENDUM[49]	_	_	
+4-2	416-424	korozija	_	B.2 Loss[10]	DEFINIENDUM[49]	_	_	
+4-3	424-425	:	_	_	_	_	_	
+4-4	426-434	Korozija	_	B.2 Loss	GENUS	_	_	
+4-5	435-445	karbonatne	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[70]	_	
+4-6	446-453	kamnine	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[70]	_	
+4-7	454-464	neposredno	_	_	_	HAS\_LOCATION[71]	frame\_LOCATION[110]	
+4-8	465-468	pod	_	_	_	HAS\_LOCATION[71]	frame\_LOCATION[110]	
+4-9	469-475	prstjo	_	D.1 Abiotic	_	HAS\_LOCATION[71]	_	
+4-10	475-476	.	_	_	_	_	_	
+
+#Text=robna korozija, obrobna korozija, krajna korozija: Korozija karbonatne kamnine ob robu neprepustne naplavine, zaradi katere so stene kotanj ali kraških polj na kraju ponikanja korozijsko izpodžrte. Robna korozija razširja kraška polja, slepe doline, vrtače in druge kotanje z naplavljenim dnom.
+5-1	481-486	robna	_	B.2 Loss[12]	DEFINIENDUM[50]	_	_	
+5-2	487-495	korozija	_	B.2 Loss[12]	DEFINIENDUM[50]	_	_	
+5-3	495-496	,	_	_	_	_	_	
+5-4	497-504	obrobna	_	B.2 Loss[13]	DEFINIENDUM[51]	_	_	
+5-5	505-513	korozija	_	B.2 Loss[13]	DEFINIENDUM[51]	_	_	
+5-6	513-514	,	_	_	_	_	_	
+5-7	515-521	krajna	_	B.2 Loss[14]	DEFINIENDUM[52]	_	_	
+5-8	522-530	korozija	_	B.2 Loss[14]	DEFINIENDUM[52]	_	_	
+5-9	530-531	:	_	_	_	_	_	
+5-10	532-540	Korozija	_	B.2 Loss	GENUS	_	_	
+5-11	541-551	karbonatne	_	D.1 Abiotic[15]	_	COMPOSITION\_MEDIUM[72]	_	
+5-12	552-559	kamnine	_	D.1 Abiotic[15]	_	COMPOSITION\_MEDIUM[72]	_	
+5-13	560-562	ob	_	_	_	HAS\_LOCATION[73]	frame\_LOCATION[111]	
+5-14	563-567	robu	_	_	_	HAS\_LOCATION[73]	frame\_LOCATION[111]	
+5-15	568-579	neprepustne	_	_	_	HAS\_LOCATION[73]	_	
+5-16	580-589	naplavine	_	D.1 Abiotic	_	HAS\_LOCATION[73]	_	
+5-17	589-590	,	_	_	_	_	_	
+5-18	591-597	zaradi	_	_	_	HAS\_RESULT[74]	frame\_RESULT[112]	
+5-19	598-604	katere	_	_	_	HAS\_RESULT[74]	frame\_RESULT[112]	
+5-20	605-607	so	_	_	_	HAS\_RESULT[74]	frame\_RESULT[112]	
+5-21	608-613	stene	_	D.1 Abiotic[16]	_	HAS\_RESULT[74]	_	
+5-22	614-620	kotanj	_	D.1 Abiotic[16]|D.1 Abiotic[17]	_	HAS\_RESULT[74]	_	
+5-23	621-624	ali	_	_	_	HAS\_RESULT[74]	_	
+5-24	625-632	kraških	stene kraških polj[1]	A.1 Surface landform[18]	_	HAS\_RESULT[74]	_	
+5-25	633-637	polj	stene kraških polj[1]	A.1 Surface landform[18]	_	HAS\_RESULT[74]	_	
+5-26	638-640	na	_	_	_	HAS\_RESULT[74]	_	
+5-27	641-646	kraju	_	_	_	HAS\_RESULT[74]	_	
+5-28	647-656	ponikanja	_	_	_	HAS\_RESULT[74]	_	
+5-29	657-667	korozijsko	_	_	_	HAS\_RESULT[74]	_	
+5-30	668-677	izpodžrte	_	D.3 Property	_	HAS\_RESULT[74]	_	
+5-31	677-678	.	_	_	_	_	_	
+5-32	679-684	Robna	_	B.2 Loss[19]	_	HAS\_RESULT[75]	_	
+5-33	685-693	korozija	_	B.2 Loss[19]	_	HAS\_RESULT[75]	_	
+5-34	694-702	razširja	_	B.4 Transformation	_	HAS\_RESULT[75]	frame\_RESULT	
+5-35	703-709	kraška	_	A.1 Surface landform[20]	_	HAS\_RESULT[75]	_	
+5-36	710-715	polja	_	A.1 Surface landform[20]	_	HAS\_RESULT[75]	_	
+5-37	715-716	,	_	_	_	HAS\_RESULT[75]	_	
+5-38	717-722	slepe	_	A.1 Surface landform[21]	_	HAS\_RESULT[75]	_	
+5-39	723-729	doline	_	A.1 Surface landform[21]	_	HAS\_RESULT[75]	_	
+5-40	729-730	,	_	_	_	HAS\_RESULT[75]	_	
+5-41	731-737	vrtače	_	A.1 Surface landform	_	HAS\_RESULT[75]	_	
+5-42	738-740	in	_	_	_	HAS\_RESULT[75]	_	
+5-43	741-746	druge	_	_	_	HAS\_RESULT[75]	_	
+5-44	747-754	kotanje	_	_	_	HAS\_RESULT[75]	_	
+5-45	755-756	z	_	_	_	HAS\_RESULT[75]	_	
+5-46	757-769	naplavljenim	_	_	_	HAS\_RESULT[75]	_	
+5-47	770-774	dnom	_	_	_	HAS\_RESULT[75]	_	
+5-48	774-775	.	_	_	_	_	_	
+
+#Text=ploskovna korozija: Korozija, ki enakomerno učinkuje na površje, ustvarja gladke skalne ploskve; tudi korozija, ki enakomerno znižuje površje.
+6-1	779-788	ploskovna	_	B.2 Loss[22]	DEFINIENDUM[53]	_	_	
+6-2	789-797	korozija	_	B.2 Loss[22]	DEFINIENDUM[53]	_	_	
+6-3	797-798	:	_	_	_	_	_	
+6-4	799-807	Korozija	_	B.2 Loss	GENUS	_	_	
+6-5	807-808	,	_	_	_	_	_	
+6-6	809-811	ki	_	_	_	HAS\_ATTRIBUTE[76]	_	
+6-7	812-822	enakomerno	_	_	_	HAS\_ATTRIBUTE[76]	_	
+6-8	823-831	učinkuje	_	_	_	HAS\_ATTRIBUTE[76]	_	
+6-9	832-834	na	_	_	_	HAS\_ATTRIBUTE[76]	_	
+6-10	835-842	površje	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[76]	_	
+6-11	842-843	,	_	_	_	_	_	
+6-12	844-852	ustvarja	_	_	_	HAS\_RESULT[77]	frame\_RESULT	
+6-13	853-859	gladke	_	_	_	HAS\_RESULT[77]	_	
+6-14	860-866	skalne	_	D.1 Abiotic[23]	_	HAS\_RESULT[77]	_	
+6-15	867-874	ploskve	_	D.1 Abiotic[23]|D.1 Abiotic[24]	_	HAS\_RESULT[77]	_	
+6-16	874-875	;	_	_	_	_	_	
+6-17	876-880	tudi	_	_	_	_	_	
+6-18	881-889	korozija	_	B.2 Loss	_	_	_	
+6-19	889-890	,	_	_	_	_	_	
+6-20	891-893	ki	_	_	_	_	_	
+6-21	894-904	enakomerno	_	_	_	HAS\_RESULT[78]	_	
+6-22	905-912	znižuje	_	B.4 Transformation	_	HAS\_RESULT[78]	frame\_RESULT	
+6-23	913-920	površje	_	D.1 Abiotic	_	HAS\_RESULT[78]	_	
+6-24	920-921	.	_	_	_	_	_	
+
+#Text=pospešena korozija: Korozijski proces, ki lokalno hitreje poglablja površje in lahko ustvarja kotanje.
+7-1	926-935	pospešena	_	B.2 Loss[25]	DEFINIENDUM[54]	_	_	
+7-2	936-944	korozija	_	B.2 Loss[25]	DEFINIENDUM[54]	_	_	
+7-3	944-945	:	_	_	_	_	_	
+7-4	946-956	Korozijski	_	B.2 Loss[26]	GENUS[55]	_	_	
+7-5	957-963	proces	_	B.2 Loss[26]	GENUS[55]	_	_	
+7-6	963-964	,	_	_	_	_	_	
+7-7	965-967	ki	_	_	_	HAS\_RESULT[79]	_	
+7-8	968-975	lokalno	_	_	_	HAS\_RESULT[79]	_	
+7-9	976-983	hitreje	_	_	_	HAS\_RESULT[79]	_	
+7-10	984-993	poglablja	_	B.2 Loss	_	HAS\_RESULT[79]	frame\_RESULT	
+7-11	994-1001	površje	_	D.1 Abiotic	_	HAS\_RESULT[79]	_	
+7-12	1002-1004	in	_	_	_	_	_	
+7-13	1005-1010	lahko	_	_	_	HAS\_RESULT[80]	_	
+7-14	1011-1019	ustvarja	_	_	_	HAS\_RESULT[80]	frame\_RESULT	
+7-15	1020-1027	kotanje	_	D.1 Abiotic	_	HAS\_RESULT[80]	_	
+7-16	1027-1028	.	_	_	_	_	_	
+
+#Text=linearna korozija: Korozija, ki deluje linearno in ustvarja linearne (to je v določeni smeri razporejene) depresijske površinske oblike.
+8-1	1033-1041	linearna	_	B.2 Loss[27]	DEFINIENDUM[56]	_	_	
+8-2	1042-1050	korozija	_	B.2 Loss[27]	DEFINIENDUM[56]	_	_	
+8-3	1050-1051	:	_	_	_	_	_	
+8-4	1052-1060	Korozija	_	B.2 Loss	GENUS	_	_	
+8-5	1060-1061	,	_	_	_	_	_	
+8-6	1062-1064	ki	_	_	_	HAS\_RESULT[81]	frame\_RESULT[113]	
+8-7	1065-1071	deluje	_	_	_	HAS\_RESULT[81]	frame\_RESULT[113]	
+8-8	1072-1080	linearno	_	_	_	HAS\_RESULT[81]	_	
+8-9	1081-1083	in	_	_	_	_	_	
+8-10	1084-1092	ustvarja	_	_	_	HAS\_RESULT[82]	frame\_RESULT	
+8-11	1093-1101	linearne	_	D.3 Property	_	HAS\_RESULT[82]	_	
+8-12	1102-1103	(	_	_	_	HAS\_RESULT[82]	_	
+8-13	1103-1105	to	_	_	_	HAS\_RESULT[82]	_	
+8-14	1106-1108	je	_	_	_	HAS\_RESULT[82]	_	
+8-15	1109-1110	v	_	_	_	HAS\_RESULT[82]	_	
+8-16	1111-1119	določeni	_	_	_	HAS\_RESULT[82]	_	
+8-17	1120-1125	smeri	_	_	_	HAS\_RESULT[82]	_	
+8-18	1126-1137	razporejene	_	_	_	HAS\_RESULT[82]	_	
+8-19	1137-1138	)	_	_	_	HAS\_RESULT[82]	_	
+8-20	1139-1150	depresijske	_	D.1 Abiotic[28]	_	HAS\_RESULT[82]	_	
+8-21	1151-1161	površinske	_	D.1 Abiotic[28]	_	HAS\_RESULT[82]	_	
+8-22	1162-1168	oblike	_	D.1 Abiotic[28]	_	HAS\_RESULT[82]	_	
+8-23	1168-1169	.	_	_	_	_	_	
+
+#Text=korozijska vdolbinica: Do nekaj centimetrov ali decimetrov široka in globoka skalna vdolbinica, nastala zaradi različnih vrst korozije. Pod preperino je širša in plitvejša.
+9-1	1173-1183	korozijska	_	A.1 Surface landform[29]	DEFINIENDUM[57]	_	_	
+9-2	1184-1194	vdolbinica	_	A.1 Surface landform[29]	DEFINIENDUM[57]	_	_	
+9-3	1194-1195	:	_	_	_	_	_	
+9-4	1196-1198	Do	_	_	_	HAS\_SIZE[83]	_	
+9-5	1199-1204	nekaj	_	_	_	HAS\_SIZE[83]	_	
+9-6	1205-1216	centimetrov	_	_	_	HAS\_SIZE[83]	_	
+9-7	1217-1220	ali	_	_	_	HAS\_SIZE[83]	_	
+9-8	1221-1231	decimetrov	_	_	_	HAS\_SIZE[83]	_	
+9-9	1232-1238	široka	_	_	_	HAS\_SIZE[83]	_	
+9-10	1239-1241	in	_	_	_	HAS\_SIZE[83]	_	
+9-11	1242-1249	globoka	_	_	_	HAS\_SIZE[83]	_	
+9-12	1250-1256	skalna	_	_	_	COMPOSITION\_MEDIUM	_	
+9-13	1257-1267	vdolbinica	_	D.1 Abiotic	GENUS	_	_	
+9-14	1267-1268	,	_	_	_	_	_	
+9-15	1269-1276	nastala	_	_	_	HAS\_CAUSE[84]	frame\_CAUSE[114]	
+9-16	1277-1283	zaradi	_	_	_	HAS\_CAUSE[84]	frame\_CAUSE[114]	
+9-17	1284-1293	različnih	_	_	_	HAS\_CAUSE[84]	_	
+9-18	1294-1298	vrst	_	_	_	HAS\_CAUSE[84]	_	
+9-19	1299-1307	korozije	_	B.2 Loss	_	HAS\_CAUSE[84]	_	
+9-20	1307-1308	.	_	_	_	_	_	
+9-21	1309-1312	Pod	_	_	_	HAS\_FORM[85]	_	
+9-22	1313-1322	preperino	_	_	_	HAS\_FORM[85]	_	
+9-23	1323-1325	je	_	_	_	HAS\_FORM[85]	_	
+9-24	1326-1331	širša	_	_	_	HAS\_FORM[85]	_	
+9-25	1332-1334	in	_	_	_	HAS\_FORM[85]	_	
+9-26	1335-1344	plitvejša	_	_	_	HAS\_FORM[85]	_	
+9-27	1344-1345	.	_	_	_	_	_	
+
+#Text=korozijski vdolbek: Nekaj dm široka in globoka ovalna vdolbinica v apneniški skali pod prstjo (zemljo, preperino). Ena od oblik podtalnega krasa.
+10-1	1350-1360	korozijski	_	A.1 Surface landform[30]	DEFINIENDUM[58]	_	_	
+10-2	1361-1368	vdolbek	_	A.1 Surface landform[30]	DEFINIENDUM[58]	_	_	
+10-3	1368-1369	:	_	_	_	_	_	
+10-4	1370-1375	Nekaj	_	_	_	HAS\_SIZE[86]	_	
+10-5	1376-1378	dm	_	_	_	HAS\_SIZE[86]	_	
+10-6	1379-1385	široka	_	_	_	HAS\_SIZE[86]	_	
+10-7	1386-1388	in	_	_	_	HAS\_SIZE[86]	_	
+10-8	1389-1396	globoka	_	_	_	HAS\_SIZE[86]	_	
+10-9	1397-1403	ovalna	_	_	_	HAS\_FORM	_	
+10-10	1404-1414	vdolbinica	_	D.1 Abiotic	GENUS	_	_	
+10-11	1415-1416	v	_	_	_	COMPOSITION\_MEDIUM[87]	frame\_COMPOSITION	
+10-12	1417-1426	apneniški	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+10-13	1427-1432	skali	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+10-14	1433-1436	pod	_	_	_	HAS\_LOCATION[88]	frame\_LOCATION	
+10-15	1437-1443	prstjo	_	D.1 Abiotic	_	HAS\_LOCATION[88]	_	
+10-16	1444-1445	(	_	_	_	HAS\_LOCATION[88]	_	
+10-17	1445-1451	zemljo	_	_	_	HAS\_LOCATION[88]	_	
+10-18	1451-1452	,	_	_	_	HAS\_LOCATION[88]	_	
+10-19	1453-1462	preperino	_	_	_	HAS\_LOCATION[88]	_	
+10-20	1462-1463	)	_	_	_	HAS\_LOCATION[88]	_	
+10-21	1463-1464	.	_	_	_	_	_	
+10-22	1465-1468	Ena	_	_	_	_	_	
+10-23	1469-1471	od	_	_	_	_	_	
+10-24	1472-1477	oblik	_	_	_	_	_	
+10-25	1478-1488	podtalnega	_	C. Geome[31]	_	_	_	
+10-26	1489-1494	krasa	_	C. Geome[31]	_	_	_	
+10-27	1494-1495	.	_	_	_	_	_	
+
+#Text=korozijska polica: Redke, nekaj dm ali metrov široke, skoraj vodoravne ploskve na skalnem površju visokogorskega (subnivalnega) krasa. Nastanejo z retrogradno ploskovno korozija; zato so obicajno navzgor omejene s strmo stopnjo. Genetsko sorodne korozijskim stopnickam.
+11-1	1500-1510	korozijska	_	A.1 Surface landform[32]	DEFINIENDUM[59]	_	_	
+11-2	1511-1517	polica	_	A.1 Surface landform[32]	DEFINIENDUM[59]	_	_	
+11-3	1517-1518	:	_	_	_	_	_	
+11-4	1519-1524	Redke	_	_	_	_	_	
+11-5	1524-1525	,	_	_	_	_	_	
+11-6	1526-1531	nekaj	_	_	_	HAS\_SIZE[89]	_	
+11-7	1532-1534	dm	_	_	_	HAS\_SIZE[89]	_	
+11-8	1535-1538	ali	_	_	_	HAS\_SIZE[89]	_	
+11-9	1539-1545	metrov	_	_	_	HAS\_SIZE[89]	_	
+11-10	1546-1552	široke	_	_	_	HAS\_SIZE[89]	_	
+11-11	1552-1553	,	_	_	_	_	_	
+11-12	1554-1560	skoraj	_	_	_	HAS\_FORM[90]	_	
+11-13	1561-1570	vodoravne	_	_	_	HAS\_FORM[90]	_	
+11-14	1571-1578	ploskve	_	D.1 Abiotic	_	HAS\_FORM[90]	_	
+11-15	1579-1581	na	_	_	_	HAS\_LOCATION[91]	frame\_LOCATION	
+11-16	1582-1589	skalnem	_	_	_	HAS\_LOCATION[91]	_	
+11-17	1590-1597	površju	_	_	_	HAS\_LOCATION[91]	_	
+11-18	1598-1612	visokogorskega	_	C. Geome[33]	_	HAS\_LOCATION[92]	_	
+11-19	1613-1614	(	_	C. Geome[33]	_	HAS\_LOCATION[92]	_	
+11-20	1614-1626	subnivalnega	_	C. Geome[33]	_	HAS\_LOCATION[92]	_	
+11-21	1626-1627	)	_	C. Geome[33]	_	HAS\_LOCATION[92]	_	
+11-22	1628-1633	krasa	_	C. Geome[33]	_	HAS\_LOCATION[92]	_	
+11-23	1633-1634	.	_	_	_	_	_	
+11-24	1635-1644	Nastanejo	_	_	_	HAS\_CAUSE[93]	frame\_CAUSE[115]	
+11-25	1645-1646	z	_	_	_	HAS\_CAUSE[93]	frame\_CAUSE[115]	
+11-26	1647-1658	retrogradno	_	_	_	HAS\_CAUSE[93]	_	
+11-27	1659-1668	ploskovno	_	B.2 Loss[34]	_	HAS\_CAUSE[93]	_	
+11-28	1669-1677	korozija	_	B.2 Loss[34]	_	HAS\_CAUSE[93]	_	
+11-29	1677-1678	;	_	_	_	_	_	
+11-30	1679-1683	zato	_	_	_	HAS\_FORM[94]	_	
+11-31	1684-1686	so	_	_	_	HAS\_FORM[94]	_	
+11-32	1687-1695	obicajno	_	_	_	HAS\_FORM[94]	_	
+11-33	1696-1703	navzgor	_	_	_	HAS\_FORM[94]	_	
+11-34	1704-1711	omejene	_	_	_	HAS\_FORM[94]	_	
+11-35	1712-1713	s	_	_	_	HAS\_FORM[94]	_	
+11-36	1714-1719	strmo	_	_	_	HAS\_FORM[94]	_	
+11-37	1720-1727	stopnjo	_	_	_	HAS\_FORM[94]	_	
+11-38	1727-1728	.	_	_	_	_	_	
+11-39	1729-1737	Genetsko	_	_	_	_	_	
+11-40	1738-1745	sorodne	_	_	_	_	_	
+11-41	1746-1757	korozijskim	_	_	_	_	_	
+11-42	1758-1768	stopnickam	_	_	_	_	_	
+11-43	1768-1769	.	_	_	_	_	_	
+
+#Text=korozijski stalaktit:S selektivno korozijo nastali, večinoma skalni izrastki na jamskem stropu, pogosti v tropski klimi.
+12-1	1773-1783	korozijski	_	A.2 Underground landform[35]	DEFINIENDUM[60]	_	_	
+12-2	1784-1793	stalaktit	_	A.2 Underground landform[35]	DEFINIENDUM[60]	_	_	
+12-3	1793-1794	:	_	_	_	_	_	
+12-4	1794-1795	S	_	_	_	HAS\_CAUSE[95]	_	
+12-5	1796-1806	selektivno	_	B.2 Loss[36]	_	HAS\_CAUSE[95]	_	
+12-6	1807-1815	korozijo	_	B.2 Loss[36]|B.2 Loss[37]	_	HAS\_CAUSE[95]	_	
+12-7	1816-1823	nastali	_	_	_	HAS\_CAUSE[95]	frame\_CAUSE	
+12-8	1823-1824	,	_	_	_	_	_	
+12-9	1825-1833	večinoma	_	_	_	_	_	
+12-10	1834-1840	skalni	_	_	_	HAS\_FORM[96]	_	
+12-11	1841-1849	izrastki	_	_	_	HAS\_FORM[96]	_	
+12-12	1850-1852	na	_	_	_	HAS\_LOCATION[97]	frame\_LOCATION	
+12-13	1853-1860	jamskem	_	A.2 Underground landform[38]	_	HAS\_LOCATION[97]	_	
+12-14	1861-1867	stropu	_	A.2 Underground landform[38]	_	HAS\_LOCATION[97]	_	
+12-15	1867-1868	,	_	_	_	_	_	
+12-16	1869-1876	pogosti	_	_	_	HAS\_LOCATION[98]	_	
+12-17	1877-1878	v	_	_	_	HAS\_LOCATION[98]	_	
+12-18	1879-1886	tropski	_	_	_	HAS\_LOCATION[98]	_	
+12-19	1887-1892	klimi	_	_	_	HAS\_LOCATION[98]	_	
+12-20	1892-1893	.	_	_	_	_	_	
+
+#Text=korozijska stopnička: Polkrožna izjedenina, podobna odtisu pete, ki je specifičen pojav razčlenjenih golih, največkrat visokogorskih skalnatih površin. Nastaja z omejeno retrogradno ploskovno korozijo.
+13-1	1898-1908	korozijska	_	A.1 Surface landform[39]	DEFINIENDUM[61]	_	_	
+13-2	1909-1918	stopnička	_	A.1 Surface landform[39]	DEFINIENDUM[61]	_	_	
+13-3	1918-1919	:	_	_	_	_	_	
+13-4	1920-1929	Polkrožna	_	_	_	HAS\_FORM	_	
+13-5	1930-1940	izjedenina	_	D.1 Abiotic	GENUS	_	_	
+13-6	1940-1941	,	_	_	_	_	_	
+13-7	1942-1949	podobna	_	_	_	HAS\_FORM[99]	frame\_FORM	
+13-8	1950-1956	odtisu	_	_	_	HAS\_FORM[99]	_	
+13-9	1957-1961	pete	_	_	_	HAS\_FORM[99]	_	
+13-10	1961-1962	,	_	_	_	_	_	
+13-11	1963-1965	ki	_	_	_	HAS\_LOCATION[100]	_	
+13-12	1966-1968	je	_	_	_	HAS\_LOCATION[100]	_	
+13-13	1969-1979	specifičen	_	_	_	HAS\_LOCATION[100]	_	
+13-14	1980-1985	pojav	_	_	_	HAS\_LOCATION[100]	_	
+13-15	1986-1998	razčlenjenih	_	_	_	HAS\_LOCATION[100]	_	
+13-16	1999-2004	golih	_	_	_	HAS\_LOCATION[100]	_	
+13-17	2004-2005	,	_	_	_	HAS\_LOCATION[100]	_	
+13-18	2006-2016	največkrat	_	_	_	HAS\_LOCATION[100]	_	
+13-19	2017-2030	visokogorskih	_	_	_	HAS\_LOCATION[100]	_	
+13-20	2031-2040	skalnatih	_	_	_	HAS\_LOCATION[100]	_	
+13-21	2041-2048	površin	_	_	_	HAS\_LOCATION[100]	_	
+13-22	2048-2049	.	_	_	_	_	_	
+13-23	2050-2057	Nastaja	_	_	_	HAS\_CAUSE[101]	frame\_CAUSE[116]	
+13-24	2058-2059	z	_	_	_	HAS\_CAUSE[101]	frame\_CAUSE[116]	
+13-25	2060-2067	omejeno	_	_	_	HAS\_CAUSE[101]	_	
+13-26	2068-2079	retrogradno	_	B.2 Loss[40]	_	HAS\_CAUSE[101]	_	
+13-27	2080-2089	ploskovno	_	B.2 Loss[40]|B.2 Loss[41]	_	HAS\_CAUSE[101]	_	
+13-28	2090-2098	korozijo	_	B.2 Loss[40]|B.2 Loss[41]	_	HAS\_CAUSE[101]	_	
+13-29	2098-2099	.	_	_	_	_	_	
+
+#Text=korozijski relief: Relief, nastal s prevladujočim korozijskim procesom in so zanj značilne korozijske reliefne oblike.
+14-1	2104-2114	korozijski	_	C. Geome[42]	DEFINIENDUM[62]	_	_	
+14-2	2115-2121	relief	_	C. Geome[42]	DEFINIENDUM[62]	_	_	
+14-3	2121-2122	:	_	_	_	_	_	
+14-4	2123-2129	Relief	_	_	GENUS	_	_	
+14-5	2129-2130	,	_	_	_	_	_	
+14-6	2131-2137	nastal	_	_	_	HAS\_CAUSE[102]	frame\_CAUSE[117]	
+14-7	2138-2139	s	_	_	_	HAS\_CAUSE[102]	frame\_CAUSE[117]	
+14-8	2140-2153	prevladujočim	_	_	_	HAS\_CAUSE[102]	_	
+14-9	2154-2165	korozijskim	_	B.2 Loss[43]	_	HAS\_CAUSE[102]	_	
+14-10	2166-2174	procesom	_	B.2 Loss[43]	_	HAS\_CAUSE[102]	_	
+14-11	2175-2177	in	_	_	_	_	_	
+14-12	2178-2180	so	_	_	_	CONTAINS[103]	frame\_CONTAINS[118]	
+14-13	2181-2185	zanj	_	_	_	CONTAINS[103]	frame\_CONTAINS[118]	
+14-14	2186-2194	značilne	_	_	_	CONTAINS[103]	frame\_CONTAINS[118]	
+14-15	2195-2205	korozijske	_	_	_	CONTAINS[103]	_	
+14-16	2206-2214	reliefne	_	_	_	CONTAINS[103]	_	
+14-17	2215-2221	oblike	_	_	_	CONTAINS[103]	_	
+14-18	2221-2222	.	_	_	_	_	_	
+
+#Text=kotlica: Okroglasta vdolbina gladkih sten s premerom nekaj centimetrov ali decimetrov, v stropu, na steni ali dnu jame. Poznamo korozijsko in erozijsko kotlico.
+15-1	2227-2234	kotlica	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	2234-2235	:	_	_	_	_	_	
+15-3	2236-2246	Okroglasta	_	_	_	HAS\_FORM	_	
+15-4	2247-2255	vdolbina	_	D.1 Abiotic	GENUS	_	_	
+15-5	2256-2263	gladkih	_	_	_	HAS\_FORM[104]	_	
+15-6	2264-2268	sten	_	_	_	HAS\_FORM[104]	_	
+15-7	2269-2270	s	_	_	_	HAS\_SIZE[105]	frame\_SIZE[119]	
+15-8	2271-2279	premerom	_	_	_	HAS\_SIZE[105]	frame\_SIZE[119]	
+15-9	2280-2285	nekaj	_	_	_	HAS\_SIZE[105]	_	
+15-10	2286-2297	centimetrov	_	_	_	HAS\_SIZE[105]	_	
+15-11	2298-2301	ali	_	_	_	HAS\_SIZE[105]	_	
+15-12	2302-2312	decimetrov	_	_	_	HAS\_SIZE[105]	_	
+15-13	2312-2313	,	_	_	_	_	_	
+15-14	2314-2315	v	_	_	_	HAS\_LOCATION[106]	frame\_LOCATION	
+15-15	2316-2322	stropu	strop jame	A.2 Underground landform	_	HAS\_LOCATION[106]	_	
+15-16	2322-2323	,	_	_	_	HAS\_LOCATION[106]	_	
+15-17	2324-2326	na	_	_	_	HAS\_LOCATION[106]	frame\_LOCATION	
+15-18	2327-2332	steni	stena jame	A.2 Underground landform	_	HAS\_LOCATION[106]	_	
+15-19	2333-2336	ali	_	_	_	HAS\_LOCATION[106]	_	
+15-20	2337-2340	dnu	_	A.2 Underground landform[44]	_	HAS\_LOCATION[106]	_	
+15-21	2341-2345	jame	_	A.2 Underground landform[44]	_	HAS\_LOCATION[106]	_	
+15-22	2345-2346	.	_	_	_	_	_	
+15-23	2347-2354	Poznamo	_	_	_	_	_	
+15-24	2355-2365	korozijsko	korozijska kotlica	A.2 Underground landform	SPECIES	_	_	
+15-25	2366-2368	in	_	_	_	_	_	
+15-26	2369-2378	erozijsko	_	A.2 Underground landform[45]	SPECIES[63]	_	_	
+15-27	2379-2386	kotlico	_	A.2 Underground landform[45]	SPECIES[63]	_	_	
+15-28	2386-2387	.	_	_	_	_	_	

@@ -1,0 +1,395 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Modeliranje padina je morfogenetski proces koji je najpogodniji za eksperimentalno provjeravanje i uspoređivanje .
+1-1	0-11	Modeliranje	_	E.2 Method[7]	DEFINIENDUM[19]	_	_	
+1-2	12-18	padina	_	E.2 Method[7]	DEFINIENDUM[19]	_	_	
+1-3	19-21	je	_	_	DEFINITOR	_	_	
+1-4	22-35	morfogenetski	_	E.2 Method[8]	GENUS[20]	_	_	
+1-5	36-42	proces	_	E.2 Method[8]	GENUS[20]	_	_	
+1-6	43-47	koji	_	_	_	_	_	
+1-7	48-50	je	_	_	_	_	_	
+1-8	51-63	najpogodniji	_	_	_	_	_	
+1-9	64-66	za	_	_	_	HAS\_FUNCTION[29]	_	
+1-10	67-82	eksperimentalno	_	_	_	HAS\_FUNCTION[29]	_	
+1-11	83-96	provjeravanje	_	_	_	HAS\_FUNCTION[29]	_	
+1-12	97-98	i	_	_	_	HAS\_FUNCTION[29]	_	
+1-13	99-112	uspoređivanje	_	_	_	HAS\_FUNCTION[29]	_	
+1-14	113-114	.	_	_	_	_	_	
+
+#Text=Adolfo Charles Morlot 1848. radi geološku kartu Krasa ( on ju je nazvao Dinarskog krša ) u kojoj je objavio da krš znači općenito vapnenačke predjele s kojima se povezuje pojam pustinjskih , kamenitih i razlomljnih površina terena .
+2-1	116-122	Adolfo	_	_	_	_	_	
+2-2	123-130	Charles	_	_	_	_	_	
+2-3	131-137	Morlot	_	_	_	_	_	
+2-4	138-142	1848	_	_	_	_	_	
+2-5	142-143	.	_	_	_	_	_	
+2-6	144-148	radi	_	_	_	_	_	
+2-7	149-157	geološku	_	_	_	_	_	
+2-8	158-163	kartu	_	_	_	_	_	
+2-9	164-169	Krasa	_	_	_	_	_	
+2-10	170-171	(	_	_	_	_	_	
+2-11	172-174	on	_	_	_	_	_	
+2-12	175-177	ju	_	_	_	_	_	
+2-13	178-180	je	_	_	_	_	_	
+2-14	181-187	nazvao	_	_	_	_	_	
+2-15	188-197	Dinarskog	_	_	_	_	_	
+2-16	198-202	krša	_	_	_	_	_	
+2-17	203-204	)	_	_	_	_	_	
+2-18	205-206	u	_	_	_	_	_	
+2-19	207-212	kojoj	_	_	_	_	_	
+2-20	213-215	je	_	_	_	_	_	
+2-21	216-223	objavio	_	_	_	_	_	
+2-22	224-226	da	_	_	_	_	_	
+2-23	227-230	krš	_	D.1 Abiotic	DEFINIENDUM	_	_	
+2-24	231-236	znači	_	_	DEFINITOR	_	_	
+2-25	237-245	općenito	_	_	_	_	_	
+2-26	246-256	vapnenačke	vapnenački predjeli[1]	C. Geome[9]	_	DEFINED\_AS[30]	_	
+2-27	257-265	predjele	vapnenački predjeli[1]	C. Geome[9]	_	DEFINED\_AS[30]	_	
+2-28	266-267	s	_	_	_	_	_	
+2-29	268-274	kojima	_	_	_	_	_	
+2-30	275-277	se	_	_	_	_	_	
+2-31	278-286	povezuje	_	_	_	_	_	
+2-32	287-292	pojam	_	_	_	_	_	
+2-33	293-304	pustinjskih	_	_	_	_	_	
+2-34	305-306	,	_	_	_	_	_	
+2-35	307-316	kamenitih	_	_	_	_	_	
+2-36	317-318	i	_	_	_	_	_	
+2-37	319-330	razlomljnih	_	_	_	_	_	
+2-38	331-339	površina	_	_	_	_	_	
+2-39	340-346	terena	_	_	_	_	_	
+2-40	347-348	.	_	_	_	_	_	
+
+#Text=Breče su sivosmeđe , izgrađene su od fragmenata jurskih i donjokrednih vapnenaca .
+3-1	350-355	Breče	_	D.1 Abiotic	DEFINIENDUM	_	_	
+3-2	356-358	su	_	_	DEFINITOR	_	_	
+3-3	359-368	sivosmeđe	_	_	_	HAS\_ATTRIBUTE	_	
+3-4	369-370	,	_	_	_	_	_	
+3-5	371-380	izgrađene	_	_	_	COMPOSITION\_MEDIUM[31]	frame\_COMPOSITION[43]	
+3-6	381-383	su	_	_	_	COMPOSITION\_MEDIUM[31]	frame\_COMPOSITION[43]	
+3-7	384-386	od	_	_	_	COMPOSITION\_MEDIUM[31]	frame\_COMPOSITION[43]	
+3-8	387-397	fragmenata	_	_	_	COMPOSITION\_MEDIUM[31]	_	
+3-9	398-405	jurskih	jurski vapnenac	D.1 Abiotic	_	COMPOSITION\_MEDIUM[31]	_	
+3-10	406-407	i	_	_	_	COMPOSITION\_MEDIUM[31]	_	
+3-11	408-420	donjokrednih	donjokredski vapnenac[2]	D.1 Abiotic[10]	_	COMPOSITION\_MEDIUM[31]	_	
+3-12	421-430	vapnenaca	donjokredski vapnenac[2]	D.1 Abiotic[10]	_	COMPOSITION\_MEDIUM[31]	_	
+3-13	431-432	.	_	_	_	_	_	
+
+#Text=Intermitentno vrelo  – vrelo koje istječe u vremenskim razmacima ; J. Poljak je upotrijebio i termin “ vrelo na preskoke ” .
+4-1	434-447	Intermitentno	_	A.3 Hydrological form[11]	DEFINIENDUM[21]	_	_	
+4-2	448-453	vrelo	_	A.3 Hydrological form[11]	DEFINIENDUM[21]	_	_	
+4-3	455-456	–	_	_	_	_	_	
+4-4	457-462	vrelo	_	A.3 Hydrological form	GENUS	_	_	
+4-5	463-467	koje	_	_	_	_	_	
+4-6	468-475	istječe	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-7	476-477	u	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-8	478-488	vremenskim	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-9	489-498	razmacima	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-10	499-500	;	_	_	_	_	_	
+4-11	501-502	J	_	_	_	_	_	
+4-12	502-503	.	_	_	_	_	_	
+4-13	504-510	Poljak	_	_	_	_	_	
+4-14	511-513	je	_	_	_	_	_	
+4-15	514-525	upotrijebio	_	_	_	_	_	
+4-16	526-527	i	_	_	_	_	_	
+4-17	528-534	termin	_	_	_	_	_	
+4-18	535-536	“	_	_	_	_	_	
+4-19	537-542	vrelo	_	A.3 Hydrological form[12]	DEFINIENDUM[22]	_	_	
+4-20	543-545	na	_	A.3 Hydrological form[12]	DEFINIENDUM[22]	_	_	
+4-21	546-554	preskoke	_	A.3 Hydrological form[12]	DEFINIENDUM[22]	_	_	
+4-22	555-556	”	_	_	_	_	_	
+4-23	557-558	.	_	_	_	_	_	
+
+#Text=Uzvišenja se uglavnom sastoje od otpornijih kompaktnijih i čistih vapenaca , a udoline od lakše trošivih vapnenaca i dolomita .
+5-1	560-569	Uzvišenja	_	_	_	_	_	
+5-2	570-572	se	_	_	_	_	_	
+5-3	573-581	uglavnom	_	_	_	_	_	
+5-4	582-589	sastoje	_	_	_	_	_	
+5-5	590-592	od	_	_	_	_	_	
+5-6	593-603	otpornijih	_	_	_	_	_	
+5-7	604-616	kompaktnijih	_	_	_	_	_	
+5-8	617-618	i	_	_	_	_	_	
+5-9	619-625	čistih	_	_	_	_	_	
+5-10	626-634	vapenaca	_	_	_	_	_	
+5-11	635-636	,	_	_	_	_	_	
+5-12	637-638	a	_	_	_	_	_	
+5-13	639-646	udoline	_	_	_	_	_	
+5-14	647-649	od	_	_	_	_	_	
+5-15	650-655	lakše	_	_	_	_	_	
+5-16	656-664	trošivih	_	_	_	_	_	
+5-17	665-674	vapnenaca	_	_	_	_	_	
+5-18	675-676	i	_	_	_	_	_	
+5-19	677-685	dolomita	_	_	_	_	_	
+5-20	686-687	.	_	_	_	_	_	
+
+#Text=Kao posljedicu toga ponikve možemo podijeliti na one nastale u područjima međuslojnih ( dijastrome ) pukotina ( koje su vrlo često asimetričnog profila ) , te u rasjednim zonama ( koje se ističu svojom veličinom ) .
+6-1	689-692	Kao	_	_	_	_	_	
+6-2	693-703	posljedicu	_	_	_	_	_	
+6-3	704-708	toga	_	_	_	_	_	
+6-4	709-716	ponikve	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-5	717-723	možemo	_	_	_	_	_	
+6-6	724-734	podijeliti	_	_	_	_	_	
+6-7	735-737	na	_	_	_	_	_	
+6-8	738-741	one	_	_	_	_	_	
+6-9	742-749	nastale	ponikve nastale u područjima međuslojnih pukotina[3]	A.1 Surface landform[13]	SPECIES[23]	_	_	
+6-10	750-751	u	ponikve nastale u područjima međuslojnih pukotina[3]	A.1 Surface landform[13]	SPECIES[23]	_	_	
+6-11	752-762	područjima	ponikve nastale u područjima međuslojnih pukotina[3]	A.1 Surface landform[13]	SPECIES[23]	_	_	
+6-12	763-774	međuslojnih	ponikve nastale u područjima međuslojnih pukotina[3]	A.1 Surface landform[13]	SPECIES[23]	_	_	
+6-13	775-776	(	ponikve nastale u područjima međuslojnih pukotina[3]	A.1 Surface landform[13]	SPECIES[23]	_	_	
+6-14	777-787	dijastrome	ponikve nastale u područjima međuslojnih pukotina[3]	A.1 Surface landform[13]	SPECIES[23]	_	_	
+6-15	788-789	)	ponikve nastale u područjima međuslojnih pukotina[3]	A.1 Surface landform[13]	SPECIES[23]	_	_	
+6-16	790-798	pukotina	ponikve nastale u područjima međuslojnih pukotina[3]	A.1 Surface landform[13]	SPECIES[23]	_	_	
+6-17	799-800	(	_	_	_	_	_	
+6-18	801-805	koje	_	_	_	_	_	
+6-19	806-808	su	_	_	_	_	_	
+6-20	809-813	vrlo	_	_	_	_	_	
+6-21	814-819	često	_	_	_	_	_	
+6-22	820-832	asimetričnog	_	_	_	_	_	
+6-23	833-840	profila	_	_	_	_	_	
+6-24	841-842	)	_	_	_	_	_	
+6-25	843-844	,	_	_	_	_	_	
+6-26	845-847	te	_	_	_	_	_	
+6-27	848-849	u	_	_	_	_	_	
+6-28	850-859	rasjednim	ponikve u rasjednim zonama[4]	A.1 Surface landform[14]	SPECIES[24]	_	_	
+6-29	860-866	zonama	ponikve u rasjednim zonama[4]	A.1 Surface landform[14]	SPECIES[24]	_	_	
+6-30	867-868	(	_	_	_	_	_	
+6-31	869-873	koje	_	_	_	_	_	
+6-32	874-876	se	_	_	_	_	_	
+6-33	877-883	ističu	_	_	_	_	_	
+6-34	884-890	svojom	_	_	_	_	_	
+6-35	891-900	veličinom	_	_	_	_	_	
+6-36	901-902	)	_	_	_	_	_	
+6-37	903-904	.	_	_	_	_	_	
+
+#Text=Osnovno pitanje kod primjene kernel metode proračuna gustoće prostornog uzorka jest određivanje vrijednosti radijusa r kruga K. Ako je radijus velik , izračunata gustoća pojave ( λt ) unutar promatranog uzorka bit će svugdje podjednaka i približavat će se vrijednosti prosječne gustoće u danom uzorku .
+7-1	906-913	Osnovno	_	_	_	_	_	
+7-2	914-921	pitanje	_	_	_	_	_	
+7-3	922-925	kod	_	_	_	_	_	
+7-4	926-934	primjene	_	_	_	_	_	
+7-5	935-941	kernel	_	_	_	_	_	
+7-6	942-948	metode	_	_	_	_	_	
+7-7	949-958	proračuna	_	_	_	_	_	
+7-8	959-966	gustoće	_	_	_	_	_	
+7-9	967-977	prostornog	_	_	_	_	_	
+7-10	978-984	uzorka	_	_	_	_	_	
+7-11	985-989	jest	_	_	_	_	_	
+7-12	990-1001	određivanje	_	_	_	_	_	
+7-13	1002-1013	vrijednosti	_	_	_	_	_	
+7-14	1014-1022	radijusa	_	_	_	_	_	
+7-15	1023-1024	r	_	_	_	_	_	
+7-16	1025-1030	kruga	_	_	_	_	_	
+7-17	1031-1032	K	_	_	_	_	_	
+7-18	1032-1033	.	_	_	_	_	_	
+7-19	1034-1037	Ako	_	_	_	_	_	
+7-20	1038-1040	je	_	_	_	_	_	
+7-21	1041-1048	radijus	_	_	_	_	_	
+7-22	1049-1054	velik	_	_	_	_	_	
+7-23	1055-1056	,	_	_	_	_	_	
+7-24	1057-1067	izračunata	_	_	_	_	_	
+7-25	1068-1075	gustoća	_	_	_	_	_	
+7-26	1076-1082	pojave	_	_	_	_	_	
+7-27	1083-1084	(	_	_	_	_	_	
+7-28	1085-1087	λt	_	_	_	_	_	
+7-29	1088-1089	)	_	_	_	_	_	
+7-30	1090-1096	unutar	_	_	_	_	_	
+7-31	1097-1108	promatranog	_	_	_	_	_	
+7-32	1109-1115	uzorka	_	_	_	_	_	
+7-33	1116-1119	bit	_	_	_	_	_	
+7-34	1120-1122	će	_	_	_	_	_	
+7-35	1123-1130	svugdje	_	_	_	_	_	
+7-36	1131-1141	podjednaka	_	_	_	_	_	
+7-37	1142-1143	i	_	_	_	_	_	
+7-38	1144-1155	približavat	_	_	_	_	_	
+7-39	1156-1158	će	_	_	_	_	_	
+7-40	1159-1161	se	_	_	_	_	_	
+7-41	1162-1173	vrijednosti	_	_	_	_	_	
+7-42	1174-1183	prosječne	_	_	_	_	_	
+7-43	1184-1191	gustoće	_	_	_	_	_	
+7-44	1192-1193	u	_	_	_	_	_	
+7-45	1194-1199	danom	_	_	_	_	_	
+7-46	1200-1206	uzorku	_	_	_	_	_	
+7-47	1207-1208	.	_	_	_	_	_	
+
+#Text=Uravnavanje je površinski proces , uvjetovan lokalnim odnosimastabilnosti .
+8-1	1210-1221	Uravnavanje	_	B.1 Movement	DEFINIENDUM	_	_	
+8-2	1222-1224	je	_	_	DEFINITOR	_	_	
+8-3	1225-1235	površinski	_	_	GENUS[25]	_	_	
+8-4	1236-1242	proces	_	_	GENUS[25]	_	_	
+8-5	1243-1244	,	_	_	_	_	_	
+8-6	1245-1254	uvjetovan	_	_	_	HAS\_ATTRIBUTE[33]	_	
+8-7	1255-1263	lokalnim	_	_	_	HAS\_ATTRIBUTE[33]	_	
+8-8	1264-1283	odnosimastabilnosti	_	_	_	HAS\_ATTRIBUTE[33]	_	
+8-9	1284-1285	.	_	_	_	_	_	
+
+#Text=Tokovi koji se gube , ponornice i podzemni tokovi su česte pojave u krškim terenima .
+9-1	1287-1293	Tokovi	_	_	_	_	_	
+9-2	1294-1298	koji	_	_	_	_	_	
+9-3	1299-1301	se	_	_	_	_	_	
+9-4	1302-1306	gube	_	_	_	_	_	
+9-5	1307-1308	,	_	_	_	_	_	
+9-6	1309-1318	ponornice	_	_	_	_	_	
+9-7	1319-1320	i	_	_	_	_	_	
+9-8	1321-1329	podzemni	_	_	_	_	_	
+9-9	1330-1336	tokovi	_	_	_	_	_	
+9-10	1337-1339	su	_	_	_	_	_	
+9-11	1340-1345	česte	_	_	_	_	_	
+9-12	1346-1352	pojave	_	_	_	_	_	
+9-13	1353-1354	u	_	_	_	_	_	
+9-14	1355-1361	krškim	_	_	_	_	_	
+9-15	1362-1370	terenima	_	_	_	_	_	
+9-16	1371-1372	.	_	_	_	_	_	
+
+#Text=Jame su podzemni oblici koji su otvorom spojeni s površinom , te se pružaju strmo ispod površine zemlje ( > 45 ° ) .
+10-1	1374-1378	Jame	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	1379-1381	su	_	_	DEFINITOR	_	_	
+10-3	1382-1390	podzemni	_	A.2 Underground landform[15]	GENUS[26]	_	_	
+10-4	1391-1397	oblici	_	A.2 Underground landform[15]	GENUS[26]	_	_	
+10-5	1398-1402	koji	_	_	_	_	_	
+10-6	1403-1405	su	_	_	_	_	_	
+10-7	1406-1413	otvorom	_	_	_	HAS\_ATTRIBUTE[34]	_	
+10-8	1414-1421	spojeni	_	_	_	HAS\_ATTRIBUTE[34]	_	
+10-9	1422-1423	s	_	_	_	HAS\_ATTRIBUTE[34]	_	
+10-10	1424-1433	površinom	_	_	_	HAS\_ATTRIBUTE[34]	_	
+10-11	1434-1435	,	_	_	_	_	_	
+10-12	1436-1438	te	_	_	_	_	_	
+10-13	1439-1441	se	_	_	_	HAS\_ATTRIBUTE[35]	_	
+10-14	1442-1449	pružaju	_	_	_	HAS\_ATTRIBUTE[35]	_	
+10-15	1450-1455	strmo	_	_	_	HAS\_ATTRIBUTE[35]	_	
+10-16	1456-1461	ispod	_	_	_	HAS\_ATTRIBUTE[35]	_	
+10-17	1462-1470	površine	_	_	_	HAS\_ATTRIBUTE[35]	_	
+10-18	1471-1477	zemlje	_	_	_	HAS\_ATTRIBUTE[35]	_	
+10-19	1478-1479	(	_	_	_	_	_	
+10-20	1480-1481	>	_	_	_	_	_	
+10-21	1482-1484	45	_	_	_	_	_	
+10-22	1485-1486	°	_	_	_	_	_	
+10-23	1487-1488	)	_	_	_	_	_	
+10-24	1489-1490	.	_	_	_	_	_	
+
+#Text=Krajnji proizvod trošenja vapnenca , tj. njegov neotopiv ostatak jest rezidualna glina - crvenica .
+11-1	1492-1499	Krajnji	_	_	_	DEFINED\_AS[36]	_	
+11-2	1500-1508	proizvod	_	_	_	DEFINED\_AS[36]	_	
+11-3	1509-1517	trošenja	trošenje	B.2 Loss	_	DEFINED\_AS[36]	_	
+11-4	1518-1526	vapnenca	vapnenac	D.1 Abiotic	_	DEFINED\_AS[36]	_	
+11-5	1527-1528	,	_	_	_	DEFINED\_AS[36]	_	
+11-6	1529-1531	tj	_	_	_	DEFINED\_AS[36]	_	
+11-7	1531-1532	.	_	_	_	DEFINED\_AS[36]	_	
+11-8	1533-1539	njegov	_	_	_	DEFINED\_AS[36]	_	
+11-9	1540-1548	neotopiv	_	_	_	DEFINED\_AS[36]	_	
+11-10	1549-1556	ostatak	_	_	_	DEFINED\_AS[36]	_	
+11-11	1557-1561	jest	_	_	_	_	_	
+11-12	1562-1572	rezidualna	_	D.1 Abiotic[16]	DEFINIENDUM[27]	_	_	
+11-13	1573-1578	glina	_	D.1 Abiotic[16]	DEFINIENDUM[27]	_	_	
+11-14	1579-1580	-	_	_	_	_	_	
+11-15	1581-1589	crvenica	_	D.1 Abiotic	DEFINIENDUM	_	_	
+11-16	1590-1591	.	_	_	_	_	_	
+
+#Text=Uređaji za otkrivanje , registraciju i mjerenje zračenja elektromagnetske energije , vlastite ( emitirane ) i / ili izazvane ( reflektirane ) , nazivaju se zajedničkim imenom senzori .
+12-1	1593-1600	Uređaji	_	E.1 Instrument	_	DEFINED\_AS	_	
+12-2	1601-1603	za	_	_	_	HAS\_FUNCTION[37]	_	
+12-3	1604-1614	otkrivanje	_	_	_	HAS\_FUNCTION[37]	_	
+12-4	1615-1616	,	_	_	_	HAS\_FUNCTION[37]	_	
+12-5	1617-1629	registraciju	_	_	_	HAS\_FUNCTION[37]	_	
+12-6	1630-1631	i	_	_	_	HAS\_FUNCTION[37]	_	
+12-7	1632-1640	mjerenje	_	_	_	HAS\_FUNCTION[37]	_	
+12-8	1641-1649	zračenja	_	_	_	HAS\_FUNCTION[37]	_	
+12-9	1650-1666	elektromagnetske	_	_	_	HAS\_FUNCTION[37]	_	
+12-10	1667-1675	energije	_	_	_	HAS\_FUNCTION[37]	_	
+12-11	1676-1677	,	_	_	_	HAS\_FUNCTION[37]	_	
+12-12	1678-1686	vlastite	_	_	_	HAS\_FUNCTION[37]	_	
+12-13	1687-1688	(	_	_	_	HAS\_FUNCTION[37]	_	
+12-14	1689-1698	emitirane	_	_	_	HAS\_FUNCTION[37]	_	
+12-15	1699-1700	)	_	_	_	HAS\_FUNCTION[37]	_	
+12-16	1701-1702	i	_	_	_	HAS\_FUNCTION[37]	_	
+12-17	1703-1704	/	_	_	_	HAS\_FUNCTION[37]	_	
+12-18	1705-1708	ili	_	_	_	HAS\_FUNCTION[37]	_	
+12-19	1709-1717	izazvane	_	_	_	HAS\_FUNCTION[37]	_	
+12-20	1718-1719	(	_	_	_	HAS\_FUNCTION[37]	_	
+12-21	1720-1732	reflektirane	_	_	_	HAS\_FUNCTION[37]	_	
+12-22	1733-1734	)	_	_	_	HAS\_FUNCTION[37]	_	
+12-23	1735-1736	,	_	_	_	_	_	
+12-24	1737-1745	nazivaju	_	_	_	_	_	
+12-25	1746-1748	se	_	_	_	_	_	
+12-26	1749-1760	zajedničkim	_	_	_	_	_	
+12-27	1761-1767	imenom	_	_	_	_	_	
+12-28	1768-1775	senzori	_	E.1 Instrument	DEFINIENDUM	_	_	
+12-29	1776-1777	.	_	_	_	_	_	
+
+#Text=U skladu s tadašnjim općim shvaćanjem i idejama W. M. Davisa , A. Penck ( 1900 ) je objašnjavao da je okršava nje sekundarni proces i nastupa poslije faze dolinskog ( fluvijalnog ) modeliranja .
+13-1	1779-1780	U	_	_	_	_	_	
+13-2	1781-1787	skladu	_	_	_	_	_	
+13-3	1788-1789	s	_	_	_	_	_	
+13-4	1790-1799	tadašnjim	_	_	_	_	_	
+13-5	1800-1805	općim	_	_	_	_	_	
+13-6	1806-1816	shvaćanjem	_	_	_	_	_	
+13-7	1817-1818	i	_	_	_	_	_	
+13-8	1819-1826	idejama	_	_	_	_	_	
+13-9	1827-1828	W	_	_	_	_	_	
+13-10	1828-1829	.	_	_	_	_	_	
+13-11	1830-1831	M	_	_	_	_	_	
+13-12	1831-1832	.	_	_	_	_	_	
+13-13	1833-1839	Davisa	_	_	_	_	_	
+13-14	1840-1841	,	_	_	_	_	_	
+13-15	1842-1843	A	_	_	_	_	_	
+13-16	1843-1844	.	_	_	_	_	_	
+13-17	1845-1850	Penck	_	_	_	_	_	
+13-18	1851-1852	(	_	_	_	_	_	
+13-19	1853-1857	1900	_	_	_	_	_	
+13-20	1858-1859	)	_	_	_	_	_	
+13-21	1860-1862	je	_	_	_	_	_	
+13-22	1863-1874	objašnjavao	_	_	_	_	_	
+13-23	1875-1877	da	_	_	_	_	_	
+13-24	1878-1880	je	_	_	_	_	_	
+13-25	1881-1888	okršava	okršavanje[5]	B.4 Transformation[17]	DEFINIENDUM[28]	_	_	
+13-26	1889-1892	nje	okršavanje[5]	B.4 Transformation[17]	DEFINIENDUM[28]	_	_	
+13-27	1893-1903	sekundarni	_	_	_	DEFINED\_AS[38]	_	
+13-28	1904-1910	proces	_	_	_	DEFINED\_AS[38]	_	
+13-29	1911-1912	i	_	_	_	_	_	
+13-30	1913-1920	nastupa	_	_	_	OCCURS\_IN\_TIME[39]	frame\_TIME[44]	
+13-31	1921-1928	poslije	_	_	_	OCCURS\_IN\_TIME[39]	frame\_TIME[44]	
+13-32	1929-1933	faze	_	_	_	OCCURS\_IN\_TIME[39]	_	
+13-33	1934-1943	dolinskog	dolinsko (fluvijalno) modeliranje[6]	B.4 Transformation[18]	_	OCCURS\_IN\_TIME[39]	_	
+13-34	1944-1945	(	dolinsko (fluvijalno) modeliranje[6]	B.4 Transformation[18]	_	OCCURS\_IN\_TIME[39]	_	
+13-35	1946-1957	fluvijalnog	dolinsko (fluvijalno) modeliranje[6]	B.4 Transformation[18]	_	OCCURS\_IN\_TIME[39]	_	
+13-36	1958-1959	)	dolinsko (fluvijalno) modeliranje[6]	B.4 Transformation[18]	_	OCCURS\_IN\_TIME[39]	_	
+13-37	1960-1971	modeliranja	dolinsko (fluvijalno) modeliranje[6]	B.4 Transformation[18]	_	OCCURS\_IN\_TIME[39]	_	
+13-38	1972-1973	.	_	_	_	_	_	
+
+#Text=Hipsometrija je skup postupaka i metoda kojima se analiziraju visinska obilježja reljefa .
+14-1	1975-1987	Hipsometrija	_	E.2 Method	DEFINIENDUM	_	_	
+14-2	1988-1990	je	_	_	_	_	_	
+14-3	1991-1995	skup	_	_	_	DEFINED\_AS[40]	_	
+14-4	1996-2005	postupaka	_	_	_	DEFINED\_AS[40]	_	
+14-5	2006-2007	i	_	_	_	DEFINED\_AS[40]	_	
+14-6	2008-2014	metoda	_	_	_	DEFINED\_AS[40]	_	
+14-7	2015-2021	kojima	_	_	_	_	_	
+14-8	2022-2024	se	_	_	_	_	_	
+14-9	2025-2036	analiziraju	_	_	_	HAS\_FUNCTION[41]	_	
+14-10	2037-2045	visinska	_	_	_	HAS\_FUNCTION[41]	_	
+14-11	2046-2055	obilježja	_	_	_	HAS\_FUNCTION[41]	_	
+14-12	2056-2063	reljefa	_	_	_	HAS\_FUNCTION[41]	_	
+14-13	2064-2065	.	_	_	_	_	_	
+
+#Text=Tektokrš je krš u kojemu bi glavne reljefne osobine bile odre đene građom zemljišta , posebno rasjednim linijama .
+15-1	2067-2075	Tektokrš	_	C. Geome	DEFINIENDUM	_	_	
+15-2	2076-2078	je	_	_	DEFINITOR	_	_	
+15-3	2079-2082	krš	_	C. Geome	GENUS	_	_	
+15-4	2083-2084	u	_	_	_	_	_	
+15-5	2085-2091	kojemu	_	_	_	_	_	
+15-6	2092-2094	bi	_	_	_	_	_	
+15-7	2095-2101	glavne	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-8	2102-2110	reljefne	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-9	2111-2118	osobine	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-10	2119-2123	bile	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-11	2124-2128	odre	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-12	2129-2133	đene	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-13	2134-2140	građom	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-14	2141-2150	zemljišta	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-15	2151-2152	,	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-16	2153-2160	posebno	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-17	2161-2170	rasjednim	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-18	2171-2179	linijama	_	_	_	HAS\_ATTRIBUTE[42]	_	
+15-19	2180-2181	.	_	_	_	_	_	

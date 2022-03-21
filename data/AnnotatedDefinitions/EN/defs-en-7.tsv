@@ -1,0 +1,404 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Calcretes are carbonate deposits forming from groundwater near the water table in arid lands as a result of concentration processes by near-surface evaporation.
+1-1	0-9	Calcretes	calcrete	D.1 Abiotic	DEFINIENDUM	_	_	
+1-2	10-13	are	_	_	DEFINITOR	_	_	
+1-3	14-23	carbonate	_	D.1 Abiotic[1]	GENUS[35]	_	_	
+1-4	24-32	deposits	_	D.1 Abiotic[1]	GENUS[35]	_	_	
+1-5	33-40	forming	_	_	_	HAS\_CAUSE[60]	_	
+1-6	41-45	from	_	_	_	HAS\_CAUSE[60]	_	
+1-7	46-57	groundwater	_	D.1 Abiotic	_	HAS\_CAUSE[60]	_	
+1-8	58-62	near	_	_	_	HAS\_LOCATION[61]	frame\_LOCATION	
+1-9	63-66	the	_	_	_	HAS\_LOCATION[61]	_	
+1-10	67-72	water	_	D.1 Abiotic[2]	_	HAS\_LOCATION[61]	_	
+1-11	73-78	table	_	D.1 Abiotic[2]	_	HAS\_LOCATION[61]	_	
+1-12	79-81	in	_	_	_	HAS\_LOCATION[61]	_	
+1-13	82-86	arid	_	D.1 Abiotic[3]	_	HAS\_LOCATION[61]	_	
+1-14	87-92	lands	_	D.1 Abiotic[3]	_	HAS\_LOCATION[61]	_	
+1-15	93-95	as	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[89]	
+1-16	96-97	a	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[89]	
+1-17	98-104	result	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[89]	
+1-18	105-107	of	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[89]	
+1-19	108-121	concentration	_	_	_	HAS\_CAUSE[62]	_	
+1-20	122-131	processes	_	_	_	HAS\_CAUSE[62]	_	
+1-21	132-134	by	_	_	_	HAS\_CAUSE[62]	_	
+1-22	135-147	near-surface	_	B.2 Loss[4]	_	HAS\_CAUSE[62]	_	
+1-23	148-159	evaporation	_	B.2 Loss[4]	_	HAS\_CAUSE[62]	_	
+1-24	159-160	.	_	_	_	_	_	
+
+#Text=Riedl defined the marginal cave by its position at the sea coast, the presence of brackish water, and the presence of troglobiotic species in it, but he also supposed that the origin of such caves was due to wave action and their gradual loss of connection to the sea.
+2-1	161-166	Riedl	_	_	_	_	_	
+2-2	167-174	defined	_	_	_	_	_	
+2-3	175-178	the	_	_	_	_	_	
+2-4	179-187	marginal	_	A.2 Underground landform[5]	DEFINIENDUM[36]	_	_	
+2-5	188-192	cave	_	A.2 Underground landform[5]	DEFINIENDUM[36]	_	_	
+2-6	193-195	by	_	_	_	HAS\_LOCATION[63]	frame\_LOCATION	
+2-7	196-199	its	_	_	_	HAS\_LOCATION[63]	_	
+2-8	200-208	position	_	_	_	HAS\_LOCATION[63]	_	
+2-9	209-211	at	_	_	_	HAS\_LOCATION[63]	_	
+2-10	212-215	the	_	_	_	HAS\_LOCATION[63]	_	
+2-11	216-219	sea	_	D.1 Abiotic[6]	_	HAS\_LOCATION[63]	_	
+2-12	220-225	coast	_	D.1 Abiotic[6]	_	HAS\_LOCATION[63]	_	
+2-13	225-226	,	_	_	_	_	_	
+2-14	227-230	the	_	_	_	CONTAINS[64]	_	
+2-15	231-239	presence	_	_	_	CONTAINS[64]	_	
+2-16	240-242	of	_	_	_	CONTAINS[64]	_	
+2-17	243-251	brackish	_	_	_	CONTAINS[64]	_	
+2-18	252-257	water	_	_	_	CONTAINS[64]	_	
+2-19	257-258	,	_	_	_	_	_	
+2-20	259-262	and	_	_	_	_	_	
+2-21	263-266	the	_	_	_	CONTAINS[65]	_	
+2-22	267-275	presence	_	_	_	CONTAINS[65]	_	
+2-23	276-278	of	_	_	_	CONTAINS[65]	_	
+2-24	279-291	troglobiotic	_	D.2 Biotic[7]	_	CONTAINS[65]	_	
+2-25	292-299	species	_	D.2 Biotic[7]	_	CONTAINS[65]	_	
+2-26	300-302	in	_	_	_	CONTAINS[65]	_	
+2-27	303-305	it	_	_	_	CONTAINS[65]	_	
+2-28	305-306	,	_	_	_	_	_	
+2-29	307-310	but	_	_	_	_	_	
+2-30	311-313	he	_	_	_	_	_	
+2-31	314-318	also	_	_	_	_	_	
+2-32	319-327	supposed	_	_	_	_	_	
+2-33	328-332	that	_	_	_	_	_	
+2-34	333-336	the	_	_	_	HAS\_CAUSE[66]	_	
+2-35	337-343	origin	_	_	_	HAS\_CAUSE[66]	_	
+2-36	344-346	of	_	_	_	HAS\_CAUSE[66]	_	
+2-37	347-351	such	_	_	_	HAS\_CAUSE[66]	_	
+2-38	352-357	caves	_	_	_	HAS\_CAUSE[66]	_	
+2-39	358-361	was	_	_	_	HAS\_CAUSE[66]	_	
+2-40	362-365	due	_	_	_	HAS\_CAUSE[66]	frame\_CAUSE[90]	
+2-41	366-368	to	_	_	_	HAS\_CAUSE[66]	frame\_CAUSE[90]	
+2-42	369-373	wave	_	B. Process[8]	_	HAS\_CAUSE[66]	_	
+2-43	374-380	action	_	B. Process[8]	_	HAS\_CAUSE[66]	_	
+2-44	381-384	and	_	_	_	HAS\_CAUSE[66]	_	
+2-45	385-390	their	_	_	_	HAS\_CAUSE[66]	_	
+2-46	391-398	gradual	_	_	_	HAS\_CAUSE[66]	_	
+2-47	399-403	loss	_	_	_	HAS\_CAUSE[66]	_	
+2-48	404-406	of	_	_	_	HAS\_CAUSE[66]	_	
+2-49	407-417	connection	_	_	_	HAS\_CAUSE[66]	_	
+2-50	418-420	to	_	_	_	HAS\_CAUSE[66]	_	
+2-51	421-424	the	_	_	_	HAS\_CAUSE[66]	_	
+2-52	425-428	sea	_	_	_	HAS\_CAUSE[66]	_	
+2-53	428-429	.	_	_	_	_	_	
+
+#Text=The halocline is a layer where the salinity abruptly changes (sometimes from polyhaline to nearly limnic).
+3-1	430-433	The	_	_	_	_	_	
+3-2	434-443	halocline	_	D.1 Abiotic	DEFINIENDUM	_	_	
+3-3	444-446	is	_	_	DEFINITOR[37]	_	_	
+3-4	447-448	a	_	_	DEFINITOR[37]	_	_	
+3-5	449-454	layer	_	_	GENUS	_	_	
+3-6	455-460	where	_	_	_	HAS\_LOCATION[67]	frame\_LOCATION	
+3-7	461-464	the	_	_	_	HAS\_LOCATION[67]	_	
+3-8	465-473	salinity	_	D.3 Property	_	HAS\_LOCATION[67]	_	
+3-9	474-482	abruptly	_	_	_	HAS\_LOCATION[67]	_	
+3-10	483-490	changes	_	_	_	HAS\_LOCATION[67]	_	
+3-11	491-492	(	_	_	_	_	_	
+3-12	492-501	sometimes	_	_	_	_	_	
+3-13	502-506	from	_	_	_	_	_	
+3-14	507-517	polyhaline	_	D.3 Property	_	_	_	
+3-15	518-520	to	_	_	_	_	_	
+3-16	521-527	nearly	_	_	_	_	_	
+3-17	528-534	limnic	_	D.3 Property	_	_	_	
+3-18	534-535	)	_	_	_	_	_	
+3-19	535-536	.	_	_	_	_	_	
+
+#Text=Glaciers are sedimentary formations of seasonal snow that accumulates on the upper elevations of a glacier and buries the previous season ’ s accumulation.
+4-1	537-545	Glaciers	_	D.1 Abiotic	DEFINIENDUM	_	_	
+4-2	546-549	are	_	_	DEFINITOR	_	_	
+4-3	550-561	sedimentary	_	_	GENUS[38]	_	_	
+4-4	562-572	formations	_	_	GENUS[38]	_	_	
+4-5	573-575	of	_	_	GENUS[38]	COMPOSITION\_MEDIUM[68]	_	
+4-6	576-584	seasonal	_	_	GENUS[38]	COMPOSITION\_MEDIUM[68]	_	
+4-7	585-589	snow	_	D.1 Abiotic	GENUS[38]	COMPOSITION\_MEDIUM[68]	_	
+4-8	590-594	that	_	_	_	_	_	
+4-9	595-606	accumulates	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[91]	
+4-10	607-609	on	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[91]	
+4-11	610-613	the	_	_	_	HAS\_LOCATION[69]	_	
+4-12	614-619	upper	_	_	_	HAS\_LOCATION[69]	_	
+4-13	620-630	elevations	_	_	_	HAS\_LOCATION[69]	_	
+4-14	631-633	of	_	_	_	HAS\_LOCATION[69]	_	
+4-15	634-635	a	_	_	_	HAS\_LOCATION[69]	_	
+4-16	636-643	glacier	_	D.1 Abiotic	_	HAS\_LOCATION[69]	_	
+4-17	644-647	and	_	_	_	_	_	
+4-18	648-654	buries	_	B.4 Transformation	_	HAS\_ATTRIBUTE[70]	_	
+4-19	655-658	the	_	_	_	HAS\_ATTRIBUTE[70]	_	
+4-20	659-667	previous	_	_	_	HAS\_ATTRIBUTE[70]	_	
+4-21	668-674	season	_	_	_	HAS\_ATTRIBUTE[70]	_	
+4-22	675-676	’	_	_	_	HAS\_ATTRIBUTE[70]	_	
+4-23	677-678	s	_	_	_	HAS\_ATTRIBUTE[70]	_	
+4-24	679-691	accumulation	_	_	_	HAS\_ATTRIBUTE[70]	_	
+4-25	691-692	.	_	_	_	_	_	
+
+#Text=Denuded karst is former intrastratal karst that develops where the soluble rock has been almost completely exposed from beneath the cover, but with substantial inheritance of solution porosity from the preceding stages of intrastratal development.
+5-1	693-700	Denuded	_	C. Geome[9]	DEFINIENDUM[39]	_	_	
+5-2	701-706	karst	_	C. Geome[9]	DEFINIENDUM[39]	_	_	
+5-3	707-709	is	_	_	DEFINITOR	_	_	
+5-4	710-716	former	_	_	GENUS[40]	_	_	
+5-5	717-729	intrastratal	_	C. Geome[10]	GENUS[40]	_	_	
+5-6	730-735	karst	_	C. Geome[10]	GENUS[40]	_	_	
+5-7	736-740	that	_	_	_	_	_	
+5-8	741-749	develops	_	_	_	COMPOSITION\_MEDIUM[71]	frame\_COMPOSITION[92]	
+5-9	750-755	where	_	_	_	COMPOSITION\_MEDIUM[71]	frame\_COMPOSITION[92]	
+5-10	756-759	the	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-11	760-767	soluble	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[71]	_	
+5-12	768-772	rock	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[71]	_	
+5-13	773-776	has	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-14	777-781	been	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-15	782-788	almost	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-16	789-799	completely	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-17	800-807	exposed	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-18	808-812	from	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-19	813-820	beneath	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-20	821-824	the	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-21	825-830	cover	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+5-22	830-831	,	_	_	_	_	_	
+5-23	832-835	but	_	_	_	_	_	
+5-24	836-840	with	_	_	_	HAS\_CAUSE[72]	_	
+5-25	841-852	substantial	_	_	_	HAS\_CAUSE[72]	_	
+5-26	853-864	inheritance	_	_	_	HAS\_CAUSE[72]	_	
+5-27	865-867	of	_	_	_	HAS\_CAUSE[72]	_	
+5-28	868-876	solution	_	D.3 Property[12]	_	HAS\_CAUSE[72]	_	
+5-29	877-885	porosity	_	D.3 Property[12]	_	HAS\_CAUSE[72]	_	
+5-30	886-890	from	_	_	_	HAS\_CAUSE[72]	_	
+5-31	891-894	the	_	_	_	HAS\_CAUSE[72]	_	
+5-32	895-904	preceding	_	_	_	HAS\_CAUSE[72]	_	
+5-33	905-911	stages	_	_	_	HAS\_CAUSE[72]	_	
+5-34	912-914	of	_	_	_	HAS\_CAUSE[72]	_	
+5-35	915-927	intrastratal	_	_	_	HAS\_CAUSE[72]	_	
+5-36	928-939	development	_	_	_	HAS\_CAUSE[72]	_	
+5-37	939-940	.	_	_	_	_	_	
+
+#Text=Open karst is karst that commences only after exposure of the soluble rock, without any significant intrastratal karstification.
+6-1	941-945	Open	_	C. Geome[13]	DEFINIENDUM[41]	_	_	
+6-2	946-951	karst	_	C. Geome[13]	DEFINIENDUM[41]	_	_	
+6-3	952-954	is	_	_	DEFINITOR	_	_	
+6-4	955-960	karst	_	C. Geome	GENUS	_	_	
+6-5	961-965	that	_	_	_	_	_	
+6-6	966-975	commences	_	_	_	OCCURS\_IN\_TIME[73]	frame\_TIME[93]	
+6-7	976-980	only	_	_	_	OCCURS\_IN\_TIME[73]	frame\_TIME[93]	
+6-8	981-986	after	_	_	_	OCCURS\_IN\_TIME[73]	frame\_TIME[93]	
+6-9	987-995	exposure	_	B.1 Movement	_	OCCURS\_IN\_TIME[73]	_	
+6-10	996-998	of	_	_	_	OCCURS\_IN\_TIME[73]	_	
+6-11	999-1002	the	_	_	_	OCCURS\_IN\_TIME[73]	_	
+6-12	1003-1010	soluble	_	D.1 Abiotic[14]	_	OCCURS\_IN\_TIME[73]	_	
+6-13	1011-1015	rock	_	D.1 Abiotic[14]	_	OCCURS\_IN\_TIME[73]	_	
+6-14	1015-1016	,	_	_	_	_	_	
+6-15	1017-1024	without	_	_	_	HAS\_ATTRIBUTE[74]	*	
+6-16	1025-1028	any	_	_	_	HAS\_ATTRIBUTE[74]	_	
+6-17	1029-1040	significant	_	_	_	HAS\_ATTRIBUTE[74]	_	
+6-18	1041-1053	intrastratal	_	B.4 Transformation[15]	_	HAS\_ATTRIBUTE[74]	_	
+6-19	1054-1068	karstification	_	B.4 Transformation[15]	_	HAS\_ATTRIBUTE[74]	_	
+6-20	1068-1069	.	_	_	_	_	_	
+
+#Text=Gypsum needles are straight, clear crystals that grow by extrusion from the soil in some caves.
+7-1	1070-1076	Gypsum	_	A.1 Surface landform[16]	DEFINIENDUM[42]	_	_	
+7-2	1077-1084	needles	_	A.1 Surface landform[16]	DEFINIENDUM[42]	_	_	
+7-3	1085-1088	are	_	_	DEFINITOR	_	_	
+7-4	1089-1097	straight	_	_	GENUS[43]	HAS\_FORM[75]	_	
+7-5	1097-1098	,	_	_	GENUS[43]	HAS\_FORM[75]	_	
+7-6	1099-1104	clear	_	_	GENUS[43]	HAS\_FORM[75]	_	
+7-7	1105-1113	crystals	_	D.1 Abiotic	GENUS[43]	_	_	
+7-8	1114-1118	that	_	_	_	HAS\_CAUSE[76]	_	
+7-9	1119-1123	grow	_	_	_	HAS\_CAUSE[76]	_	
+7-10	1124-1126	by	_	_	_	HAS\_CAUSE[76]	_	
+7-11	1127-1136	extrusion	_	_	_	HAS\_CAUSE[76]	_	
+7-12	1137-1141	from	_	_	_	HAS\_CAUSE[76]	_	
+7-13	1142-1145	the	_	_	_	HAS\_CAUSE[76]	_	
+7-14	1146-1150	soil	_	_	_	HAS\_CAUSE[76]	_	
+7-15	1151-1153	in	_	_	_	HAS\_LOCATION[77]	_	
+7-16	1154-1158	some	_	_	_	HAS\_LOCATION[77]	_	
+7-17	1159-1164	caves	_	A.2 Underground landform	_	HAS\_LOCATION[77]	_	
+7-18	1164-1165	.	_	_	_	_	_	
+
+#Text=As the name implies, cave cotton is a mass of tangled fibers generally with fiber lengths of a few tens of centimeters but diameters of tens or hundreds of micrometers.
+8-1	1166-1168	As	_	_	_	_	_	
+8-2	1169-1172	the	_	_	_	_	_	
+8-3	1173-1177	name	_	_	_	_	_	
+8-4	1178-1185	implies	_	_	_	_	_	
+8-5	1185-1186	,	_	_	_	_	_	
+8-6	1187-1191	cave	_	D.1 Abiotic[17]	DEFINIENDUM[44]	_	_	
+8-7	1192-1198	cotton	_	D.1 Abiotic[17]	DEFINIENDUM[44]	_	_	
+8-8	1199-1201	is	_	_	DEFINITOR[45]	_	_	
+8-9	1202-1203	a	_	_	DEFINITOR[45]	_	_	
+8-10	1204-1208	mass	_	_	GENUS[46]	_	_	
+8-11	1209-1211	of	_	_	GENUS[46]	_	_	
+8-12	1212-1219	tangled	_	_	GENUS[46]	_	_	
+8-13	1220-1226	fibers	_	_	GENUS[46]	_	_	
+8-14	1227-1236	generally	_	_	_	HAS\_SIZE[78]	_	
+8-15	1237-1241	with	_	_	_	HAS\_SIZE[78]	_	
+8-16	1242-1247	fiber	_	_	_	HAS\_SIZE[78]	_	
+8-17	1248-1255	lengths	_	_	_	HAS\_SIZE[78]	_	
+8-18	1256-1258	of	_	_	_	HAS\_SIZE[78]	_	
+8-19	1259-1260	a	_	_	_	HAS\_SIZE[78]	_	
+8-20	1261-1264	few	_	_	_	HAS\_SIZE[78]	_	
+8-21	1265-1269	tens	_	D.3 Property[18]	_	HAS\_SIZE[78]	_	
+8-22	1270-1272	of	_	D.3 Property[18]	_	HAS\_SIZE[78]	_	
+8-23	1273-1284	centimeters	_	D.3 Property[18]	_	HAS\_SIZE[78]	_	
+8-24	1285-1288	but	_	_	_	HAS\_SIZE[78]	_	
+8-25	1289-1298	diameters	_	_	_	HAS\_SIZE[78]	_	
+8-26	1299-1301	of	_	_	_	HAS\_SIZE[78]	_	
+8-27	1302-1306	tens	_	_	_	HAS\_SIZE[78]	_	
+8-28	1307-1309	or	_	_	_	HAS\_SIZE[78]	_	
+8-29	1310-1318	hundreds	_	D.3 Property[19]	_	HAS\_SIZE[78]	_	
+8-30	1319-1321	of	_	D.3 Property[19]	_	HAS\_SIZE[78]	_	
+8-31	1322-1333	micrometers	_	D.3 Property[19]	_	HAS\_SIZE[78]	_	
+8-32	1333-1334	.	_	_	_	_	_	
+
+#Text=In porous media aquifers, pores between mineral grains are the open spaces available for the storage of water.
+9-1	1335-1337	In	_	_	_	HAS\_LOCATION[79]	frame\_LOCATION	
+9-2	1338-1344	porous	_	C. Geome[20]	_	HAS\_LOCATION[79]	_	
+9-3	1345-1350	media	_	C. Geome[20]	_	HAS\_LOCATION[79]	_	
+9-4	1351-1359	aquifers	_	C. Geome[20]	_	HAS\_LOCATION[79]	_	
+9-5	1359-1360	,	_	_	_	_	_	
+9-6	1361-1366	pores	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-7	1367-1374	between	_	_	_	HAS\_LOCATION[80]	_	
+9-8	1375-1382	mineral	_	_	_	HAS\_LOCATION[80]	_	
+9-9	1383-1389	grains	_	_	_	HAS\_LOCATION[80]	_	
+9-10	1390-1393	are	_	_	DEFINITOR	_	_	
+9-11	1394-1397	the	_	_	GENUS[47]	_	_	
+9-12	1398-1402	open	_	_	GENUS[47]	_	_	
+9-13	1403-1409	spaces	_	_	GENUS[47]	_	_	
+9-14	1410-1419	available	_	_	_	HAS\_FUNCTION[81]	frame\_FUNCTION[94]	
+9-15	1420-1423	for	_	_	_	HAS\_FUNCTION[81]	frame\_FUNCTION[94]	
+9-16	1424-1427	the	_	_	_	HAS\_FUNCTION[81]	_	
+9-17	1428-1435	storage	_	D.3 Property	_	HAS\_FUNCTION[81]	_	
+9-18	1436-1438	of	_	_	_	HAS\_FUNCTION[81]	_	
+9-19	1439-1444	water	_	D.1 Abiotic	_	HAS\_FUNCTION[81]	_	
+9-20	1444-1445	.	_	_	_	_	_	
+
+#Text=Porosity is defined as the ratio of the volume of pores to the volume of bulk rock and is usually expressed as a percentage.
+10-1	1446-1454	Porosity	_	D.3 Property	DEFINIENDUM	_	_	
+10-2	1455-1457	is	_	_	DEFINITOR[48]	_	_	
+10-3	1458-1465	defined	_	_	DEFINITOR[48]	_	_	
+10-4	1466-1468	as	_	_	DEFINITOR[48]	_	_	
+10-5	1469-1472	the	_	_	_	_	frame\_MEASURES[95]	
+10-6	1473-1478	ratio	_	_	GENUS[49]	MEASURES[82]	frame\_MEASURES[95]	
+10-7	1479-1481	of	_	_	GENUS[49]	MEASURES[82]	frame\_MEASURES[95]	
+10-8	1482-1485	the	_	_	GENUS[49]	MEASURES[82]	_	
+10-9	1486-1492	volume	_	_	GENUS[49]	MEASURES[82]	_	
+10-10	1493-1495	of	_	_	GENUS[49]	MEASURES[82]	_	
+10-11	1496-1501	pores	_	D.1 Abiotic	GENUS[49]	MEASURES[82]	_	
+10-12	1502-1504	to	_	_	_	MEASURES[82]	_	
+10-13	1505-1508	the	_	_	_	MEASURES[82]	_	
+10-14	1509-1515	volume	_	_	_	MEASURES[82]	_	
+10-15	1516-1518	of	_	_	_	MEASURES[82]	_	
+10-16	1519-1523	bulk	_	D.1 Abiotic[21]	_	MEASURES[82]	_	
+10-17	1524-1528	rock	_	D.1 Abiotic[21]	_	MEASURES[82]	_	
+10-18	1529-1532	and	_	_	_	_	_	
+10-19	1533-1535	is	_	_	_	MEASURES[83]	_	
+10-20	1536-1543	usually	_	_	_	MEASURES[83]	_	
+10-21	1544-1553	expressed	_	_	_	MEASURES[83]	frame\_MEASURES[96]	
+10-22	1554-1556	as	_	_	_	MEASURES[83]	frame\_MEASURES[96]	
+10-23	1557-1558	a	_	_	_	MEASURES[83]	_	
+10-24	1559-1569	percentage	_	_	_	MEASURES[83]	_	
+10-25	1569-1570	.	_	_	_	_	_	
+
+#Text=Karst springs are the outlets draining open conduit systems.
+11-1	1571-1576	Karst	_	A.3 Hydrological form[22]	DEFINIENDUM[50]	_	_	
+11-2	1577-1584	springs	_	A.3 Hydrological form[22]	DEFINIENDUM[50]	_	_	
+11-3	1585-1588	are	_	_	DEFINITOR	_	_	
+11-4	1589-1592	the	_	_	_	_	_	
+11-5	1593-1600	outlets	_	A. Landform	GENUS	_	_	
+11-6	1601-1609	draining	_	B.1 Movement	_	HAS\_FUNCTION[84]	_	
+11-7	1610-1614	open	_	_	_	HAS\_FUNCTION[84]	_	
+11-8	1615-1622	conduit	_	C. Geome[23]	_	HAS\_FUNCTION[84]	_	
+11-9	1623-1630	systems	_	C. Geome[23]	_	HAS\_FUNCTION[84]	_	
+11-10	1630-1631	.	_	_	_	_	_	
+
+#Text=Hydrothermal karst is a special case of hypogene karst.
+12-1	1632-1644	Hydrothermal	_	C. Geome[24]	DEFINIENDUM[51]	_	_	
+12-2	1645-1650	karst	_	C. Geome[24]	DEFINIENDUM[51]	_	_	
+12-3	1651-1653	is	_	_	DEFINITOR[52]	_	_	
+12-4	1654-1655	a	_	_	DEFINITOR[52]	_	_	
+12-5	1656-1663	special	_	_	_	_	_	
+12-6	1664-1668	case	_	_	_	_	_	
+12-7	1669-1671	of	_	_	_	_	_	
+12-8	1672-1680	hypogene	_	C. Geome[25]	GENUS[53]	_	_	
+12-9	1681-1686	karst	_	C. Geome[25]	GENUS[53]	_	_	
+12-10	1686-1687	.	_	_	_	_	_	
+
+#Text=Network caves are angular grids of intersecting passages formed by widening of nearly all major fractures within favorable areas of soluble rocks.
+13-1	1688-1695	Network	_	A.2 Underground landform[26]	DEFINIENDUM[54]	_	_	
+13-2	1696-1701	caves	_	A.2 Underground landform[26]	DEFINIENDUM[54]	_	_	
+13-3	1702-1705	are	_	_	DEFINITOR	_	_	
+13-4	1706-1713	angular	_	_	GENUS[55]	_	_	
+13-5	1714-1719	grids	_	_	GENUS[55]	_	_	
+13-6	1720-1722	of	_	_	GENUS[55]	_	_	
+13-7	1723-1735	intersecting	_	_	GENUS[55]	_	_	
+13-8	1736-1744	passages	_	D.1 Abiotic	GENUS[55]	_	_	
+13-9	1745-1751	formed	_	_	_	HAS\_CAUSE[85]	frame\_CAUSE[97]	
+13-10	1752-1754	by	_	_	_	HAS\_CAUSE[85]	frame\_CAUSE[97]	
+13-11	1755-1763	widening	_	B.4 Transformation	_	HAS\_CAUSE[85]	_	
+13-12	1764-1766	of	_	_	_	HAS\_CAUSE[85]	_	
+13-13	1767-1773	nearly	_	_	_	HAS\_CAUSE[85]	_	
+13-14	1774-1777	all	_	_	_	HAS\_CAUSE[85]	_	
+13-15	1778-1783	major	_	_	_	HAS\_CAUSE[85]	_	
+13-16	1784-1793	fractures	_	D.1 Abiotic	_	HAS\_CAUSE[85]	_	
+13-17	1794-1800	within	_	_	_	HAS\_LOCATION[86]	frame\_LOCATION	
+13-18	1801-1810	favorable	_	_	_	HAS\_LOCATION[86]	_	
+13-19	1811-1816	areas	_	_	_	HAS\_LOCATION[86]	_	
+13-20	1817-1819	of	_	_	_	HAS\_LOCATION[86]	_	
+13-21	1820-1827	soluble	_	D.1 Abiotic[27]	_	HAS\_LOCATION[86]	_	
+13-22	1828-1833	rocks	_	D.1 Abiotic[27]	_	HAS\_LOCATION[86]	_	
+13-23	1833-1834	.	_	_	_	_	_	
+
+#Text=A particular type of ice stalagmite, known as bamboo or thermoindicator, consists of successions of perfectly transparent ice knobs and narrow sections of opaque ice.
+14-1	1835-1836	A	_	_	_	_	_	
+14-2	1837-1847	particular	_	_	_	_	_	
+14-3	1848-1852	type	_	_	_	_	_	
+14-4	1853-1855	of	_	_	_	_	_	
+14-5	1856-1859	ice	_	A.2 Underground landform[28]	GENUS[56]	_	_	
+14-6	1860-1870	stalagmite	_	A.2 Underground landform[28]	GENUS[56]	_	_	
+14-7	1870-1871	,	_	_	_	_	_	
+14-8	1872-1877	known	_	_	DEFINITOR[57]	_	_	
+14-9	1878-1880	as	_	_	DEFINITOR[57]	_	_	
+14-10	1881-1887	bamboo	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-11	1888-1890	or	_	_	_	_	_	
+14-12	1891-1906	thermoindicator	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-13	1906-1907	,	_	_	_	_	_	
+14-14	1908-1916	consists	_	_	_	COMPOSITION\_MEDIUM[87]	frame\_COMPOSITION[98]	
+14-15	1917-1919	of	_	_	_	COMPOSITION\_MEDIUM[87]	frame\_COMPOSITION[98]	
+14-16	1920-1931	successions	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+14-17	1932-1934	of	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+14-18	1935-1944	perfectly	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+14-19	1945-1956	transparent	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+14-20	1957-1960	ice	_	D.1 Abiotic[29]	_	COMPOSITION\_MEDIUM[87]	_	
+14-21	1961-1966	knobs	_	D.1 Abiotic[29]	_	COMPOSITION\_MEDIUM[87]	_	
+14-22	1967-1970	and	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+14-23	1971-1977	narrow	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+14-24	1978-1986	sections	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+14-25	1987-1989	of	_	_	_	COMPOSITION\_MEDIUM[87]	_	
+14-26	1990-1996	opaque	_	D.1 Abiotic[30]	_	COMPOSITION\_MEDIUM[87]	_	
+14-27	1997-2000	ice	_	D.1 Abiotic[30]	_	COMPOSITION\_MEDIUM[87]	_	
+14-28	2000-2001	.	_	_	_	_	_	
+
+#Text=Longitudinal rills / flutes are suites of vertical grooves that develop where a water film flows down a high angle rock face.
+15-1	2002-2014	Longitudinal	_	A.1 Surface landform[31]	DEFINIENDUM[58]	_	_	
+15-2	2015-2020	rills	_	A.1 Surface landform[31]	DEFINIENDUM[58]	_	_	
+15-3	2021-2022	/	_	_	_	_	_	
+15-4	2023-2029	flutes	_	A.1 Surface landform	DEFINIENDUM	_	_	
+15-5	2030-2033	are	_	_	DEFINITOR	_	_	
+15-6	2034-2040	suites	_	_	GENUS[59]	_	_	
+15-7	2041-2043	of	_	_	GENUS[59]	_	_	
+15-8	2044-2052	vertical	_	_	GENUS[59]	HAS\_FORM	_	
+15-9	2053-2060	grooves	_	D.1 Abiotic	GENUS[59]	_	_	
+15-10	2061-2065	that	_	_	_	HAS\_CAUSE[88]	frame\_CAUSE[99]	
+15-11	2066-2073	develop	_	_	_	HAS\_CAUSE[88]	frame\_CAUSE[99]	
+15-12	2074-2079	where	_	_	_	HAS\_CAUSE[88]	frame\_CAUSE[99]	
+15-13	2080-2081	a	_	_	_	HAS\_CAUSE[88]	_	
+15-14	2082-2087	water	_	D.1 Abiotic[32]	_	HAS\_CAUSE[88]	_	
+15-15	2088-2092	film	_	D.1 Abiotic[32]	_	HAS\_CAUSE[88]	_	
+15-16	2093-2098	flows	_	B.1 Movement[33]	_	HAS\_CAUSE[88]	_	
+15-17	2099-2103	down	_	B.1 Movement[33]	_	HAS\_CAUSE[88]	_	
+15-18	2104-2105	a	_	_	_	HAS\_CAUSE[88]	_	
+15-19	2106-2110	high	_	_	_	HAS\_CAUSE[88]	_	
+15-20	2111-2116	angle	_	_	_	HAS\_CAUSE[88]	_	
+15-21	2117-2121	rock	_	D.1 Abiotic[34]	_	HAS\_CAUSE[88]	_	
+15-22	2122-2126	face	_	D.1 Abiotic[34]	_	HAS\_CAUSE[88]	_	
+15-23	2126-2127	.	_	_	_	_	_	

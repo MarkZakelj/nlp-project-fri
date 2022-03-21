@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Geomorfološka karta je karta, ki prikazuje kompleksno podobo reliefa nekega območja.
+1-1	0-13	Geomorfološka	_	E.1 Instrument[1]	DEFINIENDUM[17]	_	_	
+1-2	14-19	karta	_	E.1 Instrument[1]	DEFINIENDUM[17]	_	_	
+1-3	20-22	je	_	_	DEFINITOR	_	_	
+1-4	23-28	karta	_	E.1 Instrument	GENUS	_	_	
+1-5	28-29	,	_	_	_	_	_	
+1-6	30-32	ki	_	_	_	STUDIES[34]	frame\_STUDIES[52]	
+1-7	33-42	prikazuje	_	_	_	STUDIES[34]	frame\_STUDIES[52]	
+1-8	43-53	kompleksno	_	_	_	STUDIES[34]	_	
+1-9	54-60	podobo	_	_	_	STUDIES[34]	_	
+1-10	61-68	reliefa	_	D.1 Abiotic	_	STUDIES[34]	_	
+1-11	69-75	nekega	_	_	_	STUDIES[34]	_	
+1-12	76-83	območja	_	D.1 Abiotic	_	STUDIES[34]	_	
+1-13	83-84	.	_	_	_	_	_	
+
+#Text=Litotamnijski apnenec je biogena kamnina kopučaste teksture.
+2-1	85-98	Litotamnijski	_	D.1 Abiotic[2]	DEFINIENDUM[18]	_	_	
+2-2	99-106	apnenec	_	D.1 Abiotic[2]	DEFINIENDUM[18]	_	_	
+2-3	107-109	je	_	_	DEFINITOR	_	_	
+2-4	110-117	biogena	_	_	_	HAS\_CAUSE	_	
+2-5	118-125	kamnina	_	D.1 Abiotic	GENUS	_	_	
+2-6	126-135	kopučaste	_	_	_	HAS\_ATTRIBUTE[35]	_	
+2-7	136-144	teksture	_	_	_	HAS\_ATTRIBUTE[35]	_	
+2-8	144-145	.	_	_	_	_	_	
+
+#Text=Litotamnijski apnenec je miocenska (badenijska) apnena usedlina, nastala z biokemičnimi procesi.
+3-1	146-159	Litotamnijski	_	D.1 Abiotic[3]	DEFINIENDUM[19]	_	_	
+3-2	160-167	apnenec	_	D.1 Abiotic[3]	DEFINIENDUM[19]	_	_	
+3-3	168-170	je	_	_	DEFINITOR	_	_	
+3-4	171-180	miocenska	_	_	_	OCCURS\_IN\_TIME[36]	_	
+3-5	181-182	(	_	_	_	OCCURS\_IN\_TIME[36]	_	
+3-6	182-192	badenijska	_	_	_	OCCURS\_IN\_TIME[36]	_	
+3-7	192-193	)	_	_	_	OCCURS\_IN\_TIME[36]	_	
+3-8	194-200	apnena	_	D.1 Abiotic[4]	GENUS[20]	_	_	
+3-9	201-209	usedlina	_	D.1 Abiotic[4]	GENUS[20]	_	_	
+3-10	209-210	,	_	_	_	_	_	
+3-11	211-218	nastala	_	_	_	HAS\_CAUSE[37]	frame\_CAUSE[53]	
+3-12	219-220	z	_	_	_	HAS\_CAUSE[37]	frame\_CAUSE[53]	
+3-13	221-233	biokemičnimi	_	B. Process[5]	_	HAS\_CAUSE[37]	_	
+3-14	234-241	procesi	_	B. Process[5]	_	HAS\_CAUSE[37]	_	
+3-15	241-242	.	_	_	_	_	_	
+
+#Text=Lapornat apnenec je plitvomorski sediment iz badenijskega obdobja srednjega miocena.
+4-1	243-251	Lapornat	_	D.1 Abiotic[6]	DEFINIENDUM[21]	_	_	
+4-2	252-259	apnenec	_	D.1 Abiotic[6]	DEFINIENDUM[21]	_	_	
+4-3	260-262	je	_	_	DEFINITOR	_	_	
+4-4	263-275	plitvomorski	_	D.1 Abiotic[7]	GENUS[22]	_	_	
+4-5	276-284	sediment	_	D.1 Abiotic[7]	GENUS[22]	_	_	
+4-6	285-287	iz	_	_	_	OCCURS\_IN\_TIME[38]	frame\_TIME	
+4-7	288-300	badenijskega	_	_	_	OCCURS\_IN\_TIME[38]	_	
+4-8	301-308	obdobja	_	_	_	OCCURS\_IN\_TIME[38]	frame\_TIME	
+4-9	309-318	srednjega	_	_	_	OCCURS\_IN\_TIME[38]	_	
+4-10	319-326	miocena	_	_	_	OCCURS\_IN\_TIME[38]	_	
+4-11	326-327	.	_	_	_	_	_	
+
+#Text=Sediment, ki suspendira iz poplavnih vod, imenujemo poplavna ilovica ali glina.
+5-1	328-336	Sediment	_	D.1 Abiotic	GENUS	_	_	
+5-2	336-337	,	_	_	_	_	_	
+5-3	338-340	ki	_	_	_	_	_	
+5-4	341-351	suspendira	_	_	_	HAS\_CAUSE[39]	frame\_CAUSE[54]	
+5-5	352-354	iz	_	_	_	HAS\_CAUSE[39]	frame\_CAUSE[54]	
+5-6	355-364	poplavnih	_	A.3 Hydrological form[8]	_	HAS\_CAUSE[39]	_	
+5-7	365-368	vod	_	A.3 Hydrological form[8]	_	HAS\_CAUSE[39]	_	
+5-8	368-369	,	_	_	_	_	_	
+5-9	370-379	imenujemo	_	_	DEFINITOR	_	_	
+5-10	380-388	poplavna	_	D.1 Abiotic[9]	DEFINIENDUM[23]	_	_	
+5-11	389-396	ilovica	_	D.1 Abiotic[9]	DEFINIENDUM[23]	_	_	
+5-12	397-400	ali	_	_	_	_	_	
+5-13	401-406	glina	_	D.1 Abiotic	DEFINIENDUM	_	_	
+5-14	406-407	.	_	_	_	_	_	
+
+#Text=Karbonski apnenec je osnovna matična kamnina.
+6-1	408-417	Karbonski	_	D.1 Abiotic[10]	DEFINIENDUM[24]	_	_	
+6-2	418-425	apnenec	_	D.1 Abiotic[10]	DEFINIENDUM[24]	_	_	
+6-3	426-428	je	_	_	DEFINITOR	_	_	
+6-4	429-436	osnovna	_	_	_	_	_	
+6-5	437-444	matična	_	_	GENUS[25]	_	_	
+6-6	445-452	kamnina	_	_	GENUS[25]	_	_	
+6-7	452-453	.	_	_	_	_	_	
+
+#Text=Vzpetina je korozijski ostanek sredi korozijske uravnave, zato se hum imenuje tudi osamelec.
+7-1	454-462	Vzpetina	_	D.1 Abiotic	GENUS	_	_	
+7-2	463-465	je	_	_	_	_	_	
+7-3	466-476	korozijski	_	_	_	HAS\_CAUSE[40]	_	
+7-4	477-484	ostanek	_	_	_	HAS\_CAUSE[40]	_	
+7-5	485-490	sredi	_	_	_	HAS\_CAUSE[40]	_	
+7-6	491-501	korozijske	_	_	_	HAS\_CAUSE[40]	_	
+7-7	502-510	uravnave	_	_	_	HAS\_CAUSE[40]	_	
+7-8	510-511	,	_	_	_	_	_	
+7-9	512-516	zato	_	_	_	_	_	
+7-10	517-519	se	_	_	DEFINITOR	_	_	
+7-11	520-523	hum	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-12	524-531	imenuje	_	_	DEFINITOR[26]	_	_	
+7-13	532-536	tudi	_	_	DEFINITOR[26]	_	_	
+7-14	537-545	osamelec	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-15	545-546	.	_	_	_	_	_	
+
+#Text=Turloughi so mokrišča, pomemben habitat za floro in favno, v poletnem času, ko turloughi presahnejo so pomembni za pašo drobnice.
+8-1	547-556	Turloughi	turlough	A.3 Hydrological form	DEFINIENDUM	_	_	
+8-2	557-559	so	_	_	DEFINITOR	_	_	
+8-3	560-568	mokrišča	_	A.3 Hydrological form	GENUS	_	_	
+8-4	568-569	,	_	_	_	_	_	
+8-5	570-578	pomemben	_	_	_	HAS\_FUNCTION[41]	frame\_FUNCTION	
+8-6	579-586	habitat	_	_	_	HAS\_FUNCTION[41]	_	
+8-7	587-589	za	_	_	_	HAS\_FUNCTION[41]	frame\_FUNCTION	
+8-8	590-595	floro	_	D.2 Biotic	_	HAS\_FUNCTION[41]	_	
+8-9	596-598	in	_	_	_	HAS\_FUNCTION[41]	_	
+8-10	599-604	favno	_	D.2 Biotic	_	HAS\_FUNCTION[41]	_	
+8-11	604-605	,	_	_	_	_	_	
+8-12	606-607	v	_	_	_	HAS\_FUNCTION[42]	_	
+8-13	608-616	poletnem	_	_	_	HAS\_FUNCTION[42]	_	
+8-14	617-621	času	_	_	_	HAS\_FUNCTION[42]	_	
+8-15	621-622	,	_	_	_	HAS\_FUNCTION[42]	_	
+8-16	623-625	ko	_	_	_	HAS\_FUNCTION[42]	_	
+8-17	626-635	turloughi	_	A.3 Hydrological form	_	HAS\_FUNCTION[42]	_	
+8-18	636-646	presahnejo	_	_	_	HAS\_FUNCTION[42]	_	
+8-19	647-649	so	_	_	_	HAS\_FUNCTION[42]	_	
+8-20	650-658	pomembni	_	_	_	HAS\_FUNCTION[42]	_	
+8-21	659-661	za	_	_	_	HAS\_FUNCTION[42]	_	
+8-22	662-666	pašo	_	_	_	HAS\_FUNCTION[42]	_	
+8-23	667-675	drobnice	_	_	_	HAS\_FUNCTION[42]	_	
+8-24	675-676	.	_	_	_	_	_	
+
+#Text=Drumlin je podolgovat zaobljen grič iz drobirja talne morene, razpotegnjen v smeri premikanja nekdanjega ledenika.
+9-1	677-684	Drumlin	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	685-687	je	_	_	DEFINITOR	_	_	
+9-3	688-698	podolgovat	_	_	_	HAS\_FORM[43]	_	
+9-4	699-707	zaobljen	_	_	_	HAS\_FORM[43]	_	
+9-5	708-712	grič	_	D.1 Abiotic	GENUS	HAS\_FORM[43]	_	
+9-6	713-715	iz	_	_	_	COMPOSITION\_MEDIUM[44]	frame\_COMPOSITION	
+9-7	716-724	drobirja	_	_	_	COMPOSITION\_MEDIUM[44]	_	
+9-8	725-730	talne	_	_	_	COMPOSITION\_MEDIUM[44]	_	
+9-9	731-737	morene	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[44]	_	
+9-10	737-738	,	_	_	_	_	_	
+9-11	739-751	razpotegnjen	_	_	_	HAS\_FORM[45]	_	
+9-12	752-753	v	_	_	_	HAS\_FORM[45]	_	
+9-13	754-759	smeri	_	_	_	HAS\_FORM[45]	_	
+9-14	760-770	premikanja	_	_	_	HAS\_FORM[45]	_	
+9-15	771-781	nekdanjega	_	_	_	HAS\_FORM[45]	_	
+9-16	782-790	ledenika	_	D.1 Abiotic	_	HAS\_FORM[45]	_	
+9-17	790-791	.	_	_	_	_	_	
+
+#Text=Najpogostejše skupine hidromorfnih tal so psevdogleji, obrečna tla in oglejena tla.
+10-1	792-805	Najpogostejše	_	_	_	_	_	
+10-2	806-813	skupine	_	_	_	_	_	
+10-3	814-826	hidromorfnih	_	D.1 Abiotic[11]	DEFINIENDUM[27]	_	_	
+10-4	827-830	tal	_	D.1 Abiotic[11]	DEFINIENDUM[27]	_	_	
+10-5	831-833	so	_	_	_	_	_	
+10-6	834-845	psevdogleji	_	D.1 Abiotic	SPECIES	_	_	
+10-7	845-846	,	_	_	_	_	_	
+10-8	847-854	obrečna	_	D.1 Abiotic[12]	SPECIES[28]	_	_	
+10-9	855-858	tla	_	D.1 Abiotic[12]	SPECIES[28]	_	_	
+10-10	859-861	in	_	_	_	_	_	
+10-11	862-870	oglejena	_	D.1 Abiotic[13]	SPECIES[29]	_	_	
+10-12	871-874	tla	_	D.1 Abiotic[13]	SPECIES[29]	_	_	
+10-13	874-875	.	_	_	_	_	_	
+
+#Text=Rečni otok je del kopnega v reki.
+11-1	876-881	Rečni	_	D.1 Abiotic[14]	DEFINIENDUM[30]	_	_	
+11-2	882-886	otok	_	D.1 Abiotic[14]	DEFINIENDUM[30]	_	_	
+11-3	887-889	je	_	_	DEFINITOR	_	_	
+11-4	890-893	del	_	_	GENUS[31]	_	_	
+11-5	894-901	kopnega	_	D.1 Abiotic	GENUS[31]	_	_	
+11-6	902-903	v	_	_	_	HAS\_LOCATION[46]	_	
+11-7	904-908	reki	_	D.1 Abiotic	_	HAS\_LOCATION[46]	_	
+11-8	908-909	.	_	_	_	_	_	
+
+#Text=Raztekanje voda z istega območja v različna porečja in povodja je hidrološka posebnost, hidrološki pojav, ki ga imenujemo bifurkacija.
+12-1	910-920	Raztekanje	_	B.1 Movement[15]	_	DEFINED\_AS[47]	_	
+12-2	921-925	voda	_	B.1 Movement[15]	_	DEFINED\_AS[47]	_	
+12-3	926-927	z	_	_	_	DEFINED\_AS[47]	_	
+12-4	928-934	istega	_	_	_	DEFINED\_AS[47]	_	
+12-5	935-942	območja	_	_	_	DEFINED\_AS[47]	_	
+12-6	943-944	v	_	_	_	DEFINED\_AS[47]	_	
+12-7	945-953	različna	_	_	_	DEFINED\_AS[47]	_	
+12-8	954-961	porečja	_	D.1 Abiotic	_	DEFINED\_AS[47]	_	
+12-9	962-964	in	_	_	_	DEFINED\_AS[47]	_	
+12-10	965-972	povodja	_	D.1 Abiotic	_	DEFINED\_AS[47]	_	
+12-11	973-975	je	_	_	_	_	_	
+12-12	976-986	hidrološka	_	_	_	_	_	
+12-13	987-996	posebnost	_	_	_	_	_	
+12-14	996-997	,	_	_	_	_	_	
+12-15	998-1008	hidrološki	_	_	GENUS[32]	_	_	
+12-16	1009-1014	pojav	_	_	GENUS[32]	_	_	
+12-17	1014-1015	,	_	_	_	_	_	
+12-18	1016-1018	ki	_	_	DEFINITOR[33]	_	_	
+12-19	1019-1021	ga	_	_	DEFINITOR[33]	_	_	
+12-20	1022-1031	imenujemo	_	_	DEFINITOR[33]	_	_	
+12-21	1032-1043	bifurkacija	_	B.1 Movement	DEFINIENDUM	_	_	
+12-22	1043-1044	.	_	_	_	_	_	
+
+#Text=Vršaj je stožčasto nasutje ob izstopu iz ozkih gorskih grap v široko glavno ravnino.
+13-1	1045-1050	Vršaj	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	1051-1053	je	_	_	DEFINITOR	_	_	
+13-3	1054-1063	stožčasto	_	_	_	HAS\_FORM	_	
+13-4	1064-1071	nasutje	_	D.1 Abiotic	GENUS	_	_	
+13-5	1072-1074	ob	_	_	_	HAS\_LOCATION[48]	_	
+13-6	1075-1082	izstopu	_	_	_	HAS\_LOCATION[48]	_	
+13-7	1083-1085	iz	_	_	_	HAS\_LOCATION[48]	_	
+13-8	1086-1091	ozkih	_	D.1 Abiotic[16]	_	HAS\_LOCATION[48]	_	
+13-9	1092-1099	gorskih	_	D.1 Abiotic[16]	_	HAS\_LOCATION[48]	_	
+13-10	1100-1104	grap	_	D.1 Abiotic[16]	_	HAS\_LOCATION[48]	_	
+13-11	1105-1106	v	_	_	_	HAS\_LOCATION[48]	_	
+13-12	1107-1113	široko	_	_	_	HAS\_LOCATION[48]	_	
+13-13	1114-1120	glavno	_	_	_	HAS\_LOCATION[48]	_	
+13-14	1121-1128	ravnino	_	D.1 Abiotic	_	HAS\_LOCATION[48]	_	
+13-15	1128-1129	.	_	_	_	_	_	
+
+#Text=Grapa je dolina na pobočju, s precejšnjim strmcem in prečnim profilom v obliki črke V. Voda po njej teče le v majhnih količinah in le občasno, ob nalivih lahko v njih nastanejo siloviti hudourniki.
+14-1	1130-1135	Grapa	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-2	1136-1138	je	_	_	DEFINITOR	_	_	
+14-3	1139-1145	dolina	_	A.1 Surface landform	GENUS	_	_	
+14-4	1146-1148	na	_	_	_	HAS\_LOCATION[49]	frame\_LOCATION	
+14-5	1149-1156	pobočju	_	C. Geome	_	HAS\_LOCATION[49]	_	
+14-6	1156-1157	,	_	_	_	_	_	
+14-7	1158-1159	s	_	_	_	HAS\_FORM[50]	_	
+14-8	1160-1171	precejšnjim	_	_	_	HAS\_FORM[50]	_	
+14-9	1172-1179	strmcem	_	D.3 Property	_	HAS\_FORM[50]	_	
+14-10	1180-1182	in	_	_	_	HAS\_FORM[50]	_	
+14-11	1183-1190	prečnim	_	_	_	HAS\_FORM[50]	_	
+14-12	1191-1199	profilom	_	_	_	HAS\_FORM[50]	_	
+14-13	1200-1201	v	_	_	_	HAS\_FORM[50]	_	
+14-14	1202-1208	obliki	_	_	_	HAS\_FORM[50]	_	
+14-15	1209-1213	črke	_	_	_	HAS\_FORM[50]	_	
+14-16	1214-1215	V	_	_	_	HAS\_FORM[50]	_	
+14-17	1215-1216	.	_	_	_	_	_	
+14-18	1217-1221	Voda	_	D.1 Abiotic	_	HAS\_FUNCTION[51]	_	
+14-19	1222-1224	po	_	_	_	HAS\_FUNCTION[51]	_	
+14-20	1225-1229	njej	_	_	_	HAS\_FUNCTION[51]	_	
+14-21	1230-1234	teče	_	B.1 Movement	_	HAS\_FUNCTION[51]	_	
+14-22	1235-1237	le	_	_	_	HAS\_FUNCTION[51]	_	
+14-23	1238-1239	v	_	_	_	HAS\_FUNCTION[51]	_	
+14-24	1240-1247	majhnih	_	_	_	HAS\_FUNCTION[51]	_	
+14-25	1248-1257	količinah	_	_	_	HAS\_FUNCTION[51]	_	
+14-26	1258-1260	in	_	_	_	HAS\_FUNCTION[51]	_	
+14-27	1261-1263	le	_	_	_	HAS\_FUNCTION[51]	_	
+14-28	1264-1271	občasno	_	_	_	HAS\_FUNCTION[51]	_	
+14-29	1271-1272	,	_	_	_	HAS\_FUNCTION[51]	_	
+14-30	1273-1275	ob	_	_	_	HAS\_FUNCTION[51]	_	
+14-31	1276-1283	nalivih	_	_	_	HAS\_FUNCTION[51]	_	
+14-32	1284-1289	lahko	_	_	_	HAS\_FUNCTION[51]	_	
+14-33	1290-1291	v	_	_	_	HAS\_FUNCTION[51]	_	
+14-34	1292-1296	njih	_	_	_	HAS\_FUNCTION[51]	_	
+14-35	1297-1306	nastanejo	_	_	_	HAS\_FUNCTION[51]	_	
+14-36	1307-1315	siloviti	_	_	_	HAS\_FUNCTION[51]	_	
+14-37	1316-1326	hudourniki	_	D.1 Abiotic	_	HAS\_FUNCTION[51]	_	
+14-38	1326-1327	.	_	_	_	_	_	

@@ -1,0 +1,369 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=zaobljena škraplja: Škraplja z zaobljenimi žlebovi in vmesnimi hrbti zaradi vplivov talne odeje v sedanjosti ali preteklosti.
+1-1	0-9	zaobljena	_	A.1 Surface landform[1]	DEFINIENDUM[20]	_	_	
+1-2	10-18	škraplja	_	A.1 Surface landform[1]	DEFINIENDUM[20]	_	_	
+1-3	18-19	:	_	_	_	_	_	
+1-4	20-28	Škraplja	_	A.1 Surface landform	GENUS	_	_	
+1-5	29-30	z	_	_	_	HAS\_FORM[33]	_	
+1-6	31-42	zaobljenimi	_	_	_	HAS\_FORM[33]	_	
+1-7	43-50	žlebovi	_	D.1 Abiotic	_	HAS\_FORM[33]	_	
+1-8	51-53	in	_	_	_	HAS\_FORM[33]	_	
+1-9	54-62	vmesnimi	_	_	_	HAS\_FORM[33]	_	
+1-10	63-68	hrbti	_	D.1 Abiotic	_	HAS\_FORM[33]	_	
+1-11	69-75	zaradi	_	_	_	HAS\_CAUSE[34]	frame\_CAUSE	
+1-12	76-83	vplivov	_	_	_	HAS\_CAUSE[34]	_	
+1-13	84-89	talne	_	_	_	HAS\_CAUSE[34]	_	
+1-14	90-95	odeje	_	_	_	HAS\_CAUSE[34]	_	
+1-15	96-97	v	_	_	_	HAS\_CAUSE[34]	_	
+1-16	98-108	sedanjosti	_	_	_	HAS\_CAUSE[34]	_	
+1-17	109-112	ali	_	_	_	HAS\_CAUSE[34]	_	
+1-18	113-124	preteklosti	_	_	_	HAS\_CAUSE[34]	_	
+1-19	124-125	.	_	_	_	HAS\_CAUSE[34]	_	
+
+#Text=fosilna škraplja: Z neprepustnimi sedimenti prekrita škraplja ali vsaka škraplja, ki ni v skladu s procesi v novem okolju.
+2-1	130-137	fosilna	_	A.1 Surface landform[2]	DEFINIENDUM[21]	_	_	
+2-2	138-146	škraplja	_	A.1 Surface landform[2]	DEFINIENDUM[21]	_	_	
+2-3	146-147	:	_	_	_	_	_	
+2-4	148-149	Z	_	_	_	HAS\_FORM[35]	_	
+2-5	150-163	neprepustnimi	_	_	_	HAS\_FORM[35]	_	
+2-6	164-173	sedimenti	_	D.1 Abiotic	_	HAS\_FORM[35]	_	
+2-7	174-182	prekrita	_	_	_	HAS\_FORM[35]	frame\_FORM	
+2-8	183-191	škraplja	_	A.1 Surface landform	GENUS	_	_	
+2-9	192-195	ali	_	_	_	_	_	
+2-10	196-201	vsaka	_	_	_	_	_	
+2-11	202-210	škraplja	_	A.1 Surface landform	_	_	_	
+2-12	210-211	,	_	_	_	_	_	
+2-13	212-214	ki	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-14	215-217	ni	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-15	218-219	v	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-16	220-226	skladu	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-17	227-228	s	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-18	229-236	procesi	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-19	237-238	v	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-20	239-244	novem	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-21	245-251	okolju	_	_	_	HAS\_ATTRIBUTE[36]	_	
+2-22	251-252	.	_	_	_	HAS\_ATTRIBUTE[36]	_	
+
+#Text=škrapljišce: Na gosto s škrapljami posejano skalno površje.
+3-1	257-268	škrapljišce	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-2	268-269	:	_	_	_	_	_	
+3-3	270-272	Na	_	_	_	_	_	
+3-4	273-278	gosto	_	_	_	CONTAINS[37]	_	
+3-5	279-280	s	_	_	_	CONTAINS[37]	_	
+3-6	281-291	škrapljami	_	_	_	CONTAINS[37]	_	
+3-7	292-300	posejano	_	_	_	CONTAINS[37]	_	
+3-8	301-307	skalno	_	_	GENUS[22]	_	_	
+3-9	308-315	površje	_	D.1 Abiotic	GENUS[22]	_	_	
+3-10	315-316	.	_	_	_	_	_	
+
+#Text=termokras: Zvegano, kraškemu površju podobno ozemlje na stalno zmrznjenih tleh (permafrostu). Ima samo oblikovno podobost s krasom, ne pa tudi genetične, ker nastaja zaradi neenakomernega sezonskega odtajanja in zmrzovanja vode v vrhnjem sloju nad trajno zmrlo podlago (permafrostom, merzloto).
+4-1	321-330	termokras	_	C. Geome	DEFINIENDUM	_	_	
+4-2	330-331	:	_	_	_	_	_	
+4-3	332-339	Zvegano	_	_	_	HAS\_FORM[38]	_	
+4-4	339-340	,	_	_	_	HAS\_FORM[38]	_	
+4-5	341-349	kraškemu	_	_	_	HAS\_FORM[38]	_	
+4-6	350-357	površju	_	_	_	HAS\_FORM[38]	_	
+4-7	358-365	podobno	_	_	_	HAS\_FORM[38]	frame\_FORM	
+4-8	366-373	ozemlje	_	_	GENUS	_	_	
+4-9	374-376	na	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION	
+4-10	377-383	stalno	_	_	_	HAS\_LOCATION[39]	_	
+4-11	384-394	zmrznjenih	_	_	_	HAS\_LOCATION[39]	_	
+4-12	395-399	tleh	_	_	_	HAS\_LOCATION[39]	_	
+4-13	400-401	(	_	_	_	HAS\_LOCATION[39]	_	
+4-14	401-412	permafrostu	_	D.1 Abiotic	_	HAS\_LOCATION[39]	_	
+4-15	412-413	)	_	_	_	HAS\_LOCATION[39]	_	
+4-16	413-414	.	_	_	_	_	_	
+4-17	415-418	Ima	_	_	_	_	_	
+4-18	419-423	samo	_	_	_	_	_	
+4-19	424-433	oblikovno	_	_	_	_	_	
+4-20	434-442	podobost	_	_	_	_	_	
+4-21	443-444	s	_	_	_	_	_	
+4-22	445-451	krasom	_	_	_	_	_	
+4-23	451-452	,	_	_	_	_	_	
+4-24	453-455	ne	_	_	_	_	_	
+4-25	456-458	pa	_	_	_	_	_	
+4-26	459-463	tudi	_	_	_	_	_	
+4-27	464-473	genetične	_	_	_	_	_	
+4-28	473-474	,	_	_	_	_	_	
+4-29	475-478	ker	_	_	_	_	_	
+4-30	479-486	nastaja	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[61]	
+4-31	487-493	zaradi	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[61]	
+4-32	494-508	neenakomernega	_	_	_	HAS\_CAUSE[40]	_	
+4-33	509-519	sezonskega	_	_	_	HAS\_CAUSE[40]	_	
+4-34	520-529	odtajanja	_	B.4 Transformation	_	HAS\_CAUSE[40]	_	
+4-35	530-532	in	_	_	_	HAS\_CAUSE[40]	_	
+4-36	533-543	zmrzovanja	_	B.4 Transformation	_	HAS\_CAUSE[40]	_	
+4-37	544-548	vode	_	D.1 Abiotic	_	HAS\_CAUSE[40]	_	
+4-38	549-550	v	_	_	_	HAS\_LOCATION[41]	_	
+4-39	551-558	vrhnjem	_	_	_	HAS\_LOCATION[41]	_	
+4-40	559-564	sloju	_	_	_	HAS\_LOCATION[41]	_	
+4-41	565-568	nad	_	_	_	HAS\_LOCATION[41]	_	
+4-42	569-575	trajno	_	_	_	HAS\_LOCATION[41]	_	
+4-43	576-581	zmrlo	_	_	_	HAS\_LOCATION[41]	_	
+4-44	582-589	podlago	_	_	_	HAS\_LOCATION[41]	_	
+4-45	590-591	(	_	_	_	HAS\_LOCATION[41]	_	
+4-46	591-603	permafrostom	_	_	_	HAS\_LOCATION[41]	_	
+4-47	603-604	,	_	_	_	HAS\_LOCATION[41]	_	
+4-48	605-613	merzloto	_	_	_	HAS\_LOCATION[41]	_	
+4-49	613-614	)	_	_	_	HAS\_LOCATION[41]	_	
+4-50	614-615	.	_	_	_	HAS\_LOCATION[41]	_	
+
+#Text=trdota vode: Mineralizacija vode oz. količina raztopljenih soli v enem litru vode. Kraški vodi daje trdoto predvsem raztopljeni karbonat kalcija in magnezija.
+5-1	620-626	trdota	_	D.3 Property[3]	DEFINIENDUM[23]	_	_	
+5-2	627-631	vode	_	D.3 Property[3]	DEFINIENDUM[23]	_	_	
+5-3	631-632	:	_	_	_	_	_	
+5-4	633-647	Mineralizacija	_	B.4 Transformation	_	_	_	
+5-5	648-652	vode	_	_	_	_	_	
+5-6	653-655	oz	_	_	_	_	_	
+5-7	655-656	.	_	_	_	_	_	
+5-8	657-665	količina	_	_	_	DEFINED\_AS[42]	_	
+5-9	666-678	raztopljenih	_	_	_	DEFINED\_AS[42]	_	
+5-10	679-683	soli	_	D.1 Abiotic	_	DEFINED\_AS[42]	_	
+5-11	684-685	v	_	_	_	DEFINED\_AS[42]	_	
+5-12	686-690	enem	_	_	_	DEFINED\_AS[42]	_	
+5-13	691-696	litru	_	_	_	DEFINED\_AS[42]	_	
+5-14	697-701	vode	_	D.1 Abiotic	_	DEFINED\_AS[42]	_	
+5-15	701-702	.	_	_	_	_	_	
+5-16	703-709	Kraški	_	_	_	_	_	
+5-17	710-714	vodi	_	_	_	_	_	
+5-18	715-719	daje	_	_	_	_	_	
+5-19	720-726	trdoto	_	_	_	_	_	
+5-20	727-735	predvsem	_	_	_	_	_	
+5-21	736-747	raztopljeni	_	_	_	_	_	
+5-22	748-756	karbonat	_	D.1 Abiotic[4]	_	_	_	
+5-23	757-764	kalcija	_	D.1 Abiotic[4]	_	_	_	
+5-24	765-767	in	_	_	_	_	_	
+5-25	768-777	magnezija	_	D.1 Abiotic	_	_	_	
+5-26	777-778	.	_	_	_	_	_	
+
+#Text=celokupna trdota: Je vsota kalcijevih in magnezijevih ionov v enem litru vode.
+6-1	783-792	celokupna	_	D.3 Property[5]	DEFINIENDUM[24]	_	_	
+6-2	793-799	trdota	_	D.3 Property[5]	DEFINIENDUM[24]	_	_	
+6-3	799-800	:	_	_	_	_	_	
+6-4	801-803	Je	_	_	_	_	_	
+6-5	804-809	vsota	_	_	_	DEFINED\_AS[43]	_	
+6-6	810-820	kalcijevih	kalcijevih ionov	D.1 Abiotic	_	DEFINED\_AS[43]	_	
+6-7	821-823	in	_	_	_	DEFINED\_AS[43]	_	
+6-8	824-836	magnezijevih	_	D.1 Abiotic[6]	_	DEFINED\_AS[43]	_	
+6-9	837-842	ionov	_	D.1 Abiotic[6]	_	DEFINED\_AS[43]	_	
+6-10	843-844	v	_	_	_	DEFINED\_AS[43]	_	
+6-11	845-849	enem	_	_	_	DEFINED\_AS[43]	_	
+6-12	850-855	litru	_	_	_	DEFINED\_AS[43]	_	
+6-13	856-860	vode	_	D.1 Abiotic	_	DEFINED\_AS[43]	_	
+6-14	860-861	.	_	_	_	DEFINED\_AS[43]	_	
+
+#Text=karbonatna trdota: Je delež magnezijevih in kalcijevih ionov, ki so vezani na ogljikovo kislino.
+7-1	866-876	karbonatna	_	D.3 Property[7]	DEFINIENDUM[25]	_	_	
+7-2	877-883	trdota	_	D.3 Property[7]	DEFINIENDUM[25]	_	_	
+7-3	883-884	:	_	_	_	_	_	
+7-4	885-887	Je	_	_	_	_	_	
+7-5	888-893	delež	_	_	_	DEFINED\_AS[44]	_	
+7-6	894-906	magnezijevih	magnezijev ion	D.1 Abiotic	_	DEFINED\_AS[44]	_	
+7-7	907-909	in	_	_	_	DEFINED\_AS[44]	_	
+7-8	910-920	kalcijevih	_	D.1 Abiotic[8]	_	DEFINED\_AS[44]	_	
+7-9	921-926	ionov	_	D.1 Abiotic[8]	_	DEFINED\_AS[44]	_	
+7-10	926-927	,	_	_	_	DEFINED\_AS[44]	_	
+7-11	928-930	ki	_	_	_	DEFINED\_AS[44]	_	
+7-12	931-933	so	_	_	_	DEFINED\_AS[44]	_	
+7-13	934-940	vezani	_	_	_	DEFINED\_AS[44]	_	
+7-14	941-943	na	_	_	_	DEFINED\_AS[44]	_	
+7-15	944-953	ogljikovo	_	D.1 Abiotic[9]	_	DEFINED\_AS[44]	_	
+7-16	954-961	kislino	_	D.1 Abiotic[9]	_	DEFINED\_AS[44]	_	
+7-17	961-962	.	_	_	_	_	_	
+
+#Text=trebljenje krasa: Odbijanje in odstranjevanje kamnov na polgolem krasu, na travnih površinah v gladini prsti za košnjo, na ornih zemljiščih v globini lemeža za varno oranje. V zgodovinski preteklosti pomembno delo, ki je v sedanjosti zamrlo.
+8-1	967-977	trebljenje	_	E.2 Method[10]	DEFINIENDUM[26]	_	_	
+8-2	978-983	krasa	_	E.2 Method[10]	DEFINIENDUM[26]	_	_	
+8-3	983-984	:	_	_	_	_	_	
+8-4	985-994	Odbijanje	_	_	_	DEFINED\_AS[45]	_	
+8-5	995-997	in	_	_	_	DEFINED\_AS[45]	_	
+8-6	998-1012	odstranjevanje	_	_	_	DEFINED\_AS[45]	_	
+8-7	1013-1019	kamnov	_	D.1 Abiotic	_	DEFINED\_AS[45]	_	
+8-8	1020-1022	na	_	_	_	_	frame\_LOCATION	
+8-9	1023-1031	polgolem	_	C. Geome[11]	_	_	_	
+8-10	1032-1037	krasu	_	C. Geome[11]	_	_	_	
+8-11	1037-1038	,	_	_	_	_	_	
+8-12	1039-1041	na	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION	
+8-13	1042-1049	travnih	_	_	_	HAS\_LOCATION[46]	_	
+8-14	1050-1059	površinah	_	_	_	HAS\_LOCATION[46]	_	
+8-15	1060-1061	v	_	_	_	HAS\_LOCATION[46]	_	
+8-16	1062-1069	gladini	_	_	_	HAS\_LOCATION[46]	_	
+8-17	1070-1075	prsti	_	_	_	HAS\_LOCATION[46]	_	
+8-18	1076-1078	za	_	_	_	HAS\_FUNCTION[47]	frame\_FUNCTION	
+8-19	1079-1085	košnjo	_	_	_	HAS\_FUNCTION[47]	_	
+8-20	1085-1086	,	_	_	_	_	_	
+8-21	1087-1089	na	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION	
+8-22	1090-1095	ornih	_	_	_	HAS\_LOCATION[48]	_	
+8-23	1096-1106	zemljiščih	_	_	_	HAS\_LOCATION[48]	_	
+8-24	1107-1108	v	_	_	_	HAS\_LOCATION[48]	_	
+8-25	1109-1116	globini	_	_	_	HAS\_LOCATION[48]	_	
+8-26	1117-1123	lemeža	_	_	_	HAS\_LOCATION[48]	_	
+8-27	1124-1126	za	_	_	_	HAS\_FUNCTION[49]	frame\_FUNCTION	
+8-28	1127-1132	varno	_	_	_	HAS\_FUNCTION[49]	_	
+8-29	1133-1139	oranje	_	_	_	HAS\_FUNCTION[49]	_	
+8-30	1139-1140	.	_	_	_	_	_	
+8-31	1141-1142	V	_	_	_	_	_	
+8-32	1143-1154	zgodovinski	_	_	_	_	_	
+8-33	1155-1166	preteklosti	_	_	_	_	_	
+8-34	1167-1175	pomembno	_	_	_	_	_	
+8-35	1176-1180	delo	_	_	_	_	_	
+8-36	1180-1181	,	_	_	_	_	_	
+8-37	1182-1184	ki	_	_	_	_	_	
+8-38	1185-1187	je	_	_	_	_	_	
+8-39	1188-1189	v	_	_	_	_	_	
+8-40	1190-1200	sedanjosti	_	_	_	_	_	
+8-41	1201-1207	zamrlo	_	_	_	_	_	
+8-42	1207-1208	.	_	_	_	_	_	
+
+#Text=troglobiont: Jamska žival, ki živi le v podzemlju.
+9-1	1213-1224	troglobiont	_	D.2 Biotic	DEFINIENDUM	_	_	
+9-2	1224-1225	:	_	_	_	_	_	
+9-3	1226-1232	Jamska	_	D.2 Biotic[12]	GENUS[27]	_	_	
+9-4	1233-1238	žival	_	D.2 Biotic[12]	GENUS[27]	_	_	
+9-5	1238-1239	,	_	_	_	_	_	
+9-6	1240-1242	ki	_	_	_	HAS\_LOCATION[50]	_	
+9-7	1243-1247	živi	_	_	_	HAS\_LOCATION[50]	_	
+9-8	1248-1250	le	_	_	_	HAS\_LOCATION[50]	_	
+9-9	1251-1252	v	_	_	_	HAS\_LOCATION[50]	frame\_LOCATION	
+9-10	1253-1262	podzemlju	_	C. Geome	_	HAS\_LOCATION[50]	_	
+9-11	1262-1263	.	_	_	_	_	_	
+
+#Text=troglofil: Jamoljubna žival, ki živi obdobno na zemeljskem površju (npr. netopir).
+10-1	1268-1277	troglofil	_	D.2 Biotic	DEFINIENDUM	_	_	
+10-2	1277-1278	:	_	_	_	_	_	
+10-3	1279-1289	Jamoljubna	_	D.2 Biotic[13]	GENUS[28]	_	_	
+10-4	1290-1295	žival	_	D.2 Biotic[13]	GENUS[28]	_	_	
+10-5	1295-1296	,	_	_	_	_	_	
+10-6	1297-1299	ki	_	_	_	HAS\_LOCATION[51]	_	
+10-7	1300-1304	živi	_	_	_	HAS\_LOCATION[51]	_	
+10-8	1305-1312	obdobno	_	_	_	HAS\_LOCATION[51]	_	
+10-9	1313-1315	na	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION	
+10-10	1316-1326	zemeljskem	_	D.1 Abiotic[14]	_	HAS\_LOCATION[51]	_	
+10-11	1327-1334	površju	_	D.1 Abiotic[14]	_	HAS\_LOCATION[51]	_	
+10-12	1335-1336	(	_	_	_	HAS\_LOCATION[51]	_	
+10-13	1336-1339	npr	_	_	_	HAS\_LOCATION[51]	_	
+10-14	1339-1340	.	_	_	_	HAS\_LOCATION[51]	_	
+10-15	1341-1348	netopir	_	D.2 Biotic	SPECIES	HAS\_LOCATION[51]	_	
+10-16	1348-1349	)	_	_	_	_	_	
+10-17	1349-1350	.	_	_	_	_	_	
+
+#Text=trogloksen: Žival, ki se v jamo samo zateče, biva v njej le obdobno.
+11-1	1355-1365	trogloksen	_	D.2 Biotic	DEFINIENDUM	_	_	
+11-2	1365-1366	:	_	_	_	_	_	
+11-3	1367-1372	Žival	_	D.2 Biotic	GENUS	_	_	
+11-4	1372-1373	,	_	_	_	_	_	
+11-5	1374-1376	ki	_	_	_	_	_	
+11-6	1377-1379	se	_	_	_	HAS\_LOCATION[52]	_	
+11-7	1380-1381	v	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION	
+11-8	1382-1386	jamo	_	A.2 Underground landform	_	HAS\_LOCATION[52]	_	
+11-9	1387-1391	samo	_	_	_	HAS\_LOCATION[52]	_	
+11-10	1392-1398	zateče	_	_	_	HAS\_LOCATION[52]	_	
+11-11	1398-1399	,	_	_	_	HAS\_LOCATION[52]	_	
+11-12	1400-1404	biva	_	_	_	HAS\_LOCATION[52]	_	
+11-13	1405-1406	v	_	_	_	HAS\_LOCATION[52]	_	
+11-14	1407-1411	njej	_	_	_	HAS\_LOCATION[52]	_	
+11-15	1412-1414	le	_	_	_	HAS\_LOCATION[52]	_	
+11-16	1415-1422	obdobno	_	_	_	HAS\_LOCATION[52]	_	
+11-17	1422-1423	.	_	_	_	_	_	
+
+#Text=udorna dolina: Udorna vrtača, tudi brezno s tekočo vodo na dnu.
+12-1	1428-1434	udorna	_	A.1 Surface landform[15]	DEFINIENDUM[29]	_	_	
+12-2	1435-1441	dolina	_	A.1 Surface landform[15]	DEFINIENDUM[29]	_	_	
+12-3	1441-1442	:	_	_	_	_	_	
+12-4	1443-1449	Udorna	_	A.1 Surface landform[16]	GENUS[30]	HAS\_FORM[53]	_	
+12-5	1450-1456	vrtača	_	A.1 Surface landform[16]	GENUS[30]	HAS\_FORM[53]	_	
+12-6	1456-1457	,	_	_	_	_	_	
+12-7	1458-1462	tudi	_	_	_	_	_	
+12-8	1463-1469	brezno	_	A.1 Surface landform	_	_	_	
+12-9	1470-1471	s	_	_	_	CONTAINS[54]	frame\_CONTAINS	
+12-10	1472-1478	tekočo	_	_	_	CONTAINS[54]	_	
+12-11	1479-1483	vodo	_	D.1 Abiotic	_	CONTAINS[54]	_	
+12-12	1484-1486	na	_	_	_	CONTAINS[54]	_	
+12-13	1487-1490	dnu	_	_	_	CONTAINS[54]	_	
+12-14	1490-1491	.	_	_	_	_	_	
+
+#Text=udornica:Depresijska oblika z očitno udornim nastankom nad votlino. Pogosto ime za udorno vrtačo.
+13-1	1496-1504	udornica	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	1504-1505	:	_	_	_	_	_	
+13-3	1505-1516	Depresijska	_	_	GENUS[31]	_	_	
+13-4	1517-1523	oblika	_	_	GENUS[31]	_	_	
+13-5	1524-1525	z	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE	
+13-6	1526-1532	očitno	_	_	_	HAS\_CAUSE[55]	_	
+13-7	1533-1540	udornim	_	_	_	HAS\_CAUSE[55]	_	
+13-8	1541-1550	nastankom	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE	
+13-9	1551-1554	nad	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION	
+13-10	1555-1562	votlino	_	A.2 Underground landform	_	HAS\_LOCATION[56]	_	
+13-11	1562-1563	.	_	_	_	_	_	
+13-12	1564-1571	Pogosto	_	_	_	_	_	
+13-13	1572-1575	ime	_	_	_	_	_	
+13-14	1576-1578	za	_	_	_	_	_	
+13-15	1579-1585	udorno	_	A.1 Surface landform[17]	DEFINIENDUM[32]	_	_	
+13-16	1586-1592	vrtačo	_	A.1 Surface landform[17]	DEFINIENDUM[32]	_	_	
+13-17	1592-1593	.	_	_	_	_	_	
+
+#Text=ugrez, grez: Vrtača ali manjša depresija v sipkih sedimentih, ki se ji pozna, da je nastala ali se poglobila z ugrezanjem.
+14-1	1598-1603	ugrez	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-2	1603-1604	,	_	_	_	_	_	
+14-3	1605-1609	grez	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-4	1609-1610	:	_	_	_	_	_	
+14-5	1611-1617	Vrtača	_	A.1 Surface landform	GENUS	_	_	
+14-6	1618-1621	ali	_	_	_	_	_	
+14-7	1622-1628	manjša	_	_	_	HAS\_SIZE	_	
+14-8	1629-1638	depresija	_	_	_	HAS\_FORM	_	
+14-9	1639-1640	v	_	_	_	HAS\_LOCATION[57]	_	
+14-10	1641-1647	sipkih	_	_	_	HAS\_LOCATION[57]	_	
+14-11	1648-1658	sedimentih	_	D.1 Abiotic	_	HAS\_LOCATION[57]	_	
+14-12	1658-1659	,	_	_	_	_	_	
+14-13	1660-1662	ki	_	_	_	_	_	
+14-14	1663-1665	se	_	_	_	_	_	
+14-15	1666-1668	ji	_	_	_	_	_	
+14-16	1669-1674	pozna	_	_	_	_	_	
+14-17	1674-1675	,	_	_	_	_	_	
+14-18	1676-1678	da	_	_	_	HAS\_CAUSE[58]	_	
+14-19	1679-1681	je	_	_	_	HAS\_CAUSE[58]	frame\_CAUSE[62]	
+14-20	1682-1689	nastala	_	_	_	HAS\_CAUSE[58]	frame\_CAUSE[62]	
+14-21	1690-1693	ali	_	_	_	HAS\_CAUSE[58]	_	
+14-22	1694-1696	se	_	_	_	HAS\_CAUSE[58]	_	
+14-23	1697-1706	poglobila	_	_	_	HAS\_CAUSE[58]	_	
+14-24	1707-1708	z	_	_	_	HAS\_CAUSE[58]	_	
+14-25	1709-1719	ugrezanjem	_	B.1 Movement	_	HAS\_CAUSE[58]	_	
+14-26	1719-1720	.	_	_	_	_	_	
+
+#Text=uvala: Skledasta vdolbina, navadno manjša od kraškega polja in večja od vrtače, z neravnim, običajno z vrtacami razčlenjenim dnom. Ljudski izraz z dinarskega krasa.
+15-1	1724-1729	uvala	_	A.1 Surface landform	DEFINIENDUM	_	_	
+15-2	1729-1730	:	_	_	_	_	_	
+15-3	1731-1740	Skledasta	_	_	_	HAS\_FORM	_	
+15-4	1741-1749	vdolbina	_	_	GENUS	_	_	
+15-5	1749-1750	,	_	_	_	_	_	
+15-6	1751-1758	navadno	_	_	_	HAS\_SIZE[59]	_	
+15-7	1759-1765	manjša	_	_	_	HAS\_SIZE[59]	frame\_SIZE[63]	
+15-8	1766-1768	od	_	_	_	HAS\_SIZE[59]	frame\_SIZE[63]	
+15-9	1769-1777	kraškega	_	A.1 Surface landform[18]	_	HAS\_SIZE[59]	_	
+15-10	1778-1783	polja	_	A.1 Surface landform[18]	_	HAS\_SIZE[59]	_	
+15-11	1784-1786	in	_	_	_	HAS\_SIZE[59]	_	
+15-12	1787-1792	večja	_	_	_	HAS\_SIZE[59]	frame\_SIZE[64]	
+15-13	1793-1795	od	_	_	_	HAS\_SIZE[59]	frame\_SIZE[64]	
+15-14	1796-1802	vrtače	_	A.1 Surface landform	_	HAS\_SIZE[59]	_	
+15-15	1802-1803	,	_	_	_	_	_	
+15-16	1804-1805	z	_	_	_	HAS\_FORM[60]	_	
+15-17	1806-1814	neravnim	_	_	_	HAS\_FORM[60]	_	
+15-18	1814-1815	,	_	_	_	HAS\_FORM[60]	_	
+15-19	1816-1824	običajno	_	_	_	HAS\_FORM[60]	_	
+15-20	1825-1826	z	_	_	_	HAS\_FORM[60]	_	
+15-21	1827-1835	vrtacami	_	_	_	HAS\_FORM[60]	_	
+15-22	1836-1848	razčlenjenim	_	_	_	HAS\_FORM[60]	_	
+15-23	1849-1853	dnom	_	_	_	HAS\_FORM[60]	_	
+15-24	1853-1854	.	_	_	_	_	_	
+15-25	1855-1862	Ljudski	_	_	_	_	_	
+15-26	1863-1868	izraz	_	_	_	_	_	
+15-27	1869-1870	z	_	_	_	_	_	
+15-28	1871-1881	dinarskega	Dinarskega	D.3.1 Geolocation[19]	_	_	_	
+15-29	1882-1887	krasa	_	D.3.1 Geolocation[19]	_	_	_	
+15-30	1887-1888	.	_	_	_	_	_	

@@ -1,0 +1,474 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=The word polje signifies a field or a large plain, and it is still widely used in Slav languages without particular reference to karstic terrain (Sweeting 1972, Roglič 1974), although poljes in the karst of Slovenia are usually called dolina or dol (Gams 1994).
+1-1	0-3	The	_	_	_	_	_	
+1-2	4-8	word	_	_	_	_	_	
+1-3	9-14	polje	_	A.1 Surface landform	DEFINIENDUM	_	_	
+1-4	15-24	signifies	_	_	DEFINITOR	_	_	
+1-5	25-26	a	_	_	_	_	_	
+1-6	27-32	field	_	D.1 Abiotic	GENUS	_	_	
+1-7	33-35	or	_	_	_	_	_	
+1-8	36-37	a	_	_	_	_	_	
+1-9	38-43	large	_	D.1 Abiotic[1]	GENUS[31]	HAS\_SIZE	_	
+1-10	44-49	plain	_	D.1 Abiotic[1]	GENUS[31]	_	_	
+1-11	49-50	,	_	_	_	_	_	
+1-12	51-54	and	_	_	_	_	_	
+1-13	55-57	it	_	_	_	_	_	
+1-14	58-60	is	_	_	_	_	_	
+1-15	61-66	still	_	_	_	_	_	
+1-16	67-73	widely	_	_	_	_	_	
+1-17	74-78	used	_	_	_	_	_	
+1-18	79-81	in	_	_	_	_	_	
+1-19	82-86	Slav	_	_	_	_	_	
+1-20	87-96	languages	_	_	_	_	_	
+1-21	97-104	without	_	_	_	_	_	
+1-22	105-115	particular	_	_	_	_	_	
+1-23	116-125	reference	_	_	_	_	_	
+1-24	126-128	to	_	_	_	_	_	
+1-25	129-136	karstic	_	C. Geome[2]	_	COMPOSITION\_MEDIUM[51]	_	
+1-26	137-144	terrain	_	C. Geome[2]	_	COMPOSITION\_MEDIUM[51]	_	
+1-27	145-146	(	_	_	_	_	_	
+1-28	146-154	Sweeting	_	_	_	_	_	
+1-29	155-159	1972	_	_	_	_	_	
+1-30	159-160	,	_	_	_	_	_	
+1-31	161-167	Roglič	_	_	_	_	_	
+1-32	168-172	1974	_	_	_	_	_	
+1-33	172-173	)	_	_	_	_	_	
+1-34	173-174	,	_	_	_	_	_	
+1-35	175-183	although	_	_	_	_	_	
+1-36	184-190	poljes	polje	A.1 Surface landform	_	_	_	
+1-37	191-193	in	_	_	_	_	_	
+1-38	194-197	the	_	_	_	_	_	
+1-39	198-203	karst	_	_	_	_	_	
+1-40	204-206	of	_	_	_	_	_	
+1-41	207-215	Slovenia	_	D.3.1 Geolocation	_	_	_	
+1-42	216-219	are	_	_	_	_	_	
+1-43	220-227	usually	_	_	_	_	_	
+1-44	228-234	called	_	_	_	_	_	
+1-45	235-241	dolina	_	_	_	_	_	
+1-46	242-244	or	_	_	_	_	_	
+1-47	245-248	dol	_	_	_	_	_	
+1-48	249-250	(	_	_	_	_	_	
+1-49	250-254	Gams	_	_	_	_	_	
+1-50	255-259	1994	_	_	_	_	_	
+1-51	259-260	)	_	_	_	_	_	
+1-52	260-261	.	_	_	_	_	_	
+
+#Text=The word ‘tower’ therefore subsumes a myriad of forms, and a variety of terms in different languages has been used to describe them, including turm, mogote, cone, piton, hum and pepino.
+2-1	262-265	The	_	_	_	_	_	
+2-2	266-270	word	_	_	_	_	_	
+2-3	271-272	‘	_	_	_	_	_	
+2-4	272-277	tower	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-5	277-278	’	_	_	_	_	_	
+2-6	279-288	therefore	_	_	_	_	_	
+2-7	289-297	subsumes	_	_	_	_	_	
+2-8	298-299	a	_	_	_	_	_	
+2-9	300-306	myriad	_	_	_	_	_	
+2-10	307-309	of	_	_	_	_	_	
+2-11	310-315	forms	_	_	_	_	_	
+2-12	315-316	,	_	_	_	_	_	
+2-13	317-320	and	_	_	_	_	_	
+2-14	321-322	a	_	_	_	_	_	
+2-15	323-330	variety	_	_	_	_	_	
+2-16	331-333	of	_	_	_	_	_	
+2-17	334-339	terms	_	_	_	_	_	
+2-18	340-342	in	_	_	_	_	_	
+2-19	343-352	different	_	_	_	_	_	
+2-20	353-362	languages	_	_	_	_	_	
+2-21	363-366	has	_	_	_	_	_	
+2-22	367-371	been	_	_	_	_	_	
+2-23	372-376	used	_	_	_	_	_	
+2-24	377-379	to	_	_	_	_	_	
+2-25	380-388	describe	_	_	_	_	_	
+2-26	389-393	them	_	_	_	_	_	
+2-27	393-394	,	_	_	_	_	_	
+2-28	395-404	including	_	_	_	_	_	
+2-29	405-409	turm	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-30	409-410	,	_	_	_	_	_	
+2-31	411-417	mogote	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-32	417-418	,	_	_	_	_	_	
+2-33	419-423	cone	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-34	423-424	,	_	_	_	_	_	
+2-35	425-430	piton	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-36	430-431	,	_	_	_	_	_	
+2-37	432-435	hum	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-38	436-439	and	_	_	_	_	_	
+2-39	440-446	pepino	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-40	446-447	.	_	_	_	_	_	
+
+#Text=Breccia pipes are common features of gypsum karst that are created by progressive stoping above sites of interstratal dissolution.
+3-1	448-455	Breccia	_	A.1 Surface landform[3]	DEFINIENDUM[32]	_	_	
+3-2	456-461	pipes	_	A.1 Surface landform[3]	DEFINIENDUM[32]	_	_	
+3-3	462-465	are	_	_	DEFINITOR	_	_	
+3-4	466-472	common	_	_	_	_	_	
+3-5	473-481	features	_	_	GENUS	_	_	
+3-6	482-484	of	_	_	_	_	_	
+3-7	485-491	gypsum	_	C. Geome[4]	_	COMPOSITION\_MEDIUM[52]	_	
+3-8	492-497	karst	_	C. Geome[4]	_	COMPOSITION\_MEDIUM[52]	_	
+3-9	498-502	that	_	_	_	_	_	
+3-10	503-506	are	_	_	_	_	_	
+3-11	507-514	created	_	_	_	HAS\_CAUSE[53]	frame\_CAUSE[78]	
+3-12	515-517	by	_	_	_	HAS\_CAUSE[53]	frame\_CAUSE[78]	
+3-13	518-529	progressive	_	_	_	HAS\_CAUSE[53]	_	
+3-14	530-537	stoping	_	B.1 Movement	_	HAS\_CAUSE[53]	_	
+3-15	538-543	above	_	_	_	HAS\_CAUSE[53]	_	
+3-16	544-549	sites	_	_	_	HAS\_CAUSE[53]	_	
+3-17	550-552	of	_	_	_	HAS\_CAUSE[53]	_	
+3-18	553-565	interstratal	_	B.2 Loss[5]	_	HAS\_CAUSE[53]	_	
+3-19	566-577	dissolution	_	B.2 Loss[5]	_	HAS\_CAUSE[53]	_	
+3-20	577-578	.	_	_	_	_	_	
+
+#Text=Gypsum tumuli (bubbles or tents) are hollow domes of freshly formed gypsum that are round or elliptical in plan (Breish and Wefer 1981, Pulido-Bosch 1986, Macaluso and Sauro 1996).
+4-1	579-585	Gypsum	_	A.1 Surface landform[6]	DEFINIENDUM[33]	_	_	
+4-2	586-592	tumuli	_	A.1 Surface landform[6]	DEFINIENDUM[33]	_	_	
+4-3	593-594	(	_	_	_	_	_	
+4-4	594-601	bubbles	_	A.1 Surface landform	DEFINIENDUM	_	_	
+4-5	602-604	or	_	_	_	_	_	
+4-6	605-610	tents	_	A.1 Surface landform	DEFINIENDUM	_	_	
+4-7	610-611	)	_	_	_	_	_	
+4-8	612-615	are	_	_	DEFINITOR	_	_	
+4-9	616-622	hollow	_	D.1 Abiotic[7]	GENUS[34]	HAS\_FORM[54]	_	
+4-10	623-628	domes	_	D.1 Abiotic[7]	GENUS[34]	HAS\_FORM[54]	_	
+4-11	629-631	of	_	_	_	COMPOSITION\_MEDIUM[55]	frame\_COMPOSITION	
+4-12	632-639	freshly	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+4-13	640-646	formed	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+4-14	647-653	gypsum	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[55]	_	
+4-15	654-658	that	_	_	_	_	_	
+4-16	659-662	are	_	_	_	_	_	
+4-17	663-668	round	_	_	_	HAS\_FORM[56]	_	
+4-18	669-671	or	_	_	_	HAS\_FORM[56]	_	
+4-19	672-682	elliptical	_	_	_	HAS\_FORM[56]	_	
+4-20	683-685	in	_	_	_	HAS\_FORM[56]	_	
+4-21	686-690	plan	_	_	_	HAS\_FORM[56]	_	
+4-22	691-692	(	_	_	_	_	_	
+4-23	692-698	Breish	_	_	_	_	_	
+4-24	699-702	and	_	_	_	_	_	
+4-25	703-708	Wefer	_	_	_	_	_	
+4-26	709-713	1981	_	_	_	_	_	
+4-27	713-714	,	_	_	_	_	_	
+4-28	715-727	Pulido-Bosch	_	_	_	_	_	
+4-29	728-732	1986	_	_	_	_	_	
+4-30	732-733	,	_	_	_	_	_	
+4-31	734-742	Macaluso	_	_	_	_	_	
+4-32	743-746	and	_	_	_	_	_	
+4-33	747-752	Sauro	_	_	_	_	_	
+4-34	753-757	1996	_	_	_	_	_	
+4-35	757-758	)	_	_	_	_	_	
+4-36	758-759	.	_	_	_	_	_	
+
+#Text=Clasts with microrills are rillensteine (Laudermilk and Woodford 1932).
+5-1	760-766	Clasts	_	D.1 Abiotic	GENUS	_	_	
+5-2	767-771	with	_	_	_	_	_	
+5-3	772-782	microrills	_	A.1 Surface landform	_	CONTAINS	_	
+5-4	783-786	are	_	_	DEFINITOR	_	_	
+5-5	787-799	rillensteine	_	D.1 Abiotic	DEFINIENDUM	_	_	
+5-6	800-801	(	_	_	_	_	_	
+5-7	801-811	Laudermilk	_	_	_	_	_	
+5-8	812-815	and	_	_	_	_	_	
+5-9	816-824	Woodford	_	_	_	_	_	
+5-10	825-829	1932	_	_	_	_	_	
+5-11	829-830	)	_	_	_	_	_	
+5-12	830-831	.	_	_	_	_	_	
+
+#Text=Solution runnels are normal Hortonian channels, heading where sheetflow or wash on a slope breaks down into linear threads.
+6-1	832-840	Solution	_	A.1 Surface landform[8]	DEFINIENDUM[35]	_	_	
+6-2	841-848	runnels	_	A.1 Surface landform[8]	DEFINIENDUM[35]	_	_	
+6-3	849-852	are	_	_	DEFINITOR	_	_	
+6-4	853-859	normal	_	_	_	_	_	
+6-5	860-869	Hortonian	_	D.1 Abiotic[9]	_	_	_	
+6-6	870-878	channels	_	D.1 Abiotic[9]	GENUS	_	_	
+6-7	878-879	,	_	_	_	_	_	
+6-8	880-887	heading	_	_	_	_	_	
+6-9	888-893	where	_	_	_	HAS\_CAUSE[57]	_	
+6-10	894-903	sheetflow	_	_	_	HAS\_CAUSE[57]	_	
+6-11	904-906	or	_	_	_	HAS\_CAUSE[57]	_	
+6-12	907-911	wash	_	_	_	HAS\_CAUSE[57]	_	
+6-13	912-914	on	_	_	_	HAS\_CAUSE[57]	_	
+6-14	915-916	a	_	_	_	HAS\_CAUSE[57]	_	
+6-15	917-922	slope	_	_	_	HAS\_CAUSE[57]	_	
+6-16	923-929	breaks	_	_	_	HAS\_CAUSE[57]	_	
+6-17	930-934	down	_	_	_	HAS\_CAUSE[57]	_	
+6-18	935-939	into	_	_	_	HAS\_CAUSE[57]	_	
+6-19	940-946	linear	_	_	_	HAS\_CAUSE[57]	_	
+6-20	947-954	threads	_	_	_	HAS\_CAUSE[57]	_	
+6-21	954-955	.	_	_	_	_	_	
+
+#Text=Solution dolines are a common feature of karst in humid areas, yet not all carbonate rocks support them.
+7-1	956-964	Solution	_	A.1 Surface landform[10]	DEFINIENDUM[36]	_	_	
+7-2	965-972	dolines	_	A.1 Surface landform[10]	DEFINIENDUM[36]	_	_	
+7-3	973-976	are	_	_	DEFINITOR	_	_	
+7-4	977-978	a	_	_	_	_	_	
+7-5	979-985	common	_	_	_	_	_	
+7-6	986-993	feature	_	_	GENUS[37]	_	_	
+7-7	994-996	of	_	_	GENUS[37]	_	_	
+7-8	997-1002	karst	_	_	GENUS[37]	HAS\_LOCATION[58]	_	
+7-9	1003-1005	in	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION	
+7-10	1006-1011	humid	_	_	_	HAS\_LOCATION[58]	_	
+7-11	1012-1017	areas	_	_	_	HAS\_LOCATION[58]	_	
+7-12	1017-1018	,	_	_	_	_	_	
+7-13	1019-1022	yet	_	_	_	_	_	
+7-14	1023-1026	not	_	_	_	HAS\_ATTRIBUTE[59]	_	
+7-15	1027-1030	all	_	_	_	HAS\_ATTRIBUTE[59]	_	
+7-16	1031-1040	carbonate	_	D.1 Abiotic[11]	_	HAS\_ATTRIBUTE[59]	_	
+7-17	1041-1046	rocks	_	D.1 Abiotic[11]	_	HAS\_ATTRIBUTE[59]	_	
+7-18	1047-1054	support	_	_	_	HAS\_ATTRIBUTE[59]	_	
+7-19	1055-1059	them	_	_	_	HAS\_ATTRIBUTE[59]	_	
+7-20	1059-1060	.	_	_	_	_	_	
+
+#Text=Pinnacle karst is a spectacular small-scale landform found principally in the humid tropics and subtropics, with the best known examples coming from Gunung Api, Mulu, and Mount Kaijende, New Guinea.
+8-1	1061-1069	Pinnacle	_	A.1 Surface landform[12]	DEFINIENDUM[38]	_	_	
+8-2	1070-1075	karst	_	A.1 Surface landform[12]	DEFINIENDUM[38]	_	_	
+8-3	1076-1078	is	_	_	DEFINITOR[39]	_	_	
+8-4	1079-1080	a	_	_	DEFINITOR[39]	_	_	
+8-5	1081-1092	spectacular	_	_	_	_	_	
+8-6	1093-1104	small-scale	_	D.1 Abiotic[13]	_	HAS\_SIZE	_	
+8-7	1105-1113	landform	_	D.1 Abiotic[13]	GENUS	_	_	
+8-8	1114-1119	found	_	_	_	_	_	
+8-9	1120-1131	principally	_	_	_	_	_	
+8-10	1132-1134	in	_	_	_	HAS\_LOCATION[60]	frame\_LOCATION	
+8-11	1135-1138	the	_	_	_	HAS\_LOCATION[60]	_	
+8-12	1139-1144	humid	_	_	_	HAS\_LOCATION[60]	_	
+8-13	1145-1152	tropics	_	D.3.1 Geolocation	_	HAS\_LOCATION[60]	_	
+8-14	1153-1156	and	_	_	_	HAS\_LOCATION[60]	_	
+8-15	1157-1167	subtropics	_	D.3.1 Geolocation	_	HAS\_LOCATION[60]	_	
+8-16	1167-1168	,	_	_	_	_	_	
+8-17	1169-1173	with	_	_	_	_	_	
+8-18	1174-1177	the	_	_	_	_	_	
+8-19	1178-1182	best	_	_	_	_	_	
+8-20	1183-1188	known	_	_	_	_	_	
+8-21	1189-1197	examples	_	_	_	_	_	
+8-22	1198-1204	coming	_	_	_	_	_	
+8-23	1205-1209	from	_	_	_	_	_	
+8-24	1210-1216	Gunung	_	D.3.1 Geolocation[14]	_	HAS\_POSITION[61]	_	
+8-25	1217-1220	Api	_	D.3.1 Geolocation[14]	_	HAS\_POSITION[61]	_	
+8-26	1220-1221	,	_	_	_	_	_	
+8-27	1222-1226	Mulu	_	D.3.1 Geolocation	_	HAS\_POSITION	_	
+8-28	1226-1227	,	_	_	_	_	_	
+8-29	1228-1231	and	_	_	_	_	_	
+8-30	1232-1237	Mount	_	D.3.1 Geolocation[15]	_	HAS\_POSITION[62]	_	
+8-31	1238-1246	Kaijende	_	D.3.1 Geolocation[15]	_	HAS\_POSITION[62]	_	
+8-32	1246-1247	,	_	D.3.1 Geolocation[15]	_	HAS\_POSITION[62]	_	
+8-33	1248-1251	New	_	D.3.1 Geolocation[15]	_	HAS\_POSITION[62]	_	
+8-34	1252-1258	Guinea	_	D.3.1 Geolocation[15]	_	HAS\_POSITION[62]	_	
+8-35	1258-1259	.	_	_	_	_	_	
+
+#Text=Caves are natural museums, preserving important archaeological evidence as well as sediments and deposits that provide clues to past environments.
+9-1	1260-1265	Caves	_	A.2 Underground landform	DEFINIENDUM	_	_	
+9-2	1266-1269	are	_	_	DEFINITOR	_	_	
+9-3	1270-1277	natural	_	_	GENUS[40]	_	_	
+9-4	1278-1285	museums	_	_	GENUS[40]	_	_	
+9-5	1285-1286	,	_	_	_	_	_	
+9-6	1287-1297	preserving	_	_	_	HAS\_FUNCTION[63]	frame\_FUNCTION	
+9-7	1298-1307	important	_	_	_	HAS\_FUNCTION[63]	_	
+9-8	1308-1322	archaeological	_	_	_	HAS\_FUNCTION[63]	_	
+9-9	1323-1331	evidence	_	_	_	HAS\_FUNCTION[63]	_	
+9-10	1332-1334	as	_	_	_	HAS\_FUNCTION[63]	_	
+9-11	1335-1339	well	_	_	_	HAS\_FUNCTION[63]	_	
+9-12	1340-1342	as	_	_	_	HAS\_FUNCTION[63]	_	
+9-13	1343-1352	sediments	_	D.1 Abiotic	_	HAS\_FUNCTION[63]	_	
+9-14	1353-1356	and	_	_	_	HAS\_FUNCTION[63]	_	
+9-15	1357-1365	deposits	_	D.1 Abiotic	_	HAS\_FUNCTION[63]	_	
+9-16	1366-1370	that	_	_	_	HAS\_FUNCTION[63]	_	
+9-17	1371-1378	provide	_	_	_	HAS\_FUNCTION[63]	_	
+9-18	1379-1384	clues	_	_	_	HAS\_FUNCTION[63]	_	
+9-19	1385-1387	to	_	_	_	HAS\_FUNCTION[63]	_	
+9-20	1388-1392	past	_	_	_	HAS\_FUNCTION[63]	_	
+9-21	1393-1405	environments	_	_	_	HAS\_FUNCTION[63]	_	
+9-22	1405-1406	.	_	_	_	_	_	
+
+#Text=Blue holes are water-filled vertical openings in the carbonate rock of the islands, which exhibit complex morphologies, ecologies, and water chemistries.
+10-1	1407-1411	Blue	_	A.2 Underground landform[16]	DEFINIENDUM[41]	_	_	
+10-2	1412-1417	holes	_	A.2 Underground landform[16]	DEFINIENDUM[41]	_	_	
+10-3	1418-1421	are	_	_	DEFINITOR	_	_	
+10-4	1422-1434	water-filled	_	_	_	HAS\_FORM[64]	_	
+10-5	1435-1443	vertical	_	D.1 Abiotic[17]	GENUS[42]	HAS\_FORM[64]	_	
+10-6	1444-1452	openings	_	D.1 Abiotic[17]	GENUS[42]	HAS\_FORM[64]	_	
+10-7	1453-1455	in	_	_	_	HAS\_LOCATION[65]	frame\_LOCATION	
+10-8	1456-1459	the	_	_	_	HAS\_LOCATION[65]	_	
+10-9	1460-1469	carbonate	_	D.1 Abiotic[18]	_	HAS\_LOCATION[65]	_	
+10-10	1470-1474	rock	_	D.1 Abiotic[18]	_	HAS\_LOCATION[65]	_	
+10-11	1475-1477	of	_	_	_	HAS\_LOCATION[65]	_	
+10-12	1478-1481	the	_	_	_	HAS\_LOCATION[65]	_	
+10-13	1482-1489	islands	_	_	_	HAS\_LOCATION[65]	_	
+10-14	1489-1490	,	_	_	_	_	_	
+10-15	1491-1496	which	_	_	_	_	_	
+10-16	1497-1504	exhibit	_	_	_	HAS\_ATTRIBUTE[66]	*	
+10-17	1505-1512	complex	_	_	_	HAS\_ATTRIBUTE[66]	_	
+10-18	1513-1525	morphologies	_	_	_	HAS\_ATTRIBUTE[66]	_	
+10-19	1525-1526	,	_	_	_	HAS\_ATTRIBUTE[66]	_	
+10-20	1527-1536	ecologies	_	_	_	HAS\_ATTRIBUTE[66]	_	
+10-21	1536-1537	,	_	_	_	HAS\_ATTRIBUTE[66]	_	
+10-22	1538-1541	and	_	_	_	HAS\_ATTRIBUTE[66]	_	
+10-23	1542-1547	water	_	_	_	HAS\_ATTRIBUTE[66]	_	
+10-24	1548-1559	chemistries	_	_	_	HAS\_ATTRIBUTE[66]	_	
+10-25	1559-1560	.	_	_	_	_	_	
+
+#Text=Blue holes are the composite result of carbonate deposition and dissolution cycles, which have been controlled by glacial sea-level fluctuations.
+11-1	1561-1565	Blue	_	A.2 Underground landform[19]	DEFINIENDUM[43]	_	_	
+11-2	1566-1571	holes	_	A.2 Underground landform[19]	DEFINIENDUM[43]	_	_	
+11-3	1572-1575	are	_	_	_	_	_	
+11-4	1576-1579	the	_	_	_	_	_	
+11-5	1580-1589	composite	_	_	_	HAS\_CAUSE[67]	_	
+11-6	1590-1596	result	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[79]	
+11-7	1597-1599	of	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[79]	
+11-8	1600-1609	carbonate	_	B.3 Addition[20]	_	HAS\_CAUSE[67]	_	
+11-9	1610-1620	deposition	_	B.3 Addition[20]	_	HAS\_CAUSE[67]	_	
+11-10	1621-1624	and	_	_	_	HAS\_CAUSE[67]	_	
+11-11	1625-1636	dissolution	_	B.2 Loss	_	HAS\_CAUSE[67]	_	
+11-12	1637-1643	cycles	_	_	_	HAS\_CAUSE[67]	_	
+11-13	1643-1644	,	_	_	_	HAS\_CAUSE[67]	_	
+11-14	1645-1650	which	_	_	_	HAS\_CAUSE[67]	_	
+11-15	1651-1655	have	_	_	_	HAS\_CAUSE[67]	_	
+11-16	1656-1660	been	_	_	_	HAS\_CAUSE[67]	_	
+11-17	1661-1671	controlled	_	_	_	HAS\_CAUSE[67]	_	
+11-18	1672-1674	by	_	_	_	HAS\_CAUSE[67]	_	
+11-19	1675-1682	glacial	_	_	_	HAS\_CAUSE[67]	_	
+11-20	1683-1692	sea-level	_	B.1 Movement[21]	_	HAS\_CAUSE[67]	_	
+11-21	1693-1705	fluctuations	_	B.1 Movement[21]	_	HAS\_CAUSE[67]	_	
+11-22	1705-1706	.	_	_	_	_	_	
+
+#Text=The term “blue hole” has been used in a variety of ways, but they are best defined as: “subsurface voids that are developed in carbonate banks and islands; are open to the Earth’s surface; contain tidally influenced waters of fresh, marine, or mixed chemistry; extend below sea-level for a majority of their depth; and may provide access to submerged cave passages.
+12-1	1707-1710	The	_	_	_	_	_	
+12-2	1711-1715	term	_	_	_	_	_	
+12-3	1716-1717	“	_	_	_	_	_	
+12-4	1717-1721	blue	_	A.2 Underground landform[22]	DEFINIENDUM[44]	_	_	
+12-5	1722-1726	hole	_	A.2 Underground landform[22]	DEFINIENDUM[44]	_	_	
+12-6	1726-1727	”	_	_	_	_	_	
+12-7	1728-1731	has	_	_	_	_	_	
+12-8	1732-1736	been	_	_	_	_	_	
+12-9	1737-1741	used	_	_	_	_	_	
+12-10	1742-1744	in	_	_	_	_	_	
+12-11	1745-1746	a	_	_	_	_	_	
+12-12	1747-1754	variety	_	_	_	_	_	
+12-13	1755-1757	of	_	_	_	_	_	
+12-14	1758-1762	ways	_	_	_	_	_	
+12-15	1762-1763	,	_	_	_	_	_	
+12-16	1764-1767	but	_	_	_	_	_	
+12-17	1768-1772	they	_	_	_	_	_	
+12-18	1773-1776	are	_	_	DEFINITOR[45]	_	_	
+12-19	1777-1781	best	_	_	DEFINITOR[45]	_	_	
+12-20	1782-1789	defined	_	_	DEFINITOR[45]	_	_	
+12-21	1790-1792	as	_	_	DEFINITOR[45]	_	_	
+12-22	1792-1793	:	_	_	_	_	_	
+12-23	1794-1795	“	_	_	_	_	_	
+12-24	1795-1805	subsurface	_	D.1 Abiotic[23]	GENUS[46]	_	_	
+12-25	1806-1811	voids	_	D.1 Abiotic[23]	GENUS[46]	_	_	
+12-26	1812-1816	that	_	_	_	_	_	
+12-27	1817-1820	are	_	_	_	_	_	
+12-28	1821-1830	developed	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[80]	
+12-29	1831-1833	in	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[80]	
+12-30	1834-1843	carbonate	_	D.1 Abiotic[24]	_	HAS\_LOCATION[68]	_	
+12-31	1844-1849	banks	_	D.1 Abiotic[24]	_	HAS\_LOCATION[68]	_	
+12-32	1850-1853	and	_	_	_	HAS\_LOCATION[68]	_	
+12-33	1854-1861	islands	_	D.1 Abiotic	_	HAS\_LOCATION[68]	_	
+12-34	1861-1862	;	_	_	_	_	_	
+12-35	1863-1866	are	_	_	_	_	_	
+12-36	1867-1871	open	_	_	_	HAS\_FORM[69]	frame\_FORM[81]	
+12-37	1872-1874	to	_	_	_	HAS\_FORM[69]	frame\_FORM[81]	
+12-38	1875-1878	the	_	_	_	HAS\_FORM[69]	_	
+12-39	1879-1884	Earth	_	D.3.1 Geolocation[25]	_	HAS\_FORM[69]	_	
+12-40	1884-1885	’	_	D.3.1 Geolocation[25]	_	HAS\_FORM[69]	_	
+12-41	1885-1886	s	_	D.3.1 Geolocation[25]	_	HAS\_FORM[69]	_	
+12-42	1887-1894	surface	_	D.3.1 Geolocation[25]	_	HAS\_FORM[69]	_	
+12-43	1894-1895	;	_	_	_	_	_	
+12-44	1896-1903	contain	_	_	_	CONTAINS[70]	frame\_CONTAINS	
+12-45	1904-1911	tidally	_	_	_	CONTAINS[70]	_	
+12-46	1912-1922	influenced	_	_	_	CONTAINS[70]	_	
+12-47	1923-1929	waters	_	_	_	CONTAINS[70]	_	
+12-48	1930-1932	of	_	_	_	CONTAINS[70]	_	
+12-49	1933-1938	fresh	_	_	_	CONTAINS[70]	_	
+12-50	1938-1939	,	_	_	_	CONTAINS[70]	_	
+12-51	1940-1946	marine	_	_	_	CONTAINS[70]	_	
+12-52	1946-1947	,	_	_	_	CONTAINS[70]	_	
+12-53	1948-1950	or	_	_	_	CONTAINS[70]	_	
+12-54	1951-1956	mixed	_	_	_	CONTAINS[70]	_	
+12-55	1957-1966	chemistry	_	_	_	CONTAINS[70]	_	
+12-56	1966-1967	;	_	_	_	_	_	
+12-57	1968-1974	extend	_	_	_	HAS\_LOCATION[71]	frame\_LOCATION[82]	
+12-58	1975-1980	below	_	_	_	HAS\_LOCATION[71]	frame\_LOCATION[82]	
+12-59	1981-1990	sea-level	_	_	_	HAS\_LOCATION[71]	_	
+12-60	1991-1994	for	_	_	_	HAS\_LOCATION[71]	_	
+12-61	1995-1996	a	_	_	_	HAS\_LOCATION[71]	_	
+12-62	1997-2005	majority	_	_	_	HAS\_LOCATION[71]	_	
+12-63	2006-2008	of	_	_	_	HAS\_LOCATION[71]	_	
+12-64	2009-2014	their	_	_	_	HAS\_LOCATION[71]	_	
+12-65	2015-2020	depth	_	_	_	HAS\_LOCATION[71]	_	
+12-66	2020-2021	;	_	_	_	_	_	
+12-67	2022-2025	and	_	_	_	_	_	
+12-68	2026-2029	may	_	_	_	_	frame\_FUNCTION[83]	
+12-69	2030-2037	provide	_	_	_	HAS\_FUNCTION[72]	frame\_FUNCTION[83]	
+12-70	2038-2044	access	_	_	_	HAS\_FUNCTION[72]	_	
+12-71	2045-2047	to	_	_	_	HAS\_FUNCTION[72]	_	
+12-72	2048-2057	submerged	_	_	_	HAS\_FUNCTION[72]	_	
+12-73	2058-2062	cave	_	A.2 Underground landform[26]	_	HAS\_FUNCTION[72]	_	
+12-74	2063-2071	passages	_	A.2 Underground landform[26]	_	HAS\_FUNCTION[72]	_	
+12-75	2071-2072	.	_	_	_	_	_	
+
+#Text=Carbon dioxide in aqueous solution is a critical component in both the solution and precipitation of speleothems and the solution of limestone.
+13-1	2073-2079	Carbon	_	D.1 Abiotic[27]	DEFINIENDUM[47]	_	_	
+13-2	2080-2087	dioxide	_	D.1 Abiotic[27]	DEFINIENDUM[47]	_	_	
+13-3	2088-2090	in	_	_	_	_	_	
+13-4	2091-2098	aqueous	_	D.1 Abiotic[28]	_	_	_	
+13-5	2099-2107	solution	_	D.1 Abiotic[28]	_	_	_	
+13-6	2108-2110	is	_	_	_	_	_	
+13-7	2111-2112	a	_	_	_	_	_	
+13-8	2113-2121	critical	_	_	_	_	_	
+13-9	2122-2131	component	_	_	_	_	_	
+13-10	2132-2134	in	_	_	_	_	_	
+13-11	2135-2139	both	_	_	_	_	_	
+13-12	2140-2143	the	_	_	_	_	_	
+13-13	2144-2152	solution	_	B.2 Loss	_	AFFECTS[73]	_	
+13-14	2153-2156	and	_	_	_	AFFECTS[73]	_	
+13-15	2157-2170	precipitation	_	B.3 Addition	_	AFFECTS[73]	_	
+13-16	2171-2173	of	_	_	_	AFFECTS[73]	_	
+13-17	2174-2185	speleothems	_	A.2 Underground landform	_	AFFECTS[73]	_	
+13-18	2186-2189	and	_	_	_	_	_	
+13-19	2190-2193	the	_	_	_	_	_	
+13-20	2194-2202	solution	_	B.2 Loss	_	AFFECTS[74]	_	
+13-21	2203-2205	of	_	_	_	AFFECTS[74]	_	
+13-22	2206-2215	limestone	_	D.1 Abiotic	_	AFFECTS[74]	_	
+13-23	2215-2216	.	_	_	_	_	_	
+
+#Text=Diagenesis is a term describing processes of compaction and/or cementation of the initially unconsolidated carbonate mud and debris (Moore, 2001).
+14-1	2217-2227	Diagenesis	_	B.4 Transformation	DEFINIENDUM	_	_	
+14-2	2228-2230	is	_	_	DEFINITOR[48]	_	_	
+14-3	2231-2232	a	_	_	DEFINITOR[48]	_	_	
+14-4	2233-2237	term	_	_	DEFINITOR[48]	_	_	
+14-5	2238-2248	describing	_	_	DEFINITOR[48]	DEFINED\_AS[75]	frame\_DEFINED\_AS	
+14-6	2249-2258	processes	_	_	GENUS	DEFINED\_AS[75]	_	
+14-7	2259-2261	of	_	_	_	DEFINED\_AS[75]	_	
+14-8	2262-2272	compaction	_	B.4 Transformation	SPECIES	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-9	2273-2276	and	_	_	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-10	2276-2277	/	_	_	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-11	2277-2279	or	_	_	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-12	2280-2291	cementation	_	B.4 Transformation	SPECIES	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-13	2292-2294	of	_	_	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-14	2295-2298	the	_	_	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-15	2299-2308	initially	_	D.3 Property[29]	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-16	2309-2323	unconsolidated	_	D.3 Property[29]	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-17	2324-2333	carbonate	_	D.1 Abiotic[30]	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-18	2334-2337	mud	_	D.1 Abiotic[30]	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-19	2338-2341	and	_	_	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-20	2342-2348	debris	_	D.1 Abiotic	_	DEFINED\_AS[75]|HAS\_RESULT[76]	_	
+14-21	2349-2350	(	_	_	_	_	_	
+14-22	2350-2355	Moore	_	_	_	_	_	
+14-23	2355-2356	,	_	_	_	_	_	
+14-24	2357-2361	2001	_	_	_	_	_	
+14-25	2361-2362	)	_	_	_	_	_	
+14-26	2362-2363	.	_	_	_	_	_	
+
+#Text=Dolostone is a major product of diagenesis.
+15-1	2364-2373	Dolostone	_	D.1 Abiotic	DEFINIENDUM	_	_	
+15-2	2374-2376	is	_	_	DEFINITOR[49]	_	_	
+15-3	2377-2378	a	_	_	DEFINITOR[49]	_	_	
+15-4	2379-2384	major	_	_	_	_	_	
+15-5	2385-2392	product	_	_	GENUS[50]	HAS\_CAUSE[77]	frame\_CAUSE[84]	
+15-6	2393-2395	of	_	_	GENUS[50]	HAS\_CAUSE[77]	frame\_CAUSE[84]	
+15-7	2396-2406	diagenesis	_	B.4 Transformation	GENUS[50]	HAS\_CAUSE[77]	_	
+15-8	2406-2407	.	_	_	_	_	_	

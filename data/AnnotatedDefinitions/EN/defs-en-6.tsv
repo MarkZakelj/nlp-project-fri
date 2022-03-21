@@ -1,0 +1,446 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=A tecto-karstic hollow is a closed basin that developed inside a tectonic depression that also evolved through karst processes.
+1-1	0-1	A	_	_	_	_	_	
+1-2	2-15	tecto-karstic	_	A.1 Surface landform[2]	DEFINIENDUM[43]	_	_	
+1-3	16-22	hollow	_	A.1 Surface landform[2]	DEFINIENDUM[43]	_	_	
+1-4	23-25	is	_	_	DEFINITOR[44]	_	_	
+1-5	26-27	a	_	_	DEFINITOR[44]	_	_	
+1-6	28-34	closed	_	_	GENUS[45]	HAS\_FORM[71]	_	
+1-7	35-40	basin	basin	D.1 Abiotic	GENUS[45]	HAS\_FORM[71]	_	
+1-8	41-45	that	_	_	_	_	_	
+1-9	46-55	developed	_	_	_	_	_	
+1-10	56-62	inside	_	_	_	HAS\_LOCATION[72]	frame\_LOCATION	
+1-11	63-64	a	_	_	_	HAS\_LOCATION[72]	_	
+1-12	65-73	tectonic	_	D.1 Abiotic[3]	_	HAS\_LOCATION[72]	_	
+1-13	74-84	depression	_	D.1 Abiotic[3]	_	HAS\_LOCATION[72]	_	
+1-14	85-89	that	_	_	_	_	_	
+1-15	90-94	also	_	_	_	_	_	
+1-16	95-102	evolved	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[108]	
+1-17	103-110	through	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[108]	
+1-18	111-116	karst	karst process[1]	B. Process[4]	_	HAS\_CAUSE[73]	_	
+1-19	117-126	processes	karst process[1]	B. Process[4]	_	HAS\_CAUSE[73]	_	
+1-20	126-127	.	_	_	_	_	_	
+
+#Text=Poljes are the largest closed depressions observed in the karst terrains.
+2-1	128-134	Poljes	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-2	135-138	are	_	_	DEFINITOR	_	_	
+2-3	139-142	the	_	_	_	HAS\_SIZE[74]	_	
+2-4	143-150	largest	_	_	_	HAS\_SIZE[74]|HAS\_SIZE[75]	_	
+2-5	151-157	closed	_	A.1 Surface landform[5]	GENUS[46]	HAS\_SIZE[74]|HAS\_FORM[76]	_	
+2-6	158-169	depressions	_	A.1 Surface landform[5]	GENUS[46]	HAS\_SIZE[74]|HAS\_FORM[76]	_	
+2-7	170-178	observed	_	_	_	_	_	
+2-8	179-181	in	_	_	_	HAS\_LOCATION[77]	frame\_LOCATION[109]	
+2-9	182-185	the	_	_	_	HAS\_LOCATION[77]	frame\_LOCATION[109]	
+2-10	186-191	karst	_	C. Geome[6]	_	HAS\_LOCATION[77]	_	
+2-11	192-200	terrains	_	C. Geome[6]	_	HAS\_LOCATION[77]	_	
+2-12	200-201	.	_	_	_	_	_	
+
+#Text=In 1895, Cvijic defined a polje as a large karst depression, with a wide, flat and nearly horizontal floor, completely enclosed between steep slopes.
+3-1	202-204	In	_	_	_	_	_	
+3-2	205-209	1895	_	_	_	_	_	
+3-3	209-210	,	_	_	_	_	_	
+3-4	211-217	Cvijic	_	_	_	_	_	
+3-5	218-225	defined	_	_	DEFINITOR	_	_	
+3-6	226-227	a	_	_	_	_	_	
+3-7	228-233	polje	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-8	234-236	as	_	_	DEFINITOR[47]	_	_	
+3-9	237-238	a	_	_	DEFINITOR[47]	_	_	
+3-10	239-244	large	_	_	_	HAS\_SIZE	_	
+3-11	245-250	karst	_	A.1 Surface landform[7]	GENUS[48]	_	_	
+3-12	251-261	depression	_	A.1 Surface landform[7]	GENUS[48]	_	_	
+3-13	261-262	,	_	_	_	_	_	
+3-14	263-267	with	_	_	_	HAS\_FORM[78]	frame\_FORM[110]	
+3-15	268-269	a	_	_	_	HAS\_FORM[78]	frame\_FORM[110]	
+3-16	270-274	wide	_	_	_	HAS\_FORM[78]	_	
+3-17	274-275	,	_	_	_	HAS\_FORM[78]	_	
+3-18	276-280	flat	_	_	_	HAS\_FORM[78]	_	
+3-19	281-284	and	_	_	_	HAS\_FORM[78]	_	
+3-20	285-291	nearly	_	_	_	HAS\_FORM[78]	_	
+3-21	292-302	horizontal	_	_	_	HAS\_FORM[78]	_	
+3-22	303-308	floor	_	_	_	HAS\_FORM[78]	_	
+3-23	308-309	,	_	_	_	HAS\_FORM[78]	_	
+3-24	310-320	completely	_	_	_	HAS\_FORM[78]	_	
+3-25	321-329	enclosed	_	_	_	HAS\_FORM[78]	_	
+3-26	330-337	between	_	_	_	HAS\_FORM[78]	_	
+3-27	338-343	steep	_	D.1 Abiotic[8]	_	HAS\_FORM[78]	_	
+3-28	344-350	slopes	_	D.1 Abiotic[8]	_	HAS\_FORM[78]	_	
+3-29	350-351	.	_	_	_	_	_	
+
+#Text=A peripheral polje is a depression fed by a large internal area of impermeable rocks with a centrifugal stream network.
+4-1	352-353	A	_	_	_	_	_	
+4-2	354-364	peripheral	_	A.1 Surface landform[9]	DEFINIENDUM[49]	_	_	
+4-3	365-370	polje	_	A.1 Surface landform[9]	DEFINIENDUM[49]	_	_	
+4-4	371-373	is	_	_	DEFINITOR[50]	_	_	
+4-5	374-375	a	_	_	DEFINITOR[50]	_	_	
+4-6	376-386	depression	_	A.1 Surface landform	GENUS	_	_	
+4-7	387-390	fed	_	_	_	_	_	
+4-8	391-393	by	_	_	_	_	_	
+4-9	394-395	a	_	_	_	_	_	
+4-10	396-401	large	_	_	_	CONTAINS[79]	_	
+4-11	402-410	internal	_	_	_	CONTAINS[79]	_	
+4-12	411-415	area	_	_	_	CONTAINS[79]	_	
+4-13	416-418	of	_	_	_	CONTAINS[79]	_	
+4-14	419-430	impermeable	_	D.1 Abiotic[10]	_	CONTAINS[79]	_	
+4-15	431-436	rocks	_	D.1 Abiotic[10]	_	CONTAINS[79]	_	
+4-16	437-441	with	_	_	_	CONTAINS[79]	_	
+4-17	442-443	a	_	_	_	CONTAINS[79]	_	
+4-18	444-455	centrifugal	_	A.3 Hydrological form[11]	_	CONTAINS[79]	_	
+4-19	456-462	stream	_	A.3 Hydrological form[11]	_	CONTAINS[79]	_	
+4-20	463-470	network	_	A.3 Hydrological form[11]	_	CONTAINS[79]	_	
+4-21	470-471	.	_	_	_	_	_	
+
+#Text=A base-level polje is a polje with a floor cut entirely across karst rocks and is affected by the vertical oscillations of the water table; consequently, it is inundated during high-level periods.
+5-1	472-473	A	_	_	_	_	_	
+5-2	474-484	base-level	_	A.1 Surface landform[12]	DEFINIENDUM[51]	_	_	
+5-3	485-490	polje	_	A.1 Surface landform[12]	DEFINIENDUM[51]	_	_	
+5-4	491-493	is	_	_	DEFINITOR[52]	_	_	
+5-5	494-495	a	_	_	DEFINITOR[52]	_	_	
+5-6	496-501	polje	_	A.1 Surface landform	GENUS	_	_	
+5-7	502-506	with	_	_	_	HAS\_FORM[80]	frame\_FORM[111]	
+5-8	507-508	a	_	_	_	HAS\_FORM[80]	frame\_FORM[111]	
+5-9	509-514	floor	_	_	_	HAS\_FORM[80]	_	
+5-10	515-518	cut	_	_	_	HAS\_FORM[80]	_	
+5-11	519-527	entirely	_	_	_	HAS\_FORM[80]	_	
+5-12	528-534	across	_	_	_	HAS\_FORM[80]	_	
+5-13	535-540	karst	_	D.1 Abiotic[13]	_	HAS\_FORM[80]	_	
+5-14	541-546	rocks	_	D.1 Abiotic[13]	_	HAS\_FORM[80]	_	
+5-15	547-550	and	_	_	_	_	_	
+5-16	551-553	is	_	_	_	_	_	
+5-17	554-562	affected	_	_	_	HAS\_ATTRIBUTE[81]	_	
+5-18	563-565	by	_	_	_	HAS\_ATTRIBUTE[81]	_	
+5-19	566-569	the	_	_	_	HAS\_ATTRIBUTE[81]	_	
+5-20	570-578	vertical	_	B.1 Movement[14]	_	HAS\_ATTRIBUTE[81]	_	
+5-21	579-591	oscillations	_	B.1 Movement[14]	_	HAS\_ATTRIBUTE[81]	_	
+5-22	592-594	of	_	_	_	HAS\_ATTRIBUTE[81]	_	
+5-23	595-598	the	_	_	_	HAS\_ATTRIBUTE[81]	_	
+5-24	599-604	water	_	D.1 Abiotic[15]	_	HAS\_ATTRIBUTE[81]	_	
+5-25	605-610	table	_	D.1 Abiotic[15]	_	HAS\_ATTRIBUTE[81]	_	
+5-26	610-611	;	_	_	_	_	_	
+5-27	612-624	consequently	_	_	_	_	_	
+5-28	624-625	,	_	_	_	_	_	
+5-29	626-628	it	_	_	_	OCCURS\_IN\_TIME[82]	_	
+5-30	629-631	is	_	_	_	OCCURS\_IN\_TIME[82]	_	
+5-31	632-641	inundated	_	B.4 Transformation	_	OCCURS\_IN\_TIME[82]	_	
+5-32	642-648	during	_	_	_	OCCURS\_IN\_TIME[82]	frame\_TIME	
+5-33	649-659	high-level	_	_	_	OCCURS\_IN\_TIME[82]	_	
+5-34	660-667	periods	_	_	_	OCCURS\_IN\_TIME[82]	_	
+5-35	667-668	.	_	_	_	_	_	
+
+#Text=The precise scientific name is littoral cave, meaning a cave formed within the range of tides.
+6-1	669-672	The	_	_	_	_	_	
+6-2	673-680	precise	_	_	_	_	_	
+6-3	681-691	scientific	_	_	_	_	_	
+6-4	692-696	name	_	_	_	_	_	
+6-5	697-699	is	_	_	_	_	_	
+6-6	700-708	littoral	_	A.2 Underground landform[16]	DEFINIENDUM[53]	_	_	
+6-7	709-713	cave	_	A.2 Underground landform[16]	DEFINIENDUM[53]	_	_	
+6-8	713-714	,	_	_	_	_	_	
+6-9	715-722	meaning	_	_	DEFINITOR[54]	_	_	
+6-10	723-724	a	_	_	DEFINITOR[54]	_	_	
+6-11	725-729	cave	_	A.2 Underground landform	GENUS	_	_	
+6-12	730-736	formed	_	_	_	_	_	
+6-13	737-743	within	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[112]	
+6-14	744-747	the	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[112]	
+6-15	748-753	range	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[112]	
+6-16	754-756	of	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[112]	
+6-17	757-762	tides	_	D.1 Abiotic	_	HAS\_LOCATION[83]	_	
+6-18	762-763	.	_	_	_	_	_	
+
+#Text=Sea caves are caves that form by wave erosion in coastal areas that contain exposed bedrock.
+7-1	764-767	Sea	_	A.2 Underground landform[17]	DEFINIENDUM[55]	_	_	
+7-2	768-773	caves	_	A.2 Underground landform[17]	DEFINIENDUM[55]	_	_	
+7-3	774-777	are	_	_	DEFINITOR	_	_	
+7-4	778-783	caves	_	A.2 Underground landform	GENUS	_	_	
+7-5	784-788	that	_	_	_	_	_	
+7-6	789-793	form	_	_	_	HAS\_CAUSE[84]	frame\_CAUSE[113]	
+7-7	794-796	by	_	_	_	HAS\_CAUSE[84]	frame\_CAUSE[113]	
+7-8	797-801	wave	_	B.2 Loss[18]	_	HAS\_CAUSE[84]	_	
+7-9	802-809	erosion	_	B.2 Loss[18]	_	HAS\_CAUSE[84]	_	
+7-10	810-812	in	_	_	_	HAS\_LOCATION[85]	_	
+7-11	813-820	coastal	_	C. Geome[19]	_	HAS\_LOCATION[85]	_	
+7-12	821-826	areas	_	C. Geome[19]	_	HAS\_LOCATION[85]	_	
+7-13	827-831	that	_	_	_	HAS\_LOCATION[85]	_	
+7-14	832-839	contain	_	_	_	HAS\_LOCATION[85]	_	
+7-15	840-847	exposed	_	D.1 Abiotic[20]	_	HAS\_LOCATION[85]	_	
+7-16	848-855	bedrock	_	D.1 Abiotic[20]	_	HAS\_LOCATION[85]	_	
+7-17	855-856	.	_	_	_	_	_	
+
+#Text=The flank margin caves are a series of oval rooms from pore size up to large chambers, which tend to be extensive in the horizontal direction, but limited in the vertical direction, a result of developing in the thinning margin of the freshwater lens (Fig.
+8-1	857-860	The	_	_	_	_	_	
+8-2	861-866	flank	_	A.2 Underground landform[21]	DEFINIENDUM[56]	_	_	
+8-3	867-873	margin	_	A.2 Underground landform[21]	DEFINIENDUM[56]	_	_	
+8-4	874-879	caves	_	A.2 Underground landform[21]	DEFINIENDUM[56]	_	_	
+8-5	880-883	are	_	_	DEFINITOR	_	_	
+8-6	884-885	a	_	_	_	_	_	
+8-7	886-892	series	_	_	GENUS[57]	HAS\_FORM[86]	_	
+8-8	893-895	of	_	_	GENUS[57]	HAS\_FORM[86]	_	
+8-9	896-900	oval	_	A.2 Underground landform[22]	GENUS[57]	HAS\_FORM[86]	_	
+8-10	901-906	rooms	_	A.2 Underground landform[22]	GENUS[57]	HAS\_FORM[86]	_	
+8-11	907-911	from	_	_	_	HAS\_SIZE[87]	frame\_SIZE	
+8-12	912-916	pore	_	_	_	HAS\_SIZE[87]	_	
+8-13	917-921	size	_	_	_	HAS\_SIZE[87]	_	
+8-14	922-924	up	_	_	_	HAS\_SIZE[87]	frame\_SIZE[114]	
+8-15	925-927	to	_	_	_	HAS\_SIZE[87]	frame\_SIZE[114]	
+8-16	928-933	large	_	_	_	HAS\_SIZE[87]	_	
+8-17	934-942	chambers	_	A.2 Underground landform	_	HAS\_SIZE[87]	_	
+8-18	942-943	,	_	_	_	_	_	
+8-19	944-949	which	_	_	_	_	_	
+8-20	950-954	tend	_	_	_	_	_	
+8-21	955-957	to	_	_	_	_	_	
+8-22	958-960	be	_	_	_	_	_	
+8-23	961-970	extensive	_	_	_	HAS\_SIZE[88]	_	
+8-24	971-973	in	_	_	_	HAS\_SIZE[88]	_	
+8-25	974-977	the	_	_	_	HAS\_SIZE[88]	_	
+8-26	978-988	horizontal	_	_	_	HAS\_SIZE[88]	_	
+8-27	989-998	direction	_	_	_	HAS\_SIZE[88]	_	
+8-28	998-999	,	_	_	_	HAS\_SIZE[88]	_	
+8-29	1000-1003	but	_	_	_	HAS\_SIZE[88]	_	
+8-30	1004-1011	limited	_	_	_	HAS\_SIZE[88]	_	
+8-31	1012-1014	in	_	_	_	HAS\_SIZE[88]	_	
+8-32	1015-1018	the	_	_	_	HAS\_SIZE[88]	_	
+8-33	1019-1027	vertical	_	_	_	HAS\_SIZE[88]	_	
+8-34	1028-1037	direction	_	_	_	HAS\_SIZE[88]	_	
+8-35	1037-1038	,	_	_	_	_	_	
+8-36	1039-1040	a	_	_	_	_	frame\_CAUSE[115]	
+8-37	1041-1047	result	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[115]	
+8-38	1048-1050	of	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[115]	
+8-39	1051-1061	developing	_	_	_	HAS\_CAUSE[89]	_	
+8-40	1062-1064	in	_	_	_	HAS\_CAUSE[89]	_	
+8-41	1065-1068	the	_	_	_	HAS\_CAUSE[89]	_	
+8-42	1069-1077	thinning	_	D.3 Property[23]	_	HAS\_CAUSE[89]	_	
+8-43	1078-1084	margin	_	D.3 Property[23]	_	HAS\_CAUSE[89]	_	
+8-44	1085-1087	of	_	_	_	HAS\_CAUSE[89]	_	
+8-45	1088-1091	the	_	_	_	HAS\_CAUSE[89]	_	
+8-46	1092-1102	freshwater	_	D.1 Abiotic[24]	_	HAS\_CAUSE[89]	_	
+8-47	1103-1107	lens	_	D.1 Abiotic[24]	_	HAS\_CAUSE[89]	_	
+8-48	1108-1109	(	_	_	_	_	_	
+8-49	1109-1112	Fig	_	_	_	_	_	
+8-50	1112-1113	.	_	_	_	_	_	
+
+#Text=Blue holes are defined as subsurface voids that are developed in carbonate banks and islands; are open to the Earth’s surface; contain tidally-influenced waters of fresh, marine, or mixed chemistry; extend below sea level for a majority of their depth; and may provide access to submerged cave passages.
+9-1	1114-1118	Blue	_	A.2 Underground landform[25]	DEFINIENDUM[58]	_	_	
+9-2	1119-1124	holes	_	A.2 Underground landform[25]	DEFINIENDUM[58]	_	_	
+9-3	1125-1128	are	_	_	DEFINITOR[59]	_	_	
+9-4	1129-1136	defined	_	_	DEFINITOR[59]	_	_	
+9-5	1137-1139	as	_	_	DEFINITOR[59]	_	_	
+9-6	1140-1150	subsurface	_	A.2 Underground landform[26]	GENUS[60]	HAS\_FORM[90]	_	
+9-7	1151-1156	voids	_	A.2 Underground landform[26]	GENUS[60]	HAS\_FORM[90]	_	
+9-8	1157-1161	that	_	_	_	_	_	
+9-9	1162-1165	are	_	_	_	_	_	
+9-10	1166-1175	developed	_	_	_	HAS\_LOCATION[91]	frame\_LOCATION[116]	
+9-11	1176-1178	in	_	_	_	HAS\_LOCATION[91]	frame\_LOCATION[116]	
+9-12	1179-1188	carbonate	_	_	_	HAS\_LOCATION[91]	_	
+9-13	1189-1194	banks	_	_	_	HAS\_LOCATION[91]	_	
+9-14	1195-1198	and	_	_	_	HAS\_LOCATION[91]	_	
+9-15	1199-1206	islands	_	_	_	HAS\_LOCATION[91]	_	
+9-16	1206-1207	;	_	_	_	_	_	
+9-17	1208-1211	are	_	_	_	_	_	
+9-18	1212-1216	open	_	_	_	HAS\_FORM[92]	_	
+9-19	1217-1219	to	_	_	_	HAS\_FORM[92]	_	
+9-20	1220-1223	the	_	_	_	HAS\_FORM[92]	_	
+9-21	1224-1229	Earth	_	C. Geome[27]	_	HAS\_FORM[92]	_	
+9-22	1229-1230	’	_	C. Geome[27]	_	HAS\_FORM[92]	_	
+9-23	1230-1231	s	_	C. Geome[27]	_	HAS\_FORM[92]	_	
+9-24	1232-1239	surface	_	C. Geome[27]	_	HAS\_FORM[92]	_	
+9-25	1239-1240	;	_	_	_	_	_	
+9-26	1241-1248	contain	_	_	_	_	frame\_CONTAINS	
+9-27	1249-1267	tidally-influenced	_	D.1 Abiotic[28]	_	CONTAINS[93]	_	
+9-28	1268-1274	waters	_	D.1 Abiotic[28]	_	CONTAINS[93]	_	
+9-29	1275-1277	of	_	_	_	CONTAINS[93]	_	
+9-30	1278-1283	fresh	_	_	_	CONTAINS[93]	_	
+9-31	1283-1284	,	_	_	_	CONTAINS[93]	_	
+9-32	1285-1291	marine	_	_	_	CONTAINS[93]	_	
+9-33	1291-1292	,	_	_	_	CONTAINS[93]	_	
+9-34	1293-1295	or	_	_	_	CONTAINS[93]	_	
+9-35	1296-1301	mixed	_	_	_	CONTAINS[93]	_	
+9-36	1302-1311	chemistry	_	_	_	CONTAINS[93]	_	
+9-37	1311-1312	;	_	_	_	_	_	
+9-38	1313-1319	extend	_	_	_	HAS\_LOCATION[94]	frame\_LOCATION	
+9-39	1320-1325	below	_	_	_	HAS\_LOCATION[94]	_	
+9-40	1326-1329	sea	_	_	_	HAS\_LOCATION[94]	_	
+9-41	1330-1335	level	_	_	_	HAS\_LOCATION[94]	_	
+9-42	1336-1339	for	_	_	_	HAS\_LOCATION[94]	_	
+9-43	1340-1341	a	_	_	_	HAS\_LOCATION[94]	_	
+9-44	1342-1350	majority	_	_	_	HAS\_LOCATION[94]	_	
+9-45	1351-1353	of	_	_	_	HAS\_LOCATION[94]	_	
+9-46	1354-1359	their	_	_	_	HAS\_LOCATION[94]	_	
+9-47	1360-1365	depth	_	_	_	HAS\_LOCATION[94]	_	
+9-48	1365-1366	;	_	_	_	_	_	
+9-49	1367-1370	and	_	_	_	_	_	
+9-50	1371-1374	may	_	_	_	_	_	
+9-51	1375-1382	provide	_	_	_	HAS\_FUNCTION[95]	*	
+9-52	1383-1389	access	_	_	_	HAS\_FUNCTION[95]	_	
+9-53	1390-1392	to	_	_	_	HAS\_FUNCTION[95]	_	
+9-54	1393-1402	submerged	_	_	_	HAS\_FUNCTION[95]	_	
+9-55	1403-1407	cave	_	A.2 Underground landform[29]	_	HAS\_FUNCTION[95]	_	
+9-56	1408-1416	passages	_	A.2 Underground landform[29]	_	HAS\_FUNCTION[95]	_	
+9-57	1416-1417	.	_	_	_	_	_	
+
+#Text=Limonite is a generic term that refers to both mineral and amorphous forms of iron oxides and hydroxides.
+10-1	1418-1426	Limonite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+10-2	1427-1429	is	_	_	DEFINITOR[61]	_	_	
+10-3	1430-1431	a	_	_	DEFINITOR[61]	_	_	
+10-4	1432-1439	generic	_	_	DEFINITOR[61]	_	_	
+10-5	1440-1444	term	_	_	DEFINITOR[61]	_	_	
+10-6	1445-1449	that	_	_	DEFINITOR[61]	_	_	
+10-7	1450-1456	refers	_	_	DEFINITOR[61]	_	_	
+10-8	1457-1459	to	_	_	DEFINITOR[61]	_	_	
+10-9	1460-1464	both	_	_	_	_	_	
+10-10	1465-1472	mineral	_	_	SPECIES	COMPOSITION\_MEDIUM[96]	_	
+10-11	1473-1476	and	_	_	_	COMPOSITION\_MEDIUM[96]	_	
+10-12	1477-1486	amorphous	_	_	SPECIES[62]	COMPOSITION\_MEDIUM[96]	_	
+10-13	1487-1492	forms	_	_	SPECIES[62]	COMPOSITION\_MEDIUM[96]	_	
+10-14	1493-1495	of	_	_	SPECIES[62]	COMPOSITION\_MEDIUM[96]	_	
+10-15	1496-1500	iron	_	D.1 Abiotic[30]	SPECIES[62]	COMPOSITION\_MEDIUM[96]	_	
+10-16	1501-1507	oxides	_	D.1 Abiotic[30]	SPECIES[62]	COMPOSITION\_MEDIUM[96]	_	
+10-17	1508-1511	and	_	_	SPECIES[62]	COMPOSITION\_MEDIUM[96]	_	
+10-18	1512-1522	hydroxides	_	D.1 Abiotic	SPECIES[62]	COMPOSITION\_MEDIUM[96]	_	
+10-19	1522-1523	.	_	_	_	_	_	
+
+#Text=The sandstone is a rock made of cemented quartz sand that is very resistant to erosion.
+11-1	1524-1527	The	_	_	_	_	_	
+11-2	1528-1537	sandstone	_	D.1 Abiotic	DEFINIENDUM	_	_	
+11-3	1538-1540	is	_	_	DEFINITOR[63]	_	_	
+11-4	1541-1542	a	_	_	DEFINITOR[63]	_	_	
+11-5	1543-1547	rock	_	D.1 Abiotic	GENUS	_	_	
+11-6	1548-1552	made	_	_	_	COMPOSITION\_MEDIUM[97]	frame\_COMPOSITION[117]	
+11-7	1553-1555	of	_	_	_	COMPOSITION\_MEDIUM[97]	frame\_COMPOSITION[117]	
+11-8	1556-1564	cemented	_	_	_	COMPOSITION\_MEDIUM[97]	_	
+11-9	1565-1571	quartz	_	D.1 Abiotic[31]	_	COMPOSITION\_MEDIUM[97]	_	
+11-10	1572-1576	sand	_	D.1 Abiotic[31]	_	COMPOSITION\_MEDIUM[97]	_	
+11-11	1577-1581	that	_	_	_	_	_	
+11-12	1582-1584	is	_	_	_	_	_	
+11-13	1585-1589	very	_	_	_	_	_	
+11-14	1590-1599	resistant	_	_	_	HAS\_ATTRIBUTE[98]	_	
+11-15	1600-1602	to	_	_	_	HAS\_ATTRIBUTE[98]	_	
+11-16	1603-1610	erosion	_	B.2 Loss	_	HAS\_ATTRIBUTE[98]	_	
+11-17	1610-1611	.	_	_	_	_	_	
+
+#Text=Karst forms are surface and subsurface karst features formed mainly by solutional processes of carbonate rocks of the region which are extremely well folded and fractured due to tectonic events.
+12-1	1612-1617	Karst	_	A. Landform[32]	DEFINIENDUM[64]	_	_	
+12-2	1618-1623	forms	_	A. Landform[32]	DEFINIENDUM[64]	_	_	
+12-3	1624-1627	are	_	_	DEFINITOR	_	_	
+12-4	1628-1635	surface	_	_	_	HAS\_LOCATION[99]	_	
+12-5	1636-1639	and	_	_	_	HAS\_LOCATION[99]	_	
+12-6	1640-1650	subsurface	_	_	_	HAS\_LOCATION[99]	_	
+12-7	1651-1656	karst	_	_	GENUS[65]	_	_	
+12-8	1657-1665	features	_	_	GENUS[65]	_	_	
+12-9	1666-1672	formed	_	_	_	HAS\_CAUSE[100]	frame\_CAUSE[118]	
+12-10	1673-1679	mainly	_	_	_	HAS\_CAUSE[100]	frame\_CAUSE[118]	
+12-11	1680-1682	by	_	_	_	HAS\_CAUSE[100]	frame\_CAUSE[118]	
+12-12	1683-1693	solutional	_	B.4 Transformation[33]|B.2 Loss[34]	_	HAS\_CAUSE[100]	_	
+12-13	1694-1703	processes	_	B.4 Transformation[33]|B.2 Loss[34]	_	HAS\_CAUSE[100]	_	
+12-14	1704-1706	of	_	_	_	HAS\_CAUSE[100]	_	
+12-15	1707-1716	carbonate	_	D.1 Abiotic[35]	_	HAS\_CAUSE[100]	_	
+12-16	1717-1722	rocks	_	D.1 Abiotic[35]	_	HAS\_CAUSE[100]	_	
+12-17	1723-1725	of	_	_	_	_	_	
+12-18	1726-1729	the	_	_	_	_	_	
+12-19	1730-1736	region	_	_	_	_	_	
+12-20	1737-1742	which	_	_	_	_	_	
+12-21	1743-1746	are	_	_	_	_	_	
+12-22	1747-1756	extremely	_	_	_	_	_	
+12-23	1757-1761	well	_	_	_	_	_	
+12-24	1762-1768	folded	_	_	_	_	_	
+12-25	1769-1772	and	_	_	_	_	_	
+12-26	1773-1782	fractured	_	_	_	_	_	
+12-27	1783-1786	due	_	_	_	_	_	
+12-28	1787-1789	to	_	_	_	_	_	
+12-29	1790-1798	tectonic	_	_	_	_	_	
+12-30	1799-1805	events	_	_	_	_	_	
+12-31	1805-1806	.	_	_	_	_	_	
+
+#Text=Collapse dolines are common features of the Dinaric karst and are especially numerous above known large caves.
+13-1	1807-1815	Collapse	_	A.1 Surface landform[36]	DEFINIENDUM[66]	_	_	
+13-2	1816-1823	dolines	_	A.1 Surface landform[36]	DEFINIENDUM[66]	_	_	
+13-3	1824-1827	are	_	_	DEFINITOR	_	_	
+13-4	1828-1834	common	_	_	_	HAS\_POSITION[101]	_	
+13-5	1835-1843	features	_	_	GENUS	HAS\_POSITION[101]	_	
+13-6	1844-1846	of	_	_	_	HAS\_POSITION[101]	_	
+13-7	1847-1850	the	_	_	_	HAS\_POSITION[101]	_	
+13-8	1851-1858	Dinaric	_	D.3.1 Geolocation[37]	_	HAS\_POSITION[101]	_	
+13-9	1859-1864	karst	_	D.3.1 Geolocation[37]	_	HAS\_POSITION[101]	_	
+13-10	1865-1868	and	_	_	_	_	_	
+13-11	1869-1872	are	_	_	_	_	_	
+13-12	1873-1883	especially	_	_	_	_	_	
+13-13	1884-1892	numerous	_	_	_	_	_	
+13-14	1893-1898	above	_	_	_	HAS\_LOCATION[102]	frame\_LOCATION	
+13-15	1899-1904	known	_	_	_	HAS\_LOCATION[102]	_	
+13-16	1905-1910	large	_	_	_	HAS\_LOCATION[102]	_	
+13-17	1911-1916	caves	_	A.2 Underground landform	_	HAS\_LOCATION[102]	_	
+13-18	1916-1917	.	_	_	_	_	_	
+
+#Text=Karst poljes are large karst depressions with flat bottoms, which are the result of solutional processes and karst water drainage.
+14-1	1918-1923	Karst	_	A.1 Surface landform[38]	DEFINIENDUM[67]	_	_	
+14-2	1924-1930	poljes	_	A.1 Surface landform[38]	DEFINIENDUM[67]	_	_	
+14-3	1931-1934	are	_	_	DEFINITOR	_	_	
+14-4	1935-1940	large	_	_	_	HAS\_SIZE	_	
+14-5	1941-1946	karst	_	_	GENUS[68]	_	_	
+14-6	1947-1958	depressions	_	A.1 Surface landform	GENUS[68]	HAS\_FORM[103]	_	
+14-7	1959-1963	with	_	_	_	HAS\_FORM[103]	frame\_FORM	
+14-8	1964-1968	flat	_	_	_	HAS\_FORM[103]	_	
+14-9	1969-1976	bottoms	_	_	_	HAS\_FORM[103]	_	
+14-10	1976-1977	,	_	_	_	_	_	
+14-11	1978-1983	which	_	_	_	_	_	
+14-12	1984-1987	are	_	_	_	_	_	
+14-13	1988-1991	the	_	_	_	_	frame\_CAUSE[119]	
+14-14	1992-1998	result	_	_	_	HAS\_CAUSE[104]	frame\_CAUSE[119]	
+14-15	1999-2001	of	_	_	_	HAS\_CAUSE[104]	frame\_CAUSE[119]	
+14-16	2002-2012	solutional	_	B.2 Loss[39]	_	HAS\_CAUSE[104]	_	
+14-17	2013-2022	processes	_	B.2 Loss[39]	_	HAS\_CAUSE[104]	_	
+14-18	2023-2026	and	_	_	_	HAS\_CAUSE[104]	_	
+14-19	2027-2032	karst	_	B.1 Movement[40]	_	HAS\_CAUSE[104]	_	
+14-20	2033-2038	water	_	B.1 Movement[40]	_	HAS\_CAUSE[104]	_	
+14-21	2039-2047	drainage	_	B.1 Movement[40]	_	HAS\_CAUSE[104]	_	
+14-22	2047-2048	.	_	_	_	_	_	
+
+#Text=Remnants of old river streams are dry valleys, which lack an active watercourse over all or parts of their length for at least part of the year, because water is lost in karst or is in a much lower position.
+15-1	2049-2057	Remnants	_	_	GENUS[69]	_	_	
+15-2	2058-2060	of	_	_	GENUS[69]	_	_	
+15-3	2061-2064	old	_	D.1 Abiotic[41]	GENUS[69]	_	_	
+15-4	2065-2070	river	_	D.1 Abiotic[41]	GENUS[69]	_	_	
+15-5	2071-2078	streams	_	D.1 Abiotic[41]	GENUS[69]	_	_	
+15-6	2079-2082	are	_	_	DEFINITOR	_	_	
+15-7	2083-2086	dry	_	A.1 Surface landform[42]	DEFINIENDUM[70]	_	_	
+15-8	2087-2094	valleys	_	A.1 Surface landform[42]	DEFINIENDUM[70]	_	_	
+15-9	2094-2095	,	_	_	_	_	_	
+15-10	2096-2101	which	_	_	_	_	_	
+15-11	2102-2106	lack	_	_	_	HAS\_FORM[105]	_	
+15-12	2107-2109	an	_	_	_	HAS\_FORM[105]	_	
+15-13	2110-2116	active	_	_	_	HAS\_FORM[105]	_	
+15-14	2117-2128	watercourse	_	_	_	HAS\_FORM[105]	_	
+15-15	2129-2133	over	_	_	_	HAS\_FORM[105]	_	
+15-16	2134-2137	all	_	_	_	HAS\_FORM[105]	_	
+15-17	2138-2140	or	_	_	_	HAS\_FORM[105]	_	
+15-18	2141-2146	parts	_	_	_	HAS\_FORM[105]	_	
+15-19	2147-2149	of	_	_	_	HAS\_FORM[105]	_	
+15-20	2150-2155	their	_	_	_	HAS\_FORM[105]	_	
+15-21	2156-2162	length	_	_	_	HAS\_FORM[105]	_	
+15-22	2163-2166	for	_	_	_	OCCURS\_IN\_TIME[106]	frame\_TIME	
+15-23	2167-2169	at	_	_	_	OCCURS\_IN\_TIME[106]	_	
+15-24	2170-2175	least	_	_	_	OCCURS\_IN\_TIME[106]	_	
+15-25	2176-2180	part	_	_	_	OCCURS\_IN\_TIME[106]	_	
+15-26	2181-2183	of	_	_	_	OCCURS\_IN\_TIME[106]	_	
+15-27	2184-2187	the	_	_	_	OCCURS\_IN\_TIME[106]	_	
+15-28	2188-2192	year	_	_	_	OCCURS\_IN\_TIME[106]	_	
+15-29	2192-2193	,	_	_	_	_	_	
+15-30	2194-2201	because	_	_	_	HAS\_CAUSE[107]	frame\_CAUSE	
+15-31	2202-2207	water	_	_	_	HAS\_CAUSE[107]	_	
+15-32	2208-2210	is	_	_	_	HAS\_CAUSE[107]	_	
+15-33	2211-2215	lost	_	_	_	HAS\_CAUSE[107]	_	
+15-34	2216-2218	in	_	_	_	HAS\_CAUSE[107]	_	
+15-35	2219-2224	karst	_	C. Geome	_	HAS\_CAUSE[107]	_	
+15-36	2225-2227	or	_	_	_	HAS\_CAUSE[107]	_	
+15-37	2228-2230	is	_	_	_	HAS\_CAUSE[107]	_	
+15-38	2231-2233	in	_	_	_	HAS\_CAUSE[107]	_	
+15-39	2234-2235	a	_	_	_	HAS\_CAUSE[107]	_	
+15-40	2236-2240	much	_	_	_	HAS\_CAUSE[107]	_	
+15-41	2241-2246	lower	_	_	_	HAS\_CAUSE[107]	_	
+15-42	2247-2255	position	_	_	_	HAS\_CAUSE[107]	_	
+15-43	2255-2256	.	_	_	_	_	_	

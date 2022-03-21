@@ -1,0 +1,391 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=glavni rov: Rov, ki predstavlja hrbtenico jamskega sistema.
+1-1	0-6	glavni	_	A.2 Underground landform[1]	DEFINIENDUM[27]	_	_	
+1-2	7-10	rov	_	A.2 Underground landform[1]	DEFINIENDUM[27]	_	_	
+1-3	10-11	:	_	_	_	_	_	
+1-4	12-15	Rov	_	A.2 Underground landform	GENUS	_	_	
+1-5	15-16	,	_	_	_	_	_	
+1-6	17-19	ki	_	_	_	_	_	
+1-7	20-31	predstavlja	_	_	_	HAS\_FUNCTION[45]	_	
+1-8	32-41	hrbtenico	_	_	_	HAS\_FUNCTION[45]	_	
+1-9	42-50	jamskega	_	A.2 Underground landform[2]	_	HAS\_FUNCTION[45]	_	
+1-10	51-58	sistema	_	A.2 Underground landform[2]	_	HAS\_FUNCTION[45]	_	
+1-11	58-59	.	_	_	_	_	_	
+
+#Text=slepi rov: Rov, ki se slepo konča.
+2-1	64-69	slepi	_	A.2 Underground landform[3]	DEFINIENDUM[28]	_	_	
+2-2	70-73	rov	_	A.2 Underground landform[3]	DEFINIENDUM[28]	_	_	
+2-3	73-74	:	_	_	_	_	_	
+2-4	75-78	Rov	_	A.2 Underground landform	GENUS	_	_	
+2-5	78-79	,	_	_	_	_	_	
+2-6	80-82	ki	_	_	_	_	_	
+2-7	83-85	se	_	_	_	HAS\_FORM[46]	_	
+2-8	86-91	slepo	_	_	_	HAS\_FORM[46]	_	
+2-9	92-97	konča	_	_	_	HAS\_FORM[46]	_	
+2-10	97-98	.	_	_	_	_	_	
+
+#Text=stranski rov: Rov, ki se cepi od glavnega rova ali od dvorane.
+3-1	103-111	stranski	_	A.2 Underground landform[4]	DEFINIENDUM[29]	_	_	
+3-2	112-115	rov	_	A.2 Underground landform[4]	DEFINIENDUM[29]	_	_	
+3-3	115-116	:	_	_	_	_	_	
+3-4	117-120	Rov	_	A.2 Underground landform	GENUS	_	_	
+3-5	120-121	,	_	_	_	_	_	
+3-6	122-124	ki	_	_	_	HAS\_FORM[47]	_	
+3-7	125-127	se	_	_	_	HAS\_FORM[47]	frame\_FORM[66]	
+3-8	128-132	cepi	_	_	_	HAS\_FORM[47]	frame\_FORM[66]	
+3-9	133-135	od	_	_	_	HAS\_FORM[47]	frame\_FORM[66]	
+3-10	136-144	glavnega	_	A.2 Underground landform[5]	_	HAS\_FORM[47]	_	
+3-11	145-149	rova	_	A.2 Underground landform[5]	_	HAS\_FORM[47]	_	
+3-12	150-153	ali	_	_	_	HAS\_FORM[47]	_	
+3-13	154-156	od	_	_	_	HAS\_FORM[47]	_	
+3-14	157-164	dvorane	_	A.2 Underground landform	_	HAS\_FORM[47]	_	
+3-15	164-165	.	_	_	_	_	_	
+
+#Text=zvezni rov: Rov, ki povezuje dve ali več votlin.
+4-1	169-175	zvezni	_	A.2 Underground landform[6]	DEFINIENDUM[30]	_	_	
+4-2	176-179	rov	_	A.2 Underground landform[6]	DEFINIENDUM[30]	_	_	
+4-3	179-180	:	_	_	_	_	_	
+4-4	181-184	Rov	_	A.2 Underground landform	GENUS	_	_	
+4-5	184-185	,	_	_	_	_	_	
+4-6	186-188	ki	_	_	_	_	_	
+4-7	189-197	povezuje	_	_	_	HAS\_FUNCTION[48]	frame\_FUNCTION	
+4-8	198-201	dve	_	_	_	HAS\_FUNCTION[48]	_	
+4-9	202-205	ali	_	_	_	HAS\_FUNCTION[48]	_	
+4-10	206-209	več	_	_	_	HAS\_FUNCTION[48]	_	
+4-11	210-216	votlin	_	A.2 Underground landform	_	HAS\_FUNCTION[48]	_	
+4-12	216-217	.	_	_	_	_	_	
+
+#Text=eforacijski rov: Jamski rov z značilno obliko, ki je nastala s pretokom vode pod pritiskom (tlakom).
+5-1	222-233	eforacijski	_	A.2 Underground landform[7]	DEFINIENDUM[31]	_	_	
+5-2	234-237	rov	_	A.2 Underground landform[7]	DEFINIENDUM[31]	_	_	
+5-3	237-238	:	_	_	_	_	_	
+5-4	239-245	Jamski	_	A.2 Underground landform[8]	GENUS[32]	_	_	
+5-5	246-249	rov	_	A.2 Underground landform[8]	GENUS[32]	_	_	
+5-6	250-251	z	_	_	_	_	_	
+5-7	252-260	značilno	_	_	_	HAS\_FORM[49]	_	
+5-8	261-267	obliko	_	_	_	HAS\_FORM[49]	_	
+5-9	267-268	,	_	_	_	_	_	
+5-10	269-271	ki	_	_	_	_	_	
+5-11	272-274	je	_	_	_	HAS\_CAUSE[50]	_	
+5-12	275-282	nastala	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE	
+5-13	283-284	s	_	_	_	HAS\_CAUSE[50]	_	
+5-14	285-293	pretokom	_	B.1 Movement[9]	_	HAS\_CAUSE[50]	_	
+5-15	294-298	vode	_	B.1 Movement[9]	_	HAS\_CAUSE[50]	_	
+5-16	299-302	pod	_	_	_	HAS\_CAUSE[50]	_	
+5-17	303-312	pritiskom	_	_	_	HAS\_CAUSE[50]	_	
+5-18	313-314	(	_	_	_	HAS\_CAUSE[50]	_	
+5-19	314-320	tlakom	_	_	_	HAS\_CAUSE[50]	_	
+5-20	320-321	)	_	_	_	HAS\_CAUSE[50]	_	
+5-21	321-322	.	_	_	_	_	_	
+
+#Text=gravitacijski rov:. Jamski rov značilne oblike, ki je nastal s pretokom vode s prosto (nepritisnjeno) gladino - z gravitacijskim tokom. Prim. gravitacijski prečni profil.
+6-1	326-339	gravitacijski	_	A.2 Underground landform[10]	DEFINIENDUM[33]	_	_	
+6-2	340-343	rov	_	A.2 Underground landform[10]	DEFINIENDUM[33]	_	_	
+6-3	343-344	:	_	_	_	_	_	
+6-4	344-345	.	_	_	_	_	_	
+6-5	346-352	Jamski	_	A.2 Underground landform[11]	GENUS[34]	_	_	
+6-6	353-356	rov	_	A.2 Underground landform[11]	GENUS[34]	_	_	
+6-7	357-365	značilne	_	_	_	HAS\_FORM[51]	_	
+6-8	366-372	oblike	_	_	_	HAS\_FORM[51]	_	
+6-9	372-373	,	_	_	_	_	_	
+6-10	374-376	ki	_	_	_	HAS\_CAUSE[52]	_	
+6-11	377-379	je	_	_	_	HAS\_CAUSE[52]	frame\_CAUSE[67]	
+6-12	380-386	nastal	_	_	_	HAS\_CAUSE[52]	frame\_CAUSE[67]	
+6-13	387-388	s	_	_	_	HAS\_CAUSE[52]	frame\_CAUSE[67]	
+6-14	389-397	pretokom	_	B.1 Movement[12]	_	HAS\_CAUSE[52]	_	
+6-15	398-402	vode	_	B.1 Movement[12]	_	HAS\_CAUSE[52]	_	
+6-16	403-404	s	_	_	_	HAS\_CAUSE[52]	_	
+6-17	405-411	prosto	_	_	_	HAS\_CAUSE[52]	_	
+6-18	412-413	(	_	_	_	HAS\_CAUSE[52]	_	
+6-19	413-426	nepritisnjeno	_	_	_	HAS\_CAUSE[52]	_	
+6-20	426-427	)	_	_	_	HAS\_CAUSE[52]	_	
+6-21	428-435	gladino	_	_	_	HAS\_CAUSE[52]	_	
+6-22	436-437	-	_	_	_	HAS\_CAUSE[52]	_	
+6-23	438-439	z	_	_	_	HAS\_CAUSE[52]	_	
+6-24	440-454	gravitacijskim	_	B.1 Movement[13]	_	HAS\_CAUSE[52]	_	
+6-25	455-460	tokom	_	B.1 Movement[13]	_	HAS\_CAUSE[52]	_	
+6-26	460-461	.	_	_	_	_	_	
+6-27	462-466	Prim	_	_	_	_	_	
+6-28	466-467	.	_	_	_	_	_	
+6-29	468-481	gravitacijski	_	_	_	_	_	
+6-30	482-488	prečni	_	_	_	_	_	
+6-31	489-495	profil	_	_	_	_	_	
+6-32	495-496	.	_	_	_	_	_	
+
+#Text=rupa: Lj. za različne kraške pojave (požiralnike, brezna, odprtine vobce). V starejši literaturi tudi termin za požiralnik.
+7-1	501-505	rupa	_	_	_	_	_	
+7-2	505-506	:	_	_	_	_	_	
+7-3	507-509	Lj	_	_	_	_	_	
+7-4	509-510	.	_	_	_	_	_	
+7-5	511-513	za	_	_	_	_	_	
+7-6	514-522	različne	_	_	_	_	_	
+7-7	523-529	kraške	_	_	GENUS[35]	_	_	
+7-8	530-536	pojave	_	_	GENUS[35]	_	_	
+7-9	537-538	(	_	_	_	_	_	
+7-10	538-549	požiralnike	_	A.3 Hydrological form	_	_	_	
+7-11	549-550	,	_	_	_	_	_	
+7-12	551-557	brezna	_	_	_	_	_	
+7-13	557-558	,	_	_	_	_	_	
+7-14	559-567	odprtine	_	_	_	_	_	
+7-15	568-573	vobce	_	_	_	_	_	
+7-16	573-574	)	_	_	_	_	_	
+7-17	574-575	.	_	_	_	_	_	
+7-18	576-577	V	_	_	_	_	_	
+7-19	578-586	starejši	_	_	_	_	_	
+7-20	587-597	literaturi	_	_	_	_	_	
+7-21	598-602	tudi	_	_	_	_	_	
+7-22	603-609	termin	_	_	_	_	_	
+7-23	610-612	za	_	_	_	_	_	
+7-24	613-623	požiralnik	_	_	_	_	_	
+7-25	623-624	.	_	_	_	_	_	
+
+#Text=sadra: V slovenščini ni ustaljeno razlikovanje med dvema pojmoma: brezvodni kalcijev sulfat - anhidrit, CaSO4, ki z vodo prehaja v sadro - kalcijev hidrosulfat (CaSO4. 2H2O). Obe odkladnini sta laže topljivi od apnenca. V slednji se razvija sadreni - gipsni kras.
+8-1	629-634	sadra	_	D.1 Abiotic	DEFINIENDUM	_	_	
+8-2	634-635	:	_	_	_	_	_	
+8-3	636-637	V	_	_	_	_	_	
+8-4	638-649	slovenščini	_	_	_	_	_	
+8-5	650-652	ni	_	_	_	_	_	
+8-6	653-662	ustaljeno	_	_	_	_	_	
+8-7	663-675	razlikovanje	_	_	_	_	_	
+8-8	676-679	med	_	_	_	_	_	
+8-9	680-685	dvema	_	_	_	_	_	
+8-10	686-693	pojmoma	_	_	_	_	_	
+8-11	693-694	:	_	_	_	_	_	
+8-12	695-704	brezvodni	_	D.1 Abiotic[14]	_	_	_	
+8-13	705-713	kalcijev	_	D.1 Abiotic[14]	_	_	_	
+8-14	714-720	sulfat	_	D.1 Abiotic[14]	_	_	_	
+8-15	721-722	-	_	D.1 Abiotic[14]	_	_	_	
+8-16	723-731	anhidrit	_	D.1 Abiotic[14]	_	_	_	
+8-17	731-732	,	_	_	_	_	_	
+8-18	733-738	CaSO4	_	_	_	_	_	
+8-19	738-739	,	_	_	_	_	_	
+8-20	740-742	ki	_	_	_	_	_	
+8-21	743-744	z	_	_	_	_	_	
+8-22	745-749	vodo	_	_	_	_	_	
+8-23	750-757	prehaja	_	_	_	_	_	
+8-24	758-759	v	_	_	_	_	_	
+8-25	760-765	sadro	_	_	_	_	_	
+8-26	766-767	-	_	_	_	_	_	
+8-27	768-776	kalcijev	_	D.1 Abiotic[15]	_	_	_	
+8-28	777-788	hidrosulfat	_	D.1 Abiotic[15]	_	_	_	
+8-29	789-790	(	_	_	_	_	_	
+8-30	790-795	CaSO4	_	_	_	_	_	
+8-31	795-796	.	_	_	_	_	_	
+8-32	797-801	2H2O	_	_	_	_	_	
+8-33	801-802	)	_	_	_	_	_	
+8-34	802-803	.	_	_	_	_	_	
+8-35	804-807	Obe	_	_	_	_	_	
+8-36	808-818	odkladnini	_	_	_	_	_	
+8-37	819-822	sta	_	_	_	_	_	
+8-38	823-827	laže	_	_	_	_	_	
+8-39	828-836	topljivi	_	_	_	_	_	
+8-40	837-839	od	_	_	_	_	_	
+8-41	840-847	apnenca	_	_	_	_	_	
+8-42	847-848	.	_	_	_	_	_	
+8-43	849-850	V	_	_	_	_	_	
+8-44	851-858	slednji	_	_	_	_	_	
+8-45	859-861	se	_	_	_	_	_	
+8-46	862-869	razvija	_	_	_	_	_	
+8-47	870-877	sadreni	sadreni kras	C. Geome	_	_	_	
+8-48	878-879	-	_	_	_	_	_	
+8-49	880-886	gipsni	_	C. Geome[16]	_	_	_	
+8-50	887-891	kras	_	C. Geome[16]	_	_	_	
+8-51	891-892	.	_	_	_	_	_	
+
+#Text=samotar: Osamljena, izrazita skala na kraškem površju. V jami tudi osamljeni kapnik.
+9-1	897-904	samotar	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	904-905	:	_	_	_	_	_	
+9-3	906-915	Osamljena	_	_	_	HAS\_FORM[53]	_	
+9-4	915-916	,	_	_	_	HAS\_FORM[53]	_	
+9-5	917-925	izrazita	_	_	_	HAS\_FORM[53]	_	
+9-6	926-931	skala	_	D.1 Abiotic	GENUS	HAS\_FORM[53]	_	
+9-7	932-934	na	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION	
+9-8	935-942	kraškem	_	C. Geome[17]	_	HAS\_LOCATION[54]	_	
+9-9	943-950	površju	_	C. Geome[17]	_	HAS\_LOCATION[54]	_	
+9-10	950-951	.	_	_	_	_	_	
+9-11	952-953	V	_	_	_	_	_	
+9-12	954-958	jami	_	A.2 Underground landform	_	_	_	
+9-13	959-963	tudi	_	_	_	_	_	
+9-14	964-973	osamljeni	_	_	_	_	_	
+9-15	974-980	kapnik	_	_	_	_	_	
+9-16	980-981	.	_	_	_	_	_	
+
+#Text=sifon: Odsek rova, kjer sega skalni strop v vodo. Do stropa z vodo zalit del rova, ki loči skupaj spadajoče jamske dele. Cep v rovu. Glede na trajnost ločimo trajni in obdobni sifon. Po obliki je kolenast sifon, po smeri pretoka odtočni in pritočni sifon (glede na opazovalca). V tuji literaturi tudi ledeni, ilovnati sifon, in pod.
+10-1	986-991	sifon	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+10-2	991-992	:	_	_	_	_	_	
+10-3	993-998	Odsek	_	_	GENUS[36]	_	_	
+10-4	999-1003	rova	_	_	GENUS[36]	_	_	
+10-5	1003-1004	,	_	_	_	_	_	
+10-6	1005-1009	kjer	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION[68]	
+10-7	1010-1014	sega	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION[68]	
+10-8	1015-1021	skalni	_	_	_	HAS\_LOCATION[55]	_	
+10-9	1022-1027	strop	_	_	_	HAS\_LOCATION[55]	_	
+10-10	1028-1029	v	_	_	_	HAS\_LOCATION[55]	_	
+10-11	1030-1034	vodo	_	D.1 Abiotic	_	HAS\_LOCATION[55]	_	
+10-12	1034-1035	.	_	_	_	_	_	
+10-13	1036-1038	Do	_	_	_	_	_	
+10-14	1039-1045	stropa	_	_	_	_	_	
+10-15	1046-1047	z	_	_	_	_	_	
+10-16	1048-1052	vodo	_	_	_	_	_	
+10-17	1053-1058	zalit	_	_	_	_	_	
+10-18	1059-1062	del	_	_	_	_	_	
+10-19	1063-1067	rova	_	_	_	_	_	
+10-20	1067-1068	,	_	_	_	_	_	
+10-21	1069-1071	ki	_	_	_	_	_	
+10-22	1072-1076	loči	_	_	_	HAS\_FUNCTION[56]	frame\_FUNCTION	
+10-23	1077-1083	skupaj	_	_	_	HAS\_FUNCTION[56]	_	
+10-24	1084-1093	spadajoče	_	_	_	HAS\_FUNCTION[56]	_	
+10-25	1094-1100	jamske	_	_	_	HAS\_FUNCTION[56]	_	
+10-26	1101-1105	dele	_	_	_	HAS\_FUNCTION[56]	_	
+10-27	1105-1106	.	_	_	_	_	_	
+10-28	1107-1110	Cep	_	_	_	_	_	
+10-29	1111-1112	v	_	_	_	_	_	
+10-30	1113-1117	rovu	_	_	_	_	_	
+10-31	1117-1118	.	_	_	_	_	_	
+10-32	1119-1124	Glede	_	_	_	_	_	
+10-33	1125-1127	na	_	_	_	_	_	
+10-34	1128-1136	trajnost	_	_	_	_	_	
+10-35	1137-1143	ločimo	_	_	_	_	_	
+10-36	1144-1150	trajni	trajni sifon	A.3 Hydrological form	SPECIES	_	_	
+10-37	1151-1153	in	_	_	_	_	_	
+10-38	1154-1161	obdobni	_	A.3 Hydrological form[18]	SPECIES[37]	_	_	
+10-39	1162-1167	sifon	_	A.3 Hydrological form[18]	SPECIES[37]	_	_	
+10-40	1167-1168	.	_	_	_	_	_	
+10-41	1169-1171	Po	_	_	_	_	_	
+10-42	1172-1178	obliki	_	_	_	_	_	
+10-43	1179-1181	je	_	_	_	_	_	
+10-44	1182-1190	kolenast	_	A.3 Hydrological form[19]	SPECIES[38]	_	_	
+10-45	1191-1196	sifon	_	A.3 Hydrological form[19]	SPECIES[38]	_	_	
+10-46	1196-1197	,	_	_	_	_	_	
+10-47	1198-1200	po	_	_	_	_	_	
+10-48	1201-1206	smeri	_	_	_	_	_	
+10-49	1207-1214	pretoka	_	_	_	_	_	
+10-50	1215-1222	odtočni	odtočni sifon	A.3 Hydrological form	SPECIES	_	_	
+10-51	1223-1225	in	_	_	_	_	_	
+10-52	1226-1234	pritočni	_	A.3 Hydrological form[20]	SPECIES[39]	_	_	
+10-53	1235-1240	sifon	_	A.3 Hydrological form[20]	SPECIES[39]	_	_	
+10-54	1241-1242	(	_	_	_	_	_	
+10-55	1242-1247	glede	_	_	_	_	_	
+10-56	1248-1250	na	_	_	_	_	_	
+10-57	1251-1261	opazovalca	_	_	_	_	_	
+10-58	1261-1262	)	_	_	_	_	_	
+10-59	1262-1263	.	_	_	_	_	_	
+10-60	1264-1265	V	_	_	_	_	_	
+10-61	1266-1270	tuji	_	_	_	_	_	
+10-62	1271-1281	literaturi	_	_	_	_	_	
+10-63	1282-1286	tudi	_	_	_	_	_	
+10-64	1287-1293	ledeni	_	_	_	_	_	
+10-65	1293-1294	,	_	_	_	_	_	
+10-66	1295-1303	ilovnati	_	_	_	_	_	
+10-67	1304-1309	sifon	_	_	_	_	_	
+10-68	1309-1310	,	_	_	_	_	_	
+10-69	1311-1313	in	_	_	_	_	_	
+10-70	1314-1317	pod	_	_	_	_	_	
+10-71	1317-1318	.	_	_	_	_	_	
+
+#Text=sifonsko jezero: Vecja kotanja stoječe vode v sifonskem koritu.
+11-1	1322-1330	sifonsko	_	A.3 Hydrological form[21]	DEFINIENDUM[40]	_	_	
+11-2	1331-1337	jezero	_	A.3 Hydrological form[21]	DEFINIENDUM[40]	_	_	
+11-3	1337-1338	:	_	_	_	_	_	
+11-4	1339-1344	Vecja	večja	_	_	HAS\_SIZE	_	
+11-5	1345-1352	kotanja	_	D.1 Abiotic	GENUS	_	_	
+11-6	1353-1360	stoječe	_	_	_	CONTAINS[57]	_	
+11-7	1361-1365	vode	_	_	_	CONTAINS[57]	_	
+11-8	1366-1367	v	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION	
+11-9	1368-1377	sifonskem	_	_	_	HAS\_LOCATION[58]	_	
+11-10	1378-1384	koritu	_	_	_	HAS\_LOCATION[58]	_	
+11-11	1384-1385	.	_	_	_	_	_	
+
+#Text=sifonski zapirac: Del stropa, ki moli v sifon.
+12-1	1390-1398	sifonski	_	A.2 Underground landform[22]	DEFINIENDUM[41]	_	_	
+12-2	1399-1406	zapirac	_	A.2 Underground landform[22]	DEFINIENDUM[41]	_	_	
+12-3	1406-1407	:	_	_	_	_	_	
+12-4	1408-1411	Del	_	_	_	HAS\_FORM[59]	_	
+12-5	1412-1418	stropa	_	_	_	HAS\_FORM[59]	_	
+12-6	1418-1419	,	_	_	_	HAS\_FORM[59]	_	
+12-7	1420-1422	ki	_	_	_	HAS\_FORM[59]	frame\_FORM[69]	
+12-8	1423-1427	moli	_	_	_	HAS\_FORM[59]	frame\_FORM[69]	
+12-9	1428-1429	v	_	_	_	HAS\_FORM[59]	frame\_FORM[69]	
+12-10	1430-1435	sifon	_	A.3 Hydrological form	_	HAS\_FORM[59]	_	
+12-11	1435-1436	.	_	_	_	_	_	
+
+#Text=siga:Odkladnina kalcijevega karbonata iz zasičene jamske vode, ki se zrači. Am. pomeni sinter odkladnino mineralne vode!
+13-1	1441-1445	siga	_	D.1 Abiotic	DEFINIENDUM	_	_	
+13-2	1445-1446	:	_	_	_	_	_	
+13-3	1446-1456	Odkladnina	_	B.3 Addition	GENUS	_	_	
+13-4	1457-1468	kalcijevega	_	D.1 Abiotic[23]	_	COMPOSITION\_MEDIUM[60]	_	
+13-5	1469-1478	karbonata	_	D.1 Abiotic[23]	_	COMPOSITION\_MEDIUM[60]	_	
+13-6	1479-1481	iz	_	_	_	COMPOSITION\_MEDIUM[60]	_	
+13-7	1482-1490	zasičene	_	_	_	COMPOSITION\_MEDIUM[60]	_	
+13-8	1491-1497	jamske	_	_	_	COMPOSITION\_MEDIUM[60]	_	
+13-9	1498-1502	vode	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[60]	_	
+13-10	1502-1503	,	_	_	_	_	_	
+13-11	1504-1506	ki	_	_	_	HAS\_ATTRIBUTE[61]	_	
+13-12	1507-1509	se	_	_	_	HAS\_ATTRIBUTE[61]	_	
+13-13	1510-1515	zrači	_	_	_	HAS\_ATTRIBUTE[61]	_	
+13-14	1515-1516	.	_	_	_	_	_	
+13-15	1517-1519	Am	_	_	_	_	_	
+13-16	1519-1520	.	_	_	_	_	_	
+13-17	1521-1527	pomeni	_	_	_	_	_	
+13-18	1528-1534	sinter	_	_	_	_	_	
+13-19	1535-1545	odkladnino	_	_	_	_	_	
+13-20	1546-1555	mineralne	_	_	_	_	_	
+13-21	1556-1560	vode	_	_	_	_	_	
+13-22	1560-1561	!	_	_	_	_	_	
+
+#Text=sigova tvorba: Jamski sediment iz sige, nastal iz tekoče ali mirujoče vode. Glede na podobnost z rastlinami ločimo koralaste, čvetacne ali karfiolaste, gomoljaste itd. tvorbe.
+14-1	1566-1572	sigova	_	A.2 Underground landform[24]	DEFINIENDUM[42]	_	_	
+14-2	1573-1579	tvorba	_	A.2 Underground landform[24]	DEFINIENDUM[42]	_	_	
+14-3	1579-1580	:	_	_	_	_	_	
+14-4	1581-1587	Jamski	_	D.1 Abiotic[25]	GENUS[43]	_	_	
+14-5	1588-1596	sediment	_	D.1 Abiotic[25]	GENUS[43]	_	_	
+14-6	1597-1599	iz	_	_	_	COMPOSITION\_MEDIUM[62]	frame\_COMPOSITION	
+14-7	1600-1604	sige	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[62]	_	
+14-8	1604-1605	,	_	_	_	_	_	
+14-9	1606-1612	nastal	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[70]	
+14-10	1613-1615	iz	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[70]	
+14-11	1616-1622	tekoče	_	_	_	HAS\_CAUSE[63]	_	
+14-12	1623-1626	ali	_	_	_	HAS\_CAUSE[63]	_	
+14-13	1627-1635	mirujoče	_	_	_	HAS\_CAUSE[63]	_	
+14-14	1636-1640	vode	_	_	_	HAS\_CAUSE[63]	_	
+14-15	1640-1641	.	_	_	_	_	_	
+14-16	1642-1647	Glede	_	_	_	_	_	
+14-17	1648-1650	na	_	_	_	_	_	
+14-18	1651-1660	podobnost	_	_	_	_	_	
+14-19	1661-1662	z	_	_	_	_	_	
+14-20	1663-1673	rastlinami	_	_	_	_	_	
+14-21	1674-1680	ločimo	_	_	_	_	_	
+14-22	1681-1690	koralaste	koralasta tvorba	_	SPECIES	_	_	
+14-23	1690-1691	,	_	_	_	_	_	
+14-24	1692-1700	čvetacne	cvetačna tvorba	_	SPECIES	_	_	
+14-25	1701-1704	ali	_	_	_	_	_	
+14-26	1705-1716	karfiolaste	karfiolasta tvorba	_	_	_	_	
+14-27	1716-1717	,	_	_	_	_	_	
+14-28	1718-1728	gomoljaste	gomoljasta tvorba	_	SPECIES	_	_	
+14-29	1729-1732	itd	_	_	_	_	_	
+14-30	1732-1733	.	_	_	_	_	_	
+14-31	1734-1740	tvorbe	_	_	_	_	_	
+14-32	1740-1741	.	_	_	_	_	_	
+
+#Text=kalcitni mehur: Mehur s kalcitno skorjo, nastal v stoječi jamski vodi.
+15-1	1746-1754	kalcitni	_	A.2 Underground landform[26]	DEFINIENDUM[44]	_	_	
+15-2	1755-1760	mehur	_	A.2 Underground landform[26]	DEFINIENDUM[44]	_	_	
+15-3	1760-1761	:	_	_	_	_	_	
+15-4	1762-1767	Mehur	_	_	GENUS	_	_	
+15-5	1768-1769	s	_	_	_	COMPOSITION\_MEDIUM[64]	_	
+15-6	1770-1778	kalcitno	_	_	_	COMPOSITION\_MEDIUM[64]	_	
+15-7	1779-1785	skorjo	_	_	_	COMPOSITION\_MEDIUM[64]	_	
+15-8	1785-1786	,	_	_	_	_	_	
+15-9	1787-1793	nastal	_	_	_	HAS\_CAUSE[65]	frame\_CAUSE[71]	
+15-10	1794-1795	v	_	_	_	HAS\_CAUSE[65]	frame\_CAUSE[71]	
+15-11	1796-1803	stoječi	_	_	_	HAS\_CAUSE[65]	_	
+15-12	1804-1810	jamski	_	_	_	HAS\_CAUSE[65]	_	
+15-13	1811-1815	vodi	_	D.1 Abiotic	_	HAS\_CAUSE[65]	_	
+15-14	1815-1816	.	_	_	_	_	_	

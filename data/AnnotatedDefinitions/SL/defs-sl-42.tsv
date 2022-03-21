@@ -1,0 +1,462 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=prikriti kras: Kras pod tankim, neprepustnim sedimentnim pokrovom, katerega oblike se le delno odražajo na površju. Je lahko fosilni ali recentni kras ali oboje hkrati.
+1-1	0-8	prikriti	_	C. Geome[2]	DEFINIENDUM[42]	_	_	
+1-2	9-13	kras	_	C. Geome[2]	DEFINIENDUM[42]	_	_	
+1-3	13-14	:	_	_	_	_	_	
+1-4	15-19	Kras	_	C. Geome	GENUS	_	_	
+1-5	20-23	pod	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION	
+1-6	24-30	tankim	_	_	_	HAS\_LOCATION[69]	_	
+1-7	30-31	,	_	_	_	HAS\_LOCATION[69]	_	
+1-8	32-44	neprepustnim	_	_	_	HAS\_LOCATION[69]	_	
+1-9	45-56	sedimentnim	_	D.1 Abiotic[3]	_	HAS\_LOCATION[69]	_	
+1-10	57-65	pokrovom	_	D.1 Abiotic[3]	_	HAS\_LOCATION[69]	_	
+1-11	65-66	,	_	_	_	_	_	
+1-12	67-75	katerega	_	_	_	HAS\_FORM[70]	_	
+1-13	76-82	oblike	_	_	_	HAS\_FORM[70]	_	
+1-14	83-85	se	_	_	_	HAS\_FORM[70]	_	
+1-15	86-88	le	_	_	_	HAS\_FORM[70]	_	
+1-16	89-94	delno	_	_	_	HAS\_FORM[70]	_	
+1-17	95-103	odražajo	_	_	_	HAS\_FORM[70]	_	
+1-18	104-106	na	_	_	_	HAS\_FORM[70]	frame\_LOCATION	
+1-19	107-114	površju	_	D.1 Abiotic	_	HAS\_FORM[70]	_	
+1-20	114-115	.	_	_	_	_	_	
+1-21	116-118	Je	_	_	_	HAS\_ATTRIBUTE[71]	_	
+1-22	119-124	lahko	_	_	_	HAS\_ATTRIBUTE[71]	_	
+1-23	125-132	fosilni	fosilni kras	C. Geome	_	HAS\_ATTRIBUTE[71]	_	
+1-24	133-136	ali	_	_	_	HAS\_ATTRIBUTE[71]	_	
+1-25	137-145	recentni	_	C. Geome[4]	_	HAS\_ATTRIBUTE[71]	_	
+1-26	146-150	kras	_	C. Geome[4]	_	HAS\_ATTRIBUTE[71]	_	
+1-27	151-154	ali	_	_	_	HAS\_ATTRIBUTE[71]	_	
+1-28	155-160	oboje	_	_	_	HAS\_ATTRIBUTE[71]	_	
+1-29	161-167	hkrati	_	_	_	HAS\_ATTRIBUTE[71]	_	
+1-30	167-168	.	_	_	_	_	_	
+
+#Text=prekriti kras: Pod vodoprepustnimi (kvartarnimi) naplavinami razviti kras, ki se odraža tudi v površinskih oblikah. skriti kras4. Kras, ki je prekrit z neprepustnimi sedimenti do tolike mere, da je brez površinskih kraških pojavov.
+2-1	173-181	prekriti	_	C. Geome[5]	DEFINIENDUM[43]	_	_	
+2-2	182-186	kras	_	C. Geome[5]	DEFINIENDUM[43]	_	_	
+2-3	186-187	:	_	_	_	_	_	
+2-4	188-191	Pod	_	_	_	HAS\_LOCATION[72]	frame\_LOCATION	
+2-5	192-207	vodoprepustnimi	_	_	_	HAS\_LOCATION[72]	_	
+2-6	208-209	(	_	_	_	HAS\_LOCATION[72]	_	
+2-7	209-220	kvartarnimi	_	_	_	HAS\_LOCATION[72]	_	
+2-8	220-221	)	_	_	_	HAS\_LOCATION[72]	_	
+2-9	222-233	naplavinami	_	D.1 Abiotic	_	HAS\_LOCATION[72]	_	
+2-10	234-241	razviti	_	_	_	_	_	
+2-11	242-246	kras	_	C. Geome	GENUS	_	_	
+2-12	246-247	,	_	_	_	_	_	
+2-13	248-250	ki	_	_	_	_	_	
+2-14	251-253	se	_	_	_	HAS\_FORM[73]	_	
+2-15	254-260	odraža	_	_	_	HAS\_FORM[73]	_	
+2-16	261-265	tudi	_	_	_	HAS\_FORM[73]	_	
+2-17	266-267	v	_	_	_	HAS\_FORM[73]	_	
+2-18	268-279	površinskih	_	_	_	HAS\_FORM[73]	_	
+2-19	280-287	oblikah	_	_	_	HAS\_FORM[73]	_	
+2-20	287-288	.	_	_	_	_	_	
+2-21	289-295	skriti	Skriti kras[1]	C. Geome[6]	GENUS[44]	_	_	
+2-22	296-301	kras4	Skriti kras[1]	C. Geome[6]	GENUS[44]	_	_	
+2-23	301-302	.	_	_	_	_	_	
+2-24	303-307	Kras	_	C. Geome	GENUS	_	_	
+2-25	307-308	,	_	_	_	_	_	
+2-26	309-311	ki	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+2-27	312-314	je	_	_	_	COMPOSITION\_MEDIUM[74]	frame\_COMPOSITION[99]	
+2-28	315-322	prekrit	_	_	_	COMPOSITION\_MEDIUM[74]	frame\_COMPOSITION[99]	
+2-29	323-324	z	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+2-30	325-338	neprepustnimi	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+2-31	339-348	sedimenti	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[74]	_	
+2-32	349-351	do	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+2-33	352-358	tolike	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+2-34	359-363	mere	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+2-35	363-364	,	_	_	_	_	_	
+2-36	365-367	da	_	_	_	CONTAINS[75]	_	
+2-37	368-370	je	_	_	_	CONTAINS[75]	frame\_CONTAINS[100]	
+2-38	371-375	brez	_	_	_	CONTAINS[75]	frame\_CONTAINS[100]	
+2-39	376-387	površinskih	_	_	_	CONTAINS[75]	_	
+2-40	388-395	kraških	_	D.1 Abiotic[7]	_	CONTAINS[75]	_	
+2-41	396-403	pojavov	_	D.1 Abiotic[7]	_	CONTAINS[75]	_	
+2-42	403-404	.	_	_	_	_	_	
+
+#Text=obrežni kras: Kras ob morski ali jezerski obali.
+3-1	409-416	obrežni	_	C. Geome[8]	DEFINIENDUM[45]	_	_	
+3-2	417-421	kras	_	C. Geome[8]	DEFINIENDUM[45]	_	_	
+3-3	421-422	:	_	_	_	_	_	
+3-4	423-427	Kras	_	C. Geome	GENUS	_	_	
+3-5	428-430	ob	_	_	_	HAS\_LOCATION[76]	frame\_LOCATION	
+3-6	431-437	morski	morska obala	_	_	HAS\_LOCATION[76]	_	
+3-7	438-441	ali	_	_	_	HAS\_LOCATION[76]	_	
+3-8	442-450	jezerski	_	D.1 Abiotic[9]	_	HAS\_LOCATION[76]	_	
+3-9	451-456	obali	_	D.1 Abiotic[9]|D.1 Abiotic[10]	_	HAS\_LOCATION[76]	_	
+3-10	456-457	.	_	_	_	_	_	
+
+#Text=linearni kras: Kras, v katerem je opazna linearna razvrstitev depresijskih oblik, reber ali večjih vzpetinic.
+4-1	462-470	linearni	_	C. Geome[11]	DEFINIENDUM[46]	_	_	
+4-2	471-475	kras	_	C. Geome[11]	DEFINIENDUM[46]	_	_	
+4-3	475-476	:	_	_	_	_	_	
+4-4	477-481	Kras	_	C. Geome	GENUS	_	_	
+4-5	481-482	,	_	_	_	_	_	
+4-6	483-484	v	_	_	_	_	_	
+4-7	485-492	katerem	_	_	_	_	_	
+4-8	493-495	je	_	_	_	_	_	
+4-9	496-502	opazna	_	_	_	CONTAINS[77]	_	
+4-10	503-511	linearna	_	_	_	CONTAINS[77]	_	
+4-11	512-523	razvrstitev	_	_	_	CONTAINS[77]	_	
+4-12	524-536	depresijskih	_	D.1 Abiotic[12]	_	CONTAINS[77]	_	
+4-13	537-542	oblik	_	D.1 Abiotic[12]	_	CONTAINS[77]	_	
+4-14	542-543	,	_	_	_	CONTAINS[77]	_	
+4-15	544-549	reber	_	D.1 Abiotic	_	CONTAINS[77]	_	
+4-16	550-553	ali	_	_	_	CONTAINS[77]	_	
+4-17	554-560	večjih	_	_	_	CONTAINS[77]	_	
+4-18	561-570	vzpetinic	_	D.1 Abiotic	_	CONTAINS[77]	_	
+4-19	570-571	.	_	_	_	_	_	
+
+#Text=osameli kras, osamljeni kras: oazni kras sredi nekraške okolice.
+5-1	576-583	osameli	_	C. Geome[13]	DEFINIENDUM[47]	_	_	
+5-2	584-588	kras	_	C. Geome[13]	DEFINIENDUM[47]	_	_	
+5-3	588-589	,	_	_	_	_	_	
+5-4	590-599	osamljeni	_	C. Geome[14]	DEFINIENDUM[48]	_	_	
+5-5	600-604	kras	_	C. Geome[14]	DEFINIENDUM[48]	_	_	
+5-6	604-605	:	_	_	_	_	_	
+5-7	606-611	oazni	_	C. Geome[15]	_	_	_	
+5-8	612-616	kras	_	C. Geome[15]|C. Geome[16]	GENUS	_	_	
+5-9	617-622	sredi	_	_	_	HAS\_LOCATION[78]	frame\_LOCATION	
+5-10	623-631	nekraške	_	_	_	HAS\_LOCATION[78]	_	
+5-11	632-639	okolice	_	_	_	HAS\_LOCATION[78]	_	
+5-12	639-640	.	_	_	_	_	_	
+
+#Text=zajezeni kras: Izolirani ali vsaj od treh strani obdani in zajezeni kraški masiv, v katerem vzdržujejo sosednje neprepustne kamnine ali lokalna erozijska baza (Vorfluter) globoko freatično cono.
+6-1	644-652	zajezeni	_	C. Geome[17]	DEFINIENDUM[49]	_	_	
+6-2	653-657	kras	_	C. Geome[17]	DEFINIENDUM[49]	_	_	
+6-3	657-658	:	_	_	_	_	_	
+6-4	659-668	Izolirani	_	_	_	HAS\_FORM[79]	_	
+6-5	669-672	ali	_	_	_	HAS\_FORM[79]	_	
+6-6	673-677	vsaj	_	_	_	HAS\_FORM[79]	_	
+6-7	678-680	od	_	_	_	HAS\_FORM[79]	_	
+6-8	681-685	treh	_	_	_	HAS\_FORM[79]	_	
+6-9	686-692	strani	_	_	_	HAS\_FORM[79]	_	
+6-10	693-699	obdani	_	_	_	HAS\_FORM[79]	_	
+6-11	700-702	in	_	_	_	HAS\_FORM[79]	_	
+6-12	703-711	zajezeni	_	_	_	HAS\_FORM[79]	_	
+6-13	712-718	kraški	_	_	GENUS[50]	_	_	
+6-14	719-724	masiv	_	D.1 Abiotic	GENUS[50]	_	_	
+6-15	724-725	,	_	_	_	_	_	
+6-16	726-727	v	_	_	_	HAS\_FUNCTION[80]	frame\_FUNCTION[101]	
+6-17	728-735	katerem	_	_	_	HAS\_FUNCTION[80]	frame\_FUNCTION[101]	
+6-18	736-746	vzdržujejo	_	_	_	HAS\_FUNCTION[80]	frame\_FUNCTION[101]	
+6-19	747-755	sosednje	_	_	_	HAS\_FUNCTION[80]	_	
+6-20	756-767	neprepustne	_	_	_	HAS\_FUNCTION[80]	_	
+6-21	768-775	kamnine	_	D.1 Abiotic	_	HAS\_FUNCTION[80]	_	
+6-22	776-779	ali	_	_	_	HAS\_FUNCTION[80]	_	
+6-23	780-787	lokalna	_	_	_	HAS\_FUNCTION[80]	_	
+6-24	788-797	erozijska	_	D.1 Abiotic[18]	_	HAS\_FUNCTION[80]	_	
+6-25	798-802	baza	_	D.1 Abiotic[18]	_	HAS\_FUNCTION[80]	_	
+6-26	803-804	(	_	_	_	HAS\_FUNCTION[80]	_	
+6-27	804-813	Vorfluter	_	E. Instrument or method	_	HAS\_FUNCTION[80]	_	
+6-28	813-814	)	_	_	_	HAS\_FUNCTION[80]	_	
+6-29	815-822	globoko	_	_	_	HAS\_FUNCTION[80]	_	
+6-30	823-832	freatično	_	D.1 Abiotic[19]	_	HAS\_FUNCTION[80]	_	
+6-31	833-837	cono	_	D.1 Abiotic[19]	_	HAS\_FUNCTION[80]	_	
+6-32	837-838	.	_	_	_	_	_	
+
+#Text=krasoslovje: Znanstvena panoga, ki preučuje kras. Je kompleksna veda, ki združuje fizično speleologijo, biospeleologijo, geografijo krasa itd. Znanstvenik, ki se bavi s krasoslovjem, je krasoslovec.
+7-1	843-854	krasoslovje	_	D. Entity/Element/Property	DEFINIENDUM	_	_	
+7-2	854-855	:	_	_	_	_	_	
+7-3	856-866	Znanstvena	_	E. Instrument or method[20]	GENUS[51]	_	_	
+7-4	867-873	panoga	_	E. Instrument or method[20]	GENUS[51]	_	_	
+7-5	873-874	,	_	_	_	_	_	
+7-6	875-877	ki	_	_	_	STUDIES[81]	_	
+7-7	878-886	preučuje	_	_	_	STUDIES[81]	frame\_STUDIES	
+7-8	887-891	kras	_	C. Geome	_	STUDIES[81]	_	
+7-9	891-892	.	_	_	_	_	_	
+7-10	893-895	Je	_	_	_	_	_	
+7-11	896-906	kompleksna	_	_	_	_	_	
+7-12	907-911	veda	_	D. Entity/Element/Property	GENUS	_	_	
+7-13	911-912	,	_	_	_	_	_	
+7-14	913-915	ki	_	_	_	_	_	
+7-15	916-924	združuje	_	_	_	STUDIES[82]	_	
+7-16	925-932	fizično	_	D. Entity/Element/Property[21]	_	STUDIES[82]	_	
+7-17	933-945	speleologijo	_	D. Entity/Element/Property[21]	_	STUDIES[82]	_	
+7-18	945-946	,	_	_	_	STUDIES[82]	_	
+7-19	947-962	biospeleologijo	_	D. Entity/Element/Property	_	STUDIES[82]	_	
+7-20	962-963	,	_	_	_	STUDIES[82]	_	
+7-21	964-974	geografijo	_	_	_	STUDIES[82]	_	
+7-22	975-980	krasa	_	_	_	STUDIES[82]	_	
+7-23	981-984	itd	_	_	_	_	_	
+7-24	984-985	.	_	_	_	_	_	
+7-25	986-997	Znanstvenik	_	_	_	_	_	
+7-26	997-998	,	_	_	_	_	_	
+7-27	999-1001	ki	_	_	_	_	_	
+7-28	1002-1004	se	_	_	_	_	_	
+7-29	1005-1009	bavi	_	_	_	_	_	
+7-30	1010-1011	s	_	_	_	_	_	
+7-31	1012-1024	krasoslovjem	_	E. Instrument or method	_	_	_	
+7-32	1024-1025	,	_	_	_	_	_	
+7-33	1026-1028	je	_	_	_	_	_	
+7-34	1029-1040	krasoslovec	_	_	_	_	_	
+7-35	1040-1041	.	_	_	_	_	_	
+
+#Text=kraška bifurkacija, bifurkacija: Na krasu se pri podzemeljski bifurkaciji voda istega toka javlja v dveh kraških izvirih (primer:. Loški potok, ki izvira v Rinži in Rakitnici). Pri vertikalni bifurkaciji se višje vode iz iste kotanje izlivajo v drugo smer kot nižje (na primer Cerkniško jezero, katerega vode odtekajo v višji legi proti Raku in Uncu, istočasno pa se skozi aluvialne požiralnike odtekajo proti Bistri).
+8-1	1045-1051	kraška	_	B.1 Movement[22]	DEFINIENDUM[52]	_	_	
+8-2	1052-1063	bifurkacija	_	B.1 Movement[22]	DEFINIENDUM[52]	_	_	
+8-3	1063-1064	,	_	_	_	_	_	
+8-4	1065-1076	bifurkacija	_	B.1 Movement	DEFINIENDUM	_	_	
+8-5	1076-1077	:	_	_	_	_	_	
+8-6	1078-1080	Na	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION	
+8-7	1081-1086	krasu	_	C. Geome	_	HAS\_LOCATION[83]	_	
+8-8	1087-1089	se	_	_	_	_	_	
+8-9	1090-1093	pri	_	_	_	_	_	
+8-10	1094-1106	podzemeljski	_	B.1 Movement[23]	SPECIES[53]	_	_	
+8-11	1107-1118	bifurkaciji	_	B.1 Movement[23]	SPECIES[53]	_	_	
+8-12	1119-1123	voda	_	D.1 Abiotic	_	HAS\_RESULT[84]	_	
+8-13	1124-1130	istega	_	_	_	HAS\_RESULT[84]	_	
+8-14	1131-1135	toka	_	_	_	HAS\_RESULT[84]	_	
+8-15	1136-1142	javlja	_	_	_	HAS\_RESULT[84]	frame\_RESULT[102]	
+8-16	1143-1144	v	_	_	_	HAS\_RESULT[84]	frame\_RESULT[102]	
+8-17	1145-1149	dveh	_	_	_	HAS\_RESULT[84]	_	
+8-18	1150-1157	kraških	_	_	_	HAS\_RESULT[84]	_	
+8-19	1158-1165	izvirih	_	A.3 Hydrological form	_	HAS\_RESULT[84]	_	
+8-20	1166-1167	(	_	_	_	_	_	
+8-21	1167-1173	primer	_	_	_	_	_	
+8-22	1173-1174	:	_	_	_	_	_	
+8-23	1174-1175	.	_	_	_	_	_	
+8-24	1176-1181	Loški	_	D.3.1 Geolocation[24]	_	_	_	
+8-25	1182-1187	potok	_	D.3.1 Geolocation[24]	_	_	_	
+8-26	1187-1188	,	_	_	_	_	_	
+8-27	1189-1191	ki	_	_	_	_	_	
+8-28	1192-1198	izvira	_	_	_	_	_	
+8-29	1199-1200	v	_	_	_	_	_	
+8-30	1201-1206	Rinži	_	D.3.1 Geolocation	_	_	_	
+8-31	1207-1209	in	_	_	_	_	_	
+8-32	1210-1219	Rakitnici	_	D.3.1 Geolocation	_	_	_	
+8-33	1219-1220	)	_	_	_	_	_	
+8-34	1220-1221	.	_	_	_	_	_	
+8-35	1222-1225	Pri	_	_	_	_	_	
+8-36	1226-1236	vertikalni	_	B.1 Movement[25]	SPECIES[54]	_	_	
+8-37	1237-1248	bifurkaciji	_	B.1 Movement[25]	SPECIES[54]	_	_	
+8-38	1249-1251	se	_	_	_	HAS\_RESULT[85]	_	
+8-39	1252-1257	višje	_	_	_	HAS\_RESULT[85]	_	
+8-40	1258-1262	vode	_	_	_	HAS\_RESULT[85]	_	
+8-41	1263-1265	iz	_	_	_	HAS\_RESULT[85]	_	
+8-42	1266-1270	iste	_	_	_	HAS\_RESULT[85]	_	
+8-43	1271-1278	kotanje	_	D.1 Abiotic	_	HAS\_RESULT[85]	_	
+8-44	1279-1287	izlivajo	_	_	_	HAS\_RESULT[85]	frame\_RESULT[103]	
+8-45	1288-1289	v	_	_	_	HAS\_RESULT[85]	frame\_RESULT[103]	
+8-46	1290-1295	drugo	_	_	_	HAS\_RESULT[85]	_	
+8-47	1296-1300	smer	_	_	_	HAS\_RESULT[85]	_	
+8-48	1301-1304	kot	_	_	_	HAS\_RESULT[85]	_	
+8-49	1305-1310	nižje	_	_	_	HAS\_RESULT[85]	_	
+8-50	1311-1312	(	_	_	_	_	_	
+8-51	1312-1314	na	_	_	_	_	_	
+8-52	1315-1321	primer	_	_	_	_	_	
+8-53	1322-1331	Cerkniško	_	D.3.1 Geolocation[26]	_	_	_	
+8-54	1332-1338	jezero	_	D.3.1 Geolocation[26]	_	_	_	
+8-55	1338-1339	,	_	_	_	_	_	
+8-56	1340-1348	katerega	_	_	_	_	_	
+8-57	1349-1353	vode	_	_	_	_	_	
+8-58	1354-1362	odtekajo	_	_	_	_	_	
+8-59	1363-1364	v	_	_	_	_	_	
+8-60	1365-1370	višji	_	_	_	_	_	
+8-61	1371-1375	legi	_	_	_	_	_	
+8-62	1376-1381	proti	_	_	_	_	_	
+8-63	1382-1386	Raku	_	D.3.1 Geolocation	_	_	_	
+8-64	1387-1389	in	_	_	_	_	_	
+8-65	1390-1394	Uncu	_	D.3.1 Geolocation	_	_	_	
+8-66	1394-1395	,	_	_	_	_	_	
+8-67	1396-1405	istočasno	_	_	_	_	_	
+8-68	1406-1408	pa	_	_	_	_	_	
+8-69	1409-1411	se	_	_	_	_	_	
+8-70	1412-1417	skozi	_	_	_	_	_	
+8-71	1418-1427	aluvialne	_	_	_	_	_	
+8-72	1428-1439	požiralnike	_	A.3 Hydrological form	_	_	_	
+8-73	1440-1448	odtekajo	_	_	_	_	_	
+8-74	1449-1454	proti	_	_	_	_	_	
+8-75	1455-1461	Bistri	_	D.3.1 Geolocation	_	_	_	
+8-76	1461-1462	)	_	_	_	_	_	
+8-77	1462-1463	.	_	_	_	_	_	
+
+#Text=kraška dolina: Z vseh strani zaprta rečna dolina z izviri na eni in ponori na drugi strani. Prim. Rakov Škocjan.
+9-1	1468-1474	kraška	_	A.1 Surface landform[27]	DEFINIENDUM[55]	_	_	
+9-2	1475-1481	dolina	_	A.1 Surface landform[27]	DEFINIENDUM[55]	_	_	
+9-3	1481-1482	:	_	_	_	_	_	
+9-4	1483-1484	Z	_	_	_	HAS\_FORM[86]	_	
+9-5	1485-1489	vseh	_	_	_	HAS\_FORM[86]	_	
+9-6	1490-1496	strani	_	_	_	HAS\_FORM[86]	_	
+9-7	1497-1503	zaprta	_	_	_	HAS\_FORM[86]	_	
+9-8	1504-1509	rečna	_	_	GENUS[56]	_	_	
+9-9	1510-1516	dolina	_	D.1 Abiotic	GENUS[56]	_	_	
+9-10	1517-1518	z	_	_	_	CONTAINS[87]	frame\_CONTAINS	
+9-11	1519-1525	izviri	_	A.3 Hydrological form	_	CONTAINS[87]	_	
+9-12	1526-1528	na	_	_	_	CONTAINS[87]	_	
+9-13	1529-1532	eni	ena stran	_	_	CONTAINS[87]	_	
+9-14	1533-1535	in	_	_	_	CONTAINS[87]	_	
+9-15	1536-1542	ponori	_	A.3 Hydrological form	_	CONTAINS[87]	_	
+9-16	1543-1545	na	_	_	_	CONTAINS[87]	_	
+9-17	1546-1551	drugi	_	_	_	CONTAINS[87]	_	
+9-18	1552-1558	strani	_	_	_	CONTAINS[87]	_	
+9-19	1558-1559	.	_	_	_	_	_	
+9-20	1560-1564	Prim	_	_	_	_	_	
+9-21	1564-1565	.	_	_	_	_	_	
+9-22	1566-1571	Rakov	_	D.3.1 Geolocation[28]	SPECIES[57]	_	_	
+9-23	1572-1579	Škocjan	_	D.3.1 Geolocation[28]	SPECIES[57]	_	_	
+9-24	1579-1580	.	_	_	_	_	_	
+
+#Text=kraška ilovica: V ožjem smislu ilovnati netopni ostanek karbonatnih kamnin na krasu. V širšem smislu prst (zemlja) na krasu ne glede na njeno teksturo.
+10-1	1585-1591	kraška	_	D.1 Abiotic[29]	DEFINIENDUM[58]	_	_	
+10-2	1592-1599	ilovica	_	D.1 Abiotic[29]	DEFINIENDUM[58]	_	_	
+10-3	1599-1600	:	_	_	_	_	_	
+10-4	1601-1602	V	_	_	DEFINITOR[59]	_	_	
+10-5	1603-1608	ožjem	_	_	DEFINITOR[59]	_	_	
+10-6	1609-1615	smislu	_	_	DEFINITOR[59]	_	_	
+10-7	1616-1624	ilovnati	_	_	_	_	_	
+10-8	1625-1632	netopni	_	_	GENUS[60]	_	_	
+10-9	1633-1640	ostanek	_	_	GENUS[60]	_	_	
+10-10	1641-1652	karbonatnih	_	D.1 Abiotic[30]	_	_	_	
+10-11	1653-1659	kamnin	_	D.1 Abiotic[30]	_	_	_	
+10-12	1660-1662	na	_	_	_	HAS\_LOCATION[88]	frame\_LOCATION	
+10-13	1663-1668	krasu	_	C. Geome	_	HAS\_LOCATION[88]	_	
+10-14	1668-1669	.	_	_	_	_	_	
+10-15	1670-1671	V	_	_	DEFINITOR[61]	_	_	
+10-16	1672-1678	širšem	_	_	DEFINITOR[61]	_	_	
+10-17	1679-1685	smislu	_	_	DEFINITOR[61]	_	_	
+10-18	1686-1690	prst	_	D.1 Abiotic	GENUS[62]	_	_	
+10-19	1691-1692	(	_	_	GENUS[62]	_	_	
+10-20	1692-1698	zemlja	_	D.1 Abiotic	GENUS[62]	_	_	
+10-21	1698-1699	)	_	_	GENUS[62]	_	_	
+10-22	1700-1702	na	_	_	_	HAS\_LOCATION[89]	frame\_LOCATION	
+10-23	1703-1708	krasu	_	C. Geome	_	HAS\_LOCATION[89]	_	
+10-24	1709-1711	ne	_	_	_	_	_	
+10-25	1712-1717	glede	_	_	_	_	_	
+10-26	1718-1720	na	_	_	_	_	_	
+10-27	1721-1726	njeno	_	_	_	_	_	
+10-28	1727-1735	teksturo	_	_	_	_	_	
+10-29	1735-1736	.	_	_	_	_	_	
+
+#Text=kraška erozija prsti: Erozija prsti, pri kateri se zaradi spiranja v kraško notranjost zniža raven prsti. Zunanji znak intenzivne kraške erozije prsti so kamni, ki na obdelovalnih zemljišcih pogledajo na površje. Prim. trebljenje krasa.
+11-1	1741-1747	kraška	_	B.2 Loss[31]	DEFINIENDUM[63]	_	_	
+11-2	1748-1755	erozija	_	B.2 Loss[31]	DEFINIENDUM[63]	_	_	
+11-3	1756-1761	prsti	_	B.2 Loss[31]	DEFINIENDUM[63]	_	_	
+11-4	1761-1762	:	_	_	_	_	_	
+11-5	1763-1770	Erozija	_	B.2 Loss[32]	GENUS[64]	_	_	
+11-6	1771-1776	prsti	_	B.2 Loss[32]	GENUS[64]	_	_	
+11-7	1776-1777	,	_	_	_	_	_	
+11-8	1778-1781	pri	_	_	_	HAS\_CAUSE[90]	_	
+11-9	1782-1788	kateri	_	_	_	HAS\_CAUSE[90]	_	
+11-10	1789-1791	se	_	_	_	HAS\_CAUSE[90]	_	
+11-11	1792-1798	zaradi	_	_	_	HAS\_CAUSE[90]	frame\_CAUSE[104]	
+11-12	1799-1807	spiranja	_	B.2 Loss	_	HAS\_CAUSE[90]	frame\_CAUSE[104]	
+11-13	1808-1809	v	_	_	_	HAS\_LOCATION[91]	frame\_LOCATION	
+11-14	1810-1816	kraško	_	C. Geome[33]	_	HAS\_LOCATION[91]	_	
+11-15	1817-1827	notranjost	_	C. Geome[33]	_	HAS\_LOCATION[91]	_	
+11-16	1828-1833	zniža	_	_	_	HAS\_RESULT[92]	frame\_RESULT[105]	
+11-17	1834-1839	raven	_	_	_	HAS\_RESULT[92]	frame\_RESULT[105]	
+11-18	1840-1845	prsti	_	D.1 Abiotic	_	HAS\_RESULT[92]	_	
+11-19	1845-1846	.	_	_	_	_	_	
+11-20	1847-1854	Zunanji	_	_	_	HAS\_RESULT[93]	_	
+11-21	1855-1859	znak	_	_	_	HAS\_RESULT[93]	_	
+11-22	1860-1870	intenzivne	_	_	_	HAS\_RESULT[93]	_	
+11-23	1871-1877	kraške	_	B.2 Loss[34]	_	HAS\_RESULT[93]	_	
+11-24	1878-1885	erozije	_	B.2 Loss[34]	_	HAS\_RESULT[93]	_	
+11-25	1886-1891	prsti	_	B.2 Loss[34]	_	HAS\_RESULT[93]	_	
+11-26	1892-1894	so	_	_	_	HAS\_RESULT[93]	_	
+11-27	1895-1900	kamni	_	D.1 Abiotic	_	HAS\_RESULT[93]	_	
+11-28	1900-1901	,	_	_	_	HAS\_RESULT[93]	_	
+11-29	1902-1904	ki	_	_	_	HAS\_RESULT[93]	_	
+11-30	1905-1907	na	_	_	_	HAS\_RESULT[93]	_	
+11-31	1908-1920	obdelovalnih	_	_	_	HAS\_RESULT[93]	_	
+11-32	1921-1931	zemljišcih	zemljiščih	D.1 Abiotic	_	HAS\_RESULT[93]	_	
+11-33	1932-1941	pogledajo	_	_	_	HAS\_RESULT[93]	_	
+11-34	1942-1944	na	_	_	_	HAS\_RESULT[93]	_	
+11-35	1945-1952	površje	_	D.1 Abiotic	_	HAS\_RESULT[93]	_	
+11-36	1952-1953	.	_	_	_	_	_	
+11-37	1954-1958	Prim	_	_	_	_	_	
+11-38	1958-1959	.	_	_	_	_	_	
+11-39	1960-1970	trebljenje	_	B.2 Loss	_	_	_	
+11-40	1971-1976	krasa	_	_	_	_	_	
+11-41	1976-1977	.	_	_	_	_	_	
+
+#Text=kraška miza: Ledeniški balvan, podorna ali druga alohtona skala, ki je zašlitila apneniško podlago pred zniževanjem in zato leži na podstavku.
+12-1	1982-1988	kraška	_	A.1 Surface landform[35]	DEFINIENDUM[65]	_	_	
+12-2	1989-1993	miza	_	A.1 Surface landform[35]	DEFINIENDUM[65]	_	_	
+12-3	1993-1994	:	_	_	_	_	_	
+12-4	1995-2004	Ledeniški	_	_	_	_	_	
+12-5	2005-2011	balvan	_	D.1 Abiotic	GENUS	_	_	
+12-6	2011-2012	,	_	_	_	_	_	
+12-7	2013-2020	podorna	podorna skala	D.1 Abiotic	_	_	_	
+12-8	2021-2024	ali	_	_	_	_	_	
+12-9	2025-2030	druga	_	_	_	_	_	
+12-10	2031-2039	alohtona	_	D.1 Abiotic[36]	_	_	_	
+12-11	2040-2045	skala	_	D.1 Abiotic[36]	GENUS	_	_	
+12-12	2045-2046	,	_	_	_	_	_	
+12-13	2047-2049	ki	_	_	_	HAS\_FUNCTION[94]	_	
+12-14	2050-2052	je	_	_	_	HAS\_FUNCTION[94]	_	
+12-15	2053-2062	zašlitila	zaščitila	_	_	HAS\_FUNCTION[94]	frame\_FUNCTION	
+12-16	2063-2072	apneniško	_	D.1 Abiotic[37]	_	HAS\_FUNCTION[94]	_	
+12-17	2073-2080	podlago	_	D.1 Abiotic[37]	_	HAS\_FUNCTION[94]	_	
+12-18	2081-2085	pred	_	_	_	HAS\_FUNCTION[94]	_	
+12-19	2086-2097	zniževanjem	_	B.2 Loss	_	HAS\_FUNCTION[94]	_	
+12-20	2098-2100	in	_	_	_	HAS\_FUNCTION[94]	_	
+12-21	2101-2105	zato	_	_	_	HAS\_FUNCTION[94]	_	
+12-22	2106-2110	leži	_	_	_	HAS\_FUNCTION[94]|HAS\_FORM[95]	frame\_FORM[106]	
+12-23	2111-2113	na	_	_	_	HAS\_FORM[95]	frame\_FORM[106]	
+12-24	2114-2123	podstavku	_	D.1 Abiotic	_	HAS\_FORM[95]	_	
+12-25	2123-2124	.	_	_	_	_	_	
+
+#Text=kraška hidrografija: Opis kraških vodnih razmer. G1. freatična, vadozna cona, gladina kraške vode.
+13-1	2129-2135	kraška	_	E. Instrument or method[38]	DEFINIENDUM[66]	_	_	
+13-2	2136-2148	hidrografija	_	E. Instrument or method[38]	DEFINIENDUM[66]	_	_	
+13-3	2148-2149	:	_	_	_	_	_	
+13-4	2150-2154	Opis	_	_	_	DEFINED\_AS[96]	frame\_DEFINED\_AS	
+13-5	2155-2162	kraških	_	_	_	DEFINED\_AS[96]	_	
+13-6	2163-2169	vodnih	_	_	_	DEFINED\_AS[96]	_	
+13-7	2170-2176	razmer	_	_	_	DEFINED\_AS[96]	_	
+13-8	2176-2177	.	_	_	_	_	_	
+13-9	2178-2180	G1	_	_	_	_	_	
+13-10	2180-2181	.	_	_	_	_	_	
+13-11	2182-2191	freatična	freatična cona	D.1 Abiotic	_	_	_	
+13-12	2191-2192	,	_	_	_	_	_	
+13-13	2193-2200	vadozna	_	D.1 Abiotic[39]	_	_	_	
+13-14	2201-2205	cona	_	D.1 Abiotic[39]	_	_	_	
+13-15	2205-2206	,	_	_	_	_	_	
+13-16	2207-2214	gladina	_	D.1 Abiotic	_	_	_	
+13-17	2215-2221	kraške	_	_	_	_	_	
+13-18	2222-2226	vode	_	_	_	_	_	
+13-19	2226-2227	.	_	_	_	_	_	
+
+#Text=kraška hidrologija: Veda o kraškem vodovju. Praksa često ne loči med kraško hidrologijo in kraško hidrografijo.
+14-1	2232-2238	kraška	_	E. Instrument or method[40]	DEFINIENDUM[67]	_	_	
+14-2	2239-2250	hidrologija	_	E. Instrument or method[40]	DEFINIENDUM[67]	_	_	
+14-3	2250-2251	:	_	_	_	_	_	
+14-4	2252-2256	Veda	_	E. Instrument or method	GENUS	STUDIES[97]	frame\_STUDIES[107]	
+14-5	2257-2258	o	_	_	_	STUDIES[97]	frame\_STUDIES[107]	
+14-6	2259-2266	kraškem	_	_	_	STUDIES[97]	_	
+14-7	2267-2274	vodovju	_	D.1 Abiotic	_	STUDIES[97]	_	
+14-8	2274-2275	.	_	_	_	_	_	
+14-9	2276-2282	Praksa	_	_	_	_	_	
+14-10	2283-2288	često	_	_	_	_	_	
+14-11	2289-2291	ne	_	_	_	_	_	
+14-12	2292-2296	loči	_	_	_	_	_	
+14-13	2297-2300	med	_	_	_	_	_	
+14-14	2301-2307	kraško	_	_	_	_	_	
+14-15	2308-2319	hidrologijo	_	_	_	_	_	
+14-16	2320-2322	in	_	_	_	_	_	
+14-17	2323-2329	kraško	_	_	_	_	_	
+14-18	2330-2342	hidrografijo	_	_	_	_	_	
+14-19	2342-2343	.	_	_	_	_	_	
+
+#Text=kraška kamnina: Kamnina, v kateri nastopajo kraški pojavi.
+15-1	2348-2354	kraška	_	D.1 Abiotic[41]	DEFINIENDUM[68]	_	_	
+15-2	2355-2362	kamnina	_	D.1 Abiotic[41]	DEFINIENDUM[68]	_	_	
+15-3	2362-2363	:	_	_	_	_	_	
+15-4	2364-2371	Kamnina	_	D.1 Abiotic	GENUS	_	_	
+15-5	2371-2372	,	_	_	_	_	_	
+15-6	2373-2374	v	_	_	_	CONTAINS[98]	_	
+15-7	2375-2381	kateri	_	_	_	CONTAINS[98]	_	
+15-8	2382-2391	nastopajo	_	_	_	CONTAINS[98]	_	
+15-9	2392-2398	kraški	_	_	_	CONTAINS[98]	_	
+15-10	2399-2405	pojavi	_	_	_	CONTAINS[98]	_	
+15-11	2405-2406	.	_	_	_	_	_	

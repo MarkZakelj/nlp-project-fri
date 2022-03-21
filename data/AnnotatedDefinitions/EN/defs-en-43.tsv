@@ -1,0 +1,393 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=natural well :   A vertical shaft in limestone, open to the surface and having water at the bottom; similar to a cenote.
+1-1	0-7	natural	_	A.3 Hydrological form[1]	DEFINIENDUM[11]	_	_	
+1-2	8-12	well	_	A.3 Hydrological form[1]	DEFINIENDUM[11]	_	_	
+1-3	13-14	:	_	_	_	_	_	
+1-4	17-18	A	_	_	_	HAS\_FORM[17]	_	
+1-5	19-27	vertical	_	_	_	HAS\_FORM[17]	_	
+1-6	28-33	shaft	_	D.1 Abiotic	GENUS	_	_	
+1-7	34-36	in	_	_	_	COMPOSITION\_MEDIUM[18]	_	
+1-8	37-46	limestone	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[18]	_	
+1-9	46-47	,	_	_	_	_	_	
+1-10	48-52	open	_	_	_	HAS\_FORM[19]	_	
+1-11	53-55	to	_	_	_	HAS\_FORM[19]	_	
+1-12	56-59	the	_	_	_	HAS\_FORM[19]	_	
+1-13	60-67	surface	_	_	_	HAS\_FORM[19]	_	
+1-14	68-71	and	_	_	_	_	_	
+1-15	72-78	having	_	_	_	CONTAINS[20]	frame\_CONTAINS	
+1-16	79-84	water	_	_	_	CONTAINS[20]	_	
+1-17	85-87	at	_	_	_	CONTAINS[20]	_	
+1-18	88-91	the	_	_	_	CONTAINS[20]	_	
+1-19	92-98	bottom	_	_	_	CONTAINS[20]	_	
+1-20	98-99	;	_	_	_	_	_	
+1-21	100-107	similar	_	_	_	_	_	
+1-22	108-110	to	_	_	_	_	_	
+1-23	111-112	a	_	_	_	_	_	
+1-24	113-119	cenote	_	_	_	_	_	
+1-25	119-120	.	_	_	_	_	_	
+
+#Text=network :  A complex pattern of repeatedly connected passages in a cave system. Synonym: labyrinth.
+2-1	121-128	network	_	A.2 Underground landform	DEFINIENDUM	_	_	
+2-2	129-130	:	_	_	_	_	_	
+2-3	132-133	A	_	_	_	_	_	
+2-4	134-141	complex	_	_	_	HAS\_FORM[21]	_	
+2-5	142-149	pattern	_	_	_	HAS\_FORM[21]	_	
+2-6	150-152	of	_	_	_	HAS\_FORM[21]	_	
+2-7	153-163	repeatedly	_	_	_	HAS\_FORM[21]	_	
+2-8	164-173	connected	_	_	_	HAS\_FORM[21]	_	
+2-9	174-182	passages	_	_	_	HAS\_FORM[21]	_	
+2-10	183-185	in	_	_	_	HAS\_LOCATION[22]	frame\_LOCATION[56]	
+2-11	186-187	a	_	_	_	HAS\_LOCATION[22]	frame\_LOCATION[56]	
+2-12	188-192	cave	_	A.2 Underground landform[2]	_	HAS\_LOCATION[22]	_	
+2-13	193-199	system	_	A.2 Underground landform[2]	_	HAS\_LOCATION[22]	_	
+2-14	199-200	.	_	_	_	_	_	
+2-15	201-208	Synonym	_	_	_	_	_	
+2-16	208-209	:	_	_	_	_	_	
+2-17	210-219	labyrinth	_	_	_	_	_	
+2-18	219-220	.	_	_	_	_	_	
+
+#Text=nip :  An undercutting notch in rock, particularly limestone, along a seacoast between high and low tide levels, produced by erosion or solution.
+3-1	221-224	nip	_	A.4 Other	DEFINIENDUM	_	_	
+3-2	225-226	:	_	_	_	_	_	
+3-3	228-230	An	_	_	_	_	_	
+3-4	231-243	undercutting	_	_	_	HAS\_FORM[23]	_	
+3-5	244-249	notch	_	_	_	HAS\_FORM[23]	_	
+3-6	250-252	in	_	_	_	COMPOSITION\_MEDIUM[24]	_	
+3-7	253-257	rock	_	_	_	COMPOSITION\_MEDIUM[24]	_	
+3-8	257-258	,	_	_	_	COMPOSITION\_MEDIUM[24]	_	
+3-9	259-271	particularly	_	_	_	COMPOSITION\_MEDIUM[24]	_	
+3-10	272-281	limestone	_	_	_	COMPOSITION\_MEDIUM[24]	_	
+3-11	281-282	,	_	_	_	_	_	
+3-12	283-288	along	_	_	_	HAS\_LOCATION[25]	frame\_LOCATION[57]	
+3-13	289-290	a	_	_	_	HAS\_LOCATION[25]	frame\_LOCATION[57]	
+3-14	291-299	seacoast	_	_	_	HAS\_LOCATION[25]	_	
+3-15	300-307	between	_	_	_	HAS\_LOCATION[25]	_	
+3-16	308-312	high	_	_	_	HAS\_LOCATION[25]	_	
+3-17	313-316	and	_	_	_	HAS\_LOCATION[25]	_	
+3-18	317-320	low	_	_	_	HAS\_LOCATION[25]	_	
+3-19	321-325	tide	_	_	_	HAS\_LOCATION[25]	_	
+3-20	326-332	levels	_	_	_	HAS\_LOCATION[25]	_	
+3-21	332-333	,	_	_	_	_	_	
+3-22	334-342	produced	_	_	_	HAS\_CAUSE[26]	frame\_CAUSE[58]	
+3-23	343-345	by	_	_	_	HAS\_CAUSE[26]	frame\_CAUSE[58]	
+3-24	346-353	erosion	_	B.2 Loss	_	HAS\_CAUSE[26]	_	
+3-25	354-356	or	_	_	_	HAS\_CAUSE[26]	_	
+3-26	357-365	solution	_	B.2 Loss	_	HAS\_CAUSE[26]	_	
+3-27	365-366	.	_	_	_	_	_	
+
+#Text=outflow cave :  Cave from which stream flows out or formerly did so. Synonym, effluent cave.
+4-1	367-374	outflow	_	A.2 Underground landform[3]	DEFINIENDUM[12]	_	_	
+4-2	375-379	cave	_	A.2 Underground landform[3]	DEFINIENDUM[12]	_	_	
+4-3	380-381	:	_	_	_	_	_	
+4-4	383-387	Cave	_	A.2 Underground landform	GENUS	_	_	
+4-5	388-392	from	_	_	_	HAS\_FUNCTION[27]	_	
+4-6	393-398	which	_	_	_	HAS\_FUNCTION[27]	_	
+4-7	399-405	stream	_	_	_	HAS\_FUNCTION[27]	_	
+4-8	406-411	flows	_	_	_	HAS\_FUNCTION[27]	_	
+4-9	412-415	out	_	_	_	HAS\_FUNCTION[27]	_	
+4-10	416-418	or	_	_	_	HAS\_FUNCTION[27]	_	
+4-11	419-427	formerly	_	_	_	HAS\_FUNCTION[27]	_	
+4-12	428-431	did	_	_	_	HAS\_FUNCTION[27]	_	
+4-13	432-434	so	_	_	_	HAS\_FUNCTION[27]	_	
+4-14	434-435	.	_	_	_	_	_	
+4-15	436-443	Synonym	_	_	_	_	_	
+4-16	443-444	,	_	_	_	_	_	
+4-17	445-453	effluent	_	A.2 Underground landform[4]	DEFINIENDUM[13]	_	_	
+4-18	454-458	cave	_	A.2 Underground landform[4]	DEFINIENDUM[13]	_	_	
+4-19	458-459	.	_	_	_	_	_	
+
+#Text=paleokarst :  A karstified rock or area that has been buried by later sediments; in some places, ancient caves have been completely filled by the later sediments,
+5-1	460-470	paleokarst	_	C. Geome	DEFINIENDUM	_	_	
+5-2	471-472	:	_	_	_	_	_	
+5-3	474-475	A	_	_	_	_	_	
+5-4	476-486	karstified	_	_	_	_	_	
+5-5	487-491	rock	_	D.1 Abiotic	_	_	_	
+5-6	492-494	or	_	_	_	_	_	
+5-7	495-499	area	_	_	_	HAS\_CAUSE[28]	_	
+5-8	500-504	that	_	_	_	HAS\_CAUSE[28]	_	
+5-9	505-508	has	_	_	_	HAS\_CAUSE[28]	_	
+5-10	509-513	been	_	_	_	HAS\_CAUSE[28]	_	
+5-11	514-520	buried	_	_	_	HAS\_CAUSE[28]	_	
+5-12	521-523	by	_	_	_	HAS\_CAUSE[28]	_	
+5-13	524-529	later	_	_	_	HAS\_CAUSE[28]	_	
+5-14	530-539	sediments	sediment	D.1 Abiotic	_	HAS\_CAUSE[28]	_	
+5-15	539-540	;	_	_	_	_	_	
+5-16	541-543	in	_	_	_	_	_	
+5-17	544-548	some	_	_	_	_	_	
+5-18	549-555	places	_	_	_	_	_	
+5-19	555-556	,	_	_	_	_	_	
+5-20	557-564	ancient	_	_	_	CONTAINS[29]	_	
+5-21	565-570	caves	_	_	_	CONTAINS[29]	_	
+5-22	571-575	have	_	_	_	CONTAINS[29]	_	
+5-23	576-580	been	_	_	_	CONTAINS[29]	_	
+5-24	581-591	completely	_	_	_	CONTAINS[29]	_	
+5-25	592-598	filled	_	_	_	CONTAINS[29]	_	
+5-26	599-601	by	_	_	_	CONTAINS[29]	_	
+5-27	602-605	the	_	_	_	CONTAINS[29]	_	
+5-28	606-611	later	_	_	_	CONTAINS[29]	_	
+5-29	612-621	sediments	_	_	_	CONTAINS[29]	_	
+5-30	621-622	,	_	_	_	_	_	
+
+#Text=palette :  In a cave, a more or less flat protruding sheet of crystalline calcium carbonate spared during solution of the rock on each side of it. See also blade; shield.
+6-1	624-631	palette	_	A.2 Underground landform	DEFINIENDUM	_	_	
+6-2	632-633	:	_	_	_	_	_	
+6-3	635-637	In	_	_	_	HAS\_LOCATION[30]	frame\_LOCATION[59]	
+6-4	638-639	a	_	_	_	HAS\_LOCATION[30]	frame\_LOCATION[59]	
+6-5	640-644	cave	_	_	_	HAS\_LOCATION[30]	_	
+6-6	644-645	,	_	_	_	HAS\_LOCATION[30]	_	
+6-7	646-647	a	_	_	_	_	_	
+6-8	648-652	more	_	_	_	_	_	
+6-9	653-655	or	_	_	_	_	_	
+6-10	656-660	less	_	_	_	_	_	
+6-11	661-665	flat	_	_	_	HAS\_FORM[31]	_	
+6-12	666-676	protruding	_	_	_	HAS\_FORM[31]	_	
+6-13	677-682	sheet	_	_	_	HAS\_FORM[31]	_	
+6-14	683-685	of	_	_	_	COMPOSITION\_MEDIUM[32]	frame\_COMPOSITION	
+6-15	686-697	crystalline	_	_	_	COMPOSITION\_MEDIUM[32]	_	
+6-16	698-705	calcium	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[32]	_	
+6-17	706-715	carbonate	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[32]	_	
+6-18	716-722	spared	_	_	_	HAS\_CAUSE[33]	_	
+6-19	723-729	during	_	_	_	HAS\_CAUSE[33]	_	
+6-20	730-738	solution	_	B.4 Transformation	_	HAS\_CAUSE[33]	_	
+6-21	739-741	of	_	_	_	HAS\_CAUSE[33]	_	
+6-22	742-745	the	_	_	_	HAS\_CAUSE[33]	_	
+6-23	746-750	rock	_	_	_	HAS\_CAUSE[33]	_	
+6-24	751-753	on	_	_	_	HAS\_CAUSE[33]	_	
+6-25	754-758	each	_	_	_	HAS\_CAUSE[33]	_	
+6-26	759-763	side	_	_	_	HAS\_CAUSE[33]	_	
+6-27	764-766	of	_	_	_	HAS\_CAUSE[33]	_	
+6-28	767-769	it	_	_	_	HAS\_CAUSE[33]	_	
+6-29	769-770	.	_	_	_	HAS\_CAUSE[33]	_	
+6-30	771-774	See	_	_	_	_	_	
+6-31	775-779	also	_	_	_	_	_	
+6-32	780-785	blade	_	_	_	_	_	
+6-33	785-786	;	_	_	_	_	_	
+6-34	787-793	shield	_	_	_	_	_	
+6-35	793-794	.	_	_	_	_	_	
+
+#Text=partition :  A nearly vertical residual rock mass in a cave.
+7-1	795-804	partition	_	A.2 Underground landform	DEFINIENDUM	_	_	
+7-2	805-806	:	_	_	_	_	_	
+7-3	808-809	A	_	_	_	_	_	
+7-4	810-816	nearly	_	_	_	HAS\_FORM[34]	_	
+7-5	817-825	vertical	_	_	_	HAS\_FORM[34]	_	
+7-6	826-834	residual	_	_	_	HAS\_FORM[34]|HAS\_CAUSE[35]	_	
+7-7	835-839	rock	_	_	_	HAS\_FORM[34]	_	
+7-8	840-844	mass	_	_	_	HAS\_FORM[34]	_	
+7-9	845-847	in	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[60]	
+7-10	848-849	a	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[60]	
+7-11	850-854	cave	_	_	_	HAS\_LOCATION[36]	_	
+7-12	854-855	.	_	_	_	HAS\_LOCATION[36]	_	
+
+#Text=pepino hill :  Rounded or conical-shaped hill resulting from tropical humid karst action. Term generally replaced in Puerto Rico by mogote.
+8-1	857-863	pepino	_	A.1 Surface landform[6]	DEFINIENDUM[14]	_	_	
+8-2	864-868	hill	_	A.1 Surface landform[6]	DEFINIENDUM[14]	_	_	
+8-3	869-870	:	_	_	_	_	_	
+8-4	872-879	Rounded	_	_	_	HAS\_FORM[37]	_	
+8-5	880-882	or	_	_	_	HAS\_FORM[37]	_	
+8-6	883-897	conical-shaped	_	_	_	HAS\_FORM[37]	_	
+8-7	898-902	hill	_	D.1 Abiotic	GENUS	_	_	
+8-8	903-912	resulting	_	_	_	HAS\_CAUSE[38]	frame\_CAUSE[61]	
+8-9	913-917	from	_	_	_	HAS\_CAUSE[38]	frame\_CAUSE[61]	
+8-10	918-926	tropical	_	_	_	HAS\_CAUSE[38]	_	
+8-11	927-932	humid	_	_	_	HAS\_CAUSE[38]	_	
+8-12	933-938	karst	_	B. Process[7]	_	HAS\_CAUSE[38]	_	
+8-13	939-945	action	_	B. Process[7]	_	HAS\_CAUSE[38]	_	
+8-14	945-946	.	_	_	_	_	_	
+8-15	947-951	Term	_	_	_	_	_	
+8-16	952-961	generally	_	_	_	_	_	
+8-17	962-970	replaced	_	_	_	_	_	
+8-18	971-973	in	_	_	_	_	_	
+8-19	974-980	Puerto	_	_	_	_	_	
+8-20	981-985	Rico	_	_	_	_	_	
+8-21	986-988	by	_	_	_	_	_	
+8-22	989-995	mogote	_	_	_	_	_	
+8-23	995-996	.	_	_	_	_	_	
+
+#Text=phreas, phreatic water :   Water in the zone of saturation; water below the water table.
+9-1	998-1004	phreas	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+9-2	1004-1005	,	_	_	_	_	_	
+9-3	1006-1014	phreatic	_	A.3 Hydrological form[8]	DEFINIENDUM[15]	_	_	
+9-4	1015-1020	water	_	A.3 Hydrological form[8]	DEFINIENDUM[15]	_	_	
+9-5	1021-1022	:	_	_	_	_	_	
+9-6	1025-1030	Water	_	_	GENUS	_	_	
+9-7	1031-1033	in	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[62]	
+9-8	1034-1037	the	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[62]	
+9-9	1038-1042	zone	_	_	_	HAS\_LOCATION[39]	_	
+9-10	1043-1045	of	_	_	_	HAS\_LOCATION[39]	_	
+9-11	1046-1056	saturation	_	_	_	HAS\_LOCATION[39]	_	
+9-12	1056-1057	;	_	_	_	_	_	
+9-13	1058-1063	water	_	D.1 Abiotic	_	_	_	
+9-14	1064-1069	below	_	_	_	HAS\_LOCATION[40]	frame\_LOCATION[63]	
+9-15	1070-1073	the	_	_	_	HAS\_LOCATION[40]	frame\_LOCATION[63]	
+9-16	1074-1079	water	_	_	_	HAS\_LOCATION[40]	_	
+9-17	1080-1085	table	_	_	_	HAS\_LOCATION[40]	_	
+9-18	1085-1086	.	_	_	_	_	_	
+
+#Text=phreatic zone :  The region below the water table, in which rock is saturated with water.
+10-1	1087-1095	phreatic	_	C. Geome[9]	DEFINIENDUM[16]	_	_	
+10-2	1096-1100	zone	_	C. Geome[9]	DEFINIENDUM[16]	_	_	
+10-3	1101-1102	:	_	_	_	_	_	
+10-4	1104-1107	The	_	_	_	_	_	
+10-5	1108-1114	region	_	_	_	_	_	
+10-6	1115-1120	below	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION[64]	
+10-7	1121-1124	the	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION[64]	
+10-8	1125-1130	water	_	_	_	HAS\_LOCATION[41]	_	
+10-9	1131-1136	table	_	_	_	HAS\_LOCATION[41]	_	
+10-10	1136-1137	,	_	_	_	_	_	
+10-11	1138-1140	in	_	_	_	HAS\_FUNCTION[42]	_	
+10-12	1141-1146	which	_	_	_	HAS\_FUNCTION[42]	_	
+10-13	1147-1151	rock	_	_	_	HAS\_FUNCTION[42]	_	
+10-14	1152-1154	is	_	_	_	HAS\_FUNCTION[42]	_	
+10-15	1155-1164	saturated	_	_	_	HAS\_FUNCTION[42]	_	
+10-16	1165-1169	with	_	_	_	HAS\_FUNCTION[42]	_	
+10-17	1170-1175	water	_	_	_	HAS\_FUNCTION[42]	_	
+10-18	1175-1176	.	_	_	_	_	_	
+
+#Text=pillar :  A column of rock remaining after solution of the surrounding rock. See also rock pillar.
+11-1	1177-1183	pillar	_	A. Landform	DEFINIENDUM	_	_	
+11-2	1184-1185	:	_	_	_	_	_	
+11-3	1187-1188	A	_	_	_	_	_	
+11-4	1189-1195	column	_	_	_	HAS\_FORM[43]	_	
+11-5	1196-1198	of	_	_	_	HAS\_FORM[43]	_	
+11-6	1199-1203	rock	_	_	_	HAS\_FORM[43]	_	
+11-7	1204-1213	remaining	_	_	_	HAS\_CAUSE[44]	frame\_CAUSE[65]	
+11-8	1214-1219	after	_	_	_	HAS\_CAUSE[44]	frame\_CAUSE[65]	
+11-9	1220-1228	solution	_	B.2 Loss	_	HAS\_CAUSE[44]	_	
+11-10	1229-1231	of	_	_	_	HAS\_CAUSE[44]	_	
+11-11	1232-1235	the	_	_	_	HAS\_CAUSE[44]	_	
+11-12	1236-1247	surrounding	_	_	_	HAS\_CAUSE[44]	_	
+11-13	1248-1252	rock	_	_	_	HAS\_CAUSE[44]	_	
+11-14	1252-1253	.	_	_	_	_	_	
+11-15	1254-1257	See	_	_	_	_	_	
+11-16	1258-1262	also	_	_	_	_	_	
+11-17	1263-1267	rock	_	_	_	_	_	
+11-18	1268-1274	pillar	_	_	_	_	_	
+11-19	1274-1275	.	_	_	_	_	_	
+
+#Text=pillar :  A stalactitestalagmite that reaches from roof to floor in a cave; more properly termed a column.
+12-1	1277-1283	pillar	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1284-1285	:	_	_	_	_	_	
+12-3	1287-1288	A	_	_	_	_	_	
+12-4	1289-1309	stalactitestalagmite	_	A.2 Underground landform	_	_	_	
+12-5	1310-1314	that	_	_	_	_	_	
+12-6	1315-1322	reaches	_	_	_	HAS\_FORM[45]	frame\_FORM	
+12-7	1323-1327	from	_	_	_	HAS\_FORM[45]	_	
+12-8	1328-1332	roof	_	_	_	HAS\_FORM[45]	_	
+12-9	1333-1335	to	_	_	_	HAS\_FORM[45]	_	
+12-10	1336-1341	floor	_	_	_	HAS\_FORM[45]	_	
+12-11	1342-1344	in	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION[66]	
+12-12	1345-1346	a	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION[66]	
+12-13	1347-1351	cave	_	_	_	HAS\_LOCATION[46]	_	
+12-14	1351-1352	;	_	_	_	_	_	
+12-15	1353-1357	more	_	_	_	_	_	
+12-16	1358-1366	properly	_	_	_	_	_	
+12-17	1367-1373	termed	_	_	_	_	_	
+12-18	1374-1375	a	_	_	_	_	_	
+12-19	1376-1382	column	_	A.2 Underground landform	_	_	_	
+12-20	1382-1383	.	_	_	_	_	_	
+
+#Text=pillar :  A tall thin stalagmite that does not reach the roof of a cave, also pipe. Small cylindrical hole in unconsolidated sediments, caused by removal of fine material by water.
+13-1	1385-1391	pillar	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-2	1392-1393	:	_	_	_	_	_	
+13-3	1395-1396	A	_	_	_	_	_	
+13-4	1397-1401	tall	_	_	_	HAS\_FORM[47]	_	
+13-5	1402-1406	thin	_	_	_	HAS\_FORM[47]	_	
+13-6	1407-1417	stalagmite	_	A.2 Underground landform	GENUS	_	_	
+13-7	1418-1422	that	_	_	_	_	_	
+13-8	1423-1427	does	_	_	_	HAS\_FORM[48]	_	
+13-9	1428-1431	not	_	_	_	HAS\_FORM[48]	_	
+13-10	1432-1437	reach	_	_	_	HAS\_FORM[48]	_	
+13-11	1438-1441	the	_	_	_	HAS\_FORM[48]	_	
+13-12	1442-1446	roof	_	A.2 Underground landform[10]	_	HAS\_FORM[48]	_	
+13-13	1447-1449	of	_	A.2 Underground landform[10]	_	HAS\_FORM[48]	_	
+13-14	1450-1451	a	_	A.2 Underground landform[10]	_	HAS\_FORM[48]	_	
+13-15	1452-1456	cave	_	A.2 Underground landform[10]	_	HAS\_FORM[48]	_	
+13-16	1456-1457	,	_	_	_	_	_	
+13-17	1458-1462	also	_	_	_	_	_	
+13-18	1463-1467	pipe	_	_	_	_	_	
+13-19	1467-1468	.	_	_	_	_	_	
+13-20	1469-1474	Small	_	_	_	_	_	
+13-21	1475-1486	cylindrical	_	_	_	_	_	
+13-22	1487-1491	hole	_	_	_	_	_	
+13-23	1492-1494	in	_	_	_	_	_	
+13-24	1495-1509	unconsolidated	_	_	_	_	_	
+13-25	1510-1519	sediments	_	_	_	_	_	
+13-26	1519-1520	,	_	_	_	_	_	
+13-27	1521-1527	caused	_	_	_	_	_	
+13-28	1528-1530	by	_	_	_	_	_	
+13-29	1531-1538	removal	_	_	_	_	_	
+13-30	1539-1541	of	_	_	_	_	_	
+13-31	1542-1546	fine	_	_	_	_	_	
+13-32	1547-1555	material	_	_	_	_	_	
+13-33	1556-1558	by	_	_	_	_	_	
+13-34	1559-1564	water	_	_	_	_	_	
+13-35	1564-1565	.	_	_	_	_	_	
+
+#Text=piping :  Formation of a passage by water under pressure in the form of conduits through permeable materials when the hydraulic head exceeds a certain critical value.
+14-1	1566-1572	piping	_	B. Process	DEFINIENDUM	_	_	
+14-2	1573-1574	:	_	_	_	_	_	
+14-3	1576-1585	Formation	_	_	_	HAS\_RESULT[49]	frame\_RESULT[67]	
+14-4	1586-1588	of	_	_	_	HAS\_RESULT[49]	frame\_RESULT[67]	
+14-5	1589-1590	a	_	_	_	HAS\_RESULT[49]	frame\_RESULT[67]	
+14-6	1591-1598	passage	_	_	_	HAS\_RESULT[49]	_	
+14-7	1599-1601	by	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE	
+14-8	1602-1607	water	_	D.1 Abiotic	_	HAS\_CAUSE[50]	_	
+14-9	1608-1613	under	_	_	_	HAS\_CAUSE[50]	_	
+14-10	1614-1622	pressure	_	_	_	HAS\_CAUSE[50]	_	
+14-11	1623-1625	in	_	_	_	HAS\_FORM[51]	frame\_FORM[68]	
+14-12	1626-1629	the	_	_	_	HAS\_FORM[51]	frame\_FORM[68]	
+14-13	1630-1634	form	_	_	_	HAS\_FORM[51]	frame\_FORM[68]	
+14-14	1635-1637	of	_	_	_	HAS\_FORM[51]	frame\_FORM[68]	
+14-15	1638-1646	conduits	_	_	_	HAS\_FORM[51]	_	
+14-16	1647-1654	through	_	_	_	COMPOSITION\_MEDIUM[52]	frame\_COMPOSITION	
+14-17	1655-1664	permeable	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+14-18	1665-1674	materials	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+14-19	1675-1679	when	_	_	_	OCCURS\_IN\_TIME[53]	frame\_TIME	
+14-20	1680-1683	the	_	_	_	OCCURS\_IN\_TIME[53]	_	
+14-21	1684-1693	hydraulic	_	_	_	OCCURS\_IN\_TIME[53]	_	
+14-22	1694-1698	head	_	_	_	OCCURS\_IN\_TIME[53]	_	
+14-23	1699-1706	exceeds	_	_	_	OCCURS\_IN\_TIME[53]	_	
+14-24	1707-1708	a	_	_	_	OCCURS\_IN\_TIME[53]	_	
+14-25	1709-1716	certain	_	_	_	OCCURS\_IN\_TIME[53]	_	
+14-26	1717-1725	critical	_	_	_	OCCURS\_IN\_TIME[53]	_	
+14-27	1726-1731	value	_	_	_	OCCURS\_IN\_TIME[53]	_	
+14-28	1731-1732	.	_	_	_	_	_	
+
+#Text=pit :  A deep hole, generally circular in outline, having vertical or nearly vertical walls.
+15-1	1733-1736	pit	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	1737-1738	:	_	_	_	_	_	
+15-3	1740-1741	A	_	_	_	_	_	
+15-4	1742-1746	deep	_	_	_	HAS\_FORM[54]	_	
+15-5	1747-1751	hole	_	_	GENUS	HAS\_FORM[54]	_	
+15-6	1751-1752	,	_	_	_	HAS\_FORM[54]	_	
+15-7	1753-1762	generally	_	_	_	HAS\_FORM[54]	_	
+15-8	1763-1771	circular	_	D.3 Property	_	HAS\_FORM[54]	_	
+15-9	1772-1774	in	_	_	_	HAS\_FORM[54]	_	
+15-10	1775-1782	outline	_	_	_	HAS\_FORM[54]	_	
+15-11	1782-1783	,	_	_	_	HAS\_FORM[54]	_	
+15-12	1784-1790	having	_	_	_	HAS\_FORM[54]	frame\_FORM	
+15-13	1791-1799	vertical	_	_	_	HAS\_FORM[54]	_	
+15-14	1800-1802	or	_	_	_	HAS\_FORM[54]	_	
+15-15	1803-1809	nearly	_	_	_	HAS\_FORM[54]	_	
+15-16	1810-1818	vertical	_	_	_	HAS\_FORM[54]	_	
+15-17	1819-1824	walls	_	_	_	HAS\_FORM[54]	_	
+15-18	1824-1825	.	_	_	_	_	_	
+
+#Text=piton :   Limestone hill having sharply pointed peak.
+16-1	1826-1831	piton	_	A.1 Surface landform	DEFINIENDUM	_	_	
+16-2	1832-1833	:	_	_	_	_	_	
+16-3	1836-1845	Limestone	_	_	_	COMPOSITION\_MEDIUM	_	
+16-4	1846-1850	hill	_	_	GENUS	_	_	
+16-5	1851-1857	having	_	_	_	HAS\_FORM[55]	frame\_FORM	
+16-6	1858-1865	sharply	_	_	_	HAS\_FORM[55]	_	
+16-7	1866-1873	pointed	_	_	_	HAS\_FORM[55]	_	
+16-8	1874-1878	peak	_	_	_	HAS\_FORM[55]	_	
+16-9	1878-1879	.	_	_	_	_	_	

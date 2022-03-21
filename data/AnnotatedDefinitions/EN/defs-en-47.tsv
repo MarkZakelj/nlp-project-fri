@@ -1,0 +1,361 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=speleogen :  A secondary cave structure formed by dissolving, such as a dome pit or a scallop.
+1-1	0-9	speleogen	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-2	10-11	:	_	_	_	_	_	
+1-3	13-14	A	_	_	_	_	_	
+1-4	15-24	secondary	_	_	_	_	_	
+1-5	25-29	cave	_	D.1 Abiotic[1]|A.2 Underground landform[2]	GENUS[19]	_	_	
+1-6	30-39	structure	_	D.1 Abiotic[1]	GENUS[19]	_	_	
+1-7	40-46	formed	_	_	_	HAS\_CAUSE[28]	frame\_CAUSE[57]	
+1-8	47-49	by	_	_	_	HAS\_CAUSE[28]	frame\_CAUSE[57]	
+1-9	50-60	dissolving	_	B.4 Transformation	_	HAS\_CAUSE[28]	_	
+1-10	60-61	,	_	_	_	_	_	
+1-11	62-66	such	_	_	_	CONTAINS[29]	_	
+1-12	67-69	as	_	_	_	CONTAINS[29]	_	
+1-13	70-71	a	_	_	_	CONTAINS[29]	_	
+1-14	72-76	dome	_	A.2 Underground landform[3]	_	CONTAINS[29]	_	
+1-15	77-80	pit	_	A.2 Underground landform[3]	_	CONTAINS[29]	_	
+1-16	81-83	or	_	_	_	CONTAINS[29]	_	
+1-17	84-85	a	_	_	_	CONTAINS[29]	_	
+1-18	86-93	scallop	_	A.2 Underground landform	_	CONTAINS[29]	_	
+1-19	93-94	.	_	_	_	_	_	
+
+#Text=speleology :  The scientific study, exploration, and description of caves and related features.
+2-1	95-105	speleology	_	E.2 Method	DEFINIENDUM	_	_	
+2-2	106-107	:	_	_	_	_	_	
+2-3	109-112	The	_	_	_	STUDIES[30]	_	
+2-4	113-123	scientific	_	_	GENUS[20]	STUDIES[30]	_	
+2-5	124-129	study	_	_	GENUS[20]	STUDIES[30]	_	
+2-6	129-130	,	_	_	_	STUDIES[30]	_	
+2-7	131-142	exploration	_	_	_	STUDIES[30]	_	
+2-8	142-143	,	_	_	_	STUDIES[30]	_	
+2-9	144-147	and	_	_	_	STUDIES[30]	_	
+2-10	148-159	description	_	_	_	STUDIES[30]	_	
+2-11	160-162	of	_	_	_	STUDIES[30]	_	
+2-12	163-168	caves	cave	A.2 Underground landform	_	STUDIES[30]	_	
+2-13	169-172	and	_	_	_	STUDIES[30]	_	
+2-14	173-180	related	_	_	_	STUDIES[30]	_	
+2-15	181-189	features	_	_	_	STUDIES[30]	_	
+2-16	189-190	.	_	_	_	_	_	
+
+#Text=speleothem :  A secondary mineral deposit formed in caves, such as stalactite or stalagmite. Synonym: cave formation.
+3-1	191-201	speleothem	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-2	202-203	:	_	_	_	_	_	
+3-3	205-206	A	_	_	_	_	_	
+3-4	207-216	secondary	_	_	_	_	_	
+3-5	217-224	mineral	_	D.1 Abiotic[4]	GENUS[21]	_	_	
+3-6	225-232	deposit	_	D.1 Abiotic[4]	GENUS[21]	_	_	
+3-7	233-239	formed	_	_	_	HAS\_LOCATION[31]	frame\_LOCATION[58]	
+3-8	240-242	in	_	_	_	HAS\_LOCATION[31]	frame\_LOCATION[58]	
+3-9	243-248	caves	_	A.2 Underground landform	_	HAS\_LOCATION[31]	_	
+3-10	248-249	,	_	_	_	_	_	
+3-11	250-254	such	_	_	_	CONTAINS[32]	_	
+3-12	255-257	as	_	_	_	CONTAINS[32]	_	
+3-13	258-268	stalactite	_	A.2 Underground landform	SPECIES	CONTAINS[32]	_	
+3-14	269-271	or	_	_	_	CONTAINS[32]	_	
+3-15	272-282	stalagmite	_	A.2 Underground landform	SPECIES	CONTAINS[32]	_	
+3-16	282-283	.	_	_	_	_	_	
+3-17	284-291	Synonym	_	_	_	_	_	
+3-18	291-292	:	_	_	_	_	_	
+3-19	293-297	cave	_	A.2 Underground landform[5]	_	_	_	
+3-20	298-307	formation	_	A.2 Underground landform[5]	_	_	_	
+3-21	307-308	.	_	_	_	_	_	
+
+#Text=Spitzkegelkarst :   Tropical karst topography containing sharply pointed residual limestone hills.
+4-1	309-324	Spitzkegelkarst	_	C. Geome	DEFINIENDUM	_	_	
+4-2	325-326	:	_	_	_	_	_	
+4-3	329-337	Tropical	_	C. Geome[6]	_	_	_	
+4-4	338-343	karst	_	C. Geome[6]	GENUS[22]	_	_	
+4-5	344-354	topography	_	C. Geome[6]	GENUS[22]	_	_	
+4-6	355-365	containing	_	_	_	CONTAINS[33]	frame\_CONTAINS	
+4-7	366-373	sharply	_	_	_	CONTAINS[33]|HAS\_FORM[34]	_	
+4-8	374-381	pointed	_	_	_	CONTAINS[33]|HAS\_FORM[34]	_	
+4-9	382-390	residual	_	_	_	CONTAINS[33]	_	
+4-10	391-400	limestone	_	D.1 Abiotic[7]	_	CONTAINS[33]	_	
+4-11	401-406	hills	_	D.1 Abiotic[7]	_	CONTAINS[33]	_	
+4-12	406-407	.	_	_	_	_	_	
+
+#Text=splash cup :  The shallow concavity in the top of a stalagmite.
+5-1	408-414	splash	_	A.2 Underground landform[8]	DEFINIENDUM[23]	_	_	
+5-2	415-418	cup	_	A.2 Underground landform[8]	DEFINIENDUM[23]	_	_	
+5-3	419-420	:	_	_	_	_	_	
+5-4	422-425	The	_	_	_	_	_	
+5-5	426-433	shallow	_	_	_	HAS\_FORM	_	
+5-6	434-443	concavity	_	D.1 Abiotic	_	_	_	
+5-7	444-446	in	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[59]	
+5-8	447-450	the	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[59]	
+5-9	451-454	top	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[59]	
+5-10	455-457	of	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[59]	
+5-11	458-459	a	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[59]	
+5-12	460-470	stalagmite	_	A.2 Underground landform	_	HAS\_LOCATION[35]	_	
+5-13	470-471	.	_	_	_	_	_	
+
+#Text=spongework :  A complex of irregular interconnecting cavities with intricate perforation of the rock. The cavities may be large or small.
+6-1	472-482	spongework	_	A.2 Underground landform	DEFINIENDUM	_	_	
+6-2	483-484	:	_	_	_	_	_	
+6-3	486-487	A	_	_	_	HAS\_FORM[36]	_	
+6-4	488-495	complex	_	_	_	HAS\_FORM[36]	_	
+6-5	496-498	of	_	_	_	HAS\_FORM[36]	_	
+6-6	499-508	irregular	_	_	_	HAS\_FORM[36]	_	
+6-7	509-524	interconnecting	_	_	_	HAS\_FORM[36]	_	
+6-8	525-533	cavities	_	D.1 Abiotic	GENUS	HAS\_FORM[36]	_	
+6-9	534-538	with	_	_	_	HAS\_FORM[36]	_	
+6-10	539-548	intricate	_	_	_	HAS\_FORM[36]	_	
+6-11	549-560	perforation	_	D.3 Property	_	HAS\_FORM[36]	_	
+6-12	561-563	of	_	_	_	HAS\_FORM[36]	_	
+6-13	564-567	the	_	_	_	HAS\_FORM[36]	_	
+6-14	568-572	rock	_	_	_	HAS\_FORM[36]	_	
+6-15	572-573	.	_	_	_	_	_	
+6-16	574-577	The	_	_	_	HAS\_SIZE[37]	_	
+6-17	578-586	cavities	_	_	_	HAS\_SIZE[37]	_	
+6-18	587-590	may	_	_	_	HAS\_SIZE[37]	_	
+6-19	591-593	be	_	_	_	HAS\_SIZE[37]	_	
+6-20	594-599	large	_	_	_	HAS\_SIZE[37]	_	
+6-21	600-602	or	_	_	_	HAS\_SIZE[37]	_	
+6-22	603-608	small	_	_	_	HAS\_SIZE[37]	_	
+6-23	608-609	.	_	_	_	_	_	
+
+#Text=spring :  Any natural discharge of water from rock or soil onto the surface of the land or into a body of surface water.
+7-1	610-616	spring	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-2	617-618	:	_	_	_	_	_	
+7-3	620-623	Any	_	_	_	_	_	
+7-4	624-631	natural	_	_	_	_	_	
+7-5	632-641	discharge	_	D.1 Abiotic[9]	GENUS[24]	HAS\_FUNCTION[38]	_	
+7-6	642-644	of	_	D.1 Abiotic[9]	GENUS[24]	HAS\_FUNCTION[38]	_	
+7-7	645-650	water	_	D.1 Abiotic[9]	GENUS[24]	HAS\_FUNCTION[38]	_	
+7-8	651-655	from	_	_	_	HAS\_LOCATION[39]	_	
+7-9	656-660	rock	_	_	_	HAS\_LOCATION[39]	_	
+7-10	661-663	or	_	_	_	HAS\_LOCATION[39]	_	
+7-11	664-668	soil	_	_	_	HAS\_LOCATION[39]	_	
+7-12	669-673	onto	_	_	_	HAS\_LOCATION[39]	_	
+7-13	674-677	the	_	_	_	HAS\_LOCATION[39]	_	
+7-14	678-685	surface	_	_	_	HAS\_LOCATION[39]	_	
+7-15	686-688	of	_	_	_	HAS\_LOCATION[39]	_	
+7-16	689-692	the	_	_	_	HAS\_LOCATION[39]	_	
+7-17	693-697	land	_	_	_	HAS\_LOCATION[39]	_	
+7-18	698-700	or	_	_	_	HAS\_LOCATION[39]	_	
+7-19	701-705	into	_	_	_	HAS\_LOCATION[39]	_	
+7-20	706-707	a	_	_	_	HAS\_LOCATION[39]	_	
+7-21	708-712	body	_	_	_	HAS\_LOCATION[39]	_	
+7-22	713-715	of	_	_	_	HAS\_LOCATION[39]	_	
+7-23	716-723	surface	_	_	_	HAS\_LOCATION[39]	_	
+7-24	724-729	water	_	_	_	HAS\_LOCATION[39]	_	
+7-25	729-730	.	_	_	_	_	_	
+
+#Text=squeeze :  A narrow passage or opening just passable with effort. Differs from flattener in that there is little spare space in any direction.
+8-1	731-738	squeeze	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	739-740	:	_	_	_	_	_	
+8-3	742-743	A	_	_	_	_	_	
+8-4	744-750	narrow	_	_	_	HAS\_FORM	_	
+8-5	751-758	passage	_	D.1 Abiotic	_	_	_	
+8-6	759-761	or	_	_	_	_	_	
+8-7	762-769	opening	_	D.1 Abiotic	_	_	_	
+8-8	770-774	just	_	_	_	HAS\_SIZE[40]	_	
+8-9	775-783	passable	_	_	_	HAS\_SIZE[40]	frame\_SIZE[60]	
+8-10	784-788	with	_	_	_	HAS\_SIZE[40]	frame\_SIZE[60]	
+8-11	789-795	effort	_	_	_	HAS\_SIZE[40]	_	
+8-12	795-796	.	_	_	_	_	_	
+8-13	797-804	Differs	_	_	_	_	_	
+8-14	805-809	from	_	_	_	_	_	
+8-15	810-819	flattener	_	_	_	_	_	
+8-16	820-822	in	_	_	_	_	_	
+8-17	823-827	that	_	_	_	_	_	
+8-18	828-833	there	_	_	_	_	_	
+8-19	834-836	is	_	_	_	_	_	
+8-20	837-843	little	_	_	_	_	_	
+8-21	844-849	spare	_	_	_	_	_	
+8-22	850-855	space	_	_	_	_	_	
+8-23	856-858	in	_	_	_	_	_	
+8-24	859-862	any	_	_	_	_	_	
+8-25	863-872	direction	_	_	_	_	_	
+8-26	872-873	.	_	_	_	_	_	
+
+#Text=stagmalite :  A general term including stalactite and stalagmite. Superseded by dripstone.
+9-1	875-885	stagmalite	_	A.2 Underground landform	DEFINIENDUM	_	_	
+9-2	886-887	:	_	_	_	_	_	
+9-3	889-890	A	_	_	_	_	_	
+9-4	891-898	general	_	_	_	_	_	
+9-5	899-903	term	_	_	_	_	_	
+9-6	904-913	including	_	_	_	_	_	
+9-7	914-924	stalactite	_	A.2 Underground landform	SPECIES	_	_	
+9-8	925-928	and	_	_	_	_	_	
+9-9	929-939	stalagmite	_	A.2 Underground landform	SPECIES	_	_	
+9-10	939-940	.	_	_	_	_	_	
+9-11	941-951	Superseded	_	_	_	_	_	
+9-12	952-954	by	_	_	_	_	_	
+9-13	955-964	dripstone	_	_	_	_	_	
+9-14	964-965	.	_	_	_	_	_	
+
+#Text=stalactite :  A cylindrical or conical deposit of minerals, generally calcite, formed by dripping water, hanging from the roof of a cave, generally having a hollow tube at its center.
+10-1	966-976	stalactite	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	977-978	:	_	_	_	_	_	
+10-3	980-981	A	_	_	_	_	_	
+10-4	982-993	cylindrical	_	_	_	HAS\_FORM[41]	_	
+10-5	994-996	or	_	_	_	HAS\_FORM[41]	_	
+10-6	997-1004	conical	_	_	_	HAS\_FORM[41]	_	
+10-7	1005-1012	deposit	_	D.1 Abiotic[10]	_	_	_	
+10-8	1013-1015	of	_	D.1 Abiotic[10]	_	_	_	
+10-9	1016-1024	minerals	_	D.1 Abiotic[10]	_	_	_	
+10-10	1024-1025	,	_	_	_	_	_	
+10-11	1026-1035	generally	_	_	_	_	_	
+10-12	1036-1043	calcite	_	_	_	_	_	
+10-13	1043-1044	,	_	_	_	_	_	
+10-14	1045-1051	formed	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[61]	
+10-15	1052-1054	by	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[61]	
+10-16	1055-1063	dripping	_	_	_	HAS\_CAUSE[42]	_	
+10-17	1064-1069	water	_	_	_	HAS\_CAUSE[42]	_	
+10-18	1069-1070	,	_	_	_	_	_	
+10-19	1071-1078	hanging	_	_	_	HAS\_LOCATION[43]	_	
+10-20	1079-1083	from	_	_	_	HAS\_LOCATION[43]	_	
+10-21	1084-1087	the	_	_	_	HAS\_LOCATION[43]	_	
+10-22	1088-1092	roof	_	_	_	HAS\_LOCATION[43]	_	
+10-23	1093-1095	of	_	_	_	HAS\_LOCATION[43]	_	
+10-24	1096-1097	a	_	_	_	HAS\_LOCATION[43]	_	
+10-25	1098-1102	cave	_	A.2 Underground landform	_	HAS\_LOCATION[43]	_	
+10-26	1102-1103	,	_	_	_	_	_	
+10-27	1104-1113	generally	_	_	_	HAS\_FORM[44]	_	
+10-28	1114-1120	having	_	_	_	HAS\_FORM[44]	_	
+10-29	1121-1122	a	_	_	_	HAS\_FORM[44]	_	
+10-30	1123-1129	hollow	_	_	_	HAS\_FORM[44]	_	
+10-31	1130-1134	tube	_	_	_	HAS\_FORM[44]	_	
+10-32	1135-1137	at	_	_	_	HAS\_FORM[44]	frame\_FORM[62]	
+10-33	1138-1141	its	_	_	_	HAS\_FORM[44]	frame\_FORM[62]	
+10-34	1142-1148	center	_	_	_	HAS\_FORM[44]	frame\_FORM[62]	
+10-35	1148-1149	.	_	_	_	_	_	
+
+#Text=stalagmite :  A deposit of calcium carbonate rising from the floor of a limestone cave, formed by precipitation from a bicarbonate solution through loss of CO2.
+11-1	1151-1161	stalagmite	_	A.2 Underground landform	DEFINIENDUM	_	_	
+11-2	1162-1163	:	_	_	_	_	_	
+11-3	1165-1166	A	_	_	_	_	_	
+11-4	1167-1174	deposit	_	D.1 Abiotic	_	_	_	
+11-5	1175-1177	of	_	_	_	COMPOSITION\_MEDIUM[45]	_	
+11-6	1178-1185	calcium	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[45]	_	
+11-7	1186-1195	carbonate	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[45]	_	
+11-8	1196-1202	rising	_	_	_	HAS\_LOCATION[46]	_	
+11-9	1203-1207	from	_	_	_	HAS\_LOCATION[46]	_	
+11-10	1208-1211	the	_	_	_	HAS\_LOCATION[46]	_	
+11-11	1212-1217	floor	_	_	_	HAS\_LOCATION[46]	_	
+11-12	1218-1220	of	_	_	_	HAS\_LOCATION[46]	_	
+11-13	1221-1222	a	_	_	_	HAS\_LOCATION[46]	_	
+11-14	1223-1232	limestone	_	D.1 Abiotic[12]	_	HAS\_LOCATION[46]	_	
+11-15	1233-1237	cave	_	D.1 Abiotic[12]|A.2 Underground landform[13]	_	HAS\_LOCATION[46]	_	
+11-16	1237-1238	,	_	_	_	_	_	
+11-17	1239-1245	formed	_	_	_	HAS\_CAUSE[47]	_	
+11-18	1246-1248	by	_	_	_	HAS\_CAUSE[47]	_	
+11-19	1249-1262	precipitation	_	D.3 Property	_	HAS\_CAUSE[47]	_	
+11-20	1263-1267	from	_	_	_	HAS\_CAUSE[47]	_	
+11-21	1268-1269	a	_	_	_	HAS\_CAUSE[47]	_	
+11-22	1270-1281	bicarbonate	_	_	_	HAS\_CAUSE[47]	_	
+11-23	1282-1290	solution	_	_	_	HAS\_CAUSE[47]	_	
+11-24	1291-1298	through	_	_	_	HAS\_CAUSE[47]	_	
+11-25	1299-1303	loss	_	_	_	HAS\_CAUSE[47]	_	
+11-26	1304-1306	of	_	_	_	HAS\_CAUSE[47]	_	
+11-27	1307-1310	CO2	_	_	_	HAS\_CAUSE[47]	_	
+11-28	1310-1311	.	_	_	_	_	_	
+
+#Text=steephead :  A deeply cut valley, generally short, terminating at its upslope end in an amphitheater, at the foot of which a stream may emerge.
+12-1	1312-1321	steephead	_	A.1 Surface landform	DEFINIENDUM	_	_	
+12-2	1322-1323	:	_	_	_	_	_	
+12-3	1325-1326	A	_	_	_	_	_	
+12-4	1327-1333	deeply	_	_	_	HAS\_FORM[48]	_	
+12-5	1334-1337	cut	_	_	_	HAS\_FORM[48]	_	
+12-6	1338-1344	valley	_	D.1 Abiotic	GENUS	_	_	
+12-7	1344-1345	,	_	_	_	_	_	
+12-8	1346-1355	generally	_	_	_	HAS\_SIZE[49]	_	
+12-9	1356-1361	short	_	_	_	HAS\_SIZE[49]	_	
+12-10	1361-1362	,	_	_	_	_	_	
+12-11	1363-1374	terminating	_	_	_	HAS\_FORM[50]	_	
+12-12	1375-1377	at	_	_	_	HAS\_FORM[50]	_	
+12-13	1378-1381	its	_	_	_	HAS\_FORM[50]	_	
+12-14	1382-1389	upslope	_	_	_	HAS\_FORM[50]	_	
+12-15	1390-1393	end	_	_	_	HAS\_FORM[50]	_	
+12-16	1394-1396	in	_	_	_	HAS\_FORM[50]	_	
+12-17	1397-1399	an	_	_	_	HAS\_FORM[50]	_	
+12-18	1400-1412	amphitheater	_	_	_	HAS\_FORM[50]	_	
+12-19	1412-1413	,	_	_	_	_	_	
+12-20	1414-1416	at	_	_	_	HAS\_FUNCTION[51]	_	
+12-21	1417-1420	the	_	_	_	HAS\_FUNCTION[51]	_	
+12-22	1421-1425	foot	_	_	_	HAS\_FUNCTION[51]	_	
+12-23	1426-1428	of	_	_	_	HAS\_FUNCTION[51]	_	
+12-24	1429-1434	which	_	_	_	HAS\_FUNCTION[51]	_	
+12-25	1435-1436	a	_	_	_	HAS\_FUNCTION[51]	_	
+12-26	1437-1443	stream	_	D.1 Abiotic	_	HAS\_FUNCTION[51]	_	
+12-27	1444-1447	may	_	_	_	HAS\_FUNCTION[51]	_	
+12-28	1448-1454	emerge	_	_	_	HAS\_FUNCTION[51]	_	
+12-29	1454-1455	.	_	_	_	_	_	
+
+#Text=straw stalactite :  Thin tubular stalactite, generally less than a centimeter in diameter and of very great length  ; also called soda straw.
+13-1	1456-1461	straw	_	A.2 Underground landform[14]	DEFINIENDUM[25]	_	_	
+13-2	1462-1472	stalactite	_	A.2 Underground landform[14]	DEFINIENDUM[25]	_	_	
+13-3	1473-1474	:	_	_	_	_	_	
+13-4	1476-1480	Thin	_	_	_	HAS\_FORM[52]	_	
+13-5	1481-1488	tubular	_	_	_	HAS\_FORM[52]	_	
+13-6	1489-1499	stalactite	_	A.2 Underground landform	GENUS	_	_	
+13-7	1499-1500	,	_	_	_	_	_	
+13-8	1501-1510	generally	_	_	_	HAS\_SIZE[53]	_	
+13-9	1511-1515	less	_	_	_	HAS\_SIZE[53]	_	
+13-10	1516-1520	than	_	_	_	HAS\_SIZE[53]	_	
+13-11	1521-1522	a	_	_	_	HAS\_SIZE[53]	_	
+13-12	1523-1533	centimeter	_	_	_	HAS\_SIZE[53]	_	
+13-13	1534-1536	in	_	_	_	HAS\_SIZE[53]	frame\_SIZE[63]	
+13-14	1537-1545	diameter	_	_	_	HAS\_SIZE[53]	frame\_SIZE[63]	
+13-15	1546-1549	and	_	_	_	HAS\_SIZE[53]	_	
+13-16	1550-1552	of	_	_	_	HAS\_SIZE[53]	_	
+13-17	1553-1557	very	_	_	_	HAS\_SIZE[53]	_	
+13-18	1558-1563	great	_	_	_	HAS\_SIZE[53]	_	
+13-19	1564-1570	length	_	_	_	HAS\_SIZE[53]	_	
+13-20	1572-1573	;	_	_	_	_	_	
+13-21	1574-1578	also	_	_	_	_	_	
+13-22	1579-1585	called	_	_	_	_	_	
+13-23	1586-1590	soda	_	A.2 Underground landform[15]	DEFINIENDUM[26]	_	_	
+13-24	1591-1596	straw	_	A.2 Underground landform[15]	DEFINIENDUM[26]	_	_	
+13-25	1596-1597	.	_	_	_	_	_	
+
+#Text=stream sink :  Point at which a surface stream sinks into the ground.
+14-1	1598-1604	stream	_	A.3 Hydrological form[16]	DEFINIENDUM[27]	_	_	
+14-2	1605-1609	sink	_	A.3 Hydrological form[16]	DEFINIENDUM[27]	_	_	
+14-3	1610-1611	:	_	_	_	_	_	
+14-4	1613-1618	Point	_	_	_	HAS\_LOCATION[54]	_	
+14-5	1619-1621	at	_	_	_	HAS\_LOCATION[54]	_	
+14-6	1622-1627	which	_	_	_	HAS\_LOCATION[54]	_	
+14-7	1628-1629	a	_	_	_	HAS\_LOCATION[54]	_	
+14-8	1630-1637	surface	_	D.1 Abiotic[17]	_	HAS\_LOCATION[54]	_	
+14-9	1638-1644	stream	_	D.1 Abiotic[17]	_	HAS\_LOCATION[54]	_	
+14-10	1645-1650	sinks	_	_	_	HAS\_LOCATION[54]	_	
+14-11	1651-1655	into	_	_	_	HAS\_LOCATION[54]	_	
+14-12	1656-1659	the	_	_	_	HAS\_LOCATION[54]	_	
+14-13	1660-1666	ground	_	_	_	HAS\_LOCATION[54]	_	
+14-14	1666-1667	.	_	_	_	_	_	
+
+#Text=streamtube :  A cave passage completely filled, or formerly filled, with fast-moving water and whose ceiling and walls normally possess scallops.
+15-1	1669-1679	streamtube	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	1680-1681	:	_	_	_	_	_	
+15-3	1683-1684	A	_	_	_	_	_	
+15-4	1685-1689	cave	_	A.2 Underground landform[18]	_	_	_	
+15-5	1690-1697	passage	_	A.2 Underground landform[18]	_	_	_	
+15-6	1698-1708	completely	_	_	_	CONTAINS[55]	_	
+15-7	1709-1715	filled	_	_	_	CONTAINS[55]	_	
+15-8	1715-1716	,	_	_	_	CONTAINS[55]	_	
+15-9	1717-1719	or	_	_	_	CONTAINS[55]	_	
+15-10	1720-1728	formerly	_	_	_	CONTAINS[55]	_	
+15-11	1729-1735	filled	_	_	_	CONTAINS[55]	_	
+15-12	1735-1736	,	_	_	_	CONTAINS[55]	_	
+15-13	1737-1741	with	_	_	_	CONTAINS[55]	_	
+15-14	1742-1753	fast-moving	_	_	_	CONTAINS[55]	_	
+15-15	1754-1759	water	_	D.1 Abiotic	_	CONTAINS[55]	_	
+15-16	1760-1763	and	_	_	_	_	_	
+15-17	1764-1769	whose	_	_	_	CONTAINS[56]	_	
+15-18	1770-1777	ceiling	_	_	_	CONTAINS[56]	_	
+15-19	1778-1781	and	_	_	_	CONTAINS[56]	_	
+15-20	1782-1787	walls	_	_	_	CONTAINS[56]	_	
+15-21	1788-1796	normally	_	_	_	CONTAINS[56]	_	
+15-22	1797-1804	possess	_	_	_	CONTAINS[56]	_	
+15-23	1805-1813	scallops	_	A.2 Underground landform	_	CONTAINS[56]	_	
+15-24	1813-1814	.	_	_	_	CONTAINS[56]	_	

@@ -1,0 +1,420 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Karst process is a part of geological processes. The latter is defined as the processes of the transformation and movement of the carbon between the lithosphere, the hydrosphere, the atmosphere and the biosphere in the forms of CO3 (mainly CaCO, MgCO), HCO, CO, CH, and (CH O)n (organic carbon).
+1-1	0-5	Karst	_	B. Process[1]	_	_	_	
+1-2	6-13	process	_	B. Process[1]	_	_	_	
+1-3	14-16	is	_	_	_	_	_	
+1-4	17-18	a	_	_	_	_	_	
+1-5	19-23	part	_	_	_	_	_	
+1-6	24-26	of	_	_	_	_	_	
+1-7	27-37	geological	_	B. Process[2]	DEFINIENDUM[33]	_	_	
+1-8	38-47	processes	_	B. Process[2]	DEFINIENDUM[33]	_	_	
+1-9	47-48	.	_	_	_	_	_	
+1-10	49-52	The	_	_	_	_	_	
+1-11	53-59	latter	_	_	_	_	_	
+1-12	60-62	is	_	_	_	DEFINED\_AS[55]	frame\_DEFINED\_AS[82]	
+1-13	63-70	defined	_	_	_	DEFINED\_AS[55]	frame\_DEFINED\_AS[82]	
+1-14	71-73	as	_	_	_	DEFINED\_AS[55]	frame\_DEFINED\_AS[82]	
+1-15	74-77	the	_	_	_	DEFINED\_AS[55]	_	
+1-16	78-87	processes	_	_	_	DEFINED\_AS[55]	_	
+1-17	88-90	of	_	_	_	DEFINED\_AS[55]	_	
+1-18	91-94	the	_	_	_	DEFINED\_AS[55]	_	
+1-19	95-109	transformation	_	B.4 Transformation	_	DEFINED\_AS[55]	_	
+1-20	110-113	and	_	_	_	DEFINED\_AS[55]	_	
+1-21	114-122	movement	_	B.1 Movement	_	DEFINED\_AS[55]	_	
+1-22	123-125	of	_	_	_	DEFINED\_AS[55]	_	
+1-23	126-129	the	_	_	_	DEFINED\_AS[55]	_	
+1-24	130-136	carbon	_	D.1 Abiotic	_	DEFINED\_AS[55]	_	
+1-25	137-144	between	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[83]	
+1-26	145-148	the	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[83]	
+1-27	149-160	lithosphere	_	C. Geome	_	HAS\_LOCATION[56]	_	
+1-28	160-161	,	_	_	_	HAS\_LOCATION[56]	_	
+1-29	162-165	the	_	_	_	HAS\_LOCATION[56]	_	
+1-30	166-177	hydrosphere	_	C. Geome	_	HAS\_LOCATION[56]	_	
+1-31	177-178	,	_	_	_	HAS\_LOCATION[56]	_	
+1-32	179-182	the	_	_	_	HAS\_LOCATION[56]	_	
+1-33	183-193	atmosphere	_	C. Geome	_	HAS\_LOCATION[56]	_	
+1-34	194-197	and	_	_	_	HAS\_LOCATION[56]	_	
+1-35	198-201	the	_	_	_	HAS\_LOCATION[56]	_	
+1-36	202-211	biosphere	_	C. Geome	_	HAS\_LOCATION[56]	_	
+1-37	212-214	in	_	_	_	_	frame\_COMPOSITION[84]	
+1-38	215-218	the	_	_	_	COMPOSITION\_MEDIUM[57]	frame\_COMPOSITION[84]	
+1-39	219-224	forms	_	_	_	COMPOSITION\_MEDIUM[57]	frame\_COMPOSITION[84]	
+1-40	225-227	of	_	_	_	COMPOSITION\_MEDIUM[57]	frame\_COMPOSITION[84]	
+1-41	228-231	CO3	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+1-42	232-233	(	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-43	233-239	mainly	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-44	240-244	CaCO	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+1-45	244-245	,	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-46	246-250	MgCO	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+1-47	250-251	)	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-48	251-252	,	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-49	253-256	HCO	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+1-50	256-257	,	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-51	258-260	CO	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+1-52	260-261	,	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-53	262-264	CH	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+1-54	264-265	,	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-55	266-269	and	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-56	270-271	(	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[57]	_	
+1-57	271-273	CH	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[57]	_	
+1-58	274-275	O	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[57]	_	
+1-59	275-276	)	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[57]	_	
+1-60	276-277	n	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[57]	_	
+1-61	278-279	(	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+1-62	279-286	organic	_	D.1 Abiotic[4]	_	COMPOSITION\_MEDIUM[57]	_	
+1-63	287-293	carbon	_	D.1 Abiotic[4]	_	COMPOSITION\_MEDIUM[57]	_	
+1-64	293-294	)	_	_	_	_	_	
+1-65	294-295	.	_	_	_	_	_	
+
+#Text=Karst springs are boundaries or ecotones between the subsurface and the surface environments.
+2-1	297-302	Karst	_	A.3 Hydrological form[5]	DEFINIENDUM[34]	_	_	
+2-2	303-310	springs	_	A.3 Hydrological form[5]	DEFINIENDUM[34]	_	_	
+2-3	311-314	are	_	_	DEFINITOR	_	_	
+2-4	315-325	boundaries	_	D.3 Property	GENUS[35]	_	_	
+2-5	326-328	or	_	_	GENUS[35]	_	_	
+2-6	329-337	ecotones	_	D.1 Abiotic	GENUS[35]	_	_	
+2-7	338-345	between	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[85]	
+2-8	346-349	the	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[85]	
+2-9	350-360	subsurface	subsurface environment	_	_	HAS\_LOCATION[58]	_	
+2-10	361-364	and	_	_	_	HAS\_LOCATION[58]	_	
+2-11	365-368	the	_	_	_	HAS\_LOCATION[58]	_	
+2-12	369-376	surface	_	_	_	HAS\_LOCATION[58]	_	
+2-13	377-389	environments	_	_	_	HAS\_LOCATION[58]	_	
+2-14	389-390	.	_	_	_	_	_	
+
+#Text=In karst regions of the world, the carbonate reactions are calcite dissolution, tufa formation, and carbonate formation.
+3-1	392-394	In	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION	
+3-2	395-400	karst	_	C. Geome[6]	_	HAS\_LOCATION[59]	_	
+3-3	401-408	regions	_	C. Geome[6]	_	HAS\_LOCATION[59]	_	
+3-4	409-411	of	_	_	_	HAS\_LOCATION[59]	_	
+3-5	412-415	the	_	_	_	HAS\_LOCATION[59]	_	
+3-6	416-421	world	_	_	_	HAS\_LOCATION[59]	_	
+3-7	421-422	,	_	_	_	_	_	
+3-8	423-426	the	_	_	_	_	_	
+3-9	427-436	carbonate	_	B. Process[7]	DEFINIENDUM[36]	_	_	
+3-10	437-446	reactions	_	B. Process[7]	DEFINIENDUM[36]	_	_	
+3-11	447-450	are	_	_	DEFINITOR	_	_	
+3-12	451-458	calcite	_	B.4 Transformation[8]	SPECIES[37]	_	_	
+3-13	459-470	dissolution	_	B.4 Transformation[8]	SPECIES[37]	_	_	
+3-14	470-471	,	_	_	_	_	_	
+3-15	472-476	tufa	_	B.4 Transformation[9]	SPECIES[38]	_	_	
+3-16	477-486	formation	_	B.4 Transformation[9]	SPECIES[38]	_	_	
+3-17	486-487	,	_	_	_	_	_	
+3-18	488-491	and	_	_	_	_	_	
+3-19	492-501	carbonate	_	B.4 Transformation[10]	SPECIES[39]	_	_	
+3-20	502-511	formation	_	B.4 Transformation[10]	SPECIES[39]	_	_	
+3-21	511-512	.	_	_	_	_	_	
+
+#Text=Gypsum crusts form as corrosion residues and providea substrate for extremely acidic (pH 0-1) biofilms known as snottites.
+4-1	514-520	Gypsum	_	A.1 Surface landform[11]	DEFINIENDUM[40]	_	_	
+4-2	521-527	crusts	_	A.1 Surface landform[11]	DEFINIENDUM[40]	_	_	
+4-3	528-532	form	_	_	_	HAS\_CAUSE[60]	frame\_CAUSE[86]	
+4-4	533-535	as	_	_	_	HAS\_CAUSE[60]	frame\_CAUSE[86]	
+4-5	536-545	corrosion	_	B.4 Transformation	_	HAS\_CAUSE[60]	_	
+4-6	546-554	residues	_	_	_	HAS\_CAUSE[60]	_	
+4-7	555-558	and	_	_	_	_	_	
+4-8	559-567	providea	_	_	_	HAS\_RESULT[61]	frame\_RESULT	
+4-9	568-577	substrate	_	D.1 Abiotic	_	HAS\_RESULT[61]	_	
+4-10	578-581	for	_	_	_	HAS\_RESULT[61]	_	
+4-11	582-591	extremely	_	_	_	HAS\_RESULT[61]	_	
+4-12	592-598	acidic	_	_	_	HAS\_RESULT[61]	_	
+4-13	599-600	(	_	_	_	HAS\_RESULT[61]	_	
+4-14	600-602	pH	_	_	_	HAS\_RESULT[61]	_	
+4-15	603-604	0	_	_	_	HAS\_RESULT[61]	_	
+4-16	604-605	-	_	_	_	HAS\_RESULT[61]	_	
+4-17	605-606	1	_	_	_	HAS\_RESULT[61]	_	
+4-18	606-607	)	_	_	_	HAS\_RESULT[61]	_	
+4-19	608-616	biofilms	_	D.2 Biotic	_	HAS\_RESULT[61]	_	
+4-20	617-622	known	_	_	_	HAS\_RESULT[61]	_	
+4-21	623-625	as	_	_	_	HAS\_RESULT[61]	_	
+4-22	626-635	snottites	_	D.2 Biotic	_	HAS\_RESULT[61]	_	
+4-23	635-636	.	_	_	_	_	_	
+
+#Text=The silicification process is volume conserving while the dolomitization results in a decrease in volume thus enhancing secondary porosity and hydraulic conductivity.
+5-1	638-641	The	_	_	_	_	_	
+5-2	642-656	silicification	_	B.4 Transformation	_	_	_	
+5-3	657-664	process	_	_	_	_	_	
+5-4	665-667	is	_	_	_	_	_	
+5-5	668-674	volume	_	D.3 Property	_	_	_	
+5-6	675-685	conserving	_	_	_	_	_	
+5-7	686-691	while	_	_	_	_	_	
+5-8	692-695	the	_	_	_	_	_	
+5-9	696-710	dolomitization	_	B. Process	DEFINIENDUM	_	_	
+5-10	711-718	results	_	_	_	HAS\_RESULT[62]	frame\_RESULT[87]	
+5-11	719-721	in	_	_	_	HAS\_RESULT[62]	frame\_RESULT[87]	
+5-12	722-723	a	_	_	_	HAS\_RESULT[62]	frame\_RESULT[87]	
+5-13	724-732	decrease	_	_	_	HAS\_RESULT[62]	_	
+5-14	733-735	in	_	_	_	HAS\_RESULT[62]	_	
+5-15	736-742	volume	_	_	_	HAS\_RESULT[62]	_	
+5-16	743-747	thus	_	_	_	HAS\_FUNCTION[63]	frame\_FUNCTION[88]	
+5-17	748-757	enhancing	_	_	_	HAS\_FUNCTION[63]	frame\_FUNCTION[88]	
+5-18	758-767	secondary	_	B.4 Transformation[12]	_	HAS\_FUNCTION[63]	_	
+5-19	768-776	porosity	_	B.4 Transformation[12]	_	HAS\_FUNCTION[63]	_	
+5-20	777-780	and	_	_	_	HAS\_FUNCTION[63]	_	
+5-21	781-790	hydraulic	_	D.3 Property[13]	_	HAS\_FUNCTION[63]	_	
+5-22	791-803	conductivity	_	D.3 Property[13]	_	HAS\_FUNCTION[63]	_	
+5-23	803-804	.	_	_	_	_	_	
+
+#Text=The epikarst is a permeable boundary between the surface and subsurface environments and can be conceptualized as the vadose critical zone of epigenic karst systems.
+6-1	806-809	The	_	_	_	_	_	
+6-2	810-818	epikarst	_	C. Geome	DEFINIENDUM	_	_	
+6-3	819-821	is	_	_	DEFINITOR[41]	_	_	
+6-4	822-823	a	_	_	DEFINITOR[41]	_	_	
+6-5	824-833	permeable	_	_	GENUS[42]	HAS\_FUNCTION[64]	_	
+6-6	834-842	boundary	_	D.3 Property	GENUS[42]	HAS\_FUNCTION[64]	_	
+6-7	843-850	between	_	_	_	HAS\_LOCATION[65]	frame\_LOCATION[89]	
+6-8	851-854	the	_	_	_	HAS\_LOCATION[65]	frame\_LOCATION[89]	
+6-9	855-862	surface	surface environment	D.1 Abiotic	_	HAS\_LOCATION[65]	_	
+6-10	863-866	and	_	_	_	HAS\_LOCATION[65]	_	
+6-11	867-877	subsurface	_	D.1 Abiotic[14]	_	HAS\_LOCATION[65]	_	
+6-12	878-890	environments	_	D.1 Abiotic[14]	_	HAS\_LOCATION[65]	_	
+6-13	891-894	and	_	_	_	_	_	
+6-14	895-898	can	_	_	_	DEFINED\_AS[66]	frame\_DEFINED\_AS[90]	
+6-15	899-901	be	_	_	_	DEFINED\_AS[66]	frame\_DEFINED\_AS[90]	
+6-16	902-916	conceptualized	_	_	_	DEFINED\_AS[66]	frame\_DEFINED\_AS[90]	
+6-17	917-919	as	_	_	_	DEFINED\_AS[66]	frame\_DEFINED\_AS[90]	
+6-18	920-923	the	_	_	_	DEFINED\_AS[66]	_	
+6-19	924-930	vadose	_	C. Geome[15]	_	DEFINED\_AS[66]	_	
+6-20	931-939	critical	_	C. Geome[15]	_	DEFINED\_AS[66]	_	
+6-21	940-944	zone	_	C. Geome[15]	_	DEFINED\_AS[66]	_	
+6-22	945-947	of	_	_	_	DEFINED\_AS[66]	_	
+6-23	948-956	epigenic	_	C. Geome[16]	_	DEFINED\_AS[66]	_	
+6-24	957-962	karst	_	C. Geome[16]	_	DEFINED\_AS[66]	_	
+6-25	963-970	systems	_	C. Geome[16]	_	DEFINED\_AS[66]	_	
+6-26	970-971	.	_	_	_	_	_	
+
+#Text=The hyporheic zone is a zone (usually associated with a coupled river - alluvial aquifer system) that has a variable thickness and lateral extent, through which surface water and groundwater exchange and mix.
+7-1	973-976	The	_	_	_	_	_	
+7-2	977-986	hyporheic	_	C. Geome[17]	DEFINIENDUM[43]	_	_	
+7-3	987-991	zone	_	C. Geome[17]	DEFINIENDUM[43]	_	_	
+7-4	992-994	is	_	_	DEFINITOR[44]	_	_	
+7-5	995-996	a	_	_	DEFINITOR[44]	_	_	
+7-6	997-1001	zone	_	D.1 Abiotic	GENUS	_	_	
+7-7	1002-1003	(	_	_	_	_	_	
+7-8	1003-1010	usually	_	_	_	HAS\_ATTRIBUTE[67]	_	
+7-9	1011-1021	associated	_	_	_	HAS\_ATTRIBUTE[67]	frame\_ATTRIBUTE[91]	
+7-10	1022-1026	with	_	_	_	HAS\_ATTRIBUTE[67]	frame\_ATTRIBUTE[91]	
+7-11	1027-1028	a	_	_	_	HAS\_ATTRIBUTE[67]	_	
+7-12	1029-1036	coupled	_	_	_	HAS\_ATTRIBUTE[67]	_	
+7-13	1037-1042	river	_	C. Geome[18]|A.3 Hydrological form[19]	_	HAS\_ATTRIBUTE[67]	_	
+7-14	1043-1044	-	_	C. Geome[18]|A.3 Hydrological form[19]	_	HAS\_ATTRIBUTE[67]	_	
+7-15	1045-1053	alluvial	_	C. Geome[18]|A.3 Hydrological form[19]	_	HAS\_ATTRIBUTE[67]	_	
+7-16	1054-1061	aquifer	_	C. Geome[18]|A.3 Hydrological form[19]	_	HAS\_ATTRIBUTE[67]	_	
+7-17	1062-1068	system	_	C. Geome[18]|A.3 Hydrological form[19]	_	HAS\_ATTRIBUTE[67]	_	
+7-18	1068-1069	)	_	_	_	HAS\_ATTRIBUTE[67]	_	
+7-19	1070-1074	that	_	_	_	HAS\_FORM[68]	frame\_FORM[92]	
+7-20	1075-1078	has	_	_	_	HAS\_FORM[68]	frame\_FORM[92]	
+7-21	1079-1080	a	_	_	_	HAS\_FORM[68]	frame\_FORM[92]	
+7-22	1081-1089	variable	_	_	_	HAS\_FORM[68]	_	
+7-23	1090-1099	thickness	_	D.3 Property	_	HAS\_FORM[68]	_	
+7-24	1100-1103	and	_	_	_	HAS\_FORM[68]	_	
+7-25	1104-1111	lateral	_	D.3 Property[20]	_	HAS\_FORM[68]	_	
+7-26	1112-1118	extent	_	D.3 Property[20]	_	HAS\_FORM[68]	_	
+7-27	1118-1119	,	_	_	_	_	_	
+7-28	1120-1127	through	_	_	_	HAS\_FUNCTION[69]	frame\_FUNCTION[93]	
+7-29	1128-1133	which	_	_	_	HAS\_FUNCTION[69]	frame\_FUNCTION[93]	
+7-30	1134-1141	surface	_	D.1 Abiotic[21]	_	HAS\_FUNCTION[69]	_	
+7-31	1142-1147	water	_	D.1 Abiotic[21]	_	HAS\_FUNCTION[69]	_	
+7-32	1148-1151	and	_	_	_	HAS\_FUNCTION[69]	_	
+7-33	1152-1163	groundwater	_	D.1 Abiotic	_	HAS\_FUNCTION[69]	_	
+7-34	1164-1172	exchange	_	_	_	HAS\_FUNCTION[69]	_	
+7-35	1173-1176	and	_	_	_	HAS\_FUNCTION[69]	_	
+7-36	1177-1180	mix	_	_	_	HAS\_FUNCTION[69]	_	
+7-37	1180-1181	.	_	_	_	_	_	
+
+#Text=The hyporheic zone is a zone of fluid flux, biogeochemical reactions, including processing of organic matter, and the flux of animals.
+8-1	1183-1186	The	_	_	_	_	_	
+8-2	1187-1196	hyporheic	_	C. Geome[22]	DEFINIENDUM[45]	_	_	
+8-3	1197-1201	zone	_	C. Geome[22]	DEFINIENDUM[45]	_	_	
+8-4	1202-1204	is	_	_	DEFINITOR[46]	_	_	
+8-5	1205-1206	a	_	_	DEFINITOR[46]	_	_	
+8-6	1207-1211	zone	_	D.1 Abiotic	GENUS[47]	_	_	
+8-7	1212-1214	of	_	_	GENUS[47]	_	_	
+8-8	1215-1220	fluid	_	_	GENUS[47]	_	_	
+8-9	1221-1225	flux	_	B.1 Movement	GENUS[47]	_	_	
+8-10	1225-1226	,	_	_	GENUS[47]	_	_	
+8-11	1227-1241	biogeochemical	_	_	GENUS[47]	_	_	
+8-12	1242-1251	reactions	_	_	GENUS[47]	_	_	
+8-13	1251-1252	,	_	_	_	_	_	
+8-14	1253-1262	including	_	_	_	CONTAINS[70]	frame\_CONTAINS	
+8-15	1263-1273	processing	_	B. Process	_	CONTAINS[70]	_	
+8-16	1274-1276	of	_	_	_	CONTAINS[70]	_	
+8-17	1277-1284	organic	_	D.2 Biotic[23]	_	CONTAINS[70]	_	
+8-18	1285-1291	matter	_	D.2 Biotic[23]	_	CONTAINS[70]	_	
+8-19	1291-1292	,	_	_	_	CONTAINS[70]	_	
+8-20	1293-1296	and	_	_	_	CONTAINS[70]	_	
+8-21	1297-1300	the	_	_	_	CONTAINS[70]	_	
+8-22	1301-1305	flux	_	_	_	CONTAINS[70]	_	
+8-23	1306-1308	of	_	_	_	CONTAINS[70]	_	
+8-24	1309-1316	animals	_	D.2 Biotic	_	CONTAINS[70]	_	
+8-25	1316-1317	.	_	_	_	_	_	
+
+#Text=Sand is a cave sediment which was well washed, since it is made up almost exclusively of quartz grains.
+9-1	1319-1323	Sand	_	A.4 Other	DEFINIENDUM	_	_	
+9-2	1324-1326	is	_	_	DEFINITOR[48]	_	_	
+9-3	1327-1328	a	_	_	DEFINITOR[48]	_	_	
+9-4	1329-1333	cave	_	A.4 Other[24]	GENUS[49]	_	_	
+9-5	1334-1342	sediment	_	A.4 Other[24]	GENUS[49]	_	_	
+9-6	1343-1348	which	_	_	_	HAS\_FORM[71]	_	
+9-7	1349-1352	was	_	_	_	HAS\_FORM[71]	_	
+9-8	1353-1357	well	_	_	_	HAS\_FORM[71]	_	
+9-9	1358-1364	washed	_	_	_	HAS\_FORM[71]	_	
+9-10	1364-1365	,	_	_	_	_	_	
+9-11	1366-1371	since	_	_	_	COMPOSITION\_MEDIUM[72]	_	
+9-12	1372-1374	it	_	_	_	COMPOSITION\_MEDIUM[72]	_	
+9-13	1375-1377	is	_	_	_	COMPOSITION\_MEDIUM[72]	frame\_COMPOSITION[94]	
+9-14	1378-1382	made	_	_	_	COMPOSITION\_MEDIUM[72]	frame\_COMPOSITION[94]	
+9-15	1383-1385	up	_	_	_	COMPOSITION\_MEDIUM[72]	frame\_COMPOSITION[94]	
+9-16	1386-1392	almost	_	_	_	COMPOSITION\_MEDIUM[72]	frame\_COMPOSITION[94]	
+9-17	1393-1404	exclusively	_	_	_	COMPOSITION\_MEDIUM[72]	frame\_COMPOSITION[94]	
+9-18	1405-1407	of	_	_	_	COMPOSITION\_MEDIUM[72]	frame\_COMPOSITION[94]	
+9-19	1408-1414	quartz	_	D.1 Abiotic[25]	_	COMPOSITION\_MEDIUM[72]	_	
+9-20	1415-1421	grains	_	D.1 Abiotic[25]	_	COMPOSITION\_MEDIUM[72]	_	
+9-21	1421-1422	.	_	_	_	_	_	
+
+#Text=Goethite is a very frequent mineral created in the oxidation of various iron minerals, but can also be created as a precipitate in marshes and springs.
+10-1	1424-1432	Goethite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+10-2	1433-1435	is	_	_	DEFINITOR[50]	_	_	
+10-3	1436-1437	a	_	_	DEFINITOR[50]	_	_	
+10-4	1438-1442	very	_	_	_	_	_	
+10-5	1443-1451	frequent	_	_	_	_	_	
+10-6	1452-1459	mineral	_	D.1 Abiotic	GENUS	_	_	
+10-7	1460-1467	created	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[95]	
+10-8	1468-1470	in	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[95]	
+10-9	1471-1474	the	_	_	_	HAS\_CAUSE[73]	_	
+10-10	1475-1484	oxidation	_	B.4 Transformation	_	HAS\_CAUSE[73]	_	
+10-11	1485-1487	of	_	_	_	HAS\_CAUSE[73]	_	
+10-12	1488-1495	various	_	_	_	HAS\_CAUSE[73]	_	
+10-13	1496-1500	iron	_	D.1 Abiotic[26]	_	HAS\_CAUSE[73]	_	
+10-14	1501-1509	minerals	_	D.1 Abiotic[26]	_	HAS\_CAUSE[73]	_	
+10-15	1509-1510	,	_	_	_	_	_	
+10-16	1511-1514	but	_	_	_	HAS\_CAUSE[74]	_	
+10-17	1515-1518	can	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[96]	
+10-18	1519-1523	also	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[96]	
+10-19	1524-1526	be	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[96]	
+10-20	1527-1534	created	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[96]	
+10-21	1535-1537	as	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[96]	
+10-22	1538-1539	a	_	_	_	HAS\_CAUSE[74]	_	
+10-23	1540-1551	precipitate	_	D.1 Abiotic	_	HAS\_CAUSE[74]	_	
+10-24	1552-1554	in	_	_	_	HAS\_CAUSE[74]	_	
+10-25	1555-1562	marshes	_	D.1 Abiotic	_	HAS\_CAUSE[74]	_	
+10-26	1563-1566	and	_	_	_	HAS\_CAUSE[74]	_	
+10-27	1567-1574	springs	_	D.1 Abiotic	_	HAS\_CAUSE[74]	_	
+10-28	1574-1575	.	_	_	_	_	_	
+
+#Text=Various forms of flowstone are the result of dripping, running, trickling, trapped, condensed water etc. It is secreted from water flowing down the walls or the floor in layers,
+11-1	1577-1584	Various	_	_	_	_	_	
+11-2	1585-1590	forms	_	_	_	_	_	
+11-3	1591-1593	of	_	_	_	_	_	
+11-4	1594-1603	flowstone	_	D.1 Abiotic	DEFINIENDUM	_	_	
+11-5	1604-1607	are	_	_	_	HAS\_CAUSE[75]	frame\_CAUSE[97]	
+11-6	1608-1611	the	_	_	_	HAS\_CAUSE[75]	frame\_CAUSE[97]	
+11-7	1612-1618	result	_	_	_	HAS\_CAUSE[75]	frame\_CAUSE[97]	
+11-8	1619-1621	of	_	_	_	HAS\_CAUSE[75]	frame\_CAUSE[97]	
+11-9	1622-1630	dripping	dripping water	_	_	HAS\_CAUSE[75]	_	
+11-10	1630-1631	,	_	_	_	HAS\_CAUSE[75]	_	
+11-11	1632-1639	running	running water	_	_	HAS\_CAUSE[75]	_	
+11-12	1639-1640	,	_	_	_	HAS\_CAUSE[75]	_	
+11-13	1641-1650	trickling	trickling water	_	_	HAS\_CAUSE[75]	_	
+11-14	1650-1651	,	_	_	_	HAS\_CAUSE[75]	_	
+11-15	1652-1659	trapped	trapped water	_	_	HAS\_CAUSE[75]	_	
+11-16	1659-1660	,	_	_	_	HAS\_CAUSE[75]	_	
+11-17	1661-1670	condensed	_	D.1 Abiotic[27]	_	HAS\_CAUSE[75]	_	
+11-18	1671-1676	water	_	D.1 Abiotic[27]	_	HAS\_CAUSE[75]	_	
+11-19	1677-1680	etc	_	_	_	HAS\_CAUSE[75]	_	
+11-20	1680-1681	.	_	_	_	_	_	
+11-21	1682-1684	It	_	_	_	_	_	
+11-22	1685-1687	is	_	_	_	_	_	
+11-23	1688-1696	secreted	_	_	_	_	_	
+11-24	1697-1701	from	_	_	_	_	_	
+11-25	1702-1707	water	_	_	_	_	_	
+11-26	1708-1715	flowing	_	_	_	_	_	
+11-27	1716-1720	down	_	_	_	_	_	
+11-28	1721-1724	the	_	_	_	_	_	
+11-29	1725-1730	walls	_	_	_	_	_	
+11-30	1731-1733	or	_	_	_	_	_	
+11-31	1734-1737	the	_	_	_	_	_	
+11-32	1738-1743	floor	_	_	_	_	_	
+11-33	1744-1746	in	_	_	_	_	_	
+11-34	1747-1753	layers	_	_	_	_	_	
+11-35	1753-1754	,	_	_	_	_	_	
+
+#Text=creating coatings, waterfalls and canopies.
+12-1	1756-1764	creating	_	_	_	HAS\_RESULT[76]	frame\_RESULT	
+12-2	1765-1773	coatings	_	D.1 Abiotic	_	HAS\_RESULT[76]	_	
+12-3	1773-1774	,	_	_	_	HAS\_RESULT[76]	_	
+12-4	1775-1785	waterfalls	_	D.1 Abiotic	_	HAS\_RESULT[76]	_	
+12-5	1786-1789	and	_	_	_	HAS\_RESULT[76]	_	
+12-6	1790-1798	canopies	_	D.1 Abiotic	_	HAS\_RESULT[76]	_	
+12-7	1798-1799	.	_	_	_	_	_	
+
+#Text=Lowland is a lower karstified section with gently sloping hills.
+13-1	1801-1808	Lowland	_	C. Geome	DEFINIENDUM	_	_	
+13-2	1809-1811	is	_	_	DEFINITOR[51]	_	_	
+13-3	1812-1813	a	_	_	DEFINITOR[51]	_	_	
+13-4	1814-1819	lower	_	_	GENUS[52]	HAS\_LOCATION	_	
+13-5	1820-1830	karstified	_	C. Geome[28]	GENUS[52]	_	_	
+13-6	1831-1838	section	_	C. Geome[28]	GENUS[52]	_	_	
+13-7	1839-1843	with	_	_	_	HAS\_FORM[77]	frame\_FORM	
+13-8	1844-1850	gently	_	_	_	HAS\_FORM[77]	_	
+13-9	1851-1858	sloping	_	_	_	HAS\_FORM[77]	_	
+13-10	1859-1864	hills	_	D.1 Abiotic	_	HAS\_FORM[77]	_	
+13-11	1864-1865	.	_	_	_	_	_	
+
+#Text=Smaller fluvial karst forms (mesoforms) are smaller dolines that can be found particularly on flat parts of land and can amount to several 10 per km2.
+14-1	1867-1874	Smaller	_	_	_	HAS\_SIZE	_	
+14-2	1875-1882	fluvial	_	A.1 Surface landform[29]	DEFINIENDUM[53]	_	_	
+14-3	1883-1888	karst	_	A.1 Surface landform[29]	DEFINIENDUM[53]	_	_	
+14-4	1889-1894	forms	_	A.1 Surface landform[29]	DEFINIENDUM[53]	_	_	
+14-5	1895-1896	(	_	_	_	_	_	
+14-6	1896-1905	mesoforms	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-7	1905-1906	)	_	_	_	_	_	
+14-8	1907-1910	are	_	_	DEFINITOR	_	_	
+14-9	1911-1918	smaller	_	_	_	HAS\_SIZE	_	
+14-10	1919-1926	dolines	_	A.1 Surface landform	GENUS	_	_	
+14-11	1927-1931	that	_	_	_	HAS\_LOCATION[78]	_	
+14-12	1932-1935	can	_	_	_	HAS\_LOCATION[78]	frame\_LOCATION[98]	
+14-13	1936-1938	be	_	_	_	HAS\_LOCATION[78]	frame\_LOCATION[98]	
+14-14	1939-1944	found	_	_	_	HAS\_LOCATION[78]	frame\_LOCATION[98]	
+14-15	1945-1957	particularly	_	_	_	HAS\_LOCATION[78]	frame\_LOCATION[98]	
+14-16	1958-1960	on	_	_	_	HAS\_LOCATION[78]	frame\_LOCATION[98]	
+14-17	1961-1965	flat	_	_	_	HAS\_LOCATION[78]	_	
+14-18	1966-1971	parts	_	_	_	HAS\_LOCATION[78]	_	
+14-19	1972-1974	of	_	_	_	HAS\_LOCATION[78]	_	
+14-20	1975-1979	land	_	D.1 Abiotic	_	HAS\_LOCATION[78]	_	
+14-21	1980-1983	and	_	_	_	_	_	
+14-22	1984-1987	can	_	_	_	HAS\_SIZE[79]	frame\_SIZE[99]	
+14-23	1988-1994	amount	_	_	_	HAS\_SIZE[79]	frame\_SIZE[99]	
+14-24	1995-1997	to	_	_	_	HAS\_SIZE[79]	frame\_SIZE[99]	
+14-25	1998-2005	several	_	_	_	HAS\_SIZE[79]	_	
+14-26	2006-2008	10	_	_	_	HAS\_SIZE[79]	_	
+14-27	2009-2012	per	_	_	_	HAS\_SIZE[79]	_	
+14-28	2013-2016	km2	_	_	_	HAS\_SIZE[79]	_	
+14-29	2016-2017	.	_	_	_	_	_	
+
+#Text=Scallops are shallow niches, up to a few cm long, that are shaped by eddies.
+15-1	2019-2027	Scallops	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	2028-2031	are	_	_	DEFINITOR	_	_	
+15-3	2032-2039	shallow	_	D.1 Abiotic[30]	GENUS[54]	HAS\_FORM	_	
+15-4	2040-2046	niches	_	D.1 Abiotic[30]	GENUS[54]	_	_	
+15-5	2046-2047	,	_	_	_	_	_	
+15-6	2048-2050	up	_	_	_	HAS\_SIZE[80]	frame\_SIZE[100]	
+15-7	2051-2053	to	_	_	_	HAS\_SIZE[80]	frame\_SIZE[100]	
+15-8	2054-2055	a	_	_	_	HAS\_SIZE[80]	_	
+15-9	2056-2059	few	_	_	_	HAS\_SIZE[80]	_	
+15-10	2060-2062	cm	_	_	_	HAS\_SIZE[80]	_	
+15-11	2063-2067	long	_	_	_	HAS\_SIZE[80]	_	
+15-12	2067-2068	,	_	_	_	_	_	
+15-13	2069-2073	that	_	_	_	HAS\_CAUSE[81]	_	
+15-14	2074-2077	are	_	_	_	HAS\_CAUSE[81]	_	
+15-15	2078-2084	shaped	_	_	_	HAS\_CAUSE[81]	frame\_CAUSE[101]	
+15-16	2085-2087	by	_	_	_	HAS\_CAUSE[81]	frame\_CAUSE[101]	
+15-17	2088-2094	eddies	_	B.1 Movement[31]|A.3 Hydrological form[32]	_	HAS\_CAUSE[81]	_	
+15-18	2094-2095	.	_	_	_	_	_	

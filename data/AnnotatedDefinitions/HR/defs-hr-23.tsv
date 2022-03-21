@@ -1,0 +1,393 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=﻿slijeganje otapanjem: Postupno slijeganje netopivih slojeva uslijed otapanja podinskih slojeva.
+1-1	0-11	﻿slijeganje	_	B.4 Transformation[1]	DEFINIENDUM[21]	_	_	
+1-2	12-21	otapanjem	_	B.4 Transformation[1]	DEFINIENDUM[21]	_	_	
+1-3	21-22	:	_	_	_	_	_	
+1-4	23-31	Postupno	_	_	_	DEFINED\_AS[41]	_	
+1-5	32-42	slijeganje	_	B.4 Transformation	_	DEFINED\_AS[41]	_	
+1-6	43-52	netopivih	_	D.1 Abiotic[2]	_	DEFINED\_AS[41]	_	
+1-7	53-60	slojeva	_	D.1 Abiotic[2]	_	DEFINED\_AS[41]	_	
+1-8	61-68	uslijed	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE	
+1-9	69-77	otapanja	_	B.2 Loss	_	HAS\_CAUSE[42]	_	
+1-10	78-87	podinskih	_	D.1 Abiotic[3]	_	HAS\_CAUSE[42]	_	
+1-11	88-95	slojeva	_	D.1 Abiotic[3]	_	HAS\_CAUSE[42]	_	
+1-12	95-96	.	_	_	_	_	_	
+
+#Text=sótano: U Meksiku, duboki vertikalni ponor u kršu koji može ali i ne mora voditi u špilju.
+2-1	98-104	sótano	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-2	104-105	:	_	_	_	_	_	
+2-3	106-107	U	_	_	_	HAS\_POSITION[43]	frame\_POSITION	
+2-4	108-115	Meksiku	_	D.3.1 Geolocation	_	HAS\_POSITION[43]	_	
+2-5	115-116	,	_	_	_	_	_	
+2-6	117-123	duboki	_	_	_	HAS\_SIZE	_	
+2-7	124-134	vertikalni	_	_	_	HAS\_FORM	_	
+2-8	135-140	ponor	_	A.3 Hydrological form	GENUS[22]	_	_	
+2-9	141-142	u	_	_	GENUS[22]	HAS\_LOCATION[44]	frame\_LOCATION	
+2-10	143-147	kršu	_	C. Geome	GENUS[22]	HAS\_LOCATION[44]	_	
+2-11	148-152	koji	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-12	153-157	može	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-13	158-161	ali	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-14	162-163	i	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-15	164-166	ne	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-16	167-171	mora	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-17	172-178	voditi	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-18	179-180	u	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-19	181-187	špilju	_	_	_	HAS\_ATTRIBUTE[45]	_	
+2-20	187-188	.	_	_	_	_	_	
+
+#Text=speleokronologija: Datiranje ili kronologija nastanka špilje ili njenih mineralnih naslaga ili ispune. Datiranje može biti relativno ili brojčano.
+3-1	191-208	speleokronologija	_	E.2 Method	DEFINIENDUM	_	_	
+3-2	208-209	:	_	_	_	_	_	
+3-3	210-219	Datiranje	_	E.2 Method	_	DEFINED\_AS[46]	_	
+3-4	220-223	ili	_	_	_	DEFINED\_AS[46]	_	
+3-5	224-235	kronologija	_	E.2 Method[4]	_	DEFINED\_AS[46]	_	
+3-6	236-244	nastanka	_	E.2 Method[4]	_	DEFINED\_AS[46]	_	
+3-7	245-251	špilje	_	A.2 Underground landform	_	DEFINED\_AS[46]	_	
+3-8	252-255	ili	_	_	_	DEFINED\_AS[46]	_	
+3-9	256-262	njenih	_	_	_	DEFINED\_AS[46]	_	
+3-10	263-273	mineralnih	_	D.1 Abiotic[5]	_	DEFINED\_AS[46]	_	
+3-11	274-281	naslaga	_	D.1 Abiotic[5]	_	DEFINED\_AS[46]	_	
+3-12	282-285	ili	_	_	_	DEFINED\_AS[46]	_	
+3-13	286-292	ispune	_	D.1 Abiotic	_	DEFINED\_AS[46]	_	
+3-14	292-293	.	_	_	_	_	_	
+3-15	294-303	Datiranje	_	_	_	_	_	
+3-16	304-308	može	_	_	_	_	_	
+3-17	309-313	biti	_	_	_	_	_	
+3-18	314-323	relativno	_	_	_	_	_	
+3-19	324-327	ili	_	_	_	_	_	
+3-20	328-336	brojčano	_	_	_	_	_	
+3-21	336-337	.	_	_	_	_	_	
+
+#Text=speleofakt: Morfološki oblik zida špilje, uključujući speleogen, speleotem ili petromorf.
+4-1	339-349	speleofakt	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-2	349-350	:	_	_	_	_	_	
+4-3	351-361	Morfološki	_	_	GENUS[23]	_	_	
+4-4	362-367	oblik	_	_	GENUS[23]	_	_	
+4-5	368-372	zida	_	_	GENUS[23]	_	_	
+4-6	373-379	špilje	_	A.2 Underground landform	GENUS[23]	_	_	
+4-7	379-380	,	_	_	_	_	_	
+4-8	381-392	uključujući	_	_	_	_	_	
+4-9	393-402	speleogen	_	A.2 Underground landform	SPECIES	_	_	
+4-10	402-403	,	_	_	_	_	_	
+4-11	404-413	speleotem	_	A.2 Underground landform	SPECIES	_	_	
+4-12	414-417	ili	_	_	_	_	_	
+4-13	418-427	petromorf	_	A.2 Underground landform	SPECIES	_	_	
+4-14	427-428	.	_	_	_	_	_	
+
+#Text=speleogen: Element špilje koji je formiran erozijom ili trošenjem unutar špilje. Neka od površina koja je formirana otapanjem kao što je zdjelica, luster ili okno.
+5-1	430-439	speleogen	_	A.2 Underground landform	DEFINIENDUM	_	_	
+5-2	439-440	:	_	_	_	_	_	
+5-3	441-448	Element	_	_	GENUS[24]	_	_	
+5-4	449-455	špilje	_	_	GENUS[24]	_	_	
+5-5	456-460	koji	_	_	_	_	_	
+5-6	461-463	je	_	_	_	_	_	
+5-7	464-472	formiran	_	_	_	HAS\_CAUSE[47]	frame\_CAUSE	
+5-8	473-481	erozijom	_	B.2 Loss	_	HAS\_CAUSE[47]	_	
+5-9	482-485	ili	_	_	_	HAS\_CAUSE[47]	_	
+5-10	486-495	trošenjem	_	B.2 Loss	_	HAS\_CAUSE[47]	_	
+5-11	496-502	unutar	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION	
+5-12	503-509	špilje	_	A.2 Underground landform	_	HAS\_LOCATION[48]	_	
+5-13	509-510	.	_	_	_	_	_	
+5-14	511-515	Neka	_	_	_	_	_	
+5-15	516-518	od	_	_	_	_	_	
+5-16	519-527	površina	_	_	_	_	_	
+5-17	528-532	koja	_	_	_	_	_	
+5-18	533-535	je	_	_	_	_	_	
+5-19	536-545	formirana	_	_	_	_	_	
+5-20	546-555	otapanjem	_	_	_	_	_	
+5-21	556-559	kao	_	_	_	_	_	
+5-22	560-563	što	_	_	_	_	_	
+5-23	564-566	je	_	_	_	_	_	
+5-24	567-575	zdjelica	_	A.2 Underground landform	SPECIES	_	_	
+5-25	575-576	,	_	_	_	_	_	
+5-26	577-583	luster	_	A.2 Underground landform	SPECIES	_	_	
+5-27	584-587	ili	_	_	_	_	_	
+5-28	588-592	okno	_	A.2 Underground landform	SPECIES	_	_	
+5-29	592-593	.	_	_	_	_	_	
+
+#Text=speleogeneza: Proces formiranja špilje.
+6-1	595-607	speleogeneza	_	B.4 Transformation	DEFINIENDUM	_	_	
+6-2	607-608	:	_	_	_	_	_	
+6-3	609-615	Proces	_	_	GENUS	DEFINED\_AS[49]	_	
+6-4	616-626	formiranja	_	_	_	DEFINED\_AS[49]	_	
+6-5	627-633	špilje	_	A.2 Underground landform	_	DEFINED\_AS[49]	_	
+6-6	633-634	.	_	_	_	_	_	
+
+#Text=speleolog: Znanstvenik koji se bavi speleologijom, odnosno proučava špilje i njihove sadržaje. Posebno onaj koji zaista ulazi u špilje.
+7-1	636-645	speleolog	_	A.4 Other	DEFINIENDUM	_	_	
+7-2	645-646	:	_	_	_	_	_	
+7-3	647-658	Znanstvenik	_	_	GENUS	_	_	
+7-4	659-663	koji	_	_	_	_	_	
+7-5	664-666	se	_	_	_	_	_	
+7-6	667-671	bavi	_	_	_	_	_	
+7-7	672-685	speleologijom	_	E.2 Method	_	_	_	
+7-8	685-686	,	_	_	_	_	_	
+7-9	687-694	odnosno	_	_	_	_	_	
+7-10	695-703	proučava	_	_	_	HAS\_FUNCTION[50]	_	
+7-11	704-710	špilje	_	A.2 Underground landform	_	HAS\_FUNCTION[50]	_	
+7-12	711-712	i	_	_	_	HAS\_FUNCTION[50]	_	
+7-13	713-720	njihove	_	_	_	HAS\_FUNCTION[50]	_	
+7-14	721-729	sadržaje	_	_	_	HAS\_FUNCTION[50]	_	
+7-15	729-730	.	_	_	_	_	_	
+7-16	731-738	Posebno	_	_	_	_	_	
+7-17	739-743	onaj	_	_	_	_	_	
+7-18	744-748	koji	_	_	_	_	_	
+7-19	749-755	zaista	_	_	_	_	_	
+7-20	756-761	ulazi	_	_	_	_	_	
+7-21	762-763	u	_	_	_	_	_	
+7-22	764-770	špilje	_	_	_	_	_	
+7-23	770-771	.	_	_	_	_	_	
+
+#Text=speleologija: Istraživanje i znanstveno izučavanje špilja. Fizičko i biološko, uključujući geološko, izučavanje njihove geneze, morfologije i mineralogije. Nauka koja izučava nastanak i razvoj jama i pećina i s njima povezanim oblicima. Izraz je prvi objavio Martel (1896).
+8-1	773-785	speleologija	_	E.2 Method	DEFINIENDUM	_	_	
+8-2	785-786	:	_	_	_	_	_	
+8-3	787-799	Istraživanje	_	_	_	DEFINED\_AS[51]	_	
+8-4	800-801	i	_	_	_	DEFINED\_AS[51]	_	
+8-5	802-812	znanstveno	_	_	_	DEFINED\_AS[51]	_	
+8-6	813-823	izučavanje	_	_	_	DEFINED\_AS[51]	_	
+8-7	824-830	špilja	_	A.2 Underground landform	_	DEFINED\_AS[51]	_	
+8-8	830-831	.	_	_	_	_	_	
+8-9	832-839	Fizičko	_	_	_	_	_	
+8-10	840-841	i	_	_	_	_	_	
+8-11	842-850	biološko	_	_	_	_	_	
+8-12	850-851	,	_	_	_	_	_	
+8-13	852-863	uključujući	_	_	_	_	_	
+8-14	864-872	geološko	_	_	_	_	_	
+8-15	872-873	,	_	_	_	_	_	
+8-16	874-884	izučavanje	_	_	_	_	_	
+8-17	885-892	njihove	_	_	_	_	_	
+8-18	893-899	geneze	_	_	_	_	_	
+8-19	899-900	,	_	_	_	_	_	
+8-20	901-912	morfologije	_	_	_	_	_	
+8-21	913-914	i	_	_	_	_	_	
+8-22	915-927	mineralogije	_	_	_	_	_	
+8-23	927-928	.	_	_	_	_	_	
+8-24	929-934	Nauka	_	_	_	DEFINED\_AS[52]	_	
+8-25	935-939	koja	_	_	_	DEFINED\_AS[52]	_	
+8-26	940-947	izučava	_	_	_	DEFINED\_AS[52]	_	
+8-27	948-956	nastanak	_	_	_	DEFINED\_AS[52]	_	
+8-28	957-958	i	_	_	_	DEFINED\_AS[52]	_	
+8-29	959-965	razvoj	_	_	_	DEFINED\_AS[52]	_	
+8-30	966-970	jama	_	A.2 Underground landform	_	DEFINED\_AS[52]	_	
+8-31	971-972	i	_	_	_	DEFINED\_AS[52]	_	
+8-32	973-979	pećina	_	A.2 Underground landform	_	DEFINED\_AS[52]	_	
+8-33	980-981	i	_	_	_	DEFINED\_AS[52]	_	
+8-34	982-983	s	_	_	_	DEFINED\_AS[52]	_	
+8-35	984-989	njima	_	_	_	DEFINED\_AS[52]	_	
+8-36	990-999	povezanim	_	_	_	DEFINED\_AS[52]	_	
+8-37	1000-1008	oblicima	_	_	_	DEFINED\_AS[52]	_	
+8-38	1008-1009	.	_	_	_	_	_	
+8-39	1010-1015	Izraz	_	_	_	_	_	
+8-40	1016-1018	je	_	_	_	_	_	
+8-41	1019-1023	prvi	_	_	_	_	_	
+8-42	1024-1031	objavio	_	_	_	_	_	
+8-43	1032-1038	Martel	_	_	_	_	_	
+8-44	1039-1040	(	_	_	_	_	_	
+8-45	1040-1044	1896	_	_	_	_	_	
+8-46	1044-1045	)	_	_	_	_	_	
+8-47	1045-1046	.	_	_	_	_	_	
+
+#Text=speleomorfologija: Znanstveno izučavanje špilja i drugih krških oblika i njihove promjene tijekom vremena.
+9-1	1048-1065	speleomorfologija	_	E.2 Method	DEFINIENDUM	_	_	
+9-2	1065-1066	:	_	_	_	_	_	
+9-3	1067-1077	Znanstveno	_	_	_	DEFINED\_AS[53]	_	
+9-4	1078-1088	izučavanje	_	_	_	DEFINED\_AS[53]	_	
+9-5	1089-1095	špilja	_	A.2 Underground landform	_	DEFINED\_AS[53]	_	
+9-6	1096-1097	i	_	_	_	DEFINED\_AS[53]	_	
+9-7	1098-1104	drugih	_	_	_	DEFINED\_AS[53]	_	
+9-8	1105-1111	krških	_	C. Geome[6]	_	DEFINED\_AS[53]	_	
+9-9	1112-1118	oblika	_	C. Geome[6]	_	DEFINED\_AS[53]	_	
+9-10	1119-1120	i	_	_	_	DEFINED\_AS[53]	_	
+9-11	1121-1128	njihove	_	_	_	DEFINED\_AS[53]	_	
+9-12	1129-1137	promjene	_	_	_	DEFINED\_AS[53]	_	
+9-13	1138-1145	tijekom	_	_	_	DEFINED\_AS[53]	_	
+9-14	1146-1153	vremena	_	_	_	DEFINED\_AS[53]	_	
+9-15	1153-1154	.	_	_	_	_	_	
+
+#Text=siga: Generičko ime za sekundarne kemijske precipitate u špiljama, uključujući špiljske koralje, špiljsku draperiju, špiljski oniks, špiljsku perlu, kamene brazde, heliktite, mjesečevo mlijeko, obodne barijere, stalaktite i stalagmite koji nastali pri kapanju vode zasićene Ca-hidrogenkarbonatom u vapnenačkim špiljama i kavernama. Najvećim dijelom su izgrađeni od kalcita ali mogu biti, vrlo rijetko, od gipsa i halita.
+10-1	1156-1160	siga	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	1160-1161	:	_	_	_	_	_	
+10-3	1162-1171	Generičko	_	_	_	_	_	
+10-4	1172-1175	ime	_	_	_	_	_	
+10-5	1176-1178	za	_	_	_	_	_	
+10-6	1179-1189	sekundarne	_	_	GENUS[25]	_	_	
+10-7	1190-1198	kemijske	_	_	GENUS[25]	_	_	
+10-8	1199-1210	precipitate	_	_	GENUS[25]	_	_	
+10-9	1211-1212	u	_	_	_	HAS\_LOCATION[54]	_	
+10-10	1213-1221	špiljama	_	A.2 Underground landform	_	HAS\_LOCATION[54]	_	
+10-11	1221-1222	,	_	_	_	_	_	
+10-12	1223-1234	uključujući	_	_	_	_	_	
+10-13	1235-1243	špiljske	_	A.2 Underground landform[7]	SPECIES[26]	_	_	
+10-14	1244-1251	koralje	_	A.2 Underground landform[7]	SPECIES[26]	_	_	
+10-15	1251-1252	,	_	_	_	_	_	
+10-16	1253-1261	špiljsku	_	A.2 Underground landform[8]	SPECIES[27]	_	_	
+10-17	1262-1271	draperiju	_	A.2 Underground landform[8]	SPECIES[27]	_	_	
+10-18	1271-1272	,	_	_	_	_	_	
+10-19	1273-1281	špiljski	_	A.2 Underground landform[9]	SPECIES[28]	_	_	
+10-20	1282-1287	oniks	_	A.2 Underground landform[9]	SPECIES[28]	_	_	
+10-21	1287-1288	,	_	_	_	_	_	
+10-22	1289-1297	špiljsku	_	A.2 Underground landform[10]	SPECIES[29]	_	_	
+10-23	1298-1303	perlu	_	A.2 Underground landform[10]	SPECIES[29]	_	_	
+10-24	1303-1304	,	_	_	_	_	_	
+10-25	1305-1311	kamene	_	A.2 Underground landform[11]	SPECIES[30]	_	_	
+10-26	1312-1318	brazde	_	A.2 Underground landform[11]	SPECIES[30]	_	_	
+10-27	1318-1319	,	_	_	_	_	_	
+10-28	1320-1329	heliktite	_	A.2 Underground landform	SPECIES	_	_	
+10-29	1329-1330	,	_	_	_	_	_	
+10-30	1331-1340	mjesečevo	_	A.2 Underground landform[12]	SPECIES[31]	_	_	
+10-31	1341-1348	mlijeko	_	A.2 Underground landform[12]	SPECIES[31]	_	_	
+10-32	1348-1349	,	_	_	_	_	_	
+10-33	1350-1356	obodne	_	A.2 Underground landform[13]	SPECIES[32]	_	_	
+10-34	1357-1365	barijere	_	A.2 Underground landform[13]	SPECIES[32]	_	_	
+10-35	1365-1366	,	_	_	_	_	_	
+10-36	1367-1377	stalaktite	_	A.2 Underground landform	SPECIES	_	_	
+10-37	1378-1379	i	_	_	_	_	_	
+10-38	1380-1390	stalagmite	_	A.2 Underground landform	SPECIES	_	_	
+10-39	1391-1395	koji	_	_	_	_	_	
+10-40	1396-1403	nastali	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[71]	
+10-41	1404-1407	pri	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[71]	
+10-42	1408-1415	kapanju	_	_	_	HAS\_CAUSE[55]	_	
+10-43	1416-1420	vode	_	_	_	HAS\_CAUSE[55]	_	
+10-44	1421-1429	zasićene	_	_	_	HAS\_CAUSE[55]	_	
+10-45	1430-1451	Ca-hidrogenkarbonatom	_	D.1 Abiotic	_	HAS\_CAUSE[55]	_	
+10-46	1452-1453	u	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION	
+10-47	1454-1465	vapnenačkim	_	A.2 Underground landform[14]	_	HAS\_LOCATION[56]	_	
+10-48	1466-1474	špiljama	_	A.2 Underground landform[14]	_	HAS\_LOCATION[56]	_	
+10-49	1475-1476	i	_	_	_	HAS\_LOCATION[56]	_	
+10-50	1477-1486	kavernama	_	A.2 Underground landform	_	HAS\_LOCATION[56]	_	
+10-51	1486-1487	.	_	_	_	_	_	
+10-52	1488-1496	Najvećim	_	_	_	_	_	
+10-53	1497-1504	dijelom	_	_	_	_	_	
+10-54	1505-1507	su	_	_	_	_	_	
+10-55	1508-1517	izgrađeni	_	_	_	COMPOSITION\_MEDIUM[57]	frame\_COMPOSITION[72]	
+10-56	1518-1520	od	_	_	_	COMPOSITION\_MEDIUM[57]	frame\_COMPOSITION[72]	
+10-57	1521-1528	kalcita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+10-58	1529-1532	ali	_	_	_	_	_	
+10-59	1533-1537	mogu	_	_	_	_	_	
+10-60	1538-1542	biti	_	_	_	_	_	
+10-61	1542-1543	,	_	_	_	_	_	
+10-62	1544-1548	vrlo	_	_	_	_	_	
+10-63	1549-1556	rijetko	_	_	_	_	_	
+10-64	1556-1557	,	_	_	_	_	_	
+10-65	1558-1560	od	_	_	_	COMPOSITION\_MEDIUM[58]	frame\_COMPOSITION	
+10-66	1561-1566	gipsa	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[58]	_	
+10-67	1567-1568	i	_	_	_	COMPOSITION\_MEDIUM[58]	_	
+10-68	1569-1575	halita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[58]	_	
+10-69	1575-1576	.	_	_	_	_	_	
+
+#Text=spelunker: Novinski ili laički izraz za špiljara.
+11-1	1579-1588	spelunker	_	A.4 Other	DEFINIENDUM	_	_	
+11-2	1588-1589	:	_	_	_	_	_	
+11-3	1590-1598	Novinski	_	_	_	_	_	
+11-4	1599-1602	ili	_	_	_	_	_	
+11-5	1603-1609	laički	_	_	_	_	_	
+11-6	1610-1615	izraz	_	_	_	_	_	
+11-7	1616-1618	za	_	_	_	_	_	
+11-8	1619-1627	špiljara	špiljar	A.4 Other	DEFINIENDUM	_	_	
+11-9	1627-1628	.	_	_	_	_	_	
+
+#Text=vršna škrapa: U kršu, velika duboka brazda koja se spušta niz strmi vrh. Jedna od brazda otapanja koje su međusobno razdvojene visokim hrptovima oštrih piramidalnih vrhova.
+12-1	1630-1635	vršna	_	A.1 Surface landform[15]	DEFINIENDUM[33]	_	_	
+12-2	1636-1642	škrapa	_	A.1 Surface landform[15]	DEFINIENDUM[33]	_	_	
+12-3	1642-1643	:	_	_	_	_	_	
+12-4	1644-1645	U	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION	
+12-5	1646-1650	kršu	_	C. Geome	_	HAS\_LOCATION[59]	_	
+12-6	1650-1651	,	_	_	_	_	_	
+12-7	1652-1658	velika	_	_	GENUS[34]	HAS\_FORM[60]	_	
+12-8	1659-1665	duboka	_	_	GENUS[34]	HAS\_FORM[60]	_	
+12-9	1666-1672	brazda	_	_	GENUS[34]	HAS\_FORM[60]	_	
+12-10	1673-1677	koja	_	_	_	HAS\_ATTRIBUTE[61]	_	
+12-11	1678-1680	se	_	_	_	HAS\_ATTRIBUTE[61]	_	
+12-12	1681-1687	spušta	_	_	_	HAS\_ATTRIBUTE[61]	_	
+12-13	1688-1691	niz	_	_	_	HAS\_ATTRIBUTE[61]	_	
+12-14	1692-1697	strmi	_	_	_	HAS\_ATTRIBUTE[61]	_	
+12-15	1698-1701	vrh	_	_	_	HAS\_ATTRIBUTE[61]	_	
+12-16	1701-1702	.	_	_	_	_	_	
+12-17	1703-1708	Jedna	_	_	_	_	_	
+12-18	1709-1711	od	_	_	_	_	_	
+12-19	1712-1718	brazda	_	A.1 Surface landform[16]	GENUS[35]	_	_	
+12-20	1719-1727	otapanja	_	A.1 Surface landform[16]	GENUS[35]	_	_	
+12-21	1728-1732	koje	_	_	_	_	_	
+12-22	1733-1735	su	_	_	_	_	_	
+12-23	1736-1745	međusobno	_	_	_	HAS\_ATTRIBUTE[62]	_	
+12-24	1746-1756	razdvojene	_	_	_	HAS\_ATTRIBUTE[62]	_	
+12-25	1757-1764	visokim	_	_	_	HAS\_ATTRIBUTE[62]	_	
+12-26	1765-1774	hrptovima	_	_	_	HAS\_ATTRIBUTE[62]	_	
+12-27	1775-1781	oštrih	_	_	_	HAS\_ATTRIBUTE[62]	_	
+12-28	1782-1794	piramidalnih	_	_	_	HAS\_ATTRIBUTE[62]	_	
+12-29	1795-1801	vrhova	_	_	_	HAS\_ATTRIBUTE[62]	_	
+12-30	1801-1802	.	_	_	_	_	_	
+
+#Text=čaša prskanja: Plitka udubina na vrhu stalagmita. Također i udubina u mulju ili nekom drugom materijalu uzrokovana udarom vode koja kapa.
+13-1	1804-1808	čaša	_	A.2 Underground landform[17]	DEFINIENDUM[36]	_	_	
+13-2	1809-1817	prskanja	_	A.2 Underground landform[17]	DEFINIENDUM[36]	_	_	
+13-3	1817-1818	:	_	_	_	_	_	
+13-4	1819-1825	Plitka	_	_	GENUS[37]	HAS\_FORM[63]|HAS\_SIZE[64]	_	
+13-5	1826-1833	udubina	_	_	GENUS[37]	HAS\_FORM[63]	_	
+13-6	1834-1836	na	_	_	_	HAS\_LOCATION[65]	frame\_LOCATION[73]	
+13-7	1837-1841	vrhu	_	_	_	HAS\_LOCATION[65]	frame\_LOCATION[73]	
+13-8	1842-1852	stalagmita	_	A.2 Underground landform	_	HAS\_LOCATION[65]	_	
+13-9	1852-1853	.	_	_	_	_	_	
+13-10	1854-1861	Također	_	_	_	_	_	
+13-11	1862-1863	i	_	_	_	_	_	
+13-12	1864-1871	udubina	_	_	GENUS	_	_	
+13-13	1872-1873	u	_	_	_	HAS\_LOCATION[66]	frame\_LOCATION	
+13-14	1874-1879	mulju	_	D.1 Abiotic	_	HAS\_LOCATION[66]	_	
+13-15	1880-1883	ili	_	_	_	HAS\_LOCATION[66]	_	
+13-16	1884-1889	nekom	_	_	_	HAS\_LOCATION[66]	_	
+13-17	1890-1896	drugom	_	_	_	HAS\_LOCATION[66]	_	
+13-18	1897-1907	materijalu	_	_	_	HAS\_LOCATION[66]	_	
+13-19	1908-1918	uzrokovana	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE	
+13-20	1919-1925	udarom	_	_	_	HAS\_CAUSE[67]	_	
+13-21	1926-1930	vode	_	_	_	HAS\_CAUSE[67]	_	
+13-22	1931-1935	koja	_	_	_	HAS\_CAUSE[67]	_	
+13-23	1936-1940	kapa	_	_	_	HAS\_CAUSE[67]	_	
+13-24	1940-1941	.	_	_	_	_	_	
+
+#Text=spužvasta špilja: Špilja koja se sastoji od nepravilnih, međusobno povezanih kanala.
+14-1	1943-1952	spužvasta	_	A.2 Underground landform[18]	DEFINIENDUM[38]	_	_	
+14-2	1953-1959	špilja	_	A.2 Underground landform[18]	DEFINIENDUM[38]	_	_	
+14-3	1959-1960	:	_	_	_	_	_	
+14-4	1961-1967	Špilja	_	A.2 Underground landform	GENUS	_	_	
+14-5	1968-1972	koja	_	_	_	CONTAINS[68]	frame\_CONTAINS[74]	
+14-6	1973-1975	se	_	_	_	CONTAINS[68]	frame\_CONTAINS[74]	
+14-7	1976-1983	sastoji	_	_	_	CONTAINS[68]	frame\_CONTAINS[74]	
+14-8	1984-1986	od	_	_	_	CONTAINS[68]	frame\_CONTAINS[74]	
+14-9	1987-1998	nepravilnih	_	_	_	CONTAINS[68]	_	
+14-10	1998-1999	,	_	_	_	CONTAINS[68]	_	
+14-11	2000-2009	međusobno	_	_	_	CONTAINS[68]	_	
+14-12	2010-2019	povezanih	_	_	_	CONTAINS[68]	_	
+14-13	2020-2026	kanala	_	A.2 Underground landform	_	CONTAINS[68]	_	
+14-14	2026-2027	.	_	_	_	_	_	
+
+#Text=eruptirajući rog: Morska špilja sa zadnjim ili gornjim otvorom kroz koji voda izbija ili prska nakon što valovi uđu u špilju.
+15-1	2029-2041	eruptirajući	_	A.2 Underground landform[19]	DEFINIENDUM[39]	_	_	
+15-2	2042-2045	rog	_	A.2 Underground landform[19]	DEFINIENDUM[39]	_	_	
+15-3	2045-2046	:	_	_	_	_	_	
+15-4	2047-2053	Morska	_	A.2 Underground landform[20]	GENUS[40]	_	_	
+15-5	2054-2060	špilja	_	A.2 Underground landform[20]	GENUS[40]	_	_	
+15-6	2061-2063	sa	_	_	_	HAS\_FORM[69]	_	
+15-7	2064-2071	zadnjim	_	_	_	HAS\_FORM[69]	_	
+15-8	2072-2075	ili	_	_	_	HAS\_FORM[69]	_	
+15-9	2076-2083	gornjim	_	_	_	HAS\_FORM[69]	_	
+15-10	2084-2091	otvorom	_	_	_	HAS\_FORM[69]	_	
+15-11	2092-2096	kroz	_	_	_	HAS\_FUNCTION[70]	_	
+15-12	2097-2101	koji	_	_	_	HAS\_FUNCTION[70]	_	
+15-13	2102-2106	voda	_	_	_	HAS\_FUNCTION[70]	_	
+15-14	2107-2113	izbija	_	_	_	HAS\_FUNCTION[70]	_	
+15-15	2114-2117	ili	_	_	_	HAS\_FUNCTION[70]	_	
+15-16	2118-2123	prska	_	_	_	HAS\_FUNCTION[70]	_	
+15-17	2124-2129	nakon	_	_	_	HAS\_FUNCTION[70]	_	
+15-18	2130-2133	što	_	_	_	HAS\_FUNCTION[70]	_	
+15-19	2134-2140	valovi	_	_	_	HAS\_FUNCTION[70]	_	
+15-20	2141-2144	uđu	_	_	_	HAS\_FUNCTION[70]	_	
+15-21	2145-2146	u	_	_	_	HAS\_FUNCTION[70]	_	
+15-22	2147-2153	špilju	_	_	_	HAS\_FUNCTION[70]	_	
+15-23	2153-2154	.	_	_	_	HAS\_FUNCTION[70]	_	

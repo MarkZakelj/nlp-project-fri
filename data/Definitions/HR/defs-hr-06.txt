@@ -1,0 +1,15 @@
+﻿kavernozan: Reljef ili stijene koje sadržavaju kaverne ili špilje.
+kavernozna formacija: Kompleks stijena s velikim šupljinama koje su obično nastale otapanjem stijene vodom. Voda može, ali i ne mora biti u sloju.
+kavernozna poroznost: Sustav velikih pora s kavernoznim otvorima s donjom granicom veličine koja je praktički definirana kao najmanji otvor kroz koji može ući odrasla osoba (Choquette i Pray, 1970).
+kavernozna stijena: Svaka stijena s brojnim šupljinama, ćelijama i velikim porama, npr., površina litice s brojnim plitkim udubljenjima nastalim kavernoznim trošenjem.
+špiljsko uže: Sulfatna siga s paralelnim vlaknima upletenim poput užeta.
+špiljski izvor: Prirodni tok vode iz stijene ili sedimenta unutar špilje.
+špiljski sustav: 1 Grupa špilja koje su međusobno spojene ili hidrološki povezane. 2 Velika špilja s prostranim kompleksom dvorana i kanala.
+špiljski baršun: Mala raznostranična forma na površini sige koja daje baršunastu teksturu i sjaj.
+špiljarstvo: Istraživanje špilja; katkada se ta aktivnost više pripisuje hobiju i sportu nego znanstvenom izučavanju.
+šupljina: Udubina u vapnenačkoj špilji nastala otapanjem.
+stropni blok: Grubo kockasti, pukotinama oivičeni veliki blok koji je pao sa stropa špilje.
+stropna šupljikavost: Šupljine otapanja na stropu špilje. Neke su izrazito vezane za pukotine. 
+stropni kanal: žlijeb otapanja na stropu špilje koji je vjerojatno bio ispunjen vodom kada je formiran, a najčešće je formiran vodom koja je tekla površinom sedimenta koji je nekoć ispunjavao špilju.
+stropna ploča: Tanka ploča stijene velike površine koja je pala sa stropa špilje.
+stropna cijev: Polucijev zaostala na stropu špilje.

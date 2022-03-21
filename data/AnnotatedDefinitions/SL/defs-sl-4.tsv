@@ -1,0 +1,684 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Udornice so površinske kraške globeli različnih oblik in velikosti, katerih nastanek povezujemo s točkastim vertikalnim odnašanjem kamnine v podzemlje, bodisi z nenadnimi udori nad jamskimi prostori, bodisi s postopnim odnašanjem kamnine nad aktivnimi jamskimi rovi (Stepišnik, 2001).
+1-1	0-8	Udornice	_	A.1 Surface landform	DEFINIENDUM	_	_	
+1-2	9-11	so	_	_	DEFINITOR	_	_	
+1-3	12-22	površinske	_	A.1 Surface landform[2]	GENUS[33]	_	_	
+1-4	23-29	kraške	_	A.1 Surface landform[2]	GENUS[33]	_	_	
+1-5	30-37	globeli	_	A.1 Surface landform[2]	GENUS[33]	_	_	
+1-6	37-38	 	_	_	_	_	_	
+1-7	38-47	različnih	_	_	_	HAS\_FORM[57]|HAS\_SIZE[58]	_	
+1-8	48-53	oblik	_	_	_	HAS\_FORM[57]	_	
+1-9	54-56	in	_	_	_	_	_	
+1-10	57-66	velikosti	_	_	_	HAS\_SIZE	_	
+1-11	66-67	,	_	_	_	_	_	
+1-12	68-75	katerih	_	_	_	_	_	
+1-13	76-84	nastanek	_	_	_	HAS\_CAUSE[59]	_	
+1-14	85-95	povezujemo	_	_	_	HAS\_CAUSE[59]	_	
+1-15	96-97	s	_	_	_	HAS\_CAUSE[59]	_	
+1-16	98-107	točkastim	_	_	_	HAS\_CAUSE[59]	_	
+1-17	108-119	vertikalnim	_	_	_	HAS\_CAUSE[59]	_	
+1-18	120-130	odnašanjem	_	B.2 Loss	_	HAS\_CAUSE[59]	_	
+1-19	131-138	kamnine	_	D.1 Abiotic	_	HAS\_CAUSE[59]	_	
+1-20	139-140	v	_	_	_	HAS\_CAUSE[59]	_	
+1-21	141-150	podzemlje	_	C. Geome	_	HAS\_CAUSE[59]	_	
+1-22	150-151	,	_	_	_	HAS\_CAUSE[59]	_	
+1-23	152-158	bodisi	_	_	_	HAS\_CAUSE[59]	_	
+1-24	159-160	z	_	_	_	HAS\_CAUSE[59]	_	
+1-25	161-170	nenadnimi	_	_	_	HAS\_CAUSE[59]	_	
+1-26	171-176	udori	_	B.1 Movement	_	HAS\_CAUSE[59]	_	
+1-27	177-180	nad	_	_	_	HAS\_CAUSE[59]	_	
+1-28	181-189	jamskimi	_	_	_	HAS\_CAUSE[59]	_	
+1-29	190-198	prostori	_	_	_	HAS\_CAUSE[59]	_	
+1-30	198-199	,	_	_	_	HAS\_CAUSE[59]	_	
+1-31	200-206	bodisi	_	_	_	HAS\_CAUSE[59]	_	
+1-32	207-208	s	_	_	_	HAS\_CAUSE[59]	_	
+1-33	209-218	postopnim	_	_	_	HAS\_CAUSE[59]	_	
+1-34	219-229	odnašanjem	_	_	_	HAS\_CAUSE[59]	_	
+1-35	230-237	kamnine	_	_	_	HAS\_CAUSE[59]	_	
+1-36	238-241	nad	_	_	_	HAS\_CAUSE[59]	_	
+1-37	242-251	aktivnimi	_	_	_	HAS\_CAUSE[59]	_	
+1-38	252-260	jamskimi	_	_	_	HAS\_CAUSE[59]	_	
+1-39	261-265	rovi	_	_	_	HAS\_CAUSE[59]	_	
+1-40	266-267	(	_	_	_	_	_	
+1-41	267-276	Stepišnik	_	_	_	_	_	
+1-42	276-277	,	_	_	_	_	_	
+1-43	278-282	2001	_	_	_	_	_	
+1-44	282-283	)	_	_	_	_	_	
+1-45	283-284	.	_	_	_	_	_	
+
+#Text=Za kraška polja sta značilna sklenjen obod nad razmeroma uravnanim obsežnim dnom in kraška hidrologija. Slovenska kraška terminologija (cit. Gams, 2004) opredeljuje, da je za kraško polje bistvena najmanj pol kilometra široka uravnava z višjim obodom.
+2-1	285-287	Za	_	_	_	_	_	
+2-2	288-294	kraška	kraško polje[1]	A.1 Surface landform[3]	DEFINIENDUM[34]	_	_	
+2-3	295-300	polja	kraško polje[1]	A.1 Surface landform[3]	DEFINIENDUM[34]	_	_	
+2-4	301-304	sta	_	_	DEFINITOR[35]	_	_	
+2-5	305-313	značilna	_	_	DEFINITOR[35]	_	_	
+2-6	314-322	sklenjen	_	_	_	HAS\_FORM[60]	_	
+2-7	323-327	obod	_	D.1 Abiotic[4]|D. Entity/Element/Property[5]	_	HAS\_FORM[60]	_	
+2-8	328-331	nad	_	_	_	HAS\_FORM[60]	_	
+2-9	332-341	razmeroma	_	_	_	HAS\_FORM[60]	_	
+2-10	342-351	uravnanim	_	_	_	HAS\_FORM[60]	_	
+2-11	352-360	obsežnim	_	_	_	HAS\_FORM[60]|HAS\_SIZE[61]	_	
+2-12	361-365	dnom	_	D. Entity/Element/Property	_	HAS\_FORM[60]	_	
+2-13	366-368	in	_	_	_	_	_	
+2-14	369-375	kraška	_	D.3 Property[6]	_	HAS\_ATTRIBUTE[62]	_	
+2-15	376-387	hidrologija	_	D.3 Property[6]	_	HAS\_ATTRIBUTE[62]	_	
+2-16	387-388	.	_	_	_	_	_	
+2-17	388-389	 	_	_	_	_	_	
+2-18	389-398	Slovenska	_	_	_	_	_	
+2-19	399-405	kraška	_	_	_	_	_	
+2-20	406-419	terminologija	_	_	_	_	_	
+2-21	419-420	 	_	_	_	_	_	
+2-22	420-421	(	_	_	_	_	_	
+2-23	421-424	cit	_	_	_	_	_	
+2-24	424-425	.	_	_	_	_	_	
+2-25	426-430	Gams	_	_	_	_	_	
+2-26	430-431	,	_	_	_	_	_	
+2-27	432-436	2004	_	_	_	_	_	
+2-28	436-437	)	_	_	_	_	_	
+2-29	438-449	opredeljuje	_	_	_	_	_	
+2-30	449-450	,	_	_	_	_	_	
+2-31	451-453	da	_	_	_	_	_	
+2-32	454-456	je	_	_	_	_	_	
+2-33	457-459	za	_	_	_	_	_	
+2-34	460-466	kraško	_	_	_	_	_	
+2-35	467-472	polje	_	_	_	_	_	
+2-36	473-481	bistvena	_	_	_	_	_	
+2-37	482-489	najmanj	_	_	_	HAS\_SIZE[63]	_	
+2-38	490-493	pol	_	_	_	HAS\_SIZE[63]	_	
+2-39	494-503	kilometra	_	_	_	HAS\_SIZE[63]	_	
+2-40	504-510	široka	_	_	_	HAS\_SIZE[63]	frame\_SIZE	
+2-41	511-519	uravnava	_	D.1 Abiotic	_	HAS\_SIZE[63]	_	
+2-42	520-521	z	_	_	_	HAS\_SIZE[63]	_	
+2-43	522-528	višjim	_	_	_	HAS\_SIZE[63]	_	
+2-44	529-535	obodom	_	D.1 Abiotic	_	HAS\_SIZE[63]	_	
+2-45	535-536	.	_	_	_	_	_	
+
+#Text=Slovenska kraška terminologija (1973) jamo definira kot prehodno podzemeljsko votlino, ki je lahko vodoravna ali navpična.
+3-1	538-547	Slovenska	_	_	_	_	_	
+3-2	548-554	kraška	_	_	_	_	_	
+3-3	555-568	terminologija	_	_	_	_	_	
+3-4	569-570	(	_	_	_	_	_	
+3-5	570-574	1973	_	_	_	_	_	
+3-6	574-575	)	_	_	_	_	_	
+3-7	575-576	 	_	_	_	_	_	
+3-8	576-580	jamo	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-9	581-589	definira	_	_	DEFINITOR[36]	_	_	
+3-10	589-590	 	_	_	DEFINITOR[36]	_	_	
+3-11	590-593	kot	_	_	DEFINITOR[36]	_	_	
+3-12	594-602	prehodno	_	_	GENUS[37]	HAS\_FUNCTION	_	
+3-13	603-615	podzemeljsko	_	_	GENUS[37]	HAS\_LOCATION	_	
+3-14	616-623	votlino	_	_	GENUS[37]	_	_	
+3-15	623-624	,	_	_	_	_	_	
+3-16	625-627	ki	_	_	_	HAS\_FORM[64]	_	
+3-17	628-630	je	_	_	_	HAS\_FORM[64]	_	
+3-18	631-636	lahko	_	_	_	HAS\_FORM[64]	_	
+3-19	637-646	vodoravna	_	_	_	HAS\_FORM[64]	_	
+3-20	647-650	ali	_	_	_	HAS\_FORM[64]	_	
+3-21	651-659	navpična	_	_	_	HAS\_FORM[64]	_	
+3-22	659-660	.	_	_	_	_	_	
+
+#Text=Jame so najznačilnejši kraški pojav. V ožjem smislu je jama prehodna, pretežno horizontalna podzemna votlina, ravno nasprotno od brezna, ki je navpično.
+4-1	662-666	Jame	_	_	_	_	_	
+4-2	667-669	so	_	_	_	_	_	
+4-3	670-684	najznačilnejši	_	_	_	_	_	
+4-4	685-691	kraški	_	_	_	_	_	
+4-5	692-697	pojav	_	_	_	_	_	
+4-6	697-698	.	_	_	_	_	_	
+4-7	699-700	V	_	_	DEFINITOR[38]	_	_	
+4-8	701-706	ožjem	_	_	DEFINITOR[38]	_	_	
+4-9	707-713	smislu	_	_	DEFINITOR[38]	_	_	
+4-10	714-716	je	_	_	DEFINITOR[38]	_	_	
+4-11	717-721	jama	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-12	722-730	prehodna	_	_	_	HAS\_FUNCTION	_	
+4-13	730-731	,	_	_	_	_	_	
+4-14	732-740	pretežno	_	_	_	HAS\_FORM[65]	_	
+4-15	741-753	horizontalna	_	_	_	HAS\_FORM[65]	_	
+4-16	754-762	podzemna	_	_	_	HAS\_LOCATION	_	
+4-17	763-770	votlina	_	_	_	_	_	
+4-18	770-771	,	_	_	_	_	_	
+4-19	772-777	ravno	_	_	_	_	_	
+4-20	778-787	nasprotno	_	_	_	HAS\_FORM[66]	_	
+4-21	788-790	od	_	_	_	HAS\_FORM[66]	_	
+4-22	791-797	brezna	_	A.2 Underground landform	_	HAS\_FORM[66]	_	
+4-23	797-798	,	_	_	_	HAS\_FORM[66]	_	
+4-24	799-801	ki	_	_	_	HAS\_FORM[66]	_	
+4-25	802-804	je	_	_	_	HAS\_FORM[66]	_	
+4-26	805-813	navpično	_	_	_	HAS\_FORM[66]	_	
+4-27	813-814	.	_	_	_	_	_	
+
+#Text=Reliktni vršaji so značilne oblike kontaktnega krasa, ki nastanejo s postopno denudacijo flišne naplavine in kemično denudacijo karbonatne podlage na območjih vršajev.
+5-1	816-824	Reliktni	_	A.1 Surface landform[7]	DEFINIENDUM[39]	_	_	
+5-2	824-825	 	_	A.1 Surface landform[7]	DEFINIENDUM[39]	_	_	
+5-3	825-831	vršaji	_	A.1 Surface landform[7]	DEFINIENDUM[39]	_	_	
+5-4	832-834	so	_	_	_	_	_	
+5-5	835-843	značilne	_	_	_	_	_	
+5-6	844-850	oblike	_	_	_	_	_	
+5-7	850-851	 	_	_	_	_	_	
+5-8	851-862	kontaktnega	_	C. Geome[8]	_	HAS\_LOCATION[67]	_	
+5-9	863-868	krasa	_	C. Geome[8]	_	HAS\_LOCATION[67]	_	
+5-10	868-869	,	_	_	_	_	_	
+5-11	870-872	ki	_	_	_	_	_	
+5-12	873-882	nastanejo	_	_	_	HAS\_CAUSE[68]	_	
+5-13	883-884	s	_	_	_	HAS\_CAUSE[68]	_	
+5-14	885-893	postopno	_	_	_	HAS\_CAUSE[68]	_	
+5-15	894-904	denudacijo	_	B.2 Loss	_	HAS\_CAUSE[68]	_	
+5-16	905-911	flišne	_	_	_	HAS\_CAUSE[68]	_	
+5-17	912-921	naplavine	_	_	_	HAS\_CAUSE[68]	_	
+5-18	922-924	in	_	_	_	_	_	
+5-19	925-932	kemično	_	_	_	HAS\_CAUSE[69]	_	
+5-20	933-943	denudacijo	_	_	_	HAS\_CAUSE[69]	_	
+5-21	944-954	karbonatne	_	D.1 Abiotic[9]	_	HAS\_CAUSE[69]	_	
+5-22	955-962	podlage	_	D.1 Abiotic[9]	_	HAS\_CAUSE[69]	_	
+5-23	963-965	na	_	_	_	HAS\_CAUSE[69]|HAS\_LOCATION[70]	_	
+5-24	966-974	območjih	_	_	_	HAS\_CAUSE[69]|HAS\_LOCATION[70]	_	
+5-25	975-982	vršajev	_	_	_	HAS\_CAUSE[69]|HAS\_LOCATION[70]	_	
+5-26	982-983	.	_	_	_	_	_	
+
+#Text=Vrtače se pogosto nahajajo na karbonatih in evaporitih (Williams, 2006). Po obliki jih Slovenska kraška terminologija (Gams in sod., 1973) deli na skledaste, lijakaste, kotlaste in vodnjakaste. Po nastanku pa jih ločimo na korozijske, udorne, sufozijske in posedne (Ford, Williams, 2007). Veliko gostoto vrtač najdemo na apnencih, na dolomitih jih navadno ni, razvijejo se tudi na pleistocenskih in oligocenskih konglomeratih. Na njihovo razporeditev vpliva tudi relief, saj se manj pogosto pojavljajo na strmih pobočjih, zato sta pobočni naklon in gostota vrtač obratno sorazmerna. Odvisne so tudi od skladovitosti apnencev.
+6-1	985-991	Vrtače	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-2	992-994	se	_	_	DEFINITOR[40]	HAS\_LOCATION[71]	_	
+6-3	995-1002	pogosto	_	_	DEFINITOR[40]	HAS\_LOCATION[71]	_	
+6-4	1003-1011	nahajajo	_	_	DEFINITOR[40]	HAS\_LOCATION[71]	_	
+6-5	1012-1014	na	_	_	_	HAS\_LOCATION[71]	_	
+6-6	1015-1025	karbonatih	_	D.1 Abiotic	_	HAS\_LOCATION[71]	_	
+6-7	1026-1028	in	_	_	_	HAS\_LOCATION[71]	_	
+6-8	1029-1039	evaporitih	_	D.1 Abiotic	_	HAS\_LOCATION[71]	_	
+6-9	1040-1041	(	_	_	_	_	_	
+6-10	1041-1049	Williams	_	_	_	_	_	
+6-11	1049-1050	,	_	_	_	_	_	
+6-12	1051-1055	2006	_	_	_	_	_	
+6-13	1055-1056	)	_	_	_	_	_	
+6-14	1056-1057	.	_	_	_	_	_	
+6-15	1058-1060	Po	_	_	_	_	_	
+6-16	1061-1067	obliki	_	_	_	_	_	
+6-17	1068-1071	jih	_	_	_	_	_	
+6-18	1071-1072	 	_	_	_	_	_	
+6-19	1072-1081	Slovenska	_	_	_	_	_	
+6-20	1082-1088	kraška	_	_	_	_	_	
+6-21	1089-1102	terminologija	_	_	_	_	_	
+6-22	1102-1103	 	_	_	_	_	_	
+6-23	1103-1104	(	_	_	_	_	_	
+6-24	1104-1108	Gams	_	_	_	_	_	
+6-25	1109-1111	in	_	_	_	_	_	
+6-26	1112-1115	sod	_	_	_	_	_	
+6-27	1115-1116	.	_	_	_	_	_	
+6-28	1116-1117	,	_	_	_	_	_	
+6-29	1118-1122	1973	_	_	_	_	_	
+6-30	1122-1123	)	_	_	_	_	_	
+6-31	1124-1128	deli	_	_	_	HAS\_FORM[72]	_	
+6-32	1129-1131	na	_	_	_	HAS\_FORM[72]	_	
+6-33	1132-1141	skledaste	skledasta vrtača	_	SPECIES	HAS\_FORM[72]	_	
+6-34	1141-1142	,	_	_	_	HAS\_FORM[72]	_	
+6-35	1143-1152	lijakaste	lijakasta vrtača	_	SPECIES	HAS\_FORM[72]	_	
+6-36	1152-1153	,	_	_	_	HAS\_FORM[72]	_	
+6-37	1154-1162	kotlaste	kotlasta vrtača	_	SPECIES	HAS\_FORM[72]	_	
+6-38	1163-1165	in	_	_	_	HAS\_FORM[72]	_	
+6-39	1166-1177	vodnjakaste	vodnjakasta vrtača	_	SPECIES	HAS\_FORM[72]	_	
+6-40	1177-1178	.	_	_	_	_	_	
+6-41	1179-1181	Po	_	_	_	_	_	
+6-42	1182-1190	nastanku	_	_	_	_	_	
+6-43	1191-1193	pa	_	_	_	_	_	
+6-44	1194-1197	jih	_	_	_	HAS\_CAUSE[73]	_	
+6-45	1198-1204	ločimo	_	_	_	HAS\_CAUSE[73]	_	
+6-46	1205-1207	na	_	_	_	HAS\_CAUSE[73]	_	
+6-47	1208-1218	korozijske	korozijska vrtača	_	SPECIES	HAS\_CAUSE[73]	_	
+6-48	1218-1219	,	_	_	_	HAS\_CAUSE[73]	_	
+6-49	1220-1226	udorne	udorna vrtača	_	SPECIES	HAS\_CAUSE[73]	_	
+6-50	1226-1227	,	_	_	_	HAS\_CAUSE[73]	_	
+6-51	1228-1238	sufozijske	sufozijska vrtača	_	SPECIES	HAS\_CAUSE[73]	_	
+6-52	1239-1241	in	_	_	_	HAS\_CAUSE[73]	_	
+6-53	1242-1249	posedne	posedna vrtača	_	SPECIES	HAS\_CAUSE[73]	_	
+6-54	1250-1251	(	_	_	_	_	_	
+6-55	1251-1255	Ford	_	_	_	_	_	
+6-56	1255-1256	,	_	_	_	_	_	
+6-57	1257-1265	Williams	_	_	_	_	_	
+6-58	1265-1266	,	_	_	_	_	_	
+6-59	1267-1271	2007	_	_	_	_	_	
+6-60	1271-1272	)	_	_	_	_	_	
+6-61	1272-1273	.	_	_	_	_	_	
+6-62	1274-1280	Veliko	_	_	_	_	_	
+6-63	1281-1288	gostoto	_	_	_	_	_	
+6-64	1289-1294	vrtač	_	_	_	_	_	
+6-65	1295-1302	najdemo	_	_	_	_	_	
+6-66	1303-1305	na	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-67	1306-1314	apnencih	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[74]	_	
+6-68	1314-1315	,	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-69	1316-1318	na	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-70	1319-1328	dolomitih	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[74]	_	
+6-71	1329-1332	jih	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-72	1333-1340	navadno	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-73	1341-1343	ni	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-74	1343-1344	,	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-75	1345-1354	razvijejo	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-76	1355-1357	se	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-77	1358-1362	tudi	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-78	1363-1365	na	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-79	1366-1380	pleistocenskih	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-80	1381-1383	in	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-81	1384-1396	oligocenskih	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+6-82	1397-1410	konglomeratih	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[74]	_	
+6-83	1410-1411	.	_	_	_	_	_	
+6-84	1412-1414	Na	_	_	_	_	_	
+6-85	1415-1422	njihovo	_	_	_	_	_	
+6-86	1423-1435	razporeditev	_	_	_	_	_	
+6-87	1436-1442	vpliva	_	_	_	_	_	
+6-88	1443-1447	tudi	_	_	_	_	_	
+6-89	1448-1454	relief	_	_	_	_	_	
+6-90	1454-1455	,	_	_	_	_	_	
+6-91	1456-1459	saj	_	_	_	_	_	
+6-92	1460-1462	se	_	_	_	_	_	
+6-93	1463-1467	manj	_	_	_	HAS\_LOCATION[75]	_	
+6-94	1468-1475	pogosto	_	_	_	HAS\_LOCATION[75]	_	
+6-95	1476-1486	pojavljajo	_	_	_	HAS\_LOCATION[75]	_	
+6-96	1487-1489	na	_	_	_	HAS\_LOCATION[75]	_	
+6-97	1490-1496	strmih	_	_	_	HAS\_LOCATION[75]	_	
+6-98	1497-1505	pobočjih	_	_	_	HAS\_LOCATION[75]	_	
+6-99	1505-1506	,	_	_	_	_	_	
+6-100	1507-1511	zato	_	_	_	_	_	
+6-101	1512-1515	sta	_	_	_	_	_	
+6-102	1516-1523	pobočni	_	_	_	_	_	
+6-103	1524-1530	naklon	_	_	_	_	_	
+6-104	1531-1533	in	_	_	_	_	_	
+6-105	1534-1541	gostota	_	_	_	_	_	
+6-106	1542-1547	vrtač	_	_	_	_	_	
+6-107	1548-1555	obratno	_	_	_	_	_	
+6-108	1556-1566	sorazmerna	_	_	_	_	_	
+6-109	1566-1567	.	_	_	_	_	_	
+6-110	1568-1575	Odvisne	_	_	_	_	_	
+6-111	1576-1578	so	_	_	_	_	_	
+6-112	1579-1583	tudi	_	_	_	_	_	
+6-113	1584-1586	od	_	_	_	_	_	
+6-114	1587-1600	skladovitosti	_	_	_	_	_	
+6-115	1601-1609	apnencev	_	_	_	_	_	
+6-116	1609-1610	.	_	_	_	_	_	
+
+#Text=Kadar podzemna voda razširi razpoke do te mere, da se razvijejo kraški vodonosniki oziroma jame, govorimo o terciarni poroznosti.
+7-1	1612-1617	Kadar	_	_	_	_	_	
+7-2	1618-1626	podzemna	_	D.1 Abiotic[10]	_	_	_	
+7-3	1627-1631	voda	_	D.1 Abiotic[10]	_	_	_	
+7-4	1632-1639	razširi	_	_	_	_	_	
+7-5	1640-1647	razpoke	_	D.1 Abiotic	_	_	_	
+7-6	1648-1650	do	_	_	_	HAS\_RESULT[76]	_	
+7-7	1651-1653	te	_	_	_	HAS\_RESULT[76]	_	
+7-8	1654-1658	mere	_	_	_	HAS\_RESULT[76]	_	
+7-9	1658-1659	,	_	_	_	HAS\_RESULT[76]	_	
+7-10	1660-1662	da	_	_	_	HAS\_RESULT[76]	_	
+7-11	1663-1665	se	_	_	_	HAS\_RESULT[76]	_	
+7-12	1666-1675	razvijejo	_	_	_	HAS\_RESULT[76]	_	
+7-13	1675-1676	 	_	_	_	HAS\_RESULT[76]	_	
+7-14	1676-1682	kraški	_	C. Geome[11]	_	HAS\_RESULT[76]	_	
+7-15	1683-1694	vodonosniki	_	C. Geome[11]	_	HAS\_RESULT[76]	_	
+7-16	1694-1695	 	_	_	_	HAS\_RESULT[76]	_	
+7-17	1695-1702	oziroma	_	_	_	HAS\_RESULT[76]	_	
+7-18	1703-1707	jame	_	A.2 Underground landform	_	HAS\_RESULT[76]	_	
+7-19	1707-1708	,	_	_	_	_	_	
+7-20	1709-1717	govorimo	_	_	DEFINITOR[41]	_	_	
+7-21	1718-1719	o	_	_	DEFINITOR[41]	_	_	
+7-22	1720-1729	terciarni	_	D.3 Property[12]	DEFINIENDUM[42]	_	_	
+7-23	1730-1740	poroznosti	_	D.3 Property[12]	DEFINIENDUM[42]	_	_	
+7-24	1740-1741	.	_	_	_	_	_	
+
+#Text=Požiralnik, ponikva oziroma ponor je lijakasta odprtina v tleh zakraselega območja, kjer površinsko tekoča voda izginja v podzemlje.
+8-1	1743-1753	Požiralnik	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+8-2	1753-1754	,	_	_	_	_	_	
+8-3	1755-1762	ponikva	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+8-4	1763-1770	oziroma	_	_	_	_	_	
+8-5	1770-1771	 	_	_	_	_	_	
+8-6	1771-1776	ponor	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+8-7	1777-1779	je	_	_	DEFINITOR	_	_	
+8-8	1780-1789	lijakasta	_	D.1 Abiotic[13]	_	HAS\_FORM	_	
+8-9	1790-1798	odprtina	_	D.1 Abiotic[13]	GENUS[43]	_	_	
+8-10	1798-1799	 	_	_	GENUS[43]	_	_	
+8-11	1799-1800	v	_	_	_	HAS\_LOCATION[77]	_	
+8-12	1801-1805	tleh	_	_	_	HAS\_LOCATION[77]	_	
+8-13	1806-1817	zakraselega	_	_	_	HAS\_LOCATION[77]	_	
+8-14	1818-1825	območja	_	_	_	HAS\_LOCATION[77]	_	
+8-15	1825-1826	,	_	_	_	_	_	
+8-16	1827-1831	kjer	_	_	_	_	_	
+8-17	1832-1842	površinsko	_	_	_	HAS\_FUNCTION[78]	_	
+8-18	1843-1849	tekoča	_	_	_	HAS\_FUNCTION[78]	_	
+8-19	1850-1854	voda	_	_	_	HAS\_FUNCTION[78]	_	
+8-20	1855-1862	izginja	_	_	_	HAS\_FUNCTION[78]	_	
+8-21	1863-1864	v	_	_	_	HAS\_FUNCTION[78]	_	
+8-22	1865-1874	podzemlje	_	_	_	HAS\_FUNCTION[78]	_	
+8-23	1874-1875	.	_	_	_	_	_	
+
+#Text=Za osameli kras je značilno, da se na njem ne pojavljajo največje kraške oblike, kot so kraška polja, uvale in daljši jamski sistemi. Tu najdemo manjše kraške pojave, vrtače, kotliče, manjše ponikalnice in manjše jame.
+9-1	1877-1879	Za	_	_	_	_	_	
+9-2	1879-1880	 	_	_	_	_	_	
+9-3	1880-1887	osameli	_	C. Geome[14]	DEFINIENDUM[44]	_	_	
+9-4	1888-1892	kras	_	C. Geome[14]	DEFINIENDUM[44]	_	_	
+9-5	1892-1893	 	_	_	_	_	_	
+9-6	1893-1895	je	_	_	_	_	_	
+9-7	1896-1904	značilno	_	_	_	_	_	
+9-8	1904-1905	,	_	_	_	_	_	
+9-9	1906-1908	da	_	_	_	_	_	
+9-10	1909-1911	se	_	_	_	CONTAINS[79]	_	
+9-11	1912-1914	na	_	_	_	CONTAINS[79]	_	
+9-12	1915-1919	njem	_	_	_	CONTAINS[79]	_	
+9-13	1920-1922	ne	_	_	_	CONTAINS[79]	_	
+9-14	1923-1933	pojavljajo	_	_	_	CONTAINS[79]	_	
+9-15	1934-1942	največje	_	_	_	CONTAINS[79]	_	
+9-16	1943-1949	kraške	_	_	_	CONTAINS[79]	_	
+9-17	1950-1956	oblike	_	_	_	CONTAINS[79]	_	
+9-18	1956-1957	,	_	_	_	CONTAINS[79]	_	
+9-19	1958-1961	kot	_	_	_	CONTAINS[79]	_	
+9-20	1962-1964	so	_	_	_	CONTAINS[79]	_	
+9-21	1965-1971	kraška	_	A.1 Surface landform[15]	_	CONTAINS[79]	_	
+9-22	1972-1977	polja	_	A.1 Surface landform[15]	_	CONTAINS[79]	_	
+9-23	1977-1978	,	_	_	_	CONTAINS[79]	_	
+9-24	1979-1984	uvale	_	A.1 Surface landform	_	CONTAINS[79]	_	
+9-25	1985-1987	in	_	_	_	CONTAINS[79]	_	
+9-26	1988-1994	daljši	_	_	_	CONTAINS[79]	_	
+9-27	1995-2001	jamski	_	_	_	CONTAINS[79]	_	
+9-28	2002-2009	sistemi	_	_	_	CONTAINS[79]	_	
+9-29	2009-2010	.	_	_	_	_	_	
+9-30	2011-2013	Tu	_	_	_	CONTAINS[80]	_	
+9-31	2014-2021	najdemo	_	_	_	CONTAINS[80]	_	
+9-32	2022-2028	manjše	_	_	_	CONTAINS[80]	_	
+9-33	2029-2035	kraške	_	_	_	CONTAINS[80]	_	
+9-34	2036-2042	pojave	_	_	_	CONTAINS[80]	_	
+9-35	2042-2043	,	_	_	_	CONTAINS[80]	_	
+9-36	2044-2050	vrtače	_	A.1 Surface landform	_	CONTAINS[80]	_	
+9-37	2050-2051	,	_	_	_	CONTAINS[80]	_	
+9-38	2052-2059	kotliče	_	A.1 Surface landform	_	CONTAINS[80]	_	
+9-39	2059-2060	,	_	_	_	CONTAINS[80]	_	
+9-40	2061-2067	manjše	_	_	_	CONTAINS[80]	_	
+9-41	2068-2079	ponikalnice	_	A.3 Hydrological form	_	CONTAINS[80]	_	
+9-42	2080-2082	in	_	_	_	CONTAINS[80]	_	
+9-43	2083-2089	manjše	_	_	_	CONTAINS[80]	_	
+9-44	2090-2094	jame	_	A.2 Underground landform	_	CONTAINS[80]	_	
+9-45	2094-2095	.	_	_	_	_	_	
+
+#Text=Za ponorni tip kontaktnega krasa so značilne površinske oblike slepe doline in ponorni zatrepi (Mihevc, 1991), suhe doline, skupine udornic v kraškem zaledju večjih ponorov (Stepišnik, 2010) in reliktni vršaji (Stepišnik in sod., 2007).
+10-1	2097-2099	Za	_	_	_	_	_	
+10-2	2100-2107	ponorni	_	_	DEFINIENDUM[45]	_	_	
+10-3	2108-2111	tip	_	_	DEFINIENDUM[45]	_	_	
+10-4	2112-2123	kontaktnega	_	C. Geome[16]	DEFINIENDUM[45]	_	_	
+10-5	2123-2124	 	_	C. Geome[16]	DEFINIENDUM[45]	_	_	
+10-6	2124-2129	krasa	_	C. Geome[16]	DEFINIENDUM[45]	_	_	
+10-7	2130-2132	so	_	_	DEFINITOR[46]	_	_	
+10-8	2133-2141	značilne	_	_	DEFINITOR[46]	_	_	
+10-9	2142-2152	površinske	_	_	_	CONTAINS[81]	_	
+10-10	2153-2159	oblike	_	_	_	CONTAINS[81]	_	
+10-11	2159-2160	 	_	_	_	CONTAINS[81]	_	
+10-12	2160-2165	slepe	_	A.1 Surface landform[17]	_	CONTAINS[81]	_	
+10-13	2166-2172	doline	_	A.1 Surface landform[17]	_	CONTAINS[81]	_	
+10-14	2173-2175	in	_	_	_	CONTAINS[81]	_	
+10-15	2176-2183	ponorni	_	A.1 Surface landform[18]	_	CONTAINS[81]	_	
+10-16	2184-2191	zatrepi	_	A.1 Surface landform[18]	_	CONTAINS[81]	_	
+10-17	2192-2193	(	_	_	_	CONTAINS[81]	_	
+10-18	2193-2199	Mihevc	_	_	_	CONTAINS[81]	_	
+10-19	2199-2200	,	_	_	_	CONTAINS[81]	_	
+10-20	2201-2205	1991	_	_	_	CONTAINS[81]	_	
+10-21	2205-2206	)	_	_	_	CONTAINS[81]	_	
+10-22	2206-2207	,	_	_	_	CONTAINS[81]	_	
+10-23	2208-2212	suhe	_	A.1 Surface landform[19]	_	CONTAINS[81]	_	
+10-24	2213-2219	doline	_	A.1 Surface landform[19]	_	CONTAINS[81]	_	
+10-25	2219-2220	,	_	_	_	CONTAINS[81]	_	
+10-26	2221-2228	skupine	_	_	_	CONTAINS[81]	_	
+10-27	2229-2236	udornic	_	A.1 Surface landform	_	CONTAINS[81]	_	
+10-28	2237-2238	v	_	_	_	CONTAINS[81]	_	
+10-29	2239-2246	kraškem	_	_	_	CONTAINS[81]	_	
+10-30	2247-2254	zaledju	_	_	_	CONTAINS[81]	_	
+10-31	2255-2261	večjih	_	_	_	CONTAINS[81]	_	
+10-32	2262-2269	ponorov	_	_	_	CONTAINS[81]	_	
+10-33	2270-2271	(	_	_	_	CONTAINS[81]	_	
+10-34	2271-2280	Stepišnik	_	_	_	CONTAINS[81]	_	
+10-35	2280-2281	,	_	_	_	CONTAINS[81]	_	
+10-36	2282-2286	2010	_	_	_	CONTAINS[81]	_	
+10-37	2286-2287	)	_	_	_	CONTAINS[81]	_	
+10-38	2288-2290	in	_	_	_	CONTAINS[81]	_	
+10-39	2291-2299	reliktni	_	_	_	CONTAINS[81]	_	
+10-40	2300-2306	vršaji	_	_	_	CONTAINS[81]	_	
+10-41	2307-2308	(	_	_	_	_	_	
+10-42	2308-2317	Stepišnik	_	_	_	_	_	
+10-43	2318-2320	in	_	_	_	_	_	
+10-44	2321-2324	sod	_	_	_	_	_	
+10-45	2324-2325	.	_	_	_	_	_	
+10-46	2325-2326	,	_	_	_	_	_	
+10-47	2327-2331	2007	_	_	_	_	_	
+10-48	2331-2332	)	_	_	_	_	_	
+10-49	2332-2333	.	_	_	_	_	_	
+
+#Text=Kontaktni kras je poseben tip oblikovanosti in delovanja površja, ki je na območjih, kjer vode pritekajo iz fluvialnega geomorfnega sistema v kraškega ali obratno (Mihevc, 1991).
+11-1	2335-2344	Kontaktni	_	C. Geome[20]	DEFINIENDUM[47]	_	_	
+11-2	2344-2345	 	_	C. Geome[20]	DEFINIENDUM[47]	_	_	
+11-3	2345-2349	kras	_	C. Geome[20]	DEFINIENDUM[47]	_	_	
+11-4	2350-2352	je	_	_	DEFINITOR	_	_	
+11-5	2353-2360	poseben	_	_	_	HAS\_ATTRIBUTE[82]	_	
+11-6	2361-2364	tip	_	_	_	HAS\_ATTRIBUTE[82]	_	
+11-7	2364-2365	 	_	_	_	HAS\_ATTRIBUTE[82]	_	
+11-8	2365-2378	oblikovanosti	_	_	_	HAS\_ATTRIBUTE[82]	_	
+11-9	2379-2381	in	_	_	_	HAS\_ATTRIBUTE[82]	_	
+11-10	2382-2391	delovanja	_	_	_	HAS\_ATTRIBUTE[82]	_	
+11-11	2392-2399	površja	_	_	_	HAS\_ATTRIBUTE[82]	_	
+11-12	2399-2400	,	_	_	_	_	_	
+11-13	2401-2403	ki	_	_	_	_	_	
+11-14	2404-2406	je	_	_	_	_	_	
+11-15	2407-2409	na	_	_	_	HAS\_LOCATION[83]	_	
+11-16	2410-2418	območjih	_	_	_	HAS\_LOCATION[83]	_	
+11-17	2418-2419	,	_	_	_	HAS\_LOCATION[83]	_	
+11-18	2420-2424	kjer	_	_	_	HAS\_LOCATION[83]	_	
+11-19	2425-2429	vode	_	_	_	HAS\_LOCATION[83]	_	
+11-20	2430-2439	pritekajo	_	_	_	HAS\_LOCATION[83]	_	
+11-21	2440-2442	iz	_	_	_	HAS\_LOCATION[83]	_	
+11-22	2443-2454	fluvialnega	_	_	_	HAS\_LOCATION[83]	_	
+11-23	2455-2466	geomorfnega	_	_	_	HAS\_LOCATION[83]	_	
+11-24	2467-2474	sistema	_	_	_	HAS\_LOCATION[83]	_	
+11-25	2475-2476	v	_	_	_	HAS\_LOCATION[83]	_	
+11-26	2477-2485	kraškega	_	_	_	HAS\_LOCATION[83]	_	
+11-27	2486-2489	ali	_	_	_	HAS\_LOCATION[83]	_	
+11-28	2490-2497	obratno	_	_	_	HAS\_LOCATION[83]	_	
+11-29	2498-2499	(	_	_	_	_	_	
+11-30	2499-2505	Mihevc	_	_	_	_	_	
+11-31	2505-2506	,	_	_	_	_	_	
+11-32	2507-2511	1991	_	_	_	_	_	
+11-33	2511-2512	)	_	_	_	_	_	
+11-34	2512-2513	.	_	_	_	_	_	
+
+#Text=Slepa dolina je ena od najpogostejših oblik kontaktnega krasa. To je dolina, ki jo oblikujejo fluvialni procesi, ki se končajo ob vznožju prepadnega ali strmega pobočja, kjer reka, ki je dolino izdolbla, ponika v jamski sistem.
+12-1	2515-2520	Slepa	_	A.1 Surface landform[21]	DEFINIENDUM[48]	_	_	
+12-2	2521-2527	dolina	_	A.1 Surface landform[21]	DEFINIENDUM[48]	_	_	
+12-3	2528-2530	je	_	_	DEFINITOR[49]	_	_	
+12-4	2531-2534	ena	_	_	DEFINITOR[49]	_	_	
+12-5	2535-2537	od	_	_	DEFINITOR[49]	_	_	
+12-6	2538-2552	najpogostejših	_	_	DEFINITOR[49]	_	_	
+12-7	2553-2558	oblik	_	_	DEFINITOR[49]	_	_	
+12-8	2559-2570	kontaktnega	_	C. Geome[22]	_	COMPOSITION\_MEDIUM[84]	_	
+12-9	2571-2576	krasa	_	C. Geome[22]	_	COMPOSITION\_MEDIUM[84]	_	
+12-10	2576-2577	.	_	_	_	_	_	
+12-11	2578-2580	To	_	_	_	_	_	
+12-12	2581-2583	je	_	_	_	_	_	
+12-13	2584-2590	dolina	_	D.1 Abiotic	GENUS	_	_	
+12-14	2590-2591	,	_	_	_	_	_	
+12-15	2592-2594	ki	_	_	_	HAS\_CAUSE[85]	_	
+12-16	2595-2597	jo	_	_	_	HAS\_CAUSE[85]	_	
+12-17	2598-2608	oblikujejo	_	_	_	HAS\_CAUSE[85]	_	
+12-18	2609-2618	fluvialni	_	B. Process[23]	_	HAS\_CAUSE[85]	_	
+12-19	2619-2626	procesi	_	B. Process[23]	_	HAS\_CAUSE[85]	_	
+12-20	2626-2627	,	_	_	_	HAS\_CAUSE[85]	_	
+12-21	2628-2630	ki	_	_	_	_	_	
+12-22	2631-2633	se	_	_	_	_	_	
+12-23	2634-2641	končajo	_	_	_	_	_	
+12-24	2642-2644	ob	_	_	_	_	_	
+12-25	2645-2652	vznožju	_	_	_	_	_	
+12-26	2653-2663	prepadnega	_	_	_	_	_	
+12-27	2664-2667	ali	_	_	_	_	_	
+12-28	2668-2675	strmega	_	_	_	_	_	
+12-29	2676-2683	pobočja	_	_	_	_	_	
+12-30	2683-2684	,	_	_	_	_	_	
+12-31	2685-2689	kjer	_	_	_	HAS\_LOCATION[86]	_	
+12-32	2690-2694	reka	_	_	_	HAS\_LOCATION[86]	_	
+12-33	2694-2695	,	_	_	_	HAS\_LOCATION[86]	_	
+12-34	2696-2698	ki	_	_	_	HAS\_LOCATION[86]	_	
+12-35	2699-2701	je	_	_	_	HAS\_LOCATION[86]	_	
+12-36	2702-2708	dolino	_	_	_	HAS\_LOCATION[86]	_	
+12-37	2709-2717	izdolbla	_	_	_	HAS\_LOCATION[86]	_	
+12-38	2717-2718	,	_	_	_	HAS\_LOCATION[86]	_	
+12-39	2719-2725	ponika	_	_	_	HAS\_LOCATION[86]	_	
+12-40	2726-2727	v	_	_	_	HAS\_LOCATION[86]	_	
+12-41	2728-2734	jamski	_	A.2 Underground landform[24]	_	HAS\_LOCATION[86]	_	
+12-42	2735-2741	sistem	_	A.2 Underground landform[24]	_	HAS\_LOCATION[86]	_	
+12-43	2741-2742	.	_	_	_	_	_	
+
+#Text=Zatrepna dolina je značilna površinska oblika izvirnega kontaktnega krasa, ki nastane na območju izvirov, kjer vode pritekajo iz kraške kamnine.
+13-1	2744-2752	Zatrepna	_	A.1 Surface landform[25]	DEFINIENDUM[50]	_	_	
+13-2	2753-2759	dolina	_	A.1 Surface landform[25]	DEFINIENDUM[50]	_	_	
+13-3	2760-2762	je	_	_	DEFINITOR[51]	_	_	
+13-4	2763-2771	značilna	_	_	DEFINITOR[51]	_	_	
+13-5	2772-2782	površinska	_	_	GENUS[52]	_	_	
+13-6	2783-2789	oblika	_	_	GENUS[52]	_	_	
+13-7	2789-2790	 	_	_	_	_	_	
+13-8	2790-2799	izvirnega	_	_	_	_	_	
+13-9	2800-2811	kontaktnega	_	C. Geome[26]	_	_	_	
+13-10	2812-2817	krasa	_	C. Geome[26]	_	_	_	
+13-11	2817-2818	,	_	_	_	_	_	
+13-12	2819-2821	ki	_	_	_	HAS\_CAUSE[87]	_	
+13-13	2822-2829	nastane	_	_	_	HAS\_CAUSE[87]	_	
+13-14	2830-2832	na	_	_	_	HAS\_CAUSE[87]	_	
+13-15	2833-2840	območju	_	_	_	HAS\_CAUSE[87]	_	
+13-16	2841-2848	izvirov	_	A.3 Hydrological form	_	HAS\_CAUSE[87]	_	
+13-17	2848-2849	,	_	_	_	HAS\_CAUSE[87]	_	
+13-18	2850-2854	kjer	_	_	_	HAS\_CAUSE[87]	_	
+13-19	2855-2859	vode	_	B.1 Movement[27]	_	HAS\_CAUSE[87]	_	
+13-20	2860-2869	pritekajo	_	B.1 Movement[27]	_	HAS\_CAUSE[87]	_	
+13-21	2870-2872	iz	_	B.1 Movement[27]	_	HAS\_CAUSE[87]	_	
+13-22	2873-2879	kraške	_	B.1 Movement[27]	_	HAS\_CAUSE[87]	_	
+13-23	2880-2887	kamnine	_	B.1 Movement[27]	_	HAS\_CAUSE[87]	_	
+13-24	2887-2888	.	_	_	_	_	_	
+
+#Text=Posebna reliefna oblika, ki kaže na akumulacijo, so tako imenovani reliktni vršaji (Stepišnik et al, 2007) oziroma psevdovršaji (Gams, 2004). Pri reliktnih vršajih je prišlo, v primerjavi s "pravimi" vršaji, do prekinitve fluvialne akumulacije alohtonega materiala ter postopnega preoblikovanja te oblike z denudacijo alohtonih nanosov v obliko na karbonatni podlagi. V karbonatni kamnini so se ohranile oblike vršajev, ki so bili nekoč razviti na tem površju (Stepišnik et al, 2007). 
+14-1	2890-2897	Posebna	_	_	_	_	_	
+14-2	2898-2906	reliefna	_	A.1 Surface landform[28]	GENUS[53]	_	_	
+14-3	2907-2913	oblika	_	A.1 Surface landform[28]	GENUS[53]	_	_	
+14-4	2913-2914	,	_	_	_	_	_	
+14-5	2915-2917	ki	_	_	_	_	_	
+14-6	2918-2922	kaže	_	_	_	_	_	
+14-7	2923-2925	na	_	_	_	_	_	
+14-8	2926-2937	akumulacijo	_	B.3 Addition	_	HAS\_CAUSE	_	
+14-9	2937-2938	,	_	_	_	_	_	
+14-10	2939-2941	so	_	_	DEFINITOR	_	_	
+14-11	2942-2946	tako	_	_	_	_	_	
+14-12	2947-2956	imenovani	_	_	_	_	_	
+14-13	2956-2957	 	_	_	_	_	_	
+14-14	2957-2965	reliktni	_	A.1 Surface landform[29]	DEFINIENDUM[54]	_	_	
+14-15	2966-2972	vršaji	_	A.1 Surface landform[29]	DEFINIENDUM[54]	_	_	
+14-16	2972-2973	 	_	_	_	_	_	
+14-17	2973-2974	(	_	_	_	_	_	
+14-18	2974-2983	Stepišnik	_	_	_	_	_	
+14-19	2984-2986	et	_	_	_	_	_	
+14-20	2987-2989	al	_	_	_	_	_	
+14-21	2989-2990	,	_	_	_	_	_	
+14-22	2991-2995	2007	_	_	_	_	_	
+14-23	2995-2996	)	_	_	_	_	_	
+14-24	2997-3004	oziroma	_	_	_	_	_	
+14-25	3005-3017	psevdovršaji	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-26	3018-3019	(	_	_	_	_	_	
+14-27	3019-3023	Gams	_	_	_	_	_	
+14-28	3023-3024	,	_	_	_	_	_	
+14-29	3025-3029	2004	_	_	_	_	_	
+14-30	3029-3030	)	_	_	_	_	_	
+14-31	3030-3031	.	_	_	_	_	_	
+14-32	3032-3035	Pri	_	_	_	_	_	
+14-33	3036-3045	reliktnih	_	_	_	_	_	
+14-34	3046-3053	vršajih	_	_	_	_	_	
+14-35	3054-3056	je	_	_	_	_	_	
+14-36	3057-3063	prišlo	_	_	_	_	_	
+14-37	3063-3064	,	_	_	_	_	_	
+14-38	3065-3066	v	_	_	_	_	_	
+14-39	3067-3077	primerjavi	_	_	_	_	_	
+14-40	3078-3079	s	_	_	_	_	_	
+14-41	3080-3081	"	_	_	_	_	_	
+14-42	3081-3088	pravimi	_	_	_	_	_	
+14-43	3088-3089	"	_	_	_	_	_	
+14-44	3090-3096	vršaji	_	_	_	_	_	
+14-45	3096-3097	,	_	_	_	_	_	
+14-46	3098-3100	do	_	_	_	_	_	
+14-47	3101-3111	prekinitve	_	_	_	HAS\_CAUSE[88]	_	
+14-48	3112-3121	fluvialne	_	B.3 Addition[30]	_	HAS\_CAUSE[88]	_	
+14-49	3122-3133	akumulacije	_	B.3 Addition[30]	_	HAS\_CAUSE[88]	_	
+14-50	3134-3144	alohtonega	_	_	_	HAS\_CAUSE[88]	_	
+14-51	3145-3154	materiala	_	_	_	HAS\_CAUSE[88]	_	
+14-52	3155-3158	ter	_	_	_	_	_	
+14-53	3159-3169	postopnega	_	_	_	HAS\_CAUSE[89]	_	
+14-54	3170-3184	preoblikovanja	_	B.4 Transformation	_	HAS\_CAUSE[89]	_	
+14-55	3185-3187	te	_	_	_	HAS\_CAUSE[89]	_	
+14-56	3188-3194	oblike	_	_	_	HAS\_CAUSE[89]	_	
+14-57	3195-3196	z	_	_	_	HAS\_CAUSE[89]	_	
+14-58	3197-3207	denudacijo	_	B.2 Loss	_	HAS\_CAUSE[89]	_	
+14-59	3208-3217	alohtonih	_	D.1 Abiotic[31]	_	HAS\_CAUSE[89]	_	
+14-60	3218-3225	nanosov	_	D.1 Abiotic[31]	_	HAS\_CAUSE[89]	_	
+14-61	3226-3227	v	_	_	_	HAS\_CAUSE[89]	_	
+14-62	3228-3234	obliko	_	_	_	HAS\_CAUSE[89]	_	
+14-63	3235-3237	na	_	_	_	HAS\_CAUSE[89]	_	
+14-64	3238-3248	karbonatni	_	_	_	HAS\_CAUSE[89]	_	
+14-65	3249-3256	podlagi	_	_	_	HAS\_CAUSE[89]	_	
+14-66	3256-3257	.	_	_	_	_	_	
+14-67	3258-3259	V	_	_	_	_	_	
+14-68	3260-3270	karbonatni	_	_	_	_	_	
+14-69	3271-3278	kamnini	_	_	_	_	_	
+14-70	3279-3281	so	_	_	_	_	_	
+14-71	3282-3284	se	_	_	_	_	_	
+14-72	3285-3293	ohranile	_	_	_	_	_	
+14-73	3294-3300	oblike	_	_	_	_	_	
+14-74	3301-3308	vršajev	_	_	_	_	_	
+14-75	3308-3309	,	_	_	_	_	_	
+14-76	3310-3312	ki	_	_	_	_	_	
+14-77	3313-3315	so	_	_	_	_	_	
+14-78	3316-3320	bili	_	_	_	_	_	
+14-79	3321-3326	nekoč	_	_	_	_	_	
+14-80	3327-3334	razviti	_	_	_	_	_	
+14-81	3335-3337	na	_	_	_	_	_	
+14-82	3338-3341	tem	_	_	_	_	_	
+14-83	3342-3349	površju	_	_	_	_	_	
+14-84	3350-3351	(	_	_	_	_	_	
+14-85	3351-3360	Stepišnik	_	_	_	_	_	
+14-86	3361-3363	et	_	_	_	_	_	
+14-87	3364-3366	al	_	_	_	_	_	
+14-88	3366-3367	,	_	_	_	_	_	
+14-89	3368-3372	2007	_	_	_	_	_	
+14-90	3372-3373	)	_	_	_	_	_	
+14-91	3373-3374	.	_	_	_	_	_	
+14-92	3374-3375	 	_	_	_	_	_	
+
+#Text=Kraški vodonosnik je masa apnenca, ki zadržuje vodo, ki se steka s kraškega površja v podzemlje. Poleg zadrževanja vode poteka v vodonosniku tudi napajanje z vodo in njeno odtekanje
+15-1	3377-3383	Kraški	_	C. Geome[32]	DEFINIENDUM[55]	_	_	
+15-2	3384-3394	vodonosnik	_	C. Geome[32]	DEFINIENDUM[55]	_	_	
+15-3	3395-3397	je	_	_	DEFINITOR	_	_	
+15-4	3398-3402	masa	_	_	GENUS[56]	HAS\_FUNCTION[90]	_	
+15-5	3403-3410	apnenca	_	D.1 Abiotic	GENUS[56]	HAS\_FUNCTION[90]	_	
+15-6	3410-3411	,	_	_	_	HAS\_FUNCTION[90]	_	
+15-7	3412-3414	ki	_	_	_	HAS\_FUNCTION[90]	_	
+15-8	3415-3423	zadržuje	_	_	_	HAS\_FUNCTION[90]	_	
+15-9	3424-3428	vodo	_	D.1 Abiotic	_	HAS\_FUNCTION[90]	_	
+15-10	3428-3429	,	_	_	_	HAS\_FUNCTION[90]	_	
+15-11	3430-3432	ki	_	_	_	HAS\_FUNCTION[90]	_	
+15-12	3433-3435	se	_	_	_	HAS\_FUNCTION[90]	_	
+15-13	3436-3441	steka	_	_	_	HAS\_FUNCTION[90]	_	
+15-14	3442-3443	s	_	_	_	HAS\_FUNCTION[90]	_	
+15-15	3444-3452	kraškega	_	_	_	HAS\_FUNCTION[90]	_	
+15-16	3453-3460	površja	_	_	_	HAS\_FUNCTION[90]	_	
+15-17	3461-3462	v	_	_	_	HAS\_FUNCTION[90]	_	
+15-18	3463-3472	podzemlje	_	_	_	HAS\_FUNCTION[90]	_	
+15-19	3472-3473	.	_	_	_	_	_	
+15-20	3474-3479	Poleg	_	_	_	_	_	
+15-21	3480-3491	zadrževanja	_	_	_	_	_	
+15-22	3492-3496	vode	_	_	_	_	_	
+15-23	3497-3503	poteka	_	_	_	HAS\_FUNCTION[91]	_	
+15-24	3504-3505	v	_	_	_	HAS\_FUNCTION[91]	_	
+15-25	3506-3517	vodonosniku	_	_	_	HAS\_FUNCTION[91]	_	
+15-26	3518-3522	tudi	_	_	_	HAS\_FUNCTION[91]	_	
+15-27	3523-3532	napajanje	_	B.3 Addition	_	HAS\_FUNCTION[91]	_	
+15-28	3533-3534	z	_	_	_	HAS\_FUNCTION[91]	_	
+15-29	3535-3539	vodo	_	_	_	HAS\_FUNCTION[91]	_	
+15-30	3540-3542	in	_	_	_	HAS\_FUNCTION[91]	_	
+15-31	3543-3548	njeno	_	_	_	HAS\_FUNCTION[91]	_	
+15-32	3549-3558	odtekanje	_	B.2 Loss	_	HAS\_FUNCTION[91]	_	

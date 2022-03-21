@@ -1,0 +1,15 @@
+﻿suženje: Otvor u špilji kroz kojeg se može čovjek provući s velikim naporom jer je uzak.
+stalaktit: Špiljski ukras konična ili cilindrična oblika koji raste sa svoda špilje prema dolje. Izgrađen od kalcita ili nekih drugih minerala koji se izlučuje iz vode koja kapa. 
+stalagmit: Špiljski ukras cilindrična ili konična oblika koji raste s poda špilje prema gore. Izgrađen od kalcita ili nekih drugih minerala koji se izlučuje iz vode koja kapa.
+litica čela doline: Krška dolina strmih padina, općenito kratka, koja završava liticom ispod koje izvire ili je nekada izvirala voda.
+stegamit: Siga koja se izdiže s dna špilje u formi kalcitnog grebena. Duž vrha grebana nalazi se pukotina kroz koju je voda kapilarnom silom potiskivana iz sige.
+slamka: Dugi, cijevasti stalaktit tankih stijenki čiji su izduženi minerali taloženi na donjem vrhu iz vode koja kapa kroz šuplju unutrašnjost stalaktita.
+donji krš: Krš razvijen u vapnencu ili drugim topivim stijenama koji je prekriven drugim stijenama koje su puno manje topive. Krško područje u nekarbonatnim stijenama nastalo zbog prisutnosti karstificiranih stijena ispod površinske formacije, odnosno zbog kolapsa površinskih naslaga u šupljine nastale okršavanjem. 
+špilja sumporaste kiseline: Špilja formirana otapanjem karbonatne stijene izdizanjem iz dubine otopina koje sa sobom nose vodikov sulfid koji oksidacijom prelazi u sumpornu kiselinu.
+sifon: Dio kanala špilje u kojem se strop nalazi ispod razine vode. 
+ždrijelo: Mjesto na dnu vrtače u kršu gdje voda ponire u podzemlje.
+singenetski krš: Krš koji je razvijen istovremeno sa litifikacijom eolskih kalkarenita i grebenskih vapnenaca.
+siparišna špilja: Špilja koja se sastoji od međusobno povezanih prostora između siparišnih blokova.
+pretočni kanal: Relativno kratki, strmi kanal u špilji koji odvodi vodu višeg potoka u potok koji teče na manjoj visini.
+tektonska špilja: Bilo koja špilja formirana mehaničkim kretanjem temeljnih stijena. Kao pokretački mehanizmi često je uključeno rasjedanje i gravitacijsko klizanje.
+prag: Dio špiljskog sustava do kojeg u nekoj mjeri prodire svjetlost

@@ -1,0 +1,289 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Meje območij, od koder se stekajo vode proti različnim izvirom, imenujemo razvodnice.
+1-1	0-4	Meje	_	_	GENUS[29]	_	_	
+1-2	5-12	območij	_	_	GENUS[29]	_	_	
+1-3	12-13	,	_	_	_	_	_	
+1-4	14-16	od	_	_	_	HAS\_RESULT[45]	_	
+1-5	17-22	koder	_	_	_	HAS\_RESULT[45]	_	
+1-6	23-25	se	_	_	_	HAS\_RESULT[45]	_	
+1-7	26-33	stekajo	_	_	_	HAS\_RESULT[45]	_	
+1-8	34-38	vode	_	D.1 Abiotic	_	HAS\_RESULT[45]	_	
+1-9	39-44	proti	_	_	_	HAS\_RESULT[45]	_	
+1-10	45-54	različnim	_	_	_	HAS\_RESULT[45]	_	
+1-11	55-62	izvirom	_	A.3 Hydrological form	_	HAS\_RESULT[45]	_	
+1-12	62-63	,	_	_	_	_	_	
+1-13	64-73	imenujemo	_	_	DEFINITOR	_	_	
+1-14	74-84	razvodnice	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+1-15	84-85	.	_	_	_	_	_	
+
+#Text=Fluviokras je kras, ki je posledica delovanja površinskih tokov in erozije ter denudacije.
+2-1	86-96	Fluviokras	_	C. Geome	DEFINIENDUM	_	_	
+2-2	97-99	je	_	_	DEFINITOR	_	_	
+2-3	100-104	kras	_	C. Geome	GENUS	_	_	
+2-4	104-105	,	_	_	_	_	_	
+2-5	106-108	ki	_	_	_	_	_	
+2-6	109-111	je	_	_	_	_	frame\_CAUSE[62]	
+2-7	112-121	posledica	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[62]	
+2-8	122-131	delovanja	_	B.4 Transformation[1]	_	HAS\_CAUSE[46]	frame\_CAUSE[62]	
+2-9	132-143	površinskih	_	B.4 Transformation[1]|D.1 Abiotic[2]	_	HAS\_CAUSE[46]	_	
+2-10	144-149	tokov	_	B.4 Transformation[1]|D.1 Abiotic[2]	_	HAS\_CAUSE[46]	_	
+2-11	150-152	in	_	_	_	HAS\_CAUSE[46]	_	
+2-12	153-160	erozije	_	B.2 Loss	_	HAS\_CAUSE[46]	_	
+2-13	161-164	ter	_	_	_	HAS\_CAUSE[46]	_	
+2-14	165-175	denudacije	_	B.2 Loss	_	HAS\_CAUSE[46]	_	
+2-15	175-176	.	_	_	_	_	_	
+
+#Text=Fluviokras je kras brez površinskih depresijskih oblik, vrtač ni oziroma jih je manj.
+3-1	177-187	Fluviokras	_	C. Geome	DEFINIENDUM	_	_	
+3-2	188-190	je	_	_	DEFINITOR	_	_	
+3-3	191-195	kras	_	C. Geome	GENUS	_	_	
+3-4	196-200	brez	_	_	_	CONTAINS[47]	frame\_CONTAINS	
+3-5	201-212	površinskih	_	D.1 Abiotic[3]	_	CONTAINS[47]	_	
+3-6	213-225	depresijskih	_	D.1 Abiotic[3]	_	CONTAINS[47]	_	
+3-7	226-231	oblik	_	D.1 Abiotic[3]	_	CONTAINS[47]	_	
+3-8	231-232	,	_	_	_	CONTAINS[47]	_	
+3-9	233-238	vrtač	_	A.1 Surface landform	_	CONTAINS[47]	_	
+3-10	239-241	ni	_	_	_	CONTAINS[47]	_	
+3-11	242-249	oziroma	_	_	_	CONTAINS[47]	_	
+3-12	250-253	jih	_	_	_	CONTAINS[47]	_	
+3-13	254-256	je	_	_	_	CONTAINS[47]	_	
+3-14	257-261	manj	_	_	_	CONTAINS[47]	_	
+3-15	261-262	.	_	_	_	_	_	
+
+#Text=Kontaktni kras je kras na stičišču prepustnih in za vodo neprepustnih kamnin.
+4-1	263-272	Kontaktni	_	C. Geome[4]	DEFINIENDUM[30]	_	_	
+4-2	273-277	kras	_	C. Geome[4]	DEFINIENDUM[30]	_	_	
+4-3	278-280	je	_	_	DEFINITOR	_	_	
+4-4	281-285	kras	_	C. Geome	GENUS	_	_	
+4-5	286-288	na	_	_	_	COMPOSITION\_MEDIUM[48]	frame\_COMPOSITION	
+4-6	289-297	stičišču	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+4-7	298-308	prepustnih	prepustna kamnina	D.1 Abiotic	_	COMPOSITION\_MEDIUM[48]	_	
+4-8	309-311	in	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+4-9	312-314	za	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+4-10	315-319	vodo	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+4-11	320-332	neprepustnih	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[48]	_	
+4-12	333-339	kamnin	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[48]	_	
+4-13	339-340	.	_	_	_	_	_	
+
+#Text=Polsuha dolina je suha dolina, v kateri se občasno pojavlja površinski vodni tok.
+5-1	341-348	Polsuha	_	A.1 Surface landform[6]	DEFINIENDUM[31]	_	_	
+5-2	349-355	dolina	_	A.1 Surface landform[6]	DEFINIENDUM[31]	_	_	
+5-3	356-358	je	_	_	DEFINITOR	_	_	
+5-4	359-363	suha	_	A.1 Surface landform[7]	GENUS[32]	_	_	
+5-5	364-370	dolina	_	A.1 Surface landform[7]	GENUS[32]	_	_	
+5-6	370-371	,	_	_	_	_	_	
+5-7	372-373	v	_	_	_	OCCURS\_IN\_TIME[49]	_	
+5-8	374-380	kateri	_	_	_	OCCURS\_IN\_TIME[49]	frame\_TIME[63]	
+5-9	381-383	se	_	_	_	OCCURS\_IN\_TIME[49]	frame\_TIME[63]	
+5-10	384-391	občasno	_	_	_	OCCURS\_IN\_TIME[49]	frame\_TIME[63]	
+5-11	392-400	pojavlja	_	_	_	OCCURS\_IN\_TIME[49]	_	
+5-12	401-411	površinski	_	A.3 Hydrological form[8]	_	OCCURS\_IN\_TIME[49]	_	
+5-13	412-417	vodni	_	A.3 Hydrological form[8]	_	OCCURS\_IN\_TIME[49]	_	
+5-14	418-421	tok	_	A.3 Hydrological form[8]	_	OCCURS\_IN\_TIME[49]	_	
+5-15	421-422	.	_	_	_	_	_	
+
+#Text=Suhe doline so posledica razpada površinske rečne mreže.
+6-1	423-427	Suhe	_	A.1 Surface landform[9]	DEFINIENDUM[33]	_	_	
+6-2	428-434	doline	_	A.1 Surface landform[9]	DEFINIENDUM[33]	_	_	
+6-3	435-437	so	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[64]	
+6-4	438-447	posledica	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[64]	
+6-5	448-455	razpada	_	_	_	HAS\_CAUSE[50]	_	
+6-6	456-466	površinske	_	A.3 Hydrological form[10]	_	HAS\_CAUSE[50]	_	
+6-7	467-472	rečne	_	A.3 Hydrological form[10]	_	HAS\_CAUSE[50]	_	
+6-8	473-478	mreže	_	A.3 Hydrological form[10]	_	HAS\_CAUSE[50]	_	
+6-9	478-479	.	_	_	_	_	_	
+
+#Text=Suhe doline so značilne oblike tako za normalni oziroma fluvialni relief, kot tudi za kraški relief.
+7-1	480-484	Suhe	_	A.1 Surface landform[11]	DEFINIENDUM[34]	_	_	
+7-2	485-491	doline	_	A.1 Surface landform[11]	DEFINIENDUM[34]	_	_	
+7-3	492-494	so	_	_	DEFINITOR	HAS\_LOCATION[51]	frame\_LOCATION[65]	
+7-4	495-503	značilne	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[65]	
+7-5	504-510	oblike	_	_	GENUS	HAS\_LOCATION[51]	frame\_LOCATION[65]	
+7-6	511-515	tako	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[65]	
+7-7	516-518	za	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[65]	
+7-8	519-527	normalni	normalni relief	C. Geome	_	HAS\_LOCATION[51]	_	
+7-9	528-535	oziroma	_	_	_	HAS\_LOCATION[51]	_	
+7-10	536-545	fluvialni	_	C. Geome[12]	_	HAS\_LOCATION[51]	_	
+7-11	546-552	relief	_	C. Geome[12]	_	HAS\_LOCATION[51]	_	
+7-12	552-553	,	_	_	_	HAS\_LOCATION[51]	_	
+7-13	554-557	kot	_	_	_	HAS\_LOCATION[51]	_	
+7-14	558-562	tudi	_	_	_	HAS\_LOCATION[51]	_	
+7-15	563-565	za	_	_	_	HAS\_LOCATION[51]	_	
+7-16	566-572	kraški	_	C. Geome[13]	_	HAS\_LOCATION[51]	_	
+7-17	573-579	relief	_	C. Geome[13]	_	HAS\_LOCATION[51]	_	
+7-18	579-580	.	_	_	_	_	_	
+
+#Text=Osnovni mehanizem nastanka udornic je rušenje jamskih stropov do površja oziroma udor.
+8-1	581-588	Osnovni	_	_	_	_	frame\_CAUSE[66]	
+8-2	589-598	mehanizem	_	_	_	_	frame\_CAUSE[66]	
+8-3	599-607	nastanka	_	_	_	_	frame\_CAUSE[66]	
+8-4	608-615	udornic	_	A.1 Surface landform	DEFINIENDUM	_	_	
+8-5	616-618	je	_	_	_	_	_	
+8-6	619-626	rušenje	_	B.1 Movement[14]	_	HAS\_CAUSE[52]	_	
+8-7	627-634	jamskih	_	B.1 Movement[14]|A.2 Underground landform[15]	_	HAS\_CAUSE[52]	_	
+8-8	635-642	stropov	_	B.1 Movement[14]|A.2 Underground landform[15]	_	HAS\_CAUSE[52]	_	
+8-9	643-645	do	_	_	_	HAS\_CAUSE[52]	_	
+8-10	646-653	površja	_	_	_	HAS\_CAUSE[52]	_	
+8-11	654-661	oziroma	_	_	_	HAS\_CAUSE[52]	_	
+8-12	662-666	udor	_	B.1 Movement	_	HAS\_CAUSE[52]	_	
+8-13	666-667	.	_	_	_	_	_	
+
+#Text=Strokovna literatura večje udornice imenuje tudi koliševke ali kukave.
+9-1	668-677	Strokovna	_	_	_	_	_	
+9-2	678-688	literatura	_	_	_	_	_	
+9-3	689-694	večje	_	_	_	_	_	
+9-4	695-703	udornice	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-5	704-711	imenuje	_	_	DEFINITOR[35]	_	_	
+9-6	712-716	tudi	_	_	DEFINITOR[35]	_	_	
+9-7	717-726	koliševke	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-8	727-730	ali	_	_	_	_	_	
+9-9	731-737	kukave	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-10	737-738	.	_	_	_	_	_	
+
+#Text=Roglič (1959) je fluviokras definiral kot površje, kjer lahko delujeta tako kraški kot fluvialni geomorfni sistem.
+10-1	739-745	Roglič	_	_	_	_	_	
+10-2	746-747	(	_	_	_	_	_	
+10-3	747-751	1959	_	_	_	_	_	
+10-4	751-752	)	_	_	_	_	_	
+10-5	753-755	je	_	_	_	_	_	
+10-6	756-766	fluviokras	_	C. Geome	DEFINIENDUM	_	_	
+10-7	767-776	definiral	_	_	DEFINITOR[36]	_	_	
+10-8	777-780	kot	_	_	DEFINITOR[36]	_	_	
+10-9	781-788	površje	_	D.1 Abiotic	GENUS	_	_	
+10-10	788-789	,	_	_	_	_	_	
+10-11	790-794	kjer	_	_	_	_	_	
+10-12	795-800	lahko	_	_	_	HAS\_CAUSE[53]	_	
+10-13	801-809	delujeta	_	_	_	HAS\_CAUSE[53]	_	
+10-14	810-814	tako	_	_	_	HAS\_CAUSE[53]	_	
+10-15	815-821	kraški	kraški geomorfni sistem	C. Geome	_	HAS\_CAUSE[53]	_	
+10-16	822-825	kot	_	_	_	HAS\_CAUSE[53]	_	
+10-17	826-835	fluvialni	_	C. Geome[16]	_	HAS\_CAUSE[53]	_	
+10-18	836-845	geomorfni	_	C. Geome[16]	_	HAS\_CAUSE[53]	_	
+10-19	846-852	sistem	_	C. Geome[16]	_	HAS\_CAUSE[53]	_	
+10-20	852-853	.	_	_	_	_	_	
+
+#Text=Fluviokraško površje je prehodna oblika kraškega reliefa, kjer prevladuje odnašanje materiala s pobočij in akumuliranje materiala v kraških kotanjah.
+11-1	854-866	Fluviokraško	_	C. Geome[17]	DEFINIENDUM[37]	_	_	
+11-2	867-874	površje	_	C. Geome[17]	DEFINIENDUM[37]	_	_	
+11-3	875-877	je	_	_	DEFINITOR[38]	_	_	
+11-4	878-886	prehodna	_	_	DEFINITOR[38]	_	_	
+11-5	887-893	oblika	_	_	DEFINITOR[38]	_	_	
+11-6	894-902	kraškega	_	C. Geome[18]	GENUS[39]	_	_	
+11-7	903-910	reliefa	_	C. Geome[18]	GENUS[39]	_	_	
+11-8	910-911	,	_	_	_	_	_	
+11-9	912-916	kjer	_	_	_	HAS\_CAUSE[54]	frame\_CAUSE[67]	
+11-10	917-927	prevladuje	_	_	_	HAS\_CAUSE[54]	frame\_CAUSE[67]	
+11-11	928-937	odnašanje	_	_	_	HAS\_CAUSE[54]	_	
+11-12	938-947	materiala	_	_	_	HAS\_CAUSE[54]	_	
+11-13	948-949	s	_	_	_	HAS\_CAUSE[54]	_	
+11-14	950-957	pobočij	_	_	_	HAS\_CAUSE[54]	_	
+11-15	958-960	in	_	_	_	HAS\_CAUSE[54]	_	
+11-16	961-973	akumuliranje	_	B.3 Addition	_	HAS\_CAUSE[54]	_	
+11-17	974-983	materiala	_	_	_	HAS\_CAUSE[54]	_	
+11-18	984-985	v	_	_	_	HAS\_CAUSE[54]	_	
+11-19	986-993	kraških	_	A.1 Surface landform[19]	_	HAS\_CAUSE[54]	_	
+11-20	994-1002	kotanjah	_	A.1 Surface landform[19]	_	HAS\_CAUSE[54]	_	
+11-21	1002-1003	.	_	_	_	_	_	
+
+#Text=Kontaktni kras je tip površja, kjer pritekajo vode iz fluvialnega geomorfnega sistema v kraškega (ali obratno) oz. je kras preoblikovan pod vplivom alogenih vodotokov.
+12-1	1004-1013	Kontaktni	_	C. Geome[20]	DEFINIENDUM[40]	_	_	
+12-2	1014-1018	kras	_	C. Geome[20]	DEFINIENDUM[40]	_	_	
+12-3	1019-1021	je	_	_	DEFINITOR	_	_	
+12-4	1022-1025	tip	_	_	GENUS[41]	_	_	
+12-5	1026-1033	površja	_	D.1 Abiotic	GENUS[41]	_	_	
+12-6	1033-1034	,	_	_	_	_	_	
+12-7	1035-1039	kjer	_	_	_	_	_	
+12-8	1040-1049	pritekajo	_	_	_	HAS\_CAUSE[55]	_	
+12-9	1050-1054	vode	_	D.1 Abiotic	_	HAS\_CAUSE[55]	_	
+12-10	1055-1057	iz	_	_	_	HAS\_CAUSE[55]	_	
+12-11	1058-1069	fluvialnega	_	C. Geome[21]	_	HAS\_CAUSE[55]	_	
+12-12	1070-1081	geomorfnega	_	C. Geome[21]	_	HAS\_CAUSE[55]	_	
+12-13	1082-1089	sistema	_	C. Geome[21]	_	HAS\_CAUSE[55]	_	
+12-14	1090-1091	v	_	_	_	HAS\_CAUSE[55]	_	
+12-15	1092-1100	kraškega	kraški geomorfni sistem	C. Geome	_	HAS\_CAUSE[55]	_	
+12-16	1101-1102	(	_	_	_	HAS\_CAUSE[55]	_	
+12-17	1102-1105	ali	_	_	_	HAS\_CAUSE[55]	_	
+12-18	1106-1113	obratno	_	_	_	HAS\_CAUSE[55]	_	
+12-19	1113-1114	)	_	_	_	HAS\_CAUSE[55]	_	
+12-20	1115-1117	oz	_	_	_	HAS\_CAUSE[55]	_	
+12-21	1117-1118	.	_	_	_	HAS\_CAUSE[55]	_	
+12-22	1119-1121	je	_	_	_	HAS\_CAUSE[55]	_	
+12-23	1122-1126	kras	_	_	_	HAS\_CAUSE[55]	_	
+12-24	1127-1139	preoblikovan	_	_	_	HAS\_CAUSE[55]	_	
+12-25	1140-1143	pod	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[68]	
+12-26	1144-1151	vplivom	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[68]	
+12-27	1152-1160	alogenih	_	A.3 Hydrological form[22]	_	HAS\_CAUSE[55]	_	
+12-28	1161-1170	vodotokov	_	A.3 Hydrological form[22]	_	HAS\_CAUSE[55]	_	
+12-29	1170-1171	.	_	_	_	_	_	
+
+#Text=Vršaji na kontaktnem krasu so akumulacije, ki jih na kraško matično podlago nanesejo občasni alogeni tokovi, kjer je proces akumulacije naplavine intenzivnejši od korozije, voda pa na robovih odteka v kras.
+13-1	1172-1178	Vršaji	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	1179-1181	na	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION	
+13-3	1182-1192	kontaktnem	_	C. Geome[23]	_	HAS\_LOCATION[56]	_	
+13-4	1193-1198	krasu	_	C. Geome[23]	_	HAS\_LOCATION[56]	_	
+13-5	1199-1201	so	_	_	DEFINITOR	_	_	
+13-6	1202-1213	akumulacije	_	D.1 Abiotic	GENUS	_	_	
+13-7	1213-1214	,	_	_	_	_	_	
+13-8	1215-1217	ki	_	_	_	HAS\_CAUSE[57]	_	
+13-9	1218-1221	jih	_	_	_	HAS\_CAUSE[57]	_	
+13-10	1222-1224	na	_	_	_	HAS\_CAUSE[57]	_	
+13-11	1225-1231	kraško	_	_	_	HAS\_CAUSE[57]	_	
+13-12	1232-1239	matično	_	_	_	HAS\_CAUSE[57]	_	
+13-13	1240-1247	podlago	_	_	_	HAS\_CAUSE[57]	_	
+13-14	1248-1256	nanesejo	_	_	_	HAS\_CAUSE[57]	_	
+13-15	1257-1264	občasni	_	_	_	HAS\_CAUSE[57]	_	
+13-16	1265-1272	alogeni	_	A.3 Hydrological form[24]	_	HAS\_CAUSE[57]	_	
+13-17	1273-1279	tokovi	_	A.3 Hydrological form[24]	_	HAS\_CAUSE[57]	_	
+13-18	1279-1280	,	_	_	_	_	_	
+13-19	1281-1285	kjer	_	_	_	HAS\_ATTRIBUTE[58]	frame\_ATTRIBUTE[69]	
+13-20	1286-1288	je	_	_	_	HAS\_ATTRIBUTE[58]	frame\_ATTRIBUTE[69]	
+13-21	1289-1295	proces	_	_	_	HAS\_ATTRIBUTE[58]	_	
+13-22	1296-1307	akumulacije	_	B.3 Addition[25]	_	HAS\_ATTRIBUTE[58]	_	
+13-23	1308-1317	naplavine	_	B.3 Addition[25]	_	HAS\_ATTRIBUTE[58]	_	
+13-24	1318-1331	intenzivnejši	_	_	_	HAS\_ATTRIBUTE[58]	_	
+13-25	1332-1334	od	_	_	_	HAS\_ATTRIBUTE[58]	_	
+13-26	1335-1343	korozije	_	B.2 Loss	_	HAS\_ATTRIBUTE[58]	_	
+13-27	1343-1344	,	_	_	_	_	_	
+13-28	1345-1349	voda	_	_	_	HAS\_ATTRIBUTE[59]	_	
+13-29	1350-1352	pa	_	_	_	HAS\_ATTRIBUTE[59]	_	
+13-30	1353-1355	na	_	_	_	HAS\_ATTRIBUTE[59]	_	
+13-31	1356-1363	robovih	_	_	_	HAS\_ATTRIBUTE[59]	_	
+13-32	1364-1370	odteka	_	B.2 Loss	_	HAS\_ATTRIBUTE[59]	_	
+13-33	1371-1372	v	_	_	_	HAS\_ATTRIBUTE[59]	_	
+13-34	1373-1377	kras	_	C. Geome	_	HAS\_ATTRIBUTE[59]	_	
+13-35	1377-1378	.	_	_	_	_	_	
+
+#Text=Najvišja plast zgornjega akvifuga je krovni akvifug.
+14-1	1379-1387	Najvišja	_	_	_	HAS\_LOCATION[60]	_	
+14-2	1388-1393	plast	_	_	GENUS[42]	HAS\_LOCATION[60]	_	
+14-3	1394-1403	zgornjega	_	_	GENUS[42]	HAS\_LOCATION[60]	_	
+14-4	1404-1412	akvifuga	_	C. Geome	GENUS[42]	HAS\_LOCATION[60]	_	
+14-5	1413-1415	je	_	_	DEFINITOR	_	_	
+14-6	1416-1422	krovni	_	C. Geome[26]	DEFINIENDUM[43]	_	_	
+14-7	1423-1430	akvifug	_	C. Geome[26]	DEFINIENDUM[43]	_	_	
+14-8	1430-1431	.	_	_	_	_	_	
+
+#Text=Dejavniki nastanka periglacialnega dolca so zmrzovanje in taljenje, dežno-snežna erozija, soliflukcija in nivacija.
+15-1	1432-1441	Dejavniki	_	_	_	_	frame\_CAUSE[70]	
+15-2	1442-1450	nastanka	_	_	_	_	frame\_CAUSE[70]	
+15-3	1451-1466	periglacialnega	_	A.1 Surface landform[27]	DEFINIENDUM[44]	_	_	
+15-4	1467-1472	dolca	_	A.1 Surface landform[27]	DEFINIENDUM[44]	_	_	
+15-5	1473-1475	so	_	_	_	_	_	
+15-6	1476-1486	zmrzovanje	_	B.4 Transformation	_	HAS\_CAUSE[61]	_	
+15-7	1487-1489	in	_	_	_	HAS\_CAUSE[61]	_	
+15-8	1490-1498	taljenje	_	B.4 Transformation	_	HAS\_CAUSE[61]	_	
+15-9	1498-1499	,	_	_	_	HAS\_CAUSE[61]	_	
+15-10	1500-1512	dežno-snežna	_	B.2 Loss[28]	_	HAS\_CAUSE[61]	_	
+15-11	1513-1520	erozija	_	B.2 Loss[28]	_	HAS\_CAUSE[61]	_	
+15-12	1520-1521	,	_	_	_	HAS\_CAUSE[61]	_	
+15-13	1522-1534	soliflukcija	_	B.1 Movement	_	HAS\_CAUSE[61]	_	
+15-14	1535-1537	in	_	_	_	HAS\_CAUSE[61]	_	
+15-15	1538-1546	nivacija	_	B.4 Transformation	_	HAS\_CAUSE[61]	_	
+15-16	1546-1547	.	_	_	_	_	_	

@@ -1,0 +1,507 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=prenikajoča voda, pronicajoča voda: Padavinska voda, ki v aeracijski coni počasi premika skozi vodoprepustne skalne gmote. Voda, ki kaplja z jamskega stropa; od tod jamarski izraz kapnica. Združeno v potoček jo imenujemo tudi vodni curek, v nasprotju od globinskih žil.
+1-1	0-11	prenikajoča	_	A.3 Hydrological form[1]	DEFINIENDUM[57]	_	_	
+1-2	12-16	voda	_	A.3 Hydrological form[1]	DEFINIENDUM[57]	_	_	
+1-3	16-17	,	_	_	_	_	_	
+1-4	18-29	pronicajoča	_	A.3 Hydrological form[2]	_	_	_	
+1-5	30-34	voda	_	A.3 Hydrological form[2]	_	_	_	
+1-6	34-35	:	_	_	_	_	_	
+1-7	36-46	Padavinska	_	_	GENUS[58]	_	_	
+1-8	47-51	voda	_	D.1 Abiotic	GENUS[58]	_	_	
+1-9	51-52	,	_	_	_	_	_	
+1-10	53-55	ki	_	_	_	_	_	
+1-11	56-57	v	_	_	_	HAS\_LOCATION[80]	frame\_LOCATION	
+1-12	58-68	aeracijski	_	C. Geome[3]	_	HAS\_LOCATION[80]	_	
+1-13	69-73	coni	_	C. Geome[3]	_	HAS\_LOCATION[80]	_	
+1-14	74-80	počasi	_	_	_	HAS\_ATTRIBUTE[81]	_	
+1-15	81-88	premika	prenika	_	_	HAS\_ATTRIBUTE[81]	_	
+1-16	89-94	skozi	_	_	_	HAS\_ATTRIBUTE[81]	_	
+1-17	95-108	vodoprepustne	_	_	_	HAS\_ATTRIBUTE[81]	_	
+1-18	109-115	skalne	_	D.1 Abiotic[4]	_	HAS\_ATTRIBUTE[81]	_	
+1-19	116-121	gmote	_	D.1 Abiotic[4]	_	HAS\_ATTRIBUTE[81]	_	
+1-20	121-122	.	_	_	_	_	_	
+1-21	123-127	Voda	_	_	_	_	_	
+1-22	127-128	,	_	_	_	_	_	
+1-23	129-131	ki	_	_	_	_	_	
+1-24	132-138	kaplja	_	_	_	HAS\_ATTRIBUTE[82]	_	
+1-25	139-140	z	_	_	_	HAS\_ATTRIBUTE[82]	_	
+1-26	141-149	jamskega	_	A.2 Underground landform[5]	_	HAS\_ATTRIBUTE[82]	_	
+1-27	150-156	stropa	_	A.2 Underground landform[5]	_	HAS\_ATTRIBUTE[82]	_	
+1-28	156-157	;	_	_	_	_	_	
+1-29	158-160	od	_	_	_	_	_	
+1-30	161-164	tod	_	_	_	_	_	
+1-31	165-173	jamarski	_	_	_	_	_	
+1-32	174-179	izraz	_	_	_	_	_	
+1-33	180-187	kapnica	_	A.3 Hydrological form	_	_	_	
+1-34	187-188	.	_	_	_	_	_	
+1-35	189-197	Združeno	_	_	_	_	_	
+1-36	198-199	v	_	_	_	_	_	
+1-37	200-207	potoček	_	_	_	_	_	
+1-38	208-210	jo	_	_	_	_	_	
+1-39	211-220	imenujemo	_	_	_	_	_	
+1-40	221-225	tudi	_	_	_	_	_	
+1-41	226-231	vodni	_	A.3 Hydrological form[6]	DEFINIENDUM[59]	_	_	
+1-42	232-237	curek	_	A.3 Hydrological form[6]	DEFINIENDUM[59]	_	_	
+1-43	237-238	,	_	_	_	_	_	
+1-44	239-240	v	_	_	_	_	_	
+1-45	241-250	nasprotju	_	_	_	_	_	
+1-46	251-253	od	_	_	_	_	_	
+1-47	254-264	globinskih	_	A.3 Hydrological form[7]	_	_	_	
+1-48	265-268	žil	_	A.3 Hydrological form[7]	_	_	_	
+1-49	268-269	.	_	_	_	_	_	
+
+#Text=viseča voda: Je voda v aeracijski (vadozni) coni, ki jo je od navzdolžnega prenikanja odklonil vododržni vložek. Tudi stoječa voda, ki je ujeta v kotanjah po upadu vodne gladine.
+2-1	273-279	viseča	_	A.3 Hydrological form[8]	DEFINIENDUM[60]	_	_	
+2-2	280-284	voda	_	A.3 Hydrological form[8]	DEFINIENDUM[60]	_	_	
+2-3	284-285	:	_	_	_	_	_	
+2-4	286-288	Je	_	_	_	_	_	
+2-5	289-293	voda	_	D.1 Abiotic	GENUS	_	_	
+2-6	294-295	v	_	_	_	_	_	
+2-7	296-306	aeracijski	aeracijska cona	C. Geome[9]	_	_	_	
+2-8	307-308	(	_	C. Geome[9]	_	_	_	
+2-9	308-315	vadozni	vadozna cona	C. Geome[9]	_	_	_	
+2-10	315-316	)	_	C. Geome[9]	_	_	_	
+2-11	317-321	coni	_	C. Geome[9]	_	_	_	
+2-12	321-322	,	_	_	_	_	_	
+2-13	323-325	ki	_	_	_	_	_	
+2-14	326-328	jo	_	_	_	HAS\_CAUSE[83]	_	
+2-15	329-331	je	_	_	_	HAS\_CAUSE[83]	_	
+2-16	332-334	od	_	_	_	HAS\_CAUSE[83]	_	
+2-17	335-347	navzdolžnega	_	B.1 Movement[10]	_	HAS\_CAUSE[83]	_	
+2-18	348-358	prenikanja	_	B.1 Movement[10]|B.1 Movement[11]	_	HAS\_CAUSE[83]	_	
+2-19	359-367	odklonil	_	_	_	HAS\_CAUSE[83]	_	
+2-20	368-377	vododržni	_	D.1 Abiotic[12]	_	HAS\_CAUSE[83]	_	
+2-21	378-384	vložek	_	D.1 Abiotic[12]	_	HAS\_CAUSE[83]	_	
+2-22	384-385	.	_	_	_	_	_	
+2-23	386-390	Tudi	_	_	_	_	_	
+2-24	391-398	stoječa	_	_	_	_	_	
+2-25	399-403	voda	_	_	_	_	_	
+2-26	403-404	,	_	_	_	_	_	
+2-27	405-407	ki	_	_	_	_	_	
+2-28	408-410	je	_	_	_	HAS\_LOCATION[84]	_	
+2-29	411-416	ujeta	_	_	_	HAS\_LOCATION[84]	_	
+2-30	417-418	v	_	_	_	HAS\_LOCATION[84]	_	
+2-31	419-427	kotanjah	_	A.2 Underground landform	_	HAS\_LOCATION[84]	_	
+2-32	428-430	po	_	_	_	OCCURS\_IN\_TIME[85]	frame\_TIME	
+2-33	431-436	upadu	_	B.2 Loss	_	OCCURS\_IN\_TIME[85]	_	
+2-34	437-442	vodne	_	_	_	OCCURS\_IN\_TIME[85]	_	
+2-35	443-450	gladine	_	_	_	OCCURS\_IN\_TIME[85]	_	
+2-36	450-451	.	_	_	_	_	_	
+
+#Text=piezometrični nivo, tudi piezometer: Je vsakokratna predpostavljena ploskev, do katere sega vodna gladina v kraškem podzemlju v sistemu veznih posod.
+3-1	456-469	piezometrični	_	D.3 Property[13]	DEFINIENDUM[61]	_	_	
+3-2	470-474	nivo	_	D.3 Property[13]	DEFINIENDUM[61]	_	_	
+3-3	474-475	,	_	_	_	_	_	
+3-4	476-480	tudi	_	_	_	_	_	
+3-5	481-491	piezometer	_	D.3 Property	DEFINIENDUM	_	_	
+3-6	491-492	:	_	_	_	_	_	
+3-7	493-495	Je	_	_	_	DEFINED\_AS[86]	_	
+3-8	496-507	vsakokratna	_	_	_	DEFINED\_AS[86]	_	
+3-9	508-523	predpostavljena	_	_	_	DEFINED\_AS[86]	_	
+3-10	524-531	ploskev	_	D.1 Abiotic	_	DEFINED\_AS[86]	_	
+3-11	531-532	,	_	_	_	_	_	
+3-12	533-535	do	_	_	_	_	_	
+3-13	536-542	katere	_	_	_	_	_	
+3-14	543-547	sega	_	_	_	_	_	
+3-15	548-553	vodna	_	D.1 Abiotic[14]	_	_	_	
+3-16	554-561	gladina	_	D.1 Abiotic[14]	_	_	_	
+3-17	562-563	v	_	_	_	HAS\_LOCATION[87]	frame\_LOCATION	
+3-18	564-571	kraškem	_	C. Geome[15]	_	HAS\_LOCATION[87]	_	
+3-19	572-581	podzemlju	_	C. Geome[15]	_	HAS\_LOCATION[87]	_	
+3-20	582-583	v	_	_	_	HAS\_LOCATION[87]	frame\_LOCATION	
+3-21	584-591	sistemu	_	_	_	HAS\_LOCATION[87]	_	
+3-22	592-598	veznih	_	A.2 Underground landform[16]	_	HAS\_LOCATION[87]	_	
+3-23	599-604	posod	_	A.2 Underground landform[16]	_	HAS\_LOCATION[87]	_	
+3-24	604-605	.	_	_	_	_	_	
+
+#Text=gladina kraške vode, nivo kraške vode: Pomeni nivo, od katerega se pretežno vodoravno in prosto pretaka kraška voda proti izvirom ali stoji (stoječa voda) v slepih kanalih. Piezometrični nivo oziroma gladina kraške vode oscilirata v odvisnosti od vodostaja.
+4-1	610-617	gladina	_	D.3 Property[17]	DEFINIENDUM[62]	_	_	
+4-2	618-624	kraške	_	D.3 Property[17]	DEFINIENDUM[62]	_	_	
+4-3	625-629	vode	_	D.3 Property[17]	DEFINIENDUM[62]	_	_	
+4-4	629-630	,	_	_	_	_	_	
+4-5	631-635	nivo	_	_	_	_	_	
+4-6	636-642	kraške	_	_	_	_	_	
+4-7	643-647	vode	_	_	_	_	_	
+4-8	647-648	:	_	_	_	_	_	
+4-9	649-655	Pomeni	_	_	DEFINITOR	_	_	
+4-10	656-660	nivo	_	D.3 Property	GENUS	DEFINED\_AS[88]	_	
+4-11	660-661	,	_	_	_	DEFINED\_AS[88]	_	
+4-12	662-664	od	_	_	_	DEFINED\_AS[88]	_	
+4-13	665-673	katerega	_	_	_	DEFINED\_AS[88]	_	
+4-14	674-676	se	_	_	_	DEFINED\_AS[88]	_	
+4-15	677-685	pretežno	_	_	_	DEFINED\_AS[88]	_	
+4-16	686-695	vodoravno	_	_	_	DEFINED\_AS[88]	_	
+4-17	696-698	in	_	_	_	DEFINED\_AS[88]	_	
+4-18	699-705	prosto	_	_	_	DEFINED\_AS[88]	_	
+4-19	706-713	pretaka	_	B.1 Movement	_	DEFINED\_AS[88]	_	
+4-20	714-720	kraška	_	D.1 Abiotic[18]	_	DEFINED\_AS[88]	_	
+4-21	721-725	voda	_	D.1 Abiotic[18]	_	DEFINED\_AS[88]	_	
+4-22	726-731	proti	_	_	_	DEFINED\_AS[88]	_	
+4-23	732-739	izvirom	_	D.1 Abiotic	_	DEFINED\_AS[88]	_	
+4-24	740-743	ali	_	_	_	DEFINED\_AS[88]	_	
+4-25	744-749	stoji	_	B. Process	_	DEFINED\_AS[88]	_	
+4-26	750-751	(	_	_	_	DEFINED\_AS[88]	_	
+4-27	751-758	stoječa	_	_	_	DEFINED\_AS[88]	_	
+4-28	759-763	voda	_	_	_	DEFINED\_AS[88]	_	
+4-29	763-764	)	_	_	_	DEFINED\_AS[88]	_	
+4-30	765-766	v	_	_	_	DEFINED\_AS[88]	_	
+4-31	767-773	slepih	_	A.3 Hydrological form[19]	_	DEFINED\_AS[88]	_	
+4-32	774-781	kanalih	_	A.3 Hydrological form[19]	_	DEFINED\_AS[88]	_	
+4-33	781-782	.	_	_	_	_	_	
+4-34	783-796	Piezometrični	_	D.3 Property[20]	_	_	_	
+4-35	797-801	nivo	_	D.3 Property[20]	_	_	_	
+4-36	802-809	oziroma	_	_	_	_	_	
+4-37	810-817	gladina	_	_	_	_	_	
+4-38	818-824	kraške	_	_	_	_	_	
+4-39	825-829	vode	_	_	_	_	_	
+4-40	830-840	oscilirata	_	B.1 Movement	_	HAS\_CAUSE[89]	_	
+4-41	841-842	v	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[119]	
+4-42	843-853	odvisnosti	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[119]	
+4-43	854-856	od	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[119]	
+4-44	857-866	vodostaja	_	D.3 Property	_	HAS\_CAUSE[89]	_	
+4-45	866-867	.	_	_	_	_	_	
+
+#Text=Območje osciliranja: prehodna cona, periodično vlažna cona.
+5-1	872-879	Območje	_	C. Geome[21]	DEFINIENDUM[63]	_	_	
+5-2	880-891	osciliranja	_	C. Geome[21]	DEFINIENDUM[63]	_	_	
+5-3	891-892	:	_	_	_	_	_	
+5-4	893-901	prehodna	_	_	_	_	_	
+5-5	902-906	cona	_	_	GENUS	_	_	
+5-6	906-907	,	_	_	_	_	_	
+5-7	908-918	periodično	_	_	_	OCCURS\_IN\_TIME	_	
+5-8	919-925	vlažna	_	A.3 Hydrological form[22]	_	HAS\_ATTRIBUTE	_	
+5-9	926-930	cona	_	A.3 Hydrological form[22]	_	_	_	
+5-10	930-931	.	_	_	_	_	_	
+
+#Text=gravitacijska voda, gravitacijski vodni tok: Voda (vodni tok) v kraškem podzemlju, ki se pretaka gravitacijsko (težnostno) v kanalih ter v njih ne sega do stropa in ima prosto gladino (v nasprotju s tlačno gladino, ki je značilna za tlačni ali eforacijski tok).
+6-1	935-948	gravitacijska	_	A.3 Hydrological form[23]	DEFINIENDUM[64]	_	_	
+6-2	949-953	voda	_	A.3 Hydrological form[23]	DEFINIENDUM[64]	_	_	
+6-3	953-954	,	_	_	_	_	_	
+6-4	955-968	gravitacijski	_	A.3 Hydrological form[24]	DEFINIENDUM[65]	_	_	
+6-5	969-974	vodni	_	A.3 Hydrological form[24]	DEFINIENDUM[65]	_	_	
+6-6	975-978	tok	_	A.3 Hydrological form[24]	DEFINIENDUM[65]	_	_	
+6-7	978-979	:	_	_	_	_	_	
+6-8	980-984	Voda	_	_	_	_	_	
+6-9	985-986	(	_	_	_	_	_	
+6-10	986-991	vodni	_	D.1 Abiotic[25]	GENUS[66]	_	_	
+6-11	992-995	tok	_	D.1 Abiotic[25]	GENUS[66]	_	_	
+6-12	995-996	)	_	_	_	_	_	
+6-13	997-998	v	_	_	_	HAS\_LOCATION[90]	_	
+6-14	999-1006	kraškem	_	C. Geome[26]	_	HAS\_LOCATION[90]	_	
+6-15	1007-1016	podzemlju	_	C. Geome[26]	_	HAS\_LOCATION[90]	_	
+6-16	1016-1017	,	_	_	_	_	_	
+6-17	1018-1020	ki	_	_	_	_	_	
+6-18	1021-1023	se	_	_	_	HAS\_CAUSE[91]	_	
+6-19	1024-1031	pretaka	_	B.1 Movement	_	HAS\_CAUSE[91]	_	
+6-20	1032-1045	gravitacijsko	_	D.3 Property	_	HAS\_CAUSE[91]	_	
+6-21	1046-1047	(	_	_	_	_	_	
+6-22	1047-1056	težnostno	_	_	_	_	_	
+6-23	1056-1057	)	_	_	_	_	_	
+6-24	1058-1059	v	_	_	_	HAS\_LOCATION[92]	_	
+6-25	1060-1067	kanalih	_	A.2 Underground landform	_	HAS\_LOCATION[92]	_	
+6-26	1068-1071	ter	_	_	_	_	_	
+6-27	1072-1073	v	_	_	_	_	_	
+6-28	1074-1078	njih	_	_	_	_	_	
+6-29	1079-1081	ne	_	_	_	HAS\_FUNCTION[93]	_	
+6-30	1082-1086	sega	_	_	_	HAS\_FUNCTION[93]	_	
+6-31	1087-1089	do	_	_	_	HAS\_FUNCTION[93]	_	
+6-32	1090-1096	stropa	_	_	_	HAS\_FUNCTION[93]	_	
+6-33	1097-1099	in	_	_	_	HAS\_FUNCTION[93]	_	
+6-34	1100-1103	ima	_	_	_	HAS\_FUNCTION[93]	_	
+6-35	1104-1110	prosto	_	_	_	HAS\_FUNCTION[93]	_	
+6-36	1111-1118	gladino	_	_	_	HAS\_FUNCTION[93]	_	
+6-37	1119-1120	(	_	_	_	_	_	
+6-38	1120-1121	v	_	_	_	_	_	
+6-39	1122-1131	nasprotju	_	_	_	_	_	
+6-40	1132-1133	s	_	_	_	_	_	
+6-41	1134-1140	tlačno	_	_	_	_	_	
+6-42	1141-1148	gladino	_	_	_	_	_	
+6-43	1148-1149	,	_	_	_	_	_	
+6-44	1150-1152	ki	_	_	_	_	_	
+6-45	1153-1155	je	_	_	_	_	_	
+6-46	1156-1164	značilna	_	_	_	_	_	
+6-47	1165-1167	za	_	_	_	_	_	
+6-48	1168-1174	tlačni	_	_	_	_	_	
+6-49	1175-1178	ali	_	_	_	_	_	
+6-50	1179-1190	eforacijski	_	_	_	_	_	
+6-51	1191-1194	tok	_	_	_	_	_	
+6-52	1194-1195	)	_	_	_	_	_	
+6-53	1195-1196	.	_	_	_	_	_	
+
+#Text=freatična cona: Najnižja hidrografska cona, v kateri voda trajno zapolnjuje votline, prevladuje pa tlačno pretakanje.
+7-1	1201-1210	freatična	_	C. Geome[27]	DEFINIENDUM[67]	_	_	
+7-2	1211-1215	cona	_	C. Geome[27]	DEFINIENDUM[67]	_	_	
+7-3	1215-1216	:	_	_	_	_	_	
+7-4	1217-1225	Najnižja	_	_	_	_	_	
+7-5	1226-1238	hidrografska	_	C. Geome[28]	GENUS[68]	_	_	
+7-6	1239-1243	cona	_	C. Geome[28]	GENUS[68]	_	_	
+7-7	1243-1244	,	_	_	_	_	_	
+7-8	1245-1246	v	_	_	_	CONTAINS[94]	frame\_CONTAINS[120]	
+7-9	1247-1253	kateri	_	_	_	CONTAINS[94]	frame\_CONTAINS[120]	
+7-10	1254-1258	voda	_	D.1 Abiotic	_	CONTAINS[94]	_	
+7-11	1259-1265	trajno	_	_	_	CONTAINS[94]	_	
+7-12	1266-1276	zapolnjuje	_	B.3 Addition	_	CONTAINS[94]	_	
+7-13	1277-1284	votline	_	A.2 Underground landform	_	CONTAINS[94]	_	
+7-14	1284-1285	,	_	_	_	_	_	
+7-15	1286-1296	prevladuje	_	_	_	HAS\_CAUSE[95]	_	
+7-16	1297-1299	pa	_	_	_	HAS\_CAUSE[95]	_	
+7-17	1300-1306	tlačno	_	B.1 Movement[29]	_	HAS\_CAUSE[95]	_	
+7-18	1307-1317	pretakanje	_	B.1 Movement[29]	_	HAS\_CAUSE[95]	_	
+7-19	1317-1318	.	_	_	_	_	_	
+
+#Text=freatična voda, freatični vodni tok: Kraška voda (vodni tok) v freatični coni. Zapolnjuje votline pod piezometričnim nivojem (nivojem kraške vode).
+8-1	1323-1332	freatična	_	A.3 Hydrological form[30]	DEFINIENDUM[69]	_	_	
+8-2	1333-1337	voda	_	A.3 Hydrological form[30]	DEFINIENDUM[69]	_	_	
+8-3	1337-1338	,	_	_	_	_	_	
+8-4	1339-1348	freatični	_	_	DEFINIENDUM[70]	_	_	
+8-5	1349-1354	vodni	_	_	DEFINIENDUM[70]	_	_	
+8-6	1355-1358	tok	_	_	DEFINIENDUM[70]	_	_	
+8-7	1358-1359	:	_	_	_	_	_	
+8-8	1360-1366	Kraška	_	D.1 Abiotic[31]	GENUS[71]	_	_	
+8-9	1367-1371	voda	_	D.1 Abiotic[31]	GENUS[71]	_	_	
+8-10	1372-1373	(	_	_	_	_	_	
+8-11	1373-1378	vodni	_	_	_	_	_	
+8-12	1379-1382	tok	_	_	_	_	_	
+8-13	1382-1383	)	_	_	_	_	_	
+8-14	1384-1385	v	_	_	_	HAS\_LOCATION[96]	frame\_LOCATION	
+8-15	1386-1395	freatični	_	C. Geome[32]	_	HAS\_LOCATION[96]	_	
+8-16	1396-1400	coni	_	C. Geome[32]	_	HAS\_LOCATION[96]	_	
+8-17	1400-1401	.	_	_	_	_	_	
+8-18	1402-1412	Zapolnjuje	_	B.3 Addition	_	HAS\_FUNCTION[97]	frame\_FUNCTION	
+8-19	1413-1420	votline	_	A.2 Underground landform	_	HAS\_FUNCTION[97]	_	
+8-20	1421-1424	pod	_	_	_	HAS\_LOCATION[98]	frame\_LOCATION	
+8-21	1425-1439	piezometričnim	_	D.3 Property[33]	_	HAS\_LOCATION[98]	_	
+8-22	1440-1447	nivojem	_	D.3 Property[33]	_	HAS\_LOCATION[98]	_	
+8-23	1448-1449	(	_	_	_	HAS\_LOCATION[98]	_	
+8-24	1449-1456	nivojem	_	_	_	HAS\_LOCATION[98]	_	
+8-25	1457-1463	kraške	_	_	_	HAS\_LOCATION[98]	_	
+8-26	1464-1468	vode	_	_	_	HAS\_LOCATION[98]	_	
+8-27	1468-1469	)	_	_	_	_	_	
+8-28	1469-1470	.	_	_	_	_	_	
+
+#Text=ujeta voda: Voda, ki v freatični coni stagnira v slepih ali nepovezanih kanalih.
+9-1	1475-1480	ujeta	_	A.3 Hydrological form[34]	DEFINIENDUM[72]	_	_	
+9-2	1481-1485	voda	_	A.3 Hydrological form[34]	DEFINIENDUM[72]	_	_	
+9-3	1485-1486	:	_	_	_	_	_	
+9-4	1487-1491	Voda	_	D.1 Abiotic	GENUS	_	_	
+9-5	1491-1492	,	_	_	_	_	_	
+9-6	1493-1495	ki	_	_	_	_	_	
+9-7	1496-1497	v	_	_	_	HAS\_LOCATION[99]	frame\_LOCATION	
+9-8	1498-1507	freatični	_	C. Geome[35]	_	HAS\_LOCATION[99]	_	
+9-9	1508-1512	coni	_	C. Geome[35]	_	HAS\_LOCATION[99]	_	
+9-10	1513-1521	stagnira	_	_	_	HAS\_FUNCTION[100]	_	
+9-11	1522-1523	v	_	_	_	HAS\_FUNCTION[100]	_	
+9-12	1524-1530	slepih	_	_	_	HAS\_FUNCTION[100]	_	
+9-13	1531-1534	ali	_	_	_	HAS\_FUNCTION[100]	_	
+9-14	1535-1546	nepovezanih	_	_	_	HAS\_FUNCTION[100]	_	
+9-15	1547-1554	kanalih	_	A.2 Underground landform	_	HAS\_FUNCTION[100]	_	
+9-16	1554-1555	.	_	_	_	_	_	
+
+#Text=zajezena kraška voda: Je podzemeljska kraška voda v globoki freatični coni, ki zapolnjuje vodoprehodne votline pod piezometričnim nivojem, katerega višino določajo vodoneprepustne kamnine.
+10-1	1560-1568	zajezena	_	A.3 Hydrological form[36]	DEFINIENDUM[73]	_	_	
+10-2	1569-1575	kraška	_	A.3 Hydrological form[36]	DEFINIENDUM[73]	_	_	
+10-3	1576-1580	voda	_	A.3 Hydrological form[36]	DEFINIENDUM[73]	_	_	
+10-4	1580-1581	:	_	_	_	_	_	
+10-5	1582-1584	Je	_	_	_	_	_	
+10-6	1585-1597	podzemeljska	_	_	_	_	_	
+10-7	1598-1604	kraška	_	D.1 Abiotic[37]	GENUS[74]	_	_	
+10-8	1605-1609	voda	_	D.1 Abiotic[37]	GENUS[74]	_	_	
+10-9	1610-1611	v	_	_	_	HAS\_LOCATION[101]	frame\_LOCATION	
+10-10	1612-1619	globoki	_	A.3 Hydrological form[38]	_	HAS\_LOCATION[101]	_	
+10-11	1620-1629	freatični	_	A.3 Hydrological form[38]	_	HAS\_LOCATION[101]	_	
+10-12	1630-1634	coni	_	A.3 Hydrological form[38]	_	HAS\_LOCATION[101]	_	
+10-13	1634-1635	,	_	_	_	_	_	
+10-14	1636-1638	ki	_	_	_	_	_	
+10-15	1639-1649	zapolnjuje	_	B.3 Addition	_	HAS\_FUNCTION[102]	_	
+10-16	1650-1662	vodoprehodne	_	_	_	HAS\_FUNCTION[102]	_	
+10-17	1663-1670	votline	_	A.2 Underground landform	_	HAS\_FUNCTION[102]	_	
+10-18	1671-1674	pod	_	_	_	HAS\_FUNCTION[102]	_	
+10-19	1675-1689	piezometričnim	_	D.3 Property[39]	_	HAS\_FUNCTION[102]	_	
+10-20	1690-1697	nivojem	_	D.3 Property[39]	_	HAS\_FUNCTION[102]	_	
+10-21	1697-1698	,	_	_	_	_	_	
+10-22	1699-1707	katerega	_	_	_	_	_	
+10-23	1708-1714	višino	_	_	_	_	_	
+10-24	1715-1723	določajo	_	_	_	_	_	
+10-25	1724-1739	vodoneprepustne	_	D.1 Abiotic[40]	_	_	_	
+10-26	1740-1747	kamnine	_	D.1 Abiotic[40]	_	_	_	
+10-27	1747-1748	.	_	_	_	_	_	
+
+#Text=hidrogeološki izolator: Neprepustna kamnina v kraškem ozemlju, navadno v obliki vložka, ki razdvaja porečji ali zajezuje podzemeljski vodni tok.
+11-1	1753-1766	hidrogeološki	_	D.1 Abiotic[41]	DEFINIENDUM[75]	_	_	
+11-2	1767-1775	izolator	_	D.1 Abiotic[41]	DEFINIENDUM[75]	_	_	
+11-3	1775-1776	:	_	_	_	_	_	
+11-4	1777-1788	Neprepustna	_	D.1 Abiotic[42]	GENUS[76]	HAS\_FUNCTION	_	
+11-5	1789-1796	kamnina	_	D.1 Abiotic[42]	GENUS[76]	_	_	
+11-6	1797-1798	v	_	_	_	HAS\_LOCATION[103]	frame\_LOCATION	
+11-7	1799-1806	kraškem	_	C. Geome[43]	_	HAS\_LOCATION[103]	_	
+11-8	1807-1814	ozemlju	_	C. Geome[43]	_	HAS\_LOCATION[103]	_	
+11-9	1814-1815	,	_	_	_	_	_	
+11-10	1816-1823	navadno	_	_	_	_	_	
+11-11	1824-1825	v	_	_	_	HAS\_FORM[104]	frame\_FORM[121]	
+11-12	1826-1832	obliki	_	_	_	HAS\_FORM[104]	frame\_FORM[121]	
+11-13	1833-1839	vložka	_	D.1 Abiotic	_	HAS\_FORM[104]	_	
+11-14	1839-1840	,	_	_	_	_	_	
+11-15	1841-1843	ki	_	_	_	HAS\_FUNCTION[105]	_	
+11-16	1844-1852	razdvaja	_	B. Process	_	HAS\_FUNCTION[105]	frame\_FUNCTION	
+11-17	1853-1860	porečji	_	_	_	HAS\_FUNCTION[105]	_	
+11-18	1861-1864	ali	_	_	_	HAS\_FUNCTION[105]	_	
+11-19	1865-1873	zajezuje	_	B. Process	_	HAS\_FUNCTION[105]	frame\_FUNCTION	
+11-20	1874-1886	podzemeljski	_	A.3 Hydrological form[44]	_	HAS\_FUNCTION[105]	_	
+11-21	1887-1892	vodni	_	A.3 Hydrological form[44]	_	HAS\_FUNCTION[105]	_	
+11-22	1893-1896	tok	_	A.3 Hydrological form[44]	_	HAS\_FUNCTION[105]	_	
+11-23	1896-1897	.	_	_	_	_	_	
+
+#Text=Hladnica, hladna jama: Jama, ki je poleti nadpovprečno hladna, ker je žepaste oblike, z enim vhodom iznad votline, tako da se v njej zadržuje zimski hlad.
+12-1	1902-1910	Hladnica	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1910-1911	,	_	_	_	_	_	
+12-3	1912-1918	hladna	_	A.2 Underground landform[45]	DEFINIENDUM[77]	_	_	
+12-4	1919-1923	jama	_	A.2 Underground landform[45]	DEFINIENDUM[77]	_	_	
+12-5	1923-1924	:	_	_	_	_	_	
+12-6	1925-1929	Jama	_	A.2 Underground landform	GENUS	_	_	
+12-7	1929-1930	,	_	_	_	_	_	
+12-8	1931-1933	ki	_	_	_	_	_	
+12-9	1934-1936	je	_	_	_	_	_	
+12-10	1937-1943	poleti	_	_	_	OCCURS\_IN\_TIME	_	
+12-11	1944-1956	nadpovprečno	_	_	_	HAS\_ATTRIBUTE[106]	_	
+12-12	1957-1963	hladna	_	D.3 Property	_	HAS\_ATTRIBUTE[106]	_	
+12-13	1963-1964	,	_	_	_	_	_	
+12-14	1965-1968	ker	_	_	_	HAS\_CAUSE[107]	_	
+12-15	1969-1971	je	_	_	_	HAS\_CAUSE[107]	_	
+12-16	1972-1979	žepaste	_	D.3 Property[46]	_	HAS\_CAUSE[107]	_	
+12-17	1980-1986	oblike	_	D.3 Property[46]	_	HAS\_CAUSE[107]	_	
+12-18	1986-1987	,	_	_	_	_	_	
+12-19	1988-1989	z	_	_	_	HAS\_FORM[108]	_	
+12-20	1990-1994	enim	_	_	_	HAS\_FORM[108]	_	
+12-21	1995-2001	vhodom	_	_	_	HAS\_FORM[108]	_	
+12-22	2002-2007	iznad	_	_	_	HAS\_FORM[108]	_	
+12-23	2008-2015	votline	_	_	_	HAS\_FORM[108]	_	
+12-24	2015-2016	,	_	_	_	_	_	
+12-25	2017-2021	tako	_	_	_	HAS\_FUNCTION[109]	_	
+12-26	2022-2024	da	_	_	_	HAS\_FUNCTION[109]	_	
+12-27	2025-2027	se	_	_	_	HAS\_FUNCTION[109]	_	
+12-28	2028-2029	v	_	_	_	HAS\_FUNCTION[109]	_	
+12-29	2030-2034	njej	_	_	_	HAS\_FUNCTION[109]	_	
+12-30	2035-2043	zadržuje	_	_	_	HAS\_FUNCTION[109]	frame\_FUNCTION	
+12-31	2044-2050	zimski	_	D.3 Property[47]	_	HAS\_FUNCTION[109]	_	
+12-32	2051-2055	hlad	_	D.3 Property[47]	_	HAS\_FUNCTION[109]	_	
+12-33	2055-2056	.	_	_	_	_	_	
+
+#Text=hodnik: Precejšen, dokaj enakomerno širok in visok jamski rov, po katerem je hoja razmeroma lahka.
+13-1	2061-2067	hodnik	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-2	2067-2068	:	_	_	_	_	_	
+13-3	2069-2078	Precejšen	_	_	_	_	_	
+13-4	2078-2079	,	_	_	_	_	_	
+13-5	2080-2085	dokaj	_	_	_	_	_	
+13-6	2086-2096	enakomerno	_	_	_	HAS\_SIZE[110]	_	
+13-7	2097-2102	širok	_	_	_	HAS\_SIZE[110]	_	
+13-8	2103-2105	in	_	_	_	_	_	
+13-9	2106-2111	visok	_	_	_	HAS\_SIZE	_	
+13-10	2112-2118	jamski	_	A.2 Underground landform[48]	GENUS[78]	_	_	
+13-11	2119-2122	rov	_	A.2 Underground landform[48]	GENUS[78]	_	_	
+13-12	2122-2123	,	_	_	_	_	_	
+13-13	2124-2126	po	_	_	_	HAS\_ATTRIBUTE[111]	_	
+13-14	2127-2134	katerem	_	_	_	HAS\_ATTRIBUTE[111]	_	
+13-15	2135-2137	je	_	_	_	HAS\_ATTRIBUTE[111]	_	
+13-16	2138-2142	hoja	_	B. Process	_	HAS\_ATTRIBUTE[111]	_	
+13-17	2143-2152	razmeroma	_	_	_	HAS\_ATTRIBUTE[111]	_	
+13-18	2153-2158	lahka	_	_	_	HAS\_ATTRIBUTE[111]	_	
+13-19	2158-2159	.	_	_	_	_	_	
+
+#Text=hum: V kraški literaturi pomeni osamljen korozijsko-erozijsko-denudacijski ostanek višjega reliefa, zlasti na dnu kraškega polja. Slovensko ljudsko tudi goričica za nizke osamelce (npr. na Cerkniškem polju). Ljudsko ime v vseh jugoslovanskih jezikih, v različnih inačicah (hom, holm, holmec, hum). Pomeni osamljeno vzpetinico, golico ali grič na ravnini, tudi izven krasa.
+14-1	2164-2167	hum	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-2	2167-2168	:	_	_	_	_	_	
+14-3	2169-2170	V	_	_	_	_	_	
+14-4	2171-2177	kraški	_	_	_	_	_	
+14-5	2178-2188	literaturi	_	_	_	_	_	
+14-6	2189-2195	pomeni	_	_	_	_	_	
+14-7	2196-2204	osamljen	_	_	_	HAS\_ATTRIBUTE	_	
+14-8	2205-2238	korozijsko-erozijsko-denudacijski	_	D.3 Property[49]	_	HAS\_CAUSE[112]	_	
+14-9	2239-2246	ostanek	_	D.3 Property[49]	_	HAS\_CAUSE[112]	_	
+14-10	2247-2254	višjega	_	D.1 Abiotic[50]	_	HAS\_CAUSE[112]	_	
+14-11	2255-2262	reliefa	_	D.1 Abiotic[50]	_	HAS\_CAUSE[112]	_	
+14-12	2262-2263	,	_	_	_	_	_	
+14-13	2264-2270	zlasti	_	_	_	_	_	
+14-14	2271-2273	na	_	_	_	HAS\_LOCATION[113]	frame\_LOCATION[122]	
+14-15	2274-2277	dnu	_	_	_	HAS\_LOCATION[113]	frame\_LOCATION[122]	
+14-16	2278-2286	kraškega	_	A.1 Surface landform[51]	_	HAS\_LOCATION[113]	_	
+14-17	2287-2292	polja	_	A.1 Surface landform[51]	_	HAS\_LOCATION[113]	_	
+14-18	2292-2293	.	_	_	_	_	_	
+14-19	2294-2303	Slovensko	_	_	_	_	_	
+14-20	2304-2311	ljudsko	_	_	_	_	_	
+14-21	2312-2316	tudi	_	_	_	_	_	
+14-22	2317-2325	goričica	_	A.1 Surface landform	_	_	_	
+14-23	2326-2328	za	_	_	_	_	_	
+14-24	2329-2334	nizke	_	_	_	_	_	
+14-25	2335-2343	osamelce	_	D.1 Abiotic	_	_	_	
+14-26	2344-2345	(	_	_	_	_	_	
+14-27	2345-2348	npr	_	_	_	_	_	
+14-28	2348-2349	.	_	_	_	_	_	
+14-29	2350-2352	na	_	_	_	_	_	
+14-30	2353-2363	Cerkniškem	_	_	_	_	_	
+14-31	2364-2369	polju	_	_	_	_	_	
+14-32	2369-2370	)	_	_	_	_	_	
+14-33	2370-2371	.	_	_	_	_	_	
+14-34	2372-2379	Ljudsko	_	_	_	_	_	
+14-35	2380-2383	ime	_	_	_	_	_	
+14-36	2384-2385	v	_	_	_	_	_	
+14-37	2386-2390	vseh	_	_	_	_	_	
+14-38	2391-2405	jugoslovanskih	_	_	_	_	_	
+14-39	2406-2413	jezikih	_	_	_	_	_	
+14-40	2413-2414	,	_	_	_	_	_	
+14-41	2415-2416	v	_	_	_	_	_	
+14-42	2417-2426	različnih	_	_	_	_	_	
+14-43	2427-2435	inačicah	_	_	_	_	_	
+14-44	2436-2437	(	_	_	_	_	_	
+14-45	2437-2440	hom	_	_	_	_	_	
+14-46	2440-2441	,	_	_	_	_	_	
+14-47	2442-2446	holm	_	_	_	_	_	
+14-48	2446-2447	,	_	_	_	_	_	
+14-49	2448-2454	holmec	_	_	_	_	_	
+14-50	2454-2455	,	_	_	_	_	_	
+14-51	2456-2459	hum	_	_	_	_	_	
+14-52	2459-2460	)	_	_	_	_	_	
+14-53	2460-2461	.	_	_	_	_	_	
+14-54	2462-2468	Pomeni	_	_	_	_	_	
+14-55	2469-2478	osamljeno	_	D.1 Abiotic[52]	_	HAS\_FORM[114]	_	
+14-56	2479-2489	vzpetinico	_	D.1 Abiotic[52]	_	HAS\_FORM[114]	_	
+14-57	2489-2490	,	_	_	_	_	_	
+14-58	2491-2497	golico	_	_	_	_	_	
+14-59	2498-2501	ali	_	_	_	_	_	
+14-60	2502-2506	grič	_	D.1 Abiotic[53]	_	HAS\_FORM[115]	_	
+14-61	2507-2509	na	_	D.1 Abiotic[53]	_	HAS\_FORM[115]	_	
+14-62	2510-2517	ravnini	_	D.1 Abiotic[53]	_	HAS\_FORM[115]	_	
+14-63	2517-2518	,	_	_	_	_	_	
+14-64	2519-2523	tudi	_	_	_	_	_	
+14-65	2524-2529	izven	_	_	_	_	_	
+14-66	2530-2535	krasa	_	_	_	_	_	
+14-67	2535-2536	.	_	_	_	_	_	
+
+#Text=ilovnate piramide: Nekaj centimetrov ali decimetrov visoke piramide v ilovnatem jamskem dnu, ki jih je izdelala kapljajoča voda.
+15-1	2541-2549	ilovnate	_	A.2 Underground landform[54]	DEFINIENDUM[79]	_	_	
+15-2	2550-2558	piramide	_	A.2 Underground landform[54]	DEFINIENDUM[79]	_	_	
+15-3	2558-2559	:	_	_	_	_	_	
+15-4	2560-2565	Nekaj	_	_	_	HAS\_SIZE[116]	_	
+15-5	2566-2577	centimetrov	_	_	_	HAS\_SIZE[116]	_	
+15-6	2578-2581	ali	_	_	_	HAS\_SIZE[116]	_	
+15-7	2582-2592	decimetrov	_	_	_	HAS\_SIZE[116]	_	
+15-8	2593-2599	visoke	_	_	_	HAS\_SIZE[116]	frame\_SIZE	
+15-9	2600-2608	piramide	_	D.1 Abiotic	GENUS	_	_	
+15-10	2609-2610	v	_	_	_	HAS\_LOCATION[117]	_	
+15-11	2611-2620	ilovnatem	_	D.3 Property	_	HAS\_LOCATION[117]	_	
+15-12	2621-2628	jamskem	_	A.2 Underground landform[55]	_	HAS\_LOCATION[117]	_	
+15-13	2629-2632	dnu	_	A.2 Underground landform[55]	_	HAS\_LOCATION[117]	_	
+15-14	2632-2633	,	_	_	_	_	_	
+15-15	2634-2636	ki	_	_	_	HAS\_CAUSE[118]	frame\_CAUSE[123]	
+15-16	2637-2640	jih	_	_	_	HAS\_CAUSE[118]	frame\_CAUSE[123]	
+15-17	2641-2643	je	_	_	_	HAS\_CAUSE[118]	frame\_CAUSE[123]	
+15-18	2644-2652	izdelala	_	_	_	HAS\_CAUSE[118]	frame\_CAUSE[123]	
+15-19	2653-2663	kapljajoča	_	D.1 Abiotic[56]	_	HAS\_CAUSE[118]	_	
+15-20	2664-2668	voda	_	D.1 Abiotic[56]	_	HAS\_CAUSE[118]	_	
+15-21	2668-2669	.	_	_	_	_	_	

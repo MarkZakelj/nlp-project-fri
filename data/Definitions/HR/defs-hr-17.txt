@@ -1,0 +1,15 @@
+﻿muljni stalagmit: Stalagmit izgrađen od mulja, a može biti cementiran kalcitom.
+goli krš: Krš razvijen u području bez pokrova tla, tako da su topografski oblici dobro izraženi.
+prirodni tunel: Špilja koja je gotovo horizontalna i koja je otvorena s oba kraja. Njome može teči vodotok.
+mreža špilja: 1 Špilja koja se sastoji od kanala koji su na više mjesta međusobno spojeni, uglavnom vodećim pukotinama. 2 Špilja u kojoj se kanali sijeku poput rešetke.
+nivalni krš: Alpski krš kod kojeg se topljenje snijega smatra glavnim faktorom otapanja stijena i razvoja krških oblika.
+nivo-krš: Karakteristika periglacijalnih sredina pri čemu različitim kemijskim trošenjem ispod hrpa snijega nastaje kršolika topografija, poput otapanja fragmenata vapnenca vodom koja je nastala otapanjem snijega i koja sadrži ugljičnu kiselinu.
+nefreatski: Odnosi se na vodu koja sporo cirkulira u špiljama u freatskoj zoni.
+mramorni oniks: Kompaktni, obično prugasti, općenito providni varijetet kalcita (ili rjeđe aragonita) nalik na pravi oniks. Obično se taloži iz hladnih vodenih otopina, često u formi stalaktita i stalagmita u špiljama.
+žrtveno udubljenje: Zdjela otapanja formirana na silikatnoj stijeni i često obojena crvenkasto - smeđim mineralima sa željezom. 
+istjecana špilja: Špilja iz koje izvire vodotok ili je poznato da je iz nje izvirala voda. 
+paleokrš: Krš formiran u ranijem ciklusu erozije, a očuvan je prekrivanjem ili prekidom procesa okršavanja. Špilje i udubine su obično ispunjene sedimentima. Stijena ili područje koje je bilo karstificirano i kasnije prekriveno sedimentima.
+paleokrška površina: Nepravilna, valovita površina vapnenca puna rupa, formirana atmosferilijama i otapanjem meteorskom vodom.
+paleookršavanje: Okršavanje koje zbivalo tijekom geološke prošlosti u kopnenim fazama.
+parageneza: U speleologiji, otapanje svoda špilje naviše zbog netopive riječne ispune na dnu (Ford i Williams, 1989).
+parafreatski: Kanal u špilji koji je kod relativno niskog vodostaja dijelom ispunjen zrakom, a kod visokog vodostaja, ili ako je odvodnja spriječena, je u cijelosti ispunjen vodom.

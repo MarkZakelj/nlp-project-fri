@@ -1,0 +1,449 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=calcilutite :  Clastic limestone or dolomite in which the grains have an average diameter of less than 1/16 millimeter; calcareous mudstone.
+1-1	0-11	calcilutite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+1-2	12-13	:	_	_	_	_	_	
+1-3	15-22	Clastic	_	_	_	_	_	
+1-4	23-32	limestone	_	D.1 Abiotic	GENUS	_	_	
+1-5	33-35	or	_	_	_	_	_	
+1-6	36-44	dolomite	_	D.1 Abiotic	GENUS	_	_	
+1-7	45-47	in	_	_	_	HAS\_SIZE[43]	_	
+1-8	48-53	which	_	_	_	HAS\_SIZE[43]	_	
+1-9	54-57	the	_	_	_	HAS\_SIZE[43]	_	
+1-10	58-64	grains	_	_	_	HAS\_SIZE[43]	_	
+1-11	65-69	have	_	_	_	HAS\_SIZE[43]	_	
+1-12	70-72	an	_	_	_	HAS\_SIZE[43]	frame\_SIZE[77]	
+1-13	73-80	average	_	_	_	HAS\_SIZE[43]	frame\_SIZE[77]	
+1-14	81-89	diameter	_	_	_	HAS\_SIZE[43]	frame\_SIZE[77]	
+1-15	90-92	of	_	_	_	HAS\_SIZE[43]	frame\_SIZE[77]	
+1-16	93-97	less	_	_	_	HAS\_SIZE[43]	_	
+1-17	98-102	than	_	_	_	HAS\_SIZE[43]	_	
+1-18	103-104	1	_	_	_	HAS\_SIZE[43]	_	
+1-19	104-105	/	_	_	_	HAS\_SIZE[43]	_	
+1-20	105-107	16	_	_	_	HAS\_SIZE[43]	_	
+1-21	108-118	millimeter	_	_	_	HAS\_SIZE[43]	_	
+1-22	118-119	;	_	_	_	_	_	
+1-23	120-130	calcareous	_	D.1 Abiotic[2]	DEFINIENDUM[30]	_	_	
+1-24	131-139	mudstone	_	D.1 Abiotic[2]	DEFINIENDUM[30]	_	_	
+1-25	139-140	.	_	_	_	_	_	
+
+#Text=calcirudite :  A fragmental limestone in which the particles are generally larger than 2 millimeters.
+2-1	141-152	calcirudite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+2-2	153-154	:	_	_	_	_	_	
+2-3	156-157	A	_	_	_	_	_	
+2-4	158-168	fragmental	_	_	_	HAS\_FORM	_	
+2-5	169-178	limestone	_	D.1 Abiotic	GENUS	_	_	
+2-6	179-181	in	_	_	_	HAS\_SIZE[44]	_	
+2-7	182-187	which	_	_	_	HAS\_SIZE[44]	_	
+2-8	188-191	the	_	_	_	HAS\_SIZE[44]	_	
+2-9	192-201	particles	_	_	_	HAS\_SIZE[44]	_	
+2-10	202-205	are	_	_	_	HAS\_SIZE[44]	_	
+2-11	206-215	generally	_	_	_	HAS\_SIZE[44]	_	
+2-12	216-222	larger	_	_	_	HAS\_SIZE[44]	frame\_SIZE[78]	
+2-13	223-227	than	_	_	_	HAS\_SIZE[44]	frame\_SIZE[78]	
+2-14	228-229	2	_	_	_	HAS\_SIZE[44]	_	
+2-15	230-241	millimeters	_	_	_	HAS\_SIZE[44]	_	
+2-16	241-242	.	_	_	_	_	_	
+
+#Text=calcite :  A mineral composed of calcium carbonate, CaCOs, like aragonite but differing in crystal form; the principal constituent of limestone.
+3-1	243-250	calcite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+3-2	251-252	:	_	_	_	_	_	
+3-3	254-255	A	_	_	_	_	_	
+3-4	256-263	mineral	_	D.1 Abiotic	GENUS	_	_	
+3-5	264-272	composed	_	_	_	COMPOSITION\_MEDIUM[45]	frame\_COMPOSITION[79]	
+3-6	273-275	of	_	_	_	COMPOSITION\_MEDIUM[45]	frame\_COMPOSITION[79]	
+3-7	276-283	calcium	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[45]	_	
+3-8	284-293	carbonate	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[45]	_	
+3-9	293-294	,	_	_	_	COMPOSITION\_MEDIUM[45]	_	
+3-10	295-300	CaCOs	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[45]	_	
+3-11	300-301	,	_	_	_	_	_	
+3-12	302-306	like	_	_	_	HAS\_FORM[46]	_	
+3-13	307-316	aragonite	_	D.1 Abiotic	_	HAS\_FORM[46]	_	
+3-14	317-320	but	_	_	_	HAS\_FORM[46]	_	
+3-15	321-330	differing	_	_	_	HAS\_FORM[46]	_	
+3-16	331-333	in	in form[1]	_	_	HAS\_FORM[46]	frame\_FORM[80]	
+3-17	334-341	crystal	in form[1]	_	_	HAS\_FORM[46]	frame\_FORM[80]	
+3-18	342-346	form	in form[1]	_	_	HAS\_FORM[46]	frame\_FORM[80]	
+3-19	346-347	;	_	_	_	_	_	
+3-20	348-351	the	_	_	_	HAS\_RESULT[47]	_	
+3-21	352-361	principal	_	_	_	HAS\_RESULT[47]	_	
+3-22	362-373	constituent	_	_	_	HAS\_RESULT[47]	frame\_RESULT[81]	
+3-23	374-376	of	_	_	_	HAS\_RESULT[47]	frame\_RESULT[81]	
+3-24	377-386	limestone	_	D.1 Abiotic	_	HAS\_RESULT[47]	_	
+3-25	386-387	.	_	_	_	_	_	
+
+#Text=calcite bubble :  A hollow sphere formed by the deposition of calcite around a gas bubble; the interior is smooth, and the exterior consists of small jagged crystals.
+4-1	388-395	calcite	_	A.2 Underground landform[4]	DEFINIENDUM[31]	_	_	
+4-2	396-402	bubble	_	A.2 Underground landform[4]	DEFINIENDUM[31]	_	_	
+4-3	403-404	:	_	_	_	_	_	
+4-4	406-407	A	_	_	_	_	_	
+4-5	408-414	hollow	_	_	_	HAS\_FORM	_	
+4-6	415-421	sphere	_	D.1 Abiotic	GENUS	_	_	
+4-7	422-428	formed	_	_	_	HAS\_CAUSE[48]	frame\_FORM[82]	
+4-8	429-431	by	_	_	_	HAS\_CAUSE[48]	frame\_FORM[82]	
+4-9	432-435	the	_	_	_	HAS\_CAUSE[48]	_	
+4-10	436-446	deposition	_	_	_	HAS\_CAUSE[48]	_	
+4-11	447-449	of	_	_	_	HAS\_CAUSE[48]	_	
+4-12	450-457	calcite	_	D.1 Abiotic	_	HAS\_CAUSE[48]	_	
+4-13	458-464	around	_	_	_	HAS\_CAUSE[48]	_	
+4-14	465-466	a	_	_	_	HAS\_CAUSE[48]	_	
+4-15	467-470	gas	_	D.1 Abiotic[5]	_	HAS\_CAUSE[48]	_	
+4-16	471-477	bubble	_	D.1 Abiotic[5]	_	HAS\_CAUSE[48]	_	
+4-17	477-478	;	_	_	_	_	_	
+4-18	479-482	the	_	_	_	HAS\_FORM[49]	frame\_FORM[83]	
+4-19	483-491	interior	_	_	_	HAS\_FORM[49]	frame\_FORM[83]	
+4-20	492-494	is	_	_	_	HAS\_FORM[49]	frame\_FORM[83]	
+4-21	495-501	smooth	_	_	_	HAS\_FORM[49]	_	
+4-22	501-502	,	_	_	_	HAS\_FORM[49]	_	
+4-23	503-506	and	_	_	_	HAS\_FORM[49]	_	
+4-24	507-510	the	_	_	_	HAS\_FORM[49]	_	
+4-25	511-519	exterior	_	_	_	HAS\_FORM[49]	_	
+4-26	520-528	consists	_	_	_	HAS\_FORM[49]	_	
+4-27	529-531	of	_	_	_	HAS\_FORM[49]	_	
+4-28	532-537	small	_	_	_	HAS\_FORM[49]	_	
+4-29	538-544	jagged	_	_	_	HAS\_FORM[49]	_	
+4-30	545-553	crystals	_	D.1 Abiotic	_	HAS\_FORM[49]	_	
+4-31	553-554	.	_	_	_	_	_	
+
+#Text=canopy :  A compound cave formation consisting of flowstone hanging from a sloping wall projection and forming a fringe of shawls or stalactites on the outer edge.
+5-1	555-561	canopy	_	A.2 Underground landform	DEFINIENDUM	_	_	
+5-2	562-563	:	_	_	_	_	_	
+5-3	565-566	A	_	_	_	_	_	
+5-4	567-575	compound	_	_	_	_	_	
+5-5	576-580	cave	_	A.2 Underground landform[6]	GENUS[32]	_	_	
+5-6	581-590	formation	_	A.2 Underground landform[6]	GENUS[32]	_	_	
+5-7	591-601	consisting	_	_	_	COMPOSITION\_MEDIUM[50]	frame\_COMPOSITION[84]	
+5-8	602-604	of	_	_	_	COMPOSITION\_MEDIUM[50]	frame\_COMPOSITION[84]	
+5-9	605-614	flowstone	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[50]	_	
+5-10	615-622	hanging	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[85]	
+5-11	623-627	from	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[85]	
+5-12	628-629	a	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[85]	
+5-13	630-637	sloping	_	_	_	HAS\_LOCATION[51]	_	
+5-14	638-642	wall	_	_	_	HAS\_LOCATION[51]	_	
+5-15	643-653	projection	_	_	_	HAS\_LOCATION[51]	_	
+5-16	654-657	and	_	_	_	_	_	
+5-17	658-665	forming	_	_	_	HAS\_FORM[52]	frame\_FORM[86]	
+5-18	666-667	a	_	_	_	HAS\_FORM[52]	frame\_FORM[86]	
+5-19	668-674	fringe	_	_	_	HAS\_FORM[52]	_	
+5-20	675-677	of	_	_	_	HAS\_FORM[52]	_	
+5-21	678-684	shawls	_	A.2 Underground landform	_	HAS\_FORM[52]	_	
+5-22	685-687	or	_	_	_	HAS\_FORM[52]	_	
+5-23	688-699	stalactites	_	A.2 Underground landform	_	HAS\_FORM[52]	_	
+5-24	700-702	on	_	_	_	HAS\_FORM[52]	_	
+5-25	703-706	the	_	_	_	HAS\_FORM[52]	_	
+5-26	707-712	outer	_	_	_	HAS\_FORM[52]	_	
+5-27	713-717	edge	_	_	_	HAS\_FORM[52]	_	
+5-28	717-718	.	_	_	_	_	_	
+
+#Text=canyon :  A steep-walled chasm, gorge, or ravine cut by running water.
+6-1	719-725	canyon	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-2	726-727	:	_	_	_	_	_	
+6-3	729-730	A	_	_	_	_	_	
+6-4	731-743	steep-walled	_	_	_	HAS\_FORM	_	
+6-5	744-749	chasm	_	D.1 Abiotic	GENUS	_	_	
+6-6	749-750	,	_	_	_	_	_	
+6-7	751-756	gorge	_	D.1 Abiotic	GENUS	_	_	
+6-8	756-757	,	_	_	_	_	_	
+6-9	758-760	or	_	_	_	_	_	
+6-10	761-767	ravine	_	D.1 Abiotic	GENUS	_	_	
+6-11	768-771	cut	_	_	_	HAS\_CAUSE[53]	frame\_CAUSE[87]	
+6-12	772-774	by	_	_	_	HAS\_CAUSE[53]	frame\_CAUSE[87]	
+6-13	775-782	running	_	_	_	HAS\_CAUSE[53]	_	
+6-14	783-788	water	_	D.1 Abiotic	_	HAS\_CAUSE[53]	_	
+6-15	788-789	.	_	_	_	_	_	
+
+#Text=canyon :  A valley formed by collapse of the roof of a long fairly straight cave; a karst valley.
+7-1	791-797	canyon	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-2	798-799	:	_	_	_	_	_	
+7-3	801-802	A	_	_	_	_	_	
+7-4	803-809	valley	_	D.1 Abiotic	GENUS	_	_	
+7-5	810-816	formed	_	_	_	HAS\_CAUSE[54]	frame\_CAUSE[88]	
+7-6	817-819	by	_	_	_	HAS\_CAUSE[54]	frame\_CAUSE[88]	
+7-7	820-828	collapse	_	B.1 Movement	_	HAS\_CAUSE[54]	_	
+7-8	829-831	of	_	_	_	HAS\_CAUSE[54]	_	
+7-9	832-835	the	_	_	_	HAS\_CAUSE[54]	_	
+7-10	836-840	roof	_	_	_	HAS\_CAUSE[54]	_	
+7-11	841-843	of	_	_	_	HAS\_CAUSE[54]	_	
+7-12	844-845	a	_	_	_	HAS\_CAUSE[54]	_	
+7-13	846-850	long	_	_	_	HAS\_CAUSE[54]	_	
+7-14	851-857	fairly	_	_	_	HAS\_CAUSE[54]	_	
+7-15	858-866	straight	_	_	_	HAS\_CAUSE[54]	_	
+7-16	867-871	cave	_	A.2 Underground landform	_	HAS\_CAUSE[54]	_	
+7-17	871-872	;	_	_	_	_	_	
+7-18	873-874	a	_	_	_	_	_	
+7-19	875-880	karst	_	A.1 Surface landform[7]	_	_	_	
+7-20	881-887	valley	_	A.1 Surface landform[7]	_	_	_	
+7-21	887-888	.	_	_	_	_	_	
+
+#Text=capillary stalagmite :  Hollow stalagmite formed by saturated karst water pushed up through capillaries and small cracks in a sinter crust; covering permeable fluvial deposits on the floor of a cave; first reported from Cuba, where such stalagmites are composed of aragonite.
+8-1	889-898	capillary	_	A.2 Underground landform[8]	DEFINIENDUM[33]	_	_	
+8-2	899-909	stalagmite	_	A.2 Underground landform[8]	DEFINIENDUM[33]	_	_	
+8-3	910-911	:	_	_	_	_	_	
+8-4	913-919	Hollow	_	_	_	HAS\_FORM	_	
+8-5	920-930	stalagmite	_	A.2 Underground landform	GENUS	_	_	
+8-6	931-937	formed	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[89]	
+8-7	938-940	by	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[89]	
+8-8	941-950	saturated	_	_	_	HAS\_CAUSE[55]	_	
+8-9	951-956	karst	_	D.1 Abiotic[9]	_	HAS\_CAUSE[55]	_	
+8-10	957-962	water	_	D.1 Abiotic[9]	_	HAS\_CAUSE[55]	_	
+8-11	963-969	pushed	_	_	_	HAS\_CAUSE[55]	_	
+8-12	970-972	up	_	_	_	HAS\_CAUSE[55]	_	
+8-13	973-980	through	_	_	_	HAS\_CAUSE[55]	_	
+8-14	981-992	capillaries	_	_	_	HAS\_CAUSE[55]	_	
+8-15	993-996	and	_	_	_	HAS\_CAUSE[55]	_	
+8-16	997-1002	small	_	_	_	HAS\_CAUSE[55]	_	
+8-17	1003-1009	cracks	_	_	_	HAS\_CAUSE[55]	_	
+8-18	1010-1012	in	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[90]	
+8-19	1013-1014	a	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[90]	
+8-20	1015-1021	sinter	_	_	_	HAS\_LOCATION[56]	_	
+8-21	1022-1027	crust	_	_	_	HAS\_LOCATION[56]	_	
+8-22	1027-1028	;	_	_	_	_	_	
+8-23	1029-1037	covering	_	_	_	HAS\_FORM[57]	_	
+8-24	1038-1047	permeable	_	_	_	HAS\_FORM[57]	_	
+8-25	1048-1055	fluvial	_	D.1 Abiotic[10]	_	HAS\_FORM[57]	_	
+8-26	1056-1064	deposits	_	D.1 Abiotic[10]	_	HAS\_FORM[57]	_	
+8-27	1065-1067	on	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[91]	
+8-28	1068-1071	the	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[91]	
+8-29	1072-1077	floor	_	_	_	HAS\_LOCATION[58]	_	
+8-30	1078-1080	of	_	_	_	HAS\_LOCATION[58]	_	
+8-31	1081-1082	a	_	_	_	HAS\_LOCATION[58]	_	
+8-32	1083-1087	cave	_	A.2 Underground landform	_	HAS\_LOCATION[58]	_	
+8-33	1087-1088	;	_	_	_	_	_	
+8-34	1089-1094	first	_	_	_	HAS\_POSITION[59]	_	
+8-35	1095-1103	reported	_	_	_	HAS\_POSITION[59]	_	
+8-36	1104-1108	from	_	_	_	HAS\_POSITION[59]	_	
+8-37	1109-1113	Cuba	_	D.3.1 Geolocation	_	HAS\_POSITION[59]	_	
+8-38	1113-1114	,	_	_	_	_	_	
+8-39	1115-1120	where	_	_	_	_	_	
+8-40	1121-1125	such	_	_	_	_	_	
+8-41	1126-1137	stalagmites	_	_	_	_	_	
+8-42	1138-1141	are	_	_	_	_	_	
+8-43	1142-1150	composed	_	_	_	_	_	
+8-44	1151-1153	of	_	_	_	_	_	
+8-45	1154-1163	aragonite	_	D.1 Abiotic	_	_	_	
+8-46	1163-1164	.	_	_	_	_	_	
+
+#Text=carbonate :  A rock consisting mainly of carbonate minerals, such as limestone or dolomite.
+9-1	1165-1174	carbonate	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-2	1175-1176	:	_	_	_	_	_	
+9-3	1178-1179	A	_	_	_	_	_	
+9-4	1180-1184	rock	_	D.1 Abiotic	GENUS	_	_	
+9-5	1185-1195	consisting	_	_	_	COMPOSITION\_MEDIUM[60]	frame\_COMPOSITION[92]	
+9-6	1196-1202	mainly	_	_	_	COMPOSITION\_MEDIUM[60]	frame\_COMPOSITION[92]	
+9-7	1203-1205	of	_	_	_	COMPOSITION\_MEDIUM[60]	frame\_COMPOSITION[92]	
+9-8	1206-1215	carbonate	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[60]	_	
+9-9	1216-1224	minerals	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[60]	_	
+9-10	1224-1225	,	_	_	_	COMPOSITION\_MEDIUM[60]	_	
+9-11	1226-1230	such	_	_	_	COMPOSITION\_MEDIUM[60]	_	
+9-12	1231-1233	as	_	_	_	COMPOSITION\_MEDIUM[60]	_	
+9-13	1234-1243	limestone	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[60]	_	
+9-14	1244-1246	or	_	_	_	COMPOSITION\_MEDIUM[60]	_	
+9-15	1247-1255	dolomite	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[60]	_	
+9-16	1255-1256	.	_	_	_	_	_	
+
+#Text=cave :  A natural underground room or series of rooms and passages large enough to be entered by a man; generally formed by solution of limestone.
+10-1	1257-1261	cave	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	1262-1263	:	_	_	_	_	_	
+10-3	1265-1266	A	_	_	_	_	_	
+10-4	1267-1274	natural	_	_	_	HAS\_CAUSE	_	
+10-5	1275-1286	underground	_	_	_	HAS\_LOCATION	_	
+10-6	1287-1291	room	_	D.1 Abiotic	GENUS	HAS\_FORM[61]	_	
+10-7	1292-1294	or	_	_	_	HAS\_FORM[61]	_	
+10-8	1295-1301	series	_	_	_	HAS\_FORM[61]	_	
+10-9	1302-1304	of	_	_	_	HAS\_FORM[61]	_	
+10-10	1305-1310	rooms	_	_	_	HAS\_FORM[61]	_	
+10-11	1311-1314	and	_	_	_	HAS\_FORM[61]	_	
+10-12	1315-1323	passages	_	D.1 Abiotic	_	HAS\_FORM[61]	_	
+10-13	1324-1329	large	_	_	_	HAS\_SIZE[62]	frame\_SIZE[93]	
+10-14	1330-1336	enough	_	_	_	HAS\_SIZE[62]	frame\_SIZE[93]	
+10-15	1337-1339	to	_	_	_	HAS\_SIZE[62]	_	
+10-16	1340-1342	be	_	_	_	HAS\_SIZE[62]	_	
+10-17	1343-1350	entered	_	_	_	HAS\_SIZE[62]	_	
+10-18	1351-1353	by	_	_	_	HAS\_SIZE[62]	_	
+10-19	1354-1355	a	_	_	_	HAS\_SIZE[62]	_	
+10-20	1356-1359	man	_	_	_	HAS\_SIZE[62]	_	
+10-21	1359-1360	;	_	_	_	_	_	
+10-22	1361-1370	generally	_	_	_	HAS\_CAUSE[63]	_	
+10-23	1371-1377	formed	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[94]	
+10-24	1378-1380	by	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[94]	
+10-25	1381-1389	solution	_	B.2 Loss	_	HAS\_CAUSE[63]	_	
+10-26	1390-1392	of	_	_	_	HAS\_CAUSE[63]	_	
+10-27	1393-1402	limestone	_	D.1 Abiotic	_	HAS\_CAUSE[63]	_	
+10-28	1402-1403	.	_	_	_	_	_	
+
+#Text=cave breakdown :  Enlargement of parts of a cave system by fall of rock masses from walls and ceiling.
+11-1	1405-1409	cave	_	B.1 Movement[12]	DEFINIENDUM[34]	_	_	
+11-2	1410-1419	breakdown	_	B.1 Movement[12]	DEFINIENDUM[34]	_	_	
+11-3	1420-1421	:	_	_	_	_	_	
+11-4	1423-1434	Enlargement	_	_	GENUS	DEFINED\_AS[64]	_	
+11-5	1435-1437	of	_	_	_	DEFINED\_AS[64]	_	
+11-6	1438-1443	parts	_	_	_	DEFINED\_AS[64]	_	
+11-7	1444-1446	of	_	_	_	DEFINED\_AS[64]	_	
+11-8	1447-1448	a	_	_	_	DEFINED\_AS[64]	_	
+11-9	1449-1453	cave	_	A.2 Underground landform[13]	_	DEFINED\_AS[64]	_	
+11-10	1454-1460	system	_	A.2 Underground landform[13]	_	DEFINED\_AS[64]	_	
+11-11	1461-1463	by	_	_	_	HAS\_CAUSE[65]	_	
+11-12	1464-1468	fall	_	B.1 Movement	_	HAS\_CAUSE[65]	_	
+11-13	1469-1471	of	_	_	_	HAS\_CAUSE[65]	_	
+11-14	1472-1476	rock	_	D.1 Abiotic[14]	_	HAS\_CAUSE[65]	_	
+11-15	1477-1483	masses	_	D.1 Abiotic[14]	_	HAS\_CAUSE[65]	_	
+11-16	1484-1488	from	_	_	_	HAS\_CAUSE[65]	_	
+11-17	1489-1494	walls	_	_	_	HAS\_CAUSE[65]	_	
+11-18	1495-1498	and	_	_	_	HAS\_CAUSE[65]	_	
+11-19	1499-1506	ceiling	_	_	_	HAS\_CAUSE[65]	_	
+11-20	1506-1507	.	_	_	_	_	_	
+
+#Text=cave breakdown :  Heaps of rock that have collapsed from the walls and ceiling of a cave, generally called cave breccia.
+12-1	1509-1513	cave	_	D.1 Abiotic[15]	DEFINIENDUM[35]	_	_	
+12-2	1514-1523	breakdown	_	D.1 Abiotic[15]	DEFINIENDUM[35]	_	_	
+12-3	1524-1525	:	_	_	_	_	_	
+12-4	1527-1532	Heaps	_	D.1 Abiotic[16]	GENUS[36]	_	_	
+12-5	1533-1535	of	_	D.1 Abiotic[16]	GENUS[36]	_	_	
+12-6	1536-1540	rock	_	D.1 Abiotic[16]	GENUS[36]	_	_	
+12-7	1541-1545	that	_	_	_	_	_	
+12-8	1546-1550	have	_	_	_	HAS\_CAUSE[66]	_	
+12-9	1551-1560	collapsed	_	B.1 Movement	_	HAS\_CAUSE[66]	frame\_CAUSE[95]	
+12-10	1561-1565	from	_	_	_	HAS\_CAUSE[66]	frame\_CAUSE[95]	
+12-11	1566-1569	the	_	_	_	HAS\_CAUSE[66]	_	
+12-12	1570-1575	walls	_	_	_	HAS\_CAUSE[66]	_	
+12-13	1576-1579	and	_	_	_	HAS\_CAUSE[66]	_	
+12-14	1580-1587	ceiling	_	_	_	HAS\_CAUSE[66]	_	
+12-15	1588-1590	of	_	_	_	HAS\_CAUSE[66]	_	
+12-16	1591-1592	a	_	_	_	HAS\_CAUSE[66]	_	
+12-17	1593-1597	cave	_	_	_	HAS\_CAUSE[66]	_	
+12-18	1597-1598	,	_	_	_	_	_	
+12-19	1599-1608	generally	_	_	_	_	_	
+12-20	1609-1615	called	_	_	_	_	_	
+12-21	1616-1620	cave	_	D.1 Abiotic[17]	_	_	_	
+12-22	1621-1628	breccia	_	D.1 Abiotic[17]	_	_	_	
+12-23	1628-1629	.	_	_	_	_	_	
+
+#Text=cave breccia :  Angular fragments of rock forming a fill in a cave, either cemented together by dripstone or in a matrix of cave earth. See also solution breccia.
+13-1	1630-1634	cave	_	D.1 Abiotic[18]	DEFINIENDUM[37]	_	_	
+13-2	1635-1642	breccia	_	D.1 Abiotic[18]	DEFINIENDUM[37]	_	_	
+13-3	1643-1644	:	_	_	_	_	_	
+13-4	1646-1653	Angular	_	_	_	HAS\_FORM	_	
+13-5	1654-1663	fragments	_	D.1 Abiotic[19]	GENUS[38]	_	_	
+13-6	1664-1666	of	_	D.1 Abiotic[19]	GENUS[38]	_	_	
+13-7	1667-1671	rock	_	D.1 Abiotic[19]	GENUS[38]	_	_	
+13-8	1672-1679	forming	_	_	_	HAS\_FUNCTION[67]	frame\_FUNCTION[96]	
+13-9	1680-1681	a	_	_	_	HAS\_FUNCTION[67]	frame\_FUNCTION[96]	
+13-10	1682-1686	fill	_	_	_	HAS\_FUNCTION[67]	_	
+13-11	1687-1689	in	_	_	_	HAS\_FUNCTION[67]|HAS\_LOCATION[68]	frame\_LOCATION[97]	
+13-12	1690-1691	a	_	_	_	HAS\_FUNCTION[67]|HAS\_LOCATION[68]	frame\_LOCATION[97]	
+13-13	1692-1696	cave	_	A.2 Underground landform	_	HAS\_FUNCTION[67]|HAS\_LOCATION[68]	_	
+13-14	1696-1697	,	_	_	_	_	_	
+13-15	1698-1704	either	_	_	_	HAS\_CAUSE[69]	_	
+13-16	1705-1713	cemented	_	D.3 Property	_	HAS\_CAUSE[69]	frame\_CAUSE[98]	
+13-17	1714-1722	together	_	_	_	HAS\_CAUSE[69]	frame\_CAUSE[98]	
+13-18	1723-1725	by	_	_	_	HAS\_CAUSE[69]	frame\_CAUSE[98]	
+13-19	1726-1735	dripstone	_	D.1 Abiotic	_	HAS\_CAUSE[69]	_	
+13-20	1736-1738	or	_	_	_	HAS\_CAUSE[69]	_	
+13-21	1739-1741	in	_	_	_	HAS\_CAUSE[69]	_	
+13-22	1742-1743	a	_	_	_	HAS\_CAUSE[69]	_	
+13-23	1744-1750	matrix	_	_	_	HAS\_CAUSE[69]	_	
+13-24	1751-1753	of	_	_	_	HAS\_CAUSE[69]	_	
+13-25	1754-1758	cave	_	D.1 Abiotic[20]	_	HAS\_CAUSE[69]	_	
+13-26	1759-1764	earth	_	D.1 Abiotic[20]	_	HAS\_CAUSE[69]	_	
+13-27	1764-1765	.	_	_	_	_	_	
+13-28	1766-1769	See	_	_	_	_	_	
+13-29	1770-1774	also	_	_	_	_	_	
+13-30	1775-1783	solution	_	D.1 Abiotic[21]	_	_	_	
+13-31	1784-1791	breccia	_	D.1 Abiotic[21]	_	_	_	
+13-32	1791-1792	.	_	_	_	_	_	
+
+#Text=cave coral :  A rough, knobby growth of calcite resembling coral in shape, generally small; found on floor, walls, or ceiling of a cave. Synonym, coral formation. See also knobstone.
+14-1	1794-1798	cave	_	A.2 Underground landform[22]	DEFINIENDUM[39]	_	_	
+14-2	1799-1804	coral	_	A.2 Underground landform[22]	DEFINIENDUM[39]	_	_	
+14-3	1805-1806	:	_	_	_	_	_	
+14-4	1808-1809	A	_	_	_	_	_	
+14-5	1810-1815	rough	_	_	_	HAS\_FORM	_	
+14-6	1815-1816	,	_	_	_	_	_	
+14-7	1817-1823	knobby	_	_	_	HAS\_FORM	_	
+14-8	1824-1830	growth	_	B. Process[23]	_	_	_	
+14-9	1831-1833	of	_	B. Process[23]	_	COMPOSITION\_MEDIUM[70]	frame\_COMPOSITION	
+14-10	1834-1841	calcite	_	B. Process[23]|D.1 Abiotic[24]	_	COMPOSITION\_MEDIUM[70]	_	
+14-11	1842-1852	resembling	_	_	_	HAS\_FORM[71]	_	
+14-12	1853-1858	coral	_	D.1 Abiotic	_	HAS\_FORM[71]	_	
+14-13	1859-1861	in	_	_	_	HAS\_FORM[71]	frame\_FORM[99]	
+14-14	1862-1867	shape	_	_	_	HAS\_FORM[71]	frame\_FORM[99]	
+14-15	1867-1868	,	_	_	_	_	_	
+14-16	1869-1878	generally	_	_	_	HAS\_SIZE[72]	_	
+14-17	1879-1884	small	_	_	_	HAS\_SIZE[72]	_	
+14-18	1884-1885	;	_	_	_	_	_	
+14-19	1886-1891	found	_	_	_	HAS\_LOCATION[73]	frame\_LOCATION[100]	
+14-20	1892-1894	on	_	_	_	HAS\_LOCATION[73]	frame\_LOCATION[100]	
+14-21	1895-1900	floor	_	_	_	HAS\_LOCATION[73]	_	
+14-22	1900-1901	,	_	_	_	HAS\_LOCATION[73]	_	
+14-23	1902-1907	walls	_	_	_	HAS\_LOCATION[73]	_	
+14-24	1907-1908	,	_	_	_	HAS\_LOCATION[73]	_	
+14-25	1909-1911	or	_	_	_	HAS\_LOCATION[73]	_	
+14-26	1912-1919	ceiling	_	_	_	HAS\_LOCATION[73]	_	
+14-27	1920-1922	of	_	_	_	HAS\_LOCATION[73]	_	
+14-28	1923-1924	a	_	_	_	HAS\_LOCATION[73]	_	
+14-29	1925-1929	cave	_	A.2 Underground landform	_	HAS\_LOCATION[73]	_	
+14-30	1929-1930	.	_	_	_	_	_	
+14-31	1931-1938	Synonym	_	_	_	_	_	
+14-32	1938-1939	,	_	_	_	_	_	
+14-33	1940-1945	coral	_	A.2 Underground landform[25]	DEFINIENDUM[40]	_	_	
+14-34	1946-1955	formation	_	A.2 Underground landform[25]	DEFINIENDUM[40]	_	_	
+14-35	1955-1956	.	_	_	_	_	_	
+14-36	1957-1960	See	_	_	_	_	_	
+14-37	1961-1965	also	_	_	_	_	_	
+14-38	1966-1975	knobstone	_	A.2 Underground landform	_	_	_	
+14-39	1975-1976	.	_	_	_	_	_	
+
+#Text=cave earth, cave fill :  Insoluble deposits of clay, silt, sand, or gravel flooring or filling a cave passage. In a more restricted sense, cave earth includes only the finer fractions: clay, silt, and fine sand deposits.
+15-1	1977-1981	cave	_	D.1 Abiotic[26]	DEFINIENDUM[41]	_	_	
+15-2	1982-1987	earth	_	D.1 Abiotic[26]	DEFINIENDUM[41]	_	_	
+15-3	1987-1988	,	_	D.1 Abiotic[26]	_	_	_	
+15-4	1989-1993	cave	_	D.1 Abiotic[27]	DEFINIENDUM[42]	_	_	
+15-5	1994-1998	fill	_	D.1 Abiotic[27]	DEFINIENDUM[42]	_	_	
+15-6	1999-2000	:	_	_	_	_	_	
+15-7	2002-2011	Insoluble	_	_	_	HAS\_ATTRIBUTE	_	
+15-8	2012-2020	deposits	_	_	GENUS	COMPOSITION\_MEDIUM[74]	_	
+15-9	2021-2023	of	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+15-10	2024-2028	clay	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[74]	_	
+15-11	2028-2029	,	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+15-12	2030-2034	silt	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[74]	_	
+15-13	2034-2035	,	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+15-14	2036-2040	sand	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[74]	_	
+15-15	2040-2041	,	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+15-16	2042-2044	or	_	_	_	COMPOSITION\_MEDIUM[74]	_	
+15-17	2045-2051	gravel	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[74]	_	
+15-18	2052-2060	flooring	_	B. Process	_	HAS\_FUNCTION[75]	frame\_FUNCTION	
+15-19	2061-2063	or	_	_	_	HAS\_FUNCTION[75]	_	
+15-20	2064-2071	filling	_	B.3 Addition	_	HAS\_FUNCTION[75]	frame\_FUNCTION	
+15-21	2072-2073	a	_	_	_	HAS\_FUNCTION[75]	_	
+15-22	2074-2078	cave	_	A.2 Underground landform[28]	_	HAS\_FUNCTION[75]	_	
+15-23	2079-2086	passage	_	A.2 Underground landform[28]	_	HAS\_FUNCTION[75]	_	
+15-24	2086-2087	.	_	_	_	_	_	
+15-25	2088-2090	In	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-26	2091-2092	a	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-27	2093-2097	more	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-28	2098-2108	restricted	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-29	2109-2114	sense	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-30	2114-2115	,	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-31	2116-2120	cave	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-32	2121-2126	earth	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-33	2127-2135	includes	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-34	2136-2140	only	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-35	2141-2144	the	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-36	2145-2150	finer	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-37	2151-2160	fractions	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-38	2160-2161	:	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-39	2162-2166	clay	clay deposit	D.1 Abiotic	_	COMPOSITION\_MEDIUM[76]	_	
+15-40	2166-2167	,	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-41	2168-2172	silt	silt deposit	D.1 Abiotic	_	COMPOSITION\_MEDIUM[76]	_	
+15-42	2172-2173	,	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-43	2174-2177	and	_	_	_	COMPOSITION\_MEDIUM[76]	_	
+15-44	2178-2182	fine	_	D.1 Abiotic[29]	_	COMPOSITION\_MEDIUM[76]	_	
+15-45	2183-2187	sand	_	D.1 Abiotic[29]	_	COMPOSITION\_MEDIUM[76]	_	
+15-46	2188-2196	deposits	_	D.1 Abiotic[29]	_	COMPOSITION\_MEDIUM[76]	_	
+15-47	2196-2197	.	_	_	_	_	_	

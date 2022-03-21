@@ -1,0 +1,416 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=ponikalnica, ponornica: Vodni tok, ki ponikne v kraško podzemlje.
+1-1	0-11	ponikalnica	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+1-2	11-12	,	_	_	_	_	_	
+1-3	13-22	ponornica	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+1-4	22-23	:	_	_	_	_	_	
+1-5	24-29	Vodni	_	D.1 Abiotic[2]	GENUS[32]	_	_	
+1-6	30-33	tok	_	D.1 Abiotic[2]	GENUS[32]	_	_	
+1-7	33-34	,	_	_	_	_	_	
+1-8	35-37	ki	_	_	_	_	_	
+1-9	38-45	ponikne	_	B.1 Movement	_	HAS\_FUNCTION	_	
+1-10	46-47	v	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION	
+1-11	48-54	kraško	_	C. Geome[3]	_	HAS\_LOCATION[48]	_	
+1-12	55-64	podzemlje	_	C. Geome[3]	_	HAS\_LOCATION[48]	_	
+1-13	64-65	.	_	_	_	_	_	
+
+#Text=ponikev, ponikva: Odprtina, kamor se izgublja voda. Priporočljiv pomen za ponikev: ponikanje vodnega toka v odprtino, večidel prekrito z naplavino, v nasprotju s ponikanjem v jamo (ponor), ali špranjo v skali (požiralnik) (Primer: ponikev Temenice pri vasi Ponikve).
+2-1	69-76	ponikev	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+2-2	76-77	,	_	_	_	_	_	
+2-3	78-85	ponikva	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+2-4	85-86	:	_	_	_	_	_	
+2-5	87-95	Odprtina	_	D.1 Abiotic	GENUS	_	_	
+2-6	95-96	,	_	_	_	_	_	
+2-7	97-102	kamor	_	_	_	HAS\_LOCATION[49]	frame\_LOCATION[78]	
+2-8	103-105	se	_	_	_	HAS\_LOCATION[49]	frame\_LOCATION[78]	
+2-9	106-114	izgublja	_	_	_	HAS\_LOCATION[49]	frame\_LOCATION[78]	
+2-10	115-119	voda	_	D.1 Abiotic	_	HAS\_LOCATION[49]	_	
+2-11	119-120	.	_	_	_	_	_	
+2-12	121-133	Priporočljiv	_	_	_	_	_	
+2-13	134-139	pomen	_	_	_	_	_	
+2-14	140-142	za	_	_	_	_	_	
+2-15	143-150	ponikev	_	_	_	_	_	
+2-16	150-151	:	_	_	_	_	_	
+2-17	152-161	ponikanje	_	B.2 Loss	_	HAS\_FUNCTION[50]	_	
+2-18	162-169	vodnega	_	D.1 Abiotic[4]	_	HAS\_FUNCTION[50]	_	
+2-19	170-174	toka	_	D.1 Abiotic[4]	_	HAS\_FUNCTION[50]	_	
+2-20	175-176	v	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION	
+2-21	177-185	odprtino	_	D.1 Abiotic	_	HAS\_LOCATION[51]	_	
+2-22	185-186	,	_	_	_	_	_	
+2-23	187-194	večidel	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+2-24	195-203	prekrito	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+2-25	204-205	z	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+2-26	206-215	naplavino	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[52]	_	
+2-27	215-216	,	_	_	_	_	_	
+2-28	217-218	v	_	_	_	_	_	
+2-29	219-228	nasprotju	_	_	_	_	_	
+2-30	229-230	s	_	_	_	_	_	
+2-31	231-241	ponikanjem	_	_	_	_	_	
+2-32	242-243	v	_	_	_	_	_	
+2-33	244-248	jamo	_	_	_	_	_	
+2-34	249-250	(	_	_	_	_	_	
+2-35	250-255	ponor	_	A.3 Hydrological form	_	_	_	
+2-36	255-256	)	_	_	_	_	_	
+2-37	256-257	,	_	_	_	_	_	
+2-38	258-261	ali	_	_	_	_	_	
+2-39	262-269	špranjo	_	_	_	_	_	
+2-40	270-271	v	_	_	_	_	_	
+2-41	272-277	skali	_	_	_	_	_	
+2-42	278-279	(	_	_	_	_	_	
+2-43	279-289	požiralnik	_	A.3 Hydrological form	_	_	_	
+2-44	289-290	)	_	_	_	_	_	
+2-45	291-292	(	_	_	_	_	_	
+2-46	292-298	Primer	_	_	_	_	_	
+2-47	298-299	:	_	_	_	_	_	
+2-48	300-307	ponikev	_	_	_	_	_	
+2-49	308-316	Temenice	_	D.3.1 Geolocation	_	_	_	
+2-50	317-320	pri	_	_	_	_	_	
+2-51	321-325	vasi	_	_	_	_	_	
+2-52	326-333	Ponikve	_	D.3.1 Geolocation	_	_	_	
+2-53	333-334	)	_	_	_	_	_	
+2-54	334-335	.	_	_	_	_	_	
+
+#Text=ponor: Večja odprtina, v kateri ponika voda. Priporočljiv pomen: večja vodoravna luknja (jama), v katero teče potok ali reka (na primer vtok Pivke v Postojnsko jamo).
+3-1	340-345	ponor	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+3-2	345-346	:	_	_	_	_	_	
+3-3	347-352	Večja	_	_	_	HAS\_SIZE	_	
+3-4	353-361	odprtina	_	D.1 Abiotic	GENUS	_	_	
+3-5	361-362	,	_	_	_	_	_	
+3-6	363-364	v	_	_	_	HAS\_FUNCTION[53]	frame\_FUNCTION[79]	
+3-7	365-371	kateri	_	_	_	HAS\_FUNCTION[53]	frame\_FUNCTION[79]	
+3-8	372-378	ponika	_	B.2 Loss	_	HAS\_FUNCTION[53]	frame\_FUNCTION[79]	
+3-9	379-383	voda	_	D.1 Abiotic	_	HAS\_FUNCTION[53]	_	
+3-10	383-384	.	_	_	_	_	_	
+3-11	385-397	Priporočljiv	_	_	_	_	_	
+3-12	398-403	pomen	_	_	_	_	_	
+3-13	403-404	:	_	_	_	_	_	
+3-14	405-410	večja	_	_	_	HAS\_SIZE	_	
+3-15	411-420	vodoravna	_	_	_	HAS\_FORM	_	
+3-16	421-427	luknja	_	D.1 Abiotic	_	_	_	
+3-17	428-429	(	_	_	_	_	_	
+3-18	429-433	jama	_	A.2 Underground landform	_	_	_	
+3-19	433-434	)	_	_	_	_	_	
+3-20	434-435	,	_	_	_	_	_	
+3-21	436-437	v	_	_	_	HAS\_FUNCTION[54]	frame\_LOCATION	
+3-22	438-444	katero	_	_	_	HAS\_FUNCTION[54]	_	
+3-23	445-449	teče	_	B.1 Movement	_	HAS\_FUNCTION[54]	_	
+3-24	450-455	potok	_	D.1 Abiotic	_	HAS\_FUNCTION[54]	_	
+3-25	456-459	ali	_	_	_	HAS\_FUNCTION[54]	_	
+3-26	460-464	reka	_	D.1 Abiotic	_	HAS\_FUNCTION[54]	_	
+3-27	465-466	(	_	_	_	_	_	
+3-28	466-468	na	_	_	_	_	_	
+3-29	469-475	primer	_	_	_	_	_	
+3-30	476-480	vtok	_	_	_	_	_	
+3-31	481-486	Pivke	_	D.3.1 Geolocation	_	_	_	
+3-32	487-488	v	_	_	_	_	_	
+3-33	489-499	Postojnsko	_	D.3.1 Geolocation[5]	_	_	_	
+3-34	500-504	jamo	_	D.3.1 Geolocation[5]	_	_	_	
+3-35	504-505	)	_	_	_	_	_	
+3-36	505-506	.	_	_	_	_	_	
+
+#Text=jezerski ponor: Ponor na obali ali jezerski kotanji, v katerega teče voda iz jezera.
+4-1	511-519	jezerski	_	A.3 Hydrological form[6]	DEFINIENDUM[33]	_	_	
+4-2	520-525	ponor	_	A.3 Hydrological form[6]	DEFINIENDUM[33]	_	_	
+4-3	525-526	:	_	_	_	_	_	
+4-4	527-532	Ponor	_	A.3 Hydrological form	GENUS	_	_	
+4-5	533-535	na	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION	
+4-6	536-541	obali	_	D.1 Abiotic	_	HAS\_LOCATION[55]	_	
+4-7	542-545	ali	_	_	_	HAS\_LOCATION[55]	_	
+4-8	546-554	jezerski	_	D.1 Abiotic[7]	_	HAS\_LOCATION[55]	_	
+4-9	555-562	kotanji	_	D.1 Abiotic[7]|D.1 Abiotic[8]	_	HAS\_LOCATION[55]	_	
+4-10	562-563	,	_	D.1 Abiotic[8]	_	_	_	
+4-11	564-565	v	_	_	_	HAS\_FUNCTION[56]	_	
+4-12	566-574	katerega	_	_	_	HAS\_FUNCTION[56]	_	
+4-13	575-579	teče	_	_	_	HAS\_FUNCTION[56]	_	
+4-14	580-584	voda	_	D.1 Abiotic	_	HAS\_FUNCTION[56]	_	
+4-15	585-587	iz	_	_	_	HAS\_FUNCTION[56]	_	
+4-16	588-594	jezera	_	D.1 Abiotic	_	HAS\_FUNCTION[56]	_	
+4-17	594-595	.	_	_	_	_	_	
+
+#Text=požiralnik: Mesto izgubljanja vode v kraško podzemlje. Priporočljiv pomen: špranja ali brezno v skalnem koritu, ki požira vodo.
+5-1	600-610	požiralnik	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+5-2	610-611	:	_	_	_	_	_	
+5-3	612-617	Mesto	_	_	GENUS[34]	HAS\_LOCATION[57]	frame\_LOCATION	
+5-4	618-629	izgubljanja	_	B.2 Loss	GENUS[34]	HAS\_LOCATION[57]	_	
+5-5	630-634	vode	_	_	GENUS[34]	HAS\_LOCATION[57]	_	
+5-6	635-636	v	_	_	_	HAS\_LOCATION[57]	_	
+5-7	637-643	kraško	_	C. Geome[9]	_	HAS\_LOCATION[57]	_	
+5-8	644-653	podzemlje	_	C. Geome[9]	_	HAS\_LOCATION[57]	_	
+5-9	653-654	.	_	_	_	_	_	
+5-10	655-667	Priporočljiv	_	_	_	_	_	
+5-11	668-673	pomen	_	_	_	_	_	
+5-12	673-674	:	_	_	_	_	_	
+5-13	675-682	špranja	_	D.1 Abiotic	_	_	_	
+5-14	683-686	ali	_	_	_	_	_	
+5-15	687-693	brezno	_	A.2 Underground landform	_	_	_	
+5-16	694-695	v	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION	
+5-17	696-703	skalnem	_	D.1 Abiotic[10]	_	HAS\_LOCATION[58]	_	
+5-18	704-710	koritu	_	D.1 Abiotic[10]	_	HAS\_LOCATION[58]	_	
+5-19	710-711	,	_	_	_	_	_	
+5-20	712-714	ki	_	_	_	HAS\_FUNCTION[59]	frame\_FUNCTION[80]	
+5-21	715-721	požira	_	_	_	HAS\_FUNCTION[59]	frame\_FUNCTION[80]	
+5-22	722-726	vodo	_	D.1 Abiotic	_	HAS\_FUNCTION[59]	_	
+5-23	726-727	.	_	_	_	_	_	
+
+#Text=prečni profil, profil jamskega rova: Oblika jamskega rova v prečnem preseku. Po podobnosti z geometrijskimi liki ločimo okroglasti, sodasti, pravokotniški, kvadratasti, trapezasti, kupolasti (svodasti), lečasti, špranjasti (itd.) prečni profil.
+6-1	732-738	prečni	_	D.3 Property[11]	DEFINIENDUM[35]	_	_	
+6-2	739-745	profil	_	D.3 Property[11]	DEFINIENDUM[35]	_	_	
+6-3	745-746	,	_	_	_	_	_	
+6-4	747-753	profil	_	D.3 Property[12]	DEFINIENDUM[36]	_	_	
+6-5	754-762	jamskega	_	D.3 Property[12]	DEFINIENDUM[36]	_	_	
+6-6	763-767	rova	_	D.3 Property[12]	DEFINIENDUM[36]	_	_	
+6-7	767-768	:	_	_	_	_	_	
+6-8	769-775	Oblika	_	_	_	HAS\_FORM[60]	_	
+6-9	776-784	jamskega	_	A.2 Underground landform[13]	_	HAS\_FORM[60]	_	
+6-10	785-789	rova	_	A.2 Underground landform[13]	_	HAS\_FORM[60]	_	
+6-11	790-791	v	_	_	_	HAS\_FORM[60]	frame\_FORM[81]	
+6-12	792-799	prečnem	_	_	_	HAS\_FORM[60]	frame\_FORM[81]	
+6-13	800-807	preseku	_	_	_	HAS\_FORM[60]	frame\_FORM[81]	
+6-14	807-808	.	_	_	_	_	_	
+6-15	809-811	Po	_	_	_	HAS\_FORM[61]	frame\_FORM[82]	
+6-16	812-822	podobnosti	_	_	_	HAS\_FORM[61]	frame\_FORM[82]	
+6-17	823-824	z	_	_	_	HAS\_FORM[61]	frame\_FORM[82]	
+6-18	825-839	geometrijskimi	_	_	_	HAS\_FORM[61]	frame\_FORM[82]	
+6-19	840-844	liki	_	_	_	HAS\_FORM[61]	frame\_FORM[82]	
+6-20	845-851	ločimo	_	_	_	HAS\_FORM[61]	frame\_FORM[82]	
+6-21	852-862	okroglasti	okroglasti prečni profil	D.3 Property	SPECIES	HAS\_FORM[61]	_	
+6-22	862-863	,	_	_	_	HAS\_FORM[61]	_	
+6-23	864-871	sodasti	sodasti prečni profil	D.3 Property	SPECIES	HAS\_FORM[61]	_	
+6-24	871-872	,	_	_	_	HAS\_FORM[61]	_	
+6-25	873-886	pravokotniški	pravokotniški prečni profil	D.3 Property	SPECIES	HAS\_FORM[61]	_	
+6-26	886-887	,	_	_	_	HAS\_FORM[61]	_	
+6-27	888-899	kvadratasti	kvadratasti prečni profil	D.3 Property	SPECIES	HAS\_FORM[61]	_	
+6-28	899-900	,	_	_	_	HAS\_FORM[61]	_	
+6-29	901-911	trapezasti	trapezasti prečni profil	D.3 Property	SPECIES	HAS\_FORM[61]	_	
+6-30	911-912	,	_	_	_	HAS\_FORM[61]	_	
+6-31	913-922	kupolasti	kupolasti (svodasti) prečni profil[1]	D.3 Property[14]	SPECIES[37]	HAS\_FORM[61]	_	
+6-32	923-924	(	kupolasti (svodasti) prečni profil[1]	D.3 Property[14]	SPECIES[37]	HAS\_FORM[61]	_	
+6-33	924-932	svodasti	kupolasti (svodasti) prečni profil[1]	D.3 Property[14]	SPECIES[37]	HAS\_FORM[61]	_	
+6-34	932-933	)	kupolasti (svodasti) prečni profil[1]	_	_	HAS\_FORM[61]	_	
+6-35	933-934	,	_	_	_	HAS\_FORM[61]	_	
+6-36	935-942	lečasti	lečasti prečni profil	D.3 Property	SPECIES	HAS\_FORM[61]	_	
+6-37	942-943	,	_	_	_	HAS\_FORM[61]	_	
+6-38	944-954	špranjasti	špranjasti prečni profil	D.3 Property	SPECIES	HAS\_FORM[61]	_	
+6-39	955-956	(	_	_	_	HAS\_FORM[61]	_	
+6-40	956-959	itd	_	_	_	HAS\_FORM[61]	_	
+6-41	959-960	.	_	_	_	HAS\_FORM[61]	_	
+6-42	960-961	)	_	_	_	HAS\_FORM[61]	_	
+6-43	962-968	prečni	_	_	_	HAS\_FORM[61]	_	
+6-44	969-975	profil	_	_	_	HAS\_FORM[61]	_	
+6-45	975-976	.	_	_	_	_	_	
+
+#Text=Gravitacijski vodni tok oblikuje gravitacijski prečni profil. Zanj so značilne stene, ravno dno in svodast strop.
+7-1	981-994	Gravitacijski	_	D.1 Abiotic[15]	DEFINIENDUM[38]	_	_	
+7-2	995-1000	vodni	_	D.1 Abiotic[15]	DEFINIENDUM[38]	_	_	
+7-3	1001-1004	tok	_	D.1 Abiotic[15]	DEFINIENDUM[38]	_	_	
+7-4	1005-1013	oblikuje	_	_	_	HAS\_FUNCTION[62]	frame\_FUNCTION	
+7-5	1014-1027	gravitacijski	_	_	_	HAS\_FUNCTION[62]	_	
+7-6	1028-1034	prečni	_	_	_	HAS\_FUNCTION[62]	_	
+7-7	1035-1041	profil	_	_	_	HAS\_FUNCTION[62]	_	
+7-8	1041-1042	.	_	_	_	_	_	
+7-9	1043-1047	Zanj	_	_	_	HAS\_FORM[63]	_	
+7-10	1048-1050	so	_	_	_	HAS\_FORM[63]	_	
+7-11	1051-1059	značilne	_	_	_	HAS\_FORM[63]	_	
+7-12	1060-1065	stene	_	D.1 Abiotic	_	HAS\_FORM[63]|CONTAINS[64]	_	
+7-13	1065-1066	,	_	_	_	HAS\_FORM[63]|CONTAINS[64]	_	
+7-14	1067-1072	ravno	_	D.1 Abiotic[16]	_	HAS\_FORM[63]|CONTAINS[64]	_	
+7-15	1073-1076	dno	_	D.1 Abiotic[16]	_	HAS\_FORM[63]|CONTAINS[64]	_	
+7-16	1077-1079	in	_	_	_	HAS\_FORM[63]|CONTAINS[64]	_	
+7-17	1080-1087	svodast	_	D.1 Abiotic[17]	_	HAS\_FORM[63]|CONTAINS[64]	_	
+7-18	1088-1093	strop	_	D.1 Abiotic[17]	_	HAS\_FORM[63]|CONTAINS[64]	_	
+7-19	1093-1094	.	_	_	_	CONTAINS[64]	_	
+
+#Text=Eforacijski tok oblikuje eforacijski prečni profil. Zanj so značilne okroglaste oblike in je značilen za rove, ki so nastali s pretokom vode pod tlakom.
+8-1	1098-1109	Eforacijski	_	D.1 Abiotic[18]	DEFINIENDUM[39]	_	_	
+8-2	1110-1113	tok	_	D.1 Abiotic[18]	DEFINIENDUM[39]	_	_	
+8-3	1114-1122	oblikuje	_	_	_	HAS\_FUNCTION[65]	frame\_FUNCTION	
+8-4	1123-1134	eforacijski	_	_	_	HAS\_FUNCTION[65]	_	
+8-5	1135-1141	prečni	_	_	_	HAS\_FUNCTION[65]	_	
+8-6	1142-1148	profil	_	_	_	HAS\_FUNCTION[65]	_	
+8-7	1148-1149	.	_	_	_	_	_	
+8-8	1150-1154	Zanj	_	_	_	_	_	
+8-9	1155-1157	so	_	_	_	_	frame\_FORM[83]	
+8-10	1158-1166	značilne	_	_	_	HAS\_FORM[66]	frame\_FORM[83]	
+8-11	1167-1177	okroglaste	_	_	_	HAS\_FORM[66]	frame\_FORM[83]	
+8-12	1178-1184	oblike	_	_	_	HAS\_FORM[66]	frame\_FORM[83]	
+8-13	1185-1187	in	_	_	_	_	_	
+8-14	1188-1190	je	_	_	_	_	_	
+8-15	1191-1199	značilen	_	_	_	_	_	
+8-16	1200-1202	za	_	_	_	_	_	
+8-17	1203-1207	rove	_	A.2 Underground landform	_	_	_	
+8-18	1207-1208	,	_	_	_	_	_	
+8-19	1209-1211	ki	_	_	_	_	_	
+8-20	1212-1214	so	_	_	_	_	_	
+8-21	1215-1222	nastali	_	_	_	HAS\_CAUSE[67]	_	
+8-22	1223-1224	s	_	_	_	HAS\_CAUSE[67]	_	
+8-23	1225-1233	pretokom	_	B.1 Movement	_	HAS\_CAUSE[67]	_	
+8-24	1234-1238	vode	_	D.1 Abiotic	_	HAS\_CAUSE[67]	_	
+8-25	1239-1242	pod	_	_	_	HAS\_CAUSE[67]	_	
+8-26	1243-1249	tlakom	_	D.3 Property	_	HAS\_CAUSE[67]	_	
+8-27	1249-1250	.	_	_	_	_	_	
+
+#Text=predkraška faza: Doba v razvoju površja pred začetkom zakrasevanja, ko je vladal na površju rečni (normalni) relief. Besedo uporabljajo takrat, kadar je tej fazi sledila kraška faza oziroma nastajanje krasa.
+9-1	1254-1264	predkraška	_	D.1 Abiotic[19]	DEFINIENDUM[40]	_	_	
+9-2	1265-1269	faza	_	D.1 Abiotic[19]	DEFINIENDUM[40]	_	_	
+9-3	1269-1270	:	_	_	_	_	_	
+9-4	1271-1275	Doba	_	D.1 Abiotic	GENUS	OCCURS\_IN\_TIME[68]	_	
+9-5	1276-1277	v	_	_	_	OCCURS\_IN\_TIME[68]	_	
+9-6	1278-1285	razvoju	_	_	_	OCCURS\_IN\_TIME[68]	_	
+9-7	1286-1293	površja	_	D.1 Abiotic	_	OCCURS\_IN\_TIME[68]	_	
+9-8	1294-1298	pred	_	_	_	OCCURS\_IN\_TIME[68]	frame\_TIME[84]	
+9-9	1299-1307	začetkom	_	_	_	OCCURS\_IN\_TIME[68]	frame\_TIME[84]	
+9-10	1308-1320	zakrasevanja	_	B.4 Transformation	_	OCCURS\_IN\_TIME[68]	_	
+9-11	1320-1321	,	_	_	_	OCCURS\_IN\_TIME[68]	_	
+9-12	1322-1324	ko	_	_	_	OCCURS\_IN\_TIME[68]	_	
+9-13	1325-1327	je	_	_	_	OCCURS\_IN\_TIME[68]	_	
+9-14	1328-1334	vladal	_	_	_	OCCURS\_IN\_TIME[68]	_	
+9-15	1335-1337	na	_	_	_	OCCURS\_IN\_TIME[68]	_	
+9-16	1338-1345	površju	_	D.1 Abiotic	_	OCCURS\_IN\_TIME[68]	_	
+9-17	1346-1351	rečni	_	D.3 Property[20]	_	OCCURS\_IN\_TIME[68]	_	
+9-18	1352-1353	(	_	D.3 Property[20]	_	OCCURS\_IN\_TIME[68]	_	
+9-19	1353-1361	normalni	_	D.3 Property[20]	_	OCCURS\_IN\_TIME[68]	_	
+9-20	1361-1362	)	_	D.3 Property[20]	_	OCCURS\_IN\_TIME[68]	_	
+9-21	1363-1369	relief	_	D.3 Property[20]	_	OCCURS\_IN\_TIME[68]	_	
+9-22	1369-1370	.	_	_	_	_	_	
+9-23	1371-1377	Besedo	_	_	_	_	_	
+9-24	1378-1389	uporabljajo	_	_	_	_	_	
+9-25	1390-1396	takrat	_	_	_	_	_	
+9-26	1396-1397	,	_	_	_	_	_	
+9-27	1398-1403	kadar	_	_	_	_	_	
+9-28	1404-1406	je	_	_	_	_	_	
+9-29	1407-1410	tej	_	_	_	_	_	
+9-30	1411-1415	fazi	_	_	_	_	_	
+9-31	1416-1423	sledila	_	_	_	_	_	
+9-32	1424-1430	kraška	_	D.1 Abiotic[21]	_	_	_	
+9-33	1431-1435	faza	_	D.1 Abiotic[21]	_	_	_	
+9-34	1436-1443	oziroma	_	_	_	_	_	
+9-35	1444-1454	nastajanje	_	_	_	_	_	
+9-36	1455-1460	krasa	_	C. Geome	_	_	_	
+9-37	1460-1461	.	_	_	_	_	_	
+
+#Text=propustnost, vodna prepustnost, vodoprepustnost: Stopnja prepustnosti kraške kamnine. Določujejo jo z izgubljanjem vode v določenem časovnem razmaku in pod določenim pritiskom na meter dolžine vrtine v kraški kamnini.
+10-1	1466-1477	propustnost	_	D.3 Property	DEFINIENDUM	_	_	
+10-2	1477-1478	,	_	_	_	_	_	
+10-3	1479-1484	vodna	_	D.3 Property[22]	DEFINIENDUM[41]	_	_	
+10-4	1485-1496	prepustnost	_	D.3 Property[22]	DEFINIENDUM[41]	_	_	
+10-5	1496-1497	,	_	_	_	_	_	
+10-6	1498-1513	vodoprepustnost	_	D.3 Property	DEFINIENDUM	_	_	
+10-7	1513-1514	:	_	_	_	_	_	
+10-8	1515-1522	Stopnja	_	_	_	DEFINED\_AS[69]	_	
+10-9	1523-1535	prepustnosti	_	D.3 Property	_	DEFINED\_AS[69]	_	
+10-10	1536-1542	kraške	_	D.1 Abiotic[23]	_	DEFINED\_AS[69]	_	
+10-11	1543-1550	kamnine	_	D.1 Abiotic[23]	_	DEFINED\_AS[69]	_	
+10-12	1550-1551	.	_	_	_	_	_	
+10-13	1552-1562	Določujejo	_	_	_	STUDIES[70]	frame\_STUDIES[85]	
+10-14	1563-1565	jo	_	_	_	STUDIES[70]	frame\_STUDIES[85]	
+10-15	1566-1567	z	_	_	_	STUDIES[70]	frame\_STUDIES[85]	
+10-16	1568-1580	izgubljanjem	_	B.2 Loss	_	STUDIES[70]	_	
+10-17	1581-1585	vode	_	_	_	STUDIES[70]	_	
+10-18	1586-1587	v	_	_	_	STUDIES[70]	_	
+10-19	1588-1597	določenem	_	_	_	STUDIES[70]	_	
+10-20	1598-1606	časovnem	_	_	_	STUDIES[70]	_	
+10-21	1607-1614	razmaku	_	_	_	STUDIES[70]	_	
+10-22	1615-1617	in	_	_	_	STUDIES[70]	_	
+10-23	1618-1621	pod	_	_	_	STUDIES[70]	_	
+10-24	1622-1631	določenim	_	_	_	STUDIES[70]	_	
+10-25	1632-1641	pritiskom	_	_	_	STUDIES[70]	_	
+10-26	1642-1644	na	_	_	_	STUDIES[70]	_	
+10-27	1645-1650	meter	_	_	_	STUDIES[70]	_	
+10-28	1651-1658	dolžine	_	_	_	STUDIES[70]	_	
+10-29	1659-1665	vrtine	_	D.1 Abiotic	_	STUDIES[70]	_	
+10-30	1666-1667	v	_	_	_	STUDIES[70]	_	
+10-31	1668-1674	kraški	_	D.1 Abiotic[24]	_	STUDIES[70]	_	
+10-32	1675-1682	kamnini	_	D.1 Abiotic[24]	_	STUDIES[70]	_	
+10-33	1682-1683	.	_	_	_	_	_	
+
+#Text=presihajoče jezero: Jezero, ki se občasno presuši.
+11-1	1688-1699	presihajoče	_	D.1 Abiotic[25]	DEFINIENDUM[42]	_	_	
+11-2	1700-1706	jezero	_	D.1 Abiotic[25]	DEFINIENDUM[42]	_	_	
+11-3	1706-1707	:	_	_	_	_	_	
+11-4	1708-1714	Jezero	_	D.1 Abiotic	GENUS	_	_	
+11-5	1714-1715	,	_	_	_	_	_	
+11-6	1716-1718	ki	_	_	_	HAS\_FUNCTION[71]	_	
+11-7	1719-1721	se	_	_	_	HAS\_FUNCTION[71]	_	
+11-8	1722-1729	občasno	_	_	_	HAS\_FUNCTION[71]	_	
+11-9	1730-1737	presuši	_	B.4 Transformation	_	HAS\_FUNCTION[71]	_	
+11-10	1737-1738	.	_	_	_	_	_	
+
+#Text=Psevdovrtača, nekraška vrtača: Vrtačasta oblika v nekarbonatni kamnini.
+12-1	1743-1755	Psevdovrtača	_	D.1 Abiotic	DEFINIENDUM	_	_	
+12-2	1755-1756	,	_	_	_	_	_	
+12-3	1757-1765	nekraška	_	D.1 Abiotic[26]	DEFINIENDUM[43]	_	_	
+12-4	1766-1772	vrtača	_	D.1 Abiotic[26]	DEFINIENDUM[43]	_	_	
+12-5	1772-1773	:	_	_	_	_	_	
+12-6	1774-1783	Vrtačasta	_	_	GENUS[44]	HAS\_FORM	_	
+12-7	1784-1790	oblika	_	_	GENUS[44]|GENUS[45]	_	_	
+12-8	1791-1792	v	_	_	_	COMPOSITION\_MEDIUM[72]	frame\_COMPOSITION	
+12-9	1793-1805	nekarbonatni	_	D.1 Abiotic[27]	_	COMPOSITION\_MEDIUM[72]	_	
+12-10	1806-1813	kamnini	_	D.1 Abiotic[27]	_	COMPOSITION\_MEDIUM[72]	_	
+12-11	1813-1814	.	_	_	_	_	_	
+
+#Text=Psevdokras:. Lažni, nepravi kras. Kraški pojavi v nekarbonatnih kamninah (lavi, soli). Tudi netipičen kras.
+13-1	1819-1829	Psevdokras	_	C. Geome	DEFINIENDUM	_	_	
+13-2	1829-1830	:	_	_	_	_	_	
+13-3	1830-1831	.	_	_	_	_	_	
+13-4	1832-1837	Lažni	_	_	_	_	_	
+13-5	1837-1838	,	_	_	_	_	_	
+13-6	1839-1846	nepravi	_	_	_	_	_	
+13-7	1847-1851	kras	_	C. Geome	GENUS	_	_	
+13-8	1851-1852	.	_	_	_	_	_	
+13-9	1853-1859	Kraški	_	_	_	_	_	
+13-10	1860-1866	pojavi	_	_	_	_	_	
+13-11	1867-1868	v	_	_	_	COMPOSITION\_MEDIUM[73]	frame\_COMPOSITION	
+13-12	1869-1882	nekarbonatnih	_	D.1 Abiotic[28]	_	COMPOSITION\_MEDIUM[73]	_	
+13-13	1883-1891	kamninah	_	D.1 Abiotic[28]	_	COMPOSITION\_MEDIUM[73]	_	
+13-14	1892-1893	(	_	_	_	COMPOSITION\_MEDIUM[73]	_	
+13-15	1893-1897	lavi	_	_	_	COMPOSITION\_MEDIUM[73]	_	
+13-16	1897-1898	,	_	_	_	COMPOSITION\_MEDIUM[73]	_	
+13-17	1899-1903	soli	_	_	_	COMPOSITION\_MEDIUM[73]	_	
+13-18	1903-1904	)	_	_	_	COMPOSITION\_MEDIUM[73]	_	
+13-19	1904-1905	.	_	_	_	_	_	
+13-20	1906-1910	Tudi	_	_	_	_	_	
+13-21	1911-1920	netipičen	_	C. Geome[29]	GENUS[46]	_	_	
+13-22	1921-1925	kras	_	C. Geome[29]	GENUS[46]	_	_	
+13-23	1925-1926	.	_	_	_	_	_	
+
+#Text=psevdoškraplja, nekraška škraplja: Škraplja v nekarbonatni kamnini.
+14-1	1931-1945	psevdoškraplja	_	D.1 Abiotic	DEFINIENDUM	_	_	
+14-2	1945-1946	,	_	_	_	_	_	
+14-3	1947-1955	nekraška	_	D.1 Abiotic[30]	DEFINIENDUM[47]	_	_	
+14-4	1956-1964	škraplja	_	D.1 Abiotic[30]	DEFINIENDUM[47]	_	_	
+14-5	1964-1965	:	_	_	_	_	_	
+14-6	1966-1974	Škraplja	_	A.1 Surface landform	GENUS	_	_	
+14-7	1975-1976	v	_	_	_	COMPOSITION\_MEDIUM[74]	frame\_COMPOSITION	
+14-8	1977-1989	nekarbonatni	_	D.1 Abiotic[31]	_	COMPOSITION\_MEDIUM[74]	_	
+14-9	1990-1997	kamnini	_	D.1 Abiotic[31]	_	COMPOSITION\_MEDIUM[74]	_	
+14-10	1997-1998	.	_	_	_	_	_	
+
+#Text=rov: Del jame ali brezna, neglede na dimenzije in oblike. V ožjem smislu enakomerno širok cevast rov.
+15-1	2003-2006	rov	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	2006-2007	:	_	_	_	_	_	
+15-3	2008-2011	Del	_	_	_	HAS\_LOCATION[75]	frame\_LOCATION	
+15-4	2012-2016	jame	_	A.2 Underground landform	_	HAS\_LOCATION[75]	_	
+15-5	2017-2020	ali	_	_	_	HAS\_LOCATION[75]	_	
+15-6	2021-2027	brezna	_	A.2 Underground landform	_	HAS\_LOCATION[75]	_	
+15-7	2027-2028	,	_	_	_	_	_	
+15-8	2029-2036	neglede	_	_	_	HAS\_FORM[76]	_	
+15-9	2037-2039	na	_	_	_	HAS\_FORM[76]	_	
+15-10	2040-2049	dimenzije	_	_	_	HAS\_FORM[76]	_	
+15-11	2050-2052	in	_	_	_	HAS\_FORM[76]	_	
+15-12	2053-2059	oblike	_	_	_	HAS\_FORM[76]	_	
+15-13	2059-2060	.	_	_	_	_	_	
+15-14	2061-2062	V	_	_	_	_	_	
+15-15	2063-2068	ožjem	_	_	_	_	_	
+15-16	2069-2075	smislu	_	_	_	_	_	
+15-17	2076-2086	enakomerno	_	_	_	HAS\_SIZE[77]	_	
+15-18	2087-2092	širok	_	_	_	HAS\_SIZE[77]	_	
+15-19	2093-2099	cevast	_	_	_	HAS\_FORM	_	
+15-20	2100-2103	rov	_	A.2 Underground landform	_	_	_	
+15-21	2103-2104	.	_	_	_	_	_	

@@ -1,0 +1,267 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Požiralnik je špranja ali brezno v skalnem koritu, ki požira vodo.
+1-1	0-10	Požiralnik	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+1-2	11-13	je	_	_	DEFINITOR	_	_	
+1-3	14-21	špranja	_	D.1 Abiotic	GENUS	_	_	
+1-4	22-25	ali	_	_	_	_	_	
+1-5	26-32	brezno	_	A.1 Surface landform	GENUS	_	_	
+1-6	33-34	v	_	_	_	HAS\_LOCATION[37]	frame\_LOCATION	
+1-7	35-42	skalnem	_	D.1 Abiotic[1]	_	HAS\_LOCATION[37]	_	
+1-8	43-49	koritu	_	D.1 Abiotic[1]	_	HAS\_LOCATION[37]	_	
+1-9	49-50	,	_	_	_	_	_	
+1-10	51-53	ki	_	_	_	HAS\_FUNCTION[38]	_	
+1-11	54-60	požira	_	D.3 Property	_	HAS\_FUNCTION[38]	frame\_FUNCTION	
+1-12	61-65	vodo	_	D.1 Abiotic	_	HAS\_FUNCTION[38]	_	
+1-13	65-66	.	_	_	_	_	_	
+
+#Text=Dele krasa, kjer na površju delujeta tako kraški kot fluvialni geomorfni sistem, Roglić (1959) imenuje fluviokras.
+2-1	67-71	Dele	_	_	GENUS[23]	_	_	
+2-2	72-77	krasa	_	C. Geome	GENUS[23]	_	_	
+2-3	77-78	,	_	_	_	_	_	
+2-4	79-83	kjer	_	_	_	CONTAINS[39]	frame\_CONTAINS	
+2-5	84-86	na	_	_	_	CONTAINS[39]|HAS\_LOCATION[40]	_	
+2-6	87-94	površju	_	D.1 Abiotic	_	CONTAINS[39]|HAS\_LOCATION[40]	_	
+2-7	95-103	delujeta	_	_	_	CONTAINS[39]	_	
+2-8	104-108	tako	_	_	_	CONTAINS[39]	_	
+2-9	109-115	kraški	kraški geomorfni sistem	C. Geome	_	CONTAINS[39]	_	
+2-10	116-119	kot	_	_	_	CONTAINS[39]	_	
+2-11	120-129	fluvialni	_	C. Geome[2]	_	CONTAINS[39]	_	
+2-12	130-139	geomorfni	_	C. Geome[2]	_	CONTAINS[39]	_	
+2-13	140-146	sistem	_	C. Geome[2]	_	CONTAINS[39]	_	
+2-14	146-147	,	_	_	_	_	_	
+2-15	148-154	Roglić	_	_	_	_	_	
+2-16	155-156	(	_	_	_	_	_	
+2-17	156-160	1959	_	_	_	_	_	
+2-18	160-161	)	_	_	_	_	_	
+2-19	162-169	imenuje	_	_	DEFINITOR	_	_	
+2-20	170-180	fluviokras	_	C. Geome	DEFINIENDUM	_	_	
+2-21	180-181	.	_	_	_	_	_	
+
+#Text=Katavatron je starogrška beseda, ki preprosto pomeni požiralnik oziroma ponor.
+3-1	182-192	Katavatron	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+3-2	193-195	je	_	_	DEFINITOR	_	_	
+3-3	196-206	starogrška	_	_	GENUS[24]	_	_	
+3-4	207-213	beseda	_	_	GENUS[24]	_	_	
+3-5	213-214	,	_	_	_	_	_	
+3-6	215-217	ki	_	_	_	DEFINED\_AS[41]	frame\_DEFINED\_AS[61]	
+3-7	218-227	preprosto	_	_	_	DEFINED\_AS[41]	frame\_DEFINED\_AS[61]	
+3-8	228-234	pomeni	_	_	_	DEFINED\_AS[41]	frame\_DEFINED\_AS[61]	
+3-9	235-245	požiralnik	_	A.3 Hydrological form	_	DEFINED\_AS[41]	_	
+3-10	246-253	oziroma	_	_	_	DEFINED\_AS[41]	_	
+3-11	254-259	ponor	_	A.3 Hydrological form	_	DEFINED\_AS[41]	_	
+3-12	259-260	.	_	_	_	_	_	
+
+#Text=Meje območja, od koder se stekajo vode proti različnim izvirom, imenujemo razvodnice.
+4-1	261-265	Meje	_	_	GENUS[25]	_	_	
+4-2	266-273	območja	_	_	GENUS[25]	_	_	
+4-3	273-274	,	_	_	_	_	_	
+4-4	275-277	od	_	_	_	HAS\_FUNCTION[42]	_	
+4-5	278-283	koder	_	_	_	HAS\_FUNCTION[42]	_	
+4-6	284-286	se	_	_	_	HAS\_FUNCTION[42]	frame\_FUNCTION[62]	
+4-7	287-294	stekajo	_	_	_	HAS\_FUNCTION[42]	frame\_FUNCTION[62]	
+4-8	295-299	vode	_	D.1 Abiotic	_	HAS\_FUNCTION[42]	_	
+4-9	300-305	proti	_	_	_	HAS\_FUNCTION[42]	_	
+4-10	306-315	različnim	_	_	_	HAS\_FUNCTION[42]	_	
+4-11	316-323	izvirom	_	D.1 Abiotic	_	HAS\_FUNCTION[42]	_	
+4-12	323-324	,	_	_	_	_	_	
+4-13	325-334	imenujemo	_	_	DEFINITOR	_	_	
+4-14	335-345	razvodnice	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+4-15	345-346	.	_	_	_	_	_	
+
+#Text=Poseben tip zajezenega izvira imenujemo vaukluški izvir.
+5-1	347-354	Poseben	_	_	_	_	_	
+5-2	355-358	tip	_	_	GENUS[26]	_	_	
+5-3	359-369	zajezenega	_	D.1 Abiotic[3]	GENUS[26]	_	_	
+5-4	370-376	izvira	_	D.1 Abiotic[3]	GENUS[26]	_	_	
+5-5	377-386	imenujemo	_	_	DEFINITOR	_	_	
+5-6	387-396	vaukluški	_	A.3 Hydrological form[4]	DEFINIENDUM[27]	_	_	
+5-7	397-402	izvir	_	A.3 Hydrological form[4]	DEFINIENDUM[27]	_	_	
+5-8	402-403	.	_	_	_	_	_	
+
+#Text=Posebna oblika izvira je periodični izvir ali zaganjalka.
+6-1	404-411	Posebna	_	_	_	_	_	
+6-2	412-418	oblika	_	_	GENUS[28]	_	_	
+6-3	419-425	izvira	_	D.1 Abiotic	GENUS[28]	_	_	
+6-4	426-428	je	_	_	DEFINITOR	_	_	
+6-5	429-439	periodični	_	A.3 Hydrological form[5]	DEFINIENDUM[29]	_	_	
+6-6	440-445	izvir	_	A.3 Hydrological form[5]	DEFINIENDUM[29]	_	_	
+6-7	446-449	ali	_	_	_	_	_	
+6-8	450-460	zaganjalka	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+6-9	460-461	.	_	_	_	_	_	
+
+#Text=Prelivni izvir je občasni kraški izvir, ki je aktiven ob visokih vodostajih, ko nižji, običajno stalnejši izvir ne zmore prevajati vse vode, ki priteka iz kraškega vodonosnika.
+7-1	462-470	Prelivni	_	A.3 Hydrological form[6]	DEFINIENDUM[30]	_	_	
+7-2	471-476	izvir	_	A.3 Hydrological form[6]	DEFINIENDUM[30]	_	_	
+7-3	477-479	je	_	_	DEFINITOR	_	_	
+7-4	480-487	občasni	_	_	_	OCCURS\_IN\_TIME	_	
+7-5	488-494	kraški	_	A.3 Hydrological form[7]	GENUS[31]	_	_	
+7-6	495-500	izvir	_	A.3 Hydrological form[7]	GENUS[31]	_	_	
+7-7	500-501	,	_	_	_	_	_	
+7-8	502-504	ki	_	_	_	OCCURS\_IN\_TIME[43]	frame\_TIME[63]	
+7-9	505-507	je	_	_	_	OCCURS\_IN\_TIME[43]	frame\_TIME[63]	
+7-10	508-515	aktiven	_	_	_	OCCURS\_IN\_TIME[43]	frame\_TIME[63]	
+7-11	516-518	ob	_	_	_	OCCURS\_IN\_TIME[43]	frame\_TIME[63]	
+7-12	519-526	visokih	_	D.3 Property[8]	_	OCCURS\_IN\_TIME[43]	_	
+7-13	527-537	vodostajih	_	D.3 Property[8]	_	OCCURS\_IN\_TIME[43]	_	
+7-14	537-538	,	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-15	539-541	ko	_	_	_	OCCURS\_IN\_TIME[43]	frame\_TIME	
+7-16	542-547	nižji	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-17	547-548	,	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-18	549-557	običajno	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-19	558-567	stalnejši	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-20	568-573	izvir	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-21	574-576	ne	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-22	577-582	zmore	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-23	583-592	prevajati	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-24	593-596	vse	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-25	597-601	vode	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-26	601-602	,	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-27	603-605	ki	_	_	_	OCCURS\_IN\_TIME[43]	_	
+7-28	606-613	priteka	_	B.3 Addition[9]	_	OCCURS\_IN\_TIME[43]	_	
+7-29	614-616	iz	_	B.3 Addition[9]	_	OCCURS\_IN\_TIME[43]	_	
+7-30	617-625	kraškega	_	C. Geome[10]	_	OCCURS\_IN\_TIME[43]	_	
+7-31	626-637	vodonosnika	_	C. Geome[10]	_	OCCURS\_IN\_TIME[43]	_	
+7-32	637-638	.	_	_	_	_	_	
+
+#Text=Preboj je trenutek, ko se vzdolž celega kanala pojavi turbulenten način pretakanja vode.
+8-1	639-645	Preboj	_	B. Process	DEFINIENDUM	_	_	
+8-2	646-648	je	_	_	DEFINITOR	_	_	
+8-3	649-657	trenutek	_	D.3 Property	GENUS	_	_	
+8-4	657-658	,	_	_	_	_	_	
+8-5	659-661	ko	_	_	_	OCCURS\_IN\_TIME[44]	frame\_TIME[64]	
+8-6	662-664	se	_	_	_	OCCURS\_IN\_TIME[44]	frame\_TIME[64]	
+8-7	665-671	vzdolž	_	_	_	OCCURS\_IN\_TIME[44]	_	
+8-8	672-678	celega	_	_	_	OCCURS\_IN\_TIME[44]	_	
+8-9	679-685	kanala	_	D.1 Abiotic	_	OCCURS\_IN\_TIME[44]	_	
+8-10	686-692	pojavi	_	_	_	OCCURS\_IN\_TIME[44]	frame\_TIME	
+8-11	693-704	turbulenten	_	B.1 Movement[11]	_	OCCURS\_IN\_TIME[44]	_	
+8-12	705-710	način	_	B.1 Movement[11]	_	OCCURS\_IN\_TIME[44]	_	
+8-13	711-721	pretakanja	_	B.1 Movement[11]	_	OCCURS\_IN\_TIME[44]	_	
+8-14	722-726	vode	_	D.1 Abiotic	_	OCCURS\_IN\_TIME[44]	_	
+8-15	726-727	.	_	_	_	_	_	
+
+#Text=Najpogostejše oblike na jamskih stenah so fasete.
+9-1	728-741	Najpogostejše	_	_	_	HAS\_ATTRIBUTE[45]	_	
+9-2	742-748	oblike	_	D.1 Abiotic	GENUS	HAS\_ATTRIBUTE[45]	_	
+9-3	749-751	na	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION	
+9-4	752-759	jamskih	_	D.1 Abiotic[12]	_	HAS\_LOCATION[46]	_	
+9-5	760-766	stenah	_	D.1 Abiotic[12]	_	HAS\_LOCATION[46]	_	
+9-6	767-769	so	_	_	DEFINITOR	_	_	
+9-7	770-776	fasete	_	A.2 Underground landform	DEFINIENDUM	_	_	
+9-8	776-777	.	_	_	_	_	_	
+
+#Text=Območja na stiku kraških in nekraških kamnin, kjer vode iz nekraškega površja tečejo v kras, imenujemo kontaktni kras.
+10-1	778-785	Območja	_	D.1 Abiotic	GENUS	HAS\_LOCATION[47]	_	
+10-2	786-788	na	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION	
+10-3	789-794	stiku	_	_	_	HAS\_LOCATION[47]	_	
+10-4	795-802	kraških	kraške kamnine	D.1 Abiotic	_	HAS\_LOCATION[47]	_	
+10-5	803-805	in	_	_	_	HAS\_LOCATION[47]	_	
+10-6	806-815	nekraških	_	D.1 Abiotic[13]	_	HAS\_LOCATION[47]	_	
+10-7	816-822	kamnin	_	D.1 Abiotic[13]	_	HAS\_LOCATION[47]	_	
+10-8	822-823	,	_	_	_	_	_	
+10-9	824-828	kjer	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION	
+10-10	829-833	vode	_	D.1 Abiotic	_	HAS\_LOCATION[48]|HAS\_FUNCTION[49]	_	
+10-11	834-836	iz	_	_	_	HAS\_LOCATION[48]|HAS\_FUNCTION[49]	_	
+10-12	837-847	nekraškega	_	_	_	HAS\_LOCATION[48]|HAS\_FUNCTION[49]	_	
+10-13	848-855	površja	_	_	_	HAS\_LOCATION[48]|HAS\_FUNCTION[49]	_	
+10-14	856-862	tečejo	_	_	_	HAS\_LOCATION[48]|HAS\_FUNCTION[49]	frame\_FUNCTION	
+10-15	863-864	v	_	_	_	HAS\_LOCATION[48]|HAS\_FUNCTION[49]	_	
+10-16	865-869	kras	_	C. Geome	_	HAS\_LOCATION[48]|HAS\_FUNCTION[49]	_	
+10-17	869-870	,	_	_	_	_	_	
+10-18	871-880	imenujemo	_	_	DEFINITOR	_	_	
+10-19	881-890	kontaktni	_	C. Geome[14]	DEFINIENDUM[32]	_	_	
+10-20	891-895	kras	_	C. Geome[14]	DEFINIENDUM[32]	_	_	
+10-21	895-896	.	_	_	_	_	_	
+
+#Text=Rezultat parageneze so daljše vodoravne jame približno na višini gladine podzemne vode.
+11-1	897-905	Rezultat	_	_	_	HAS\_RESULT	frame\_RESULT	
+11-2	906-916	parageneze	_	B. Process	_	_	_	
+11-3	917-919	so	_	_	_	HAS\_RESULT[50]	frame\_RESULT	
+11-4	920-926	daljše	_	_	_	HAS\_RESULT[50]	_	
+11-5	927-936	vodoravne	_	A.2 Underground landform[15]	_	HAS\_RESULT[50]	_	
+11-6	937-941	jame	_	A.2 Underground landform[15]	_	HAS\_RESULT[50]	_	
+11-7	942-951	približno	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[65]	
+11-8	952-954	na	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[65]	
+11-9	955-961	višini	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[65]	
+11-10	962-969	gladine	_	D.3 Property	_	HAS\_LOCATION[51]	_	
+11-11	970-978	podzemne	_	A.3 Hydrological form[16]	_	HAS\_LOCATION[51]	_	
+11-12	979-983	vode	_	A.3 Hydrological form[16]	_	HAS\_LOCATION[51]	_	
+11-13	983-984	.	_	_	_	_	_	
+
+#Text=Podzemni kanjoni v epifreatični ali vadozni coni so rezultat vrezovanja ob spuščanju gladine podzemne vode.
+12-1	985-993	Podzemni	_	A.2 Underground landform[17]	DEFINIENDUM[33]	_	_	
+12-2	994-1001	kanjoni	_	A.2 Underground landform[17]	DEFINIENDUM[33]	_	_	
+12-3	1002-1003	v	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION	
+12-4	1004-1016	epifreatični	epifreatična cona	C. Geome	_	HAS\_LOCATION[52]	_	
+12-5	1017-1020	ali	_	_	_	HAS\_LOCATION[52]	_	
+12-6	1021-1028	vadozni	_	C. Geome[18]	_	HAS\_LOCATION[52]	_	
+12-7	1029-1033	coni	_	C. Geome[18]	_	HAS\_LOCATION[52]	_	
+12-8	1034-1036	so	_	_	DEFINITOR	HAS\_RESULT[53]	frame\_RESULT[66]	
+12-9	1037-1045	rezultat	_	_	_	HAS\_RESULT[53]	frame\_RESULT[66]	
+12-10	1046-1056	vrezovanja	_	B.4 Transformation	_	HAS\_RESULT[53]	_	
+12-11	1057-1059	ob	_	_	_	HAS\_RESULT[53]	_	
+12-12	1060-1069	spuščanju	_	B.1 Movement	_	HAS\_RESULT[53]	_	
+12-13	1070-1077	gladine	_	_	_	HAS\_RESULT[53]	_	
+12-14	1078-1086	podzemne	_	A.3 Hydrological form[19]	_	HAS\_RESULT[53]	_	
+12-15	1087-1091	vode	_	A.3 Hydrological form[19]	_	HAS\_RESULT[53]	_	
+12-16	1091-1092	.	_	_	_	_	_	
+
+#Text=Najpogostejši kemogeni sediment v jamah je siga, ki je na slovenskem krasu večinoma kalcitne sestave.
+13-1	1093-1106	Najpogostejši	_	_	_	HAS\_ATTRIBUTE[54]	_	
+13-2	1107-1115	kemogeni	_	D.1 Abiotic[20]	GENUS[34]	HAS\_ATTRIBUTE[54]	_	
+13-3	1116-1124	sediment	_	D.1 Abiotic[20]	GENUS[34]	HAS\_ATTRIBUTE[54]	_	
+13-4	1125-1126	v	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION	
+13-5	1127-1132	jamah	_	A.2 Underground landform	_	HAS\_LOCATION[55]	_	
+13-6	1133-1135	je	_	_	DEFINITOR	_	_	
+13-7	1136-1140	siga	_	D.1 Abiotic	DEFINIENDUM	_	_	
+13-8	1140-1141	,	_	_	_	_	_	
+13-9	1142-1144	ki	_	_	_	_	_	
+13-10	1145-1147	je	_	_	_	_	_	
+13-11	1148-1150	na	_	_	_	HAS\_POSITION[56]	frame\_POSITION	
+13-12	1151-1161	slovenskem	_	D.3.1 Geolocation	_	HAS\_POSITION[56]	_	
+13-13	1162-1167	krasu	_	C. Geome	_	HAS\_POSITION[56]	_	
+13-14	1168-1176	večinoma	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+13-15	1177-1185	kalcitne	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+13-16	1186-1193	sestave	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+13-17	1193-1194	.	_	_	_	_	_	
+
+#Text=Izločanje kalcita je obraten pojav od raztapljanja, nastane pa zaradi porušenega dinamičnega ravnotežja v raztopini.
+14-1	1195-1204	Izločanje	_	B. Process	DEFINIENDUM[35]	_	_	
+14-2	1205-1212	kalcita	_	D.1 Abiotic	DEFINIENDUM[35]	_	_	
+14-3	1213-1215	je	_	_	DEFINITOR	_	_	
+14-4	1216-1223	obraten	_	_	_	_	_	
+14-5	1224-1229	pojav	_	_	GENUS	_	_	
+14-6	1230-1232	od	_	_	_	_	_	
+14-7	1233-1245	raztapljanja	_	B.4 Transformation	_	_	_	
+14-8	1245-1246	,	_	_	_	_	_	
+14-9	1247-1254	nastane	_	_	_	HAS\_CAUSE[58]	frame\_CAUSE	
+14-10	1255-1257	pa	_	_	_	HAS\_CAUSE[58]	_	
+14-11	1258-1264	zaradi	_	_	_	HAS\_CAUSE[58]	_	
+14-12	1265-1275	porušenega	_	_	_	HAS\_CAUSE[58]	_	
+14-13	1276-1287	dinamičnega	_	D.3 Property[21]	_	HAS\_CAUSE[58]	_	
+14-14	1288-1298	ravnotežja	_	D.3 Property[21]	_	HAS\_CAUSE[58]	_	
+14-15	1299-1300	v	_	_	_	HAS\_CAUSE[58]	_	
+14-16	1301-1310	raztopini	_	D.1 Abiotic	_	HAS\_CAUSE[58]	_	
+14-17	1310-1311	.	_	_	_	_	_	
+
+#Text=Stalagmiti so sigaste tvorbe, ki zrastejo na tleh iz kapljajoče vode.
+15-1	1312-1322	Stalagmiti	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	1323-1325	so	_	_	DEFINITOR	_	_	
+15-3	1326-1333	sigaste	_	A.2 Underground landform[22]	GENUS[36]	_	_	
+15-4	1334-1340	tvorbe	_	A.2 Underground landform[22]	GENUS[36]	_	_	
+15-5	1340-1341	,	_	_	_	_	_	
+15-6	1342-1344	ki	_	_	_	HAS\_LOCATION[59]	_	
+15-7	1345-1353	zrastejo	_	B.3 Addition	_	HAS\_LOCATION[59]	_	
+15-8	1354-1356	na	_	_	_	HAS\_LOCATION[59]	_	
+15-9	1357-1361	tleh	_	D.1 Abiotic	_	HAS\_LOCATION[59]	_	
+15-10	1362-1364	iz	_	_	_	HAS\_CAUSE[60]	_	
+15-11	1365-1375	kapljajoče	_	B.1 Movement	_	HAS\_CAUSE[60]	_	
+15-12	1376-1380	vode	_	D.1 Abiotic	_	HAS\_CAUSE[60]	_	
+15-13	1380-1381	.	_	_	_	_	_	

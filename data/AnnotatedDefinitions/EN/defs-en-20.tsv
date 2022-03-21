@@ -1,0 +1,423 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Lampenflora is a complex community of organisms growing on illuminated areas such as rocky surfaces, sediment and artificial materials around lamps.
+1-1	0-11	Lampenflora	_	D.2 Biotic	DEFINIENDUM	_	_	
+1-2	12-14	is	_	_	DEFINITOR[31]	_	_	
+1-3	15-16	a	_	_	DEFINITOR[31]	_	_	
+1-4	17-24	complex	_	_	GENUS[32]	_	_	
+1-5	25-34	community	_	_	GENUS[32]	_	_	
+1-6	35-37	of	_	_	GENUS[32]	_	_	
+1-7	38-47	organisms	_	D.2 Biotic	GENUS[32]	_	_	
+1-8	48-55	growing	_	_	_	HAS\_LOCATION[54]	_	
+1-9	56-58	on	_	_	_	HAS\_LOCATION[54]	_	
+1-10	59-70	illuminated	_	D.1 Abiotic[1]	_	HAS\_LOCATION[54]	_	
+1-11	71-76	areas	_	D.1 Abiotic[1]	_	HAS\_LOCATION[54]	_	
+1-12	77-81	such	_	_	_	HAS\_LOCATION[54]	_	
+1-13	82-84	as	_	_	_	HAS\_LOCATION[54]	_	
+1-14	85-90	rocky	_	D.1 Abiotic[2]	_	HAS\_LOCATION[54]	_	
+1-15	91-99	surfaces	_	D.1 Abiotic[2]	_	HAS\_LOCATION[54]	_	
+1-16	99-100	,	_	_	_	HAS\_LOCATION[54]	_	
+1-17	101-109	sediment	_	_	_	HAS\_LOCATION[54]	_	
+1-18	110-113	and	_	_	_	HAS\_LOCATION[54]	_	
+1-19	114-124	artificial	_	D.1 Abiotic[3]	_	HAS\_LOCATION[54]	_	
+1-20	125-134	materials	_	D.1 Abiotic[3]	_	HAS\_LOCATION[54]	_	
+1-21	135-141	around	_	_	_	HAS\_LOCATION[54]	_	
+1-22	142-147	lamps	_	_	_	HAS\_LOCATION[54]	_	
+1-23	147-148	.	_	_	_	_	_	
+
+#Text=The Kras is a limestone plateau situated above the Trieste Bay in the northern Adriatic Sea.
+2-1	150-153	The	_	_	_	_	_	
+2-2	154-158	Kras	_	D.3.1 Geolocation	DEFINIENDUM	_	_	
+2-3	159-161	is	_	_	DEFINITOR[33]	_	_	
+2-4	162-163	a	_	_	DEFINITOR[33]	_	_	
+2-5	164-173	limestone	_	C. Geome[4]	GENUS[34]	_	_	
+2-6	174-181	plateau	_	C. Geome[4]	GENUS[34]	_	_	
+2-7	182-190	situated	_	_	_	HAS\_POSITION[55]	frame\_POSITION[79]	
+2-8	191-196	above	_	_	_	HAS\_POSITION[55]	frame\_POSITION[79]	
+2-9	197-200	the	_	_	_	HAS\_POSITION[55]	_	
+2-10	201-208	Trieste	_	D.3.1 Geolocation[5]	_	HAS\_POSITION[55]	_	
+2-11	209-212	Bay	_	D.3.1 Geolocation[5]	_	HAS\_POSITION[55]	_	
+2-12	213-215	in	_	_	_	HAS\_POSITION[56]	frame\_POSITION[80]	
+2-13	216-219	the	_	_	_	HAS\_POSITION[56]	frame\_POSITION[80]	
+2-14	220-228	northern	_	_	_	HAS\_POSITION[56]	frame\_POSITION[80]	
+2-15	229-237	Adriatic	_	D.3.1 Geolocation[6]	_	HAS\_POSITION[56]	_	
+2-16	238-241	Sea	_	D.3.1 Geolocation[6]	_	HAS\_POSITION[56]	_	
+2-17	241-242	.	_	_	_	_	_	
+
+#Text=The word epikarst came into widespread use in the 1990s following the definition by Mangin (1973) of an epikarst aquifer as a perched saturated zone within the superficial part of the karst that stores a part of the infiltrated water (Bakalowicz, 2012).
+3-1	244-247	The	_	_	_	_	_	
+3-2	248-252	word	_	_	_	_	_	
+3-3	253-261	epikarst	_	C. Geome	_	_	_	
+3-4	262-266	came	_	_	_	_	_	
+3-5	267-271	into	_	_	_	_	_	
+3-6	272-282	widespread	_	_	_	_	_	
+3-7	283-286	use	_	_	_	_	_	
+3-8	287-289	in	_	_	_	_	_	
+3-9	290-293	the	_	_	_	_	_	
+3-10	294-299	1990s	_	_	_	_	_	
+3-11	300-309	following	_	_	_	_	_	
+3-12	310-313	the	_	_	_	_	_	
+3-13	314-324	definition	_	_	_	_	_	
+3-14	325-327	by	_	_	_	_	_	
+3-15	328-334	Mangin	_	_	_	_	_	
+3-16	335-336	(	_	_	_	_	_	
+3-17	336-340	1973	_	_	_	_	_	
+3-18	340-341	)	_	_	_	_	_	
+3-19	342-344	of	_	_	_	_	_	
+3-20	345-347	an	_	_	_	_	_	
+3-21	348-356	epikarst	_	C. Geome[7]	DEFINIENDUM[35]	_	_	
+3-22	357-364	aquifer	_	C. Geome[7]	DEFINIENDUM[35]	_	_	
+3-23	365-367	as	_	_	DEFINITOR[36]	_	_	
+3-24	368-369	a	_	_	DEFINITOR[36]	_	_	
+3-25	370-377	perched	_	_	_	_	_	
+3-26	378-387	saturated	_	_	_	HAS\_FORM	_	
+3-27	388-392	zone	_	D.1 Abiotic	GENUS	_	_	
+3-28	393-399	within	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION	
+3-29	400-403	the	_	_	_	HAS\_LOCATION[57]	_	
+3-30	404-415	superficial	_	_	_	HAS\_LOCATION[57]	_	
+3-31	416-420	part	_	_	_	HAS\_LOCATION[57]	_	
+3-32	421-423	of	_	_	_	HAS\_LOCATION[57]	_	
+3-33	424-427	the	_	_	_	HAS\_LOCATION[57]	_	
+3-34	428-433	karst	_	C. Geome	_	HAS\_LOCATION[57]	_	
+3-35	434-438	that	_	_	_	HAS\_FUNCTION[58]	_	
+3-36	439-445	stores	_	_	_	HAS\_FUNCTION[58]	frame\_FUNCTION	
+3-37	446-447	a	_	_	_	HAS\_FUNCTION[58]	_	
+3-38	448-452	part	_	_	_	HAS\_FUNCTION[58]	_	
+3-39	453-455	of	_	_	_	HAS\_FUNCTION[58]	_	
+3-40	456-459	the	_	_	_	HAS\_FUNCTION[58]	_	
+3-41	460-471	infiltrated	_	D.1 Abiotic[8]	_	HAS\_FUNCTION[58]	_	
+3-42	472-477	water	_	D.1 Abiotic[8]	_	HAS\_FUNCTION[58]	_	
+3-43	478-479	(	_	_	_	_	_	
+3-44	479-489	Bakalowicz	_	_	_	_	_	
+3-45	489-490	,	_	_	_	_	_	
+3-46	491-495	2012	_	_	_	_	_	
+3-47	495-496	)	_	_	_	_	_	
+3-48	496-497	.	_	_	_	_	_	
+
+#Text=Dry valleys are often defined as thosewithout, or with only a temporary, watercourse (Sweeting, 1973).
+4-1	499-502	Dry	_	A.1 Surface landform[9]	DEFINIENDUM[37]	_	_	
+4-2	503-510	valleys	_	A.1 Surface landform[9]	DEFINIENDUM[37]	_	_	
+4-3	511-514	are	_	_	_	_	_	
+4-4	515-520	often	_	_	_	_	_	
+4-5	521-528	defined	_	_	_	_	frame\_DEFINED\_AS[81]	
+4-6	529-531	as	_	_	_	DEFINED\_AS[59]	frame\_DEFINED\_AS[81]	
+4-7	532-544	thosewithout	_	_	_	DEFINED\_AS[59]	_	
+4-8	544-545	,	_	_	_	DEFINED\_AS[59]	_	
+4-9	546-548	or	_	_	_	DEFINED\_AS[59]	_	
+4-10	549-553	with	_	_	_	DEFINED\_AS[59]	_	
+4-11	554-558	only	_	_	_	DEFINED\_AS[59]	_	
+4-12	559-560	a	_	_	_	DEFINED\_AS[59]	_	
+4-13	561-570	temporary	_	_	_	DEFINED\_AS[59]	_	
+4-14	570-571	,	_	_	_	DEFINED\_AS[59]	_	
+4-15	572-583	watercourse	_	D.1 Abiotic	_	DEFINED\_AS[59]	_	
+4-16	584-585	(	_	_	_	_	_	
+4-17	585-593	Sweeting	_	_	_	_	_	
+4-18	593-594	,	_	_	_	_	_	
+4-19	595-599	1973	_	_	_	_	_	
+4-20	599-600	)	_	_	_	_	_	
+4-21	600-601	.	_	_	_	_	_	
+
+#Text=Time series analysis are signal processing methods belonging to this category, and are mostly used to improve the understanding of the hydrological behaviour of karst systems.
+5-1	603-607	Time	_	E. Instrument or method[10]	DEFINIENDUM[38]	_	_	
+5-2	608-614	series	_	E. Instrument or method[10]	DEFINIENDUM[38]	_	_	
+5-3	615-623	analysis	_	E. Instrument or method[10]	DEFINIENDUM[38]	_	_	
+5-4	624-627	are	_	_	DEFINITOR	_	_	
+5-5	628-634	signal	_	E.2 Method[11]	GENUS[39]	_	_	
+5-6	635-645	processing	_	E.2 Method[11]	GENUS[39]	_	_	
+5-7	646-653	methods	_	E.2 Method[11]	GENUS[39]	_	_	
+5-8	654-663	belonging	_	_	_	_	_	
+5-9	664-666	to	_	_	_	_	_	
+5-10	667-671	this	_	_	_	_	_	
+5-11	672-680	category	_	_	_	_	_	
+5-12	680-681	,	_	_	_	_	_	
+5-13	682-685	and	_	_	_	_	_	
+5-14	686-689	are	_	_	_	_	_	
+5-15	690-696	mostly	_	_	_	HAS\_FUNCTION[60]	frame\_FUNCTION[82]	
+5-16	697-701	used	_	_	_	HAS\_FUNCTION[60]	frame\_FUNCTION[82]	
+5-17	702-704	to	_	_	_	HAS\_FUNCTION[60]	frame\_FUNCTION[82]	
+5-18	705-712	improve	_	_	_	HAS\_FUNCTION[60]	_	
+5-19	713-716	the	_	_	_	HAS\_FUNCTION[60]	_	
+5-20	717-730	understanding	_	_	_	HAS\_FUNCTION[60]	_	
+5-21	731-733	of	_	_	_	HAS\_FUNCTION[60]	_	
+5-22	734-737	the	_	_	_	HAS\_FUNCTION[60]	_	
+5-23	738-750	hydrological	_	D.3 Property[12]	_	HAS\_FUNCTION[60]	_	
+5-24	751-760	behaviour	_	D.3 Property[12]	_	HAS\_FUNCTION[60]	_	
+5-25	761-763	of	_	_	_	HAS\_FUNCTION[60]	_	
+5-26	764-769	karst	_	C. Geome[13]	_	HAS\_FUNCTION[60]	_	
+5-27	770-777	systems	_	C. Geome[13]	_	HAS\_FUNCTION[60]	_	
+5-28	777-778	.	_	_	_	_	_	
+
+#Text=Speleogenesis (karstic) is a mass-transfer process, which critically depends on both, the aggressiveness of groundwater and its circulation (movement).
+6-1	780-793	Speleogenesis	_	B. Process	DEFINIENDUM	_	_	
+6-2	794-795	(	_	_	_	_	_	
+6-3	795-802	karstic	_	_	_	_	_	
+6-4	802-803	)	_	_	_	_	_	
+6-5	804-806	is	_	_	DEFINITOR[40]	_	_	
+6-6	807-808	a	_	_	DEFINITOR[40]	_	_	
+6-7	809-822	mass-transfer	_	B. Process[14]	GENUS[41]	_	_	
+6-8	823-830	process	_	B. Process[14]	GENUS[41]	_	_	
+6-9	830-831	,	_	_	_	_	_	
+6-10	832-837	which	_	_	_	_	_	
+6-11	838-848	critically	_	_	_	HAS\_CAUSE[61]	_	
+6-12	849-856	depends	_	_	_	HAS\_CAUSE[61]	_	
+6-13	857-859	on	_	_	_	HAS\_CAUSE[61]	_	
+6-14	860-864	both	_	_	_	HAS\_CAUSE[61]	_	
+6-15	864-865	,	_	_	_	HAS\_CAUSE[61]	_	
+6-16	866-869	the	_	_	_	HAS\_CAUSE[61]	_	
+6-17	870-884	aggressiveness	_	D.3 Property	_	HAS\_CAUSE[61]	_	
+6-18	885-887	of	_	_	_	HAS\_CAUSE[61]	_	
+6-19	888-899	groundwater	_	D.1 Abiotic	_	HAS\_CAUSE[61]	_	
+6-20	900-903	and	_	_	_	HAS\_CAUSE[61]	_	
+6-21	904-907	its	_	_	_	HAS\_CAUSE[61]	_	
+6-22	908-919	circulation	_	B.1 Movement	_	HAS\_CAUSE[61]	_	
+6-23	920-921	(	_	_	_	HAS\_CAUSE[61]	_	
+6-24	921-929	movement	_	_	_	HAS\_CAUSE[61]	_	
+6-25	929-930	)	_	_	_	HAS\_CAUSE[61]	_	
+6-26	930-931	.	_	_	_	_	_	
+
+#Text=Aggressiveness is an attribute of groundwater that corresponds to a chemical potential for mobilization of a dissolved matter from the rock.
+7-1	933-947	Aggressiveness	_	B.1 Movement	_	HAS\_ATTRIBUTE[62]	_	
+7-2	948-950	is	_	_	_	HAS\_ATTRIBUTE[62]	frame\_ATTRIBUTE[83]	
+7-3	951-953	an	_	_	_	HAS\_ATTRIBUTE[62]	frame\_ATTRIBUTE[83]	
+7-4	954-963	attribute	_	_	_	HAS\_ATTRIBUTE[62]	_	
+7-5	964-966	of	_	_	_	HAS\_ATTRIBUTE[62]	_	
+7-6	967-978	groundwater	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-7	979-983	that	_	_	_	_	_	
+7-8	984-995	corresponds	_	_	_	DEFINED\_AS[63]	frame\_DEFINED\_AS[84]	
+7-9	996-998	to	_	_	_	DEFINED\_AS[63]	frame\_DEFINED\_AS[84]	
+7-10	999-1000	a	_	_	_	DEFINED\_AS[63]	frame\_DEFINED\_AS[84]	
+7-11	1001-1009	chemical	_	D.3 Property[15]	_	DEFINED\_AS[63]	_	
+7-12	1010-1019	potential	_	D.3 Property[15]	_	DEFINED\_AS[63]	_	
+7-13	1020-1023	for	_	_	_	DEFINED\_AS[63]	_	
+7-14	1024-1036	mobilization	_	_	_	DEFINED\_AS[63]	_	
+7-15	1037-1039	of	_	_	_	DEFINED\_AS[63]	_	
+7-16	1040-1041	a	_	_	_	DEFINED\_AS[63]	_	
+7-17	1042-1051	dissolved	_	_	_	DEFINED\_AS[63]	_	
+7-18	1052-1058	matter	_	_	_	DEFINED\_AS[63]	_	
+7-19	1059-1063	from	_	_	_	DEFINED\_AS[63]	_	
+7-20	1064-1067	the	_	_	_	DEFINED\_AS[63]	_	
+7-21	1068-1072	rock	_	D.1 Abiotic	_	DEFINED\_AS[63]	_	
+7-22	1072-1073	.	_	_	_	_	_	
+
+#Text=Tafoni geomorphology designates a hollow shape rounded several decimeters to several meters, carved by erosion in the coastal carbonates.
+8-1	1075-1081	Tafoni	_	A.1 Surface landform[16]	DEFINIENDUM[42]	_	_	
+8-2	1082-1095	geomorphology	_	A.1 Surface landform[16]	DEFINIENDUM[42]	_	_	
+8-3	1096-1106	designates	_	_	DEFINITOR[43]	_	_	
+8-4	1107-1108	a	_	_	DEFINITOR[43]	HAS\_FORM[64]	_	
+8-5	1109-1115	hollow	_	D.1 Abiotic[17]	GENUS[44]	HAS\_FORM[64]	_	
+8-6	1116-1121	shape	_	D.1 Abiotic[17]	GENUS[44]	HAS\_FORM[64]	_	
+8-7	1122-1129	rounded	_	_	_	HAS\_SIZE[65]	frame\_SIZE	
+8-8	1130-1137	several	_	_	_	HAS\_SIZE[65]	_	
+8-9	1138-1148	decimeters	_	_	_	HAS\_SIZE[65]	_	
+8-10	1149-1151	to	_	_	_	HAS\_SIZE[65]	_	
+8-11	1152-1159	several	_	_	_	HAS\_SIZE[65]	_	
+8-12	1160-1166	meters	_	_	_	HAS\_SIZE[65]	_	
+8-13	1166-1167	,	_	_	_	_	_	
+8-14	1168-1174	carved	_	_	_	HAS\_CAUSE[66]	frame\_CAUSE[85]	
+8-15	1175-1177	by	_	_	_	HAS\_CAUSE[66]	frame\_CAUSE[85]	
+8-16	1178-1185	erosion	_	B.2 Loss	_	HAS\_CAUSE[66]	_	
+8-17	1186-1188	in	_	_	_	COMPOSITION\_MEDIUM[67]	frame\_COMPOSITION[86]	
+8-18	1189-1192	the	_	_	_	COMPOSITION\_MEDIUM[67]	frame\_COMPOSITION[86]	
+8-19	1193-1200	coastal	_	D.1 Abiotic[18]	_	COMPOSITION\_MEDIUM[67]	_	
+8-20	1201-1211	carbonates	_	D.1 Abiotic[18]	_	COMPOSITION\_MEDIUM[67]	_	
+8-21	1211-1212	.	_	_	_	_	_	
+
+#Text=Sea caves, also known as littoral caves, are a type of cave formed primarily by wave action.
+9-1	1214-1217	Sea	_	A.2 Underground landform[19]	DEFINIENDUM[45]	_	_	
+9-2	1218-1223	caves	_	A.2 Underground landform[19]	DEFINIENDUM[45]	_	_	
+9-3	1223-1224	,	_	_	_	_	_	
+9-4	1225-1229	also	_	_	_	_	_	
+9-5	1230-1235	known	_	_	_	_	_	
+9-6	1236-1238	as	_	_	_	_	_	
+9-7	1239-1247	littoral	_	A.2 Underground landform[20]	DEFINIENDUM[46]	_	_	
+9-8	1248-1253	caves	_	A.2 Underground landform[20]	DEFINIENDUM[46]	_	_	
+9-9	1253-1254	,	_	_	_	_	_	
+9-10	1255-1258	are	_	_	DEFINITOR[47]	_	_	
+9-11	1259-1260	a	_	_	DEFINITOR[47]	_	_	
+9-12	1261-1265	type	_	_	DEFINITOR[47]	_	_	
+9-13	1266-1268	of	_	_	DEFINITOR[47]	_	_	
+9-14	1269-1273	cave	_	A.2 Underground landform	GENUS	_	_	
+9-15	1274-1280	formed	_	_	_	HAS\_CAUSE[68]	frame\_CAUSE[87]	
+9-16	1281-1290	primarily	_	_	_	HAS\_CAUSE[68]	frame\_CAUSE[87]	
+9-17	1291-1293	by	_	_	_	HAS\_CAUSE[68]	frame\_CAUSE[87]	
+9-18	1294-1298	wave	_	B.1 Movement[21]	_	HAS\_CAUSE[68]	_	
+9-19	1299-1305	action	_	B.1 Movement[21]	_	HAS\_CAUSE[68]	_	
+9-20	1305-1306	.	_	_	_	_	_	
+
+#Text=In desert environments, spring mounds are hot beds of biological activity that, like soils, tend to be zones of high PCO2.
+10-1	1308-1310	In	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION	
+10-2	1311-1317	desert	_	C. Geome[22]	_	HAS\_LOCATION[69]	_	
+10-3	1318-1330	environments	_	C. Geome[22]	_	HAS\_LOCATION[69]	_	
+10-4	1330-1331	,	_	_	_	_	_	
+10-5	1332-1338	spring	_	D.2 Biotic[23]	DEFINIENDUM[48]	_	_	
+10-6	1339-1345	mounds	_	D.2 Biotic[23]	DEFINIENDUM[48]	_	_	
+10-7	1346-1349	are	_	_	DEFINITOR	_	_	
+10-8	1350-1353	hot	_	D.2 Biotic[24]	GENUS[49]	HAS\_FUNCTION[70]	_	
+10-9	1354-1358	beds	_	D.2 Biotic[24]	GENUS[49]	HAS\_FUNCTION[70]	_	
+10-10	1359-1361	of	_	_	_	HAS\_FUNCTION[70]	_	
+10-11	1362-1372	biological	_	B. Process[25]	_	HAS\_FUNCTION[70]	_	
+10-12	1373-1381	activity	_	B. Process[25]	_	HAS\_FUNCTION[70]	_	
+10-13	1382-1386	that	_	_	_	_	_	
+10-14	1386-1387	,	_	_	_	_	_	
+10-15	1388-1392	like	_	_	_	_	_	
+10-16	1393-1398	soils	_	D.1 Abiotic	_	_	_	
+10-17	1398-1399	,	_	_	_	_	_	
+10-18	1400-1404	tend	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+10-19	1405-1407	to	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+10-20	1408-1410	be	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+10-21	1411-1416	zones	_	_	_	COMPOSITION\_MEDIUM[71]	frame\_COMPOSITION[88]	
+10-22	1417-1419	of	_	_	_	COMPOSITION\_MEDIUM[71]	frame\_COMPOSITION[88]	
+10-23	1420-1424	high	_	_	_	COMPOSITION\_MEDIUM[71]	_	
+10-24	1425-1429	PCO2	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[71]	_	
+10-25	1429-1430	.	_	_	_	_	_	
+
+#Text=The term epigenesis is widely used in Earth Sciences, employing epi - in the second, temporal sense, along with a complementary syngenesis.
+11-1	1432-1435	The	_	_	_	_	_	
+11-2	1436-1440	term	_	_	_	_	_	
+11-3	1441-1451	epigenesis	_	B. Process	DEFINIENDUM	_	_	
+11-4	1452-1454	is	_	_	_	_	_	
+11-5	1455-1461	widely	_	_	_	_	_	
+11-6	1462-1466	used	_	_	_	_	_	
+11-7	1467-1469	in	_	_	_	_	_	
+11-8	1470-1475	Earth	_	_	_	_	_	
+11-9	1476-1484	Sciences	_	_	_	_	_	
+11-10	1484-1485	,	_	_	_	_	_	
+11-11	1486-1495	employing	_	_	_	_	_	
+11-12	1496-1499	epi	epigenesis	_	_	_	_	
+11-13	1500-1501	-	_	_	_	_	_	
+11-14	1502-1504	in	_	_	_	_	_	
+11-15	1505-1508	the	_	_	_	_	_	
+11-16	1509-1515	second	_	_	_	_	_	
+11-17	1515-1516	,	_	_	_	_	_	
+11-18	1517-1525	temporal	_	_	_	_	_	
+11-19	1526-1531	sense	_	_	_	_	_	
+11-20	1531-1532	,	_	_	_	_	_	
+11-21	1533-1538	along	_	_	_	_	_	
+11-22	1539-1543	with	_	_	_	_	_	
+11-23	1544-1545	a	_	_	_	_	_	
+11-24	1546-1559	complementary	_	_	_	_	_	
+11-25	1560-1570	syngenesis	_	B. Process	_	_	_	
+11-26	1570-1571	.	_	_	_	_	_	
+
+#Text=Hypogene karstification is defined as upward movement �of the cave-forming agent� (sensu Klimchouk, 2007, 2012).
+12-1	1573-1581	Hypogene	_	B. Process[26]	DEFINIENDUM[50]	_	_	
+12-2	1582-1596	karstification	_	B. Process[26]	DEFINIENDUM[50]	_	_	
+12-3	1597-1599	is	_	_	DEFINITOR[51]	_	_	
+12-4	1600-1607	defined	_	_	DEFINITOR[51]	_	_	
+12-5	1608-1610	as	_	_	DEFINITOR[51]	_	_	
+12-6	1611-1617	upward	_	_	_	HAS\_FORM	_	
+12-7	1618-1626	movement	_	_	GENUS	_	_	
+12-8	1627-1628	�	_	_	_	_	_	
+12-9	1628-1630	of	_	_	_	_	_	
+12-10	1631-1634	the	_	_	_	_	_	
+12-11	1635-1647	cave-forming	_	_	_	_	_	
+12-12	1648-1653	agent	_	_	_	_	_	
+12-13	1653-1654	�	_	_	_	_	_	
+12-14	1655-1656	(	_	_	_	_	_	
+12-15	1656-1661	sensu	_	_	_	_	_	
+12-16	1662-1671	Klimchouk	_	_	_	_	_	
+12-17	1671-1672	,	_	_	_	_	_	
+12-18	1673-1677	2007	_	_	_	_	_	
+12-19	1677-1678	,	_	_	_	_	_	
+12-20	1679-1683	2012	_	_	_	_	_	
+12-21	1683-1684	)	_	_	_	_	_	
+12-22	1684-1685	.	_	_	_	_	_	
+
+#Text=The term doline, of Slavonic origin, means literally valley but actually it has been used since a long time to indicate more or less well defined topographically depressed areas related to karst.
+13-1	1687-1690	The	_	_	_	_	_	
+13-2	1691-1695	term	_	_	_	_	_	
+13-3	1696-1702	doline	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-4	1702-1703	,	_	_	_	_	_	
+13-5	1704-1706	of	_	_	_	_	_	
+13-6	1707-1715	Slavonic	_	_	_	_	_	
+13-7	1716-1722	origin	_	_	_	_	_	
+13-8	1722-1723	,	_	_	_	_	_	
+13-9	1724-1729	means	_	_	DEFINITOR	_	_	
+13-10	1730-1739	literally	_	_	_	_	_	
+13-11	1740-1746	valley	_	D.1 Abiotic	_	_	_	
+13-12	1747-1750	but	_	_	_	_	_	
+13-13	1751-1759	actually	_	_	_	_	_	
+13-14	1760-1762	it	_	_	DEFINITOR[52]	_	_	
+13-15	1763-1766	has	_	_	DEFINITOR[52]	_	_	
+13-16	1767-1771	been	_	_	DEFINITOR[52]	_	_	
+13-17	1772-1776	used	_	_	DEFINITOR[52]	_	_	
+13-18	1777-1782	since	_	_	DEFINITOR[52]	_	_	
+13-19	1783-1784	a	_	_	DEFINITOR[52]	_	_	
+13-20	1785-1789	long	_	_	DEFINITOR[52]	_	_	
+13-21	1790-1794	time	_	_	DEFINITOR[52]	_	_	
+13-22	1795-1797	to	_	_	DEFINITOR[52]	_	_	
+13-23	1798-1806	indicate	_	_	DEFINITOR[52]	_	_	
+13-24	1807-1811	more	_	_	_	_	_	
+13-25	1812-1814	or	_	_	_	_	_	
+13-26	1815-1819	less	_	_	_	_	_	
+13-27	1820-1824	well	_	_	_	_	_	
+13-28	1825-1832	defined	_	_	_	_	_	
+13-29	1833-1848	topographically	_	_	_	HAS\_FORM[72]	_	
+13-30	1849-1858	depressed	_	_	_	HAS\_FORM[72]	_	
+13-31	1859-1864	areas	_	D.1 Abiotic	GENUS	_	_	
+13-32	1865-1872	related	_	_	_	HAS\_ATTRIBUTE[73]	frame\_ATTRIBUTE[89]	
+13-33	1873-1875	to	_	_	_	HAS\_ATTRIBUTE[73]	frame\_ATTRIBUTE[89]	
+13-34	1876-1881	karst	_	C. Geome	_	HAS\_ATTRIBUTE[73]	_	
+13-35	1881-1882	.	_	_	_	_	_	
+
+#Text=Caves are natural underground laboratories where crystal growth processes can be directly observed.
+14-1	1884-1889	Caves	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	1890-1893	are	_	_	_	_	_	
+14-3	1894-1901	natural	_	_	_	HAS\_FORM	_	
+14-4	1902-1913	underground	_	_	_	HAS\_LOCATION	_	
+14-5	1914-1926	laboratories	_	_	_	_	_	
+14-6	1927-1932	where	_	_	_	HAS\_ATTRIBUTE[74]	_	
+14-7	1933-1940	crystal	_	B. Process[27]	_	HAS\_ATTRIBUTE[74]	_	
+14-8	1941-1947	growth	_	B. Process[27]	_	HAS\_ATTRIBUTE[74]	_	
+14-9	1948-1957	processes	_	B. Process[27]	_	HAS\_ATTRIBUTE[74]	_	
+14-10	1958-1961	can	_	_	_	HAS\_ATTRIBUTE[74]	_	
+14-11	1962-1964	be	_	_	_	HAS\_ATTRIBUTE[74]	_	
+14-12	1965-1973	directly	_	_	_	HAS\_ATTRIBUTE[74]	_	
+14-13	1974-1982	observed	_	_	_	HAS\_ATTRIBUTE[74]	_	
+14-14	1982-1983	.	_	_	_	_	_	
+
+#Text=Influxes of sediment into a cave system fundamentally alters the way cave passages develop, either by alluviation in a vadose environment, or upwards dissolution in a phreatic environment through a process commonly known as paragenesis.
+15-1	1985-1993	Influxes	_	_	_	HAS\_CAUSE[75]	_	
+15-2	1994-1996	of	_	_	_	HAS\_CAUSE[75]	_	
+15-3	1997-2005	sediment	_	D.1 Abiotic	_	HAS\_CAUSE[75]	_	
+15-4	2006-2010	into	_	_	_	HAS\_CAUSE[75]	_	
+15-5	2011-2012	a	_	_	_	HAS\_CAUSE[75]	_	
+15-6	2013-2017	cave	_	_	_	HAS\_CAUSE[75]	_	
+15-7	2018-2024	system	_	_	_	HAS\_CAUSE[75]	_	
+15-8	2025-2038	fundamentally	_	_	_	HAS\_CAUSE[75]	_	
+15-9	2039-2045	alters	_	_	_	HAS\_CAUSE[75]	_	
+15-10	2046-2049	the	_	_	_	HAS\_CAUSE[75]	_	
+15-11	2050-2053	way	_	_	_	HAS\_CAUSE[75]	_	
+15-12	2054-2058	cave	_	A.2 Underground landform[28]	DEFINIENDUM[53]	_	_	
+15-13	2059-2067	passages	_	A.2 Underground landform[28]	DEFINIENDUM[53]	_	_	
+15-14	2068-2075	develop	_	_	_	_	frame\_CAUSE	
+15-15	2075-2076	,	_	_	_	_	_	
+15-16	2077-2083	either	_	_	_	HAS\_CAUSE[76]	_	
+15-17	2084-2086	by	_	_	_	HAS\_CAUSE[76]	_	
+15-18	2087-2098	alluviation	_	_	_	HAS\_CAUSE[76]	_	
+15-19	2099-2101	in	_	_	_	HAS\_CAUSE[76]|HAS\_LOCATION[77]	frame\_LOCATION	
+15-20	2102-2103	a	_	_	_	HAS\_CAUSE[76]|HAS\_LOCATION[77]	_	
+15-21	2104-2110	vadose	_	C. Geome[29]	_	HAS\_CAUSE[76]|HAS\_LOCATION[77]	_	
+15-22	2111-2122	environment	_	C. Geome[29]	_	HAS\_CAUSE[76]|HAS\_LOCATION[77]	_	
+15-23	2122-2123	,	_	_	_	HAS\_CAUSE[76]	_	
+15-24	2124-2126	or	_	_	_	HAS\_CAUSE[76]	_	
+15-25	2127-2134	upwards	_	_	_	HAS\_CAUSE[76]	_	
+15-26	2135-2146	dissolution	_	_	_	HAS\_CAUSE[76]	_	
+15-27	2147-2149	in	_	_	_	HAS\_CAUSE[76]|HAS\_LOCATION[78]	frame\_LOCATION[90]	
+15-28	2150-2151	a	_	_	_	HAS\_CAUSE[76]|HAS\_LOCATION[78]	frame\_LOCATION[90]	
+15-29	2152-2160	phreatic	_	C. Geome[30]	_	HAS\_CAUSE[76]|HAS\_LOCATION[78]	_	
+15-30	2161-2172	environment	_	C. Geome[30]	_	HAS\_CAUSE[76]|HAS\_LOCATION[78]	_	
+15-31	2173-2180	through	_	_	_	HAS\_CAUSE[76]	_	
+15-32	2181-2182	a	_	_	_	HAS\_CAUSE[76]	_	
+15-33	2183-2190	process	_	_	_	HAS\_CAUSE[76]	_	
+15-34	2191-2199	commonly	_	_	_	HAS\_CAUSE[76]	_	
+15-35	2200-2205	known	_	_	_	HAS\_CAUSE[76]	_	
+15-36	2206-2208	as	_	_	_	HAS\_CAUSE[76]	_	
+15-37	2209-2220	paragenesis	_	_	_	HAS\_CAUSE[76]	_	
+15-38	2220-2221	.	_	_	_	_	_	

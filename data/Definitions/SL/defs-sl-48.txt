@@ -1,0 +1,29 @@
+glavni rov: Rov, ki predstavlja hrbtenico jamskega sistema. 
+
+slepi rov: Rov, ki se slepo konča. 
+
+stranski rov: Rov, ki se cepi od glavnega rova ali od dvorane.
+
+zvezni rov: Rov, ki povezuje dve ali več votlin. 
+
+eforacijski rov: Jamski rov z značilno obliko, ki je nastala s pretokom vode pod pritiskom (tlakom).
+
+gravitacijski rov:. Jamski rov značilne oblike, ki je nastal s pretokom vode s prosto (nepritisnjeno) gladino - z gravitacijskim tokom. Prim. gravitacijski prečni profil. 
+
+rupa: Lj. za različne kraške pojave (požiralnike, brezna, odprtine vobce). V starejši literaturi tudi termin za požiralnik. 
+
+sadra: V slovenščini ni ustaljeno razlikovanje med dvema pojmoma: brezvodni kalcijev sulfat - anhidrit, CaSO4, ki z vodo prehaja v sadro - kalcijev hidrosulfat (CaSO4. 2H2O). Obe odkladnini sta laže topljivi od apnenca. V slednji se razvija sadreni - gipsni kras. 
+
+samotar: Osamljena, izrazita skala na kraškem površju. V jami tudi osamljeni kapnik. 
+
+sifon: Odsek rova, kjer sega skalni strop v vodo. Do stropa z vodo zalit del rova, ki loči skupaj spadajoče jamske dele. Cep v rovu. Glede na trajnost ločimo trajni in obdobni sifon. Po obliki je kolenast sifon, po smeri pretoka odtočni in pritočni sifon (glede na opazovalca). V tuji literaturi tudi ledeni, ilovnati sifon, in pod.
+
+sifonsko jezero: Vecja kotanja stoječe vode v sifonskem koritu. 
+
+sifonski zapirac: Del stropa, ki moli v sifon. 
+
+siga:Odkladnina kalcijevega karbonata iz zasičene jamske vode, ki se zrači. Am. pomeni sinter odkladnino mineralne vode! 
+
+sigova tvorba: Jamski sediment iz sige, nastal iz tekoče ali mirujoče vode. Glede na podobnost z rastlinami ločimo koralaste, čvetacne ali karfiolaste, gomoljaste itd. tvorbe. 
+
+kalcitni mehur: Mehur s kalcitno skorjo, nastal v stoječi jamski vodi. 

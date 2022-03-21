@@ -1,0 +1,23 @@
+inflow cave, influent cave :  Cave into which a stream flews or formerly entered.
+jama :   Vertical or steeply inclined shaft in limestone, known as abime or aven in France and as pothole in England. 
+joint-plane cave :  A cavity high in relation to width developed along steeply dipping joint planes.
+Karren : Channels or furrows, caused by solution on massive bare limestone surfaces; they vary in depth from a few millimeters to more than a meter and are separated by ridges.
+Rillenkarren : Type of Karren, shallow channels separated by sharp ridges 2-3 centimeters apart.
+Rinnenkarren : Type of Karren, flat-bottomed grooves several centimeters apart.
+Kluftkarren : Type of Karren; joints enlarged by solution.
+Spitzkarren : Type of Karren, large deep grooves extending down from steep spires or pinnacles.
+Meanderkarren : Type of Karren, small winding or meandering channels.
+Rundkarren : Karren having rounded channels and intervening rounded ridges, probably reexhumed after formation under soil or peat.
+Fachkarren : Type of Karren, equivalent to English clint.
+Bodenkarren : Karren formed beneath the soil. Synonym, lapils.
+Karrenfeld :   An area of limestone dominated by Karren.
+karst :   A terrain, generally underlain by limestone, in which the topography is chiefly formed by the dissolving of rock, and which is commonly characterized by Karren, closed depressions, subterranean drainage, and caves. See also buried karst; cone karst; covered karst; exhumed karst; Halbkugelkarst; holokarst; Kegel- karst; merokarst; microkarst; naked karst; paleokarst; pseudokarst; Spitz- kegelkarst; subjacent karst; syngenetic karst; thermokarst; tower karst.
+karst barre :   A karst of limited area completely surrounded by rocks of low permeability.
+karst base level :  Level below which karstification does not take place.
+karst bridge :  A natural bridge or arch in limestone.
+karst fens :  Marshes developed in sinkhole terrain; swampy solution fens.
+karst lake :  A large area of standing water in extensive closed depression in limestone.
+karst margin plain :  A plain generally on limestone between higher country of limestone on one side and of less pervious rocks on the other, but having a cover of impervious detritus, which allows surface drainage. Synonym, Karstrandebene.
+karst plain :  A plain on which closed depressions, subterranean drainage, and other karst features may be developed. Also called karst plateau.
+karst pond :  Closed depression in a karst area containing standing water.
+karst river :  A river that originates from a karst spring.

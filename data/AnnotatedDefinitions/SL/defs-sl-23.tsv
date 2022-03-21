@@ -1,0 +1,572 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=fazna meja - Ploskev, ki v speleogenetskem prostoru ločuje matično kamnino od speleofaktov oz. speleofakte med seboj.
+1-1	0-5	fazna	_	D.3 Property[4]	DEFINIENDUM[65]	_	_	
+1-2	6-10	meja	_	D.3 Property[4]	DEFINIENDUM[65]	_	_	
+1-3	11-12	-	_	_	_	_	_	
+1-4	13-20	Ploskev	_	D.1 Abiotic	GENUS	HAS\_FORM	_	
+1-5	20-21	,	_	_	_	_	_	
+1-6	22-24	ki	_	_	_	_	_	
+1-7	25-26	v	_	_	_	HAS\_LOCATION[85]	frame\_LOCATION	
+1-8	27-42	speleogenetskem	_	C. Geome[5]	_	HAS\_LOCATION[85]	_	
+1-9	43-51	prostoru	_	C. Geome[5]	_	HAS\_LOCATION[85]	_	
+1-10	52-58	ločuje	_	_	_	HAS\_FUNCTION[86]	frame\_FUNCTION	
+1-11	59-66	matično	_	D.1 Abiotic[6]	_	HAS\_FUNCTION[86]	_	
+1-12	67-74	kamnino	_	D.1 Abiotic[6]	_	HAS\_FUNCTION[86]	_	
+1-13	75-77	od	_	_	_	HAS\_FUNCTION[86]	_	
+1-14	78-90	speleofaktov	_	A.2 Underground landform	_	HAS\_FUNCTION[86]	_	
+1-15	91-93	oz	_	_	_	_	_	
+1-16	93-94	.	_	_	_	_	_	
+1-17	95-106	speleofakte	_	_	_	_	_	
+1-18	107-110	med	_	_	_	_	_	
+1-19	111-116	seboj	_	_	_	_	_	
+1-20	116-117	.	_	_	_	_	_	
+
+#Text=fosilizacija (kanala) - Preoblikovanje kanala v prežeti ali neprežeti coni. Poleg sedimentacije in rušenja vključuje tudi diagenezo. Polnilo v fosiliziranem kanalu se obnaša kot kompaktna kamnina in f. kanal pri možnem ponovnem zakrasevanju ne more služiti kot inicialna struktura.
+2-1	120-132	fosilizacija	_	B. Process	DEFINIENDUM	_	_	
+2-2	133-134	(	_	_	_	_	_	
+2-3	134-140	kanala	_	_	_	_	_	
+2-4	140-141	)	_	_	_	_	_	
+2-5	142-143	-	_	_	_	_	_	
+2-6	144-158	Preoblikovanje	_	B.4 Transformation	GENUS[66]	DEFINED\_AS[87]	_	
+2-7	159-165	kanala	_	A.2 Underground landform	GENUS[66]	DEFINED\_AS[87]	_	
+2-8	166-167	v	_	_	_	HAS\_LOCATION[88]	frame\_LOCATION	
+2-9	168-175	prežeti	prežeta cona	A.3 Hydrological form	_	HAS\_LOCATION[88]	_	
+2-10	176-179	ali	_	_	_	HAS\_LOCATION[88]	_	
+2-11	180-189	neprežeti	_	A.3 Hydrological form[7]	_	HAS\_LOCATION[88]	_	
+2-12	190-194	coni	_	A.3 Hydrological form[7]	_	HAS\_LOCATION[88]	_	
+2-13	194-195	.	_	_	_	_	_	
+2-14	196-201	Poleg	_	_	_	DEFINED\_AS[89]	_	
+2-15	202-215	sedimentacije	_	B.3 Addition	SPECIES	DEFINED\_AS[89]	_	
+2-16	216-218	in	_	_	_	DEFINED\_AS[89]	_	
+2-17	219-226	rušenja	_	B.2 Loss	SPECIES	DEFINED\_AS[89]	_	
+2-18	227-236	vključuje	_	_	_	DEFINED\_AS[89]	_	
+2-19	237-241	tudi	_	_	_	DEFINED\_AS[89]	_	
+2-20	242-251	diagenezo	_	B.4 Transformation	SPECIES	DEFINED\_AS[89]	_	
+2-21	251-252	.	_	_	_	_	_	
+2-22	253-260	Polnilo	_	D.1 Abiotic	_	CONTAINS[90]	_	
+2-23	261-262	v	_	_	_	CONTAINS[90]	_	
+2-24	263-276	fosiliziranem	_	A.2 Underground landform[8]	_	CONTAINS[90]	_	
+2-25	277-283	kanalu	_	A.2 Underground landform[8]	_	CONTAINS[90]	_	
+2-26	284-286	se	_	_	_	CONTAINS[90]	_	
+2-27	287-293	obnaša	_	_	_	CONTAINS[90]	_	
+2-28	294-297	kot	_	_	_	CONTAINS[90]	_	
+2-29	298-307	kompaktna	_	D.1 Abiotic[9]	_	CONTAINS[90]	_	
+2-30	308-315	kamnina	_	D.1 Abiotic[9]|D.1 Abiotic[10]	_	CONTAINS[90]	_	
+2-31	316-318	in	_	_	_	_	_	
+2-32	319-320	f	fosiliziran kanal[1]	_	_	_	_	
+2-33	320-321	.	fosiliziran kanal[1]	_	_	_	_	
+2-34	322-327	kanal	fosiliziran kanal[1]	_	_	_	_	
+2-35	328-331	pri	_	_	_	_	_	
+2-36	332-338	možnem	_	_	_	_	_	
+2-37	339-347	ponovnem	_	_	_	_	_	
+2-38	348-360	zakrasevanju	_	_	_	_	_	
+2-39	361-363	ne	_	_	_	_	_	
+2-40	364-368	more	_	_	_	_	_	
+2-41	369-376	služiti	_	_	_	_	_	
+2-42	377-380	kot	_	_	_	_	_	
+2-43	381-390	inicialna	_	_	_	_	_	
+2-44	391-400	struktura	_	_	_	_	_	
+2-45	400-401	.	_	_	_	_	_	
+
+#Text=freatična cona - Sinonim prežeti coni.
+3-1	404-413	freatična	_	C. Geome[11]	DEFINIENDUM[67]	_	_	
+3-2	414-418	cona	_	C. Geome[11]	DEFINIENDUM[67]	_	_	
+3-3	419-420	-	_	_	_	_	_	
+3-4	421-428	Sinonim	_	_	_	_	_	
+3-5	429-436	prežeti	_	C. Geome[12]	DEFINIENDUM[68]	_	_	
+3-6	437-441	coni	_	C. Geome[12]	DEFINIENDUM[68]	_	_	
+3-7	441-442	.	_	_	_	_	_	
+
+#Text=freatični kanal - Kanal, nastal v prežeti coni. Njegov prostorski potek se ne ravna po vodoravni smeri, temveč po smeri inicialnih struktur. Značilna sta elipsast ali lečast prečni presek.
+4-1	445-454	freatični	_	A.2 Underground landform[13]	DEFINIENDUM[69]	_	_	
+4-2	455-460	kanal	_	A.2 Underground landform[13]	DEFINIENDUM[69]	_	_	
+4-3	461-462	-	_	_	_	_	_	
+4-4	463-468	Kanal	_	A.2 Underground landform	GENUS	_	_	
+4-5	468-469	,	_	_	_	_	_	
+4-6	470-476	nastal	_	_	_	HAS\_LOCATION[91]	_	
+4-7	477-478	v	_	_	_	HAS\_LOCATION[91]	frame\_LOCATION	
+4-8	479-486	prežeti	_	C. Geome[14]	_	HAS\_LOCATION[91]	_	
+4-9	487-491	coni	_	C. Geome[14]	_	HAS\_LOCATION[91]	_	
+4-10	491-492	.	_	_	_	_	_	
+4-11	493-499	Njegov	_	_	_	HAS\_CAUSE[92]	_	
+4-12	500-510	prostorski	_	_	_	HAS\_CAUSE[92]	_	
+4-13	511-516	potek	_	_	_	HAS\_CAUSE[92]	_	
+4-14	517-519	se	_	_	_	HAS\_CAUSE[92]	_	
+4-15	520-522	ne	_	_	_	HAS\_CAUSE[92]	_	
+4-16	523-528	ravna	_	_	_	HAS\_CAUSE[92]	_	
+4-17	529-531	po	_	_	_	HAS\_CAUSE[92]	_	
+4-18	532-541	vodoravni	_	_	_	HAS\_CAUSE[92]	_	
+4-19	542-547	smeri	_	_	_	HAS\_CAUSE[92]	_	
+4-20	547-548	,	_	_	_	HAS\_CAUSE[92]	_	
+4-21	549-555	temveč	_	_	_	HAS\_CAUSE[92]	_	
+4-22	556-558	po	_	_	_	HAS\_CAUSE[92]	_	
+4-23	559-564	smeri	_	_	_	HAS\_CAUSE[92]	_	
+4-24	565-575	inicialnih	_	_	_	HAS\_CAUSE[92]	_	
+4-25	576-584	struktur	_	_	_	HAS\_CAUSE[92]	_	
+4-26	584-585	.	_	_	_	_	_	
+4-27	586-594	Značilna	_	_	_	HAS\_FORM[93]	frame\_FORM[123]	
+4-28	595-598	sta	_	_	_	HAS\_FORM[93]	frame\_FORM[123]	
+4-29	599-607	elipsast	elipsast prežni presek	D.3 Property	_	HAS\_FORM[93]	_	
+4-30	608-611	ali	_	_	_	HAS\_FORM[93]	_	
+4-31	612-618	lečast	_	D.3 Property[15]	_	HAS\_FORM[93]	_	
+4-32	619-625	prečni	_	D.3 Property[15]	_	HAS\_FORM[93]	_	
+4-33	626-632	presek	_	D.3 Property[15]	_	HAS\_FORM[93]	_	
+4-34	632-633	.	_	_	_	_	_	
+
+#Text=freatično brezno - Strukturni segment, ki nastane v prežeti coni ob preskoku kanala z enega začetnega horizonta v drugega. Prostorska orientacija freatičnega brezna se ravna približno po padnici inicialne strukture. Manjša freatična brezna so v prečnem (približno vodoravnem) prerezu elipsasta in podobna kaminom. Od njih ločimo reatična brezna najlaže po tem, da se na nasprotnih straneh lezičnih kanalov, katere povezujejo, ne nadaljujejo. Ob nastajanju sledi vodni tok pravilu veznih posod in se lahko giba navzdol ali navzgor.
+5-1	636-645	freatično	_	A.2 Underground landform[16]	DEFINIENDUM[70]	_	_	
+5-2	646-652	brezno	_	A.2 Underground landform[16]	DEFINIENDUM[70]	_	_	
+5-3	653-654	-	_	_	_	_	_	
+5-4	655-665	Strukturni	_	_	_	_	_	
+5-5	666-673	segment	_	_	_	_	_	
+5-6	673-674	,	_	_	_	_	_	
+5-7	675-677	ki	_	_	_	HAS\_LOCATION[94]	_	
+5-8	678-685	nastane	_	_	_	HAS\_LOCATION[94]	_	
+5-9	686-687	v	_	_	_	HAS\_LOCATION[94]	frame\_LOCATION	
+5-10	688-695	prežeti	_	C. Geome[17]	_	HAS\_LOCATION[94]	_	
+5-11	696-700	coni	_	C. Geome[17]	_	HAS\_LOCATION[94]	_	
+5-12	701-703	ob	_	_	_	HAS\_CAUSE[95]	frame\_CAUSE	
+5-13	704-712	preskoku	_	B. Process	_	HAS\_CAUSE[95]	_	
+5-14	713-719	kanala	_	A.2 Underground landform	_	HAS\_CAUSE[95]	_	
+5-15	720-721	z	_	_	_	HAS\_CAUSE[95]	_	
+5-16	722-727	enega	_	_	_	HAS\_CAUSE[95]	_	
+5-17	728-737	začetnega	_	_	_	HAS\_CAUSE[95]	_	
+5-18	738-747	horizonta	_	_	_	HAS\_CAUSE[95]	_	
+5-19	748-749	v	_	_	_	HAS\_CAUSE[95]	_	
+5-20	750-757	drugega	_	_	_	HAS\_CAUSE[95]	_	
+5-21	757-758	.	_	_	_	_	_	
+5-22	759-769	Prostorska	_	_	_	_	_	
+5-23	770-781	orientacija	_	_	_	_	_	
+5-24	782-793	freatičnega	_	_	_	_	_	
+5-25	794-800	brezna	_	_	_	_	_	
+5-26	801-803	se	_	_	_	HAS\_CAUSE[96]	_	
+5-27	804-809	ravna	_	_	_	HAS\_CAUSE[96]	_	
+5-28	810-819	približno	_	_	_	HAS\_CAUSE[96]	_	
+5-29	820-822	po	_	_	_	HAS\_CAUSE[96]	_	
+5-30	823-830	padnici	_	D. Entity/Element/Property	_	HAS\_CAUSE[96]	_	
+5-31	831-840	inicialne	_	D.1 Abiotic[18]	_	HAS\_CAUSE[96]	_	
+5-32	841-850	strukture	_	D.1 Abiotic[18]	_	HAS\_CAUSE[96]	_	
+5-33	850-851	.	_	_	_	_	_	
+5-34	852-858	Manjša	_	_	_	_	_	
+5-35	859-868	freatična	_	A.2 Underground landform[19]	_	_	_	
+5-36	869-875	brezna	_	A.2 Underground landform[19]	_	_	_	
+5-37	876-878	so	_	_	_	HAS\_FORM[97]	_	
+5-38	879-880	v	_	_	_	HAS\_FORM[97]	_	
+5-39	881-888	prečnem	_	_	_	HAS\_FORM[97]	_	
+5-40	889-890	(	_	_	_	HAS\_FORM[97]	_	
+5-41	890-899	približno	_	_	_	HAS\_FORM[97]	_	
+5-42	900-910	vodoravnem	_	_	_	HAS\_FORM[97]	_	
+5-43	910-911	)	_	_	_	HAS\_FORM[97]	_	
+5-44	912-919	prerezu	_	_	_	HAS\_FORM[97]	_	
+5-45	920-929	elipsasta	_	D.3 Property	_	HAS\_FORM[97]	_	
+5-46	930-932	in	_	_	_	HAS\_FORM[97]	_	
+5-47	933-940	podobna	_	_	_	HAS\_FORM[97]	frame\_FORM	
+5-48	941-948	kaminom	_	A.2 Underground landform	_	HAS\_FORM[97]	_	
+5-49	948-949	.	_	_	_	_	_	
+5-50	950-952	Od	_	_	_	_	_	
+5-51	953-957	njih	_	_	_	_	_	
+5-52	958-964	ločimo	_	_	_	_	_	
+5-53	965-973	reatična	_	_	_	_	_	
+5-54	974-980	brezna	_	_	_	_	_	
+5-55	981-988	najlaže	_	_	_	_	_	
+5-56	989-991	po	_	_	_	_	_	
+5-57	992-995	tem	_	_	_	_	_	
+5-58	995-996	,	_	_	_	_	_	
+5-59	997-999	da	_	_	_	_	_	
+5-60	1000-1002	se	_	_	_	_	_	
+5-61	1003-1005	na	_	_	_	_	_	
+5-62	1006-1016	nasprotnih	_	_	_	_	_	
+5-63	1017-1024	straneh	_	_	_	_	_	
+5-64	1025-1033	lezičnih	_	A.2 Underground landform[20]	_	_	_	
+5-65	1034-1041	kanalov	_	A.2 Underground landform[20]	_	_	_	
+5-66	1041-1042	,	_	_	_	_	_	
+5-67	1043-1049	katere	_	_	_	_	_	
+5-68	1050-1060	povezujejo	_	_	_	_	_	
+5-69	1060-1061	,	_	_	_	_	_	
+5-70	1062-1064	ne	_	_	_	_	_	
+5-71	1065-1076	nadaljujejo	_	_	_	_	_	
+5-72	1076-1077	.	_	_	_	_	_	
+5-73	1078-1080	Ob	_	_	_	_	_	
+5-74	1081-1091	nastajanju	_	_	_	_	_	
+5-75	1092-1097	sledi	_	_	_	_	_	
+5-76	1098-1103	vodni	_	D.1 Abiotic[21]	_	_	_	
+5-77	1104-1107	tok	_	D.1 Abiotic[21]	_	_	_	
+5-78	1108-1115	pravilu	_	_	_	_	_	
+5-79	1116-1122	veznih	_	_	_	_	_	
+5-80	1123-1128	posod	_	_	_	_	_	
+5-81	1129-1131	in	_	_	_	_	_	
+5-82	1132-1134	se	_	_	_	_	_	
+5-83	1135-1140	lahko	_	_	_	_	_	
+5-84	1141-1145	giba	_	_	_	_	_	
+5-85	1146-1153	navzdol	_	_	_	_	_	
+5-86	1154-1157	ali	_	_	_	_	_	
+5-87	1158-1165	navzgor	_	_	_	_	_	
+5-88	1165-1166	.	_	_	_	_	_	
+
+#Text=Gamsov efekt - Način preoblikovanja svežnja, ko ponikalnica z nekraškega površja vnaša prod. Ker pretok in transportna moč vode nista popolnoma enakomerna, se plavje odlaga v globljih delih svežnja. To prisili vodo, da ubira pota po kanalih, ki so vse bliže piezometrični gladini. Če proces traja dovolj dolgo, voda končno izoblikuje tunelski rov vzdolž gladine podtalnice in teče po lastnem nasipu. Dejansko to pomeni vdor tluvialnih razmer v kraško podzemlje (transenvironmental effect) in Gamsov efekt je značilen za kras na nizvodnem stiku z nekrasom. l. Gams (1959) je tako razložil lego in nastanek večine največjih jam na Slovenskem.
+6-1	1169-1175	Gamsov	_	D.3 Property[22]	DEFINIENDUM[71]	_	_	
+6-2	1176-1181	efekt	_	D.3 Property[22]	DEFINIENDUM[71]	_	_	
+6-3	1182-1183	-	_	_	_	_	_	
+6-4	1184-1189	Način	_	_	_	_	_	
+6-5	1190-1204	preoblikovanja	_	_	GENUS[72]	_	_	
+6-6	1205-1212	svežnja	_	A.2 Underground landform	GENUS[72]	_	_	
+6-7	1212-1213	,	_	_	_	_	_	
+6-8	1214-1216	ko	_	_	_	HAS\_CAUSE[98]	_	
+6-9	1217-1228	ponikalnica	_	A.3 Hydrological form	_	HAS\_CAUSE[98]	_	
+6-10	1229-1230	z	_	_	_	HAS\_CAUSE[98]	_	
+6-11	1231-1241	nekraškega	_	C. Geome[23]	_	HAS\_CAUSE[98]	_	
+6-12	1242-1249	površja	_	C. Geome[23]	_	HAS\_CAUSE[98]	_	
+6-13	1250-1255	vnaša	_	_	_	HAS\_CAUSE[98]	_	
+6-14	1256-1260	prod	_	D.1 Abiotic	_	HAS\_CAUSE[98]	_	
+6-15	1260-1261	.	_	_	_	_	_	
+6-16	1262-1265	Ker	_	_	_	HAS\_CAUSE[99]	_	
+6-17	1266-1272	pretok	_	D.3 Property	_	HAS\_CAUSE[99]	_	
+6-18	1273-1275	in	_	_	_	HAS\_CAUSE[99]	_	
+6-19	1276-1287	transportna	_	_	_	HAS\_CAUSE[99]	_	
+6-20	1288-1291	moč	_	_	_	HAS\_CAUSE[99]	_	
+6-21	1292-1296	vode	_	D.1 Abiotic	_	HAS\_CAUSE[99]	_	
+6-22	1297-1302	nista	_	_	_	HAS\_CAUSE[99]	_	
+6-23	1303-1312	popolnoma	_	_	_	HAS\_CAUSE[99]	_	
+6-24	1313-1323	enakomerna	_	_	_	HAS\_CAUSE[99]	_	
+6-25	1323-1324	,	_	_	_	_	_	
+6-26	1325-1327	se	_	_	_	HAS\_RESULT[100]	_	
+6-27	1328-1334	plavje	_	D.1 Abiotic	_	HAS\_RESULT[100]	_	
+6-28	1335-1341	odlaga	_	_	_	HAS\_RESULT[100]	_	
+6-29	1342-1343	v	_	_	_	HAS\_RESULT[100]	_	
+6-30	1344-1352	globljih	_	_	_	HAS\_RESULT[100]	_	
+6-31	1353-1358	delih	_	_	_	HAS\_RESULT[100]	_	
+6-32	1359-1366	svežnja	_	_	_	HAS\_RESULT[100]	_	
+6-33	1366-1367	.	_	_	_	_	_	
+6-34	1368-1370	To	_	_	_	HAS\_CAUSE[101]	_	
+6-35	1371-1378	prisili	_	_	_	HAS\_CAUSE[101]	_	
+6-36	1379-1383	vodo	_	D.1 Abiotic	_	HAS\_CAUSE[101]	_	
+6-37	1383-1384	,	_	_	_	HAS\_CAUSE[101]	_	
+6-38	1385-1387	da	_	_	_	HAS\_CAUSE[101]	_	
+6-39	1388-1393	ubira	_	_	_	HAS\_CAUSE[101]	_	
+6-40	1394-1398	pota	_	_	_	HAS\_CAUSE[101]	_	
+6-41	1399-1401	po	_	_	_	HAS\_CAUSE[101]	_	
+6-42	1402-1409	kanalih	_	A.3 Hydrological form	_	HAS\_CAUSE[101]	_	
+6-43	1409-1410	,	_	_	_	HAS\_CAUSE[101]	_	
+6-44	1411-1413	ki	_	_	_	HAS\_CAUSE[101]	_	
+6-45	1414-1416	so	_	_	_	HAS\_CAUSE[101]	_	
+6-46	1417-1420	vse	_	_	_	HAS\_CAUSE[101]	_	
+6-47	1421-1426	bliže	_	_	_	HAS\_CAUSE[101]	_	
+6-48	1427-1440	piezometrični	_	D.1 Abiotic[24]	_	HAS\_CAUSE[101]	_	
+6-49	1441-1448	gladini	_	D.1 Abiotic[24]	_	HAS\_CAUSE[101]	_	
+6-50	1448-1449	.	_	_	_	_	_	
+6-51	1450-1452	Če	_	_	_	_	_	
+6-52	1453-1459	proces	_	_	_	_	_	
+6-53	1460-1465	traja	_	_	_	_	_	
+6-54	1466-1472	dovolj	_	_	_	_	_	
+6-55	1473-1478	dolgo	_	_	_	_	_	
+6-56	1478-1479	,	_	_	_	_	_	
+6-57	1480-1484	voda	_	D.1 Abiotic	_	HAS\_RESULT[102]	_	
+6-58	1485-1491	končno	_	_	_	HAS\_RESULT[102]	frame\_RESULT	
+6-59	1492-1502	izoblikuje	_	B. Process	_	HAS\_RESULT[102]	_	
+6-60	1503-1511	tunelski	_	A.2 Underground landform[25]	_	HAS\_RESULT[102]	_	
+6-61	1512-1515	rov	_	A.2 Underground landform[25]	_	HAS\_RESULT[102]	_	
+6-62	1516-1522	vzdolž	_	_	_	HAS\_RESULT[102]|HAS\_LOCATION[103]	frame\_LOCATION	
+6-63	1523-1530	gladine	_	D.1 Abiotic[26]	_	HAS\_RESULT[102]|HAS\_LOCATION[103]	_	
+6-64	1531-1541	podtalnice	_	D.1 Abiotic[26]|A.3 Hydrological form[27]	_	HAS\_RESULT[102]|HAS\_LOCATION[103]	_	
+6-65	1542-1544	in	_	_	_	HAS\_LOCATION[103]	_	
+6-66	1545-1549	teče	_	_	_	HAS\_LOCATION[103]	_	
+6-67	1550-1552	po	_	_	_	HAS\_LOCATION[103]	_	
+6-68	1553-1560	lastnem	_	_	_	HAS\_LOCATION[103]	_	
+6-69	1561-1567	nasipu	_	D.1 Abiotic	_	HAS\_LOCATION[103]	_	
+6-70	1567-1568	.	_	_	_	_	_	
+6-71	1569-1577	Dejansko	_	_	_	HAS\_RESULT[104]	frame\_RESULT[124]	
+6-72	1578-1580	to	_	_	_	HAS\_RESULT[104]	frame\_RESULT[124]	
+6-73	1581-1587	pomeni	_	_	_	HAS\_RESULT[104]	frame\_RESULT[124]	
+6-74	1588-1592	vdor	_	A.3 Hydrological form	_	HAS\_RESULT[104]	_	
+6-75	1593-1603	tluvialnih	_	D.3 Property[28]	_	HAS\_RESULT[104]	_	
+6-76	1604-1610	razmer	_	D.3 Property[28]	_	HAS\_RESULT[104]	_	
+6-77	1611-1612	v	_	_	_	HAS\_RESULT[104]	_	
+6-78	1613-1619	kraško	_	C. Geome[29]	_	HAS\_RESULT[104]	_	
+6-79	1620-1629	podzemlje	_	C. Geome[29]	_	HAS\_RESULT[104]	_	
+6-80	1630-1631	(	_	_	_	_	_	
+6-81	1631-1649	transenvironmental	_	_	_	_	_	
+6-82	1650-1656	effect	_	_	_	_	_	
+6-83	1656-1657	)	_	_	_	_	_	
+6-84	1658-1660	in	_	_	_	_	_	
+6-85	1661-1667	Gamsov	_	_	DEFINIENDUM[73]	_	_	
+6-86	1668-1673	efekt	_	_	DEFINIENDUM[73]	_	_	
+6-87	1674-1676	je	_	_	_	HAS\_LOCATION[105]	_	
+6-88	1677-1685	značilen	_	_	_	HAS\_LOCATION[105]	_	
+6-89	1686-1688	za	_	_	_	HAS\_LOCATION[105]	_	
+6-90	1689-1693	kras	_	C. Geome	_	HAS\_LOCATION[105]	_	
+6-91	1694-1696	na	_	_	_	HAS\_LOCATION[105]	frame\_LOCATION	
+6-92	1697-1706	nizvodnem	_	D.3 Property[30]	_	HAS\_LOCATION[105]	_	
+6-93	1707-1712	stiku	_	D.3 Property[30]	_	HAS\_LOCATION[105]	_	
+6-94	1713-1714	z	_	_	_	HAS\_LOCATION[105]	_	
+6-95	1715-1723	nekrasom	_	C. Geome	_	HAS\_LOCATION[105]	_	
+6-96	1723-1724	.	_	_	_	_	_	
+6-97	1725-1726	l	_	_	_	_	_	
+6-98	1726-1727	.	_	_	_	_	_	
+6-99	1728-1732	Gams	_	_	_	_	_	
+6-100	1733-1734	(	_	_	_	_	_	
+6-101	1734-1738	1959	_	_	_	_	_	
+6-102	1738-1739	)	_	_	_	_	_	
+6-103	1740-1742	je	_	_	_	_	_	
+6-104	1743-1747	tako	_	_	_	_	_	
+6-105	1748-1756	razložil	_	_	_	_	_	
+6-106	1757-1761	lego	_	_	_	_	_	
+6-107	1762-1764	in	_	_	_	_	_	
+6-108	1765-1773	nastanek	_	_	_	_	_	
+6-109	1774-1780	večine	_	_	_	_	_	
+6-110	1781-1790	največjih	_	_	_	_	_	
+6-111	1791-1794	jam	_	A.2 Underground landform	_	_	_	
+6-112	1795-1797	na	_	D.3.1 Geolocation[31]	_	HAS\_POSITION[106]	frame\_POSITION	
+6-113	1798-1808	Slovenskem	_	D.3.1 Geolocation[31]	_	HAS\_POSITION[106]	_	
+6-114	1808-1809	.	_	_	_	_	_	
+
+#Text=Gospodaričev efekt - Način preoblikovanja svežnja, ko voda prenaša prod, ki nastaja v samem kraškem podzemlju. Končni učinek je podoben Gamsovemu e., torej nastanejo tunelski rovi. Ker pa gre za manjše količine plavja kot v primeru Gamsovega e., niže ležeči kanali niso vedno zasuti. Gospodaričev e. ni vezan na stik krasa z nekrasom in je izjemen primer nekraškega mehanizma v čistem krasu. R. Gospodarič (1976) je tako razložil nastanek tunelskih rovov v Planinski jami. Podzemska Pivkajihje oblikovala s prodom, ki izvira iz podora Planinske koleševke.
+7-1	1812-1824	Gospodaričev	_	D.3 Property[32]	DEFINIENDUM[74]	_	_	
+7-2	1825-1830	efekt	_	D.3 Property[32]	DEFINIENDUM[74]	_	_	
+7-3	1831-1832	-	_	_	_	_	_	
+7-4	1833-1838	Način	_	_	_	_	_	
+7-5	1839-1853	preoblikovanja	_	_	GENUS[75]	_	_	
+7-6	1854-1861	svežnja	_	A.2 Underground landform	GENUS[75]	_	_	
+7-7	1861-1862	,	_	_	_	_	_	
+7-8	1863-1865	ko	_	_	_	HAS\_CAUSE[107]	_	
+7-9	1866-1870	voda	_	D.1 Abiotic	_	HAS\_CAUSE[107]	_	
+7-10	1871-1878	prenaša	_	B.1 Movement	_	HAS\_CAUSE[107]	_	
+7-11	1879-1883	prod	_	D.1 Abiotic	_	HAS\_CAUSE[107]	_	
+7-12	1883-1884	,	_	_	_	HAS\_CAUSE[107]	_	
+7-13	1885-1887	ki	_	_	_	HAS\_CAUSE[107]	_	
+7-14	1888-1895	nastaja	_	_	_	HAS\_CAUSE[107]	_	
+7-15	1896-1897	v	_	_	_	HAS\_CAUSE[107]	_	
+7-16	1898-1903	samem	_	_	_	HAS\_CAUSE[107]	_	
+7-17	1904-1911	kraškem	_	C. Geome[33]	_	HAS\_CAUSE[107]	_	
+7-18	1912-1921	podzemlju	_	C. Geome[33]	_	HAS\_CAUSE[107]	_	
+7-19	1921-1922	.	_	_	_	_	_	
+7-20	1923-1929	Končni	_	_	_	_	_	
+7-21	1930-1936	učinek	_	_	_	_	_	
+7-22	1937-1939	je	_	_	_	_	_	
+7-23	1940-1947	podoben	_	_	_	_	_	
+7-24	1948-1957	Gamsovemu	Gamsovemu efektu[2]	_	_	_	_	
+7-25	1958-1959	e	Gamsovemu efektu[2]	_	_	_	_	
+7-26	1959-1960	.	Gamsovemu efektu[2]	_	_	_	_	
+7-27	1960-1961	,	_	_	_	_	_	
+7-28	1962-1967	torej	_	_	_	HAS\_RESULT[108]	frame\_RESULT[125]	
+7-29	1968-1977	nastanejo	_	_	_	HAS\_RESULT[108]	frame\_RESULT[125]	
+7-30	1978-1986	tunelski	_	A.2 Underground landform[34]	_	HAS\_RESULT[108]	_	
+7-31	1987-1991	rovi	_	A.2 Underground landform[34]	_	HAS\_RESULT[108]	_	
+7-32	1991-1992	.	_	_	_	_	_	
+7-33	1993-1996	Ker	_	_	_	_	_	
+7-34	1997-1999	pa	_	_	_	_	_	
+7-35	2000-2003	gre	_	_	_	_	_	
+7-36	2004-2006	za	_	_	_	_	_	
+7-37	2007-2013	manjše	_	_	_	_	_	
+7-38	2014-2022	količine	_	_	_	_	_	
+7-39	2023-2029	plavja	_	D.1 Abiotic	_	_	_	
+7-40	2030-2033	kot	_	_	_	_	_	
+7-41	2034-2035	v	_	_	_	_	_	
+7-42	2036-2043	primeru	_	_	_	_	_	
+7-43	2044-2053	Gamsovega	Gamsovega efekta[3]	_	_	_	_	
+7-44	2054-2055	e	Gamsovega efekta[3]	_	_	_	_	
+7-45	2055-2056	.	Gamsovega efekta[3]	_	_	_	_	
+7-46	2056-2057	,	_	_	_	_	_	
+7-47	2058-2062	niže	_	_	_	HAS\_RESULT[109]	_	
+7-48	2063-2069	ležeči	_	_	_	HAS\_RESULT[109]	_	
+7-49	2070-2076	kanali	_	A.2 Underground landform	_	HAS\_RESULT[109]	_	
+7-50	2077-2081	niso	_	_	_	HAS\_RESULT[109]	_	
+7-51	2082-2087	vedno	_	_	_	HAS\_RESULT[109]	_	
+7-52	2088-2094	zasuti	_	D.3 Property	_	HAS\_RESULT[109]	_	
+7-53	2094-2095	.	_	_	_	_	_	
+7-54	2096-2108	Gospodaričev	_	_	_	_	_	
+7-55	2109-2110	e	_	_	_	_	_	
+7-56	2110-2111	.	_	_	_	_	_	
+7-57	2112-2114	ni	_	_	_	_	_	
+7-58	2115-2120	vezan	_	_	_	_	_	
+7-59	2121-2123	na	_	_	_	_	_	
+7-60	2124-2128	stik	_	_	_	_	_	
+7-61	2129-2134	krasa	_	C. Geome	_	_	_	
+7-62	2135-2136	z	_	_	_	_	_	
+7-63	2137-2145	nekrasom	_	C. Geome	_	_	_	
+7-64	2146-2148	in	_	_	_	_	_	
+7-65	2149-2151	je	_	_	_	_	_	
+7-66	2152-2159	izjemen	_	_	_	_	_	
+7-67	2160-2166	primer	_	_	_	_	_	
+7-68	2167-2177	nekraškega	_	B. Process[35]	_	_	_	
+7-69	2178-2187	mehanizma	_	B. Process[35]	_	_	_	
+7-70	2188-2189	v	_	_	_	_	_	
+7-71	2190-2196	čistem	_	C. Geome[36]	_	_	_	
+7-72	2197-2202	krasu	_	C. Geome[36]	_	_	_	
+7-73	2202-2203	.	_	_	_	_	_	
+7-74	2204-2205	R	_	_	_	_	_	
+7-75	2205-2206	.	_	_	_	_	_	
+7-76	2207-2217	Gospodarič	_	_	_	_	_	
+7-77	2218-2219	(	_	_	_	_	_	
+7-78	2219-2223	1976	_	_	_	_	_	
+7-79	2223-2224	)	_	_	_	_	_	
+7-80	2225-2227	je	_	_	_	_	_	
+7-81	2228-2232	tako	_	_	_	_	_	
+7-82	2233-2241	razložil	_	_	_	_	_	
+7-83	2242-2250	nastanek	_	_	_	_	_	
+7-84	2251-2260	tunelskih	_	A.2 Underground landform[37]	_	_	_	
+7-85	2261-2266	rovov	_	A.2 Underground landform[37]	_	_	_	
+7-86	2267-2268	v	_	_	_	HAS\_POSITION[110]	_	
+7-87	2269-2278	Planinski	_	D.3.1 Geolocation[38]	_	HAS\_POSITION[110]	_	
+7-88	2279-2283	jami	_	D.3.1 Geolocation[38]	_	HAS\_POSITION[110]	_	
+7-89	2283-2284	.	_	_	_	_	_	
+7-90	2285-2294	Podzemska	_	_	_	_	_	
+7-91	2295-2305	Pivkajihje	Pivka jih je	_	_	_	_	
+7-92	2306-2316	oblikovala	_	_	_	_	_	
+7-93	2317-2318	s	_	_	_	_	_	
+7-94	2319-2325	prodom	_	_	_	_	_	
+7-95	2325-2326	,	_	_	_	_	_	
+7-96	2327-2329	ki	_	_	_	_	_	
+7-97	2330-2336	izvira	_	_	_	_	_	
+7-98	2337-2339	iz	_	_	_	_	_	
+7-99	2340-2346	podora	_	_	_	_	_	
+7-100	2347-2356	Planinske	_	D.3.1 Geolocation[39]	_	_	_	
+7-101	2357-2366	koleševke	_	D.3.1 Geolocation[39]	_	_	_	
+7-102	2366-2367	.	_	_	_	_	_	
+
+#Text=gravitacijska voda - Prenikla voda, ki se skozi neprežeto cono spušča malone navpično proti prežeti coni. Gravitacijska voda ne le da ima prosto gladino, ampak lahko tudi prosto pada. Gravitacijska voda zapolni kanale le izjemoma.
+8-1	2370-2383	gravitacijska	_	D.1 Abiotic[40]	DEFINIENDUM[76]	_	_	
+8-2	2384-2388	voda	_	D.1 Abiotic[40]	DEFINIENDUM[76]	_	_	
+8-3	2389-2390	-	_	_	_	_	_	
+8-4	2391-2399	Prenikla	_	D.1 Abiotic[41]	GENUS[77]	_	_	
+8-5	2400-2404	voda	_	D.1 Abiotic[41]|D.1 Abiotic[42]	GENUS[77]	_	_	
+8-6	2404-2405	,	_	_	_	_	_	
+8-7	2406-2408	ki	_	_	_	HAS\_LOCATION[111]	frame\_LOCATION[126]	
+8-8	2409-2411	se	_	_	_	HAS\_LOCATION[111]	frame\_LOCATION[126]	
+8-9	2412-2417	skozi	_	_	_	HAS\_LOCATION[111]	frame\_LOCATION[126]	
+8-10	2418-2427	neprežeto	_	A.3 Hydrological form[43]	_	HAS\_LOCATION[111]	_	
+8-11	2428-2432	cono	_	A.3 Hydrological form[43]	_	HAS\_LOCATION[111]	_	
+8-12	2433-2439	spušča	_	_	_	HAS\_LOCATION[111]	_	
+8-13	2440-2446	malone	_	_	_	HAS\_LOCATION[111]	_	
+8-14	2447-2455	navpično	_	_	_	HAS\_LOCATION[111]	_	
+8-15	2456-2461	proti	_	_	_	HAS\_LOCATION[111]	_	
+8-16	2462-2469	prežeti	_	C. Geome[44]	_	HAS\_LOCATION[111]	_	
+8-17	2470-2474	coni	_	C. Geome[44]	_	HAS\_LOCATION[111]	_	
+8-18	2474-2475	.	_	_	_	_	_	
+8-19	2476-2489	Gravitacijska	_	D.1 Abiotic[45]	_	_	_	
+8-20	2490-2494	voda	_	D.1 Abiotic[45]	_	_	_	
+8-21	2495-2497	ne	_	_	_	HAS\_ATTRIBUTE[112]	_	
+8-22	2498-2500	le	_	_	_	HAS\_ATTRIBUTE[112]	_	
+8-23	2501-2503	da	_	_	_	HAS\_ATTRIBUTE[112]	_	
+8-24	2504-2507	ima	_	_	_	HAS\_ATTRIBUTE[112]	frame\_ATTRIBUTE	
+8-25	2508-2514	prosto	_	_	_	HAS\_ATTRIBUTE[112]	_	
+8-26	2515-2522	gladino	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[112]	_	
+8-27	2522-2523	,	_	_	_	_	_	
+8-28	2524-2529	ampak	_	_	_	_	_	
+8-29	2530-2535	lahko	_	_	_	HAS\_ATTRIBUTE[113]	_	
+8-30	2536-2540	tudi	_	_	_	HAS\_ATTRIBUTE[113]	_	
+8-31	2541-2547	prosto	_	B.1 Movement[46]	_	HAS\_ATTRIBUTE[113]	_	
+8-32	2548-2552	pada	_	B.1 Movement[46]	_	HAS\_ATTRIBUTE[113]	_	
+8-33	2552-2553	.	_	_	_	_	_	
+8-34	2554-2567	Gravitacijska	_	D.1 Abiotic[47]	_	_	_	
+8-35	2568-2572	voda	_	D.1 Abiotic[47]	_	_	_	
+8-36	2573-2580	zapolni	_	_	_	HAS\_FUNCTION[114]	frame\_FUNCTION	
+8-37	2581-2587	kanale	_	A.2 Underground landform	_	HAS\_FUNCTION[114]	_	
+8-38	2588-2590	le	_	_	_	_	_	
+8-39	2591-2599	izjemoma	_	_	_	_	_	
+8-40	2599-2600	.	_	_	_	_	_	
+
+#Text=haloklinala - Meja med slano podtalnico in sladkovodno lečo na morskih grebenih in atolih. Zaradi stika obeh voda se poveča agresivnost vode, ki oblikuje posebne tipe kraških votlin.
+9-1	2602-2613	haloklinala	_	D.3 Property	DEFINIENDUM	_	_	
+9-2	2614-2615	-	_	_	_	_	_	
+9-3	2616-2620	Meja	_	D.3 Property	GENUS	_	_	
+9-4	2621-2624	med	_	_	_	HAS\_LOCATION[115]	frame\_LOCATION	
+9-5	2625-2630	slano	_	D.1 Abiotic[48]	_	HAS\_LOCATION[115]	_	
+9-6	2631-2641	podtalnico	_	D.1 Abiotic[48]	_	HAS\_LOCATION[115]	_	
+9-7	2642-2644	in	_	_	_	HAS\_LOCATION[115]	_	
+9-8	2645-2656	sladkovodno	_	D.1 Abiotic[49]	_	HAS\_LOCATION[115]	_	
+9-9	2657-2661	lečo	_	D.1 Abiotic[49]	_	HAS\_LOCATION[115]	_	
+9-10	2662-2664	na	_	_	_	HAS\_LOCATION[115]	frame\_LOCATION	
+9-11	2665-2672	morskih	_	D.1 Abiotic[50]	_	HAS\_LOCATION[115]	_	
+9-12	2673-2681	grebenih	_	D.1 Abiotic[50]	_	HAS\_LOCATION[115]	_	
+9-13	2682-2684	in	_	_	_	HAS\_LOCATION[115]	_	
+9-14	2685-2691	atolih	_	D.1 Abiotic	_	HAS\_LOCATION[115]	_	
+9-15	2691-2692	.	_	_	_	_	_	
+9-16	2693-2699	Zaradi	_	_	_	HAS\_RESULT[116]	_	
+9-17	2700-2705	stika	_	_	_	HAS\_RESULT[116]	_	
+9-18	2706-2710	obeh	_	_	_	HAS\_RESULT[116]	_	
+9-19	2711-2715	voda	_	D.1 Abiotic	_	HAS\_RESULT[116]	_	
+9-20	2716-2718	se	_	_	_	HAS\_RESULT[116]	frame\_RESULT[127]	
+9-21	2719-2725	poveča	_	_	_	HAS\_RESULT[116]	frame\_RESULT[127]	
+9-22	2726-2737	agresivnost	_	D.3 Property	_	HAS\_RESULT[116]	_	
+9-23	2738-2742	vode	_	D.1 Abiotic	_	HAS\_RESULT[116]	_	
+9-24	2742-2743	,	_	_	_	_	_	
+9-25	2744-2746	ki	_	_	_	_	_	
+9-26	2747-2755	oblikuje	_	_	_	HAS\_RESULT[117]	_	
+9-27	2756-2763	posebne	_	_	_	HAS\_RESULT[117]	_	
+9-28	2764-2768	tipe	_	_	_	HAS\_RESULT[117]	_	
+9-29	2769-2776	kraških	_	A.2 Underground landform[51]	_	HAS\_RESULT[117]	_	
+9-30	2777-2783	votlin	_	A.2 Underground landform[51]	_	HAS\_RESULT[117]	_	
+9-31	2783-2784	.	_	_	_	_	_	
+
+#Text=hidrografske cone (v krasu) - Območja speleogentskega prostora, kjer vladajo značilni režimi obnašanja podzemske vode.
+10-1	2787-2799	hidrografske	_	C. Geome[52]	DEFINIENDUM[78]	_	_	
+10-2	2800-2804	cone	_	C. Geome[52]	DEFINIENDUM[78]	_	_	
+10-3	2805-2806	(	_	_	_	_	_	
+10-4	2806-2807	v	_	_	_	_	_	
+10-5	2808-2813	krasu	_	_	_	_	_	
+10-6	2813-2814	)	_	_	_	_	_	
+10-7	2815-2816	-	_	_	_	_	_	
+10-8	2817-2824	Območja	_	C. Geome[53]	GENUS[79]	_	_	
+10-9	2825-2840	speleogentskega	_	C. Geome[53]|C. Geome[54]	GENUS[79]	_	_	
+10-10	2841-2849	prostora	_	C. Geome[53]|C. Geome[54]	GENUS[79]	_	_	
+10-11	2849-2850	,	_	_	_	_	_	
+10-12	2851-2855	kjer	_	_	_	HAS\_ATTRIBUTE[118]	frame\_ATTRIBUTE[128]	
+10-13	2856-2863	vladajo	_	_	_	HAS\_ATTRIBUTE[118]	frame\_ATTRIBUTE[128]	
+10-14	2864-2872	značilni	_	_	_	HAS\_ATTRIBUTE[118]	_	
+10-15	2873-2879	režimi	_	_	_	HAS\_ATTRIBUTE[118]	_	
+10-16	2880-2889	obnašanja	_	_	_	HAS\_ATTRIBUTE[118]	_	
+10-17	2890-2899	podzemske	_	D.1 Abiotic[55]	_	HAS\_ATTRIBUTE[118]	_	
+10-18	2900-2904	vode	_	D.1 Abiotic[55]	_	HAS\_ATTRIBUTE[118]	_	
+10-19	2904-2905	.	_	_	_	_	_	
+
+#Text=neprežeta cona - Zakraseli del speleogenetskega prostora nad gladino podtalnice.
+11-1	2908-2917	neprežeta	_	C. Geome[56]	DEFINIENDUM[80]	_	_	
+11-2	2918-2922	cona	_	C. Geome[56]	DEFINIENDUM[80]	_	_	
+11-3	2923-2924	-	_	_	_	_	_	
+11-4	2925-2934	Zakraseli	_	_	_	HAS\_FORM	_	
+11-5	2935-2938	del	_	_	GENUS[81]	_	_	
+11-6	2939-2955	speleogenetskega	_	C. Geome[57]	GENUS[81]	_	_	
+11-7	2956-2964	prostora	_	C. Geome[57]	GENUS[81]	_	_	
+11-8	2965-2968	nad	_	_	_	HAS\_LOCATION[119]	frame\_LOCATION	
+11-9	2969-2976	gladino	_	D.1 Abiotic[58]	_	HAS\_LOCATION[119]	_	
+11-10	2977-2987	podtalnice	_	D.1 Abiotic[58]|D.1 Abiotic[59]	_	HAS\_LOCATION[119]	_	
+11-11	2987-2988	.	_	_	_	_	_	
+
+#Text=prežeta cona - obsega zakraseli del speleogenetskega prostora pod njo.
+12-1	2990-2997	prežeta	_	A.3 Hydrological form[60]	DEFINIENDUM[82]	_	_	
+12-2	2998-3002	cona	_	A.3 Hydrological form[60]	DEFINIENDUM[82]	_	_	
+12-3	3003-3004	-	_	_	_	_	_	
+12-4	3005-3011	obsega	_	_	_	CONTAINS[120]	frame\_CONTAINS	
+12-5	3012-3021	zakraseli	_	_	_	CONTAINS[120]	_	
+12-6	3022-3025	del	_	_	_	CONTAINS[120]	_	
+12-7	3026-3042	speleogenetskega	_	C. Geome[61]	GENUS[83]	CONTAINS[120]	_	
+12-8	3043-3051	prostora	_	C. Geome[61]	GENUS[83]	CONTAINS[120]	_	
+12-9	3052-3055	pod	_	_	_	HAS\_LOCATION[121]	frame\_LOCATION	
+12-10	3056-3059	njo	gladina podtalnice	_	_	HAS\_LOCATION[121]	_	
+12-11	3059-3060	.	_	_	_	_	_	
+
+#Text=hidrotermalni kras - nastal zaradi delovanja hidrotermalnih voda. Pojavljajo se samo nekatere oblike prežete cone.
+13-1	3063-3076	hidrotermalni	_	C. Geome[62]	DEFINIENDUM[84]	_	_	
+13-2	3077-3081	kras	_	C. Geome[62]	DEFINIENDUM[84]	_	_	
+13-3	3082-3083	-	_	_	_	_	_	
+13-4	3084-3090	nastal	_	_	_	HAS\_CAUSE[122]	frame\_CAUSE[129]	
+13-5	3091-3097	zaradi	_	_	_	HAS\_CAUSE[122]	frame\_CAUSE[129]	
+13-6	3098-3107	delovanja	_	_	_	HAS\_CAUSE[122]	_	
+13-7	3108-3122	hidrotermalnih	_	D.1 Abiotic[63]	_	HAS\_CAUSE[122]	_	
+13-8	3123-3127	voda	_	D.1 Abiotic[63]	_	HAS\_CAUSE[122]	_	
+13-9	3127-3128	.	_	_	_	_	_	
+13-10	3129-3139	Pojavljajo	_	_	_	_	_	
+13-11	3140-3142	se	_	_	_	_	_	
+13-12	3143-3147	samo	_	_	_	_	_	
+13-13	3148-3156	nekatere	_	_	_	_	_	
+13-14	3157-3163	oblike	_	_	_	_	_	
+13-15	3164-3171	prežete	_	C. Geome[64]	_	_	_	
+13-16	3172-3176	cone	_	C. Geome[64]	_	_	_	
+13-17	3176-3177	.	_	_	_	_	_	

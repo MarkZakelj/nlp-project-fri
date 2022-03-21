@@ -1,0 +1,767 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=prokapnica – voda koja prokapljuje kroz pukotine na stropu spilja i pećina.
+1-1	0-10	prokapnica	_	D.1 Abiotic	DEFINIENDUM	_	_	
+1-2	11-12	–	_	_	_	_	_	
+1-3	13-17	voda	_	D.1 Abiotic	GENUS	_	_	
+1-4	18-22	koja	_	_	_	HAS\_FUNCTION[30]	frame\_FUNCTION	
+1-5	23-34	prokapljuje	_	_	_	HAS\_FUNCTION[30]	_	
+1-6	35-39	kroz	_	_	_	HAS\_FUNCTION[30]	_	
+1-7	40-48	pukotine	_	A. Landform	_	HAS\_FUNCTION[30]	_	
+1-8	49-51	na	_	_	_	HAS\_LOCATION[31]	frame\_LOCATION[69]	
+1-9	52-58	stropu	_	_	_	HAS\_LOCATION[31]	frame\_LOCATION[69]	
+1-10	59-65	spilja	_	A.2 Underground landform	_	HAS\_LOCATION[31]	_	
+1-11	66-67	i	_	_	_	HAS\_LOCATION[31]	_	
+1-12	68-74	pećina	_	A.2 Underground landform	_	HAS\_LOCATION[31]	_	
+1-13	74-75	.	_	_	_	_	_	
+
+#Text=proplanak – istaknuti i ravniji dio padine, izdvojen strminama. P. je važan u društvenom životu: obradivo tlo, pašnjak i smještaj naselja. Uvjetovan je litološkim razlikama i strukturnim odnosima.
+2-1	78-87	proplanak	_	D.1 Abiotic	DEFINIENDUM	_	_	
+2-2	88-89	–	_	_	_	_	_	
+2-3	90-99	istaknuti	_	_	_	HAS\_FORM[32]	_	
+2-4	100-101	i	_	_	_	HAS\_FORM[32]	_	
+2-5	102-109	ravniji	_	_	_	HAS\_FORM[32]	_	
+2-6	110-113	dio	_	_	GENUS[20]	_	_	
+2-7	114-120	padine	_	D.1 Abiotic	GENUS[20]	_	_	
+2-8	120-121	,	_	_	_	_	_	
+2-9	122-130	izdvojen	_	_	_	HAS\_FORM[33]	frame\_FORM	
+2-10	131-140	strminama	_	D.1 Abiotic	_	HAS\_FORM[33]	_	
+2-11	140-141	.	_	_	_	_	_	
+2-12	142-143	P	_	_	_	_	_	
+2-13	143-144	.	_	_	_	_	_	
+2-14	145-147	je	_	_	_	_	_	
+2-15	148-153	važan	_	_	_	_	_	
+2-16	154-155	u	_	_	_	_	_	
+2-17	156-166	društvenom	_	_	_	_	_	
+2-18	167-173	životu	_	_	_	_	_	
+2-19	173-174	:	_	_	_	_	_	
+2-20	175-183	obradivo	_	_	_	CONTAINS[34]	_	
+2-21	184-187	tlo	_	_	_	CONTAINS[34]	_	
+2-22	187-188	,	_	_	_	CONTAINS[34]	_	
+2-23	189-196	pašnjak	_	_	_	CONTAINS[34]	_	
+2-24	197-198	i	_	_	_	CONTAINS[34]	_	
+2-25	199-207	smještaj	_	_	_	CONTAINS[34]	_	
+2-26	208-215	naselja	_	_	_	CONTAINS[34]	_	
+2-27	215-216	.	_	_	_	_	_	
+2-28	217-226	Uvjetovan	_	_	_	HAS\_CAUSE[35]	frame\_CAUSE[70]	
+2-29	227-229	je	_	_	_	HAS\_CAUSE[35]	frame\_CAUSE[70]	
+2-30	230-240	litološkim	_	_	_	HAS\_CAUSE[35]	_	
+2-31	241-250	razlikama	_	_	_	HAS\_CAUSE[35]	_	
+2-32	251-252	i	_	_	_	HAS\_CAUSE[35]	_	
+2-33	253-264	strukturnim	_	_	_	HAS\_CAUSE[35]	_	
+2-34	265-273	odnosima	_	_	_	HAS\_CAUSE[35]	_	
+2-35	273-274	.	_	_	_	_	_	
+
+#Text=prslina – mala i redovito vodonepropusna pukotina u stijeni.
+3-1	276-283	prslina	_	A. Landform	DEFINIENDUM	_	_	
+3-2	284-285	–	_	_	_	_	_	
+3-3	286-290	mala	_	_	_	HAS\_SIZE	_	
+3-4	291-292	i	_	_	_	_	_	
+3-5	293-301	redovito	_	_	_	HAS\_ATTRIBUTE[36]	_	
+3-6	302-316	vodonepropusna	_	_	_	HAS\_ATTRIBUTE[36]	_	
+3-7	317-325	pukotina	_	A. Landform	GENUS[21]	_	_	
+3-8	326-327	u	_	_	GENUS[21]	_	_	
+3-9	328-335	stijeni	_	D.1 Abiotic	GENUS[21]	_	_	
+3-10	335-336	.	_	_	_	_	_	
+
+#Text=pržina – narodni naziv za pjeskovite trošine; p. nastaje trošenjem dolomita, otuda njegov naziv “pržnjak”; p. se nazivaju i sitnije kamene trošine transportirane i modelirane tekućicama.
+4-1	339-345	pržina	_	D.1 Abiotic	DEFINIENDUM	_	_	
+4-2	346-347	–	_	_	_	_	_	
+4-3	348-355	narodni	_	_	_	_	_	
+4-4	356-361	naziv	_	_	_	_	_	
+4-5	362-364	za	_	_	_	_	_	
+4-6	365-375	pjeskovite	_	D.1 Abiotic[1]	DEFINIENDUM[22]	_	_	
+4-7	376-383	trošine	_	D.1 Abiotic[1]	DEFINIENDUM[22]	_	_	
+4-8	383-384	;	_	_	_	_	_	
+4-9	385-386	p	_	_	_	_	_	
+4-10	386-387	.	_	_	_	_	_	
+4-11	388-395	nastaje	_	_	_	HAS\_CAUSE[37]	frame\_CAUSE	
+4-12	396-405	trošenjem	_	B.2 Loss	_	HAS\_CAUSE[37]	_	
+4-13	406-414	dolomita	_	D.1 Abiotic	_	HAS\_CAUSE[37]	_	
+4-14	414-415	,	_	_	_	_	_	
+4-15	416-421	otuda	_	_	_	_	_	
+4-16	422-428	njegov	_	_	_	_	_	
+4-17	429-434	naziv	_	_	_	_	_	
+4-18	435-436	“	_	_	_	_	_	
+4-19	436-443	pržnjak	_	_	_	_	_	
+4-20	443-444	”	_	_	_	_	_	
+4-21	444-445	;	_	_	_	_	_	
+4-22	446-447	p	_	_	_	_	_	
+4-23	447-448	.	_	_	_	_	_	
+4-24	449-451	se	_	_	_	_	_	
+4-25	452-460	nazivaju	_	_	_	_	_	
+4-26	461-462	i	_	_	_	_	_	
+4-27	463-470	sitnije	_	_	_	_	_	
+4-28	471-477	kamene	_	D.1 Abiotic[2]	GENUS[23]	_	_	
+4-29	478-485	trošine	_	D.1 Abiotic[2]	GENUS[23]	_	_	
+4-30	486-500	transportirane	_	_	_	HAS\_CAUSE[38]	_	
+4-31	501-502	i	_	_	_	HAS\_CAUSE[38]	_	
+4-32	503-513	modelirane	_	_	_	HAS\_CAUSE[38]	_	
+4-33	514-524	tekućicama	_	D.1 Abiotic	_	HAS\_CAUSE[38]	_	
+4-34	524-525	.	_	_	_	_	_	
+
+#Text=pseudodolina – reljefni element koji podsjeća na dolinu, npr. draga, udolina i sl., čest oblik u kršu. Nastao je procesima diferenciranog modeliranja; nema osobine doline koju je izmodelirala tekućica i ne može se povezati u dolinski sustav.
+5-1	527-539	pseudodolina	_	A.1 Surface landform	DEFINIENDUM	_	_	
+5-2	540-541	–	_	_	_	_	_	
+5-3	542-550	reljefni	_	_	GENUS[24]	_	_	
+5-4	551-558	element	_	_	GENUS[24]	_	_	
+5-5	559-563	koji	_	_	_	HAS\_FORM[39]	frame\_FORM[71]	
+5-6	564-572	podsjeća	_	_	_	HAS\_FORM[39]	frame\_FORM[71]	
+5-7	573-575	na	_	_	_	HAS\_FORM[39]	frame\_FORM[71]	
+5-8	576-582	dolinu	_	A.1 Surface landform	_	HAS\_FORM[39]	_	
+5-9	582-583	,	_	_	_	_	_	
+5-10	584-587	npr	_	_	_	_	_	
+5-11	587-588	.	_	_	_	_	_	
+5-12	589-594	draga	_	A.1 Surface landform	SPECIES	_	_	
+5-13	594-595	,	_	_	_	_	_	
+5-14	596-603	udolina	_	A.1 Surface landform	SPECIES	_	_	
+5-15	604-605	i	_	_	_	_	_	
+5-16	606-608	sl	_	_	_	_	_	
+5-17	608-609	.	_	_	_	_	_	
+5-18	609-610	,	_	_	_	_	_	
+5-19	611-615	čest	_	_	_	_	_	
+5-20	616-621	oblik	_	_	_	_	_	
+5-21	622-623	u	_	_	_	_	_	
+5-22	624-628	kršu	_	_	_	_	_	
+5-23	628-629	.	_	_	_	_	_	
+5-24	630-636	Nastao	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[72]	
+5-25	637-639	je	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[72]	
+5-26	640-649	procesima	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[72]	
+5-27	650-664	diferenciranog	_	B.4 Transformation[3]	_	HAS\_CAUSE[40]	_	
+5-28	665-676	modeliranja	_	B.4 Transformation[3]	_	HAS\_CAUSE[40]	_	
+5-29	676-677	;	_	_	_	_	_	
+5-30	678-682	nema	_	_	_	HAS\_ATTRIBUTE[41]	_	
+5-31	683-690	osobine	_	_	_	HAS\_ATTRIBUTE[41]	_	
+5-32	691-697	doline	_	A.1 Surface landform	_	HAS\_ATTRIBUTE[41]	_	
+5-33	698-702	koju	_	_	_	_	_	
+5-34	703-705	je	_	_	_	_	_	
+5-35	706-718	izmodelirala	_	_	_	_	_	
+5-36	719-727	tekućica	_	_	_	_	_	
+5-37	728-729	i	_	_	_	_	_	
+5-38	730-732	ne	_	_	_	HAS\_ATTRIBUTE[42]	_	
+5-39	733-737	može	_	_	_	HAS\_ATTRIBUTE[42]	_	
+5-40	738-740	se	_	_	_	HAS\_ATTRIBUTE[42]	_	
+5-41	741-749	povezati	_	_	_	HAS\_ATTRIBUTE[42]	_	
+5-42	750-751	u	_	_	_	HAS\_ATTRIBUTE[42]	_	
+5-43	752-760	dolinski	_	A.1 Surface landform[4]	_	HAS\_ATTRIBUTE[42]	_	
+5-44	761-767	sustav	_	A.1 Surface landform[4]	_	HAS\_ATTRIBUTE[42]	_	
+5-45	767-768	.	_	_	_	_	_	
+
+#Text=pseudoponikva - ponikvasti oblik u stijenama koje nisu podložne krškom procesu, a nastao je mehaničkim trošenjem (izmjene temperatura, utjecaj leda) ili sufozijskim ispiranjem, a manje kemijskim procesima.
+6-1	770-783	pseudoponikva	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-2	784-785	-	_	_	_	_	_	
+6-3	786-796	ponikvasti	_	_	GENUS[25]	_	_	
+6-4	797-802	oblik	_	_	GENUS[25]	_	_	
+6-5	803-804	u	_	_	_	HAS\_LOCATION[43]	frame\_LOCATION	
+6-6	805-814	stijenama	_	D.1 Abiotic	_	HAS\_LOCATION[43]	_	
+6-7	815-819	koje	_	_	_	HAS\_LOCATION[43]	_	
+6-8	820-824	nisu	_	_	_	HAS\_LOCATION[43]	_	
+6-9	825-833	podložne	_	_	_	HAS\_LOCATION[43]	_	
+6-10	834-840	krškom	_	B.4 Transformation[5]	_	HAS\_LOCATION[43]	_	
+6-11	841-848	procesu	_	B.4 Transformation[5]	_	HAS\_LOCATION[43]	_	
+6-12	848-849	,	_	_	_	_	_	
+6-13	850-851	a	_	_	_	_	_	
+6-14	852-858	nastao	_	_	_	HAS\_CAUSE[44]	frame\_CAUSE[73]	
+6-15	859-861	je	_	_	_	HAS\_CAUSE[44]	frame\_CAUSE[73]	
+6-16	862-872	mehaničkim	_	B.2 Loss[6]	_	HAS\_CAUSE[44]	_	
+6-17	873-882	trošenjem	_	B.2 Loss[6]	_	HAS\_CAUSE[44]	_	
+6-18	883-884	(	_	_	_	HAS\_CAUSE[44]	_	
+6-19	884-891	izmjene	_	_	_	HAS\_CAUSE[44]	_	
+6-20	892-903	temperatura	_	D.1 Abiotic	_	HAS\_CAUSE[44]	_	
+6-21	903-904	,	_	_	_	HAS\_CAUSE[44]	_	
+6-22	905-912	utjecaj	_	_	_	HAS\_CAUSE[44]	_	
+6-23	913-917	leda	_	D.1 Abiotic	_	HAS\_CAUSE[44]	_	
+6-24	917-918	)	_	_	_	HAS\_CAUSE[44]	_	
+6-25	919-922	ili	_	_	_	_	_	
+6-26	923-934	sufozijskim	_	B.2 Loss[7]	_	HAS\_CAUSE[45]	_	
+6-27	935-945	ispiranjem	_	B.2 Loss[7]	_	HAS\_CAUSE[45]	_	
+6-28	945-946	,	_	_	_	HAS\_CAUSE[45]	_	
+6-29	947-948	a	_	_	_	HAS\_CAUSE[45]	_	
+6-30	949-954	manje	_	_	_	HAS\_CAUSE[45]	_	
+6-31	955-964	kemijskim	_	B. Process[8]	_	HAS\_CAUSE[45]	_	
+6-32	965-974	procesima	_	B. Process[8]	_	HAS\_CAUSE[45]	_	
+6-33	974-975	.	_	_	_	_	_	
+
+#Text=pukotina – sekundarna šupljina u stijeni, važna za gibanje voda i razvoj površinskog krškog reljefa i podzemlja.
+7-1	977-985	pukotina	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-2	986-987	–	_	_	_	_	_	
+7-3	988-998	sekundarna	_	A.1 Surface landform[9]	_	DEFINED\_AS[46]	_	
+7-4	999-1007	šupljina	_	A.1 Surface landform[9]	_	DEFINED\_AS[46]	_	
+7-5	1008-1009	u	_	_	_	DEFINED\_AS[46]	_	
+7-6	1010-1017	stijeni	_	D.1 Abiotic	_	DEFINED\_AS[46]	_	
+7-7	1017-1018	,	_	_	_	_	_	
+7-8	1019-1024	važna	_	_	_	HAS\_FUNCTION[47]	_	
+7-9	1025-1027	za	_	_	_	HAS\_FUNCTION[47]	_	
+7-10	1028-1035	gibanje	_	_	_	HAS\_FUNCTION[47]	_	
+7-11	1036-1040	voda	_	_	_	HAS\_FUNCTION[47]	_	
+7-12	1041-1042	i	_	_	_	HAS\_FUNCTION[47]	_	
+7-13	1043-1049	razvoj	_	_	_	HAS\_FUNCTION[47]	_	
+7-14	1050-1061	površinskog	_	C. Geome[10]	_	HAS\_FUNCTION[47]	_	
+7-15	1062-1068	krškog	_	C. Geome[10]	_	HAS\_FUNCTION[47]	_	
+7-16	1069-1076	reljefa	_	C. Geome[10]	_	HAS\_FUNCTION[47]	_	
+7-17	1077-1078	i	_	_	_	HAS\_FUNCTION[47]	_	
+7-18	1079-1088	podzemlja	krško podzemlje	C. Geome	_	HAS\_FUNCTION[47]	_	
+7-19	1088-1089	.	_	_	_	_	_	
+
+#Text=pukotinsko protjecanje – protjecanje voda kroz složene sustave podzemnih pukotina i šupljina krša. Voda se kreće pod tlakom, te se može gibati i prema gore. Razina vode je u šupljinama različita piezometarska razina (v.). Pored podzemnih tekućica utvrđena su složena spajanja pukotinskog protjecanja – podzemni sutok, a događaju se i prelijevanja iz jednog sustava u drugi – podzemni rastok (bifurkacija). Pukotinsko protjecanje nije ovisno o površinskim, topografskim razvodnicama, porječjima i slivovima.
+8-1	1091-1101	pukotinsko	_	B.1 Movement[11]	DEFINIENDUM[26]	_	_	
+8-2	1102-1113	protjecanje	_	B.1 Movement[11]	DEFINIENDUM[26]	_	_	
+8-3	1114-1115	–	_	_	_	_	_	
+8-4	1116-1127	protjecanje	_	B.1 Movement	GENUS	_	_	
+8-5	1128-1132	voda	_	_	_	_	_	
+8-6	1133-1137	kroz	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION	
+8-7	1138-1145	složene	_	_	_	HAS\_LOCATION[48]	_	
+8-8	1146-1153	sustave	_	_	_	HAS\_LOCATION[48]	_	
+8-9	1154-1163	podzemnih	_	_	_	HAS\_LOCATION[48]	_	
+8-10	1164-1172	pukotina	_	_	_	HAS\_LOCATION[48]	_	
+8-11	1173-1174	i	_	_	_	HAS\_LOCATION[48]	_	
+8-12	1175-1183	šupljina	_	_	_	HAS\_LOCATION[48]	_	
+8-13	1184-1188	krša	_	_	_	HAS\_LOCATION[48]	_	
+8-14	1188-1189	.	_	_	_	_	_	
+8-15	1190-1194	Voda	_	_	_	_	_	
+8-16	1195-1197	se	_	_	_	_	_	
+8-17	1198-1203	kreće	_	_	_	_	_	
+8-18	1204-1207	pod	_	_	_	_	_	
+8-19	1208-1214	tlakom	_	_	_	_	_	
+8-20	1214-1215	,	_	_	_	_	_	
+8-21	1216-1218	te	_	_	_	_	_	
+8-22	1219-1221	se	_	_	_	_	_	
+8-23	1222-1226	može	_	_	_	_	_	
+8-24	1227-1233	gibati	_	_	_	_	_	
+8-25	1234-1235	i	_	_	_	_	_	
+8-26	1236-1241	prema	_	_	_	_	_	
+8-27	1242-1246	gore	_	_	_	_	_	
+8-28	1246-1247	.	_	_	_	_	_	
+8-29	1248-1254	Razina	_	_	_	_	_	
+8-30	1255-1259	vode	_	_	_	_	_	
+8-31	1260-1262	je	_	_	_	_	_	
+8-32	1263-1264	u	_	_	_	_	_	
+8-33	1265-1275	šupljinama	_	_	_	_	_	
+8-34	1276-1285	različita	_	_	_	_	_	
+8-35	1286-1299	piezometarska	_	_	_	_	_	
+8-36	1300-1306	razina	_	_	_	_	_	
+8-37	1307-1308	(	_	_	_	_	_	
+8-38	1308-1309	v	_	_	_	_	_	
+8-39	1309-1310	.	_	_	_	_	_	
+8-40	1310-1311	)	_	_	_	_	_	
+8-41	1311-1312	.	_	_	_	_	_	
+8-42	1313-1318	Pored	_	_	_	_	_	
+8-43	1319-1328	podzemnih	_	_	_	_	_	
+8-44	1329-1337	tekućica	_	_	_	_	_	
+8-45	1338-1346	utvrđena	_	_	_	_	_	
+8-46	1347-1349	su	_	_	_	_	_	
+8-47	1350-1357	složena	_	_	_	_	_	
+8-48	1358-1366	spajanja	_	_	_	_	_	
+8-49	1367-1378	pukotinskog	_	_	_	_	_	
+8-50	1379-1390	protjecanja	_	_	_	_	_	
+8-51	1391-1392	–	_	_	_	_	_	
+8-52	1393-1401	podzemni	_	_	_	_	_	
+8-53	1402-1407	sutok	_	_	_	_	_	
+8-54	1407-1408	,	_	_	_	_	_	
+8-55	1409-1410	a	_	_	_	_	_	
+8-56	1411-1419	događaju	_	_	_	_	_	
+8-57	1420-1422	se	_	_	_	_	_	
+8-58	1423-1424	i	_	_	_	_	_	
+8-59	1425-1437	prelijevanja	_	_	_	_	_	
+8-60	1438-1440	iz	_	_	_	_	_	
+8-61	1441-1447	jednog	_	_	_	_	_	
+8-62	1448-1455	sustava	_	_	_	_	_	
+8-63	1456-1457	u	_	_	_	_	_	
+8-64	1458-1463	drugi	_	_	_	_	_	
+8-65	1464-1465	–	_	_	_	_	_	
+8-66	1466-1474	podzemni	_	_	_	_	_	
+8-67	1475-1481	rastok	_	_	_	_	_	
+8-68	1482-1483	(	_	_	_	_	_	
+8-69	1483-1494	bifurkacija	_	_	_	_	_	
+8-70	1494-1495	)	_	_	_	_	_	
+8-71	1495-1496	.	_	_	_	_	_	
+8-72	1497-1507	Pukotinsko	_	_	_	_	_	
+8-73	1508-1519	protjecanje	_	_	_	_	_	
+8-74	1520-1524	nije	_	_	_	_	_	
+8-75	1525-1531	ovisno	_	_	_	_	_	
+8-76	1532-1533	o	_	_	_	_	_	
+8-77	1534-1545	površinskim	_	_	_	_	_	
+8-78	1545-1546	,	_	_	_	_	_	
+8-79	1547-1559	topografskim	_	_	_	_	_	
+8-80	1560-1572	razvodnicama	_	_	_	_	_	
+8-81	1572-1573	,	_	_	_	_	_	
+8-82	1574-1584	porječjima	_	_	_	_	_	
+8-83	1585-1586	i	_	_	_	_	_	
+8-84	1587-1596	slivovima	_	_	_	_	_	
+8-85	1596-1597	.	_	_	_	_	_	
+
+#Text=vode koje poniru na jednom mjestu često se kroz podzemne pukotine razlijevaju, disperziraju i izbijaju u različitim vrelima – difuzno protjecanje ili podzemna vodna disperzija. I vode koje izbijaju u jednom vrelu često pritječu od različitih ponora – podzemna vodna konvergencija. Različitim sredstvima, “traserima” (v. bojenje) utvrđuju se podzemne vodne veze i tako postepeno utvrđuje mreža podzemnog protjecanja.
+9-1	1599-1603	vode	_	_	_	_	_	
+9-2	1604-1608	koje	_	_	_	_	_	
+9-3	1609-1615	poniru	_	_	_	_	_	
+9-4	1616-1618	na	_	_	_	_	_	
+9-5	1619-1625	jednom	_	_	_	_	_	
+9-6	1626-1632	mjestu	_	_	_	_	_	
+9-7	1633-1638	često	_	_	_	_	_	
+9-8	1639-1641	se	_	_	_	_	_	
+9-9	1642-1646	kroz	_	_	_	_	_	
+9-10	1647-1655	podzemne	_	_	_	_	_	
+9-11	1656-1664	pukotine	_	_	_	_	_	
+9-12	1665-1676	razlijevaju	_	_	_	_	_	
+9-13	1676-1677	,	_	_	_	_	_	
+9-14	1678-1690	disperziraju	_	_	_	_	_	
+9-15	1691-1692	i	_	_	_	_	_	
+9-16	1693-1701	izbijaju	_	_	_	_	_	
+9-17	1702-1703	u	_	_	_	_	_	
+9-18	1704-1714	različitim	_	_	_	_	_	
+9-19	1715-1722	vrelima	_	_	_	_	_	
+9-20	1723-1724	–	_	_	_	_	_	
+9-21	1725-1732	difuzno	_	_	_	_	_	
+9-22	1733-1744	protjecanje	_	_	_	_	_	
+9-23	1745-1748	ili	_	_	_	_	_	
+9-24	1749-1757	podzemna	_	_	_	_	_	
+9-25	1758-1763	vodna	_	_	_	_	_	
+9-26	1764-1774	disperzija	_	_	_	_	_	
+9-27	1774-1775	.	_	_	_	_	_	
+9-28	1776-1777	I	_	_	_	_	_	
+9-29	1778-1782	vode	_	_	_	_	_	
+9-30	1783-1787	koje	_	_	_	_	_	
+9-31	1788-1796	izbijaju	_	_	_	_	_	
+9-32	1797-1798	u	_	_	_	_	_	
+9-33	1799-1805	jednom	_	_	_	_	_	
+9-34	1806-1811	vrelu	_	_	_	_	_	
+9-35	1812-1817	često	_	_	_	_	_	
+9-36	1818-1826	pritječu	_	_	_	_	_	
+9-37	1827-1829	od	_	_	_	_	_	
+9-38	1830-1840	različitih	_	_	_	_	_	
+9-39	1841-1847	ponora	_	_	_	_	_	
+9-40	1848-1849	–	_	_	_	_	_	
+9-41	1850-1858	podzemna	_	_	_	_	_	
+9-42	1859-1864	vodna	_	_	_	_	_	
+9-43	1865-1878	konvergencija	_	_	_	_	_	
+9-44	1878-1879	.	_	_	_	_	_	
+9-45	1880-1890	Različitim	_	_	_	_	_	
+9-46	1891-1901	sredstvima	_	_	_	_	_	
+9-47	1901-1902	,	_	_	_	_	_	
+9-48	1903-1904	“	_	_	_	_	_	
+9-49	1904-1913	traserima	_	_	_	_	_	
+9-50	1913-1914	”	_	_	_	_	_	
+9-51	1915-1916	(	_	_	_	_	_	
+9-52	1916-1917	v	_	_	_	_	_	
+9-53	1917-1918	.	_	_	_	_	_	
+9-54	1919-1926	bojenje	_	_	_	_	_	
+9-55	1926-1927	)	_	_	_	_	_	
+9-56	1928-1936	utvrđuju	_	_	_	_	_	
+9-57	1937-1939	se	_	_	_	_	_	
+9-58	1940-1948	podzemne	_	_	_	_	_	
+9-59	1949-1954	vodne	_	_	_	_	_	
+9-60	1955-1959	veze	_	_	_	_	_	
+9-61	1960-1961	i	_	_	_	_	_	
+9-62	1962-1966	tako	_	_	_	_	_	
+9-63	1967-1976	postepeno	_	_	_	_	_	
+9-64	1977-1985	utvrđuje	_	_	_	_	_	
+9-65	1986-1991	mreža	_	_	_	_	_	
+9-66	1992-2001	podzemnog	_	_	_	_	_	
+9-67	2002-2013	protjecanja	_	_	_	_	_	
+9-68	2013-2014	.	_	_	_	_	_	
+
+#Text=rastok – grananje tekućice u dva porječja ili sliva. Vode Mlade u zapadnoj Hercegovini “rastaču se” u nizvodni Trebižat i prema ponorima Rastoka. Prema toj pojavi je i polje nazvano Rastok.
+10-1	2016-2022	rastok	_	D.1 Abiotic	DEFINIENDUM	_	_	
+10-2	2023-2024	–	_	_	_	_	_	
+10-3	2025-2033	grananje	_	_	GENUS[27]	DEFINED\_AS[49]	_	
+10-4	2034-2042	tekućice	_	D.1 Abiotic	GENUS[27]	DEFINED\_AS[49]	_	
+10-5	2043-2044	u	_	_	_	DEFINED\_AS[49]	_	
+10-6	2045-2048	dva	_	_	_	DEFINED\_AS[49]	_	
+10-7	2049-2057	porječja	_	D.1 Abiotic	_	DEFINED\_AS[49]	_	
+10-8	2058-2061	ili	_	_	_	DEFINED\_AS[49]	_	
+10-9	2062-2067	sliva	_	D.1 Abiotic	_	DEFINED\_AS[49]	_	
+10-10	2067-2068	.	_	_	_	_	_	
+10-11	2069-2073	Vode	_	_	_	_	_	
+10-12	2074-2079	Mlade	_	_	_	_	_	
+10-13	2080-2081	u	_	_	_	HAS\_POSITION[50]	_	
+10-14	2082-2090	zapadnoj	_	D.3.1 Geolocation[12]	_	HAS\_POSITION[50]	_	
+10-15	2091-2102	Hercegovini	_	D.3.1 Geolocation[12]	_	HAS\_POSITION[50]	_	
+10-16	2103-2104	“	_	_	_	_	_	
+10-17	2104-2111	rastaču	_	_	_	_	_	
+10-18	2112-2114	se	_	_	_	_	_	
+10-19	2114-2115	”	_	_	_	_	_	
+10-20	2116-2117	u	_	_	_	_	_	
+10-21	2118-2126	nizvodni	_	_	_	_	_	
+10-22	2127-2135	Trebižat	_	_	_	_	_	
+10-23	2136-2137	i	_	_	_	_	_	
+10-24	2138-2143	prema	_	_	_	_	_	
+10-25	2144-2152	ponorima	_	_	_	_	_	
+10-26	2153-2160	Rastoka	_	_	_	_	_	
+10-27	2160-2161	.	_	_	_	_	_	
+10-28	2162-2167	Prema	_	_	_	_	_	
+10-29	2168-2171	toj	_	_	_	_	_	
+10-30	2172-2178	pojavi	_	_	_	_	_	
+10-31	2179-2181	je	_	_	_	_	_	
+10-32	2182-2183	i	_	_	_	_	_	
+10-33	2184-2189	polje	_	_	_	_	_	
+10-34	2190-2197	nazvano	_	_	_	_	_	
+10-35	2198-2204	Rastok	_	D.3.1 Geolocation	SPECIES	_	_	
+10-36	2204-2205	.	_	_	_	_	_	
+
+#Text=ravnjak – Otvoren ili blago valovit kraj. Ravnjaci su karakteristični za izgled fluviokrša (v.).
+11-1	2207-2214	ravnjak	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-2	2215-2216	–	_	_	_	_	_	
+11-3	2217-2224	Otvoren	_	_	_	DEFINED\_AS[51]	_	
+11-4	2225-2228	ili	_	_	_	DEFINED\_AS[51]	_	
+11-5	2229-2234	blago	_	_	_	DEFINED\_AS[51]	_	
+11-6	2235-2242	valovit	_	_	_	DEFINED\_AS[51]	_	
+11-7	2243-2247	kraj	_	_	_	DEFINED\_AS[51]	_	
+11-8	2247-2248	.	_	_	_	_	_	
+11-9	2249-2257	Ravnjaci	_	_	_	_	_	
+11-10	2258-2260	su	_	_	_	_	_	
+11-11	2261-2276	karakteristični	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[74]	
+11-12	2277-2279	za	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[74]	
+11-13	2280-2286	izgled	_	_	_	HAS\_LOCATION[52]	_	
+11-14	2287-2297	fluviokrša	_	C. Geome	_	HAS\_LOCATION[52]	_	
+11-15	2298-2299	(	_	_	_	_	_	
+11-16	2299-2300	v	_	_	_	_	_	
+11-17	2300-2301	.	_	_	_	_	_	
+11-18	2301-2302	)	_	_	_	_	_	
+11-19	2302-2303	.	_	_	_	_	_	
+
+#Text=retroverzija – izmjena smjera otjecanja ponornice, uvjetovana različitim pružanjem podzemnih protočnih šupljina; može biti i suprotan smjeru površinskog dijela tekućice.
+12-1	2305-2317	retroverzija	_	B.4 Transformation	DEFINIENDUM	_	_	
+12-2	2318-2319	–	_	_	_	_	_	
+12-3	2320-2327	izmjena	_	B.1 Movement[13]	GENUS[28]	DEFINED\_AS[53]	_	
+12-4	2328-2334	smjera	_	B.1 Movement[13]	GENUS[28]	DEFINED\_AS[53]	_	
+12-5	2335-2344	otjecanja	_	_	_	DEFINED\_AS[53]	_	
+12-6	2345-2354	ponornice	_	A.3 Hydrological form	_	DEFINED\_AS[53]	_	
+12-7	2354-2355	,	_	_	_	_	_	
+12-8	2356-2366	uvjetovana	_	_	_	HAS\_CAUSE[54]	frame\_CAUSE	
+12-9	2367-2377	različitim	_	_	_	HAS\_CAUSE[54]	_	
+12-10	2378-2387	pružanjem	_	_	_	HAS\_CAUSE[54]	_	
+12-11	2388-2397	podzemnih	_	_	_	HAS\_CAUSE[54]	_	
+12-12	2398-2407	protočnih	_	_	_	HAS\_CAUSE[54]	_	
+12-13	2408-2416	šupljina	_	A.2 Underground landform	_	HAS\_CAUSE[54]	_	
+12-14	2416-2417	;	_	_	_	_	_	
+12-15	2418-2422	može	_	_	_	HAS\_FORM[55]	_	
+12-16	2423-2427	biti	_	_	_	HAS\_FORM[55]	_	
+12-17	2428-2429	i	_	_	_	HAS\_FORM[55]	_	
+12-18	2430-2438	suprotan	_	_	_	HAS\_FORM[55]	_	
+12-19	2439-2445	smjeru	_	_	_	HAS\_FORM[55]	_	
+12-20	2446-2457	površinskog	_	_	_	HAS\_FORM[55]	_	
+12-21	2458-2464	dijela	_	_	_	HAS\_FORM[55]	_	
+12-22	2465-2473	tekućice	_	_	_	HAS\_FORM[55]	_	
+12-23	2473-2474	.	_	_	_	_	_	
+
+#Text=rikavica – obalska spilja čiji je ulaz potopljen. Valovi u šupljinu zbijaju zrak koji šumom izbija, “riče” kroz krške šupljine; na Mljetu se čuje i naziv “puhavac”, a na Šolti “ripavica”.
+13-1	2476-2484	rikavica	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-2	2485-2486	–	_	_	_	_	_	
+13-3	2487-2494	obalska	_	A.2 Underground landform[14]	GENUS[29]	_	_	
+13-4	2495-2501	spilja	_	A.2 Underground landform[14]	GENUS[29]	_	_	
+13-5	2502-2506	čiji	_	_	_	HAS\_FORM[56]	frame\_FORM[75]	
+13-6	2507-2509	je	_	_	_	HAS\_FORM[56]	frame\_FORM[75]	
+13-7	2510-2514	ulaz	_	_	_	HAS\_FORM[56]	_	
+13-8	2515-2524	potopljen	_	_	_	HAS\_FORM[56]	_	
+13-9	2524-2525	.	_	_	_	_	_	
+13-10	2526-2532	Valovi	_	_	_	_	_	
+13-11	2533-2534	u	_	_	_	_	_	
+13-12	2535-2543	šupljinu	_	_	_	_	_	
+13-13	2544-2551	zbijaju	_	_	_	_	_	
+13-14	2552-2556	zrak	_	_	_	_	_	
+13-15	2557-2561	koji	_	_	_	_	_	
+13-16	2562-2567	šumom	_	_	_	_	_	
+13-17	2568-2574	izbija	_	_	_	_	_	
+13-18	2574-2575	,	_	_	_	_	_	
+13-19	2576-2577	“	_	_	_	_	_	
+13-20	2577-2581	riče	_	_	_	_	_	
+13-21	2581-2582	”	_	_	_	_	_	
+13-22	2583-2587	kroz	_	_	_	_	_	
+13-23	2588-2593	krške	_	_	_	_	_	
+13-24	2594-2602	šupljine	_	_	_	_	_	
+13-25	2602-2603	;	_	_	_	_	_	
+13-26	2604-2606	na	_	_	_	HAS\_POSITION[57]	frame\_POSITION	
+13-27	2607-2613	Mljetu	_	D.3.1 Geolocation	_	HAS\_POSITION[57]	_	
+13-28	2614-2616	se	_	_	_	_	_	
+13-29	2617-2621	čuje	_	_	_	_	_	
+13-30	2622-2623	i	_	_	_	_	_	
+13-31	2624-2629	naziv	_	_	_	_	_	
+13-32	2630-2631	“	_	_	_	_	_	
+13-33	2631-2638	puhavac	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-34	2638-2639	”	_	_	_	_	_	
+13-35	2639-2640	,	_	_	_	_	_	
+13-36	2641-2642	a	_	_	_	_	_	
+13-37	2643-2645	na	_	_	_	HAS\_POSITION[58]	frame\_POSITION	
+13-38	2646-2651	Šolti	_	D.3.1 Geolocation	_	HAS\_POSITION[58]	_	
+13-39	2652-2653	“	_	_	_	_	_	
+13-40	2653-2661	ripavica	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-41	2661-2662	”	_	_	_	_	_	
+13-42	2662-2663	.	_	_	_	_	_	
+
+#Text=sadra – hidratni sulfat kalcija (CaSO4 · 2H2O), kristalizira se monoklinski. Lako se topi i tako nastaju krške udubine i podzemne šupljine. Kako je sadra redovito raširena na malim prostranstvima, to krški pejzaži imaju sporedno značenje, ali se mogu razviti znatne podzemne šupljine.
+14-1	2665-2670	sadra	_	D.1 Abiotic	DEFINIENDUM	_	_	
+14-2	2671-2672	–	_	_	_	_	_	
+14-3	2673-2681	hidratni	_	D.1 Abiotic[15]	_	DEFINED\_AS[59]	_	
+14-4	2682-2688	sulfat	_	D.1 Abiotic[15]	_	DEFINED\_AS[59]	_	
+14-5	2689-2696	kalcija	_	D.1 Abiotic[15]	_	DEFINED\_AS[59]	_	
+14-6	2697-2698	(	_	_	_	DEFINED\_AS[59]	_	
+14-7	2698-2703	CaSO4	_	D.1 Abiotic[16]	_	DEFINED\_AS[59]	_	
+14-8	2704-2705	·	_	D.1 Abiotic[16]	_	DEFINED\_AS[59]	_	
+14-9	2706-2710	2H2O	_	D.1 Abiotic[16]	_	DEFINED\_AS[59]	_	
+14-10	2710-2711	)	_	_	_	DEFINED\_AS[59]	_	
+14-11	2711-2712	,	_	_	_	_	_	
+14-12	2713-2725	kristalizira	_	_	_	HAS\_FORM[60]	frame\_FORM[76]	
+14-13	2726-2728	se	_	_	_	HAS\_FORM[60]	frame\_FORM[76]	
+14-14	2729-2740	monoklinski	_	_	_	HAS\_FORM[60]	_	
+14-15	2740-2741	.	_	_	_	_	_	
+14-16	2742-2746	Lako	_	_	_	HAS\_ATTRIBUTE[61]	_	
+14-17	2747-2749	se	_	_	_	HAS\_ATTRIBUTE[61]	_	
+14-18	2750-2754	topi	_	_	_	HAS\_ATTRIBUTE[61]	_	
+14-19	2755-2756	i	_	_	_	_	_	
+14-20	2757-2761	tako	_	_	_	_	_	
+14-21	2762-2769	nastaju	_	_	_	_	_	
+14-22	2770-2775	krške	_	A.1 Surface landform[17]	_	HAS\_RESULT[62]	_	
+14-23	2776-2783	udubine	_	A.1 Surface landform[17]	_	HAS\_RESULT[62]	_	
+14-24	2784-2785	i	_	_	_	HAS\_RESULT[62]	_	
+14-25	2786-2794	podzemne	_	A.2 Underground landform[18]	_	HAS\_RESULT[62]	_	
+14-26	2795-2803	šupljine	_	A.2 Underground landform[18]	_	HAS\_RESULT[62]	_	
+14-27	2803-2804	.	_	_	_	_	_	
+14-28	2805-2809	Kako	_	_	_	_	_	
+14-29	2810-2812	je	_	_	_	_	_	
+14-30	2813-2818	sadra	_	_	_	_	_	
+14-31	2819-2827	redovito	_	_	_	_	_	
+14-32	2828-2836	raširena	_	_	_	_	_	
+14-33	2837-2839	na	_	_	_	_	_	
+14-34	2840-2845	malim	_	_	_	_	_	
+14-35	2846-2860	prostranstvima	_	_	_	_	_	
+14-36	2860-2861	,	_	_	_	_	_	
+14-37	2862-2864	to	_	_	_	_	_	
+14-38	2865-2870	krški	_	_	_	_	_	
+14-39	2871-2878	pejzaži	_	_	_	_	_	
+14-40	2879-2884	imaju	_	_	_	_	_	
+14-41	2885-2893	sporedno	_	_	_	_	_	
+14-42	2894-2902	značenje	_	_	_	_	_	
+14-43	2902-2903	,	_	_	_	_	_	
+14-44	2904-2907	ali	_	_	_	_	_	
+14-45	2908-2910	se	_	_	_	_	_	
+14-46	2911-2915	mogu	_	_	_	_	_	
+14-47	2916-2923	razviti	_	_	_	_	_	
+14-48	2924-2930	znatne	_	_	_	_	_	
+14-49	2931-2939	podzemne	_	_	_	_	_	
+14-50	2940-2948	šupljine	_	_	_	_	_	
+14-51	2948-2949	.	_	_	_	_	_	
+
+#Text=sedra – šupljikavi vapnenac koji je nastao taloženjem iz tvrdih voda (v.). Prozračivanjem vode koja sadrži kalcijev bikarbonat [Ca(HCO3)2] oslobađa se CO2 i tako se obara kalcijev karbonat, odnosno sedra (CaCO3), koja se hvata kao kora (v. inkrustacija) na predmetima i vegetaciji. Sedra se taloži u čistim protočnim vodama, čija brzina (do 3,5 m/sek) ne ugrožava život organizama. Na sedrenim taložinama nasta ju povoljni ekološki uvjeti za određenu hidro i kalcifilnu životnu zajednicu, osobito neke vrste mahovina. Rastom sedre mijenjaju se ekološki uvjeti, što se odražava u smjeni životnih zajednica. Sedra se taloži na temperaturama iznad 14° C; i pored velikog alkaliteta sedra se ne taloži u hladnim krajevima. Sedra je indikator klime i ekoloških prilika. Poznata su izlučivanja sedre na vrelima (v. inkrustiraju će vrelo), posebno toplim, te na brzacima i slapovima tekućica u kršu. Vlažna sedra se lako obrađuje, a suha je cijenjen i dobar građevinski kamen. U Dinarskom kršu su posebno važne sedrene tvorevine (v.) na brzacima, slapovima i vodopadima Korane, Krke, Une, Plive i dr.
+15-1	2951-2956	sedra	_	D.1 Abiotic	DEFINIENDUM	_	_	
+15-2	2957-2958	–	_	_	_	_	_	
+15-3	2959-2969	šupljikavi	_	_	_	HAS\_FORM	_	
+15-4	2970-2978	vapnenac	_	D.1 Abiotic	GENUS	_	_	
+15-5	2979-2983	koji	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[77]	
+15-6	2984-2986	je	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[77]	
+15-7	2987-2993	nastao	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[77]	
+15-8	2994-3004	taloženjem	_	_	_	HAS\_CAUSE[63]	_	
+15-9	3005-3007	iz	_	_	_	HAS\_CAUSE[63]	_	
+15-10	3008-3014	tvrdih	_	_	_	HAS\_CAUSE[63]	_	
+15-11	3015-3019	voda	_	_	_	HAS\_CAUSE[63]	_	
+15-12	3020-3021	(	_	_	_	_	_	
+15-13	3021-3022	v	_	_	_	_	_	
+15-14	3022-3023	.	_	_	_	_	_	
+15-15	3023-3024	)	_	_	_	_	_	
+15-16	3024-3025	.	_	_	_	_	_	
+15-17	3026-3040	Prozračivanjem	_	_	_	_	_	
+15-18	3041-3045	vode	_	_	_	_	_	
+15-19	3046-3050	koja	_	_	_	_	_	
+15-20	3051-3057	sadrži	_	_	_	_	_	
+15-21	3058-3066	kalcijev	_	_	_	_	_	
+15-22	3067-3077	bikarbonat	_	_	_	_	_	
+15-23	3078-3079	[	_	_	_	_	_	
+15-24	3079-3081	Ca	_	_	_	_	_	
+15-25	3081-3082	(	_	_	_	_	_	
+15-26	3082-3086	HCO3	_	_	_	_	_	
+15-27	3086-3087	)	_	_	_	_	_	
+15-28	3087-3088	2	_	_	_	_	_	
+15-29	3088-3089	]	_	_	_	_	_	
+15-30	3090-3098	oslobađa	_	_	_	_	_	
+15-31	3099-3101	se	_	_	_	_	_	
+15-32	3102-3105	CO2	_	_	_	_	_	
+15-33	3106-3107	i	_	_	_	_	_	
+15-34	3108-3112	tako	_	_	_	_	_	
+15-35	3113-3115	se	_	_	_	_	_	
+15-36	3116-3121	obara	_	_	_	_	_	
+15-37	3122-3130	kalcijev	_	_	_	_	_	
+15-38	3131-3139	karbonat	_	_	_	_	_	
+15-39	3139-3140	,	_	_	_	_	_	
+15-40	3141-3148	odnosno	_	_	_	_	_	
+15-41	3149-3154	sedra	_	_	_	_	_	
+15-42	3155-3156	(	_	_	_	_	_	
+15-43	3156-3161	CaCO3	_	_	_	_	_	
+15-44	3161-3162	)	_	_	_	_	_	
+15-45	3162-3163	,	_	_	_	_	_	
+15-46	3164-3168	koja	_	_	_	_	_	
+15-47	3169-3171	se	_	_	_	_	_	
+15-48	3172-3177	hvata	_	_	_	_	_	
+15-49	3178-3181	kao	_	_	_	_	_	
+15-50	3182-3186	kora	_	_	_	_	_	
+15-51	3187-3188	(	_	_	_	_	_	
+15-52	3188-3189	v	_	_	_	_	_	
+15-53	3189-3190	.	_	_	_	_	_	
+15-54	3191-3203	inkrustacija	_	_	_	_	_	
+15-55	3203-3204	)	_	_	_	_	_	
+15-56	3205-3207	na	_	_	_	_	_	
+15-57	3208-3218	predmetima	_	_	_	_	_	
+15-58	3219-3220	i	_	_	_	_	_	
+15-59	3221-3231	vegetaciji	_	_	_	_	_	
+15-60	3231-3232	.	_	_	_	_	_	
+15-61	3233-3238	Sedra	_	_	_	_	_	
+15-62	3239-3241	se	_	_	_	HAS\_LOCATION[64]	frame\_LOCATION[78]	
+15-63	3242-3248	taloži	_	_	_	HAS\_LOCATION[64]	frame\_LOCATION[78]	
+15-64	3249-3250	u	_	_	_	HAS\_LOCATION[64]	frame\_LOCATION[78]	
+15-65	3251-3257	čistim	_	_	_	HAS\_LOCATION[64]	_	
+15-66	3258-3267	protočnim	_	_	_	HAS\_LOCATION[64]	_	
+15-67	3268-3274	vodama	_	_	_	HAS\_LOCATION[64]	_	
+15-68	3274-3275	,	_	_	_	_	_	
+15-69	3276-3280	čija	_	_	_	_	_	
+15-70	3281-3287	brzina	_	_	_	_	_	
+15-71	3288-3289	(	_	_	_	_	_	
+15-72	3289-3291	do	_	_	_	_	_	
+15-73	3292-3295	3,5	_	_	_	_	_	
+15-74	3296-3297	m	_	_	_	_	_	
+15-75	3297-3298	/	_	_	_	_	_	
+15-76	3298-3301	sek	_	_	_	_	_	
+15-77	3301-3302	)	_	_	_	_	_	
+15-78	3303-3305	ne	_	_	_	_	_	
+15-79	3306-3314	ugrožava	_	_	_	_	_	
+15-80	3315-3320	život	_	_	_	_	_	
+15-81	3321-3331	organizama	_	_	_	_	_	
+15-82	3331-3332	.	_	_	_	_	_	
+15-83	3333-3335	Na	_	_	_	_	_	
+15-84	3336-3344	sedrenim	_	_	_	_	_	
+15-85	3345-3355	taložinama	_	_	_	_	_	
+15-86	3356-3361	nasta	_	_	_	AFFECTS[65]	_	
+15-87	3362-3364	ju	_	_	_	AFFECTS[65]	_	
+15-88	3365-3373	povoljni	_	_	_	AFFECTS[65]	_	
+15-89	3374-3382	ekološki	_	D.3 Property[19]	_	AFFECTS[65]	_	
+15-90	3383-3389	uvjeti	_	D.3 Property[19]	_	AFFECTS[65]	_	
+15-91	3390-3392	za	_	_	_	AFFECTS[65]	_	
+15-92	3393-3401	određenu	_	_	_	AFFECTS[65]	_	
+15-93	3402-3407	hidro	_	_	_	AFFECTS[65]	_	
+15-94	3408-3409	i	_	_	_	AFFECTS[65]	_	
+15-95	3410-3420	kalcifilnu	_	_	_	AFFECTS[65]	_	
+15-96	3421-3428	životnu	_	_	_	AFFECTS[65]	_	
+15-97	3429-3438	zajednicu	_	_	_	AFFECTS[65]	_	
+15-98	3438-3439	,	_	_	_	_	_	
+15-99	3440-3447	osobito	_	_	_	_	_	
+15-100	3448-3452	neke	_	_	_	_	_	
+15-101	3453-3458	vrste	_	_	_	_	_	
+15-102	3459-3467	mahovina	_	_	_	_	_	
+15-103	3467-3468	.	_	_	_	_	_	
+15-104	3469-3475	Rastom	_	_	_	_	_	
+15-105	3476-3481	sedre	_	_	_	_	_	
+15-106	3482-3491	mijenjaju	_	_	_	AFFECTS[66]	_	
+15-107	3492-3494	se	_	_	_	AFFECTS[66]	_	
+15-108	3495-3503	ekološki	_	_	_	AFFECTS[66]	_	
+15-109	3504-3510	uvjeti	_	_	_	AFFECTS[66]	_	
+15-110	3510-3511	,	_	_	_	_	_	
+15-111	3512-3515	što	_	_	_	_	_	
+15-112	3516-3518	se	_	_	_	_	_	
+15-113	3519-3527	odražava	_	_	_	_	_	
+15-114	3528-3529	u	_	_	_	_	_	
+15-115	3530-3536	smjeni	_	_	_	_	_	
+15-116	3537-3545	životnih	_	_	_	_	_	
+15-117	3546-3555	zajednica	_	_	_	_	_	
+15-118	3555-3556	.	_	_	_	_	_	
+15-119	3557-3562	Sedra	_	_	_	_	_	
+15-120	3563-3565	se	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-121	3566-3572	taloži	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-122	3573-3575	na	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-123	3576-3589	temperaturama	_	D.3 Property	_	HAS\_ATTRIBUTE[67]	_	
+15-124	3590-3595	iznad	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-125	3596-3598	14	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-126	3598-3599	°	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-127	3600-3601	C	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-128	3601-3602	;	_	_	_	_	_	
+15-129	3603-3604	i	_	_	_	_	_	
+15-130	3605-3610	pored	_	_	_	_	_	
+15-131	3611-3618	velikog	_	_	_	_	_	
+15-132	3619-3629	alkaliteta	_	_	_	_	_	
+15-133	3630-3635	sedra	_	_	_	_	_	
+15-134	3636-3638	se	_	_	_	_	_	
+15-135	3639-3641	ne	_	_	_	_	_	
+15-136	3642-3648	taloži	_	_	_	_	_	
+15-137	3649-3650	u	_	_	_	_	_	
+15-138	3651-3658	hladnim	_	_	_	_	_	
+15-139	3659-3668	krajevima	_	_	_	_	_	
+15-140	3668-3669	.	_	_	_	_	_	
+15-141	3670-3675	Sedra	_	_	_	_	_	
+15-142	3676-3678	je	_	_	_	_	_	
+15-143	3679-3688	indikator	_	_	_	MEASURES[68]	frame\_MEASURES	
+15-144	3689-3694	klime	_	D.3 Property	_	MEASURES[68]	_	
+15-145	3695-3696	i	_	_	_	MEASURES[68]	_	
+15-146	3697-3706	ekoloških	_	_	_	MEASURES[68]	_	
+15-147	3707-3714	prilika	_	_	_	MEASURES[68]	_	
+15-148	3714-3715	.	_	_	_	_	_	
+15-149	3716-3723	Poznata	_	_	_	_	_	
+15-150	3724-3726	su	_	_	_	_	_	
+15-151	3727-3738	izlučivanja	_	_	_	_	_	
+15-152	3739-3744	sedre	_	_	_	_	_	
+15-153	3745-3747	na	_	_	_	_	_	
+15-154	3748-3755	vrelima	_	_	_	_	_	
+15-155	3756-3757	(	_	_	_	_	_	
+15-156	3757-3758	v	_	_	_	_	_	
+15-157	3758-3759	.	_	_	_	_	_	
+15-158	3760-3772	inkrustiraju	_	_	_	_	_	
+15-159	3773-3775	će	_	_	_	_	_	
+15-160	3776-3781	vrelo	_	_	_	_	_	
+15-161	3781-3782	)	_	_	_	_	_	
+15-162	3782-3783	,	_	_	_	_	_	
+15-163	3784-3791	posebno	_	_	_	_	_	
+15-164	3792-3798	toplim	_	_	_	_	_	
+15-165	3798-3799	,	_	_	_	_	_	
+15-166	3800-3802	te	_	_	_	_	_	
+15-167	3803-3805	na	_	_	_	_	_	
+15-168	3806-3814	brzacima	_	_	_	_	_	
+15-169	3815-3816	i	_	_	_	_	_	
+15-170	3817-3826	slapovima	_	_	_	_	_	
+15-171	3827-3835	tekućica	_	_	_	_	_	
+15-172	3836-3837	u	_	_	_	_	_	
+15-173	3838-3842	kršu	_	_	_	_	_	
+15-174	3842-3843	.	_	_	_	_	_	
+15-175	3844-3850	Vlažna	_	_	_	_	_	
+15-176	3851-3856	sedra	_	_	_	_	_	
+15-177	3857-3859	se	_	_	_	_	_	
+15-178	3860-3864	lako	_	_	_	_	_	
+15-179	3865-3873	obrađuje	_	_	_	_	_	
+15-180	3873-3874	,	_	_	_	_	_	
+15-181	3875-3876	a	_	_	_	_	_	
+15-182	3877-3881	suha	_	_	_	_	_	
+15-183	3882-3884	je	_	_	_	_	_	
+15-184	3885-3893	cijenjen	_	_	_	_	_	
+15-185	3894-3895	i	_	_	_	_	_	
+15-186	3896-3901	dobar	_	_	_	_	_	
+15-187	3902-3913	građevinski	_	_	_	_	_	
+15-188	3914-3919	kamen	_	_	_	_	_	
+15-189	3919-3920	.	_	_	_	_	_	
+15-190	3921-3922	U	_	_	_	_	_	
+15-191	3923-3932	Dinarskom	_	_	_	_	_	
+15-192	3933-3937	kršu	_	_	_	_	_	
+15-193	3938-3940	su	_	_	_	_	_	
+15-194	3941-3948	posebno	_	_	_	_	_	
+15-195	3949-3954	važne	_	_	_	_	_	
+15-196	3955-3962	sedrene	_	_	_	_	_	
+15-197	3963-3972	tvorevine	_	_	_	_	_	
+15-198	3973-3974	(	_	_	_	_	_	
+15-199	3974-3975	v	_	_	_	_	_	
+15-200	3975-3976	.	_	_	_	_	_	
+15-201	3976-3977	)	_	_	_	_	_	
+15-202	3978-3980	na	_	_	_	_	_	
+15-203	3981-3989	brzacima	_	_	_	_	_	
+15-204	3989-3990	,	_	_	_	_	_	
+15-205	3991-4000	slapovima	_	_	_	_	_	
+15-206	4001-4002	i	_	_	_	_	_	
+15-207	4003-4013	vodopadima	_	_	_	_	_	
+15-208	4014-4020	Korane	_	_	_	_	_	
+15-209	4020-4021	,	_	_	_	_	_	
+15-210	4022-4026	Krke	_	_	_	_	_	
+15-211	4026-4027	,	_	_	_	_	_	
+15-212	4028-4031	Une	_	_	_	_	_	
+15-213	4031-4032	,	_	_	_	_	_	
+15-214	4033-4038	Plive	_	_	_	_	_	
+15-215	4039-4040	i	_	_	_	_	_	
+15-216	4041-4043	dr	_	_	_	_	_	
+15-217	4043-4044	.	_	_	_	_	_	

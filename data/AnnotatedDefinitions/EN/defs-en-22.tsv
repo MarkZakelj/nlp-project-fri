@@ -1,0 +1,321 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=active cave - a cave which has a stream flowing in it.
+1-1	0-6	active	_	A.2 Underground landform[1]	DEFINIENDUM[19]	_	_	
+1-2	7-11	cave	_	A.2 Underground landform[1]	DEFINIENDUM[19]	_	_	
+1-3	12-13	-	_	_	_	_	_	
+1-4	14-15	a	_	_	_	_	_	
+1-5	16-20	cave	_	A.2 Underground landform	GENUS	_	_	
+1-6	21-26	which	_	_	_	_	_	
+1-7	27-30	has	_	_	_	CONTAINS[29]	frame\_CONTAINS[60]	
+1-8	31-32	a	_	_	_	CONTAINS[29]	frame\_CONTAINS[60]	
+1-9	33-39	stream	_	A.3 Hydrological form	_	CONTAINS[29]	_	
+1-10	40-47	flowing	_	B.1 Movement	_	CONTAINS[29]	_	
+1-11	48-50	in	_	_	_	CONTAINS[29]	_	
+1-12	51-53	it	_	_	_	CONTAINS[29]	_	
+1-13	53-54	.	_	_	_	_	_	
+
+#Text=aeolian calcarenite - a limestone formed on land by solution and redeposition of calcium carbonate in coastal dune sands containing a large proportion of calcareous sand from mollusc shells and other organic remains.
+2-1	58-65	aeolian	_	D.1 Abiotic[2]	DEFINIENDUM[20]	_	_	
+2-2	66-77	calcarenite	_	D.1 Abiotic[2]	DEFINIENDUM[20]	_	_	
+2-3	78-79	-	_	_	_	_	_	
+2-4	80-81	a	_	_	_	_	_	
+2-5	82-91	limestone	_	D.1 Abiotic	GENUS	_	_	
+2-6	92-98	formed	_	_	_	_	_	
+2-7	99-101	on	_	_	_	HAS\_LOCATION[30]	frame\_LOCATION	
+2-8	102-106	land	_	_	_	HAS\_LOCATION[30]	_	
+2-9	107-109	by	_	_	_	_	frame\_CAUSE	
+2-10	110-118	solution	_	B.4 Transformation	_	_	_	
+2-11	119-122	and	_	_	_	_	_	
+2-12	123-135	redeposition	_	B.1 Movement	_	_	_	
+2-13	136-138	of	_	_	_	_	_	
+2-14	139-146	calcium	_	D.1 Abiotic[3]	_	_	_	
+2-15	147-156	carbonate	_	D.1 Abiotic[3]	_	_	_	
+2-16	157-159	in	_	_	_	HAS\_LOCATION[31]	frame\_LOCATION[61]	
+2-17	160-167	coastal	_	_	_	HAS\_LOCATION[31]	frame\_LOCATION[61]	
+2-18	168-172	dune	_	D.1 Abiotic[4]	_	HAS\_LOCATION[31]	_	
+2-19	173-178	sands	_	D.1 Abiotic[4]	_	HAS\_LOCATION[31]	_	
+2-20	179-189	containing	_	_	_	CONTAINS[32]	frame\_CONTAINS[62]	
+2-21	190-191	a	_	_	_	CONTAINS[32]	frame\_CONTAINS[62]	
+2-22	192-197	large	_	_	_	CONTAINS[32]	_	
+2-23	198-208	proportion	_	_	_	CONTAINS[32]	_	
+2-24	209-211	of	_	_	_	CONTAINS[32]	_	
+2-25	212-222	calcareous	_	D.1 Abiotic[5]	_	CONTAINS[32]	_	
+2-26	223-227	sand	_	D.1 Abiotic[5]	_	CONTAINS[32]	_	
+2-27	228-232	from	_	_	_	CONTAINS[32]	_	
+2-28	233-240	mollusc	_	D.2 Biotic[6]	_	CONTAINS[32]	_	
+2-29	241-247	shells	_	D.2 Biotic[6]	_	CONTAINS[32]	_	
+2-30	248-251	and	_	_	_	CONTAINS[32]	_	
+2-31	252-257	other	_	_	_	CONTAINS[32]	_	
+2-32	258-265	organic	_	_	_	CONTAINS[32]	_	
+2-33	266-273	remains	_	_	_	CONTAINS[32]	_	
+2-34	273-274	.	_	_	_	_	_	
+
+#Text=aragonite - a less common crystalline form of calcium carbonate than calcite, denser and orthorhombic.
+3-1	278-287	aragonite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+3-2	288-289	-	_	_	_	_	_	
+3-3	290-291	a	_	_	_	_	_	
+3-4	292-296	less	_	_	_	_	_	
+3-5	297-303	common	_	_	_	_	_	
+3-6	304-315	crystalline	_	_	_	HAS\_FORM[33]	_	
+3-7	316-320	form	_	_	_	HAS\_FORM[33]	frame\_FORM	
+3-8	321-323	of	_	_	_	COMPOSITION\_MEDIUM[34]	frame\_FORM	
+3-9	324-331	calcium	_	D.1 Abiotic[7]	GENUS[21]	COMPOSITION\_MEDIUM[34]	_	
+3-10	332-341	carbonate	_	D.1 Abiotic[7]	GENUS[21]	COMPOSITION\_MEDIUM[34]	_	
+3-11	342-346	than	_	_	_	_	_	
+3-12	347-354	calcite	_	D.1 Abiotic	_	_	_	
+3-13	354-355	,	_	_	_	_	_	
+3-14	356-362	denser	dense	D.3 Property	_	HAS\_FORM[35]	_	
+3-15	363-366	and	_	_	_	HAS\_FORM[35]	_	
+3-16	367-379	orthorhombic	_	D.3 Property	_	HAS\_FORM[35]	_	
+3-17	379-380	.	_	_	_	_	_	
+
+#Text=bare karst - karst with much exposed bedrock.
+4-1	384-388	bare	_	C. Geome[8]	DEFINIENDUM[22]	_	_	
+4-2	389-394	karst	_	C. Geome[8]	DEFINIENDUM[22]	_	_	
+4-3	395-396	-	_	_	_	_	_	
+4-4	397-402	karst	_	C. Geome	GENUS	_	_	
+4-5	403-407	with	_	_	_	CONTAINS[36]	frame\_CONTAINS	
+4-6	408-412	much	_	_	_	CONTAINS[36]	_	
+4-7	413-420	exposed	_	_	_	CONTAINS[36]	_	
+4-8	421-428	bedrock	_	D.1 Abiotic	_	CONTAINS[36]	_	
+4-9	428-429	.	_	_	_	_	_	
+
+#Text=bathyphreatic - referring to water moving with some speed through downward looping passages in the phreatic zone.
+5-1	433-446	bathyphreatic	_	D.3 Property	DEFINIENDUM	_	_	
+5-2	447-448	-	_	_	_	_	_	
+5-3	449-458	referring	_	_	_	HAS\_ATTRIBUTE[37]	frame\_ATTRIBUTE[63]	
+5-4	459-461	to	_	_	_	HAS\_ATTRIBUTE[37]	frame\_ATTRIBUTE[63]	
+5-5	462-467	water	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[37]	_	
+5-6	468-474	moving	_	B.1 Movement	_	HAS\_ATTRIBUTE[37]	_	
+5-7	475-479	with	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-8	480-484	some	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-9	485-490	speed	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-10	491-498	through	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION	
+5-11	499-507	downward	_	_	_	HAS\_LOCATION[38]	_	
+5-12	508-515	looping	_	_	_	HAS\_LOCATION[38]	_	
+5-13	516-524	passages	_	D.1 Abiotic	_	HAS\_LOCATION[38]	_	
+5-14	525-527	in	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[64]	
+5-15	528-531	the	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[64]	
+5-16	532-540	phreatic	_	C. Geome[9]	_	HAS\_LOCATION[39]	_	
+5-17	541-545	zone	_	C. Geome[9]	_	HAS\_LOCATION[39]	_	
+5-18	545-546	.	_	_	_	_	_	
+
+#Text=bed - a depositional layer of sedimentary bedrock or. unconsolidated sediment.
+6-1	550-553	bed	_	D.1 Abiotic	DEFINIENDUM	_	_	
+6-2	554-555	-	_	_	_	_	_	
+6-3	556-557	a	_	_	_	_	_	
+6-4	558-570	depositional	_	D.1 Abiotic[10]	_	_	_	
+6-5	571-576	layer	_	D.1 Abiotic[10]	GENUS	_	_	
+6-6	577-579	of	_	_	_	COMPOSITION\_MEDIUM[40]	frame\_COMPOSITION	
+6-7	580-591	sedimentary	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+6-8	592-599	bedrock	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[40]	_	
+6-9	600-602	or	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+6-10	602-603	.	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+6-11	604-618	unconsolidated	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+6-12	619-627	sediment	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[40]	_	
+6-13	627-628	.	_	_	_	_	_	
+
+#Text=bedding-grike - a narrow, rectilinear slot in a karst rock outcrop as a result of solution along a bedding-plane.
+7-1	632-645	bedding-grike	_	_	DEFINIENDUM	_	_	
+7-2	646-647	-	_	_	_	_	_	
+7-3	648-649	a	_	_	_	_	_	
+7-4	650-656	narrow	_	_	_	HAS\_FORM	_	
+7-5	656-657	,	_	_	_	_	_	
+7-6	658-669	rectilinear	_	_	_	HAS\_FORM	_	
+7-7	670-674	slot	_	_	GENUS[23]	_	_	
+7-8	675-677	in	_	_	GENUS[23]	_	_	
+7-9	678-679	a	_	_	GENUS[23]	_	_	
+7-10	680-685	karst	_	D.1 Abiotic[11]	GENUS[23]	_	_	
+7-11	686-690	rock	_	D.1 Abiotic[11]	GENUS[23]	_	_	
+7-12	691-698	outcrop	_	_	GENUS[23]	_	_	
+7-13	699-701	as	_	_	_	HAS\_CAUSE[41]	frame\_CAUSE[65]	
+7-14	702-703	a	_	_	_	HAS\_CAUSE[41]	frame\_CAUSE[65]	
+7-15	704-710	result	_	_	_	HAS\_CAUSE[41]	frame\_CAUSE[65]	
+7-16	711-713	of	_	_	_	HAS\_CAUSE[41]	frame\_CAUSE[65]	
+7-17	714-722	solution	_	B.2 Loss	_	HAS\_CAUSE[41]	_	
+7-18	723-728	along	_	_	_	HAS\_CAUSE[41]|HAS\_LOCATION[42]	frame\_LOCATION[66]	
+7-19	729-730	a	_	_	_	HAS\_CAUSE[41]|HAS\_LOCATION[42]	frame\_LOCATION[66]	
+7-20	731-744	bedding-plane	_	D.1 Abiotic	_	HAS\_CAUSE[41]|HAS\_LOCATION[42]	_	
+7-21	744-745	.	_	_	_	_	_	
+
+#Text=bedding plane - a surface separating two beds, usually planar.
+8-1	749-756	bedding	_	D.1 Abiotic[12]	DEFINIENDUM[24]	_	_	
+8-2	757-762	plane	_	D.1 Abiotic[12]	DEFINIENDUM[24]	_	_	
+8-3	763-764	-	_	_	_	_	_	
+8-4	765-766	a	_	_	_	_	_	
+8-5	767-774	surface	_	_	GENUS	_	_	
+8-6	775-785	separating	_	_	_	HAS\_FUNCTION[43]	_	
+8-7	786-789	two	_	_	_	HAS\_FUNCTION[43]	_	
+8-8	790-794	beds	_	D.1 Abiotic	_	HAS\_FUNCTION[43]	_	
+8-9	794-795	,	_	_	_	HAS\_FUNCTION[43]	_	
+8-10	796-803	usually	_	_	_	HAS\_FUNCTION[43]	_	
+8-11	804-810	planar	_	_	_	HAS\_FUNCTION[43]|HAS\_FORM[44]	_	
+8-12	810-811	.	_	_	_	_	_	
+
+#Text=bedding-plane cave - a cavity developed along a bedding-plane and elongate in cross-section as a result.
+9-1	815-828	bedding-plane	_	A.2 Underground landform[13]	DEFINIENDUM[25]	_	_	
+9-2	829-833	cave	_	A.2 Underground landform[13]	DEFINIENDUM[25]	_	_	
+9-3	834-835	-	_	_	_	_	_	
+9-4	836-837	a	_	D.1 Abiotic[14]	_	_	_	
+9-5	838-844	cavity	_	D.1 Abiotic[14]	GENUS	_	_	
+9-6	845-854	developed	_	_	_	HAS\_LOCATION[45]	_	
+9-7	855-860	along	_	_	_	HAS\_LOCATION[45]	frame\_LOCATION[67]	
+9-8	861-862	a	_	_	_	HAS\_LOCATION[45]	frame\_LOCATION[67]	
+9-9	863-876	bedding-plane	_	D.1 Abiotic	_	HAS\_LOCATION[45]	_	
+9-10	877-880	and	_	_	_	_	_	
+9-11	881-889	elongate	_	_	_	HAS\_FORM[46]	_	
+9-12	890-892	in	_	_	_	HAS\_FORM[46]	_	
+9-13	893-906	cross-section	_	_	_	HAS\_FORM[46]	_	
+9-14	907-909	as	_	_	_	_	_	
+9-15	910-911	a	_	_	_	_	_	
+9-16	912-918	result	_	_	_	_	_	
+9-17	918-919	.	_	_	_	_	_	
+
+#Text=biospeleology - the scientific study of organisms living in caves.
+10-1	923-936	biospeleology	_	E.2 Method	DEFINIENDUM	_	_	
+10-2	937-938	-	_	_	_	_	_	
+10-3	939-942	the	_	_	_	_	_	
+10-4	943-953	scientific	_	E.2 Method[15]	_	_	_	
+10-5	954-959	study	_	E.2 Method[15]	GENUS	_	frame\_STUDIES[68]	
+10-6	960-962	of	_	_	_	_	frame\_STUDIES[68]	
+10-7	963-972	organisms	_	D.2 Biotic	_	STUDIES[47]	_	
+10-8	973-979	living	_	_	_	STUDIES[47]	_	
+10-9	980-982	in	_	_	_	STUDIES[47]	_	
+10-10	983-988	caves	_	A.2 Underground landform	_	STUDIES[47]	_	
+10-11	988-989	.	_	_	_	_	_	
+
+#Text=blind shaft - a vertical extension upwards from part of a cave but not reaching the surface; small in area in relation to its height.
+11-1	993-998	blind	_	_	DEFINIENDUM[26]	_	_	
+11-2	999-1004	shaft	_	_	DEFINIENDUM[26]	_	_	
+11-3	1005-1006	-	_	_	_	_	_	
+11-4	1007-1008	a	_	_	_	_	_	
+11-5	1009-1017	vertical	_	_	_	HAS\_FORM[48]	_	
+11-6	1018-1027	extension	_	_	_	HAS\_FORM[48]	_	
+11-7	1028-1035	upwards	_	_	_	HAS\_FORM[48]	_	
+11-8	1036-1040	from	_	_	_	_	_	
+11-9	1041-1045	part	_	_	_	_	_	
+11-10	1046-1048	of	_	_	_	_	_	
+11-11	1049-1050	a	_	_	_	_	_	
+11-12	1051-1055	cave	_	A.2 Underground landform	GENUS	_	_	
+11-13	1056-1059	but	_	_	_	_	_	
+11-14	1060-1063	not	_	_	_	HAS\_FORM[49]	_	
+11-15	1064-1072	reaching	_	_	_	HAS\_FORM[49]	_	
+11-16	1073-1076	the	_	_	_	HAS\_FORM[49]	_	
+11-17	1077-1084	surface	_	_	_	HAS\_FORM[49]	_	
+11-18	1084-1085	;	_	_	_	_	_	
+11-19	1086-1091	small	_	_	_	HAS\_SIZE[50]	frame\_SIZE	
+11-20	1092-1094	in	_	_	_	HAS\_SIZE[50]	_	
+11-21	1095-1099	area	_	_	_	HAS\_SIZE[50]	_	
+11-22	1100-1102	in	_	_	_	HAS\_SIZE[50]	_	
+11-23	1103-1111	relation	_	_	_	HAS\_SIZE[50]	_	
+11-24	1112-1114	to	_	_	_	HAS\_SIZE[50]	_	
+11-25	1115-1118	its	_	_	_	HAS\_SIZE[50]	_	
+11-26	1119-1125	height	_	_	_	HAS\_SIZE[50]	_	
+11-27	1125-1126	.	_	_	_	_	_	
+
+#Text=blind valley - a valley that is closed abruptly at its lower end by a cliff or slope facing up the valley.
+12-1	1130-1135	blind	_	A.1 Surface landform[16]	DEFINIENDUM[27]	_	_	
+12-2	1136-1142	valley	_	A.1 Surface landform[16]	DEFINIENDUM[27]	_	_	
+12-3	1143-1144	-	_	_	_	_	_	
+12-4	1145-1146	a	_	_	_	_	_	
+12-5	1147-1153	valley	_	A.1 Surface landform	GENUS	_	_	
+12-6	1154-1158	that	_	_	_	_	_	
+12-7	1159-1161	is	_	_	_	_	_	
+12-8	1162-1168	closed	_	_	_	HAS\_FORM[51]	_	
+12-9	1169-1177	abruptly	_	_	_	HAS\_FORM[51]	_	
+12-10	1178-1180	at	_	_	_	HAS\_FORM[51]	_	
+12-11	1181-1184	its	_	_	_	HAS\_FORM[51]	_	
+12-12	1185-1190	lower	_	_	_	HAS\_FORM[51]	_	
+12-13	1191-1194	end	_	_	_	HAS\_FORM[51]	_	
+12-14	1195-1197	by	_	_	_	HAS\_FORM[51]	_	
+12-15	1198-1199	a	_	_	_	HAS\_FORM[51]	_	
+12-16	1200-1205	cliff	_	D.1 Abiotic	_	HAS\_FORM[51]	_	
+12-17	1206-1208	or	_	_	_	HAS\_FORM[51]	_	
+12-18	1209-1214	slope	_	D.1 Abiotic	_	HAS\_FORM[51]	_	
+12-19	1215-1221	facing	_	_	_	HAS\_FORM[51]	_	
+12-20	1222-1224	up	_	_	_	HAS\_FORM[51]	_	
+12-21	1225-1228	the	_	_	_	HAS\_FORM[51]	_	
+12-22	1229-1235	valley	_	_	_	HAS\_FORM[51]	_	
+12-23	1235-1236	.	_	_	_	_	_	
+
+#Text=blowhole - a hole to the surface in the roof of a sea cave through which waves force air and water.
+13-1	1240-1248	blowhole	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	1249-1250	-	_	_	_	_	_	
+13-3	1251-1252	a	_	_	_	_	_	
+13-4	1253-1257	hole	_	_	GENUS	HAS\_FORM[52]	_	
+13-5	1258-1260	to	_	_	_	HAS\_FORM[52]	_	
+13-6	1261-1264	the	_	_	_	HAS\_FORM[52]	_	
+13-7	1265-1272	surface	_	_	_	HAS\_FORM[52]	_	
+13-8	1273-1275	in	_	_	_	HAS\_LOCATION[53]	frame\_LOCATION[69]	
+13-9	1276-1279	the	_	_	_	HAS\_LOCATION[53]	frame\_LOCATION[69]	
+13-10	1280-1284	roof	_	D.1 Abiotic	_	HAS\_LOCATION[53]	_	
+13-11	1285-1287	of	_	_	_	HAS\_LOCATION[53]	_	
+13-12	1288-1289	a	_	_	_	HAS\_LOCATION[53]	_	
+13-13	1290-1293	sea	_	A.2 Underground landform[17]	_	HAS\_LOCATION[53]	_	
+13-14	1294-1298	cave	_	A.2 Underground landform[17]	_	HAS\_LOCATION[53]	_	
+13-15	1299-1306	through	_	_	_	HAS\_FUNCTION[54]	frame\_FUNCTION[70]	
+13-16	1307-1312	which	_	_	_	HAS\_FUNCTION[54]	frame\_FUNCTION[70]	
+13-17	1313-1318	waves	_	_	_	HAS\_FUNCTION[54]	_	
+13-18	1319-1324	force	_	_	_	HAS\_FUNCTION[54]	_	
+13-19	1325-1328	air	_	_	_	HAS\_FUNCTION[54]	_	
+13-20	1329-1332	and	_	_	_	HAS\_FUNCTION[54]	_	
+13-21	1333-1338	water	_	D.1 Abiotic	_	HAS\_FUNCTION[54]	_	
+13-22	1338-1339	.	_	_	_	_	_	
+
+#Text=blowhole - a hole in the ground through which air blows in and out strongly, sometimes audibly; common in the nullarbor plain.
+14-1	1343-1351	blowhole	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-2	1352-1353	-	_	_	_	_	_	
+14-3	1354-1355	a	_	_	_	_	_	
+14-4	1356-1360	hole	_	D.1 Abiotic	GENUS	HAS\_FORM[55]	_	
+14-5	1361-1363	in	_	_	_	HAS\_FORM[55]	_	
+14-6	1364-1367	the	_	_	_	HAS\_FORM[55]	_	
+14-7	1368-1374	ground	_	D.1 Abiotic	_	HAS\_FORM[55]	_	
+14-8	1375-1382	through	_	_	_	HAS\_FUNCTION[56]	frame\_FUNCTION[71]	
+14-9	1383-1388	which	_	_	_	HAS\_FUNCTION[56]	frame\_FUNCTION[71]	
+14-10	1389-1392	air	_	D.1 Abiotic	_	HAS\_FUNCTION[56]	_	
+14-11	1393-1398	blows	_	B.1 Movement	_	HAS\_FUNCTION[56]	_	
+14-12	1399-1401	in	_	_	_	HAS\_FUNCTION[56]	_	
+14-13	1402-1405	and	_	_	_	HAS\_FUNCTION[56]	_	
+14-14	1406-1409	out	_	_	_	HAS\_FUNCTION[56]	_	
+14-15	1410-1418	strongly	_	_	_	HAS\_FUNCTION[56]	_	
+14-16	1418-1419	,	_	_	_	HAS\_FUNCTION[56]	_	
+14-17	1420-1429	sometimes	_	_	_	HAS\_FUNCTION[56]	_	
+14-18	1430-1437	audibly	_	_	_	HAS\_FUNCTION[56]	_	
+14-19	1437-1438	;	_	_	_	_	_	
+14-20	1439-1445	common	_	_	_	HAS\_POSITION[57]	frame\_POSITION[72]	
+14-21	1446-1448	in	_	_	_	HAS\_POSITION[57]	frame\_POSITION[72]	
+14-22	1449-1452	the	_	_	_	HAS\_POSITION[57]	_	
+14-23	1453-1462	nullarbor	_	D.3.1 Geolocation[18]	_	HAS\_POSITION[57]	_	
+14-24	1463-1468	plain	_	D.3.1 Geolocation[18]	_	HAS\_POSITION[57]	_	
+14-25	1468-1469	.	_	_	_	_	_	
+
+#Text=branchwork - a dendritic system of underground streams or passages wherein branches join successively to form a major stream or passage.
+15-1	1473-1483	branchwork	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	1484-1485	-	_	_	_	_	_	
+15-3	1486-1487	a	_	_	_	_	_	
+15-4	1488-1497	dendritic	_	_	_	HAS\_FORM	_	
+15-5	1498-1504	system	_	_	GENUS[28]	CONTAINS[58]	_	
+15-6	1505-1507	of	_	_	GENUS[28]	CONTAINS[58]	_	
+15-7	1508-1519	underground	_	_	GENUS[28]	CONTAINS[58]	_	
+15-8	1520-1527	streams	_	D.1 Abiotic	GENUS[28]	CONTAINS[58]	_	
+15-9	1528-1530	or	_	_	_	CONTAINS[58]	_	
+15-10	1531-1539	passages	_	D.1 Abiotic	_	CONTAINS[58]	_	
+15-11	1540-1547	wherein	_	_	_	_	_	
+15-12	1548-1556	branches	_	_	_	HAS\_FORM[59]	_	
+15-13	1557-1561	join	_	_	_	HAS\_FORM[59]	_	
+15-14	1562-1574	successively	_	_	_	HAS\_FORM[59]	_	
+15-15	1575-1577	to	_	_	_	HAS\_FORM[59]	_	
+15-16	1578-1582	form	_	_	_	HAS\_FORM[59]	_	
+15-17	1583-1584	a	_	_	_	HAS\_FORM[59]	_	
+15-18	1585-1590	major	_	_	_	HAS\_FORM[59]	_	
+15-19	1591-1597	stream	_	_	_	HAS\_FORM[59]	_	
+15-20	1598-1600	or	_	_	_	HAS\_FORM[59]	_	
+15-21	1601-1608	passage	_	_	_	HAS\_FORM[59]	_	
+15-22	1608-1609	.	_	_	_	_	_	

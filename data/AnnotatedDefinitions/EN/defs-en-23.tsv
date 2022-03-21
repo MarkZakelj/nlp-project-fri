@@ -1,0 +1,362 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=breccia - angular fragments of rock and/or fossils cemented together or with a matrix of finer sediment.
+1-1	0-7	breccia	_	D.1 Abiotic	DEFINIENDUM	_	_	
+1-2	8-9	-	_	_	_	_	_	
+1-3	10-17	angular	_	_	_	HAS\_FORM[27]	_	
+1-4	18-27	fragments	_	_	GENUS[15]	HAS\_FORM[27]	frame\_COMPOSITION[59]	
+1-5	28-30	of	_	_	GENUS[15]	HAS\_FORM[27]|COMPOSITION\_MEDIUM[28]	frame\_COMPOSITION[59]	
+1-6	31-35	rock	_	D.1 Abiotic	GENUS[15]	HAS\_FORM[27]|COMPOSITION\_MEDIUM[28]	_	
+1-7	36-39	and	_	_	GENUS[15]	COMPOSITION\_MEDIUM[28]	_	
+1-8	39-40	/	_	_	GENUS[15]	COMPOSITION\_MEDIUM[28]	_	
+1-9	40-42	or	_	_	GENUS[15]	COMPOSITION\_MEDIUM[28]	_	
+1-10	43-50	fossils	_	_	GENUS[15]	COMPOSITION\_MEDIUM[28]	_	
+1-11	51-59	cemented	_	_	GENUS[15]	COMPOSITION\_MEDIUM[28]	_	
+1-12	60-68	together	_	_	GENUS[15]	COMPOSITION\_MEDIUM[28]	_	
+1-13	69-71	or	_	_	_	COMPOSITION\_MEDIUM[28]	_	
+1-14	72-76	with	_	_	_	COMPOSITION\_MEDIUM[28]	_	
+1-15	77-78	a	_	_	_	COMPOSITION\_MEDIUM[28]	_	
+1-16	79-85	matrix	_	_	_	COMPOSITION\_MEDIUM[28]	_	
+1-17	86-88	of	_	_	_	COMPOSITION\_MEDIUM[28]	_	
+1-18	89-94	finer	_	_	_	COMPOSITION\_MEDIUM[28]	_	
+1-19	95-103	sediment	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[28]	_	
+1-20	103-104	.	_	_	_	_	_	
+
+#Text=canopy - a compound speleothem consisting of a flowstone cover of a bedrock projection and of a fringe of stalactites or shawls on the outer edge.
+2-1	108-114	canopy	_	A.2 Underground landform	DEFINIENDUM	_	_	
+2-2	115-116	-	_	_	_	_	_	
+2-3	117-118	a	_	_	_	_	_	
+2-4	119-127	compound	_	_	_	_	_	
+2-5	128-138	speleothem	_	A.2 Underground landform	GENUS	_	_	
+2-6	139-149	consisting	_	_	_	HAS\_FORM[29]	frame\_FORM[60]	
+2-7	150-152	of	_	_	_	HAS\_FORM[29]	frame\_FORM[60]	
+2-8	153-154	a	_	_	_	HAS\_FORM[29]	frame\_FORM[60]	
+2-9	155-164	flowstone	_	D.1 Abiotic	_	HAS\_FORM[29]	_	
+2-10	165-170	cover	_	_	_	HAS\_FORM[29]	_	
+2-11	171-173	of	_	_	_	HAS\_FORM[29]	_	
+2-12	174-175	a	_	_	_	HAS\_FORM[29]	_	
+2-13	176-183	bedrock	_	_	_	HAS\_FORM[29]	_	
+2-14	184-194	projection	_	_	_	HAS\_FORM[29]	_	
+2-15	195-198	and	_	_	_	HAS\_FORM[29]	_	
+2-16	199-201	of	_	_	_	HAS\_FORM[29]	_	
+2-17	202-203	a	_	_	_	HAS\_FORM[29]	_	
+2-18	204-210	fringe	_	_	_	HAS\_FORM[29]	_	
+2-19	211-213	of	_	_	_	HAS\_FORM[29]	_	
+2-20	214-225	stalactites	_	A.2 Underground landform	_	HAS\_FORM[29]	_	
+2-21	226-228	or	_	_	_	HAS\_FORM[29]	_	
+2-22	229-235	shawls	_	_	_	HAS\_FORM[29]	_	
+2-23	236-238	on	_	_	_	HAS\_FORM[29]	_	
+2-24	239-242	the	_	_	_	HAS\_FORM[29]	_	
+2-25	243-248	outer	_	_	_	HAS\_FORM[29]	_	
+2-26	249-253	edge	_	_	_	HAS\_FORM[29]	_	
+2-27	253-254	.	_	_	_	_	_	
+
+#Text=canyon - a deep valley with steep to vertical walls; in karst frequently formed by a river rising on impervious rocks outside the karst area.
+3-1	258-264	canyon	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-2	265-266	-	_	_	_	_	_	
+3-3	267-268	a	_	_	_	_	_	
+3-4	269-273	deep	_	_	_	HAS\_FORM[30]	_	
+3-5	274-280	valley	_	D.1 Abiotic	GENUS	HAS\_FORM[30]	_	
+3-6	281-285	with	_	_	_	HAS\_FORM[30]	_	
+3-7	286-291	steep	_	_	_	HAS\_FORM[30]	_	
+3-8	292-294	to	_	_	_	HAS\_FORM[30]	_	
+3-9	295-303	vertical	_	_	_	HAS\_FORM[30]	_	
+3-10	304-309	walls	_	_	_	HAS\_FORM[30]	_	
+3-11	309-310	;	_	_	_	_	_	
+3-12	311-313	in	_	_	_	_	_	
+3-13	314-319	karst	_	C. Geome	_	_	_	
+3-14	320-330	frequently	_	_	_	HAS\_CAUSE[31]	_	
+3-15	331-337	formed	_	_	_	HAS\_CAUSE[31]	frame\_CAUSE[61]	
+3-16	338-340	by	_	_	_	HAS\_CAUSE[31]	frame\_CAUSE[61]	
+3-17	341-342	a	_	_	_	HAS\_CAUSE[31]	frame\_CAUSE[61]	
+3-18	343-348	river	_	D.1 Abiotic	_	HAS\_CAUSE[31]	_	
+3-19	349-355	rising	_	_	_	HAS\_CAUSE[31]	_	
+3-20	356-358	on	_	_	_	HAS\_CAUSE[31]	_	
+3-21	359-369	impervious	_	_	_	HAS\_CAUSE[31]	_	
+3-22	370-375	rocks	_	D.1 Abiotic	_	HAS\_CAUSE[31]	_	
+3-23	376-383	outside	_	_	_	HAS\_CAUSE[31]	_	
+3-24	384-387	the	_	_	_	HAS\_CAUSE[31]	_	
+3-25	388-393	karst	_	C. Geome[2]	_	HAS\_CAUSE[31]	_	
+3-26	394-398	area	_	C. Geome[2]	_	HAS\_CAUSE[31]	_	
+3-27	398-399	.	_	_	_	_	_	
+
+#Text=canyon - a deep, elongated cavity cut by running water in the roof or floor of a cave or forming a cave passage.
+4-1	403-409	canyon	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-2	410-411	-	_	_	_	_	_	
+4-3	412-413	a	_	_	_	_	_	
+4-4	414-418	deep	_	_	_	HAS\_FORM[32]	_	
+4-5	418-419	,	_	_	_	HAS\_FORM[32]	_	
+4-6	420-429	elongated	_	_	_	HAS\_FORM[32]	_	
+4-7	430-436	cavity	_	_	GENUS	HAS\_FORM[32]	_	
+4-8	437-440	cut	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[62]	
+4-9	441-443	by	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[62]	
+4-10	444-451	running	_	_	_	HAS\_CAUSE[33]	_	
+4-11	452-457	water	_	D.1 Abiotic	_	HAS\_CAUSE[33]	_	
+4-12	458-460	in	_	_	_	HAS\_CAUSE[33]	_	
+4-13	461-464	the	_	_	_	HAS\_CAUSE[33]	_	
+4-14	465-469	roof	_	D.1 Abiotic	_	HAS\_CAUSE[33]	_	
+4-15	470-472	or	_	_	_	HAS\_CAUSE[33]	_	
+4-16	473-478	floor	_	_	_	HAS\_CAUSE[33]	_	
+4-17	479-481	of	_	_	_	HAS\_CAUSE[33]	_	
+4-18	482-483	a	_	_	_	HAS\_CAUSE[33]	_	
+4-19	484-488	cave	_	A.2 Underground landform	_	HAS\_CAUSE[33]	_	
+4-20	489-491	or	_	_	_	_	_	
+4-21	492-499	forming	_	_	_	HAS\_FUNCTION[34]	frame\_FUNCTION[63]	
+4-22	500-501	a	_	_	_	HAS\_FUNCTION[34]	frame\_FUNCTION[63]	
+4-23	502-506	cave	_	A.2 Underground landform[3]	_	HAS\_FUNCTION[34]	_	
+4-24	507-514	passage	_	A.2 Underground landform[3]	_	HAS\_FUNCTION[34]	_	
+4-25	514-515	.	_	_	_	_	_	
+
+#Text=cave - a natural cavity in rock large enough to be entered by man. it may be water-filled. if it becomes full of ice or sediment and is impenetrable, the term applies but will need qualification.
+5-1	519-523	cave	_	A.2 Underground landform	DEFINIENDUM	_	_	
+5-2	524-525	-	_	_	_	_	_	
+5-3	526-527	a	_	_	_	_	_	
+5-4	528-535	natural	_	_	_	_	_	
+5-5	536-542	cavity	_	D.1 Abiotic	GENUS	_	_	
+5-6	543-545	in	_	_	_	COMPOSITION\_MEDIUM[35]	frame\_COMPOSITION	
+5-7	546-550	rock	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[35]	_	
+5-8	551-556	large	_	_	_	HAS\_SIZE[36]	frame\_SIZE[64]	
+5-9	557-563	enough	_	_	_	HAS\_SIZE[36]	frame\_SIZE[64]	
+5-10	564-566	to	_	_	_	HAS\_SIZE[36]	_	
+5-11	567-569	be	_	_	_	HAS\_SIZE[36]	_	
+5-12	570-577	entered	_	_	_	HAS\_SIZE[36]	_	
+5-13	578-580	by	_	_	_	HAS\_SIZE[36]	_	
+5-14	581-584	man	_	_	_	HAS\_SIZE[36]	_	
+5-15	584-585	.	_	_	_	_	_	
+5-16	586-588	it	_	_	_	_	_	
+5-17	589-592	may	_	_	_	CONTAINS[37]	_	
+5-18	593-595	be	_	_	_	CONTAINS[37]	_	
+5-19	596-608	water-filled	_	_	_	CONTAINS[37]	_	
+5-20	608-609	.	_	_	_	_	_	
+5-21	610-612	if	_	_	_	_	_	
+5-22	613-615	it	_	_	_	_	_	
+5-23	616-623	becomes	_	_	_	_	_	
+5-24	624-628	full	_	_	_	_	_	
+5-25	629-631	of	_	_	_	_	_	
+5-26	632-635	ice	_	_	_	_	_	
+5-27	636-638	or	_	_	_	_	_	
+5-28	639-647	sediment	_	D.1 Abiotic	_	_	_	
+5-29	648-651	and	_	_	_	_	_	
+5-30	652-654	is	_	_	_	_	_	
+5-31	655-667	impenetrable	_	_	_	_	_	
+5-32	667-668	,	_	_	_	_	_	
+5-33	669-672	the	_	_	_	_	_	
+5-34	673-677	term	_	_	_	_	_	
+5-35	678-685	applies	_	_	_	_	_	
+5-36	686-689	but	_	_	_	_	_	
+5-37	690-694	will	_	_	_	_	_	
+5-38	695-699	need	_	_	_	_	_	
+5-39	700-713	qualification	_	_	_	_	_	
+5-40	713-714	.	_	_	_	_	_	
+
+#Text=cave blister - an almost perfect hemisphere of egg-shell calcite.
+6-1	718-722	cave	_	A.2 Underground landform[4]	DEFINIENDUM[16]	_	_	
+6-2	723-730	blister	_	A.2 Underground landform[4]	DEFINIENDUM[16]	_	_	
+6-3	731-732	-	_	_	_	_	_	
+6-4	733-735	an	_	_	_	_	_	
+6-5	736-742	almost	_	_	_	HAS\_FORM[38]	_	
+6-6	743-750	perfect	_	_	_	HAS\_FORM[38]	_	
+6-7	751-761	hemisphere	_	_	_	HAS\_FORM[38]	_	
+6-8	762-764	of	_	_	_	COMPOSITION\_MEDIUM[39]	_	
+6-9	765-774	egg-shell	_	_	GENUS[17]	COMPOSITION\_MEDIUM[39]	_	
+6-10	775-782	calcite	_	D.1 Abiotic	GENUS[17]	COMPOSITION\_MEDIUM[39]	_	
+6-11	782-783	.	_	_	_	_	_	
+
+#Text=cave coral - very small speleothems consisting of short stalks with bulbous ends, usually occurring in numbers in patches.
+7-1	787-791	cave	_	A.2 Underground landform[5]	DEFINIENDUM[18]	_	_	
+7-2	792-797	coral	_	A.2 Underground landform[5]	DEFINIENDUM[18]	_	_	
+7-3	798-799	-	_	_	_	_	_	
+7-4	800-804	very	_	_	_	HAS\_SIZE[40]	_	
+7-5	805-810	small	_	_	_	HAS\_SIZE[40]	_	
+7-6	811-822	speleothems	_	A.2 Underground landform	GENUS	_	_	
+7-7	823-833	consisting	_	_	_	HAS\_FORM[41]	frame\_FORM[65]	
+7-8	834-836	of	_	_	_	HAS\_FORM[41]	frame\_FORM[65]	
+7-9	837-842	short	_	_	_	HAS\_FORM[41]	_	
+7-10	843-849	stalks	_	_	_	HAS\_FORM[41]	_	
+7-11	850-854	with	_	_	_	HAS\_FORM[41]	_	
+7-12	855-862	bulbous	_	_	_	HAS\_FORM[41]	_	
+7-13	863-867	ends	_	_	_	HAS\_FORM[41]	_	
+7-14	867-868	,	_	_	_	_	_	
+7-15	869-876	usually	_	_	_	HAS\_FORM[42]	_	
+7-16	877-886	occurring	_	_	_	HAS\_FORM[42]	_	
+7-17	887-889	in	_	_	_	HAS\_FORM[42]	_	
+7-18	890-897	numbers	_	_	_	HAS\_FORM[42]	_	
+7-19	898-900	in	_	_	_	HAS\_FORM[42]	_	
+7-20	901-908	patches	_	_	_	HAS\_FORM[42]	_	
+7-21	908-909	.	_	_	_	_	_	
+
+#Text=cave earth - clay, silt, fine sand and/or humus deposited in a cave.
+8-1	913-917	cave	_	D.1 Abiotic[6]	DEFINIENDUM[19]	_	_	
+8-2	918-923	earth	_	D.1 Abiotic[6]	DEFINIENDUM[19]	_	_	
+8-3	924-925	-	_	_	_	_	_	
+8-4	926-930	clay	_	_	_	CONTAINS[43]	_	
+8-5	930-931	,	_	_	_	CONTAINS[43]	_	
+8-6	932-936	silt	_	_	_	CONTAINS[43]	_	
+8-7	936-937	,	_	_	_	CONTAINS[43]	_	
+8-8	938-942	fine	_	_	_	CONTAINS[43]	_	
+8-9	943-947	sand	_	D.1 Abiotic	_	CONTAINS[43]	_	
+8-10	948-951	and	_	_	_	CONTAINS[43]	_	
+8-11	951-952	/	_	_	_	CONTAINS[43]	_	
+8-12	952-954	or	_	_	_	CONTAINS[43]	_	
+8-13	955-960	humus	_	D.1 Abiotic	_	CONTAINS[43]	_	
+8-14	961-970	deposited	_	_	_	_	_	
+8-15	971-973	in	_	_	_	HAS\_LOCATION[44]	_	
+8-16	974-975	a	_	_	_	HAS\_LOCATION[44]	_	
+8-17	976-980	cave	_	A.2 Underground landform	_	HAS\_LOCATION[44]	_	
+8-18	980-981	.	_	_	_	_	_	
+
+#Text=cave ecology - the study of the interaction between cave organisms and their environment, e.g., energy input from surface, climatic influences.
+9-1	985-989	cave	_	E.2 Method[7]	DEFINIENDUM[20]	_	_	
+9-2	990-997	ecology	_	E.2 Method[7]	DEFINIENDUM[20]	_	_	
+9-3	998-999	-	_	_	_	_	_	
+9-4	1000-1003	the	_	_	_	_	_	
+9-5	1004-1009	study	_	E.2 Method	GENUS	_	frame\_STUDIES[66]	
+9-6	1010-1012	of	_	_	_	_	frame\_STUDIES[66]	
+9-7	1013-1016	the	_	_	_	STUDIES[45]	frame\_STUDIES[66]	
+9-8	1017-1028	interaction	_	B. Process	_	STUDIES[45]	frame\_STUDIES[66]	
+9-9	1029-1036	between	_	_	_	STUDIES[45]	frame\_STUDIES[66]	
+9-10	1037-1041	cave	_	D.2 Biotic[8]	_	STUDIES[45]	_	
+9-11	1042-1051	organisms	_	D.2 Biotic[8]	_	STUDIES[45]	_	
+9-12	1052-1055	and	_	_	_	STUDIES[45]	_	
+9-13	1056-1061	their	_	_	_	STUDIES[45]	_	
+9-14	1062-1073	environment	_	_	_	STUDIES[45]	_	
+9-15	1073-1074	,	_	_	_	_	_	
+9-16	1075-1078	e.g	_	_	_	_	_	
+9-17	1078-1079	.	_	_	_	_	_	
+9-18	1079-1080	,	_	_	_	_	_	
+9-19	1081-1087	energy	_	D.3 Property	_	STUDIES[46]	_	
+9-20	1088-1093	input	_	_	_	STUDIES[46]	_	
+9-21	1094-1098	from	_	_	_	STUDIES[46]	_	
+9-22	1099-1106	surface	_	_	_	STUDIES[46]	_	
+9-23	1106-1107	,	_	_	_	_	_	
+9-24	1108-1116	climatic	_	D.3 Property[9]	_	STUDIES[47]	_	
+9-25	1117-1127	influences	_	D.3 Property[9]	_	STUDIES[47]	_	
+9-26	1127-1128	.	_	_	_	_	_	
+
+#Text=cave fill - transported materials such as silt, day, sand and gravel which cover the bedrock floor or partially or wholly block some part of a cave.
+10-1	1132-1136	cave	_	D.1 Abiotic[10]	DEFINIENDUM[21]	_	_	
+10-2	1137-1141	fill	_	D.1 Abiotic[10]	DEFINIENDUM[21]	_	_	
+10-3	1142-1143	-	_	_	_	_	_	
+10-4	1144-1155	transported	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+10-5	1156-1165	materials	_	_	GENUS	COMPOSITION\_MEDIUM[48]	_	
+10-6	1166-1170	such	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+10-7	1171-1173	as	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+10-8	1174-1178	silt	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[48]	_	
+10-9	1178-1179	,	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+10-10	1180-1183	day	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[48]	_	
+10-11	1183-1184	,	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+10-12	1185-1189	sand	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[48]	_	
+10-13	1190-1193	and	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+10-14	1194-1200	gravel	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[48]	_	
+10-15	1201-1206	which	_	_	_	_	_	
+10-16	1207-1212	cover	_	_	_	HAS\_LOCATION[49]	_	
+10-17	1213-1216	the	_	_	_	HAS\_LOCATION[49]	_	
+10-18	1217-1224	bedrock	_	D.1 Abiotic[11]	_	HAS\_LOCATION[49]	_	
+10-19	1225-1230	floor	_	D.1 Abiotic[11]	_	HAS\_LOCATION[49]	_	
+10-20	1231-1233	or	_	_	_	_	_	
+10-21	1234-1243	partially	_	_	_	HAS\_RESULT[50]	_	
+10-22	1244-1246	or	_	_	_	HAS\_RESULT[50]	_	
+10-23	1247-1253	wholly	_	_	_	HAS\_RESULT[50]	_	
+10-24	1254-1259	block	_	B. Process	_	HAS\_RESULT[50]	_	
+10-25	1260-1264	some	_	_	_	HAS\_RESULT[50]	_	
+10-26	1265-1269	part	_	_	_	HAS\_RESULT[50]	_	
+10-27	1270-1272	of	_	_	_	HAS\_RESULT[50]	_	
+10-28	1273-1274	a	_	_	_	HAS\_RESULT[50]	_	
+10-29	1275-1279	cave	_	A.2 Underground landform	_	HAS\_RESULT[50]	_	
+10-30	1279-1280	.	_	_	_	_	_	
+
+#Text=cave pearl - a smooth, polished and rounded speleothem found in shallow hollows into which water drips.
+11-1	1284-1288	cave	_	A.2 Underground landform[12]	DEFINIENDUM[22]	_	_	
+11-2	1289-1294	pearl	_	A.2 Underground landform[12]	DEFINIENDUM[22]	_	_	
+11-3	1295-1296	-	_	_	_	_	_	
+11-4	1297-1298	a	_	_	_	_	_	
+11-5	1299-1305	smooth	_	_	_	HAS\_FORM	_	
+11-6	1305-1306	,	_	_	_	_	_	
+11-7	1307-1315	polished	_	_	_	HAS\_FORM	_	
+11-8	1316-1319	and	_	_	_	_	_	
+11-9	1320-1327	rounded	_	_	_	HAS\_FORM	_	
+11-10	1328-1338	speleothem	_	A.2 Underground landform	GENUS	_	_	
+11-11	1339-1344	found	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[67]	
+11-12	1345-1347	in	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[67]	
+11-13	1348-1355	shallow	_	_	_	HAS\_LOCATION[51]	_	
+11-14	1356-1363	hollows	_	D.1 Abiotic	_	HAS\_LOCATION[51]	_	
+11-15	1364-1368	into	_	_	_	HAS\_LOCATION[51]	_	
+11-16	1369-1374	which	_	_	_	HAS\_LOCATION[51]	_	
+11-17	1375-1380	water	_	D.1 Abiotic	_	HAS\_LOCATION[51]	_	
+11-18	1381-1386	drips	_	B.1 Movement	_	HAS\_LOCATION[51]	_	
+11-19	1386-1387	.	_	_	_	_	_	
+
+#Text=cave spring - a natural flow of water from rock or sediment inside a cave.
+12-1	1392-1396	cave	_	A.3 Hydrological form[13]	DEFINIENDUM[23]	_	_	
+12-2	1397-1403	spring	_	A.3 Hydrological form[13]	DEFINIENDUM[23]	_	_	
+12-3	1404-1405	-	_	_	_	_	_	
+12-4	1406-1407	a	_	_	_	_	_	
+12-5	1408-1415	natural	_	_	_	_	_	
+12-6	1416-1420	flow	_	_	GENUS[24]	_	_	
+12-7	1421-1423	of	_	_	GENUS[24]	_	_	
+12-8	1424-1429	water	_	_	GENUS[24]	_	_	
+12-9	1430-1434	from	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+12-10	1435-1439	rock	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[52]	_	
+12-11	1440-1442	or	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+12-12	1443-1451	sediment	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[52]	_	
+12-13	1452-1458	inside	_	_	_	HAS\_LOCATION[53]	frame\_LOCATION[68]	
+12-14	1459-1460	a	_	_	_	HAS\_LOCATION[53]	frame\_LOCATION[68]	
+12-15	1461-1465	cave	_	A.2 Underground landform	_	HAS\_LOCATION[53]	_	
+12-16	1465-1466	.	_	_	_	_	_	
+
+#Text=cave system - a collection of caves interconnected by enterable passages or linked hydrologically or a cave with an extensive complex of chambers and passages.
+13-1	1470-1474	cave	_	A.2 Underground landform[14]	DEFINIENDUM[25]	_	_	
+13-2	1475-1481	system	_	A.2 Underground landform[14]	DEFINIENDUM[25]	_	_	
+13-3	1482-1483	-	_	_	_	_	_	
+13-4	1484-1485	a	_	_	_	_	_	
+13-5	1486-1496	collection	_	_	GENUS[26]	_	_	
+13-6	1497-1499	of	_	_	GENUS[26]	_	_	
+13-7	1500-1505	caves	_	A.2 Underground landform	GENUS[26]	CONTAINS[54]	_	
+13-8	1506-1520	interconnected	_	_	_	CONTAINS[54]	_	
+13-9	1521-1523	by	_	_	_	CONTAINS[54]	_	
+13-10	1524-1533	enterable	_	_	_	CONTAINS[54]	_	
+13-11	1534-1542	passages	_	D.1 Abiotic	_	CONTAINS[54]	_	
+13-12	1543-1545	or	_	_	_	_	_	
+13-13	1546-1552	linked	caves linked hydrologically[1]	_	_	CONTAINS[55]	_	
+13-14	1553-1567	hydrologically	caves linked hydrologically[1]	_	_	CONTAINS[55]	_	
+13-15	1568-1570	or	_	_	_	_	_	
+13-16	1571-1572	a	_	_	_	_	_	
+13-17	1573-1577	cave	_	_	_	_	_	
+13-18	1578-1582	with	_	_	_	_	frame\_CONTAINS[69]	
+13-19	1583-1585	an	_	_	_	_	frame\_CONTAINS[69]	
+13-20	1586-1595	extensive	_	_	_	CONTAINS[56]	frame\_CONTAINS[69]	
+13-21	1596-1603	complex	_	_	_	CONTAINS[56]	frame\_CONTAINS[69]	
+13-22	1604-1606	of	_	_	_	CONTAINS[56]	frame\_CONTAINS[69]	
+13-23	1607-1615	chambers	_	D.1 Abiotic	_	CONTAINS[56]	_	
+13-24	1616-1619	and	_	_	_	CONTAINS[56]	_	
+13-25	1620-1628	passages	_	D.1 Abiotic	_	CONTAINS[56]	_	
+13-26	1628-1629	.	_	_	_	_	_	
+
+#Text=cavern - a very large chamber within a cave.
+14-1	1633-1639	cavern	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	1640-1641	-	_	_	_	_	_	
+14-3	1642-1643	a	_	_	_	_	_	
+14-4	1644-1648	very	_	_	_	HAS\_SIZE[57]	_	
+14-5	1649-1654	large	_	_	_	HAS\_SIZE[57]	_	
+14-6	1655-1662	chamber	_	D.1 Abiotic	GENUS	_	_	
+14-7	1663-1669	within	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[70]	
+14-8	1670-1671	a	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[70]	
+14-9	1672-1676	cave	_	A.2 Underground landform	_	HAS\_LOCATION[58]	_	
+14-10	1676-1677	.	_	_	_	_	_	
+
+#Text=cenote - a partly water-tilled, wall-sided doline.
+15-1	1681-1687	cenote	_	A.1 Surface landform	DEFINIENDUM	_	_	
+15-2	1688-1689	-	_	_	_	_	_	
+15-3	1690-1691	a	_	_	_	_	_	
+15-4	1692-1698	partly	_	_	_	_	_	
+15-5	1699-1711	water-tilled	_	_	_	HAS\_ATTRIBUTE	_	
+15-6	1711-1712	,	_	_	_	_	_	
+15-7	1713-1723	wall-sided	_	_	_	HAS\_FORM	_	
+15-8	1724-1730	doline	_	A.1 Surface landform	GENUS	_	_	
+15-9	1730-1731	.	_	_	_	_	_	

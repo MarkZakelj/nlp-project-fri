@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=The Jelar Breccia is a massive, thick-bedded carbonate rock, comprised predominantly of angular, poorly sorted debris.
+1-1	0-3	The	_	_	_	_	_	
+1-2	4-9	Jelar	_	D.1 Abiotic[1]	DEFINIENDUM[22]	_	_	
+1-3	10-17	Breccia	_	D.1 Abiotic[1]	DEFINIENDUM[22]	_	_	
+1-4	18-20	is	_	_	DEFINITOR[23]	_	_	
+1-5	21-22	a	_	_	DEFINITOR[23]	_	_	
+1-6	23-30	massive	_	_	_	HAS\_ATTRIBUTE[42]	_	
+1-7	30-31	,	_	_	_	HAS\_ATTRIBUTE[42]	_	
+1-8	32-44	thick-bedded	_	_	_	HAS\_ATTRIBUTE[42]	_	
+1-9	45-54	carbonate	_	D.1 Abiotic[2]	GENUS[24]	HAS\_ATTRIBUTE[42]	_	
+1-10	55-59	rock	_	D.1 Abiotic[2]	GENUS[24]	HAS\_ATTRIBUTE[42]	_	
+1-11	59-60	,	_	_	_	_	_	
+1-12	61-70	comprised	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[57]	
+1-13	71-84	predominantly	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[57]	
+1-14	85-87	of	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[57]	
+1-15	88-95	angular	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+1-16	95-96	,	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+1-17	97-103	poorly	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+1-18	104-110	sorted	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+1-19	111-117	debris	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+1-20	117-118	.	_	_	_	_	_	
+
+#Text=Smaller relief features are uvalas, dolines, dry valleys, collapsed dolines, and caves.
+2-1	119-126	Smaller	_	_	DEFINIENDUM[25]	_	_	
+2-2	127-133	relief	_	D.1 Abiotic[3]	DEFINIENDUM[25]	_	_	
+2-3	134-142	features	_	D.1 Abiotic[3]	DEFINIENDUM[25]	_	_	
+2-4	143-146	are	_	_	DEFINITOR	_	_	
+2-5	147-153	uvalas	_	A.1 Surface landform	SPECIES	_	_	
+2-6	153-154	,	_	_	_	_	_	
+2-7	155-162	dolines	_	A.1 Surface landform	SPECIES	_	_	
+2-8	162-163	,	_	_	_	_	_	
+2-9	164-167	dry	_	A.1 Surface landform[4]	SPECIES[26]	_	_	
+2-10	168-175	valleys	_	A.1 Surface landform[4]	SPECIES[26]	_	_	
+2-11	175-176	,	_	_	_	_	_	
+2-12	177-186	collapsed	_	A.1 Surface landform[5]	SPECIES[27]	_	_	
+2-13	187-194	dolines	_	A.1 Surface landform[5]	SPECIES[27]	_	_	
+2-14	194-195	,	_	_	_	_	_	
+2-15	196-199	and	_	_	_	_	_	
+2-16	200-205	caves	_	A.2 Underground landform	SPECIES	_	_	
+2-17	205-206	.	_	_	_	_	_	
+
+#Text=Karren is a common term used for dissolution features on exposed soluble rock surfaces.
+3-1	207-213	Karren	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-2	214-216	is	_	_	_	_	_	
+3-3	217-218	a	_	_	DEFINITOR[28]	_	_	
+3-4	219-225	common	_	_	DEFINITOR[28]	_	_	
+3-5	226-230	term	_	_	DEFINITOR[28]	_	_	
+3-6	231-235	used	_	_	DEFINITOR[28]	_	_	
+3-7	236-239	for	_	_	DEFINITOR[28]	_	_	
+3-8	240-251	dissolution	_	D.1 Abiotic[6]	GENUS[29]	_	_	
+3-9	252-260	features	_	D.1 Abiotic[6]	GENUS[29]	_	_	
+3-10	261-263	on	_	_	_	HAS\_LOCATION[44]	frame\_LOCATION	
+3-11	264-271	exposed	_	_	_	HAS\_LOCATION[44]	_	
+3-12	272-279	soluble	_	D.1 Abiotic[7]	_	HAS\_LOCATION[44]	_	
+3-13	280-284	rock	_	D.1 Abiotic[7]|D.1 Abiotic[8]	_	HAS\_LOCATION[44]	_	
+3-14	285-293	surfaces	_	D.1 Abiotic[8]	_	HAS\_LOCATION[44]	_	
+3-15	293-294	.	_	_	_	_	_	
+
+#Text=Characteristic form of corrosion is rillenkarren.
+4-1	295-309	Characteristic	_	_	_	_	_	
+4-2	310-314	form	_	_	_	HAS\_CAUSE[45]	_	
+4-3	315-317	of	_	_	_	HAS\_CAUSE[45]	_	
+4-4	318-327	corrosion	_	B.4 Transformation	_	HAS\_CAUSE[45]	_	
+4-5	328-330	is	_	_	_	_	_	
+4-6	331-343	rillenkarren	_	A.1 Surface landform	DEFINIENDUM	_	_	
+4-7	343-344	.	_	_	_	_	_	
+
+#Text=Karst poljes are the largest flat-floored enclosed depressions in karst.
+5-1	345-350	Karst	_	A.1 Surface landform[9]	DEFINIENDUM[30]	_	_	
+5-2	351-357	poljes	_	A.1 Surface landform[9]	DEFINIENDUM[30]	_	_	
+5-3	358-361	are	_	_	DEFINITOR	_	_	
+5-4	362-365	the	_	_	_	_	_	
+5-5	366-373	largest	_	_	_	HAS\_FORM[46]	_	
+5-6	374-386	flat-floored	_	_	_	HAS\_FORM[46]	_	
+5-7	387-395	enclosed	_	_	_	HAS\_FORM[46]	_	
+5-8	396-407	depressions	_	D.1 Abiotic	GENUS	HAS\_FORM[46]	_	
+5-9	408-410	in	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION	
+5-10	411-416	karst	_	C. Geome	_	HAS\_LOCATION[47]	_	
+5-11	416-417	.	_	_	_	_	_	
+
+#Text=Uvalas are large, km-scale closed karst depressions of elongated or irregular plan form.
+6-1	418-424	Uvalas	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-2	425-428	are	_	_	DEFINITOR	_	_	
+6-3	429-434	large	_	_	_	HAS\_SIZE	_	
+6-4	434-435	,	_	_	_	_	_	
+6-5	436-444	km-scale	_	_	_	_	_	
+6-6	445-451	closed	_	_	_	HAS\_FORM	_	
+6-7	452-457	karst	_	A.1 Surface landform[10]	GENUS[31]	_	_	
+6-8	458-469	depressions	_	A.1 Surface landform[10]	GENUS[31]	_	_	
+6-9	470-472	of	_	_	_	HAS\_FORM[48]	frame\_FORM	
+6-10	473-482	elongated	_	_	_	HAS\_FORM[48]	_	
+6-11	483-485	or	_	_	_	HAS\_FORM[48]	_	
+6-12	486-495	irregular	_	_	_	HAS\_FORM[48]	_	
+6-13	496-500	plan	_	_	_	HAS\_FORM[48]	_	
+6-14	501-505	form	_	_	_	HAS\_FORM[48]	_	
+6-15	505-506	.	_	_	_	_	_	
+
+#Text=The word “uvala” is a common toponym in the Dinaric karst, always denoting a large depression.
+7-1	507-510	The	_	_	_	_	_	
+7-2	511-515	word	_	_	_	_	_	
+7-3	516-517	“	_	_	_	_	_	
+7-4	517-522	uvala	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-5	522-523	”	_	_	_	_	_	
+7-6	524-526	is	_	_	DEFINITOR[32]	_	_	
+7-7	527-528	a	_	_	DEFINITOR[32]	_	_	
+7-8	529-535	common	_	_	_	_	_	
+7-9	536-543	toponym	_	_	_	_	_	
+7-10	544-546	in	_	_	_	HAS\_POSITION[49]	frame\_POSITION	
+7-11	547-550	the	_	_	_	HAS\_POSITION[49]	_	
+7-12	551-558	Dinaric	_	D.3.1 Geolocation[11]	_	HAS\_POSITION[49]	_	
+7-13	559-564	karst	_	D.3.1 Geolocation[11]	_	HAS\_POSITION[49]	_	
+7-14	564-565	,	_	_	_	_	_	
+7-15	566-572	always	_	_	_	_	_	
+7-16	573-581	denoting	_	_	_	HAS\_FORM[50]	_	
+7-17	582-583	a	_	_	_	HAS\_FORM[50]	_	
+7-18	584-589	large	_	_	_	HAS\_FORM[50]	_	
+7-19	590-600	depression	_	D.1 Abiotic	GENUS	HAS\_FORM[50]	_	
+7-20	600-601	.	_	_	_	_	_	
+
+#Text=The cave roof collapse is a slow process that proceeds by the breaking of the walls and ceiling until equilibrium is established on the slopes of the doline.
+8-1	602-605	The	_	_	_	_	_	
+8-2	606-610	cave	_	B.1 Movement[12]	DEFINIENDUM[33]	_	_	
+8-3	611-615	roof	_	B.1 Movement[12]	DEFINIENDUM[33]	_	_	
+8-4	616-624	collapse	_	B.1 Movement[12]|B.1 Movement[13]	DEFINIENDUM[33]	_	_	
+8-5	625-627	is	_	_	DEFINITOR[34]	_	_	
+8-6	628-629	a	_	_	DEFINITOR[34]	_	_	
+8-7	630-634	slow	_	_	_	_	_	
+8-8	635-642	process	_	B. Process	GENUS	_	_	
+8-9	643-647	that	_	_	_	_	_	
+8-10	648-656	proceeds	_	_	_	AFFECTS[51]	_	
+8-11	657-659	by	_	_	_	AFFECTS[51]	_	
+8-12	660-663	the	_	_	_	AFFECTS[51]	_	
+8-13	664-672	breaking	_	B.1 Movement	_	AFFECTS[51]	_	
+8-14	673-675	of	_	_	_	AFFECTS[51]	_	
+8-15	676-679	the	_	_	_	AFFECTS[51]	_	
+8-16	680-685	walls	wall	D.1 Abiotic	_	AFFECTS[51]	_	
+8-17	686-689	and	_	_	_	AFFECTS[51]	_	
+8-18	690-697	ceiling	_	D.1 Abiotic	_	AFFECTS[51]	_	
+8-19	698-703	until	_	_	_	HAS\_RESULT[52]	frame\_RESULT	
+8-20	704-715	equilibrium	_	D.3 Property	_	HAS\_RESULT[52]	_	
+8-21	716-718	is	_	_	_	HAS\_RESULT[52]	_	
+8-22	719-730	established	_	_	_	HAS\_RESULT[52]	_	
+8-23	731-733	on	_	_	_	HAS\_RESULT[52]	_	
+8-24	734-737	the	_	_	_	HAS\_RESULT[52]	_	
+8-25	738-744	slopes	_	_	_	HAS\_RESULT[52]	_	
+8-26	745-747	of	_	_	_	HAS\_RESULT[52]	_	
+8-27	748-751	the	_	_	_	HAS\_RESULT[52]	_	
+8-28	752-758	doline	_	A.1 Surface landform	_	HAS\_RESULT[52]	_	
+8-29	758-759	.	_	_	_	_	_	
+
+#Text=Caves are active or relict parts of the karst drainage system.
+9-1	760-765	Caves	_	A.2 Underground landform	DEFINIENDUM	_	_	
+9-2	766-769	are	_	_	DEFINITOR	_	_	
+9-3	770-776	active	_	_	_	_	_	
+9-4	777-779	or	_	_	_	_	_	
+9-5	780-786	relict	_	_	_	_	_	
+9-6	787-792	parts	_	_	_	_	_	
+9-7	793-795	of	_	_	_	_	_	
+9-8	796-799	the	_	_	_	_	_	
+9-9	800-805	karst	_	C. Geome[14]	GENUS[35]	_	_	
+9-10	806-814	drainage	_	C. Geome[14]	GENUS[35]	_	_	
+9-11	815-821	system	_	C. Geome[14]	GENUS[35]	_	_	
+9-12	821-822	.	_	_	_	_	_	
+
+#Text=The dissolution of rock is the decisive process in the formation of karst.
+10-1	823-826	The	_	_	_	_	_	
+10-2	827-838	dissolution	_	B.2 Loss[15]|B.2 Loss[16]	DEFINIENDUM[36]	_	_	
+10-3	839-841	of	_	B.2 Loss[15]	DEFINIENDUM[36]	_	_	
+10-4	842-846	rock	_	B.2 Loss[15]	DEFINIENDUM[36]	_	_	
+10-5	847-849	is	_	_	DEFINITOR	_	_	
+10-6	850-853	the	_	_	_	_	_	
+10-7	854-862	decisive	_	_	_	_	_	
+10-8	863-870	process	_	B. Process	GENUS	_	_	
+10-9	871-873	in	_	_	_	HAS\_ATTRIBUTE[53]	frame\_ATTRIBUTE	
+10-10	874-877	the	_	_	_	HAS\_ATTRIBUTE[53]	_	
+10-11	878-887	formation	_	_	_	HAS\_ATTRIBUTE[53]	_	
+10-12	888-890	of	_	_	_	HAS\_ATTRIBUTE[53]	_	
+10-13	891-896	karst	_	C. Geome	_	HAS\_ATTRIBUTE[53]	_	
+10-14	896-897	.	_	_	_	_	_	
+
+#Text=Shilin is a type of pinnacle karst formed on a plateau of gently dipping limestone (Knez & Slabe 2002).
+11-1	898-904	Shilin	_	C. Geome	DEFINIENDUM	_	_	
+11-2	905-907	is	_	_	DEFINITOR[37]	_	_	
+11-3	908-909	a	_	_	DEFINITOR[37]	_	_	
+11-4	910-914	type	_	_	DEFINITOR[37]	_	_	
+11-5	915-917	of	_	_	DEFINITOR[37]	_	_	
+11-6	918-926	pinnacle	_	C. Geome[17]	GENUS[38]	_	_	
+11-7	927-932	karst	_	C. Geome[17]	GENUS[38]	_	_	
+11-8	933-939	formed	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[58]	
+11-9	940-942	on	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[58]	
+11-10	943-944	a	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[58]	
+11-11	945-952	plateau	_	_	_	HAS\_LOCATION[54]	_	
+11-12	953-955	of	_	_	_	HAS\_LOCATION[54]	_	
+11-13	956-962	gently	_	_	_	HAS\_LOCATION[54]	_	
+11-14	963-970	dipping	_	_	_	HAS\_LOCATION[54]	_	
+11-15	971-980	limestone	_	D.1 Abiotic	_	HAS\_LOCATION[54]	_	
+11-16	981-982	(	_	_	_	_	_	
+11-17	982-986	Knez	_	_	_	_	_	
+11-18	987-988	&	_	_	_	_	_	
+11-19	989-994	Slabe	_	_	_	_	_	
+11-20	995-999	2002	_	_	_	_	_	
+11-21	999-1000	)	_	_	_	_	_	
+11-22	1000-1001	.	_	_	_	_	_	
+
+#Text=Stone forest refers to a particular karst landscape, composed of a group of densely distributed limestone columns standing on an undulating karst plateau.
+12-1	1002-1007	Stone	_	A.1 Surface landform[18]	DEFINIENDUM[39]	_	_	
+12-2	1008-1014	forest	_	A.1 Surface landform[18]	DEFINIENDUM[39]	_	_	
+12-3	1015-1021	refers	_	_	DEFINITOR[40]	_	_	
+12-4	1022-1024	to	_	_	DEFINITOR[40]	_	_	
+12-5	1025-1026	a	_	_	DEFINITOR[40]	_	_	
+12-6	1027-1037	particular	_	_	_	_	_	
+12-7	1038-1043	karst	_	C. Geome[19]	GENUS[41]	_	_	
+12-8	1044-1053	landscape	_	C. Geome[19]	GENUS[41]	_	_	
+12-9	1053-1054	,	_	_	_	_	_	
+12-10	1055-1063	composed	_	_	_	COMPOSITION\_MEDIUM[55]	frame\_COMPOSITION[59]	
+12-11	1064-1066	of	_	_	_	COMPOSITION\_MEDIUM[55]	frame\_COMPOSITION[59]	
+12-12	1067-1068	a	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+12-13	1069-1074	group	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+12-14	1075-1077	of	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+12-15	1078-1085	densely	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+12-16	1086-1097	distributed	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+12-17	1098-1107	limestone	_	D.1 Abiotic[20]	_	COMPOSITION\_MEDIUM[55]	_	
+12-18	1108-1115	columns	_	D.1 Abiotic[20]	_	COMPOSITION\_MEDIUM[55]	_	
+12-19	1116-1124	standing	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[60]	
+12-20	1125-1127	on	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[60]	
+12-21	1128-1130	an	_	_	_	HAS\_LOCATION[56]	_	
+12-22	1131-1141	undulating	_	_	_	HAS\_LOCATION[56]	_	
+12-23	1142-1147	karst	_	A.1 Surface landform[21]	_	HAS\_LOCATION[56]	_	
+12-24	1148-1155	plateau	_	A.1 Surface landform[21]	_	HAS\_LOCATION[56]	_	
+12-25	1155-1156	.	_	_	_	_	_	

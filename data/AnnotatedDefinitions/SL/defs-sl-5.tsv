@@ -1,0 +1,357 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Cvijić je izraz fluviokras za območja na karbonatnih kamninah, kjer prevladuje površinski odtok vode, uporabil že leta 1900 v razpravi o kraških poljih zahodne Bosne in Hercegovine, vendar ni podrobneje opredelil njegovega pomena.
+1-1	0-6	Cvijić	_	_	_	_	_	
+1-2	7-9	je	_	_	DEFINITOR[36]	_	_	
+1-3	10-15	izraz	_	_	DEFINITOR[36]	_	_	
+1-4	16-26	fluviokras	_	C. Geome	DEFINIENDUM	_	_	
+1-5	27-29	za	_	_	_	_	_	
+1-6	30-37	območja	_	_	DEFINITOR	_	_	
+1-7	38-40	na	_	_	_	COMPOSITION\_MEDIUM[58]	frame\_COMPOSITION	
+1-8	41-52	karbonatnih	_	D.1 Abiotic[1]	_	COMPOSITION\_MEDIUM[58]	_	
+1-9	53-61	kamninah	_	D.1 Abiotic[1]	_	COMPOSITION\_MEDIUM[58]	_	
+1-10	61-62	,	_	_	_	_	_	
+1-11	63-67	kjer	_	_	_	_	_	
+1-12	68-78	prevladuje	_	_	_	HAS\_ATTRIBUTE[59]	frame\_ATTRIBUTE	
+1-13	79-89	površinski	_	B.1 Movement[2]	_	HAS\_ATTRIBUTE[59]	_	
+1-14	90-95	odtok	_	B.1 Movement[2]	_	HAS\_ATTRIBUTE[59]	_	
+1-15	96-100	vode	_	B.1 Movement[2]	_	HAS\_ATTRIBUTE[59]	_	
+1-16	100-101	,	_	_	_	_	_	
+1-17	102-110	uporabil	_	_	_	_	_	
+1-18	111-113	že	_	_	_	_	_	
+1-19	114-118	leta	_	_	_	_	_	
+1-20	119-123	1900	_	_	_	_	_	
+1-21	124-125	v	_	_	_	_	_	
+1-22	126-134	razpravi	_	_	_	_	_	
+1-23	135-136	o	_	_	_	_	_	
+1-24	137-144	kraških	_	A.1 Surface landform[3]	_	_	_	
+1-25	145-151	poljih	_	A.1 Surface landform[3]	_	_	_	
+1-26	152-159	zahodne	_	_	_	_	_	
+1-27	160-165	Bosne	_	D.3.1 Geolocation[4]	_	_	_	
+1-28	166-168	in	_	D.3.1 Geolocation[4]	_	_	_	
+1-29	169-180	Hercegovine	_	D.3.1 Geolocation[4]	_	_	_	
+1-30	180-181	,	_	_	_	_	_	
+1-31	182-188	vendar	_	_	_	_	_	
+1-32	189-191	ni	_	_	_	_	_	
+1-33	192-202	podrobneje	_	_	_	_	_	
+1-34	203-212	opredelil	_	_	_	_	_	
+1-35	213-222	njegovega	_	_	_	_	_	
+1-36	223-229	pomena	_	_	_	_	_	
+1-37	229-230	.	_	_	_	_	_	
+
+#Text=Temperaturni obrat je pojav, pri katerem temperatura zraka z višino narašča, namesto da bi padala.
+2-1	231-243	Temperaturni	_	D.3 Property[5]	DEFINIENDUM[37]	_	_	
+2-2	244-249	obrat	_	D.3 Property[5]	DEFINIENDUM[37]	_	_	
+2-3	250-252	je	_	_	DEFINITOR	_	_	
+2-4	253-258	pojav	_	_	GENUS	_	_	
+2-5	258-259	,	_	_	_	_	_	
+2-6	260-263	pri	_	_	_	_	_	
+2-7	264-271	katerem	_	_	_	_	_	
+2-8	272-283	temperatura	_	D.3 Property[6]	_	HAS\_ATTRIBUTE[60]	_	
+2-9	284-289	zraka	_	D.3 Property[6]	_	HAS\_ATTRIBUTE[60]	_	
+2-10	290-291	z	_	_	_	HAS\_ATTRIBUTE[60]	_	
+2-11	292-298	višino	_	_	_	HAS\_ATTRIBUTE[60]	_	
+2-12	299-306	narašča	_	B. Process	_	HAS\_ATTRIBUTE[60]	_	
+2-13	306-307	,	_	_	_	HAS\_ATTRIBUTE[60]	_	
+2-14	308-315	namesto	_	_	_	HAS\_ATTRIBUTE[60]	_	
+2-15	316-318	da	_	_	_	HAS\_ATTRIBUTE[60]	_	
+2-16	319-321	bi	_	_	_	HAS\_ATTRIBUTE[60]	_	
+2-17	322-328	padala	_	_	_	HAS\_ATTRIBUTE[60]	_	
+2-18	328-329	.	_	_	_	_	_	
+
+#Text=Kopaste vzpetine, ki jih na tem območju najpogosteje imenujejo glavice ali kuki, se dvigujejo od nekaj 10 do 200 m nad okoliško površje in so v tlorisu okroglaste oblike.
+3-1	330-337	Kopaste	_	A.1 Surface landform[7]	GENUS[38]	HAS\_FORM	_	
+3-2	338-346	vzpetine	_	A.1 Surface landform[7]	GENUS[38]	_	_	
+3-3	346-347	,	_	_	_	_	_	
+3-4	348-350	ki	_	_	_	_	_	
+3-5	351-354	jih	_	_	DEFINITOR	_	_	
+3-6	355-357	na	_	_	_	_	_	
+3-7	358-361	tem	_	_	_	_	_	
+3-8	362-369	območju	_	_	_	_	_	
+3-9	370-382	najpogosteje	_	_	_	_	_	
+3-10	383-392	imenujejo	_	_	DEFINITOR	_	_	
+3-11	393-400	glavice	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-12	401-404	ali	_	_	_	_	_	
+3-13	405-409	kuki	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-14	409-410	,	_	_	_	_	_	
+3-15	411-413	se	_	_	_	HAS\_SIZE[61]	frame\_SIZE[83]	
+3-16	414-423	dvigujejo	_	_	_	HAS\_SIZE[61]	frame\_SIZE[83]	
+3-17	424-426	od	_	_	_	HAS\_SIZE[61]	_	
+3-18	427-432	nekaj	_	_	_	HAS\_SIZE[61]	_	
+3-19	433-435	10	_	_	_	HAS\_SIZE[61]	_	
+3-20	436-438	do	_	_	_	HAS\_SIZE[61]	_	
+3-21	439-442	200	_	_	_	HAS\_SIZE[61]	_	
+3-22	443-444	m	_	_	_	HAS\_SIZE[61]	frame\_SIZE[84]	
+3-23	445-448	nad	_	_	_	HAS\_SIZE[61]	frame\_SIZE[84]	
+3-24	449-457	okoliško	_	_	_	HAS\_SIZE[61]	frame\_SIZE[84]	
+3-25	458-465	površje	_	_	_	HAS\_SIZE[61]	frame\_SIZE[84]	
+3-26	466-468	in	_	_	_	_	_	
+3-27	469-471	so	_	_	_	HAS\_FORM[62]	frame\_FORM[85]	
+3-28	472-473	v	_	_	_	HAS\_FORM[62]	frame\_FORM[85]	
+3-29	474-481	tlorisu	_	_	_	HAS\_FORM[62]	frame\_FORM[85]	
+3-30	482-492	okroglaste	_	_	_	HAS\_FORM[62]	_	
+3-31	493-499	oblike	_	_	_	HAS\_FORM[62]	_	
+3-32	499-500	.	_	_	_	_	_	
+
+#Text=Tovrstno izoblikovanost krasa, kjer se osamljeno dvigajo več deset ali sto metrov visoke vzpetine, imenujemo kopasti kras.
+4-1	501-509	Tovrstno	_	_	_	_	_	
+4-2	510-524	izoblikovanost	_	_	_	_	_	
+4-3	525-530	krasa	_	C. Geome	GENUS	_	_	
+4-4	530-531	,	_	_	_	_	_	
+4-5	532-536	kjer	_	_	_	HAS\_FORM[63]	frame\_FORM[86]	
+4-6	537-539	se	_	_	_	HAS\_FORM[63]	frame\_FORM[86]	
+4-7	540-549	osamljeno	_	_	_	HAS\_FORM[63]	frame\_FORM[86]	
+4-8	550-557	dvigajo	_	_	_	HAS\_FORM[63]	frame\_FORM[86]	
+4-9	558-561	več	_	_	_	HAS\_FORM[63]	_	
+4-10	562-567	deset	_	_	_	HAS\_FORM[63]	_	
+4-11	568-571	ali	_	_	_	HAS\_FORM[63]	_	
+4-12	572-575	sto	_	_	_	HAS\_FORM[63]	_	
+4-13	576-582	metrov	_	_	_	HAS\_FORM[63]	_	
+4-14	583-589	visoke	_	_	_	HAS\_FORM[63]	_	
+4-15	590-598	vzpetine	_	_	_	HAS\_FORM[63]	_	
+4-16	598-599	,	_	_	_	_	_	
+4-17	600-609	imenujemo	_	_	_	_	_	
+4-18	610-617	kopasti	_	C. Geome[8]	DEFINIENDUM[39]	_	_	
+4-19	618-622	kras	_	C. Geome[8]	DEFINIENDUM[39]	_	_	
+4-20	622-623	.	_	_	_	_	_	
+
+#Text=Tip kraškega površja, kjer je prevladujoča oblika vrtače, imenujemo vrtačasti kras in je prevladujoč tip kraškega površja v zmernotoplem pasu in tudi na Dinarskem krasu.
+5-1	624-627	Tip	_	_	_	_	_	
+5-2	628-636	kraškega	_	_	_	_	_	
+5-3	637-644	površja	_	_	_	_	_	
+5-4	644-645	,	_	_	_	_	_	
+5-5	646-650	kjer	_	_	_	_	_	
+5-6	651-653	je	_	_	_	_	_	
+5-7	654-666	prevladujoča	_	_	_	_	_	
+5-8	667-673	oblika	_	_	_	_	_	
+5-9	674-680	vrtače	_	A.1 Surface landform	_	CONTAINS	_	
+5-10	680-681	,	_	_	_	_	_	
+5-11	682-691	imenujemo	_	_	DEFINITOR	_	_	
+5-12	692-701	vrtačasti	_	C. Geome[9]	DEFINIENDUM[40]	_	_	
+5-13	702-706	kras	_	C. Geome[9]	DEFINIENDUM[40]	_	_	
+5-14	707-709	in	_	_	_	_	_	
+5-15	710-712	je	_	_	_	HAS\_LOCATION[64]	frame\_LOCATION[87]	
+5-16	713-724	prevladujoč	_	_	_	HAS\_LOCATION[64]	frame\_LOCATION[87]	
+5-17	725-728	tip	_	_	GENUS[41]	HAS\_LOCATION[64]	frame\_LOCATION[87]	
+5-18	729-737	kraškega	_	_	GENUS[41]	HAS\_LOCATION[64]	_	
+5-19	738-745	površja	_	_	GENUS[41]	HAS\_LOCATION[64]	_	
+5-20	746-747	v	_	_	_	HAS\_LOCATION[64]	_	
+5-21	748-760	zmernotoplem	_	D.3.1 Geolocation[10]	_	HAS\_LOCATION[64]	_	
+5-22	761-765	pasu	_	D.3.1 Geolocation[10]	_	HAS\_LOCATION[64]	_	
+5-23	766-768	in	_	_	_	_	_	
+5-24	769-773	tudi	_	_	_	_	_	
+5-25	774-776	na	_	_	_	HAS\_POSITION[65]	frame\_POSITION	
+5-26	777-786	Dinarskem	_	D.3.1 Geolocation[11]	_	HAS\_POSITION[65]	_	
+5-27	787-792	krasu	_	D.3.1 Geolocation[11]	_	HAS\_POSITION[65]	_	
+5-28	792-793	.	_	_	_	_	_	
+
+#Text=Glaciokras je geomorfni sistem, ki združuje kraške oblike in hidrologijo s podedovanimi ledeniškimi oblikami; je rezultat delovanja poledenitve na kraški geomorfni sistem.
+6-1	794-804	Glaciokras	_	C. Geome	DEFINIENDUM	_	_	
+6-2	805-807	je	_	_	DEFINITOR	_	_	
+6-3	808-817	geomorfni	_	C. Geome[12]	GENUS[42]	_	_	
+6-4	818-824	sistem	_	C. Geome[12]	GENUS[42]	_	_	
+6-5	824-825	,	_	_	_	_	_	
+6-6	826-828	ki	_	_	_	_	_	
+6-7	829-837	združuje	_	_	_	HAS\_FORM[66]	frame\_FORM	
+6-8	838-844	kraške	_	_	_	HAS\_FORM[66]	_	
+6-9	845-851	oblike	_	_	_	HAS\_FORM[66]	_	
+6-10	852-854	in	_	_	_	HAS\_FORM[66]	_	
+6-11	855-866	hidrologijo	_	_	_	HAS\_FORM[66]	_	
+6-12	867-868	s	_	_	_	HAS\_FORM[66]	_	
+6-13	869-881	podedovanimi	_	_	_	HAS\_FORM[66]	_	
+6-14	882-893	ledeniškimi	_	D.1 Abiotic[13]	_	HAS\_FORM[66]	_	
+6-15	894-902	oblikami	_	D.1 Abiotic[13]	_	HAS\_FORM[66]	_	
+6-16	902-903	;	_	_	_	_	_	
+6-17	904-906	je	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[88]	
+6-18	907-915	rezultat	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[88]	
+6-19	916-925	delovanja	_	_	_	HAS\_CAUSE[67]	_	
+6-20	926-937	poledenitve	_	B. Process	_	HAS\_CAUSE[67]	_	
+6-21	938-940	na	_	_	_	HAS\_CAUSE[67]	_	
+6-22	941-947	kraški	_	C. Geome[14]	_	HAS\_CAUSE[67]	_	
+6-23	948-957	geomorfni	_	C. Geome[14]	_	HAS\_CAUSE[67]	_	
+6-24	958-964	sistem	_	C. Geome[14]	_	HAS\_CAUSE[67]	_	
+6-25	964-965	.	_	_	_	_	_	
+
+#Text=Najosnovnejša značilnost glaciokraškega okolja je dobra ohranjenost ledeniških geomorfoloških oblik, saj v kraških okoljih prevladujeta kemična denudacija površja in vertikalni odtok padavinske vode v podzemlje.
+7-1	966-979	Najosnovnejša	_	_	_	_	_	
+7-2	980-990	značilnost	_	_	_	_	_	
+7-3	991-1005	glaciokraškega	_	C. Geome[15]	DEFINIENDUM[43]	_	_	
+7-4	1006-1012	okolja	_	C. Geome[15]	DEFINIENDUM[43]	_	_	
+7-5	1013-1015	je	_	_	_	_	_	
+7-6	1016-1021	dobra	_	_	_	HAS\_ATTRIBUTE[68]	_	
+7-7	1022-1033	ohranjenost	_	_	_	HAS\_ATTRIBUTE[68]	_	
+7-8	1034-1044	ledeniških	_	A.1 Surface landform[16]	_	HAS\_ATTRIBUTE[68]|CONTAINS[69]	_	
+7-9	1045-1059	geomorfoloških	_	A.1 Surface landform[16]	_	HAS\_ATTRIBUTE[68]|CONTAINS[69]	_	
+7-10	1060-1065	oblik	_	A.1 Surface landform[16]	_	HAS\_ATTRIBUTE[68]|CONTAINS[69]	_	
+7-11	1065-1066	,	_	_	_	_	_	
+7-12	1067-1070	saj	_	_	_	_	_	
+7-13	1071-1072	v	_	_	_	_	_	
+7-14	1073-1080	kraških	_	_	_	_	_	
+7-15	1081-1088	okoljih	_	_	_	_	_	
+7-16	1089-1101	prevladujeta	_	_	_	_	_	
+7-17	1102-1109	kemična	_	B.2 Loss[17]	_	HAS\_CAUSE[70]	_	
+7-18	1110-1120	denudacija	_	B.2 Loss[17]	_	HAS\_CAUSE[70]	_	
+7-19	1121-1128	površja	_	_	_	HAS\_CAUSE[70]	_	
+7-20	1129-1131	in	_	_	_	HAS\_CAUSE[70]	_	
+7-21	1132-1142	vertikalni	_	B.1 Movement[18]	_	HAS\_CAUSE[70]	_	
+7-22	1143-1148	odtok	_	B.1 Movement[18]	_	HAS\_CAUSE[70]	_	
+7-23	1149-1159	padavinske	_	B.1 Movement[18]	_	HAS\_CAUSE[70]	_	
+7-24	1160-1164	vode	_	B.1 Movement[18]	_	HAS\_CAUSE[70]	_	
+7-25	1165-1166	v	_	_	_	HAS\_CAUSE[70]	_	
+7-26	1167-1176	podzemlje	_	C. Geome	_	HAS\_CAUSE[70]	_	
+7-27	1176-1177	.	_	_	_	_	_	
+
+#Text=Fluviokras je geomorfni sistem, v katerem je kraško površje lokalno preoblikovano zaradi delovanja površinsko tekočih vod.
+8-1	1178-1188	Fluviokras	_	C. Geome	DEFINIENDUM	_	_	
+8-2	1189-1191	je	_	_	DEFINITOR	_	_	
+8-3	1192-1201	geomorfni	_	C. Geome[19]	GENUS[44]	_	_	
+8-4	1202-1208	sistem	_	C. Geome[19]	GENUS[44]	_	_	
+8-5	1208-1209	,	_	_	_	_	_	
+8-6	1210-1211	v	_	_	_	_	_	
+8-7	1212-1219	katerem	_	_	_	_	_	
+8-8	1220-1222	je	_	_	_	HAS\_CAUSE[71]	_	
+8-9	1223-1229	kraško	_	C. Geome[20]	_	HAS\_CAUSE[71]	_	
+8-10	1230-1237	površje	_	C. Geome[20]	_	HAS\_CAUSE[71]	_	
+8-11	1238-1245	lokalno	_	_	_	HAS\_CAUSE[71]	_	
+8-12	1246-1259	preoblikovano	_	_	_	HAS\_CAUSE[71]	_	
+8-13	1260-1266	zaradi	_	_	_	HAS\_CAUSE[71]	frame\_CAUSE	
+8-14	1267-1276	delovanja	_	B. Process[21]	_	HAS\_CAUSE[71]	_	
+8-15	1277-1287	površinsko	_	B. Process[21]	_	HAS\_CAUSE[71]	_	
+8-16	1288-1295	tekočih	_	B. Process[21]	_	HAS\_CAUSE[71]	_	
+8-17	1296-1299	vod	_	B. Process[21]	_	HAS\_CAUSE[71]	_	
+8-18	1299-1300	.	_	_	_	_	_	
+
+#Text=Vrtače na dolomitu so vezane tudi na močno zakrasevanje apnencev v podlagi, zato sta te vrtače avtorja poimenovala reproducirane prelomno-porušne vrtače.
+9-1	1301-1307	Vrtače	_	A.1 Surface landform	_	_	_	
+9-2	1308-1310	na	_	_	_	COMPOSITION\_MEDIUM[72]	_	
+9-3	1311-1319	dolomitu	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[72]	_	
+9-4	1320-1322	so	_	_	_	_	_	
+9-5	1323-1329	vezane	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[89]	
+9-6	1330-1334	tudi	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[89]	
+9-7	1335-1337	na	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[89]	
+9-8	1338-1343	močno	_	_	_	HAS\_CAUSE[73]	_	
+9-9	1344-1356	zakrasevanje	_	B.4 Transformation	_	HAS\_CAUSE[73]	_	
+9-10	1357-1365	apnencev	_	D.1 Abiotic	_	HAS\_CAUSE[73]	_	
+9-11	1366-1367	v	_	_	_	HAS\_CAUSE[73]	_	
+9-12	1368-1375	podlagi	_	_	_	HAS\_CAUSE[73]	_	
+9-13	1375-1376	,	_	_	_	_	_	
+9-14	1377-1381	zato	_	_	_	_	_	
+9-15	1382-1385	sta	_	_	DEFINITOR	_	_	
+9-16	1386-1388	te	_	_	_	_	_	
+9-17	1389-1395	vrtače	_	A.1 Surface landform	GENUS	_	_	
+9-18	1396-1403	avtorja	_	_	_	_	_	
+9-19	1404-1415	poimenovala	_	_	DEFINITOR	_	_	
+9-20	1416-1429	reproducirane	_	A.1 Surface landform[22]	DEFINIENDUM[45]	_	_	
+9-21	1430-1446	prelomno-porušne	_	A.1 Surface landform[22]	DEFINIENDUM[45]	_	_	
+9-22	1447-1453	vrtače	_	A.1 Surface landform[22]	DEFINIENDUM[45]	_	_	
+9-23	1453-1454	.	_	_	_	_	_	
+
+#Text=Meja med nezasičenim in zasičenim območjem se imenuje epifreatično območje.
+10-1	1455-1459	Meja	_	_	GENUS[46]	DEFINED\_AS[74]	_	
+10-2	1460-1463	med	_	_	GENUS[46]	DEFINED\_AS[74]	_	
+10-3	1464-1475	nezasičenim	_	_	GENUS[46]	DEFINED\_AS[74]	_	
+10-4	1476-1478	in	_	_	GENUS[46]	DEFINED\_AS[74]	_	
+10-5	1479-1488	zasičenim	_	_	GENUS[46]	DEFINED\_AS[74]	_	
+10-6	1489-1497	območjem	_	_	GENUS[46]	DEFINED\_AS[74]	_	
+10-7	1498-1500	se	_	_	DEFINITOR[47]	_	_	
+10-8	1501-1508	imenuje	_	_	DEFINITOR[47]	_	_	
+10-9	1509-1521	epifreatično	_	C. Geome[23]	DEFINIENDUM[48]	_	_	
+10-10	1522-1529	območje	_	C. Geome[23]	DEFINIENDUM[48]	_	_	
+10-11	1529-1530	.	_	_	_	_	_	
+
+#Text=Preboj je trenutek, ko vzdolž celotnega segmenta od ponorov do izvirov laminarni tok preide v turbulentnega.
+11-1	1531-1537	Preboj	_	B. Process	DEFINIENDUM	_	_	
+11-2	1538-1540	je	_	_	DEFINITOR	_	_	
+11-3	1541-1549	trenutek	_	_	GENUS	_	_	
+11-4	1549-1550	,	_	_	_	_	_	
+11-5	1551-1553	ko	_	_	_	OCCURS\_IN\_TIME[75]	frame\_TIME	
+11-6	1554-1560	vzdolž	_	_	_	OCCURS\_IN\_TIME[75]	_	
+11-7	1561-1570	celotnega	_	_	_	OCCURS\_IN\_TIME[75]	_	
+11-8	1571-1579	segmenta	_	_	_	OCCURS\_IN\_TIME[75]	_	
+11-9	1580-1582	od	_	_	_	OCCURS\_IN\_TIME[75]	_	
+11-10	1583-1590	ponorov	_	A.3 Hydrological form	_	OCCURS\_IN\_TIME[75]	_	
+11-11	1591-1593	do	_	_	_	OCCURS\_IN\_TIME[75]	_	
+11-12	1594-1601	izvirov	_	A.3 Hydrological form	_	OCCURS\_IN\_TIME[75]	_	
+11-13	1602-1611	laminarni	_	D.1 Abiotic[24]	_	OCCURS\_IN\_TIME[75]	_	
+11-14	1612-1615	tok	_	D.1 Abiotic[24]	_	OCCURS\_IN\_TIME[75]	_	
+11-15	1616-1622	preide	_	_	_	OCCURS\_IN\_TIME[75]	_	
+11-16	1623-1624	v	_	_	_	OCCURS\_IN\_TIME[75]	_	
+11-17	1625-1638	turbulentnega	turbulentni tok	D.1 Abiotic	_	OCCURS\_IN\_TIME[75]	_	
+11-18	1638-1639	.	_	_	_	_	_	
+
+#Text=Predkraška poroznost je posledica tektonskega razvoja kamninskega masiva in litoloških značilnosti kamnine, imenuje se razpoklinska poroznost, to je sekundarna poroznost.
+12-1	1640-1650	Predkraška	_	D.3 Property[25]	_	_	_	
+12-2	1651-1660	poroznost	_	D.3 Property[25]	_	_	_	
+12-3	1661-1663	je	_	_	_	_	frame\_CAUSE[90]	
+12-4	1664-1673	posledica	_	_	_	HAS\_CAUSE[76]	frame\_CAUSE[90]	
+12-5	1674-1685	tektonskega	_	B.4 Transformation[26]	_	HAS\_CAUSE[76]	_	
+12-6	1686-1693	razvoja	_	B.4 Transformation[26]	_	HAS\_CAUSE[76]	_	
+12-7	1694-1705	kamninskega	_	D.1 Abiotic[27]	_	HAS\_CAUSE[76]	_	
+12-8	1706-1712	masiva	_	D.1 Abiotic[27]	_	HAS\_CAUSE[76]	_	
+12-9	1713-1715	in	_	_	_	_	_	
+12-10	1716-1726	litoloških	_	_	_	HAS\_CAUSE[77]	_	
+12-11	1727-1738	značilnosti	_	_	_	HAS\_CAUSE[77]	_	
+12-12	1739-1746	kamnine	_	_	_	HAS\_CAUSE[77]	_	
+12-13	1746-1747	,	_	_	_	_	_	
+12-14	1748-1755	imenuje	_	_	DEFINITOR[49]	_	_	
+12-15	1756-1758	se	_	_	DEFINITOR[49]	_	_	
+12-16	1759-1771	razpoklinska	_	D.3 Property[28]	DEFINIENDUM[50]	_	_	
+12-17	1772-1781	poroznost	_	D.3 Property[28]	DEFINIENDUM[50]	_	_	
+12-18	1781-1782	,	_	_	_	_	_	
+12-19	1783-1785	to	_	_	_	_	_	
+12-20	1786-1788	je	_	_	_	_	_	
+12-21	1789-1799	sekundarna	_	D.3 Property[29]	GENUS[51]	_	_	
+12-22	1800-1809	poroznost	_	D.3 Property[29]	GENUS[51]	_	_	
+12-23	1809-1810	.	_	_	_	_	_	
+
+#Text=Sistem freatičnih rovov in skokov imenujemo freatične zanke.
+13-1	1811-1817	Sistem	_	_	GENUS[52]	HAS\_FORM[78]	_	
+13-2	1818-1828	freatičnih	_	A.2 Underground landform[30]	GENUS[52]	HAS\_FORM[78]	_	
+13-3	1829-1834	rovov	_	A.2 Underground landform[30]	GENUS[52]	HAS\_FORM[78]	_	
+13-4	1835-1837	in	_	_	GENUS[52]	HAS\_FORM[78]	_	
+13-5	1838-1844	skokov	sistem freatičnih skokov	A.2 Underground landform	GENUS[52]	HAS\_FORM[78]	_	
+13-6	1845-1854	imenujemo	_	_	DEFINITOR	_	_	
+13-7	1855-1864	freatične	_	A.2 Underground landform[31]	DEFINIENDUM[53]	_	_	
+13-8	1865-1870	zanke	_	A.2 Underground landform[31]	DEFINIENDUM[53]	_	_	
+13-9	1870-1871	.	_	_	_	_	_	
+
+#Text=Laminarni tok je tok, ki ga tvorijo vzporedno tekoče plasti vode v inicialnih kanalih.
+14-1	1872-1881	Laminarni	_	A.3 Hydrological form[32]	DEFINIENDUM[54]	_	_	
+14-2	1882-1885	tok	_	A.3 Hydrological form[32]	DEFINIENDUM[54]	_	_	
+14-3	1886-1888	je	_	_	DEFINITOR	_	_	
+14-4	1889-1892	tok	_	D.1 Abiotic	GENUS	_	_	
+14-5	1892-1893	,	_	_	_	_	_	
+14-6	1894-1896	ki	_	_	_	_	_	
+14-7	1897-1899	ga	_	_	_	COMPOSITION\_MEDIUM[79]	frame\_COMPOSITION[91]	
+14-8	1900-1907	tvorijo	_	_	_	COMPOSITION\_MEDIUM[79]	frame\_COMPOSITION[91]	
+14-9	1908-1917	vzporedno	_	_	_	COMPOSITION\_MEDIUM[79]	_	
+14-10	1918-1924	tekoče	_	_	_	COMPOSITION\_MEDIUM[79]	_	
+14-11	1925-1931	plasti	_	_	_	COMPOSITION\_MEDIUM[79]	_	
+14-12	1932-1936	vode	_	_	_	COMPOSITION\_MEDIUM[79]	_	
+14-13	1937-1938	v	_	D.1 Abiotic[33]	_	HAS\_LOCATION[80]	frame\_LOCATION	
+14-14	1939-1949	inicialnih	_	D.1 Abiotic[33]	_	HAS\_LOCATION[80]	_	
+14-15	1950-1957	kanalih	_	D.1 Abiotic[33]	_	HAS\_LOCATION[80]	_	
+14-16	1957-1958	.	_	_	_	_	_	
+
+#Text=Zgornji del te cone predstavlja tanka prst, ki jo imenujemo cone talnega prenikanja.
+15-1	1959-1966	Zgornji	_	_	_	HAS\_LOCATION[81]	frame\_LOCATION[92]	
+15-2	1967-1970	del	_	_	_	HAS\_LOCATION[81]	frame\_LOCATION[92]	
+15-3	1971-1973	te	_	_	_	HAS\_LOCATION[81]	_	
+15-4	1974-1978	cone	_	_	GENUS	HAS\_LOCATION[81]	_	
+15-5	1979-1990	predstavlja	_	_	_	HAS\_LOCATION[81]	_	
+15-6	1991-1996	tanka	_	D.1 Abiotic[34]	GENUS[55]	COMPOSITION\_MEDIUM[82]	_	
+15-7	1997-2001	prst	_	D.1 Abiotic[34]	GENUS[55]	COMPOSITION\_MEDIUM[82]	_	
+15-8	2001-2002	,	_	_	_	_	_	
+15-9	2003-2005	ki	_	_	_	_	_	
+15-10	2006-2008	jo	_	_	DEFINITOR[56]	_	_	
+15-11	2009-2018	imenujemo	_	_	DEFINITOR[56]	_	_	
+15-12	2019-2023	cone	_	D.1 Abiotic[35]	DEFINIENDUM[57]	_	_	
+15-13	2024-2031	talnega	_	D.1 Abiotic[35]	DEFINIENDUM[57]	_	_	
+15-14	2032-2042	prenikanja	_	D.1 Abiotic[35]	DEFINIENDUM[57]	_	_	
+15-15	2042-2043	.	_	_	_	_	_	

@@ -1,0 +1,984 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=kamenjara – gola stjenovita površina, na kojoj nema vegetacijskog pokrova; ovaj termin je posebno primjenjivan u geobotaničkoj literaturi.
+1-1	0-9	kamenjara	_	A.1 Surface landform	DEFINIENDUM	_	_	
+1-2	10-11	–	_	_	_	_	_	
+1-3	12-16	gola	_	_	_	HAS\_FORM	_	
+1-4	17-27	stjenovita	_	_	GENUS[25]	_	_	
+1-5	28-36	površina	_	_	GENUS[25]	_	_	
+1-6	36-37	,	_	_	_	_	_	
+1-7	38-40	na	_	_	_	HAS\_ATTRIBUTE[41]	_	
+1-8	41-46	kojoj	_	_	_	HAS\_ATTRIBUTE[41]	_	
+1-9	47-51	nema	_	_	_	HAS\_ATTRIBUTE[41]	_	
+1-10	52-65	vegetacijskog	_	_	_	HAS\_ATTRIBUTE[41]	_	
+1-11	66-73	pokrova	_	_	_	HAS\_ATTRIBUTE[41]	_	
+1-12	73-74	;	_	_	_	_	_	
+1-13	75-79	ovaj	_	_	_	_	_	
+1-14	80-86	termin	_	_	_	_	_	
+1-15	87-89	je	_	_	_	_	_	
+1-16	90-97	posebno	_	_	_	_	_	
+1-17	98-110	primjenjivan	_	_	_	_	_	
+1-18	111-112	u	_	_	_	_	_	
+1-19	113-126	geobotaničkoj	_	_	_	_	_	
+1-20	127-137	literaturi	_	_	_	_	_	
+1-21	137-138	.	_	_	_	_	_	
+
+#Text=kanal - termin za uzane i duboke doline, čije strane strmo padaju do obala korita. Kanjoni su karakteristični za vapnence, a usjekle su ih alogene tekućice (v.) vodom i trošinama koje donose iz  klastičnih stijena.
+2-1	140-145	kanal	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+2-2	146-147	-	_	_	_	_	_	
+2-3	148-154	termin	_	_	_	_	_	
+2-4	155-157	za	_	_	_	_	_	
+2-5	158-163	uzane	_	_	_	HAS\_FORM[42]	_	
+2-6	164-165	i	_	_	_	HAS\_FORM[42]	_	
+2-7	166-172	duboke	_	_	_	HAS\_FORM[42]	_	
+2-8	173-179	doline	_	D.1 Abiotic	GENUS	_	_	
+2-9	179-180	,	_	_	_	_	_	
+2-10	181-185	čije	_	_	_	HAS\_FORM[43]	frame\_FORM	
+2-11	186-192	strane	_	_	_	HAS\_FORM[43]	_	
+2-12	193-198	strmo	_	_	_	HAS\_FORM[43]	_	
+2-13	199-205	padaju	_	_	_	HAS\_FORM[43]	_	
+2-14	206-208	do	_	_	_	HAS\_FORM[43]	_	
+2-15	209-214	obala	_	_	_	HAS\_FORM[43]	_	
+2-16	215-221	korita	_	_	_	HAS\_FORM[43]	_	
+2-17	221-222	.	_	_	_	_	_	
+2-18	223-230	Kanjoni	_	_	_	_	_	
+2-19	231-233	su	_	_	_	_	_	
+2-20	234-249	karakteristični	_	_	_	HAS\_LOCATION[44]	_	
+2-21	250-252	za	_	_	_	HAS\_LOCATION[44]	_	
+2-22	253-261	vapnence	_	D.1 Abiotic	_	HAS\_LOCATION[44]	_	
+2-23	261-262	,	_	_	_	_	_	
+2-24	263-264	a	_	_	_	_	_	
+2-25	265-272	usjekle	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[72]	
+2-26	273-275	su	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[72]	
+2-27	276-278	ih	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[72]	
+2-28	279-286	alogene	_	_	_	HAS\_CAUSE[45]	_	
+2-29	287-295	tekućice	_	A.3 Hydrological form	_	HAS\_CAUSE[45]	_	
+2-30	296-297	(	_	_	_	HAS\_CAUSE[45]	_	
+2-31	297-298	v	_	_	_	HAS\_CAUSE[45]	_	
+2-32	298-299	.	_	_	_	HAS\_CAUSE[45]	_	
+2-33	299-300	)	_	_	_	HAS\_CAUSE[45]	_	
+2-34	301-306	vodom	_	_	_	HAS\_CAUSE[45]	_	
+2-35	307-308	i	_	_	_	HAS\_CAUSE[45]	_	
+2-36	309-318	trošinama	_	_	_	HAS\_CAUSE[45]	_	
+2-37	319-323	koje	_	_	_	HAS\_CAUSE[45]	_	
+2-38	324-330	donose	_	_	_	HAS\_CAUSE[45]	_	
+2-39	331-333	iz	_	_	_	HAS\_CAUSE[45]	_	
+2-40	335-345	klastičnih	_	_	_	HAS\_CAUSE[45]	_	
+2-41	346-353	stijena	_	_	_	HAS\_CAUSE[45]	_	
+2-42	353-354	.	_	_	_	_	_	
+
+#Text=karbonatnatna stijena – sedimentna stijena koja je sastavljena od minerala kalcita (v.) i dolomita (v.). Taloženu stijenu sastavljenu od kalcita nazivamo vapnenac (v.), a od dolomita dolomit (v.). Dolomiti su uglavnom postali dolomitizacijom (v.) vapnenaca.
+3-1	356-369	karbonatnatna	_	D.1 Abiotic[1]	DEFINIENDUM[26]	_	_	
+3-2	370-377	stijena	_	D.1 Abiotic[1]	DEFINIENDUM[26]	_	_	
+3-3	378-379	–	_	_	_	_	_	
+3-4	380-390	sedimentna	_	D.1 Abiotic[2]	GENUS[27]	_	_	
+3-5	391-398	stijena	_	D.1 Abiotic[2]	GENUS[27]	_	_	
+3-6	399-403	koja	_	_	_	_	_	
+3-7	404-406	je	_	_	_	_	_	
+3-8	407-418	sastavljena	_	_	_	COMPOSITION\_MEDIUM[46]	frame\_COMPOSITION[73]	
+3-9	419-421	od	_	_	_	COMPOSITION\_MEDIUM[46]	frame\_COMPOSITION[73]	
+3-10	422-430	minerala	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[46]	_	
+3-11	431-438	kalcita	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[46]	_	
+3-12	439-440	(	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-13	440-441	v	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-14	441-442	.	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-15	442-443	)	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-16	444-445	i	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-17	446-454	dolomita	minerali dolomita	D.1 Abiotic	_	COMPOSITION\_MEDIUM[46]	_	
+3-18	455-456	(	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-19	456-457	v	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-20	457-458	.	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-21	458-459	)	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-22	459-460	.	_	_	_	_	_	
+3-23	461-469	Taloženu	_	_	_	_	_	
+3-24	470-477	stijenu	_	_	_	_	_	
+3-25	478-489	sastavljenu	_	_	_	_	_	
+3-26	490-492	od	_	_	_	_	_	
+3-27	493-500	kalcita	_	_	_	_	_	
+3-28	501-509	nazivamo	_	_	_	_	_	
+3-29	510-518	vapnenac	_	D.1 Abiotic	SPECIES	_	_	
+3-30	519-520	(	_	_	_	_	_	
+3-31	520-521	v	_	_	_	_	_	
+3-32	521-522	.	_	_	_	_	_	
+3-33	522-523	)	_	_	_	_	_	
+3-34	523-524	,	_	_	_	_	_	
+3-35	525-526	a	_	_	_	_	_	
+3-36	527-529	od	_	_	_	_	_	
+3-37	530-538	dolomita	_	_	_	_	_	
+3-38	539-546	dolomit	_	D.1 Abiotic	SPECIES	_	_	
+3-39	547-548	(	_	_	_	_	_	
+3-40	548-549	v	_	_	_	_	_	
+3-41	549-550	.	_	_	_	_	_	
+3-42	550-551	)	_	_	_	_	_	
+3-43	551-552	.	_	_	_	_	_	
+3-44	553-561	Dolomiti	_	_	_	_	_	
+3-45	562-564	su	_	_	_	_	_	
+3-46	565-573	uglavnom	_	_	_	_	_	
+3-47	574-581	postali	_	_	_	_	_	
+3-48	582-597	dolomitizacijom	_	_	_	_	_	
+3-49	598-599	(	_	_	_	_	_	
+3-50	599-600	v	_	_	_	_	_	
+3-51	600-601	.	_	_	_	_	_	
+3-52	601-602	)	_	_	_	_	_	
+3-53	603-612	vapnenaca	_	_	_	_	_	
+3-54	612-613	.	_	_	_	_	_	
+
+#Text=karstologija - znanstvena disciplina koja izučava krš. Posebno izučava osobine karbonatnih stijena (v.), te korozijske i erozijske procese kojima nastaje specifičan reljef – krš (v.). S time je povezana cirkulacija voda (v. hidrologija krša). Izučavanje se širi na specifična tla, organski svijet, te uvjete i mogućnosti društvenog valoriziranja.
+4-1	615-627	karstologija	_	E.2 Method	DEFINIENDUM	_	_	
+4-2	628-629	-	_	_	_	_	_	
+4-3	630-640	znanstvena	_	_	GENUS[28]	DEFINED\_AS[47]	_	
+4-4	641-651	disciplina	_	_	GENUS[28]	DEFINED\_AS[47]	_	
+4-5	652-656	koja	_	_	_	DEFINED\_AS[47]	_	
+4-6	657-664	izučava	_	_	_	DEFINED\_AS[47]	_	
+4-7	665-668	krš	_	C. Geome	_	DEFINED\_AS[47]	_	
+4-8	668-669	.	_	_	_	_	_	
+4-9	670-677	Posebno	_	_	_	_	_	
+4-10	678-685	izučava	_	_	_	STUDIES[48]	_	
+4-11	686-693	osobine	_	_	_	STUDIES[48]	_	
+4-12	694-705	karbonatnih	_	_	_	STUDIES[48]	_	
+4-13	706-713	stijena	_	_	_	STUDIES[48]	_	
+4-14	714-715	(	_	_	_	_	_	
+4-15	715-716	v	_	_	_	_	_	
+4-16	716-717	.	_	_	_	_	_	
+4-17	717-718	)	_	_	_	_	_	
+4-18	718-719	,	_	_	_	_	_	
+4-19	720-722	te	_	_	_	_	_	
+4-20	723-733	korozijske	_	_	_	_	_	
+4-21	734-735	i	_	_	_	_	_	
+4-22	736-745	erozijske	_	_	_	_	_	
+4-23	746-753	procese	_	_	_	_	_	
+4-24	754-760	kojima	_	_	_	_	_	
+4-25	761-768	nastaje	_	_	_	_	_	
+4-26	769-779	specifičan	_	_	_	_	_	
+4-27	780-786	reljef	_	_	_	_	_	
+4-28	787-788	–	_	_	_	_	_	
+4-29	789-792	krš	_	_	_	_	_	
+4-30	793-794	(	_	_	_	_	_	
+4-31	794-795	v	_	_	_	_	_	
+4-32	795-796	.	_	_	_	_	_	
+4-33	796-797	)	_	_	_	_	_	
+4-34	797-798	.	_	_	_	_	_	
+4-35	799-800	S	_	_	_	_	_	
+4-36	801-805	time	_	_	_	_	_	
+4-37	806-808	je	_	_	_	_	_	
+4-38	809-817	povezana	_	_	_	_	_	
+4-39	818-829	cirkulacija	_	_	_	_	_	
+4-40	830-834	voda	_	_	_	_	_	
+4-41	835-836	(	_	_	_	_	_	
+4-42	836-837	v	_	_	_	_	_	
+4-43	837-838	.	_	_	_	_	_	
+4-44	839-850	hidrologija	_	_	_	_	_	
+4-45	851-855	krša	_	_	_	_	_	
+4-46	855-856	)	_	_	_	_	_	
+4-47	856-857	.	_	_	_	_	_	
+4-48	858-868	Izučavanje	_	_	_	STUDIES[49]	_	
+4-49	869-871	se	_	_	_	STUDIES[49]	_	
+4-50	872-876	širi	_	_	_	STUDIES[49]	_	
+4-51	877-879	na	_	_	_	STUDIES[49]	_	
+4-52	880-890	specifična	_	_	_	STUDIES[49]	_	
+4-53	891-894	tla	_	_	_	STUDIES[49]	_	
+4-54	894-895	,	_	_	_	STUDIES[49]	_	
+4-55	896-904	organski	_	_	_	STUDIES[49]	_	
+4-56	905-911	svijet	_	_	_	STUDIES[49]	_	
+4-57	911-912	,	_	_	_	STUDIES[49]	_	
+4-58	913-915	te	_	_	_	STUDIES[49]	_	
+4-59	916-922	uvjete	_	_	_	STUDIES[49]	_	
+4-60	923-924	i	_	_	_	STUDIES[49]	_	
+4-61	925-935	mogućnosti	_	_	_	STUDIES[49]	_	
+4-62	936-946	društvenog	_	_	_	STUDIES[49]	_	
+4-63	947-960	valoriziranja	_	_	_	STUDIES[49]	_	
+4-64	960-961	.	_	_	_	_	_	
+
+#Text=klastiti – stijene sastavljene od zrna različitih minerala ili stijena. Zrna mogu biti različite veličine i oblika, a cementirana su agregatom karbonata, limonita i dr.
+5-1	963-971	klastiti	_	D.1 Abiotic	DEFINIENDUM	_	_	
+5-2	972-973	–	_	_	_	_	_	
+5-3	974-981	stijene	_	_	GENUS	_	_	
+5-4	982-993	sastavljene	_	_	_	COMPOSITION\_MEDIUM[50]	frame\_COMPOSITION[74]	
+5-5	994-996	od	_	_	_	COMPOSITION\_MEDIUM[50]	frame\_COMPOSITION[74]	
+5-6	997-1001	zrna	_	_	_	COMPOSITION\_MEDIUM[50]	_	
+5-7	1002-1012	različitih	_	_	_	COMPOSITION\_MEDIUM[50]	_	
+5-8	1013-1021	minerala	_	_	_	COMPOSITION\_MEDIUM[50]	_	
+5-9	1022-1025	ili	_	_	_	COMPOSITION\_MEDIUM[50]	_	
+5-10	1026-1033	stijena	zrna različitih stijena	_	_	COMPOSITION\_MEDIUM[50]	_	
+5-11	1033-1034	.	_	_	_	_	_	
+5-12	1035-1039	Zrna	_	_	_	_	_	
+5-13	1040-1044	mogu	_	_	_	_	_	
+5-14	1045-1049	biti	_	_	_	_	_	
+5-15	1050-1059	različite	_	_	_	_	_	
+5-16	1060-1068	veličine	_	_	_	_	_	
+5-17	1069-1070	i	_	_	_	_	_	
+5-18	1071-1077	oblika	_	_	_	_	_	
+5-19	1077-1078	,	_	_	_	_	_	
+5-20	1079-1080	a	_	_	_	_	_	
+5-21	1081-1092	cementirana	_	_	_	_	_	
+5-22	1093-1095	su	_	_	_	_	_	
+5-23	1096-1105	agregatom	_	_	_	_	_	
+5-24	1106-1115	karbonata	_	_	_	_	_	
+5-25	1115-1116	,	_	_	_	_	_	
+5-26	1117-1125	limonita	_	_	_	_	_	
+5-27	1126-1127	i	_	_	_	_	_	
+5-28	1128-1130	dr	_	_	_	_	_	
+5-29	1130-1131	.	_	_	_	_	_	
+
+#Text=klastokrš - krški oblici u nekim klastičnim stijenama, npr. pješčenjaku, konglomeratu, praporu i dr. Nije općenito prihvaćeno da se ti oblici uvrste u krš (v. krš, pseudokrš).
+6-1	1133-1142	klastokrš	_	A. Landform[4]	DEFINIENDUM	_	_	
+6-2	1143-1144	-	_	A. Landform[4]	_	_	_	
+6-3	1145-1150	krški	_	A. Landform[5]	GENUS[29]	_	_	
+6-4	1151-1157	oblici	_	A. Landform[5]	GENUS[29]	_	_	
+6-5	1158-1159	u	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-6	1160-1165	nekim	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-7	1166-1176	klastičnim	_	D.1 Abiotic[6]	_	COMPOSITION\_MEDIUM[51]	_	
+6-8	1177-1186	stijenama	_	D.1 Abiotic[6]	_	COMPOSITION\_MEDIUM[51]	_	
+6-9	1186-1187	,	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-10	1188-1191	npr	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-11	1191-1192	.	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-12	1193-1204	pješčenjaku	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[51]	_	
+6-13	1204-1205	,	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-14	1206-1218	konglomeratu	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[51]	_	
+6-15	1218-1219	,	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-16	1220-1227	praporu	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[51]	_	
+6-17	1228-1229	i	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-18	1230-1232	dr	_	_	_	COMPOSITION\_MEDIUM[51]	_	
+6-19	1232-1233	.	_	_	_	_	_	
+6-20	1234-1238	Nije	_	_	_	_	_	
+6-21	1239-1247	općenito	_	_	_	_	_	
+6-22	1248-1258	prihvaćeno	_	_	_	_	_	
+6-23	1259-1261	da	_	_	_	_	_	
+6-24	1262-1264	se	_	_	_	_	_	
+6-25	1265-1267	ti	_	_	_	_	_	
+6-26	1268-1274	oblici	_	_	_	_	_	
+6-27	1275-1281	uvrste	_	_	_	_	_	
+6-28	1282-1283	u	_	_	_	_	_	
+6-29	1284-1287	krš	_	_	_	_	_	
+6-30	1288-1289	(	_	_	_	_	_	
+6-31	1289-1290	v	_	_	_	_	_	
+6-32	1290-1291	.	_	_	_	_	_	
+6-33	1292-1295	krš	_	_	_	_	_	
+6-34	1295-1296	,	_	_	_	_	_	
+6-35	1297-1306	pseudokrš	_	_	_	_	_	
+6-36	1306-1307	)	_	_	_	_	_	
+6-37	1307-1308	.	_	_	_	_	_	
+
+#Text=konglomerat – klastična stijena nastala cementnim vezivanjem valutica, otuda i naziv “valutičnjak”. Valutice kao i cement koji ih spaja mogu biti različitog sastava; za krš su karakteristični vapnenački konglomerati, čije je vezivo od kalcijeva karbonata, koji dominira i u sastavu valutica.
+7-1	1310-1321	konglomerat	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-2	1322-1323	–	_	_	_	_	_	
+7-3	1324-1333	klastična	_	D.1 Abiotic[7]	GENUS[30]	_	_	
+7-4	1334-1341	stijena	_	D.1 Abiotic[7]	GENUS[30]	_	_	
+7-5	1342-1349	nastala	_	_	_	HAS\_CAUSE[52]	frame\_CAUSE	
+7-6	1350-1359	cementnim	_	B. Process[8]	_	HAS\_CAUSE[52]	_	
+7-7	1360-1370	vezivanjem	_	B. Process[8]	_	HAS\_CAUSE[52]	_	
+7-8	1371-1379	valutica	_	D.1 Abiotic	_	HAS\_CAUSE[52]	_	
+7-9	1379-1380	,	_	_	_	_	_	
+7-10	1381-1386	otuda	_	_	_	_	_	
+7-11	1387-1388	i	_	_	_	_	_	
+7-12	1389-1394	naziv	_	_	_	_	_	
+7-13	1395-1396	“	_	_	_	_	_	
+7-14	1396-1407	valutičnjak	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-15	1407-1408	”	_	_	_	_	_	
+7-16	1408-1409	.	_	_	_	_	_	
+7-17	1410-1418	Valutice	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[53]	_	
+7-18	1419-1422	kao	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-19	1423-1424	i	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-20	1425-1431	cement	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[53]	_	
+7-21	1432-1436	koji	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-22	1437-1439	ih	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-23	1440-1445	spaja	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-24	1446-1450	mogu	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-25	1451-1455	biti	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-26	1456-1466	različitog	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-27	1467-1474	sastava	_	_	_	COMPOSITION\_MEDIUM[53]	_	
+7-28	1474-1475	;	_	_	_	_	_	
+7-29	1476-1478	za	_	_	_	_	_	
+7-30	1479-1482	krš	_	_	_	_	_	
+7-31	1483-1485	su	_	_	_	_	_	
+7-32	1486-1501	karakteristični	_	_	_	_	_	
+7-33	1502-1512	vapnenački	_	D.1 Abiotic[9]	SPECIES[31]	_	_	
+7-34	1513-1525	konglomerati	_	D.1 Abiotic[9]	SPECIES[31]	_	_	
+7-35	1525-1526	,	_	_	_	_	_	
+7-36	1527-1531	čije	_	_	_	_	_	
+7-37	1532-1534	je	_	_	_	_	_	
+7-38	1535-1541	vezivo	_	_	_	_	_	
+7-39	1542-1544	od	_	_	_	_	_	
+7-40	1545-1554	kalcijeva	_	_	_	_	_	
+7-41	1555-1564	karbonata	_	_	_	_	_	
+7-42	1564-1565	,	_	_	_	_	_	
+7-43	1566-1570	koji	_	_	_	_	_	
+7-44	1571-1579	dominira	_	_	_	_	_	
+7-45	1580-1581	i	_	_	_	_	_	
+7-46	1582-1583	u	_	_	_	_	_	
+7-47	1584-1591	sastavu	_	_	_	_	_	
+7-48	1592-1600	valutica	_	_	_	_	_	
+7-49	1600-1601	.	_	_	_	_	_	
+
+#Text=konkrecija – tvorevina nastala izlučivanjem kora (v.) iz različitih otopina; za nas je posebno važno taloženje vapnenca (CaCO3) – v. sedra, sedrene tvorevine i siga, sigaste tvorevine.
+8-1	1603-1613	konkrecija	_	A. Landform	DEFINIENDUM	_	_	
+8-2	1614-1615	–	_	_	_	_	_	
+8-3	1616-1625	tvorevina	_	_	_	DEFINED\_AS[54]	_	
+8-4	1626-1633	nastala	_	_	_	DEFINED\_AS[54]	_	
+8-5	1634-1646	izlučivanjem	_	_	_	DEFINED\_AS[54]	_	
+8-6	1647-1651	kora	_	D.1 Abiotic	_	DEFINED\_AS[54]	_	
+8-7	1652-1653	(	_	_	_	DEFINED\_AS[54]	_	
+8-8	1653-1654	v	_	_	_	DEFINED\_AS[54]	_	
+8-9	1654-1655	.	_	_	_	DEFINED\_AS[54]	_	
+8-10	1655-1656	)	_	_	_	DEFINED\_AS[54]	_	
+8-11	1657-1659	iz	_	_	_	DEFINED\_AS[54]	_	
+8-12	1660-1670	različitih	_	_	_	DEFINED\_AS[54]	_	
+8-13	1671-1678	otopina	_	D.1 Abiotic	_	DEFINED\_AS[54]	_	
+8-14	1678-1679	;	_	_	_	_	_	
+8-15	1680-1682	za	_	_	_	_	_	
+8-16	1683-1686	nas	_	_	_	_	_	
+8-17	1687-1689	je	_	_	_	_	_	
+8-18	1690-1697	posebno	_	_	_	_	_	
+8-19	1698-1703	važno	_	_	_	_	_	
+8-20	1704-1713	taloženje	_	_	_	_	_	
+8-21	1714-1722	vapnenca	_	_	_	_	_	
+8-22	1723-1724	(	_	_	_	_	_	
+8-23	1724-1729	CaCO3	_	_	_	_	_	
+8-24	1729-1730	)	_	_	_	_	_	
+8-25	1731-1732	–	_	_	_	_	_	
+8-26	1733-1734	v	_	_	_	_	_	
+8-27	1734-1735	.	_	_	_	_	_	
+8-28	1736-1741	sedra	_	A. Landform	SPECIES	_	_	
+8-29	1741-1742	,	_	_	_	_	_	
+8-30	1743-1750	sedrene	_	A. Landform[10]	SPECIES[32]	_	_	
+8-31	1751-1760	tvorevine	_	A. Landform[10]	SPECIES[32]	_	_	
+8-32	1761-1762	i	_	_	_	_	_	
+8-33	1763-1767	siga	_	A.2 Underground landform	SPECIES	_	_	
+8-34	1767-1768	,	_	_	_	_	_	
+8-35	1769-1776	sigaste	_	A.2 Underground landform[11]	SPECIES[33]	_	_	
+8-36	1777-1786	tvorevine	_	A.2 Underground landform[11]	SPECIES[33]	_	_	
+8-37	1786-1787	.	_	_	_	_	_	
+
+#Text=kora - čvrsti sloj koji se hvata na površini stijena i tla izlučivanjem vapnenca (CaCO3) iz otopine [H2Ca(CO3)2] – v. sedra, sedrene tvorevine, siga i sigaste tvorevine.
+9-1	1789-1793	kora	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-2	1794-1795	-	_	_	_	_	_	
+9-3	1796-1802	čvrsti	_	_	_	DEFINED\_AS[55]	_	
+9-4	1803-1807	sloj	_	D.1 Abiotic	_	DEFINED\_AS[55]	_	
+9-5	1808-1812	koji	_	_	_	HAS\_LOCATION[56]	_	
+9-6	1813-1815	se	_	_	_	HAS\_LOCATION[56]	_	
+9-7	1816-1821	hvata	_	_	_	HAS\_LOCATION[56]	_	
+9-8	1822-1824	na	_	_	_	HAS\_LOCATION[56]	_	
+9-9	1825-1833	površini	_	_	_	HAS\_LOCATION[56]	_	
+9-10	1834-1841	stijena	_	_	_	HAS\_LOCATION[56]	_	
+9-11	1842-1843	i	_	_	_	HAS\_LOCATION[56]	_	
+9-12	1844-1847	tla	_	_	_	HAS\_LOCATION[56]	_	
+9-13	1848-1860	izlučivanjem	_	_	_	HAS\_CAUSE[57]	_	
+9-14	1861-1869	vapnenca	_	D.1 Abiotic[12]	_	HAS\_CAUSE[57]	_	
+9-15	1870-1871	(	_	D.1 Abiotic[12]	_	HAS\_CAUSE[57]	_	
+9-16	1871-1876	CaCO3	_	D.1 Abiotic[12]	_	HAS\_CAUSE[57]	_	
+9-17	1876-1877	)	_	D.1 Abiotic[12]	_	HAS\_CAUSE[57]	_	
+9-18	1878-1880	iz	_	_	_	HAS\_CAUSE[57]	_	
+9-19	1881-1888	otopine	_	D.1 Abiotic[13]	_	HAS\_CAUSE[57]	_	
+9-20	1889-1890	[	_	D.1 Abiotic[13]	_	HAS\_CAUSE[57]	_	
+9-21	1890-1894	H2Ca	_	D.1 Abiotic[13]	_	HAS\_CAUSE[57]	_	
+9-22	1894-1895	(	_	D.1 Abiotic[13]	_	HAS\_CAUSE[57]	_	
+9-23	1895-1898	CO3	_	D.1 Abiotic[13]	_	HAS\_CAUSE[57]	_	
+9-24	1898-1899	)	_	D.1 Abiotic[13]	_	_	_	
+9-25	1899-1900	2	_	D.1 Abiotic[13]	_	_	_	
+9-26	1900-1901	]	_	D.1 Abiotic[13]	_	_	_	
+9-27	1902-1903	–	_	_	_	_	_	
+9-28	1904-1905	v	_	_	_	_	_	
+9-29	1905-1906	.	_	_	_	_	_	
+9-30	1907-1912	sedra	_	D.1 Abiotic	SPECIES	_	_	
+9-31	1912-1913	,	_	_	_	_	_	
+9-32	1914-1921	sedrene	_	D.1 Abiotic[14]	SPECIES[34]	_	_	
+9-33	1922-1931	tvorevine	_	D.1 Abiotic[14]	SPECIES[34]	_	_	
+9-34	1931-1932	,	_	_	_	_	_	
+9-35	1933-1937	siga	_	A.3 Hydrological form	SPECIES	_	_	
+9-36	1938-1939	i	_	_	_	_	_	
+9-37	1940-1947	sigaste	_	A.3 Hydrological form[15]	SPECIES[35]	_	_	
+9-38	1948-1957	tvorevine	_	A.3 Hydrological form[15]	SPECIES[35]	_	_	
+9-39	1957-1958	.	_	_	_	_	_	
+
+#Text=korazija – proces modeliranja udaranjem čvrstih čestica u plohe stijena (v. eforacija, v. evrozija). Korazija ima znatan udio u modeliranju krških podzemnih protočnih šupljina; k. je specifičan proces pustinjskog modeliranja.
+10-1	1960-1968	korazija	_	B.4 Transformation	DEFINIENDUM	_	_	
+10-2	1969-1970	–	_	_	_	_	_	
+10-3	1971-1977	proces	_	_	_	DEFINED\_AS[58]	_	
+10-4	1978-1989	modeliranja	_	_	_	DEFINED\_AS[58]	_	
+10-5	1990-1999	udaranjem	_	_	_	HAS\_CAUSE[59]	frame\_CAUSE	
+10-6	2000-2007	čvrstih	_	_	_	HAS\_CAUSE[59]	_	
+10-7	2008-2015	čestica	_	_	_	HAS\_CAUSE[59]	_	
+10-8	2016-2017	u	_	_	_	HAS\_CAUSE[59]	_	
+10-9	2018-2023	plohe	_	_	_	HAS\_CAUSE[59]	_	
+10-10	2024-2031	stijena	_	_	_	HAS\_CAUSE[59]	_	
+10-11	2032-2033	(	_	_	_	_	_	
+10-12	2033-2034	v	_	_	_	_	_	
+10-13	2034-2035	.	_	_	_	_	_	
+10-14	2036-2045	eforacija	_	B.4 Transformation	SPECIES	_	_	
+10-15	2045-2046	,	_	_	_	_	_	
+10-16	2047-2048	v	_	_	_	_	_	
+10-17	2048-2049	.	_	_	_	_	_	
+10-18	2050-2058	evrozija	_	B. Process	SPECIES	_	_	
+10-19	2058-2059	)	_	_	_	_	_	
+10-20	2059-2060	.	_	_	_	_	_	
+10-21	2061-2069	Korazija	_	_	_	_	_	
+10-22	2070-2073	ima	_	_	_	_	_	
+10-23	2074-2080	znatan	_	_	_	_	_	
+10-24	2081-2085	udio	_	_	_	_	_	
+10-25	2086-2087	u	_	_	_	_	_	
+10-26	2088-2099	modeliranju	_	_	_	_	_	
+10-27	2100-2106	krških	_	_	_	_	_	
+10-28	2107-2116	podzemnih	_	_	_	_	_	
+10-29	2117-2126	protočnih	_	_	_	_	_	
+10-30	2127-2135	šupljina	_	_	_	_	_	
+10-31	2135-2136	;	_	_	_	_	_	
+10-32	2137-2138	k	_	_	_	_	_	
+10-33	2138-2139	.	_	_	_	_	_	
+10-34	2140-2142	je	_	_	_	_	_	
+10-35	2143-2153	specifičan	_	_	_	_	_	
+10-36	2154-2160	proces	_	_	_	_	_	
+10-37	2161-2172	pustinjskog	_	_	GENUS[36]	_	_	
+10-38	2173-2184	modeliranja	_	B.4 Transformation	GENUS[36]	_	_	
+10-39	2184-2185	.	_	_	_	_	_	
+
+#Text=korozija - međunarodni termin za specifičan proces modeliranja otopivih stijena; termin se upotrebljava i za kemijsko nagrizanje metala. Vode u kojima ima ugljične, humusne i drugih kiselina (v. agresivna voda) otapaju karbonatne stijene. Hladne vode mogu apsorbirati više ugljikova dioksida: pri 0° C dvaput više nego pri 20° C. To objašnjava veće otapanje vapnenaca u subpolarnim krajevima i visokim planinama, gdje je kalcijev bikarbonat stabilniji i rijetko se izdvajaju sedra i siga. Biogenim procesima (disanje korijena, trulenje i sl.) nastaje novi (“mladi”) ugljikov dioksid i njegov udio može porasti do 10%, što u umjerenim širinama omogućuje otapanje 500 mg kalcijeva karbonata u litri vode. U toplim i vlažnim klimama (zbog ishlapljivanja) ubrzava se proces otapanja i taloženja kalcijeva karbonata. Bujan biljni prokrov uvjetuje intenzivno otapanje (i litofilni organizmi najedaju karbonatne stijene – biogena korozija). Padalinska voda, prolazeći kroz krošnje stabala i procjeđujući se kroz humusni sloj,
+11-1	2189-2197	korozija	_	B.4 Transformation	DEFINIENDUM	_	_	
+11-2	2198-2199	-	_	_	_	_	_	
+11-3	2200-2211	međunarodni	_	_	_	_	_	
+11-4	2212-2218	termin	_	_	_	_	_	
+11-5	2219-2221	za	_	_	_	_	_	
+11-6	2222-2232	specifičan	_	_	_	DEFINED\_AS[60]	_	
+11-7	2233-2239	proces	_	_	GENUS[37]	DEFINED\_AS[60]	_	
+11-8	2240-2251	modeliranja	_	_	GENUS[37]	DEFINED\_AS[60]	_	
+11-9	2252-2260	otopivih	_	D.1 Abiotic[16]	_	DEFINED\_AS[60]	_	
+11-10	2261-2268	stijena	_	D.1 Abiotic[16]	_	DEFINED\_AS[60]	_	
+11-11	2268-2269	;	_	_	_	_	_	
+11-12	2270-2276	termin	_	_	_	_	_	
+11-13	2277-2279	se	_	_	_	_	_	
+11-14	2280-2292	upotrebljava	_	_	_	_	_	
+11-15	2293-2294	i	_	_	_	_	_	
+11-16	2295-2297	za	_	_	_	_	_	
+11-17	2298-2306	kemijsko	_	_	_	DEFINED\_AS[61]	_	
+11-18	2307-2317	nagrizanje	_	_	_	DEFINED\_AS[61]	_	
+11-19	2318-2324	metala	_	_	_	DEFINED\_AS[61]	_	
+11-20	2324-2325	.	_	_	_	_	_	
+11-21	2326-2330	Vode	_	_	_	_	_	
+11-22	2331-2332	u	_	_	_	_	_	
+11-23	2333-2339	kojima	_	_	_	_	_	
+11-24	2340-2343	ima	_	_	_	_	_	
+11-25	2344-2352	ugljične	_	_	_	_	_	
+11-26	2352-2353	,	_	_	_	_	_	
+11-27	2354-2361	humusne	_	_	_	_	_	
+11-28	2362-2363	i	_	_	_	_	_	
+11-29	2364-2370	drugih	_	_	_	_	_	
+11-30	2371-2379	kiselina	_	_	_	_	_	
+11-31	2380-2381	(	_	_	_	_	_	
+11-32	2381-2382	v	_	_	_	_	_	
+11-33	2382-2383	.	_	_	_	_	_	
+11-34	2384-2393	agresivna	_	_	_	_	_	
+11-35	2394-2398	voda	_	_	_	_	_	
+11-36	2398-2399	)	_	_	_	_	_	
+11-37	2400-2407	otapaju	_	_	_	_	_	
+11-38	2408-2418	karbonatne	_	_	_	_	_	
+11-39	2419-2426	stijene	_	_	_	_	_	
+11-40	2426-2427	.	_	_	_	_	_	
+11-41	2428-2434	Hladne	_	_	_	_	_	
+11-42	2435-2439	vode	_	_	_	_	_	
+11-43	2440-2444	mogu	_	_	_	_	_	
+11-44	2445-2456	apsorbirati	_	_	_	_	_	
+11-45	2457-2461	više	_	_	_	_	_	
+11-46	2462-2471	ugljikova	_	_	_	_	_	
+11-47	2472-2480	dioksida	_	_	_	_	_	
+11-48	2480-2481	:	_	_	_	_	_	
+11-49	2482-2485	pri	_	_	_	_	_	
+11-50	2486-2487	0	_	_	_	_	_	
+11-51	2487-2488	°	_	_	_	_	_	
+11-52	2489-2490	C	_	_	_	_	_	
+11-53	2491-2497	dvaput	_	_	_	_	_	
+11-54	2498-2502	više	_	_	_	_	_	
+11-55	2503-2507	nego	_	_	_	_	_	
+11-56	2508-2511	pri	_	_	_	_	_	
+11-57	2512-2514	20	_	_	_	_	_	
+11-58	2514-2515	°	_	_	_	_	_	
+11-59	2516-2517	C	_	_	_	_	_	
+11-60	2517-2518	.	_	_	_	_	_	
+11-61	2519-2521	To	_	_	_	_	_	
+11-62	2522-2532	objašnjava	_	_	_	_	_	
+11-63	2533-2537	veće	_	_	_	_	_	
+11-64	2538-2546	otapanje	_	_	_	_	_	
+11-65	2547-2556	vapnenaca	_	_	_	_	_	
+11-66	2557-2558	u	_	_	_	_	_	
+11-67	2559-2570	subpolarnim	_	_	_	_	_	
+11-68	2571-2580	krajevima	_	_	_	_	_	
+11-69	2581-2582	i	_	_	_	_	_	
+11-70	2583-2590	visokim	_	_	_	_	_	
+11-71	2591-2600	planinama	_	_	_	_	_	
+11-72	2600-2601	,	_	_	_	_	_	
+11-73	2602-2606	gdje	_	_	_	_	_	
+11-74	2607-2609	je	_	_	_	_	_	
+11-75	2610-2618	kalcijev	_	_	_	_	_	
+11-76	2619-2629	bikarbonat	_	_	_	_	_	
+11-77	2630-2640	stabilniji	_	_	_	_	_	
+11-78	2641-2642	i	_	_	_	_	_	
+11-79	2643-2650	rijetko	_	_	_	_	_	
+11-80	2651-2653	se	_	_	_	_	_	
+11-81	2654-2663	izdvajaju	_	_	_	_	_	
+11-82	2664-2669	sedra	_	_	_	_	_	
+11-83	2670-2671	i	_	_	_	_	_	
+11-84	2672-2676	siga	_	_	_	_	_	
+11-85	2676-2677	.	_	_	_	_	_	
+11-86	2678-2686	Biogenim	_	_	_	_	_	
+11-87	2687-2696	procesima	_	_	_	_	_	
+11-88	2697-2698	(	_	_	_	_	_	
+11-89	2698-2705	disanje	_	_	_	_	_	
+11-90	2706-2714	korijena	_	_	_	_	_	
+11-91	2714-2715	,	_	_	_	_	_	
+11-92	2716-2724	trulenje	_	_	_	_	_	
+11-93	2725-2726	i	_	_	_	_	_	
+11-94	2727-2729	sl	_	_	_	_	_	
+11-95	2729-2730	.	_	_	_	_	_	
+11-96	2730-2731	)	_	_	_	_	_	
+11-97	2732-2739	nastaje	_	_	_	_	_	
+11-98	2740-2744	novi	_	_	_	_	_	
+11-99	2745-2746	(	_	_	_	_	_	
+11-100	2746-2747	“	_	_	_	_	_	
+11-101	2747-2752	mladi	_	_	_	_	_	
+11-102	2752-2753	”	_	_	_	_	_	
+11-103	2753-2754	)	_	_	_	_	_	
+11-104	2755-2763	ugljikov	_	_	_	_	_	
+11-105	2764-2771	dioksid	_	_	_	_	_	
+11-106	2772-2773	i	_	_	_	_	_	
+11-107	2774-2780	njegov	_	_	_	_	_	
+11-108	2781-2785	udio	_	_	_	_	_	
+11-109	2786-2790	može	_	_	_	_	_	
+11-110	2791-2798	porasti	_	_	_	_	_	
+11-111	2799-2801	do	_	_	_	_	_	
+11-112	2802-2805	10%	_	_	_	_	_	
+11-113	2805-2806	,	_	_	_	_	_	
+11-114	2807-2810	što	_	_	_	_	_	
+11-115	2811-2812	u	_	_	_	_	_	
+11-116	2813-2822	umjerenim	_	_	_	_	_	
+11-117	2823-2831	širinama	_	_	_	_	_	
+11-118	2832-2841	omogućuje	_	_	_	_	_	
+11-119	2842-2850	otapanje	_	_	_	_	_	
+11-120	2851-2854	500	_	_	_	_	_	
+11-121	2855-2857	mg	_	_	_	_	_	
+11-122	2858-2867	kalcijeva	_	_	_	_	_	
+11-123	2868-2877	karbonata	_	_	_	_	_	
+11-124	2878-2879	u	_	_	_	_	_	
+11-125	2880-2885	litri	_	_	_	_	_	
+11-126	2886-2890	vode	_	_	_	_	_	
+11-127	2890-2891	.	_	_	_	_	_	
+11-128	2892-2893	U	_	_	_	_	_	
+11-129	2894-2900	toplim	_	_	_	_	_	
+11-130	2901-2902	i	_	_	_	_	_	
+11-131	2903-2910	vlažnim	_	_	_	_	_	
+11-132	2911-2918	klimama	_	_	_	_	_	
+11-133	2919-2920	(	_	_	_	_	_	
+11-134	2920-2924	zbog	_	_	_	_	_	
+11-135	2925-2939	ishlapljivanja	_	_	_	_	_	
+11-136	2939-2940	)	_	_	_	_	_	
+11-137	2941-2948	ubrzava	_	_	_	_	_	
+11-138	2949-2951	se	_	_	_	_	_	
+11-139	2952-2958	proces	_	_	_	_	_	
+11-140	2959-2967	otapanja	_	_	_	_	_	
+11-141	2968-2969	i	_	_	_	_	_	
+11-142	2970-2979	taloženja	_	_	_	_	_	
+11-143	2980-2989	kalcijeva	_	_	_	_	_	
+11-144	2990-2999	karbonata	_	_	_	_	_	
+11-145	2999-3000	.	_	_	_	_	_	
+11-146	3001-3006	Bujan	_	_	_	_	_	
+11-147	3007-3013	biljni	_	_	_	_	_	
+11-148	3014-3021	prokrov	_	_	_	_	_	
+11-149	3022-3030	uvjetuje	_	_	_	_	_	
+11-150	3031-3041	intenzivno	_	_	_	_	_	
+11-151	3042-3050	otapanje	_	_	_	_	_	
+11-152	3051-3052	(	_	_	_	_	_	
+11-153	3052-3053	i	_	_	_	_	_	
+11-154	3054-3063	litofilni	_	_	_	_	_	
+11-155	3064-3073	organizmi	_	_	_	_	_	
+11-156	3074-3082	najedaju	_	_	_	_	_	
+11-157	3083-3093	karbonatne	_	_	_	_	_	
+11-158	3094-3101	stijene	_	_	_	_	_	
+11-159	3102-3103	–	_	_	_	_	_	
+11-160	3104-3111	biogena	_	B.4 Transformation[17]	SPECIES[38]	_	_	
+11-161	3112-3120	korozija	_	B.4 Transformation[17]	SPECIES[38]	_	_	
+11-162	3120-3121	)	_	_	_	_	_	
+11-163	3121-3122	.	_	_	_	_	_	
+11-164	3123-3133	Padalinska	_	_	_	_	_	
+11-165	3134-3138	voda	_	_	_	_	_	
+11-166	3138-3139	,	_	_	_	_	_	
+11-167	3140-3149	prolazeći	_	_	_	_	_	
+11-168	3150-3154	kroz	_	_	_	_	_	
+11-169	3155-3162	krošnje	_	_	_	_	_	
+11-170	3163-3170	stabala	_	_	_	_	_	
+11-171	3171-3172	i	_	_	_	_	_	
+11-172	3173-3185	procjeđujući	_	_	_	_	_	
+11-173	3186-3188	se	_	_	_	_	_	
+11-174	3189-3193	kroz	_	_	_	_	_	
+11-175	3194-3201	humusni	_	_	_	_	_	
+11-176	3202-3206	sloj	_	_	_	_	_	
+11-177	3206-3207	,	_	_	_	_	_	
+
+#Text=bogati se kiselinama i postaje agresivna (v.), te otapa stijenu na kontaktu s pokrovom tla – kontaktna ili subkutana (podtlena) korozija; korodiranje se vrši duž plohe kontakta, te ga možemo nazvati i plošna korozija. Naprotiv, na golim plohama karbonatne stijene otapanje je usmjereno nagibom te razlikama u sastavu i građi – vrši se nejednako, tj. diferencirana korozija. Dodirne plohe tla i stijene usmjeravaju otapanje i lateralno i prema gore, tako nastaju korozijske cijevi, prozori, prsteni i drugi oblici subkutanog (v.) i pokrivenog krša (v.). Kod istaknutih blokova korozija je intenzivnija u donjim dijelovima koji su u dodiru s pokrovom tla – pritlena korozija; na taj način nastaju gljivasti oblici, kombinirani s različitim udubinama kontaktne korozije. Kad naplavni pokrov prekrije karbonatne stijene te smanji ili spriječi procjeđivanje, otjecanje i otapanje se vrše na dodiru s krškim rubom – rubna korozija; najintenzivnija je u razini otjecanja (nj. Vorfluterniveau v.). Rubna korozija je posebno
+12-1	3210-3216	bogati	_	_	_	_	_	
+12-2	3217-3219	se	_	_	_	_	_	
+12-3	3220-3230	kiselinama	_	_	_	_	_	
+12-4	3231-3232	i	_	_	_	_	_	
+12-5	3233-3240	postaje	_	_	_	_	_	
+12-6	3241-3250	agresivna	_	_	_	_	_	
+12-7	3251-3252	(	_	_	_	_	_	
+12-8	3252-3253	v	_	_	_	_	_	
+12-9	3253-3254	.	_	_	_	_	_	
+12-10	3254-3255	)	_	_	_	_	_	
+12-11	3255-3256	,	_	_	_	_	_	
+12-12	3257-3259	te	_	_	_	_	_	
+12-13	3260-3265	otapa	_	_	_	_	_	
+12-14	3266-3273	stijenu	_	_	_	_	_	
+12-15	3274-3276	na	_	_	_	_	_	
+12-16	3277-3285	kontaktu	_	_	_	_	_	
+12-17	3286-3287	s	_	_	_	_	_	
+12-18	3288-3296	pokrovom	_	_	_	_	_	
+12-19	3297-3300	tla	_	_	_	_	_	
+12-20	3301-3302	–	_	_	_	_	_	
+12-21	3303-3312	kontaktna	_	_	_	_	_	
+12-22	3313-3316	ili	_	_	_	_	_	
+12-23	3317-3326	subkutana	_	_	_	_	_	
+12-24	3327-3328	(	_	_	_	_	_	
+12-25	3328-3336	podtlena	_	_	_	_	_	
+12-26	3336-3337	)	_	_	_	_	_	
+12-27	3338-3346	korozija	_	_	_	_	_	
+12-28	3346-3347	;	_	_	_	_	_	
+12-29	3348-3359	korodiranje	_	_	_	_	_	
+12-30	3360-3362	se	_	_	_	_	_	
+12-31	3363-3367	vrši	_	_	_	_	_	
+12-32	3368-3371	duž	_	_	_	_	_	
+12-33	3372-3377	plohe	_	_	_	_	_	
+12-34	3378-3386	kontakta	_	_	_	_	_	
+12-35	3386-3387	,	_	_	_	_	_	
+12-36	3388-3390	te	_	_	_	_	_	
+12-37	3391-3393	ga	_	_	_	_	_	
+12-38	3394-3400	možemo	_	_	_	_	_	
+12-39	3401-3408	nazvati	_	_	_	_	_	
+12-40	3409-3410	i	_	_	_	_	_	
+12-41	3411-3417	plošna	_	_	_	_	_	
+12-42	3418-3426	korozija	_	_	_	_	_	
+12-43	3426-3427	.	_	_	_	_	_	
+12-44	3428-3436	Naprotiv	_	_	_	_	_	
+12-45	3436-3437	,	_	_	_	_	_	
+12-46	3438-3440	na	_	_	_	_	_	
+12-47	3441-3446	golim	_	_	_	_	_	
+12-48	3447-3454	plohama	_	_	_	_	_	
+12-49	3455-3465	karbonatne	_	_	_	_	_	
+12-50	3466-3473	stijene	_	_	_	_	_	
+12-51	3474-3482	otapanje	_	_	_	_	_	
+12-52	3483-3485	je	_	_	_	_	_	
+12-53	3486-3495	usmjereno	_	_	_	_	_	
+12-54	3496-3503	nagibom	_	_	_	_	_	
+12-55	3504-3506	te	_	_	_	_	_	
+12-56	3507-3516	razlikama	_	_	_	_	_	
+12-57	3517-3518	u	_	_	_	_	_	
+12-58	3519-3526	sastavu	_	_	_	_	_	
+12-59	3527-3528	i	_	_	_	_	_	
+12-60	3529-3534	građi	_	_	_	_	_	
+12-61	3535-3536	–	_	_	_	_	_	
+12-62	3537-3541	vrši	_	_	_	_	_	
+12-63	3542-3544	se	_	_	_	_	_	
+12-64	3545-3554	nejednako	_	_	_	_	_	
+12-65	3554-3555	,	_	_	_	_	_	
+12-66	3556-3558	tj	_	_	_	_	_	
+12-67	3558-3559	.	_	_	_	_	_	
+12-68	3560-3573	diferencirana	_	_	_	_	_	
+12-69	3574-3582	korozija	_	_	_	_	_	
+12-70	3582-3583	.	_	_	_	_	_	
+12-71	3584-3591	Dodirne	_	_	_	_	_	
+12-72	3592-3597	plohe	_	_	_	_	_	
+12-73	3598-3601	tla	_	_	_	_	_	
+12-74	3602-3603	i	_	_	_	_	_	
+12-75	3604-3611	stijene	_	_	_	_	_	
+12-76	3612-3623	usmjeravaju	_	_	_	_	_	
+12-77	3624-3632	otapanje	_	_	_	_	_	
+12-78	3633-3634	i	_	_	_	_	_	
+12-79	3635-3644	lateralno	_	_	_	_	_	
+12-80	3645-3646	i	_	_	_	_	_	
+12-81	3647-3652	prema	_	_	_	_	_	
+12-82	3653-3657	gore	_	_	_	_	_	
+12-83	3657-3658	,	_	_	_	_	_	
+12-84	3659-3663	tako	_	_	_	_	_	
+12-85	3664-3671	nastaju	_	_	_	_	_	
+12-86	3672-3682	korozijske	_	_	_	_	_	
+12-87	3683-3689	cijevi	_	_	_	_	_	
+12-88	3689-3690	,	_	_	_	_	_	
+12-89	3691-3698	prozori	_	_	_	_	_	
+12-90	3698-3699	,	_	_	_	_	_	
+12-91	3700-3707	prsteni	_	_	_	_	_	
+12-92	3708-3709	i	_	_	_	_	_	
+12-93	3710-3715	drugi	_	_	_	_	_	
+12-94	3716-3722	oblici	_	_	_	_	_	
+12-95	3723-3733	subkutanog	_	_	_	_	_	
+12-96	3734-3735	(	_	_	_	_	_	
+12-97	3735-3736	v	_	_	_	_	_	
+12-98	3736-3737	.	_	_	_	_	_	
+12-99	3737-3738	)	_	_	_	_	_	
+12-100	3739-3740	i	_	_	_	_	_	
+12-101	3741-3751	pokrivenog	_	_	_	_	_	
+12-102	3752-3756	krša	_	_	_	_	_	
+12-103	3757-3758	(	_	_	_	_	_	
+12-104	3758-3759	v	_	_	_	_	_	
+12-105	3759-3760	.	_	_	_	_	_	
+12-106	3760-3761	)	_	_	_	_	_	
+12-107	3761-3762	.	_	_	_	_	_	
+12-108	3763-3766	Kod	_	_	_	_	_	
+12-109	3767-3777	istaknutih	_	_	_	_	_	
+12-110	3778-3785	blokova	_	_	_	_	_	
+12-111	3786-3794	korozija	_	_	_	_	_	
+12-112	3795-3797	je	_	_	_	_	_	
+12-113	3798-3810	intenzivnija	_	_	_	_	_	
+12-114	3811-3812	u	_	_	_	_	_	
+12-115	3813-3819	donjim	_	_	_	_	_	
+12-116	3820-3830	dijelovima	_	_	_	_	_	
+12-117	3831-3835	koji	_	_	_	_	_	
+12-118	3836-3838	su	_	_	_	_	_	
+12-119	3839-3840	u	_	_	_	_	_	
+12-120	3841-3847	dodiru	_	_	_	_	_	
+12-121	3848-3849	s	_	_	_	_	_	
+12-122	3850-3858	pokrovom	_	_	_	_	_	
+12-123	3859-3862	tla	_	_	_	_	_	
+12-124	3863-3864	–	_	_	_	_	_	
+12-125	3865-3873	pritlena	_	_	_	_	_	
+12-126	3874-3882	korozija	_	_	_	_	_	
+12-127	3882-3883	;	_	_	_	_	_	
+12-128	3884-3886	na	_	_	_	_	_	
+12-129	3887-3890	taj	_	_	_	_	_	
+12-130	3891-3896	način	_	_	_	_	_	
+12-131	3897-3904	nastaju	_	_	_	_	_	
+12-132	3905-3914	gljivasti	_	_	_	_	_	
+12-133	3915-3921	oblici	_	_	_	_	_	
+12-134	3921-3922	,	_	_	_	_	_	
+12-135	3923-3934	kombinirani	_	_	_	_	_	
+12-136	3935-3936	s	_	_	_	_	_	
+12-137	3937-3947	različitim	_	_	_	_	_	
+12-138	3948-3957	udubinama	_	_	_	_	_	
+12-139	3958-3967	kontaktne	_	_	_	_	_	
+12-140	3968-3976	korozije	_	_	_	_	_	
+12-141	3976-3977	.	_	_	_	_	_	
+12-142	3978-3981	Kad	_	_	_	_	_	
+12-143	3982-3990	naplavni	_	_	_	_	_	
+12-144	3991-3997	pokrov	_	_	_	_	_	
+12-145	3998-4006	prekrije	_	_	_	_	_	
+12-146	4007-4017	karbonatne	_	_	_	_	_	
+12-147	4018-4025	stijene	_	_	_	_	_	
+12-148	4026-4028	te	_	_	_	_	_	
+12-149	4029-4035	smanji	_	_	_	_	_	
+12-150	4036-4039	ili	_	_	_	_	_	
+12-151	4040-4048	spriječi	_	_	_	_	_	
+12-152	4049-4062	procjeđivanje	_	_	_	_	_	
+12-153	4062-4063	,	_	_	_	_	_	
+12-154	4064-4073	otjecanje	_	_	_	_	_	
+12-155	4074-4075	i	_	_	_	_	_	
+12-156	4076-4084	otapanje	_	_	_	_	_	
+12-157	4085-4087	se	_	_	_	_	_	
+12-158	4088-4092	vrše	_	_	_	_	_	
+12-159	4093-4095	na	_	_	_	_	_	
+12-160	4096-4102	dodiru	_	_	_	_	_	
+12-161	4103-4104	s	_	_	_	_	_	
+12-162	4105-4111	krškim	_	_	_	_	_	
+12-163	4112-4117	rubom	_	_	_	_	_	
+12-164	4118-4119	–	_	_	_	_	_	
+12-165	4120-4125	rubna	_	_	_	_	_	
+12-166	4126-4134	korozija	_	_	_	_	_	
+12-167	4134-4135	;	_	_	_	_	_	
+12-168	4136-4151	najintenzivnija	_	_	_	_	_	
+12-169	4152-4154	je	_	_	_	_	_	
+12-170	4155-4156	u	_	_	_	_	_	
+12-171	4157-4163	razini	_	_	_	_	_	
+12-172	4164-4173	otjecanja	_	_	_	_	_	
+12-173	4174-4175	(	_	_	_	_	_	
+12-174	4175-4177	nj	_	_	_	_	_	
+12-175	4177-4178	.	_	_	_	_	_	
+12-176	4179-4194	Vorfluterniveau	_	_	_	_	_	
+12-177	4195-4196	v	_	_	_	_	_	
+12-178	4196-4197	.	_	_	_	_	_	
+12-179	4197-4198	)	_	_	_	_	_	
+12-180	4198-4199	.	_	_	_	_	_	
+12-181	4200-4205	Rubna	_	_	_	_	_	
+12-182	4206-4214	korozija	_	_	_	_	_	
+12-183	4215-4217	je	_	_	_	_	_	
+12-184	4218-4225	posebno	_	_	_	_	_	
+
+#Text=intenzivna u vlažnim i toplim klimama, gdje su naplavne ravnice obrasle bujnom vegetacijom. Korodiranje jača miješanjem voda različitih termičkih i kemijskih osobina – korozija miješanih voda (Mischungskorrosion, A. Boegli, 1964); ta vrsta korozije olakšava razumijevanje postanka podzemnih šupljina.
+13-1	4228-4238	intenzivna	_	_	_	_	_	
+13-2	4239-4240	u	_	_	_	_	_	
+13-3	4241-4248	vlažnim	_	_	_	_	_	
+13-4	4249-4250	i	_	_	_	_	_	
+13-5	4251-4257	toplim	_	_	_	_	_	
+13-6	4258-4265	klimama	_	_	_	_	_	
+13-7	4265-4266	,	_	_	_	_	_	
+13-8	4267-4271	gdje	_	_	_	_	_	
+13-9	4272-4274	su	_	_	_	_	_	
+13-10	4275-4283	naplavne	_	_	_	_	_	
+13-11	4284-4291	ravnice	_	_	_	_	_	
+13-12	4292-4299	obrasle	_	_	_	_	_	
+13-13	4300-4306	bujnom	_	_	_	_	_	
+13-14	4307-4318	vegetacijom	_	_	_	_	_	
+13-15	4318-4319	.	_	_	_	_	_	
+13-16	4320-4331	Korodiranje	_	_	_	_	_	
+13-17	4332-4336	jača	_	_	_	_	_	
+13-18	4337-4347	miješanjem	_	_	_	_	_	
+13-19	4348-4352	voda	_	_	_	_	_	
+13-20	4353-4363	različitih	_	_	_	_	_	
+13-21	4364-4373	termičkih	_	_	_	_	_	
+13-22	4374-4375	i	_	_	_	_	_	
+13-23	4376-4385	kemijskih	_	_	_	_	_	
+13-24	4386-4393	osobina	_	_	_	_	_	
+13-25	4394-4395	–	_	_	_	_	_	
+13-26	4396-4404	korozija	_	_	_	_	_	
+13-27	4405-4414	miješanih	_	_	_	_	_	
+13-28	4415-4419	voda	_	_	_	_	_	
+13-29	4420-4421	(	_	_	_	_	_	
+13-30	4421-4439	Mischungskorrosion	_	_	_	_	_	
+13-31	4439-4440	,	_	_	_	_	_	
+13-32	4441-4442	A	_	_	_	_	_	
+13-33	4442-4443	.	_	_	_	_	_	
+13-34	4444-4450	Boegli	_	_	_	_	_	
+13-35	4450-4451	,	_	_	_	_	_	
+13-36	4452-4456	1964	_	_	_	_	_	
+13-37	4456-4457	)	_	_	_	_	_	
+13-38	4457-4458	;	_	_	_	_	_	
+13-39	4459-4461	ta	_	_	_	_	_	
+13-40	4462-4467	vrsta	_	_	_	_	_	
+13-41	4468-4476	korozije	_	_	_	_	_	
+13-42	4477-4485	olakšava	_	_	_	_	_	
+13-43	4486-4499	razumijevanje	_	_	_	_	_	
+13-44	4500-4508	postanka	_	_	_	_	_	
+13-45	4509-4518	podzemnih	_	_	_	_	_	
+13-46	4519-4527	šupljina	_	_	_	_	_	
+13-47	4527-4528	.	_	_	_	_	_	
+
+#Text=kreda – bjeličasta sedimentna stijena koja se sastoji prvenstveno od kalcijeva karbonata (CaCO3). Produkt je taloženja ljuštura mikroorganizama. Uz to ima u različitoj mjeri terigenih nanosa i kremena, koji se često dekalcifikacijom (v.) i iluvijalnim procesima okuplja u konkrecije. Na kredi se razvijaju specifični oblici i pejzaž ima fluviokrški izgled (v. fluviokrš).
+14-1	4530-4535	kreda	_	D.1 Abiotic	DEFINIENDUM	_	_	
+14-2	4536-4537	–	_	_	_	_	_	
+14-3	4538-4548	bjeličasta	_	_	_	HAS\_FORM	_	
+14-4	4549-4559	sedimentna	_	D.1 Abiotic[18]	GENUS[39]	_	_	
+14-5	4560-4567	stijena	_	D.1 Abiotic[18]	GENUS[39]	_	_	
+14-6	4568-4572	koja	_	_	_	COMPOSITION\_MEDIUM[62]	frame\_COMPOSITION[75]	
+14-7	4573-4575	se	_	_	_	COMPOSITION\_MEDIUM[62]	frame\_COMPOSITION[75]	
+14-8	4576-4583	sastoji	_	_	_	COMPOSITION\_MEDIUM[62]	frame\_COMPOSITION[75]	
+14-9	4584-4595	prvenstveno	_	_	_	COMPOSITION\_MEDIUM[62]	frame\_COMPOSITION[75]	
+14-10	4596-4598	od	_	_	_	COMPOSITION\_MEDIUM[62]	frame\_COMPOSITION[75]	
+14-11	4599-4608	kalcijeva	_	D.1 Abiotic[19]	_	COMPOSITION\_MEDIUM[62]	_	
+14-12	4609-4618	karbonata	_	D.1 Abiotic[19]	_	COMPOSITION\_MEDIUM[62]	_	
+14-13	4619-4620	(	_	D.1 Abiotic[19]	_	COMPOSITION\_MEDIUM[62]	_	
+14-14	4620-4625	CaCO3	_	D.1 Abiotic[19]	_	COMPOSITION\_MEDIUM[62]	_	
+14-15	4625-4626	)	_	_	_	COMPOSITION\_MEDIUM[62]	_	
+14-16	4626-4627	.	_	_	_	_	_	
+14-17	4628-4635	Produkt	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[76]	
+14-18	4636-4638	je	_	_	_	HAS\_CAUSE[63]	frame\_CAUSE[76]	
+14-19	4639-4648	taloženja	_	B.3 Addition	_	HAS\_CAUSE[63]	_	
+14-20	4649-4657	ljuštura	_	D.1 Abiotic[20]	_	HAS\_CAUSE[63]	_	
+14-21	4658-4673	mikroorganizama	_	D.1 Abiotic[20]	_	HAS\_CAUSE[63]	_	
+14-22	4673-4674	.	_	_	_	_	_	
+14-23	4675-4677	Uz	_	_	_	_	_	
+14-24	4678-4680	to	_	_	_	_	_	
+14-25	4681-4684	ima	_	_	_	_	_	
+14-26	4685-4686	u	_	_	_	_	_	
+14-27	4687-4697	različitoj	_	_	_	_	_	
+14-28	4698-4703	mjeri	_	_	_	_	_	
+14-29	4704-4713	terigenih	_	D.1 Abiotic[21]	_	COMPOSITION\_MEDIUM[64]	_	
+14-30	4714-4720	nanosa	_	D.1 Abiotic[21]	_	COMPOSITION\_MEDIUM[64]	_	
+14-31	4721-4722	i	_	_	_	COMPOSITION\_MEDIUM[64]	_	
+14-32	4723-4730	kremena	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[64]	_	
+14-33	4730-4731	,	_	_	_	_	_	
+14-34	4732-4736	koji	_	_	_	_	_	
+14-35	4737-4739	se	_	_	_	_	_	
+14-36	4740-4745	često	_	_	_	_	_	
+14-37	4746-4762	dekalcifikacijom	_	_	_	_	_	
+14-38	4763-4764	(	_	_	_	_	_	
+14-39	4764-4765	v	_	_	_	_	_	
+14-40	4765-4766	.	_	_	_	_	_	
+14-41	4766-4767	)	_	_	_	_	_	
+14-42	4768-4769	i	_	_	_	_	_	
+14-43	4770-4781	iluvijalnim	_	_	_	_	_	
+14-44	4782-4791	procesima	_	_	_	_	_	
+14-45	4792-4799	okuplja	_	_	_	_	_	
+14-46	4800-4801	u	_	_	_	_	_	
+14-47	4802-4812	konkrecije	_	_	_	_	_	
+14-48	4812-4813	.	_	_	_	_	_	
+14-49	4814-4816	Na	_	_	_	_	_	
+14-50	4817-4822	kredi	_	_	_	_	_	
+14-51	4823-4825	se	_	_	_	_	_	
+14-52	4826-4835	razvijaju	_	_	_	_	_	
+14-53	4836-4846	specifični	_	_	_	_	_	
+14-54	4847-4853	oblici	_	_	_	_	_	
+14-55	4854-4855	i	_	_	_	_	_	
+14-56	4856-4862	pejzaž	_	_	_	_	_	
+14-57	4863-4866	ima	_	_	_	_	_	
+14-58	4867-4878	fluviokrški	_	_	_	_	_	
+14-59	4879-4885	izgled	_	_	_	_	_	
+14-60	4886-4887	(	_	_	_	_	_	
+14-61	4887-4888	v	_	_	_	_	_	
+14-62	4888-4889	.	_	_	_	_	_	
+14-63	4890-4899	fluviokrš	_	_	_	_	_	
+14-64	4899-4900	)	_	_	_	_	_	
+14-65	4900-4901	.	_	_	_	_	_	
+
+#Text=kremen ili kvarc – mineral silicijeva dioksida (Si02), kristalizira se u heksagonskom sustavu. K. nalazimo u obliku konkrecija u nekim vapnencima i kredi.
+15-1	4903-4909	kremen	_	D.1 Abiotic	DEFINIENDUM	_	_	
+15-2	4910-4913	ili	_	_	_	_	_	
+15-3	4914-4919	kvarc	_	D.1 Abiotic	DEFINIENDUM	_	_	
+15-4	4920-4921	–	_	_	_	_	_	
+15-5	4922-4929	mineral	_	_	GENUS	DEFINED\_AS[65]	_	
+15-6	4930-4940	silicijeva	_	D.1 Abiotic[22]	_	DEFINED\_AS[65]	_	
+15-7	4941-4949	dioksida	_	D.1 Abiotic[22]	_	DEFINED\_AS[65]	_	
+15-8	4950-4951	(	_	D.1 Abiotic[22]	_	DEFINED\_AS[65]	_	
+15-9	4951-4955	Si02	_	D.1 Abiotic[22]	_	DEFINED\_AS[65]	_	
+15-10	4955-4956	)	_	D.1 Abiotic[22]	_	DEFINED\_AS[65]	_	
+15-11	4956-4957	,	_	_	_	_	_	
+15-12	4958-4970	kristalizira	_	_	_	HAS\_FORM[66]	_	
+15-13	4971-4973	se	_	_	_	HAS\_FORM[66]	_	
+15-14	4974-4975	u	_	_	_	HAS\_FORM[66]	_	
+15-15	4976-4988	heksagonskom	_	_	_	HAS\_FORM[66]	_	
+15-16	4989-4996	sustavu	_	_	_	HAS\_FORM[66]	_	
+15-17	4996-4997	.	_	_	_	_	_	
+15-18	4998-4999	K	_	_	_	_	_	
+15-19	4999-5000	.	_	_	_	_	_	
+15-20	5001-5009	nalazimo	_	_	_	_	_	
+15-21	5010-5011	u	_	_	_	HAS\_FORM[67]	_	
+15-22	5012-5018	obliku	_	_	_	HAS\_FORM[67]	_	
+15-23	5019-5029	konkrecija	_	_	_	HAS\_FORM[67]	_	
+15-24	5030-5031	u	_	_	_	HAS\_LOCATION[68]	_	
+15-25	5032-5037	nekim	_	_	_	HAS\_LOCATION[68]	_	
+15-26	5038-5048	vapnencima	_	_	_	HAS\_LOCATION[68]	_	
+15-27	5049-5050	i	_	_	_	HAS\_LOCATION[68]	_	
+15-28	5051-5056	kredi	_	_	_	HAS\_LOCATION[68]	_	
+15-29	5056-5057	.	_	_	_	_	_	
+
+#Text=“Kriokrš” – pseudokrške pojave koje su posljedica zamržnjavanja i odmržnjavanja zemljišta u periglacijalnim krajevima, te sufozijskih procesa, uvjetovanih slojem permafrosta (v. krš – pseudokrš).
+16-1	5059-5060	“	_	_	_	_	_	
+16-2	5060-5067	Kriokrš	_	D.1 Abiotic	DEFINIENDUM	_	_	
+16-3	5067-5068	”	_	_	_	_	_	
+16-4	5069-5070	–	_	_	_	_	_	
+16-5	5071-5082	pseudokrške	_	_	GENUS[40]	_	_	
+16-6	5083-5089	pojave	_	_	GENUS[40]	_	_	
+16-7	5090-5094	koje	_	_	_	_	_	
+16-8	5095-5097	su	_	_	_	_	_	
+16-9	5098-5108	posljedica	_	_	_	HAS\_CAUSE[69]	_	
+16-10	5109-5122	zamržnjavanja	zamržnjavanje zemljišta	B. Process	_	HAS\_CAUSE[69]	_	
+16-11	5123-5124	i	_	_	_	HAS\_CAUSE[69]	_	
+16-12	5125-5138	odmržnjavanja	_	B. Process[23]	_	HAS\_CAUSE[69]	_	
+16-13	5139-5148	zemljišta	_	B. Process[23]	_	HAS\_CAUSE[69]	_	
+16-14	5149-5150	u	_	_	_	HAS\_LOCATION[70]	frame\_LOCATION	
+16-15	5151-5166	periglacijalnim	_	_	_	HAS\_LOCATION[70]	_	
+16-16	5167-5176	krajevima	_	_	_	HAS\_LOCATION[70]	_	
+16-17	5176-5177	,	_	_	_	_	_	
+16-18	5178-5180	te	_	_	_	_	_	
+16-19	5181-5192	sufozijskih	_	B.4 Transformation[24]	_	HAS\_CAUSE[71]	_	
+16-20	5193-5200	procesa	_	B.4 Transformation[24]	_	HAS\_CAUSE[71]	_	
+16-21	5200-5201	,	_	_	_	_	_	
+16-22	5202-5213	uvjetovanih	_	_	_	_	_	
+16-23	5214-5220	slojem	_	_	_	_	_	
+16-24	5221-5232	permafrosta	_	_	_	_	_	
+16-25	5233-5234	(	_	_	_	_	_	
+16-26	5234-5235	v	_	_	_	_	_	
+16-27	5235-5236	.	_	_	_	_	_	
+16-28	5237-5240	krš	_	_	_	_	_	
+16-29	5241-5242	–	_	_	_	_	_	
+16-30	5243-5252	pseudokrš	_	_	_	_	_	
+16-31	5252-5253	)	_	_	_	_	_	
+16-32	5253-5254	.	_	_	_	_	_	

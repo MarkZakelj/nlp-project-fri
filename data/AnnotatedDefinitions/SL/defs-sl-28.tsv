@@ -1,0 +1,324 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=korozijska vrtača: Vrtača, nastala s korozijo.
+1-1	0-10	korozijska	_	A.1 Surface landform[2]	DEFINIENDUM[19]	_	_	
+1-2	11-17	vrtača	_	A.1 Surface landform[2]	DEFINIENDUM[19]	_	_	
+1-3	17-18	:	_	A.1 Surface landform[2]	DEFINIENDUM[19]	_	_	
+1-4	19-25	Vrtača	_	A.1 Surface landform	GENUS	_	_	
+1-5	25-26	,	_	_	_	_	_	
+1-6	27-34	nastala	_	_	_	HAS\_CAUSE[34]	frame\_CAUSE[62]	
+1-7	35-36	s	_	_	_	HAS\_CAUSE[34]	frame\_CAUSE[62]	
+1-8	37-45	korozijo	_	B.4 Transformation	_	HAS\_CAUSE[34]	_	
+1-9	45-46	.	_	_	_	_	_	
+
+#Text=dvojna vrtača, sestavljena vrtača: Sestavljena iz iz dveh sosednjih vrtač, ki prehajata ena v drugo.
+2-1	51-57	dvojna	_	A.1 Surface landform[3]	DEFINIENDUM[20]	_	_	
+2-2	58-64	vrtača	_	A.1 Surface landform[3]	DEFINIENDUM[20]	_	_	
+2-3	64-65	,	_	_	_	_	_	
+2-4	66-77	sestavljena	_	A.1 Surface landform[4]	DEFINIENDUM[21]	_	_	
+2-5	78-84	vrtača	_	A.1 Surface landform[4]	DEFINIENDUM[21]	_	_	
+2-6	84-85	:	_	_	_	_	_	
+2-7	86-97	Sestavljena	_	_	_	HAS\_FORM[35]	frame\_FORM[63]	
+2-8	98-100	iz	iz[1]	_	_	HAS\_FORM[35]	frame\_FORM[63]	
+2-9	101-103	iz	iz[1]	_	_	HAS\_FORM[35]	frame\_FORM[63]	
+2-10	104-108	dveh	_	_	_	HAS\_FORM[35]	_	
+2-11	109-118	sosednjih	_	_	_	HAS\_FORM[35]	_	
+2-12	119-124	vrtač	_	A.1 Surface landform	_	HAS\_FORM[35]	_	
+2-13	124-125	,	_	_	_	HAS\_FORM[35]	_	
+2-14	126-128	ki	_	_	_	HAS\_FORM[35]	_	
+2-15	129-138	prehajata	_	_	_	HAS\_FORM[35]	_	
+2-16	139-142	ena	_	_	_	HAS\_FORM[35]	_	
+2-17	143-144	v	_	_	_	HAS\_FORM[35]	_	
+2-18	145-150	drugo	_	_	_	HAS\_FORM[35]	_	
+2-19	150-151	.	_	_	_	_	_	
+
+#Text=primarna vrtača: Vrtača, v kateri so nastale sekundarne vrtače.
+3-1	156-164	primarna	_	A.1 Surface landform[5]	DEFINIENDUM[22]	_	_	
+3-2	165-171	vrtača	_	A.1 Surface landform[5]	DEFINIENDUM[22]	_	_	
+3-3	171-172	:	_	_	_	_	_	
+3-4	173-179	Vrtača	_	A.1 Surface landform	GENUS	_	_	
+3-5	179-180	,	_	_	_	_	_	
+3-6	181-182	v	_	_	_	HAS\_RESULT[36]	_	
+3-7	183-189	kateri	_	_	_	HAS\_RESULT[36]	_	
+3-8	190-192	so	_	_	_	HAS\_RESULT[36]	frame\_RESULT[64]	
+3-9	193-200	nastale	_	_	_	HAS\_RESULT[36]	frame\_RESULT[64]	
+3-10	201-211	sekundarne	_	A.1 Surface landform[6]	_	HAS\_RESULT[36]	_	
+3-11	212-218	vrtače	_	A.1 Surface landform[6]	_	HAS\_RESULT[36]	_	
+3-12	218-219	.	_	_	_	_	_	
+
+#Text=sekundarna vrtača: Nastala v primarni vrtači.
+4-1	224-234	sekundarna	_	A.1 Surface landform[7]	DEFINIENDUM[23]	_	_	
+4-2	235-241	vrtača	_	A.1 Surface landform[7]	DEFINIENDUM[23]	_	_	
+4-3	241-242	:	_	A.1 Surface landform[7]	_	_	_	
+4-4	243-250	Nastala	_	_	_	HAS\_LOCATION[37]	_	
+4-5	251-252	v	_	_	_	HAS\_LOCATION[37]	frame\_LOCATION	
+4-6	253-261	primarni	_	A.1 Surface landform[8]	_	HAS\_LOCATION[37]	_	
+4-7	262-268	vrtači	_	A.1 Surface landform[8]	_	HAS\_LOCATION[37]	_	
+4-8	268-269	.	_	_	_	_	_	
+
+#Text=Udorna vrtača (udornica): Nastala je z udorom.
+5-1	274-280	Udorna	_	A.1 Surface landform[9]	DEFINIENDUM[24]	_	_	
+5-2	281-287	vrtača	_	A.1 Surface landform[9]	DEFINIENDUM[24]	_	_	
+5-3	288-289	(	_	_	_	_	_	
+5-4	289-297	udornica	_	A.1 Surface landform	DEFINIENDUM	_	_	
+5-5	297-298	)	_	_	_	_	_	
+5-6	298-299	:	_	_	_	_	_	
+5-7	300-307	Nastala	_	_	_	HAS\_CAUSE[38]	frame\_CAUSE[65]	
+5-8	308-310	je	_	_	_	HAS\_CAUSE[38]	frame\_CAUSE[65]	
+5-9	311-312	z	_	_	_	HAS\_CAUSE[38]	frame\_CAUSE[65]	
+5-10	313-319	udorom	_	B.4 Transformation	_	HAS\_CAUSE[38]	_	
+5-11	319-320	.	_	_	_	_	_	
+
+#Text=fosilna vrtača: Z vodoneprepustnimi sedimenti zapolnjena vrtača, ki je zastala v razvoju.
+6-1	325-332	fosilna	_	A.1 Surface landform[10]	DEFINIENDUM[25]	_	_	
+6-2	333-339	vrtača	_	A.1 Surface landform[10]	DEFINIENDUM[25]	_	_	
+6-3	339-340	:	_	_	_	_	_	
+6-4	341-342	Z	_	_	_	CONTAINS[39]	frame\_CONTAINS	
+6-5	343-360	vodoneprepustnimi	_	_	_	CONTAINS[39]	_	
+6-6	361-370	sedimenti	_	D.1 Abiotic	_	CONTAINS[39]	_	
+6-7	371-381	zapolnjena	_	_	_	CONTAINS[39]	_	
+6-8	382-388	vrtača	_	A.1 Surface landform	GENUS	_	_	
+6-9	388-389	,	_	_	_	_	_	
+6-10	390-392	ki	_	_	_	HAS\_ATTRIBUTE[40]	_	
+6-11	393-395	je	_	_	_	HAS\_ATTRIBUTE[40]	_	
+6-12	396-403	zastala	_	_	_	HAS\_ATTRIBUTE[40]	_	
+6-13	404-405	v	_	_	_	HAS\_ATTRIBUTE[40]	_	
+6-14	406-413	razvoju	_	_	_	HAS\_ATTRIBUTE[40]	_	
+6-15	413-414	.	_	_	_	_	_	
+
+#Text=sufozijska vrtača: Vrtača v sipskem gradivu, ki je nastala s sufozijo (to je spiranjem pod rušo).
+7-1	419-429	sufozijska	_	A.1 Surface landform[11]	DEFINIENDUM[26]	_	_	
+7-2	430-436	vrtača	_	A.1 Surface landform[11]	DEFINIENDUM[26]	_	_	
+7-3	436-437	:	_	_	_	_	_	
+7-4	438-444	Vrtača	_	A.1 Surface landform	GENUS	_	_	
+7-5	445-446	v	_	_	_	COMPOSITION\_MEDIUM[41]	frame\_LOCATION	
+7-6	447-454	sipskem	_	_	_	COMPOSITION\_MEDIUM[41]	_	
+7-7	455-462	gradivu	_	_	_	COMPOSITION\_MEDIUM[41]	_	
+7-8	462-463	,	_	_	_	_	_	
+7-9	464-466	ki	_	_	_	HAS\_CAUSE[42]	_	
+7-10	467-469	je	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[66]	
+7-11	470-477	nastala	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[66]	
+7-12	478-479	s	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[66]	
+7-13	480-488	sufozijo	_	B.2 Loss	_	HAS\_CAUSE[42]	_	
+7-14	489-490	(	_	_	_	HAS\_CAUSE[42]	_	
+7-15	490-492	to	_	_	_	HAS\_CAUSE[42]	_	
+7-16	493-495	je	_	_	_	HAS\_CAUSE[42]	_	
+7-17	496-505	spiranjem	_	B.2 Loss	_	HAS\_CAUSE[42]	_	
+7-18	506-509	pod	_	_	_	HAS\_CAUSE[42]	_	
+7-19	510-514	rušo	_	D.1 Abiotic	_	HAS\_CAUSE[42]	_	
+7-20	514-515	)	_	_	_	HAS\_CAUSE[42]	_	
+7-21	515-516	.	_	_	_	_	_	
+
+#Text=vrtačasti jarek: Vrsta vrtač, ki tvorijo dolinasto depresijo.
+8-1	521-530	vrtačasti	_	A.1 Surface landform[12]	DEFINIENDUM[27]	_	_	
+8-2	531-536	jarek	_	A.1 Surface landform[12]	DEFINIENDUM[27]	_	_	
+8-3	536-537	:	_	_	_	_	_	
+8-4	538-543	Vrsta	_	_	_	_	_	
+8-5	544-549	vrtač	_	A.1 Surface landform	GENUS	_	_	
+8-6	549-550	,	_	_	_	_	_	
+8-7	551-553	ki	_	_	_	HAS\_FUNCTION[43]	frame\_FUNCTION[67]	
+8-8	554-561	tvorijo	_	_	_	HAS\_FUNCTION[43]	frame\_FUNCTION[67]	
+8-9	562-571	dolinasto	_	_	_	HAS\_FUNCTION[43]	_	
+8-10	572-581	depresijo	_	D.1 Abiotic	_	HAS\_FUNCTION[43]	_	
+8-11	581-582	.	_	_	_	_	_	
+
+#Text=zakrasevanje, skrasevanje, vkraševanje, karstifikacija: Proces nastajanja krasa. Pričetek kraškega razvoja po odstranitvi neprepustnega pokrova. Kras nastaja s kraškimi procesi, med katerimi je v ospredju korozija.
+9-1	587-599	zakrasevanje	_	B. Process	DEFINIENDUM	_	_	
+9-2	599-600	,	_	_	_	_	_	
+9-3	601-612	skrasevanje	_	B. Process	DEFINIENDUM	_	_	
+9-4	612-613	,	_	_	_	_	_	
+9-5	614-625	vkraševanje	_	B. Process	DEFINIENDUM	_	_	
+9-6	625-626	,	_	_	_	_	_	
+9-7	627-641	karstifikacija	_	B. Process	DEFINIENDUM	_	_	
+9-8	641-642	:	_	_	_	_	_	
+9-9	643-649	Proces	_	_	GENUS	DEFINED\_AS[44]	_	
+9-10	650-660	nastajanja	_	B. Process	_	DEFINED\_AS[44]	_	
+9-11	661-666	krasa	_	C. Geome	_	DEFINED\_AS[44]	_	
+9-12	666-667	.	_	_	_	_	_	
+9-13	668-676	Pričetek	_	_	_	OCCURS\_IN\_TIME[45]	_	
+9-14	677-685	kraškega	_	_	_	OCCURS\_IN\_TIME[45]	_	
+9-15	686-693	razvoja	_	_	_	OCCURS\_IN\_TIME[45]	_	
+9-16	694-696	po	_	_	_	OCCURS\_IN\_TIME[45]	_	
+9-17	697-708	odstranitvi	_	_	_	OCCURS\_IN\_TIME[45]	_	
+9-18	709-722	neprepustnega	_	_	_	OCCURS\_IN\_TIME[45]	_	
+9-19	723-730	pokrova	_	D.1 Abiotic	_	OCCURS\_IN\_TIME[45]	_	
+9-20	730-731	.	_	_	_	_	_	
+9-21	732-736	Kras	_	_	_	HAS\_CAUSE[46]	_	
+9-22	737-744	nastaja	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[68]	
+9-23	745-746	s	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[68]	
+9-24	747-755	kraškimi	_	_	_	HAS\_CAUSE[46]	_	
+9-25	756-763	procesi	_	_	_	HAS\_CAUSE[46]	_	
+9-26	763-764	,	_	_	_	HAS\_CAUSE[46]	_	
+9-27	765-768	med	_	_	_	HAS\_CAUSE[46]	_	
+9-28	769-777	katerimi	_	_	_	HAS\_CAUSE[46]	_	
+9-29	778-780	je	_	_	_	HAS\_CAUSE[46]	_	
+9-30	781-782	v	_	_	_	HAS\_CAUSE[46]	_	
+9-31	783-791	ospredju	_	_	_	HAS\_CAUSE[46]	_	
+9-32	792-800	korozija	_	B.4 Transformation	_	HAS\_CAUSE[46]	_	
+9-33	800-801	.	_	_	_	_	_	
+
+#Text=zatrepna dolina: Dolina na krasu, ki se na zgornjem koncu, često ob izviru potoka, slepo konča s strmim zaključkom.
+10-1	806-814	zatrepna	_	A.1 Surface landform[13]	DEFINIENDUM[28]	_	_	
+10-2	815-821	dolina	_	A.1 Surface landform[13]	DEFINIENDUM[28]	_	_	
+10-3	821-822	:	_	_	_	_	_	
+10-4	823-829	Dolina	_	D.1 Abiotic	GENUS	_	_	
+10-5	830-832	na	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION	
+10-6	833-838	krasu	_	C. Geome	_	HAS\_LOCATION[47]	_	
+10-7	838-839	,	_	_	_	_	_	
+10-8	840-842	ki	_	_	_	HAS\_FORM[48]	_	
+10-9	843-845	se	_	_	_	HAS\_FORM[48]	_	
+10-10	846-848	na	_	_	_	HAS\_FORM[48]	_	
+10-11	849-857	zgornjem	_	_	_	HAS\_FORM[48]	_	
+10-12	858-863	koncu	_	_	_	HAS\_FORM[48]	_	
+10-13	863-864	,	_	_	_	HAS\_FORM[48]	_	
+10-14	865-870	često	_	_	_	HAS\_FORM[48]	_	
+10-15	871-873	ob	_	_	_	HAS\_FORM[48]	_	
+10-16	874-880	izviru	_	A.3 Hydrological form	_	HAS\_FORM[48]	_	
+10-17	881-887	potoka	_	D.1 Abiotic	_	HAS\_FORM[48]	_	
+10-18	887-888	,	_	_	_	HAS\_FORM[48]	_	
+10-19	889-894	slepo	_	_	_	HAS\_FORM[48]	_	
+10-20	895-900	konča	_	_	_	HAS\_FORM[48]	_	
+10-21	901-902	s	_	_	_	HAS\_FORM[48]	_	
+10-22	903-909	strmim	_	_	_	HAS\_FORM[48]	_	
+10-23	910-920	zaključkom	_	_	_	HAS\_FORM[48]	_	
+10-24	920-921	.	_	_	_	_	_	
+
+#Text=žlebič: Žlebaste izjedenine s polkrožnim prečnim prerezom, potekajoče po smeri največjega strmca po kompaktni kamnini.
+11-1	925-931	žlebič	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-2	931-932	:	_	_	_	_	_	
+11-3	933-941	Žlebaste	_	_	_	HAS\_FORM	_	
+11-4	942-952	izjedenine	_	D.1 Abiotic	GENUS	_	_	
+11-5	953-954	s	_	_	_	HAS\_FORM[49]	_	
+11-6	955-965	polkrožnim	_	_	_	HAS\_FORM[49]	_	
+11-7	966-973	prečnim	_	_	_	HAS\_FORM[49]	_	
+11-8	974-982	prerezom	_	_	_	HAS\_FORM[49]	_	
+11-9	982-983	,	_	_	_	_	_	
+11-10	984-994	potekajoče	_	_	_	HAS\_FORM[50]	frame\_LOCATION[69]	
+11-11	995-997	po	_	_	_	HAS\_FORM[50]	frame\_LOCATION[69]	
+11-12	998-1003	smeri	_	_	_	HAS\_FORM[50]	_	
+11-13	1004-1014	največjega	_	_	_	HAS\_FORM[50]	_	
+11-14	1015-1021	strmca	_	D.1 Abiotic	_	HAS\_FORM[50]	_	
+11-15	1022-1024	po	_	_	_	HAS\_FORM[50]	_	
+11-16	1025-1034	kompaktni	_	_	_	HAS\_FORM[50]	_	
+11-17	1035-1042	kamnini	_	D.1 Abiotic	_	HAS\_FORM[50]	_	
+11-18	1042-1043	.	_	_	_	_	_	
+
+#Text=jamski žlebič: Žlebič(i) na jamskem dnu ali steni.
+12-1	1048-1054	jamski	_	A.2 Underground landform[14]	DEFINIENDUM[29]	_	_	
+12-2	1055-1061	žlebič	_	A.2 Underground landform[14]	DEFINIENDUM[29]	_	_	
+12-3	1061-1062	:	_	_	_	_	_	
+12-4	1063-1069	Žlebič	_	A.1 Surface landform	GENUS	_	_	
+12-5	1069-1070	(	_	_	_	_	_	
+12-6	1070-1071	i	_	_	_	_	_	
+12-7	1071-1072	)	_	_	_	_	_	
+12-8	1073-1075	na	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION	
+12-9	1076-1083	jamskem	_	_	_	HAS\_LOCATION[51]	_	
+12-10	1084-1087	dnu	_	D.1 Abiotic	_	HAS\_LOCATION[51]	_	
+12-11	1088-1091	ali	_	_	_	HAS\_LOCATION[51]	_	
+12-12	1092-1097	steni	jamski steni	D.1 Abiotic	_	HAS\_LOCATION[51]	_	
+12-13	1097-1098	.	_	_	_	_	_	
+
+#Text=koritasti žlebič: Žlebič v obliki korita z okroglastimi previsnimi stenami, ki je posledica nekdanje zapolnjenosti s humusom.
+13-1	1103-1112	koritasti	_	A.1 Surface landform[15]	DEFINIENDUM[30]	_	_	
+13-2	1113-1119	žlebič	_	A.1 Surface landform[15]	DEFINIENDUM[30]	_	_	
+13-3	1119-1120	:	_	_	_	_	_	
+13-4	1121-1127	Žlebič	_	A.1 Surface landform	GENUS	_	_	
+13-5	1128-1129	v	_	_	_	HAS\_FORM[52]	frame\_FORM[70]	
+13-6	1130-1136	obliki	_	_	_	HAS\_FORM[52]	frame\_FORM[70]	
+13-7	1137-1143	korita	_	D.1 Abiotic	_	HAS\_FORM[52]	_	
+13-8	1144-1145	z	_	_	_	HAS\_FORM[53]	frame\_FORM	
+13-9	1146-1158	okroglastimi	_	_	_	HAS\_FORM[53]	_	
+13-10	1159-1169	previsnimi	_	_	_	HAS\_FORM[53]	_	
+13-11	1170-1177	stenami	_	D.1 Abiotic	_	HAS\_FORM[53]	_	
+13-12	1177-1178	,	_	_	_	_	_	
+13-13	1179-1181	ki	_	_	_	HAS\_CAUSE[54]	_	
+13-14	1182-1184	je	_	_	_	HAS\_CAUSE[54]	frame\_CAUSE[71]	
+13-15	1185-1194	posledica	_	_	_	HAS\_CAUSE[54]	frame\_CAUSE[71]	
+13-16	1195-1203	nekdanje	_	_	_	HAS\_CAUSE[54]	_	
+13-17	1204-1217	zapolnjenosti	_	_	_	HAS\_CAUSE[54]	_	
+13-18	1218-1219	s	_	_	_	HAS\_CAUSE[54]	_	
+13-19	1220-1227	humusom	_	D.1 Abiotic	_	HAS\_CAUSE[54]	_	
+13-20	1227-1228	.	_	_	_	_	_	
+
+#Text=meandrasti žlebiči: Zaviti žlebiči, podobni zvijugani tokavi, navadno na zložnejšem pobočju.
+14-1	1233-1243	meandrasti	_	A.1 Surface landform[16]	DEFINIENDUM[31]	_	_	
+14-2	1244-1251	žlebiči	_	A.1 Surface landform[16]	DEFINIENDUM[31]	_	_	
+14-3	1251-1252	:	_	_	_	_	_	
+14-4	1253-1259	Zaviti	_	_	_	HAS\_FORM	_	
+14-5	1260-1267	žlebiči	_	A.1 Surface landform	GENUS	_	_	
+14-6	1267-1268	,	_	_	_	_	_	
+14-7	1269-1276	podobni	_	_	_	HAS\_FORM[55]	frame\_FORM	
+14-8	1277-1286	zvijugani	_	_	_	HAS\_FORM[55]	_	
+14-9	1287-1293	tokavi	_	_	_	HAS\_FORM[55]	_	
+14-10	1293-1294	,	_	_	_	_	_	
+14-11	1295-1302	navadno	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[72]	
+14-12	1303-1305	na	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[72]	
+14-13	1306-1316	zložnejšem	_	_	_	HAS\_LOCATION[56]	_	
+14-14	1317-1324	pobočju	_	D.1 Abiotic	_	HAS\_LOCATION[56]	_	
+14-15	1324-1325	.	_	_	_	_	_	
+
+#Text=mikrožlebiči: Na vrhu golih skalnih reber začenjajoči se drobni žlebiči, ki se navzdol zgubljajo v gladkem površju.
+15-1	1330-1342	mikrožlebiči	_	A.1 Surface landform	DEFINIENDUM	_	_	
+15-2	1342-1343	:	_	_	_	_	_	
+15-3	1344-1346	Na	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION[73]	
+15-4	1347-1351	vrhu	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION[73]	
+15-5	1352-1357	golih	_	_	_	HAS\_LOCATION[57]	_	
+15-6	1358-1365	skalnih	_	_	_	HAS\_LOCATION[57]	_	
+15-7	1366-1371	reber	_	D.1 Abiotic	_	HAS\_LOCATION[57]	_	
+15-8	1372-1383	začenjajoči	_	_	_	HAS\_LOCATION[57]	_	
+15-9	1384-1386	se	_	_	_	HAS\_LOCATION[57]	_	
+15-10	1387-1393	drobni	_	_	_	HAS\_SIZE	_	
+15-11	1394-1401	žlebiči	_	A.1 Surface landform	GENUS	_	_	
+15-12	1401-1402	,	_	_	_	_	_	
+15-13	1403-1405	ki	_	_	_	_	_	
+15-14	1406-1408	se	_	_	_	_	_	
+15-15	1409-1416	navzdol	_	_	_	_	_	
+15-16	1417-1426	zgubljajo	_	_	_	_	_	
+15-17	1427-1428	v	_	_	_	_	_	
+15-18	1429-1436	gladkem	_	_	_	_	_	
+15-19	1437-1444	površju	_	D.1 Abiotic	_	_	_	
+15-20	1444-1445	.	_	_	_	_	_	
+
+#Text=stropni žleb: večji žleb, često meandrast, na jamskem stropu.
+16-1	1450-1457	stropni	_	A.2 Underground landform[17]	DEFINIENDUM[32]	_	_	
+16-2	1458-1462	žleb	_	A.2 Underground landform[17]	DEFINIENDUM[32]	_	_	
+16-3	1462-1463	:	_	_	_	_	_	
+16-4	1464-1469	večji	_	_	_	HAS\_SIZE	_	
+16-5	1470-1474	žleb	_	A.1 Surface landform	GENUS	_	_	
+16-6	1474-1475	,	_	_	_	_	_	
+16-7	1476-1481	često	_	_	_	HAS\_FORM[58]	_	
+16-8	1482-1491	meandrast	_	_	_	HAS\_FORM[58]	_	
+16-9	1491-1492	,	_	_	_	_	_	
+16-10	1493-1495	na	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION	
+16-11	1496-1503	jamskem	_	_	_	HAS\_LOCATION[59]	_	
+16-12	1504-1510	stropu	_	D.1 Abiotic	_	HAS\_LOCATION[59]	_	
+16-13	1510-1511	.	_	_	_	_	_	
+
+#Text=zaobljeni žlebiči: Žlebiči, ki imajo zaobljene vmesne hrbte.
+17-1	1516-1525	zaobljeni	_	A.1 Surface landform[18]	DEFINIENDUM[33]	_	_	
+17-2	1526-1533	žlebiči	_	A.1 Surface landform[18]	DEFINIENDUM[33]	_	_	
+17-3	1533-1534	:	_	_	_	_	_	
+17-4	1535-1542	Žlebiči	_	A.1 Surface landform	GENUS	_	_	
+17-5	1542-1543	,	_	_	_	_	_	
+17-6	1544-1546	ki	_	_	_	HAS\_FORM[60]	_	
+17-7	1547-1552	imajo	_	_	_	HAS\_FORM[60]	_	
+17-8	1553-1562	zaobljene	_	_	_	HAS\_FORM[60]	_	
+17-9	1563-1569	vmesne	_	_	_	HAS\_FORM[60]	_	
+17-10	1570-1575	hrbte	_	D.1 Abiotic	_	HAS\_FORM[60]	_	
+17-11	1575-1576	.	_	_	_	_	_	
+
+#Text=žlebičje: Skalno površje z gostimi žlebiči.
+18-1	1581-1589	žlebičje	_	A.1 Surface landform	DEFINIENDUM	_	_	
+18-2	1589-1590	:	_	_	_	_	_	
+18-3	1591-1597	Skalno	_	_	_	COMPOSITION\_MEDIUM	_	
+18-4	1598-1605	površje	_	D.1 Abiotic	GENUS	_	_	
+18-5	1606-1607	z	_	_	_	CONTAINS[61]	frame\_CONTAINS	
+18-6	1608-1615	gostimi	_	_	_	CONTAINS[61]	_	
+18-7	1616-1623	žlebiči	_	A.1 Surface landform	_	CONTAINS[61]	_	
+18-8	1623-1624	.	_	_	_	_	_	

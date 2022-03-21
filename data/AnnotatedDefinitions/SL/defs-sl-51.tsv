@@ -1,0 +1,326 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=škavnica, škalba: Skalna vdolbina, globoka in široka več centimetrov ali decimetrov, izjemoma nekaj metrov. Običajno ravnega dna in strmih, celo previsnih sten. Na krasu lj. škavna za večje škavnice.
+1-1	0-8	škavnica	_	A.1 Surface landform	DEFINIENDUM	_	_	
+1-2	8-9	,	_	_	_	_	_	
+1-3	10-16	škalba	_	A.1 Surface landform[1]	DEFINIENDUM	_	_	
+1-4	16-17	:	_	A.1 Surface landform[1]	_	_	_	
+1-5	18-24	Skalna	_	_	GENUS[18]	_	_	
+1-6	25-33	vdolbina	_	D.1 Abiotic	GENUS[18]	_	_	
+1-7	33-34	,	_	_	_	_	_	
+1-8	35-42	globoka	_	_	_	HAS\_SIZE[35]	frame\_SIZE[63]	
+1-9	43-45	in	_	_	_	HAS\_SIZE[35]	frame\_SIZE[63]	
+1-10	46-52	široka	_	_	_	HAS\_SIZE[35]	frame\_SIZE[63]	
+1-11	53-56	več	_	_	_	HAS\_SIZE[35]	_	
+1-12	57-68	centimetrov	_	_	_	HAS\_SIZE[35]	_	
+1-13	69-72	ali	_	_	_	HAS\_SIZE[35]	_	
+1-14	73-83	decimetrov	_	_	_	HAS\_SIZE[35]	_	
+1-15	83-84	,	_	_	_	HAS\_SIZE[35]	_	
+1-16	85-93	izjemoma	_	_	_	HAS\_SIZE[35]	_	
+1-17	94-99	nekaj	_	_	_	HAS\_SIZE[35]	_	
+1-18	100-106	metrov	_	_	_	HAS\_SIZE[35]	_	
+1-19	106-107	.	_	_	_	_	_	
+1-20	108-116	Običajno	_	_	_	_	_	
+1-21	117-124	ravnega	_	_	_	HAS\_FORM[36]	_	
+1-22	125-128	dna	_	_	_	HAS\_FORM[36]	_	
+1-23	129-131	in	_	_	_	HAS\_FORM[36]	_	
+1-24	132-138	strmih	_	_	_	HAS\_FORM[36]	_	
+1-25	138-139	,	_	_	_	HAS\_FORM[36]	_	
+1-26	140-144	celo	_	_	_	HAS\_FORM[36]	_	
+1-27	145-154	previsnih	_	_	_	HAS\_FORM[36]	_	
+1-28	155-159	sten	_	_	_	HAS\_FORM[36]	_	
+1-29	159-160	.	_	_	_	_	_	
+1-30	161-163	Na	_	_	_	_	_	
+1-31	164-169	krasu	_	_	_	_	_	
+1-32	170-172	lj	_	_	_	_	_	
+1-33	172-173	.	_	_	_	_	_	
+1-34	174-180	škavna	_	A.1 Surface landform	DEFINIENDUM	_	_	
+1-35	181-183	za	_	_	_	_	_	
+1-36	184-189	večje	_	_	_	_	_	
+1-37	190-198	škavnice	škavnica	_	_	_	_	
+1-38	198-199	.	_	_	_	_	_	
+
+#Text=obalna škavnica: Skalna jamica v območju plimovanja a1i valovanja, ki jo obdobno zapolnjuje morska voda.
+2-1	204-210	obalna	_	A.1 Surface landform[2]	DEFINIENDUM[19]	_	_	
+2-2	211-219	škavnica	_	A.1 Surface landform[2]	DEFINIENDUM[19]	_	_	
+2-3	219-220	:	_	_	_	_	_	
+2-4	221-227	Skalna	_	_	GENUS[20]	_	_	
+2-5	228-234	jamica	_	D.1 Abiotic	GENUS[20]	_	_	
+2-6	235-236	v	_	_	_	HAS\_LOCATION[37]	frame\_LOCATION[64]	
+2-7	237-244	območju	_	_	_	HAS\_LOCATION[37]	frame\_LOCATION[64]	
+2-8	245-255	plimovanja	_	B.1 Movement	_	HAS\_LOCATION[37]	_	
+2-9	256-259	a1i	_	_	_	HAS\_LOCATION[37]	_	
+2-10	260-269	valovanja	_	B.1 Movement	_	HAS\_LOCATION[37]	_	
+2-11	269-270	,	_	_	_	_	_	
+2-12	271-273	ki	_	_	_	_	frame\_CONTAINS[65]	
+2-13	274-276	jo	_	_	_	CONTAINS[38]	frame\_CONTAINS[65]	
+2-14	277-284	obdobno	_	_	_	CONTAINS[38]	_	
+2-15	285-295	zapolnjuje	_	_	_	CONTAINS[38]	frame\_CONTAINS	
+2-16	296-302	morska	_	D.1 Abiotic[3]	_	CONTAINS[38]	_	
+2-17	303-307	voda	_	D.1 Abiotic[3]	_	CONTAINS[38]	_	
+2-18	307-308	.	_	_	_	_	_	
+
+#Text=podtalna škavnica: Škavnici podobna skalna kotlica, ki jo prekriva zemlja (prst).
+3-1	313-321	podtalna	_	A.1 Surface landform[4]	DEFINIENDUM[21]	_	_	
+3-2	322-330	škavnica	_	A.1 Surface landform[4]	DEFINIENDUM[21]	_	_	
+3-3	330-331	:	_	_	_	_	_	
+3-4	332-340	Škavnici	_	_	_	HAS\_FORM[39]	_	
+3-5	341-348	podobna	_	_	_	HAS\_FORM[39]	frame\_FORM	
+3-6	349-355	skalna	_	_	GENUS[22]	_	_	
+3-7	356-363	kotlica	_	_	GENUS[22]	_	_	
+3-8	363-364	,	_	_	_	_	_	
+3-9	365-367	ki	_	_	_	CONTAINS[40]	frame\_CONTAINS[66]	
+3-10	368-370	jo	_	_	_	CONTAINS[40]	frame\_CONTAINS[66]	
+3-11	371-379	prekriva	_	_	_	CONTAINS[40]	frame\_CONTAINS[66]	
+3-12	380-386	zemlja	_	D.1 Abiotic	_	CONTAINS[40]	_	
+3-13	387-388	(	_	_	_	CONTAINS[40]	_	
+3-14	388-392	prst	_	D.1 Abiotic	_	CONTAINS[40]	_	
+3-15	392-393	)	_	_	_	_	_	
+3-16	393-394	.	_	_	_	_	_	
+
+#Text=odprta škavnica: Škavnica, ki ji je obod prerezal odvodni žleb.
+4-1	399-405	odprta	_	A.1 Surface landform[5]	DEFINIENDUM[23]	_	_	
+4-2	406-414	škavnica	_	A.1 Surface landform[5]	DEFINIENDUM[23]	_	_	
+4-3	414-415	:	_	_	_	_	_	
+4-4	416-424	Škavnica	_	_	GENUS	_	_	
+4-5	424-425	,	_	_	_	_	_	
+4-6	426-428	ki	_	_	_	HAS\_CAUSE[41]	_	
+4-7	429-431	ji	_	_	_	HAS\_CAUSE[41]	_	
+4-8	432-434	je	_	_	_	HAS\_CAUSE[41]	_	
+4-9	435-439	obod	_	_	_	HAS\_CAUSE[41]	_	
+4-10	440-448	prerezal	_	_	_	HAS\_CAUSE[41]	_	
+4-11	449-456	odvodni	_	_	_	HAS\_CAUSE[41]	_	
+4-12	457-461	žleb	_	D.1 Abiotic	_	HAS\_CAUSE[41]	_	
+4-13	461-462	.	_	_	_	_	_	
+
+#Text=predrta škavnica: Škavnica brez stoječe vode, s predrtim dnom.
+5-1	467-474	predrta	_	A.1 Surface landform[6]	DEFINIENDUM[24]	_	_	
+5-2	475-483	škavnica	_	A.1 Surface landform[6]	DEFINIENDUM[24]	_	_	
+5-3	483-484	:	_	_	_	_	_	
+5-4	485-493	Škavnica	_	A.1 Surface landform	GENUS	_	_	
+5-5	494-498	brez	_	_	_	CONTAINS[42]	frame\_CONTAINS	
+5-6	499-506	stoječe	_	_	_	CONTAINS[42]	_	
+5-7	507-511	vode	_	D.1 Abiotic	_	CONTAINS[42]	_	
+5-8	511-512	,	_	_	_	_	_	
+5-9	513-514	s	_	_	_	HAS\_FORM[43]	_	
+5-10	515-523	predrtim	_	_	_	HAS\_FORM[43]	_	
+5-11	524-528	dnom	_	_	_	HAS\_FORM[43]	_	
+5-12	528-529	.	_	_	_	_	_	
+
+#Text=škraplja, škrapa: Nekaj centimetrov do vec decimetrov in metrov razsežna izjedenina v skalnem površju, brez vzdolžnega pretakanja, ki ji smer določuje biološka linija najmanjšega odpora. V rabi tudi škraplje za skalni kompleks s škrapljami. Škraplje ločijo vmesni noži, grebeni, hrbti, poličke (z ravnim vrhom).
+6-1	534-542	škraplja	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-2	542-543	,	_	_	_	_	_	
+6-3	544-550	škrapa	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-4	550-551	:	_	_	_	_	_	
+6-5	552-557	Nekaj	_	_	_	HAS\_SIZE[44]	_	
+6-6	558-569	centimetrov	_	_	_	HAS\_SIZE[44]	_	
+6-7	570-572	do	_	_	_	HAS\_SIZE[44]	_	
+6-8	573-576	vec	_	_	_	HAS\_SIZE[44]	_	
+6-9	577-587	decimetrov	_	_	_	HAS\_SIZE[44]	_	
+6-10	588-590	in	_	_	_	HAS\_SIZE[44]	_	
+6-11	591-597	metrov	_	_	_	HAS\_SIZE[44]	_	
+6-12	598-606	razsežna	_	_	_	HAS\_SIZE[44]	frame\_SIZE	
+6-13	607-617	izjedenina	_	D.1 Abiotic	GENUS	HAS\_CAUSE	_	
+6-14	618-619	v	_	_	_	HAS\_LOCATION[45]	_	
+6-15	620-627	skalnem	_	_	_	HAS\_LOCATION[45]	_	
+6-16	628-635	površju	_	_	_	HAS\_LOCATION[45]	_	
+6-17	635-636	,	_	_	_	_	_	
+6-18	637-641	brez	_	_	_	HAS\_FUNCTION[46]	_	
+6-19	642-652	vzdolžnega	_	_	_	HAS\_FUNCTION[46]	_	
+6-20	653-663	pretakanja	_	B.1 Movement	_	HAS\_FUNCTION[46]	_	
+6-21	663-664	,	_	_	_	_	_	
+6-22	665-667	ki	_	_	_	_	_	
+6-23	668-670	ji	_	_	_	_	_	
+6-24	671-675	smer	_	_	_	HAS\_FORM[47]	_	
+6-25	676-684	določuje	_	_	_	HAS\_FORM[47]	_	
+6-26	685-693	biološka	_	_	_	HAS\_FORM[47]	_	
+6-27	694-700	linija	_	_	_	HAS\_FORM[47]	_	
+6-28	701-712	najmanjšega	_	_	_	HAS\_FORM[47]	_	
+6-29	713-719	odpora	_	_	_	HAS\_FORM[47]	_	
+6-30	719-720	.	_	_	_	_	_	
+6-31	721-722	V	_	_	_	_	_	
+6-32	723-727	rabi	_	_	_	_	_	
+6-33	728-732	tudi	_	_	_	_	_	
+6-34	733-741	škraplje	_	_	_	_	_	
+6-35	742-744	za	_	_	_	_	_	
+6-36	745-751	skalni	_	_	_	_	_	
+6-37	752-760	kompleks	_	_	_	_	_	
+6-38	761-762	s	_	_	_	_	_	
+6-39	763-773	škrapljami	_	_	_	_	_	
+6-40	773-774	.	_	_	_	_	_	
+6-41	775-783	Škraplje	_	_	_	_	_	
+6-42	784-790	ločijo	_	_	_	CONTAINS[48]	_	
+6-43	791-797	vmesni	_	_	_	CONTAINS[48]	_	
+6-44	798-802	noži	_	A.1 Surface landform	_	CONTAINS[48]	_	
+6-45	802-803	,	_	_	_	CONTAINS[48]	_	
+6-46	804-811	grebeni	_	A.1 Surface landform	_	CONTAINS[48]	_	
+6-47	811-812	,	_	_	_	CONTAINS[48]	_	
+6-48	813-818	hrbti	_	A.1 Surface landform	_	CONTAINS[48]	_	
+6-49	818-819	,	_	_	_	CONTAINS[48]	_	
+6-50	820-827	poličke	_	A.1 Surface landform	_	CONTAINS[48]	_	
+6-51	828-829	(	_	_	_	_	_	
+6-52	829-830	z	_	_	_	_	_	
+6-53	831-837	ravnim	_	_	_	_	_	
+6-54	838-843	vrhom	_	_	_	_	_	
+6-55	843-844	)	_	_	_	_	_	
+6-56	844-845	.	_	_	_	_	_	
+
+#Text=jamska škraplja: Škraplja v jami, ki nastane z agresivno prenikajočo vodo.
+7-1	850-856	jamska	_	A.2 Underground landform[7]	DEFINIENDUM[25]	_	_	
+7-2	857-865	škraplja	_	A.2 Underground landform[7]	DEFINIENDUM[25]	_	_	
+7-3	865-866	:	_	_	_	_	_	
+7-4	867-875	Škraplja	_	_	GENUS	_	_	
+7-5	876-877	v	_	_	_	HAS\_LOCATION[49]	frame\_LOCATION	
+7-6	878-882	jami	_	A.2 Underground landform	_	HAS\_LOCATION[49]	_	
+7-7	882-883	,	_	_	_	_	_	
+7-8	884-886	ki	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[67]	
+7-9	887-894	nastane	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[67]	
+7-10	895-896	z	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[67]	
+7-11	897-906	agresivno	_	_	_	HAS\_CAUSE[50]	_	
+7-12	907-918	prenikajočo	_	D.1 Abiotic[8]	_	HAS\_CAUSE[50]	_	
+7-13	919-923	vodo	_	D.1 Abiotic[8]	_	HAS\_CAUSE[50]	_	
+7-14	923-924	.	_	_	_	_	_	
+
+#Text=obalna škraplja: Škraplja na morski ali jezerski obali, ki nastaja na golih skalnih tleh zaradi pršavice (abrazije valov).
+8-1	929-935	obalna	_	A.1 Surface landform[9]	DEFINIENDUM[26]	_	_	
+8-2	936-944	škraplja	_	A.1 Surface landform[9]	DEFINIENDUM[26]	_	_	
+8-3	944-945	:	_	_	_	_	_	
+8-4	946-954	Škraplja	_	_	GENUS	_	_	
+8-5	955-957	na	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION	
+8-6	958-964	morski	_	_	_	HAS\_LOCATION[51]	_	
+8-7	965-968	ali	_	_	_	HAS\_LOCATION[51]	_	
+8-8	969-977	jezerski	_	_	_	HAS\_LOCATION[51]	_	
+8-9	978-983	obali	_	_	_	HAS\_LOCATION[51]	_	
+8-10	983-984	,	_	_	_	_	_	
+8-11	985-987	ki	_	_	_	COMPOSITION\_MEDIUM[52]	frame\_MEDIUM[68]	
+8-12	988-995	nastaja	_	_	_	COMPOSITION\_MEDIUM[52]	frame\_MEDIUM[68]	
+8-13	996-998	na	_	_	_	COMPOSITION\_MEDIUM[52]	frame\_MEDIUM[68]	
+8-14	999-1004	golih	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+8-15	1005-1012	skalnih	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+8-16	1013-1017	tleh	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+8-17	1018-1024	zaradi	_	_	_	HAS\_CAUSE[53]	frame\_CAUSE	
+8-18	1025-1033	pršavice	_	B.2 Loss	_	HAS\_CAUSE[53]	_	
+8-19	1034-1035	(	_	_	_	HAS\_CAUSE[53]	_	
+8-20	1035-1043	abrazije	_	B.2 Loss	_	HAS\_CAUSE[53]	_	
+8-21	1044-1049	valov	_	_	_	HAS\_CAUSE[53]	_	
+8-22	1049-1050	)	_	_	_	_	_	
+8-23	1050-1051	.	_	_	_	_	_	
+
+#Text=kavernozna škraplja: V raznih smereh zluknjana in izjedena izpostavljena škraplja.
+9-1	1056-1066	kavernozna	_	A.1 Surface landform[10]	DEFINIENDUM[27]	_	_	
+9-2	1067-1075	škraplja	_	A.1 Surface landform[10]	DEFINIENDUM[27]	_	_	
+9-3	1075-1076	:	_	_	_	_	_	
+9-4	1077-1078	V	_	_	_	HAS\_FORM[54]	_	
+9-5	1079-1085	raznih	_	_	_	HAS\_FORM[54]	_	
+9-6	1086-1092	smereh	_	_	_	HAS\_FORM[54]	_	
+9-7	1093-1102	zluknjana	_	_	_	HAS\_FORM[54]	_	
+9-8	1103-1105	in	_	_	_	HAS\_FORM[54]	_	
+9-9	1106-1114	izjedena	_	_	_	HAS\_FORM[54]	_	
+9-10	1115-1128	izpostavljena	_	_	_	HAS\_LOCATION	_	
+9-11	1129-1137	škraplja	_	A.1 Surface landform	GENUS	_	_	
+9-12	1137-1138	.	_	_	_	_	_	
+
+#Text=lezična škraplja: Nastala ob leziki.
+10-1	1143-1150	lezična	_	A.1 Surface landform[11]	DEFINIENDUM[28]	_	_	
+10-2	1151-1159	škraplja	_	A.1 Surface landform[11]	DEFINIENDUM[28]	_	_	
+10-3	1159-1160	:	_	_	_	_	_	
+10-4	1161-1168	Nastala	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[69]	
+10-5	1169-1171	ob	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[69]	
+10-6	1172-1178	leziki	_	A.1 Surface landform	_	HAS\_CAUSE[55]	_	
+10-7	1178-1179	.	_	_	_	_	_	
+
+#Text=luknjasta škraplja: Izjedenina v obliki navpicnih lukenj in raz.
+11-1	1184-1193	luknjasta	_	A.1 Surface landform[12]	DEFINIENDUM[29]	_	_	
+11-2	1194-1202	škraplja	_	A.1 Surface landform[12]	DEFINIENDUM[29]	_	_	
+11-3	1202-1203	:	_	_	_	_	_	
+11-4	1204-1214	Izjedenina	_	D.1 Abiotic	GENUS	_	_	
+11-5	1215-1216	v	_	_	_	HAS\_FORM[56]	frame\_FORM[70]	
+11-6	1217-1223	obliki	_	_	_	HAS\_FORM[56]	frame\_FORM[70]	
+11-7	1224-1233	navpicnih	_	_	_	HAS\_FORM[56]	_	
+11-8	1234-1240	lukenj	_	D.1 Abiotic	_	HAS\_FORM[56]	_	
+11-9	1241-1243	in	_	_	_	HAS\_FORM[56]	_	
+11-10	1244-1247	raz	_	D.1 Abiotic	_	HAS\_FORM[56]	_	
+11-11	1247-1248	.	_	_	_	_	_	
+
+#Text=škrapljasti vodnjak: Nekaj decimetrov, do nekaj metrov globoka skalna luknja z vidnim dnom.
+12-1	1253-1264	škrapljasti	_	A.3 Hydrological form[13]	DEFINIENDUM[30]	_	_	
+12-2	1265-1272	vodnjak	_	A.3 Hydrological form[13]	DEFINIENDUM[30]	_	_	
+12-3	1272-1273	:	_	_	_	_	_	
+12-4	1274-1279	Nekaj	_	_	_	HAS\_SIZE[57]	_	
+12-5	1280-1290	decimetrov	_	_	_	HAS\_SIZE[57]	_	
+12-6	1290-1291	,	_	_	_	HAS\_SIZE[57]	_	
+12-7	1292-1294	do	_	_	_	HAS\_SIZE[57]	_	
+12-8	1295-1300	nekaj	_	_	_	HAS\_SIZE[57]	_	
+12-9	1301-1307	metrov	_	_	_	HAS\_SIZE[57]	_	
+12-10	1308-1315	globoka	_	_	_	HAS\_SIZE[57]	frame\_SIZE	
+12-11	1316-1322	skalna	_	_	_	COMPOSITION\_MEDIUM	_	
+12-12	1323-1329	luknja	_	D.1 Abiotic	_	_	_	
+12-13	1330-1331	z	_	_	_	HAS\_FORM[58]	_	
+12-14	1332-1338	vidnim	_	_	_	HAS\_FORM[58]	_	
+12-15	1339-1343	dnom	_	_	_	HAS\_FORM[58]	_	
+12-16	1343-1344	.	_	_	_	_	_	
+
+#Text=nožasta škraplja: Škraplje, ki jih razdvaja priostren vmesni skalni grebenček.
+13-1	1349-1356	nožasta	_	A.1 Surface landform[14]	DEFINIENDUM[31]	_	_	
+13-2	1357-1365	škraplja	_	A.1 Surface landform[14]	DEFINIENDUM[31]	_	_	
+13-3	1365-1366	:	_	_	_	_	_	
+13-4	1367-1375	Škraplje	_	A.1 Surface landform	GENUS	_	_	
+13-5	1375-1376	,	_	_	_	_	_	
+13-6	1377-1379	ki	_	_	_	HAS\_FORM[59]	frame\_FORM[71]	
+13-7	1380-1383	jih	_	_	_	HAS\_FORM[59]	frame\_FORM[71]	
+13-8	1384-1392	razdvaja	_	_	_	HAS\_FORM[59]	frame\_FORM[71]	
+13-9	1393-1402	priostren	_	_	_	HAS\_FORM[59]	_	
+13-10	1403-1409	vmesni	_	_	_	HAS\_FORM[59]	_	
+13-11	1410-1416	skalni	_	_	_	HAS\_FORM[59]	_	
+13-12	1417-1426	grebenček	_	D.1 Abiotic	_	HAS\_FORM[59]	_	
+13-13	1426-1427	.	_	_	_	_	_	
+
+#Text=poklinasta škraplja, strukturna škraplja: Škraplja, ki kaže v obliki še tesno navezanost na poklino, ob kateri se je razvila.
+14-1	1432-1442	poklinasta	_	A.1 Surface landform[15]	DEFINIENDUM[32]	_	_	
+14-2	1443-1451	škraplja	_	A.1 Surface landform[15]	DEFINIENDUM[32]	_	_	
+14-3	1451-1452	,	_	_	_	_	_	
+14-4	1453-1463	strukturna	_	A.1 Surface landform[16]	DEFINIENDUM[33]	_	_	
+14-5	1464-1472	škraplja	_	A.1 Surface landform[16]	DEFINIENDUM[33]	_	_	
+14-6	1472-1473	:	_	_	_	_	_	
+14-7	1474-1482	Škraplja	_	_	GENUS	_	_	
+14-8	1482-1483	,	_	_	_	_	_	
+14-9	1484-1486	ki	_	_	_	HAS\_FORM[60]	frame\_FORM[72]	
+14-10	1487-1491	kaže	_	_	_	HAS\_FORM[60]	frame\_FORM[72]	
+14-11	1492-1493	v	_	_	_	HAS\_FORM[60]	frame\_FORM[72]	
+14-12	1494-1500	obliki	_	_	_	HAS\_FORM[60]	frame\_FORM[72]	
+14-13	1501-1503	še	_	_	_	HAS\_FORM[60]	_	
+14-14	1504-1509	tesno	_	_	_	HAS\_FORM[60]	_	
+14-15	1510-1520	navezanost	_	_	_	HAS\_FORM[60]	_	
+14-16	1521-1523	na	_	_	_	HAS\_FORM[60]|HAS\_LOCATION[61]	_	
+14-17	1524-1531	poklino	_	D.1 Abiotic	_	HAS\_FORM[60]|HAS\_LOCATION[61]	_	
+14-18	1531-1532	,	_	_	_	HAS\_LOCATION[61]	_	
+14-19	1533-1535	ob	_	_	_	HAS\_LOCATION[61]	_	
+14-20	1536-1542	kateri	_	_	_	HAS\_LOCATION[61]	_	
+14-21	1543-1545	se	_	_	_	HAS\_LOCATION[61]	_	
+14-22	1546-1548	je	_	_	_	HAS\_LOCATION[61]	_	
+14-23	1549-1556	razvila	_	_	_	HAS\_LOCATION[61]	_	
+14-24	1556-1557	.	_	_	_	_	_	
+
+#Text=porušena škraplja: Nastane s porušitvijo hrbtov med škrapljami. Podobno griža.
+15-1	1562-1570	porušena	_	A.1 Surface landform[17]	DEFINIENDUM[34]	_	_	
+15-2	1571-1579	škraplja	_	A.1 Surface landform[17]	DEFINIENDUM[34]	_	_	
+15-3	1579-1580	:	_	_	_	_	_	
+15-4	1581-1588	Nastane	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[73]	
+15-5	1589-1590	s	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[73]	
+15-6	1591-1602	porušitvijo	_	B.4 Transformation	_	HAS\_CAUSE[62]	_	
+15-7	1603-1609	hrbtov	_	_	_	HAS\_CAUSE[62]	_	
+15-8	1610-1613	med	_	_	_	HAS\_CAUSE[62]	_	
+15-9	1614-1624	škrapljami	_	A.1 Surface landform	_	HAS\_CAUSE[62]	_	
+15-10	1624-1625	.	_	_	_	_	_	
+15-11	1626-1633	Podobno	_	_	_	_	_	
+15-12	1634-1639	griža	_	A.1 Surface landform	_	_	_	
+15-13	1639-1640	.	_	_	_	_	_	
+
+#Text=s
+16-1	1643-1644	s	_	_	_	_	_	

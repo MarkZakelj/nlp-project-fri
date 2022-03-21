@@ -1,0 +1,482 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=rill :  Small solution groove on surface exposures of limestone; most common in arid or semiarid areas.
+1-1	0-4	rill	_	A.1 Surface landform	DEFINIENDUM	_	_	
+1-2	5-6	:	_	_	_	_	_	
+1-3	8-13	Small	_	_	_	HAS\_SIZE	_	
+1-4	14-22	solution	_	_	_	HAS\_CAUSE	_	
+1-5	23-29	groove	_	D.1 Abiotic	GENUS	_	_	
+1-6	30-32	on	_	_	_	HAS\_LOCATION[33]	_	
+1-7	33-40	surface	_	_	_	HAS\_LOCATION[33]	_	
+1-8	41-50	exposures	_	_	_	HAS\_LOCATION[33]	_	
+1-9	51-53	of	_	_	_	HAS\_LOCATION[33]	_	
+1-10	54-63	limestone	_	D.1 Abiotic	_	HAS\_LOCATION[33]	_	
+1-11	63-64	;	_	_	_	_	_	
+1-12	65-69	most	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION[69]	
+1-13	70-76	common	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION[69]	
+1-14	77-79	in	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION[69]	
+1-15	80-84	arid	arid areas	C. Geome	_	HAS\_LOCATION[34]	_	
+1-16	85-87	or	_	_	_	HAS\_LOCATION[34]	_	
+1-17	88-96	semiarid	_	C. Geome[1]	_	HAS\_LOCATION[34]	_	
+1-18	97-102	areas	_	C. Geome[1]	_	HAS\_LOCATION[34]	_	
+1-19	102-103	.	_	_	_	_	_	
+
+#Text=Rillenstein :   Microsolution grooves and pitting on rock surface.
+2-1	104-115	Rillenstein	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-2	116-117	:	_	_	_	_	_	
+2-3	120-133	Microsolution	_	_	_	HAS\_CAUSE	_	
+2-4	134-141	grooves	groove	D.1 Abiotic	_	_	_	
+2-5	142-145	and	_	_	_	_	_	
+2-6	146-153	pitting	_	D.1 Abiotic	_	_	_	
+2-7	154-156	on	_	_	_	HAS\_LOCATION[35]	_	
+2-8	157-161	rock	_	D.1 Abiotic[2]	_	HAS\_LOCATION[35]	_	
+2-9	162-169	surface	_	D.1 Abiotic[2]	_	HAS\_LOCATION[35]	_	
+2-10	169-170	.	_	_	_	_	_	
+
+#Text=rimstone :  Calcareous deposits formed around the rims of overflowing basins, especially in caves.
+3-1	171-179	rimstone	_	D.1 Abiotic	DEFINIENDUM	_	_	
+3-2	180-181	:	_	_	_	_	_	
+3-3	183-193	Calcareous	_	_	_	COMPOSITION\_MEDIUM	_	
+3-4	194-202	deposits	_	D.1 Abiotic	_	_	_	
+3-5	203-209	formed	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[70]	
+3-6	210-216	around	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[70]	
+3-7	217-220	the	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[70]	
+3-8	221-225	rims	_	_	_	HAS\_LOCATION[36]	_	
+3-9	226-228	of	_	_	_	HAS\_LOCATION[36]	_	
+3-10	229-240	overflowing	_	_	_	HAS\_LOCATION[36]	_	
+3-11	241-247	basins	_	D.1 Abiotic	_	HAS\_LOCATION[36]	_	
+3-12	247-248	,	_	_	_	HAS\_LOCATION[36]	_	
+3-13	249-259	especially	_	_	_	HAS\_LOCATION[36]	_	
+3-14	260-262	in	_	_	_	HAS\_LOCATION[36]	_	
+3-15	263-268	caves	_	A.2 Underground landform	_	HAS\_LOCATION[36]	_	
+3-16	268-269	.	_	_	_	_	_	
+
+#Text=rimstone barrage, rimstone barrier, rimstone dam :  A wall-shaped deposit that impounds pools of water in caves, around springs, and in cascades of streams saturated with calcium bicarbonate. Synonym, gour.
+4-1	270-278	rimstone	_	D.1 Abiotic[3]	DEFINIENDUM[18]	_	_	
+4-2	279-286	barrage	_	D.1 Abiotic[3]	DEFINIENDUM[18]	_	_	
+4-3	286-287	,	_	_	_	_	_	
+4-4	288-296	rimstone	_	D.1 Abiotic[4]	DEFINIENDUM[19]	_	_	
+4-5	297-304	barrier	_	D.1 Abiotic[4]	DEFINIENDUM[19]	_	_	
+4-6	304-305	,	_	_	_	_	_	
+4-7	306-314	rimstone	_	D.1 Abiotic[5]	DEFINIENDUM[20]	_	_	
+4-8	315-318	dam	_	D.1 Abiotic[5]	DEFINIENDUM[20]	_	_	
+4-9	319-320	:	_	_	_	_	_	
+4-10	322-323	A	_	_	_	_	_	
+4-11	324-335	wall-shaped	_	_	_	HAS\_FORM	_	
+4-12	336-343	deposit	_	D.1 Abiotic	_	_	_	
+4-13	344-348	that	_	_	_	HAS\_FUNCTION[37]	_	
+4-14	349-357	impounds	_	_	_	HAS\_FUNCTION[37]	frame\_FUNCTION	
+4-15	358-363	pools	_	_	_	HAS\_FUNCTION[37]	_	
+4-16	364-366	of	_	_	_	HAS\_FUNCTION[37]	_	
+4-17	367-372	water	_	_	_	HAS\_FUNCTION[37]	_	
+4-18	373-375	in	_	_	_	HAS\_FUNCTION[37]|HAS\_LOCATION[38]	_	
+4-19	376-381	caves	_	A.2 Underground landform	_	HAS\_FUNCTION[37]|HAS\_LOCATION[38]	_	
+4-20	381-382	,	_	_	_	HAS\_FUNCTION[37]|HAS\_LOCATION[38]	_	
+4-21	383-389	around	_	_	_	HAS\_FUNCTION[37]|HAS\_LOCATION[38]	_	
+4-22	390-397	springs	_	A.3 Hydrological form	_	HAS\_FUNCTION[37]|HAS\_LOCATION[38]	_	
+4-23	397-398	,	_	_	_	HAS\_FUNCTION[37]	_	
+4-24	399-402	and	_	_	_	HAS\_FUNCTION[37]	_	
+4-25	403-405	in	_	_	_	HAS\_FUNCTION[37]	_	
+4-26	406-414	cascades	_	_	_	HAS\_FUNCTION[37]	_	
+4-27	415-417	of	_	_	_	HAS\_FUNCTION[37]	_	
+4-28	418-425	streams	_	_	_	HAS\_FUNCTION[37]	_	
+4-29	426-435	saturated	_	_	_	HAS\_FUNCTION[37]	frame\_COMPOSITION[71]	
+4-30	436-440	with	_	_	_	HAS\_FUNCTION[37]	frame\_COMPOSITION[71]	
+4-31	441-448	calcium	_	_	_	HAS\_FUNCTION[37]	_	
+4-32	449-460	bicarbonate	_	_	_	HAS\_FUNCTION[37]	_	
+4-33	460-461	.	_	_	_	_	_	
+4-34	462-469	Synonym	_	_	_	_	_	
+4-35	469-470	,	_	_	_	_	_	
+4-36	471-475	gour	_	D.1 Abiotic	DEFINIENDUM	_	_	
+4-37	475-476	.	_	_	_	_	_	
+
+#Text=rimstone pool :  Pool kept in place by a rimstone dam.
+5-1	477-485	rimstone	_	A.3 Hydrological form[6]	DEFINIENDUM[21]	_	_	
+5-2	486-490	pool	_	A.3 Hydrological form[6]	DEFINIENDUM[21]	_	_	
+5-3	491-492	:	_	_	_	_	_	
+5-4	494-498	Pool	_	D.1 Abiotic	GENUS	_	_	
+5-5	499-503	kept	_	_	_	HAS\_CAUSE[39]	_	
+5-6	504-506	in	_	_	_	HAS\_CAUSE[39]	_	
+5-7	507-512	place	_	_	_	HAS\_CAUSE[39]	_	
+5-8	513-515	by	_	_	_	HAS\_CAUSE[39]	_	
+5-9	516-517	a	_	_	_	HAS\_CAUSE[39]	_	
+5-10	518-526	rimstone	_	_	_	HAS\_CAUSE[39]	_	
+5-11	527-530	dam	_	_	_	HAS\_CAUSE[39]	_	
+5-12	530-531	.	_	_	_	_	_	
+
+#Text=rise :   Spring rising from fractures in limestone. Point at which an underground stream comes to the surface.
+6-1	532-536	rise	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+6-2	537-538	:	_	_	_	_	_	
+6-3	541-547	Spring	_	D.1 Abiotic	GENUS	_	_	
+6-4	548-554	rising	_	_	_	HAS\_LOCATION[40]	frame\_LOCATION[72]	
+6-5	555-559	from	_	_	_	HAS\_LOCATION[40]	frame\_LOCATION[72]	
+6-6	560-569	fractures	_	_	_	HAS\_LOCATION[40]	_	
+6-7	570-572	in	_	_	_	HAS\_LOCATION[40]|COMPOSITION\_MEDIUM[41]	_	
+6-8	573-582	limestone	_	_	_	HAS\_LOCATION[40]|COMPOSITION\_MEDIUM[41]	_	
+6-9	582-583	.	_	_	_	_	_	
+6-10	584-589	Point	_	_	_	DEFINED\_AS[42]	_	
+6-11	590-592	at	_	_	_	DEFINED\_AS[42]	_	
+6-12	593-598	which	_	_	_	DEFINED\_AS[42]	_	
+6-13	599-601	an	_	_	_	DEFINED\_AS[42]	_	
+6-14	602-613	underground	_	_	_	DEFINED\_AS[42]	_	
+6-15	614-620	stream	_	_	_	DEFINED\_AS[42]	_	
+6-16	621-626	comes	_	_	_	DEFINED\_AS[42]	_	
+6-17	627-629	to	_	_	_	DEFINED\_AS[42]	_	
+6-18	630-633	the	_	_	_	DEFINED\_AS[42]	_	
+6-19	634-641	surface	_	_	_	DEFINED\_AS[42]	_	
+6-20	641-642	.	_	_	_	_	_	
+
+#Text=rock pillar :  A residual isolated mass of bedrock linking the roof or overhanging wall and floor of a cave, in contrast with a column, which is composed of dripstone or flowstone.
+7-1	643-647	rock	_	A.2 Underground landform[7]	DEFINIENDUM[22]	_	_	
+7-2	648-654	pillar	_	A.2 Underground landform[7]	DEFINIENDUM[22]	_	_	
+7-3	655-656	:	_	_	_	_	_	
+7-4	658-659	A	_	_	_	HAS\_FORM[43]	_	
+7-5	660-668	residual	_	_	_	HAS\_FORM[43]	_	
+7-6	669-677	isolated	_	_	_	HAS\_FORM[43]	_	
+7-7	678-682	mass	_	D.1 Abiotic[8]	_	HAS\_FORM[43]|COMPOSITION\_MEDIUM[44]	_	
+7-8	683-685	of	_	D.1 Abiotic[8]	_	HAS\_FORM[43]|COMPOSITION\_MEDIUM[44]	_	
+7-9	686-693	bedrock	_	D.1 Abiotic[8]	_	HAS\_FORM[43]|COMPOSITION\_MEDIUM[44]	_	
+7-10	694-701	linking	_	_	_	HAS\_FORM[43]	_	
+7-11	702-705	the	_	_	_	HAS\_FORM[43]	_	
+7-12	706-710	roof	_	_	_	HAS\_FORM[43]	_	
+7-13	711-713	or	_	_	_	HAS\_FORM[43]	_	
+7-14	714-725	overhanging	_	_	_	HAS\_FORM[43]	_	
+7-15	726-730	wall	_	_	_	HAS\_FORM[43]	_	
+7-16	731-734	and	_	_	_	HAS\_FORM[43]	_	
+7-17	735-740	floor	_	_	_	HAS\_FORM[43]	_	
+7-18	741-743	of	_	_	_	HAS\_FORM[43]	_	
+7-19	744-745	a	_	_	_	HAS\_FORM[43]	_	
+7-20	746-750	cave	_	A.2 Underground landform	_	HAS\_FORM[43]	_	
+7-21	750-751	,	_	_	_	_	_	
+7-22	752-754	in	_	_	_	_	_	
+7-23	755-763	contrast	_	_	_	_	_	
+7-24	764-768	with	_	_	_	_	_	
+7-25	769-770	a	_	_	_	_	_	
+7-26	771-777	column	_	_	_	_	_	
+7-27	777-778	,	_	_	_	_	_	
+7-28	779-784	which	_	_	_	_	_	
+7-29	785-787	is	_	_	_	_	_	
+7-30	788-796	composed	_	_	_	_	_	
+7-31	797-799	of	_	_	_	_	_	
+7-32	800-809	dripstone	_	_	_	_	_	
+7-33	810-812	or	_	_	_	_	_	
+7-34	813-822	flowstone	_	_	_	_	_	
+7-35	822-823	.	_	_	_	_	_	
+
+#Text=rock pinnacle :  A tall sharp projection of bedrock rising from the floor of a cave.
+8-1	825-829	rock	_	A.2 Underground landform[9]	DEFINIENDUM[23]	_	_	
+8-2	830-838	pinnacle	_	A.2 Underground landform[9]	DEFINIENDUM[23]	_	_	
+8-3	839-840	:	_	_	_	_	_	
+8-4	842-843	A	_	_	_	HAS\_FORM[45]	_	
+8-5	844-848	tall	_	_	_	HAS\_FORM[45]	_	
+8-6	849-854	sharp	_	_	_	HAS\_FORM[45]	_	
+8-7	855-865	projection	_	_	GENUS[24]	HAS\_FORM[45]	_	
+8-8	866-868	of	_	_	GENUS[24]	HAS\_FORM[45]	_	
+8-9	869-876	bedrock	_	D.1 Abiotic	GENUS[24]	HAS\_FORM[45]	_	
+8-10	877-883	rising	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION[73]	
+8-11	884-888	from	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION[73]	
+8-12	889-892	the	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION[73]	
+8-13	893-898	floor	_	_	_	HAS\_LOCATION[46]	_	
+8-14	899-901	of	_	_	_	HAS\_LOCATION[46]	_	
+8-15	902-903	a	_	_	_	HAS\_LOCATION[46]	_	
+8-16	904-908	cave	_	A.2 Underground landform	_	HAS\_LOCATION[46]	_	
+8-17	908-909	.	_	_	_	_	_	
+
+#Text=rock shelter :  Shallow cave under an overhanging rock ledge. Many sea caves are rock shelters. Also found in limestone and other rock types where streams have undercut their banks at bends, or where there has been abrasion by blowing sand. Common in tropical areas at places where a secondarily hardened layer of limestone forms a ledge that projects over unindurated limestone.
+9-1	910-914	rock	_	A.2 Underground landform[10]	DEFINIENDUM[25]	_	_	
+9-2	915-922	shelter	_	A.2 Underground landform[10]	DEFINIENDUM[25]	_	_	
+9-3	923-924	:	_	_	_	_	_	
+9-4	926-933	Shallow	_	_	_	HAS\_FORM	_	
+9-5	934-938	cave	_	A.2 Underground landform	GENUS	_	_	
+9-6	939-944	under	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION[74]	
+9-7	945-947	an	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION[74]	
+9-8	948-959	overhanging	_	_	_	HAS\_LOCATION[47]	_	
+9-9	960-964	rock	_	_	_	HAS\_LOCATION[47]	_	
+9-10	965-970	ledge	_	_	_	HAS\_LOCATION[47]	_	
+9-11	970-971	.	_	_	_	_	_	
+9-12	972-976	Many	_	_	_	_	_	
+9-13	977-980	sea	_	_	_	_	_	
+9-14	981-986	caves	_	_	_	_	_	
+9-15	987-990	are	_	_	_	_	_	
+9-16	991-995	rock	_	_	_	_	_	
+9-17	996-1004	shelters	_	_	_	_	_	
+9-18	1004-1005	.	_	_	_	_	_	
+9-19	1006-1010	Also	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+9-20	1011-1016	found	_	_	_	COMPOSITION\_MEDIUM[48]	frame\_COMPOSITION[75]	
+9-21	1017-1019	in	_	_	_	COMPOSITION\_MEDIUM[48]	frame\_COMPOSITION[75]	
+9-22	1020-1029	limestone	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+9-23	1030-1033	and	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+9-24	1034-1039	other	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+9-25	1040-1044	rock	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+9-26	1045-1050	types	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+9-27	1051-1056	where	_	_	_	HAS\_CAUSE[49]	_	
+9-28	1057-1064	streams	_	D.1 Abiotic	_	HAS\_CAUSE[49]	_	
+9-29	1065-1069	have	_	_	_	HAS\_CAUSE[49]	_	
+9-30	1070-1078	undercut	_	_	_	HAS\_CAUSE[49]	_	
+9-31	1079-1084	their	_	_	_	HAS\_CAUSE[49]	_	
+9-32	1085-1090	banks	_	_	_	HAS\_CAUSE[49]	_	
+9-33	1091-1093	at	_	_	_	HAS\_CAUSE[49]	_	
+9-34	1094-1099	bends	_	_	_	HAS\_CAUSE[49]	_	
+9-35	1099-1100	,	_	_	_	HAS\_CAUSE[49]	_	
+9-36	1101-1103	or	_	_	_	HAS\_CAUSE[49]	_	
+9-37	1104-1109	where	_	_	_	HAS\_CAUSE[49]	_	
+9-38	1110-1115	there	_	_	_	HAS\_CAUSE[49]	_	
+9-39	1116-1119	has	_	_	_	HAS\_CAUSE[49]	_	
+9-40	1120-1124	been	_	_	_	HAS\_CAUSE[49]	_	
+9-41	1125-1133	abrasion	_	B.2 Loss	_	HAS\_CAUSE[49]	_	
+9-42	1134-1136	by	_	_	_	HAS\_CAUSE[49]	_	
+9-43	1137-1144	blowing	_	_	_	HAS\_CAUSE[49]	_	
+9-44	1145-1149	sand	_	D.1 Abiotic	_	HAS\_CAUSE[49]	_	
+9-45	1149-1150	.	_	_	_	_	_	
+9-46	1151-1157	Common	_	_	_	HAS\_LOCATION[50]	_	
+9-47	1158-1160	in	_	_	_	HAS\_LOCATION[50]	_	
+9-48	1161-1169	tropical	_	_	_	HAS\_LOCATION[50]	_	
+9-49	1170-1175	areas	_	_	_	HAS\_LOCATION[50]	_	
+9-50	1176-1178	at	_	_	_	HAS\_LOCATION[50]	_	
+9-51	1179-1185	places	_	_	_	HAS\_LOCATION[50]	_	
+9-52	1186-1191	where	_	_	_	HAS\_LOCATION[50]	_	
+9-53	1192-1193	a	_	_	_	HAS\_LOCATION[50]	_	
+9-54	1194-1205	secondarily	_	_	_	HAS\_LOCATION[50]	_	
+9-55	1206-1214	hardened	_	_	_	HAS\_LOCATION[50]	_	
+9-56	1215-1220	layer	_	_	_	HAS\_LOCATION[50]	_	
+9-57	1221-1223	of	_	_	_	HAS\_LOCATION[50]	_	
+9-58	1224-1233	limestone	_	_	_	HAS\_LOCATION[50]	_	
+9-59	1234-1239	forms	_	_	_	HAS\_LOCATION[50]	_	
+9-60	1240-1241	a	_	_	_	HAS\_LOCATION[50]	_	
+9-61	1242-1247	ledge	_	_	_	HAS\_LOCATION[50]	_	
+9-62	1248-1252	that	_	_	_	HAS\_LOCATION[50]	_	
+9-63	1253-1261	projects	_	_	_	HAS\_LOCATION[50]	_	
+9-64	1262-1266	over	_	_	_	HAS\_LOCATION[50]	_	
+9-65	1267-1278	unindurated	_	_	_	HAS\_LOCATION[50]	_	
+9-66	1279-1288	limestone	_	_	_	HAS\_LOCATION[50]	_	
+9-67	1288-1289	.	_	_	_	_	_	
+
+#Text=roof crust :  Flowstone deposited on ceilings of caves from thin films of water, which have crept over the rock from pore or crack sources.
+10-1	1290-1294	roof	_	A.2 Underground landform[11]	DEFINIENDUM[26]	_	_	
+10-2	1295-1300	crust	_	A.2 Underground landform[11]	DEFINIENDUM[26]	_	_	
+10-3	1301-1302	:	_	_	_	_	_	
+10-4	1304-1313	Flowstone	_	D.1 Abiotic	GENUS	_	_	
+10-5	1314-1323	deposited	_	_	_	HAS\_LOCATION[51]	_	
+10-6	1324-1326	on	_	_	_	HAS\_LOCATION[51]	_	
+10-7	1327-1335	ceilings	_	_	_	HAS\_LOCATION[51]	_	
+10-8	1336-1338	of	_	_	_	HAS\_LOCATION[51]	_	
+10-9	1339-1344	caves	_	A.2 Underground landform	_	HAS\_LOCATION[51]	_	
+10-10	1345-1349	from	_	_	_	_	_	
+10-11	1350-1354	thin	_	_	_	HAS\_CAUSE[52]	_	
+10-12	1355-1360	films	_	_	_	HAS\_CAUSE[52]	_	
+10-13	1361-1363	of	_	_	_	HAS\_CAUSE[52]	_	
+10-14	1364-1369	water	_	D.1 Abiotic	_	HAS\_CAUSE[52]	_	
+10-15	1369-1370	,	_	_	_	HAS\_CAUSE[52]	_	
+10-16	1371-1376	which	_	_	_	HAS\_CAUSE[52]	_	
+10-17	1377-1381	have	_	_	_	HAS\_CAUSE[52]	_	
+10-18	1382-1387	crept	_	_	_	HAS\_CAUSE[52]	_	
+10-19	1388-1392	over	_	_	_	HAS\_CAUSE[52]	_	
+10-20	1393-1396	the	_	_	_	HAS\_CAUSE[52]	_	
+10-21	1397-1401	rock	_	_	_	HAS\_CAUSE[52]	_	
+10-22	1402-1406	from	_	_	_	HAS\_CAUSE[52]	_	
+10-23	1407-1411	pore	_	_	_	HAS\_CAUSE[52]	_	
+10-24	1412-1414	or	_	_	_	HAS\_CAUSE[52]	_	
+10-25	1415-1420	crack	_	_	_	HAS\_CAUSE[52]	_	
+10-26	1421-1428	sources	_	_	_	HAS\_CAUSE[52]	_	
+10-27	1428-1429	.	_	_	_	HAS\_CAUSE[52]	_	
+
+#Text=room :  A part of a cave system that is wider than a passage. Synonym: chamber.
+11-1	1430-1434	room	_	A.2 Underground landform	DEFINIENDUM	_	_	
+11-2	1435-1436	:	_	_	_	_	_	
+11-3	1438-1439	A	_	_	_	_	_	
+11-4	1440-1444	part	_	_	_	_	_	
+11-5	1445-1447	of	_	_	_	_	_	
+11-6	1448-1449	a	_	_	_	_	_	
+11-7	1450-1454	cave	_	A.2 Underground landform[12]	GENUS	_	_	
+11-8	1455-1461	system	_	A.2 Underground landform[12]	_	_	_	
+11-9	1462-1466	that	_	_	_	HAS\_SIZE[53]	frame\_SIZE[76]	
+11-10	1467-1469	is	_	_	_	HAS\_SIZE[53]	frame\_SIZE[76]	
+11-11	1470-1475	wider	_	_	_	HAS\_SIZE[53]	frame\_SIZE[76]	
+11-12	1476-1480	than	_	_	_	HAS\_SIZE[53]	frame\_SIZE[76]	
+11-13	1481-1482	a	_	_	_	HAS\_SIZE[53]	_	
+11-14	1483-1490	passage	_	A.2 Underground landform	_	HAS\_SIZE[53]	_	
+11-15	1490-1491	.	_	_	_	_	_	
+11-16	1492-1499	Synonym	_	_	_	_	_	
+11-17	1499-1500	:	_	_	_	_	_	
+11-18	1501-1508	chamber	_	A.2 Underground landform	DEFINIENDUM	_	_	
+11-19	1508-1509	.	_	_	_	_	_	
+
+#Text=sand stalagmite :  A stalagmite formed on sand and made of calcite cemented sandstone.
+12-1	1510-1514	sand	_	A.2 Underground landform[13]	DEFINIENDUM[27]	_	_	
+12-2	1515-1525	stalagmite	_	A.2 Underground landform[13]	DEFINIENDUM[27]	_	_	
+12-3	1526-1527	:	_	_	_	_	_	
+12-4	1529-1530	A	_	_	_	_	_	
+12-5	1531-1541	stalagmite	_	A.2 Underground landform	GENUS	_	_	
+12-6	1542-1548	formed	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[77]	
+12-7	1549-1551	on	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[77]	
+12-8	1552-1556	sand	_	D.1 Abiotic	_	HAS\_LOCATION[54]	_	
+12-9	1557-1560	and	_	_	_	_	_	
+12-10	1561-1565	made	_	_	_	COMPOSITION\_MEDIUM[55]	frame\_COMPOSITION[78]	
+12-11	1566-1568	of	_	_	_	COMPOSITION\_MEDIUM[55]	frame\_COMPOSITION[78]	
+12-12	1569-1576	calcite	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[55]	_	
+12-13	1577-1585	cemented	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+12-14	1586-1595	sandstone	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[55]	_	
+12-15	1595-1596	.	_	_	_	_	_	
+
+#Text=scaling chip :  A thin small rather irregular piece of limestone, commonly crumbly, which has fallen from the ceiling or wall of a eave. A form of cave breakdown.
+13-1	1597-1604	scaling	_	D.1 Abiotic[14]	DEFINIENDUM[28]	_	_	
+13-2	1605-1609	chip	_	D.1 Abiotic[14]	DEFINIENDUM[28]	_	_	
+13-3	1610-1611	:	_	_	_	_	_	
+13-4	1613-1614	A	_	_	_	_	_	
+13-5	1615-1619	thin	_	_	_	HAS\_FORM[56]	_	
+13-6	1620-1625	small	_	_	_	HAS\_FORM[56]	_	
+13-7	1626-1632	rather	_	_	_	HAS\_FORM[56]	_	
+13-8	1633-1642	irregular	_	_	_	HAS\_FORM[56]	_	
+13-9	1643-1648	piece	_	_	_	HAS\_FORM[56]	_	
+13-10	1649-1651	of	_	_	_	HAS\_FORM[56]	_	
+13-11	1652-1661	limestone	_	D.1 Abiotic	_	HAS\_FORM[56]|COMPOSITION\_MEDIUM[57]	_	
+13-12	1661-1662	,	_	_	_	HAS\_FORM[56]	_	
+13-13	1663-1671	commonly	_	_	_	HAS\_FORM[56]	_	
+13-14	1672-1679	crumbly	_	_	_	HAS\_FORM[56]	_	
+13-15	1679-1680	,	_	_	_	_	_	
+13-16	1681-1686	which	_	_	_	HAS\_CAUSE[58]	_	
+13-17	1687-1690	has	_	_	_	HAS\_CAUSE[58]	_	
+13-18	1691-1697	fallen	_	_	_	HAS\_CAUSE[58]	_	
+13-19	1698-1702	from	_	_	_	HAS\_CAUSE[58]	_	
+13-20	1703-1706	the	_	_	_	HAS\_CAUSE[58]	_	
+13-21	1707-1714	ceiling	_	_	_	HAS\_CAUSE[58]	_	
+13-22	1715-1717	or	_	_	_	HAS\_CAUSE[58]	_	
+13-23	1718-1722	wall	_	_	_	HAS\_CAUSE[58]	_	
+13-24	1723-1725	of	_	_	_	HAS\_CAUSE[58]	_	
+13-25	1726-1727	a	_	_	_	HAS\_CAUSE[58]	_	
+13-26	1728-1732	eave	_	A.2 Underground landform	_	HAS\_CAUSE[58]	_	
+13-27	1732-1733	.	_	_	_	_	_	
+13-28	1734-1735	A	_	_	_	_	_	
+13-29	1736-1740	form	_	_	_	_	_	
+13-30	1741-1743	of	_	_	_	_	_	
+13-31	1744-1748	cave	_	_	_	_	_	
+13-32	1749-1758	breakdown	_	_	_	_	_	
+13-33	1758-1759	.	_	_	_	_	_	
+
+#Text=scaling plate :  A small flat piece of rock of rectangular or polygonal shape, that has fallen to the floor of a cave. A form of cave breakdown in thin-tedded impure limestone cut by closely spaced joints.
+14-1	1760-1767	scaling	_	D.1 Abiotic[15]	DEFINIENDUM[29]	_	_	
+14-2	1768-1773	plate	_	D.1 Abiotic[15]	DEFINIENDUM[29]	_	_	
+14-3	1774-1775	:	_	_	_	_	_	
+14-4	1777-1778	A	_	_	_	HAS\_FORM[59]	_	
+14-5	1779-1784	small	_	_	_	HAS\_FORM[59]	_	
+14-6	1785-1789	flat	_	_	_	HAS\_FORM[59]	_	
+14-7	1790-1795	piece	_	_	GENUS[30]	HAS\_FORM[59]	_	
+14-8	1796-1798	of	_	_	GENUS[30]	HAS\_FORM[59]	_	
+14-9	1799-1803	rock	_	D.1 Abiotic	GENUS[30]	HAS\_FORM[59]	_	
+14-10	1804-1806	of	_	_	_	HAS\_FORM[59]	_	
+14-11	1807-1818	rectangular	_	_	_	HAS\_FORM[59]	_	
+14-12	1819-1821	or	_	_	_	HAS\_FORM[59]	_	
+14-13	1822-1831	polygonal	_	_	_	HAS\_FORM[59]	_	
+14-14	1832-1837	shape	_	_	_	HAS\_FORM[59]	_	
+14-15	1837-1838	,	_	_	_	_	_	
+14-16	1839-1843	that	_	_	_	HAS\_CAUSE[60]	_	
+14-17	1844-1847	has	_	_	_	HAS\_CAUSE[60]	_	
+14-18	1848-1854	fallen	_	_	_	HAS\_CAUSE[60]	_	
+14-19	1855-1857	to	_	_	_	HAS\_CAUSE[60]	_	
+14-20	1858-1861	the	_	_	_	HAS\_CAUSE[60]	_	
+14-21	1862-1867	floor	_	_	_	HAS\_CAUSE[60]	_	
+14-22	1868-1870	of	_	_	_	HAS\_CAUSE[60]	_	
+14-23	1871-1872	a	_	_	_	HAS\_CAUSE[60]	_	
+14-24	1873-1877	cave	_	A.2 Underground landform	_	HAS\_CAUSE[60]	_	
+14-25	1877-1878	.	_	_	_	_	_	
+14-26	1879-1880	A	_	_	_	_	_	
+14-27	1881-1885	form	_	_	_	_	_	
+14-28	1886-1888	of	_	_	_	_	_	
+14-29	1889-1893	cave	_	_	_	_	_	
+14-30	1894-1903	breakdown	_	_	_	_	_	
+14-31	1904-1906	in	_	_	_	COMPOSITION\_MEDIUM[61]	frame\_COMPOSITION	
+14-32	1907-1918	thin-tedded	_	_	_	COMPOSITION\_MEDIUM[61]	_	
+14-33	1919-1925	impure	_	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[61]	_	
+14-34	1926-1935	limestone	_	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[61]	_	
+14-35	1936-1939	cut	_	_	_	HAS\_FORM[62]	_	
+14-36	1940-1942	by	_	_	_	HAS\_FORM[62]	_	
+14-37	1943-1950	closely	_	_	_	HAS\_FORM[62]	_	
+14-38	1951-1957	spaced	_	_	_	HAS\_FORM[62]	_	
+14-39	1958-1964	joints	_	_	_	HAS\_FORM[62]	_	
+14-40	1964-1965	.	_	_	_	_	_	
+
+#Text=scallop :  Oval hollow having an asymmetric cross section along its main axis. Scallops form patterns on tl e walls of caves and in streambeds and were used by Bretz to determine direction of flow of turbulent water, since they are steeper on the upstream side. Commonly called flutes in America.
+15-1	1966-1973	scallop	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	1974-1975	:	_	_	_	_	_	
+15-3	1977-1981	Oval	_	_	_	HAS\_FORM[63]	_	
+15-4	1982-1988	hollow	_	D.1 Abiotic	GENUS	HAS\_FORM[63]	_	
+15-5	1989-1995	having	_	_	_	HAS\_FORM[63]	_	
+15-6	1996-1998	an	_	_	_	HAS\_FORM[63]	_	
+15-7	1999-2009	asymmetric	_	_	_	HAS\_FORM[63]	_	
+15-8	2010-2015	cross	_	_	_	HAS\_FORM[63]	_	
+15-9	2016-2023	section	_	_	_	HAS\_FORM[63]	_	
+15-10	2024-2029	along	_	_	_	HAS\_FORM[63]	_	
+15-11	2030-2033	its	_	_	_	HAS\_FORM[63]	_	
+15-12	2034-2038	main	_	_	_	HAS\_FORM[63]	_	
+15-13	2039-2043	axis	_	_	_	HAS\_FORM[63]	_	
+15-14	2043-2044	.	_	_	_	_	_	
+15-15	2045-2053	Scallops	_	_	_	HAS\_LOCATION[64]	_	
+15-16	2054-2058	form	_	_	_	HAS\_LOCATION[64]	_	
+15-17	2059-2067	patterns	_	_	_	HAS\_LOCATION[64]	_	
+15-18	2068-2070	on	_	_	_	HAS\_LOCATION[64]	_	
+15-19	2071-2073	tl	_	_	_	HAS\_LOCATION[64]	_	
+15-20	2074-2075	e	_	_	_	HAS\_LOCATION[64]	_	
+15-21	2076-2081	walls	_	_	_	HAS\_LOCATION[64]	_	
+15-22	2082-2084	of	_	_	_	HAS\_LOCATION[64]	_	
+15-23	2085-2090	caves	_	A.2 Underground landform	_	HAS\_LOCATION[64]	_	
+15-24	2091-2094	and	_	_	_	HAS\_LOCATION[64]	_	
+15-25	2095-2097	in	_	_	_	HAS\_LOCATION[64]	_	
+15-26	2098-2108	streambeds	_	D.1 Abiotic	_	HAS\_LOCATION[64]	_	
+15-27	2109-2112	and	_	_	_	_	_	
+15-28	2113-2117	were	_	_	_	MEASURES[65]	_	
+15-29	2118-2122	used	_	_	_	MEASURES[65]	_	
+15-30	2123-2125	by	_	_	_	MEASURES[65]	_	
+15-31	2126-2131	Bretz	_	_	_	MEASURES[65]	_	
+15-32	2132-2134	to	_	_	_	MEASURES[65]	frame\_MEASURES[79]	
+15-33	2135-2144	determine	_	_	_	MEASURES[65]	frame\_MEASURES[79]	
+15-34	2145-2154	direction	_	_	_	MEASURES[65]	_	
+15-35	2155-2157	of	_	_	_	MEASURES[65]	_	
+15-36	2158-2162	flow	_	_	_	MEASURES[65]	_	
+15-37	2163-2165	of	_	_	_	MEASURES[65]	_	
+15-38	2166-2175	turbulent	_	_	_	MEASURES[65]	_	
+15-39	2176-2181	water	_	_	_	MEASURES[65]	_	
+15-40	2181-2182	,	_	_	_	_	_	
+15-41	2183-2188	since	_	_	_	HAS\_FORM[66]	_	
+15-42	2189-2193	they	_	_	_	HAS\_FORM[66]	_	
+15-43	2194-2197	are	_	_	_	HAS\_FORM[66]	_	
+15-44	2198-2205	steeper	_	_	_	HAS\_FORM[66]	_	
+15-45	2206-2208	on	_	_	_	HAS\_FORM[66]	_	
+15-46	2209-2212	the	_	_	_	HAS\_FORM[66]	_	
+15-47	2213-2221	upstream	_	_	_	HAS\_FORM[66]	_	
+15-48	2222-2226	side	_	_	_	HAS\_FORM[66]	_	
+15-49	2226-2227	.	_	_	_	_	_	
+15-50	2228-2236	Commonly	_	_	_	_	_	
+15-51	2237-2243	called	_	_	_	_	_	
+15-52	2244-2250	flutes	_	A.2 Underground landform	_	_	_	
+15-53	2251-2253	in	_	_	_	_	_	
+15-54	2254-2261	America	_	_	_	_	_	
+15-55	2261-2262	.	_	_	_	_	_	
+
+#Text=sea cave :  A cave or cleft in a sea cliff eroded by waves or currerts or dissolved by water.
+16-1	2263-2266	sea	_	A.3 Hydrological form[17]	DEFINIENDUM[31]	_	_	
+16-2	2267-2271	cave	_	A.3 Hydrological form[17]	DEFINIENDUM[31]	_	_	
+16-3	2272-2273	:	_	_	_	_	_	
+16-4	2275-2276	A	_	_	_	_	_	
+16-5	2277-2281	cave	_	A.2 Underground landform	GENUS[32]	_	_	
+16-6	2282-2284	or	_	_	GENUS[32]	_	_	
+16-7	2285-2290	cleft	_	D.1 Abiotic	GENUS[32]	_	_	
+16-8	2291-2293	in	_	_	_	HAS\_LOCATION[67]	_	
+16-9	2294-2295	a	_	_	_	HAS\_LOCATION[67]	_	
+16-10	2296-2299	sea	_	_	_	HAS\_LOCATION[67]	_	
+16-11	2300-2305	cliff	_	_	_	HAS\_LOCATION[67]	_	
+16-12	2306-2312	eroded	_	_	_	HAS\_CAUSE[68]	frame\_CAUSE[80]	
+16-13	2313-2315	by	_	_	_	HAS\_CAUSE[68]	frame\_CAUSE[80]	
+16-14	2316-2321	waves	_	_	_	HAS\_CAUSE[68]	_	
+16-15	2322-2324	or	_	_	_	HAS\_CAUSE[68]	_	
+16-16	2325-2333	currerts	_	_	_	HAS\_CAUSE[68]	_	
+16-17	2334-2336	or	_	_	_	HAS\_CAUSE[68]	_	
+16-18	2337-2346	dissolved	_	_	_	HAS\_CAUSE[68]	frame\_CAUSE[81]	
+16-19	2347-2349	by	_	_	_	HAS\_CAUSE[68]	frame\_CAUSE[81]	
+16-20	2350-2355	water	_	_	_	HAS\_CAUSE[68]	_	
+16-21	2355-2356	.	_	_	_	_	_	

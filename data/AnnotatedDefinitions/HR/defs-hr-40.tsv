@@ -1,0 +1,331 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Cijednica je voda koja se pojavljuje na kraju pukotina u zidovima kanala ili na kosom stropu i cijedi se pod utjecajem sile teže .
+1-1	0-9	Cijednica	_	D.1 Abiotic	DEFINIENDUM	_	_	
+1-2	10-12	je	_	_	_	_	_	
+1-3	13-17	voda	_	D.1 Abiotic	GENUS	_	_	
+1-4	18-22	koja	_	_	_	_	_	
+1-5	23-25	se	_	_	_	_	_	
+1-6	26-36	pojavljuje	_	_	_	_	_	
+1-7	37-39	na	_	_	_	HAS\_LOCATION[19]	_	
+1-8	40-45	kraju	_	_	_	HAS\_LOCATION[19]	_	
+1-9	46-54	pukotina	_	A.2 Underground landform	_	HAS\_LOCATION[19]	_	
+1-10	55-56	u	_	_	_	HAS\_LOCATION[19]	_	
+1-11	57-65	zidovima	_	_	_	HAS\_LOCATION[19]	_	
+1-12	66-72	kanala	_	A.3 Hydrological form	_	HAS\_LOCATION[19]	_	
+1-13	73-76	ili	_	_	_	_	_	
+1-14	77-79	na	_	_	_	HAS\_LOCATION[20]	_	
+1-15	80-85	kosom	_	_	_	HAS\_LOCATION[20]	_	
+1-16	86-92	stropu	_	_	_	HAS\_LOCATION[20]	_	
+1-17	93-94	i	_	_	_	_	_	
+1-18	95-101	cijedi	_	_	_	HAS\_ATTRIBUTE[21]	_	
+1-19	102-104	se	_	_	_	HAS\_ATTRIBUTE[21]	_	
+1-20	105-108	pod	_	_	_	HAS\_ATTRIBUTE[21]	_	
+1-21	109-118	utjecajem	_	_	_	HAS\_ATTRIBUTE[21]	_	
+1-22	119-123	sile	_	_	_	HAS\_ATTRIBUTE[21]	_	
+1-23	124-128	teže	_	_	_	HAS\_ATTRIBUTE[21]	_	
+1-24	129-130	.	_	_	_	_	_	
+
+#Text=Kreide – bjeliča sta sedimentna stijena koja se sastoji prvenstveno od kalcijeva karbonata ( CaCO3 ) .
+2-1	132-138	Kreide	_	D.1 Abiotic	DEFINIENDUM	_	_	
+2-2	139-140	–	_	_	_	_	_	
+2-3	141-148	bjeliča	_	_	_	_	_	
+2-4	149-152	sta	_	_	_	_	_	
+2-5	153-163	sedimentna	_	D.1 Abiotic[6]	GENUS[16]	_	_	
+2-6	164-171	stijena	_	D.1 Abiotic[6]	GENUS[16]	_	_	
+2-7	172-176	koja	_	_	_	_	_	
+2-8	177-179	se	_	_	_	_	_	
+2-9	180-187	sastoji	_	_	_	_	_	
+2-10	188-199	prvenstveno	_	_	_	_	_	
+2-11	200-202	od	_	_	_	COMPOSITION\_MEDIUM[22]	frame\_COMPOSITION	
+2-12	203-212	kalcijeva	kalcijev karbonat[1]	D.1 Abiotic[7]	_	COMPOSITION\_MEDIUM[22]	_	
+2-13	213-222	karbonata	kalcijev karbonat[1]	D.1 Abiotic[7]	_	COMPOSITION\_MEDIUM[22]	_	
+2-14	223-224	(	_	_	_	COMPOSITION\_MEDIUM[22]	_	
+2-15	225-230	CaCO3	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[22]	_	
+2-16	231-232	)	_	_	_	COMPOSITION\_MEDIUM[22]	_	
+2-17	233-234	.	_	_	_	_	_	
+
+#Text=Zamrzavanjem i odmrzavanjem površinskog sloja drobe se stijene i olakšava proces glacijalne erozije .
+3-1	236-248	Zamrzavanjem	_	_	_	_	_	
+3-2	249-250	i	_	_	_	_	_	
+3-3	251-263	odmrzavanjem	_	_	_	_	_	
+3-4	264-275	površinskog	_	_	_	_	_	
+3-5	276-281	sloja	_	_	_	_	_	
+3-6	282-287	drobe	_	_	_	_	_	
+3-7	288-290	se	_	_	_	_	_	
+3-8	291-298	stijene	_	_	_	_	_	
+3-9	299-300	i	_	_	_	_	_	
+3-10	301-309	olakšava	_	_	_	_	_	
+3-11	310-316	proces	_	_	_	_	_	
+3-12	317-327	glacijalne	_	_	_	_	_	
+3-13	328-335	erozije	_	_	_	_	_	
+3-14	336-337	.	_	_	_	_	_	
+
+#Text=Kvantitativno trasiranje bojanjem sastoji se od injektiranja poznate količine boje i mjerenja koncentracije boje na mjestu istjecanja u odnosu na proteklo vrijeme .
+4-1	339-352	Kvantitativno	_	_	_	_	_	
+4-2	353-363	trasiranje	_	_	_	_	_	
+4-3	364-372	bojanjem	_	_	_	_	_	
+4-4	373-380	sastoji	_	_	_	_	_	
+4-5	381-383	se	_	_	_	_	_	
+4-6	384-386	od	_	_	_	_	_	
+4-7	387-399	injektiranja	_	_	_	_	_	
+4-8	400-407	poznate	_	_	_	_	_	
+4-9	408-416	količine	_	_	_	_	_	
+4-10	417-421	boje	_	_	_	_	_	
+4-11	422-423	i	_	_	_	_	_	
+4-12	424-432	mjerenja	_	_	_	_	_	
+4-13	433-446	koncentracije	_	_	_	_	_	
+4-14	447-451	boje	_	_	_	_	_	
+4-15	452-454	na	_	_	_	_	_	
+4-16	455-461	mjestu	_	_	_	_	_	
+4-17	462-472	istjecanja	_	_	_	_	_	
+4-18	473-474	u	_	_	_	_	_	
+4-19	475-481	odnosu	_	_	_	_	_	
+4-20	482-484	na	_	_	_	_	_	
+4-21	485-493	proteklo	_	_	_	_	_	
+4-22	494-501	vrijeme	_	_	_	_	_	
+4-23	502-503	.	_	_	_	_	_	
+
+#Text=Krške uvale ili zavale su prostrana izdužena udubljenja u kršu dužine do nekoliko kilometara , a nastale su kao posljedica korozivnog djelovanja vode ili spajanjem više vrtača ( slika 2.13 ) .
+5-1	505-510	Krške	_	A.1 Surface landform[8]	DEFINIENDUM[17]	_	_	
+5-2	511-516	uvale	_	A.1 Surface landform[8]	DEFINIENDUM[17]	_	_	
+5-3	517-520	ili	_	_	_	_	_	
+5-4	521-527	zavale	_	A.1 Surface landform	DEFINIENDUM	_	_	
+5-5	528-530	su	_	_	_	_	_	
+5-6	531-540	prostrana	_	_	_	DEFINED\_AS[23]	_	
+5-7	541-549	izdužena	_	_	_	DEFINED\_AS[23]	_	
+5-8	550-560	udubljenja	_	_	_	DEFINED\_AS[23]	_	
+5-9	561-562	u	_	_	_	HAS\_LOCATION[24]	frame\_LOCATION	
+5-10	563-567	kršu	_	C. Geome	_	HAS\_LOCATION[24]	_	
+5-11	568-574	dužine	_	_	_	HAS\_SIZE[25]	_	
+5-12	575-577	do	_	_	_	HAS\_SIZE[25]	_	
+5-13	578-586	nekoliko	_	_	_	HAS\_SIZE[25]	_	
+5-14	587-597	kilometara	_	_	_	HAS\_SIZE[25]	_	
+5-15	598-599	,	_	_	_	_	_	
+5-16	600-601	a	_	_	_	_	_	
+5-17	602-609	nastale	_	_	_	HAS\_CAUSE[26]	frame\_CAUSE[36]	
+5-18	610-612	su	_	_	_	HAS\_CAUSE[26]	frame\_CAUSE[36]	
+5-19	613-616	kao	_	_	_	HAS\_CAUSE[26]	frame\_CAUSE[36]	
+5-20	617-627	posljedica	_	_	_	HAS\_CAUSE[26]	frame\_CAUSE[36]	
+5-21	628-638	korozivnog	_	_	_	HAS\_CAUSE[26]	_	
+5-22	639-649	djelovanja	_	_	_	HAS\_CAUSE[26]	_	
+5-23	650-654	vode	_	_	_	HAS\_CAUSE[26]	_	
+5-24	655-658	ili	_	_	_	_	_	
+5-25	659-668	spajanjem	_	_	_	HAS\_CAUSE[27]	_	
+5-26	669-673	više	_	_	_	HAS\_CAUSE[27]	_	
+5-27	674-680	vrtača	_	A.1 Surface landform	_	HAS\_CAUSE[27]	_	
+5-28	681-682	(	_	_	_	_	_	
+5-29	683-688	slika	_	_	_	_	_	
+5-30	689-693	2.13	_	_	_	_	_	
+5-31	694-695	)	_	_	_	_	_	
+5-32	696-697	.	_	_	_	_	_	
+
+#Text=Donji trijas građen je od pločastih tanko uslojenih vapnenaca , pješčenjaka , šejlova , siltita i lapora , a anizik se sastoji od različitih tipova dolomita , vapnenaca , dolomitičnih vapnenaca i dolomitičnih breča .
+6-1	699-704	Donji	_	_	_	_	_	
+6-2	705-711	trijas	_	_	_	_	_	
+6-3	712-718	građen	_	_	_	_	_	
+6-4	719-721	je	_	_	_	_	_	
+6-5	722-724	od	_	_	_	_	_	
+6-6	725-734	pločastih	_	_	_	_	_	
+6-7	735-740	tanko	_	_	_	_	_	
+6-8	741-750	uslojenih	_	_	_	_	_	
+6-9	751-760	vapnenaca	_	_	_	_	_	
+6-10	761-762	,	_	_	_	_	_	
+6-11	763-774	pješčenjaka	_	_	_	_	_	
+6-12	775-776	,	_	_	_	_	_	
+6-13	777-784	šejlova	_	_	_	_	_	
+6-14	785-786	,	_	_	_	_	_	
+6-15	787-794	siltita	_	_	_	_	_	
+6-16	795-796	i	_	_	_	_	_	
+6-17	797-803	lapora	_	_	_	_	_	
+6-18	804-805	,	_	_	_	_	_	
+6-19	806-807	a	_	_	_	_	_	
+6-20	808-814	anizik	_	_	_	_	_	
+6-21	815-817	se	_	_	_	_	_	
+6-22	818-825	sastoji	_	_	_	_	_	
+6-23	826-828	od	_	_	_	_	_	
+6-24	829-839	različitih	_	_	_	_	_	
+6-25	840-846	tipova	_	_	_	_	_	
+6-26	847-855	dolomita	_	_	_	_	_	
+6-27	856-857	,	_	_	_	_	_	
+6-28	858-867	vapnenaca	_	_	_	_	_	
+6-29	868-869	,	_	_	_	_	_	
+6-30	870-882	dolomitičnih	_	_	_	_	_	
+6-31	883-892	vapnenaca	_	_	_	_	_	
+6-32	893-894	i	_	_	_	_	_	
+6-33	895-907	dolomitičnih	_	_	_	_	_	
+6-34	908-913	breča	_	_	_	_	_	
+6-35	914-915	.	_	_	_	_	_	
+
+#Text=Puženja su polagani procesi kretanja regolita niz padinu .
+7-1	917-924	Puženja	_	B.1 Movement	DEFINIENDUM	_	_	
+7-2	925-927	su	_	_	_	_	_	
+7-3	928-936	polagani	_	_	_	DEFINED\_AS[28]	_	
+7-4	937-944	procesi	_	B.1 Movement[9]	_	DEFINED\_AS[28]	_	
+7-5	945-953	kretanja	_	B.1 Movement[9]	_	DEFINED\_AS[28]	_	
+7-6	954-962	regolita	_	D.1 Abiotic	_	DEFINED\_AS[28]	_	
+7-7	963-966	niz	_	_	_	DEFINED\_AS[28]|HAS\_LOCATION[29]	_	
+7-8	967-973	padinu	_	A.1 Surface landform	_	DEFINED\_AS[28]|HAS\_LOCATION[29]	_	
+7-9	974-975	.	_	_	_	_	_	
+
+#Text=Procesima površinske rastrožbe , spiranjem i linearnim transportom nastaju oblici dolinskog reljefa koji se kombiniraju s krškim formama , nastalim zbog poniranja vode i širenja pukotina u vapne načkim dijelovima .
+8-1	977-986	Procesima	_	_	_	_	_	
+8-2	987-997	površinske	_	_	_	_	_	
+8-3	998-1007	rastrožbe	_	_	_	_	_	
+8-4	1008-1009	,	_	_	_	_	_	
+8-5	1010-1019	spiranjem	_	_	_	_	_	
+8-6	1020-1021	i	_	_	_	_	_	
+8-7	1022-1031	linearnim	_	_	_	_	_	
+8-8	1032-1043	transportom	_	_	_	_	_	
+8-9	1044-1051	nastaju	_	_	_	_	_	
+8-10	1052-1058	oblici	_	_	_	_	_	
+8-11	1059-1068	dolinskog	_	_	_	_	_	
+8-12	1069-1076	reljefa	_	_	_	_	_	
+8-13	1077-1081	koji	_	_	_	_	_	
+8-14	1082-1084	se	_	_	_	_	_	
+8-15	1085-1096	kombiniraju	_	_	_	_	_	
+8-16	1097-1098	s	_	_	_	_	_	
+8-17	1099-1105	krškim	_	_	_	_	_	
+8-18	1106-1113	formama	_	_	_	_	_	
+8-19	1114-1115	,	_	_	_	_	_	
+8-20	1116-1124	nastalim	_	_	_	_	_	
+8-21	1125-1129	zbog	_	_	_	_	_	
+8-22	1130-1139	poniranja	_	_	_	_	_	
+8-23	1140-1144	vode	_	_	_	_	_	
+8-24	1145-1146	i	_	_	_	_	_	
+8-25	1147-1154	širenja	_	_	_	_	_	
+8-26	1155-1163	pukotina	_	_	_	_	_	
+8-27	1164-1165	u	_	_	_	_	_	
+8-28	1166-1171	vapne	_	_	_	_	_	
+8-29	1172-1178	načkim	_	_	_	_	_	
+8-30	1179-1189	dijelovima	_	_	_	_	_	
+8-31	1190-1191	.	_	_	_	_	_	
+
+#Text=Najčešći su hibridni sedimenti u kojima su piroklastične čestice povezane normalnim sedimentnim kemogenim ili klastičnim materijalom .
+9-1	1193-1201	Najčešći	_	_	_	_	_	
+9-2	1202-1204	su	_	_	_	_	_	
+9-3	1205-1213	hibridni	_	_	_	_	_	
+9-4	1214-1223	sedimenti	_	_	_	_	_	
+9-5	1224-1225	u	_	_	_	_	_	
+9-6	1226-1232	kojima	_	_	_	_	_	
+9-7	1233-1235	su	_	_	_	_	_	
+9-8	1236-1249	piroklastične	_	_	_	_	_	
+9-9	1250-1257	čestice	_	_	_	_	_	
+9-10	1258-1266	povezane	_	_	_	_	_	
+9-11	1267-1276	normalnim	_	_	_	_	_	
+9-12	1277-1288	sedimentnim	_	_	_	_	_	
+9-13	1289-1298	kemogenim	_	_	_	_	_	
+9-14	1299-1302	ili	_	_	_	_	_	
+9-15	1303-1313	klastičnim	_	_	_	_	_	
+9-16	1314-1325	materijalom	_	_	_	_	_	
+9-17	1326-1327	.	_	_	_	_	_	
+
+#Text=Transmisivnost Tf je bitan parametar koji opisuje hidrauličko ponašanje pukotine .
+10-1	1329-1343	Transmisivnost	_	D.3 Property	DEFINIENDUM	_	_	
+10-2	1344-1346	Tf	_	_	_	_	_	
+10-3	1347-1349	je	_	_	_	_	_	
+10-4	1350-1355	bitan	_	_	_	_	_	
+10-5	1356-1365	parametar	_	D.3 Property	GENUS	_	_	
+10-6	1366-1370	koji	_	_	_	HAS\_FUNCTION[30]	frame\_FUNCTION[37]	
+10-7	1371-1378	opisuje	_	_	_	HAS\_FUNCTION[30]	frame\_FUNCTION[37]	
+10-8	1379-1390	hidrauličko	_	D.3 Property[10]	_	HAS\_FUNCTION[30]	_	
+10-9	1391-1400	ponašanje	_	D.3 Property[10]	_	HAS\_FUNCTION[30]	_	
+10-10	1401-1409	pukotine	_	D.3 Property[10]	_	HAS\_FUNCTION[30]	_	
+10-11	1410-1411	.	_	_	_	_	_	
+
+#Text=Jaruge su izduženi morfološki oblici formirani linearnim otjecanjem vode .
+11-1	1413-1419	Jaruge	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-2	1420-1422	su	_	_	_	_	_	
+11-3	1423-1431	izduženi	_	A. Landform[11]	GENUS[18]	_	_	
+11-4	1432-1442	morfološki	_	A. Landform[11]	GENUS[18]	_	_	
+11-5	1443-1449	oblici	_	A. Landform[11]	GENUS[18]	_	_	
+11-6	1450-1459	formirani	_	_	_	HAS\_CAUSE[31]	frame\_CAUSE	
+11-7	1460-1469	linearnim	linearno otjecanje vode[2]	B.1 Movement[12]	_	HAS\_CAUSE[31]	_	
+11-8	1470-1480	otjecanjem	linearno otjecanje vode[2]	B.1 Movement[12]	_	HAS\_CAUSE[31]	_	
+11-9	1481-1485	vode	linearno otjecanje vode[2]	B.1 Movement[12]	_	HAS\_CAUSE[31]	_	
+11-10	1486-1487	.	_	_	_	_	_	
+
+#Text=Oborina je tekući ili čvrsti proizvod kondenzacije vodene pare koji pada iz oblaka ili se iz zraka taloži na tlo .
+12-1	1489-1496	Oborina	_	D.1 Abiotic	DEFINIENDUM	_	_	
+12-2	1497-1499	je	_	_	_	_	_	
+12-3	1500-1506	tekući	_	_	_	DEFINED\_AS[32]	_	
+12-4	1507-1510	ili	_	_	_	DEFINED\_AS[32]	_	
+12-5	1511-1517	čvrsti	_	_	_	DEFINED\_AS[32]	_	
+12-6	1518-1526	proizvod	_	_	_	DEFINED\_AS[32]	_	
+12-7	1527-1539	kondenzacije	kondenzacija vodene pare[3]	B.4 Transformation[13]	_	DEFINED\_AS[32]	_	
+12-8	1540-1546	vodene	kondenzacija vodene pare[3]	B.4 Transformation[13]	_	DEFINED\_AS[32]	_	
+12-9	1547-1551	pare	kondenzacija vodene pare[3]	B.4 Transformation[13]	_	DEFINED\_AS[32]	_	
+12-10	1552-1556	koji	_	_	_	_	_	
+12-11	1557-1561	pada	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-12	1562-1564	iz	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-13	1565-1571	oblaka	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-14	1572-1575	ili	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-15	1576-1578	se	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-16	1579-1581	iz	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-17	1582-1587	zraka	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-18	1588-1594	taloži	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-19	1595-1597	na	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-20	1598-1601	tlo	_	_	_	HAS\_ATTRIBUTE[33]	_	
+12-21	1602-1603	.	_	_	_	_	_	
+
+#Text=Škrip je udubina u karbonatnim stijenama , osobito u čistim vapnencima .
+13-1	1605-1610	Škrip	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	1611-1613	je	_	_	_	_	_	
+13-3	1614-1621	udubina	_	A.1 Surface landform	GENUS	_	_	
+13-4	1622-1623	u	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION	
+13-5	1624-1635	karbonatnim	karbonatne stijene[4]	D.1 Abiotic[14]	_	HAS\_LOCATION[34]	_	
+13-6	1636-1645	stijenama	karbonatne stijene[4]	D.1 Abiotic[14]	_	HAS\_LOCATION[34]	_	
+13-7	1646-1647	,	_	_	_	_	_	
+13-8	1648-1655	osobito	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[38]	
+13-9	1656-1657	u	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[38]	
+13-10	1658-1664	čistim	čisti vapnenci[5]	D.1 Abiotic[15]	_	HAS\_LOCATION[35]	_	
+13-11	1665-1675	vapnencima	čisti vapnenci[5]	D.1 Abiotic[15]	_	HAS\_LOCATION[35]	_	
+13-12	1676-1677	.	_	_	_	_	_	
+
+#Text=Uzvišenja u odnosu na zaravan možemo podijeliti na rubna i osamljena .
+14-1	1679-1688	Uzvišenja	_	A.1 Surface landform	GENUS	_	_	
+14-2	1689-1690	u	_	_	_	_	_	
+14-3	1691-1697	odnosu	_	_	_	_	_	
+14-4	1698-1700	na	_	_	_	_	_	
+14-5	1701-1708	zaravan	_	_	_	_	_	
+14-6	1709-1715	možemo	_	_	_	_	_	
+14-7	1716-1726	podijeliti	_	_	_	_	_	
+14-8	1727-1729	na	_	_	_	_	_	
+14-9	1730-1735	rubna	rubna uzvišenja	A.1 Surface landform	DEFINIENDUM	_	_	
+14-10	1736-1737	i	_	_	_	_	_	
+14-11	1738-1747	osamljena	osamljena uzvišenja	A.1 Surface landform	DEFINIENDUM	_	_	
+14-12	1748-1749	.	_	_	_	_	_	
+
+#Text=Riječ speleologija je složenica od starogrčke riječi spelaion koja označava prirodnu podzemnu šupljinu , i riječi » logos « koja također na starogrčkom označava znanost .
+15-1	1751-1756	Riječ	_	_	_	_	_	
+15-2	1757-1769	speleologija	_	_	_	_	_	
+15-3	1770-1772	je	_	_	_	_	_	
+15-4	1773-1782	složenica	_	_	_	_	_	
+15-5	1783-1785	od	_	_	_	_	_	
+15-6	1786-1796	starogrčke	_	_	_	_	_	
+15-7	1797-1803	riječi	_	_	_	_	_	
+15-8	1804-1812	spelaion	_	_	_	_	_	
+15-9	1813-1817	koja	_	_	_	_	_	
+15-10	1818-1826	označava	_	_	_	_	_	
+15-11	1827-1835	prirodnu	_	_	_	_	_	
+15-12	1836-1844	podzemnu	_	_	_	_	_	
+15-13	1845-1853	šupljinu	_	_	_	_	_	
+15-14	1854-1855	,	_	_	_	_	_	
+15-15	1856-1857	i	_	_	_	_	_	
+15-16	1858-1864	riječi	_	_	_	_	_	
+15-17	1865-1866	»	_	_	_	_	_	
+15-18	1867-1872	logos	_	_	_	_	_	
+15-19	1873-1874	«	_	_	_	_	_	
+15-20	1875-1879	koja	_	_	_	_	_	
+15-21	1880-1887	također	_	_	_	_	_	
+15-22	1888-1890	na	_	_	_	_	_	
+15-23	1891-1902	starogrčkom	_	_	_	_	_	
+15-24	1903-1911	označava	_	_	_	_	_	
+15-25	1912-1919	znanost	_	_	_	_	_	
+15-26	1920-1921	.	_	_	_	_	_	

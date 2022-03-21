@@ -1,0 +1,378 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Dissolutional potholes are sharp-edged, rounded-interior basins in stream beds.
+1-1	0-13	Dissolutional	_	A.1 Surface landform[1]	DEFINIENDUM[26]	_	_	
+1-2	14-22	potholes	_	A.1 Surface landform[1]	DEFINIENDUM[26]	_	_	
+1-3	23-26	are	_	_	DEFINITOR	_	_	
+1-4	27-38	sharp-edged	_	_	_	HAS\_FORM	_	
+1-5	38-39	,	_	_	_	_	_	
+1-6	40-56	rounded-interior	_	_	_	HAS\_FORM	_	
+1-7	57-63	basins	basin	D.1 Abiotic	GENUS	_	_	
+1-8	64-66	in	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION	
+1-9	67-73	stream	_	D.1 Abiotic[2]	_	HAS\_LOCATION[51]	_	
+1-10	74-78	beds	_	D.1 Abiotic[2]	_	HAS\_LOCATION[51]	_	
+1-11	78-79	.	_	_	_	_	_	
+
+#Text=Scallops are spoon-shaped hollows.
+2-1	80-88	Scallops	_	A.2 Underground landform	DEFINIENDUM	_	_	
+2-2	89-92	are	_	_	DEFINITOR	_	_	
+2-3	93-105	spoon-shaped	_	_	GENUS[27]	_	_	
+2-4	106-113	hollows	_	D.1 Abiotic	GENUS[27]	_	_	
+2-5	113-114	.	_	_	_	_	_	
+
+#Text=The term anastamose refers to a reticulate pattern (such as in the veins of a leaf); in caves it applies to a pattern of interweaving channels.
+3-1	115-118	The	_	_	DEFINITOR[28]	_	_	
+3-2	119-123	term	_	_	DEFINITOR[28]	_	_	
+3-3	124-134	anastamose	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-4	135-141	refers	_	_	DEFINITOR[29]	_	_	
+3-5	142-144	to	_	_	DEFINITOR[29]	_	_	
+3-6	145-146	a	_	_	DEFINITOR[29]	_	_	
+3-7	147-157	reticulate	_	_	GENUS[30]	HAS\_FORM[52]	_	
+3-8	158-165	pattern	_	_	GENUS[30]	HAS\_FORM[52]	_	
+3-9	166-167	(	_	_	_	_	_	
+3-10	167-171	such	_	_	_	_	_	
+3-11	172-174	as	_	_	_	_	_	
+3-12	175-177	in	_	_	_	_	_	
+3-13	178-181	the	_	_	_	_	_	
+3-14	182-187	veins	_	D.2 Biotic[3]	_	_	_	
+3-15	188-190	of	_	D.2 Biotic[3]	_	_	_	
+3-16	191-192	a	_	D.2 Biotic[3]	_	_	_	
+3-17	193-197	leaf	_	D.2 Biotic[3]	_	_	_	
+3-18	197-198	)	_	_	_	_	_	
+3-19	198-199	;	_	_	_	_	_	
+3-20	200-202	in	_	_	_	HAS\_LOCATION[53]	frame\_LOCATION	
+3-21	203-208	caves	_	A.2 Underground landform	_	HAS\_LOCATION[53]	_	
+3-22	209-211	it	_	_	_	_	_	
+3-23	212-219	applies	_	_	_	_	_	
+3-24	220-222	to	_	_	_	_	_	
+3-25	223-224	a	_	_	_	_	_	
+3-26	225-232	pattern	_	D.3 Property	_	HAS\_FORM[54]	frame\_FORM[77]	
+3-27	233-235	of	_	_	_	HAS\_FORM[54]	frame\_FORM[77]	
+3-28	236-248	interweaving	_	D.1 Abiotic[4]	_	HAS\_FORM[54]	_	
+3-29	249-257	channels	_	D.1 Abiotic[4]	_	HAS\_FORM[54]	_	
+3-30	257-258	.	_	_	_	_	_	
+
+#Text=Pendants are positive forms hanging from passage ceilings, typically B10 — 100 cm in dimension.
+4-1	259-267	Pendants	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-2	268-271	are	_	_	DEFINITOR	_	_	
+4-3	272-280	positive	_	_	GENUS[31]	_	_	
+4-4	281-286	forms	_	D.1 Abiotic	GENUS[31]	_	_	
+4-5	287-294	hanging	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION[78]	
+4-6	295-299	from	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION[78]	
+4-7	300-307	passage	_	D.1 Abiotic[5]	_	HAS\_LOCATION[55]	_	
+4-8	308-316	ceilings	_	D.1 Abiotic[5]	_	HAS\_LOCATION[55]	_	
+4-9	316-317	,	_	_	_	_	_	
+4-10	318-327	typically	_	_	_	HAS\_SIZE[56]	frame\_SIZE	
+4-11	328-331	B10	_	_	_	HAS\_SIZE[56]	_	
+4-12	332-333	—	_	_	_	HAS\_SIZE[56]	_	
+4-13	334-337	100	_	_	_	HAS\_SIZE[56]	_	
+4-14	338-340	cm	_	_	_	HAS\_SIZE[56]	_	
+4-15	341-343	in	_	_	_	HAS\_SIZE[56]	frame\_SIZE[79]	
+4-16	344-353	dimension	_	D.3 Property	_	HAS\_SIZE[56]	frame\_SIZE[79]	
+4-17	353-354	.	_	_	_	_	_	
+
+#Text=Cupolas are characteristic features of thermal caves.
+5-1	355-362	Cupolas	_	A.2 Underground landform	DEFINIENDUM	_	_	
+5-2	363-366	are	_	_	DEFINITOR	_	_	
+5-3	367-381	characteristic	_	_	_	_	_	
+5-4	382-390	features	_	_	GENUS[32]	_	_	
+5-5	391-393	of	_	_	GENUS[32]	HAS\_LOCATION[57]	_	
+5-6	394-401	thermal	_	A.2 Underground landform[6]	GENUS[32]	HAS\_LOCATION[57]	_	
+5-7	402-407	caves	_	A.2 Underground landform[6]	GENUS[32]	HAS\_LOCATION[57]	_	
+5-8	407-408	.	_	_	_	_	_	
+
+#Text=A cutter is a deep grike that has formed under an acidic soil cover, often with a complex curved cross section, some cavernous karren, and remnant rounded pinnacles.
+6-1	409-410	A	_	_	_	_	_	
+6-2	411-417	cutter	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-3	418-420	is	_	_	DEFINITOR[33]	_	_	
+6-4	421-422	a	_	_	DEFINITOR[33]	_	_	
+6-5	423-427	deep	_	_	_	_	_	
+6-6	428-433	grike	_	A.1 Surface landform	GENUS	_	_	
+6-7	434-438	that	_	_	_	_	_	
+6-8	439-442	has	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[80]	
+6-9	443-449	formed	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[80]	
+6-10	450-455	under	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[80]	
+6-11	456-458	an	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION[80]	
+6-12	459-465	acidic	_	D.1 Abiotic[7]	_	HAS\_LOCATION[58]	_	
+6-13	466-470	soil	_	D.1 Abiotic[7]	_	HAS\_LOCATION[58]	_	
+6-14	471-476	cover	_	_	_	HAS\_LOCATION[58]	_	
+6-15	476-477	,	_	_	_	_	_	
+6-16	478-483	often	_	_	_	HAS\_FORM[59]	_	
+6-17	484-488	with	_	_	_	HAS\_FORM[59]	frame\_FORM[81]	
+6-18	489-490	a	_	_	_	HAS\_FORM[59]	frame\_FORM[81]	
+6-19	491-498	complex	_	_	_	HAS\_FORM[59]	_	
+6-20	499-505	curved	_	_	_	HAS\_FORM[59]	_	
+6-21	506-511	cross	_	D.3 Property[8]	_	HAS\_FORM[59]	_	
+6-22	512-519	section	_	D.3 Property[8]	_	HAS\_FORM[59]	_	
+6-23	519-520	,	_	_	_	_	_	
+6-24	521-525	some	_	_	_	HAS\_FORM[60]	_	
+6-25	526-535	cavernous	_	A.1 Surface landform[9]	_	HAS\_FORM[60]	_	
+6-26	536-542	karren	_	A.1 Surface landform[9]	_	HAS\_FORM[60]	_	
+6-27	542-543	,	_	_	_	_	_	
+6-28	544-547	and	_	_	_	_	_	
+6-29	548-555	remnant	_	_	_	HAS\_FORM[61]	_	
+6-30	556-563	rounded	_	_	_	HAS\_FORM[61]	_	
+6-31	564-573	pinnacles	_	A.1 Surface landform	_	HAS\_FORM[61]	_	
+6-32	573-574	.	_	_	_	_	_	
+
+#Text=Regions where closed depressions are the dominant landform are not typically dissected by surface streams and are known as sinkhole plains or doline karst.
+7-1	575-582	Regions	_	_	GENUS[34]	_	_	
+7-2	583-588	where	_	_	GENUS[34]	_	_	
+7-3	589-595	closed	_	A.1 Surface landform[10]	GENUS[34]	_	_	
+7-4	596-607	depressions	_	A.1 Surface landform[10]	GENUS[34]	_	_	
+7-5	608-611	are	_	_	GENUS[34]	_	_	
+7-6	612-615	the	_	_	GENUS[34]	_	_	
+7-7	616-624	dominant	_	_	GENUS[34]	_	_	
+7-8	625-633	landform	_	D.1 Abiotic	GENUS[34]	_	_	
+7-9	634-637	are	_	_	_	_	_	
+7-10	638-641	not	_	_	_	HAS\_ATTRIBUTE[62]	_	
+7-11	642-651	typically	_	_	_	HAS\_ATTRIBUTE[62]	_	
+7-12	652-661	dissected	_	_	_	HAS\_ATTRIBUTE[62]	_	
+7-13	662-664	by	_	_	_	HAS\_ATTRIBUTE[62]	_	
+7-14	665-672	surface	_	D.1 Abiotic[11]	_	HAS\_ATTRIBUTE[62]	_	
+7-15	673-680	streams	_	D.1 Abiotic[11]	_	HAS\_ATTRIBUTE[62]	_	
+7-16	681-684	and	_	_	_	_	_	
+7-17	685-688	are	_	_	DEFINITOR[35]	_	_	
+7-18	689-694	known	_	_	DEFINITOR[35]	_	_	
+7-19	695-697	as	_	_	DEFINITOR[35]	_	_	
+7-20	698-706	sinkhole	_	C. Geome[12]	DEFINIENDUM[36]	_	_	
+7-21	707-713	plains	_	C. Geome[12]	DEFINIENDUM[36]	_	_	
+7-22	714-716	or	_	_	_	_	_	
+7-23	717-723	doline	_	C. Geome[13]	DEFINIENDUM[37]	_	_	
+7-24	724-729	karst	_	C. Geome[13]	DEFINIENDUM[37]	_	_	
+7-25	729-730	.	_	_	_	_	_	
+
+#Text=Caves are natural subterranean cavities, fissures, and fragments of conduit systems that are accessible to human exploration.
+8-1	731-736	Caves	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	737-740	are	_	_	DEFINITOR	_	_	
+8-3	741-748	natural	_	_	_	DEFINED\_AS[63]	_	
+8-4	749-761	subterranean	_	_	_	DEFINED\_AS[63]|HAS\_LOCATION[64]	_	
+8-5	762-770	cavities	_	A.2 Underground landform	GENUS	DEFINED\_AS[63]	_	
+8-6	770-771	,	_	_	_	DEFINED\_AS[63]	_	
+8-7	772-780	fissures	_	A.2 Underground landform	GENUS	DEFINED\_AS[63]	_	
+8-8	780-781	,	_	_	_	DEFINED\_AS[63]	_	
+8-9	782-785	and	_	_	_	DEFINED\_AS[63]	_	
+8-10	786-795	fragments	_	_	GENUS[38]	DEFINED\_AS[63]	_	
+8-11	796-798	of	_	_	GENUS[38]	DEFINED\_AS[63]	_	
+8-12	799-806	conduit	_	C. Geome[14]	GENUS[38]	DEFINED\_AS[63]	_	
+8-13	807-814	systems	_	C. Geome[14]	GENUS[38]	DEFINED\_AS[63]	_	
+8-14	815-819	that	_	_	_	_	_	
+8-15	820-823	are	_	_	_	HAS\_FUNCTION[65]	_	
+8-16	824-834	accessible	_	_	_	HAS\_FUNCTION[65]	_	
+8-17	835-837	to	_	_	_	HAS\_FUNCTION[65]	_	
+8-18	838-843	human	_	_	_	HAS\_FUNCTION[65]	_	
+8-19	844-855	exploration	_	_	_	HAS\_FUNCTION[65]	_	
+8-20	855-856	.	_	_	_	_	_	
+
+#Text=Aragonite is the metastable, orthorhombic polymorph of calcite and occurs as short to long prismatic (along c), acicular or tabular (chisel-shaped) crystals, often twinned.
+9-1	857-866	Aragonite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-2	867-869	is	_	_	DEFINITOR	_	_	
+9-3	870-873	the	_	_	_	_	_	
+9-4	874-884	metastable	_	_	_	_	_	
+9-5	884-885	,	_	_	_	_	_	
+9-6	886-898	orthorhombic	_	_	_	HAS\_FORM	_	
+9-7	899-908	polymorph	_	_	GENUS[39]	_	_	
+9-8	909-911	of	_	_	GENUS[39]	_	_	
+9-9	912-919	calcite	_	D.1 Abiotic	GENUS[39]	_	_	
+9-10	920-923	and	_	_	_	_	_	
+9-11	924-930	occurs	_	_	_	HAS\_FORM[66]	frame\_FORM[82]	
+9-12	931-933	as	_	_	_	HAS\_FORM[66]	frame\_FORM[82]	
+9-13	934-939	short	_	_	_	HAS\_FORM[66]	_	
+9-14	940-942	to	_	_	_	HAS\_FORM[66]	_	
+9-15	943-947	long	_	_	_	HAS\_FORM[66]	_	
+9-16	948-957	prismatic	_	_	_	HAS\_FORM[66]	_	
+9-17	958-959	(	_	_	_	HAS\_FORM[66]	_	
+9-18	959-964	along	_	_	_	HAS\_FORM[66]	_	
+9-19	965-966	c	_	_	_	HAS\_FORM[66]	_	
+9-20	966-967	)	_	_	_	HAS\_FORM[66]	_	
+9-21	967-968	,	_	_	_	HAS\_FORM[66]	_	
+9-22	969-977	acicular	_	_	_	HAS\_FORM[66]	_	
+9-23	978-980	or	_	_	_	HAS\_FORM[66]	_	
+9-24	981-988	tabular	_	_	_	HAS\_FORM[66]	_	
+9-25	989-990	(	_	_	_	HAS\_FORM[66]	_	
+9-26	990-1003	chisel-shaped	_	_	_	HAS\_FORM[66]	_	
+9-27	1003-1004	)	_	_	_	HAS\_FORM[66]	_	
+9-28	1005-1013	crystals	_	D.1 Abiotic	_	HAS\_FORM[66]	_	
+9-29	1013-1014	,	_	_	_	HAS\_FORM[66]	_	
+9-30	1015-1020	often	_	_	_	HAS\_FORM[66]	_	
+9-31	1021-1028	twinned	_	D.3 Property	_	HAS\_FORM[66]	_	
+9-32	1028-1029	.	_	_	_	_	_	
+
+#Text=The term wad is frequently used as a field term for composite mixtures consisting mainly of manganese oxides, in much the same sense as limonite is used for hydrous iron oxides.
+10-1	1030-1033	The	_	_	DEFINITOR[40]	_	_	
+10-2	1034-1038	term	_	_	DEFINITOR[40]	_	_	
+10-3	1039-1042	wad	_	D.1 Abiotic	DEFINIENDUM	_	_	
+10-4	1043-1045	is	_	_	DEFINITOR[41]	_	_	
+10-5	1046-1056	frequently	_	_	DEFINITOR[41]	_	_	
+10-6	1057-1061	used	_	_	DEFINITOR[41]	_	_	
+10-7	1062-1064	as	_	_	DEFINITOR[41]	_	_	
+10-8	1065-1066	a	_	_	DEFINITOR[41]	_	_	
+10-9	1067-1072	field	_	_	_	_	_	
+10-10	1073-1077	term	_	_	_	_	_	
+10-11	1078-1081	for	_	_	_	_	_	
+10-12	1082-1091	composite	_	D.1 Abiotic[15]	GENUS[42]	_	_	
+10-13	1092-1100	mixtures	_	D.1 Abiotic[15]	GENUS[42]	_	_	
+10-14	1101-1111	consisting	_	_	_	COMPOSITION\_MEDIUM[67]	frame\_COMPOSITION[83]	
+10-15	1112-1118	mainly	_	_	_	COMPOSITION\_MEDIUM[67]	frame\_COMPOSITION[83]	
+10-16	1119-1121	of	_	_	_	COMPOSITION\_MEDIUM[67]	frame\_COMPOSITION[83]	
+10-17	1122-1131	manganese	_	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[67]	_	
+10-18	1132-1138	oxides	_	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[67]	_	
+10-19	1138-1139	,	_	_	_	_	_	
+10-20	1140-1142	in	_	_	_	_	_	
+10-21	1143-1147	much	_	_	_	_	_	
+10-22	1148-1151	the	_	_	_	_	_	
+10-23	1152-1156	same	_	_	_	_	_	
+10-24	1157-1162	sense	_	_	_	_	_	
+10-25	1163-1165	as	_	_	_	_	_	
+10-26	1166-1174	limonite	_	_	_	_	_	
+10-27	1175-1177	is	_	_	_	_	_	
+10-28	1178-1182	used	_	_	_	_	_	
+10-29	1183-1186	for	_	_	_	_	_	
+10-30	1187-1194	hydrous	_	_	_	_	_	
+10-31	1195-1199	iron	_	_	_	_	_	
+10-32	1200-1206	oxides	_	_	_	_	_	
+10-33	1206-1207	.	_	_	_	_	_	
+
+#Text=The fracture aperture d (m) is a function in time of the initial aperture di (m) and the calcium flux rate F in a given fracture.
+11-1	1208-1211	The	_	_	DEFINIENDUM[43]	_	_	
+11-2	1212-1220	fracture	_	D.3 Property[17]	DEFINIENDUM[43]	_	_	
+11-3	1221-1229	aperture	_	D.3 Property[17]	DEFINIENDUM[43]	_	_	
+11-4	1230-1231	d	_	_	_	_	_	
+11-5	1232-1233	(	_	_	_	_	_	
+11-6	1233-1234	m	_	_	_	_	_	
+11-7	1234-1235	)	_	_	_	_	_	
+11-8	1236-1238	is	_	_	DEFINITOR[44]	_	_	
+11-9	1239-1240	a	_	_	DEFINITOR[44]	_	_	
+11-10	1241-1249	function	_	E.2 Method	GENUS	MEASURES[68]	_	
+11-11	1250-1252	in	_	_	_	MEASURES[68]	_	
+11-12	1253-1257	time	_	_	_	MEASURES[68]	_	
+11-13	1258-1260	of	_	_	_	MEASURES[68]	_	
+11-14	1261-1264	the	_	_	_	MEASURES[68]	_	
+11-15	1265-1272	initial	_	D.3 Property[18]	_	MEASURES[68]	_	
+11-16	1273-1281	aperture	_	D.3 Property[18]	_	MEASURES[68]	_	
+11-17	1282-1284	di	_	_	_	MEASURES[68]	_	
+11-18	1285-1286	(	_	_	_	MEASURES[68]	_	
+11-19	1286-1287	m	_	_	_	MEASURES[68]	_	
+11-20	1287-1288	)	_	_	_	MEASURES[68]	_	
+11-21	1289-1292	and	_	_	_	MEASURES[68]	_	
+11-22	1293-1296	the	_	_	_	MEASURES[68]	_	
+11-23	1297-1304	calcium	_	D.3 Property[19]	_	MEASURES[68]	_	
+11-24	1305-1309	flux	_	D.3 Property[19]	_	MEASURES[68]	_	
+11-25	1310-1314	rate	_	_	_	MEASURES[68]	_	
+11-26	1315-1316	F	_	_	_	MEASURES[68]	_	
+11-27	1317-1319	in	_	_	_	MEASURES[68]	_	
+11-28	1320-1321	a	_	_	_	MEASURES[68]	_	
+11-29	1322-1327	given	_	_	_	MEASURES[68]	_	
+11-30	1328-1336	fracture	_	_	_	MEASURES[68]	_	
+11-31	1336-1337	.	_	_	_	_	_	
+
+#Text=Knickpoints are sudden changes in the gradient of a river’s long profile, such as rapids or waterfalls, and may form as a response to a sudden drop in the water table.
+12-1	1338-1349	Knickpoints	_	D.1 Abiotic	DEFINIENDUM	_	_	
+12-2	1350-1353	are	_	_	DEFINITOR	_	_	
+12-3	1354-1360	sudden	_	_	_	_	_	
+12-4	1361-1368	changes	_	B. Process	GENUS[45]	DEFINED\_AS[69]	_	
+12-5	1369-1371	in	_	_	GENUS[45]	DEFINED\_AS[69]	_	
+12-6	1372-1375	the	_	_	GENUS[45]	DEFINED\_AS[69]	_	
+12-7	1376-1384	gradient	_	_	GENUS[45]	DEFINED\_AS[69]	_	
+12-8	1385-1387	of	_	_	_	DEFINED\_AS[69]	_	
+12-9	1388-1389	a	_	_	_	DEFINED\_AS[69]	_	
+12-10	1390-1395	river	_	_	_	DEFINED\_AS[69]	_	
+12-11	1395-1396	’	_	_	_	DEFINED\_AS[69]	_	
+12-12	1396-1397	s	_	_	_	DEFINED\_AS[69]	_	
+12-13	1398-1402	long	_	_	_	DEFINED\_AS[69]	_	
+12-14	1403-1410	profile	_	_	_	DEFINED\_AS[69]	_	
+12-15	1410-1411	,	_	_	_	_	_	
+12-16	1412-1416	such	_	_	_	_	_	
+12-17	1417-1419	as	_	_	_	_	_	
+12-18	1420-1426	rapids	_	D.1 Abiotic	SPECIES	_	_	
+12-19	1427-1429	or	_	_	_	_	_	
+12-20	1430-1440	waterfalls	_	D.1 Abiotic	SPECIES	_	_	
+12-21	1440-1441	,	_	_	_	_	_	
+12-22	1442-1445	and	_	_	_	_	_	
+12-23	1446-1449	may	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[84]	
+12-24	1450-1454	form	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[84]	
+12-25	1455-1457	as	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[84]	
+12-26	1458-1459	a	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[84]	
+12-27	1460-1468	response	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[84]	
+12-28	1469-1471	to	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[84]	
+12-29	1472-1473	a	_	_	_	HAS\_CAUSE[70]	_	
+12-30	1474-1480	sudden	_	B.2 Loss[20]	_	HAS\_CAUSE[70]	_	
+12-31	1481-1485	drop	_	B.2 Loss[20]	_	HAS\_CAUSE[70]	_	
+12-32	1486-1488	in	_	_	_	HAS\_CAUSE[70]	_	
+12-33	1489-1492	the	_	_	_	HAS\_CAUSE[70]	_	
+12-34	1493-1498	water	_	D.1 Abiotic[21]	_	HAS\_CAUSE[70]	_	
+12-35	1499-1504	table	_	D.1 Abiotic[21]	_	HAS\_CAUSE[70]	_	
+12-36	1504-1505	.	_	_	_	_	_	
+
+#Text=A room is a type of passage that is wide relative to its length; rooms often form where passages intersect and are circular, oval, or irregular in shape.
+13-1	1506-1507	A	_	_	_	_	_	
+13-2	1508-1512	room	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-3	1513-1515	is	_	_	DEFINITOR[46]	_	_	
+13-4	1516-1517	a	_	_	DEFINITOR[46]	_	_	
+13-5	1518-1522	type	_	_	_	_	_	
+13-6	1523-1525	of	_	_	_	_	_	
+13-7	1526-1533	passage	_	A.2 Underground landform	GENUS	_	_	
+13-8	1534-1538	that	_	_	_	_	_	
+13-9	1539-1541	is	_	_	_	HAS\_SIZE[71]	frame\_SIZE[85]	
+13-10	1542-1546	wide	_	_	_	HAS\_SIZE[71]	frame\_SIZE[85]	
+13-11	1547-1555	relative	_	_	_	HAS\_SIZE[71]	_	
+13-12	1556-1558	to	_	_	_	HAS\_SIZE[71]	_	
+13-13	1559-1562	its	_	_	_	HAS\_SIZE[71]	_	
+13-14	1563-1569	length	_	_	_	HAS\_SIZE[71]	_	
+13-15	1569-1570	;	_	_	_	_	_	
+13-16	1571-1576	rooms	_	A.2 Underground landform	_	_	_	
+13-17	1577-1582	often	_	_	_	_	_	
+13-18	1583-1587	form	_	_	_	_	_	
+13-19	1588-1593	where	_	_	_	HAS\_LOCATION[72]	frame\_LOCATION	
+13-20	1594-1602	passages	_	A.2 Underground landform	_	HAS\_LOCATION[72]	_	
+13-21	1603-1612	intersect	_	D.3 Property	_	HAS\_LOCATION[72]	_	
+13-22	1613-1616	and	_	_	_	_	_	
+13-23	1617-1620	are	_	_	_	HAS\_FORM[73]	_	
+13-24	1621-1629	circular	_	D.3 Property	_	HAS\_FORM[73]	_	
+13-25	1629-1630	,	_	_	_	HAS\_FORM[73]	_	
+13-26	1631-1635	oval	_	D.3 Property	_	HAS\_FORM[73]	_	
+13-27	1635-1636	,	_	_	_	HAS\_FORM[73]	_	
+13-28	1637-1639	or	_	_	_	HAS\_FORM[73]	_	
+13-29	1640-1649	irregular	_	D.3 Property[22]	_	HAS\_FORM[73]	_	
+13-30	1650-1652	in	_	D.3 Property[22]	_	HAS\_FORM[73]	frame\_FORM[86]	
+13-31	1653-1658	shape	_	D.3 Property[22]	_	HAS\_FORM[73]	frame\_FORM[86]	
+13-32	1658-1659	.	_	_	_	_	_	
+
+#Text=Pits are the ultimate form of vadose passage.
+14-1	1660-1664	Pits	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	1665-1668	are	_	_	DEFINITOR	_	_	
+14-3	1669-1672	the	_	_	_	_	_	
+14-4	1673-1681	ultimate	_	_	_	_	_	
+14-5	1682-1686	form	_	_	_	HAS\_FORM[74]	_	
+14-6	1687-1689	of	_	_	_	HAS\_FORM[74]	_	
+14-7	1690-1696	vadose	_	A.2 Underground landform[23]	GENUS[47]	HAS\_FORM[74]	_	
+14-8	1697-1704	passage	_	A.2 Underground landform[23]	GENUS[47]	HAS\_FORM[74]	_	
+14-9	1704-1705	.	_	_	_	_	_	
+
+#Text=The term flute has been used for the elongate, nearly parallel crested forms seen in some cave passages.
+15-1	1706-1709	The	_	_	DEFINITOR[48]	_	_	
+15-2	1710-1714	term	_	_	DEFINITOR[48]	_	_	
+15-3	1715-1720	flute	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-4	1721-1724	has	_	_	DEFINITOR[49]	_	_	
+15-5	1725-1729	been	_	_	DEFINITOR[49]	_	_	
+15-6	1730-1734	used	_	_	DEFINITOR[49]	_	_	
+15-7	1735-1738	for	_	_	DEFINITOR[49]	_	_	
+15-8	1739-1742	the	_	_	_	_	_	
+15-9	1743-1751	elongate	_	_	_	HAS\_FORM[75]	_	
+15-10	1751-1752	,	_	_	_	HAS\_FORM[75]	_	
+15-11	1753-1759	nearly	_	_	_	HAS\_FORM[75]	_	
+15-12	1760-1768	parallel	_	_	GENUS[50]	HAS\_FORM[75]	_	
+15-13	1769-1776	crested	_	D.1 Abiotic[24]	GENUS[50]	HAS\_FORM[75]	_	
+15-14	1777-1782	forms	_	D.1 Abiotic[24]	GENUS[50]	HAS\_FORM[75]	_	
+15-15	1783-1787	seen	_	_	_	_	_	
+15-16	1788-1790	in	_	_	_	HAS\_LOCATION[76]	frame\_LOCATION	
+15-17	1791-1795	some	_	_	_	HAS\_LOCATION[76]	_	
+15-18	1796-1800	cave	_	A.2 Underground landform[25]	_	HAS\_LOCATION[76]	_	
+15-19	1801-1809	passages	_	A.2 Underground landform[25]	_	HAS\_LOCATION[76]	_	
+15-20	1809-1810	.	_	_	_	_	_	

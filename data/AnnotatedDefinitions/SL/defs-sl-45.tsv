@@ -1,0 +1,359 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=odprto kraško polje: Polje s prekinjenim obodom na eni strani.
+1-1	0-6	odprto	_	A.1 Surface landform[1]	DEFINIENDUM[38]	_	_	
+1-2	7-13	kraško	_	A.1 Surface landform[1]	DEFINIENDUM[38]	_	_	
+1-3	14-19	polje	_	A.1 Surface landform[1]	DEFINIENDUM[38]	_	_	
+1-4	19-20	:	_	_	_	_	_	
+1-5	21-26	Polje	_	A.1 Surface landform	GENUS	_	_	
+1-6	27-28	s	_	_	_	HAS\_FORM[59]	_	
+1-7	29-40	prekinjenim	_	_	_	HAS\_FORM[59]	_	
+1-8	41-47	obodom	_	_	_	HAS\_FORM[59]	_	
+1-9	48-50	na	_	_	_	HAS\_FORM[59]	frame\_FORM[87]	
+1-10	51-54	eni	_	_	_	HAS\_FORM[59]	frame\_FORM[87]	
+1-11	55-61	strani	_	_	_	HAS\_FORM[59]	frame\_FORM[87]	
+1-12	61-62	.	_	_	_	_	_	
+
+#Text=fosilno kraško polje: V literaturi se javlja v več pomenih: kraško polje, zapolnjeno z neprepustnimi sedimenti, ali: nekdanje kraško polje, ki mu je reka predrla obod. Tudi polje, ki je v osnovi nastalo v subtropski klimi in je danes oblika mediteranskega krasa.
+2-1	67-74	fosilno	_	A.1 Surface landform[2]	DEFINIENDUM[39]	_	_	
+2-2	75-81	kraško	_	A.1 Surface landform[2]	DEFINIENDUM[39]	_	_	
+2-3	82-87	polje	_	A.1 Surface landform[2]	DEFINIENDUM[39]	_	_	
+2-4	87-88	:	_	_	_	_	_	
+2-5	89-90	V	_	_	_	_	_	
+2-6	91-101	literaturi	_	_	_	_	_	
+2-7	102-104	se	_	_	_	_	_	
+2-8	105-111	javlja	_	_	_	_	_	
+2-9	112-113	v	_	_	_	_	_	
+2-10	114-117	več	_	_	_	_	_	
+2-11	118-125	pomenih	_	_	_	_	_	
+2-12	125-126	:	_	_	_	_	_	
+2-13	127-133	kraško	_	A.1 Surface landform[3]	GENUS[40]	_	_	
+2-14	134-139	polje	_	A.1 Surface landform[3]	GENUS[40]	_	_	
+2-15	139-140	,	_	_	_	_	_	
+2-16	141-151	zapolnjeno	_	_	_	CONTAINS[60]	frame\_CONTAINS[88]	
+2-17	152-153	z	_	_	_	CONTAINS[60]	frame\_CONTAINS[88]	
+2-18	154-167	neprepustnimi	_	D.1 Abiotic[4]	_	CONTAINS[60]	_	
+2-19	168-177	sedimenti	_	D.1 Abiotic[4]	_	CONTAINS[60]	_	
+2-20	177-178	,	_	_	_	_	_	
+2-21	179-182	ali	_	_	_	_	_	
+2-22	182-183	:	_	_	_	_	_	
+2-23	184-192	nekdanje	_	_	GENUS[41]	_	_	
+2-24	193-199	kraško	_	A.1 Surface landform[5]	GENUS[41]	_	_	
+2-25	200-205	polje	_	A.1 Surface landform[5]	GENUS[41]	_	_	
+2-26	205-206	,	_	_	_	_	_	
+2-27	207-209	ki	_	_	_	HAS\_CAUSE[61]	_	
+2-28	210-212	mu	_	_	_	HAS\_CAUSE[61]	_	
+2-29	213-215	je	_	_	_	HAS\_CAUSE[61]	_	
+2-30	216-220	reka	_	D.1 Abiotic	_	HAS\_CAUSE[61]	_	
+2-31	221-228	predrla	_	_	_	HAS\_CAUSE[61]	frame\_CAUSE[89]	
+2-32	229-233	obod	_	_	_	HAS\_CAUSE[61]	frame\_CAUSE[89]	
+2-33	233-234	.	_	_	_	_	_	
+2-34	235-239	Tudi	_	_	_	_	_	
+2-35	240-245	polje	_	A.1 Surface landform	GENUS	_	_	
+2-36	245-246	,	_	_	_	_	_	
+2-37	247-249	ki	_	_	_	HAS\_CAUSE[62]	_	
+2-38	250-252	je	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[90]	
+2-39	253-254	v	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[90]	
+2-40	255-261	osnovi	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[90]	
+2-41	262-269	nastalo	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[90]	
+2-42	270-271	v	_	_	_	HAS\_CAUSE[62]	_	
+2-43	272-282	subtropski	_	D.1 Abiotic[6]	_	HAS\_CAUSE[62]	_	
+2-44	283-288	klimi	_	D.1 Abiotic[6]	_	HAS\_CAUSE[62]	_	
+2-45	289-291	in	_	_	_	_	_	
+2-46	292-294	je	_	_	_	_	_	
+2-47	295-300	danes	_	_	_	_	_	
+2-48	301-307	oblika	_	_	_	HAS\_FORM[63]	_	
+2-49	308-322	mediteranskega	_	C. Geome[7]	_	HAS\_FORM[63]	_	
+2-50	323-328	krasa	_	C. Geome[7]	_	HAS\_FORM[63]	_	
+2-51	328-329	.	_	_	_	_	_	
+
+#Text=uvalasto kraško polje: Neizrazito polje manjših dimenzij, prehodna oblika med uvalo in kraškim poljem, navadno brez vecjega ravnega dna.
+3-1	334-342	uvalasto	_	A.1 Surface landform[8]	DEFINIENDUM[42]	_	_	
+3-2	343-349	kraško	_	A.1 Surface landform[8]	DEFINIENDUM[42]	_	_	
+3-3	350-355	polje	_	A.1 Surface landform[8]	DEFINIENDUM[42]	_	_	
+3-4	355-356	:	_	_	_	_	_	
+3-5	357-367	Neizrazito	_	_	_	_	_	
+3-6	368-373	polje	_	A.1 Surface landform	GENUS	_	_	
+3-7	374-381	manjših	_	_	_	HAS\_SIZE[64]	_	
+3-8	382-390	dimenzij	_	_	_	HAS\_SIZE[64]	_	
+3-9	390-391	,	_	_	_	_	_	
+3-10	392-400	prehodna	_	_	_	_	_	
+3-11	401-407	oblika	_	_	_	HAS\_FORM[65]	_	
+3-12	408-411	med	_	_	_	HAS\_FORM[65]	_	
+3-13	412-417	uvalo	_	A.1 Surface landform	_	HAS\_FORM[65]	_	
+3-14	418-420	in	_	_	_	HAS\_FORM[65]	_	
+3-15	421-428	kraškim	_	A.1 Surface landform[9]	_	HAS\_FORM[65]	_	
+3-16	429-435	poljem	_	A.1 Surface landform[9]	_	HAS\_FORM[65]	_	
+3-17	435-436	,	_	_	_	_	_	
+3-18	437-444	navadno	_	_	_	HAS\_FORM[66]	_	
+3-19	445-449	brez	_	_	_	HAS\_FORM[66]	_	
+3-20	450-457	vecjega	večjega	_	_	HAS\_FORM[66]	_	
+3-21	458-465	ravnega	_	_	_	HAS\_FORM[66]	_	
+3-22	466-469	dna	_	D.1 Abiotic	_	HAS\_FORM[66]	_	
+3-23	469-470	.	_	_	_	_	_	
+
+#Text=kraško jezero: Jezero s kraškim odtokom in (ali) kraškim pritokom. More biti periodično, kriptodepresijsko itd.
+4-1	475-481	kraško	_	A.3 Hydrological form[10]	DEFINIENDUM[43]	_	_	
+4-2	482-488	jezero	_	A.3 Hydrological form[10]	DEFINIENDUM[43]	_	_	
+4-3	488-489	:	_	_	_	_	_	
+4-4	490-496	Jezero	_	D.1 Abiotic	GENUS	_	_	
+4-5	497-498	s	_	_	_	CONTAINS[67]	_	
+4-6	499-506	kraškim	_	A.3 Hydrological form[11]	_	CONTAINS[67]	_	
+4-7	507-514	odtokom	_	A.3 Hydrological form[11]	_	CONTAINS[67]	_	
+4-8	515-517	in	_	_	_	CONTAINS[67]	_	
+4-9	518-519	(	_	_	_	CONTAINS[67]	_	
+4-10	519-522	ali	_	_	_	CONTAINS[67]	_	
+4-11	522-523	)	_	_	_	CONTAINS[67]	_	
+4-12	524-531	kraškim	_	A.3 Hydrological form[12]	_	CONTAINS[67]	_	
+4-13	532-540	pritokom	_	A.3 Hydrological form[12]	_	CONTAINS[67]	_	
+4-14	540-541	.	_	_	_	_	_	
+4-15	542-546	More	_	_	_	_	_	
+4-16	547-551	biti	_	_	_	_	_	
+4-17	552-562	periodično	periodično kraško jezero	_	_	OCCURS\_IN\_TIME	_	
+4-18	562-563	,	_	_	_	_	_	
+4-19	564-581	kriptodepresijsko	kriptodepresijsko kraško jezero	_	_	HAS\_FORM	_	
+4-20	582-585	itd	_	_	_	_	_	
+4-21	585-586	.	_	_	_	_	_	
+
+#Text=kraško podzemeljsko jezero: Večja kotanja s stoječo vodo v kraškem podzemlju. Podobno: jamsko jezero, (glej podzemeljsko jezero!).
+5-1	591-597	kraško	_	A.2 Underground landform[13]	DEFINIENDUM[44]	_	_	
+5-2	598-610	podzemeljsko	_	A.2 Underground landform[13]	DEFINIENDUM[44]	_	_	
+5-3	611-617	jezero	_	A.2 Underground landform[13]	DEFINIENDUM[44]	_	_	
+5-4	617-618	:	_	_	_	_	_	
+5-5	619-624	Večja	_	_	_	HAS\_SIZE	_	
+5-6	625-632	kotanja	_	D.1 Abiotic	GENUS	_	_	
+5-7	633-634	s	_	_	_	CONTAINS[68]	frame\_CONTAINS	
+5-8	635-642	stoječo	_	D.1 Abiotic[14]	_	CONTAINS[68]	_	
+5-9	643-647	vodo	_	D.1 Abiotic[14]	_	CONTAINS[68]	_	
+5-10	648-649	v	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION	
+5-11	650-657	kraškem	_	C. Geome[15]	_	HAS\_LOCATION[69]	_	
+5-12	658-667	podzemlju	_	C. Geome[15]	_	HAS\_LOCATION[69]	_	
+5-13	667-668	.	_	_	_	_	_	
+5-14	669-676	Podobno	_	_	_	_	_	
+5-15	676-677	:	_	_	_	_	_	
+5-16	678-684	jamsko	_	A.2 Underground landform[16]	SPECIES[45]	_	_	
+5-17	685-691	jezero	_	A.2 Underground landform[16]	SPECIES[45]	_	_	
+5-18	691-692	,	_	_	_	_	_	
+5-19	693-694	(	_	_	_	_	_	
+5-20	694-698	glej	_	_	_	_	_	
+5-21	699-711	podzemeljsko	_	A.2 Underground landform[17]	SPECIES[46]	_	_	
+5-22	712-718	jezero	_	A.2 Underground landform[17]	SPECIES[46]	_	_	
+5-23	718-719	!	_	_	_	_	_	
+5-24	719-720	)	_	_	_	_	_	
+5-25	720-721	.	_	_	_	_	_	
+
+#Text=kreda: Porozna, drobnozrnata, pretežno iz skeletov mikroorganizmov v kredni dobi nastala karbonatna kamnina. Prim. kredni kras.
+6-1	726-731	kreda	_	D.1 Abiotic	DEFINIENDUM	_	_	
+6-2	731-732	:	_	_	_	_	_	
+6-3	733-740	Porozna	_	_	_	HAS\_FUNCTION	_	
+6-4	740-741	,	_	_	_	_	_	
+6-5	742-754	drobnozrnata	_	_	_	HAS\_FORM	_	
+6-6	754-755	,	_	_	_	_	_	
+6-7	756-764	pretežno	_	_	_	COMPOSITION\_MEDIUM[70]	frame\_COMPOSITION[91]	
+6-8	765-767	iz	_	_	_	COMPOSITION\_MEDIUM[70]	frame\_COMPOSITION[91]	
+6-9	768-776	skeletov	_	_	_	COMPOSITION\_MEDIUM[70]	_	
+6-10	777-792	mikroorganizmov	_	D.2 Biotic	_	COMPOSITION\_MEDIUM[70]	_	
+6-11	793-794	v	_	_	_	OCCURS\_IN\_TIME[71]	_	
+6-12	795-801	kredni	_	_	_	OCCURS\_IN\_TIME[71]	_	
+6-13	802-806	dobi	_	_	_	OCCURS\_IN\_TIME[71]	_	
+6-14	807-814	nastala	_	_	_	OCCURS\_IN\_TIME[71]	frame\_CAUSE	
+6-15	815-825	karbonatna	_	D.1 Abiotic[18]	GENUS[47]	_	_	
+6-16	826-833	kamnina	_	D.1 Abiotic[18]	GENUS[47]	_	_	
+6-17	833-834	.	_	_	_	_	_	
+6-18	835-839	Prim	_	_	_	_	_	
+6-19	839-840	.	_	_	_	_	_	
+6-20	841-847	kredni	_	C. Geome[19]	_	_	_	
+6-21	848-852	kras	_	C. Geome[19]	_	_	_	
+6-22	852-853	.	_	_	_	_	_	
+
+#Text=lašt: Skladovna polica, večja ravna strukturna površina z enakim strmčem, kot ga imajo skladi. Ljudsko iz Julijskih Alp.
+7-1	858-862	lašt	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-2	862-863	:	_	_	_	_	_	
+7-3	864-873	Skladovna	_	D.1 Abiotic[20]	GENUS[48]	_	_	
+7-4	874-880	polica	_	D.1 Abiotic[20]	GENUS[48]	_	_	
+7-5	880-881	,	_	_	_	_	_	
+7-6	882-887	večja	_	_	_	HAS\_SIZE	_	
+7-7	888-893	ravna	_	_	_	_	_	
+7-8	894-904	strukturna	_	_	_	_	_	
+7-9	905-913	površina	_	D.1 Abiotic	_	_	_	
+7-10	914-915	z	_	_	_	HAS\_FORM[72]	_	
+7-11	916-922	enakim	_	_	_	HAS\_FORM[72]	_	
+7-12	923-930	strmčem	_	D.1 Abiotic	_	HAS\_FORM[72]	_	
+7-13	930-931	,	_	_	_	HAS\_FORM[72]	_	
+7-14	932-935	kot	_	_	_	HAS\_FORM[72]	_	
+7-15	936-938	ga	_	_	_	HAS\_FORM[72]	_	
+7-16	939-944	imajo	_	_	_	HAS\_FORM[72]	_	
+7-17	945-951	skladi	_	D.1 Abiotic	_	HAS\_FORM[72]	_	
+7-18	951-952	.	_	_	_	_	_	
+7-19	953-960	Ljudsko	_	_	_	_	_	
+7-20	961-963	iz	_	_	_	_	_	
+7-21	964-973	Julijskih	_	_	_	_	_	
+7-22	974-977	Alp	_	_	_	_	_	
+7-23	977-978	.	_	_	_	_	_	
+
+#Text=ledeni kapnik: Sigovim kapnikom podobna ledena tvorba, ki visi ali stoji v jami.
+8-1	983-989	ledeni	_	A.2 Underground landform[21]	DEFINIENDUM[49]	_	_	
+8-2	990-996	kapnik	_	A.2 Underground landform[21]	DEFINIENDUM[49]	_	_	
+8-3	996-997	:	_	_	_	_	_	
+8-4	998-1005	Sigovim	_	_	_	HAS\_FORM[73]	_	
+8-5	1006-1014	kapnikom	_	A.2 Underground landform	_	HAS\_FORM[73]	_	
+8-6	1015-1022	podobna	_	_	_	HAS\_FORM[73]	_	
+8-7	1023-1029	ledena	_	D.1 Abiotic[22]	GENUS[50]	_	_	
+8-8	1030-1036	tvorba	_	D.1 Abiotic[22]	GENUS[50]	_	_	
+8-9	1036-1037	,	_	_	_	_	_	
+8-10	1038-1040	ki	_	_	_	HAS\_LOCATION[74]	_	
+8-11	1041-1045	visi	_	_	_	HAS\_LOCATION[74]	_	
+8-12	1046-1049	ali	_	_	_	HAS\_LOCATION[74]	_	
+8-13	1050-1055	stoji	_	_	_	HAS\_LOCATION[74]	_	
+8-14	1056-1057	v	_	_	_	HAS\_LOCATION[74]	frame\_LOCATION	
+8-15	1058-1062	jami	_	A.2 Underground landform	_	HAS\_LOCATION[74]	_	
+8-16	1062-1063	.	_	_	_	_	_	
+
+#Text=lehnjak, lehkovec, maček: Lahek, porozen, staničen kalcijev karbonat, ki se useda (inkrustira) v dnu ali v gladini kraških voda, često na rastline.
+9-1	1068-1075	lehnjak	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-2	1075-1076	,	_	_	_	_	_	
+9-3	1077-1085	lehkovec	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-4	1085-1086	,	_	_	_	_	_	
+9-5	1087-1092	maček	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-6	1092-1093	:	_	_	_	_	_	
+9-7	1094-1099	Lahek	_	_	_	HAS\_ATTRIBUTE	_	
+9-8	1099-1100	,	_	_	_	_	_	
+9-9	1101-1108	porozen	_	_	_	HAS\_FUNCTION	_	
+9-10	1108-1109	,	_	_	_	_	_	
+9-11	1110-1118	staničen	_	_	_	_	_	
+9-12	1119-1127	kalcijev	_	D.1 Abiotic[23]	GENUS[51]	_	_	
+9-13	1128-1136	karbonat	_	D.1 Abiotic[23]	GENUS[51]	_	_	
+9-14	1136-1137	,	_	_	_	_	_	
+9-15	1138-1140	ki	_	_	_	_	_	
+9-16	1141-1143	se	_	B.3 Addition[24]	_	HAS\_LOCATION[75]	_	
+9-17	1144-1149	useda	_	B.3 Addition[24]	_	HAS\_LOCATION[75]	_	
+9-18	1150-1151	(	_	_	_	HAS\_LOCATION[75]	_	
+9-19	1151-1161	inkrustira	_	B.3 Addition	_	HAS\_LOCATION[75]	_	
+9-20	1161-1162	)	_	_	_	HAS\_LOCATION[75]	_	
+9-21	1163-1164	v	_	_	_	HAS\_LOCATION[75]	frame\_LOCATION[92]	
+9-22	1165-1168	dnu	_	_	_	HAS\_LOCATION[75]	frame\_LOCATION[92]	
+9-23	1169-1172	ali	_	_	_	HAS\_LOCATION[75]	_	
+9-24	1173-1174	v	_	_	_	HAS\_LOCATION[75]	frame\_LOCATION[93]	
+9-25	1175-1182	gladini	_	_	_	HAS\_LOCATION[75]	frame\_LOCATION[93]	
+9-26	1183-1190	kraških	_	A.3 Hydrological form[25]	_	HAS\_LOCATION[75]	_	
+9-27	1191-1195	voda	_	A.3 Hydrological form[25]|D.1 Abiotic[26]	_	HAS\_LOCATION[75]	_	
+9-28	1195-1196	,	_	_	_	HAS\_LOCATION[75]	_	
+9-29	1197-1202	često	_	_	_	HAS\_LOCATION[75]	_	
+9-30	1203-1205	na	_	_	_	HAS\_LOCATION[75]	_	
+9-31	1206-1214	rastline	_	D.2 Biotic	_	HAS\_LOCATION[75]	_	
+9-32	1214-1215	.	_	_	_	_	_	
+
+#Text=lezika: Stik dveh skladov, medskladovna (medslojna) ploskev ali špranja.
+10-1	1220-1226	lezika	_	D.1 Abiotic	DEFINIENDUM	_	_	
+10-2	1226-1227	:	_	_	_	_	_	
+10-3	1228-1232	Stik	_	_	_	HAS\_LOCATION[76]	_	
+10-4	1233-1237	dveh	_	_	_	HAS\_LOCATION[76]	_	
+10-5	1238-1245	skladov	_	_	_	HAS\_LOCATION[76]	_	
+10-6	1245-1246	,	_	_	_	_	_	
+10-7	1247-1259	medskladovna	_	_	_	HAS\_LOCATION[77]	_	
+10-8	1260-1261	(	_	_	_	HAS\_LOCATION[77]	_	
+10-9	1261-1270	medslojna	_	_	_	HAS\_LOCATION[77]	_	
+10-10	1270-1271	)	_	_	_	_	_	
+10-11	1272-1279	ploskev	_	D.1 Abiotic	GENUS	_	_	
+10-12	1280-1283	ali	_	_	_	_	_	
+10-13	1284-1291	špranja	_	D.1 Abiotic	GENUS	_	_	
+10-14	1291-1292	.	_	_	_	_	_	
+
+#Text=lisičina: Ožji, navadno zavit rov, ki povezuje večje podzemeljske prostore, prehoden s plazenjem po vseh štirih.
+11-1	1297-1305	lisičina	_	A.2 Underground landform	DEFINIENDUM	_	_	
+11-2	1305-1306	:	_	_	_	_	_	
+11-3	1307-1311	Ožji	_	_	_	HAS\_SIZE	_	
+11-4	1311-1312	,	_	_	_	_	_	
+11-5	1313-1320	navadno	_	_	_	HAS\_FORM[78]	_	
+11-6	1321-1326	zavit	_	_	_	HAS\_FORM[78]	_	
+11-7	1327-1330	rov	_	A.2 Underground landform	GENUS	_	_	
+11-8	1330-1331	,	_	_	_	_	_	
+11-9	1332-1334	ki	_	_	_	HAS\_FUNCTION[79]	frame\_FUNCTION[94]	
+11-10	1335-1343	povezuje	_	_	_	HAS\_FUNCTION[79]	frame\_FUNCTION[94]	
+11-11	1344-1349	večje	_	_	_	HAS\_FUNCTION[79]	_	
+11-12	1350-1362	podzemeljske	_	A.2 Underground landform[27]	_	HAS\_FUNCTION[79]	_	
+11-13	1363-1371	prostore	_	A.2 Underground landform[27]	_	HAS\_FUNCTION[79]	_	
+11-14	1371-1372	,	_	_	_	_	_	
+11-15	1373-1381	prehoden	_	_	_	HAS\_SIZE[80]	_	
+11-16	1382-1383	s	_	_	_	HAS\_SIZE[80]	_	
+11-17	1384-1393	plazenjem	_	_	_	HAS\_SIZE[80]	_	
+11-18	1394-1396	po	_	_	_	HAS\_SIZE[80]	_	
+11-19	1397-1401	vseh	_	_	_	HAS\_SIZE[80]	_	
+11-20	1402-1408	štirih	_	_	_	HAS\_SIZE[80]	_	
+11-21	1408-1409	.	_	_	_	_	_	
+
+#Text=mikroreliefne kraške oblike: Drobne oblike skalnega površja, korozijske vdolbinice, škraplje, žlebiči.
+12-1	1415-1428	mikroreliefne	_	A.1 Surface landform[28]	DEFINIENDUM[52]	_	_	
+12-2	1429-1435	kraške	_	A.1 Surface landform[28]	DEFINIENDUM[52]	_	_	
+12-3	1436-1442	oblike	_	A.1 Surface landform[28]	DEFINIENDUM[52]	_	_	
+12-4	1442-1443	:	_	_	_	_	_	
+12-5	1444-1450	Drobne	_	_	GENUS[53]	HAS\_SIZE	_	
+12-6	1451-1457	oblike	_	_	GENUS[53]	_	_	
+12-7	1458-1466	skalnega	_	_	_	COMPOSITION\_MEDIUM[81]	_	
+12-8	1467-1474	površja	_	_	_	COMPOSITION\_MEDIUM[81]	_	
+12-9	1474-1475	,	_	_	_	_	_	
+12-10	1476-1486	korozijske	_	A.1 Surface landform[29]	SPECIES[54]	_	_	
+12-11	1487-1497	vdolbinice	_	A.1 Surface landform[29]	SPECIES[54]	_	_	
+12-12	1497-1498	,	_	_	_	_	_	
+12-13	1499-1507	škraplje	_	A.1 Surface landform	SPECIES	_	_	
+12-14	1507-1508	,	_	_	_	_	_	
+12-15	1509-1516	žlebiči	_	A.1 Surface landform	SPECIES	_	_	
+12-16	1516-1517	.	_	_	_	_	_	
+
+#Text=morski mlin: Mlin, ki ga poganja tok morske vode v strugi proti morskemu požiralniku.
+13-1	1521-1527	morski	_	_	DEFINIENDUM[55]	_	_	
+13-2	1528-1532	mlin	_	_	DEFINIENDUM[55]	_	_	
+13-3	1532-1533	:	_	_	_	_	_	
+13-4	1534-1538	Mlin	_	_	GENUS	_	_	
+13-5	1538-1539	,	_	_	_	_	_	
+13-6	1540-1542	ki	_	_	_	HAS\_CAUSE[82]	_	
+13-7	1543-1545	ga	_	_	_	HAS\_CAUSE[82]	_	
+13-8	1546-1553	poganja	_	_	_	HAS\_CAUSE[82]	frame\_CAUSE	
+13-9	1554-1557	tok	_	B.1 Movement[30]	_	HAS\_CAUSE[82]	_	
+13-10	1558-1564	morske	_	B.1 Movement[30]|D.1 Abiotic[31]	_	HAS\_CAUSE[82]	_	
+13-11	1565-1569	vode	_	B.1 Movement[30]|D.1 Abiotic[31]	_	HAS\_CAUSE[82]	_	
+13-12	1570-1571	v	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[95]	
+13-13	1572-1578	strugi	_	D.1 Abiotic	_	HAS\_LOCATION[83]	frame\_LOCATION[95]	
+13-14	1579-1584	proti	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[95]	
+13-15	1585-1593	morskemu	_	A.3 Hydrological form[32]	_	HAS\_LOCATION[83]	_	
+13-16	1594-1605	požiralniku	_	A.3 Hydrological form[32]	_	HAS\_LOCATION[83]	_	
+13-17	1605-1606	.	_	_	_	_	_	
+
+#Text=morski požiralnik: V nivoju morske gladine ležeči požiralnik, kamor teče morska voda.
+14-1	1611-1617	morski	_	A.3 Hydrological form[33]	DEFINIENDUM[56]	_	_	
+14-2	1618-1628	požiralnik	_	A.3 Hydrological form[33]	DEFINIENDUM[56]	_	_	
+14-3	1628-1629	:	_	_	_	_	_	
+14-4	1630-1631	V	_	_	_	HAS\_LOCATION[84]	frame\_LOCATION[96]	
+14-5	1632-1638	nivoju	_	_	_	HAS\_LOCATION[84]	frame\_LOCATION[96]	
+14-6	1639-1645	morske	_	D.1 Abiotic[34]	_	HAS\_LOCATION[84]	_	
+14-7	1646-1653	gladine	_	D.1 Abiotic[34]	_	HAS\_LOCATION[84]	_	
+14-8	1654-1660	ležeči	_	_	_	HAS\_LOCATION[84]	_	
+14-9	1661-1671	požiralnik	_	A.3 Hydrological form	GENUS	_	_	
+14-10	1671-1672	,	_	_	_	_	_	
+14-11	1673-1678	kamor	_	_	_	HAS\_FUNCTION[85]	frame\_FUNCTION[97]	
+14-12	1679-1683	teče	_	_	_	HAS\_FUNCTION[85]	frame\_FUNCTION[97]	
+14-13	1684-1690	morska	_	D.1 Abiotic[35]	_	HAS\_FUNCTION[85]	_	
+14-14	1691-1695	voda	_	D.1 Abiotic[35]	_	HAS\_FUNCTION[85]	_	
+14-15	1695-1696	.	_	_	_	_	_	
+
+#Text=naravni most: Skalni svod kot ostanek skladov, običajno ostanek jamskega stropovja.
+15-1	1701-1708	naravni	_	A.1 Surface landform[36]	DEFINIENDUM[57]	_	_	
+15-2	1709-1713	most	_	A.1 Surface landform[36]	DEFINIENDUM[57]	_	_	
+15-3	1713-1714	:	_	_	_	_	_	
+15-4	1715-1721	Skalni	_	_	GENUS[58]	_	_	
+15-5	1722-1726	svod	_	_	GENUS[58]	_	_	
+15-6	1727-1730	kot	_	_	_	_	_	
+15-7	1731-1738	ostanek	_	_	_	COMPOSITION\_MEDIUM[86]	_	
+15-8	1739-1746	skladov	_	_	_	COMPOSITION\_MEDIUM[86]	_	
+15-9	1746-1747	,	_	_	_	COMPOSITION\_MEDIUM[86]	_	
+15-10	1748-1756	običajno	_	_	_	COMPOSITION\_MEDIUM[86]	_	
+15-11	1757-1764	ostanek	_	_	_	COMPOSITION\_MEDIUM[86]	_	
+15-12	1765-1773	jamskega	_	A.2 Underground landform[37]	_	COMPOSITION\_MEDIUM[86]	_	
+15-13	1774-1783	stropovja	_	A.2 Underground landform[37]	_	COMPOSITION\_MEDIUM[86]	_	
+15-14	1783-1784	.	_	_	_	COMPOSITION\_MEDIUM[86]	_	

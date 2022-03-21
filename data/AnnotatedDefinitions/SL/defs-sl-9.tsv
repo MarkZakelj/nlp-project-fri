@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Suhe doline so posledica razpada površinske rečne mreže.
+1-1	0-4	Suhe	_	A.1 Surface landform[1]	DEFINIENDUM[18]	_	_	
+1-2	5-11	doline	_	A.1 Surface landform[1]	DEFINIENDUM[18]	_	_	
+1-3	12-14	so	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[49]	
+1-4	15-24	posledica	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[49]	
+1-5	25-32	razpada	_	B. Process[2]	_	HAS\_CAUSE[33]	_	
+1-6	33-43	površinske	_	B. Process[2]	_	HAS\_CAUSE[33]	_	
+1-7	44-49	rečne	_	B. Process[2]|A.3 Hydrological form[3]	_	HAS\_CAUSE[33]	_	
+1-8	50-55	mreže	_	B. Process[2]|A.3 Hydrological form[3]	_	HAS\_CAUSE[33]	_	
+1-9	55-56	.	_	_	_	_	_	
+
+#Text=Daljše razvejane rove imenujemo jamski sistem.
+2-1	57-63	Daljše	_	_	_	HAS\_FORM[34]	_	
+2-2	64-73	razvejane	_	_	_	HAS\_FORM[34]	_	
+2-3	74-78	rove	_	A.2 Underground landform	_	HAS\_FORM[34]	_	
+2-4	79-88	imenujemo	_	_	DEFINITOR	_	_	
+2-5	89-95	jamski	_	C. Geome[4]	DEFINIENDUM[19]	_	_	
+2-6	96-102	sistem	_	C. Geome[4]	DEFINIENDUM[19]	_	_	
+2-7	102-103	.	_	_	_	_	_	
+
+#Text=Vodna gladina precej niha, zato pas med najvišjo in najnižjo piezometrično vodno gladino imenujemo epifreatična cona.
+3-1	104-109	Vodna	_	D.1 Abiotic[5]	_	_	_	
+3-2	110-117	gladina	_	D.1 Abiotic[5]	_	_	_	
+3-3	118-124	precej	_	_	_	_	_	
+3-4	125-129	niha	_	_	_	_	_	
+3-5	129-130	,	_	_	_	_	_	
+3-6	131-135	zato	_	_	_	_	_	
+3-7	136-139	pas	_	_	GENUS[20]	HAS\_LOCATION[35]	_	
+3-8	140-143	med	_	_	GENUS[20]	HAS\_LOCATION[35]	_	
+3-9	144-152	najvišjo	_	_	GENUS[20]	HAS\_LOCATION[35]	_	
+3-10	153-155	in	_	_	GENUS[20]	HAS\_LOCATION[35]	_	
+3-11	156-164	najnižjo	_	_	GENUS[20]	HAS\_LOCATION[35]	_	
+3-12	165-178	piezometrično	_	_	GENUS[20]	HAS\_LOCATION[35]	_	
+3-13	179-184	vodno	_	_	GENUS[20]	HAS\_LOCATION[35]	_	
+3-14	185-192	gladino	_	_	GENUS[20]	HAS\_LOCATION[35]	_	
+3-15	193-202	imenujemo	_	_	DEFINITOR	_	_	
+3-16	203-215	epifreatična	_	C. Geome[6]	DEFINIENDUM[21]	_	_	
+3-17	216-220	cona	_	C. Geome[6]	DEFINIENDUM[21]	_	_	
+3-18	220-221	.	_	_	_	_	_	
+
+#Text=Estavela je kraški vodni objekt, ki ob naraščanju vode deluje kot bruhalnik, ob upadanju pa kot požiralnik.
+4-1	222-230	Estavela	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+4-2	231-233	je	_	_	DEFINITOR	_	_	
+4-3	234-240	kraški	_	_	_	_	_	
+4-4	241-246	vodni	_	_	GENUS[22]	_	_	
+4-5	247-253	objekt	_	_	GENUS[22]	_	_	
+4-6	253-254	,	_	_	_	_	_	
+4-7	255-257	ki	_	_	_	_	_	
+4-8	258-260	ob	_	_	_	HAS\_FUNCTION[36]	_	
+4-9	261-271	naraščanju	_	B.3 Addition[7]	_	HAS\_FUNCTION[36]	_	
+4-10	272-276	vode	_	B.3 Addition[7]	_	HAS\_FUNCTION[36]	_	
+4-11	277-283	deluje	_	_	_	HAS\_FUNCTION[36]	frame\_FUNCTION	
+4-12	284-287	kot	_	_	_	HAS\_FUNCTION[36]	_	
+4-13	288-297	bruhalnik	_	A.3 Hydrological form	_	HAS\_FUNCTION[36]	_	
+4-14	297-298	,	_	_	_	HAS\_FUNCTION[36]	_	
+4-15	299-301	ob	_	_	_	HAS\_FUNCTION[36]	_	
+4-16	302-310	upadanju	upadanje vode	B.2 Loss	_	HAS\_FUNCTION[36]	_	
+4-17	311-313	pa	_	_	_	HAS\_FUNCTION[36]	_	
+4-18	314-317	kot	_	_	_	HAS\_FUNCTION[36]	_	
+4-19	318-328	požiralnik	_	A.3 Hydrological form	_	HAS\_FUNCTION[36]	_	
+4-20	328-329	.	_	_	_	_	_	
+
+#Text=Dolek je značilna oblika dolomitnega reliefa.
+5-1	330-335	Dolek	_	A.1 Surface landform	DEFINIENDUM	_	_	
+5-2	336-338	je	_	_	_	_	_	
+5-3	339-347	značilna	_	_	_	_	_	
+5-4	348-354	oblika	_	_	_	_	_	
+5-5	355-366	dolomitnega	_	C. Geome[8]	_	COMPOSITION\_MEDIUM[37]	_	
+5-6	367-374	reliefa	_	C. Geome[8]	_	COMPOSITION\_MEDIUM[37]	_	
+5-7	374-375	.	_	_	_	_	_	
+
+#Text=Kot občno ime (kras) pomeni v ljudskem jeziku kamnito ozemlje, kar je v skladu s paleoevropsko osnovo.
+6-1	376-379	Kot	_	_	_	_	_	
+6-2	380-385	občno	_	_	_	_	_	
+6-3	386-389	ime	_	_	_	_	_	
+6-4	390-391	(	_	_	_	_	_	
+6-5	391-395	kras	_	C. Geome	DEFINIENDUM	_	_	
+6-6	395-396	)	_	_	_	_	_	
+6-7	397-403	pomeni	_	_	_	_	_	
+6-8	404-405	v	_	_	_	_	_	
+6-9	406-414	ljudskem	_	_	_	_	_	
+6-10	415-421	jeziku	_	_	_	_	_	
+6-11	422-429	kamnito	_	_	GENUS[23]	HAS\_FORM[38]	_	
+6-12	430-437	ozemlje	_	_	GENUS[23]	HAS\_FORM[38]	_	
+6-13	437-438	,	_	_	_	_	_	
+6-14	439-442	kar	_	_	_	_	_	
+6-15	443-445	je	_	_	_	_	_	
+6-16	446-447	v	_	_	_	_	_	
+6-17	448-454	skladu	_	_	_	_	_	
+6-18	455-456	s	_	_	_	_	_	
+6-19	457-470	paleoevropsko	_	_	_	_	_	
+6-20	471-477	osnovo	_	_	_	_	_	
+6-21	477-478	.	_	_	_	_	_	
+
+#Text=Naslednja večja skupina kraških globeli so uvale, dolaste ali vrtačaste, sledijo kraška polja.
+7-1	479-488	Naslednja	_	_	_	_	_	
+7-2	489-494	večja	_	_	_	_	_	
+7-3	495-502	skupina	_	_	_	_	_	
+7-4	503-510	kraških	_	A.1 Surface landform[9]	DEFINIENDUM[24]	_	_	
+7-5	511-518	globeli	_	A.1 Surface landform[9]	DEFINIENDUM[24]	_	_	
+7-6	519-521	so	_	_	_	_	_	
+7-7	522-527	uvale	_	A.1 Surface landform	SPECIES	_	_	
+7-8	527-528	,	_	_	_	_	_	
+7-9	529-536	dolaste	dolasta uvala	A.1 Surface landform	_	_	_	
+7-10	537-540	ali	_	_	_	_	_	
+7-11	541-550	vrtačaste	vrtačasta uvala	A.1 Surface landform	_	_	_	
+7-12	550-551	,	_	_	_	_	_	
+7-13	552-559	sledijo	_	_	_	_	_	
+7-14	560-566	kraška	_	A.1 Surface landform[10]	SPECIES[25]	_	_	
+7-15	567-572	polja	_	A.1 Surface landform[10]	SPECIES[25]	_	_	
+7-16	572-573	.	_	_	_	_	_	
+
+#Text=Uvala je kraška depresijska oblika na zemeljskem površju v obliki skledaste vdolbine.
+8-1	574-579	Uvala	_	A.1 Surface landform	DEFINIENDUM	_	_	
+8-2	580-582	je	_	_	DEFINITOR	_	_	
+8-3	583-589	kraška	_	_	_	_	_	
+8-4	590-601	depresijska	_	_	GENUS[26]	_	_	
+8-5	602-608	oblika	_	_	GENUS[26]	_	_	
+8-6	609-611	na	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION	
+8-7	612-622	zemeljskem	_	D.3.1 Geolocation[11]	_	HAS\_LOCATION[39]	_	
+8-8	623-630	površju	_	D.3.1 Geolocation[11]	_	HAS\_LOCATION[39]	_	
+8-9	631-632	v	_	_	_	HAS\_FORM[40]	frame\_FORM[50]	
+8-10	633-639	obliki	_	_	_	HAS\_FORM[40]	frame\_FORM[50]	
+8-11	640-649	skledaste	_	_	_	HAS\_FORM[40]	_	
+8-12	650-658	vdolbine	_	_	_	HAS\_FORM[40]	_	
+8-13	658-659	.	_	_	_	_	_	
+
+#Text=ŠKRAPLJE: So manjša kraška oblika, dolga od nekaj centimetrov do več decimetrov in metrov, izjedena v trdi kamnini (apnencu ali drugih karbonatnih kamninah), nastala zaradi kemičnega delovanja vode.
+9-1	660-668	ŠKRAPLJE	_	_	DEFINIENDUM	_	_	
+9-2	668-669	:	_	_	_	_	_	
+9-3	670-672	So	_	_	DEFINITOR	_	_	
+9-4	673-679	manjša	_	_	_	_	_	
+9-5	680-686	kraška	_	_	GENUS[27]	_	_	
+9-6	687-693	oblika	_	_	GENUS[27]	_	_	
+9-7	693-694	,	_	_	_	_	_	
+9-8	695-700	dolga	_	_	_	HAS\_SIZE[41]	frame\_SIZE	
+9-9	701-703	od	_	_	_	HAS\_SIZE[41]	_	
+9-10	704-709	nekaj	_	_	_	HAS\_SIZE[41]	_	
+9-11	710-721	centimetrov	_	_	_	HAS\_SIZE[41]	_	
+9-12	722-724	do	_	_	_	HAS\_SIZE[41]	_	
+9-13	725-728	več	_	_	_	HAS\_SIZE[41]	_	
+9-14	729-739	decimetrov	_	_	_	HAS\_SIZE[41]	_	
+9-15	740-742	in	_	_	_	HAS\_SIZE[41]	_	
+9-16	743-749	metrov	_	_	_	HAS\_SIZE[41]	_	
+9-17	749-750	,	_	_	_	_	_	
+9-18	751-759	izjedena	_	_	_	COMPOSITION\_MEDIUM[42]	frame\_COMPOSITION[51]	
+9-19	760-761	v	_	_	_	COMPOSITION\_MEDIUM[42]	frame\_COMPOSITION[51]	
+9-20	762-766	trdi	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+9-21	767-774	kamnini	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+9-22	775-776	(	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+9-23	776-783	apnencu	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[42]	_	
+9-24	784-787	ali	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+9-25	788-794	drugih	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+9-26	795-806	karbonatnih	_	D.1 Abiotic[12]	_	COMPOSITION\_MEDIUM[42]	_	
+9-27	807-815	kamninah	_	D.1 Abiotic[12]	_	COMPOSITION\_MEDIUM[42]	_	
+9-28	815-816	)	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+9-29	816-817	,	_	_	_	_	_	
+9-30	818-825	nastala	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[52]	
+9-31	826-832	zaradi	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[52]	
+9-32	833-842	kemičnega	_	B.4 Transformation[13]	_	HAS\_CAUSE[43]	_	
+9-33	843-852	delovanja	_	B.4 Transformation[13]	_	HAS\_CAUSE[43]	_	
+9-34	853-857	vode	_	B.4 Transformation[13]	_	HAS\_CAUSE[43]	_	
+9-35	857-858	.	_	_	_	_	_	
+
+#Text=SUHA DOLINA: Suha dolina (zakrasela dolina) je dolinasta oblika na krasu, brez stalnega površinskega vodnega toka.
+10-1	859-863	SUHA	_	_	_	_	_	
+10-2	864-870	DOLINA	_	_	_	_	_	
+10-3	870-871	:	_	_	_	_	_	
+10-4	872-876	Suha	_	A.1 Surface landform[14]	DEFINIENDUM[28]	_	_	
+10-5	877-883	dolina	_	A.1 Surface landform[14]	DEFINIENDUM[28]	_	_	
+10-6	884-885	(	_	_	_	_	_	
+10-7	885-894	zakrasela	_	A.1 Surface landform[15]	DEFINIENDUM[29]	_	_	
+10-8	895-901	dolina	_	A.1 Surface landform[15]	DEFINIENDUM[29]	_	_	
+10-9	901-902	)	_	_	_	_	_	
+10-10	903-905	je	_	_	DEFINITOR	_	_	
+10-11	906-915	dolinasta	_	_	GENUS[30]	_	_	
+10-12	916-922	oblika	_	_	GENUS[30]	_	_	
+10-13	923-925	na	_	_	_	HAS\_LOCATION[44]	frame\_LOCATION	
+10-14	926-931	krasu	_	C. Geome	_	HAS\_LOCATION[44]	_	
+10-15	931-932	,	_	_	_	_	_	
+10-16	933-937	brez	_	_	_	HAS\_ATTRIBUTE[45]	frame\_ATTRIBUTE	
+10-17	938-946	stalnega	_	_	_	HAS\_ATTRIBUTE[45]	_	
+10-18	947-959	površinskega	_	_	_	HAS\_ATTRIBUTE[45]	_	
+10-19	960-967	vodnega	_	_	_	HAS\_ATTRIBUTE[45]	_	
+10-20	968-972	toka	_	_	_	HAS\_ATTRIBUTE[45]	_	
+10-21	972-973	.	_	_	_	_	_	
+
+#Text=Škraplje so kraške oblike, ki nastanejo zaradi korozije vode na površju ali subkutano.
+11-1	974-982	Škraplje	_	_	DEFINIENDUM	_	_	
+11-2	983-985	so	_	_	DEFINITOR	_	_	
+11-3	986-992	kraške	_	_	GENUS[31]	_	_	
+11-4	993-999	oblike	_	_	GENUS[31]	_	_	
+11-5	999-1000	,	_	_	_	_	_	
+11-6	1001-1003	ki	_	_	_	_	_	
+11-7	1004-1013	nastanejo	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[53]	
+11-8	1014-1020	zaradi	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[53]	
+11-9	1021-1029	korozije	_	B.4 Transformation[16]	_	HAS\_CAUSE[46]	_	
+11-10	1030-1034	vode	_	B.4 Transformation[16]	_	HAS\_CAUSE[46]	_	
+11-11	1035-1037	na	_	_	_	HAS\_CAUSE[46]	_	
+11-12	1038-1045	površju	_	_	_	HAS\_CAUSE[46]	_	
+11-13	1046-1049	ali	_	_	_	HAS\_CAUSE[46]	_	
+11-14	1050-1059	subkutano	_	_	_	HAS\_CAUSE[46]	_	
+11-15	1059-1060	.	_	_	_	_	_	
+
+#Text=Žlebiči so razjede pravilnih žlebastih oblik, ki potekajo v smeri največjega strmca stene.
+12-1	1061-1068	Žlebiči	_	_	DEFINIENDUM	_	_	
+12-2	1069-1071	so	_	_	DEFINITOR	_	_	
+12-3	1072-1079	razjede	_	D.1 Abiotic	GENUS	_	_	
+12-4	1080-1089	pravilnih	_	_	_	HAS\_FORM[47]	_	
+12-5	1090-1099	žlebastih	_	_	_	HAS\_FORM[47]	_	
+12-6	1100-1105	oblik	_	_	_	HAS\_FORM[47]	frame\_FORM	
+12-7	1105-1106	,	_	_	_	HAS\_FORM[47]	_	
+12-8	1107-1109	ki	_	_	_	HAS\_FORM[47]	_	
+12-9	1110-1118	potekajo	_	_	_	HAS\_FORM[47]	_	
+12-10	1119-1120	v	_	_	_	HAS\_FORM[47]	_	
+12-11	1121-1126	smeri	_	_	_	HAS\_FORM[47]	_	
+12-12	1127-1137	največjega	_	_	_	HAS\_FORM[47]	_	
+12-13	1138-1144	strmca	_	_	_	HAS\_FORM[47]	_	
+12-14	1145-1150	stene	_	_	_	HAS\_FORM[47]	_	
+12-15	1150-1151	.	_	_	_	_	_	
+
+#Text=Osnovni mehanizem nastanka udornic je rušenje jamskih stropov do površja oziroma udor.
+13-1	1152-1159	Osnovni	_	_	_	_	_	
+13-2	1160-1169	mehanizem	_	_	_	_	_	
+13-3	1170-1178	nastanka	_	_	_	_	_	
+13-4	1179-1186	udornic	_	A.1 Surface landform	_	_	_	
+13-5	1187-1189	je	_	_	_	_	_	
+13-6	1190-1197	rušenje	_	_	_	_	_	
+13-7	1198-1205	jamskih	_	_	_	_	_	
+13-8	1206-1213	stropov	_	_	_	_	_	
+13-9	1214-1216	do	_	_	_	_	_	
+13-10	1217-1224	površja	_	_	_	_	_	
+13-11	1225-1232	oziroma	_	_	_	_	_	
+13-12	1233-1237	udor	_	B.1 Movement	_	_	_	
+13-13	1237-1238	.	_	_	_	_	_	
+
+#Text=Suhe doline so dolinaste oblike na kraškem površju brez površinskega vodnega toka.
+14-1	1239-1243	Suhe	_	A.1 Surface landform[17]	_	_	_	
+14-2	1244-1250	doline	_	A.1 Surface landform[17]	_	_	_	
+14-3	1251-1253	so	_	_	_	_	_	
+14-4	1254-1263	dolinaste	_	_	_	_	_	
+14-5	1264-1270	oblike	_	_	_	_	_	
+14-6	1271-1273	na	_	_	_	_	_	
+14-7	1274-1281	kraškem	_	_	_	_	_	
+14-8	1282-1289	površju	_	_	_	_	_	
+14-9	1290-1294	brez	_	_	_	_	_	
+14-10	1295-1307	površinskega	_	_	_	_	_	
+14-11	1308-1315	vodnega	_	_	_	_	_	
+14-12	1316-1320	toka	_	_	_	_	_	
+14-13	1320-1321	.	_	_	_	_	_	
+
+#Text=Jame so podzemni kanali, ki jih je naredila skozi kras tekoča voda.
+15-1	1322-1326	Jame	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	1327-1329	so	_	_	DEFINITOR	_	_	
+15-3	1330-1338	podzemni	_	_	GENUS[32]	_	_	
+15-4	1339-1345	kanali	_	A.2 Underground landform	GENUS[32]	_	_	
+15-5	1345-1346	,	_	_	_	_	_	
+15-6	1347-1349	ki	_	_	_	HAS\_CAUSE[48]	frame\_CAUSE[54]	
+15-7	1350-1353	jih	_	_	_	HAS\_CAUSE[48]	frame\_CAUSE[54]	
+15-8	1354-1356	je	_	_	_	HAS\_CAUSE[48]	frame\_CAUSE[54]	
+15-9	1357-1365	naredila	_	_	_	HAS\_CAUSE[48]	frame\_CAUSE[54]	
+15-10	1366-1371	skozi	_	_	_	HAS\_CAUSE[48]	_	
+15-11	1372-1376	kras	_	C. Geome	_	HAS\_CAUSE[48]	_	
+15-12	1377-1383	tekoča	_	_	_	HAS\_CAUSE[48]	_	
+15-13	1384-1388	voda	_	_	_	HAS\_CAUSE[48]	_	
+15-14	1388-1389	.	_	_	_	_	_	

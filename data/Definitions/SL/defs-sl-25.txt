@@ -1,0 +1,12 @@
+kraški prevodnik - Svojska deformacija razpoklinskega prevodnika, ko se vzpostavi pozitivno povraten proces, tako da inicialne strukture preraščajo v kanale. 
+kraškorazpoklinska poroznost - Delež praznega prostora v določeni prostomini kamnine, ki ga prispevajo razpoke, Jezike in kraške votline. Mešan tip poroznosti, ki je znatno pogostejši od čiste kraške. 
+laminarni tok - Način pretakanja tekočine, pri katerem so tokovnice ves čas vzporedne. To je možno samo pri majhnih hitrostih, do 10·3 mis. V jamskih kanalih traja laminarni tok od začetja do preboja, pozneje pa tedaj, kadar je pretok skozi določen prerez dovolj majhen. Laminarni tok nastane, kadar je Reynoldsovo število < 2000. 
+Reynoldsovo število (Re) - je kombinacija štirih parametrov (premera kanala, gostote, hitrost in viskoznosti tekoči­ ne) in je neimenovane število. Pri vrednostih Reynoldsovega števila 2000<Re<3000 tok prehaja iz laminamega v turbulentnega, pri Re>3000 pa je tok samo še turbulenten. 
+lezični kanal - Jamski kanal, kije nastal vzdolž lezike in ji popolnoma sledi. Doslej je v uporabi izraz oblezični kanal. Ker je preveč podoben izrazu 7oblezična ploskev, ki pa z njim nima prave zveze, predlagava, da ga opustimo. 
+meteorni kras - Kras, nastal zaradi delovanja padavinskih voda na kraške kamni ne. Vključuje epi- in endokraške pojave. Nasprotje hidrotermalnemu krasu. 
+neprežeta cona - Območje speleogentskega prostora nad gladino podtalnice. Prevaja preniklo padavinsko vodo in jo oddaja prežeti coni. Prevaja tudi vode invazijskih jam. 
+nosilna lezika - Lezika, vzdolž katere je nastal pomemben del svežnja. Približno ustreza materializaciji pojma začetni horizont. 
+oblezična ploskev - Speleogenetsko pomembna nezveznost v kamnini, ki je v okviru natančnosti opazovanj vzporedna pravim lezikam, a se ne razteza na večje razdalje. 
+paragenetski prag - Dimenzija kanala, pri kateri netopno plavje prekrije stene in bistveno zavre nadaljnje korozijsko večanje. 
+parageneza - Korozijsko večanje zalitega rova v smeri, kjer stene oz. dno niso prevlečene s plavjem. 
+penetracijska razdalja - Razdalja, do katere zaradi reakcije s prikamnino prenikujoči vodi agresivnost upade na 10% začetne vrednosti. Pri majhnih hitrostih so p. r. zelo kratke, kar je navedlo na misel, da se nastajanje jam s pomočjo raztopljenega atmosferskega C02 pravzaprav ne more začeti. 

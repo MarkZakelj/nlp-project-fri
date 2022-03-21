@@ -1,0 +1,397 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=paleta, ščit: Sigova tvorba v obliki diska ali palete, ki je pritrjena na jamsko steno ali na strop. Raz njene poševne, gladke stene pogosto vise majhni stalaktiti.
+1-1	0-6	paleta	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-2	6-7	,	_	_	_	_	_	
+1-3	8-12	ščit	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-4	12-13	:	_	_	_	_	_	
+1-5	14-20	Sigova	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+1-6	21-27	tvorba	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+1-7	28-29	v	_	_	_	HAS\_FORM[41]	frame\_FORM[76]	
+1-8	30-36	obliki	_	_	_	HAS\_FORM[41]	frame\_FORM[76]	
+1-9	37-42	diska	_	_	_	HAS\_FORM[41]	_	
+1-10	43-46	ali	_	_	_	HAS\_FORM[41]	_	
+1-11	47-53	palete	_	_	_	HAS\_FORM[41]	_	
+1-12	53-54	,	_	_	_	_	_	
+1-13	55-57	ki	_	_	_	_	_	
+1-14	58-60	je	_	_	_	_	_	
+1-15	61-70	pritrjena	_	_	_	HAS\_LOCATION[42]	frame\_LOCATION[77]	
+1-16	71-73	na	_	_	_	HAS\_LOCATION[42]	frame\_LOCATION[77]	
+1-17	74-80	jamsko	_	_	_	HAS\_LOCATION[42]	_	
+1-18	81-86	steno	_	_	_	HAS\_LOCATION[42]	_	
+1-19	87-90	ali	_	_	_	HAS\_LOCATION[42]	_	
+1-20	91-93	na	_	_	_	HAS\_LOCATION[42]	_	
+1-21	94-99	strop	_	D.1 Abiotic	_	HAS\_LOCATION[42]	_	
+1-22	99-100	.	_	_	_	_	_	
+1-23	101-104	Raz	_	_	_	_	_	
+1-24	105-110	njene	_	_	_	_	_	
+1-25	111-118	poševne	_	_	_	_	_	
+1-26	118-119	,	_	_	_	_	_	
+1-27	120-126	gladke	_	_	_	_	_	
+1-28	127-132	stene	_	_	_	_	_	
+1-29	133-140	pogosto	_	_	_	_	_	
+1-30	141-145	vise	_	_	_	_	_	
+1-31	146-152	majhni	_	_	_	CONTAINS[43]	_	
+1-32	153-163	stalaktiti	stalaktit	A.2 Underground landform	_	CONTAINS[43]	_	
+1-33	163-164	.	_	_	_	_	_	
+
+#Text=sigovi slap: Vodnemu slapu podobna sigova tvorba večje širine na strmi ali navpični steni.
+2-1	169-175	sigovi	_	A.2 Underground landform[1]	DEFINIENDUM[20]	_	_	
+2-2	176-180	slap	_	A.2 Underground landform[1]	DEFINIENDUM[20]	_	_	
+2-3	180-181	:	_	_	_	_	_	
+2-4	182-189	Vodnemu	_	_	_	HAS\_FORM[44]	_	
+2-5	190-195	slapu	_	_	_	HAS\_FORM[44]	_	
+2-6	196-203	podobna	_	_	_	HAS\_FORM[44]	frame\_FORM	
+2-7	204-210	sigova	_	_	GENUS[21]	COMPOSITION\_MEDIUM[45]	_	
+2-8	211-217	tvorba	_	_	GENUS[21]	COMPOSITION\_MEDIUM[45]	_	
+2-9	218-223	večje	_	_	_	HAS\_SIZE[46]	_	
+2-10	224-230	širine	_	_	_	HAS\_SIZE[46]	_	
+2-11	231-233	na	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION	
+2-12	234-239	strmi	_	_	_	HAS\_LOCATION[47]	_	
+2-13	240-243	ali	_	_	_	HAS\_LOCATION[47]	_	
+2-14	244-252	navpični	_	_	_	HAS\_LOCATION[47]	_	
+2-15	253-258	steni	_	_	_	HAS\_LOCATION[47]	_	
+2-16	258-259	.	_	_	_	_	_	
+
+#Text=sigova polička: Do nekaj centimetrov široka stopnička na rahlo položnih ali strmih pobočjih.
+3-1	264-270	sigova	_	A.2 Underground landform[2]	DEFINIENDUM[22]	_	_	
+3-2	271-278	polička	_	A.2 Underground landform[2]	DEFINIENDUM[22]	_	_	
+3-3	278-279	:	_	_	_	_	_	
+3-4	280-282	Do	_	_	_	HAS\_SIZE[48]	_	
+3-5	283-288	nekaj	_	_	_	HAS\_SIZE[48]	_	
+3-6	289-300	centimetrov	_	_	_	HAS\_SIZE[48]	_	
+3-7	301-307	široka	_	_	_	HAS\_SIZE[48]	frame\_SIZE	
+3-8	308-317	stopnička	_	D.1 Abiotic	_	HAS\_FORM	_	
+3-9	318-320	na	_	_	_	HAS\_LOCATION[49]	_	
+3-10	321-326	rahlo	_	_	_	HAS\_LOCATION[49]	_	
+3-11	327-335	položnih	_	_	_	HAS\_LOCATION[49]	_	
+3-12	336-339	ali	_	_	_	HAS\_LOCATION[49]	_	
+3-13	340-346	strmih	_	_	_	HAS\_LOCATION[49]	_	
+3-14	347-355	pobočjih	_	_	_	HAS\_LOCATION[49]	_	
+3-15	355-356	.	_	_	_	_	_	
+
+#Text=jamsko mleko, gorsko mleko: Lahka usedlina iz kalcita, huntita ali magnezija, pri katere nastanku so sodelovali mikroorganizmi. Mokro je pastozno, suho pa krhko.
+4-1	361-367	jamsko	_	A.2 Underground landform[3]	DEFINIENDUM[23]	_	_	
+4-2	368-373	mleko	_	A.2 Underground landform[3]	DEFINIENDUM[23]	_	_	
+4-3	373-374	,	_	_	_	_	_	
+4-4	375-381	gorsko	_	_	DEFINIENDUM[24]	_	_	
+4-5	382-387	mleko	_	_	DEFINIENDUM[24]	_	_	
+4-6	387-388	:	_	_	_	_	_	
+4-7	389-394	Lahka	_	_	_	_	_	
+4-8	395-403	usedlina	_	D.1 Abiotic	GENUS	_	_	
+4-9	404-406	iz	_	_	_	COMPOSITION\_MEDIUM[50]	frame\_COMPOSITION	
+4-10	407-414	kalcita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[50]	_	
+4-11	414-415	,	_	_	_	COMPOSITION\_MEDIUM[50]	_	
+4-12	416-423	huntita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[50]	_	
+4-13	424-427	ali	_	_	_	COMPOSITION\_MEDIUM[50]	_	
+4-14	428-437	magnezija	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[50]	_	
+4-15	437-438	,	_	_	_	_	_	
+4-16	439-442	pri	_	_	_	_	_	
+4-17	443-449	katere	_	_	_	_	_	
+4-18	450-458	nastanku	_	_	_	_	_	
+4-19	459-461	so	_	_	_	_	_	
+4-20	462-472	sodelovali	_	_	_	_	_	
+4-21	473-487	mikroorganizmi	_	D.2 Biotic	_	_	_	
+4-22	487-488	.	_	_	_	_	_	
+4-23	489-494	Mokro	_	_	_	HAS\_FORM[51]	_	
+4-24	495-497	je	_	_	_	HAS\_FORM[51]	_	
+4-25	498-506	pastozno	_	_	_	HAS\_FORM[51]	_	
+4-26	506-507	,	_	_	_	HAS\_FORM[51]	_	
+4-27	508-512	suho	_	_	_	HAS\_FORM[51]	_	
+4-28	513-515	pa	_	_	_	HAS\_FORM[51]	_	
+4-29	516-521	krhko	_	_	_	HAS\_FORM[51]	_	
+4-30	521-522	.	_	_	_	_	_	
+
+#Text=sigova ponvica: Kotanjica iz sige, z značilno, navpično do gladine vode segajočo steno na odtočni strani, stalno ali obdobno zapolnjena s stoječo vodo.
+5-1	527-533	sigova	_	_	DEFINIENDUM[25]	_	_	
+5-2	534-541	ponvica	_	_	DEFINIENDUM[25]	_	_	
+5-3	541-542	:	_	_	_	_	_	
+5-4	543-552	Kotanjica	_	D.1 Abiotic	GENUS	_	_	
+5-5	553-555	iz	_	_	_	COMPOSITION\_MEDIUM[52]	frame\_COMPOSITION	
+5-6	556-560	sige	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+5-7	560-561	,	_	_	_	_	_	
+5-8	562-563	z	_	_	_	_	_	
+5-9	564-572	značilno	_	_	_	_	_	
+5-10	572-573	,	_	_	_	_	_	
+5-11	574-582	navpično	_	_	_	HAS\_FORM[53]	_	
+5-12	583-585	do	_	_	_	HAS\_FORM[53]	_	
+5-13	586-593	gladine	_	_	_	HAS\_FORM[53]	_	
+5-14	594-598	vode	_	_	_	HAS\_FORM[53]	_	
+5-15	599-607	segajočo	_	_	_	HAS\_FORM[53]	_	
+5-16	608-613	steno	_	_	_	HAS\_FORM[53]	_	
+5-17	614-616	na	_	_	_	HAS\_FORM[53]	_	
+5-18	617-624	odtočni	_	_	_	HAS\_FORM[53]	_	
+5-19	625-631	strani	_	_	_	HAS\_FORM[53]	_	
+5-20	631-632	,	_	_	_	_	_	
+5-21	633-639	stalno	_	_	_	OCCURS\_IN\_TIME[54]	_	
+5-22	640-643	ali	_	_	_	OCCURS\_IN\_TIME[54]	_	
+5-23	644-651	obdobno	_	_	_	OCCURS\_IN\_TIME[54]	_	
+5-24	652-662	zapolnjena	_	_	_	CONTAINS[55]	frame\_CONTAINS[78]	
+5-25	663-664	s	_	_	_	CONTAINS[55]	frame\_CONTAINS[78]	
+5-26	665-672	stoječo	_	D.1 Abiotic[4]	_	CONTAINS[55]	_	
+5-27	673-677	vodo	_	D.1 Abiotic[4]	_	CONTAINS[55]	_	
+5-28	677-678	.	_	_	_	_	_	
+
+#Text=sigova zavesa: Podolgovata, tanka, cesto zvijugana sigova skorja na previsu.
+6-1	683-689	sigova	_	A.2 Underground landform[5]	DEFINIENDUM[26]	_	_	
+6-2	690-696	zavesa	_	A.2 Underground landform[5]	DEFINIENDUM[26]	_	_	
+6-3	696-697	:	_	_	_	_	_	
+6-4	698-709	Podolgovata	_	_	_	HAS\_FORM	_	
+6-5	709-710	,	_	_	_	_	_	
+6-6	711-716	tanka	_	_	_	HAS\_FORM	_	
+6-7	716-717	,	_	_	_	_	_	
+6-8	718-723	cesto	_	_	_	_	_	
+6-9	724-733	zvijugana	_	_	_	HAS\_FORM[56]	_	
+6-10	734-740	sigova	_	_	_	HAS\_FORM[56]	_	
+6-11	741-747	skorja	_	_	_	HAS\_FORM[56]	_	
+6-12	748-750	na	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION	
+6-13	751-758	previsu	_	D.1 Abiotic	_	HAS\_LOCATION[57]	_	
+6-14	758-759	.	_	_	_	_	_	
+
+#Text=čebulaste tvorbe, sferične tvorbe: Sigove tvorbe okroglaste, čebuli podobne oblike, zrasle na jamski steni ali jamskem stropu.
+7-1	764-773	čebulaste	_	A.2 Underground landform[6]	DEFINIENDUM[27]	_	_	
+7-2	774-780	tvorbe	_	A.2 Underground landform[6]	DEFINIENDUM[27]	_	_	
+7-3	780-781	,	_	_	_	_	_	
+7-4	782-790	sferične	_	A.2 Underground landform[7]	DEFINIENDUM[28]	_	_	
+7-5	791-797	tvorbe	_	A.2 Underground landform[7]	DEFINIENDUM[28]	_	_	
+7-6	797-798	:	_	_	_	_	_	
+7-7	799-805	Sigove	_	_	GENUS[29]	COMPOSITION\_MEDIUM[58]	_	
+7-8	806-812	tvorbe	_	_	GENUS[29]	COMPOSITION\_MEDIUM[58]	_	
+7-9	813-823	okroglaste	_	_	_	HAS\_FORM[59]	_	
+7-10	823-824	,	_	_	_	HAS\_FORM[59]	_	
+7-11	825-831	čebuli	_	_	_	HAS\_FORM[59]	_	
+7-12	832-839	podobne	_	_	_	HAS\_FORM[59]	_	
+7-13	840-846	oblike	_	_	_	HAS\_FORM[59]	frame\_FORM	
+7-14	846-847	,	_	_	_	_	_	
+7-15	848-854	zrasle	_	_	_	HAS\_LOCATION[60]	frame\_LOCATION[79]	
+7-16	855-857	na	_	_	_	HAS\_LOCATION[60]	frame\_LOCATION[79]	
+7-17	858-864	jamski	_	_	_	HAS\_LOCATION[60]	_	
+7-18	865-870	steni	_	_	_	HAS\_LOCATION[60]	_	
+7-19	871-874	ali	_	_	_	HAS\_LOCATION[60]	_	
+7-20	875-882	jamskem	_	A.2 Underground landform[8]	_	HAS\_LOCATION[60]	_	
+7-21	883-889	stropu	_	A.2 Underground landform[8]	_	HAS\_LOCATION[60]	_	
+7-22	889-890	.	_	_	_	_	_	
+
+#Text=kapnik, kapniška tvorba: Stoječa ali viseča tvorba, nastala z izločanjem sige iz kapljajoče vode. V širšem smislu vsaka stoječa ali viseča sigova tvorba. Glede na obliko ločimo gobasti kapnik, grozdasti stalaktit, korenasti kapnik, cevasti kapnik.
+8-1	895-901	kapnik	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	901-902	,	_	_	_	_	_	
+8-3	903-911	kapniška	_	A.2 Underground landform[9]	DEFINIENDUM[30]	_	_	
+8-4	912-918	tvorba	_	A.2 Underground landform[9]	DEFINIENDUM[30]	_	_	
+8-5	918-919	:	_	_	_	_	_	
+8-6	920-927	Stoječa	_	_	_	HAS\_FORM[61]	_	
+8-7	928-931	ali	_	_	_	HAS\_FORM[61]	_	
+8-8	932-938	viseča	_	_	_	HAS\_FORM[61]	_	
+8-9	939-945	tvorba	_	D.1 Abiotic	_	_	_	
+8-10	945-946	,	_	_	_	_	_	
+8-11	947-954	nastala	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[80]	
+8-12	955-956	z	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[80]	
+8-13	957-967	izločanjem	_	B.4 Transformation[10]	_	HAS\_CAUSE[62]	_	
+8-14	968-972	sige	_	B.4 Transformation[10]	_	HAS\_CAUSE[62]	_	
+8-15	973-975	iz	_	_	_	HAS\_CAUSE[62]	_	
+8-16	976-986	kapljajoče	_	_	_	HAS\_CAUSE[62]	_	
+8-17	987-991	vode	_	D.1 Abiotic	_	HAS\_CAUSE[62]	_	
+8-18	991-992	.	_	_	_	_	_	
+8-19	993-994	V	_	_	_	_	_	
+8-20	995-1001	širšem	_	_	_	_	_	
+8-21	1002-1008	smislu	_	_	_	_	_	
+8-22	1009-1014	vsaka	_	_	_	_	_	
+8-23	1015-1022	stoječa	_	_	_	_	_	
+8-24	1023-1026	ali	_	_	_	_	_	
+8-25	1027-1033	viseča	_	_	_	_	_	
+8-26	1034-1040	sigova	_	_	GENUS[31]	_	_	
+8-27	1041-1047	tvorba	_	_	GENUS[31]	_	_	
+8-28	1047-1048	.	_	_	_	_	_	
+8-29	1049-1054	Glede	_	_	_	_	_	
+8-30	1055-1057	na	_	_	_	_	_	
+8-31	1058-1064	obliko	_	_	_	_	_	
+8-32	1065-1071	ločimo	_	_	_	_	_	
+8-33	1072-1079	gobasti	_	A.2 Underground landform[11]	SPECIES[32]	_	_	
+8-34	1080-1086	kapnik	_	A.2 Underground landform[11]	SPECIES[32]	_	_	
+8-35	1086-1087	,	_	_	_	_	_	
+8-36	1088-1097	grozdasti	_	A.2 Underground landform[12]	SPECIES[33]	_	_	
+8-37	1098-1107	stalaktit	_	A.2 Underground landform[12]	SPECIES[33]	_	_	
+8-38	1107-1108	,	_	_	_	_	_	
+8-39	1109-1118	korenasti	_	A.2 Underground landform[13]	SPECIES[34]	_	_	
+8-40	1119-1125	kapnik	_	A.2 Underground landform[13]	SPECIES[34]	_	_	
+8-41	1125-1126	,	_	_	_	_	_	
+8-42	1127-1134	cevasti	_	A.2 Underground landform[14]	SPECIES[35]	_	_	
+8-43	1135-1141	kapnik	_	A.2 Underground landform[14]	SPECIES[35]	_	_	
+8-44	1141-1142	.	_	_	_	_	_	
+
+#Text=cevčica, makaroni: Stalaktit oblike cevčiče oziroma slame.
+9-1	1147-1154	cevčica	_	A.2 Underground landform	DEFINIENDUM	_	_	
+9-2	1154-1155	,	_	_	_	_	_	
+9-3	1156-1164	makaroni	_	A.2 Underground landform	DEFINIENDUM	_	_	
+9-4	1164-1165	:	_	_	_	_	_	
+9-5	1166-1175	Stalaktit	_	A.2 Underground landform	GENUS	_	_	
+9-6	1176-1182	oblike	_	_	_	HAS\_FORM[63]	frame\_FORM	
+9-7	1183-1190	cevčiče	_	_	_	HAS\_FORM[63]	_	
+9-8	1191-1198	oziroma	_	_	_	HAS\_FORM[63]	_	
+9-9	1199-1204	slame	_	_	_	HAS\_FORM[63]	_	
+9-10	1204-1205	.	_	_	_	_	_	
+
+#Text=stalagmit: Stoječi kapnik, po obliki lahko stožcast, valjast, kijast itd.
+10-1	1210-1219	stalagmit	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	1219-1220	:	_	_	_	_	_	
+10-3	1221-1228	Stoječi	_	_	_	HAS\_FORM	_	
+10-4	1229-1235	kapnik	_	A.2 Underground landform	GENUS	_	_	
+10-5	1235-1236	,	_	_	_	_	_	
+10-6	1237-1239	po	_	_	_	HAS\_FORM[64]	frame\_FORM[81]	
+10-7	1240-1246	obliki	_	_	_	HAS\_FORM[64]	frame\_FORM[81]	
+10-8	1247-1252	lahko	_	_	_	HAS\_FORM[64]	_	
+10-9	1253-1261	stožcast	_	_	_	HAS\_FORM[64]	_	
+10-10	1261-1262	,	_	_	_	HAS\_FORM[64]	_	
+10-11	1263-1270	valjast	_	_	_	HAS\_FORM[64]	_	
+10-12	1270-1271	,	_	_	_	HAS\_FORM[64]	_	
+10-13	1272-1278	kijast	_	_	_	HAS\_FORM[64]	_	
+10-14	1279-1282	itd	_	_	_	_	_	
+10-15	1282-1283	.	_	_	_	_	_	
+
+#Text=stalaktit: Viseči kapnik. Po obliki cevast, korenast, kijast, svedrast, itd.
+11-1	1288-1297	stalaktit	_	A.2 Underground landform	DEFINIENDUM	_	_	
+11-2	1297-1298	:	_	_	_	_	_	
+11-3	1299-1305	Viseči	_	_	_	HAS\_FORM	_	
+11-4	1306-1312	kapnik	_	A.2 Underground landform	GENUS	_	_	
+11-5	1312-1313	.	_	_	_	_	_	
+11-6	1314-1316	Po	_	_	_	HAS\_FORM[65]	frame\_FORM[82]	
+11-7	1317-1323	obliki	_	_	_	HAS\_FORM[65]	frame\_FORM[82]	
+11-8	1324-1330	cevast	_	_	_	HAS\_FORM[65]	_	
+11-9	1330-1331	,	_	_	_	HAS\_FORM[65]	_	
+11-10	1332-1340	korenast	_	_	_	HAS\_FORM[65]	_	
+11-11	1340-1341	,	_	_	_	HAS\_FORM[65]	_	
+11-12	1342-1348	kijast	_	_	_	HAS\_FORM[65]	_	
+11-13	1348-1349	,	_	_	_	HAS\_FORM[65]	_	
+11-14	1350-1358	svedrast	_	_	_	HAS\_FORM[65]	_	
+11-15	1358-1359	,	_	_	_	_	_	
+11-16	1360-1363	itd	_	_	_	_	_	
+11-17	1363-1364	.	_	_	_	_	_	
+
+#Text=kapniški steber, stalagmat: Zraščena stalagmit in stalaktit, tudi do stropa zrasli stalagmit ali do dna zrasli stalaktit.
+12-1	1369-1377	kapniški	_	A.2 Underground landform[15]	DEFINIENDUM[36]	_	_	
+12-2	1378-1384	steber	_	A.2 Underground landform[15]	DEFINIENDUM[36]	_	_	
+12-3	1384-1385	,	_	_	_	_	_	
+12-4	1386-1395	stalagmat	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-5	1395-1396	:	_	_	_	_	_	
+12-6	1397-1405	Zraščena	_	_	_	HAS\_CAUSE[66]	_	
+12-7	1406-1415	stalagmit	_	A.2 Underground landform	_	HAS\_CAUSE[66]	_	
+12-8	1416-1418	in	_	_	_	HAS\_CAUSE[66]	_	
+12-9	1419-1428	stalaktit	_	A.2 Underground landform	_	HAS\_CAUSE[66]	_	
+12-10	1428-1429	,	_	_	_	_	_	
+12-11	1430-1434	tudi	_	_	_	_	_	
+12-12	1435-1437	do	_	_	_	HAS\_CAUSE[67]	_	
+12-13	1438-1444	stropa	_	_	_	HAS\_CAUSE[67]	_	
+12-14	1445-1451	zrasli	_	_	_	HAS\_CAUSE[67]	_	
+12-15	1452-1461	stalagmit	_	A.2 Underground landform	_	HAS\_CAUSE[67]	_	
+12-16	1462-1465	ali	_	_	_	_	_	
+12-17	1466-1468	do	_	_	_	HAS\_CAUSE[68]	_	
+12-18	1469-1472	dna	_	_	_	HAS\_CAUSE[68]	_	
+12-19	1473-1479	zrasli	_	_	_	HAS\_CAUSE[68]	_	
+12-20	1480-1489	stalaktit	_	A.2 Underground landform	_	HAS\_CAUSE[68]	_	
+12-21	1489-1490	.	_	_	_	_	_	
+
+#Text=kapniški izrastek: Drobna kapniška tvorba, ki zraste v raznih smereh zaradi kapilarne vode (tudi poliekscentrične tvorbe).
+13-1	1494-1502	kapniški	_	A.2 Underground landform[16]	DEFINIENDUM[37]	_	_	
+13-2	1503-1511	izrastek	_	A.2 Underground landform[16]	DEFINIENDUM[37]	_	_	
+13-3	1511-1512	:	_	_	_	_	_	
+13-4	1513-1519	Drobna	_	_	_	HAS\_SIZE	_	
+13-5	1520-1528	kapniška	_	A.2 Underground landform[17]	GENUS[38]	_	_	
+13-6	1529-1535	tvorba	_	A.2 Underground landform[17]	GENUS[38]	_	_	
+13-7	1535-1536	,	_	_	_	_	_	
+13-8	1537-1539	ki	_	_	_	_	frame\_FORM[83]	
+13-9	1540-1546	zraste	_	_	_	HAS\_FORM[69]	frame\_FORM[83]	
+13-10	1547-1548	v	_	_	_	HAS\_FORM[69]	frame\_FORM[83]	
+13-11	1549-1555	raznih	_	_	_	HAS\_FORM[69]	_	
+13-12	1556-1562	smereh	_	_	_	HAS\_FORM[69]	_	
+13-13	1563-1569	zaradi	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE	
+13-14	1570-1579	kapilarne	_	_	_	HAS\_CAUSE[70]	_	
+13-15	1580-1584	vode	_	_	_	HAS\_CAUSE[70]	_	
+13-16	1585-1586	(	_	_	_	_	_	
+13-17	1586-1590	tudi	_	_	_	_	_	
+13-18	1591-1607	poliekscentrične	_	_	_	_	_	
+13-19	1608-1614	tvorbe	_	_	_	_	_	
+13-20	1614-1615	)	_	_	_	_	_	
+13-21	1615-1616	.	_	_	_	_	_	
+
+#Text=baldahin: Sigova tvorba, ki visi cez podlago in ki jo navadno sestavlja niz stalaktitov, zraslih deloma v sigov klobuk.
+14-1	1621-1629	baldahin	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	1629-1630	:	_	_	_	_	_	
+14-3	1631-1637	Sigova	_	_	GENUS[39]	COMPOSITION\_MEDIUM[71]	_	
+14-4	1638-1644	tvorba	_	_	GENUS[39]	COMPOSITION\_MEDIUM[71]	_	
+14-5	1644-1645	,	_	_	_	_	_	
+14-6	1646-1648	ki	_	_	_	_	_	
+14-7	1649-1653	visi	_	_	_	HAS\_LOCATION[72]	frame\_LOCATION[84]	
+14-8	1654-1657	cez	_	_	_	HAS\_LOCATION[72]	frame\_LOCATION[84]	
+14-9	1658-1665	podlago	_	_	_	HAS\_LOCATION[72]	_	
+14-10	1666-1668	in	_	_	_	_	_	
+14-11	1669-1671	ki	_	_	_	_	_	
+14-12	1672-1674	jo	_	_	_	HAS\_FORM[73]	_	
+14-13	1675-1682	navadno	_	_	_	HAS\_FORM[73]	_	
+14-14	1683-1692	sestavlja	_	_	_	HAS\_FORM[73]	_	
+14-15	1693-1696	niz	_	_	_	HAS\_FORM[73]	_	
+14-16	1697-1708	stalaktitov	_	A.2 Underground landform	_	HAS\_FORM[73]	_	
+14-17	1708-1709	,	_	_	_	HAS\_FORM[73]	_	
+14-18	1710-1717	zraslih	_	_	_	HAS\_FORM[73]	_	
+14-19	1718-1724	deloma	_	_	_	HAS\_FORM[73]	_	
+14-20	1725-1726	v	_	_	_	HAS\_FORM[73]	_	
+14-21	1727-1732	sigov	_	A.2 Underground landform[18]	_	HAS\_FORM[73]	_	
+14-22	1733-1739	klobuk	_	A.2 Underground landform[18]	_	HAS\_FORM[73]	_	
+14-23	1739-1740	.	_	_	_	_	_	
+
+#Text=ekscentrična tvorba, heliktit: Nenavadno zavit kapnik, katerega oblika ni pogojena z gravitacijo, temveč z drugimi (kristalnimi itd.) silami. Angleška in francoska literatura označujeta stoječe kapnike (stalagmite) takih oblik kot helegmite. Zaradi enosmernega zračnega toka poševno zrasli stalaktit je anemolit.
+15-1	1745-1757	ekscentrična	_	A.2 Underground landform[19]	_	_	_	
+15-2	1758-1764	tvorba	_	A.2 Underground landform[19]	_	_	_	
+15-3	1764-1765	,	_	_	_	_	_	
+15-4	1766-1774	heliktit	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-5	1774-1775	:	_	_	_	_	_	
+15-6	1776-1785	Nenavadno	_	_	_	HAS\_FORM[74]	_	
+15-7	1786-1791	zavit	_	_	_	HAS\_FORM[74]	_	
+15-8	1792-1798	kapnik	_	A.2 Underground landform	GENUS	_	_	
+15-9	1798-1799	,	_	_	_	_	_	
+15-10	1800-1808	katerega	_	_	_	HAS\_CAUSE[75]	_	
+15-11	1809-1815	oblika	_	_	_	HAS\_CAUSE[75]	_	
+15-12	1816-1818	ni	_	_	_	HAS\_CAUSE[75]	_	
+15-13	1819-1827	pogojena	_	_	_	HAS\_CAUSE[75]	frame\_CAUSE[85]	
+15-14	1828-1829	z	_	_	_	HAS\_CAUSE[75]	frame\_CAUSE[85]	
+15-15	1830-1841	gravitacijo	_	_	_	HAS\_CAUSE[75]	_	
+15-16	1841-1842	,	_	_	_	HAS\_CAUSE[75]	_	
+15-17	1843-1849	temveč	_	_	_	HAS\_CAUSE[75]	_	
+15-18	1850-1851	z	_	_	_	HAS\_CAUSE[75]	_	
+15-19	1852-1859	drugimi	_	_	_	HAS\_CAUSE[75]	_	
+15-20	1860-1861	(	_	_	_	HAS\_CAUSE[75]	_	
+15-21	1861-1872	kristalnimi	_	_	_	HAS\_CAUSE[75]	_	
+15-22	1873-1876	itd	_	_	_	HAS\_CAUSE[75]	_	
+15-23	1876-1877	.	_	_	_	HAS\_CAUSE[75]	_	
+15-24	1877-1878	)	_	_	_	HAS\_CAUSE[75]	_	
+15-25	1879-1885	silami	_	_	_	HAS\_CAUSE[75]	_	
+15-26	1885-1886	.	_	_	_	_	_	
+15-27	1887-1895	Angleška	_	_	_	_	_	
+15-28	1896-1898	in	_	_	_	_	_	
+15-29	1899-1908	francoska	_	_	_	_	_	
+15-30	1909-1919	literatura	_	_	_	_	_	
+15-31	1920-1930	označujeta	_	_	_	_	_	
+15-32	1931-1938	stoječe	_	_	_	_	_	
+15-33	1939-1946	kapnike	_	_	_	_	_	
+15-34	1947-1948	(	_	_	_	_	_	
+15-35	1948-1958	stalagmite	_	_	_	_	_	
+15-36	1958-1959	)	_	_	_	_	_	
+15-37	1960-1965	takih	_	_	_	_	_	
+15-38	1966-1971	oblik	_	_	_	_	_	
+15-39	1972-1975	kot	_	_	_	_	_	
+15-40	1976-1985	helegmite	_	A.2 Underground landform	_	_	_	
+15-41	1985-1986	.	_	_	_	_	_	
+15-42	1987-1993	Zaradi	_	_	_	_	_	
+15-43	1994-2005	enosmernega	_	_	_	_	_	
+15-44	2006-2014	zračnega	_	_	_	_	_	
+15-45	2015-2019	toka	_	_	_	_	_	
+15-46	2020-2027	poševno	_	_	_	_	_	
+15-47	2028-2034	zrasli	_	_	_	_	_	
+15-48	2035-2044	stalaktit	_	_	_	_	_	
+15-49	2045-2047	je	_	_	_	_	_	
+15-50	2048-2056	anemolit	_	A.2 Underground landform	_	_	_	
+15-51	2056-2057	.	_	_	_	_	_	

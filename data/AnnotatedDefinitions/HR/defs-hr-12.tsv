@@ -1,0 +1,422 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=﻿strujnica: žlijeb otapanja formiran na zidovima špilje vodom koje se slijeva. Česti su na zidovima okomitih cijevi.
+1-1	0-10	﻿strujnica	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+1-2	10-11	:	_	_	_	_	_	
+1-3	12-18	žlijeb	žlijeb	_	GENUS[12]	_	_	
+1-4	19-27	otapanja	_	B.2 Loss	GENUS[12]	_	_	
+1-5	28-36	formiran	_	_	_	HAS\_LOCATION[21]	frame\_LOCATION[65]	
+1-6	37-39	na	_	_	_	HAS\_LOCATION[21]	frame\_LOCATION[65]	
+1-7	40-48	zidovima	_	_	_	HAS\_LOCATION[21]	_	
+1-8	49-55	špilje	_	_	_	HAS\_LOCATION[21]	_	
+1-9	56-61	vodom	_	D.1 Abiotic	_	HAS\_CAUSE[22]	_	
+1-10	62-66	koje	_	_	_	HAS\_CAUSE[22]	_	
+1-11	67-69	se	_	_	_	HAS\_CAUSE[22]	_	
+1-12	70-77	slijeva	_	_	_	HAS\_CAUSE[22]	_	
+1-13	77-78	.	_	_	_	_	_	
+1-14	79-84	Česti	_	_	_	_	_	
+1-15	85-87	su	_	_	_	_	_	
+1-16	88-90	na	_	_	_	HAS\_LOCATION[23]	frame\_LOCATION	
+1-17	91-99	zidovima	_	_	_	HAS\_LOCATION[23]	_	
+1-18	100-108	okomitih	_	_	_	HAS\_LOCATION[23]	_	
+1-19	109-115	cijevi	_	_	_	HAS\_LOCATION[23]	_	
+1-20	115-116	.	_	_	_	_	_	
+
+#Text=riječni krš: Tip okoliša gdje na površini još postoje korita vodotoka i riječne doline, ali se pretežni dio drenaže odvija u podzemlju. Teren i s riječnim i krškim značajkama. Vapnenački okoliš nastao kombiniranim djelovanjem riječne erozije i otapanja vapnenca.
+2-1	118-125	riječni	_	C. Geome[1]	DEFINIENDUM[13]	_	_	
+2-2	126-129	krš	_	C. Geome[1]	DEFINIENDUM[13]	_	_	
+2-3	129-130	:	_	_	_	_	_	
+2-4	131-134	Tip	_	_	GENUS[14]	_	_	
+2-5	135-142	okoliša	_	_	GENUS[14]	_	_	
+2-6	143-147	gdje	_	_	_	_	_	
+2-7	148-150	na	_	_	_	CONTAINS[24]	_	
+2-8	151-159	površini	_	_	_	CONTAINS[24]	_	
+2-9	160-163	još	_	_	_	CONTAINS[24]	_	
+2-10	164-171	postoje	_	_	_	CONTAINS[24]	_	
+2-11	172-178	korita	_	D.1 Abiotic[2]	_	CONTAINS[24]	_	
+2-12	179-187	vodotoka	_	D.1 Abiotic[2]	_	CONTAINS[24]	_	
+2-13	188-189	i	_	_	_	CONTAINS[24]	_	
+2-14	190-197	riječne	_	D.1 Abiotic[3]	_	CONTAINS[24]	_	
+2-15	198-204	doline	_	D.1 Abiotic[3]	_	CONTAINS[24]	_	
+2-16	204-205	,	_	_	_	_	_	
+2-17	206-209	ali	_	_	_	_	_	
+2-18	210-212	se	_	_	_	HAS\_ATTRIBUTE[25]	_	
+2-19	213-221	pretežni	_	_	_	HAS\_ATTRIBUTE[25]	_	
+2-20	222-225	dio	_	_	_	HAS\_ATTRIBUTE[25]	_	
+2-21	226-233	drenaže	_	B.1 Movement	_	HAS\_ATTRIBUTE[25]	_	
+2-22	234-240	odvija	_	_	_	HAS\_ATTRIBUTE[25]	_	
+2-23	241-242	u	_	_	_	HAS\_ATTRIBUTE[25]	_	
+2-24	243-252	podzemlju	_	_	_	HAS\_ATTRIBUTE[25]	_	
+2-25	252-253	.	_	_	_	_	_	
+2-26	254-259	Teren	_	_	GENUS	_	_	
+2-27	260-261	i	_	_	_	HAS\_ATTRIBUTE[26]	_	
+2-28	262-263	s	_	_	_	HAS\_ATTRIBUTE[26]	_	
+2-29	264-272	riječnim	_	_	_	HAS\_ATTRIBUTE[26]	_	
+2-30	273-274	i	_	_	_	HAS\_ATTRIBUTE[26]	_	
+2-31	275-281	krškim	_	_	_	HAS\_ATTRIBUTE[26]	_	
+2-32	282-292	značajkama	_	_	_	HAS\_ATTRIBUTE[26]	frame\_ATTRIBUTE	
+2-33	292-293	.	_	_	_	_	_	
+2-34	294-304	Vapnenački	_	_	_	_	_	
+2-35	305-311	okoliš	_	_	_	_	_	
+2-36	312-318	nastao	_	_	_	HAS\_CAUSE[27]	frame\_CAUSE[66]	
+2-37	319-331	kombiniranim	_	_	_	HAS\_CAUSE[27]	frame\_CAUSE[66]	
+2-38	332-343	djelovanjem	_	_	_	HAS\_CAUSE[27]	frame\_CAUSE[66]	
+2-39	344-351	riječne	_	B.2 Loss[4]	_	HAS\_CAUSE[27]	_	
+2-40	352-359	erozije	_	B.2 Loss[4]	_	HAS\_CAUSE[27]	_	
+2-41	360-361	i	_	_	_	HAS\_CAUSE[27]	_	
+2-42	362-370	otapanja	_	B.2 Loss	_	HAS\_CAUSE[27]	_	
+2-43	371-379	vapnenca	_	D.1 Abiotic	_	HAS\_CAUSE[27]	_	
+2-44	379-380	.	_	_	_	_	_	
+
+#Text=fojba: Slijepi završetak šahte u špilji.
+3-1	382-387	fojba	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-2	387-388	:	_	_	_	_	_	
+3-3	389-396	Slijepi	_	_	_	DEFINED\_AS[28]	_	
+3-4	397-406	završetak	_	_	_	DEFINED\_AS[28]	_	
+3-5	407-412	šahte	_	A.2 Underground landform	_	DEFINED\_AS[28]	_	
+3-6	413-414	u	_	_	_	DEFINED\_AS[28]|HAS\_LOCATION[29]	frame\_LOCATION	
+3-7	415-421	špilji	_	A.2 Underground landform	_	DEFINED\_AS[28]|HAS\_LOCATION[29]	_	
+3-8	421-422	.	_	_	_	_	_	
+
+#Text=folija: Niz naslaganih polica, uglavnom od kalcita, često udružene s kalcitnim splavima. Formirane su blizu ili tik ispod linije vode na svodu i zidovima špilje nalik okrenutim rubnim pregradama. Smatra se da su formirane primarno blizu vrha vodene plohe i da su povezane s opadanjem nivoa vode. Vjerojatno su formirane iz precipitata na površini vode koji se nakupio na zidovima. Kako je nivo vode opadao, sve više kalcita se taložilo i formiralo ravnu površinu. Prema drugoj teoriji došlo je do hvatanja ugljičnog dioksida na izbočinama i pojačanog taloženja kalcita na njima.
+4-1	424-430	folija	_	_	DEFINIENDUM	_	_	
+4-2	430-431	:	_	_	_	_	_	
+4-3	432-435	Niz	_	_	_	DEFINED\_AS[30]	_	
+4-4	436-446	naslaganih	_	_	_	DEFINED\_AS[30]	_	
+4-5	447-453	polica	_	_	_	DEFINED\_AS[30]	_	
+4-6	453-454	,	_	_	_	_	_	
+4-7	455-463	uglavnom	_	_	_	_	_	
+4-8	464-466	od	_	_	_	COMPOSITION\_MEDIUM[31]	frame\_COMPOSITION	
+4-9	467-474	kalcita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[31]	_	
+4-10	474-475	,	_	_	_	_	_	
+4-11	476-481	često	_	_	_	HAS\_ATTRIBUTE[32]	frame\_ATTRIBUTE[67]	
+4-12	482-490	udružene	_	_	_	HAS\_ATTRIBUTE[32]	frame\_ATTRIBUTE[67]	
+4-13	491-492	s	_	_	_	HAS\_ATTRIBUTE[32]	frame\_ATTRIBUTE[67]	
+4-14	493-502	kalcitnim	_	A.2 Underground landform[5]	_	HAS\_ATTRIBUTE[32]	_	
+4-15	503-511	splavima	_	A.2 Underground landform[5]	_	HAS\_ATTRIBUTE[32]	_	
+4-16	511-512	.	_	_	_	_	_	
+4-17	513-522	Formirane	_	_	_	HAS\_LOCATION[33]	_	
+4-18	523-525	su	_	_	_	HAS\_LOCATION[33]	_	
+4-19	526-531	blizu	_	_	_	HAS\_LOCATION[33]	frame\_LOCATION[68]	
+4-20	532-535	ili	_	_	_	HAS\_LOCATION[33]	frame\_LOCATION[68]	
+4-21	536-539	tik	_	_	_	HAS\_LOCATION[33]	frame\_LOCATION[68]	
+4-22	540-545	ispod	_	_	_	HAS\_LOCATION[33]	frame\_LOCATION[68]	
+4-23	546-552	linije	_	_	_	HAS\_LOCATION[33]	_	
+4-24	553-557	vode	_	_	_	HAS\_LOCATION[33]	_	
+4-25	558-560	na	_	_	_	HAS\_LOCATION[33]	_	
+4-26	561-566	svodu	_	_	_	HAS\_LOCATION[33]	_	
+4-27	567-568	i	_	_	_	HAS\_LOCATION[33]	_	
+4-28	569-577	zidovima	_	_	_	HAS\_LOCATION[33]	_	
+4-29	578-584	špilje	_	A.2 Underground landform	_	HAS\_LOCATION[33]	_	
+4-30	585-590	nalik	_	_	_	HAS\_ATTRIBUTE[34]	frame\_ATTRIBUTE	
+4-31	591-600	okrenutim	_	_	_	HAS\_ATTRIBUTE[34]	_	
+4-32	601-607	rubnim	_	_	_	HAS\_ATTRIBUTE[34]	_	
+4-33	608-618	pregradama	_	_	_	HAS\_ATTRIBUTE[34]	_	
+4-34	618-619	.	_	_	_	_	_	
+4-35	620-626	Smatra	_	_	_	_	_	
+4-36	627-629	se	_	_	_	_	_	
+4-37	630-632	da	_	_	_	_	_	
+4-38	633-635	su	_	_	_	_	_	
+4-39	636-645	formirane	_	_	_	HAS\_LOCATION[35]	_	
+4-40	646-654	primarno	_	_	_	HAS\_LOCATION[35]	_	
+4-41	655-660	blizu	_	_	_	HAS\_LOCATION[35]	_	
+4-42	661-665	vrha	_	_	_	HAS\_LOCATION[35]	_	
+4-43	666-672	vodene	_	_	_	HAS\_LOCATION[35]	_	
+4-44	673-678	plohe	_	_	_	HAS\_LOCATION[35]	_	
+4-45	679-680	i	_	_	_	_	_	
+4-46	681-683	da	_	_	_	_	_	
+4-47	684-686	su	_	_	_	_	_	
+4-48	687-695	povezane	_	_	_	_	_	
+4-49	696-697	s	_	_	_	_	_	
+4-50	698-707	opadanjem	_	_	_	_	_	
+4-51	708-713	nivoa	_	_	_	_	_	
+4-52	714-718	vode	_	_	_	_	_	
+4-53	718-719	.	_	_	_	_	_	
+4-54	720-730	Vjerojatno	_	_	_	_	_	
+4-55	731-733	su	_	_	_	_	_	
+4-56	734-743	formirane	_	_	_	HAS\_CAUSE[36]	_	
+4-57	744-746	iz	_	_	_	HAS\_CAUSE[36]	_	
+4-58	747-758	precipitata	_	_	_	HAS\_CAUSE[36]	_	
+4-59	759-761	na	_	_	_	HAS\_CAUSE[36]	_	
+4-60	762-770	površini	_	_	_	HAS\_CAUSE[36]	_	
+4-61	771-775	vode	_	_	_	HAS\_CAUSE[36]	_	
+4-62	776-780	koji	_	_	_	HAS\_CAUSE[36]	_	
+4-63	781-783	se	_	_	_	HAS\_CAUSE[36]	_	
+4-64	784-791	nakupio	_	_	_	HAS\_CAUSE[36]	_	
+4-65	792-794	na	_	_	_	HAS\_CAUSE[36]	_	
+4-66	795-803	zidovima	_	_	_	HAS\_CAUSE[36]	_	
+4-67	803-804	.	_	_	_	HAS\_CAUSE[36]	_	
+4-68	805-809	Kako	_	_	_	_	_	
+4-69	810-812	je	_	_	_	_	_	
+4-70	813-817	nivo	_	_	_	_	_	
+4-71	818-822	vode	_	_	_	_	_	
+4-72	823-829	opadao	_	_	_	_	_	
+4-73	829-830	,	_	_	_	_	_	
+4-74	831-834	sve	_	_	_	_	_	
+4-75	835-839	više	_	_	_	_	_	
+4-76	840-847	kalcita	_	_	_	_	_	
+4-77	848-850	se	_	_	_	_	_	
+4-78	851-859	taložilo	_	_	_	_	_	
+4-79	860-861	i	_	_	_	_	_	
+4-80	862-871	formiralo	_	_	_	_	_	
+4-81	872-877	ravnu	_	_	_	_	_	
+4-82	878-886	površinu	_	_	_	_	_	
+4-83	886-887	.	_	_	_	_	_	
+4-84	888-893	Prema	_	_	_	_	_	
+4-85	894-900	drugoj	_	_	_	_	_	
+4-86	901-908	teoriji	_	_	_	_	_	
+4-87	909-914	došlo	_	_	_	_	_	
+4-88	915-917	je	_	_	_	_	_	
+4-89	918-920	do	_	_	_	_	_	
+4-90	921-929	hvatanja	_	_	_	_	_	
+4-91	930-939	ugljičnog	_	_	_	_	_	
+4-92	940-948	dioksida	_	_	_	_	_	
+4-93	949-951	na	_	_	_	_	_	
+4-94	952-962	izbočinama	_	_	_	_	_	
+4-95	963-964	i	_	_	_	_	_	
+4-96	965-974	pojačanog	_	_	_	_	_	
+4-97	975-984	taloženja	_	_	_	_	_	
+4-98	985-992	kalcita	_	_	_	_	_	
+4-99	993-995	na	_	_	_	_	_	
+4-100	996-1001	njima	_	_	_	_	_	
+4-101	1001-1002	.	_	_	_	_	_	
+
+#Text=fosilna špilja: Ostatak špilje koja već dugo vremena nije povezana sa svojim hidrološkim porijeklom.
+5-1	1004-1011	fosilna	_	A.2 Underground landform[6]	DEFINIENDUM[15]	_	_	
+5-2	1012-1018	špilja	_	A.2 Underground landform[6]	DEFINIENDUM[15]	_	_	
+5-3	1018-1019	:	_	_	_	_	_	
+5-4	1020-1027	Ostatak	_	_	GENUS[16]	_	_	
+5-5	1028-1034	špilje	_	A.2 Underground landform	GENUS[16]	_	_	
+5-6	1035-1039	koja	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-7	1040-1043	već	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-8	1044-1048	dugo	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-9	1049-1056	vremena	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-10	1057-1061	nije	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-11	1062-1070	povezana	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-12	1071-1073	sa	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-13	1074-1080	svojim	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-14	1081-1092	hidrološkim	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-15	1093-1103	porijeklom	_	_	_	HAS\_ATTRIBUTE[37]	_	
+5-16	1103-1104	.	_	_	_	_	_	
+
+#Text=dvorana s fosilima: Kosturnica, mjesto u špilju s velikim brojem fosilnih kostiju.
+6-1	1106-1113	dvorana	_	A.2 Underground landform[7]	DEFINIENDUM[17]	_	_	
+6-2	1114-1115	s	_	A.2 Underground landform[7]	DEFINIENDUM[17]	_	_	
+6-3	1116-1124	fosilima	_	A.2 Underground landform[7]	DEFINIENDUM[17]	_	_	
+6-4	1124-1125	:	_	_	_	_	_	
+6-5	1126-1136	Kosturnica	_	A.2 Underground landform	GENUS	_	_	
+6-6	1136-1137	,	_	_	_	_	_	
+6-7	1138-1144	mjesto	_	_	_	_	_	
+6-8	1145-1146	u	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION	
+6-9	1147-1153	špilju	_	A.2 Underground landform	_	HAS\_LOCATION[38]	_	
+6-10	1154-1155	s	_	_	_	CONTAINS[39]	frame\_CONTAINS[69]	
+6-11	1156-1163	velikim	_	_	_	CONTAINS[39]	frame\_CONTAINS[69]	
+6-12	1164-1170	brojem	_	_	_	CONTAINS[39]	frame\_CONTAINS[69]	
+6-13	1171-1179	fosilnih	_	D.1 Abiotic[8]	_	CONTAINS[39]	_	
+6-14	1180-1187	kostiju	_	D.1 Abiotic[8]	_	CONTAINS[39]	_	
+6-15	1187-1188	.	_	_	_	_	_	
+
+#Text=loši zrak: Špilja s više od 1% ugljičnog dioksida u zraku koji štetno djeluje na disanje i metabolizam.
+7-1	1190-1194	loši	_	A.2 Underground landform[9]	DEFINIENDUM[18]	_	_	
+7-2	1195-1199	zrak	_	A.2 Underground landform[9]	DEFINIENDUM[18]	_	_	
+7-3	1199-1200	:	_	_	_	_	_	
+7-4	1201-1207	Špilja	_	A.2 Underground landform	GENUS	_	_	
+7-5	1208-1209	s	_	_	_	HAS\_ATTRIBUTE[40]	frame\_ATTRIBUTE[70]	
+7-6	1210-1214	više	_	_	_	HAS\_ATTRIBUTE[40]	frame\_ATTRIBUTE[70]	
+7-7	1215-1217	od	_	_	_	HAS\_ATTRIBUTE[40]	frame\_ATTRIBUTE[70]	
+7-8	1218-1220	1%	_	_	_	HAS\_ATTRIBUTE[40]	_	
+7-9	1221-1230	ugljičnog	_	D.1 Abiotic[10]	_	HAS\_ATTRIBUTE[40]	_	
+7-10	1231-1239	dioksida	_	D.1 Abiotic[10]	_	HAS\_ATTRIBUTE[40]	_	
+7-11	1240-1241	u	_	_	_	HAS\_ATTRIBUTE[40]	_	
+7-12	1242-1247	zraku	_	_	_	HAS\_ATTRIBUTE[40]	_	
+7-13	1248-1252	koji	_	_	_	_	_	
+7-14	1253-1259	štetno	_	_	_	HAS\_RESULT[41]	_	
+7-15	1260-1267	djeluje	_	_	_	HAS\_RESULT[41]	_	
+7-16	1268-1270	na	_	_	_	HAS\_RESULT[41]	_	
+7-17	1271-1278	disanje	_	_	_	HAS\_RESULT[41]	_	
+7-18	1279-1280	i	_	_	_	HAS\_RESULT[41]	_	
+7-19	1281-1292	metabolizam	_	_	_	HAS\_RESULT[41]	_	
+7-20	1292-1293	.	_	_	_	_	_	
+
+#Text=galerija: Relativno velika i gotovo horizontala komora u špilji. Može biti ukrašena prirodnom dekoracijom.
+8-1	1295-1303	galerija	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	1303-1304	:	_	_	_	_	_	
+8-3	1305-1314	Relativno	_	_	_	HAS\_SIZE[42]	_	
+8-4	1315-1321	velika	_	_	_	HAS\_SIZE[42]	_	
+8-5	1322-1323	i	_	_	_	_	_	
+8-6	1324-1330	gotovo	_	_	_	_	_	
+8-7	1331-1342	horizontala	_	_	_	HAS\_FORM	_	
+8-8	1343-1349	komora	_	A.2 Underground landform	GENUS	_	_	
+8-9	1350-1351	u	_	_	_	HAS\_LOCATION[43]	frame\_LOCATION	
+8-10	1352-1358	špilji	_	A.2 Underground landform	_	HAS\_LOCATION[43]	_	
+8-11	1358-1359	.	_	_	_	_	_	
+8-12	1360-1364	Može	_	_	_	_	_	
+8-13	1365-1369	biti	_	_	_	_	_	
+8-14	1370-1378	ukrašena	_	_	_	HAS\_ATTRIBUTE[44]	_	
+8-15	1379-1388	prirodnom	_	_	_	HAS\_ATTRIBUTE[44]	_	
+8-16	1389-1400	dekoracijom	_	_	_	HAS\_ATTRIBUTE[44]	_	
+8-17	1400-1401	.	_	_	_	_	_	
+
+#Text=glaciokrš: 1 Krš razvijen u glacijalnim terenima. 2 Krški okoliš koji je zaleđen još od Ledenog doba.
+9-1	1403-1412	glaciokrš	_	C. Geome	DEFINIENDUM	_	_	
+9-2	1412-1413	:	_	_	_	_	_	
+9-3	1414-1415	1	_	_	_	_	_	
+9-4	1416-1419	Krš	_	C. Geome	GENUS	_	_	
+9-5	1420-1428	razvijen	_	_	_	HAS\_LOCATION[45]	frame\_LOCATION[71]	
+9-6	1429-1430	u	_	_	_	HAS\_LOCATION[45]	frame\_LOCATION[71]	
+9-7	1431-1442	glacijalnim	_	_	_	HAS\_LOCATION[45]	_	
+9-8	1443-1451	terenima	_	_	_	HAS\_LOCATION[45]	_	
+9-9	1451-1452	.	_	_	_	_	_	
+9-10	1453-1454	2	_	_	_	_	_	
+9-11	1455-1460	Krški	_	_	_	_	_	
+9-12	1461-1467	okoliš	_	_	_	_	_	
+9-13	1468-1472	koji	_	_	_	_	_	
+9-14	1473-1475	je	_	_	_	_	_	
+9-15	1476-1483	zaleđen	_	_	_	OCCURS\_IN\_TIME[46]	_	
+9-16	1484-1487	još	_	_	_	OCCURS\_IN\_TIME[46]	_	
+9-17	1488-1490	od	_	_	_	OCCURS\_IN\_TIME[46]	_	
+9-18	1491-1498	Ledenog	_	_	_	OCCURS\_IN\_TIME[46]	_	
+9-19	1499-1503	doba	_	_	_	OCCURS\_IN\_TIME[46]	_	
+9-20	1503-1504	.	_	_	_	_	_	
+
+#Text=glade: 1 Jamaičanski izraz za izduženu depresiju strmih padina kod koje je uglavnom ravno dno podijeljeno na manje bazene odvojene niskim pregradama. 2 U Tennessiju (SAD) vapnenačka kaldrma s cedrovima. obodna barijera; obodno jezero: Obodna barijera u špilji i njen produkt, obodno jezerce.
+10-1	1506-1511	glade	_	A.1 Surface landform	DEFINIENDUM	_	_	
+10-2	1511-1512	:	_	_	_	_	_	
+10-3	1513-1514	1	_	_	_	_	_	
+10-4	1515-1526	Jamaičanski	_	_	_	_	_	
+10-5	1527-1532	izraz	_	_	_	_	_	
+10-6	1533-1535	za	_	_	_	_	_	
+10-7	1536-1544	izduženu	_	_	_	DEFINED\_AS[47]	_	
+10-8	1545-1554	depresiju	_	A.1 Surface landform	_	DEFINED\_AS[47]	_	
+10-9	1555-1561	strmih	_	_	_	DEFINED\_AS[47]	_	
+10-10	1562-1568	padina	_	_	_	DEFINED\_AS[47]	_	
+10-11	1569-1572	kod	_	_	_	_	_	
+10-12	1573-1577	koje	_	_	_	_	_	
+10-13	1578-1580	je	_	_	_	_	_	
+10-14	1581-1589	uglavnom	_	_	_	HAS\_FORM[48]	_	
+10-15	1590-1595	ravno	_	_	_	HAS\_FORM[48]	_	
+10-16	1596-1599	dno	_	_	_	HAS\_FORM[48]	_	
+10-17	1600-1611	podijeljeno	_	_	_	HAS\_FORM[48]	_	
+10-18	1612-1614	na	_	_	_	HAS\_FORM[48]	_	
+10-19	1615-1620	manje	_	_	_	HAS\_FORM[48]	_	
+10-20	1621-1627	bazene	_	_	_	HAS\_FORM[48]	_	
+10-21	1628-1636	odvojene	_	_	_	HAS\_FORM[48]	_	
+10-22	1637-1643	niskim	_	_	_	HAS\_FORM[48]	_	
+10-23	1644-1654	pregradama	_	_	_	HAS\_FORM[48]	_	
+10-24	1654-1655	.	_	_	_	_	_	
+10-25	1656-1657	2	_	_	_	_	_	
+10-26	1658-1659	U	_	_	_	HAS\_POSITION[49]	_	
+10-27	1660-1670	Tennessiju	_	D.3.1 Geolocation	_	HAS\_POSITION[49]	_	
+10-28	1671-1672	(	_	_	_	_	_	
+10-29	1672-1675	SAD	_	_	_	_	_	
+10-30	1675-1676	)	_	_	_	_	_	
+10-31	1677-1687	vapnenačka	_	_	_	DEFINED\_AS[50]	_	
+10-32	1688-1695	kaldrma	_	_	_	DEFINED\_AS[50]	_	
+10-33	1696-1697	s	_	_	_	CONTAINS[51]	_	
+10-34	1698-1707	cedrovima	_	D. Entity/Element/Property	_	CONTAINS[51]	_	
+10-35	1707-1708	.	_	_	_	_	_	
+10-36	1709-1715	obodna	_	_	_	_	_	
+10-37	1716-1724	barijera	_	_	_	_	_	
+10-38	1724-1725	;	_	_	_	_	_	
+10-39	1726-1732	obodno	_	_	_	_	_	
+10-40	1733-1739	jezero	_	_	_	_	_	
+10-41	1739-1740	:	_	_	_	_	_	
+10-42	1741-1747	Obodna	_	_	_	_	_	
+10-43	1748-1756	barijera	_	_	_	_	_	
+10-44	1757-1758	u	_	_	_	_	_	
+10-45	1759-1765	špilji	_	_	_	_	_	
+10-46	1766-1767	i	_	_	_	_	_	
+10-47	1768-1772	njen	_	_	_	_	_	
+10-48	1773-1780	produkt	_	_	_	_	_	
+10-49	1780-1781	,	_	_	_	_	_	
+10-50	1782-1788	obodno	_	_	_	_	_	
+10-51	1789-1796	jezerce	_	_	_	_	_	
+10-52	1796-1797	.	_	_	_	_	_	
+
+#Text=grajk: U Engleskoj, vertikalna ili gotovo vertikalna pukotina u vapnencu širine oko 0,5 m formirana otapanjem duž pukotine i dijeli izloženu površinu vapnenca na sekcije.
+11-1	1799-1804	grajk	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-2	1804-1805	:	_	_	_	_	_	
+11-3	1806-1807	U	_	_	_	HAS\_POSITION[52]	_	
+11-4	1808-1817	Engleskoj	_	D.3.1 Geolocation	_	HAS\_POSITION[52]	_	
+11-5	1817-1818	,	_	_	_	_	_	
+11-6	1819-1829	vertikalna	_	_	_	HAS\_FORM	_	
+11-7	1830-1833	ili	_	_	_	_	_	
+11-8	1834-1840	gotovo	_	_	_	_	_	
+11-9	1841-1851	vertikalna	_	_	_	_	_	
+11-10	1852-1860	pukotina	_	_	GENUS	_	_	
+11-11	1861-1862	u	_	_	_	HAS\_LOCATION[53]	frame\_LOCATION	
+11-12	1863-1871	vapnencu	_	D.1 Abiotic	_	HAS\_LOCATION[53]	_	
+11-13	1872-1878	širine	_	_	_	HAS\_SIZE[54]	frame\_SIZE	
+11-14	1879-1882	oko	_	_	_	HAS\_SIZE[54]	_	
+11-15	1883-1886	0,5	_	_	_	HAS\_SIZE[54]	_	
+11-16	1887-1888	m	_	_	_	HAS\_SIZE[54]	_	
+11-17	1889-1898	formirana	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE	
+11-18	1899-1908	otapanjem	_	B.2 Loss	_	HAS\_CAUSE[55]	_	
+11-19	1909-1912	duž	_	_	_	HAS\_CAUSE[55]	_	
+11-20	1913-1921	pukotine	_	_	_	HAS\_CAUSE[55]	_	
+11-21	1922-1923	i	_	_	_	_	_	
+11-22	1924-1930	dijeli	_	_	_	HAS\_FUNCTION[56]	_	
+11-23	1931-1939	izloženu	_	_	_	HAS\_FUNCTION[56]	_	
+11-24	1940-1948	površinu	_	_	_	HAS\_FUNCTION[56]	_	
+11-25	1949-1957	vapnenca	_	_	_	HAS\_FUNCTION[56]	_	
+11-26	1958-1960	na	_	_	_	HAS\_FUNCTION[56]	_	
+11-27	1961-1968	sekcije	_	_	_	HAS\_FUNCTION[56]	_	
+11-28	1968-1969	.	_	_	_	_	_	
+
+#Text=pećinica: Mala i beznačajna špilja bez daljnih kanala i često tijesna i gotovo neprohodna.
+12-1	1971-1979	pećinica	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1979-1980	:	_	_	_	_	_	
+12-3	1981-1985	Mala	_	_	_	HAS\_SIZE	_	
+12-4	1986-1987	i	_	_	_	_	_	
+12-5	1988-1998	beznačajna	_	_	_	HAS\_ATTRIBUTE	_	
+12-6	1999-2005	špilja	_	A.2 Underground landform	GENUS	_	_	
+12-7	2006-2009	bez	_	_	_	HAS\_ATTRIBUTE[57]	_	
+12-8	2010-2017	daljnih	_	_	_	HAS\_ATTRIBUTE[57]	_	
+12-9	2018-2024	kanala	_	_	_	HAS\_ATTRIBUTE[57]	_	
+12-10	2025-2026	i	_	_	_	_	_	
+12-11	2027-2032	često	_	_	_	_	_	
+12-12	2033-2040	tijesna	_	_	_	HAS\_SIZE	_	
+12-13	2041-2042	i	_	_	_	_	_	
+12-14	2043-2049	gotovo	_	_	_	_	_	
+12-15	2050-2060	neprohodna	_	_	_	HAS\_ATTRIBUTE	_	
+12-16	2060-2061	.	_	_	_	_	_	
+
+#Text=dekorirana komora: Dvorana u špilji srednje veličine ali bogato dekorirana.
+13-1	2063-2073	dekorirana	_	A.2 Underground landform[11]	DEFINIENDUM[19]	_	_	
+13-2	2074-2080	komora	_	A.2 Underground landform[11]	DEFINIENDUM[19]	_	_	
+13-3	2080-2081	:	_	_	_	_	_	
+13-4	2082-2089	Dvorana	_	_	GENUS	_	_	
+13-5	2090-2091	u	_	_	_	HAS\_LOCATION[58]	frame\_LOCATION	
+13-6	2092-2098	špilji	_	A.2 Underground landform	_	HAS\_LOCATION[58]	_	
+13-7	2099-2106	srednje	_	_	_	HAS\_SIZE[59]	_	
+13-8	2107-2115	veličine	_	_	_	HAS\_SIZE[59]	_	
+13-9	2116-2119	ali	_	_	_	_	_	
+13-10	2120-2126	bogato	_	_	_	HAS\_ATTRIBUTE[60]	_	
+13-11	2127-2137	dekorirana	_	_	_	HAS\_ATTRIBUTE[60]	_	
+13-12	2137-2138	.	_	_	_	_	_	
+
+#Text=provalija: Zatvorena depresija strmih strana s ravnim aluvijalnim dnom u krškom području. Neke imaju potok.
+14-1	2140-2149	provalija	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-2	2149-2150	:	_	_	_	_	_	
+14-3	2151-2160	Zatvorena	_	_	GENUS[20]	_	_	
+14-4	2161-2170	depresija	_	_	GENUS[20]	_	_	
+14-5	2171-2177	strmih	_	_	_	HAS\_FORM[61]	_	
+14-6	2178-2184	strana	_	_	_	HAS\_FORM[61]	_	
+14-7	2185-2186	s	_	_	_	HAS\_FORM[62]	_	
+14-8	2187-2193	ravnim	_	_	_	HAS\_FORM[62]	_	
+14-9	2194-2205	aluvijalnim	_	_	_	HAS\_FORM[62]	_	
+14-10	2206-2210	dnom	_	_	_	HAS\_FORM[62]	_	
+14-11	2211-2212	u	_	_	_	HAS\_LOCATION[63]	frame\_LOCATION	
+14-12	2213-2219	krškom	_	_	_	HAS\_LOCATION[63]	_	
+14-13	2220-2228	području	_	_	_	HAS\_LOCATION[63]	_	
+14-14	2228-2229	.	_	_	_	_	_	
+14-15	2230-2234	Neke	_	_	_	CONTAINS[64]	_	
+14-16	2235-2240	imaju	_	_	_	CONTAINS[64]	_	
+14-17	2241-2246	potok	_	_	_	CONTAINS[64]	_	
+14-18	2246-2247	.	_	_	_	_	_	

@@ -1,0 +1,436 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=The caves are the world’s largest known examples of “flank-margin caves”, a type of cave that develops in carbonate coastlines as a result of sea-water and freshwater mixing inside the coastline.
+1-1	0-3	The	_	_	_	_	_	
+1-2	4-9	caves	_	_	_	_	_	
+1-3	10-13	are	_	_	_	_	_	
+1-4	14-17	the	_	_	_	_	_	
+1-5	18-23	world	_	_	_	_	_	
+1-6	23-24	’	_	_	_	_	_	
+1-7	24-25	s	_	_	_	_	_	
+1-8	26-33	largest	_	_	_	_	_	
+1-9	34-39	known	_	_	_	_	_	
+1-10	40-48	examples	_	_	_	_	_	
+1-11	49-51	of	_	_	_	_	_	
+1-12	52-53	“	_	_	_	_	_	
+1-13	53-65	flank-margin	_	A.2 Underground landform[2]	DEFINIENDUM[23]	_	_	
+1-14	66-71	caves	_	A.2 Underground landform[2]	DEFINIENDUM[23]	_	_	
+1-15	71-72	”	_	_	_	_	_	
+1-16	72-73	,	_	_	_	_	_	
+1-17	74-75	a	_	_	_	_	_	
+1-18	76-80	type	_	_	GENUS[24]	_	_	
+1-19	81-83	of	_	_	GENUS[24]	_	_	
+1-20	84-88	cave	_	A.2 Underground landform	GENUS[24]	_	_	
+1-21	89-93	that	_	_	_	_	_	
+1-22	94-102	develops	_	_	_	COMPOSITION\_MEDIUM[45]	frame\_COMPOSITION[77]	
+1-23	103-105	in	_	_	_	COMPOSITION\_MEDIUM[45]	frame\_COMPOSITION[77]	
+1-24	106-115	carbonate	carbonate coastline[1]	C. Geome[3]	_	COMPOSITION\_MEDIUM[45]	_	
+1-25	116-126	coastlines	carbonate coastline[1]	C. Geome[3]|D.1 Abiotic[4]	_	COMPOSITION\_MEDIUM[45]	_	
+1-26	127-129	as	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[78]	
+1-27	130-131	a	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[78]	
+1-28	132-138	result	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[78]	
+1-29	139-141	of	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[78]	
+1-30	142-151	sea-water	_	B. Process[5]|D.1 Abiotic[6]	_	HAS\_CAUSE[46]	_	
+1-31	152-155	and	_	B. Process[5]	_	HAS\_CAUSE[46]	_	
+1-32	156-166	freshwater	_	B. Process[5]|D.1 Abiotic[7]	_	HAS\_CAUSE[46]	_	
+1-33	167-173	mixing	_	B. Process[5]	_	HAS\_CAUSE[46]	_	
+1-34	174-180	inside	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION	
+1-35	181-184	the	_	_	_	HAS\_LOCATION[47]	_	
+1-36	185-194	coastline	_	_	_	HAS\_LOCATION[47]	_	
+1-37	194-195	.	_	_	_	_	_	
+
+#Text=Morphometry is the measurement and analysis of form (shape).
+2-1	196-207	Morphometry	_	E.2 Method	DEFINIENDUM	_	_	
+2-2	208-210	is	_	_	DEFINITOR	_	_	
+2-3	211-214	the	_	_	_	_	_	
+2-4	215-226	measurement	_	_	GENUS[25]	_	frame\_MEASURES[79]	
+2-5	227-230	and	_	_	GENUS[25]	_	frame\_MEASURES[79]	
+2-6	231-239	analysis	_	_	GENUS[25]	_	frame\_MEASURES[79]	
+2-7	240-242	of	_	_	_	_	frame\_MEASURES[79]	
+2-8	243-247	form	_	_	_	MEASURES[48]	_	
+2-9	248-249	(	_	_	_	MEASURES[48]	_	
+2-10	249-254	shape	_	_	_	MEASURES[48]	_	
+2-11	254-255	)	_	_	_	MEASURES[48]	_	
+2-12	255-256	.	_	_	_	_	_	
+
+#Text=The outstanding landforms are dissolutional corridors (“streets”) in the limestone that follow major vertical fractures created by the doming (Brook & Ford, 1978).
+3-1	257-260	The	_	_	_	_	_	
+3-2	261-272	outstanding	_	_	_	_	_	
+3-3	273-282	landforms	_	_	GENUS	_	_	
+3-4	283-286	are	_	_	DEFINITOR	_	_	
+3-5	287-300	dissolutional	_	A.1 Surface landform[8]	DEFINIENDUM[26]	_	_	
+3-6	301-310	corridors	_	A.1 Surface landform[8]	DEFINIENDUM[26]	_	_	
+3-7	311-312	(	_	_	_	_	_	
+3-8	312-313	“	_	_	_	_	_	
+3-9	313-320	streets	_	_	_	_	_	
+3-10	320-321	”	_	_	_	_	_	
+3-11	321-322	)	_	_	_	_	_	
+3-12	323-325	in	_	_	_	COMPOSITION\_MEDIUM[49]	frame\_LOCATION	
+3-13	326-329	the	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+3-14	330-339	limestone	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+3-15	340-344	that	_	_	_	_	_	
+3-16	345-351	follow	_	_	_	HAS\_FORM[50]	_	
+3-17	352-357	major	_	_	_	HAS\_FORM[50]	_	
+3-18	358-366	vertical	_	_	_	HAS\_FORM[50]	_	
+3-19	367-376	fractures	_	D.1 Abiotic	_	HAS\_FORM[50]	_	
+3-20	377-384	created	_	_	_	HAS\_CAUSE[51]	frame\_CAUSE[80]	
+3-21	385-387	by	_	_	_	HAS\_CAUSE[51]	frame\_CAUSE[80]	
+3-22	388-391	the	_	_	_	HAS\_CAUSE[51]	_	
+3-23	392-398	doming	_	B.4 Transformation	_	HAS\_CAUSE[51]	_	
+3-24	399-400	(	_	_	_	_	_	
+3-25	400-405	Brook	_	_	_	_	_	
+3-26	406-407	&	_	_	_	_	_	
+3-27	408-412	Ford	_	_	_	_	_	
+3-28	412-413	,	_	_	_	_	_	
+3-29	414-418	1978	_	_	_	_	_	
+3-30	418-419	)	_	_	_	_	_	
+3-31	419-420	.	_	_	_	_	_	
+
+#Text=Paleokarst is a worldwide phenomenon that is found on all continents, including Antarctica, and in the geological record from the early Proterozoic to the Holocene.
+4-1	421-431	Paleokarst	_	C. Geome	DEFINIENDUM	_	_	
+4-2	432-434	is	_	_	DEFINITOR[27]	_	_	
+4-3	435-436	a	_	_	DEFINITOR[27]	_	_	
+4-4	437-446	worldwide	_	_	_	_	_	
+4-5	447-457	phenomenon	_	_	GENUS	_	_	
+4-6	458-462	that	_	_	_	_	_	
+4-7	463-465	is	_	_	_	_	frame\_LOCATION[81]	
+4-8	466-471	found	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[81]	
+4-9	472-474	on	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[81]	
+4-10	475-478	all	_	_	_	HAS\_LOCATION[52]	_	
+4-11	479-489	continents	_	D.1 Abiotic	_	HAS\_LOCATION[52]	_	
+4-12	489-490	,	_	_	_	_	_	
+4-13	491-500	including	_	_	_	HAS\_POSITION[53]	_	
+4-14	501-511	Antarctica	_	D.3.1 Geolocation	_	HAS\_POSITION[53]	_	
+4-15	511-512	,	_	_	_	_	_	
+4-16	513-516	and	_	_	_	_	_	
+4-17	517-519	in	_	_	_	_	_	
+4-18	520-523	the	_	_	_	_	_	
+4-19	524-534	geological	_	_	_	_	_	
+4-20	535-541	record	_	_	_	_	_	
+4-21	542-546	from	_	_	_	OCCURS\_IN\_TIME[54]	frame\_TIME	
+4-22	547-550	the	_	_	_	OCCURS\_IN\_TIME[54]	_	
+4-23	551-556	early	_	_	_	OCCURS\_IN\_TIME[54]	_	
+4-24	557-568	Proterozoic	_	_	_	OCCURS\_IN\_TIME[54]	_	
+4-25	569-571	to	_	_	_	OCCURS\_IN\_TIME[54]	frame\_TIME	
+4-26	572-575	the	_	_	_	OCCURS\_IN\_TIME[54]	_	
+4-27	576-584	Holocene	_	_	_	OCCURS\_IN\_TIME[54]	_	
+4-28	584-585	.	_	_	_	_	_	
+
+#Text=Caves without roofs are an important paleokarst landform which has only recently attracted scientific attention.
+5-1	586-591	Caves	_	A.2 Underground landform[9]	DEFINIENDUM[28]	_	_	
+5-2	592-599	without	_	A.2 Underground landform[9]	DEFINIENDUM[28]	HAS\_FORM[55]	_	
+5-3	600-605	roofs	_	A.2 Underground landform[9]	DEFINIENDUM[28]	HAS\_FORM[55]	_	
+5-4	606-609	are	_	_	DEFINITOR	_	_	
+5-5	610-612	an	_	_	_	_	_	
+5-6	613-622	important	_	_	_	_	_	
+5-7	623-633	paleokarst	_	C. Geome	GENUS[29]	COMPOSITION\_MEDIUM	_	
+5-8	634-642	landform	_	_	GENUS[29]	_	_	
+5-9	643-648	which	_	_	_	_	_	
+5-10	649-652	has	_	_	_	_	_	
+5-11	653-657	only	_	_	_	_	_	
+5-12	658-666	recently	_	_	_	_	_	
+5-13	667-676	attracted	_	_	_	_	_	
+5-14	677-687	scientific	_	_	_	_	_	
+5-15	688-697	attention	_	_	_	_	_	
+5-16	697-698	.	_	_	_	_	_	
+
+#Text=Paleokarst aquifers are important sources of water and can present a significant flooding hazard to underground mining operations.
+6-1	699-709	Paleokarst	_	C. Geome[10]	DEFINIENDUM[30]	_	_	
+6-2	710-718	aquifers	_	C. Geome[10]	DEFINIENDUM[30]	_	_	
+6-3	719-722	are	_	_	_	_	_	
+6-4	723-732	important	_	_	_	HAS\_FUNCTION[56]	_	
+6-5	733-740	sources	_	_	_	HAS\_FUNCTION[56]	_	
+6-6	741-743	of	_	_	_	HAS\_FUNCTION[56]	_	
+6-7	744-749	water	_	_	_	HAS\_FUNCTION[56]	_	
+6-8	750-753	and	_	_	_	_	_	
+6-9	754-757	can	_	_	_	_	_	
+6-10	758-765	present	_	_	_	_	_	
+6-11	766-767	a	_	_	_	_	_	
+6-12	768-779	significant	_	_	_	_	_	
+6-13	780-788	flooding	_	_	_	HAS\_RESULT[57]	_	
+6-14	789-795	hazard	_	_	_	HAS\_RESULT[57]	_	
+6-15	796-798	to	_	_	_	HAS\_RESULT[57]	_	
+6-16	799-810	underground	_	B. Process[11]	_	HAS\_RESULT[57]|AFFECTS[58]	_	
+6-17	811-817	mining	_	B. Process[11]	_	HAS\_RESULT[57]|AFFECTS[58]	_	
+6-18	818-828	operations	_	B. Process[11]	_	HAS\_RESULT[57]|AFFECTS[58]	_	
+6-19	828-829	.	_	_	_	HAS\_RESULT[57]	_	
+
+#Text=Palynology, the study of microscopic organic matter known as palynomorphs (Traverse, 1988), offers enormous potential in karst research since it can provide important evidence about ancient environments.
+7-1	830-840	Palynology	_	E.2 Method	DEFINIENDUM	_	_	
+7-2	840-841	,	_	_	DEFINITOR	_	_	
+7-3	842-845	the	_	_	_	_	_	
+7-4	846-851	study	_	_	GENUS[31]	_	frame\_STUDIES[82]	
+7-5	852-854	of	_	_	GENUS[31]	_	frame\_STUDIES[82]	
+7-6	855-866	microscopic	_	_	GENUS[31]	STUDIES[59]	_	
+7-7	867-874	organic	_	_	GENUS[31]	STUDIES[59]	_	
+7-8	875-881	matter	_	_	GENUS[31]	STUDIES[59]	_	
+7-9	882-887	known	_	_	_	STUDIES[59]	_	
+7-10	888-890	as	_	_	_	STUDIES[59]	_	
+7-11	891-903	palynomorphs	_	D.2 Biotic	_	STUDIES[59]	_	
+7-12	904-905	(	_	_	_	_	_	
+7-13	905-913	Traverse	_	_	_	_	_	
+7-14	913-914	,	_	_	_	_	_	
+7-15	915-919	1988	_	_	_	_	_	
+7-16	919-920	)	_	_	_	_	_	
+7-17	920-921	,	_	_	_	_	_	
+7-18	922-928	offers	_	_	_	_	_	
+7-19	929-937	enormous	_	_	_	_	_	
+7-20	938-947	potential	_	_	_	_	_	
+7-21	948-950	in	_	_	_	_	_	
+7-22	951-956	karst	_	_	_	_	_	
+7-23	957-965	research	_	_	_	_	_	
+7-24	966-971	since	_	_	_	_	_	
+7-25	972-974	it	_	_	_	_	_	
+7-26	975-978	can	_	_	_	_	frame\_FUNCTION[83]	
+7-27	979-986	provide	_	_	_	HAS\_FUNCTION[60]	frame\_FUNCTION[83]	
+7-28	987-996	important	_	_	_	HAS\_FUNCTION[60]	_	
+7-29	997-1005	evidence	_	_	_	HAS\_FUNCTION[60]	_	
+7-30	1006-1011	about	_	_	_	HAS\_FUNCTION[60]	_	
+7-31	1012-1019	ancient	_	_	_	HAS\_FUNCTION[60]	_	
+7-32	1020-1032	environments	_	_	_	HAS\_FUNCTION[60]	_	
+7-33	1032-1033	.	_	_	_	_	_	
+
+#Text=Palynology is an integral part of many archaeological investigations in caves, since it provides a picture of the flora close to the cave and thus enables environmental and climatic reconstruction.
+8-1	1034-1044	Palynology	_	_	DEFINIENDUM	_	_	
+8-2	1045-1047	is	_	_	_	_	_	
+8-3	1048-1050	an	_	_	_	_	_	
+8-4	1051-1059	integral	_	_	_	_	_	
+8-5	1060-1064	part	_	_	_	_	_	
+8-6	1065-1067	of	_	_	_	_	_	
+8-7	1068-1072	many	_	_	_	_	_	
+8-8	1073-1087	archaeological	_	_	_	_	_	
+8-9	1088-1102	investigations	_	_	_	_	_	
+8-10	1103-1105	in	_	_	_	_	_	
+8-11	1106-1111	caves	_	A.2 Underground landform	_	_	_	
+8-12	1111-1112	,	_	_	_	_	_	
+8-13	1113-1118	since	_	_	_	_	_	
+8-14	1119-1121	it	_	_	_	_	_	
+8-15	1122-1130	provides	_	_	_	HAS\_FUNCTION[61]	frame\_FUNCTION	
+8-16	1131-1132	a	_	_	_	HAS\_FUNCTION[61]	_	
+8-17	1133-1140	picture	_	_	_	HAS\_FUNCTION[61]	_	
+8-18	1141-1143	of	_	_	_	HAS\_FUNCTION[61]	_	
+8-19	1144-1147	the	_	_	_	HAS\_FUNCTION[61]	_	
+8-20	1148-1153	flora	_	D.2 Biotic	_	HAS\_FUNCTION[61]	_	
+8-21	1154-1159	close	_	_	_	HAS\_FUNCTION[61]	_	
+8-22	1160-1162	to	_	_	_	HAS\_FUNCTION[61]	_	
+8-23	1163-1166	the	_	_	_	HAS\_FUNCTION[61]	_	
+8-24	1167-1171	cave	_	_	_	HAS\_FUNCTION[61]	_	
+8-25	1172-1175	and	_	_	_	_	_	
+8-26	1176-1180	thus	_	_	_	_	_	
+8-27	1181-1188	enables	_	_	_	HAS\_FUNCTION[62]	frame\_FUNCTION	
+8-28	1189-1202	environmental	_	E.2 Method[12]	_	HAS\_FUNCTION[62]	_	
+8-29	1203-1206	and	_	E.2 Method[12]	_	HAS\_FUNCTION[62]	_	
+8-30	1207-1215	climatic	_	E.2 Method[12]	_	HAS\_FUNCTION[62]	_	
+8-31	1216-1230	reconstruction	_	E.2 Method[12]	_	HAS\_FUNCTION[62]	_	
+8-32	1230-1231	.	_	_	_	_	_	
+
+#Text=Paragenesis is the term introduced by Renault (1968) to describe the processes by which cave genesis within the phreatic zone is modified by influxes of sediment.
+9-1	1232-1243	Paragenesis	_	B.4 Transformation	DEFINIENDUM	_	_	
+9-2	1244-1246	is	_	_	DEFINITOR[32]	_	_	
+9-3	1247-1250	the	_	_	DEFINITOR[32]	_	_	
+9-4	1251-1255	term	_	_	DEFINITOR[32]	_	_	
+9-5	1256-1266	introduced	_	_	_	_	_	
+9-6	1267-1269	by	_	_	_	_	_	
+9-7	1270-1277	Renault	_	_	_	_	_	
+9-8	1278-1279	(	_	_	_	_	_	
+9-9	1279-1283	1968	_	_	_	_	_	
+9-10	1283-1284	)	_	_	_	_	_	
+9-11	1285-1287	to	_	_	DEFINITOR[33]	_	_	
+9-12	1288-1296	describe	_	_	DEFINITOR[33]	_	_	
+9-13	1297-1300	the	_	_	_	_	_	
+9-14	1301-1310	processes	_	_	GENUS	_	_	
+9-15	1311-1313	by	_	_	_	_	_	
+9-16	1314-1319	which	_	_	_	_	_	
+9-17	1320-1324	cave	_	B.4 Transformation[13]	_	HAS\_RESULT[63]	_	
+9-18	1325-1332	genesis	_	B.4 Transformation[13]	_	HAS\_RESULT[63]	_	
+9-19	1333-1339	within	_	_	_	HAS\_RESULT[63]	_	
+9-20	1340-1343	the	_	_	_	HAS\_RESULT[63]	_	
+9-21	1344-1352	phreatic	_	_	_	HAS\_RESULT[63]	_	
+9-22	1353-1357	zone	_	_	_	HAS\_RESULT[63]	_	
+9-23	1358-1360	is	_	_	_	HAS\_RESULT[63]	_	
+9-24	1361-1369	modified	_	_	_	HAS\_RESULT[63]	_	
+9-25	1370-1372	by	_	_	_	HAS\_RESULT[63]	_	
+9-26	1373-1381	influxes	_	B.3 Addition[14]	_	HAS\_RESULT[63]	_	
+9-27	1382-1384	of	_	B.3 Addition[14]	_	HAS\_RESULT[63]	_	
+9-28	1385-1393	sediment	_	B.3 Addition[14]	_	HAS\_RESULT[63]	_	
+9-29	1393-1394	.	_	_	_	_	_	
+
+#Text=“Network mazes” are angular grids of intersecting fissures guided by fractures.
+10-1	1395-1396	“	_	_	_	_	_	
+10-2	1396-1403	Network	_	A.1 Surface landform[15]	DEFINIENDUM[34]	_	_	
+10-3	1404-1409	mazes	_	A.1 Surface landform[15]	DEFINIENDUM[34]	_	_	
+10-4	1409-1410	”	_	_	_	_	_	
+10-5	1411-1414	are	_	_	DEFINITOR	_	_	
+10-6	1415-1422	angular	_	_	GENUS[35]	HAS\_FORM[64]	_	
+10-7	1423-1428	grids	_	_	GENUS[35]	HAS\_FORM[64]	_	
+10-8	1429-1431	of	_	_	_	HAS\_FORM[64]	_	
+10-9	1432-1444	intersecting	_	_	_	HAS\_FORM[64]	_	
+10-10	1445-1453	fissures	_	D.1 Abiotic	_	HAS\_FORM[64]	_	
+10-11	1454-1460	guided	_	_	_	HAS\_FORM[64]	_	
+10-12	1461-1463	by	_	_	_	HAS\_FORM[64]	_	
+10-13	1464-1473	fractures	_	D.1 Abiotic	_	HAS\_FORM[64]	_	
+10-14	1473-1474	.	_	_	_	_	_	
+
+#Text=“Spongework mazes” are irregular cavities enlarged from primary pores, which interconnect in a three-dimensional array like the holes in a sponge.
+11-1	1475-1476	“	_	_	_	_	_	
+11-2	1476-1486	Spongework	_	A.2 Underground landform[16]	DEFINIENDUM[36]	_	_	
+11-3	1487-1492	mazes	_	A.2 Underground landform[16]	DEFINIENDUM[36]	_	_	
+11-4	1492-1493	”	_	_	_	_	_	
+11-5	1494-1497	are	_	_	DEFINITOR	_	_	
+11-6	1498-1507	irregular	_	_	_	HAS\_FORM[65]	_	
+11-7	1508-1516	cavities	_	D.1 Abiotic	GENUS	HAS\_FORM[65]|HAS\_CAUSE[66]	_	
+11-8	1517-1525	enlarged	_	_	_	HAS\_CAUSE[66]	_	
+11-9	1526-1530	from	_	_	_	HAS\_CAUSE[66]	_	
+11-10	1531-1538	primary	_	_	_	HAS\_CAUSE[66]	_	
+11-11	1539-1544	pores	_	_	_	HAS\_CAUSE[66]	_	
+11-12	1544-1545	,	_	_	_	_	_	
+11-13	1546-1551	which	_	_	_	_	_	
+11-14	1552-1564	interconnect	_	_	_	HAS\_FORM[67]	_	
+11-15	1565-1567	in	_	_	_	HAS\_FORM[67]	_	
+11-16	1568-1569	a	_	_	_	HAS\_FORM[67]	_	
+11-17	1570-1587	three-dimensional	_	_	_	HAS\_FORM[67]	_	
+11-18	1588-1593	array	_	_	_	HAS\_FORM[67]	_	
+11-19	1594-1598	like	_	_	_	HAS\_FORM[67]	_	
+11-20	1599-1602	the	_	_	_	HAS\_FORM[67]	_	
+11-21	1603-1608	holes	_	_	_	HAS\_FORM[67]	_	
+11-22	1609-1611	in	_	_	_	HAS\_FORM[67]	_	
+11-23	1612-1613	a	_	_	_	HAS\_FORM[67]	_	
+11-24	1614-1620	sponge	_	_	_	HAS\_FORM[67]	_	
+11-25	1620-1621	.	_	_	_	_	_	
+
+#Text=Large allogenic streams penetrate farther into the karst in well-defined valleys before they sink, and they produce landforms known as blind valleys, because their valleys usually terminate abruptly in a cliff or steep slope.
+12-1	1622-1627	Large	_	_	_	HAS\_CAUSE[68]	_	
+12-2	1628-1637	allogenic	_	A.3 Hydrological form[17]	_	HAS\_CAUSE[68]	_	
+12-3	1638-1645	streams	_	A.3 Hydrological form[17]	_	HAS\_CAUSE[68]	_	
+12-4	1646-1655	penetrate	_	_	_	HAS\_CAUSE[68]	_	
+12-5	1656-1663	farther	_	_	_	HAS\_CAUSE[68]	_	
+12-6	1664-1668	into	_	_	_	HAS\_CAUSE[68]	_	
+12-7	1669-1672	the	_	_	_	HAS\_CAUSE[68]	_	
+12-8	1673-1678	karst	_	C. Geome	_	HAS\_CAUSE[68]	_	
+12-9	1679-1681	in	_	_	_	HAS\_CAUSE[68]	_	
+12-10	1682-1694	well-defined	_	_	_	HAS\_CAUSE[68]	_	
+12-11	1695-1702	valleys	_	D.1 Abiotic	_	HAS\_CAUSE[68]	_	
+12-12	1703-1709	before	_	_	_	HAS\_CAUSE[68]	_	
+12-13	1710-1714	they	_	_	_	HAS\_CAUSE[68]	_	
+12-14	1715-1719	sink	_	_	_	HAS\_CAUSE[68]	_	
+12-15	1719-1720	,	_	_	_	_	_	
+12-16	1721-1724	and	_	_	_	_	_	
+12-17	1725-1729	they	_	_	_	_	_	
+12-18	1730-1737	produce	_	_	_	_	_	
+12-19	1738-1747	landforms	_	_	GENUS	_	_	
+12-20	1748-1753	known	_	_	DEFINITOR[37]	_	_	
+12-21	1754-1756	as	_	_	DEFINITOR[37]	_	_	
+12-22	1757-1762	blind	_	A.1 Surface landform[18]	DEFINIENDUM[38]	_	_	
+12-23	1763-1770	valleys	_	A.1 Surface landform[18]	DEFINIENDUM[38]	_	_	
+12-24	1770-1771	,	_	_	_	_	_	
+12-25	1772-1779	because	_	_	_	_	_	
+12-26	1780-1785	their	_	_	_	_	_	
+12-27	1786-1793	valleys	_	D.1 Abiotic	_	HAS\_FORM[69]	_	
+12-28	1794-1801	usually	_	_	_	HAS\_FORM[69]	_	
+12-29	1802-1811	terminate	_	_	_	HAS\_FORM[69]	_	
+12-30	1812-1820	abruptly	_	_	_	HAS\_FORM[69]	_	
+12-31	1821-1823	in	_	_	_	HAS\_FORM[69]	_	
+12-32	1824-1825	a	_	_	_	HAS\_FORM[69]	_	
+12-33	1826-1831	cliff	_	D.1 Abiotic	_	HAS\_FORM[69]	_	
+12-34	1832-1834	or	_	_	_	HAS\_FORM[69]	_	
+12-35	1835-1840	steep	_	D.1 Abiotic[19]	_	HAS\_FORM[69]	_	
+12-36	1841-1846	slope	_	D.1 Abiotic[19]	_	HAS\_FORM[69]	_	
+12-37	1846-1847	.	_	_	_	_	_	
+
+#Text=A pre-ponor retention is a temporary water accumulation in the surface depression just above the ponor.
+13-1	1848-1849	A	_	_	_	_	_	
+13-2	1850-1859	pre-ponor	_	B.3 Addition[20]	DEFINIENDUM[39]	_	_	
+13-3	1860-1869	retention	_	B.3 Addition[20]	DEFINIENDUM[39]	_	_	
+13-4	1870-1872	is	_	_	DEFINITOR[40]	_	_	
+13-5	1873-1874	a	_	_	DEFINITOR[40]	_	_	
+13-6	1875-1884	temporary	_	_	_	DEFINED\_AS[70]	_	
+13-7	1885-1890	water	_	_	GENUS[41]	DEFINED\_AS[70]	_	
+13-8	1891-1903	accumulation	_	B.3 Addition	GENUS[41]	DEFINED\_AS[70]	_	
+13-9	1904-1906	in	_	_	_	DEFINED\_AS[70]|HAS\_LOCATION[71]	frame\_LOCATION	
+13-10	1907-1910	the	_	_	_	DEFINED\_AS[70]|HAS\_LOCATION[71]	_	
+13-11	1911-1918	surface	_	_	_	DEFINED\_AS[70]|HAS\_LOCATION[71]	_	
+13-12	1919-1929	depression	_	A.1 Surface landform	_	DEFINED\_AS[70]|HAS\_LOCATION[71]	_	
+13-13	1930-1934	just	_	_	_	DEFINED\_AS[70]|HAS\_LOCATION[71]	_	
+13-14	1935-1940	above	_	_	_	DEFINED\_AS[70]|HAS\_LOCATION[71]	_	
+13-15	1941-1944	the	_	_	_	DEFINED\_AS[70]|HAS\_LOCATION[71]	_	
+13-16	1945-1950	ponor	_	A.3 Hydrological form	_	DEFINED\_AS[70]|HAS\_LOCATION[71]	_	
+13-17	1950-1951	.	_	_	_	_	_	
+
+#Text=Pseudokarstic caves are natural underground spaces, large enough to enter and investigate, extending beyond daylight, and produced by some process other than dissolution.
+14-1	1952-1965	Pseudokarstic	_	A.2 Underground landform[21]	DEFINIENDUM[42]	_	_	
+14-2	1966-1971	caves	_	A.2 Underground landform[21]	DEFINIENDUM[42]	_	_	
+14-3	1972-1975	are	_	_	DEFINITOR	_	_	
+14-4	1976-1983	natural	_	_	GENUS[43]	HAS\_CAUSE	_	
+14-5	1984-1995	underground	_	A.2 Underground landform[22]	GENUS[43]	_	_	
+14-6	1996-2002	spaces	_	A.2 Underground landform[22]	GENUS[43]	_	_	
+14-7	2002-2003	,	_	_	_	_	_	
+14-8	2004-2009	large	_	_	_	HAS\_SIZE[72]	frame\_SIZE[84]	
+14-9	2010-2016	enough	_	_	_	HAS\_SIZE[72]	frame\_SIZE[84]	
+14-10	2017-2019	to	_	_	_	HAS\_SIZE[72]	_	
+14-11	2020-2025	enter	_	_	_	HAS\_SIZE[72]	_	
+14-12	2026-2029	and	_	_	_	HAS\_SIZE[72]	_	
+14-13	2030-2041	investigate	_	_	_	HAS\_SIZE[72]	_	
+14-14	2041-2042	,	_	_	_	_	_	
+14-15	2043-2052	extending	_	_	_	HAS\_ATTRIBUTE[73]	_	
+14-16	2053-2059	beyond	_	_	_	HAS\_ATTRIBUTE[73]	_	
+14-17	2060-2068	daylight	_	_	_	HAS\_ATTRIBUTE[73]	_	
+14-18	2068-2069	,	_	_	_	_	_	
+14-19	2070-2073	and	_	_	_	_	_	
+14-20	2074-2082	produced	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[85]	
+14-21	2083-2085	by	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[85]	
+14-22	2086-2090	some	_	_	_	HAS\_CAUSE[74]	_	
+14-23	2091-2098	process	_	_	_	HAS\_CAUSE[74]	_	
+14-24	2099-2104	other	_	_	_	HAS\_CAUSE[74]	_	
+14-25	2105-2109	than	_	_	_	HAS\_CAUSE[74]	_	
+14-26	2110-2121	dissolution	_	B.4 Transformation	_	HAS\_CAUSE[74]	_	
+14-27	2121-2122	.	_	_	_	_	_	
+
+#Text=Emanation is the net radon production rate in the rock walls of a cave, or in unconsolidated sediment within the cave, and ultimately depends on the concentration of uranium (which then decays to radium) in the material.
+15-1	2123-2132	Emanation	_	D.3 Property	DEFINIENDUM	_	_	
+15-2	2133-2135	is	_	_	DEFINITOR	_	_	
+15-3	2136-2139	the	_	_	_	_	_	
+15-4	2140-2143	net	_	_	GENUS[44]	DEFINED\_AS[75]	_	
+15-5	2144-2149	radon	_	_	GENUS[44]	DEFINED\_AS[75]	_	
+15-6	2150-2160	production	_	_	GENUS[44]	DEFINED\_AS[75]	_	
+15-7	2161-2165	rate	_	_	GENUS[44]	DEFINED\_AS[75]	_	
+15-8	2166-2168	in	_	_	_	DEFINED\_AS[75]	_	
+15-9	2169-2172	the	_	_	_	DEFINED\_AS[75]	_	
+15-10	2173-2177	rock	_	_	_	DEFINED\_AS[75]	_	
+15-11	2178-2183	walls	_	_	_	DEFINED\_AS[75]	_	
+15-12	2184-2186	of	_	_	_	DEFINED\_AS[75]	_	
+15-13	2187-2188	a	_	_	_	DEFINED\_AS[75]	_	
+15-14	2189-2193	cave	_	A.2 Underground landform	_	DEFINED\_AS[75]	_	
+15-15	2193-2194	,	_	_	_	DEFINED\_AS[75]	_	
+15-16	2195-2197	or	_	_	_	DEFINED\_AS[75]	_	
+15-17	2198-2200	in	_	_	_	DEFINED\_AS[75]	_	
+15-18	2201-2215	unconsolidated	_	_	_	DEFINED\_AS[75]	_	
+15-19	2216-2224	sediment	_	_	_	DEFINED\_AS[75]	_	
+15-20	2225-2231	within	_	_	_	DEFINED\_AS[75]	_	
+15-21	2232-2235	the	_	_	_	DEFINED\_AS[75]	_	
+15-22	2236-2240	cave	_	_	_	DEFINED\_AS[75]	_	
+15-23	2240-2241	,	_	_	_	_	_	
+15-24	2242-2245	and	_	_	_	_	_	
+15-25	2246-2256	ultimately	_	_	_	_	_	
+15-26	2257-2264	depends	_	_	_	HAS\_CAUSE[76]	frame\_CAUSE[86]	
+15-27	2265-2267	on	_	_	_	HAS\_CAUSE[76]	frame\_CAUSE[86]	
+15-28	2268-2271	the	_	_	_	HAS\_CAUSE[76]	_	
+15-29	2272-2285	concentration	_	_	_	HAS\_CAUSE[76]	_	
+15-30	2286-2288	of	_	_	_	HAS\_CAUSE[76]	_	
+15-31	2289-2296	uranium	_	D.1 Abiotic	_	HAS\_CAUSE[76]	_	
+15-32	2297-2298	(	_	_	_	HAS\_CAUSE[76]	_	
+15-33	2298-2303	which	_	_	_	HAS\_CAUSE[76]	_	
+15-34	2304-2308	then	_	_	_	HAS\_CAUSE[76]	_	
+15-35	2309-2315	decays	_	_	_	HAS\_CAUSE[76]	_	
+15-36	2316-2318	to	_	_	_	HAS\_CAUSE[76]	_	
+15-37	2319-2325	radium	_	D.1 Abiotic	_	HAS\_CAUSE[76]	_	
+15-38	2325-2326	)	_	_	_	HAS\_CAUSE[76]	_	
+15-39	2327-2329	in	_	_	_	HAS\_CAUSE[76]	_	
+15-40	2330-2333	the	_	_	_	HAS\_CAUSE[76]	_	
+15-41	2334-2342	material	_	_	_	HAS\_CAUSE[76]	_	
+15-42	2342-2343	.	_	_	_	_	_	

@@ -1,0 +1,14 @@
+﻿pješčenjačka špilja: Špilja formirana u pješčenjaku.
+oljuštena krhotina: Mali, tanki komadić vapnenca koji je pao sa stropa ili zida špilje, možda kao posljedica solnog trošenja.
+zdjelica: U speleologiji, jedna od mozaičkih malih plitkih presječnih udubina formiranih na površini topive stijene turbulentnim rastvaranjem. Strmije su na uzvodnoj strani, a manjih dimenzija su formirane bržom protočnom vodom. 
+morska provalija: Duboka, uska morska špilja.
+profil: Karta špilje u vertikalnoj ravnini tako da prikazuje linije dna i stropa.
+šaht: Vertikalni ili gotovo vertikalni kanal u špilji. Dublji je nego širi i u grubo kružna presjeka. Širi je od dimnjaka.
+plitki freatik: Govori o formiranju špilje blizu vrha vodom zasićene zone. 
+šelfni kamen: Siga formirana kao horizontalna izbočina na rubu špiljskog jezerca ili na drugim sigama u jezercu.
+štit, paleta: Siga sastavljena od dvije paralelne polukružne ploče koje su odvojene tankom, ravnom pukotinom. Razvijaju se radijalno duž oboda vodom koja se pod tlakom cijedi kroz pukotinu. pokazna špilja: Špilja koja je otvorena publici za razgledavanje uz plaćanje.
+vrtača: Zatvorena depresija kružna oblika, čiji se promjer mjeri metrima ili desecima metara, u krškom ili pseudokrškom području. Njome se voda drenira u podzemlje gdje se dalje širi sustavom pukotina, šupljina i špilja. Ona obuhvaća depresije sa i bez ponora, mjesta poniranja, špilje, krške prozore i jame i vertikalne šahte.
+krš s vrtačama: Tipično krško umjereno područje.
+ponornica: Površinski vodotok koji nestaje u podzemlju krša. 
+sifon: 1 U speleologiji, vodom ispunjeni kanal U-profila koji prihvaća tok vode uvijek kada se uzvodni vodni val digne iznad njegovog vrha. 2 U speleologiji, zastarjeli izraz za sabirni prostor. 
+hrpa zemlje: Konična hrpa zemlje koja se akumulira na dnu špilje ispod pukotina i cijevi na stropu kojima se filtrira s površine.

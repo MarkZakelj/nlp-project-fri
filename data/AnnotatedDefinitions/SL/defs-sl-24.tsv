@@ -1,0 +1,1196 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=inicialne strukture - Geološke strukture, ki lahko ob primernih pogojih prerastejo v kraške votline. Inicialne strukture so lezike in druge sedimentne teksture, prelomnice in narivne strukture, razpoke, poškodbe in špranje, nastale kot posledica medplastovnih zdrsov. V primeru večfaznega zakrasevanja tudi podedovane speleogene strukture prejšnjih faz.
+1-1	0-9	inicialne	_	D.1 Abiotic[1]	DEFINIENDUM[58]	_	_	
+1-2	10-19	strukture	_	D.1 Abiotic[1]	DEFINIENDUM[58]	_	_	
+1-3	20-21	-	_	_	_	_	_	
+1-4	22-30	Geološke	_	D.1 Abiotic[2]	GENUS[59]	_	_	
+1-5	31-40	strukture	_	D.1 Abiotic[2]	GENUS[59]	_	_	
+1-6	40-41	,	_	_	_	_	_	
+1-7	42-44	ki	_	_	_	HAS\_RESULT[78]	_	
+1-8	45-50	lahko	_	_	_	HAS\_RESULT[78]	_	
+1-9	51-53	ob	_	_	_	HAS\_RESULT[78]	_	
+1-10	54-63	primernih	_	_	_	HAS\_RESULT[78]	_	
+1-11	64-71	pogojih	_	_	_	HAS\_RESULT[78]	_	
+1-12	72-82	prerastejo	_	_	_	HAS\_RESULT[78]	frame\_RESULT[141]	
+1-13	83-84	v	_	_	_	HAS\_RESULT[78]	frame\_RESULT[141]	
+1-14	85-91	kraške	_	A.2 Underground landform[3]	_	HAS\_RESULT[78]	_	
+1-15	92-99	votline	_	A.2 Underground landform[3]	_	HAS\_RESULT[78]	_	
+1-16	99-100	.	_	_	_	_	_	
+1-17	101-110	Inicialne	_	D.1 Abiotic[4]	_	_	_	
+1-18	111-120	strukture	_	D.1 Abiotic[4]	_	_	_	
+1-19	121-123	so	_	_	_	_	_	
+1-20	124-130	lezike	_	A.2 Underground landform	SPECIES	_	_	
+1-21	131-133	in	_	_	_	_	_	
+1-22	134-139	druge	_	_	_	_	_	
+1-23	140-150	sedimentne	_	D.1 Abiotic[5]	SPECIES[60]	_	_	
+1-24	151-159	teksture	_	D.1 Abiotic[5]	SPECIES[60]	_	_	
+1-25	159-160	,	_	_	_	_	_	
+1-26	161-171	prelomnice	_	D.1 Abiotic	SPECIES	_	_	
+1-27	172-174	in	_	_	_	_	_	
+1-28	175-182	narivne	_	D.1 Abiotic[6]	SPECIES[61]	_	_	
+1-29	183-192	strukture	_	D.1 Abiotic[6]	SPECIES[61]	_	_	
+1-30	192-193	,	_	_	_	_	_	
+1-31	194-201	razpoke	_	D.1 Abiotic	SPECIES	_	_	
+1-32	201-202	,	_	_	_	_	_	
+1-33	203-211	poškodbe	_	_	_	_	_	
+1-34	212-214	in	_	_	_	_	_	
+1-35	215-222	špranje	_	D.1 Abiotic	SPECIES	_	_	
+1-36	222-223	,	_	_	_	_	_	
+1-37	224-231	nastale	_	_	_	HAS\_CAUSE[79]	frame\_CAUSE[142]	
+1-38	232-235	kot	_	_	_	HAS\_CAUSE[79]	frame\_CAUSE[142]	
+1-39	236-245	posledica	_	_	_	HAS\_CAUSE[79]	frame\_CAUSE[142]	
+1-40	246-259	medplastovnih	_	B.1 Movement[7]	_	HAS\_CAUSE[79]	_	
+1-41	260-266	zdrsov	_	B.1 Movement[7]	_	HAS\_CAUSE[79]	_	
+1-42	266-267	.	_	_	_	_	_	
+1-43	268-269	V	_	_	_	_	_	
+1-44	270-277	primeru	_	_	_	_	_	
+1-45	278-288	večfaznega	_	_	_	_	_	
+1-46	289-301	zakrasevanja	_	B. Process	_	_	_	
+1-47	302-306	tudi	_	_	_	_	_	
+1-48	307-317	podedovane	_	_	_	_	_	
+1-49	318-328	speleogene	_	A.2 Underground landform[8]	_	_	_	
+1-50	329-338	strukture	_	A.2 Underground landform[8]	_	_	_	
+1-51	339-348	prejšnjih	_	_	_	_	_	
+1-52	349-352	faz	_	_	_	_	_	
+1-53	352-353	.	_	_	_	_	_	
+
+#Text=invazijska jama - Jama neprežete cone, kamor visoko nad gladino podtalnice vteka že oblikovan vodotok (ponome jame kontaktnega krasa, odtočne jame ledenikov). Značilen je profil ključavnice. Nasprotje kaminu, ki nastane kot zbiralnik krajevne deževnice. Približno ustreza pojmu požiralnika, ki pa doslej še ni bil tako definiran.
+2-1	358-368	invazijska	_	A.2 Underground landform[9]	DEFINIENDUM[62]	_	_	
+2-2	369-373	jama	_	A.2 Underground landform[9]	DEFINIENDUM[62]	_	_	
+2-3	374-375	-	_	_	_	_	_	
+2-4	376-380	Jama	_	A.2 Underground landform	GENUS	_	_	
+2-5	381-390	neprežete	_	C. Geome[10]	_	HAS\_LOCATION[80]	_	
+2-6	391-395	cone	_	C. Geome[10]	_	HAS\_LOCATION[80]	_	
+2-7	395-396	,	_	_	_	_	_	
+2-8	397-402	kamor	_	_	_	CONTAINS[81]	_	
+2-9	403-409	visoko	_	_	_	CONTAINS[81]	_	
+2-10	410-413	nad	_	_	_	CONTAINS[81]	_	
+2-11	414-421	gladino	_	D.3 Property	_	CONTAINS[81]	_	
+2-12	422-432	podtalnice	_	A. Landform	_	CONTAINS[81]	_	
+2-13	433-438	vteka	_	_	_	CONTAINS[81]	frame\_CONTAINS	
+2-14	439-441	že	_	_	_	CONTAINS[81]	_	
+2-15	442-451	oblikovan	_	_	_	CONTAINS[81]	_	
+2-16	452-459	vodotok	_	D.1 Abiotic	_	CONTAINS[81]	_	
+2-17	460-461	(	_	_	_	_	_	
+2-18	461-467	ponome	_	_	_	_	_	
+2-19	468-472	jame	_	_	_	_	_	
+2-20	473-484	kontaktnega	_	_	_	_	_	
+2-21	485-490	krasa	_	_	_	_	_	
+2-22	490-491	,	_	_	_	_	_	
+2-23	492-499	odtočne	_	_	_	_	_	
+2-24	500-504	jame	_	_	_	_	_	
+2-25	505-514	ledenikov	_	_	_	_	_	
+2-26	514-515	)	_	_	_	_	_	
+2-27	515-516	.	_	_	_	_	_	
+2-28	517-525	Značilen	_	_	_	HAS\_FORM[82]	frame\_FORM[143]	
+2-29	526-528	je	_	_	_	HAS\_FORM[82]	frame\_FORM[143]	
+2-30	529-535	profil	_	D.3 Property[11]	_	HAS\_FORM[82]	_	
+2-31	536-547	ključavnice	_	D.3 Property[11]	_	HAS\_FORM[82]	_	
+2-32	547-548	.	_	_	_	_	_	
+2-33	549-558	Nasprotje	_	_	_	_	_	
+2-34	559-565	kaminu	_	A.2 Underground landform	_	_	_	
+2-35	565-566	,	_	_	_	_	_	
+2-36	567-569	ki	_	_	_	_	_	
+2-37	570-577	nastane	_	_	_	_	_	
+2-38	578-581	kot	_	_	_	_	_	
+2-39	582-591	zbiralnik	_	_	_	_	_	
+2-40	592-600	krajevne	_	D.1 Abiotic[12]	_	_	_	
+2-41	601-610	deževnice	_	D.1 Abiotic[12]	_	_	_	
+2-42	610-611	.	_	_	_	_	_	
+2-43	612-621	Približno	_	_	_	_	_	
+2-44	622-629	ustreza	_	_	_	_	_	
+2-45	630-635	pojmu	_	_	_	_	_	
+2-46	636-647	požiralnika	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+2-47	647-648	,	_	_	_	_	_	
+2-48	649-651	ki	_	_	_	_	_	
+2-49	652-654	pa	_	_	_	_	_	
+2-50	655-661	doslej	_	_	_	_	_	
+2-51	662-664	še	_	_	_	_	_	
+2-52	665-667	ni	_	_	_	_	_	
+2-53	668-671	bil	_	_	_	_	_	
+2-54	672-676	tako	_	_	_	_	_	
+2-55	677-686	definiran	_	_	_	_	_	
+2-56	686-687	.	_	_	_	_	_	
+
+#Text=JAMA (KRAŠKA) - Vsaka naravna votlina v krasu, prehodna človeku. Po kriterijih katastra JZS naj bi bila vsaj 10 m dolga ali globoka. Če je manjša, mora biti jamarjem pomembna iz drugih razlogov. Ohlapen sinonim za kraško votlino.
+3-1	692-696	JAMA	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-2	697-698	(	_	_	_	_	_	
+3-3	698-704	KRAŠKA	_	_	_	_	_	
+3-4	704-705	)	_	_	_	_	_	
+3-5	706-707	-	_	_	_	_	_	
+3-6	708-713	Vsaka	_	_	_	_	_	
+3-7	714-721	naravna	_	_	_	HAS\_CAUSE	_	
+3-8	722-729	votlina	_	D.1 Abiotic	GENUS	_	_	
+3-9	730-731	v	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION	
+3-10	732-737	krasu	_	C. Geome	_	HAS\_LOCATION[83]	_	
+3-11	737-738	,	_	_	_	_	_	
+3-12	739-747	prehodna	_	D.3 Property	_	HAS\_SIZE[84]	_	
+3-13	748-755	človeku	_	_	_	HAS\_SIZE[84]	_	
+3-14	755-756	.	_	_	_	_	_	
+3-15	757-759	Po	_	_	_	_	_	
+3-16	760-770	kriterijih	_	_	_	_	_	
+3-17	771-779	katastra	_	_	_	_	_	
+3-18	780-783	JZS	_	_	_	_	_	
+3-19	784-787	naj	_	_	_	HAS\_SIZE[85]	_	
+3-20	788-790	bi	_	_	_	HAS\_SIZE[85]	_	
+3-21	791-795	bila	_	_	_	HAS\_SIZE[85]	_	
+3-22	796-800	vsaj	_	_	_	HAS\_SIZE[85]	_	
+3-23	801-803	10	_	_	_	HAS\_SIZE[85]	_	
+3-24	804-805	m	_	_	_	HAS\_SIZE[85]	_	
+3-25	806-811	dolga	_	_	_	HAS\_SIZE[85]	frame\_SIZE	
+3-26	812-815	ali	_	_	_	HAS\_SIZE[85]	_	
+3-27	816-823	globoka	_	_	_	HAS\_SIZE[85]	frame\_SIZE	
+3-28	823-824	.	_	_	_	_	_	
+3-29	825-827	Če	_	_	_	_	_	
+3-30	828-830	je	_	_	_	_	_	
+3-31	831-837	manjša	_	_	_	_	_	
+3-32	837-838	,	_	_	_	_	_	
+3-33	839-843	mora	_	_	_	_	_	
+3-34	844-848	biti	_	_	_	_	_	
+3-35	849-857	jamarjem	_	_	_	_	_	
+3-36	858-866	pomembna	_	_	_	_	_	
+3-37	867-869	iz	_	_	_	_	_	
+3-38	870-876	drugih	_	_	_	_	_	
+3-39	877-885	razlogov	_	_	_	_	_	
+3-40	885-886	.	_	_	_	_	_	
+3-41	887-894	Ohlapen	_	_	_	_	_	
+3-42	895-902	sinonim	_	_	_	_	_	
+3-43	903-905	za	_	_	_	_	_	
+3-44	906-912	kraško	_	A.2 Underground landform[13]	SPECIES[63]	_	_	
+3-45	913-920	votlino	_	A.2 Underground landform[13]	SPECIES[63]	_	_	
+3-46	920-921	.	_	_	_	_	_	
+
+#Text=jamski minerali - Minerali, ki jih najdemo v kraških votlinah. Po izvoru ločimo: avtohtone, ki nastajajo iz komponent poljubnega izvora v specifično jamskih razmerah (siga kot svojska oblika kalcita, aragonit, opal), paravtohtone ki so presedimentirani iz matične kamnine (minerali netopnega ostanka oz. njihovi reaktanti), in alohtone, ki so zunanjega izvora in lahko s krasom sploh nimajo zveze. Po analogiji s petrografsko klasifikacijo lahko imamo jamske minerale za drugotne kraške minerale.
+4-1	926-932	jamski	_	D.1 Abiotic[14]	DEFINIENDUM[64]	_	_	
+4-2	933-941	minerali	_	D.1 Abiotic[14]	DEFINIENDUM[64]	_	_	
+4-3	942-943	-	_	_	_	_	_	
+4-4	944-952	Minerali	_	D.1 Abiotic	GENUS	_	_	
+4-5	952-953	,	_	_	_	_	_	
+4-6	954-956	ki	_	_	_	HAS\_LOCATION[86]	_	
+4-7	957-960	jih	_	_	_	HAS\_LOCATION[86]	_	
+4-8	961-968	najdemo	_	_	_	HAS\_LOCATION[86]	_	
+4-9	969-970	v	_	_	_	HAS\_LOCATION[86]	frame\_LOCATION	
+4-10	971-978	kraških	_	A.2 Underground landform[15]	_	HAS\_LOCATION[86]	_	
+4-11	979-987	votlinah	_	A.2 Underground landform[15]	_	HAS\_LOCATION[86]	_	
+4-12	987-988	.	_	_	_	_	_	
+4-13	989-991	Po	_	_	_	_	_	
+4-14	992-998	izvoru	_	_	_	_	_	
+4-15	999-1005	ločimo	_	_	_	_	_	
+4-16	1005-1006	:	_	_	_	_	_	
+4-17	1007-1016	avtohtone	avtohtone jamske minerale	D.1 Abiotic	SPECIES	HAS\_CAUSE[87]	_	
+4-18	1016-1017	,	_	_	_	HAS\_CAUSE[87]	_	
+4-19	1018-1020	ki	_	_	_	HAS\_CAUSE[87]	frame\_CAUSE[144]	
+4-20	1021-1030	nastajajo	_	_	_	HAS\_CAUSE[87]	frame\_CAUSE[144]	
+4-21	1031-1033	iz	_	_	_	HAS\_CAUSE[87]	frame\_CAUSE[144]	
+4-22	1034-1043	komponent	_	_	_	HAS\_CAUSE[87]	_	
+4-23	1044-1054	poljubnega	_	_	_	HAS\_CAUSE[87]	_	
+4-24	1055-1061	izvora	_	_	_	HAS\_CAUSE[87]	_	
+4-25	1062-1063	v	_	_	_	HAS\_CAUSE[87]	_	
+4-26	1064-1074	specifično	_	_	_	HAS\_CAUSE[87]	_	
+4-27	1075-1082	jamskih	_	_	_	HAS\_CAUSE[87]	_	
+4-28	1083-1091	razmerah	_	_	_	HAS\_CAUSE[87]	_	
+4-29	1092-1093	(	_	_	_	_	_	
+4-30	1093-1097	siga	_	_	_	_	_	
+4-31	1098-1101	kot	_	_	_	_	_	
+4-32	1102-1109	svojska	_	_	_	_	_	
+4-33	1110-1116	oblika	_	_	_	_	_	
+4-34	1117-1124	kalcita	_	_	_	_	_	
+4-35	1124-1125	,	_	_	_	_	_	
+4-36	1126-1134	aragonit	_	_	_	_	_	
+4-37	1134-1135	,	_	_	_	_	_	
+4-38	1136-1140	opal	_	_	_	_	_	
+4-39	1140-1141	)	_	_	_	_	_	
+4-40	1141-1142	,	_	_	_	_	_	
+4-41	1143-1155	paravtohtone	paravtohtone jamske minerale	D.1 Abiotic	SPECIES	HAS\_CAUSE[88]	_	
+4-42	1156-1158	ki	_	_	_	HAS\_CAUSE[88]	_	
+4-43	1159-1161	so	_	_	_	HAS\_CAUSE[88]	_	
+4-44	1162-1178	presedimentirani	_	_	_	HAS\_CAUSE[88]	_	
+4-45	1179-1181	iz	_	_	_	HAS\_CAUSE[88]	_	
+4-46	1182-1189	matične	_	D.1 Abiotic[16]	_	HAS\_CAUSE[88]	_	
+4-47	1190-1197	kamnine	_	D.1 Abiotic[16]	_	HAS\_CAUSE[88]	_	
+4-48	1198-1199	(	_	_	_	_	_	
+4-49	1199-1207	minerali	_	D.1 Abiotic[17]	_	_	_	
+4-50	1208-1217	netopnega	_	D.1 Abiotic[17]	_	_	_	
+4-51	1218-1225	ostanka	_	D.1 Abiotic[17]	_	_	_	
+4-52	1226-1228	oz	_	_	_	_	_	
+4-53	1228-1229	.	_	_	_	_	_	
+4-54	1230-1237	njihovi	_	_	_	_	_	
+4-55	1238-1247	reaktanti	_	_	_	_	_	
+4-56	1247-1248	)	_	_	_	_	_	
+4-57	1248-1249	,	_	_	_	_	_	
+4-58	1250-1252	in	_	_	_	_	_	
+4-59	1253-1261	alohtone	_	D.3 Property	SPECIES	HAS\_CAUSE[89]	_	
+4-60	1261-1262	,	_	_	_	HAS\_CAUSE[89]	_	
+4-61	1263-1265	ki	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[145]	
+4-62	1266-1268	so	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE[145]	
+4-63	1269-1278	zunanjega	_	_	_	HAS\_CAUSE[89]	_	
+4-64	1279-1285	izvora	_	_	_	HAS\_CAUSE[89]	frame\_CAUSE	
+4-65	1286-1288	in	_	_	_	HAS\_CAUSE[89]	_	
+4-66	1289-1294	lahko	_	_	_	HAS\_CAUSE[89]	_	
+4-67	1295-1296	s	_	_	_	HAS\_CAUSE[89]	_	
+4-68	1297-1303	krasom	_	C. Geome	_	HAS\_CAUSE[89]	_	
+4-69	1304-1309	sploh	_	_	_	HAS\_CAUSE[89]	_	
+4-70	1310-1316	nimajo	_	_	_	HAS\_CAUSE[89]	_	
+4-71	1317-1322	zveze	_	_	_	HAS\_CAUSE[89]	_	
+4-72	1322-1323	.	_	_	_	_	_	
+4-73	1324-1326	Po	_	_	_	_	_	
+4-74	1327-1336	analogiji	_	_	_	_	_	
+4-75	1337-1338	s	_	_	_	_	_	
+4-76	1339-1351	petrografsko	_	_	_	_	_	
+4-77	1352-1365	klasifikacijo	_	_	_	_	_	
+4-78	1366-1371	lahko	_	_	_	_	_	
+4-79	1372-1377	imamo	_	_	_	_	_	
+4-80	1378-1384	jamske	_	_	_	_	_	
+4-81	1385-1393	minerale	_	_	_	_	_	
+4-82	1394-1396	za	_	_	_	_	_	
+4-83	1397-1405	drugotne	_	_	_	_	_	
+4-84	1406-1412	kraške	_	D.1 Abiotic[18]	_	_	_	
+4-85	1413-1421	minerale	_	D.1 Abiotic[18]	_	_	_	
+4-86	1421-1422	.	_	_	_	_	_	
+
+#Text=jamski splet - Eden sinonimov za jamski sistem. Izraz sistem, ki ga speleologi uporabljamo v več različnih smislih, v naravoslovju zaradi prodora fizikalne teorije sistemov zgublja prvotno vsebino. Poleg tega uporabljamo sistem pri opisovanju podzemskega krasa v nekoliko različnih, a še vedno preveč podobnih zvezah: (1) kot zapletenejšo jamo; (2) kot skupnost več jam skupnega nastanka, ki jih ne vežejo prehodni rovi; kot skupnost vseh nezveznosti v kamnini, ki "obratujejo" kraško; (4) kot sistem v smislu teorije sistemov. V podobnih zvezah kot splet in sistem se uporabljata še izraza sklop in sestav.
+5-1	1427-1433	jamski	_	A.2 Underground landform[19]	DEFINIENDUM[65]	_	_	
+5-2	1434-1439	splet	_	A.2 Underground landform[19]	DEFINIENDUM[65]	_	_	
+5-3	1440-1441	-	_	_	_	_	_	
+5-4	1442-1446	Eden	_	_	_	_	_	
+5-5	1447-1456	sinonimov	_	_	_	_	_	
+5-6	1457-1459	za	_	_	_	_	_	
+5-7	1460-1466	jamski	_	A.2 Underground landform[20]	DEFINIENDUM[66]	_	_	
+5-8	1467-1473	sistem	_	A.2 Underground landform[20]	DEFINIENDUM[66]	_	_	
+5-9	1473-1474	.	_	_	_	_	_	
+5-10	1475-1480	Izraz	_	_	_	_	_	
+5-11	1481-1487	sistem	_	_	_	_	_	
+5-12	1487-1488	,	_	_	_	_	_	
+5-13	1489-1491	ki	_	_	_	_	_	
+5-14	1492-1494	ga	_	_	_	_	_	
+5-15	1495-1505	speleologi	_	_	_	_	_	
+5-16	1506-1517	uporabljamo	_	_	_	_	_	
+5-17	1518-1519	v	_	_	_	_	_	
+5-18	1520-1523	več	_	_	_	_	_	
+5-19	1524-1533	različnih	_	_	_	_	_	
+5-20	1534-1541	smislih	_	_	_	_	_	
+5-21	1541-1542	,	_	_	_	_	_	
+5-22	1543-1544	v	_	_	_	_	_	
+5-23	1545-1557	naravoslovju	_	_	_	_	_	
+5-24	1558-1564	zaradi	_	_	_	_	_	
+5-25	1565-1572	prodora	_	_	_	_	_	
+5-26	1573-1582	fizikalne	_	_	_	_	_	
+5-27	1583-1590	teorije	_	_	_	_	_	
+5-28	1591-1599	sistemov	_	_	_	_	_	
+5-29	1600-1607	zgublja	_	_	_	_	_	
+5-30	1608-1615	prvotno	_	_	_	_	_	
+5-31	1616-1623	vsebino	_	_	_	_	_	
+5-32	1623-1624	.	_	_	_	_	_	
+5-33	1625-1630	Poleg	_	_	_	_	_	
+5-34	1631-1635	tega	_	_	_	_	_	
+5-35	1636-1647	uporabljamo	_	_	_	_	_	
+5-36	1648-1654	sistem	_	_	_	_	_	
+5-37	1655-1658	pri	_	_	_	HAS\_LOCATION[90]	_	
+5-38	1659-1669	opisovanju	_	_	_	HAS\_LOCATION[90]	_	
+5-39	1670-1681	podzemskega	_	C. Geome[21]	_	HAS\_LOCATION[90]	_	
+5-40	1682-1687	krasa	_	C. Geome[21]	_	HAS\_LOCATION[90]	_	
+5-41	1688-1689	v	_	_	_	_	_	
+5-42	1690-1698	nekoliko	_	_	_	_	_	
+5-43	1699-1708	različnih	_	_	_	_	_	
+5-44	1708-1709	,	_	_	_	_	_	
+5-45	1710-1711	a	_	_	_	_	_	
+5-46	1712-1714	še	_	_	_	_	_	
+5-47	1715-1720	vedno	_	_	_	_	_	
+5-48	1721-1727	preveč	_	_	_	_	_	
+5-49	1728-1736	podobnih	_	_	_	_	_	
+5-50	1737-1743	zvezah	_	_	_	_	_	
+5-51	1743-1744	:	_	_	_	_	_	
+5-52	1745-1746	(	_	_	_	_	_	
+5-53	1746-1747	1	_	_	_	_	_	
+5-54	1747-1748	)	_	_	_	_	_	
+5-55	1749-1752	kot	_	_	_	HAS\_FORM[91]	_	
+5-56	1753-1765	zapletenejšo	_	_	_	HAS\_FORM[91]	_	
+5-57	1766-1770	jamo	_	_	_	HAS\_FORM[91]	_	
+5-58	1770-1771	;	_	_	_	_	_	
+5-59	1772-1773	(	_	_	_	_	_	
+5-60	1773-1774	2	_	_	_	_	_	
+5-61	1774-1775	)	_	_	_	_	_	
+5-62	1776-1779	kot	_	_	_	DEFINED\_AS[92]	_	
+5-63	1780-1788	skupnost	_	_	_	DEFINED\_AS[92]	_	
+5-64	1789-1792	več	_	_	_	DEFINED\_AS[92]	_	
+5-65	1793-1796	jam	_	_	_	DEFINED\_AS[92]	_	
+5-66	1797-1805	skupnega	_	_	_	DEFINED\_AS[92]	_	
+5-67	1806-1814	nastanka	_	_	_	DEFINED\_AS[92]	_	
+5-68	1814-1815	,	_	_	_	_	_	
+5-69	1816-1818	ki	_	_	_	_	_	
+5-70	1819-1822	jih	_	_	_	_	_	
+5-71	1823-1825	ne	_	_	_	_	_	
+5-72	1826-1832	vežejo	_	_	_	_	_	
+5-73	1833-1841	prehodni	_	_	_	_	_	
+5-74	1842-1846	rovi	_	_	_	_	_	
+5-75	1846-1847	;	_	_	_	_	_	
+5-76	1848-1851	kot	_	_	_	HAS\_FUNCTION[93]	_	
+5-77	1852-1860	skupnost	_	_	_	HAS\_FUNCTION[93]	_	
+5-78	1861-1865	vseh	_	_	_	HAS\_FUNCTION[93]	_	
+5-79	1866-1877	nezveznosti	_	_	_	HAS\_FUNCTION[93]	_	
+5-80	1878-1879	v	_	_	_	HAS\_FUNCTION[93]	_	
+5-81	1880-1887	kamnini	_	_	_	HAS\_FUNCTION[93]	_	
+5-82	1887-1888	,	_	_	_	HAS\_FUNCTION[93]	_	
+5-83	1889-1891	ki	_	_	_	HAS\_FUNCTION[93]	_	
+5-84	1892-1893	"	_	_	_	HAS\_FUNCTION[93]	_	
+5-85	1893-1903	obratujejo	_	_	_	HAS\_FUNCTION[93]	_	
+5-86	1903-1904	"	_	_	_	HAS\_FUNCTION[93]	_	
+5-87	1905-1911	kraško	_	_	_	HAS\_FUNCTION[93]	_	
+5-88	1911-1912	;	_	_	_	_	_	
+5-89	1913-1914	(	_	_	_	_	_	
+5-90	1914-1915	4	_	_	_	_	_	
+5-91	1915-1916	)	_	_	_	_	_	
+5-92	1917-1920	kot	_	_	_	STUDIES[94]	_	
+5-93	1921-1927	sistem	_	_	_	STUDIES[94]	_	
+5-94	1928-1929	v	_	_	_	STUDIES[94]	_	
+5-95	1930-1936	smislu	_	_	_	STUDIES[94]	_	
+5-96	1937-1944	teorije	_	_	_	STUDIES[94]	_	
+5-97	1945-1953	sistemov	_	_	_	STUDIES[94]	_	
+5-98	1953-1954	.	_	_	_	_	_	
+5-99	1955-1956	V	_	_	_	_	_	
+5-100	1957-1965	podobnih	_	_	_	_	_	
+5-101	1966-1972	zvezah	_	_	_	_	_	
+5-102	1973-1976	kot	_	_	_	_	_	
+5-103	1977-1982	splet	_	_	_	_	_	
+5-104	1983-1985	in	_	_	_	_	_	
+5-105	1986-1992	sistem	_	_	_	_	_	
+5-106	1993-1995	se	_	_	_	_	_	
+5-107	1996-2007	uporabljata	_	_	_	_	_	
+5-108	2008-2010	še	_	_	_	_	_	
+5-109	2011-2017	izraza	_	_	_	_	_	
+5-110	2018-2023	sklop	_	_	_	_	_	
+5-111	2024-2026	in	_	_	_	_	_	
+5-112	2027-2033	sestav	_	_	_	_	_	
+5-113	2033-2034	.	_	_	_	_	_	
+
+#Text=kalcit - Kalcijev karbonat (CaC03). Kristali ditrigonalno skalenoedrično. Najbolj običajna kristalna oblika je romboeder, sicer pa je kalcit mineral z največ znanimi kristalnimi ploskvami. Kalcit kristali neposredno iz vode, v apnencu nastane tudi s kalcitizacijo aragonitnih ogrodij nekaterih organizmov. Kalcit je osnovna sestavina običajne sige, med kamninami apnenca, delno marmorja in karbonatitov. Laboratorijsko je kinematika raztapljanja kalcita že dobro raziskana, kar pa ne velja za kalcit v naravnih razmerah.
+6-1	2039-2045	kalcit	_	D.1 Abiotic	DEFINIENDUM	_	_	
+6-2	2046-2047	-	_	_	_	_	_	
+6-3	2048-2056	Kalcijev	_	D.1 Abiotic[22]	DEFINIENDUM[67]	_	_	
+6-4	2057-2065	karbonat	_	D.1 Abiotic[22]	DEFINIENDUM[67]	_	_	
+6-5	2066-2067	(	_	_	_	_	_	
+6-6	2067-2072	CaC03	_	_	_	_	_	
+6-7	2072-2073	)	_	_	_	_	_	
+6-8	2073-2074	.	_	_	_	_	_	
+6-9	2075-2083	Kristali	_	B. Process	_	HAS\_FORM[95]	_	
+6-10	2084-2096	ditrigonalno	_	D. Entity/Element/Property	_	HAS\_FORM[95]	_	
+6-11	2097-2111	skalenoedrično	_	D.3 Property	_	HAS\_FORM[95]	_	
+6-12	2111-2112	.	_	_	_	_	_	
+6-13	2113-2120	Najbolj	_	_	_	HAS\_FORM[96]	_	
+6-14	2121-2129	običajna	_	_	_	HAS\_FORM[96]	_	
+6-15	2130-2139	kristalna	_	_	_	HAS\_FORM[96]	_	
+6-16	2140-2146	oblika	_	_	_	HAS\_FORM[96]	frame\_FORM	
+6-17	2147-2149	je	_	_	_	HAS\_FORM[96]	_	
+6-18	2150-2159	romboeder	_	D.1 Abiotic	_	HAS\_FORM[96]	_	
+6-19	2159-2160	,	_	_	_	_	_	
+6-20	2161-2166	sicer	_	_	_	_	_	
+6-21	2167-2169	pa	_	_	_	_	_	
+6-22	2170-2172	je	_	_	_	_	_	
+6-23	2173-2179	kalcit	_	D.1 Abiotic	_	_	_	
+6-24	2180-2187	mineral	_	D.1 Abiotic	_	CONTAINS[97]	_	
+6-25	2188-2189	z	_	_	_	CONTAINS[97]	frame\_CONTAINS[146]	
+6-26	2190-2196	največ	_	_	_	CONTAINS[97]	frame\_CONTAINS[146]	
+6-27	2197-2204	znanimi	_	_	_	CONTAINS[97]	frame\_CONTAINS[146]	
+6-28	2205-2216	kristalnimi	_	D.1 Abiotic[23]	_	CONTAINS[97]	_	
+6-29	2217-2226	ploskvami	_	D.1 Abiotic[23]	_	CONTAINS[97]	_	
+6-30	2226-2227	.	_	_	_	_	_	
+6-31	2228-2234	Kalcit	_	_	_	_	_	
+6-32	2235-2243	kristali	_	_	_	HAS\_CAUSE[98]	_	
+6-33	2244-2254	neposredno	_	_	_	HAS\_CAUSE[98]	frame\_CAUSE[147]	
+6-34	2255-2257	iz	_	_	_	HAS\_CAUSE[98]	frame\_CAUSE[147]	
+6-35	2258-2262	vode	_	D.1 Abiotic	_	HAS\_CAUSE[98]	_	
+6-36	2262-2263	,	_	_	_	_	_	
+6-37	2264-2265	v	_	_	_	_	_	
+6-38	2266-2273	apnencu	_	D.1 Abiotic	_	_	_	
+6-39	2274-2281	nastane	_	_	_	HAS\_CAUSE[99]	frame\_CAUSE[148]	
+6-40	2282-2286	tudi	_	_	_	HAS\_CAUSE[99]	frame\_CAUSE[148]	
+6-41	2287-2288	s	_	_	_	HAS\_CAUSE[99]	frame\_CAUSE[148]	
+6-42	2289-2302	kalcitizacijo	_	B. Process	_	HAS\_CAUSE[99]	_	
+6-43	2303-2314	aragonitnih	_	D.1 Abiotic[24]	_	HAS\_CAUSE[99]	_	
+6-44	2315-2322	ogrodij	_	D.1 Abiotic[24]	_	HAS\_CAUSE[99]	_	
+6-45	2323-2332	nekaterih	_	_	_	HAS\_CAUSE[99]	_	
+6-46	2333-2343	organizmov	_	D.2 Biotic	_	HAS\_CAUSE[99]	_	
+6-47	2343-2344	.	_	_	_	_	_	
+6-48	2345-2351	Kalcit	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-49	2352-2354	je	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-50	2355-2362	osnovna	_	_	_	COMPOSITION\_MEDIUM[100]	frame\_COMPOSITION[149]	
+6-51	2363-2372	sestavina	_	_	_	COMPOSITION\_MEDIUM[100]	frame\_COMPOSITION[149]	
+6-52	2373-2381	običajne	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-53	2382-2386	sige	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[100]	_	
+6-54	2386-2387	,	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-55	2388-2391	med	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-56	2392-2401	kamninami	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-57	2402-2409	apnenca	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[100]	_	
+6-58	2409-2410	,	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-59	2411-2416	delno	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-60	2417-2425	marmorja	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[100]	_	
+6-61	2426-2428	in	_	_	_	COMPOSITION\_MEDIUM[100]	_	
+6-62	2429-2441	karbonatitov	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[100]	_	
+6-63	2441-2442	.	_	_	_	_	_	
+6-64	2443-2457	Laboratorijsko	_	_	_	_	_	
+6-65	2458-2460	je	_	_	_	_	_	
+6-66	2461-2471	kinematika	_	_	_	_	_	
+6-67	2472-2484	raztapljanja	_	_	_	_	_	
+6-68	2485-2492	kalcita	_	_	_	_	_	
+6-69	2493-2495	že	_	_	_	_	_	
+6-70	2496-2501	dobro	_	_	_	_	_	
+6-71	2502-2511	raziskana	_	_	_	_	_	
+6-72	2511-2512	,	_	_	_	_	_	
+6-73	2513-2516	kar	_	_	_	_	_	
+6-74	2517-2519	pa	_	_	_	_	_	
+6-75	2520-2522	ne	_	_	_	_	_	
+6-76	2523-2528	velja	_	_	_	_	_	
+6-77	2529-2531	za	_	_	_	_	_	
+6-78	2532-2538	kalcit	_	_	_	_	_	
+6-79	2539-2540	v	_	_	_	_	_	
+6-80	2541-2549	naravnih	_	_	_	_	_	
+6-81	2550-2558	razmerah	_	_	_	_	_	
+6-82	2558-2559	.	_	_	_	_	_	
+
+#Text=kamin - Navpična kraška votlina, značilna za neprežeto cono. Delo prosto padajoče prenikle vode, ki se zbere v najvišjem delu neprežete cone. Prostorski potek kamina se ravna po navpičnici. Vodoravni preseki manjših kaminov se ravnajo pretežno po inicialnih strukturah, za večje je značilen elipsast presek. Ko denudacija kamin odpre s površja, mu pravimo brezno.
+7-1	2564-2569	kamin	_	A.2 Underground landform	DEFINIENDUM	_	_	
+7-2	2570-2571	-	_	_	_	_	_	
+7-3	2572-2580	Navpična	_	_	_	HAS\_FORM	_	
+7-4	2581-2587	kraška	_	A.2 Underground landform[25]	GENUS[68]	_	_	
+7-5	2588-2595	votlina	_	A.2 Underground landform[25]	GENUS[68]	_	_	
+7-6	2595-2596	,	_	_	_	_	_	
+7-7	2597-2605	značilna	_	_	_	HAS\_LOCATION[101]	frame\_LOCATION[150]	
+7-8	2606-2608	za	_	_	_	HAS\_LOCATION[101]	frame\_LOCATION[150]	
+7-9	2609-2618	neprežeto	_	C. Geome[26]	_	HAS\_LOCATION[101]	_	
+7-10	2619-2623	cono	_	C. Geome[26]	_	HAS\_LOCATION[101]	_	
+7-11	2623-2624	.	_	_	_	_	_	
+7-12	2625-2629	Delo	_	_	_	HAS\_CAUSE[102]	frame\_CAUSE	
+7-13	2630-2636	prosto	_	_	_	HAS\_CAUSE[102]	_	
+7-14	2637-2645	padajoče	_	_	_	HAS\_CAUSE[102]	_	
+7-15	2646-2654	prenikle	_	_	_	HAS\_CAUSE[102]	_	
+7-16	2655-2659	vode	_	D.1 Abiotic	_	HAS\_CAUSE[102]	_	
+7-17	2659-2660	,	_	_	_	_	_	
+7-18	2661-2663	ki	_	_	_	_	_	
+7-19	2664-2666	se	_	_	_	_	_	
+7-20	2667-2672	zbere	_	_	_	_	_	
+7-21	2673-2674	v	_	_	_	_	_	
+7-22	2675-2684	najvišjem	_	_	_	_	_	
+7-23	2685-2689	delu	_	_	_	_	_	
+7-24	2690-2699	neprežete	_	C. Geome[27]	_	_	_	
+7-25	2700-2704	cone	_	C. Geome[27]	_	_	_	
+7-26	2704-2705	.	_	_	_	_	_	
+7-27	2706-2716	Prostorski	_	_	_	HAS\_FORM[103]	_	
+7-28	2717-2722	potek	_	_	_	HAS\_FORM[103]	_	
+7-29	2723-2729	kamina	_	A.2 Underground landform	_	HAS\_FORM[103]	_	
+7-30	2730-2732	se	_	_	_	HAS\_FORM[103]	_	
+7-31	2733-2738	ravna	_	_	_	HAS\_FORM[103]	_	
+7-32	2739-2741	po	_	_	_	HAS\_FORM[103]	_	
+7-33	2742-2752	navpičnici	_	_	_	HAS\_FORM[103]	_	
+7-34	2752-2753	.	_	_	_	_	_	
+7-35	2754-2763	Vodoravni	_	_	_	HAS\_FORM[104]	_	
+7-36	2764-2771	preseki	_	_	_	HAS\_FORM[104]	_	
+7-37	2772-2779	manjših	_	A.2 Underground landform[28]	_	HAS\_FORM[104]	_	
+7-38	2780-2787	kaminov	_	A.2 Underground landform[28]	_	HAS\_FORM[104]	_	
+7-39	2788-2790	se	_	_	_	HAS\_FORM[104]	_	
+7-40	2791-2798	ravnajo	_	_	_	HAS\_FORM[104]	_	
+7-41	2799-2807	pretežno	_	_	_	HAS\_FORM[104]	_	
+7-42	2808-2810	po	_	_	_	HAS\_FORM[104]	_	
+7-43	2811-2821	inicialnih	_	D.1 Abiotic[29]	_	HAS\_FORM[104]	_	
+7-44	2822-2832	strukturah	_	D.1 Abiotic[29]	_	HAS\_FORM[104]	_	
+7-45	2832-2833	,	_	_	_	_	_	
+7-46	2834-2836	za	_	_	_	HAS\_FORM[105]	_	
+7-47	2837-2842	večje	_	_	_	HAS\_FORM[105]	_	
+7-48	2843-2845	je	_	_	_	HAS\_FORM[105]	_	
+7-49	2846-2854	značilen	_	_	_	HAS\_FORM[105]	_	
+7-50	2855-2863	elipsast	_	D.3 Property[30]	_	HAS\_FORM[105]	_	
+7-51	2864-2870	presek	_	D.3 Property[30]	_	HAS\_FORM[105]	_	
+7-52	2870-2871	.	_	_	_	_	_	
+7-53	2872-2874	Ko	_	_	_	HAS\_RESULT[106]	_	
+7-54	2875-2885	denudacija	_	B.2 Loss	_	HAS\_RESULT[106]	_	
+7-55	2886-2891	kamin	_	A.2 Underground landform	_	HAS\_RESULT[106]	_	
+7-56	2892-2897	odpre	_	_	_	HAS\_RESULT[106]	_	
+7-57	2898-2899	s	_	_	_	HAS\_RESULT[106]	_	
+7-58	2900-2907	površja	_	D.1 Abiotic	_	HAS\_RESULT[106]	_	
+7-59	2907-2908	,	_	_	_	HAS\_RESULT[106]	_	
+7-60	2909-2911	mu	_	_	_	HAS\_RESULT[106]	_	
+7-61	2912-2919	pravimo	_	_	_	HAS\_RESULT[106]	_	
+7-62	2920-2926	brezno	_	A.2 Underground landform	_	HAS\_RESULT[106]	_	
+7-63	2926-2927	.	_	_	_	_	_	
+
+#Text=KANAL (JAMSKI) - Niz strukturnih segmentov, ki (je) prevaja isti tok. Osnovni gradnik svežnja. Približen sinonim za rov, vendar slednji predvideva antropogeno najmanjšo dimenzijo, medtem ko pri kanalu te omejitve ni.
+8-1	2932-2937	KANAL	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	2938-2939	(	_	_	_	_	_	
+8-3	2939-2945	JAMSKI	_	_	_	_	_	
+8-4	2945-2946	)	_	_	_	_	_	
+8-5	2947-2948	-	_	_	_	_	_	
+8-6	2949-2952	Niz	_	_	GENUS[69]	DEFINED\_AS[107]	_	
+8-7	2953-2964	strukturnih	_	_	GENUS[69]	DEFINED\_AS[107]	_	
+8-8	2965-2974	segmentov	_	_	GENUS[69]	DEFINED\_AS[107]	_	
+8-9	2974-2975	,	_	_	_	DEFINED\_AS[107]	_	
+8-10	2976-2978	ki	_	_	_	DEFINED\_AS[107]|HAS\_FUNCTION[108]	frame\_FUNCTION[151]	
+8-11	2979-2980	(	_	_	_	DEFINED\_AS[107]|HAS\_FUNCTION[108]	frame\_FUNCTION[151]	
+8-12	2980-2982	je	_	_	_	DEFINED\_AS[107]|HAS\_FUNCTION[108]	frame\_FUNCTION[151]	
+8-13	2982-2983	)	_	_	_	DEFINED\_AS[107]|HAS\_FUNCTION[108]	frame\_FUNCTION[151]	
+8-14	2984-2991	prevaja	_	_	_	DEFINED\_AS[107]|HAS\_FUNCTION[108]	frame\_FUNCTION[151]	
+8-15	2992-2996	isti	_	_	_	DEFINED\_AS[107]|HAS\_FUNCTION[108]	_	
+8-16	2997-3000	tok	_	D.1 Abiotic	_	DEFINED\_AS[107]|HAS\_FUNCTION[108]	_	
+8-17	3000-3001	.	_	_	_	_	_	
+8-18	3002-3009	Osnovni	_	_	_	HAS\_FUNCTION[109]	_	
+8-19	3010-3017	gradnik	_	_	_	HAS\_FUNCTION[109]	_	
+8-20	3018-3025	svežnja	_	A.2 Underground landform	_	HAS\_FUNCTION[109]	_	
+8-21	3025-3026	.	_	_	_	_	_	
+8-22	3027-3036	Približen	_	_	_	_	_	
+8-23	3037-3044	sinonim	_	_	_	_	_	
+8-24	3045-3047	za	_	_	_	_	_	
+8-25	3048-3051	rov	_	A.2 Underground landform	_	_	_	
+8-26	3051-3052	,	_	_	_	_	_	
+8-27	3053-3059	vendar	_	_	_	HAS\_SIZE[110]	_	
+8-28	3060-3067	slednji	_	_	_	HAS\_SIZE[110]	_	
+8-29	3068-3078	predvideva	_	_	_	HAS\_SIZE[110]	_	
+8-30	3079-3090	antropogeno	_	_	_	HAS\_SIZE[110]	_	
+8-31	3091-3100	najmanjšo	_	_	_	HAS\_SIZE[110]	_	
+8-32	3101-3110	dimenzijo	_	_	_	HAS\_SIZE[110]	_	
+8-33	3110-3111	,	_	_	_	HAS\_SIZE[110]	_	
+8-34	3112-3118	medtem	_	_	_	HAS\_SIZE[110]	_	
+8-35	3119-3121	ko	_	_	_	HAS\_SIZE[110]	_	
+8-36	3122-3125	pri	_	_	_	HAS\_SIZE[110]	_	
+8-37	3126-3132	kanalu	_	A.2 Underground landform	_	HAS\_SIZE[110]	_	
+8-38	3133-3135	te	_	_	_	HAS\_SIZE[110]	_	
+8-39	3136-3144	omejitve	_	_	_	HAS\_SIZE[110]	_	
+8-40	3145-3147	ni	_	_	_	HAS\_SIZE[110]	_	
+8-41	3147-3148	.	_	_	_	_	_	
+
+#Text=kontrolni volumen - Hipotetični blok kraške kamnine, ki služi pri teoretskih razglabljanjih kot vzorčni izsek celotnega speleogenetskega prostora. Imeti mora definirane meje in dimenzije, poznano začetno strukturo kamnine (litopetrografske lastnosti, poroznost, mehanske lastnosti), definirane mejne pogoje (odprt 1 zaprt sistem) in poznane vhodne vrednosti.
+9-1	3152-3161	kontrolni	_	D. Entity/Element/Property[31]	DEFINIENDUM[70]	_	_	
+9-2	3162-3169	volumen	_	D. Entity/Element/Property[31]	DEFINIENDUM[70]	_	_	
+9-3	3170-3171	-	_	_	_	_	_	
+9-4	3172-3183	Hipotetični	_	_	_	DEFINED\_AS[111]	_	
+9-5	3184-3188	blok	_	_	_	DEFINED\_AS[111]	_	
+9-6	3189-3195	kraške	_	D.1 Abiotic[32]	_	DEFINED\_AS[111]	_	
+9-7	3196-3203	kamnine	_	D.1 Abiotic[32]	_	DEFINED\_AS[111]	_	
+9-8	3203-3204	,	_	_	_	_	_	
+9-9	3205-3207	ki	_	_	_	STUDIES[112]	frame\_STUDIES[152]	
+9-10	3208-3213	služi	_	_	_	STUDIES[112]	frame\_STUDIES[152]	
+9-11	3214-3217	pri	_	_	_	STUDIES[112]	_	
+9-12	3218-3228	teoretskih	_	_	_	STUDIES[112]	_	
+9-13	3229-3243	razglabljanjih	_	_	_	STUDIES[112]	_	
+9-14	3244-3247	kot	_	_	_	STUDIES[112]	_	
+9-15	3248-3255	vzorčni	_	_	_	STUDIES[112]	_	
+9-16	3256-3261	izsek	_	_	_	STUDIES[112]	_	
+9-17	3262-3271	celotnega	_	_	_	STUDIES[112]	_	
+9-18	3272-3288	speleogenetskega	_	C. Geome[33]	_	STUDIES[112]	_	
+9-19	3289-3297	prostora	_	C. Geome[33]	_	STUDIES[112]	_	
+9-20	3297-3298	.	_	_	_	_	_	
+9-21	3299-3304	Imeti	_	_	_	_	_	
+9-22	3305-3309	mora	_	_	_	_	_	
+9-23	3310-3320	definirane	_	_	_	_	_	
+9-24	3321-3325	meje	_	_	_	_	_	
+9-25	3326-3328	in	_	_	_	_	_	
+9-26	3329-3338	dimenzije	_	_	_	_	_	
+9-27	3338-3339	,	_	_	_	_	_	
+9-28	3340-3347	poznano	_	_	_	_	_	
+9-29	3348-3355	začetno	_	_	_	_	_	
+9-30	3356-3365	strukturo	_	_	_	_	_	
+9-31	3366-3373	kamnine	_	_	_	_	_	
+9-32	3374-3375	(	_	_	_	_	_	
+9-33	3375-3391	litopetrografske	_	_	_	_	_	
+9-34	3392-3401	lastnosti	_	_	_	_	_	
+9-35	3401-3402	,	_	_	_	_	_	
+9-36	3403-3412	poroznost	_	_	_	_	_	
+9-37	3412-3413	,	_	_	_	_	_	
+9-38	3414-3422	mehanske	_	_	_	_	_	
+9-39	3423-3432	lastnosti	_	_	_	_	_	
+9-40	3432-3433	)	_	_	_	_	_	
+9-41	3433-3434	,	_	_	_	_	_	
+9-42	3435-3445	definirane	_	_	_	_	_	
+9-43	3446-3451	mejne	_	_	_	_	_	
+9-44	3452-3458	pogoje	_	_	_	_	_	
+9-45	3459-3460	(	_	_	_	_	_	
+9-46	3460-3465	odprt	_	_	_	_	_	
+9-47	3466-3467	1	_	_	_	_	_	
+9-48	3468-3473	zaprt	_	_	_	_	_	
+9-49	3474-3480	sistem	_	_	_	_	_	
+9-50	3480-3481	)	_	_	_	_	_	
+9-51	3482-3484	in	_	_	_	_	_	
+9-52	3485-3492	poznane	_	_	_	_	_	
+9-53	3493-3499	vhodne	_	_	_	_	_	
+9-54	3500-3509	vrednosti	_	_	_	_	_	
+9-55	3509-3510	.	_	_	_	_	_	
+
+#Text=KRAS (Pisano z malo začetnico) - K. je eden osrednjih terminov speleološkega izrazoslovja. Definicij k. ni malo, a so si često protislovne in odsevajo ožjo stroko avtorja. Navajava samo nekaj izzivalnih alternativ, ki naj spodbudijo razpravo. M. Este ban in C.F. Klappa (1983, 1 I) sta predložila naslednjo, po lastni oceni geološko definicijo. Prvo podpisani uporabljam pri predmetu geologija krasa fizikalnogeološko: Ena materializacij eksogenega preoblikovanja kontinentalne zemeljske skorje. Značilno je odnašanje snovi v raztopini, zanemarljiva akumulacija in vertikalen odtok padavinskih voda s površja. To se odraža v oblikovanju zaprtih globeli in kopastih vrhov ter v opazni kanalski poroznosti. Poleg splošnih pogojev za nastanek kakršnihkoli površinskih oblik pogojujejo nastanek krasa sorazmerno hitro in enakomerno topna matična kamnina (kraške kamnine), možnost nastajanja zveznih podzemskih kanalov in dovolj obilne padavine.
+10-1	3515-3519	KRAS	_	C. Geome	DEFINIENDUM	_	_	
+10-2	3520-3521	(	_	_	_	_	_	
+10-3	3521-3527	Pisano	_	_	_	_	_	
+10-4	3528-3529	z	_	_	_	_	_	
+10-5	3530-3534	malo	_	_	_	_	_	
+10-6	3535-3544	začetnico	_	_	_	_	_	
+10-7	3544-3545	)	_	_	_	_	_	
+10-8	3546-3547	-	_	_	_	_	_	
+10-9	3548-3549	K	_	_	_	_	_	
+10-10	3549-3550	.	_	_	_	_	_	
+10-11	3551-3553	je	_	_	_	_	_	
+10-12	3554-3558	eden	_	_	_	_	_	
+10-13	3559-3568	osrednjih	_	_	_	_	_	
+10-14	3569-3577	terminov	_	_	_	_	_	
+10-15	3578-3591	speleološkega	_	_	_	_	_	
+10-16	3592-3604	izrazoslovja	_	_	_	_	_	
+10-17	3604-3605	.	_	_	_	_	_	
+10-18	3606-3615	Definicij	_	_	_	_	_	
+10-19	3616-3617	k	_	_	_	_	_	
+10-20	3617-3618	.	_	_	_	_	_	
+10-21	3619-3621	ni	_	_	_	_	_	
+10-22	3622-3626	malo	_	_	_	_	_	
+10-23	3626-3627	,	_	_	_	_	_	
+10-24	3628-3629	a	_	_	_	_	_	
+10-25	3630-3632	so	_	_	_	_	_	
+10-26	3633-3635	si	_	_	_	_	_	
+10-27	3636-3641	često	_	_	_	_	_	
+10-28	3642-3653	protislovne	_	_	_	_	_	
+10-29	3654-3656	in	_	_	_	_	_	
+10-30	3657-3665	odsevajo	_	_	_	_	_	
+10-31	3666-3670	ožjo	_	_	_	_	_	
+10-32	3671-3677	stroko	_	_	_	_	_	
+10-33	3678-3685	avtorja	_	_	_	_	_	
+10-34	3685-3686	.	_	_	_	_	_	
+10-35	3687-3695	Navajava	_	_	_	_	_	
+10-36	3696-3700	samo	_	_	_	_	_	
+10-37	3701-3706	nekaj	_	_	_	_	_	
+10-38	3707-3717	izzivalnih	_	_	_	_	_	
+10-39	3718-3728	alternativ	_	_	_	_	_	
+10-40	3728-3729	,	_	_	_	_	_	
+10-41	3730-3732	ki	_	_	_	_	_	
+10-42	3733-3736	naj	_	_	_	_	_	
+10-43	3737-3747	spodbudijo	_	_	_	_	_	
+10-44	3748-3756	razpravo	_	_	_	_	_	
+10-45	3756-3757	.	_	_	_	_	_	
+10-46	3758-3759	M	_	_	_	_	_	
+10-47	3759-3760	.	_	_	_	_	_	
+10-48	3761-3765	Este	_	_	_	_	_	
+10-49	3766-3769	ban	_	_	_	_	_	
+10-50	3770-3772	in	_	_	_	_	_	
+10-51	3773-3776	C.F	_	_	_	_	_	
+10-52	3776-3777	.	_	_	_	_	_	
+10-53	3778-3784	Klappa	_	_	_	_	_	
+10-54	3785-3786	(	_	_	_	_	_	
+10-55	3786-3790	1983	_	_	_	_	_	
+10-56	3790-3791	,	_	_	_	_	_	
+10-57	3792-3793	1	_	_	_	_	_	
+10-58	3794-3795	I	_	_	_	_	_	
+10-59	3795-3796	)	_	_	_	_	_	
+10-60	3797-3800	sta	_	_	_	_	_	
+10-61	3801-3811	predložila	_	_	_	_	_	
+10-62	3812-3821	naslednjo	_	_	_	_	_	
+10-63	3821-3822	,	_	_	_	_	_	
+10-64	3823-3825	po	_	_	_	_	_	
+10-65	3826-3832	lastni	_	_	_	_	_	
+10-66	3833-3838	oceni	_	_	_	_	_	
+10-67	3839-3847	geološko	_	_	_	_	_	
+10-68	3848-3858	definicijo	_	_	_	_	_	
+10-69	3858-3859	.	_	_	_	_	_	
+10-70	3860-3864	Prvo	_	_	_	_	_	
+10-71	3865-3874	podpisani	_	_	_	_	_	
+10-72	3875-3885	uporabljam	_	_	_	_	_	
+10-73	3886-3889	pri	_	_	_	_	_	
+10-74	3890-3898	predmetu	_	_	_	_	_	
+10-75	3899-3908	geologija	_	_	_	_	_	
+10-76	3909-3914	krasa	_	_	_	_	_	
+10-77	3915-3932	fizikalnogeološko	_	_	_	_	_	
+10-78	3932-3933	:	_	_	_	_	_	
+10-79	3934-3937	Ena	_	_	_	HAS\_CAUSE[113]	_	
+10-80	3938-3952	materializacij	_	B. Process	_	HAS\_CAUSE[113]	_	
+10-81	3953-3963	eksogenega	_	_	_	HAS\_CAUSE[113]	_	
+10-82	3964-3978	preoblikovanja	_	B. Process	_	HAS\_CAUSE[113]	_	
+10-83	3979-3992	kontinentalne	_	_	_	HAS\_CAUSE[113]	_	
+10-84	3993-4002	zemeljske	_	D.1 Abiotic[34]	_	HAS\_CAUSE[113]	_	
+10-85	4003-4009	skorje	_	D.1 Abiotic[34]	_	HAS\_CAUSE[113]	_	
+10-86	4009-4010	.	_	_	_	_	_	
+10-87	4011-4019	Značilno	_	_	_	HAS\_CAUSE[114]	frame\_ATTRIBUTE[153]	
+10-88	4020-4022	je	_	_	_	HAS\_CAUSE[114]	frame\_ATTRIBUTE[153]	
+10-89	4023-4032	odnašanje	_	B.2 Loss	_	HAS\_CAUSE[114]	_	
+10-90	4033-4038	snovi	_	D.1 Abiotic	_	HAS\_CAUSE[114]	_	
+10-91	4039-4040	v	_	_	_	HAS\_CAUSE[114]	_	
+10-92	4041-4050	raztopini	_	D.1 Abiotic	_	HAS\_CAUSE[114]	_	
+10-93	4050-4051	,	_	_	_	_	_	
+10-94	4052-4064	zanemarljiva	_	_	_	HAS\_CAUSE[115]	_	
+10-95	4065-4076	akumulacija	_	B.3 Addition	_	HAS\_CAUSE[115]	_	
+10-96	4077-4079	in	_	_	_	_	_	
+10-97	4080-4090	vertikalen	_	_	_	HAS\_CAUSE[116]	_	
+10-98	4091-4096	odtok	_	B.2 Loss	_	HAS\_CAUSE[116]	_	
+10-99	4097-4108	padavinskih	_	D.1 Abiotic[35]	_	HAS\_CAUSE[116]	_	
+10-100	4109-4113	voda	_	D.1 Abiotic[35]	_	HAS\_CAUSE[116]	_	
+10-101	4114-4115	s	_	_	_	HAS\_CAUSE[116]	_	
+10-102	4116-4123	površja	_	_	_	HAS\_CAUSE[116]	_	
+10-103	4123-4124	.	_	_	_	_	_	
+10-104	4125-4127	To	_	_	_	_	_	
+10-105	4128-4130	se	_	_	_	HAS\_RESULT[117]	_	
+10-106	4131-4137	odraža	_	_	_	HAS\_RESULT[117]	_	
+10-107	4138-4139	v	_	_	_	HAS\_RESULT[117]	_	
+10-108	4140-4151	oblikovanju	_	_	_	HAS\_RESULT[117]	_	
+10-109	4152-4159	zaprtih	_	_	_	HAS\_RESULT[117]	_	
+10-110	4160-4167	globeli	_	A.1 Surface landform	_	HAS\_RESULT[117]	_	
+10-111	4168-4170	in	_	_	_	HAS\_RESULT[117]	_	
+10-112	4171-4179	kopastih	_	_	_	HAS\_RESULT[117]	_	
+10-113	4180-4185	vrhov	_	_	_	HAS\_RESULT[117]	_	
+10-114	4186-4189	ter	_	_	_	HAS\_RESULT[117]	_	
+10-115	4190-4191	v	_	_	_	HAS\_RESULT[117]	_	
+10-116	4192-4198	opazni	_	_	_	HAS\_RESULT[117]	_	
+10-117	4199-4207	kanalski	_	_	_	HAS\_RESULT[117]	_	
+10-118	4208-4218	poroznosti	_	D.3 Property	_	HAS\_RESULT[117]	_	
+10-119	4218-4219	.	_	_	_	_	_	
+10-120	4220-4225	Poleg	_	_	_	_	_	
+10-121	4226-4234	splošnih	_	_	_	_	_	
+10-122	4235-4242	pogojev	_	_	_	_	_	
+10-123	4243-4245	za	_	_	_	_	_	
+10-124	4246-4254	nastanek	_	_	_	_	_	
+10-125	4255-4267	kakršnihkoli	_	_	_	_	_	
+10-126	4268-4279	površinskih	_	_	_	_	_	
+10-127	4280-4285	oblik	_	_	_	_	_	
+10-128	4286-4296	pogojujejo	_	_	_	_	_	
+10-129	4297-4305	nastanek	_	_	_	_	_	
+10-130	4306-4311	krasa	_	C. Geome	_	_	_	
+10-131	4312-4322	sorazmerno	_	_	_	COMPOSITION\_MEDIUM[118]	_	
+10-132	4323-4328	hitro	_	_	_	COMPOSITION\_MEDIUM[118]	_	
+10-133	4329-4331	in	_	_	_	COMPOSITION\_MEDIUM[118]	_	
+10-134	4332-4342	enakomerno	_	_	_	COMPOSITION\_MEDIUM[118]	_	
+10-135	4343-4348	topna	_	_	_	COMPOSITION\_MEDIUM[118]	_	
+10-136	4349-4356	matična	_	D.1 Abiotic[36]	_	COMPOSITION\_MEDIUM[118]	_	
+10-137	4357-4364	kamnina	_	D.1 Abiotic[36]	_	COMPOSITION\_MEDIUM[118]	_	
+10-138	4365-4366	(	_	_	_	COMPOSITION\_MEDIUM[118]	_	
+10-139	4366-4372	kraške	_	D.1 Abiotic[37]	_	COMPOSITION\_MEDIUM[118]	_	
+10-140	4373-4380	kamnine	_	D.1 Abiotic[37]	_	COMPOSITION\_MEDIUM[118]	_	
+10-141	4380-4381	)	_	_	_	COMPOSITION\_MEDIUM[118]	_	
+10-142	4381-4382	,	_	_	_	_	_	
+10-143	4383-4390	možnost	_	_	_	HAS\_CAUSE[119]	_	
+10-144	4391-4401	nastajanja	_	_	_	HAS\_CAUSE[119]	_	
+10-145	4402-4409	zveznih	_	_	_	HAS\_CAUSE[119]	_	
+10-146	4410-4420	podzemskih	_	A.2 Underground landform[38]	_	HAS\_CAUSE[119]	_	
+10-147	4421-4428	kanalov	_	A.2 Underground landform[38]	_	HAS\_CAUSE[119]	_	
+10-148	4429-4431	in	_	_	_	_	_	
+10-149	4432-4438	dovolj	_	_	_	HAS\_CAUSE[120]	_	
+10-150	4439-4445	obilne	_	_	_	HAS\_CAUSE[120]	_	
+10-151	4446-4454	padavine	_	D.1 Abiotic	_	HAS\_CAUSE[120]	_	
+10-152	4454-4455	.	_	_	_	_	_	
+
+#Text=KRAS (Jamarska definicija) - Eden predelov na Zemlji, kjer najdemo človeku prehodne votline, daljše ali globlje od 10 m. Jamarska definicija verjetno ne more biti dosti drugačna, saj v nekaterih evropskih deželah raziskovanje opuščenih rudnikov, podzemskih kamnolomov, katakomb in "jam" pod ledeniki pretehta klasično jamarstvo v kraškem pozemlju. Najgloblja jama ZDA (Kazumura Cave na Havajih), ki je obenem jama z največjo znano horizontalno razdaljo med skraj nima točkama, je lavina cev. S slovenskim pojmovanjem krasa ima vse to kaj malo skupnega.
+11-1	4460-4464	KRAS	_	C. Geome	DEFINIENDUM	_	_	
+11-2	4465-4466	(	_	_	_	_	_	
+11-3	4466-4474	Jamarska	_	_	_	_	_	
+11-4	4475-4485	definicija	_	_	_	_	_	
+11-5	4485-4486	)	_	_	_	_	_	
+11-6	4487-4488	-	_	_	_	_	_	
+11-7	4489-4493	Eden	_	_	_	HAS\_LOCATION[121]	_	
+11-8	4494-4502	predelov	_	_	GENUS	HAS\_LOCATION[121]	_	
+11-9	4503-4505	na	_	_	_	HAS\_LOCATION[121]|HAS\_POSITION[122]	frame\_POSITION	
+11-10	4506-4512	Zemlji	_	D.3.1 Geolocation	_	HAS\_LOCATION[121]|HAS\_POSITION[122]	_	
+11-11	4512-4513	,	_	_	_	_	_	
+11-12	4514-4518	kjer	_	_	_	CONTAINS[123]	frame\_CONTAINS[154]	
+11-13	4519-4526	najdemo	_	_	_	CONTAINS[123]	frame\_CONTAINS[154]	
+11-14	4527-4534	človeku	_	_	_	CONTAINS[123]	_	
+11-15	4535-4543	prehodne	_	_	_	CONTAINS[123]	_	
+11-16	4544-4551	votline	_	A.2 Underground landform	_	CONTAINS[123]	_	
+11-17	4551-4552	,	_	_	_	_	_	
+11-18	4553-4559	daljše	_	_	_	HAS\_SIZE[124]	frame\_SIZE	
+11-19	4560-4563	ali	_	_	_	HAS\_SIZE[124]	_	
+11-20	4564-4571	globlje	_	_	_	HAS\_SIZE[124]	frame\_SIZE	
+11-21	4572-4574	od	_	_	_	HAS\_SIZE[124]	_	
+11-22	4575-4577	10	_	_	_	HAS\_SIZE[124]	_	
+11-23	4578-4579	m	metrov	_	_	HAS\_SIZE[124]	_	
+11-24	4579-4580	.	_	_	_	_	_	
+11-25	4581-4589	Jamarska	_	_	_	_	_	
+11-26	4590-4600	definicija	_	_	_	_	_	
+11-27	4601-4609	verjetno	_	_	_	_	_	
+11-28	4610-4612	ne	_	_	_	_	_	
+11-29	4613-4617	more	_	_	_	_	_	
+11-30	4618-4622	biti	_	_	_	_	_	
+11-31	4623-4628	dosti	_	_	_	_	_	
+11-32	4629-4637	drugačna	_	_	_	_	_	
+11-33	4637-4638	,	_	_	_	_	_	
+11-34	4639-4642	saj	_	_	_	_	_	
+11-35	4643-4644	v	_	_	_	_	_	
+11-36	4645-4654	nekaterih	_	_	_	_	_	
+11-37	4655-4664	evropskih	_	_	_	_	_	
+11-38	4665-4672	deželah	_	_	_	_	_	
+11-39	4673-4685	raziskovanje	_	_	_	_	_	
+11-40	4686-4695	opuščenih	_	_	_	_	_	
+11-41	4696-4704	rudnikov	_	_	_	_	_	
+11-42	4704-4705	,	_	_	_	_	_	
+11-43	4706-4716	podzemskih	_	_	_	_	_	
+11-44	4717-4727	kamnolomov	_	_	_	_	_	
+11-45	4727-4728	,	_	_	_	_	_	
+11-46	4729-4737	katakomb	_	_	_	_	_	
+11-47	4738-4740	in	_	_	_	_	_	
+11-48	4741-4742	"	_	_	_	_	_	
+11-49	4742-4745	jam	_	_	_	_	_	
+11-50	4745-4746	"	_	_	_	_	_	
+11-51	4747-4750	pod	_	_	_	_	_	
+11-52	4751-4759	ledeniki	_	_	_	_	_	
+11-53	4760-4768	pretehta	_	_	_	_	_	
+11-54	4769-4777	klasično	_	_	_	_	_	
+11-55	4778-4787	jamarstvo	_	_	_	_	_	
+11-56	4788-4789	v	_	_	_	_	_	
+11-57	4790-4797	kraškem	_	_	_	_	_	
+11-58	4798-4806	pozemlju	_	_	_	_	_	
+11-59	4806-4807	.	_	_	_	_	_	
+11-60	4808-4818	Najgloblja	_	_	_	_	_	
+11-61	4819-4823	jama	_	_	_	_	_	
+11-62	4824-4827	ZDA	_	_	_	_	_	
+11-63	4828-4829	(	_	_	_	_	_	
+11-64	4829-4837	Kazumura	_	_	_	_	_	
+11-65	4838-4842	Cave	_	_	_	_	_	
+11-66	4843-4845	na	_	_	_	_	_	
+11-67	4846-4853	Havajih	_	_	_	_	_	
+11-68	4853-4854	)	_	_	_	_	_	
+11-69	4854-4855	,	_	_	_	_	_	
+11-70	4856-4858	ki	_	_	_	_	_	
+11-71	4859-4861	je	_	_	_	_	_	
+11-72	4862-4868	obenem	_	_	_	_	_	
+11-73	4869-4873	jama	_	_	_	_	_	
+11-74	4874-4875	z	_	_	_	_	_	
+11-75	4876-4884	največjo	_	_	_	_	_	
+11-76	4885-4890	znano	_	_	_	_	_	
+11-77	4891-4903	horizontalno	_	_	_	_	_	
+11-78	4904-4912	razdaljo	_	_	_	_	_	
+11-79	4913-4916	med	_	_	_	_	_	
+11-80	4917-4922	skraj	_	_	_	_	_	
+11-81	4923-4927	nima	_	_	_	_	_	
+11-82	4928-4935	točkama	_	_	_	_	_	
+11-83	4935-4936	,	_	_	_	_	_	
+11-84	4937-4939	je	_	_	_	_	_	
+11-85	4940-4946	lavina	_	_	_	_	_	
+11-86	4947-4950	cev	_	_	_	_	_	
+11-87	4950-4951	.	_	_	_	_	_	
+11-88	4952-4953	S	_	_	_	_	_	
+11-89	4954-4964	slovenskim	_	_	_	_	_	
+11-90	4965-4976	pojmovanjem	_	_	_	_	_	
+11-91	4977-4982	krasa	_	_	_	_	_	
+11-92	4983-4986	ima	_	_	_	_	_	
+11-93	4987-4990	vse	_	_	_	_	_	
+11-94	4991-4993	to	_	_	_	_	_	
+11-95	4994-4997	kaj	_	_	_	_	_	
+11-96	4998-5002	malo	_	_	_	_	_	
+11-97	5003-5011	skupnega	_	_	_	_	_	
+11-98	5011-5012	.	_	_	_	_	_	
+
+#Text=kraška faza - Obdobje zakrasevanja v sorazmerno stabilnih hidrogeoloških razmerah med dvema regionalnima tektonskima dogodkoma. V območju svežnja tedaj vladajo stabilni pogoji. Posamezni kraški fazi naj bi ustrezal en sveženj, kar pa ni potrjeno. V času nove kraške faze voda uporabi predvsem že obstoječe razpoložljive kraške votline in aktivira tiste začetne horizonte in odprte geološke strukture, ki najbolj ustrezajo spremenjenim razmeram. Po analogiji z geologijo uporabljajo nekateri namesto kraške faze, izraz kraški dogodek. Termin ni prikladen v toliko, ker je podoben izrazu tektonski dogodek, speleogenetski in tektonski čas pa tečeta vsak po svoje.
+12-1	5017-5023	kraška	_	D. Entity/Element/Property[39]	DEFINIENDUM[71]	_	_	
+12-2	5024-5028	faza	_	D. Entity/Element/Property[39]	DEFINIENDUM[71]	_	_	
+12-3	5029-5030	-	_	_	_	_	_	
+12-4	5031-5038	Obdobje	_	_	GENUS	_	_	
+12-5	5039-5051	zakrasevanja	_	B. Process	_	OCCURS\_IN\_TIME[125]	_	
+12-6	5052-5053	v	_	_	_	OCCURS\_IN\_TIME[125]	_	
+12-7	5054-5064	sorazmerno	_	_	_	OCCURS\_IN\_TIME[125]	_	
+12-8	5065-5074	stabilnih	_	_	_	OCCURS\_IN\_TIME[125]	_	
+12-9	5075-5089	hidrogeoloških	_	D. Entity/Element/Property[40]	_	OCCURS\_IN\_TIME[125]	_	
+12-10	5090-5098	razmerah	_	D. Entity/Element/Property[40]	_	OCCURS\_IN\_TIME[125]	_	
+12-11	5099-5102	med	_	_	_	OCCURS\_IN\_TIME[125]	_	
+12-12	5103-5108	dvema	_	_	_	OCCURS\_IN\_TIME[125]	_	
+12-13	5109-5121	regionalnima	_	_	_	OCCURS\_IN\_TIME[125]	_	
+12-14	5122-5133	tektonskima	_	_	_	OCCURS\_IN\_TIME[125]	_	
+12-15	5134-5143	dogodkoma	_	_	_	OCCURS\_IN\_TIME[125]	frame\_TIME	
+12-16	5143-5144	.	_	_	_	_	_	
+12-17	5145-5146	V	_	_	_	HAS\_ATTRIBUTE[126]	_	
+12-18	5147-5154	območju	_	_	_	HAS\_ATTRIBUTE[126]	_	
+12-19	5155-5162	svežnja	_	_	_	HAS\_ATTRIBUTE[126]	_	
+12-20	5163-5168	tedaj	_	_	_	HAS\_ATTRIBUTE[126]	_	
+12-21	5169-5176	vladajo	_	_	_	HAS\_ATTRIBUTE[126]	_	
+12-22	5177-5185	stabilni	_	_	_	HAS\_ATTRIBUTE[126]	_	
+12-23	5186-5192	pogoji	_	_	_	HAS\_ATTRIBUTE[126]	_	
+12-24	5192-5193	.	_	_	_	_	_	
+12-25	5194-5203	Posamezni	_	_	_	HAS\_RESULT[127]	_	
+12-26	5204-5210	kraški	_	_	_	HAS\_RESULT[127]	_	
+12-27	5211-5215	fazi	_	_	_	HAS\_RESULT[127]	_	
+12-28	5216-5219	naj	_	_	_	HAS\_RESULT[127]	_	
+12-29	5220-5222	bi	_	_	_	HAS\_RESULT[127]	_	
+12-30	5223-5231	ustrezal	_	_	_	HAS\_RESULT[127]	_	
+12-31	5232-5234	en	_	_	_	HAS\_RESULT[127]	_	
+12-32	5235-5242	sveženj	_	A.2 Underground landform	_	HAS\_RESULT[127]	_	
+12-33	5242-5243	,	_	_	_	_	_	
+12-34	5244-5247	kar	_	_	_	_	_	
+12-35	5248-5250	pa	_	_	_	_	_	
+12-36	5251-5253	ni	_	_	_	_	_	
+12-37	5254-5262	potrjeno	_	_	_	_	_	
+12-38	5262-5263	.	_	_	_	_	_	
+12-39	5264-5265	V	_	_	_	_	_	
+12-40	5266-5270	času	_	_	_	_	_	
+12-41	5271-5275	nove	_	_	_	_	_	
+12-42	5276-5282	kraške	_	_	_	_	_	
+12-43	5283-5287	faze	_	_	_	_	_	
+12-44	5288-5292	voda	_	D.1 Abiotic	_	_	_	
+12-45	5293-5300	uporabi	_	_	_	_	_	
+12-46	5301-5309	predvsem	_	_	_	_	_	
+12-47	5310-5312	že	_	_	_	_	_	
+12-48	5313-5322	obstoječe	_	_	_	_	_	
+12-49	5323-5336	razpoložljive	_	_	_	_	_	
+12-50	5337-5343	kraške	_	A.2 Underground landform[41]	_	_	_	
+12-51	5344-5351	votline	_	A.2 Underground landform[41]	_	_	_	
+12-52	5352-5354	in	_	_	_	_	_	
+12-53	5355-5363	aktivira	_	_	_	_	_	
+12-54	5364-5369	tiste	_	_	_	_	_	
+12-55	5370-5377	začetne	_	_	_	_	_	
+12-56	5378-5387	horizonte	_	_	_	_	_	
+12-57	5388-5390	in	_	_	_	_	_	
+12-58	5391-5397	odprte	_	_	_	_	_	
+12-59	5398-5406	geološke	_	_	_	_	_	
+12-60	5407-5416	strukture	_	_	_	_	_	
+12-61	5416-5417	,	_	_	_	_	_	
+12-62	5418-5420	ki	_	_	_	_	_	
+12-63	5421-5428	najbolj	_	_	_	_	_	
+12-64	5429-5438	ustrezajo	_	_	_	_	_	
+12-65	5439-5451	spremenjenim	_	_	_	_	_	
+12-66	5452-5460	razmeram	_	_	_	_	_	
+12-67	5460-5461	.	_	_	_	_	_	
+12-68	5462-5464	Po	_	_	_	_	_	
+12-69	5465-5474	analogiji	_	_	_	_	_	
+12-70	5475-5476	z	_	_	_	_	_	
+12-71	5477-5486	geologijo	_	_	_	_	_	
+12-72	5487-5498	uporabljajo	_	_	_	_	_	
+12-73	5499-5507	nekateri	_	_	_	_	_	
+12-74	5508-5515	namesto	_	_	_	_	_	
+12-75	5516-5522	kraške	_	_	_	_	_	
+12-76	5523-5527	faze	_	_	_	_	_	
+12-77	5527-5528	,	_	_	_	_	_	
+12-78	5529-5534	izraz	_	_	_	_	_	
+12-79	5535-5541	kraški	_	_	_	_	_	
+12-80	5542-5549	dogodek	_	_	_	_	_	
+12-81	5549-5550	.	_	_	_	_	_	
+12-82	5551-5557	Termin	_	_	_	_	_	
+12-83	5558-5560	ni	_	_	_	_	_	
+12-84	5561-5570	prikladen	_	_	_	_	_	
+12-85	5571-5572	v	_	_	_	_	_	
+12-86	5573-5579	toliko	_	_	_	_	_	
+12-87	5579-5580	,	_	_	_	_	_	
+12-88	5581-5584	ker	_	_	_	_	_	
+12-89	5585-5587	je	_	_	_	_	_	
+12-90	5588-5595	podoben	_	_	_	_	_	
+12-91	5596-5602	izrazu	_	_	_	_	_	
+12-92	5603-5612	tektonski	_	_	_	_	_	
+12-93	5613-5620	dogodek	_	_	_	_	_	
+12-94	5620-5621	,	_	_	_	_	_	
+12-95	5622-5636	speleogenetski	_	_	_	_	_	
+12-96	5637-5639	in	_	_	_	_	_	
+12-97	5640-5649	tektonski	_	_	_	_	_	
+12-98	5650-5653	čas	_	_	_	_	_	
+12-99	5654-5656	pa	_	_	_	_	_	
+12-100	5657-5663	tečeta	_	_	_	_	_	
+12-101	5664-5668	vsak	_	_	_	_	_	
+12-102	5669-5671	po	_	_	_	_	_	
+12-103	5672-5677	svoje	_	_	_	_	_	
+12-104	5677-5678	.	_	_	_	_	_	
+
+#Text=kraška poroznost - Delež praznega prostora v določeni prostornini kamnine, ki ga prispevajo kraške votline. V nasprotju s splošnim prepričanjem je kraška poroznost tudi tam, kjer je kamnina močno zakrasela, v primerjavi z razpoklinsko poroznostjo majhna. O kraški poroznosti govorimo, kadar imajo kanali (odtod sinonim kanalska poroznost) bistven vpliv na način in količino pojavljanja vode v kamnini.
+13-1	5683-5689	kraška	_	D.3 Property[42]	DEFINIENDUM[72]	_	_	
+13-2	5690-5699	poroznost	_	D.3 Property[42]	DEFINIENDUM[72]	_	_	
+13-3	5700-5701	-	_	_	_	_	_	
+13-4	5702-5707	Delež	_	_	GENUS[73]	_	_	
+13-5	5708-5716	praznega	_	D.1 Abiotic[43]	GENUS[73]	_	_	
+13-6	5717-5725	prostora	_	D.1 Abiotic[43]	GENUS[73]	_	_	
+13-7	5726-5727	v	_	_	_	COMPOSITION\_MEDIUM[128]	frame\_LOCATION	
+13-8	5728-5736	določeni	_	_	_	COMPOSITION\_MEDIUM[128]	_	
+13-9	5737-5748	prostornini	_	D.3 Property	_	COMPOSITION\_MEDIUM[128]	_	
+13-10	5749-5756	kamnine	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[128]	_	
+13-11	5756-5757	,	_	_	_	_	_	
+13-12	5758-5760	ki	_	_	_	_	_	
+13-13	5761-5763	ga	_	_	_	_	_	
+13-14	5764-5774	prispevajo	_	_	_	_	_	
+13-15	5775-5781	kraške	_	A.2 Underground landform[44]	_	_	_	
+13-16	5782-5789	votline	_	A.2 Underground landform[44]	_	_	_	
+13-17	5789-5790	.	_	_	_	_	_	
+13-18	5791-5792	V	_	_	_	_	_	
+13-19	5793-5802	nasprotju	_	_	_	_	_	
+13-20	5803-5804	s	_	_	_	_	_	
+13-21	5805-5813	splošnim	_	_	_	_	_	
+13-22	5814-5826	prepričanjem	_	_	_	_	_	
+13-23	5827-5829	je	_	_	_	_	_	
+13-24	5830-5836	kraška	_	D.1 Abiotic[45]	_	_	_	
+13-25	5837-5846	poroznost	_	D.1 Abiotic[45]	_	_	_	
+13-26	5847-5851	tudi	_	_	_	_	_	
+13-27	5852-5855	tam	_	_	_	HAS\_LOCATION[129]	_	
+13-28	5855-5856	,	_	_	_	HAS\_LOCATION[129]	_	
+13-29	5857-5861	kjer	_	_	_	HAS\_LOCATION[129]	frame\_LOCATION[155]	
+13-30	5862-5864	je	_	_	_	HAS\_LOCATION[129]	frame\_LOCATION[155]	
+13-31	5865-5872	kamnina	_	D.1 Abiotic	_	HAS\_LOCATION[129]	_	
+13-32	5873-5878	močno	_	_	_	HAS\_LOCATION[129]	_	
+13-33	5879-5888	zakrasela	_	B. Process	_	HAS\_LOCATION[129]	_	
+13-34	5888-5889	,	_	_	_	_	_	
+13-35	5890-5891	v	_	_	_	HAS\_SIZE[130]	_	
+13-36	5892-5902	primerjavi	_	_	_	HAS\_SIZE[130]	_	
+13-37	5903-5904	z	_	_	_	HAS\_SIZE[130]	_	
+13-38	5905-5917	razpoklinsko	_	D.3 Property[46]	_	HAS\_SIZE[130]	_	
+13-39	5918-5929	poroznostjo	_	D.3 Property[46]	_	HAS\_SIZE[130]	_	
+13-40	5930-5936	majhna	_	_	_	HAS\_SIZE[130]	_	
+13-41	5936-5937	.	_	_	_	_	_	
+13-42	5938-5939	O	_	_	_	_	_	
+13-43	5940-5946	kraški	_	D.3 Property[47]	_	_	_	
+13-44	5947-5957	poroznosti	_	D.3 Property[47]	_	_	_	
+13-45	5958-5966	govorimo	_	_	_	_	_	
+13-46	5966-5967	,	_	_	_	_	_	
+13-47	5968-5973	kadar	_	_	_	HAS\_CAUSE[131]	_	
+13-48	5974-5979	imajo	_	_	_	HAS\_CAUSE[131]	_	
+13-49	5980-5986	kanali	_	A.2 Underground landform	_	HAS\_CAUSE[131]	_	
+13-50	5987-5988	(	_	_	_	HAS\_CAUSE[131]	_	
+13-51	5988-5993	odtod	_	_	_	HAS\_CAUSE[131]	_	
+13-52	5994-6001	sinonim	_	_	_	HAS\_CAUSE[131]	_	
+13-53	6002-6010	kanalska	_	_	_	HAS\_CAUSE[131]	_	
+13-54	6011-6020	poroznost	_	_	_	HAS\_CAUSE[131]	_	
+13-55	6020-6021	)	_	_	_	HAS\_CAUSE[131]	_	
+13-56	6022-6029	bistven	_	_	_	HAS\_CAUSE[131]	_	
+13-57	6030-6035	vpliv	_	_	_	HAS\_CAUSE[131]	frame\_CAUSE	
+13-58	6036-6038	na	_	_	_	HAS\_CAUSE[131]	_	
+13-59	6039-6044	način	_	_	_	HAS\_CAUSE[131]	_	
+13-60	6045-6047	in	_	_	_	HAS\_CAUSE[131]	_	
+13-61	6048-6056	količino	_	_	_	HAS\_CAUSE[131]	_	
+13-62	6057-6068	pojavljanja	_	_	_	HAS\_CAUSE[131]	_	
+13-63	6069-6073	vode	_	D.1 Abiotic	_	HAS\_CAUSE[131]	_	
+13-64	6074-6075	v	_	_	_	HAS\_CAUSE[131]	_	
+13-65	6076-6083	kamnini	_	D.1 Abiotic	_	HAS\_CAUSE[131]	_	
+13-66	6083-6084	.	_	_	_	_	_	
+
+#Text=kraška votlina - Poljubno oblikovana votlina, nastala s procesi, ki jih definiramo kot kraške. Ne podlega velikostnemu kriteriju, ki opredeljuje kraško jamo, je pa večja od dimenzije preboja. Ohlapen sinonim za speleogen.
+14-1	6089-6095	kraška	_	A.2 Underground landform[48]	DEFINIENDUM[74]	_	_	
+14-2	6096-6103	votlina	_	A.2 Underground landform[48]	DEFINIENDUM[74]	_	_	
+14-3	6104-6105	-	_	_	_	_	_	
+14-4	6106-6114	Poljubno	_	_	_	HAS\_FORM[132]	_	
+14-5	6115-6125	oblikovana	_	_	_	HAS\_FORM[132]	_	
+14-6	6126-6133	votlina	_	A.2 Underground landform	GENUS	_	_	
+14-7	6133-6134	,	_	_	_	_	_	
+14-8	6135-6142	nastala	_	_	_	HAS\_CAUSE[133]	frame\_CAUSE[156]	
+14-9	6143-6144	s	_	_	_	HAS\_CAUSE[133]	frame\_CAUSE[156]	
+14-10	6145-6152	procesi	_	B. Process	_	HAS\_CAUSE[133]	_	
+14-11	6152-6153	,	_	_	_	HAS\_CAUSE[133]	_	
+14-12	6154-6156	ki	_	_	_	HAS\_CAUSE[133]	_	
+14-13	6157-6160	jih	_	_	_	HAS\_CAUSE[133]	_	
+14-14	6161-6171	definiramo	_	_	_	HAS\_CAUSE[133]	_	
+14-15	6172-6175	kot	_	_	_	HAS\_CAUSE[133]	_	
+14-16	6176-6182	kraške	_	_	_	HAS\_CAUSE[133]	_	
+14-17	6182-6183	.	_	_	_	_	_	
+14-18	6184-6186	Ne	_	_	_	_	_	
+14-19	6187-6194	podlega	_	_	_	_	_	
+14-20	6195-6207	velikostnemu	_	_	_	_	_	
+14-21	6208-6217	kriteriju	_	_	_	_	_	
+14-22	6217-6218	,	_	_	_	_	_	
+14-23	6219-6221	ki	_	_	_	_	_	
+14-24	6222-6233	opredeljuje	_	_	_	_	_	
+14-25	6234-6240	kraško	_	A.2 Underground landform[49]	_	_	_	
+14-26	6241-6245	jamo	_	A.2 Underground landform[49]	_	_	_	
+14-27	6245-6246	,	_	_	_	_	_	
+14-28	6247-6249	je	_	_	_	HAS\_SIZE[134]	_	
+14-29	6250-6252	pa	_	_	_	HAS\_SIZE[134]	_	
+14-30	6253-6258	večja	_	_	_	HAS\_SIZE[134]	frame\_SIZE	
+14-31	6259-6261	od	_	_	_	HAS\_SIZE[134]	_	
+14-32	6262-6271	dimenzije	_	_	_	HAS\_SIZE[134]	_	
+14-33	6272-6279	preboja	_	_	_	HAS\_SIZE[134]	_	
+14-34	6279-6280	.	_	_	_	_	_	
+14-35	6281-6288	Ohlapen	_	_	_	_	_	
+14-36	6289-6296	sinonim	_	_	_	_	_	
+14-37	6297-6299	za	_	_	_	_	_	
+14-38	6300-6309	speleogen	_	A.2 Underground landform	SPECIES	_	_	
+14-39	6309-6310	.	_	_	_	_	_	
+
+#Text=kraške kamnine - Kamnine, na katerih se ob izpolnitvi drugih potrebnih pogojev lahko razvije kras. Zato niso definirane genetsko, temveč funkcionalno. Osnovne lastnosti kraške kamnine so, da so topne brez ostanka, katerega delci bi po velikosti presegali dimenzije začetnih vodnih poti, da ne prihaja do Zogovicevega efekta in da so regionalno zaznavno topne med dvema regionalnima tektonskima dogodkoma. Daleč najbolj so razširjene sedimentne kraške kamnine: karbonati (apnenci, dolomiti in njihovi klastiti), sulfati, haloidi, v posebnih razmerah kremenovi peščenjaki. Metamorfne kraške kamnine so marmorji, pogojno kvarciti; magmatske karbonatit
+15-1	6314-6320	kraške	_	D.1 Abiotic[50]	DEFINIENDUM[75]	_	_	
+15-2	6321-6328	kamnine	_	D.1 Abiotic[50]	DEFINIENDUM[75]	_	_	
+15-3	6329-6330	-	_	_	_	_	_	
+15-4	6331-6338	Kamnine	_	D.1 Abiotic	GENUS	_	_	
+15-5	6338-6339	,	_	_	_	_	_	
+15-6	6340-6342	na	_	_	_	HAS\_RESULT[135]	_	
+15-7	6343-6350	katerih	_	_	_	HAS\_RESULT[135]	_	
+15-8	6351-6353	se	_	_	_	HAS\_RESULT[135]	_	
+15-9	6354-6356	ob	_	_	_	HAS\_RESULT[135]	_	
+15-10	6357-6367	izpolnitvi	_	_	_	HAS\_RESULT[135]	_	
+15-11	6368-6374	drugih	_	_	_	HAS\_RESULT[135]	_	
+15-12	6375-6384	potrebnih	_	_	_	HAS\_RESULT[135]	_	
+15-13	6385-6392	pogojev	_	_	_	HAS\_RESULT[135]	_	
+15-14	6393-6398	lahko	_	_	_	HAS\_RESULT[135]	frame\_RESULT[157]	
+15-15	6399-6406	razvije	_	_	_	HAS\_RESULT[135]	frame\_RESULT[157]	
+15-16	6407-6411	kras	_	C. Geome	_	HAS\_RESULT[135]	_	
+15-17	6411-6412	.	_	_	_	_	_	
+15-18	6413-6417	Zato	_	_	_	_	_	
+15-19	6418-6422	niso	_	_	_	_	_	
+15-20	6423-6433	definirane	_	_	_	_	_	
+15-21	6434-6442	genetsko	_	_	_	_	_	
+15-22	6442-6443	,	_	_	_	_	_	
+15-23	6444-6450	temveč	_	_	_	_	_	
+15-24	6451-6463	funkcionalno	_	_	_	_	_	
+15-25	6463-6464	.	_	_	_	_	_	
+15-26	6465-6472	Osnovne	_	_	_	_	_	
+15-27	6473-6482	lastnosti	_	_	_	_	_	
+15-28	6483-6489	kraške	_	D.1 Abiotic[51]	_	_	_	
+15-29	6490-6497	kamnine	_	D.1 Abiotic[51]	_	_	_	
+15-30	6498-6500	so	_	_	_	_	_	
+15-31	6500-6501	,	_	_	_	_	_	
+15-32	6502-6504	da	_	_	_	_	_	
+15-33	6505-6507	so	_	_	_	HAS\_ATTRIBUTE[136]	_	
+15-34	6508-6513	topne	_	B.2 Loss	_	HAS\_ATTRIBUTE[136]	_	
+15-35	6514-6518	brez	_	_	_	HAS\_ATTRIBUTE[136]	_	
+15-36	6519-6526	ostanka	_	_	_	HAS\_ATTRIBUTE[136]	_	
+15-37	6526-6527	,	_	_	_	_	_	
+15-38	6528-6536	katerega	_	_	_	_	_	
+15-39	6537-6542	delci	_	_	_	_	_	
+15-40	6543-6545	bi	_	_	_	_	_	
+15-41	6546-6548	po	_	_	_	_	_	
+15-42	6549-6558	velikosti	_	_	_	_	_	
+15-43	6559-6568	presegali	_	_	_	_	_	
+15-44	6569-6578	dimenzije	_	_	_	_	_	
+15-45	6579-6587	začetnih	_	_	_	_	_	
+15-46	6588-6594	vodnih	_	_	_	_	_	
+15-47	6595-6599	poti	_	_	_	_	_	
+15-48	6599-6600	,	_	_	_	_	_	
+15-49	6601-6603	da	_	_	_	HAS\_ATTRIBUTE[137]	_	
+15-50	6604-6606	ne	_	_	_	HAS\_ATTRIBUTE[137]	_	
+15-51	6607-6614	prihaja	_	_	_	HAS\_ATTRIBUTE[137]	_	
+15-52	6615-6617	do	_	_	_	HAS\_ATTRIBUTE[137]	_	
+15-53	6618-6630	Zogovicevega	_	D.3 Property[52]	_	HAS\_ATTRIBUTE[137]	_	
+15-54	6631-6637	efekta	_	D.3 Property[52]	_	HAS\_ATTRIBUTE[137]	_	
+15-55	6638-6640	in	_	_	_	_	_	
+15-56	6641-6643	da	_	_	_	OCCURS\_IN\_TIME[138]	_	
+15-57	6644-6646	so	_	_	_	OCCURS\_IN\_TIME[138]	_	
+15-58	6647-6657	regionalno	_	_	_	OCCURS\_IN\_TIME[138]	_	
+15-59	6658-6666	zaznavno	_	_	_	OCCURS\_IN\_TIME[138]	_	
+15-60	6667-6672	topne	_	_	_	OCCURS\_IN\_TIME[138]	_	
+15-61	6673-6676	med	_	_	_	OCCURS\_IN\_TIME[138]	_	
+15-62	6677-6682	dvema	_	_	_	OCCURS\_IN\_TIME[138]	_	
+15-63	6683-6695	regionalnima	_	_	_	OCCURS\_IN\_TIME[138]	_	
+15-64	6696-6707	tektonskima	_	B. Process[53]	_	OCCURS\_IN\_TIME[138]	_	
+15-65	6708-6717	dogodkoma	_	B. Process[53]	_	OCCURS\_IN\_TIME[138]	frame\_TIME	
+15-66	6717-6718	.	_	_	_	_	_	
+15-67	6719-6724	Daleč	_	_	_	_	_	
+15-68	6725-6732	najbolj	_	_	_	_	_	
+15-69	6733-6735	so	_	_	_	_	_	
+15-70	6736-6746	razširjene	_	_	_	_	_	
+15-71	6747-6757	sedimentne	_	D.1 Abiotic[54]	SPECIES[76]	_	_	
+15-72	6758-6764	kraške	_	D.1 Abiotic[54]	SPECIES[76]	_	_	
+15-73	6765-6772	kamnine	_	D.1 Abiotic[54]	SPECIES[76]	_	_	
+15-74	6772-6773	:	_	_	_	_	_	
+15-75	6774-6783	karbonati	_	D.1 Abiotic	_	CONTAINS[139]	_	
+15-76	6784-6785	(	_	_	_	CONTAINS[139]	_	
+15-77	6785-6792	apnenci	_	_	_	CONTAINS[139]	_	
+15-78	6792-6793	,	_	_	_	CONTAINS[139]	_	
+15-79	6794-6802	dolomiti	_	_	_	CONTAINS[139]	_	
+15-80	6803-6805	in	_	_	_	CONTAINS[139]	_	
+15-81	6806-6813	njihovi	_	_	_	CONTAINS[139]	_	
+15-82	6814-6822	klastiti	_	_	_	CONTAINS[139]	_	
+15-83	6822-6823	)	_	_	_	CONTAINS[139]	_	
+15-84	6823-6824	,	_	_	_	CONTAINS[139]	_	
+15-85	6825-6832	sulfati	_	D.1 Abiotic	_	CONTAINS[139]	_	
+15-86	6832-6833	,	_	_	_	CONTAINS[139]	_	
+15-87	6834-6841	haloidi	_	D.1 Abiotic	_	CONTAINS[139]	_	
+15-88	6841-6842	,	_	_	_	CONTAINS[139]	_	
+15-89	6843-6844	v	_	_	_	CONTAINS[139]	_	
+15-90	6845-6853	posebnih	_	_	_	CONTAINS[139]	_	
+15-91	6854-6862	razmerah	_	_	_	CONTAINS[139]	_	
+15-92	6863-6872	kremenovi	_	D.1 Abiotic[55]	_	CONTAINS[139]	_	
+15-93	6873-6883	peščenjaki	_	D.1 Abiotic[55]|D.1 Abiotic[56]	_	CONTAINS[139]	_	
+15-94	6883-6884	.	_	_	_	_	_	
+15-95	6885-6895	Metamorfne	_	A.4 Other[57]	SPECIES[77]	_	_	
+15-96	6896-6902	kraške	_	A.4 Other[57]	SPECIES[77]	_	_	
+15-97	6903-6910	kamnine	_	A.4 Other[57]	SPECIES[77]	_	_	
+15-98	6911-6913	so	_	_	_	CONTAINS[140]	_	
+15-99	6914-6922	marmorji	_	D.1 Abiotic	_	CONTAINS[140]	_	
+15-100	6922-6923	,	_	_	_	CONTAINS[140]	_	
+15-101	6924-6931	pogojno	_	_	_	CONTAINS[140]	_	
+15-102	6932-6940	kvarciti	_	D.1 Abiotic	_	CONTAINS[140]	_	
+15-103	6940-6941	;	_	_	_	_	_	
+15-104	6942-6951	magmatske	_	_	_	_	_	
+15-105	6952-6962	karbonatit	_	_	_	_	_	

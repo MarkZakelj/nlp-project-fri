@@ -1,0 +1,277 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=poroznost - Delež praznega prostora v določeni prostomini kamnine.
+1-1	0-9	poroznost	_	D.3 Property	DEFINIENDUM	_	_	
+1-2	10-11	-	_	_	_	_	_	
+1-3	12-17	Delež	_	D.3 Property	GENUS[27]	DEFINED\_AS[40]	_	
+1-4	18-26	praznega	_	D.1 Abiotic[1]	GENUS[27]	DEFINED\_AS[40]	_	
+1-5	27-35	prostora	_	D.1 Abiotic[1]	GENUS[27]	DEFINED\_AS[40]	_	
+1-6	36-37	v	_	_	_	DEFINED\_AS[40]|HAS\_LOCATION[41]	frame\_LOCATION	
+1-7	38-46	določeni	_	_	_	DEFINED\_AS[40]|HAS\_LOCATION[41]	_	
+1-8	47-57	prostomini	_	_	_	DEFINED\_AS[40]|HAS\_LOCATION[41]	_	
+1-9	58-65	kamnine	_	D.1 Abiotic	_	DEFINED\_AS[40]|HAS\_LOCATION[41]	_	
+1-10	65-66	.	_	_	_	_	_	
+
+#Text=porušena cona - Območje tektonsko pretrtih kamnin, največkrat med dvema prelomoma ter na zunanji strani zdrobljene cone.
+2-1	70-78	porušena	_	C. Geome[2]	DEFINIENDUM[28]	_	_	
+2-2	79-83	cona	_	C. Geome[2]	DEFINIENDUM[28]	_	_	
+2-3	84-85	-	_	_	_	_	_	
+2-4	86-93	Območje	_	C. Geome	GENUS	_	_	
+2-5	94-103	tektonsko	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+2-6	104-112	pretrtih	_	_	_	COMPOSITION\_MEDIUM[42]	_	
+2-7	113-119	kamnin	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[42]	_	
+2-8	119-120	,	_	_	_	_	_	
+2-9	121-131	največkrat	_	_	_	HAS\_LOCATION[43]	frame\_LOCATION[69]	
+2-10	132-135	med	_	_	_	HAS\_LOCATION[43]	frame\_LOCATION[69]	
+2-11	136-141	dvema	_	_	_	HAS\_LOCATION[43]	_	
+2-12	142-151	prelomoma	_	D.1 Abiotic	_	HAS\_LOCATION[43]	_	
+2-13	152-155	ter	_	_	_	HAS\_LOCATION[43]	_	
+2-14	156-158	na	_	_	_	HAS\_LOCATION[43]	_	
+2-15	159-166	zunanji	_	_	_	HAS\_LOCATION[43]	_	
+2-16	167-173	strani	_	_	_	HAS\_LOCATION[43]	_	
+2-17	174-184	zdrobljene	_	A.2 Underground landform[3]	_	HAS\_LOCATION[43]	_	
+2-18	185-189	cone	_	A.2 Underground landform[3]	_	HAS\_LOCATION[43]	_	
+2-19	189-190	.	_	_	_	_	_	
+
+#Text=pospešena korozija - Krajevno učinkovitejša korozija, katere učinki se pokažejo kot izrazite površinske ali podzemske reliefue oblike.
+3-1	193-202	pospešena	_	B.2 Loss[4]	DEFINIENDUM[29]	_	_	
+3-2	203-211	korozija	_	B.2 Loss[4]	DEFINIENDUM[29]	_	_	
+3-3	212-213	-	_	_	_	_	_	
+3-4	214-222	Krajevno	_	_	_	HAS\_LOCATION	_	
+3-5	223-236	učinkovitejša	_	_	_	HAS\_ATTRIBUTE	_	
+3-6	237-245	korozija	_	B.2 Loss	GENUS	_	_	
+3-7	245-246	,	_	_	_	_	_	
+3-8	247-253	katere	_	_	_	HAS\_RESULT[44]	frame\_RESULT[70]	
+3-9	254-260	učinki	_	_	_	HAS\_RESULT[44]	frame\_RESULT[70]	
+3-10	261-263	se	_	_	_	HAS\_RESULT[44]	_	
+3-11	264-272	pokažejo	_	_	_	HAS\_RESULT[44]	_	
+3-12	273-276	kot	_	_	_	HAS\_RESULT[44]	_	
+3-13	277-285	izrazite	_	_	_	HAS\_RESULT[44]	_	
+3-14	286-296	površinske	površinske oblike	D.1 Abiotic	_	HAS\_RESULT[44]	_	
+3-15	297-300	ali	_	_	_	HAS\_RESULT[44]	_	
+3-16	301-310	podzemske	_	D.1 Abiotic[5]	_	HAS\_RESULT[44]	_	
+3-17	311-319	reliefue	reliefne	D.1 Abiotic[5]	_	HAS\_RESULT[44]	_	
+3-18	320-326	oblike	_	D.1 Abiotic[5]	_	HAS\_RESULT[44]	_	
+3-19	326-327	.	_	_	_	_	_	
+
+#Text=preboj - Trenutek, ko vzdolž celotne sekvence od ponora do izvira laminarni tok preide v turbulentnega.
+4-1	330-336	preboj	_	B.4 Transformation	DEFINIENDUM	_	_	
+4-2	337-338	-	_	_	_	_	_	
+4-3	339-347	Trenutek	_	D.3 Property	GENUS	_	_	
+4-4	347-348	,	_	_	_	_	_	
+4-5	349-351	ko	_	_	_	HAS\_RESULT[45]	_	
+4-6	352-358	vzdolž	_	_	_	HAS\_RESULT[45]	_	
+4-7	359-366	celotne	_	_	_	HAS\_RESULT[45]	_	
+4-8	367-375	sekvence	_	_	_	HAS\_RESULT[45]	_	
+4-9	376-378	od	_	_	_	HAS\_RESULT[45]	_	
+4-10	379-385	ponora	_	A.3 Hydrological form	_	HAS\_RESULT[45]	_	
+4-11	386-388	do	_	_	_	HAS\_RESULT[45]	_	
+4-12	389-395	izvira	_	A.3 Hydrological form	_	HAS\_RESULT[45]	_	
+4-13	396-405	laminarni	_	D.1 Abiotic[6]	_	HAS\_RESULT[45]	_	
+4-14	406-409	tok	_	D.1 Abiotic[6]	_	HAS\_RESULT[45]	_	
+4-15	410-416	preide	_	_	_	HAS\_RESULT[45]	_	
+4-16	417-418	v	_	_	_	HAS\_RESULT[45]	_	
+4-17	419-432	turbulentnega	turbulentni tok	A.3 Hydrological form	_	HAS\_RESULT[45]	_	
+4-18	432-433	.	_	_	_	_	_	
+
+#Text=prebojni čas - Čas med začetjem in prebojem.
+5-1	436-444	prebojni	_	D.3 Property[7]	DEFINIENDUM[30]	_	_	
+5-2	445-448	čas	_	D.3 Property[7]	DEFINIENDUM[30]	_	_	
+5-3	449-450	-	_	_	_	_	_	
+5-4	451-454	Čas	_	D.3 Property	_	MEASURES	_	
+5-5	455-458	med	_	_	_	OCCURS\_IN\_TIME[46]	_	
+5-6	459-467	začetjem	_	D.3 Property	_	OCCURS\_IN\_TIME[46]	_	
+5-7	468-470	in	_	_	_	OCCURS\_IN\_TIME[46]	_	
+5-8	471-479	prebojem	_	D.3 Property	_	OCCURS\_IN\_TIME[46]	_	
+5-9	479-480	.	_	_	_	_	_	
+
+#Text=prevajanje - speleogenetska faza ko je paragenetski prag prekoračen.
+6-1	483-493	prevajanje	_	D.3 Property	DEFINIENDUM	_	_	
+6-2	494-495	-	_	_	_	_	_	
+6-3	496-510	speleogenetska	_	D.3 Property[8]	GENUS[31]	_	_	
+6-4	511-515	faza	_	D.3 Property[8]	GENUS[31]	_	_	
+6-5	516-518	ko	_	_	_	OCCURS\_IN\_TIME[47]	frame\_TIME[71]	
+6-6	519-521	je	_	_	_	OCCURS\_IN\_TIME[47]	frame\_TIME[71]	
+6-7	522-534	paragenetski	_	D.3 Property[9]	_	OCCURS\_IN\_TIME[47]	_	
+6-8	535-539	prag	_	D.3 Property[9]	_	OCCURS\_IN\_TIME[47]	_	
+6-9	540-550	prekoračen	_	_	_	OCCURS\_IN\_TIME[47]	_	
+6-10	550-551	.	_	_	_	_	_	
+
+#Text=prežeta cona - Območje speleogenetskega prostora pod gladino podtalnice. Prevaja s soseščine doteklo freatično vodo in zbira krajevne dotoke padavinske vode skozi neprežeto cono.
+7-1	554-561	prežeta	_	C. Geome[10]	DEFINIENDUM[32]	_	_	
+7-2	562-566	cona	_	C. Geome[10]	DEFINIENDUM[32]	_	_	
+7-3	567-568	-	_	_	_	_	_	
+7-4	569-576	Območje	_	_	GENUS[33]	_	_	
+7-5	577-593	speleogenetskega	_	C. Geome[11]	GENUS[33]	_	_	
+7-6	594-602	prostora	_	C. Geome[11]	GENUS[33]	_	_	
+7-7	603-606	pod	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION	
+7-8	607-614	gladino	_	D.1 Abiotic[12]	_	HAS\_LOCATION[48]	_	
+7-9	615-625	podtalnice	_	D.1 Abiotic[12]	_	HAS\_LOCATION[48]	_	
+7-10	625-626	.	_	_	_	_	_	
+7-11	627-634	Prevaja	_	_	_	HAS\_FUNCTION[49]	frame\_FUNCTION	
+7-12	635-636	s	_	_	_	HAS\_FUNCTION[49]	_	
+7-13	637-646	soseščine	_	_	_	HAS\_FUNCTION[49]	_	
+7-14	647-654	doteklo	_	_	_	HAS\_FUNCTION[49]	_	
+7-15	655-664	freatično	_	D.1 Abiotic[13]	_	HAS\_FUNCTION[49]	_	
+7-16	665-669	vodo	_	D.1 Abiotic[13]	_	HAS\_FUNCTION[49]	_	
+7-17	670-672	in	_	_	_	_	_	
+7-18	673-678	zbira	_	_	_	HAS\_FUNCTION[50]	frame\_FUNCTION	
+7-19	679-687	krajevne	_	_	_	HAS\_FUNCTION[50]	_	
+7-20	688-694	dotoke	_	B.3 Addition	_	HAS\_FUNCTION[50]	_	
+7-21	695-705	padavinske	_	D.1 Abiotic[14]	_	HAS\_FUNCTION[50]	_	
+7-22	706-710	vode	_	D.1 Abiotic[14]	_	HAS\_FUNCTION[50]	_	
+7-23	711-716	skozi	_	_	_	HAS\_FUNCTION[50]	_	
+7-24	717-726	neprežeto	_	C. Geome[15]	_	HAS\_FUNCTION[50]	_	
+7-25	727-731	cono	_	C. Geome[15]	_	HAS\_FUNCTION[50]	_	
+7-26	731-732	.	_	_	_	_	_	
+
+#Text=rast - Speleogenetska faza med prebojem in paragenetskim pragom.
+8-1	735-739	rast	_	D.3 Property	DEFINIENDUM	_	_	
+8-2	740-741	-	_	_	_	_	_	
+8-3	742-756	Speleogenetska	_	D.3 Property[16]	GENUS[34]	_	_	
+8-4	757-761	faza	_	D.3 Property[16]	GENUS[34]	_	_	
+8-5	762-765	med	_	_	_	OCCURS\_IN\_TIME[51]	frame\_TIME	
+8-6	766-774	prebojem	_	D.3 Property	_	OCCURS\_IN\_TIME[51]	_	
+8-7	775-777	in	_	_	_	OCCURS\_IN\_TIME[51]	_	
+8-8	778-791	paragenetskim	_	D.3 Property[17]	_	OCCURS\_IN\_TIME[51]	_	
+8-9	792-798	pragom	_	D.3 Property[17]	_	OCCURS\_IN\_TIME[51]	_	
+8-10	798-799	.	_	_	_	_	_	
+
+#Text=razpoka - Mehansko nastala ploskev nezveznosti v kamnini, ob kateri je prišlo le do neznatnih premikov.
+9-1	802-809	razpoka	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-2	810-811	-	_	_	_	_	_	
+9-3	812-820	Mehansko	_	_	_	HAS\_CAUSE[52]	_	
+9-4	821-828	nastala	_	_	_	HAS\_CAUSE[52]	_	
+9-5	829-836	ploskev	_	D.1 Abiotic	GENUS[35]	DEFINED\_AS[53]|HAS\_FORM[54]	_	
+9-6	837-848	nezveznosti	_	_	GENUS[35]	DEFINED\_AS[53]	_	
+9-7	849-850	v	_	_	_	DEFINED\_AS[53]|HAS\_LOCATION[55]	frame\_LOCATION	
+9-8	851-858	kamnini	_	D.1 Abiotic	_	DEFINED\_AS[53]|HAS\_LOCATION[55]	_	
+9-9	858-859	,	_	_	_	_	_	
+9-10	860-862	ob	_	_	_	HAS\_RESULT[56]	_	
+9-11	863-869	kateri	_	_	_	HAS\_RESULT[56]	_	
+9-12	870-872	je	_	_	_	HAS\_RESULT[56]	_	
+9-13	873-879	prišlo	_	_	_	HAS\_RESULT[56]	_	
+9-14	880-882	le	_	_	_	HAS\_RESULT[56]	_	
+9-15	883-885	do	_	_	_	HAS\_RESULT[56]	_	
+9-16	886-895	neznatnih	_	_	_	HAS\_RESULT[56]	_	
+9-17	896-904	premikov	_	B.1 Movement	_	HAS\_RESULT[56]	_	
+9-18	904-905	.	_	_	_	_	_	
+
+#Text=razpoklinska poroznost - Hidrogeološki izraz. Delež praznega prostora v določeni prostomini kamnine, ki ga prispevajo odprte razpoke in lezike.
+10-1	908-920	razpoklinska	_	D.3 Property[18]	DEFINIENDUM[36]	_	_	
+10-2	921-930	poroznost	_	D.3 Property[18]	DEFINIENDUM[36]	_	_	
+10-3	931-932	-	_	_	_	_	_	
+10-4	933-946	Hidrogeološki	_	_	_	_	_	
+10-5	947-952	izraz	_	_	_	_	_	
+10-6	952-953	.	_	_	_	_	_	
+10-7	954-959	Delež	_	_	_	DEFINED\_AS[57]	frame\_DEFINED\_AS	
+10-8	960-968	praznega	_	D.1 Abiotic[19]	_	DEFINED\_AS[57]	_	
+10-9	969-977	prostora	_	D.1 Abiotic[19]	_	DEFINED\_AS[57]	_	
+10-10	978-979	v	_	_	_	DEFINED\_AS[57]|HAS\_LOCATION[58]	frame\_LOCATION	
+10-11	980-988	določeni	_	_	_	DEFINED\_AS[57]|HAS\_LOCATION[58]	_	
+10-12	989-999	prostomini	_	D.3 Property	_	DEFINED\_AS[57]|HAS\_LOCATION[58]	_	
+10-13	1000-1007	kamnine	_	D.1 Abiotic	_	DEFINED\_AS[57]|HAS\_LOCATION[58]	_	
+10-14	1007-1008	,	_	_	_	_	_	
+10-15	1009-1011	ki	_	_	_	HAS\_CAUSE[59]	frame\_CAUSE[72]	
+10-16	1012-1014	ga	_	_	_	HAS\_CAUSE[59]	frame\_CAUSE[72]	
+10-17	1015-1025	prispevajo	_	_	_	HAS\_CAUSE[59]	frame\_CAUSE[72]	
+10-18	1026-1032	odprte	_	_	_	HAS\_CAUSE[59]	_	
+10-19	1033-1040	razpoke	_	D.1 Abiotic	_	HAS\_CAUSE[59]	_	
+10-20	1041-1043	in	_	_	_	HAS\_CAUSE[59]	_	
+10-21	1044-1050	lezike	_	D.1 Abiotic	_	HAS\_CAUSE[59]	_	
+10-22	1050-1051	.	_	_	_	_	_	
+
+#Text=razpoklinska cona - Bolj ali manj gost, do več 10O m širok, usmerjen sistem razpok. Premiki ob razpokah so neznatni ali zelo majhni.
+11-1	1054-1066	razpoklinska	_	A.1 Surface landform[20]	DEFINIENDUM[37]	_	_	
+11-2	1067-1071	cona	_	A.1 Surface landform[20]	DEFINIENDUM[37]	_	_	
+11-3	1072-1073	-	_	_	_	_	_	
+11-4	1074-1078	Bolj	_	_	_	HAS\_FORM[60]	_	
+11-5	1079-1082	ali	_	_	_	HAS\_FORM[60]	_	
+11-6	1083-1087	manj	_	_	_	HAS\_FORM[60]	_	
+11-7	1088-1092	gost	_	_	_	HAS\_FORM[60]	_	
+11-8	1092-1093	,	_	_	_	_	_	
+11-9	1094-1096	do	_	_	_	HAS\_SIZE[61]	_	
+11-10	1097-1100	več	_	_	_	HAS\_SIZE[61]	_	
+11-11	1101-1104	10O	_	_	_	HAS\_SIZE[61]	_	
+11-12	1105-1106	m	_	_	_	HAS\_SIZE[61]	_	
+11-13	1107-1112	širok	_	_	_	HAS\_SIZE[61]	frame\_SIZE	
+11-14	1112-1113	,	_	_	_	_	_	
+11-15	1114-1122	usmerjen	_	_	_	HAS\_FORM[62]	_	
+11-16	1123-1129	sistem	_	D.1 Abiotic[21]	_	HAS\_FORM[62]	_	
+11-17	1130-1136	razpok	_	D.1 Abiotic[21]	_	HAS\_FORM[62]	_	
+11-18	1136-1137	.	_	_	_	_	_	
+11-19	1138-1145	Premiki	_	B.1 Movement	_	HAS\_ATTRIBUTE[63]	_	
+11-20	1146-1148	ob	_	_	_	HAS\_ATTRIBUTE[63]	_	
+11-21	1149-1157	razpokah	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[63]	_	
+11-22	1158-1160	so	_	_	_	HAS\_ATTRIBUTE[63]	_	
+11-23	1161-1169	neznatni	_	_	_	HAS\_ATTRIBUTE[63]	_	
+11-24	1170-1173	ali	_	_	_	_	_	
+11-25	1174-1178	zelo	_	_	_	_	_	
+11-26	1179-1185	majhni	_	_	_	_	_	
+11-27	1185-1186	.	_	_	_	_	_	
+
+#Text=rov - Jamski kanal brez izrazitih prepadnih odsekov, prehoden človeku. Izvor ni pomemben.
+12-1	1189-1192	rov	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1193-1194	-	_	_	_	_	_	
+12-3	1195-1201	Jamski	_	A.2 Underground landform[22]	GENUS[38]	_	_	
+12-4	1202-1207	kanal	_	A.2 Underground landform[22]|A.2 Underground landform[23]	GENUS[38]	_	_	
+12-5	1208-1212	brez	_	_	_	HAS\_FORM[64]	frame\_FORM	
+12-6	1213-1222	izrazitih	_	_	_	HAS\_FORM[64]	_	
+12-7	1223-1232	prepadnih	_	_	_	HAS\_FORM[64]	_	
+12-8	1233-1240	odsekov	_	_	_	HAS\_FORM[64]	_	
+12-9	1240-1241	,	_	_	_	_	_	
+12-10	1242-1250	prehoden	_	D.3 Property	_	HAS\_SIZE[65]	_	
+12-11	1251-1258	človeku	_	_	_	HAS\_SIZE[65]	_	
+12-12	1258-1259	.	_	_	_	_	_	
+12-13	1260-1265	Izvor	_	_	_	_	_	
+12-14	1266-1268	ni	_	_	_	_	_	
+12-15	1269-1277	pomemben	_	_	_	_	_	
+12-16	1277-1278	.	_	_	_	_	_	
+
+#Text=sifon - Kolenasta poglobitev jamskega dna, kjer naj bi na krajšo razdaljo podzemska reka tekla ob pritisnjeni gladini.
+13-1	1281-1286	sifon	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-2	1287-1288	-	_	_	_	_	_	
+13-3	1289-1298	Kolenasta	_	_	_	HAS\_FORM	_	
+13-4	1299-1309	poglobitev	_	B. Process	GENUS	_	_	
+13-5	1310-1318	jamskega	_	A.2 Underground landform[24]	_	HAS\_LOCATION[66]	_	
+13-6	1319-1322	dna	_	A.2 Underground landform[24]	_	HAS\_LOCATION[66]	_	
+13-7	1322-1323	,	_	_	_	HAS\_LOCATION[66]	_	
+13-8	1324-1328	kjer	_	_	_	HAS\_LOCATION[66]	frame\_LOCATION	
+13-9	1329-1332	naj	_	_	_	HAS\_LOCATION[66]	frame\_DEFINED\_AS[73]	
+13-10	1333-1335	bi	_	_	_	HAS\_LOCATION[66]	frame\_DEFINED\_AS[73]	
+13-11	1336-1338	na	_	_	_	HAS\_LOCATION[66]	_	
+13-12	1339-1345	krajšo	_	_	_	HAS\_LOCATION[66]	_	
+13-13	1346-1354	razdaljo	_	_	_	HAS\_LOCATION[66]	_	
+13-14	1355-1364	podzemska	_	A.3 Hydrological form[25]	_	HAS\_LOCATION[66]	_	
+13-15	1365-1369	reka	_	A.3 Hydrological form[25]	_	HAS\_LOCATION[66]	_	
+13-16	1370-1375	tekla	_	_	_	HAS\_LOCATION[66]	_	
+13-17	1376-1378	ob	_	_	_	HAS\_LOCATION[66]	_	
+13-18	1379-1390	pritisnjeni	_	_	_	HAS\_LOCATION[66]	_	
+13-19	1391-1398	gladini	_	D.1 Abiotic	_	HAS\_LOCATION[66]	_	
+13-20	1398-1399	.	_	_	_	_	_	
+
+#Text=snovanje - Speleogenetska faza med začetjem in prebojem. V času snovanja je tok skozi kanal laminaren.
+14-1	1402-1410	snovanje	_	B. Process	DEFINIENDUM	_	_	
+14-2	1411-1412	-	_	_	_	_	_	
+14-3	1413-1427	Speleogenetska	_	D.3 Property[26]	GENUS[39]	_	_	
+14-4	1428-1432	faza	_	D.3 Property[26]	GENUS[39]	_	_	
+14-5	1433-1436	med	_	_	_	OCCURS\_IN\_TIME[67]	frame\_TIME	
+14-6	1437-1445	začetjem	_	_	_	OCCURS\_IN\_TIME[67]	_	
+14-7	1446-1448	in	_	_	_	OCCURS\_IN\_TIME[67]	_	
+14-8	1449-1457	prebojem	_	_	_	OCCURS\_IN\_TIME[67]	_	
+14-9	1457-1458	.	_	_	_	_	_	
+14-10	1459-1460	V	_	_	_	_	_	
+14-11	1461-1465	času	_	_	_	_	_	
+14-12	1466-1474	snovanja	_	_	_	_	_	
+14-13	1475-1477	je	_	_	_	HAS\_ATTRIBUTE[68]	_	
+14-14	1478-1481	tok	_	B.1 Movement	_	HAS\_ATTRIBUTE[68]	_	
+14-15	1482-1487	skozi	_	_	_	HAS\_ATTRIBUTE[68]	_	
+14-16	1488-1493	kanal	_	A.2 Underground landform	_	HAS\_ATTRIBUTE[68]	_	
+14-17	1494-1503	laminaren	_	D.3 Property	_	HAS\_ATTRIBUTE[68]	_	
+14-18	1503-1504	.	_	_	_	_	_	

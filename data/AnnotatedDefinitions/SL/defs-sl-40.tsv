@@ -1,0 +1,464 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=srednejevropski kras, kras Jure, moravski tip: Kras s suhimi dolinami na planotastem nizkem reliefu in z redkimi drugimi kraškimi pojavi na površju.
+1-1	0-15	srednejevropski	_	D.3.1 Geolocation[1]	DEFINIENDUM[43]	_	_	
+1-2	16-20	kras	_	D.3.1 Geolocation[1]	DEFINIENDUM[43]	_	_	
+1-3	20-21	,	_	_	_	_	_	
+1-4	22-26	kras	_	D.3.1 Geolocation[2]	DEFINIENDUM[44]	_	_	
+1-5	27-31	Jure	_	D.3.1 Geolocation[2]	DEFINIENDUM[44]	_	_	
+1-6	31-32	,	_	_	_	_	_	
+1-7	33-41	moravski	_	C. Geome[3]	DEFINIENDUM[45]	_	_	
+1-8	42-45	tip	_	C. Geome[3]	DEFINIENDUM[45]	_	_	
+1-9	45-46	:	_	_	_	_	_	
+1-10	47-51	Kras	_	C. Geome	GENUS	_	_	
+1-11	52-53	s	_	_	_	CONTAINS[68]	frame\_CONTAINS	
+1-12	54-60	suhimi	_	A.1 Surface landform[4]	_	CONTAINS[68]	_	
+1-13	61-69	dolinami	_	A.1 Surface landform[4]	_	CONTAINS[68]	_	
+1-14	70-72	na	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION	
+1-15	73-84	planotastem	_	_	_	HAS\_LOCATION[69]	_	
+1-16	85-91	nizkem	_	_	_	HAS\_LOCATION[69]	_	
+1-17	92-99	reliefu	_	D.1 Abiotic	_	HAS\_LOCATION[69]	_	
+1-18	100-102	in	_	_	_	_	_	
+1-19	103-104	z	_	_	_	CONTAINS[70]	frame\_CONTAINS	
+1-20	105-112	redkimi	_	_	_	CONTAINS[70]	_	
+1-21	113-120	drugimi	_	_	_	CONTAINS[70]	_	
+1-22	121-129	kraškimi	_	_	_	CONTAINS[70]	_	
+1-23	130-136	pojavi	_	_	_	CONTAINS[70]	_	
+1-24	137-139	na	_	_	_	CONTAINS[70]	_	
+1-25	140-147	površju	_	D.1 Abiotic	_	CONTAINS[70]	_	
+1-26	147-148	.	_	_	_	_	_	
+
+#Text=mediteranski kras, sredozemski kras: Kot geografska oznaka pomeni kras v Sredozemlju in v njegovem obodu. Kot klimatogenetska oznaka pomeni kras, ki nastaja v pogojih sredozemske klime.
+2-1	153-165	mediteranski	_	C. Geome[5]	DEFINIENDUM[46]	_	_	
+2-2	166-170	kras	_	C. Geome[5]	DEFINIENDUM[46]	_	_	
+2-3	170-171	,	_	_	_	_	_	
+2-4	172-183	sredozemski	_	C. Geome[6]	DEFINIENDUM[47]	_	_	
+2-5	184-188	kras	_	C. Geome[6]	DEFINIENDUM[47]	_	_	
+2-6	188-189	:	_	_	_	_	_	
+2-7	190-193	Kot	_	_	_	_	_	
+2-8	194-204	geografska	_	_	_	_	_	
+2-9	205-211	oznaka	_	_	_	_	_	
+2-10	212-218	pomeni	_	_	DEFINITOR	_	_	
+2-11	219-223	kras	_	C. Geome	GENUS	_	_	
+2-12	224-225	v	_	_	_	HAS\_POSITION[71]	frame\_POSITION	
+2-13	226-237	Sredozemlju	_	D.3.1 Geolocation	_	HAS\_POSITION[71]	_	
+2-14	238-240	in	_	_	_	HAS\_POSITION[71]	_	
+2-15	241-242	v	_	_	_	HAS\_POSITION[71]	frame\_POSITION	
+2-16	243-251	njegovem	_	_	_	HAS\_POSITION[71]	_	
+2-17	252-257	obodu	_	_	_	HAS\_POSITION[71]	_	
+2-18	257-258	.	_	_	_	_	_	
+2-19	259-262	Kot	_	_	_	_	_	
+2-20	263-278	klimatogenetska	_	_	_	_	_	
+2-21	279-285	oznaka	_	_	_	_	_	
+2-22	286-292	pomeni	_	_	DEFINITOR	_	_	
+2-23	293-297	kras	_	C. Geome	GENUS	_	_	
+2-24	297-298	,	_	_	_	_	_	
+2-25	299-301	ki	_	_	_	HAS\_CAUSE[72]	frame\_CAUSE[99]	
+2-26	302-309	nastaja	_	_	_	HAS\_CAUSE[72]	frame\_CAUSE[99]	
+2-27	310-311	v	_	_	_	HAS\_CAUSE[72]	frame\_CAUSE[99]	
+2-28	312-319	pogojih	_	_	_	HAS\_CAUSE[72]	_	
+2-29	320-331	sredozemske	_	D.3 Property[7]	_	HAS\_CAUSE[72]	_	
+2-30	332-337	klime	_	D.3 Property[7]	_	HAS\_CAUSE[72]	_	
+2-31	337-338	.	_	_	_	_	_	
+
+#Text=subnivalni kras: Kras v višinskem ali subarktičnem pasu, kjer sneg kot očitni morfogenetski dejavnik skopni le čez poletje, tudi pas pod nivalnim krasom ali gozdnati pas, kjer je v glacialnih dobah nastal nivalni kras.
+3-1	343-353	subnivalni	_	C. Geome[8]	DEFINIENDUM[48]	_	_	
+3-2	354-358	kras	_	C. Geome[8]	DEFINIENDUM[48]	_	_	
+3-3	358-359	:	_	_	_	_	_	
+3-4	360-364	Kras	_	C. Geome	GENUS	_	_	
+3-5	365-366	v	_	_	_	HAS\_LOCATION[73]	_	
+3-6	367-376	višinskem	višinskem pasu	C. Geome	_	HAS\_LOCATION[73]	_	
+3-7	377-380	ali	_	_	_	HAS\_LOCATION[73]	_	
+3-8	381-393	subarktičnem	_	C. Geome[9]	_	HAS\_LOCATION[73]	_	
+3-9	394-398	pasu	_	C. Geome[9]	_	HAS\_LOCATION[73]	_	
+3-10	398-399	,	_	_	_	_	_	
+3-11	400-404	kjer	_	_	_	_	_	
+3-12	405-409	sneg	_	D.1 Abiotic	_	HAS\_CAUSE[74]	_	
+3-13	410-413	kot	_	_	_	HAS\_CAUSE[74]	_	
+3-14	414-420	očitni	_	_	_	HAS\_CAUSE[74]	_	
+3-15	421-434	morfogenetski	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[100]	
+3-16	435-443	dejavnik	_	_	_	HAS\_CAUSE[74]	frame\_CAUSE[100]	
+3-17	444-450	skopni	_	B.2 Loss	_	OCCURS\_IN\_TIME[75]	_	
+3-18	451-453	le	_	_	_	OCCURS\_IN\_TIME[75]	_	
+3-19	454-457	čez	_	_	_	OCCURS\_IN\_TIME[75]	_	
+3-20	458-465	poletje	_	D.1 Abiotic	_	OCCURS\_IN\_TIME[75]	_	
+3-21	465-466	,	_	_	_	_	_	
+3-22	467-471	tudi	_	_	_	_	_	
+3-23	472-475	pas	_	D.1 Abiotic	_	_	_	
+3-24	476-479	pod	_	_	_	HAS\_LOCATION[76]	frame\_LOCATION	
+3-25	480-488	nivalnim	_	C. Geome[10]	_	HAS\_LOCATION[76]	_	
+3-26	489-495	krasom	_	C. Geome[10]	_	HAS\_LOCATION[76]	_	
+3-27	496-499	ali	_	_	_	_	_	
+3-28	500-508	gozdnati	_	C. Geome[11]	_	_	_	
+3-29	509-512	pas	_	C. Geome[11]	_	_	_	
+3-30	512-513	,	_	_	_	_	_	
+3-31	514-518	kjer	_	_	_	HAS\_CAUSE[77]	frame\_CAUSE[101]	
+3-32	519-521	je	_	_	_	HAS\_CAUSE[77]	frame\_CAUSE[101]	
+3-33	522-523	v	_	_	_	HAS\_CAUSE[77]	_	
+3-34	524-534	glacialnih	_	D.1 Abiotic[12]	_	HAS\_CAUSE[77]	_	
+3-35	535-540	dobah	_	D.1 Abiotic[12]	_	HAS\_CAUSE[77]	_	
+3-36	541-547	nastal	_	_	_	HAS\_CAUSE[77]	_	
+3-37	548-555	nivalni	_	C. Geome[13]	_	HAS\_CAUSE[77]	_	
+3-38	556-560	kras	_	C. Geome[13]	_	HAS\_CAUSE[77]	_	
+3-39	560-561	.	_	_	_	_	_	
+
+#Text=subpolarni kras, subarktični kras: Kras, nastal v subpolarni (subarktični) klimi.
+4-1	566-576	subpolarni	_	C. Geome[14]	DEFINIENDUM[49]	_	_	
+4-2	577-581	kras	_	C. Geome[14]	DEFINIENDUM[49]	_	_	
+4-3	581-582	,	_	_	_	_	_	
+4-4	583-594	subarktični	_	C. Geome[15]	DEFINIENDUM[50]	_	_	
+4-5	595-599	kras	_	C. Geome[15]	DEFINIENDUM[50]	_	_	
+4-6	599-600	:	_	_	_	_	_	
+4-7	601-605	Kras	_	C. Geome	GENUS	_	_	
+4-8	605-606	,	_	_	_	_	_	
+4-9	607-613	nastal	_	_	_	HAS\_CAUSE[78]	frame\_CAUSE[102]	
+4-10	614-615	v	_	_	_	HAS\_CAUSE[78]	frame\_CAUSE[102]	
+4-11	616-626	subpolarni	_	D.3 Property[16]	_	HAS\_CAUSE[78]	_	
+4-12	627-628	(	_	D.3 Property[16]	_	HAS\_CAUSE[78]	_	
+4-13	628-639	subarktični	_	D.3 Property[16]	_	HAS\_CAUSE[78]	_	
+4-14	639-640	)	_	D.3 Property[16]	_	HAS\_CAUSE[78]	_	
+4-15	641-646	klimi	_	D.3 Property[16]	_	HAS\_CAUSE[78]	_	
+4-16	646-647	.	_	_	_	_	_	
+
+#Text=tropski kras: Kras, nastal v trajno ali sezonsko vlažni tropski klimi. V starejši literaturi sinonim za Kegelkarst. Značilne zanj so strme vzpetine (stogi, stolpi).
+5-1	652-659	tropski	_	C. Geome[17]	DEFINIENDUM[51]	_	_	
+5-2	660-664	kras	_	C. Geome[17]	DEFINIENDUM[51]	_	_	
+5-3	664-665	:	_	_	_	_	_	
+5-4	666-670	Kras	_	C. Geome	GENUS	_	_	
+5-5	670-671	,	_	_	_	_	_	
+5-6	672-678	nastal	_	_	_	HAS\_CAUSE[79]	frame\_CAUSE[103]	
+5-7	679-680	v	_	_	_	HAS\_CAUSE[79]	frame\_CAUSE[103]	
+5-8	681-687	trajno	trajno vlažni tropski klimi	_	_	HAS\_CAUSE[79]	_	
+5-9	688-691	ali	_	_	_	HAS\_CAUSE[79]	_	
+5-10	692-700	sezonsko	_	_	_	HAS\_CAUSE[79]	_	
+5-11	701-707	vlažni	_	_	_	HAS\_CAUSE[79]	_	
+5-12	708-715	tropski	_	C. Geome[18]	_	HAS\_CAUSE[79]	_	
+5-13	716-721	klimi	_	C. Geome[18]	_	HAS\_CAUSE[79]	_	
+5-14	721-722	.	_	_	_	_	_	
+5-15	723-724	V	_	_	_	_	_	
+5-16	725-733	starejši	_	_	_	_	_	
+5-17	734-744	literaturi	_	_	_	_	_	
+5-18	745-752	sinonim	_	_	_	_	_	
+5-19	753-755	za	_	_	_	_	_	
+5-20	756-766	Kegelkarst	_	C. Geome	SPECIES	_	_	
+5-21	766-767	.	_	_	_	_	_	
+5-22	768-776	Značilne	_	_	_	CONTAINS[80]	frame\_CONTAINS	
+5-23	777-781	zanj	_	_	_	CONTAINS[80]	_	
+5-24	782-784	so	_	_	_	CONTAINS[80]	_	
+5-25	785-790	strme	_	_	_	CONTAINS[80]	_	
+5-26	791-799	vzpetine	_	D.1 Abiotic	_	CONTAINS[80]	_	
+5-27	800-801	(	_	_	_	CONTAINS[80]	_	
+5-28	801-806	stogi	_	D.1 Abiotic	_	CONTAINS[80]	_	
+5-29	806-807	,	_	_	_	CONTAINS[80]	_	
+5-30	808-814	stolpi	_	D.1 Abiotic	_	CONTAINS[80]	_	
+5-31	814-815	)	_	_	_	CONTAINS[80]	_	
+5-32	815-816	.	_	_	_	_	_	
+
+#Text=goli kras:. Kras, katerega površje je po veliki večini kamnito. V rabi je tudi pojmovanje, da je goli kras ozemlje brez zelenja ali kamnito ozemlje brez zelenja.
+6-1	821-825	goli	_	C. Geome[19]	DEFINIENDUM[52]	_	_	
+6-2	826-830	kras	_	C. Geome[19]	DEFINIENDUM[52]	_	_	
+6-3	830-831	:	_	_	_	_	_	
+6-4	831-832	.	_	_	_	_	_	
+6-5	833-837	Kras	_	C. Geome	GENUS	_	_	
+6-6	837-838	,	_	_	_	_	_	
+6-7	839-847	katerega	_	_	_	COMPOSITION\_MEDIUM[81]	_	
+6-8	848-855	površje	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[81]	_	
+6-9	856-858	je	_	_	_	COMPOSITION\_MEDIUM[81]	_	
+6-10	859-861	po	_	_	_	COMPOSITION\_MEDIUM[81]	_	
+6-11	862-868	veliki	_	_	_	COMPOSITION\_MEDIUM[81]	_	
+6-12	869-875	večini	_	_	_	COMPOSITION\_MEDIUM[81]	_	
+6-13	876-883	kamnito	_	_	_	COMPOSITION\_MEDIUM[81]	_	
+6-14	883-884	.	_	_	_	_	_	
+6-15	885-886	V	_	_	_	_	_	
+6-16	887-891	rabi	_	_	_	_	_	
+6-17	892-894	je	_	_	_	_	_	
+6-18	895-899	tudi	_	_	_	_	_	
+6-19	900-910	pojmovanje	_	_	_	_	_	
+6-20	910-911	,	_	_	_	_	_	
+6-21	912-914	da	_	_	_	_	_	
+6-22	915-917	je	_	_	_	_	_	
+6-23	918-922	goli	_	C. Geome[20]	_	_	_	
+6-24	923-927	kras	_	C. Geome[20]	_	_	_	
+6-25	928-935	ozemlje	_	D.1 Abiotic	GENUS	DEFINED\_AS[82]	_	
+6-26	936-940	brez	_	_	_	DEFINED\_AS[82]	_	
+6-27	941-948	zelenja	_	D.2 Biotic	_	DEFINED\_AS[82]	_	
+6-28	949-952	ali	_	_	_	DEFINED\_AS[82]	_	
+6-29	953-960	kamnito	_	_	GENUS[53]	DEFINED\_AS[82]	_	
+6-30	961-968	ozemlje	_	D.1 Abiotic	GENUS[53]	DEFINED\_AS[82]	_	
+6-31	969-973	brez	_	_	_	DEFINED\_AS[82]	_	
+6-32	974-981	zelenja	_	D.2 Biotic	_	DEFINED\_AS[82]	_	
+6-33	981-982	.	_	_	_	_	_	
+
+#Text=pokriti kras: Kras, katerega površje po veliki večini pokriva zemlja oz. preperelina.
+7-1	987-994	pokriti	_	C. Geome[21]	DEFINIENDUM[54]	_	_	
+7-2	995-999	kras	_	C. Geome[21]	DEFINIENDUM[54]	_	_	
+7-3	999-1000	:	_	_	_	_	_	
+7-4	1001-1005	Kras	_	C. Geome	GENUS	_	_	
+7-5	1005-1006	,	_	_	_	_	_	
+7-6	1007-1015	katerega	_	_	_	COMPOSITION\_MEDIUM[83]	_	
+7-7	1016-1023	površje	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[83]	_	
+7-8	1024-1026	po	_	_	_	COMPOSITION\_MEDIUM[83]	_	
+7-9	1027-1033	veliki	_	_	_	COMPOSITION\_MEDIUM[83]	_	
+7-10	1034-1040	večini	_	_	_	COMPOSITION\_MEDIUM[83]	_	
+7-11	1041-1048	pokriva	_	_	_	COMPOSITION\_MEDIUM[83]	frame\_COMPOSITION	
+7-12	1049-1055	zemlja	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[83]	_	
+7-13	1056-1058	oz	_	_	_	COMPOSITION\_MEDIUM[83]	_	
+7-14	1058-1059	.	_	_	_	COMPOSITION\_MEDIUM[83]	_	
+7-15	1060-1071	preperelina	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[83]	_	
+7-16	1071-1072	.	_	_	_	_	_	
+
+#Text=polgoli kras, polpokriti kras: Kras, kjer se prepletajo gole in pokrite kraške površine. Prehodna oblika med golim in pokritim krasom.
+8-1	1077-1084	polgoli	_	C. Geome[22]	DEFINIENDUM[55]	_	_	
+8-2	1085-1089	kras	_	C. Geome[22]	DEFINIENDUM[55]	_	_	
+8-3	1089-1090	,	_	_	_	_	_	
+8-4	1091-1101	polpokriti	_	C. Geome[23]	DEFINIENDUM[56]	_	_	
+8-5	1102-1106	kras	_	C. Geome[23]	DEFINIENDUM[56]	_	_	
+8-6	1106-1107	:	_	_	_	_	_	
+8-7	1108-1112	Kras	_	C. Geome	GENUS	_	_	
+8-8	1112-1113	,	_	_	_	_	_	
+8-9	1114-1118	kjer	_	_	_	_	_	
+8-10	1119-1121	se	_	_	_	CONTAINS[84]	_	
+8-11	1122-1132	prepletajo	_	_	_	CONTAINS[84]	_	
+8-12	1133-1137	gole	gola kraška površina	D.1 Abiotic	_	CONTAINS[84]	_	
+8-13	1138-1140	in	_	_	_	CONTAINS[84]	_	
+8-14	1141-1148	pokrite	_	_	_	CONTAINS[84]	_	
+8-15	1149-1155	kraške	_	D.1 Abiotic[24]	_	CONTAINS[84]	_	
+8-16	1156-1164	površine	_	D.1 Abiotic[24]	_	CONTAINS[84]	_	
+8-17	1164-1165	.	_	_	_	_	_	
+8-18	1166-1174	Prehodna	_	_	_	DEFINED\_AS[85]	_	
+8-19	1175-1181	oblika	_	_	_	DEFINED\_AS[85]	_	
+8-20	1182-1185	med	_	_	_	DEFINED\_AS[85]	_	
+8-21	1186-1191	golim	goli kras	C. Geome	_	DEFINED\_AS[85]	_	
+8-22	1192-1194	in	_	_	_	DEFINED\_AS[85]	_	
+8-23	1195-1203	pokritim	_	C. Geome[25]	_	DEFINED\_AS[85]	_	
+8-24	1204-1210	krasom	_	C. Geome[25]	_	DEFINED\_AS[85]	_	
+8-25	1210-1211	.	_	_	_	_	_	
+
+#Text=laštasti kras: Posebna oblika golega, običajno visokogorskega krasa, kjer so lašti (gl. lašt) značilne površinske oblike.
+9-1	1216-1224	laštasti	_	C. Geome[26]	DEFINIENDUM[57]	_	_	
+9-2	1225-1229	kras	_	C. Geome[26]	DEFINIENDUM[57]	_	_	
+9-3	1229-1230	:	_	_	_	_	_	
+9-4	1231-1238	Posebna	_	_	DEFINITOR[58]	_	_	
+9-5	1239-1245	oblika	_	_	DEFINITOR[58]	_	_	
+9-6	1246-1252	golega	goli kras	C. Geome	_	_	_	
+9-7	1252-1253	,	_	_	_	_	_	
+9-8	1254-1262	običajno	_	_	_	_	_	
+9-9	1263-1277	visokogorskega	_	C. Geome[27]	_	_	_	
+9-10	1278-1283	krasa	_	C. Geome[27]	GENUS	_	_	
+9-11	1283-1284	,	_	_	_	_	_	
+9-12	1285-1289	kjer	_	_	_	CONTAINS[86]	_	
+9-13	1290-1292	so	_	_	_	CONTAINS[86]	frame\_CONTAINS	
+9-14	1293-1298	lašti	_	A.1 Surface landform	_	CONTAINS[86]	_	
+9-15	1299-1300	(	_	_	_	CONTAINS[86]	_	
+9-16	1300-1302	gl	_	_	_	CONTAINS[86]	_	
+9-17	1302-1303	.	_	_	_	CONTAINS[86]	_	
+9-18	1304-1308	lašt	_	_	_	CONTAINS[86]	_	
+9-19	1308-1309	)	_	_	_	CONTAINS[86]	_	
+9-20	1310-1318	značilne	_	_	_	CONTAINS[86]	frame\_CONTAINS	
+9-21	1319-1329	površinske	_	_	_	CONTAINS[86]	_	
+9-22	1330-1336	oblike	_	_	_	CONTAINS[86]	_	
+9-23	1336-1337	.	_	_	_	_	_	
+
+#Text=čokati kras: Polpokriti kras, kjer molijo na površje čokati kamni, visoki do enega metra in več.
+10-1	1342-1348	čokati	_	C. Geome[28]	DEFINIENDUM[59]	_	_	
+10-2	1349-1353	kras	_	C. Geome[28]	DEFINIENDUM[59]	_	_	
+10-3	1353-1354	:	_	_	_	_	_	
+10-4	1355-1365	Polpokriti	_	C. Geome[29]	GENUS[60]	_	_	
+10-5	1366-1370	kras	_	C. Geome[29]	GENUS[60]	_	_	
+10-6	1370-1371	,	_	_	_	_	_	
+10-7	1372-1376	kjer	_	_	_	HAS\_FORM[87]	frame\_FORM[104]	
+10-8	1377-1383	molijo	_	_	_	HAS\_FORM[87]	frame\_FORM[104]	
+10-9	1384-1386	na	_	_	_	HAS\_FORM[87]	frame\_FORM[104]	
+10-10	1387-1394	površje	_	D.1 Abiotic	_	HAS\_FORM[87]	frame\_FORM[104]	
+10-11	1395-1401	čokati	_	_	_	HAS\_FORM[87]	_	
+10-12	1402-1407	kamni	_	D.1 Abiotic	_	HAS\_FORM[87]	_	
+10-13	1407-1408	,	_	_	_	HAS\_FORM[87]	_	
+10-14	1409-1415	visoki	_	_	_	HAS\_FORM[87]	_	
+10-15	1416-1418	do	_	_	_	HAS\_FORM[87]	_	
+10-16	1419-1424	enega	_	_	_	HAS\_FORM[87]	_	
+10-17	1425-1430	metra	_	_	_	HAS\_FORM[87]	_	
+10-18	1431-1433	in	_	_	_	HAS\_FORM[87]	_	
+10-19	1434-1437	več	_	_	_	HAS\_FORM[87]	_	
+10-20	1437-1438	.	_	_	_	_	_	
+
+#Text=kozavi kras: Kras s tako gostimi vrtačami, da spominja na kožo človeka, ki je prebolel koze.
+11-1	1443-1449	kozavi	_	C. Geome[30]	DEFINIENDUM[61]	_	_	
+11-2	1450-1454	kras	_	C. Geome[30]	DEFINIENDUM[61]	_	_	
+11-3	1454-1455	:	_	_	_	_	_	
+11-4	1456-1460	Kras	_	C. Geome	GENUS	_	_	
+11-5	1461-1462	s	_	_	_	CONTAINS[88]	_	
+11-6	1463-1467	tako	_	_	_	CONTAINS[88]	_	
+11-7	1468-1475	gostimi	_	_	_	CONTAINS[88]	_	
+11-8	1476-1484	vrtačami	_	A.1 Surface landform	_	CONTAINS[88]	_	
+11-9	1484-1485	,	_	_	_	_	_	
+11-10	1486-1488	da	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-11	1489-1497	spominja	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-12	1498-1500	na	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-13	1501-1505	kožo	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-14	1506-1513	človeka	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-15	1513-1514	,	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-16	1515-1517	ki	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-17	1518-1520	je	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-18	1521-1529	prebolel	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-19	1530-1534	koze	_	_	_	HAS\_ATTRIBUTE[89]	_	
+11-20	1534-1535	.	_	_	_	_	_	
+
+#Text=poligonalni kras: Kras, kjer so kraške kotanje, nastale z zraščanjem vrtač, iz zraka vidne kot poligonalna mreža. Pogojen je s “parketnim” razporedom tektonskih prepok. Pogost v tropskem krasu.
+12-1	1540-1551	poligonalni	_	C. Geome[31]	DEFINIENDUM[62]	_	_	
+12-2	1552-1556	kras	_	C. Geome[31]	DEFINIENDUM[62]	_	_	
+12-3	1556-1557	:	_	_	_	_	_	
+12-4	1558-1562	Kras	_	C. Geome	GENUS	_	_	
+12-5	1562-1563	,	_	_	_	_	_	
+12-6	1564-1568	kjer	_	_	_	HAS\_FORM[90]	_	
+12-7	1569-1571	so	_	_	_	HAS\_FORM[90]	_	
+12-8	1572-1578	kraške	_	A.1 Surface landform[32]	_	HAS\_FORM[90]	_	
+12-9	1579-1586	kotanje	_	A.1 Surface landform[32]	_	HAS\_FORM[90]	_	
+12-10	1586-1587	,	_	_	_	HAS\_FORM[90]	_	
+12-11	1588-1595	nastale	_	_	_	HAS\_FORM[90]	_	
+12-12	1596-1597	z	_	_	_	HAS\_FORM[90]	_	
+12-13	1598-1608	zraščanjem	_	B.1 Movement	_	HAS\_FORM[90]	_	
+12-14	1609-1614	vrtač	_	A.1 Surface landform	_	HAS\_FORM[90]	_	
+12-15	1614-1615	,	_	_	_	HAS\_FORM[90]	_	
+12-16	1616-1618	iz	_	_	_	HAS\_FORM[90]	_	
+12-17	1619-1624	zraka	_	_	_	HAS\_FORM[90]	_	
+12-18	1625-1630	vidne	_	_	_	HAS\_FORM[90]	_	
+12-19	1631-1634	kot	_	_	_	HAS\_FORM[90]	_	
+12-20	1635-1646	poligonalna	_	_	_	HAS\_FORM[90]	_	
+12-21	1647-1652	mreža	_	_	_	HAS\_FORM[90]	_	
+12-22	1652-1653	.	_	_	_	_	_	
+12-23	1654-1661	Pogojen	_	_	_	HAS\_CAUSE[91]	frame\_CAUSE[105]	
+12-24	1662-1664	je	_	_	_	HAS\_CAUSE[91]	frame\_CAUSE[105]	
+12-25	1665-1666	s	_	_	_	HAS\_CAUSE[91]	_	
+12-26	1667-1668	“	_	_	_	HAS\_CAUSE[91]	_	
+12-27	1668-1677	parketnim	_	_	_	HAS\_CAUSE[91]	_	
+12-28	1677-1678	”	_	_	_	HAS\_CAUSE[91]	_	
+12-29	1679-1689	razporedom	_	_	_	HAS\_CAUSE[91]	_	
+12-30	1690-1700	tektonskih	_	_	_	HAS\_CAUSE[91]	_	
+12-31	1701-1707	prepok	_	D.1 Abiotic	_	HAS\_CAUSE[91]	_	
+12-32	1707-1708	.	_	_	_	_	_	
+12-33	1709-1715	Pogost	_	_	_	HAS\_LOCATION[92]	_	
+12-34	1716-1717	v	_	_	_	HAS\_LOCATION[92]	frame\_LOCATION	
+12-35	1718-1726	tropskem	_	C. Geome[33]	_	HAS\_LOCATION[92]	_	
+12-36	1727-1732	krasu	_	C. Geome[33]	_	HAS\_LOCATION[92]	_	
+12-37	1732-1733	.	_	_	_	_	_	
+
+#Text=Fluviokras: Kras, katerega površje je izoblikoval fluvialni proces (erozija, denudacija), čeprav je bila korozija znatna, vendar ne odločilna za relief. kras kraških polj in podolijl. Kras, kjer so kraška polja in povezane suhe doline - podolja - poglavitne kraške značilnosti površja (npr. kras Notranjskega podolja).
+13-1	1738-1748	Fluviokras	_	C. Geome	DEFINIENDUM	_	_	
+13-2	1748-1749	:	_	_	_	_	_	
+13-3	1750-1754	Kras	_	C. Geome	GENUS	_	_	
+13-4	1754-1755	,	_	_	_	_	_	
+13-5	1756-1764	katerega	_	_	_	HAS\_CAUSE[93]	_	
+13-6	1765-1772	površje	_	D.1 Abiotic	_	HAS\_CAUSE[93]	_	
+13-7	1773-1775	je	_	_	_	HAS\_CAUSE[93]	frame\_CAUSE[106]	
+13-8	1776-1787	izoblikoval	_	_	_	HAS\_CAUSE[93]	frame\_CAUSE[106]	
+13-9	1788-1797	fluvialni	_	B.4 Transformation[34]	_	HAS\_CAUSE[93]	_	
+13-10	1798-1804	proces	_	B.4 Transformation[34]	_	HAS\_CAUSE[93]	_	
+13-11	1805-1806	(	_	_	_	HAS\_CAUSE[93]	_	
+13-12	1806-1813	erozija	_	B.2 Loss	_	HAS\_CAUSE[93]	_	
+13-13	1813-1814	,	_	_	_	HAS\_CAUSE[93]	_	
+13-14	1815-1825	denudacija	_	B.2 Loss	_	HAS\_CAUSE[93]	_	
+13-15	1825-1826	)	_	_	_	HAS\_CAUSE[93]	_	
+13-16	1826-1827	,	_	_	_	_	_	
+13-17	1828-1834	čeprav	_	_	_	_	_	
+13-18	1835-1837	je	_	_	_	_	_	
+13-19	1838-1842	bila	_	_	_	_	_	
+13-20	1843-1851	korozija	_	B.2 Loss	_	_	_	
+13-21	1852-1858	znatna	_	_	_	_	_	
+13-22	1858-1859	,	_	_	_	_	_	
+13-23	1860-1866	vendar	_	_	_	_	_	
+13-24	1867-1869	ne	_	_	_	_	_	
+13-25	1870-1879	odločilna	_	_	_	_	_	
+13-26	1880-1882	za	_	_	_	_	_	
+13-27	1883-1889	relief	_	_	_	_	_	
+13-28	1889-1890	.	_	_	_	_	_	
+13-29	1891-1895	kras	Kras	C. Geome	_	CONTAINS[94]	_	
+13-30	1896-1903	kraških	_	A.1 Surface landform[35]	_	CONTAINS[94]	_	
+13-31	1904-1908	polj	_	A.1 Surface landform[35]	_	CONTAINS[94]	_	
+13-32	1909-1911	in	_	_	_	CONTAINS[94]	_	
+13-33	1912-1920	podolijl	_	A.1 Surface landform	_	CONTAINS[94]	_	
+13-34	1920-1921	.	_	_	_	_	_	
+13-35	1922-1926	Kras	_	C. Geome	_	_	_	
+13-36	1926-1927	,	_	_	_	_	_	
+13-37	1928-1932	kjer	_	_	_	CONTAINS[95]	_	
+13-38	1933-1935	so	_	_	_	CONTAINS[95]	_	
+13-39	1936-1942	kraška	_	A.1 Surface landform[36]	_	CONTAINS[95]	_	
+13-40	1943-1948	polja	_	A.1 Surface landform[36]	_	CONTAINS[95]	_	
+13-41	1949-1951	in	_	_	_	CONTAINS[95]	_	
+13-42	1952-1960	povezane	_	_	_	CONTAINS[95]	_	
+13-43	1961-1965	suhe	_	A.1 Surface landform[37]	_	CONTAINS[95]	_	
+13-44	1966-1972	doline	_	A.1 Surface landform[37]	_	CONTAINS[95]	_	
+13-45	1973-1974	-	_	_	_	CONTAINS[95]	_	
+13-46	1975-1982	podolja	_	A.1 Surface landform	_	CONTAINS[95]	_	
+13-47	1983-1984	-	_	_	_	CONTAINS[95]	_	
+13-48	1985-1995	poglavitne	_	_	_	CONTAINS[95]	_	
+13-49	1996-2002	kraške	_	_	_	CONTAINS[95]	_	
+13-50	2003-2014	značilnosti	_	_	_	CONTAINS[95]	_	
+13-51	2015-2022	površja	_	D.1 Abiotic	_	CONTAINS[95]	_	
+13-52	2023-2024	(	_	_	_	_	_	
+13-53	2024-2027	npr	_	_	_	_	_	
+13-54	2027-2028	.	_	_	_	_	_	
+13-55	2029-2033	kras	_	_	SPECIES[63]	_	_	
+13-56	2034-2046	Notranjskega	_	D.3.1 Geolocation[38]	SPECIES[63]	_	_	
+13-57	2047-2054	podolja	_	D.3.1 Geolocation[38]	SPECIES[63]	_	_	
+13-58	2054-2055	)	_	_	_	_	_	
+13-59	2055-2056	.	_	_	_	_	_	
+
+#Text=rebrasti kras: Polgoli kras, kjer molijo na površje podolgovati kamni rebraste oblike do enega metra in več. Često so to cela odpornejših skladov.
+14-1	2061-2069	rebrasti	_	C. Geome[39]	DEFINIENDUM[64]	_	_	
+14-2	2070-2074	kras	_	C. Geome[39]	DEFINIENDUM[64]	_	_	
+14-3	2074-2075	:	_	_	_	_	_	
+14-4	2076-2083	Polgoli	_	C. Geome[40]	GENUS[65]	_	_	
+14-5	2084-2088	kras	_	C. Geome[40]	GENUS[65]	_	_	
+14-6	2088-2089	,	_	_	_	_	_	
+14-7	2090-2094	kjer	_	_	_	HAS\_FORM[96]	_	
+14-8	2095-2101	molijo	_	_	_	HAS\_FORM[96]	frame\_FORM[107]	
+14-9	2102-2104	na	_	_	_	HAS\_FORM[96]	frame\_FORM[107]	
+14-10	2105-2112	površje	_	D.1 Abiotic	_	HAS\_FORM[96]	frame\_FORM[107]	
+14-11	2113-2124	podolgovati	_	_	_	HAS\_FORM[96]	_	
+14-12	2125-2130	kamni	_	D.1 Abiotic	_	HAS\_FORM[96]	_	
+14-13	2131-2139	rebraste	_	_	_	HAS\_FORM[96]	_	
+14-14	2140-2146	oblike	_	_	_	HAS\_FORM[96]	_	
+14-15	2147-2149	do	_	_	_	HAS\_FORM[96]	_	
+14-16	2150-2155	enega	_	_	_	HAS\_FORM[96]	_	
+14-17	2156-2161	metra	_	_	_	HAS\_FORM[96]	_	
+14-18	2162-2164	in	_	_	_	HAS\_FORM[96]	_	
+14-19	2165-2168	več	_	_	_	HAS\_FORM[96]	_	
+14-20	2168-2169	.	_	_	_	_	_	
+14-21	2170-2175	Često	_	_	_	_	_	
+14-22	2176-2178	so	_	_	_	_	_	
+14-23	2179-2181	to	_	_	_	_	_	
+14-24	2182-2186	cela	_	_	_	COMPOSITION\_MEDIUM[97]	_	
+14-25	2187-2198	odpornejših	_	_	_	COMPOSITION\_MEDIUM[97]	_	
+14-26	2199-2206	skladov	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[97]	_	
+14-27	2206-2207	.	_	_	_	_	_	
+
+#Text=stolpasti kras: Oblika tropskega krasa z značilnimi, do 100 in več metrov visokimi vzpetinami, podobnimi stolpom oziroma vitkim piramidam.
+15-1	2212-2221	stolpasti	_	C. Geome[41]	DEFINIENDUM[66]	_	_	
+15-2	2222-2226	kras	_	C. Geome[41]	DEFINIENDUM[66]	_	_	
+15-3	2226-2227	:	_	_	_	_	_	
+15-4	2228-2234	Oblika	_	_	GENUS[67]	_	_	
+15-5	2235-2244	tropskega	_	C. Geome[42]	GENUS[67]	_	_	
+15-6	2245-2250	krasa	_	C. Geome[42]	GENUS[67]	_	_	
+15-7	2251-2252	z	_	_	_	CONTAINS[98]	frame\_CONTAINS[108]	
+15-8	2253-2263	značilnimi	_	_	_	CONTAINS[98]	frame\_CONTAINS[108]	
+15-9	2263-2264	,	_	_	_	CONTAINS[98]	_	
+15-10	2265-2267	do	_	_	_	CONTAINS[98]	_	
+15-11	2268-2271	100	_	_	_	CONTAINS[98]	_	
+15-12	2272-2274	in	_	_	_	CONTAINS[98]	_	
+15-13	2275-2278	več	_	_	_	CONTAINS[98]	_	
+15-14	2279-2285	metrov	_	_	_	CONTAINS[98]	_	
+15-15	2286-2294	visokimi	_	_	_	CONTAINS[98]	_	
+15-16	2295-2305	vzpetinami	_	D.1 Abiotic	_	CONTAINS[98]	_	
+15-17	2305-2306	,	_	_	_	CONTAINS[98]	_	
+15-18	2307-2316	podobnimi	_	_	_	CONTAINS[98]	_	
+15-19	2317-2324	stolpom	_	D.1 Abiotic	_	CONTAINS[98]	_	
+15-20	2325-2332	oziroma	_	_	_	CONTAINS[98]	_	
+15-21	2333-2339	vitkim	_	_	_	CONTAINS[98]	_	
+15-22	2340-2349	piramidam	_	D.1 Abiotic	_	CONTAINS[98]	_	
+15-23	2349-2350	.	_	_	_	_	_	

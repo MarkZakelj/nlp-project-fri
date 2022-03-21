@@ -1,0 +1,18 @@
+korozijska vrtača: Vrtača, nastala s korozijo. 
+dvojna vrtača, sestavljena vrtača: Sestavljena iz iz dveh sosednjih vrtač, ki prehajata ena v drugo. 
+primarna vrtača: Vrtača, v kateri so nastale sekundarne vrtače. 
+sekundarna vrtača: Nastala v primarni vrtači. 
+Udorna vrtača (udornica): Nastala je z udorom. 
+fosilna vrtača: Z vodoneprepustnimi sedimenti zapolnjena vrtača, ki je zastala v razvoju. 
+sufozijska vrtača: Vrtača v sipskem gradivu, ki je nastala s sufozijo (to je spiranjem pod rušo). 
+vrtačasti jarek: Vrsta vrtač, ki tvorijo dolinasto depresijo. 
+zakrasevanje, skrasevanje, vkraševanje, karstifikacija: Proces nastajanja krasa. Pričetek kraškega razvoja po odstranitvi neprepustnega pokrova. Kras nastaja s kraškimi procesi, med katerimi je v ospredju korozija. 
+zatrepna dolina: Dolina na krasu, ki se na zgornjem koncu, često ob izviru potoka, slepo konča s strmim zaključkom.
+žlebič: Žlebaste izjedenine s polkrožnim prečnim prerezom, potekajoče po smeri največjega strmca po kompaktni kamnini. 
+jamski žlebič: Žlebič(i) na jamskem dnu ali steni. 
+koritasti žlebič: Žlebič v obliki korita z okroglastimi previsnimi stenami, ki je posledica nekdanje zapolnjenosti s humusom. 
+meandrasti žlebiči: Zaviti žlebiči, podobni zvijugani tokavi, navadno na zložnejšem pobočju. 
+mikrožlebiči: Na vrhu golih skalnih reber začenjajoči se drobni žlebiči, ki se navzdol zgubljajo v gladkem površju. 
+stropni žleb: večji žleb, često meandrast, na jamskem stropu. 
+zaobljeni žlebiči: Žlebiči, ki imajo zaobljene vmesne hrbte. 
+žlebičje: Skalno površje z gostimi žlebiči.  

@@ -1,0 +1,15 @@
+﻿cenota: Prirodni površinski otvor strmih stijenki. Obično je ispunjen vodom, a uglavnom je nastao kolapsom svoda špilje. Izraz se pretežito koristi za oblike na poluotoku Yucatanu u Meksiku. 
+komora: Dvorana u špilji.
+provalija: Provalija ili pukotina koja se od površine proteže duboko u unutrašnjost Zemlje.
+dimnjak: Kod špilja, zaobljeni vertikalni kanal ili otvor koji je dovoljno uzak da se njime može penjati kao u dimnjaku.
+potporna stijena: Stijena koja je poput klina uglavljena između dviju čvrstih površina špiljskog kanala i koristi se kao pomoć kod penjanja.
+prigušnica: Špiljski kanal koji je blokiran kršjem ili lokalnim urušavanjem zidova i svoda.
+tobogan: Kosi kanal ili prolaz u špilji.
+špilja podnožja litice: Špilja formirana otapanjem u podnožju krške litice. 
+greda: Izraz koji se koristi u Engleskoj za ploču vapnenca, paralelne slojevitosti, unutar karstificiranog vapnenačkog platoa koja je odvojena od drugih ploča dubokim pukotinama otapanja širine oko 0,5 m. 
+oblak: Podvodna karbonatna prevlaka na izbočenoj čvrstoj stijeni u špilji.
+kokpit krš: 1 Zvjezdasta depresija s koničnim ili neznatno konkavnim dnom, dok su okolne padine brda strme i konveksne. Česti tip depresije u vlažnim tropskim sredinama koničnog krša. 2 Tipična krška topografija koja sadrži mnoge zatvorene depresije okružene koničnim brdima.
+kava s vrhnjem: Špiljska dekoracija nastala od izlučene soli iz sitno zdrobljene stijene koja sadrži fluor. Boje naslaga su nalik kavi s vrhnjem.
+kolapsna dolina: Dolina koja je formirana urušavanjem slojeva stijena. 
+kolapsna doma: Dvorana u špilji formirana progresivnim urušavanjem svoda sve dok se ne postigne stabilan oblik sličan domi. Na dnu se općenito nalazi humak od kršja. Urušavanje može započeti prestankom hidrostatske potpore s opadanjem razine vode u špilji.
+kolapsna vrtača: Tip vrtače koji je formiran urušavanjem svoda špilje.

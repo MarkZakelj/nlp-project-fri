@@ -1,0 +1,15 @@
+breccia - angular fragments of rock and/or fossils cemented together or with a matrix of finer sediment.
+canopy - a compound speleothem consisting of a flowstone cover of a bedrock projection and of a fringe of stalactites or shawls on the outer edge.
+canyon - a deep valley with steep to vertical walls; in karst frequently formed by a river rising on impervious rocks outside the karst area.
+canyon - a deep, elongated cavity cut by running water in the roof or floor of a cave or forming a cave passage.
+cave - a natural cavity in rock large enough to be entered by man. it may be water-filled. if it becomes full of ice or sediment and is impenetrable, the term applies but will need qualification.
+cave blister - an almost perfect hemisphere of egg-shell calcite.
+cave coral - very small speleothems consisting of short stalks with bulbous ends, usually occurring in numbers in patches.
+cave earth - clay, silt, fine sand and/or humus deposited in a cave.
+cave ecology - the study of the interaction between cave organisms and their environment, e.g., energy input from surface, climatic influences.
+cave fill - transported materials such as silt, day, sand and gravel which cover the bedrock floor or partially or wholly block some part of a cave.
+cave pearl - a smooth, polished and rounded speleothem found in shallow hollows into which water drips. 
+cave spring - a natural flow of water from rock or sediment inside a cave.
+cave system - a collection of caves interconnected by enterable passages or linked hydrologically or a cave with an extensive complex of chambers and passages.
+cavern - a very large chamber within a cave.
+cenote - a partly water-tilled, wall-sided doline.

@@ -1,0 +1,15 @@
+Sanidine is a typical rock-forming mineral of K-rich alkaline volcanic rocks and a principal rock-forming mineral of Kožuf 6.5-1.8 Ma old volcanic rocks (Boev & Jelenković, 2012).
+Smectite (montmorillonite) is a layered clay mineral, product of intensive acidic weathering of volcaniclastic material.
+Input caves are either shafts developed along faults and prominent fractures (Živovska Propast, Dragoželska Propast) or vadose canyons leading to epiphreatic tube passages (Aramiska Peštera, Garnikovska Propast, Mala Peštera and Pešti Cave).
+The juvenile pattern is a time-controlled pattern that prevails where soluble rocks are exposed by uplift and by removal of any impermeable cover.
+Smaller scale forms in caves (microforms) are features much smaller than the passage diameter (Lauritzen & Lundberg, 2000).
+As a consequence, the hydrological cycle provides the primary source of energy for karst formation because water is the solvent that dissolves carbonate rocks and then carries the ions away in solution (Williams P.W., 2004).
+Hard data are defined as long-term, measured time series, typically at a point within a watershed, while soft data are defined as information on individual processes within a budget that may not be directly measured within the study area, generally from literature information.
+The step-wise calibration is a procedure that allowed calibrating the different components of the streamflow according to different hydrologic processes underpinning Pagliero et al.
+Karst is a very heterogeneous space medium which can be explained only be applying a great number of measurement points and by monitoring and measuring various phenomena : the water levels, water discharge and velocity, chemical composition of water, its temperature, concentration of suspended particles and the microorganisms in water.
+The term secondary porosity is used for the spaces created in carbonate rocks in the post-petrification period.
+Gravitational water is the water, which due to gravity, penetrates and flows into the underground system.
+Storage coefficient, S, is the volume of water released from the prism of a unit cross-sectional area whose height is the total thickness of the aquifer due to change in the piezometric level for 1 m. 
+Specific yield is defined as the change in the water quantity in the storage per unit of area of the free surface of the aquifer.
+Permeability, K, is the property of rocks forming an underground reservoir, to allow water to flow with an appreciable velocity due to the existence of the pressure gradient.
+Surface karst forms are: karren, sinkholes (dolines), dry valleys and poljes (Vlahovic 1983).

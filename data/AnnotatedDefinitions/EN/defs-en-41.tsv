@@ -1,0 +1,342 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=karst spring :  A spring emerging from karstified limestone.
+1-1	0-5	karst	_	A.3 Hydrological form[1]	DEFINIENDUM[12]	_	_	
+1-2	6-12	spring	_	A.3 Hydrological form[1]	DEFINIENDUM[12]	_	_	
+1-3	13-14	:	_	_	_	_	_	
+1-4	16-17	A	_	_	_	_	_	
+1-5	18-24	spring	_	_	GENUS	_	_	
+1-6	25-33	emerging	_	_	_	HAS\_LOCATION[21]	frame\_LOCATION[44]	
+1-7	34-38	from	_	_	_	HAS\_LOCATION[21]	frame\_LOCATION[44]	
+1-8	39-49	karstified	_	_	_	HAS\_LOCATION[21]	_	
+1-9	50-59	limestone	limestone	D.1 Abiotic	_	HAS\_LOCATION[21]	_	
+1-10	59-60	.	_	_	_	_	_	
+
+#Text=karst topography :  Topography dominated by features of solutional origin.
+2-1	62-67	karst	_	C. Geome[2]	DEFINIENDUM[13]	_	_	
+2-2	68-78	topography	_	C. Geome[2]	DEFINIENDUM[13]	_	_	
+2-3	79-80	:	_	_	_	_	_	
+2-4	82-92	Topography	_	_	GENUS	_	_	
+2-5	93-102	dominated	_	_	_	CONTAINS[22]	frame\_CONTAINS[45]	
+2-6	103-105	by	_	_	_	CONTAINS[22]	frame\_CONTAINS[45]	
+2-7	106-114	features	_	_	_	CONTAINS[22]	_	
+2-8	115-117	of	_	_	_	CONTAINS[22]	_	
+2-9	118-128	solutional	_	_	_	CONTAINS[22]	_	
+2-10	129-135	origin	_	_	_	CONTAINS[22]	_	
+2-11	135-136	.	_	_	_	_	_	
+
+#Text=karst valley :  Elongate solution valley.
+3-1	137-142	karst	_	A.1 Surface landform[3]	DEFINIENDUM[14]	_	_	
+3-2	143-149	valley	_	A.1 Surface landform[3]	DEFINIENDUM[14]	_	_	
+3-3	150-151	:	_	_	_	_	_	
+3-4	153-161	Elongate	_	_	_	HAS\_FORM	_	
+3-5	162-170	solution	_	_	_	HAS\_CAUSE	_	
+3-6	171-177	valley	_	_	GENUS	_	_	
+3-7	177-178	.	_	_	_	_	_	
+
+#Text=karst valley :  Valley produced by collapse of a cavern roof.
+4-1	180-185	karst	_	A.1 Surface landform[4]	DEFINIENDUM[15]	_	_	
+4-2	186-192	valley	_	A.1 Surface landform[4]	DEFINIENDUM[15]	_	_	
+4-3	193-194	:	_	_	_	_	_	
+4-4	196-202	Valley	_	_	GENUS	_	_	
+4-5	203-211	produced	_	_	_	HAS\_CAUSE[23]	frame\_CAUSE[46]	
+4-6	212-214	by	_	_	_	HAS\_CAUSE[23]	frame\_CAUSE[46]	
+4-7	215-223	collapse	_	B.1 Movement	_	HAS\_CAUSE[23]	_	
+4-8	224-226	of	_	_	_	HAS\_CAUSE[23]	_	
+4-9	227-228	a	_	_	_	HAS\_CAUSE[23]	_	
+4-10	229-235	cavern	_	_	_	HAS\_CAUSE[23]	_	
+4-11	236-240	roof	_	_	_	HAS\_CAUSE[23]	_	
+4-12	240-241	.	_	_	_	_	_	
+
+#Text=karst window :  Depression revealing a part of a subterranean river flowing across its floor, or an unroofed part of a cave.
+5-1	242-247	karst	_	A.1 Surface landform[5]	DEFINIENDUM[16]	_	_	
+5-2	248-254	window	_	A.1 Surface landform[5]	DEFINIENDUM[16]	_	_	
+5-3	255-256	:	_	_	_	_	_	
+5-4	258-268	Depression	_	_	GENUS	_	_	
+5-5	269-278	revealing	_	_	_	HAS\_FUNCTION[24]	frame\_FUNCTION[47]	
+5-6	279-280	a	_	_	_	HAS\_FUNCTION[24]	frame\_FUNCTION[47]	
+5-7	281-285	part	_	_	_	HAS\_FUNCTION[24]	frame\_FUNCTION[47]	
+5-8	286-288	of	_	_	_	HAS\_FUNCTION[24]	frame\_FUNCTION[47]	
+5-9	289-290	a	_	_	_	HAS\_FUNCTION[24]	_	
+5-10	291-303	subterranean	_	A.3 Hydrological form[6]	_	HAS\_FUNCTION[24]	_	
+5-11	304-309	river	_	A.3 Hydrological form[6]	_	HAS\_FUNCTION[24]	_	
+5-12	310-317	flowing	_	_	_	HAS\_FUNCTION[24]	_	
+5-13	318-324	across	_	_	_	HAS\_FUNCTION[24]	_	
+5-14	325-328	its	_	_	_	HAS\_FUNCTION[24]	_	
+5-15	329-334	floor	_	_	_	HAS\_FUNCTION[24]	_	
+5-16	334-335	,	_	_	_	HAS\_FUNCTION[24]	_	
+5-17	336-338	or	_	_	_	HAS\_FUNCTION[24]	_	
+5-18	339-341	an	_	_	_	HAS\_FUNCTION[24]	_	
+5-19	342-350	unroofed	_	_	_	HAS\_FUNCTION[24]	_	
+5-20	351-355	part	_	_	_	HAS\_FUNCTION[24]	_	
+5-21	356-358	of	_	_	_	HAS\_FUNCTION[24]	_	
+5-22	359-360	a	_	_	_	HAS\_FUNCTION[24]	_	
+5-23	361-365	cave	_	_	_	HAS\_FUNCTION[24]	_	
+5-24	365-366	.	_	_	_	_	_	
+
+#Text=karst window :  A small natural bridge or arch which can be seen through.
+6-1	368-373	karst	_	A.1 Surface landform[7]	DEFINIENDUM[17]	_	_	
+6-2	374-380	window	_	A.1 Surface landform[7]	DEFINIENDUM[17]	_	_	
+6-3	381-382	:	_	_	_	_	_	
+6-4	384-385	A	_	_	_	_	_	
+6-5	386-391	small	_	_	_	HAS\_FORM[25]	_	
+6-6	392-399	natural	_	_	GENUS[18]	HAS\_FORM[25]	_	
+6-7	400-406	bridge	_	_	GENUS[18]	HAS\_FORM[25]	_	
+6-8	407-409	or	_	_	_	HAS\_FORM[25]	_	
+6-9	410-414	arch	_	_	_	HAS\_FORM[25]	_	
+6-10	415-420	which	_	_	_	_	frame\_FUNCTION[48]	
+6-11	421-424	can	_	_	_	HAS\_FUNCTION[26]	frame\_FUNCTION[48]	
+6-12	425-427	be	_	_	_	HAS\_FUNCTION[26]	frame\_FUNCTION[48]	
+6-13	428-432	seen	_	_	_	HAS\_FUNCTION[26]	_	
+6-14	433-440	through	_	_	_	HAS\_FUNCTION[26]	_	
+6-15	440-441	.	_	_	_	_	_	
+
+#Text=karstification :  Action by water, mainly chemical but also mechanical, that produces features of a karst topography, including such surface features as dolines, Karren, and mogotes and such subsurface features as caves and shafts.
+7-1	442-456	karstification	_	B.4 Transformation	DEFINIENDUM	_	_	
+7-2	457-458	:	_	_	_	_	_	
+7-3	460-466	Action	_	_	GENUS	HAS\_CAUSE[27]	frame\_CAUSE[49]	
+7-4	467-469	by	_	_	_	HAS\_CAUSE[27]	frame\_CAUSE[49]	
+7-5	470-475	water	_	_	_	HAS\_CAUSE[27]	_	
+7-6	475-476	,	_	_	_	HAS\_CAUSE[27]	_	
+7-7	477-483	mainly	_	_	_	HAS\_CAUSE[27]	_	
+7-8	484-492	chemical	_	_	_	HAS\_CAUSE[27]	_	
+7-9	493-496	but	_	_	_	HAS\_CAUSE[27]	_	
+7-10	497-501	also	_	_	_	HAS\_CAUSE[27]	_	
+7-11	502-512	mechanical	_	_	_	HAS\_CAUSE[27]	_	
+7-12	512-513	,	_	_	_	_	_	
+7-13	514-518	that	_	_	_	_	_	
+7-14	519-527	produces	_	_	_	HAS\_RESULT[28]	frame\_RESULT	
+7-15	528-536	features	_	_	_	HAS\_RESULT[28]	_	
+7-16	537-539	of	_	_	_	HAS\_RESULT[28]	_	
+7-17	540-541	a	_	_	_	HAS\_RESULT[28]	_	
+7-18	542-547	karst	_	_	_	HAS\_RESULT[28]	_	
+7-19	548-558	topography	_	_	_	HAS\_RESULT[28]	_	
+7-20	558-559	,	_	_	_	HAS\_RESULT[28]	_	
+7-21	560-569	including	_	_	_	HAS\_RESULT[28]	_	
+7-22	570-574	such	_	_	_	HAS\_RESULT[28]	_	
+7-23	575-582	surface	_	_	_	HAS\_RESULT[28]	_	
+7-24	583-591	features	_	_	_	HAS\_RESULT[28]	_	
+7-25	592-594	as	_	_	_	HAS\_RESULT[28]	_	
+7-26	595-602	dolines	_	A.1 Surface landform	_	HAS\_RESULT[28]	_	
+7-27	602-603	,	_	_	_	HAS\_RESULT[28]	_	
+7-28	604-610	Karren	_	A.1 Surface landform	_	HAS\_RESULT[28]	_	
+7-29	610-611	,	_	_	_	HAS\_RESULT[28]	_	
+7-30	612-615	and	_	_	_	HAS\_RESULT[28]	_	
+7-31	616-623	mogotes	_	A.1 Surface landform	_	HAS\_RESULT[28]	_	
+7-32	624-627	and	_	_	_	HAS\_RESULT[28]	_	
+7-33	628-632	such	_	_	_	HAS\_RESULT[28]	_	
+7-34	633-643	subsurface	_	_	_	HAS\_RESULT[28]	_	
+7-35	644-652	features	_	_	_	HAS\_RESULT[28]	_	
+7-36	653-655	as	_	_	_	HAS\_RESULT[28]	_	
+7-37	656-661	caves	_	A.2 Underground landform	_	HAS\_RESULT[28]	_	
+7-38	662-665	and	_	_	_	HAS\_RESULT[28]	_	
+7-39	666-672	shafts	_	A.2 Underground landform	_	HAS\_RESULT[28]	_	
+7-40	672-673	.	_	_	_	_	_	
+
+#Text=karstland :  A region characterized by karst topography.
+8-1	674-683	karstland	_	C. Geome	DEFINIENDUM	_	_	
+8-2	684-685	:	_	_	_	_	_	
+8-3	687-688	A	_	_	_	_	_	
+8-4	689-695	region	_	_	GENUS	_	_	
+8-5	696-709	characterized	_	_	_	HAS\_ATTRIBUTE[29]	frame\_ATTRIBUTE[50]	
+8-6	710-712	by	_	_	_	HAS\_ATTRIBUTE[29]	frame\_ATTRIBUTE[50]	
+8-7	713-718	karst	_	_	_	HAS\_ATTRIBUTE[29]	_	
+8-8	719-729	topography	_	_	_	HAS\_ATTRIBUTE[29]	_	
+8-9	729-730	.	_	_	_	_	_	
+
+#Text=katavothron :   A closed depression or swallow hole.
+9-1	731-742	katavothron	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	743-744	:	_	_	_	_	_	
+9-3	747-748	A	_	_	_	_	_	
+9-4	749-755	closed	_	_	_	HAS\_FORM[30]	_	
+9-5	756-766	depression	_	_	_	HAS\_FORM[30]	_	
+9-6	767-769	or	_	_	_	_	_	
+9-7	770-777	swallow	_	_	_	HAS\_FORM[31]	_	
+9-8	778-782	hole	_	_	_	HAS\_FORM[31]	_	
+9-9	782-783	.	_	_	_	_	_	
+
+#Text=Kegelkarst :   A general term used to describe several types of tropical humid karst characterized by numerous, closely spaced hemispherical-, or tower-shaped hills having intervening closed depressions and narrow steep-walled karst valleys or passageways.
+10-1	784-794	Kegelkarst	_	C. Geome	DEFINIENDUM	_	_	
+10-2	795-796	:	_	_	_	_	_	
+10-3	799-800	A	_	_	_	_	_	
+10-4	801-808	general	_	_	_	_	_	
+10-5	809-813	term	_	_	_	_	_	
+10-6	814-818	used	_	_	_	_	_	
+10-7	819-821	to	_	_	_	_	_	
+10-8	822-830	describe	_	_	_	_	_	
+10-9	831-838	several	_	_	_	_	_	
+10-10	839-844	types	_	_	_	_	_	
+10-11	845-847	of	_	_	_	_	_	
+10-12	848-856	tropical	_	_	_	_	_	
+10-13	857-862	humid	_	_	_	_	_	
+10-14	863-868	karst	_	_	GENUS	_	_	
+10-15	869-882	characterized	_	_	_	CONTAINS[32]	frame\_CONTAINS[51]	
+10-16	883-885	by	_	_	_	CONTAINS[32]	frame\_CONTAINS[51]	
+10-17	886-894	numerous	_	_	_	CONTAINS[32]	_	
+10-18	894-895	,	_	_	_	CONTAINS[32]	_	
+10-19	896-903	closely	_	_	_	CONTAINS[32]	_	
+10-20	904-910	spaced	_	_	_	CONTAINS[32]	_	
+10-21	911-924	hemispherical	_	_	_	CONTAINS[32]	_	
+10-22	924-925	-	_	_	_	CONTAINS[32]	_	
+10-23	925-926	,	_	_	_	CONTAINS[32]	_	
+10-24	927-929	or	_	_	_	CONTAINS[32]	_	
+10-25	930-942	tower-shaped	_	_	_	CONTAINS[32]	_	
+10-26	943-948	hills	_	_	_	CONTAINS[32]	_	
+10-27	949-955	having	_	_	_	_	_	
+10-28	956-967	intervening	_	_	_	CONTAINS[33]	_	
+10-29	968-974	closed	_	_	_	CONTAINS[33]	_	
+10-30	975-986	depressions	_	_	_	CONTAINS[33]	_	
+10-31	987-990	and	_	_	_	CONTAINS[33]	_	
+10-32	991-997	narrow	_	_	_	CONTAINS[33]	_	
+10-33	998-1010	steep-walled	_	_	_	CONTAINS[33]	_	
+10-34	1011-1016	karst	_	A.1 Surface landform[8]	_	CONTAINS[33]	_	
+10-35	1017-1024	valleys	_	A.1 Surface landform[8]	_	CONTAINS[33]	_	
+10-36	1025-1027	or	_	_	_	CONTAINS[33]	_	
+10-37	1028-1039	passageways	_	_	_	CONTAINS[33]	_	
+10-38	1039-1040	.	_	_	_	_	_	
+
+#Text=keyhole :  A small passage or opening in a cave; in cross section, rounded at the top, constricted in the middle, and rectangular or flared out below.
+11-1	1042-1049	keyhole	_	A.2 Underground landform	DEFINIENDUM	_	_	
+11-2	1050-1051	:	_	_	_	_	_	
+11-3	1053-1054	A	_	_	_	_	_	
+11-4	1055-1060	small	_	_	_	_	_	
+11-5	1061-1068	passage	_	_	GENUS	_	_	
+11-6	1069-1071	or	_	_	_	_	_	
+11-7	1072-1079	opening	_	_	_	_	_	
+11-8	1080-1082	in	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION[52]	
+11-9	1083-1084	a	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION[52]	
+11-10	1085-1089	cave	_	A.2 Underground landform	_	HAS\_LOCATION[34]	_	
+11-11	1089-1090	;	_	_	_	_	_	
+11-12	1091-1093	in	_	_	_	HAS\_FORM[35]	_	
+11-13	1094-1099	cross	_	_	_	HAS\_FORM[35]	_	
+11-14	1100-1107	section	_	_	_	HAS\_FORM[35]	_	
+11-15	1107-1108	,	_	_	_	HAS\_FORM[35]	_	
+11-16	1109-1116	rounded	_	_	_	HAS\_FORM[35]	_	
+11-17	1117-1119	at	_	_	_	HAS\_FORM[35]	_	
+11-18	1120-1123	the	_	_	_	HAS\_FORM[35]	_	
+11-19	1124-1127	top	_	_	_	HAS\_FORM[35]	_	
+11-20	1127-1128	,	_	_	_	HAS\_FORM[35]	_	
+11-21	1129-1140	constricted	_	_	_	HAS\_FORM[35]	_	
+11-22	1141-1143	in	_	_	_	HAS\_FORM[35]	_	
+11-23	1144-1147	the	_	_	_	HAS\_FORM[35]	_	
+11-24	1148-1154	middle	_	_	_	HAS\_FORM[35]	_	
+11-25	1154-1155	,	_	_	_	HAS\_FORM[35]	_	
+11-26	1156-1159	and	_	_	_	HAS\_FORM[35]	_	
+11-27	1160-1171	rectangular	_	_	_	HAS\_FORM[35]	_	
+11-28	1172-1174	or	_	_	_	HAS\_FORM[35]	_	
+11-29	1175-1181	flared	_	_	_	HAS\_FORM[35]	_	
+11-30	1182-1185	out	_	_	_	HAS\_FORM[35]	_	
+11-31	1186-1191	below	_	_	_	HAS\_FORM[35]	_	
+11-32	1191-1192	.	_	_	_	_	_	
+
+#Text=knobstone :  Speleothem, larger, more pronounced, and more widely separated than cave coral.
+12-1	1193-1202	knobstone	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1203-1204	:	_	_	_	_	_	
+12-3	1206-1216	Speleothem	_	A.2 Underground landform	GENUS	_	_	
+12-4	1216-1217	,	_	_	_	_	_	
+12-5	1218-1224	larger	_	_	_	HAS\_FORM[36]	_	
+12-6	1224-1225	,	_	_	_	HAS\_FORM[36]	_	
+12-7	1226-1230	more	_	_	_	HAS\_FORM[36]	_	
+12-8	1231-1241	pronounced	_	_	_	HAS\_FORM[36]	_	
+12-9	1241-1242	,	_	_	_	HAS\_FORM[36]	_	
+12-10	1243-1246	and	_	_	_	HAS\_FORM[36]	_	
+12-11	1247-1251	more	_	_	_	HAS\_FORM[36]	_	
+12-12	1252-1258	widely	_	_	_	HAS\_FORM[36]	_	
+12-13	1259-1268	separated	_	_	_	HAS\_FORM[36]	_	
+12-14	1269-1273	than	_	_	_	HAS\_FORM[36]	_	
+12-15	1274-1278	cave	_	A.2 Underground landform[9]	_	HAS\_FORM[36]	_	
+12-16	1279-1284	coral	_	A.2 Underground landform[9]	_	HAS\_FORM[36]	_	
+12-17	1284-1285	.	_	_	_	_	_	
+
+#Text=kras, krš :  A Slavic word meaning bleak, waterless place, from which the term karst is derived. Synonym: karst.
+13-1	1286-1290	kras	_	C. Geome	DEFINIENDUM	_	_	
+13-2	1290-1291	,	_	_	_	_	_	
+13-3	1292-1295	krš	_	C. Geome	DEFINIENDUM	_	_	
+13-4	1296-1297	:	_	_	_	_	_	
+13-5	1299-1300	A	_	_	_	_	_	
+13-6	1301-1307	Slavic	_	_	_	_	_	
+13-7	1308-1312	word	_	_	_	_	_	
+13-8	1313-1320	meaning	_	_	_	_	_	
+13-9	1321-1326	bleak	_	_	_	_	_	
+13-10	1326-1327	,	_	_	_	_	_	
+13-11	1328-1337	waterless	_	_	_	_	_	
+13-12	1338-1343	place	_	_	_	_	_	
+13-13	1343-1344	,	_	_	_	_	_	
+13-14	1345-1349	from	_	_	_	_	_	
+13-15	1350-1355	which	_	_	_	_	_	
+13-16	1356-1359	the	_	_	_	_	_	
+13-17	1360-1364	term	_	_	_	_	_	
+13-18	1365-1370	karst	_	_	_	_	_	
+13-19	1371-1373	is	_	_	_	_	_	
+13-20	1374-1381	derived	_	_	_	_	_	
+13-21	1381-1382	.	_	_	_	_	_	
+13-22	1383-1390	Synonym	_	_	_	_	_	
+13-23	1390-1391	:	_	_	_	_	_	
+13-24	1392-1397	karst	_	_	_	_	_	
+13-25	1397-1398	.	_	_	_	_	_	
+
+#Text=level :  Within a cave, a group of passages developed in the same horizontal plane.
+14-1	1399-1404	level	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	1405-1406	:	_	_	_	_	_	
+14-3	1408-1414	Within	_	_	_	HAS\_LOCATION[37]	frame\_LOCATION[53]	
+14-4	1415-1416	a	_	_	_	HAS\_LOCATION[37]	frame\_LOCATION[53]	
+14-5	1417-1421	cave	_	_	_	HAS\_LOCATION[37]	_	
+14-6	1421-1422	,	_	_	_	_	_	
+14-7	1423-1424	a	_	_	_	_	_	
+14-8	1425-1430	group	_	_	_	HAS\_FORM[38]	_	
+14-9	1431-1433	of	_	_	_	HAS\_FORM[38]	_	
+14-10	1434-1442	passages	_	D.1 Abiotic	_	HAS\_FORM[38]	_	
+14-11	1443-1452	developed	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[54]	
+14-12	1453-1455	in	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[54]	
+14-13	1456-1459	the	_	_	_	HAS\_LOCATION[39]	_	
+14-14	1460-1464	same	_	_	_	HAS\_LOCATION[39]	_	
+14-15	1465-1475	horizontal	_	_	_	HAS\_LOCATION[39]	_	
+14-16	1476-1481	plane	_	_	_	HAS\_LOCATION[39]	_	
+14-17	1481-1482	.	_	_	_	_	_	
+
+#Text=level :  The altitudinal relation of a cave floor to an outside surface.
+15-1	1484-1489	level	_	D.3 Property	DEFINIENDUM	_	_	
+15-2	1490-1491	:	_	_	_	_	_	
+15-3	1493-1496	The	_	_	_	DEFINED\_AS[40]	_	
+15-4	1497-1508	altitudinal	_	_	_	DEFINED\_AS[40]	_	
+15-5	1509-1517	relation	_	_	_	DEFINED\_AS[40]	_	
+15-6	1518-1520	of	_	_	_	DEFINED\_AS[40]	_	
+15-7	1521-1522	a	_	_	_	DEFINED\_AS[40]	_	
+15-8	1523-1527	cave	_	_	_	DEFINED\_AS[40]	_	
+15-9	1528-1533	floor	_	_	_	DEFINED\_AS[40]	_	
+15-10	1534-1536	to	_	_	_	DEFINED\_AS[40]	_	
+15-11	1537-1539	an	_	_	_	DEFINED\_AS[40]	_	
+15-12	1540-1547	outside	_	_	_	DEFINED\_AS[40]	_	
+15-13	1548-1555	surface	_	_	_	DEFINED\_AS[40]	_	
+15-14	1555-1556	.	_	_	_	_	_	
+
+#Text=light hole :   Fossil or abandoned swallow hole.
+16-1	1557-1562	light	_	A.1 Surface landform[10]	DEFINIENDUM[19]	_	_	
+16-2	1563-1567	hole	_	A.1 Surface landform[10]	DEFINIENDUM[19]	_	_	
+16-3	1568-1569	:	_	_	_	_	_	
+16-4	1572-1578	Fossil	_	_	_	HAS\_FUNCTION[41]	_	
+16-5	1579-1581	or	_	_	_	HAS\_FUNCTION[41]	_	
+16-6	1582-1591	abandoned	_	_	_	HAS\_FUNCTION[41]	_	
+16-7	1592-1599	swallow	_	_	GENUS[20]	HAS\_FORM[42]	_	
+16-8	1600-1604	hole	_	_	GENUS[20]	HAS\_FORM[42]	_	
+16-9	1604-1605	.	_	_	_	_	_	
+
+#Text=limestone :  A sedimentary rock consisting chiefly of calcium carbonate, CaCO
+17-1	1606-1615	limestone	_	D.1 Abiotic	DEFINIENDUM	_	_	
+17-2	1616-1617	:	_	_	_	_	_	
+17-3	1619-1620	A	_	_	_	_	_	
+17-4	1621-1632	sedimentary	_	_	_	HAS\_CAUSE	_	
+17-5	1633-1637	rock	_	_	GENUS	_	_	
+17-6	1638-1648	consisting	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[55]	
+17-7	1649-1656	chiefly	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[55]	
+17-8	1657-1659	of	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[55]	
+17-9	1660-1667	calcium	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[43]	_	
+17-10	1668-1677	carbonate	_	D.1 Abiotic[11]	_	COMPOSITION\_MEDIUM[43]	_	
+17-11	1677-1678	,	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+17-12	1679-1683	CaCO	_	_	_	COMPOSITION\_MEDIUM[43]	_	

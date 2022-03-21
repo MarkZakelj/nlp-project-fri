@@ -1,0 +1,359 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=resurgence - a spring where a stream, which has a course on the surface higher up, reappears at the surface.
+1-1	0-10	resurgence	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+1-2	11-12	-	_	_	_	_	_	
+1-3	13-14	a	_	_	_	_	_	
+1-4	15-21	spring	_	A.3 Hydrological form	GENUS	_	_	
+1-5	22-27	where	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION	
+1-6	28-29	a	_	_	_	HAS\_LOCATION[38]	_	
+1-7	30-36	stream	_	D.1 Abiotic	_	HAS\_LOCATION[38]	_	
+1-8	36-37	,	_	_	_	HAS\_LOCATION[38]	_	
+1-9	38-43	which	_	_	_	HAS\_LOCATION[38]	_	
+1-10	44-47	has	_	_	_	HAS\_LOCATION[38]	_	
+1-11	48-49	a	_	_	_	HAS\_LOCATION[38]	_	
+1-12	50-56	course	_	_	_	HAS\_LOCATION[38]	_	
+1-13	57-59	on	_	_	_	HAS\_LOCATION[38]	_	
+1-14	60-63	the	_	_	_	HAS\_LOCATION[38]	_	
+1-15	64-71	surface	_	_	_	HAS\_LOCATION[38]	_	
+1-16	72-78	higher	_	_	_	HAS\_LOCATION[38]	_	
+1-17	79-81	up	_	_	_	HAS\_LOCATION[38]	_	
+1-18	81-82	,	_	_	_	HAS\_LOCATION[38]	_	
+1-19	83-92	reappears	_	_	_	HAS\_LOCATION[38]	_	
+1-20	93-95	at	_	_	_	HAS\_LOCATION[38]	_	
+1-21	96-99	the	_	_	_	HAS\_LOCATION[38]	_	
+1-22	100-107	surface	_	_	_	HAS\_LOCATION[38]	_	
+1-23	107-108	.	_	_	_	_	_	
+
+#Text=salt weathering - detachment of particles of various sizes from a rock surface by the growth of crystals from salt solutions.
+2-1	112-116	salt	_	B. Process[2]	DEFINIENDUM[22]	_	_	
+2-2	117-127	weathering	_	B. Process[2]	DEFINIENDUM[22]	_	_	
+2-3	128-129	-	_	_	_	_	_	
+2-4	130-140	detachment	_	B.4 Transformation	GENUS[23]	DEFINED\_AS[39]	_	
+2-5	141-143	of	_	_	GENUS[23]	DEFINED\_AS[39]	_	
+2-6	144-153	particles	_	_	GENUS[23]	DEFINED\_AS[39]	_	
+2-7	154-156	of	_	_	_	DEFINED\_AS[39]	_	
+2-8	157-164	various	_	_	_	DEFINED\_AS[39]	_	
+2-9	165-170	sizes	_	_	_	DEFINED\_AS[39]	_	
+2-10	171-175	from	_	_	_	DEFINED\_AS[39]	_	
+2-11	176-177	a	_	_	_	DEFINED\_AS[39]	_	
+2-12	178-182	rock	_	_	_	DEFINED\_AS[39]	_	
+2-13	183-190	surface	_	_	_	DEFINED\_AS[39]	_	
+2-14	191-193	by	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[64]	
+2-15	194-197	the	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[64]	
+2-16	198-204	growth	_	B. Process	_	HAS\_CAUSE[40]	_	
+2-17	205-207	of	_	_	_	HAS\_CAUSE[40]	_	
+2-18	208-216	crystals	_	D.1 Abiotic	_	HAS\_CAUSE[40]	_	
+2-19	217-221	from	_	_	_	HAS\_CAUSE[40]	_	
+2-20	222-226	salt	_	D.1 Abiotic[3]	_	HAS\_CAUSE[40]	_	
+2-21	227-236	solutions	_	D.1 Abiotic[3]	_	HAS\_CAUSE[40]	_	
+2-22	236-237	.	_	_	_	_	_	
+
+#Text=sea cave - a cave in present-day or emerged sea diffs, formed by wave attack or solution.
+3-1	241-244	sea	_	A.2 Underground landform[4]	DEFINIENDUM[24]	_	_	
+3-2	245-249	cave	_	A.2 Underground landform[4]	DEFINIENDUM[24]	_	_	
+3-3	250-251	-	_	_	_	_	_	
+3-4	252-253	a	_	_	_	_	_	
+3-5	254-258	cave	_	A.2 Underground landform	GENUS	_	_	
+3-6	259-261	in	_	_	_	OCCURS\_IN\_TIME[41]	_	
+3-7	262-273	present-day	_	_	_	OCCURS\_IN\_TIME[41]	_	
+3-8	274-276	or	_	_	_	OCCURS\_IN\_TIME[41]	_	
+3-9	277-284	emerged	_	_	_	OCCURS\_IN\_TIME[41]	_	
+3-10	285-288	sea	_	_	_	OCCURS\_IN\_TIME[41]	_	
+3-11	289-294	diffs	_	_	_	OCCURS\_IN\_TIME[41]	_	
+3-12	294-295	,	_	_	_	_	_	
+3-13	296-302	formed	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[65]	
+3-14	303-305	by	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[65]	
+3-15	306-310	wave	_	B. Process[5]	_	HAS\_CAUSE[42]	_	
+3-16	311-317	attack	_	B. Process[5]	_	HAS\_CAUSE[42]	_	
+3-17	318-320	or	_	_	_	HAS\_CAUSE[42]	_	
+3-18	321-329	solution	_	B.4 Transformation	_	HAS\_CAUSE[42]	_	
+3-19	329-330	.	_	_	_	_	_	
+
+#Text=shaft - a vertical cavity roughly equal in horizontal dimensions but much deeper than broad.
+4-1	334-339	shaft	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-2	340-341	-	_	_	_	_	_	
+4-3	342-343	a	_	_	_	HAS\_FORM[43]	_	
+4-4	344-352	vertical	_	_	_	HAS\_FORM[43]	_	
+4-5	353-359	cavity	_	D.1 Abiotic	GENUS	HAS\_FORM[43]	_	
+4-6	360-367	roughly	_	_	_	HAS\_FORM[44]	frame\_FORM	
+4-7	368-373	equal	_	_	_	HAS\_FORM[44]	_	
+4-8	374-376	in	_	_	_	HAS\_FORM[44]	_	
+4-9	377-387	horizontal	_	_	_	HAS\_FORM[44]	_	
+4-10	388-398	dimensions	_	_	_	HAS\_FORM[44]	_	
+4-11	399-402	but	_	_	_	HAS\_FORM[44]	_	
+4-12	403-407	much	_	_	_	HAS\_FORM[44]	_	
+4-13	408-414	deeper	_	_	_	HAS\_FORM[44]	_	
+4-14	415-419	than	_	_	_	HAS\_FORM[44]	_	
+4-15	420-425	broad	_	_	_	HAS\_FORM[44]	_	
+4-16	425-426	.	_	_	_	_	_	
+
+#Text=shawl - a simple triangular-shaped curtain.
+5-1	430-435	shawl	_	A.2 Underground landform	DEFINIENDUM	_	_	
+5-2	436-437	-	_	_	_	_	_	
+5-3	438-439	a	_	_	_	_	_	
+5-4	440-446	simple	_	_	_	HAS\_FORM[45]	_	
+5-5	447-464	triangular-shaped	_	_	_	HAS\_FORM[45]	_	
+5-6	465-472	curtain	_	D.1 Abiotic	GENUS	_	_	
+5-7	472-473	.	_	_	_	_	_	
+
+#Text=show cave - a cave that has been made accessible to the public for guided visits.
+6-1	477-481	show	_	A.2 Underground landform[6]	DEFINIENDUM[25]	_	_	
+6-2	482-486	cave	_	A.2 Underground landform[6]	DEFINIENDUM[25]	_	_	
+6-3	487-488	-	_	_	_	_	_	
+6-4	489-490	a	_	_	_	_	_	
+6-5	491-495	cave	_	A.2 Underground landform	GENUS	_	_	
+6-6	496-500	that	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-7	501-504	has	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-8	505-509	been	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-9	510-514	made	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-10	515-525	accessible	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-11	526-528	to	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-12	529-532	the	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-13	533-539	public	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-14	540-543	for	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-15	544-550	guided	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-16	551-557	visits	_	_	_	HAS\_ATTRIBUTE[46]	_	
+6-17	557-558	.	_	_	_	_	_	
+
+#Text=siphon - a water-filled passage of inverted v-profile which delivers a flow of water whenever the head of water upstream rises above the top of the inverted u.
+7-1	562-568	siphon	_	A.2 Underground landform	DEFINIENDUM	_	_	
+7-2	569-570	-	_	_	_	_	_	
+7-3	571-572	a	_	_	_	_	_	
+7-4	573-585	water-filled	_	_	_	CONTAINS	_	
+7-5	586-593	passage	_	D.1 Abiotic	GENUS	_	_	
+7-6	594-596	of	_	_	_	HAS\_FORM[47]	_	
+7-7	597-605	inverted	_	_	_	HAS\_FORM[47]	_	
+7-8	606-615	v-profile	_	_	_	HAS\_FORM[47]	_	
+7-9	616-621	which	_	_	_	HAS\_FUNCTION[48]	frame\_FUNCTION[66]	
+7-10	622-630	delivers	_	_	_	HAS\_FUNCTION[48]	frame\_FUNCTION[66]	
+7-11	631-632	a	_	_	_	HAS\_FUNCTION[48]	_	
+7-12	633-637	flow	_	_	_	HAS\_FUNCTION[48]	_	
+7-13	638-640	of	_	_	_	HAS\_FUNCTION[48]	_	
+7-14	641-646	water	_	_	_	HAS\_FUNCTION[48]	_	
+7-15	647-655	whenever	_	_	_	HAS\_FUNCTION[48]	_	
+7-16	656-659	the	_	_	_	HAS\_FUNCTION[48]	_	
+7-17	660-664	head	_	_	_	HAS\_FUNCTION[48]	_	
+7-18	665-667	of	_	_	_	HAS\_FUNCTION[48]	_	
+7-19	668-673	water	_	_	_	HAS\_FUNCTION[48]	_	
+7-20	674-682	upstream	_	_	_	HAS\_FUNCTION[48]	_	
+7-21	683-688	rises	_	_	_	HAS\_FUNCTION[48]	_	
+7-22	689-694	above	_	_	_	HAS\_FUNCTION[48]	_	
+7-23	695-698	the	_	_	_	HAS\_FUNCTION[48]	_	
+7-24	699-702	top	_	_	_	HAS\_FUNCTION[48]	_	
+7-25	703-705	of	_	_	_	HAS\_FUNCTION[48]	_	
+7-26	706-709	the	_	_	_	HAS\_FUNCTION[48]	_	
+7-27	710-718	inverted	_	_	_	HAS\_FUNCTION[48]	_	
+7-28	719-720	u	_	_	_	HAS\_FUNCTION[48]	_	
+7-29	720-721	.	_	_	_	_	_	
+
+#Text=solution - in karst studies, the change of bedrock from the solid state to the liquid state by combination with water.
+8-1	725-733	solution	_	B. Process	DEFINIENDUM	_	_	
+8-2	734-735	-	_	_	_	_	_	
+8-3	736-738	in	_	_	_	_	_	
+8-4	739-744	karst	_	_	_	_	_	
+8-5	745-752	studies	_	_	_	_	_	
+8-6	752-753	,	_	_	_	_	_	
+8-7	754-757	the	_	_	_	_	_	
+8-8	758-764	change	_	B.4 Transformation	GENUS[26]	_	_	
+8-9	765-767	of	_	_	GENUS[26]	_	_	
+8-10	768-775	bedrock	_	D.1 Abiotic	GENUS[26]	_	_	
+8-11	776-780	from	_	_	_	_	_	
+8-12	781-784	the	_	_	_	_	_	
+8-13	785-790	solid	_	_	_	_	_	
+8-14	791-796	state	_	_	_	_	_	
+8-15	797-799	to	_	_	_	_	_	
+8-16	800-803	the	_	_	_	_	_	
+8-17	804-810	liquid	_	_	_	_	_	
+8-18	811-816	state	_	_	_	_	_	
+8-19	817-819	by	_	_	_	DEFINED\_AS[49]	frame\_CAUSE	
+8-20	820-831	combination	_	_	_	DEFINED\_AS[49]	_	
+8-21	832-836	with	_	_	_	DEFINED\_AS[49]	_	
+8-22	837-842	water	_	D.1 Abiotic	_	DEFINED\_AS[49]	_	
+8-23	842-843	.	_	_	_	_	_	
+
+#Text=solution flute - a solution hollow running down the maximum slope of the rock, of uniform fingertip width and depth, with sharp ribs between it and its neighbours.
+9-1	847-855	solution	_	A.1 Surface landform[7]	DEFINIENDUM[27]	_	_	
+9-2	856-861	flute	_	A.1 Surface landform[7]	DEFINIENDUM[27]	_	_	
+9-3	862-863	-	_	_	_	_	_	
+9-4	864-865	a	_	_	_	_	_	
+9-5	866-874	solution	_	D.1 Abiotic[8]	GENUS[28]	_	_	
+9-6	875-881	hollow	_	D.1 Abiotic[8]	GENUS[28]	_	_	
+9-7	882-889	running	_	_	_	HAS\_FORM[50]	_	
+9-8	890-894	down	_	_	_	HAS\_FORM[50]	_	
+9-9	895-898	the	_	_	_	HAS\_FORM[50]	_	
+9-10	899-906	maximum	_	_	_	HAS\_FORM[50]	_	
+9-11	907-912	slope	_	D.1 Abiotic	_	HAS\_FORM[50]	_	
+9-12	913-915	of	_	_	_	HAS\_FORM[50]	_	
+9-13	916-919	the	_	_	_	HAS\_FORM[50]	_	
+9-14	920-924	rock	_	D.1 Abiotic	_	HAS\_FORM[50]	_	
+9-15	924-925	,	_	_	_	_	_	
+9-16	926-928	of	_	_	_	_	_	
+9-17	929-936	uniform	_	_	_	HAS\_SIZE[51]	_	
+9-18	937-946	fingertip	_	_	_	HAS\_SIZE[51]	_	
+9-19	947-952	width	_	D.3 Property	_	HAS\_SIZE[51]	_	
+9-20	953-956	and	_	_	_	HAS\_SIZE[51]	_	
+9-21	957-962	depth	_	D.3 Property	_	HAS\_SIZE[51]	_	
+9-22	962-963	,	_	_	_	_	_	
+9-23	964-968	with	_	_	_	HAS\_FORM[52]	_	
+9-24	969-974	sharp	_	_	_	HAS\_FORM[52]	_	
+9-25	975-979	ribs	_	_	_	HAS\_FORM[52]	_	
+9-26	980-987	between	_	_	_	HAS\_FORM[52]	_	
+9-27	988-990	it	_	_	_	HAS\_FORM[52]	_	
+9-28	991-994	and	_	_	_	HAS\_FORM[52]	_	
+9-29	995-998	its	_	_	_	HAS\_FORM[52]	_	
+9-30	999-1009	neighbours	_	_	_	HAS\_FORM[52]	_	
+9-31	1009-1010	.	_	_	_	_	_	
+
+#Text=solution pan - a dish-shaped depression on flatfish rock; its sides may overhang and carry solution flutes. its bottom may have a cover of organic remains, silt, clay or rock fragments.
+10-1	1014-1022	solution	_	A.1 Surface landform[9]	DEFINIENDUM[29]	_	_	
+10-2	1023-1026	pan	_	A.1 Surface landform[9]	DEFINIENDUM[29]	_	_	
+10-3	1027-1028	-	_	_	_	_	_	
+10-4	1029-1030	a	_	_	_	_	_	
+10-5	1031-1042	dish-shaped	_	_	_	HAS\_FORM[53]	_	
+10-6	1043-1053	depression	_	D.1 Abiotic	GENUS	HAS\_FORM[53]	_	
+10-7	1054-1056	on	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION	
+10-8	1057-1065	flatfish	_	_	_	HAS\_LOCATION[54]	_	
+10-9	1066-1070	rock	_	D.1 Abiotic	_	HAS\_LOCATION[54]	_	
+10-10	1070-1071	;	_	_	_	_	_	
+10-11	1072-1075	its	_	_	_	HAS\_FORM[55]	_	
+10-12	1076-1081	sides	_	_	_	HAS\_FORM[55]	_	
+10-13	1082-1085	may	_	_	_	HAS\_FORM[55]	_	
+10-14	1086-1094	overhang	_	_	_	HAS\_FORM[55]	_	
+10-15	1095-1098	and	_	_	_	HAS\_FORM[55]	_	
+10-16	1099-1104	carry	_	_	_	HAS\_FORM[55]	_	
+10-17	1105-1113	solution	_	_	_	HAS\_FORM[55]	_	
+10-18	1114-1120	flutes	_	_	_	HAS\_FORM[55]	_	
+10-19	1120-1121	.	_	_	_	_	_	
+10-20	1122-1125	its	_	_	_	CONTAINS[56]	_	
+10-21	1126-1132	bottom	_	_	_	CONTAINS[56]	_	
+10-22	1133-1136	may	_	_	_	CONTAINS[56]	frame\_CONTAINS[67]	
+10-23	1137-1141	have	_	_	_	CONTAINS[56]	frame\_CONTAINS[67]	
+10-24	1142-1143	a	_	_	_	CONTAINS[56]	frame\_CONTAINS[67]	
+10-25	1144-1149	cover	_	_	_	CONTAINS[56]	_	
+10-26	1150-1152	of	_	_	_	CONTAINS[56]	_	
+10-27	1153-1160	organic	_	D.2 Biotic[10]	_	CONTAINS[56]	_	
+10-28	1161-1168	remains	_	D.2 Biotic[10]	_	CONTAINS[56]	_	
+10-29	1168-1169	,	_	_	_	CONTAINS[56]	_	
+10-30	1170-1174	silt	_	D.1 Abiotic	_	CONTAINS[56]	_	
+10-31	1174-1175	,	_	_	_	CONTAINS[56]	_	
+10-32	1176-1180	clay	_	D.1 Abiotic	_	CONTAINS[56]	_	
+10-33	1181-1183	or	_	_	_	CONTAINS[56]	_	
+10-34	1184-1188	rock	_	D.1 Abiotic[11]	_	CONTAINS[56]	_	
+10-35	1189-1198	fragments	_	D.1 Abiotic[11]	_	CONTAINS[56]	_	
+10-36	1198-1199	.	_	_	_	_	_	
+
+#Text=solution runnel - a solution hollow running down the maximum slope of the rock, larger than a solution flute and increasing in depth and width down its length.
+11-1	1203-1211	solution	_	A.1 Surface landform[12]	DEFINIENDUM[30]	_	_	
+11-2	1212-1218	runnel	_	A.1 Surface landform[12]	DEFINIENDUM[30]	_	_	
+11-3	1219-1220	-	_	_	_	_	_	
+11-4	1221-1222	a	_	_	_	_	_	
+11-5	1223-1231	solution	_	A.1 Surface landform[13]	GENUS[31]	_	_	
+11-6	1232-1238	hollow	_	A.1 Surface landform[13]	GENUS[31]	_	_	
+11-7	1239-1246	running	_	_	_	HAS\_LOCATION[57]	_	
+11-8	1247-1251	down	_	_	_	HAS\_LOCATION[57]	_	
+11-9	1252-1255	the	_	_	_	HAS\_LOCATION[57]	_	
+11-10	1256-1263	maximum	_	_	_	HAS\_LOCATION[57]	_	
+11-11	1264-1269	slope	_	_	_	HAS\_LOCATION[57]	_	
+11-12	1270-1272	of	_	_	_	HAS\_LOCATION[57]	_	
+11-13	1273-1276	the	_	_	_	HAS\_LOCATION[57]	_	
+11-14	1277-1281	rock	_	D.1 Abiotic	_	HAS\_LOCATION[57]	_	
+11-15	1281-1282	,	_	_	_	_	_	
+11-16	1283-1289	larger	_	_	_	HAS\_SIZE[58]	frame\_SIZE[68]	
+11-17	1290-1294	than	_	_	_	HAS\_SIZE[58]	frame\_SIZE[68]	
+11-18	1295-1296	a	_	_	_	HAS\_SIZE[58]	_	
+11-19	1297-1305	solution	_	A.1 Surface landform[14]	_	HAS\_SIZE[58]	_	
+11-20	1306-1311	flute	_	A.1 Surface landform[14]	_	HAS\_SIZE[58]	_	
+11-21	1312-1315	and	_	_	_	_	_	
+11-22	1316-1326	increasing	_	_	_	HAS\_FORM[59]	_	
+11-23	1327-1329	in	_	_	_	HAS\_FORM[59]	_	
+11-24	1330-1335	depth	_	D.3 Property	_	HAS\_FORM[59]	_	
+11-25	1336-1339	and	_	_	_	HAS\_FORM[59]	_	
+11-26	1340-1345	width	_	D.3 Property	_	HAS\_FORM[59]	_	
+11-27	1346-1350	down	_	_	_	HAS\_FORM[59]	_	
+11-28	1351-1354	its	_	_	_	HAS\_FORM[59]	_	
+11-29	1355-1361	length	_	D.3 Property	_	HAS\_FORM[59]	_	
+11-30	1361-1362	.	_	_	_	_	_	
+
+#Text=speleogen - a cave feature formed erosionally or by weathering in cave enlargement, such as current markings (cf. scallop) or rock pendants.
+12-1	1367-1376	speleogen	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1377-1378	-	_	_	_	_	_	
+12-3	1379-1380	a	_	_	_	_	_	
+12-4	1381-1385	cave	_	A.2 Underground landform[15]	GENUS[32]	_	_	
+12-5	1386-1393	feature	_	A.2 Underground landform[15]	GENUS[32]	_	_	
+12-6	1394-1400	formed	_	_	_	HAS\_CAUSE[60]	frame\_CAUSE	
+12-7	1401-1412	erosionally	_	_	_	HAS\_CAUSE[60]	_	
+12-8	1413-1415	or	_	_	_	HAS\_CAUSE[60]	_	
+12-9	1416-1418	by	_	_	_	HAS\_CAUSE[60]	frame\_CAUSE	
+12-10	1419-1429	weathering	_	B. Process	_	HAS\_CAUSE[60]	_	
+12-11	1430-1432	in	_	_	_	HAS\_LOCATION[61]	_	
+12-12	1433-1437	cave	_	_	_	HAS\_LOCATION[61]	_	
+12-13	1438-1449	enlargement	_	_	_	HAS\_LOCATION[61]	_	
+12-14	1449-1450	,	_	_	_	_	_	
+12-15	1451-1455	such	_	_	_	_	_	
+12-16	1456-1458	as	_	_	_	_	_	
+12-17	1459-1466	current	_	A.2 Underground landform[16]	SPECIES[33]	_	_	
+12-18	1467-1475	markings	_	A.2 Underground landform[16]	SPECIES[33]	_	_	
+12-19	1476-1477	(	_	_	_	_	_	
+12-20	1477-1479	cf	_	_	_	_	_	
+12-21	1479-1480	.	_	_	_	_	_	
+12-22	1481-1488	scallop	_	A.2 Underground landform	SPECIES	_	_	
+12-23	1488-1489	)	_	_	_	_	_	
+12-24	1490-1492	or	_	_	_	_	_	
+12-25	1493-1497	rock	rock pendant[1]	A.2 Underground landform[17]	SPECIES[34]	_	_	
+12-26	1498-1506	pendants	rock pendant[1]	A.2 Underground landform[17]	SPECIES[34]	_	_	
+12-27	1506-1507	.	_	_	_	_	_	
+
+#Text=speleology - the exploration, description and scientific study of caves and related phenomena.
+13-1	1511-1521	speleology	_	E.2 Method	DEFINIENDUM	_	_	
+13-2	1522-1523	-	_	_	_	_	_	
+13-3	1524-1527	the	_	_	_	_	_	
+13-4	1528-1539	exploration	_	E.2 Method	SPECIES	_	_	
+13-5	1539-1540	,	_	_	_	_	_	
+13-6	1541-1552	description	_	E.2 Method	SPECIES	_	_	
+13-7	1553-1556	and	_	_	_	_	_	
+13-8	1557-1567	scientific	_	E.2 Method[18]	_	_	_	
+13-9	1568-1573	study	_	E.2 Method[18]	SPECIES	_	_	
+13-10	1574-1576	of	_	_	_	_	_	
+13-11	1577-1582	caves	_	_	_	_	_	
+13-12	1583-1586	and	_	_	_	_	_	
+13-13	1587-1594	related	_	_	_	_	_	
+13-14	1595-1604	phenomena	_	_	_	_	_	
+13-15	1604-1605	.	_	_	_	_	_	
+
+#Text=speleothem - a secondary mineral deposit formed in caves, most commonly calcite.
+14-1	1609-1619	speleothem	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	1620-1621	-	_	_	_	_	_	
+14-3	1622-1623	a	_	_	_	_	_	
+14-4	1624-1633	secondary	_	_	_	HAS\_ATTRIBUTE	_	
+14-5	1634-1641	mineral	_	D.1 Abiotic[19]	GENUS[35]	_	_	
+14-6	1642-1649	deposit	_	D.1 Abiotic[19]	GENUS[35]	_	_	
+14-7	1650-1656	formed	_	_	_	HAS\_LOCATION[62]	frame\_LOCATION[69]	
+14-8	1657-1659	in	_	_	_	HAS\_LOCATION[62]	frame\_LOCATION[69]	
+14-9	1660-1665	caves	_	A.2 Underground landform	_	HAS\_LOCATION[62]	_	
+14-10	1665-1666	,	_	_	_	_	_	
+14-11	1667-1671	most	_	_	_	_	_	
+14-12	1672-1680	commonly	_	_	_	_	_	
+14-13	1681-1688	calcite	_	D.1 Abiotic	SPECIES	_	_	
+14-14	1688-1689	.	_	_	_	_	_	
+
+#Text=splash cup - a shallow cavity in the top of a stalagmite.
+15-1	1693-1699	splash	_	A.2 Underground landform[20]	DEFINIENDUM[36]	_	_	
+15-2	1700-1703	cup	_	A.2 Underground landform[20]	DEFINIENDUM[36]	_	_	
+15-3	1704-1705	-	_	_	_	_	_	
+15-4	1706-1707	a	_	_	_	_	_	
+15-5	1708-1715	shallow	_	D.1 Abiotic[21]	GENUS[37]	_	_	
+15-6	1716-1722	cavity	_	D.1 Abiotic[21]	GENUS[37]	_	_	
+15-7	1723-1725	in	_	_	_	HAS\_LOCATION[63]	frame\_LOCATION[70]	
+15-8	1726-1729	the	_	_	_	HAS\_LOCATION[63]	frame\_LOCATION[70]	
+15-9	1730-1733	top	_	_	_	HAS\_LOCATION[63]	frame\_LOCATION[70]	
+15-10	1734-1736	of	_	_	_	HAS\_LOCATION[63]	frame\_LOCATION[70]	
+15-11	1737-1738	a	_	_	_	HAS\_LOCATION[63]	frame\_LOCATION[70]	
+15-12	1739-1749	stalagmite	_	A.2 Underground landform	_	HAS\_LOCATION[63]	_	
+15-13	1749-1750	.	_	_	_	_	_	

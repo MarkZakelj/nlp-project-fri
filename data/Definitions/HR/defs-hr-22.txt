@@ -1,0 +1,15 @@
+﻿kosina otapanja: U speleologiji, ravna padina u zidu špilje, uzrokovana nejednakom brzinom otapanja susjednih slojeva nejednake topivosti; geometrijski rezultat otapanja ispod vode koja sporo teče (Lange, 1964).
+špilja otapanja: Špilja formirana u topivoj stijeni.
+kanal otapanja: Cjevasti kanal formiran otapanjem u karbonatnim terenima, obično duž pukotina i slojnih ploha. 
+kolaps otapanjem: Iznenadni kolaps netopih slojeva zbog otapanja stijena u podini. 
+koridor otapanja: Ravni jarak u kršu, obično oko 3-10 m širok. 
+depresija otapanja: Opći izraz za bazen otapanja koja se javlja u krškom terenu.
+dolina otapanja: Krška dolina koja je formirana procesima otapanja i nije izmijenjena urušavanjem.
+ploha otapanja: Gotovo ravna ploha, uglavnom oivičena uskim obrubom ili izdignutim rubom, nastala na topivoj stijeni, kao što je vapnenac, progresivnim otapanjem kišnicom.
+pukotina otapanja: U kršu, jedna od niza vertikalnih otvorenih pukotina širine oko 0,5 m koje su formirane otapanjem du pukotine. 
+šupljina otapanja: 1 Šupljina nastala direktnim otapanjem vodom koja je prodrla u već postojeće međuprostore stijene. 2 Šupljina nastala razlaganjem manje topivih stijena vodom koja je prodrla u već postojeće pukotine, a slijedi otapanje i odnošenje produkata razlaganja.
+zdjela otapanja: Plitko udubljenje otapanja formirano na golom vapnencu. Uglavnom je karakterizirano ravnim dnom i nadvijenim stijenkama.
+cijev otapanja: Vertikalna cilindrična rupa formirana otapanjem i često nevidljiva na površini jer je ispunjena detritičnim materijalom. Često je promjera oko 0,5 m i do 20 m duboka, a karakteristična
+kanal otapanja: Veći žlijeb otapanja čija se veličina može povećati s njegovom dužinom.
+škarpa otapanja: Škarpa formirana na višoj padini aktivnijim otapanjem nego u nižem području ili podsijecanjem baze škarpe otapanjem.
+vrtača otapanja: Najčešći tip vrtače koja se povećava kada voda proširi pukotinu, ili njih nekoliko, na površini topive stijene.

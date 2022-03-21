@@ -1,0 +1,354 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=blanket :  A thick layer of dripstone, not translucent, see also bacon; curtain; drapery.
+1-1	0-7	blanket	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-2	8-9	:	_	_	_	_	_	
+1-3	11-12	A	_	_	_	_	_	
+1-4	13-18	thick	_	_	_	HAS\_FORM[37]	_	
+1-5	19-24	layer	_	_	_	HAS\_FORM[37]	_	
+1-6	25-27	of	_	_	_	_	_	
+1-7	28-37	dripstone	_	D.1 Abiotic	GENUS	_	_	
+1-8	37-38	,	_	_	_	_	_	
+1-9	39-42	not	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-10	43-54	translucent	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-11	54-55	,	_	_	_	_	_	
+1-12	56-59	see	_	_	_	_	_	
+1-13	60-64	also	_	_	_	_	_	
+1-14	65-70	bacon	_	A.2 Underground landform	_	_	_	
+1-15	70-71	;	_	_	_	_	_	
+1-16	72-79	curtain	_	A.2 Underground landform	_	_	_	
+1-17	79-80	;	_	_	_	_	_	
+1-18	81-88	drapery	_	A.2 Underground landform	_	_	_	
+1-19	88-89	.	_	_	_	_	_	
+
+#Text=blind valley :  A valley that ends suddenly at the point where its stream disappears underground; some blind valleys have no present-day streams. See also half-blind valley; marginal polje.
+2-1	90-95	blind	_	A.1 Surface landform[2]	DEFINIENDUM[25]	_	_	
+2-2	96-102	valley	_	A.1 Surface landform[2]	DEFINIENDUM[25]	_	_	
+2-3	103-104	:	_	_	_	_	_	
+2-4	106-107	A	_	_	_	_	_	
+2-5	108-114	valley	_	D.1 Abiotic	GENUS	_	_	
+2-6	115-119	that	_	_	_	_	_	
+2-7	120-124	ends	_	_	_	_	_	
+2-8	125-133	suddenly	_	_	_	_	_	
+2-9	134-136	at	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[59]	
+2-10	137-140	the	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[59]	
+2-11	141-146	point	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[59]	
+2-12	147-152	where	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION[59]	
+2-13	153-156	its	_	_	_	HAS\_LOCATION[39]	_	
+2-14	157-163	stream	_	D.1 Abiotic	_	HAS\_LOCATION[39]	_	
+2-15	164-174	disappears	_	B.2 Loss	_	HAS\_LOCATION[39]	_	
+2-16	175-186	underground	_	_	_	HAS\_LOCATION[39]	_	
+2-17	186-187	;	_	_	_	_	_	
+2-18	188-192	some	_	_	_	_	_	
+2-19	193-198	blind	_	_	_	_	_	
+2-20	199-206	valleys	_	_	_	_	_	
+2-21	207-211	have	_	_	_	_	_	
+2-22	212-214	no	_	_	_	_	_	
+2-23	215-226	present-day	_	_	_	_	_	
+2-24	227-234	streams	_	_	_	_	_	
+2-25	234-235	.	_	_	_	_	_	
+2-26	236-239	See	_	_	_	_	_	
+2-27	240-244	also	_	_	_	_	_	
+2-28	245-255	half-blind	_	A.1 Surface landform[3]	_	_	_	
+2-29	256-262	valley	_	A.1 Surface landform[3]	_	_	_	
+2-30	262-263	;	_	_	_	_	_	
+2-31	264-272	marginal	_	A.1 Surface landform[4]	_	_	_	
+2-32	273-278	polje	_	A.1 Surface landform[4]	_	_	_	
+2-33	278-279	.	_	_	_	_	_	
+
+#Text=blowhole :  A hole on land near the shore through which air and water are forced by incoming waves.
+3-1	280-288	blowhole	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-2	289-290	:	_	_	_	_	_	
+3-3	292-293	A	_	_	_	_	_	
+3-4	294-298	hole	_	D.1 Abiotic	GENUS	_	_	
+3-5	299-301	on	_	_	_	HAS\_LOCATION[40]	frame\_LOCATION	
+3-6	302-306	land	_	D.1 Abiotic	_	HAS\_LOCATION[40]	_	
+3-7	307-311	near	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION[60]	
+3-8	312-315	the	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION[60]	
+3-9	316-321	shore	_	D.1 Abiotic	_	HAS\_LOCATION[41]	_	
+3-10	322-329	through	_	_	_	HAS\_FUNCTION[42]	_	
+3-11	330-335	which	_	_	_	HAS\_FUNCTION[42]	_	
+3-12	336-339	air	_	_	_	HAS\_FUNCTION[42]	_	
+3-13	340-343	and	_	_	_	HAS\_FUNCTION[42]	_	
+3-14	344-349	water	_	_	_	HAS\_FUNCTION[42]	_	
+3-15	350-353	are	_	_	_	HAS\_FUNCTION[42]	frame\_FUNCTION[61]	
+3-16	354-360	forced	_	_	_	HAS\_FUNCTION[42]	frame\_FUNCTION[61]	
+3-17	361-363	by	_	_	_	HAS\_FUNCTION[42]	frame\_FUNCTION[61]	
+3-18	364-372	incoming	_	_	_	HAS\_FUNCTION[42]	_	
+3-19	373-378	waves	_	D.1 Abiotic	_	HAS\_FUNCTION[42]	_	
+3-20	378-379	.	_	_	_	_	_	
+
+#Text=blowhole :   A small hole in the surface of the Nullarbor Plain through which air blows in and out with observable force, sometimes audibly. *blowing cave. A cave out of which or into which a current of air flows intermittently.
+4-1	381-389	blowhole	_	A.1 Surface landform	DEFINIENDUM	_	_	
+4-2	390-391	:	_	_	_	_	_	
+4-3	394-395	A	_	_	_	_	_	
+4-4	396-401	small	_	_	_	HAS\_SIZE	_	
+4-5	402-406	hole	_	D.1 Abiotic	GENUS	_	_	
+4-6	407-409	in	_	_	_	HAS\_POSITION[43]	frame\_POSITION[62]	
+4-7	410-413	the	_	_	_	HAS\_POSITION[43]	frame\_POSITION[62]	
+4-8	414-421	surface	_	_	_	HAS\_POSITION[43]	_	
+4-9	422-424	of	_	_	_	HAS\_POSITION[43]	_	
+4-10	425-428	the	_	_	_	HAS\_POSITION[43]	_	
+4-11	429-438	Nullarbor	_	D.3.1 Geolocation[5]	_	HAS\_POSITION[43]	_	
+4-12	439-444	Plain	_	D.3.1 Geolocation[5]	_	HAS\_POSITION[43]	_	
+4-13	445-452	through	_	_	_	HAS\_FUNCTION[44]	_	
+4-14	453-458	which	_	_	_	HAS\_FUNCTION[44]	_	
+4-15	459-462	air	_	D.1 Abiotic	_	HAS\_FUNCTION[44]	_	
+4-16	463-468	blows	_	_	_	HAS\_FUNCTION[44]	_	
+4-17	469-471	in	_	_	_	HAS\_FUNCTION[44]	_	
+4-18	472-475	and	_	_	_	HAS\_FUNCTION[44]	_	
+4-19	476-479	out	_	_	_	HAS\_FUNCTION[44]	_	
+4-20	480-484	with	_	_	_	HAS\_FUNCTION[44]	_	
+4-21	485-495	observable	_	_	_	HAS\_FUNCTION[44]	_	
+4-22	496-501	force	_	D.1 Abiotic	_	HAS\_FUNCTION[44]	_	
+4-23	501-502	,	_	_	_	HAS\_FUNCTION[44]	_	
+4-24	503-512	sometimes	_	_	_	HAS\_FUNCTION[44]	_	
+4-25	513-520	audibly	_	_	_	HAS\_FUNCTION[44]	_	
+4-26	520-521	.	_	_	_	_	_	
+4-27	522-523	*	_	_	_	_	_	
+4-28	523-530	blowing	_	A.2 Underground landform[6]	_	_	_	
+4-29	531-535	cave	_	A.2 Underground landform[6]	_	_	_	
+4-30	535-536	.	_	_	_	_	_	
+4-31	537-538	A	_	_	_	_	_	
+4-32	539-543	cave	_	A.2 Underground landform	_	_	_	
+4-33	544-547	out	_	_	_	_	_	
+4-34	548-550	of	_	_	_	_	_	
+4-35	551-556	which	_	_	_	_	_	
+4-36	557-559	or	_	_	_	_	_	
+4-37	560-564	into	_	_	_	_	_	
+4-38	565-570	which	_	_	_	_	_	
+4-39	571-572	a	_	_	_	_	_	
+4-40	573-580	current	_	D.1 Abiotic[7]	_	_	_	
+4-41	581-583	of	_	D.1 Abiotic[7]	_	_	_	
+4-42	584-587	air	_	D.1 Abiotic[7]	_	_	_	
+4-43	588-593	flows	_	_	_	_	_	
+4-44	594-608	intermittently	_	_	_	_	_	
+4-45	608-609	.	_	_	_	_	_	
+
+#Text=blue hole :   A major emergence where water rises from below without great turbulence. See also boiling spring.
+5-1	610-614	blue	_	A.3 Hydrological form[8]	DEFINIENDUM[26]	_	_	
+5-2	615-619	hole	_	A.3 Hydrological form[8]	DEFINIENDUM[26]	_	_	
+5-3	620-621	:	_	_	_	_	_	
+5-4	624-625	A	_	_	_	_	_	
+5-5	626-631	major	_	_	_	_	_	
+5-6	632-641	emergence	_	A.3 Hydrological form	GENUS	_	_	
+5-7	642-647	where	_	_	_	_	_	
+5-8	648-653	water	_	D.1 Abiotic	_	HAS\_FUNCTION[45]	frame\_FUNCTION[63]	
+5-9	654-659	rises	_	B.1 Movement	_	HAS\_FUNCTION[45]	frame\_FUNCTION[63]	
+5-10	660-664	from	_	_	_	HAS\_FUNCTION[45]	_	
+5-11	665-670	below	_	_	_	HAS\_FUNCTION[45]	_	
+5-12	671-678	without	_	_	_	HAS\_FUNCTION[45]	_	
+5-13	679-684	great	_	_	_	HAS\_FUNCTION[45]	_	
+5-14	685-695	turbulence	_	D.3 Property	_	HAS\_FUNCTION[45]	_	
+5-15	695-696	.	_	_	_	_	_	
+5-16	697-700	See	_	_	_	_	_	
+5-17	701-705	also	_	_	_	_	_	
+5-18	706-713	boiling	_	A.3 Hydrological form[9]	_	_	_	
+5-19	714-720	spring	_	A.3 Hydrological form[9]	_	_	_	
+5-20	720-721	.	_	_	_	_	_	
+
+#Text=blue hole :   A drowned solution sinkhole.
+6-1	723-727	blue	_	A.3 Hydrological form[10]	DEFINIENDUM[27]	_	_	
+6-2	728-732	hole	_	A.3 Hydrological form[10]	DEFINIENDUM[27]	_	_	
+6-3	733-734	:	_	_	_	_	_	
+6-4	737-738	A	_	_	_	_	_	
+6-5	739-746	drowned	_	_	_	HAS\_LOCATION	_	
+6-6	747-755	solution	_	A.1 Surface landform[11]	_	_	_	
+6-7	756-764	sinkhole	_	A.1 Surface landform[11]	GENUS	_	_	
+6-8	764-765	.	_	_	_	_	_	
+
+#Text=bogaz :   A long narrow chasm enlarged by solution of the limestone. See also corridor; struga; kanjon.
+7-1	766-771	bogaz	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-2	772-773	:	_	_	_	_	_	
+7-3	776-777	A	_	_	_	_	_	
+7-4	778-782	long	_	_	_	_	_	
+7-5	783-789	narrow	_	_	_	_	_	
+7-6	790-795	chasm	_	D.1 Abiotic	_	_	_	
+7-7	796-804	enlarged	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[64]	
+7-8	805-807	by	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[64]	
+7-9	808-816	solution	_	B.2 Loss	_	HAS\_CAUSE[46]	_	
+7-10	817-819	of	_	_	_	HAS\_CAUSE[46]	_	
+7-11	820-823	the	_	_	_	HAS\_CAUSE[46]	_	
+7-12	824-833	limestone	_	D.1 Abiotic	_	HAS\_CAUSE[46]	_	
+7-13	833-834	.	_	_	_	_	_	
+7-14	835-838	See	_	_	_	_	_	
+7-15	839-843	also	_	_	_	_	_	
+7-16	844-852	corridor	_	A.1 Surface landform	_	_	_	
+7-17	852-853	;	_	_	_	_	_	
+7-18	854-860	struga	_	A.1 Surface landform	_	_	_	
+7-19	860-861	;	_	_	_	_	_	
+7-20	862-868	kanjon	_	A.1 Surface landform	_	_	_	
+7-21	868-869	.	_	_	_	_	_	
+
+#Text=boiling spring :   A large turbulent spring. See also blue hole.
+8-1	870-877	boiling	_	A.3 Hydrological form[12]	DEFINIENDUM[28]	_	_	
+8-2	878-884	spring	_	A.3 Hydrological form[12]	DEFINIENDUM[28]	_	_	
+8-3	885-886	:	_	_	_	_	_	
+8-4	889-890	A	_	_	_	_	_	
+8-5	891-896	large	_	_	_	HAS\_SIZE	_	
+8-6	897-906	turbulent	_	_	_	HAS\_FORM	_	
+8-7	907-913	spring	_	D.1 Abiotic	GENUS	_	_	
+8-8	913-914	.	_	_	_	_	_	
+8-9	915-918	See	_	_	_	_	_	
+8-10	919-923	also	_	_	_	_	_	
+8-11	924-928	blue	_	A.3 Hydrological form[13]	_	_	_	
+8-12	929-933	hole	_	A.3 Hydrological form[13]	_	_	_	
+8-13	933-934	.	_	_	_	_	_	
+
+#Text=bone-breccia :  Cave breccia including much bone.
+9-1	935-947	bone-breccia	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-2	948-949	:	_	_	_	_	_	
+9-3	951-955	Cave	_	D.1 Abiotic[14]	GENUS[29]	_	_	
+9-4	956-963	breccia	_	D.1 Abiotic[14]|D.1 Abiotic[15]	GENUS[29]	_	_	
+9-5	964-973	including	_	_	_	CONTAINS[47]	_	
+9-6	974-978	much	_	_	_	CONTAINS[47]	_	
+9-7	979-983	bone	_	D.2 Biotic	_	CONTAINS[47]	_	
+9-8	983-984	.	_	_	_	_	_	
+
+#Text=botryoid :  A grapelike deposit of calcium carbonate generally found on walls of caves. Synonyms, clusterite; grape formation.
+10-1	985-993	botryoid	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	994-995	:	_	_	_	_	_	
+10-3	997-998	A	_	_	_	_	_	
+10-4	999-1008	grapelike	_	_	_	HAS\_FORM	_	
+10-5	1009-1016	deposit	_	B.3 Addition	GENUS[30]	_	_	
+10-6	1017-1019	of	_	_	GENUS[30]	COMPOSITION\_MEDIUM[48]	frame\_COMPOSITION	
+10-7	1020-1027	calcium	_	D.1 Abiotic[16]	GENUS[30]	COMPOSITION\_MEDIUM[48]	_	
+10-8	1028-1037	carbonate	_	D.1 Abiotic[16]	GENUS[30]	COMPOSITION\_MEDIUM[48]	_	
+10-9	1038-1047	generally	_	_	_	HAS\_LOCATION[49]	_	
+10-10	1048-1053	found	_	_	_	HAS\_LOCATION[49]	frame\_LOCATION[65]	
+10-11	1054-1056	on	_	_	_	HAS\_LOCATION[49]	frame\_LOCATION[65]	
+10-12	1057-1062	walls	_	D.1 Abiotic	_	HAS\_LOCATION[49]	_	
+10-13	1063-1065	of	_	_	_	HAS\_LOCATION[49]	_	
+10-14	1066-1071	caves	_	A.2 Underground landform	_	HAS\_LOCATION[49]	_	
+10-15	1071-1072	.	_	_	_	_	_	
+10-16	1073-1081	Synonyms	_	_	_	_	_	
+10-17	1081-1082	,	_	_	_	_	_	
+10-18	1083-1093	clusterite	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-19	1093-1094	;	_	_	_	_	_	
+10-20	1095-1100	grape	_	A.2 Underground landform[17]	DEFINIENDUM[31]	_	_	
+10-21	1101-1110	formation	_	A.2 Underground landform[17]	DEFINIENDUM[31]	_	_	
+10-22	1110-1111	.	_	_	_	_	_	
+
+#Text=bourne :   Intermittent stream in a normally dry valley in chalk country.
+11-1	1112-1118	bourne	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+11-2	1119-1120	:	_	_	_	_	_	
+11-3	1123-1135	Intermittent	_	_	_	HAS\_FUNCTION	_	
+11-4	1136-1142	stream	_	D.1 Abiotic	GENUS	_	_	
+11-5	1143-1145	in	_	_	_	HAS\_LOCATION[50]	frame\_LOCATION[66]	
+11-6	1146-1147	a	_	_	_	HAS\_LOCATION[50]	frame\_LOCATION[66]	
+11-7	1148-1156	normally	_	_	_	HAS\_LOCATION[50]	_	
+11-8	1157-1160	dry	_	A.1 Surface landform[18]	_	HAS\_LOCATION[50]	_	
+11-9	1161-1167	valley	_	A.1 Surface landform[18]	_	HAS\_LOCATION[50]	_	
+11-10	1168-1170	in	_	_	_	HAS\_LOCATION[50]	_	
+11-11	1171-1176	chalk	_	_	_	HAS\_LOCATION[50]	_	
+11-12	1177-1184	country	_	_	_	HAS\_LOCATION[50]	_	
+11-13	1184-1185	.	_	_	_	_	_	
+
+#Text=boxwork :  Network of thin blades of calcite or gypsum etched out in relief on the limestone walls and ceiling of a cave.
+12-1	1186-1193	boxwork	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1194-1195	:	_	_	_	_	_	
+12-3	1197-1204	Network	_	_	_	HAS\_FORM[51]	_	
+12-4	1205-1207	of	_	_	_	HAS\_FORM[51]	frame\_FORM	
+12-5	1208-1212	thin	_	_	GENUS[32]	HAS\_FORM[51]	_	
+12-6	1213-1219	blades	_	D.1 Abiotic	GENUS[32]	HAS\_FORM[51]	_	
+12-7	1220-1222	of	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+12-8	1223-1230	calcite	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[52]	_	
+12-9	1231-1233	or	_	_	_	COMPOSITION\_MEDIUM[52]	_	
+12-10	1234-1240	gypsum	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[52]	_	
+12-11	1241-1247	etched	_	_	_	HAS\_LOCATION[53]	_	
+12-12	1248-1251	out	_	_	_	HAS\_LOCATION[53]	_	
+12-13	1252-1254	in	_	_	_	HAS\_LOCATION[53]	_	
+12-14	1255-1261	relief	_	_	_	HAS\_LOCATION[53]	_	
+12-15	1262-1264	on	_	_	_	HAS\_LOCATION[53]	_	
+12-16	1265-1268	the	_	_	_	HAS\_LOCATION[53]	_	
+12-17	1269-1278	limestone	_	D.1 Abiotic[19]	_	HAS\_LOCATION[53]	_	
+12-18	1279-1284	walls	_	D.1 Abiotic[19]	_	HAS\_LOCATION[53]	_	
+12-19	1285-1288	and	_	_	_	HAS\_LOCATION[53]	_	
+12-20	1289-1296	ceiling	_	D.1 Abiotic	_	HAS\_LOCATION[53]	_	
+12-21	1297-1299	of	_	_	_	HAS\_LOCATION[53]	_	
+12-22	1300-1301	a	_	_	_	HAS\_LOCATION[53]	_	
+12-23	1302-1306	cave	_	A.2 Underground landform	_	HAS\_LOCATION[53]	_	
+12-24	1306-1307	.	_	_	_	_	_	
+
+#Text=bridge :  In a cave, a residual rock span across a passage. See also natural bridge
+13-1	1308-1314	bridge	_	D.1 Abiotic	DEFINIENDUM	_	_	
+13-2	1315-1316	:	_	_	_	_	_	
+13-3	1318-1320	In	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[67]	
+13-4	1321-1322	a	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[67]	
+13-5	1323-1327	cave	_	A.2 Underground landform	_	HAS\_LOCATION[54]	_	
+13-6	1327-1328	,	_	_	_	_	_	
+13-7	1329-1330	a	_	_	_	HAS\_FORM[55]	_	
+13-8	1331-1339	residual	_	_	_	HAS\_FORM[55]	_	
+13-9	1340-1344	rock	_	_	GENUS[33]	HAS\_FORM[55]	_	
+13-10	1345-1349	span	_	_	GENUS[33]	HAS\_FORM[55]	_	
+13-11	1350-1356	across	_	_	_	HAS\_FORM[55]	_	
+13-12	1357-1358	a	_	_	_	HAS\_FORM[55]	_	
+13-13	1359-1366	passage	_	D.1 Abiotic	_	HAS\_FORM[55]	_	
+13-14	1366-1367	.	_	_	_	_	_	
+13-15	1368-1371	See	_	_	_	_	_	
+13-16	1372-1376	also	_	_	_	_	_	
+13-17	1377-1384	natural	_	D.1 Abiotic[20]	_	_	_	
+13-18	1385-1391	bridge	_	D.1 Abiotic[20]	_	_	_	
+
+#Text=buried karst :  Karst topography buried by younger sediments. See also covered karst; paleokarst.
+14-1	1392-1398	buried	_	C. Geome[21]	DEFINIENDUM[34]	_	_	
+14-2	1399-1404	karst	_	C. Geome[21]	DEFINIENDUM[34]	_	_	
+14-3	1405-1406	:	_	_	_	_	_	
+14-4	1408-1413	Karst	_	C. Geome[22]	GENUS[35]	_	_	
+14-5	1414-1424	topography	_	C. Geome[22]	GENUS[35]	_	_	
+14-6	1425-1431	buried	_	_	_	HAS\_CAUSE[56]	_	
+14-7	1432-1434	by	_	_	_	HAS\_CAUSE[56]	_	
+14-8	1435-1442	younger	_	_	_	HAS\_CAUSE[56]	_	
+14-9	1443-1452	sediments	_	D.1 Abiotic	_	HAS\_CAUSE[56]	_	
+14-10	1452-1453	.	_	_	_	_	_	
+14-11	1454-1457	See	_	_	_	_	_	
+14-12	1458-1462	also	_	_	_	_	_	
+14-13	1463-1470	covered	_	C. Geome[23]	_	_	_	
+14-14	1471-1476	karst	_	C. Geome[23]	_	_	_	
+14-15	1476-1477	;	_	_	_	_	_	
+14-16	1478-1488	paleokarst	_	C. Geome	_	_	_	
+14-17	1488-1489	.	_	_	_	_	_	
+
+#Text=calcarenite :  Limestone or dolomite composed of coral or shell sand or of grains derived from the disintegration and erosion of older limestones. Size of particles ranges from 1/16 to 2 millimeters.
+15-1	1490-1501	calcarenite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+15-2	1502-1503	:	_	_	_	_	_	
+15-3	1505-1514	Limestone	_	D.1 Abiotic	GENUS[36]	_	_	
+15-4	1515-1517	or	_	_	GENUS[36]	_	_	
+15-5	1518-1526	dolomite	_	D.1 Abiotic	GENUS[36]	_	_	
+15-6	1527-1535	composed	_	_	_	COMPOSITION\_MEDIUM[57]	frame\_COMPOSITION[68]	
+15-7	1536-1538	of	_	_	_	COMPOSITION\_MEDIUM[57]	frame\_COMPOSITION[68]	
+15-8	1539-1544	coral	coral sand	D.2 Biotic	_	COMPOSITION\_MEDIUM[57]	_	
+15-9	1545-1547	or	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-10	1548-1553	shell	_	D.2 Biotic[24]	_	COMPOSITION\_MEDIUM[57]	_	
+15-11	1554-1558	sand	_	D.2 Biotic[24]	_	COMPOSITION\_MEDIUM[57]	_	
+15-12	1559-1561	or	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-13	1562-1564	of	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-14	1565-1571	grains	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[57]	_	
+15-15	1572-1579	derived	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-16	1580-1584	from	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-17	1585-1588	the	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-18	1589-1603	disintegration	_	B.4 Transformation	_	COMPOSITION\_MEDIUM[57]	_	
+15-19	1604-1607	and	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-20	1608-1615	erosion	_	B.4 Transformation	_	COMPOSITION\_MEDIUM[57]	_	
+15-21	1616-1618	of	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-22	1619-1624	older	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-23	1625-1635	limestones	_	_	_	COMPOSITION\_MEDIUM[57]	_	
+15-24	1635-1636	.	_	_	_	_	_	
+15-25	1637-1641	Size	_	_	_	HAS\_SIZE[58]	_	
+15-26	1642-1644	of	_	_	_	HAS\_SIZE[58]	_	
+15-27	1645-1654	particles	_	_	_	HAS\_SIZE[58]	_	
+15-28	1655-1661	ranges	size ranges from[1]	_	_	HAS\_SIZE[58]	frame\_SIZE[69]	
+15-29	1662-1666	from	size ranges from[1]	_	_	HAS\_SIZE[58]	frame\_SIZE[69]	
+15-30	1667-1668	1	_	_	_	HAS\_SIZE[58]	_	
+15-31	1668-1669	/	_	_	_	HAS\_SIZE[58]	_	
+15-32	1669-1671	16	_	_	_	HAS\_SIZE[58]	_	
+15-33	1672-1674	to	_	_	_	HAS\_SIZE[58]	_	
+15-34	1675-1676	2	_	_	_	HAS\_SIZE[58]	_	
+15-35	1677-1688	millimeters	_	_	_	HAS\_SIZE[58]	_	
+15-36	1688-1689	.	_	_	_	_	_	

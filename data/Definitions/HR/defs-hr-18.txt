@@ -1,0 +1,15 @@
+﻿pregrada: Kod špilja, ostatak neotopljene stijene koji se proteže od dna do stropa kanala.
+kanal: Kanal u špilji, duži nego širi ili viši i koji je prohodan. 
+luster: Izbočina glatke površine koja, kao ostatak otapanja, visi sa svoda ili stijenke špilje. Obično se javlja u grupama. 
+klatno: Vrsta stalaktita koji je bio dijelom potopljen i taj dio je prekriven kalcitom psečeg zuba, dajući mu izgled bataka.
+petromorf: Obilježje, kao što je kalcitna žila, koja se reljefno ističe na stijenki špilje jer je vapnenac oko nje otopljen.
+freatski kanal: Kanal u špilji koji je prvenstveno razvijen ispod stalnog vodnog lica ili tijekom poplava, kako ukazuje morfologija kanala karakteristična za cijevi koje su u cijelosti ispunjene vodom.
+fitokrš: Tip okoliša u kojem je osnovna morfologija nastala ubušivanjem algi i/ili gljiva u vapnenac. Karakterizirana je zupčastom, grotesknom skulpturom, a od krša koji je formiran otapanjem, razlikuje se po nasumičnoj orijentaciji skulptura u odnosu na gravitaciju i crnom algalnom oblogom (Folk i dr., 1973).
+oslonac: Čvrsta stijena kao oslonac nakon odnošenja okolnih stijena otapanjem i/ili kolapsom.
+šiljati krš: Ogoljeni izraženi reljef s brojnim zašiljenim i vertikalnim grebenima. Grebeni se izdižu iznad pošumljenih koridora i depresija. 
+cijev: Cjevasta šupljina koja s površine vodi u kršku stijenu. Često je zapunjena zemljom.
+okno: Vertikalno okno u špilji koje se može ili ne mora protezati sve do površine.
+spust: Vertikalni ili gotovo vertikalni dio špilje.
+džep: Udubljenje formirano otapanjem na stropu, stijenkama ili na dnu špilje. 
+polje: U okolišu krške topografije, vrlo velika zatvorena depresija, mjestimično duga i široka nekoliko kilometara, s ravnim dnom ili od golog vapnenca ili dna prekrivenog aluvijalnim naslagama i uglavnom okružena strmim vapnenačkim padinama.
+poligonalni krš: Krško područje blisko smještenih zatvorenih depresija koje u grubo formiraju poligonalni model. 

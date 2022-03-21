@@ -1,0 +1,15 @@
+﻿dužinski profil: Karta špilje koja pokazuje profil po duljini špilje ili jednog kanala ili dvorane.
+ponornica: Rijeka u krškom području koja ponire u podzemni kanal.
+ponirući potok: Vodotok koji ponire u krškom području.
+lublinit: Vrlo mekana, sirasta ili spužvasta mješavina kalcita i vode. 
+makrokaverna: Obuhvaća sve šupljine u stijeni koje imaju promjer veći od 20 cm. Obuhvaća i sve kanale ako su prohodni za ljude.
+mamilaran: 1 Varijetet zaobljene podvodne prevlake. 2 Zaobljena siga koja se sastoji od karbonatnog sloja koji prekriva čvrstu stijenu.
+glavna špilja: Najprostraniji dio špilje do kojeg vode sporedni prolazi.
+razvedena špilja: Kompleksni model povezanih kanala, često u dva ili više nivoa u špilji.
+merokrš: Krška topografija sa samo djelomično razvijenim krškim oblicima kakva se nalazi u tankim, nečistim ili kredastim vapnencima gdje su uz površinsku drenažu i suhe doline prisutni i neki krški oblici. 
+mezokaverna: Obuhvaća sve šupljine u stijeni s promjerom između 0,1 cm i 20 cm. Nisu dovoljno velike da bi ih se smatralo špiljama u sustavu špilja.
+mikrokaverna: Obuhvaća sve šupljine u stijeni promjera manjeg od 0,1 cm, uključujući mikroskopske veličine.
+mikro-obodna barijera: Mala obodna veličine nekoliko milimetara.
+mikrokrš: Krška topografija kod koje su svi površinski oblici mali. Okoliš u kojem prevladavaju minorni krški oblici. Izraz je teško primjenjljiv jer ne postoje brojčane granice.
+mogot: Općenito rezidualno vapnenačko brdo strmih padina u tropskom krškom terenu. 
+špiljsklo mlijeko: Kriptokristalasta tvar bijele boje koja formira sige. Normalno je izgrađena od karbonatnih minerala i koja, kada je vlažna, na opip sliči kremi od sira, a kada je suha finom puderu. Može se sastojati od kalcita, hidromagnezita, neskuehonita, huntita, aragonita, magnezita ili dolomita. 

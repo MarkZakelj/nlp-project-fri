@@ -1,0 +1,296 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Kalcit je osnovna sestavina običajne sige, med kamninami apnenca, delno marmorja in karbonatitov.
+1-1	0-6	Kalcit	_	D.1 Abiotic	_	_	_	
+1-2	7-9	je	_	_	_	_	_	
+1-3	10-17	osnovna	_	_	_	_	_	
+1-4	18-27	sestavina	_	_	_	_	_	
+1-5	28-36	običajne	_	_	_	_	_	
+1-6	37-41	sige	_	_	_	_	_	
+1-7	41-42	,	_	_	_	_	_	
+1-8	43-46	med	_	_	_	_	_	
+1-9	47-56	kamninami	_	_	_	_	_	
+1-10	57-64	apnenca	_	D.1 Abiotic	_	_	_	
+1-11	64-65	,	_	_	_	_	_	
+1-12	66-71	delno	_	_	_	_	_	
+1-13	72-80	marmorja	_	D.1 Abiotic	_	_	_	
+1-14	81-83	in	_	_	_	_	_	
+1-15	84-96	karbonatitov	_	D.1 Abiotic	_	_	_	
+1-16	96-97	.	_	_	_	_	_	
+
+#Text=Matični kras: Kras kraške pokrajine med Tržaškim zalivom in Vipavsko dolino v regiji, ki jo imenujemo Kras in katere ime je prešlo v krasoslovno terminologijo kot geomorfološki termin.
+2-1	98-105	Matični	_	D.3.1 Geolocation[2]	DEFINIENDUM[22]	_	_	
+2-2	106-110	kras	_	D.3.1 Geolocation[2]	DEFINIENDUM[22]	_	_	
+2-3	110-111	:	_	_	_	_	_	
+2-4	112-116	Kras	_	D.3.1 Geolocation	GENUS	_	_	
+2-5	117-123	kraške	_	_	_	_	_	
+2-6	124-133	pokrajine	_	_	_	_	_	
+2-7	134-137	med	_	_	_	HAS\_POSITION[32]	frame\_POSITION	
+2-8	138-146	Tržaškim	_	D.3.1 Geolocation[3]	_	HAS\_POSITION[32]	_	
+2-9	147-154	zalivom	_	D.3.1 Geolocation[3]	_	HAS\_POSITION[32]	_	
+2-10	155-157	in	_	_	_	HAS\_POSITION[32]	_	
+2-11	158-166	Vipavsko	_	D.3.1 Geolocation[4]	_	HAS\_POSITION[32]	_	
+2-12	167-173	dolino	_	D.3.1 Geolocation[4]	_	HAS\_POSITION[32]	_	
+2-13	174-175	v	_	_	_	HAS\_POSITION[32]	_	
+2-14	176-182	regiji	_	_	_	HAS\_POSITION[32]	_	
+2-15	182-183	,	_	_	_	HAS\_POSITION[32]	_	
+2-16	184-186	ki	_	_	_	HAS\_POSITION[32]	_	
+2-17	187-189	jo	_	_	_	HAS\_POSITION[32]	_	
+2-18	190-199	imenujemo	_	_	_	HAS\_POSITION[32]	_	
+2-19	200-204	Kras	_	D.3.1 Geolocation	_	HAS\_POSITION[32]	_	
+2-20	205-207	in	_	_	_	_	_	
+2-21	208-214	katere	_	_	_	_	_	
+2-22	215-218	ime	_	_	_	_	_	
+2-23	219-221	je	_	_	_	_	_	
+2-24	222-228	prešlo	_	_	_	_	_	
+2-25	229-230	v	_	_	_	_	_	
+2-26	231-242	krasoslovno	_	_	_	_	_	
+2-27	243-256	terminologijo	_	_	_	_	_	
+2-28	257-260	kot	_	_	_	_	_	
+2-29	261-274	geomorfološki	_	_	_	_	_	
+2-30	275-281	termin	_	_	_	_	_	
+2-31	281-282	.	_	_	_	_	_	
+
+#Text=Vrtača je kotanja, navadno globoka več metrov, in je bolj široka kot globoka.
+3-1	283-289	Vrtača	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-2	290-292	je	_	_	DEFINITOR	_	_	
+3-3	293-300	kotanja	_	D.1 Abiotic	GENUS	_	_	
+3-4	300-301	,	_	_	_	_	_	
+3-5	302-309	navadno	_	_	_	HAS\_SIZE[33]	frame\_SIZE[50]	
+3-6	310-317	globoka	_	_	_	HAS\_SIZE[33]	frame\_SIZE[50]	
+3-7	318-321	več	_	_	_	HAS\_SIZE[33]	_	
+3-8	322-328	metrov	_	_	_	HAS\_SIZE[33]	_	
+3-9	328-329	,	_	_	_	_	_	
+3-10	330-332	in	_	_	_	_	_	
+3-11	333-335	je	_	_	_	HAS\_FORM[34]	_	
+3-12	336-340	bolj	_	_	_	HAS\_FORM[34]	_	
+3-13	341-347	široka	_	_	_	HAS\_FORM[34]	_	
+3-14	348-351	kot	_	_	_	HAS\_FORM[34]	_	
+3-15	352-359	globoka	_	_	_	HAS\_FORM[34]	_	
+3-16	359-360	.	_	_	_	_	_	
+
+#Text=Karbonatni prag je globina v oceanih, do katere se karbonati še odlagajo oziroma kjer je dinamika odlaganja večja od dinamike raztapljanja karbonatov.
+4-1	361-371	Karbonatni	_	D.3 Property[5]	DEFINIENDUM[23]	_	_	
+4-2	372-376	prag	_	D.3 Property[5]	DEFINIENDUM[23]	_	_	
+4-3	377-379	je	_	_	DEFINITOR	_	_	
+4-4	380-387	globina	_	D.3 Property	GENUS	_	_	
+4-5	388-389	v	_	_	_	_	_	
+4-6	390-397	oceanih	_	D.1 Abiotic	_	_	_	
+4-7	397-398	,	_	_	_	_	_	
+4-8	399-401	do	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[51]	
+4-9	402-408	katere	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[51]	
+4-10	409-411	se	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION[51]	
+4-11	412-421	karbonati	_	D.1 Abiotic	_	HAS\_LOCATION[35]	_	
+4-12	422-424	še	_	_	_	HAS\_LOCATION[35]	_	
+4-13	425-433	odlagajo	_	_	_	HAS\_LOCATION[35]	frame\_LOCATION	
+4-14	434-441	oziroma	_	_	_	_	_	
+4-15	442-446	kjer	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[52]	
+4-16	447-449	je	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[52]	
+4-17	450-458	dinamika	_	D.3 Property[6]	_	HAS\_LOCATION[36]	_	
+4-18	459-468	odlaganja	_	D.3 Property[6]	_	HAS\_LOCATION[36]	_	
+4-19	469-474	večja	_	_	_	HAS\_LOCATION[36]	_	
+4-20	475-477	od	_	_	_	HAS\_LOCATION[36]	_	
+4-21	478-486	dinamike	_	D.3 Property[7]	_	HAS\_LOCATION[36]	_	
+4-22	487-499	raztapljanja	_	D.3 Property[7]	_	HAS\_LOCATION[36]	_	
+4-23	500-510	karbonatov	_	_	_	HAS\_LOCATION[36]	_	
+4-24	510-511	.	_	_	_	_	_	
+
+#Text=Dolomit je sedimentna karbonatna kamnina, ki jo sestavljata minerala dolomit (več kot 50 utežnih odstotkov) in kalcit.
+5-1	512-519	Dolomit	_	D.1 Abiotic	DEFINIENDUM	_	_	
+5-2	520-522	je	_	_	DEFINITOR	_	_	
+5-3	523-533	sedimentna	_	_	GENUS[24]	HAS\_CAUSE	_	
+5-4	534-544	karbonatna	_	_	GENUS[24]	_	_	
+5-5	545-552	kamnina	_	D.1 Abiotic	GENUS[24]	_	_	
+5-6	552-553	,	_	_	_	_	_	
+5-7	554-556	ki	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-8	557-559	jo	_	_	_	COMPOSITION\_MEDIUM[37]	frame\_COMPOSITION[53]	
+5-9	560-571	sestavljata	_	_	_	COMPOSITION\_MEDIUM[37]	frame\_COMPOSITION[53]	
+5-10	572-580	minerala	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-11	581-588	dolomit	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[37]	_	
+5-12	589-590	(	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-13	590-593	več	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-14	594-597	kot	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-15	598-600	50	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-16	601-608	utežnih	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-17	609-618	odstotkov	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-18	618-619	)	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-19	620-622	in	_	_	_	COMPOSITION\_MEDIUM[37]	_	
+5-20	623-629	kalcit	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[37]	_	
+5-21	629-630	.	_	_	_	_	_	
+
+#Text=Evaporiti so sedimentne kamnine, ki so prisotne pod približno 25 odstotki celinskega površja, vendar na površini izdanjajo v manjši meri kakor karbonati.
+6-1	631-640	Evaporiti	_	D.1 Abiotic	DEFINIENDUM	_	_	
+6-2	641-643	so	_	_	DEFINITOR	_	_	
+6-3	644-654	sedimentne	_	D.1 Abiotic[8]	GENUS[25]	_	_	
+6-4	655-662	kamnine	_	D.1 Abiotic[8]	GENUS[25]	_	_	
+6-5	662-663	,	_	_	_	_	_	
+6-6	664-666	ki	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[54]	
+6-7	667-669	so	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[54]	
+6-8	670-678	prisotne	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[54]	
+6-9	679-682	pod	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[54]	
+6-10	683-692	približno	_	_	_	HAS\_LOCATION[38]	_	
+6-11	693-695	25	_	_	_	HAS\_LOCATION[38]	_	
+6-12	696-704	odstotki	_	_	_	HAS\_LOCATION[38]	_	
+6-13	705-715	celinskega	_	_	_	HAS\_LOCATION[38]	_	
+6-14	716-723	površja	_	_	_	HAS\_LOCATION[38]	_	
+6-15	723-724	,	_	_	_	_	_	
+6-16	725-731	vendar	_	_	_	_	_	
+6-17	732-734	na	_	_	_	HAS\_ATTRIBUTE[39]	_	
+6-18	735-743	površini	_	_	_	HAS\_ATTRIBUTE[39]	_	
+6-19	744-753	izdanjajo	_	_	_	HAS\_ATTRIBUTE[39]	_	
+6-20	754-755	v	_	_	_	HAS\_ATTRIBUTE[39]	_	
+6-21	756-762	manjši	_	_	_	HAS\_ATTRIBUTE[39]	_	
+6-22	763-767	meri	_	_	_	HAS\_ATTRIBUTE[39]	_	
+6-23	768-773	kakor	_	_	_	HAS\_ATTRIBUTE[39]	_	
+6-24	774-783	karbonati	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[39]	_	
+6-25	783-784	.	_	_	_	_	_	
+
+#Text=Evaporiti so sedimentne kamnine, ki so nastale z izločanjem mineralov iz prenasičene solne raztopine zaradi popolne ali le delne evaporacije vode.
+7-1	785-794	Evaporiti	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-2	795-797	so	_	_	DEFINITOR	_	_	
+7-3	798-808	sedimentne	_	D.1 Abiotic[9]	GENUS[26]	_	_	
+7-4	809-816	kamnine	_	D.1 Abiotic[9]	GENUS[26]	_	_	
+7-5	816-817	,	_	_	_	_	_	
+7-6	818-820	ki	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[55]	
+7-7	821-823	so	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[55]	
+7-8	824-831	nastale	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[55]	
+7-9	832-833	z	_	_	_	HAS\_CAUSE[40]	frame\_CAUSE[55]	
+7-10	834-844	izločanjem	_	B.2 Loss	_	HAS\_CAUSE[40]	_	
+7-11	845-854	mineralov	_	D.1 Abiotic	_	HAS\_CAUSE[40]	_	
+7-12	855-857	iz	_	_	_	HAS\_CAUSE[40]	_	
+7-13	858-869	prenasičene	_	D.1 Abiotic[10]	_	HAS\_CAUSE[40]	_	
+7-14	870-875	solne	_	D.1 Abiotic[10]	_	HAS\_CAUSE[40]	_	
+7-15	876-885	raztopine	_	D.1 Abiotic[10]	_	HAS\_CAUSE[40]	_	
+7-16	886-892	zaradi	_	_	_	HAS\_CAUSE[40]	_	
+7-17	893-900	popolne	popolna evaporacija	D.3 Property	_	HAS\_CAUSE[40]	_	
+7-18	901-904	ali	_	_	_	HAS\_CAUSE[40]	_	
+7-19	905-907	le	_	_	_	HAS\_CAUSE[40]	_	
+7-20	908-913	delne	delna evaporacija[1]	D.3 Property[11]	_	HAS\_CAUSE[40]	_	
+7-21	914-925	evaporacije	delna evaporacija[1]	D.3 Property[11]	_	HAS\_CAUSE[40]	_	
+7-22	926-930	vode	_	_	_	HAS\_CAUSE[40]	_	
+7-23	930-931	.	_	_	_	_	_	
+
+#Text=Najpogostejši evaporitni mineral je sadra, saj se najhitreje izloči iz vode.
+8-1	932-945	Najpogostejši	_	_	_	_	_	
+8-2	946-956	evaporitni	_	D.1 Abiotic[12]	GENUS[27]	_	_	
+8-3	957-964	mineral	_	D.1 Abiotic[12]	GENUS[27]	_	_	
+8-4	965-967	je	_	_	DEFINITOR	_	_	
+8-5	968-973	sadra	_	D.1 Abiotic	DEFINIENDUM	_	_	
+8-6	973-974	,	_	_	_	_	_	
+8-7	975-978	saj	_	_	_	HAS\_ATTRIBUTE[41]	_	
+8-8	979-981	se	_	_	_	HAS\_ATTRIBUTE[41]	_	
+8-9	982-992	najhitreje	_	_	_	HAS\_ATTRIBUTE[41]	_	
+8-10	993-999	izloči	_	_	_	HAS\_ATTRIBUTE[41]	_	
+8-11	1000-1002	iz	_	_	_	HAS\_ATTRIBUTE[41]	_	
+8-12	1003-1007	vode	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[41]	_	
+8-13	1007-1008	.	_	_	_	_	_	
+
+#Text=Sadra (CaSO4.2H2O) je mineral, ki se pri evaporaciji prvi izloči iz vode.
+9-1	1009-1014	Sadra	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-2	1015-1016	(	_	_	_	_	_	
+9-3	1016-1026	CaSO4.2H2O	_	D.1 Abiotic	_	_	_	
+9-4	1026-1027	)	_	_	_	_	_	
+9-5	1028-1030	je	_	_	DEFINITOR	_	_	
+9-6	1031-1038	mineral	_	D.1 Abiotic	GENUS	_	_	
+9-7	1038-1039	,	_	_	_	_	_	
+9-8	1040-1042	ki	_	_	_	HAS\_ATTRIBUTE[42]	_	
+9-9	1043-1045	se	_	_	_	HAS\_ATTRIBUTE[42]	_	
+9-10	1046-1049	pri	_	_	_	HAS\_ATTRIBUTE[42]	_	
+9-11	1050-1061	evaporaciji	_	B.2 Loss	_	HAS\_ATTRIBUTE[42]	_	
+9-12	1062-1066	prvi	_	_	_	HAS\_ATTRIBUTE[42]	_	
+9-13	1067-1073	izloči	_	_	_	HAS\_ATTRIBUTE[42]	_	
+9-14	1074-1076	iz	_	_	_	HAS\_ATTRIBUTE[42]	_	
+9-15	1077-1081	vode	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[42]	_	
+9-16	1081-1082	.	_	_	_	_	_	
+
+#Text=Marmor je metamorfna kamnina, ki nastane z metamorfozo apnencev in dolomitov pri povišanih tlakih in temperaturi.
+10-1	1083-1089	Marmor	_	D.1 Abiotic	DEFINIENDUM	_	_	
+10-2	1090-1092	je	_	_	DEFINITOR	_	_	
+10-3	1093-1103	metamorfna	_	D.1 Abiotic[13]	GENUS[28]	_	_	
+10-4	1104-1111	kamnina	_	D.1 Abiotic[13]	GENUS[28]	_	_	
+10-5	1111-1112	,	_	_	_	_	_	
+10-6	1113-1115	ki	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[56]	
+10-7	1116-1123	nastane	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[56]	
+10-8	1124-1125	z	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[56]	
+10-9	1126-1137	metamorfozo	_	B.4 Transformation	_	HAS\_CAUSE[43]	_	
+10-10	1138-1146	apnencev	_	D.1 Abiotic	_	HAS\_CAUSE[43]	_	
+10-11	1147-1149	in	_	_	_	HAS\_CAUSE[43]	_	
+10-12	1150-1159	dolomitov	_	D.1 Abiotic	_	HAS\_CAUSE[43]	_	
+10-13	1160-1163	pri	_	_	_	HAS\_CAUSE[43]	_	
+10-14	1164-1173	povišanih	_	_	_	HAS\_CAUSE[43]	_	
+10-15	1174-1180	tlakih	_	D.3 Property	_	HAS\_CAUSE[43]	_	
+10-16	1181-1183	in	_	_	_	HAS\_CAUSE[43]	_	
+10-17	1184-1195	temperaturi	_	D.3 Property	_	HAS\_CAUSE[43]	_	
+10-18	1195-1196	.	_	_	_	_	_	
+
+#Text=Karbonatit je karbonatna magmatska kamnina.
+11-1	1197-1207	Karbonatit	_	D.1 Abiotic	DEFINIENDUM	_	_	
+11-2	1208-1210	je	_	_	DEFINITOR	_	_	
+11-3	1211-1221	karbonatna	_	D.1 Abiotic[14]	GENUS[29]	_	_	
+11-4	1222-1231	magmatska	_	D.1 Abiotic[14]|D.1 Abiotic[15]	GENUS[29]	_	_	
+11-5	1232-1239	kamnina	_	D.1 Abiotic[14]|D.1 Abiotic[15]	GENUS[29]	_	_	
+11-6	1239-1240	.	_	_	_	_	_	
+
+#Text=Razpoke so presledki v kamnini, ki nastanejo zaradi delovanja napetosti.
+12-1	1241-1248	Razpoke	_	D.1 Abiotic	DEFINIENDUM	_	_	
+12-2	1249-1251	so	_	_	DEFINITOR	_	_	
+12-3	1252-1261	presledki	_	_	GENUS[30]	_	_	
+12-4	1262-1263	v	_	_	GENUS[30]	HAS\_LOCATION[44]	frame\_LOCATION	
+12-5	1264-1271	kamnini	_	D.1 Abiotic	GENUS[30]	HAS\_LOCATION[44]	_	
+12-6	1271-1272	,	_	_	_	_	_	
+12-7	1273-1275	ki	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[57]	
+12-8	1276-1285	nastanejo	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[57]	
+12-9	1286-1292	zaradi	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE[57]	
+12-10	1293-1302	delovanja	_	_	_	HAS\_CAUSE[45]	_	
+12-11	1303-1312	napetosti	_	D.3 Property	_	HAS\_CAUSE[45]	_	
+12-12	1312-1313	.	_	_	_	_	_	
+
+#Text=Najpomembnejši proces oblikovanja kraškega geomorfnega sistema je kemično preperevanje oziroma raztapljanje.
+13-1	1314-1328	Najpomembnejši	_	_	_	_	_	
+13-2	1329-1335	proces	_	_	_	_	_	
+13-3	1336-1347	oblikovanja	_	_	_	_	_	
+13-4	1348-1356	kraškega	_	C. Geome[16]	DEFINIENDUM[31]	_	_	
+13-5	1357-1368	geomorfnega	_	C. Geome[16]	DEFINIENDUM[31]	_	_	
+13-6	1369-1376	sistema	_	C. Geome[16]	DEFINIENDUM[31]	_	_	
+13-7	1377-1379	je	_	_	_	_	_	
+13-8	1380-1387	kemično	_	B.4 Transformation[17]	_	HAS\_CAUSE[46]	_	
+13-9	1388-1400	preperevanje	_	B.4 Transformation[17]	_	HAS\_CAUSE[46]	_	
+13-10	1401-1408	oziroma	_	_	_	HAS\_CAUSE[46]	_	
+13-11	1409-1421	raztapljanje	_	B.4 Transformation	_	HAS\_CAUSE[46]	_	
+13-12	1421-1422	.	_	_	_	_	_	
+
+#Text=Sadra je pogost mineral na Zemljinem površju, predvsem v sušnejših klimatskih okoljih.
+14-1	1423-1428	Sadra	_	D.1 Abiotic	DEFINIENDUM	_	_	
+14-2	1429-1431	je	_	_	DEFINITOR	_	_	
+14-3	1432-1438	pogost	_	_	_	_	_	
+14-4	1439-1446	mineral	_	D.1 Abiotic	GENUS	_	_	
+14-5	1447-1449	na	_	_	_	HAS\_POSITION[47]	frame\_POSITION	
+14-6	1450-1459	Zemljinem	_	D.3.1 Geolocation[18]	_	HAS\_POSITION[47]	_	
+14-7	1460-1467	površju	_	D.3.1 Geolocation[18]	_	HAS\_POSITION[47]	_	
+14-8	1467-1468	,	_	_	_	_	_	
+14-9	1469-1477	predvsem	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION[58]	
+14-10	1478-1479	v	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION[58]	
+14-11	1480-1489	sušnejših	_	C. Geome[19]	_	HAS\_LOCATION[48]	_	
+14-12	1490-1500	klimatskih	_	C. Geome[19]	_	HAS\_LOCATION[48]	_	
+14-13	1501-1508	okoljih	_	C. Geome[19]	_	HAS\_LOCATION[48]	_	
+14-14	1508-1509	.	_	_	_	_	_	
+
+#Text=Najpreprostejšo obliko raztapljanja mineralov kraških kamnin v čisti vodi imenujemo disociacija.
+15-1	1510-1525	Najpreprostejšo	_	_	_	_	_	
+15-2	1526-1532	obliko	_	_	_	_	_	
+15-3	1533-1545	raztapljanja	_	B.4 Transformation	GENUS	_	_	
+15-4	1546-1555	mineralov	_	D.1 Abiotic	_	_	_	
+15-5	1556-1563	kraških	_	D.1 Abiotic[20]	_	_	_	
+15-6	1564-1570	kamnin	_	D.1 Abiotic[20]	_	_	_	
+15-7	1571-1572	v	_	_	_	COMPOSITION\_MEDIUM[49]	frame\_COMPOSITION	
+15-8	1573-1578	čisti	_	D.1 Abiotic[21]	_	COMPOSITION\_MEDIUM[49]	_	
+15-9	1579-1583	vodi	_	D.1 Abiotic[21]	_	COMPOSITION\_MEDIUM[49]	_	
+15-10	1584-1593	imenujemo	_	_	DEFINITOR	_	_	
+15-11	1594-1605	disociacija	_	B.4 Transformation	DEFINIENDUM	_	_	
+15-12	1605-1606	.	_	_	_	_	_	

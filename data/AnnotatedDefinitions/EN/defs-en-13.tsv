@@ -1,0 +1,380 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Carbonatites are intrusive igneous rocks composed of 60–90% carbonate minerals, chiefly calcite.
+1-1	0-12	Carbonatites	carbonatite	D.1 Abiotic	DEFINIENDUM	_	_	
+1-2	13-16	are	_	_	DEFINITOR	_	_	
+1-3	17-26	intrusive	_	_	_	HAS\_ATTRIBUTE[43]	_	
+1-4	27-34	igneous	_	D.1 Abiotic[1]	_	HAS\_ATTRIBUTE[43]	_	
+1-5	35-40	rocks	_	D.1 Abiotic[1]|D.1 Abiotic[2]	GENUS	_	_	
+1-6	41-49	composed	_	_	_	COMPOSITION\_MEDIUM[44]	frame\_COMPOSITION[66]	
+1-7	50-52	of	_	_	_	COMPOSITION\_MEDIUM[44]	frame\_COMPOSITION[66]	
+1-8	53-55	60	_	_	_	COMPOSITION\_MEDIUM[44]	_	
+1-9	55-56	–	_	_	_	COMPOSITION\_MEDIUM[44]	_	
+1-10	56-59	90%	_	_	_	COMPOSITION\_MEDIUM[44]	_	
+1-11	60-69	carbonate	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[44]	_	
+1-12	70-78	minerals	_	D.1 Abiotic[3]	_	COMPOSITION\_MEDIUM[44]	_	
+1-13	78-79	,	_	_	_	COMPOSITION\_MEDIUM[44]	_	
+1-14	80-87	chiefly	_	_	_	COMPOSITION\_MEDIUM[44]	_	
+1-15	88-95	calcite	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[44]	_	
+1-16	95-96	.	_	_	_	_	_	
+
+#Text=Pit caves are vertical shafts, 1–2 m in diameter and up to 15 m deep.
+2-1	97-100	Pit	_	A.2 Underground landform[4]	DEFINIENDUM[25]	_	_	
+2-2	101-106	caves	_	A.2 Underground landform[4]	DEFINIENDUM[25]	_	_	
+2-3	107-110	are	_	_	DEFINITOR	_	_	
+2-4	111-119	vertical	_	_	_	HAS\_FORM	_	
+2-5	120-126	shafts	_	A.2 Underground landform	GENUS	_	_	
+2-6	126-127	,	_	_	_	_	_	
+2-7	128-129	1	_	_	_	HAS\_SIZE[45]	_	
+2-8	129-130	–	_	_	_	HAS\_SIZE[45]	_	
+2-9	130-131	2	_	_	_	HAS\_SIZE[45]	_	
+2-10	132-133	m	_	_	_	HAS\_SIZE[45]	_	
+2-11	134-136	in	_	_	_	HAS\_SIZE[45]	frame\_SIZE[67]	
+2-12	137-145	diameter	_	_	_	HAS\_SIZE[45]	frame\_SIZE[67]	
+2-13	146-149	and	_	_	_	HAS\_SIZE[45]	_	
+2-14	150-152	up	_	_	_	HAS\_SIZE[45]	_	
+2-15	153-155	to	_	_	_	HAS\_SIZE[45]	_	
+2-16	156-158	15	_	_	_	HAS\_SIZE[45]	_	
+2-17	159-160	m	_	_	_	HAS\_SIZE[45]	_	
+2-18	161-165	deep	_	_	_	HAS\_SIZE[45]	frame\_SIZE	
+2-19	165-166	.	_	_	_	_	_	
+
+#Text=Mogotes are isolated karst towers that rise from the blanket sands in the northern section.
+3-1	167-174	Mogotes	_	A.1 Surface landform	DEFINIENDUM	_	_	
+3-2	175-178	are	_	_	DEFINITOR	_	_	
+3-3	179-187	isolated	_	_	_	HAS\_FORM	_	
+3-4	188-193	karst	_	A.1 Surface landform[5]	GENUS[26]	_	_	
+3-5	194-200	towers	_	A.1 Surface landform[5]	GENUS[26]	_	_	
+3-6	201-205	that	_	_	_	_	_	
+3-7	206-210	rise	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-8	211-215	from	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-9	216-219	the	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-10	220-227	blanket	_	D.1 Abiotic[6]	_	COMPOSITION\_MEDIUM[46]	_	
+3-11	228-233	sands	_	D.1 Abiotic[6]	_	COMPOSITION\_MEDIUM[46]	_	
+3-12	234-236	in	_	_	_	HAS\_LOCATION[47]	_	
+3-13	237-240	the	_	_	_	HAS\_LOCATION[47]	_	
+3-14	241-249	northern	_	_	_	HAS\_LOCATION[47]	_	
+3-15	250-257	section	_	_	_	HAS\_LOCATION[47]	_	
+3-16	257-258	.	_	_	_	_	_	
+
+#Text=Fenglin is an extreme form of karst that only develops where dissolution rates, tectonic uplift, and alluviation maintain a critical balance (Zhang, 1980).
+4-1	259-266	Fenglin	_	A.1 Surface landform	DEFINIENDUM	_	_	
+4-2	267-269	is	_	_	DEFINITOR[27]	_	_	
+4-3	270-272	an	_	_	DEFINITOR[27]	_	_	
+4-4	273-280	extreme	_	_	_	HAS\_FORM[48]	_	
+4-5	281-285	form	_	_	_	HAS\_FORM[48]	_	
+4-6	286-288	of	_	_	_	HAS\_FORM[48]	_	
+4-7	289-294	karst	_	C. Geome	GENUS	HAS\_FORM[48]	_	
+4-8	295-299	that	_	_	_	_	_	
+4-9	300-304	only	_	_	_	_	_	
+4-10	305-313	develops	_	_	_	HAS\_CAUSE[49]	frame\_CAUSE[68]	
+4-11	314-319	where	_	_	_	HAS\_CAUSE[49]	frame\_CAUSE[68]	
+4-12	320-331	dissolution	_	B.2 Loss	_	HAS\_CAUSE[49]	_	
+4-13	332-337	rates	_	_	_	HAS\_CAUSE[49]	_	
+4-14	337-338	,	_	_	_	HAS\_CAUSE[49]	_	
+4-15	339-347	tectonic	_	B.1 Movement[7]	_	HAS\_CAUSE[49]	_	
+4-16	348-354	uplift	_	B.1 Movement[7]	_	HAS\_CAUSE[49]	_	
+4-17	354-355	,	_	_	_	HAS\_CAUSE[49]	_	
+4-18	356-359	and	_	_	_	HAS\_CAUSE[49]	_	
+4-19	360-371	alluviation	_	B.3 Addition	_	HAS\_CAUSE[49]	_	
+4-20	372-380	maintain	_	_	_	HAS\_CAUSE[49]	_	
+4-21	381-382	a	_	_	_	HAS\_CAUSE[49]	_	
+4-22	383-391	critical	_	_	_	HAS\_CAUSE[49]	_	
+4-23	392-399	balance	_	_	_	HAS\_CAUSE[49]	_	
+4-24	400-401	(	_	_	_	_	_	
+4-25	401-406	Zhang	_	_	_	_	_	
+4-26	406-407	,	_	_	_	_	_	
+4-27	408-412	1980	_	_	_	_	_	
+4-28	412-413	)	_	_	_	_	_	
+4-29	413-414	.	_	_	_	_	_	
+
+#Text=The principal surface karst landforms are shapely solution dolines, 10–100 m in diameter and up to 30 m in depth.
+5-1	415-418	The	_	_	_	_	_	
+5-2	419-428	principal	_	_	_	_	_	
+5-3	429-436	surface	_	_	_	_	_	
+5-4	437-442	karst	_	C. Geome[8]	GENUS[28]	_	_	
+5-5	443-452	landforms	_	C. Geome[8]	GENUS[28]	_	_	
+5-6	453-456	are	_	_	DEFINITOR	_	_	
+5-7	457-464	shapely	_	_	_	_	_	
+5-8	465-473	solution	_	A.1 Surface landform[9]	DEFINIENDUM[29]	_	_	
+5-9	474-481	dolines	_	A.1 Surface landform[9]	DEFINIENDUM[29]	_	_	
+5-10	481-482	,	_	_	_	_	_	
+5-11	483-485	10	_	_	_	HAS\_SIZE[50]	_	
+5-12	485-486	–	_	_	_	HAS\_SIZE[50]	_	
+5-13	486-489	100	_	_	_	HAS\_SIZE[50]	_	
+5-14	490-491	m	_	_	_	HAS\_SIZE[50]	_	
+5-15	492-494	in	_	_	_	HAS\_SIZE[50]	frame\_SIZE[69]	
+5-16	495-503	diameter	_	_	_	HAS\_SIZE[50]	frame\_SIZE[69]	
+5-17	504-507	and	_	_	_	HAS\_SIZE[50]	_	
+5-18	508-510	up	_	_	_	HAS\_SIZE[50]	_	
+5-19	511-513	to	_	_	_	HAS\_SIZE[50]	_	
+5-20	514-516	30	_	_	_	HAS\_SIZE[50]	_	
+5-21	517-518	m	_	_	_	HAS\_SIZE[50]	_	
+5-22	519-521	in	_	_	_	HAS\_SIZE[50]	_	
+5-23	522-527	depth	_	_	_	HAS\_SIZE[50]	_	
+5-24	527-528	.	_	_	_	_	_	
+
+#Text=Vertical shafts are common underground, and are often exposed at the surface, truncated by glaciation and filled with shattered rock and sediment.
+6-1	529-537	Vertical	_	A.2 Underground landform[10]	DEFINIENDUM[30]	_	_	
+6-2	538-544	shafts	_	A.2 Underground landform[10]	DEFINIENDUM[30]	_	_	
+6-3	545-548	are	_	_	_	_	_	
+6-4	549-555	common	_	_	_	_	_	
+6-5	556-567	underground	_	C. Geome	_	HAS\_LOCATION	_	
+6-6	567-568	,	_	_	_	_	_	
+6-7	569-572	and	_	_	_	_	_	
+6-8	573-576	are	_	_	_	_	_	
+6-9	577-582	often	_	_	_	HAS\_RESULT[51]	_	
+6-10	583-590	exposed	_	_	_	HAS\_RESULT[51]	_	
+6-11	591-593	at	_	_	_	HAS\_RESULT[51]	_	
+6-12	594-597	the	_	_	_	HAS\_RESULT[51]	_	
+6-13	598-605	surface	_	_	_	HAS\_RESULT[51]	_	
+6-14	605-606	,	_	_	_	_	_	
+6-15	607-616	truncated	_	B.2 Loss	_	HAS\_CAUSE[52]	_	
+6-16	617-619	by	_	_	_	HAS\_CAUSE[52]	_	
+6-17	620-630	glaciation	_	B.4 Transformation	_	HAS\_CAUSE[52]	_	
+6-18	631-634	and	_	_	_	_	_	
+6-19	635-641	filled	_	B.3 Addition[11]	_	CONTAINS[53]	frame\_CONTAINS[70]	
+6-20	642-646	with	_	B.3 Addition[11]	_	CONTAINS[53]	frame\_CONTAINS[70]	
+6-21	647-656	shattered	_	D.1 Abiotic[12]	_	CONTAINS[53]	_	
+6-22	657-661	rock	_	D.1 Abiotic[12]	_	CONTAINS[53]	_	
+6-23	662-665	and	_	_	_	CONTAINS[53]	_	
+6-24	666-674	sediment	_	D.1 Abiotic	_	CONTAINS[53]	_	
+6-25	674-675	.	_	_	_	_	_	
+
+#Text=Dolines are also sometimes known as sinkholes, particularly by engineers and especially in North America.
+7-1	676-683	Dolines	_	A.1 Surface landform	_	_	_	
+7-2	684-687	are	_	_	_	_	_	
+7-3	688-692	also	_	_	_	_	_	
+7-4	693-702	sometimes	_	_	_	_	_	
+7-5	703-708	known	_	_	_	_	_	
+7-6	709-711	as	_	_	_	_	_	
+7-7	712-721	sinkholes	_	A.1 Surface landform	_	_	_	
+7-8	721-722	,	_	_	_	_	_	
+7-9	723-735	particularly	_	_	_	_	_	
+7-10	736-738	by	_	_	_	_	_	
+7-11	739-748	engineers	_	_	_	_	_	
+7-12	749-752	and	_	_	_	_	_	
+7-13	753-763	especially	_	_	_	_	_	
+7-14	764-766	in	_	_	_	_	_	
+7-15	767-772	North	_	_	_	_	_	
+7-16	773-780	America	_	_	_	_	_	
+7-17	780-781	.	_	_	_	_	_	
+
+#Text=The term sinkhole is sometimes used to refer both to dolines (especially in North America and in the engineering literature) and to depressions where streams sink underground, which in Europe are described by separate terms (including ponor, swallow hole, and stream-sink).
+8-1	782-785	The	_	_	DEFINITOR[31]	_	_	
+8-2	786-790	term	_	_	DEFINITOR[31]	_	_	
+8-3	791-799	sinkhole	_	A.1 Surface landform	DEFINIENDUM	_	_	
+8-4	800-802	is	_	_	DEFINITOR[32]	_	_	
+8-5	803-812	sometimes	_	_	DEFINITOR[32]	_	_	
+8-6	813-817	used	_	_	DEFINITOR[32]	_	_	
+8-7	818-820	to	_	_	DEFINITOR[32]	_	_	
+8-8	821-826	refer	_	_	DEFINITOR[32]	_	_	
+8-9	827-831	both	_	_	_	_	_	
+8-10	832-834	to	_	_	_	_	_	
+8-11	835-842	dolines	_	A.1 Surface landform	GENUS	_	_	
+8-12	843-844	(	_	_	_	_	_	
+8-13	844-854	especially	_	_	_	_	_	
+8-14	855-857	in	_	D.3.1 Geolocation[13]	_	_	_	
+8-15	858-863	North	_	D.3.1 Geolocation[13]	_	_	_	
+8-16	864-871	America	_	D.3.1 Geolocation[13]	_	_	_	
+8-17	872-875	and	_	_	_	_	_	
+8-18	876-878	in	_	_	_	_	_	
+8-19	879-882	the	_	_	_	_	_	
+8-20	883-894	engineering	_	_	_	_	_	
+8-21	895-905	literature	_	_	_	_	_	
+8-22	905-906	)	_	_	_	_	_	
+8-23	907-910	and	_	_	_	_	_	
+8-24	911-913	to	_	_	_	_	_	
+8-25	914-925	depressions	_	D.1 Abiotic	GENUS	_	_	
+8-26	926-931	where	_	_	_	HAS\_FUNCTION[54]	frame\_FUNCTION	
+8-27	932-939	streams	_	_	_	HAS\_FUNCTION[54]	_	
+8-28	940-944	sink	_	_	_	HAS\_FUNCTION[54]	_	
+8-29	945-956	underground	_	_	_	HAS\_FUNCTION[54]	_	
+8-30	956-957	,	_	_	_	_	_	
+8-31	958-963	which	_	_	_	_	_	
+8-32	964-966	in	_	D.3.1 Geolocation[14]	_	_	_	
+8-33	967-973	Europe	_	D.3.1 Geolocation[14]	_	_	_	
+8-34	974-977	are	_	_	_	_	_	
+8-35	978-987	described	_	_	_	_	_	
+8-36	988-990	by	_	_	_	_	_	
+8-37	991-999	separate	_	_	_	_	_	
+8-38	1000-1005	terms	_	_	_	_	_	
+8-39	1006-1007	(	_	_	_	_	_	
+8-40	1007-1016	including	_	_	_	_	_	
+8-41	1017-1022	ponor	_	A.3 Hydrological form	SPECIES	_	_	
+8-42	1022-1023	,	_	_	_	_	_	
+8-43	1024-1031	swallow	_	A.3 Hydrological form[15]	SPECIES[33]	_	_	
+8-44	1032-1036	hole	_	A.3 Hydrological form[15]	SPECIES[33]	_	_	
+8-45	1036-1037	,	_	_	_	_	_	
+8-46	1038-1041	and	_	_	_	_	_	
+8-47	1042-1053	stream-sink	_	A.3 Hydrological form	SPECIES	_	_	
+8-48	1053-1054	)	_	_	_	_	_	
+8-49	1054-1055	.	_	_	_	_	_	
+
+#Text=Shakehole is a term used in England to describe depressions in bouldery deposits such as glacial drift overlying limestone.
+9-1	1056-1065	Shakehole	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	1066-1068	is	_	_	DEFINITOR[34]	_	_	
+9-3	1069-1070	a	_	_	DEFINITOR[34]	_	_	
+9-4	1071-1075	term	_	_	DEFINITOR[34]	_	_	
+9-5	1076-1080	used	_	_	DEFINITOR[34]	_	_	
+9-6	1081-1083	in	_	_	_	_	_	
+9-7	1084-1091	England	_	_	_	_	_	
+9-8	1092-1094	to	_	_	DEFINITOR[35]	_	_	
+9-9	1095-1103	describe	_	_	DEFINITOR[35]	_	_	
+9-10	1104-1115	depressions	_	D.1 Abiotic	GENUS	_	_	
+9-11	1116-1118	in	_	_	_	COMPOSITION\_MEDIUM[55]	frame\_COMPOSITION	
+9-12	1119-1127	bouldery	_	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[55]	_	
+9-13	1128-1136	deposits	_	D.1 Abiotic[16]	_	COMPOSITION\_MEDIUM[55]	_	
+9-14	1137-1141	such	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+9-15	1142-1144	as	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+9-16	1145-1152	glacial	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+9-17	1153-1158	drift	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+9-18	1159-1168	overlying	_	_	_	COMPOSITION\_MEDIUM[55]	_	
+9-19	1169-1178	limestone	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[55]	_	
+9-20	1178-1179	.	_	_	_	_	_	
+
+#Text=Collapse refers to rapid downward movement of the ground, whereas subsidence refers to gradual movement, sometimes without even ripping the surface.
+10-1	1180-1188	Collapse	_	B.1 Movement	DEFINIENDUM	_	_	
+10-2	1189-1195	refers	_	_	DEFINITOR[36]	_	_	
+10-3	1196-1198	to	_	_	DEFINITOR[36]	_	_	
+10-4	1199-1204	rapid	_	_	_	HAS\_FUNCTION[56]	_	
+10-5	1205-1213	downward	_	_	_	HAS\_FUNCTION[56]	_	
+10-6	1214-1222	movement	_	B.1 Movement[17]	GENUS[37]	_	_	
+10-7	1223-1225	of	_	B.1 Movement[17]	GENUS[37]	_	_	
+10-8	1226-1229	the	_	B.1 Movement[17]	GENUS[37]	_	_	
+10-9	1230-1236	ground	_	B.1 Movement[17]	GENUS[37]	_	_	
+10-10	1236-1237	,	_	_	_	_	_	
+10-11	1238-1245	whereas	_	_	_	_	_	
+10-12	1246-1256	subsidence	_	B.1 Movement	_	_	_	
+10-13	1257-1263	refers	_	_	_	_	_	
+10-14	1264-1266	to	_	_	_	_	_	
+10-15	1267-1274	gradual	_	B.1 Movement[18]	_	_	_	
+10-16	1275-1283	movement	_	B.1 Movement[18]	_	_	_	
+10-17	1283-1284	,	_	_	_	_	_	
+10-18	1285-1294	sometimes	_	_	_	_	_	
+10-19	1295-1302	without	_	_	_	_	_	
+10-20	1303-1307	even	_	_	_	_	_	
+10-21	1308-1315	ripping	_	_	_	_	_	
+10-22	1316-1319	the	_	_	_	_	_	
+10-23	1320-1327	surface	_	_	_	_	_	
+10-24	1327-1328	.	_	_	_	_	_	
+
+#Text=Fovals are brown-greyish formations that can be found in different positions in the caves, on the floor, or on the rocky walls.
+11-1	1329-1335	Fovals	_	D.1 Abiotic	DEFINIENDUM	_	_	
+11-2	1336-1339	are	_	_	DEFINITOR	_	_	
+11-3	1340-1353	brown-greyish	_	D.3 Property	_	_	_	
+11-4	1354-1364	formations	_	_	GENUS	_	_	
+11-5	1365-1369	that	_	_	_	_	_	
+11-6	1370-1373	can	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION[71]	
+11-7	1374-1376	be	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION[71]	
+11-8	1377-1382	found	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION[71]	
+11-9	1383-1385	in	_	_	_	HAS\_LOCATION[57]	frame\_LOCATION[71]	
+11-10	1386-1395	different	_	_	_	HAS\_LOCATION[57]	_	
+11-11	1396-1405	positions	_	_	_	HAS\_LOCATION[57]	_	
+11-12	1406-1408	in	_	_	_	HAS\_LOCATION[57]	_	
+11-13	1409-1412	the	_	_	_	HAS\_LOCATION[57]	_	
+11-14	1413-1418	caves	_	A.2 Underground landform	_	HAS\_LOCATION[57]	_	
+11-15	1418-1419	,	_	_	_	HAS\_LOCATION[57]	_	
+11-16	1420-1422	on	_	_	_	HAS\_LOCATION[57]	_	
+11-17	1423-1426	the	_	_	_	HAS\_LOCATION[57]	_	
+11-18	1427-1432	floor	_	D.1 Abiotic	_	HAS\_LOCATION[57]	_	
+11-19	1432-1433	,	_	_	_	HAS\_LOCATION[57]	_	
+11-20	1434-1436	or	_	_	_	HAS\_LOCATION[57]	_	
+11-21	1437-1439	on	_	_	_	HAS\_LOCATION[57]	_	
+11-22	1440-1443	the	_	_	_	HAS\_LOCATION[57]	_	
+11-23	1444-1449	rocky	_	_	_	HAS\_LOCATION[57]	_	
+11-24	1450-1455	walls	_	D.1 Abiotic	_	HAS\_LOCATION[57]	_	
+11-25	1455-1456	.	_	_	_	_	_	
+
+#Text=Glacier pseudokarst also develops in debris where buried ice melts in situ, developing closed depressions, in isolation known as “kettle holes”, or assembled into extensive debris pseudokarst hillocks termed “hummocky moraine”.
+12-1	1457-1464	Glacier	_	C. Geome[19]	_	_	_	
+12-2	1465-1476	pseudokarst	_	C. Geome[19]	_	_	_	
+12-3	1477-1481	also	_	_	_	_	_	
+12-4	1482-1490	develops	_	_	_	COMPOSITION\_MEDIUM[58]	frame\_COMPOSITION[72]	
+12-5	1491-1493	in	_	_	_	COMPOSITION\_MEDIUM[58]	frame\_COMPOSITION[72]	
+12-6	1494-1500	debris	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[58]	_	
+12-7	1501-1506	where	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION	
+12-8	1507-1513	buried	_	_	_	HAS\_LOCATION[59]	_	
+12-9	1514-1517	ice	_	_	_	HAS\_LOCATION[59]	_	
+12-10	1518-1523	melts	_	_	_	HAS\_LOCATION[59]	_	
+12-11	1524-1526	in	_	_	_	HAS\_LOCATION[59]	_	
+12-12	1527-1531	situ	_	_	_	HAS\_LOCATION[59]	_	
+12-13	1531-1532	,	_	_	_	_	_	
+12-14	1533-1543	developing	_	_	_	HAS\_CAUSE[60]	frame\_CAUSE	
+12-15	1544-1550	closed	_	D.1 Abiotic[20]	GENUS[38]	HAS\_CAUSE[60]	_	
+12-16	1551-1562	depressions	_	D.1 Abiotic[20]	GENUS[38]	HAS\_CAUSE[60]	_	
+12-17	1562-1563	,	_	_	_	_	_	
+12-18	1564-1566	in	_	_	_	_	_	
+12-19	1567-1576	isolation	_	_	_	_	_	
+12-20	1577-1582	known	_	_	DEFINITOR[39]	_	_	
+12-21	1583-1585	as	_	_	DEFINITOR[39]	_	_	
+12-22	1586-1587	“	_	_	_	_	_	
+12-23	1587-1593	kettle	_	A.1 Surface landform[21]	DEFINIENDUM[40]	_	_	
+12-24	1594-1599	holes	_	A.1 Surface landform[21]	DEFINIENDUM[40]	_	_	
+12-25	1599-1600	”	_	_	_	_	_	
+12-26	1600-1601	,	_	_	_	_	_	
+12-27	1602-1604	or	_	_	_	_	_	
+12-28	1605-1614	assembled	_	_	_	HAS\_FORM[61]	_	
+12-29	1615-1619	into	_	_	_	HAS\_FORM[61]	_	
+12-30	1620-1629	extensive	_	_	_	HAS\_FORM[61]	_	
+12-31	1630-1636	debris	_	_	_	HAS\_FORM[61]	_	
+12-32	1637-1648	pseudokarst	_	A.1 Surface landform[22]	_	HAS\_FORM[61]	_	
+12-33	1649-1657	hillocks	_	A.1 Surface landform[22]	_	HAS\_FORM[61]	_	
+12-34	1658-1664	termed	_	_	_	_	_	
+12-35	1665-1666	“	_	_	_	_	_	
+12-36	1666-1674	hummocky	_	A.1 Surface landform[23]	_	_	_	
+12-37	1675-1682	moraine	_	A.1 Surface landform[23]	_	_	_	
+12-38	1682-1683	”	_	_	_	_	_	
+12-39	1683-1684	.	_	_	_	_	_	
+
+#Text=The springs in allogenic karst aquifers are known as resurgences, and are often characterized by substantial variation in water quality since they reflect the changing water quality of the sinking streams.
+13-1	1685-1688	The	_	_	_	_	_	
+13-2	1689-1696	springs	_	A.3 Hydrological form	GENUS	_	_	
+13-3	1697-1699	in	_	_	_	HAS\_LOCATION[62]	frame\_LOCATION	
+13-4	1700-1709	allogenic	_	_	_	HAS\_LOCATION[62]	_	
+13-5	1710-1715	karst	_	_	_	HAS\_LOCATION[62]	_	
+13-6	1716-1724	aquifers	_	C. Geome	_	HAS\_LOCATION[62]	_	
+13-7	1725-1728	are	_	_	DEFINITOR[41]	_	_	
+13-8	1729-1734	known	_	_	DEFINITOR[41]	_	_	
+13-9	1735-1737	as	_	_	DEFINITOR[41]	_	_	
+13-10	1738-1749	resurgences	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+13-11	1749-1750	,	_	_	_	_	_	
+13-12	1751-1754	and	_	_	_	_	_	
+13-13	1755-1758	are	_	_	_	_	_	
+13-14	1759-1764	often	_	_	_	HAS\_ATTRIBUTE[63]	frame\_ATTRIBUTE[73]	
+13-15	1765-1778	characterized	_	_	_	HAS\_ATTRIBUTE[63]	frame\_ATTRIBUTE[73]	
+13-16	1779-1781	by	_	_	_	HAS\_ATTRIBUTE[63]	frame\_ATTRIBUTE[73]	
+13-17	1782-1793	substantial	_	_	_	HAS\_ATTRIBUTE[63]	_	
+13-18	1794-1803	variation	_	_	_	HAS\_ATTRIBUTE[63]	_	
+13-19	1804-1806	in	_	_	_	HAS\_ATTRIBUTE[63]	_	
+13-20	1807-1812	water	_	_	_	HAS\_ATTRIBUTE[63]	_	
+13-21	1813-1820	quality	_	_	_	HAS\_ATTRIBUTE[63]	_	
+13-22	1821-1826	since	_	_	_	_	_	
+13-23	1827-1831	they	_	_	_	_	_	
+13-24	1832-1839	reflect	_	_	_	HAS\_CAUSE[64]	frame\_CAUSE	
+13-25	1840-1843	the	_	_	_	HAS\_CAUSE[64]	_	
+13-26	1844-1852	changing	_	_	_	HAS\_CAUSE[64]	_	
+13-27	1853-1858	water	_	_	_	HAS\_CAUSE[64]	_	
+13-28	1859-1866	quality	_	_	_	HAS\_CAUSE[64]	_	
+13-29	1867-1869	of	_	_	_	HAS\_CAUSE[64]	_	
+13-30	1870-1873	the	_	_	_	HAS\_CAUSE[64]	_	
+13-31	1874-1881	sinking	_	A.3 Hydrological form[24]	_	HAS\_CAUSE[64]	_	
+13-32	1882-1889	streams	_	A.3 Hydrological form[24]	_	HAS\_CAUSE[64]	_	
+13-33	1889-1890	.	_	_	_	_	_	
+
+#Text=Autogenic karst aquifers feed springs known as exsurgences.
+14-1	1891-1900	Autogenic	_	_	_	HAS\_CAUSE[65]	_	
+14-2	1901-1906	karst	_	_	_	HAS\_CAUSE[65]	_	
+14-3	1907-1915	aquifers	_	C. Geome	_	HAS\_CAUSE[65]	_	
+14-4	1916-1920	feed	_	_	_	HAS\_CAUSE[65]	_	
+14-5	1921-1928	springs	_	A.3 Hydrological form	GENUS	_	_	
+14-6	1929-1934	known	_	_	DEFINITOR[42]	_	_	
+14-7	1935-1937	as	_	_	DEFINITOR[42]	_	_	
+14-8	1938-1949	exsurgences	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+14-9	1949-1950	.	_	_	_	_	_	

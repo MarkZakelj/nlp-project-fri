@@ -1,0 +1,15 @@
+﻿inverzni sifon: Špiljski sifon U-profila. pukotinska šupljikavost: Šupljine otapanja čiji smještaj uvjetuju pukotine na unutrašnjim površinama špilje.
+pukotinska špilja: Jaka šupljikavost u odnosu na širinu razvijena duž strmo nagnutih pukotinskih ravnina.
+škrapa: Utori ili brazde nastale otapanjem na površinama masivnog, čistog vapnenca. Dubina im varira od nekoliko milimetara do preko jednog metra, a međusobno su odvojene grebenima. Izraz opisuje ukupni kompleks površinskih oblika otapanja nađen na kompaktnom čistom vapnencu. Bögli (1960) ih je klasificirao na više vrsta od kojih su najčešći deckenkarren; kluftkarren; mäanderkarren; rillenkarren;  rinnen-karren; rundkarren; spitzkarren; trittkarren. 
+krš: Tip topografije, odnosno područje razvedena okoliša i drenažnog sustava (često podzemnog), formiran na vapnencu, gipsu i drugim stijenama koje se otapaju, prvenstveno disolucijom. Tipski lokalitet je u Dinaridima.
+krški most: Prirodni most u vapnencu ili drugim topivim stijenama. 
+krški stožac: Krški toranj sa zaobljenim ili kosim stranama. 
+krški oblik: Geološki oblik formiran direktnim ili indirektnim otapanjem, uključujući špilje. Izraz se često koristi kod opisa oblika koji nisu dovoljno veliki da bi se smatrali špiljama iako vjerojatno imaju vezu s potpovršinskom drenažom ili kretanjem podzemne vode. Tipični oblici su jame, proširene pukotine, izvori koji nisu vezani za kaverne itd.
+geomorfologija krša: Znanstveno proučavanje krških oblika (površinskih i podzemnih) i procesa koji pridonose njihovom nastanku.
+krška hidrografska zona: Tri vertikalno poredane krške zone: gornja nezasićena zona, povremeno zasićena  epifreatska zona i donja zasićena freatska zona
+krški: Koji se odnosi ili ima karakteristike krša.
+okršavanje: 1 Proces pojačanog otapanja CO2 u meteorskoj vodi dovodi do stvaranja slabe ugljične kiseline koja vrlo brzo kemijski razgrađuje kalcit i aragonit u otopljeni kalcij-hidrogenkarbonat, mineral dolomit u kalcij-hidrogenkarbonat i magnezijhidrogenkarbonat, a siderit u željezo-hidrogenkarbonat. Otapanje karbonatnih minerala najintenzivnije je u vadoznoj i freatičkoj zoni. 2 Djelovanje vode, pretežno otapanjem ali i mehaničko, kojim nastaju oblici krške topografije, uključujući takve površinske oblike kao što su doline, škrape, humci, te podzemne oblike kao što su špilje i ponori. 
+rubna krška ravnica: Ravnica, generalno na vapnencu, između višeg vapnenačkog
+zemljišta s jedne strane i manje propusnih stijena s druge strane i s pokrovom od nepropusnog detritusa koji omogućava površinsku odvodnju. 
+krška ravnica: Ravnica, obično na vapnencu, na kojoj su razvijeni krški oblici.
+krški plato: Vapnenački plato na kojem su razvijeni krški oblici. 

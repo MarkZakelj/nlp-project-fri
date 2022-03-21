@@ -1,0 +1,523 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Clastic sediments are an important part of the mechanism for storage and transport of contaminants; indeed, solid contaminants can be considered as a form of clastic sediment.
+1-1	0-7	Clastic	_	_	DEFINIENDUM[33]	_	_	
+1-2	8-17	sediments	_	_	DEFINIENDUM[33]	_	_	
+1-3	18-21	are	_	_	DEFINITOR[34]	_	_	
+1-4	22-24	an	_	_	DEFINITOR[34]	_	_	
+1-5	25-34	important	_	_	_	HAS\_FUNCTION[56]	frame\_FUNCTION[85]	
+1-6	35-39	part	_	_	_	HAS\_FUNCTION[56]	frame\_FUNCTION[85]	
+1-7	40-42	of	_	_	_	HAS\_FUNCTION[56]	frame\_FUNCTION[85]	
+1-8	43-46	the	_	_	_	HAS\_FUNCTION[56]	frame\_FUNCTION[85]	
+1-9	47-56	mechanism	_	_	_	HAS\_FUNCTION[56]	frame\_FUNCTION[85]	
+1-10	57-60	for	_	_	_	HAS\_FUNCTION[56]	_	
+1-11	61-68	storage	_	_	_	HAS\_FUNCTION[56]	_	
+1-12	69-72	and	_	_	_	HAS\_FUNCTION[56]	_	
+1-13	73-82	transport	_	_	_	HAS\_FUNCTION[56]	_	
+1-14	83-85	of	_	_	_	HAS\_FUNCTION[56]	_	
+1-15	86-98	contaminants	_	_	_	HAS\_FUNCTION[56]	_	
+1-16	98-99	;	_	_	_	_	_	
+1-17	100-106	indeed	_	_	_	_	_	
+1-18	106-107	,	_	_	_	_	_	
+1-19	108-113	solid	_	D.1 Abiotic[1]	_	_	_	
+1-20	114-126	contaminants	_	D.1 Abiotic[1]	_	_	_	
+1-21	127-130	can	_	_	_	_	_	
+1-22	131-133	be	_	_	_	_	_	
+1-23	134-144	considered	_	_	_	_	_	
+1-24	145-147	as	_	_	_	_	_	
+1-25	148-149	a	_	_	_	_	_	
+1-26	150-154	form	_	_	_	_	_	
+1-27	155-157	of	_	_	_	_	_	
+1-28	158-165	clastic	_	A.1 Surface landform[2]	_	_	_	
+1-29	166-174	sediment	_	A.1 Surface landform[2]	_	_	_	
+1-30	174-175	.	_	_	_	_	_	
+
+#Text=The epiphreatic zone is the range of depths between the highest and lowest levels that the water table fluctuates between.
+2-1	177-180	The	_	_	_	_	_	
+2-2	181-192	epiphreatic	_	C. Geome[3]	DEFINIENDUM[35]	_	_	
+2-3	193-197	zone	_	C. Geome[3]	DEFINIENDUM[35]	_	_	
+2-4	198-200	is	_	_	DEFINITOR[36]	_	_	
+2-5	201-204	the	_	_	DEFINITOR[36]	_	_	
+2-6	205-210	range	_	_	_	_	_	
+2-7	211-213	of	_	_	_	_	_	
+2-8	214-220	depths	_	D.3 Property	_	_	_	
+2-9	221-228	between	_	_	_	HAS\_SIZE[57]	frame\_SIZE	
+2-10	229-232	the	_	_	_	HAS\_SIZE[57]	_	
+2-11	233-240	highest	_	_	_	HAS\_SIZE[57]	_	
+2-12	241-244	and	_	_	_	HAS\_SIZE[57]	_	
+2-13	245-251	lowest	_	_	_	HAS\_SIZE[57]	_	
+2-14	252-258	levels	_	_	_	HAS\_SIZE[57]	_	
+2-15	259-263	that	_	_	_	HAS\_SIZE[57]	_	
+2-16	264-267	the	_	_	_	HAS\_SIZE[57]	_	
+2-17	268-273	water	_	D.1 Abiotic[4]	_	HAS\_SIZE[57]	_	
+2-18	274-279	table	_	D.1 Abiotic[4]	_	HAS\_SIZE[57]	_	
+2-19	280-290	fluctuates	_	_	_	HAS\_SIZE[57]	_	
+2-20	291-298	between	_	_	_	HAS\_SIZE[57]	_	
+2-21	298-299	.	_	_	_	_	_	
+
+#Text=Specific karstic ablation is the relationship between the volume of limestone taken out of the system and the surface area of the affected region.
+3-1	301-309	Specific	_	D.3 Property[5]	DEFINIENDUM[37]	_	_	
+3-2	310-317	karstic	_	D.3 Property[5]	DEFINIENDUM[37]	_	_	
+3-3	318-326	ablation	_	D.3 Property[5]	DEFINIENDUM[37]	_	_	
+3-4	327-329	is	_	_	DEFINITOR[38]	_	_	
+3-5	330-333	the	_	_	DEFINITOR[38]	_	_	
+3-6	334-346	relationship	_	_	_	DEFINED\_AS[58]	frame\_DEFINED\_AS[86]	
+3-7	347-354	between	_	_	_	DEFINED\_AS[58]	frame\_DEFINED\_AS[86]	
+3-8	355-358	the	_	_	_	DEFINED\_AS[58]	frame\_DEFINED\_AS[86]	
+3-9	359-365	volume	_	D.3 Property	_	DEFINED\_AS[58]	_	
+3-10	366-368	of	_	_	_	DEFINED\_AS[58]	_	
+3-11	369-378	limestone	_	D.1 Abiotic	_	DEFINED\_AS[58]	_	
+3-12	379-384	taken	_	_	_	DEFINED\_AS[58]	_	
+3-13	385-388	out	_	_	_	DEFINED\_AS[58]	_	
+3-14	389-391	of	_	_	_	DEFINED\_AS[58]	_	
+3-15	392-395	the	_	_	_	DEFINED\_AS[58]	_	
+3-16	396-402	system	_	_	_	DEFINED\_AS[58]	_	
+3-17	403-406	and	_	_	_	DEFINED\_AS[58]	_	
+3-18	407-410	the	_	_	_	DEFINED\_AS[58]	_	
+3-19	411-418	surface	_	D.1 Abiotic[6]	_	DEFINED\_AS[58]	_	
+3-20	419-423	area	_	D.1 Abiotic[6]	_	DEFINED\_AS[58]	_	
+3-21	424-426	of	_	_	_	DEFINED\_AS[58]	_	
+3-22	427-430	the	_	_	_	DEFINED\_AS[58]	_	
+3-23	431-439	affected	_	_	_	DEFINED\_AS[58]	_	
+3-24	440-446	region	_	_	_	DEFINED\_AS[58]	_	
+3-25	446-447	.	_	_	_	_	_	
+
+#Text=Poljes are an important component of karst, where, aside from the bottoms of major dolines, they are one of the rare formations that can support large-scale agriculture.
+4-1	449-455	Poljes	_	A.1 Surface landform	DEFINIENDUM	_	_	
+4-2	456-459	are	_	_	DEFINITOR[39]	_	_	
+4-3	460-462	an	_	_	DEFINITOR[39]	_	_	
+4-4	463-472	important	_	_	_	_	_	
+4-5	473-482	component	_	_	_	_	_	
+4-6	483-485	of	_	_	_	_	_	
+4-7	486-491	karst	_	C. Geome	GENUS	_	_	
+4-8	491-492	,	_	_	_	_	_	
+4-9	493-498	where	_	_	_	_	_	
+4-10	498-499	,	_	_	_	_	_	
+4-11	500-505	aside	_	_	_	_	_	
+4-12	506-510	from	_	_	_	_	_	
+4-13	511-514	the	_	_	_	_	_	
+4-14	515-522	bottoms	_	_	_	_	_	
+4-15	523-525	of	_	_	_	_	_	
+4-16	526-531	major	_	_	_	_	_	
+4-17	532-539	dolines	_	A.1 Surface landform	_	_	_	
+4-18	539-540	,	_	_	_	_	_	
+4-19	541-545	they	_	_	_	HAS\_FUNCTION[59]	_	
+4-20	546-549	are	_	_	_	HAS\_FUNCTION[59]	_	
+4-21	550-553	one	_	_	_	HAS\_FUNCTION[59]	_	
+4-22	554-556	of	_	_	_	HAS\_FUNCTION[59]	_	
+4-23	557-560	the	_	_	_	HAS\_FUNCTION[59]	_	
+4-24	561-565	rare	_	_	_	HAS\_FUNCTION[59]	_	
+4-25	566-576	formations	_	_	_	HAS\_FUNCTION[59]	_	
+4-26	577-581	that	_	_	_	HAS\_FUNCTION[59]	_	
+4-27	582-585	can	_	_	_	HAS\_FUNCTION[59]	_	
+4-28	586-593	support	_	_	_	HAS\_FUNCTION[59]	_	
+4-29	594-605	large-scale	_	B. Process[7]	_	HAS\_FUNCTION[59]	_	
+4-30	606-617	agriculture	_	B. Process[7]	_	HAS\_FUNCTION[59]	_	
+4-31	617-618	.	_	_	_	_	_	
+
+#Text=A blind valley is a gorge that terminates abruptly at a point where the stream sinks.
+5-1	620-621	A	_	_	_	_	_	
+5-2	622-627	blind	_	A.1 Surface landform[8]	DEFINIENDUM[40]	_	_	
+5-3	628-634	valley	_	A.1 Surface landform[8]	DEFINIENDUM[40]	_	_	
+5-4	635-637	is	_	_	DEFINITOR[41]	_	_	
+5-5	638-639	a	_	_	DEFINITOR[41]	_	_	
+5-6	640-645	gorge	_	A.1 Surface landform	GENUS	_	_	
+5-7	646-650	that	_	_	_	HAS\_FORM[60]	_	
+5-8	651-661	terminates	_	_	_	HAS\_FORM[60]	frame\_FORM	
+5-9	662-670	abruptly	_	_	_	HAS\_FORM[60]	_	
+5-10	671-673	at	_	_	_	HAS\_LOCATION[61]	frame\_LOCATION[87]	
+5-11	674-675	a	_	_	_	HAS\_LOCATION[61]	frame\_LOCATION[87]	
+5-12	676-681	point	_	_	_	HAS\_LOCATION[61]	frame\_LOCATION[87]	
+5-13	682-687	where	_	_	_	HAS\_LOCATION[61]	frame\_LOCATION[87]	
+5-14	688-691	the	_	_	_	HAS\_LOCATION[61]	_	
+5-15	692-698	stream	_	D.1 Abiotic	_	HAS\_LOCATION[61]	_	
+5-16	699-704	sinks	_	_	_	HAS\_LOCATION[61]	_	
+5-17	704-705	.	_	_	_	_	_	
+
+#Text=Ghost rock karstification is an intermediate phenomenon, between karstification stricto sensu and the alteration of fractured rock, for example like in granites, where the action of water occurs only as it filters in through fractures.
+6-1	707-712	Ghost	_	B. Process[9]	DEFINIENDUM[42]	_	_	
+6-2	713-717	rock	_	B. Process[9]	DEFINIENDUM[42]	_	_	
+6-3	718-732	karstification	_	B. Process[9]	DEFINIENDUM[42]	_	_	
+6-4	733-735	is	_	_	DEFINITOR[43]	_	_	
+6-5	736-738	an	_	_	DEFINITOR[43]	_	_	
+6-6	739-751	intermediate	_	_	_	HAS\_FORM	_	
+6-7	752-762	phenomenon	_	_	GENUS	_	_	
+6-8	762-763	,	_	_	_	_	_	
+6-9	764-771	between	_	_	_	_	_	
+6-10	772-786	karstification	_	_	_	_	_	
+6-11	787-794	stricto	_	_	_	_	_	
+6-12	795-800	sensu	_	_	_	_	_	
+6-13	801-804	and	_	_	_	_	_	
+6-14	805-808	the	_	_	_	_	_	
+6-15	809-819	alteration	_	_	_	_	_	
+6-16	820-822	of	_	_	_	_	_	
+6-17	823-832	fractured	_	_	_	_	_	
+6-18	833-837	rock	_	_	_	_	_	
+6-19	837-838	,	_	_	_	_	_	
+6-20	839-842	for	_	_	_	COMPOSITION\_MEDIUM[62]	_	
+6-21	843-850	example	_	_	_	COMPOSITION\_MEDIUM[62]	_	
+6-22	851-855	like	_	_	_	COMPOSITION\_MEDIUM[62]	_	
+6-23	856-858	in	_	_	_	COMPOSITION\_MEDIUM[62]	frame\_COMPOSITION	
+6-24	859-867	granites	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[62]	_	
+6-25	867-868	,	_	_	_	_	_	
+6-26	869-874	where	_	_	_	HAS\_CAUSE[63]	_	
+6-27	875-878	the	_	_	_	HAS\_CAUSE[63]	_	
+6-28	879-885	action	_	_	_	HAS\_CAUSE[63]	_	
+6-29	886-888	of	_	_	_	HAS\_CAUSE[63]	_	
+6-30	889-894	water	_	_	_	HAS\_CAUSE[63]	_	
+6-31	895-901	occurs	_	_	_	HAS\_CAUSE[63]	_	
+6-32	902-906	only	_	_	_	HAS\_CAUSE[63]	_	
+6-33	907-909	as	_	_	_	HAS\_CAUSE[63]	_	
+6-34	910-912	it	_	_	_	HAS\_CAUSE[63]	_	
+6-35	913-920	filters	_	_	_	HAS\_CAUSE[63]	_	
+6-36	921-923	in	_	_	_	HAS\_CAUSE[63]	_	
+6-37	924-931	through	_	_	_	HAS\_CAUSE[63]	_	
+6-38	932-941	fractures	_	_	_	HAS\_CAUSE[63]	_	
+6-39	941-942	.	_	_	_	_	_	
+
+#Text=Dolines are a sign of the current shaping of the surface by precipitation water that percolates vertically through it and passes through the vadose part of the aquifer to the underground water.
+7-1	944-951	Dolines	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-2	952-955	are	_	_	DEFINITOR[44]	_	_	
+7-3	956-957	a	_	_	DEFINITOR[44]	_	frame\_CAUSE[88]	
+7-4	958-962	sign	_	_	_	HAS\_CAUSE[64]	frame\_CAUSE[88]	
+7-5	963-965	of	_	_	_	HAS\_CAUSE[64]	frame\_CAUSE[88]	
+7-6	966-969	the	_	_	_	HAS\_CAUSE[64]	frame\_CAUSE[88]	
+7-7	970-977	current	_	_	_	HAS\_CAUSE[64]	_	
+7-8	978-985	shaping	_	_	_	HAS\_CAUSE[64]	_	
+7-9	986-988	of	_	_	_	HAS\_CAUSE[64]	_	
+7-10	989-992	the	_	_	_	HAS\_CAUSE[64]	_	
+7-11	993-1000	surface	_	_	_	HAS\_CAUSE[64]	_	
+7-12	1001-1003	by	_	_	_	HAS\_CAUSE[64]	_	
+7-13	1004-1017	precipitation	_	D.1 Abiotic[10]	_	HAS\_CAUSE[64]	_	
+7-14	1018-1023	water	_	D.1 Abiotic[10]	_	HAS\_CAUSE[64]	_	
+7-15	1024-1028	that	_	_	_	HAS\_CAUSE[64]	_	
+7-16	1029-1039	percolates	_	_	_	HAS\_CAUSE[64]	_	
+7-17	1040-1050	vertically	_	_	_	HAS\_CAUSE[64]	_	
+7-18	1051-1058	through	_	_	_	HAS\_CAUSE[64]	_	
+7-19	1059-1061	it	_	_	_	HAS\_CAUSE[64]	_	
+7-20	1062-1065	and	_	_	_	HAS\_CAUSE[64]	_	
+7-21	1066-1072	passes	_	_	_	HAS\_CAUSE[64]	_	
+7-22	1073-1080	through	_	_	_	HAS\_CAUSE[64]	_	
+7-23	1081-1084	the	_	_	_	HAS\_CAUSE[64]	_	
+7-24	1085-1091	vadose	_	_	_	HAS\_CAUSE[64]	_	
+7-25	1092-1096	part	_	_	_	HAS\_CAUSE[64]	_	
+7-26	1097-1099	of	_	_	_	HAS\_CAUSE[64]	_	
+7-27	1100-1103	the	_	_	_	HAS\_CAUSE[64]	_	
+7-28	1104-1111	aquifer	_	_	_	HAS\_CAUSE[64]	_	
+7-29	1112-1114	to	_	_	_	HAS\_CAUSE[64]	_	
+7-30	1115-1118	the	_	_	_	HAS\_CAUSE[64]	_	
+7-31	1119-1130	underground	_	D.1 Abiotic[11]	_	HAS\_CAUSE[64]	_	
+7-32	1131-1136	water	_	D.1 Abiotic[11]	_	HAS\_CAUSE[64]	_	
+7-33	1136-1137	.	_	_	_	_	_	
+
+#Text=The shape of unroofed caves is the consequence of the type and shape of the cave and the development of the karst aquifer and its surface in various geological, geomorphological, climate, and hydrological conditions.
+8-1	1139-1142	The	_	_	_	_	_	
+8-2	1143-1148	shape	_	_	_	_	_	
+8-3	1149-1151	of	_	_	_	_	_	
+8-4	1152-1160	unroofed	_	A.2 Underground landform[12]	DEFINIENDUM[45]	_	_	
+8-5	1161-1166	caves	_	A.2 Underground landform[12]	DEFINIENDUM[45]	_	_	
+8-6	1167-1169	is	_	_	_	HAS\_CAUSE[65]	frame\_CAUSE[89]	
+8-7	1170-1173	the	_	_	_	HAS\_CAUSE[65]	frame\_CAUSE[89]	
+8-8	1174-1185	consequence	_	_	_	HAS\_CAUSE[65]	frame\_CAUSE[89]	
+8-9	1186-1188	of	_	_	_	HAS\_CAUSE[65]	frame\_CAUSE[89]	
+8-10	1189-1192	the	_	_	_	HAS\_CAUSE[65]	_	
+8-11	1193-1197	type	_	_	_	HAS\_CAUSE[65]	_	
+8-12	1198-1201	and	_	_	_	HAS\_CAUSE[65]	_	
+8-13	1202-1207	shape	_	_	_	HAS\_CAUSE[65]	_	
+8-14	1208-1210	of	_	_	_	HAS\_CAUSE[65]	_	
+8-15	1211-1214	the	_	_	_	HAS\_CAUSE[65]	_	
+8-16	1215-1219	cave	_	A.2 Underground landform	_	HAS\_CAUSE[65]	_	
+8-17	1220-1223	and	_	_	_	_	_	
+8-18	1224-1227	the	_	_	_	_	_	
+8-19	1228-1239	development	_	_	_	_	_	
+8-20	1240-1242	of	_	_	_	_	_	
+8-21	1243-1246	the	_	_	_	_	_	
+8-22	1247-1252	karst	_	C. Geome[13]	_	_	_	
+8-23	1253-1260	aquifer	_	C. Geome[13]	_	_	_	
+8-24	1261-1264	and	_	_	_	_	_	
+8-25	1265-1268	its	_	_	_	_	_	
+8-26	1269-1276	surface	_	_	_	_	_	
+8-27	1277-1279	in	_	_	_	OCCURS\_IN\_TIME[66]	_	
+8-28	1280-1287	various	_	_	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-29	1288-1298	geological	geological condition	D.3 Property	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-30	1298-1299	,	_	_	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-31	1300-1316	geomorphological	geomorphological condition	D.3 Property	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-32	1316-1317	,	_	_	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-33	1318-1325	climate	climate condition	D.3 Property	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-34	1325-1326	,	_	_	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-35	1327-1330	and	_	_	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-36	1331-1343	hydrological	_	D.3 Property[14]	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-37	1344-1354	conditions	_	D.3 Property[14]	_	OCCURS\_IN\_TIME[66]|COMPOSITION\_MEDIUM[67]	_	
+8-38	1354-1355	.	_	_	_	_	_	
+
+#Text=Karst waters are an essential part of the ecosystem, a natural source and a public and economic good.
+9-1	1357-1362	Karst	_	A.3 Hydrological form[15]	DEFINIENDUM[46]	_	_	
+9-2	1363-1369	waters	_	A.3 Hydrological form[15]	DEFINIENDUM[46]	_	_	
+9-3	1370-1373	are	_	_	DEFINITOR[47]	_	_	
+9-4	1374-1376	an	_	_	DEFINITOR[47]	_	_	
+9-5	1377-1386	essential	_	_	_	_	_	
+9-6	1387-1391	part	_	_	_	_	_	
+9-7	1392-1394	of	_	_	_	_	_	
+9-8	1395-1398	the	_	_	_	_	_	
+9-9	1399-1408	ecosystem	_	C. Geome	_	_	_	
+9-10	1408-1409	,	_	_	_	_	_	
+9-11	1410-1411	a	_	_	_	_	_	
+9-12	1412-1419	natural	_	_	_	HAS\_FUNCTION[68]	_	
+9-13	1420-1426	source	_	_	_	HAS\_FUNCTION[68]	_	
+9-14	1427-1430	and	_	_	_	HAS\_FUNCTION[68]	_	
+9-15	1431-1432	a	_	_	_	HAS\_FUNCTION[68]	_	
+9-16	1433-1439	public	_	_	_	HAS\_FUNCTION[68]	_	
+9-17	1440-1443	and	_	_	_	HAS\_FUNCTION[68]	_	
+9-18	1444-1452	economic	_	_	_	HAS\_FUNCTION[68]	_	
+9-19	1453-1457	good	_	_	_	HAS\_FUNCTION[68]	_	
+9-20	1457-1458	.	_	_	_	_	_	
+
+#Text=In Slovenia, the formation of lakes on the majority of larger karst poljes is the consequence of the difference in the volumes of inflowing and outflowing water.
+10-1	1460-1462	In	_	_	_	_	_	
+10-2	1463-1471	Slovenia	_	D.3.1 Geolocation	_	_	_	
+10-3	1471-1472	,	_	_	_	_	_	
+10-4	1473-1476	the	_	_	_	_	_	
+10-5	1477-1486	formation	_	_	_	_	_	
+10-6	1487-1489	of	_	_	_	_	_	
+10-7	1490-1495	lakes	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+10-8	1496-1498	on	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[90]	
+10-9	1499-1502	the	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[90]	
+10-10	1503-1511	majority	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[90]	
+10-11	1512-1514	of	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[90]	
+10-12	1515-1521	larger	_	_	_	HAS\_LOCATION[69]	_	
+10-13	1522-1527	karst	_	A.1 Surface landform[16]	_	HAS\_LOCATION[69]	_	
+10-14	1528-1534	poljes	_	A.1 Surface landform[16]	_	HAS\_LOCATION[69]	_	
+10-15	1535-1537	is	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[91]	
+10-16	1538-1541	the	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[91]	
+10-17	1542-1553	consequence	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[91]	
+10-18	1554-1556	of	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[91]	
+10-19	1557-1560	the	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[91]	
+10-20	1561-1571	difference	_	_	_	HAS\_CAUSE[70]	_	
+10-21	1572-1574	in	_	_	_	HAS\_CAUSE[70]	_	
+10-22	1575-1578	the	_	_	_	HAS\_CAUSE[70]	_	
+10-23	1579-1586	volumes	_	D.3 Property	_	HAS\_CAUSE[70]	_	
+10-24	1587-1589	of	_	_	_	HAS\_CAUSE[70]	_	
+10-25	1590-1599	inflowing	inflowing water	D.1 Abiotic	_	HAS\_CAUSE[70]	_	
+10-26	1600-1603	and	_	_	_	HAS\_CAUSE[70]	_	
+10-27	1604-1614	outflowing	_	D.1 Abiotic[17]	_	HAS\_CAUSE[70]	_	
+10-28	1615-1620	water	_	D.1 Abiotic[17]	_	HAS\_CAUSE[70]	_	
+10-29	1620-1621	.	_	_	_	_	_	
+
+#Text=Karst poljes are natural retainers of discharge surpluses and important regulators of water conditions in rivers in the lower parts of river basins.
+11-1	1623-1628	Karst	_	A.1 Surface landform[18]	DEFINIENDUM[48]	_	_	
+11-2	1629-1635	poljes	_	A.1 Surface landform[18]	DEFINIENDUM[48]	_	_	
+11-3	1636-1639	are	_	_	DEFINITOR	_	_	
+11-4	1640-1647	natural	_	_	_	HAS\_CAUSE	_	
+11-5	1648-1657	retainers	_	_	_	HAS\_FUNCTION[71]	_	
+11-6	1658-1660	of	_	_	_	HAS\_FUNCTION[71]	_	
+11-7	1661-1670	discharge	_	_	_	HAS\_FUNCTION[71]	_	
+11-8	1671-1680	surpluses	_	_	_	HAS\_FUNCTION[71]	_	
+11-9	1681-1684	and	_	_	_	_	_	
+11-10	1685-1694	important	_	_	_	HAS\_FUNCTION[72]	_	
+11-11	1695-1705	regulators	_	_	_	HAS\_FUNCTION[72]	_	
+11-12	1706-1708	of	_	_	_	HAS\_FUNCTION[72]	_	
+11-13	1709-1714	water	_	_	_	HAS\_FUNCTION[72]	_	
+11-14	1715-1725	conditions	_	_	_	HAS\_FUNCTION[72]	_	
+11-15	1726-1728	in	_	_	_	HAS\_LOCATION[73]	frame\_LOCATION	
+11-16	1729-1735	rivers	_	_	_	HAS\_LOCATION[73]	_	
+11-17	1736-1738	in	_	_	_	HAS\_LOCATION[73]	_	
+11-18	1739-1742	the	_	_	_	HAS\_LOCATION[73]	_	
+11-19	1743-1748	lower	_	_	_	HAS\_LOCATION[73]	_	
+11-20	1749-1754	parts	_	_	_	HAS\_LOCATION[73]	_	
+11-21	1755-1757	of	_	_	_	HAS\_LOCATION[73]	_	
+11-22	1758-1763	river	_	D.1 Abiotic[19]	_	HAS\_LOCATION[73]	_	
+11-23	1764-1770	basins	_	D.1 Abiotic[19]	_	HAS\_LOCATION[73]	_	
+11-24	1770-1771	.	_	_	_	_	_	
+
+#Text=The oldest explanation of formation of closed depressions on karstic surfaces is a sudden collapse (Cviji�, 1893), according to which the term �collapse doline� was coined.
+12-1	1773-1776	The	_	_	_	_	_	
+12-2	1777-1783	oldest	_	_	_	_	_	
+12-3	1784-1795	explanation	_	_	_	_	_	
+12-4	1796-1798	of	_	_	_	_	_	
+12-5	1799-1808	formation	_	_	_	_	_	
+12-6	1809-1811	of	_	_	_	_	_	
+12-7	1812-1818	closed	_	A.1 Surface landform[20]	DEFINIENDUM[49]	_	_	
+12-8	1819-1830	depressions	_	A.1 Surface landform[20]	DEFINIENDUM[49]	_	_	
+12-9	1831-1833	on	_	_	_	HAS\_LOCATION[74]	frame\_LOCATION	
+12-10	1834-1841	karstic	_	_	_	HAS\_LOCATION[74]	_	
+12-11	1842-1850	surfaces	_	_	_	HAS\_LOCATION[74]	_	
+12-12	1851-1853	is	_	_	_	_	_	
+12-13	1854-1855	a	_	_	_	_	_	
+12-14	1856-1862	sudden	_	_	_	_	_	
+12-15	1863-1871	collapse	_	B.1 Movement	_	_	_	
+12-16	1872-1873	(	_	_	_	_	_	
+12-17	1873-1878	Cviji	_	_	_	_	_	
+12-18	1878-1879	�	_	_	_	_	_	
+12-19	1879-1880	,	_	_	_	_	_	
+12-20	1881-1885	1893	_	_	_	_	_	
+12-21	1885-1886	)	_	_	_	_	_	
+12-22	1886-1887	,	_	_	_	_	_	
+12-23	1888-1897	according	_	_	_	_	_	
+12-24	1898-1900	to	_	_	_	_	_	
+12-25	1901-1906	which	_	_	_	_	_	
+12-26	1907-1910	the	_	_	_	_	_	
+12-27	1911-1915	term	_	_	_	_	_	
+12-28	1916-1917	�	_	_	_	_	_	
+12-29	1917-1925	collapse	_	_	_	_	_	
+12-30	1926-1932	doline	_	_	_	_	_	
+12-31	1932-1933	�	_	_	_	_	_	
+12-32	1934-1937	was	_	_	_	_	_	
+12-33	1938-1944	coined	_	_	_	_	_	
+12-34	1944-1945	.	_	_	_	_	_	
+
+#Text=Equipotential surfaces are locations of equal hydraulic head, which can be measured at piezometers.
+13-1	1947-1960	Equipotential	_	D.1 Abiotic[21]	DEFINIENDUM[50]	_	_	
+13-2	1961-1969	surfaces	_	D.1 Abiotic[21]	DEFINIENDUM[50]	_	_	
+13-3	1970-1973	are	_	_	DEFINITOR	_	_	
+13-4	1974-1983	locations	_	D.1 Abiotic	_	_	_	
+13-5	1984-1986	of	_	_	_	HAS\_SIZE[75]	_	
+13-6	1987-1992	equal	_	_	_	HAS\_SIZE[75]	_	
+13-7	1993-2002	hydraulic	_	_	_	HAS\_SIZE[75]	_	
+13-8	2003-2007	head	_	_	_	HAS\_SIZE[75]	_	
+13-9	2007-2008	,	_	_	_	_	_	
+13-10	2009-2014	which	_	_	_	MEASURES[76]	_	
+13-11	2015-2018	can	_	_	_	MEASURES[76]	frame\_MEASURES[92]	
+13-12	2019-2021	be	_	_	_	MEASURES[76]	frame\_MEASURES[92]	
+13-13	2022-2030	measured	_	_	_	MEASURES[76]	frame\_MEASURES[92]	
+13-14	2031-2033	at	_	_	_	MEASURES[76]	_	
+13-15	2034-2045	piezometers	_	E.1 Instrument	_	MEASURES[76]	_	
+13-16	2045-2046	.	_	_	_	_	_	
+
+#Text=Collapse dolines are large depressions that were formed with slow collapsing of roofs above larger underground cavities and afterwards with transformation of slopes.
+14-1	2048-2056	Collapse	_	A.1 Surface landform[22]	DEFINIENDUM[51]	_	_	
+14-2	2057-2064	dolines	_	A.1 Surface landform[22]	DEFINIENDUM[51]	_	_	
+14-3	2065-2068	are	_	_	DEFINITOR	_	_	
+14-4	2069-2074	large	_	_	_	HAS\_SIZE	_	
+14-5	2075-2086	depressions	_	A.1 Surface landform	GENUS	_	_	
+14-6	2087-2091	that	_	_	_	HAS\_CAUSE[77]	_	
+14-7	2092-2096	were	_	_	_	HAS\_CAUSE[77]	frame\_CAUSE[93]	
+14-8	2097-2103	formed	_	_	_	HAS\_CAUSE[77]	frame\_CAUSE[93]	
+14-9	2104-2108	with	_	_	_	HAS\_CAUSE[77]	frame\_CAUSE[93]	
+14-10	2109-2113	slow	_	_	_	HAS\_CAUSE[77]	_	
+14-11	2114-2124	collapsing	_	B.1 Movement	_	HAS\_CAUSE[77]	_	
+14-12	2125-2127	of	_	_	_	HAS\_CAUSE[77]	_	
+14-13	2128-2133	roofs	_	_	_	HAS\_CAUSE[77]	_	
+14-14	2134-2139	above	_	_	_	HAS\_LOCATION[78]	frame\_LOCATION	
+14-15	2140-2146	larger	_	_	_	HAS\_LOCATION[78]	_	
+14-16	2147-2158	underground	_	D.1 Abiotic[23]	_	HAS\_LOCATION[78]	_	
+14-17	2159-2167	cavities	_	D.1 Abiotic[23]	_	HAS\_LOCATION[78]	_	
+14-18	2168-2171	and	_	_	_	_	_	
+14-19	2172-2182	afterwards	_	_	_	HAS\_CAUSE[79]	_	
+14-20	2183-2187	with	_	_	_	HAS\_CAUSE[79]	_	
+14-21	2188-2202	transformation	_	_	_	HAS\_CAUSE[79]	_	
+14-22	2203-2205	of	_	_	_	HAS\_CAUSE[79]	_	
+14-23	2206-2212	slopes	_	D.1 Abiotic	_	HAS\_CAUSE[79]	_	
+14-24	2212-2213	.	_	_	_	_	_	
+
+#Text=Caves are an important part of both the terrestrial and aquatic ecosystems in karst terrains, but are not the only components.
+15-1	2215-2220	Caves	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	2221-2224	are	_	_	DEFINITOR[52]	_	_	
+15-3	2225-2227	an	_	_	DEFINITOR[52]	_	_	
+15-4	2228-2237	important	_	_	_	_	_	
+15-5	2238-2242	part	_	_	_	_	_	
+15-6	2243-2245	of	_	_	_	_	_	
+15-7	2246-2250	both	_	_	_	_	_	
+15-8	2251-2254	the	_	_	_	_	_	
+15-9	2255-2266	terrestrial	terrestial ecosystem	C. Geome	_	_	_	
+15-10	2267-2270	and	_	_	_	_	_	
+15-11	2271-2278	aquatic	_	C. Geome[24]	_	_	_	
+15-12	2279-2289	ecosystems	_	C. Geome[24]	_	_	_	
+15-13	2290-2292	in	_	_	_	HAS\_LOCATION[80]	frame\_LOCATION	
+15-14	2293-2298	karst	_	C. Geome[25]	_	HAS\_LOCATION[80]	_	
+15-15	2299-2307	terrains	_	C. Geome[25]	_	HAS\_LOCATION[80]	_	
+15-16	2307-2308	,	_	_	_	_	_	
+15-17	2309-2312	but	_	_	_	_	_	
+15-18	2313-2316	are	_	_	_	_	_	
+15-19	2317-2320	not	_	_	_	_	_	
+15-20	2321-2324	the	_	_	_	_	_	
+15-21	2325-2329	only	_	_	_	_	_	
+15-22	2330-2340	components	_	_	_	_	_	
+15-23	2340-2341	.	_	_	_	_	_	
+
+#Text=In instances where dissolution is the prevailing mechanism, a bowlshaped doline will probably form.
+16-1	2343-2345	In	_	_	_	HAS\_CAUSE[81]	_	
+16-2	2346-2355	instances	_	_	_	HAS\_CAUSE[81]	_	
+16-3	2356-2361	where	_	_	_	HAS\_CAUSE[81]	_	
+16-4	2362-2373	dissolution	_	B.4 Transformation	_	HAS\_CAUSE[81]	_	
+16-5	2374-2376	is	_	_	_	HAS\_CAUSE[81]	_	
+16-6	2377-2380	the	_	_	_	HAS\_CAUSE[81]	_	
+16-7	2381-2391	prevailing	_	_	_	HAS\_CAUSE[81]	_	
+16-8	2392-2401	mechanism	_	_	_	HAS\_CAUSE[81]	_	
+16-9	2401-2402	,	_	_	_	HAS\_CAUSE[81]	_	
+16-10	2403-2404	a	_	_	_	HAS\_CAUSE[81]	_	
+16-11	2405-2415	bowlshaped	_	A.1 Surface landform[26]	DEFINIENDUM[53]	HAS\_CAUSE[81]	_	
+16-12	2416-2422	doline	_	A.1 Surface landform[26]	DEFINIENDUM[53]	HAS\_CAUSE[81]	_	
+16-13	2423-2427	will	_	_	_	HAS\_CAUSE[81]	_	
+16-14	2428-2436	probably	_	_	_	HAS\_CAUSE[81]	_	
+16-15	2437-2441	form	_	_	_	HAS\_CAUSE[81]	_	
+16-16	2441-2442	.	_	_	_	_	_	
+
+#Text=The first type is a point-recharge doline which is strongly connected to outflow of surface streams into karst subsurface.
+17-1	2444-2447	The	_	_	_	_	_	
+17-2	2448-2453	first	_	_	_	_	_	
+17-3	2454-2458	type	_	_	_	_	_	
+17-4	2459-2461	is	_	_	_	_	_	
+17-5	2462-2463	a	_	_	_	_	_	
+17-6	2464-2478	point-recharge	_	A.1 Surface landform[27]	DEFINIENDUM[54]	_	_	
+17-7	2479-2485	doline	_	A.1 Surface landform[27]	DEFINIENDUM[54]	_	_	
+17-8	2486-2491	which	_	_	_	_	_	
+17-9	2492-2494	is	_	_	_	_	_	
+17-10	2495-2503	strongly	_	_	_	_	_	
+17-11	2504-2513	connected	_	_	_	_	_	
+17-12	2514-2516	to	_	_	_	_	_	
+17-13	2517-2524	outflow	_	_	_	_	_	
+17-14	2525-2527	of	_	_	_	_	_	
+17-15	2528-2535	surface	_	D.1 Abiotic[28]	_	_	_	
+17-16	2536-2543	streams	_	D.1 Abiotic[28]	_	_	_	
+17-17	2544-2548	into	_	_	_	_	_	
+17-18	2549-2554	karst	_	C. Geome[29]	_	_	_	
+17-19	2555-2565	subsurface	_	C. Geome[29]	_	_	_	
+17-20	2565-2566	.	_	_	_	_	_	
+
+#Text=The third type is an inception doline that also originates from the centripetal convergence of water; this occurs inside a pre-existing hydrogeological structure and is triggered by a change of hydraulic conductivity due to lithological and structural factors.
+18-1	2568-2571	The	_	_	_	_	_	
+18-2	2572-2577	third	_	_	_	_	_	
+18-3	2578-2582	type	_	_	_	_	_	
+18-4	2583-2585	is	_	_	_	_	_	
+18-5	2586-2588	an	_	_	_	_	_	
+18-6	2589-2598	inception	_	A.1 Surface landform[30]	DEFINIENDUM[55]	_	_	
+18-7	2599-2605	doline	_	A.1 Surface landform[30]	DEFINIENDUM[55]	_	_	
+18-8	2606-2610	that	_	_	_	HAS\_CAUSE[82]	_	
+18-9	2611-2615	also	_	_	_	HAS\_CAUSE[82]	_	
+18-10	2616-2626	originates	_	_	_	HAS\_CAUSE[82]	frame\_CAUSE[94]	
+18-11	2627-2631	from	_	_	_	HAS\_CAUSE[82]	frame\_CAUSE[94]	
+18-12	2632-2635	the	_	_	_	HAS\_CAUSE[82]	_	
+18-13	2636-2647	centripetal	_	B.1 Movement[31]	_	HAS\_CAUSE[82]	_	
+18-14	2648-2659	convergence	_	B.1 Movement[31]	_	HAS\_CAUSE[82]	_	
+18-15	2660-2662	of	_	_	_	HAS\_CAUSE[82]	_	
+18-16	2663-2668	water	_	D.1 Abiotic	_	HAS\_CAUSE[82]	_	
+18-17	2668-2669	;	_	_	_	_	_	
+18-18	2670-2674	this	_	_	_	HAS\_LOCATION[83]	_	
+18-19	2675-2681	occurs	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[95]	
+18-20	2682-2688	inside	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[95]	
+18-21	2689-2690	a	_	_	_	HAS\_LOCATION[83]	frame\_LOCATION[95]	
+18-22	2691-2703	pre-existing	_	_	_	HAS\_LOCATION[83]	_	
+18-23	2704-2719	hydrogeological	_	_	_	HAS\_LOCATION[83]	_	
+18-24	2720-2729	structure	_	_	_	HAS\_LOCATION[83]	_	
+18-25	2730-2733	and	_	_	_	_	_	
+18-26	2734-2736	is	_	_	_	HAS\_CAUSE[84]	frame\_CAUSE[96]	
+18-27	2737-2746	triggered	_	_	_	HAS\_CAUSE[84]	frame\_CAUSE[96]	
+18-28	2747-2749	by	_	_	_	HAS\_CAUSE[84]	frame\_CAUSE[96]	
+18-29	2750-2751	a	_	_	_	HAS\_CAUSE[84]	_	
+18-30	2752-2758	change	_	_	_	HAS\_CAUSE[84]	_	
+18-31	2759-2761	of	_	_	_	HAS\_CAUSE[84]	_	
+18-32	2762-2771	hydraulic	_	D.3 Property[32]	_	HAS\_CAUSE[84]	_	
+18-33	2772-2784	conductivity	_	D.3 Property[32]	_	HAS\_CAUSE[84]	_	
+18-34	2785-2788	due	_	_	_	HAS\_CAUSE[84]	_	
+18-35	2789-2791	to	_	_	_	HAS\_CAUSE[84]	_	
+18-36	2792-2804	lithological	lithological factors	_	_	HAS\_CAUSE[84]	_	
+18-37	2805-2808	and	_	_	_	HAS\_CAUSE[84]	_	
+18-38	2809-2819	structural	_	_	_	HAS\_CAUSE[84]	_	
+18-39	2820-2827	factors	_	_	_	HAS\_CAUSE[84]	_	
+18-40	2827-2828	.	_	_	_	HAS\_CAUSE[84]	_	

@@ -1,0 +1,1520 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=spilja – podzemna šupljina ili sustav šupljina u koje ne dopire ili se neznatno probija dnevna svjetlost (v. pećina), te je za njihovo istraživanje potrebno umjetno osvjetljenje. S. su izmodelirane korozijom i mehaničkom erozijom podzemnih voda. B. Gčze smatra da su spilje ograničene na čistije vapnence (preko 60 % kalcijeva karbonata).
+1-1	0-6	spilja	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-2	7-8	–	_	_	_	_	_	
+1-3	9-17	podzemna	_	_	_	HAS\_LOCATION	_	
+1-4	18-26	šupljina	_	_	GENUS	_	_	
+1-5	27-30	ili	_	_	_	_	_	
+1-6	31-37	sustav	_	_	GENUS[42]	_	_	
+1-7	38-46	šupljina	_	_	GENUS[42]	_	_	
+1-8	47-48	u	_	_	_	_	_	
+1-9	49-53	koje	_	_	_	_	_	
+1-10	54-56	ne	_	_	_	_	_	
+1-11	57-63	dopire	_	_	_	_	_	
+1-12	64-67	ili	_	_	_	_	_	
+1-13	68-70	se	_	_	_	_	_	
+1-14	71-79	neznatno	_	_	_	_	_	
+1-15	80-87	probija	_	_	_	_	_	
+1-16	88-94	dnevna	_	_	_	_	_	
+1-17	95-104	svjetlost	_	_	_	_	_	
+1-18	105-106	(	_	_	_	_	_	
+1-19	106-107	v	_	_	_	_	_	
+1-20	107-108	.	_	_	_	_	_	
+1-21	109-115	pećina	_	_	_	_	_	
+1-22	115-116	)	_	_	_	_	_	
+1-23	116-117	,	_	_	_	_	_	
+1-24	118-120	te	_	_	_	_	_	
+1-25	121-123	je	_	_	_	_	_	
+1-26	124-126	za	_	_	_	_	_	
+1-27	127-134	njihovo	_	_	_	_	_	
+1-28	135-147	istraživanje	_	_	_	_	_	
+1-29	148-156	potrebno	_	_	_	_	_	
+1-30	157-164	umjetno	_	_	_	_	_	
+1-31	165-177	osvjetljenje	_	_	_	_	_	
+1-32	177-178	.	_	_	_	_	_	
+1-33	179-180	S	_	_	_	_	_	
+1-34	180-181	.	_	_	_	_	_	
+1-35	182-184	su	_	_	_	_	_	
+1-36	185-197	izmodelirane	_	_	_	HAS\_CAUSE[69]	_	
+1-37	198-207	korozijom	_	B.4 Transformation	_	HAS\_CAUSE[69]	_	
+1-38	208-209	i	_	_	_	HAS\_CAUSE[69]	_	
+1-39	210-220	mehaničkom	_	B.2 Loss[5]	_	HAS\_CAUSE[69]	_	
+1-40	221-229	erozijom	_	B.2 Loss[5]	_	HAS\_CAUSE[69]	_	
+1-41	230-239	podzemnih	_	B.2 Loss[5]	_	HAS\_CAUSE[69]	_	
+1-42	240-244	voda	_	B.2 Loss[5]	_	HAS\_CAUSE[69]	_	
+1-43	244-245	.	_	_	_	_	_	
+1-44	246-247	B	_	_	_	_	_	
+1-45	247-248	.	_	_	_	_	_	
+1-46	249-253	Gčze	_	_	_	_	_	
+1-47	254-260	smatra	_	_	_	_	_	
+1-48	261-263	da	_	_	_	_	_	
+1-49	264-266	su	_	_	_	_	_	
+1-50	267-273	spilje	_	_	_	_	_	
+1-51	274-284	ograničene	_	_	_	_	_	
+1-52	285-287	na	_	_	_	_	_	
+1-53	288-295	čistije	_	_	_	_	_	
+1-54	296-304	vapnence	_	_	_	_	_	
+1-55	305-306	(	_	_	_	_	_	
+1-56	306-311	preko	_	_	_	_	_	
+1-57	312-314	60	_	_	_	_	_	
+1-58	315-316	%	_	_	_	_	_	
+1-59	317-326	kalcijeva	_	_	_	_	_	
+1-60	327-336	karbonata	_	_	_	_	_	
+1-61	336-337	)	_	_	_	_	_	
+1-62	337-338	.	_	_	_	_	_	
+
+#Text=za razliku od jama s. su jače razvijene u lateralnom smjeru. Etažna s. je raspoređena u dva ili više katova šupljina koji su međusobno veznim kanalima spojeni. Spiljski kompleks se sastoji iz raznovrsnih oblika: galerija ili hodnik je izdužena šupljina; dvorana ili sala je veliki spiljski prostor u čijem nastajanju znatan udio imaju urušavanja stropnih dijelova; kanali, rovovi i prolazi su uži i izduženi dijelovi, koji mogu biti spojni između većih šupljina ili se završavaju slijepo  – slijepi kanal ili rov. Pored glavnog izdvajaju se sporedni ili bočni kanali.
+2-1	340-342	za	_	_	_	_	_	
+2-2	343-350	razliku	_	_	_	_	_	
+2-3	351-353	od	_	_	_	_	_	
+2-4	354-358	jama	_	_	_	_	_	
+2-5	359-360	s	_	_	_	_	_	
+2-6	360-361	.	_	_	_	_	_	
+2-7	362-364	su	_	_	_	_	_	
+2-8	365-369	jače	_	_	_	_	_	
+2-9	370-379	razvijene	_	_	_	_	_	
+2-10	380-381	u	_	_	_	_	_	
+2-11	382-392	lateralnom	_	_	_	_	_	
+2-12	393-399	smjeru	_	_	_	_	_	
+2-13	399-400	.	_	_	_	_	_	
+2-14	401-407	Etažna	_	_	_	_	_	
+2-15	408-409	s	_	_	_	_	_	
+2-16	409-410	.	_	_	_	_	_	
+2-17	411-413	je	_	_	_	_	_	
+2-18	414-425	raspoređena	_	_	_	_	_	
+2-19	426-427	u	_	_	_	_	_	
+2-20	428-431	dva	_	_	_	_	_	
+2-21	432-435	ili	_	_	_	_	_	
+2-22	436-440	više	_	_	_	_	_	
+2-23	441-447	katova	_	_	_	_	_	
+2-24	448-456	šupljina	_	_	_	_	_	
+2-25	457-461	koji	_	_	_	_	_	
+2-26	462-464	su	_	_	_	_	_	
+2-27	465-474	međusobno	_	_	_	_	_	
+2-28	475-481	veznim	_	_	_	_	_	
+2-29	482-490	kanalima	_	_	_	_	_	
+2-30	491-498	spojeni	_	_	_	_	_	
+2-31	498-499	.	_	_	_	_	_	
+2-32	500-508	Spiljski	_	A.2 Underground landform[6]	DEFINIENDUM[43]	_	_	
+2-33	509-517	kompleks	_	A.2 Underground landform[6]	DEFINIENDUM[43]	_	_	
+2-34	518-520	se	_	_	_	_	frame\_CONTAINS[120]	
+2-35	521-528	sastoji	_	_	_	_	frame\_CONTAINS[120]	
+2-36	529-531	iz	_	_	_	_	frame\_CONTAINS[120]	
+2-37	532-543	raznovrsnih	_	_	_	_	_	
+2-38	544-550	oblika	_	_	_	_	_	
+2-39	550-551	:	_	_	_	_	_	
+2-40	552-560	galerija	_	A.2 Underground landform	_	CONTAINS[70]	_	
+2-41	561-564	ili	_	_	_	CONTAINS[70]	_	
+2-42	565-571	hodnik	_	A.2 Underground landform	_	CONTAINS[70]	_	
+2-43	572-574	je	_	_	_	_	_	
+2-44	575-583	izdužena	_	_	_	_	_	
+2-45	584-592	šupljina	_	_	_	_	_	
+2-46	592-593	;	_	_	_	_	_	
+2-47	594-601	dvorana	_	A.2 Underground landform	_	CONTAINS[71]	_	
+2-48	602-605	ili	_	_	_	CONTAINS[71]	_	
+2-49	606-610	sala	_	A.2 Underground landform	_	CONTAINS[71]	_	
+2-50	611-613	je	_	_	_	_	_	
+2-51	614-620	veliki	_	_	_	_	_	
+2-52	621-629	spiljski	_	_	_	_	_	
+2-53	630-637	prostor	_	_	_	_	_	
+2-54	638-639	u	_	_	_	_	_	
+2-55	640-645	čijem	_	_	_	_	_	
+2-56	646-656	nastajanju	_	_	_	_	_	
+2-57	657-663	znatan	_	_	_	_	_	
+2-58	664-668	udio	_	_	_	_	_	
+2-59	669-674	imaju	_	_	_	_	_	
+2-60	675-685	urušavanja	_	_	_	_	_	
+2-61	686-694	stropnih	_	_	_	_	_	
+2-62	695-703	dijelova	_	_	_	_	_	
+2-63	703-704	;	_	_	_	_	_	
+2-64	705-711	kanali	_	A.2 Underground landform	_	CONTAINS[72]	_	
+2-65	711-712	,	_	_	_	CONTAINS[72]	_	
+2-66	713-719	rovovi	_	A.2 Underground landform	_	CONTAINS[72]	_	
+2-67	720-721	i	_	_	_	CONTAINS[72]	_	
+2-68	722-729	prolazi	_	A.2 Underground landform	_	CONTAINS[72]	_	
+2-69	730-732	su	_	_	_	_	_	
+2-70	733-736	uži	_	_	_	_	_	
+2-71	737-738	i	_	_	_	_	_	
+2-72	739-747	izduženi	_	_	_	_	_	
+2-73	748-756	dijelovi	_	_	_	_	_	
+2-74	756-757	,	_	_	_	_	_	
+2-75	758-762	koji	_	_	_	_	_	
+2-76	763-767	mogu	_	_	_	_	_	
+2-77	768-772	biti	_	_	_	_	_	
+2-78	773-779	spojni	_	_	_	_	_	
+2-79	780-786	između	_	_	_	_	_	
+2-80	787-792	većih	_	_	_	_	_	
+2-81	793-801	šupljina	_	_	_	_	_	
+2-82	802-805	ili	_	_	_	_	_	
+2-83	806-808	se	_	_	_	_	_	
+2-84	809-819	završavaju	_	_	_	_	_	
+2-85	820-827	slijepo	_	_	_	_	_	
+2-86	829-830	–	_	_	_	_	_	
+2-87	831-838	slijepi	_	A.2 Underground landform[7]	_	CONTAINS[73]	_	
+2-88	839-844	kanal	_	A.2 Underground landform[7]	_	CONTAINS[73]	_	
+2-89	845-848	ili	_	_	_	CONTAINS[73]	_	
+2-90	849-852	rov	slijepi rov	A.2 Underground landform	_	CONTAINS[73]	_	
+2-91	852-853	.	_	_	_	_	_	
+2-92	854-859	Pored	_	_	_	_	_	
+2-93	860-867	glavnog	_	_	_	_	_	
+2-94	868-877	izdvajaju	_	_	_	_	_	
+2-95	878-880	se	_	_	_	_	_	
+2-96	881-889	sporedni	sporedni kanali	A.2 Underground landform	_	CONTAINS[74]	_	
+2-97	890-893	ili	_	_	_	CONTAINS[74]	_	
+2-98	894-899	bočni	_	A.2 Underground landform[8]	_	CONTAINS[74]	_	
+2-99	900-906	kanali	_	A.2 Underground landform[8]	_	CONTAINS[74]	_	
+2-100	906-907	.	_	_	_	_	_	
+
+#Text=usku vezu među spiljskim šupljinama nazivamo lisičji prolaz. Često kroz uske prolaze struji zrak, što ukazuje da spajaju veće šupljine različitih termičkih osobina. Za protočne spilje su važni sifonski dijelovi (oblika slova U) koji su ispunjeni vodom, utječu na protjecanje i velika su zapreka u istraživanjima.
+3-1	909-913	usku	_	_	_	DEFINED\_AS[75]	_	
+3-2	914-918	vezu	_	_	_	DEFINED\_AS[75]	_	
+3-3	919-923	među	_	_	_	DEFINED\_AS[75]	_	
+3-4	924-933	spiljskim	_	A.2 Underground landform[9]	_	DEFINED\_AS[75]	_	
+3-5	934-944	šupljinama	_	A.2 Underground landform[9]	_	DEFINED\_AS[75]	_	
+3-6	945-953	nazivamo	_	_	_	_	_	
+3-7	954-961	lisičji	_	A.2 Underground landform[10]	DEFINIENDUM[44]	_	_	
+3-8	962-968	prolaz	_	A.2 Underground landform[10]	DEFINIENDUM[44]	_	_	
+3-9	968-969	.	_	_	_	_	_	
+3-10	970-975	Često	_	_	_	_	_	
+3-11	976-980	kroz	_	_	_	_	_	
+3-12	981-985	uske	_	_	_	_	_	
+3-13	986-993	prolaze	_	_	_	_	_	
+3-14	994-1000	struji	_	_	_	_	_	
+3-15	1001-1005	zrak	_	_	_	_	_	
+3-16	1005-1006	,	_	_	_	_	_	
+3-17	1007-1010	što	_	_	_	_	_	
+3-18	1011-1018	ukazuje	_	_	_	_	_	
+3-19	1019-1021	da	_	_	_	_	_	
+3-20	1022-1029	spajaju	_	_	_	HAS\_FUNCTION[76]	_	
+3-21	1030-1034	veće	_	_	_	HAS\_FUNCTION[76]	_	
+3-22	1035-1043	šupljine	_	_	_	HAS\_FUNCTION[76]	_	
+3-23	1044-1054	različitih	_	_	_	HAS\_FUNCTION[76]	_	
+3-24	1055-1064	termičkih	_	_	_	HAS\_FUNCTION[76]	_	
+3-25	1065-1072	osobina	_	_	_	HAS\_FUNCTION[76]	_	
+3-26	1072-1073	.	_	_	_	_	_	
+3-27	1074-1076	Za	_	_	_	_	_	
+3-28	1077-1085	protočne	_	_	_	_	_	
+3-29	1086-1092	spilje	_	_	_	_	_	
+3-30	1093-1095	su	_	_	_	_	_	
+3-31	1096-1101	važni	_	_	_	_	_	
+3-32	1102-1110	sifonski	_	_	_	_	_	
+3-33	1111-1119	dijelovi	_	_	_	_	_	
+3-34	1120-1121	(	_	_	_	_	_	
+3-35	1121-1127	oblika	_	_	_	_	_	
+3-36	1128-1133	slova	_	_	_	_	_	
+3-37	1134-1135	U	_	_	_	_	_	
+3-38	1135-1136	)	_	_	_	_	_	
+3-39	1137-1141	koji	_	_	_	_	_	
+3-40	1142-1144	su	_	_	_	_	_	
+3-41	1145-1154	ispunjeni	_	_	_	_	_	
+3-42	1155-1160	vodom	_	_	_	_	_	
+3-43	1160-1161	,	_	_	_	_	_	
+3-44	1162-1168	utječu	_	_	_	_	_	
+3-45	1169-1171	na	_	_	_	_	_	
+3-46	1172-1183	protjecanje	_	_	_	_	_	
+3-47	1184-1185	i	_	_	_	_	_	
+3-48	1186-1192	velika	_	_	_	_	_	
+3-49	1193-1195	su	_	_	_	_	_	
+3-50	1196-1203	zapreka	_	_	_	_	_	
+3-51	1204-1205	u	_	_	_	_	_	
+3-52	1206-1220	istraživanjima	_	_	_	_	_	
+3-53	1220-1221	.	_	_	_	_	_	
+
+#Text=Na stranama spiljskih šupljina ima različitih grižina ili škrapa. Pored eforacijskih (v. eforacija) i evorzijskih (v. evorzija) udubina posebnu pažnju privlače stropne škrape, najčešće u obliku izvrnutih lonaca, za koje nema općeprihvaćenog objašnjenja. Dimnjak ili kamin je okomita udubina u stropu, a polica je stepeničasti prijelom na stranama spiljskih šupljina.
+4-1	1223-1225	Na	_	_	_	_	_	
+4-2	1226-1234	stranama	_	_	_	_	_	
+4-3	1235-1244	spiljskih	_	_	_	_	_	
+4-4	1245-1253	šupljina	_	_	_	_	_	
+4-5	1254-1257	ima	_	_	_	_	_	
+4-6	1258-1268	različitih	_	_	_	_	_	
+4-7	1269-1276	grižina	_	_	_	_	_	
+4-8	1277-1280	ili	_	_	_	_	_	
+4-9	1281-1287	škrapa	_	_	_	_	_	
+4-10	1287-1288	.	_	_	_	_	_	
+4-11	1289-1294	Pored	_	_	_	_	_	
+4-12	1295-1307	eforacijskih	_	_	_	_	_	
+4-13	1308-1309	(	_	_	_	_	_	
+4-14	1309-1310	v	_	_	_	_	_	
+4-15	1310-1311	.	_	_	_	_	_	
+4-16	1312-1321	eforacija	_	_	_	_	_	
+4-17	1321-1322	)	_	_	_	_	_	
+4-18	1323-1324	i	_	_	_	_	_	
+4-19	1325-1336	evorzijskih	_	_	_	_	_	
+4-20	1337-1338	(	_	_	_	_	_	
+4-21	1338-1339	v	_	_	_	_	_	
+4-22	1339-1340	.	_	_	_	_	_	
+4-23	1341-1349	evorzija	_	_	_	_	_	
+4-24	1349-1350	)	_	_	_	_	_	
+4-25	1351-1358	udubina	_	_	_	_	_	
+4-26	1359-1366	posebnu	_	_	_	_	_	
+4-27	1367-1373	pažnju	_	_	_	_	_	
+4-28	1374-1382	privlače	_	_	_	_	_	
+4-29	1383-1390	stropne	_	_	_	_	_	
+4-30	1391-1397	škrape	_	_	_	_	_	
+4-31	1397-1398	,	_	_	_	_	_	
+4-32	1399-1407	najčešće	_	_	_	_	_	
+4-33	1408-1409	u	_	_	_	_	_	
+4-34	1410-1416	obliku	_	_	_	_	_	
+4-35	1417-1426	izvrnutih	_	_	_	_	_	
+4-36	1427-1433	lonaca	_	_	_	_	_	
+4-37	1433-1434	,	_	_	_	_	_	
+4-38	1435-1437	za	_	_	_	_	_	
+4-39	1438-1442	koje	_	_	_	_	_	
+4-40	1443-1447	nema	_	_	_	_	_	
+4-41	1448-1463	općeprihvaćenog	_	_	_	_	_	
+4-42	1464-1475	objašnjenja	_	_	_	_	_	
+4-43	1475-1476	.	_	_	_	_	_	
+4-44	1477-1484	Dimnjak	_	_	_	_	_	
+4-45	1485-1488	ili	_	_	_	_	_	
+4-46	1489-1494	kamin	_	_	_	_	_	
+4-47	1495-1497	je	_	_	_	_	_	
+4-48	1498-1505	okomita	_	_	_	_	_	
+4-49	1506-1513	udubina	_	_	_	_	_	
+4-50	1514-1515	u	_	_	_	_	_	
+4-51	1516-1522	stropu	_	_	_	_	_	
+4-52	1522-1523	,	_	_	_	_	_	
+4-53	1524-1525	a	_	_	_	_	_	
+4-54	1526-1532	polica	_	_	_	_	_	
+4-55	1533-1535	je	_	_	_	_	_	
+4-56	1536-1548	stepeničasti	_	_	_	_	_	
+4-57	1549-1557	prijelom	_	_	_	_	_	
+4-58	1558-1560	na	_	_	_	_	_	
+4-59	1561-1569	stranama	_	_	_	_	_	
+4-60	1570-1579	spiljskih	_	_	_	_	_	
+4-61	1580-1588	šupljina	_	_	_	_	_	
+4-62	1588-1589	.	_	_	_	_	_	
+
+#Text=suha spilja je ona kroz koju voda ne protječe i nema vodom ispunjenih bazena. Kroz vodnu spilju voda protječe trajno ili periodski ili se zadržava u bazenima. Spiljsko jezero je u udubini gline ili onoj koja je cementirana sedrenom korom. Spiljska glina u različitim količinama prekriva dna spiljskih šupljina, a neke ogranke i sasvim ispunjava. Nastala je dekalcifikacijom (v.) na licu mjesta (autohtona) ili je transportirana iz jednog u drugi dio (parautohtona) ili je nanesena izvana (alo htona). Spiljski sedimenti obuhvaćaju cjelinu na slaga nataloženih u podzemnim šupljinama: sigaste tvore vine, urušene blokove, gline, naneseni šljunak i pijesak i sl.
+5-1	1591-1595	suha	_	_	_	_	_	
+5-2	1596-1602	spilja	_	_	_	_	_	
+5-3	1603-1605	je	_	_	_	_	_	
+5-4	1606-1609	ona	_	_	_	_	_	
+5-5	1610-1614	kroz	_	_	_	_	_	
+5-6	1615-1619	koju	_	_	_	_	_	
+5-7	1620-1624	voda	_	_	_	_	_	
+5-8	1625-1627	ne	_	_	_	_	_	
+5-9	1628-1636	protječe	_	_	_	_	_	
+5-10	1637-1638	i	_	_	_	_	_	
+5-11	1639-1643	nema	_	_	_	_	_	
+5-12	1644-1649	vodom	_	_	_	_	_	
+5-13	1650-1660	ispunjenih	_	_	_	_	_	
+5-14	1661-1667	bazena	_	_	_	_	_	
+5-15	1667-1668	.	_	_	_	_	_	
+5-16	1669-1673	Kroz	_	_	_	_	_	
+5-17	1674-1679	vodnu	_	_	_	_	_	
+5-18	1680-1686	spilju	_	_	_	_	_	
+5-19	1687-1691	voda	_	_	_	_	_	
+5-20	1692-1700	protječe	_	_	_	_	_	
+5-21	1701-1707	trajno	_	_	_	_	_	
+5-22	1708-1711	ili	_	_	_	_	_	
+5-23	1712-1721	periodski	_	_	_	_	_	
+5-24	1722-1725	ili	_	_	_	_	_	
+5-25	1726-1728	se	_	_	_	_	_	
+5-26	1729-1737	zadržava	_	_	_	_	_	
+5-27	1738-1739	u	_	_	_	_	_	
+5-28	1740-1748	bazenima	_	_	_	_	_	
+5-29	1748-1749	.	_	_	_	_	_	
+5-30	1750-1758	Spiljsko	_	_	_	_	_	
+5-31	1759-1765	jezero	_	_	_	_	_	
+5-32	1766-1768	je	_	_	_	_	_	
+5-33	1769-1770	u	_	_	_	_	_	
+5-34	1771-1778	udubini	_	_	_	_	_	
+5-35	1779-1784	gline	_	_	_	_	_	
+5-36	1785-1788	ili	_	_	_	_	_	
+5-37	1789-1793	onoj	_	_	_	_	_	
+5-38	1794-1798	koja	_	_	_	_	_	
+5-39	1799-1801	je	_	_	_	_	_	
+5-40	1802-1813	cementirana	_	_	_	_	_	
+5-41	1814-1822	sedrenom	_	_	_	_	_	
+5-42	1823-1828	korom	_	_	_	_	_	
+5-43	1828-1829	.	_	_	_	_	_	
+5-44	1830-1838	Spiljska	_	D.1 Abiotic[11]	DEFINIENDUM[45]	_	_	
+5-45	1839-1844	glina	_	D.1 Abiotic[11]	DEFINIENDUM[45]	_	_	
+5-46	1845-1846	u	_	_	_	_	_	
+5-47	1847-1857	različitim	_	_	_	_	_	
+5-48	1858-1868	količinama	_	_	_	_	_	
+5-49	1869-1877	prekriva	_	_	_	HAS\_FUNCTION[77]	_	
+5-50	1878-1881	dna	_	_	_	HAS\_FUNCTION[77]	_	
+5-51	1882-1891	spiljskih	_	A.2 Underground landform[12]	_	HAS\_FUNCTION[77]	_	
+5-52	1892-1900	šupljina	_	A.2 Underground landform[12]	_	HAS\_FUNCTION[77]	_	
+5-53	1900-1901	,	_	_	_	HAS\_FUNCTION[77]	_	
+5-54	1902-1903	a	_	_	_	HAS\_FUNCTION[77]	_	
+5-55	1904-1908	neke	_	_	_	HAS\_FUNCTION[77]	_	
+5-56	1909-1916	ogranke	_	_	_	HAS\_FUNCTION[77]	_	
+5-57	1917-1918	i	_	_	_	HAS\_FUNCTION[77]	_	
+5-58	1919-1925	sasvim	_	_	_	HAS\_FUNCTION[77]	_	
+5-59	1926-1935	ispunjava	_	_	_	HAS\_FUNCTION[77]	_	
+5-60	1935-1936	.	_	_	_	_	_	
+5-61	1937-1944	Nastala	_	_	_	HAS\_CAUSE[78]	_	
+5-62	1945-1947	je	_	_	_	HAS\_CAUSE[78]	_	
+5-63	1948-1964	dekalcifikacijom	_	B.4 Transformation	_	HAS\_CAUSE[78]	_	
+5-64	1965-1966	(	_	_	_	_	_	
+5-65	1966-1967	v	_	_	_	_	_	
+5-66	1967-1968	.	_	_	_	_	_	
+5-67	1968-1969	)	_	_	_	_	_	
+5-68	1970-1972	na	_	_	_	_	_	
+5-69	1973-1977	licu	_	_	_	_	_	
+5-70	1978-1984	mjesta	_	_	_	_	_	
+5-71	1985-1986	(	_	_	_	_	_	
+5-72	1986-1995	autohtona	autohtona spiljska glina	D.1 Abiotic	SPECIES	_	_	
+5-73	1995-1996	)	_	_	_	_	_	
+5-74	1997-2000	ili	_	_	_	_	_	
+5-75	2001-2003	je	_	_	_	_	_	
+5-76	2004-2018	transportirana	_	B.1 Movement	_	HAS\_CAUSE	_	
+5-77	2019-2021	iz	_	_	_	_	_	
+5-78	2022-2028	jednog	_	_	_	_	_	
+5-79	2029-2030	u	_	_	_	_	_	
+5-80	2031-2036	drugi	_	_	_	_	_	
+5-81	2037-2040	dio	_	_	_	_	_	
+5-82	2041-2042	(	_	_	_	_	_	
+5-83	2042-2054	parautohtona	parautohtona spiljska glina	D.1 Abiotic	SPECIES	_	_	
+5-84	2054-2055	)	_	_	_	_	_	
+5-85	2056-2059	ili	_	_	_	_	_	
+5-86	2060-2062	je	_	_	_	_	_	
+5-87	2063-2071	nanesena	_	_	_	HAS\_CAUSE[79]	_	
+5-88	2072-2078	izvana	_	_	_	HAS\_CAUSE[79]	_	
+5-89	2079-2080	(	_	_	_	_	_	
+5-90	2080-2083	alo	alohtona spiljska glina[1]	D.1 Abiotic[13]	SPECIES[46]	_	_	
+5-91	2084-2089	htona	alohtona spiljska glina[1]	D.1 Abiotic[13]	SPECIES[46]	_	_	
+5-92	2089-2090	)	_	_	_	_	_	
+5-93	2090-2091	.	_	_	_	_	_	
+5-94	2092-2100	Spiljski	_	_	_	_	_	
+5-95	2101-2110	sedimenti	_	_	_	_	_	
+5-96	2111-2121	obuhvaćaju	_	_	_	_	_	
+5-97	2122-2129	cjelinu	_	_	_	_	_	
+5-98	2130-2132	na	_	_	_	_	_	
+5-99	2133-2138	slaga	_	_	_	_	_	
+5-100	2139-2150	nataloženih	_	_	_	_	_	
+5-101	2151-2152	u	_	_	_	_	_	
+5-102	2153-2162	podzemnim	_	_	_	_	_	
+5-103	2163-2173	šupljinama	_	_	_	_	_	
+5-104	2173-2174	:	_	_	_	_	_	
+5-105	2175-2182	sigaste	_	_	_	_	_	
+5-106	2183-2188	tvore	_	_	_	_	_	
+5-107	2189-2193	vine	_	_	_	_	_	
+5-108	2193-2194	,	_	_	_	_	_	
+5-109	2195-2202	urušene	_	_	_	_	_	
+5-110	2203-2210	blokove	_	_	_	_	_	
+5-111	2210-2211	,	_	_	_	_	_	
+5-112	2212-2217	gline	_	_	_	_	_	
+5-113	2217-2218	,	_	_	_	_	_	
+5-114	2219-2227	naneseni	_	_	_	_	_	
+5-115	2228-2235	šljunak	_	_	_	_	_	
+5-116	2236-2237	i	_	_	_	_	_	
+5-117	2238-2245	pijesak	_	_	_	_	_	
+5-118	2246-2247	i	_	_	_	_	_	
+5-119	2248-2250	sl	_	_	_	_	_	
+5-120	2250-2251	.	_	_	_	_	_	
+
+#Text=kontaktna spilja je izmodelirana kombiniranim erozijsko-korozijskim procesom na dodiru karbonatnih stijena i klastične podloge ili između slojeva – slojna spilja. Ponorna spilja je vezana za ponor, a izvorska spilja za vrelo tekućice.
+6-1	2253-2262	kontaktna	kontaktna spilja	A.2 Underground landform	DEFINIENDUM	_	_	
+6-2	2263-2269	spilja	_	A.2 Underground landform	GENUS	_	_	
+6-3	2270-2272	je	_	_	_	_	_	
+6-4	2273-2285	izmodelirana	_	_	_	HAS\_CAUSE[80]	_	
+6-5	2286-2298	kombiniranim	_	_	_	HAS\_CAUSE[80]	_	
+6-6	2299-2320	erozijsko-korozijskim	_	_	_	HAS\_CAUSE[80]	_	
+6-7	2321-2329	procesom	_	_	_	HAS\_CAUSE[80]	_	
+6-8	2330-2332	na	_	_	_	HAS\_LOCATION[81]	_	
+6-9	2333-2339	dodiru	_	_	_	HAS\_LOCATION[81]	_	
+6-10	2340-2351	karbonatnih	_	_	_	HAS\_LOCATION[81]	_	
+6-11	2352-2359	stijena	_	_	_	HAS\_LOCATION[81]	_	
+6-12	2360-2361	i	_	_	_	HAS\_LOCATION[81]	_	
+6-13	2362-2371	klastične	_	_	_	HAS\_LOCATION[81]	_	
+6-14	2372-2379	podloge	_	_	_	HAS\_LOCATION[81]	_	
+6-15	2380-2383	ili	_	_	_	HAS\_LOCATION[81]	_	
+6-16	2384-2390	između	_	_	_	HAS\_LOCATION[81]	_	
+6-17	2391-2398	slojeva	_	_	_	HAS\_LOCATION[81]	_	
+6-18	2399-2400	–	_	_	_	_	_	
+6-19	2401-2407	slojna	_	A.2 Underground landform[14]	SPECIES[47]	_	_	
+6-20	2408-2414	spilja	_	A.2 Underground landform[14]	SPECIES[47]	_	_	
+6-21	2414-2415	.	_	_	_	_	_	
+6-22	2416-2423	Ponorna	_	_	_	_	_	
+6-23	2424-2430	spilja	_	_	_	_	_	
+6-24	2431-2433	je	_	_	_	_	_	
+6-25	2434-2440	vezana	_	_	_	_	_	
+6-26	2441-2443	za	_	_	_	_	_	
+6-27	2444-2449	ponor	_	_	_	_	_	
+6-28	2449-2450	,	_	_	_	_	_	
+6-29	2451-2452	a	_	_	_	_	_	
+6-30	2453-2461	izvorska	_	_	_	_	_	
+6-31	2462-2468	spilja	_	_	_	_	_	
+6-32	2469-2471	za	_	_	_	_	_	
+6-33	2472-2477	vrelo	_	_	_	_	_	
+6-34	2478-2486	tekućice	_	_	_	_	_	
+6-35	2486-2487	.	_	_	_	_	_	
+
+#Text=ukrašena spilja obiluje različitim sigastim tvorevinama (v.); aragonitna spilja je ukrašena slikovi tim konkrecijama aragonita (v.). Umrtvljena spilja je ona u kojoj nema protjecanja i prokapljivanja vode, a sigaste tvorevine se ne razvijaju. Ledena spilja je djelomično ispunjena i ukrašena ledenim tvorevinama (v. le denica). Vjetrenica (v.) je spilja na čijem ulazu su jaka zračna strujanja zbog temperaturnih razlika u spilji (hladnije) i vani; ima i naziva prema vjetru koji ojača zračno strujanje, npr. “jugovača”. Prema tome da li u spilja ma ima ili nema zračnih strujanja, dijelimo ih na aerološki dinamične i statične (v.); u toploj spilji su temperature više nego u okolici. Maglenica (v.) je spilja na čijem ulazu, zbog razlika u vlažnosti zraka i temperaturama, dolazi do kondenzacije vodene pare i stvaranja maglice. Plinska spilja je ona u kojoj je na kupljen neki plin (najčešće CO2), a ako je otrovan, daje joj se epitet zagušljiva. Morske spilje su djelomično potopljene morem i posebno su cijenjene zbog
+7-1	2489-2497	ukrašena	ukrašena spilja	A.2 Underground landform	SPECIES	_	_	
+7-2	2498-2504	spilja	_	A.2 Underground landform	DEFINIENDUM	_	_	
+7-3	2505-2512	obiluje	_	_	_	_	_	
+7-4	2513-2523	različitim	_	_	_	_	_	
+7-5	2524-2532	sigastim	_	_	_	_	_	
+7-6	2533-2544	tvorevinama	_	_	_	_	_	
+7-7	2545-2546	(	_	_	_	_	_	
+7-8	2546-2547	v	_	_	_	_	_	
+7-9	2547-2548	.	_	_	_	_	_	
+7-10	2548-2549	)	_	_	_	_	_	
+7-11	2549-2550	;	_	_	_	_	_	
+7-12	2551-2561	aragonitna	_	A.2 Underground landform[15]	SPECIES[48]	_	_	
+7-13	2562-2568	spilja	_	A.2 Underground landform[15]	SPECIES[48]	_	_	
+7-14	2569-2571	je	_	_	_	_	_	
+7-15	2572-2580	ukrašena	_	_	_	_	_	
+7-16	2581-2588	slikovi	_	_	_	_	_	
+7-17	2589-2592	tim	_	_	_	_	_	
+7-18	2593-2605	konkrecijama	_	_	_	_	_	
+7-19	2606-2615	aragonita	_	_	_	_	_	
+7-20	2616-2617	(	_	_	_	_	_	
+7-21	2617-2618	v	_	_	_	_	_	
+7-22	2618-2619	.	_	_	_	_	_	
+7-23	2619-2620	)	_	_	_	_	_	
+7-24	2620-2621	.	_	_	_	_	_	
+7-25	2622-2632	Umrtvljena	_	A.2 Underground landform[16]	SPECIES[49]	_	_	
+7-26	2633-2639	spilja	_	A.2 Underground landform[16]	SPECIES[49]	_	_	
+7-27	2640-2642	je	_	_	_	_	_	
+7-28	2643-2646	ona	_	_	_	_	_	
+7-29	2647-2648	u	_	_	_	_	_	
+7-30	2649-2654	kojoj	_	_	_	_	_	
+7-31	2655-2659	nema	_	_	_	_	_	
+7-32	2660-2671	protjecanja	_	_	_	_	_	
+7-33	2672-2673	i	_	_	_	_	_	
+7-34	2674-2688	prokapljivanja	_	_	_	_	_	
+7-35	2689-2693	vode	_	_	_	_	_	
+7-36	2693-2694	,	_	_	_	_	_	
+7-37	2695-2696	a	_	_	_	_	_	
+7-38	2697-2704	sigaste	_	_	_	_	_	
+7-39	2705-2714	tvorevine	_	_	_	_	_	
+7-40	2715-2717	se	_	_	_	_	_	
+7-41	2718-2720	ne	_	_	_	_	_	
+7-42	2721-2730	razvijaju	_	_	_	_	_	
+7-43	2730-2731	.	_	_	_	_	_	
+7-44	2732-2738	Ledena	_	A.2 Underground landform[17]	SPECIES[50]	_	_	
+7-45	2739-2745	spilja	_	A.2 Underground landform[17]	SPECIES[50]	_	_	
+7-46	2746-2748	je	_	_	_	_	_	
+7-47	2749-2759	djelomično	_	_	_	_	_	
+7-48	2760-2769	ispunjena	_	_	_	_	_	
+7-49	2770-2771	i	_	_	_	_	_	
+7-50	2772-2780	ukrašena	_	_	_	_	_	
+7-51	2781-2788	ledenim	_	_	_	_	_	
+7-52	2789-2800	tvorevinama	_	_	_	_	_	
+7-53	2801-2802	(	_	_	_	_	_	
+7-54	2802-2803	v	_	_	_	_	_	
+7-55	2803-2804	.	_	_	_	_	_	
+7-56	2805-2807	le	_	_	_	_	_	
+7-57	2808-2814	denica	_	_	_	_	_	
+7-58	2814-2815	)	_	_	_	_	_	
+7-59	2815-2816	.	_	_	_	_	_	
+7-60	2817-2827	Vjetrenica	_	A.2 Underground landform	SPECIES	_	_	
+7-61	2828-2829	(	_	_	_	_	_	
+7-62	2829-2830	v	_	_	_	_	_	
+7-63	2830-2831	.	_	_	_	_	_	
+7-64	2831-2832	)	_	_	_	_	_	
+7-65	2833-2835	je	_	_	_	_	_	
+7-66	2836-2842	spilja	_	_	_	_	_	
+7-67	2843-2845	na	_	_	_	_	_	
+7-68	2846-2851	čijem	_	_	_	_	_	
+7-69	2852-2857	ulazu	_	_	_	_	_	
+7-70	2858-2860	su	_	_	_	_	_	
+7-71	2861-2865	jaka	_	_	_	_	_	
+7-72	2866-2872	zračna	_	_	_	_	_	
+7-73	2873-2882	strujanja	_	_	_	_	_	
+7-74	2883-2887	zbog	_	_	_	_	_	
+7-75	2888-2901	temperaturnih	_	_	_	_	_	
+7-76	2902-2909	razlika	_	_	_	_	_	
+7-77	2910-2911	u	_	_	_	_	_	
+7-78	2912-2918	spilji	_	_	_	_	_	
+7-79	2919-2920	(	_	_	_	_	_	
+7-80	2920-2928	hladnije	_	_	_	_	_	
+7-81	2928-2929	)	_	_	_	_	_	
+7-82	2930-2931	i	_	_	_	_	_	
+7-83	2932-2936	vani	_	_	_	_	_	
+7-84	2936-2937	;	_	_	_	_	_	
+7-85	2938-2941	ima	_	_	_	_	_	
+7-86	2942-2943	i	_	_	_	_	_	
+7-87	2944-2950	naziva	_	_	_	_	_	
+7-88	2951-2956	prema	_	_	_	_	_	
+7-89	2957-2963	vjetru	_	_	_	_	_	
+7-90	2964-2968	koji	_	_	_	_	_	
+7-91	2969-2974	ojača	_	_	_	_	_	
+7-92	2975-2981	zračno	_	_	_	_	_	
+7-93	2982-2991	strujanje	_	_	_	_	_	
+7-94	2991-2992	,	_	_	_	_	_	
+7-95	2993-2996	npr	_	_	_	_	_	
+7-96	2996-2997	.	_	_	_	_	_	
+7-97	2998-2999	“	_	_	_	_	_	
+7-98	2999-3007	jugovača	_	A.2 Underground landform	SPECIES	_	_	
+7-99	3007-3008	”	_	_	_	_	_	
+7-100	3008-3009	.	_	_	_	_	_	
+7-101	3010-3015	Prema	_	_	_	_	_	
+7-102	3016-3020	tome	_	_	_	_	_	
+7-103	3021-3023	da	_	_	_	_	_	
+7-104	3024-3026	li	_	_	_	_	_	
+7-105	3027-3028	u	_	_	_	_	_	
+7-106	3029-3035	spilja	_	_	_	_	_	
+7-107	3036-3038	ma	_	_	_	_	_	
+7-108	3039-3042	ima	_	_	_	_	_	
+7-109	3043-3046	ili	_	_	_	_	_	
+7-110	3047-3051	nema	_	_	_	_	_	
+7-111	3052-3059	zračnih	_	_	_	_	_	
+7-112	3060-3069	strujanja	_	_	_	_	_	
+7-113	3069-3070	,	_	_	_	_	_	
+7-114	3071-3079	dijelimo	_	_	_	_	_	
+7-115	3080-3082	ih	_	_	_	_	_	
+7-116	3083-3085	na	_	_	_	_	_	
+7-117	3086-3095	aerološki	aerološki dinamična spilja[2]	A.2 Underground landform[18]	SPECIES[51]	_	_	
+7-118	3096-3105	dinamične	aerološki dinamična spilja[2]	A.2 Underground landform[18]	SPECIES[51]	_	_	
+7-119	3106-3107	i	_	_	_	_	_	
+7-120	3108-3116	statične	statična spilja	A.2 Underground landform	SPECIES	_	_	
+7-121	3117-3118	(	_	_	_	_	_	
+7-122	3118-3119	v	_	_	_	_	_	
+7-123	3119-3120	.	_	_	_	_	_	
+7-124	3120-3121	)	_	_	_	_	_	
+7-125	3121-3122	;	_	_	_	_	_	
+7-126	3123-3124	u	_	_	_	_	_	
+7-127	3125-3131	toploj	topla spilja[3]	A.2 Underground landform[19]	SPECIES[52]	_	_	
+7-128	3132-3138	spilji	topla spilja[3]	A.2 Underground landform[19]	SPECIES[52]	_	_	
+7-129	3139-3141	su	_	_	_	_	_	
+7-130	3142-3153	temperature	_	_	_	_	_	
+7-131	3154-3158	više	_	_	_	_	_	
+7-132	3159-3163	nego	_	_	_	_	_	
+7-133	3164-3165	u	_	_	_	_	_	
+7-134	3166-3173	okolici	_	_	_	_	_	
+7-135	3173-3174	.	_	_	_	_	_	
+7-136	3175-3184	Maglenica	_	A.2 Underground landform	SPECIES	_	_	
+7-137	3185-3186	(	_	_	_	_	_	
+7-138	3186-3187	v	_	_	_	_	_	
+7-139	3187-3188	.	_	_	_	_	_	
+7-140	3188-3189	)	_	_	_	_	_	
+7-141	3190-3192	je	_	_	_	_	_	
+7-142	3193-3199	spilja	_	_	_	_	_	
+7-143	3200-3202	na	_	_	_	_	_	
+7-144	3203-3208	čijem	_	_	_	_	_	
+7-145	3209-3214	ulazu	_	_	_	_	_	
+7-146	3214-3215	,	_	_	_	_	_	
+7-147	3216-3220	zbog	_	_	_	_	_	
+7-148	3221-3228	razlika	_	_	_	_	_	
+7-149	3229-3230	u	_	_	_	_	_	
+7-150	3231-3240	vlažnosti	_	_	_	_	_	
+7-151	3241-3246	zraka	_	_	_	_	_	
+7-152	3247-3248	i	_	_	_	_	_	
+7-153	3249-3262	temperaturama	_	_	_	_	_	
+7-154	3262-3263	,	_	_	_	_	_	
+7-155	3264-3270	dolazi	_	_	_	_	_	
+7-156	3271-3273	do	_	_	_	_	_	
+7-157	3274-3286	kondenzacije	_	_	_	_	_	
+7-158	3287-3293	vodene	_	_	_	_	_	
+7-159	3294-3298	pare	_	_	_	_	_	
+7-160	3299-3300	i	_	_	_	_	_	
+7-161	3301-3310	stvaranja	_	_	_	_	_	
+7-162	3311-3318	maglice	_	_	_	_	_	
+7-163	3318-3319	.	_	_	_	_	_	
+7-164	3320-3327	Plinska	_	A.2 Underground landform[20]	SPECIES[53]	_	_	
+7-165	3328-3334	spilja	_	A.2 Underground landform[20]	SPECIES[53]	_	_	
+7-166	3335-3337	je	_	_	_	_	_	
+7-167	3338-3341	ona	_	_	_	_	_	
+7-168	3342-3343	u	_	_	_	_	_	
+7-169	3344-3349	kojoj	_	_	_	_	_	
+7-170	3350-3352	je	_	_	_	_	_	
+7-171	3353-3355	na	_	_	_	_	_	
+7-172	3356-3363	kupljen	_	_	_	_	_	
+7-173	3364-3368	neki	_	_	_	_	_	
+7-174	3369-3373	plin	_	_	_	_	_	
+7-175	3374-3375	(	_	_	_	_	_	
+7-176	3375-3383	najčešće	_	_	_	_	_	
+7-177	3384-3387	CO2	_	_	_	_	_	
+7-178	3387-3388	)	_	_	_	_	_	
+7-179	3388-3389	,	_	_	_	_	_	
+7-180	3390-3391	a	_	_	_	_	_	
+7-181	3392-3395	ako	_	_	_	_	_	
+7-182	3396-3398	je	_	_	_	_	_	
+7-183	3399-3406	otrovan	_	_	_	_	_	
+7-184	3406-3407	,	_	_	_	_	_	
+7-185	3408-3412	daje	_	_	_	_	_	
+7-186	3413-3416	joj	_	_	_	_	_	
+7-187	3417-3419	se	_	_	_	_	_	
+7-188	3420-3426	epitet	_	_	_	_	_	
+7-189	3427-3437	zagušljiva	_	_	_	_	_	
+7-190	3437-3438	.	_	_	_	_	_	
+7-191	3439-3445	Morske	_	A.2 Underground landform[21]	SPECIES[54]	_	_	
+7-192	3446-3452	spilje	_	A.2 Underground landform[21]	SPECIES[54]	_	_	
+7-193	3453-3455	su	_	_	_	_	_	
+7-194	3456-3466	djelomično	_	_	_	_	_	
+7-195	3467-3477	potopljene	_	_	_	_	_	
+7-196	3478-3483	morem	_	_	_	_	_	
+7-197	3484-3485	i	_	_	_	_	_	
+7-198	3486-3493	posebno	_	_	_	_	_	
+7-199	3494-3496	su	_	_	_	_	_	
+7-200	3497-3506	cijenjene	_	_	_	_	_	
+7-201	3507-3511	zbog	_	_	_	_	_	
+
+#Text=plavog refleksa sunčevog svjetla kroz morsku vodu i pojava prijeloma zraka svjetlosti. Fosilizirana spilja je ispunjena čvrstim materijalom, nanosom ili sigastim tvorevinama. Turistička spilja je uređena za javni i regulirani posjet.
+8-1	3514-3520	plavog	_	_	_	_	_	
+8-2	3521-3529	refleksa	_	_	_	_	_	
+8-3	3530-3538	sunčevog	_	_	_	_	_	
+8-4	3539-3546	svjetla	_	_	_	_	_	
+8-5	3547-3551	kroz	_	_	_	_	_	
+8-6	3552-3558	morsku	_	_	_	_	_	
+8-7	3559-3563	vodu	_	_	_	_	_	
+8-8	3564-3565	i	_	_	_	_	_	
+8-9	3566-3572	pojava	_	_	_	_	_	
+8-10	3573-3582	prijeloma	_	_	_	_	_	
+8-11	3583-3588	zraka	_	_	_	_	_	
+8-12	3589-3599	svjetlosti	_	_	_	_	_	
+8-13	3599-3600	.	_	_	_	_	_	
+8-14	3601-3613	Fosilizirana	_	_	_	_	_	
+8-15	3614-3620	spilja	_	_	_	_	_	
+8-16	3621-3623	je	_	_	_	_	_	
+8-17	3624-3633	ispunjena	_	_	_	_	_	
+8-18	3634-3641	čvrstim	_	_	_	_	_	
+8-19	3642-3653	materijalom	_	_	_	_	_	
+8-20	3653-3654	,	_	_	_	_	_	
+8-21	3655-3662	nanosom	_	_	_	_	_	
+8-22	3663-3666	ili	_	_	_	_	_	
+8-23	3667-3675	sigastim	_	_	_	_	_	
+8-24	3676-3687	tvorevinama	_	_	_	_	_	
+8-25	3687-3688	.	_	_	_	_	_	
+8-26	3689-3699	Turistička	_	_	_	_	_	
+8-27	3700-3706	spilja	_	_	_	_	_	
+8-28	3707-3709	je	_	_	_	_	_	
+8-29	3710-3717	uređena	_	_	_	_	_	
+8-30	3718-3720	za	_	_	_	_	_	
+8-31	3721-3726	javni	_	_	_	_	_	
+8-32	3727-3728	i	_	_	_	_	_	
+8-33	3729-3739	regulirani	_	_	_	_	_	
+8-34	3740-3746	posjet	_	_	_	_	_	
+8-35	3746-3747	.	_	_	_	_	_	
+
+#Text=spiljski sustav – skupina spiljskih šupljina koja je međusobno povezana bilo prohodnim kanalima bilo dokazanom vodnom cirkulacijom bilo umjetnim tunelima.
+9-1	3749-3757	spiljski	_	A.2 Underground landform[22]	DEFINIENDUM[55]	_	_	
+9-2	3758-3764	sustav	_	A.2 Underground landform[22]	DEFINIENDUM[55]	_	_	
+9-3	3765-3766	–	_	_	_	_	_	
+9-4	3767-3774	skupina	_	_	_	DEFINED\_AS[82]	_	
+9-5	3775-3784	spiljskih	_	A.2 Underground landform[23]	_	DEFINED\_AS[82]|CONTAINS[83]	_	
+9-6	3785-3793	šupljina	_	A.2 Underground landform[23]	_	DEFINED\_AS[82]|CONTAINS[83]	_	
+9-7	3794-3798	koja	_	_	_	_	_	
+9-8	3799-3801	je	_	_	_	_	_	
+9-9	3802-3811	međusobno	_	_	_	HAS\_ATTRIBUTE[84]	_	
+9-10	3812-3820	povezana	_	_	_	HAS\_ATTRIBUTE[84]	_	
+9-11	3821-3825	bilo	_	_	_	HAS\_ATTRIBUTE[84]	_	
+9-12	3826-3835	prohodnim	_	A.2 Underground landform[24]	_	HAS\_ATTRIBUTE[84]	_	
+9-13	3836-3844	kanalima	_	A.2 Underground landform[24]	_	HAS\_ATTRIBUTE[84]	_	
+9-14	3845-3849	bilo	_	_	_	HAS\_ATTRIBUTE[84]	_	
+9-15	3850-3859	dokazanom	_	_	_	HAS\_ATTRIBUTE[84]	_	
+9-16	3860-3866	vodnom	_	B.1 Movement[25]	_	HAS\_ATTRIBUTE[84]	_	
+9-17	3867-3879	cirkulacijom	_	B.1 Movement[25]	_	HAS\_ATTRIBUTE[84]	_	
+9-18	3880-3884	bilo	_	_	_	HAS\_ATTRIBUTE[84]	_	
+9-19	3885-3893	umjetnim	_	_	_	HAS\_ATTRIBUTE[84]	_	
+9-20	3894-3902	tunelima	_	_	_	HAS\_ATTRIBUTE[84]	_	
+9-21	3902-3903	.	_	_	_	_	_	
+
+#Text=spiljski uzdužni profil – obris spiljskih šupljina u određenom mjerilu i duž njihova pružanja.
+10-1	3905-3913	spiljski	_	E. Instrument or method[26]	DEFINIENDUM[56]	_	_	
+10-2	3914-3921	uzdužni	_	E. Instrument or method[26]	DEFINIENDUM[56]	_	_	
+10-3	3922-3928	profil	_	E. Instrument or method[26]	DEFINIENDUM[56]	_	_	
+10-4	3929-3930	–	_	_	_	_	_	
+10-5	3931-3936	obris	_	_	_	DEFINED\_AS[85]	_	
+10-6	3937-3946	spiljskih	_	A.2 Underground landform[27]	_	DEFINED\_AS[85]	_	
+10-7	3947-3955	šupljina	_	A.2 Underground landform[27]	_	DEFINED\_AS[85]	_	
+10-8	3956-3957	u	_	_	_	_	_	
+10-9	3958-3967	određenom	_	_	_	_	_	
+10-10	3968-3975	mjerilu	_	_	_	_	_	
+10-11	3976-3977	i	_	_	_	_	_	
+10-12	3978-3981	duž	_	_	_	_	_	
+10-13	3982-3989	njihova	_	_	_	_	_	
+10-14	3990-3998	pružanja	_	_	_	_	_	
+10-15	3998-3999	.	_	_	_	_	_	
+
+#Text=stjenovita ponikva  – ponikva čije su strane stjenovite ili prekrivene stjenovitim kršjem – v. ponikva.
+11-1	4001-4011	stjenovita	_	A.1 Surface landform[28]	DEFINIENDUM[57]	_	_	
+11-2	4012-4019	ponikva	_	A.1 Surface landform[28]	DEFINIENDUM[57]	_	_	
+11-3	4021-4022	–	_	_	_	_	_	
+11-4	4023-4030	ponikva	_	A.1 Surface landform	GENUS	_	_	
+11-5	4031-4035	čije	_	_	_	HAS\_FORM[86]	_	
+11-6	4036-4038	su	_	_	_	HAS\_FORM[86]	_	
+11-7	4039-4045	strane	_	_	_	HAS\_FORM[86]	_	
+11-8	4046-4056	stjenovite	_	_	_	HAS\_FORM[86]	_	
+11-9	4057-4060	ili	_	_	_	_	_	
+11-10	4061-4071	prekrivene	_	_	_	HAS\_FORM[87]	_	
+11-11	4072-4083	stjenovitim	_	D.1 Abiotic[29]	_	HAS\_FORM[87]	_	
+11-12	4084-4090	kršjem	_	D.1 Abiotic[29]	_	HAS\_FORM[87]	_	
+11-13	4091-4092	–	_	_	_	_	_	
+11-14	4093-4094	v	_	_	_	_	_	
+11-15	4094-4095	.	_	_	_	_	_	
+11-16	4096-4103	ponikva	_	_	_	_	_	
+11-17	4103-4104	.	_	_	_	_	_	
+
+#Text=strmac – strme padine (preko 40°) koje su karakteristične za vapnence i kredu, jer su mehaničko trošenje i spiranje neznatni.
+12-1	4106-4112	strmac	_	A.1 Surface landform	DEFINIENDUM	_	_	
+12-2	4113-4114	–	_	_	_	_	_	
+12-3	4115-4120	strme	_	A.1 Surface landform[30]	GENUS[58]	HAS\_FORM	_	
+12-4	4121-4127	padine	_	A.1 Surface landform[30]	GENUS[58]	_	_	
+12-5	4128-4129	(	_	_	_	_	_	
+12-6	4129-4134	preko	_	_	_	HAS\_FORM[88]	_	
+12-7	4135-4137	40	_	_	_	HAS\_FORM[88]	_	
+12-8	4137-4138	°	_	_	_	_	_	
+12-9	4138-4139	)	_	_	_	_	_	
+12-10	4140-4144	koje	_	_	_	_	_	
+12-11	4145-4147	su	_	_	_	_	_	
+12-12	4148-4163	karakteristične	_	_	_	HAS\_LOCATION[89]	_	
+12-13	4164-4166	za	_	_	_	HAS\_LOCATION[89]	_	
+12-14	4167-4175	vapnence	_	D.1 Abiotic	_	HAS\_LOCATION[89]	_	
+12-15	4176-4177	i	_	_	_	HAS\_LOCATION[89]	_	
+12-16	4178-4183	kredu	_	D.1 Abiotic	_	HAS\_LOCATION[89]	_	
+12-17	4183-4184	,	_	_	_	_	_	
+12-18	4185-4188	jer	_	_	_	_	_	
+12-19	4189-4191	su	_	_	_	_	_	
+12-20	4192-4201	mehaničko	_	_	_	_	_	
+12-21	4202-4210	trošenje	_	_	_	_	_	
+12-22	4211-4212	i	_	_	_	_	_	
+12-23	4213-4221	spiranje	_	_	_	_	_	
+12-24	4222-4230	neznatni	_	_	_	_	_	
+12-25	4230-4231	.	_	_	_	_	_	
+
+#Text=strug – pojas blagih oblika i prohodan, izdužen u smjeru pružanja slojeva; uvjetovan manje otpornim vapnencima (npr. pločasti) ili drugim stijenama koje se lakše troše.
+13-1	4233-4238	strug	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	4239-4240	–	_	_	_	_	_	
+13-3	4241-4246	pojas	_	_	_	DEFINED\_AS[90]	_	
+13-4	4247-4253	blagih	_	_	_	DEFINED\_AS[90]	_	
+13-5	4254-4260	oblika	_	_	_	DEFINED\_AS[90]	_	
+13-6	4261-4262	i	_	_	_	_	_	
+13-7	4263-4271	prohodan	_	_	_	HAS\_ATTRIBUTE[91]	_	
+13-8	4271-4272	,	_	_	_	HAS\_ATTRIBUTE[91]	_	
+13-9	4273-4280	izdužen	_	_	_	HAS\_ATTRIBUTE[91]	_	
+13-10	4281-4282	u	_	_	_	HAS\_ATTRIBUTE[91]	_	
+13-11	4283-4289	smjeru	_	_	_	HAS\_ATTRIBUTE[91]	_	
+13-12	4290-4298	pružanja	_	_	_	HAS\_ATTRIBUTE[91]	_	
+13-13	4299-4306	slojeva	_	_	_	HAS\_ATTRIBUTE[91]	_	
+13-14	4306-4307	;	_	_	_	_	_	
+13-15	4308-4317	uvjetovan	_	_	_	HAS\_CAUSE[92]	_	
+13-16	4318-4323	manje	_	_	_	HAS\_CAUSE[92]	_	
+13-17	4324-4332	otpornim	_	_	_	HAS\_CAUSE[92]	_	
+13-18	4333-4343	vapnencima	_	_	_	HAS\_CAUSE[92]	_	
+13-19	4344-4345	(	_	_	_	HAS\_CAUSE[92]	_	
+13-20	4345-4348	npr	_	_	_	HAS\_CAUSE[92]	_	
+13-21	4348-4349	.	_	_	_	HAS\_CAUSE[92]	_	
+13-22	4350-4358	pločasti	_	_	_	HAS\_CAUSE[92]	_	
+13-23	4358-4359	)	_	_	_	HAS\_CAUSE[92]	_	
+13-24	4360-4363	ili	_	_	_	HAS\_CAUSE[92]	_	
+13-25	4364-4370	drugim	_	_	_	HAS\_CAUSE[92]	_	
+13-26	4371-4380	stijenama	_	_	_	HAS\_CAUSE[92]	_	
+13-27	4381-4385	koje	_	_	_	HAS\_CAUSE[92]	_	
+13-28	4386-4388	se	_	_	_	HAS\_CAUSE[92]	_	
+13-29	4389-4394	lakše	_	_	_	HAS\_CAUSE[92]	_	
+13-30	4395-4400	troše	_	_	_	HAS\_CAUSE[92]	_	
+13-31	4400-4401	.	_	_	_	_	_	
+
+#Text=sufozija – erozija klastične podloge vodom koja pritječe kroz krški pokrov ili erozija rahlog pokrova vodom koja protječe šupljinama pokrivenog krša. U “kriokršu” (v.) to se vrši odmržnjavanjem i otjecanjem iznad sloja permafrosta ili mrzlote. Duž kontaktne plohe erodira se i evakuira podloga, te dolazi do urušavanja pokrova. U hidrologiji s. znači kaptiranje površinske tekućice od strane podzemnog toka.
+14-1	4403-4411	sufozija	_	B.2 Loss	DEFINIENDUM	_	_	
+14-2	4412-4413	–	_	_	_	_	_	
+14-3	4414-4421	erozija	_	B.2 Loss	GENUS	_	_	
+14-4	4422-4431	klastične	_	_	_	HAS\_LOCATION[93]	_	
+14-5	4432-4439	podloge	_	_	_	HAS\_LOCATION[93]	_	
+14-6	4440-4445	vodom	_	_	_	HAS\_CAUSE[94]	_	
+14-7	4446-4450	koja	_	_	_	HAS\_CAUSE[94]	_	
+14-8	4451-4459	pritječe	_	_	_	HAS\_CAUSE[94]	_	
+14-9	4460-4464	kroz	_	_	_	HAS\_CAUSE[94]	_	
+14-10	4465-4470	krški	_	C. Geome[31]	_	HAS\_CAUSE[94]	_	
+14-11	4471-4477	pokrov	_	C. Geome[31]	_	HAS\_CAUSE[94]	_	
+14-12	4478-4481	ili	_	_	_	_	_	
+14-13	4482-4489	erozija	_	_	_	_	_	
+14-14	4490-4496	rahlog	_	_	_	HAS\_LOCATION[95]	_	
+14-15	4497-4504	pokrova	_	_	_	HAS\_LOCATION[95]	_	
+14-16	4505-4510	vodom	_	_	_	HAS\_CAUSE[96]	_	
+14-17	4511-4515	koja	_	_	_	HAS\_CAUSE[96]	_	
+14-18	4516-4524	protječe	_	_	_	HAS\_CAUSE[96]	_	
+14-19	4525-4535	šupljinama	_	A.2 Underground landform[32]	_	HAS\_CAUSE[96]	_	
+14-20	4536-4546	pokrivenog	_	A.2 Underground landform[32]	_	HAS\_CAUSE[96]	_	
+14-21	4547-4551	krša	_	A.2 Underground landform[32]	_	HAS\_CAUSE[96]	_	
+14-22	4551-4552	.	_	_	_	_	_	
+14-23	4553-4554	U	_	_	_	HAS\_LOCATION[97]	_	
+14-24	4555-4556	“	_	_	_	HAS\_LOCATION[97]	_	
+14-25	4556-4564	kriokršu	_	C. Geome	_	HAS\_LOCATION[97]	_	
+14-26	4564-4565	”	_	_	_	HAS\_LOCATION[97]	_	
+14-27	4566-4567	(	_	_	_	_	_	
+14-28	4567-4568	v	_	_	_	_	_	
+14-29	4568-4569	.	_	_	_	_	_	
+14-30	4569-4570	)	_	_	_	_	_	
+14-31	4571-4573	to	_	_	_	_	_	
+14-32	4574-4576	se	_	_	_	_	_	
+14-33	4577-4581	vrši	_	_	_	_	_	
+14-34	4582-4596	odmržnjavanjem	_	_	_	HAS\_CAUSE[98]	_	
+14-35	4597-4598	i	_	_	_	HAS\_CAUSE[98]	_	
+14-36	4599-4609	otjecanjem	_	_	_	HAS\_CAUSE[98]	_	
+14-37	4610-4615	iznad	_	_	_	HAS\_CAUSE[98]	_	
+14-38	4616-4621	sloja	_	_	_	HAS\_CAUSE[98]	_	
+14-39	4622-4633	permafrosta	_	_	_	HAS\_CAUSE[98]	_	
+14-40	4634-4637	ili	_	_	_	HAS\_CAUSE[98]	_	
+14-41	4638-4645	mrzlote	_	_	_	HAS\_CAUSE[98]	_	
+14-42	4645-4646	.	_	_	_	_	_	
+14-43	4647-4650	Duž	_	_	_	_	_	
+14-44	4651-4660	kontaktne	_	_	_	_	_	
+14-45	4661-4666	plohe	_	_	_	_	_	
+14-46	4667-4674	erodira	_	_	_	_	_	
+14-47	4675-4677	se	_	_	_	_	_	
+14-48	4678-4679	i	_	_	_	_	_	
+14-49	4680-4688	evakuira	_	_	_	_	_	
+14-50	4689-4696	podloga	_	_	_	_	_	
+14-51	4696-4697	,	_	_	_	_	_	
+14-52	4698-4700	te	_	_	_	_	_	
+14-53	4701-4707	dolazi	_	_	_	HAS\_RESULT[99]	_	
+14-54	4708-4710	do	_	_	_	HAS\_RESULT[99]	_	
+14-55	4711-4721	urušavanja	_	_	_	HAS\_RESULT[99]	_	
+14-56	4722-4729	pokrova	_	_	_	HAS\_RESULT[99]	_	
+14-57	4729-4730	.	_	_	_	_	_	
+14-58	4731-4732	U	_	_	_	_	_	
+14-59	4733-4744	hidrologiji	_	_	_	_	_	
+14-60	4745-4746	s	_	_	_	_	_	
+14-61	4746-4747	.	_	_	_	_	_	
+14-62	4748-4753	znači	_	_	_	_	_	
+14-63	4754-4764	kaptiranje	_	_	_	_	_	
+14-64	4765-4775	površinske	_	_	_	_	_	
+14-65	4776-4784	tekućice	_	_	_	_	_	
+14-66	4785-4787	od	_	_	_	_	_	
+14-67	4788-4794	strane	_	_	_	_	_	
+14-68	4795-4804	podzemnog	_	_	_	_	_	
+14-69	4805-4809	toka	_	_	_	_	_	
+14-70	4809-4810	.	_	_	_	_	_	
+
+#Text=suha dolina – dolina kojom ne protječe tekućica; češće su u fluviokršu, a rijetke u kršu. Mnoge “pseudodoline” (v.), udoline (v.) i drage (v.) su naslijeđe diferenciranog modeliranja tokom vlažnog i hladnog pleistocena, a važni su i procesi plošne korozije (v. korozija) i povezana evolucija površja u šumovitom i pokrivenom kršu (v.). Aktivne i suhe doline imaju u kršu kanjonski izgled. Sljedbenici teorije o sekundarnoj (poslije faze fluvijalnog modeliranja) prirodi krša bezuspješno su pretpostavljenim suhim dolinama pokušavali obnoviti prvobitne dolinske sustave.
+15-1	4812-4816	suha	_	A.1 Surface landform[33]	DEFINIENDUM[59]	_	_	
+15-2	4817-4823	dolina	_	A.1 Surface landform[33]	DEFINIENDUM[59]	_	_	
+15-3	4824-4825	–	_	_	_	_	_	
+15-4	4826-4832	dolina	_	A.1 Surface landform	GENUS	_	_	
+15-5	4833-4838	kojom	_	_	_	HAS\_ATTRIBUTE[100]	_	
+15-6	4839-4841	ne	_	_	_	HAS\_ATTRIBUTE[100]	_	
+15-7	4842-4850	protječe	_	_	_	HAS\_ATTRIBUTE[100]	_	
+15-8	4851-4859	tekućica	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[100]	_	
+15-9	4859-4860	;	_	_	_	_	_	
+15-10	4861-4866	češće	_	_	_	_	_	
+15-11	4867-4869	su	_	_	_	_	_	
+15-12	4870-4871	u	_	_	_	HAS\_LOCATION[101]	_	
+15-13	4872-4882	fluviokršu	_	C. Geome	_	HAS\_LOCATION[101]	_	
+15-14	4882-4883	,	_	_	_	_	_	
+15-15	4884-4885	a	_	_	_	_	_	
+15-16	4886-4893	rijetke	_	_	_	_	_	
+15-17	4894-4895	u	_	_	_	HAS\_LOCATION[102]	_	
+15-18	4896-4900	kršu	_	C. Geome	_	HAS\_LOCATION[102]	_	
+15-19	4900-4901	.	_	_	_	_	_	
+15-20	4902-4907	Mnoge	_	_	_	_	_	
+15-21	4908-4909	“	_	_	_	_	_	
+15-22	4909-4921	pseudodoline	_	_	_	_	_	
+15-23	4921-4922	”	_	_	_	_	_	
+15-24	4923-4924	(	_	_	_	_	_	
+15-25	4924-4925	v	_	_	_	_	_	
+15-26	4925-4926	.	_	_	_	_	_	
+15-27	4926-4927	)	_	_	_	_	_	
+15-28	4927-4928	,	_	_	_	_	_	
+15-29	4929-4936	udoline	_	_	_	_	_	
+15-30	4937-4938	(	_	_	_	_	_	
+15-31	4938-4939	v	_	_	_	_	_	
+15-32	4939-4940	.	_	_	_	_	_	
+15-33	4940-4941	)	_	_	_	_	_	
+15-34	4942-4943	i	_	_	_	_	_	
+15-35	4944-4949	drage	_	_	_	_	_	
+15-36	4950-4951	(	_	_	_	_	_	
+15-37	4951-4952	v	_	_	_	_	_	
+15-38	4952-4953	.	_	_	_	_	_	
+15-39	4953-4954	)	_	_	_	_	_	
+15-40	4955-4957	su	_	_	_	_	_	
+15-41	4958-4967	naslijeđe	_	_	_	HAS\_CAUSE[103]	_	
+15-42	4968-4982	diferenciranog	_	_	_	HAS\_CAUSE[103]	_	
+15-43	4983-4994	modeliranja	_	_	_	HAS\_CAUSE[103]	_	
+15-44	4995-5000	tokom	_	_	_	OCCURS\_IN\_TIME[104]	_	
+15-45	5001-5008	vlažnog	_	_	_	OCCURS\_IN\_TIME[104]	_	
+15-46	5009-5010	i	_	_	_	OCCURS\_IN\_TIME[104]	_	
+15-47	5011-5018	hladnog	_	_	_	OCCURS\_IN\_TIME[104]	_	
+15-48	5019-5030	pleistocena	_	_	_	OCCURS\_IN\_TIME[104]	_	
+15-49	5030-5031	,	_	_	_	_	_	
+15-50	5032-5033	a	_	_	_	_	_	
+15-51	5034-5039	važni	_	_	_	_	_	
+15-52	5040-5042	su	_	_	_	_	_	
+15-53	5043-5044	i	_	_	_	_	_	
+15-54	5045-5052	procesi	_	_	_	_	_	
+15-55	5053-5059	plošne	_	_	_	_	_	
+15-56	5060-5068	korozije	_	_	_	_	_	
+15-57	5069-5070	(	_	_	_	_	_	
+15-58	5070-5071	v	_	_	_	_	_	
+15-59	5071-5072	.	_	_	_	_	_	
+15-60	5073-5081	korozija	_	_	_	_	_	
+15-61	5081-5082	)	_	_	_	_	_	
+15-62	5083-5084	i	_	_	_	_	_	
+15-63	5085-5093	povezana	_	_	_	_	_	
+15-64	5094-5103	evolucija	_	_	_	_	_	
+15-65	5104-5111	površja	_	_	_	_	_	
+15-66	5112-5113	u	_	_	_	_	_	
+15-67	5114-5123	šumovitom	_	_	_	_	_	
+15-68	5124-5125	i	_	_	_	_	_	
+15-69	5126-5136	pokrivenom	_	_	_	_	_	
+15-70	5137-5141	kršu	_	_	_	_	_	
+15-71	5142-5143	(	_	_	_	_	_	
+15-72	5143-5144	v	_	_	_	_	_	
+15-73	5144-5145	.	_	_	_	_	_	
+15-74	5145-5146	)	_	_	_	_	_	
+15-75	5146-5147	.	_	_	_	_	_	
+15-76	5148-5155	Aktivne	_	_	_	_	_	
+15-77	5156-5157	i	_	_	_	_	_	
+15-78	5158-5162	suhe	_	_	_	_	_	
+15-79	5163-5169	doline	_	_	_	_	_	
+15-80	5170-5175	imaju	_	_	_	_	_	
+15-81	5176-5177	u	_	_	_	_	_	
+15-82	5178-5182	kršu	_	_	_	_	_	
+15-83	5183-5192	kanjonski	_	_	_	_	_	
+15-84	5193-5199	izgled	_	_	_	_	_	
+15-85	5199-5200	.	_	_	_	_	_	
+15-86	5201-5212	Sljedbenici	_	_	_	_	_	
+15-87	5213-5220	teorije	_	_	_	_	_	
+15-88	5221-5222	o	_	_	_	_	_	
+15-89	5223-5234	sekundarnoj	_	_	_	_	_	
+15-90	5235-5236	(	_	_	_	_	_	
+15-91	5236-5243	poslije	_	_	_	_	_	
+15-92	5244-5248	faze	_	_	_	_	_	
+15-93	5249-5260	fluvijalnog	_	_	_	_	_	
+15-94	5261-5272	modeliranja	_	_	_	_	_	
+15-95	5272-5273	)	_	_	_	_	_	
+15-96	5274-5281	prirodi	_	_	_	_	_	
+15-97	5282-5286	krša	_	_	_	_	_	
+15-98	5287-5298	bezuspješno	_	_	_	_	_	
+15-99	5299-5301	su	_	_	_	_	_	
+15-100	5302-5318	pretpostavljenim	_	_	_	_	_	
+15-101	5319-5324	suhim	_	_	_	_	_	
+15-102	5325-5333	dolinama	_	_	_	_	_	
+15-103	5334-5344	pokušavali	_	_	_	_	_	
+15-104	5345-5353	obnoviti	_	_	_	_	_	
+15-105	5354-5363	prvobitne	_	_	_	_	_	
+15-106	5364-5372	dolinske	_	_	_	_	_	
+15-107	5373-5380	sustave	_	_	_	_	_	
+15-108	5380-5381	.	_	_	_	_	_	
+
+#Text=škrape – mikrokrški oblici kojima je najedena površina karbonatnih stijena. Škrape su raznovrsnih oblika, koji ovise o sastavu, građi i površini karbonatnih stijena i uvjetima korodiranja. Razlikuju se prema tome da li su nastajale na ogoljeloj plohi ili pod pokrovom tla (subkutana korozija, v.). Pod pokrovom tla korozija se vrši plošno, tj. dodirom tla i stijene, te su škraparski oblici uobljeni; u pukotini koja je ispunjena tlom nastaju cjevaste grižine, prozori i mosne škrape. Veoma izrazite cjevaste grižine dubi kao svoje stanište prstac (Lithodomus litho phagus), te na obali mora nalazimo blokove vapnenca koji su kavernozno izbušeni i malom težinom podsjećaju na plovućac.
+16-1	5383-5389	škrape	_	A.1 Surface landform	DEFINIENDUM	_	_	
+16-2	5390-5391	–	_	_	_	_	_	
+16-3	5392-5402	mikrokrški	_	C. Geome[34]	GENUS[60]	_	_	
+16-4	5403-5409	oblici	_	C. Geome[34]	GENUS[60]	_	_	
+16-5	5410-5416	kojima	_	_	_	_	_	
+16-6	5417-5419	je	_	_	_	_	_	
+16-7	5420-5428	najedena	_	_	_	_	_	
+16-8	5429-5437	površina	_	_	_	_	_	
+16-9	5438-5449	karbonatnih	_	_	_	_	_	
+16-10	5450-5457	stijena	_	_	_	_	_	
+16-11	5457-5458	.	_	_	_	_	_	
+16-12	5459-5465	Škrape	_	_	_	_	_	
+16-13	5466-5468	su	_	_	_	_	_	
+16-14	5469-5480	raznovrsnih	_	_	_	_	_	
+16-15	5481-5487	oblika	_	_	_	_	_	
+16-16	5487-5488	,	_	_	_	_	_	
+16-17	5489-5493	koji	_	_	_	_	_	
+16-18	5494-5499	ovise	_	_	_	_	_	
+16-19	5500-5501	o	_	_	_	_	_	
+16-20	5502-5509	sastavu	_	_	_	_	_	
+16-21	5509-5510	,	_	_	_	_	_	
+16-22	5511-5516	građi	_	_	_	_	_	
+16-23	5517-5518	i	_	_	_	_	_	
+16-24	5519-5527	površini	_	_	_	_	_	
+16-25	5528-5539	karbonatnih	_	_	_	_	_	
+16-26	5540-5547	stijena	_	_	_	_	_	
+16-27	5548-5549	i	_	_	_	_	_	
+16-28	5550-5558	uvjetima	_	_	_	_	_	
+16-29	5559-5570	korodiranja	_	_	_	_	_	
+16-30	5570-5571	.	_	_	_	_	_	
+16-31	5572-5581	Razlikuju	_	_	_	_	_	
+16-32	5582-5584	se	_	_	_	_	_	
+16-33	5585-5590	prema	_	_	_	_	_	
+16-34	5591-5595	tome	_	_	_	_	_	
+16-35	5596-5598	da	_	_	_	_	_	
+16-36	5599-5601	li	_	_	_	_	_	
+16-37	5602-5604	su	_	_	_	_	_	
+16-38	5605-5614	nastajale	_	_	_	_	_	
+16-39	5615-5617	na	_	_	_	HAS\_LOCATION[105]	_	
+16-40	5618-5627	ogoljeloj	_	_	_	HAS\_LOCATION[105]	_	
+16-41	5628-5633	plohi	_	_	_	HAS\_LOCATION[105]	_	
+16-42	5634-5637	ili	_	_	_	_	_	
+16-43	5638-5641	pod	_	_	_	HAS\_LOCATION[106]	_	
+16-44	5642-5650	pokrovom	_	_	_	HAS\_LOCATION[106]	_	
+16-45	5651-5654	tla	_	_	_	HAS\_LOCATION[106]	_	
+16-46	5655-5656	(	_	_	_	_	_	
+16-47	5656-5665	subkutana	_	B.2 Loss[35]	_	HAS\_CAUSE[107]	_	
+16-48	5666-5674	korozija	_	B.2 Loss[35]	_	HAS\_CAUSE[107]	_	
+16-49	5674-5675	,	_	_	_	_	_	
+16-50	5676-5677	v	_	_	_	_	_	
+16-51	5677-5678	.	_	_	_	_	_	
+16-52	5678-5679	)	_	_	_	_	_	
+16-53	5679-5680	.	_	_	_	_	_	
+16-54	5681-5684	Pod	_	_	_	_	_	
+16-55	5685-5693	pokrovom	_	_	_	_	_	
+16-56	5694-5697	tla	_	_	_	_	_	
+16-57	5698-5706	korozija	_	_	_	_	_	
+16-58	5707-5709	se	_	_	_	_	_	
+16-59	5710-5714	vrši	_	_	_	_	_	
+16-60	5715-5721	plošno	_	_	_	_	_	
+16-61	5721-5722	,	_	_	_	_	_	
+16-62	5723-5725	tj	_	_	_	_	_	
+16-63	5725-5726	.	_	_	_	_	_	
+16-64	5727-5734	dodirom	_	_	_	_	_	
+16-65	5735-5738	tla	_	_	_	_	_	
+16-66	5739-5740	i	_	_	_	_	_	
+16-67	5741-5748	stijene	_	_	_	_	_	
+16-68	5748-5749	,	_	_	_	_	_	
+16-69	5750-5752	te	_	_	_	_	_	
+16-70	5753-5755	su	_	_	_	_	_	
+16-71	5756-5766	škraparski	_	_	_	_	_	
+16-72	5767-5773	oblici	_	_	_	_	_	
+16-73	5774-5782	uobljeni	_	_	_	_	_	
+16-74	5782-5783	;	_	_	_	_	_	
+16-75	5784-5785	u	_	_	_	_	_	
+16-76	5786-5794	pukotini	_	_	_	_	_	
+16-77	5795-5799	koja	_	_	_	_	_	
+16-78	5800-5802	je	_	_	_	_	_	
+16-79	5803-5812	ispunjena	_	_	_	_	_	
+16-80	5813-5817	tlom	_	_	_	_	_	
+16-81	5818-5825	nastaju	_	_	_	_	_	
+16-82	5826-5834	cjevaste	_	A.1 Surface landform[36]	SPECIES[61]	_	_	
+16-83	5835-5842	grižine	_	A.1 Surface landform[36]	SPECIES[61]	_	_	
+16-84	5842-5843	,	_	_	_	_	_	
+16-85	5844-5851	prozori	_	A.1 Surface landform	SPECIES	_	_	
+16-86	5852-5853	i	_	_	_	_	_	
+16-87	5854-5859	mosne	_	A.1 Surface landform[37]	SPECIES[62]	_	_	
+16-88	5860-5866	škrape	_	A.1 Surface landform[37]	SPECIES[62]	_	_	
+16-89	5866-5867	.	_	_	_	_	_	
+16-90	5868-5873	Veoma	_	_	_	_	_	
+16-91	5874-5882	izrazite	_	_	_	_	_	
+16-92	5883-5891	cjevaste	_	_	_	_	_	
+16-93	5892-5899	grižine	_	_	_	_	_	
+16-94	5900-5904	dubi	_	_	_	_	_	
+16-95	5905-5908	kao	_	_	_	_	_	
+16-96	5909-5914	svoje	_	_	_	_	_	
+16-97	5915-5923	stanište	_	_	_	_	_	
+16-98	5924-5930	prstac	_	_	_	_	_	
+16-99	5931-5932	(	_	_	_	_	_	
+16-100	5932-5942	Lithodomus	_	_	_	_	_	
+16-101	5943-5948	litho	_	_	_	_	_	
+16-102	5949-5955	phagus	_	_	_	_	_	
+16-103	5955-5956	)	_	_	_	_	_	
+16-104	5956-5957	,	_	_	_	_	_	
+16-105	5958-5960	te	_	_	_	_	_	
+16-106	5961-5963	na	_	_	_	_	_	
+16-107	5964-5969	obali	_	_	_	_	_	
+16-108	5970-5974	mora	_	_	_	_	_	
+16-109	5975-5983	nalazimo	_	_	_	_	_	
+16-110	5984-5991	blokove	_	_	_	_	_	
+16-111	5992-6000	vapnenca	_	_	_	_	_	
+16-112	6001-6005	koji	_	_	_	_	_	
+16-113	6006-6008	su	_	_	_	_	_	
+16-114	6009-6019	kavernozno	_	_	_	_	_	
+16-115	6020-6028	izbušeni	_	_	_	_	_	
+16-116	6029-6030	i	_	_	_	_	_	
+16-117	6031-6036	malom	_	_	_	_	_	
+16-118	6037-6044	težinom	_	_	_	_	_	
+16-119	6045-6055	podsjećaju	_	_	_	_	_	
+16-120	6056-6058	na	_	_	_	_	_	
+16-121	6059-6067	plovućac	_	_	_	_	_	
+16-122	6067-6068	.	_	_	_	_	_	
+
+#Text=tlom obuhvaćeni blokovi karbonatnih stijena se različito i slikovito modeliraju – skulpturne škrape, ili prstenasto probijaju – prstenaste grižine (v. ogoljeni krš). Različite stropne škrape (v. spilja), osobito u obliku izvrnutog lonca, vjerojatno su izmodelirane kontaktnom korozijom u doba kad su podzemne šupljine bile ispunjene nanosima.
+17-1	6071-6075	tlom	_	_	_	_	_	
+17-2	6076-6086	obuhvaćeni	_	_	_	_	_	
+17-3	6087-6094	blokovi	_	_	_	_	_	
+17-4	6095-6106	karbonatnih	_	_	_	_	_	
+17-5	6107-6114	stijena	_	_	_	_	_	
+17-6	6115-6117	se	_	_	_	_	_	
+17-7	6118-6127	različito	_	_	_	_	_	
+17-8	6128-6129	i	_	_	_	_	_	
+17-9	6130-6139	slikovito	_	_	_	_	_	
+17-10	6140-6150	modeliraju	_	_	_	_	_	
+17-11	6151-6152	–	_	_	_	_	_	
+17-12	6153-6163	skulpturne	_	_	_	_	_	
+17-13	6164-6170	škrape	_	_	_	_	_	
+17-14	6170-6171	,	_	_	_	_	_	
+17-15	6172-6175	ili	_	_	_	_	_	
+17-16	6176-6186	prstenasto	_	_	_	_	_	
+17-17	6187-6196	probijaju	_	_	_	_	_	
+17-18	6197-6198	–	_	_	_	_	_	
+17-19	6199-6209	prstenaste	_	_	_	_	_	
+17-20	6210-6217	grižine	_	_	_	_	_	
+17-21	6218-6219	(	_	_	_	_	_	
+17-22	6219-6220	v	_	_	_	_	_	
+17-23	6220-6221	.	_	_	_	_	_	
+17-24	6222-6230	ogoljeni	_	_	_	_	_	
+17-25	6231-6234	krš	_	_	_	_	_	
+17-26	6234-6235	)	_	_	_	_	_	
+17-27	6235-6236	.	_	_	_	_	_	
+17-28	6237-6246	Različite	_	_	_	_	_	
+17-29	6247-6254	stropne	_	A.2 Underground landform	DEFINIENDUM[63]	_	_	
+17-30	6255-6261	škrape	_	A.1 Surface landform	DEFINIENDUM[63]|GENUS[64]	_	_	
+17-31	6262-6263	(	_	_	_	_	_	
+17-32	6263-6264	v	_	_	_	_	_	
+17-33	6264-6265	.	_	_	_	_	_	
+17-34	6266-6272	spilja	_	_	_	_	_	
+17-35	6272-6273	)	_	_	_	_	_	
+17-36	6273-6274	,	_	_	_	_	_	
+17-37	6275-6282	osobito	_	_	_	_	_	
+17-38	6283-6284	u	_	_	_	HAS\_FORM[108]	_	
+17-39	6285-6291	obliku	_	_	_	HAS\_FORM[108]	_	
+17-40	6292-6301	izvrnutog	_	_	_	HAS\_FORM[108]	_	
+17-41	6302-6307	lonca	_	_	_	HAS\_FORM[108]	_	
+17-42	6307-6308	,	_	_	_	_	_	
+17-43	6309-6319	vjerojatno	_	_	_	_	_	
+17-44	6320-6322	su	_	_	_	_	_	
+17-45	6323-6335	izmodelirane	_	_	_	HAS\_CAUSE[109]	_	
+17-46	6336-6346	kontaktnom	_	_	_	HAS\_CAUSE[109]	_	
+17-47	6347-6356	korozijom	_	_	_	HAS\_CAUSE[109]	_	
+17-48	6357-6358	u	_	_	_	_	_	
+17-49	6359-6363	doba	_	_	_	_	_	
+17-50	6364-6367	kad	_	_	_	_	_	
+17-51	6368-6370	su	_	_	_	_	_	
+17-52	6371-6379	podzemne	_	_	_	_	_	
+17-53	6380-6388	šupljine	_	_	_	_	_	
+17-54	6389-6393	bile	_	_	_	_	_	
+17-55	6394-6403	ispunjene	_	_	_	_	_	
+17-56	6404-6412	nanosima	_	_	_	_	_	
+17-57	6412-6413	.	_	_	_	_	_	
+
+#Text=škrape na plohama golih vapnenaca mnogo su razno likije i hrapavije; i ogolićene subkutane škrape brzo posta ju hrapave. Na plohama kompaktnih vapnenaca često su srećemo pravilne žljebove koje udubljuje mlaz vode; osobito su izraziti kada voda pritječe iz humusnog tla koje pojačava njenu agresivnost. Na blaže nagnutim plohama nastaju vijugavi meandarski žljebovi; između žljebova često zaostaju oštri bridovi.
+18-1	6415-6421	škrape	_	_	_	_	_	
+18-2	6422-6424	na	_	_	_	_	_	
+18-3	6425-6432	plohama	_	_	_	_	_	
+18-4	6433-6438	golih	_	_	_	_	_	
+18-5	6439-6448	vapnenaca	_	_	_	_	_	
+18-6	6449-6454	mnogo	_	_	_	_	_	
+18-7	6455-6457	su	_	_	_	_	_	
+18-8	6458-6463	razno	_	_	_	_	_	
+18-9	6464-6470	likije	_	_	_	_	_	
+18-10	6471-6472	i	_	_	_	_	_	
+18-11	6473-6482	hrapavije	_	_	_	_	_	
+18-12	6482-6483	;	_	_	_	_	_	
+18-13	6484-6485	i	_	_	_	_	_	
+18-14	6486-6495	ogolićene	_	_	_	_	_	
+18-15	6496-6505	subkutane	_	_	_	_	_	
+18-16	6506-6512	škrape	_	_	_	_	_	
+18-17	6513-6517	brzo	_	_	_	_	_	
+18-18	6518-6523	posta	_	_	_	_	_	
+18-19	6524-6526	ju	_	_	_	_	_	
+18-20	6527-6534	hrapave	_	_	_	_	_	
+18-21	6534-6535	.	_	_	_	_	_	
+18-22	6536-6538	Na	_	_	_	_	_	
+18-23	6539-6546	plohama	_	_	_	_	_	
+18-24	6547-6557	kompaktnih	_	_	_	_	_	
+18-25	6558-6567	vapnenaca	_	_	_	_	_	
+18-26	6568-6573	često	_	_	_	_	_	
+18-27	6574-6576	su	_	_	_	_	_	
+18-28	6577-6584	srećemo	_	_	_	_	_	
+18-29	6585-6593	pravilne	_	_	_	_	_	
+18-30	6594-6602	žljebove	_	_	_	_	_	
+18-31	6603-6607	koje	_	_	_	_	_	
+18-32	6608-6617	udubljuje	_	_	_	_	_	
+18-33	6618-6622	mlaz	_	_	_	_	_	
+18-34	6623-6627	vode	_	_	_	_	_	
+18-35	6627-6628	;	_	_	_	_	_	
+18-36	6629-6636	osobito	_	_	_	_	_	
+18-37	6637-6639	su	_	_	_	_	_	
+18-38	6640-6648	izraziti	_	_	_	_	_	
+18-39	6649-6653	kada	_	_	_	_	_	
+18-40	6654-6658	voda	_	_	_	_	_	
+18-41	6659-6667	pritječe	_	_	_	_	_	
+18-42	6668-6670	iz	_	_	_	_	_	
+18-43	6671-6679	humusnog	_	_	_	_	_	
+18-44	6680-6683	tla	_	_	_	_	_	
+18-45	6684-6688	koje	_	_	_	_	_	
+18-46	6689-6697	pojačava	_	_	_	_	_	
+18-47	6698-6703	njenu	_	_	_	_	_	
+18-48	6704-6715	agresivnost	_	_	_	_	_	
+18-49	6715-6716	.	_	_	_	_	_	
+18-50	6717-6719	Na	_	_	_	_	_	
+18-51	6720-6725	blaže	_	_	_	_	_	
+18-52	6726-6734	nagnutim	_	_	_	_	_	
+18-53	6735-6742	plohama	_	_	_	_	_	
+18-54	6743-6750	nastaju	_	_	_	_	_	
+18-55	6751-6759	vijugavi	_	_	_	_	_	
+18-56	6760-6770	meandarski	_	_	_	_	_	
+18-57	6771-6779	žljebovi	_	_	_	_	_	
+18-58	6779-6780	;	_	_	_	_	_	
+18-59	6781-6787	između	_	_	_	_	_	
+18-60	6788-6796	žljebova	_	_	_	_	_	
+18-61	6797-6802	često	_	_	_	_	_	
+18-62	6803-6811	zaostaju	_	_	_	_	_	
+18-63	6812-6817	oštri	_	_	_	_	_	
+18-64	6818-6825	bridovi	_	_	_	_	_	
+18-65	6825-6826	.	_	_	_	_	_	
+
+#Text=griža (v.) ili škrapar je nepravilno i jako najedena površina vapnenca (v. ljut), pri čemu vjerojatno znatan udio ima struktura stijena. Pukotinske škrape su razvijene duž dijaklaza i dijastroma, koje se mogu ukrštati u mrežaste škrape.
+19-1	6828-6833	griža	_	A.1 Surface landform	DEFINIENDUM	_	_	
+19-2	6834-6835	(	_	_	_	_	_	
+19-3	6835-6836	v	_	_	_	_	_	
+19-4	6836-6837	.	_	_	_	_	_	
+19-5	6837-6838	)	_	_	_	_	_	
+19-6	6839-6842	ili	_	_	_	_	_	
+19-7	6843-6850	škrapar	_	A.1 Surface landform	DEFINIENDUM	_	_	
+19-8	6851-6853	je	_	_	_	_	_	
+19-9	6854-6864	nepravilno	_	_	_	DEFINED\_AS[110]|HAS\_FORM[111]	_	
+19-10	6865-6866	i	_	_	_	DEFINED\_AS[110]|HAS\_FORM[111]	_	
+19-11	6867-6871	jako	_	_	_	DEFINED\_AS[110]|HAS\_FORM[111]	_	
+19-12	6872-6880	najedena	_	_	_	DEFINED\_AS[110]	_	
+19-13	6881-6889	površina	_	_	_	DEFINED\_AS[110]	_	
+19-14	6890-6898	vapnenca	_	D.1 Abiotic	_	DEFINED\_AS[110]	_	
+19-15	6899-6900	(	_	_	_	_	_	
+19-16	6900-6901	v	_	_	_	_	_	
+19-17	6901-6902	.	_	_	_	_	_	
+19-18	6903-6907	ljut	_	_	_	_	_	
+19-19	6907-6908	)	_	_	_	_	_	
+19-20	6908-6909	,	_	_	_	_	_	
+19-21	6910-6913	pri	_	_	_	_	_	
+19-22	6914-6918	čemu	_	_	_	_	_	
+19-23	6919-6929	vjerojatno	_	_	_	_	_	
+19-24	6930-6936	znatan	_	_	_	_	_	
+19-25	6937-6941	udio	_	_	_	_	_	
+19-26	6942-6945	ima	_	_	_	_	_	
+19-27	6946-6955	struktura	_	_	_	_	_	
+19-28	6956-6963	stijena	_	_	_	_	_	
+19-29	6963-6964	.	_	_	_	_	_	
+19-30	6965-6975	Pukotinske	_	_	_	_	_	
+19-31	6976-6982	škrape	_	_	_	_	_	
+19-32	6983-6985	su	_	_	_	_	_	
+19-33	6986-6995	razvijene	_	_	_	_	_	
+19-34	6996-6999	duž	_	_	_	HAS\_LOCATION[112]	_	
+19-35	7000-7009	dijaklaza	_	_	_	HAS\_LOCATION[112]	_	
+19-36	7010-7011	i	_	_	_	HAS\_LOCATION[112]	_	
+19-37	7012-7022	dijastroma	_	_	_	HAS\_LOCATION[112]	_	
+19-38	7022-7023	,	_	_	_	_	_	
+19-39	7024-7028	koje	_	_	_	_	_	
+19-40	7029-7031	se	_	_	_	_	_	
+19-41	7032-7036	mogu	_	_	_	_	_	
+19-42	7037-7045	ukrštati	_	_	_	_	_	
+19-43	7046-7047	u	_	_	_	_	_	
+19-44	7048-7056	mrežaste	_	_	_	_	_	
+19-45	7057-7063	škrape	_	_	_	_	_	
+19-46	7063-7064	.	_	_	_	_	_	
+
+#Text=i kamenice (v.) spadaju u grupu škrapa. Kad se kamenice rubnom korozijom otvore, ostaju tragovi njihova ravna dna, u obliku stopala (v.).
+20-1	7066-7067	i	_	_	_	_	_	
+20-2	7068-7076	kamenice	_	A.1 Surface landform	DEFINIENDUM	_	_	
+20-3	7077-7078	(	_	_	_	_	_	
+20-4	7078-7079	v	_	_	_	_	_	
+20-5	7079-7080	.	_	_	_	_	_	
+20-6	7080-7081	)	_	_	_	_	_	
+20-7	7082-7089	spadaju	_	_	_	_	_	
+20-8	7090-7091	u	_	_	_	_	_	
+20-9	7092-7097	grupu	_	_	_	_	_	
+20-10	7098-7104	škrapa	_	A.1 Surface landform	GENUS	_	_	
+20-11	7104-7105	.	_	_	_	_	_	
+20-12	7106-7109	Kad	_	_	_	_	_	
+20-13	7110-7112	se	_	_	_	_	_	
+20-14	7113-7121	kamenice	_	_	_	_	_	
+20-15	7122-7128	rubnom	_	_	_	_	_	
+20-16	7129-7138	korozijom	_	_	_	_	_	
+20-17	7139-7145	otvore	_	_	_	_	_	
+20-18	7145-7146	,	_	_	_	_	_	
+20-19	7147-7153	ostaju	_	_	_	_	_	
+20-20	7154-7161	tragovi	_	_	_	_	_	
+20-21	7162-7169	njihova	_	_	_	_	_	
+20-22	7170-7175	ravna	_	_	_	_	_	
+20-23	7176-7179	dna	_	_	_	_	_	
+20-24	7179-7180	,	_	_	_	_	_	
+20-25	7181-7182	u	_	_	_	_	_	
+20-26	7183-7189	obliku	_	_	_	_	_	
+20-27	7190-7197	stopala	_	_	_	_	_	
+20-28	7198-7199	(	_	_	_	_	_	
+20-29	7199-7200	v	_	_	_	_	_	
+20-30	7200-7201	.	_	_	_	_	_	
+20-31	7201-7202	)	_	_	_	_	_	
+20-32	7202-7203	.	_	_	_	_	_	
+
+#Text=škrapama obiluje i obalski pojas. Tu su specifične rupičaste škrape, kod kojih se žlijeb na donjoj strani završava malim udubljenjem u kojem se zadrži voda. Različiti saksofiti u obalskom pojasu, a drugdje lišaji i mahovine, svojim biotskim procesima pridonose hrapavosti karbonatnih stijena. Pseudoškrapa je škrapi sličan oblik u nekarbonatnim stijenama.
+21-1	7205-7213	škrapama	škrape	A.1 Surface landform	GENUS	_	_	
+21-2	7214-7221	obiluje	_	_	_	_	_	
+21-3	7222-7223	i	_	_	_	_	_	
+21-4	7224-7231	obalski	_	_	_	HAS\_LOCATION[113]	_	
+21-5	7232-7237	pojas	_	_	_	HAS\_LOCATION[113]	_	
+21-6	7237-7238	.	_	_	_	_	_	
+21-7	7239-7241	Tu	_	_	_	_	_	
+21-8	7242-7244	su	_	_	_	_	_	
+21-9	7245-7255	specifične	_	_	_	_	_	
+21-10	7256-7265	rupičaste	_	A.1 Surface landform[38]	DEFINIENDUM[65]	_	_	
+21-11	7266-7272	škrape	_	A.1 Surface landform[38]	DEFINIENDUM[65]	_	_	
+21-12	7272-7273	,	_	_	_	_	_	
+21-13	7274-7277	kod	_	_	_	_	_	
+21-14	7278-7283	kojih	_	_	_	_	_	
+21-15	7284-7286	se	_	_	_	_	_	
+21-16	7287-7293	žlijeb	_	_	_	HAS\_FORM[114]	_	
+21-17	7294-7296	na	_	_	_	HAS\_FORM[114]	_	
+21-18	7297-7303	donjoj	_	_	_	HAS\_FORM[114]	_	
+21-19	7304-7310	strani	_	_	_	HAS\_FORM[114]	_	
+21-20	7311-7319	završava	_	_	_	HAS\_FORM[114]	_	
+21-21	7320-7325	malim	_	_	_	HAS\_FORM[114]	_	
+21-22	7326-7337	udubljenjem	_	_	_	HAS\_FORM[114]	_	
+21-23	7338-7339	u	_	_	_	_	_	
+21-24	7340-7345	kojem	_	_	_	_	_	
+21-25	7346-7348	se	_	_	_	_	_	
+21-26	7349-7355	zadrži	_	_	_	_	_	
+21-27	7356-7360	voda	_	_	_	_	_	
+21-28	7360-7361	.	_	_	_	_	_	
+21-29	7362-7371	Različiti	_	_	_	_	_	
+21-30	7372-7381	saksofiti	_	_	_	_	_	
+21-31	7382-7383	u	_	_	_	_	_	
+21-32	7384-7392	obalskom	_	_	_	_	_	
+21-33	7393-7399	pojasu	_	_	_	_	_	
+21-34	7399-7400	,	_	_	_	_	_	
+21-35	7401-7402	a	_	_	_	_	_	
+21-36	7403-7410	drugdje	_	_	_	_	_	
+21-37	7411-7417	lišaji	_	_	_	_	_	
+21-38	7418-7419	i	_	_	_	_	_	
+21-39	7420-7428	mahovine	_	_	_	_	_	
+21-40	7428-7429	,	_	_	_	_	_	
+21-41	7430-7436	svojim	_	_	_	_	_	
+21-42	7437-7445	biotskim	_	_	_	_	_	
+21-43	7446-7455	procesima	_	_	_	_	_	
+21-44	7456-7465	pridonose	_	_	_	_	_	
+21-45	7466-7476	hrapavosti	_	_	_	_	_	
+21-46	7477-7488	karbonatnih	_	_	_	_	_	
+21-47	7489-7496	stijena	_	_	_	_	_	
+21-48	7496-7497	.	_	_	_	_	_	
+21-49	7498-7510	Pseudoškrapa	_	_	_	_	_	
+21-50	7511-7513	je	_	_	_	_	_	
+21-51	7514-7520	škrapi	_	_	_	_	_	
+21-52	7521-7527	sličan	_	_	_	_	_	
+21-53	7528-7533	oblik	_	_	_	_	_	
+21-54	7534-7535	u	_	_	_	_	_	
+21-55	7536-7549	nekarbonatnim	_	_	_	_	_	
+21-56	7550-7559	stijenama	_	_	_	_	_	
+21-57	7559-7560	.	_	_	_	_	_	
+
+#Text=škrapar – stjenoviti prostor jako nagrižen škrapama; nazivamo ga: griža (v.), ljut (v.), kamenjara (v.).
+22-1	7562-7569	škrapar	_	A.1 Surface landform	DEFINIENDUM	_	_	
+22-2	7570-7571	–	_	_	_	_	_	
+22-3	7572-7582	stjenoviti	_	_	GENUS[66]	DEFINED\_AS[115]	_	
+22-4	7583-7590	prostor	_	_	GENUS[66]	DEFINED\_AS[115]	_	
+22-5	7591-7595	jako	_	_	_	DEFINED\_AS[115]	_	
+22-6	7596-7604	nagrižen	_	_	_	DEFINED\_AS[115]	_	
+22-7	7605-7613	škrapama	_	_	_	DEFINED\_AS[115]	_	
+22-8	7613-7614	;	_	_	_	_	_	
+22-9	7615-7623	nazivamo	_	_	_	_	_	
+22-10	7624-7626	ga	_	_	_	_	_	
+22-11	7626-7627	:	_	_	_	_	_	
+22-12	7628-7633	griža	_	A.1 Surface landform	DEFINIENDUM	_	_	
+22-13	7634-7635	(	_	_	_	_	_	
+22-14	7635-7636	v	_	_	_	_	_	
+22-15	7636-7637	.	_	_	_	_	_	
+22-16	7637-7638	)	_	_	_	_	_	
+22-17	7638-7639	,	_	_	_	_	_	
+22-18	7640-7644	ljut	_	A.1 Surface landform	DEFINIENDUM	_	_	
+22-19	7645-7646	(	_	_	_	_	_	
+22-20	7646-7647	v	_	_	_	_	_	
+22-21	7647-7648	.	_	_	_	_	_	
+22-22	7648-7649	)	_	_	_	_	_	
+22-23	7649-7650	,	_	_	_	_	_	
+22-24	7651-7660	kamenjara	_	_	DEFINIENDUM	_	_	
+22-25	7661-7662	(	_	_	_	_	_	
+22-26	7662-7663	v	_	_	_	_	_	
+22-27	7663-7664	.	_	_	_	_	_	
+22-28	7664-7665	)	_	_	_	_	_	
+22-29	7665-7666	.	_	_	_	_	_	
+
+#Text=škrip – udubina u karbonatnim stijenama, osobito u čistim vapnencima; čini prijelaz između škrapa (v.) i japaga (v.). Duboka je do 4 m, široka do 1 m, obično izdužena duž pukotina. Škrip je često u dubljem dijelu prostraniji, što je posljedica zadržavanja snijega u višim krajevima ili ranije ispunjenosti tlom. Š. je nepopularan kod stanovništva, jer u njega upadaju sitna stoka i neoprezna djeca.
+23-1	7668-7673	škrip	_	A.1 Surface landform	DEFINIENDUM	_	_	
+23-2	7674-7675	–	_	_	_	_	_	
+23-3	7676-7683	udubina	_	_	GENUS[67]	_	_	
+23-4	7684-7685	u	_	_	GENUS[67]	_	_	
+23-5	7686-7697	karbonatnim	_	D.1 Abiotic[39]	GENUS[67]	_	_	
+23-6	7698-7707	stijenama	_	D.1 Abiotic[39]	GENUS[67]	_	_	
+23-7	7707-7708	,	_	_	_	_	_	
+23-8	7709-7716	osobito	_	_	_	_	_	
+23-9	7717-7718	u	_	_	_	_	_	
+23-10	7719-7725	čistim	_	_	_	_	_	
+23-11	7726-7736	vapnencima	_	_	_	_	_	
+23-12	7736-7737	;	_	_	_	_	_	
+23-13	7738-7742	čini	_	_	_	_	_	
+23-14	7743-7751	prijelaz	_	_	_	DEFINED\_AS[116]	_	
+23-15	7752-7758	između	_	_	_	DEFINED\_AS[116]	_	
+23-16	7759-7765	škrapa	_	_	_	DEFINED\_AS[116]	_	
+23-17	7766-7767	(	_	_	_	DEFINED\_AS[116]	_	
+23-18	7767-7768	v	_	_	_	DEFINED\_AS[116]	_	
+23-19	7768-7769	.	_	_	_	DEFINED\_AS[116]	_	
+23-20	7769-7770	)	_	_	_	DEFINED\_AS[116]	_	
+23-21	7771-7772	i	_	_	_	DEFINED\_AS[116]	_	
+23-22	7773-7779	japaga	_	_	_	DEFINED\_AS[116]	_	
+23-23	7780-7781	(	_	_	_	_	_	
+23-24	7781-7782	v	_	_	_	_	_	
+23-25	7782-7783	.	_	_	_	_	_	
+23-26	7783-7784	)	_	_	_	_	_	
+23-27	7784-7785	.	_	_	_	_	_	
+23-28	7786-7792	Duboka	_	_	_	HAS\_SIZE[117]	_	
+23-29	7793-7795	je	_	_	_	HAS\_SIZE[117]	_	
+23-30	7796-7798	do	_	_	_	HAS\_SIZE[117]	_	
+23-31	7799-7800	4	_	_	_	HAS\_SIZE[117]	_	
+23-32	7801-7802	m	_	_	_	HAS\_SIZE[117]	_	
+23-33	7802-7803	,	_	_	_	_	_	
+23-34	7804-7810	široka	_	_	_	HAS\_SIZE[118]	_	
+23-35	7811-7813	do	_	_	_	HAS\_SIZE[118]	_	
+23-36	7814-7815	1	_	_	_	HAS\_SIZE[118]	_	
+23-37	7816-7817	m	_	_	_	HAS\_SIZE[118]	_	
+23-38	7817-7818	,	_	_	_	_	_	
+23-39	7819-7825	obično	_	_	_	_	_	
+23-40	7826-7834	izdužena	_	_	_	_	_	
+23-41	7835-7838	duž	_	_	_	_	_	
+23-42	7839-7847	pukotina	_	_	_	_	_	
+23-43	7847-7848	.	_	_	_	_	_	
+23-44	7849-7854	Škrip	_	_	_	_	_	
+23-45	7855-7857	je	_	_	_	_	_	
+23-46	7858-7863	često	_	_	_	_	_	
+23-47	7864-7865	u	_	_	_	_	_	
+23-48	7866-7873	dubljem	_	_	_	_	_	
+23-49	7874-7880	dijelu	_	_	_	_	_	
+23-50	7881-7892	prostraniji	_	_	_	_	_	
+23-51	7892-7893	,	_	_	_	_	_	
+23-52	7894-7897	što	_	_	_	_	_	
+23-53	7898-7900	je	_	_	_	_	_	
+23-54	7901-7911	posljedica	_	_	_	_	_	
+23-55	7912-7923	zadržavanja	_	_	_	_	_	
+23-56	7924-7931	snijega	_	_	_	_	_	
+23-57	7932-7933	u	_	_	_	_	_	
+23-58	7934-7939	višim	_	_	_	_	_	
+23-59	7940-7949	krajevima	_	_	_	_	_	
+23-60	7950-7953	ili	_	_	_	_	_	
+23-61	7954-7960	ranije	_	_	_	_	_	
+23-62	7961-7973	ispunjenosti	_	_	_	_	_	
+23-63	7974-7978	tlom	_	_	_	_	_	
+23-64	7978-7979	.	_	_	_	_	_	
+23-65	7980-7981	Š	_	_	_	_	_	
+23-66	7981-7982	.	_	_	_	_	_	
+23-67	7983-7985	je	_	_	_	_	_	
+23-68	7986-7997	nepopularan	_	_	_	_	_	
+23-69	7998-8001	kod	_	_	_	_	_	
+23-70	8002-8014	stanovništva	_	_	_	_	_	
+23-71	8014-8015	,	_	_	_	_	_	
+23-72	8016-8019	jer	_	_	_	_	_	
+23-73	8020-8021	u	_	_	_	_	_	
+23-74	8022-8027	njega	_	_	_	_	_	
+23-75	8028-8035	upadaju	_	_	_	_	_	
+23-76	8036-8041	sitna	_	_	_	_	_	
+23-77	8042-8047	stoka	_	_	_	_	_	
+23-78	8048-8049	i	_	_	_	_	_	
+23-79	8050-8059	neoprezna	_	_	_	_	_	
+23-80	8060-8065	djeca	_	_	_	_	_	
+23-81	8065-8066	.	_	_	_	_	_	
+
+#Text=udolina – izduženo udubljenje (v. draga), uvjetovano diferenciranim modeliranjem, zbog razlika u sastavu i građi.
+24-1	8068-8075	udolina	_	A.1 Surface landform	DEFINIENDUM	_	_	
+24-2	8076-8077	–	_	_	_	_	_	
+24-3	8078-8086	izduženo	_	A.1 Surface landform[40]	GENUS[68]	_	_	
+24-4	8087-8097	udubljenje	_	A.1 Surface landform[40]	GENUS[68]	_	_	
+24-5	8098-8099	(	_	_	_	_	_	
+24-6	8099-8100	v	_	_	_	_	_	
+24-7	8100-8101	.	_	_	_	_	_	
+24-8	8102-8107	draga	_	_	_	_	_	
+24-9	8107-8108	)	_	_	_	_	_	
+24-10	8108-8109	,	_	_	_	_	_	
+24-11	8110-8120	uvjetovano	_	_	_	HAS\_CAUSE[119]	_	
+24-12	8121-8135	diferenciranim	diferencirano modeliranje[4]	B.4 Transformation[41]	_	HAS\_CAUSE[119]	_	
+24-13	8136-8148	modeliranjem	diferencirano modeliranje[4]	B.4 Transformation[41]	_	HAS\_CAUSE[119]	_	
+24-14	8148-8149	,	_	_	_	_	_	
+24-15	8150-8154	zbog	_	_	_	_	_	
+24-16	8155-8162	razlika	_	_	_	_	_	
+24-17	8163-8164	u	_	_	_	_	_	
+24-18	8165-8172	sastavu	_	_	_	_	_	
+24-19	8173-8174	i	_	_	_	_	_	
+24-20	8175-8180	građi	_	_	_	_	_	
+24-21	8180-8181	.	_	_	_	_	_	

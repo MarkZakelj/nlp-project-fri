@@ -1,0 +1,295 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Žlebiči so linearne oblike, ki nastanejo zaradi gravitacije, ki povzroči gibanje vode po strmcu navzdol.
+1-1	0-7	Žlebiči	_	A.1 Surface landform	DEFINIENDUM	_	_	
+1-2	8-10	so	_	_	DEFINITOR	_	_	
+1-3	11-19	linearne	_	_	_	HAS\_FORM[24]	_	
+1-4	20-26	oblike	_	_	_	HAS\_FORM[24]	_	
+1-5	26-27	,	_	_	_	_	_	
+1-6	28-30	ki	_	_	_	HAS\_CAUSE[25]	frame\_CAUSE[43]	
+1-7	31-40	nastanejo	_	_	_	HAS\_CAUSE[25]	frame\_CAUSE[43]	
+1-8	41-47	zaradi	_	_	_	HAS\_CAUSE[25]	frame\_CAUSE[43]	
+1-9	48-59	gravitacije	_	D.3 Property	_	HAS\_CAUSE[25]	_	
+1-10	59-60	,	_	_	_	HAS\_CAUSE[25]	_	
+1-11	61-63	ki	_	_	_	HAS\_CAUSE[25]	_	
+1-12	64-72	povzroči	_	_	_	HAS\_CAUSE[25]	_	
+1-13	73-80	gibanje	_	B.1 Movement[1]	_	HAS\_CAUSE[25]	_	
+1-14	81-85	vode	_	B.1 Movement[1]	_	HAS\_CAUSE[25]	_	
+1-15	86-88	po	_	_	_	HAS\_CAUSE[25]	_	
+1-16	89-95	strmcu	_	_	_	HAS\_CAUSE[25]	_	
+1-17	96-103	navzdol	_	_	_	HAS\_CAUSE[25]	_	
+1-18	103-104	.	_	_	_	_	_	
+
+#Text=Najmanjšo obliko žlebičev poimenuje microkarren.
+2-1	105-114	Najmanjšo	_	_	_	HAS\_SIZE[26]	_	
+2-2	115-121	obliko	_	_	_	HAS\_SIZE[26]	_	
+2-3	122-130	žlebičev	_	A.1 Surface landform	GENUS	_	_	
+2-4	131-140	poimenuje	_	_	DEFINITOR	_	_	
+2-5	141-152	microkarren	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-6	152-153	.	_	_	_	_	_	
+
+#Text=Preperevanje kamnine je naravni proces, ki kamnino v času razkroji na delce, iz katerih je sestavljena.
+3-1	154-166	Preperevanje	_	B.4 Transformation	DEFINIENDUM[15]	_	_	
+3-2	167-174	kamnine	_	D.1 Abiotic	DEFINIENDUM[15]	_	_	
+3-3	175-177	je	_	_	DEFINITOR	_	_	
+3-4	178-185	naravni	_	_	_	HAS\_CAUSE	_	
+3-5	186-192	proces	_	_	GENUS	_	_	
+3-6	192-193	,	_	_	_	_	_	
+3-7	194-196	ki	_	_	_	HAS\_RESULT[27]	_	
+3-8	197-204	kamnino	_	D.1 Abiotic	_	HAS\_RESULT[27]	_	
+3-9	205-206	v	_	_	_	HAS\_RESULT[27]	_	
+3-10	207-211	času	_	_	_	HAS\_RESULT[27]	_	
+3-11	212-220	razkroji	_	_	_	HAS\_RESULT[27]	frame\_RESULT	
+3-12	221-223	na	_	_	_	HAS\_RESULT[27]	_	
+3-13	224-229	delce	_	_	_	HAS\_RESULT[27]	_	
+3-14	229-230	,	_	_	_	HAS\_RESULT[27]	_	
+3-15	231-233	iz	_	_	_	HAS\_RESULT[27]	_	
+3-16	234-241	katerih	_	_	_	HAS\_RESULT[27]	_	
+3-17	242-244	je	_	_	_	HAS\_RESULT[27]	_	
+3-18	245-256	sestavljena	_	_	_	HAS\_RESULT[27]	_	
+3-19	256-257	.	_	_	_	_	_	
+
+#Text=Pogozdovanje je načrtno sajenje mladik gozdnega drevja na določenem zemljišču zaradi gojitve ali obnove, pomlajevanja gozdov, ogozdovanje pa spreminjanje kmetijskih zemljišč, to je njiv, travnikov, sadovnjakov, vinogradov in pašnikov v gozd oziroma njihovo zaraščanje z gozdovi.
+4-1	258-270	Pogozdovanje	_	B. Process	DEFINIENDUM	_	_	
+4-2	271-273	je	_	_	DEFINITOR	_	_	
+4-3	274-281	načrtno	_	_	_	_	_	
+4-4	282-289	sajenje	_	B. Process	GENUS	_	_	
+4-5	290-296	mladik	_	D.2 Biotic[2]	_	_	_	
+4-6	297-305	gozdnega	_	D.2 Biotic[2]	_	_	_	
+4-7	306-312	drevja	_	D.2 Biotic[2]	_	_	_	
+4-8	313-315	na	_	_	_	HAS\_LOCATION[28]	frame\_LOCATION	
+4-9	316-325	določenem	_	_	_	HAS\_LOCATION[28]	_	
+4-10	326-335	zemljišču	_	D.1 Abiotic	_	HAS\_LOCATION[28]	_	
+4-11	336-342	zaradi	_	_	_	HAS\_RESULT[29]	frame\_RESULT	
+4-12	343-350	gojitve	_	B. Process	_	HAS\_RESULT[29]	_	
+4-13	351-354	ali	_	_	_	HAS\_RESULT[29]	_	
+4-14	355-361	obnove	_	B. Process	_	HAS\_RESULT[29]	_	
+4-15	361-362	,	_	_	_	HAS\_RESULT[29]	_	
+4-16	363-375	pomlajevanja	_	B. Process	_	HAS\_RESULT[29]	_	
+4-17	376-382	gozdov	_	_	_	HAS\_RESULT[29]	_	
+4-18	382-383	,	_	_	_	_	_	
+4-19	384-395	ogozdovanje	_	_	_	_	_	
+4-20	396-398	pa	_	_	_	_	_	
+4-21	399-411	spreminjanje	_	_	_	_	_	
+4-22	412-422	kmetijskih	_	_	_	_	_	
+4-23	423-431	zemljišč	_	_	_	_	_	
+4-24	431-432	,	_	_	_	_	_	
+4-25	433-435	to	_	_	_	_	_	
+4-26	436-438	je	_	_	_	_	_	
+4-27	439-443	njiv	_	_	_	_	_	
+4-28	443-444	,	_	_	_	_	_	
+4-29	445-454	travnikov	_	_	_	_	_	
+4-30	454-455	,	_	_	_	_	_	
+4-31	456-467	sadovnjakov	_	_	_	_	_	
+4-32	467-468	,	_	_	_	_	_	
+4-33	469-479	vinogradov	_	_	_	_	_	
+4-34	480-482	in	_	_	_	_	_	
+4-35	483-491	pašnikov	_	_	_	_	_	
+4-36	492-493	v	_	_	_	_	_	
+4-37	494-498	gozd	_	_	_	_	_	
+4-38	499-506	oziroma	_	_	_	_	_	
+4-39	507-514	njihovo	_	_	_	_	_	
+4-40	515-525	zaraščanje	_	_	_	_	_	
+4-41	526-527	z	_	_	_	_	_	
+4-42	528-535	gozdovi	_	_	_	_	_	
+4-43	535-536	.	_	_	_	_	_	
+
+#Text=Kras je tip zemeljskega površja, ki je dobil ime po pokrajini Kras v zaledju Tržaškega zaliva.
+5-1	537-541	Kras	_	C. Geome	DEFINIENDUM	_	_	
+5-2	542-544	je	_	_	DEFINITOR	_	_	
+5-3	545-548	tip	_	_	GENUS[16]	_	_	
+5-4	549-560	zemeljskega	_	D.1 Abiotic[3]	GENUS[16]	_	_	
+5-5	561-568	površja	_	D.1 Abiotic[3]	GENUS[16]	_	_	
+5-6	568-569	,	_	_	_	_	_	
+5-7	570-572	ki	_	_	_	DEFINED\_AS[30]	_	
+5-8	573-575	je	_	_	_	DEFINED\_AS[30]	_	
+5-9	576-581	dobil	_	_	_	DEFINED\_AS[30]	_	
+5-10	582-585	ime	_	_	_	DEFINED\_AS[30]	_	
+5-11	586-588	po	_	_	_	DEFINED\_AS[30]	_	
+5-12	589-598	pokrajini	_	D.3.1 Geolocation[4]	_	DEFINED\_AS[30]	_	
+5-13	599-603	Kras	_	D.3.1 Geolocation[4]	_	DEFINED\_AS[30]	_	
+5-14	604-605	v	_	_	_	HAS\_POSITION[31]	frame\_POSITION	
+5-15	606-613	zaledju	_	_	_	HAS\_POSITION[31]	_	
+5-16	614-623	Tržaškega	_	D.3.1 Geolocation[5]	_	HAS\_POSITION[31]	_	
+5-17	624-630	zaliva	_	D.3.1 Geolocation[5]	_	HAS\_POSITION[31]	_	
+5-18	630-631	.	_	_	_	HAS\_POSITION[31]	_	
+
+#Text=Ponvice so pogosta oblika sige.
+6-1	632-639	Ponvice	_	A.2 Underground landform	DEFINIENDUM	_	_	
+6-2	640-642	so	_	_	DEFINITOR	_	_	
+6-3	643-650	pogosta	_	_	_	_	_	
+6-4	651-657	oblika	_	_	GENUS[17]	_	_	
+6-5	658-662	sige	_	A.2 Underground landform	GENUS[17]	_	_	
+6-6	662-663	.	_	_	_	_	_	
+
+#Text=Najpomembnejši proces preoblikovanja kraškega površja je raztapljanje oziroma kemično preperevanje in odnašanje mase v raztopini v podzemlje.
+7-1	664-678	Najpomembnejši	_	_	_	_	_	
+7-2	679-685	proces	_	_	GENUS[18]	_	_	
+7-3	686-700	preoblikovanja	_	B.4 Transformation	GENUS[18]	_	_	
+7-4	701-709	kraškega	_	C. Geome[6]	GENUS[18]	_	_	
+7-5	710-717	površja	_	C. Geome[6]	GENUS[18]	_	_	
+7-6	718-720	je	_	_	DEFINITOR	_	_	
+7-7	721-733	raztapljanje	_	B.4 Transformation	DEFINIENDUM	_	_	
+7-8	734-741	oziroma	_	_	_	_	_	
+7-9	742-749	kemično	_	B.4 Transformation[7]	DEFINIENDUM[19]	_	_	
+7-10	750-762	preperevanje	_	B.4 Transformation[7]	DEFINIENDUM[19]	_	_	
+7-11	763-765	in	_	_	_	_	_	
+7-12	766-775	odnašanje	_	B.2 Loss	DEFINIENDUM[20]	_	_	
+7-13	776-780	mase	_	_	DEFINIENDUM[20]	_	_	
+7-14	781-782	v	_	_	_	_	_	
+7-15	783-792	raztopini	_	_	_	_	_	
+7-16	793-794	v	_	_	_	HAS\_LOCATION[32]	frame\_LOCATION	
+7-17	795-804	podzemlje	_	C. Geome	_	HAS\_LOCATION[32]	_	
+7-18	804-805	.	_	_	_	_	_	
+
+#Text=Najpomembnejše razlike pri oblikovanju krasa v tropskih geografskih širinah so intenzivna evapotranspiracija in zanemarljivo mehansko preperevanje, pri čemer je mišljena predvsem odsotnost zmrzalnega preperevanja.
+8-1	806-820	Najpomembnejše	_	_	_	_	_	
+8-2	821-828	razlike	_	_	_	_	_	
+8-3	829-832	pri	_	_	_	_	_	
+8-4	833-844	oblikovanju	_	B. Process	DEFINIENDUM[21]	_	_	
+8-5	845-850	krasa	_	C. Geome	DEFINIENDUM[21]	_	_	
+8-6	851-852	v	_	_	_	HAS\_LOCATION[33]	frame\_LOCATION	
+8-7	853-861	tropskih	_	_	_	HAS\_LOCATION[33]	_	
+8-8	862-873	geografskih	_	_	_	HAS\_LOCATION[33]	_	
+8-9	874-881	širinah	_	_	_	HAS\_LOCATION[33]	_	
+8-10	882-884	so	_	_	_	HAS\_CAUSE[34]	_	
+8-11	885-895	intenzivna	_	_	_	HAS\_CAUSE[34]	_	
+8-12	896-914	evapotranspiracija	_	B.4 Transformation	_	HAS\_CAUSE[34]	_	
+8-13	915-917	in	_	_	_	HAS\_CAUSE[34]	_	
+8-14	918-930	zanemarljivo	_	_	_	HAS\_CAUSE[34]	_	
+8-15	931-939	mehansko	_	B.4 Transformation[8]	_	HAS\_CAUSE[34]	_	
+8-16	940-952	preperevanje	_	B.4 Transformation[8]	_	HAS\_CAUSE[34]	_	
+8-17	952-953	,	_	_	_	_	_	
+8-18	954-957	pri	_	_	_	_	_	
+8-19	958-963	čemer	_	_	_	_	_	
+8-20	964-966	je	_	_	_	_	_	
+8-21	967-975	mišljena	_	_	_	_	_	
+8-22	976-984	predvsem	_	_	_	_	_	
+8-23	985-994	odsotnost	_	_	_	_	_	
+8-24	995-1005	zmrzalnega	_	B.4 Transformation[9]	_	_	_	
+8-25	1006-1018	preperevanja	_	B.4 Transformation[9]	_	_	_	
+8-26	1018-1019	.	_	_	_	_	_	
+
+#Text=Mikroerodimeter je naprava, ki jo sestavljata podstavek in sonda.
+9-1	1020-1035	Mikroerodimeter	_	E.1 Instrument	DEFINIENDUM	_	_	
+9-2	1036-1038	je	_	_	DEFINITOR	_	_	
+9-3	1039-1046	naprava	_	_	GENUS	_	_	
+9-4	1046-1047	,	_	_	_	_	_	
+9-5	1048-1050	ki	_	_	_	_	_	
+9-6	1051-1053	jo	_	_	_	_	_	
+9-7	1054-1065	sestavljata	_	_	_	_	_	
+9-8	1066-1075	podstavek	_	E.1 Instrument	_	_	_	
+9-9	1076-1078	in	_	_	_	_	_	
+9-10	1079-1084	sonda	_	E.1 Instrument	_	_	_	
+9-11	1084-1085	.	_	_	_	_	_	
+
+#Text=Večje kamnito, gruščnato površje iz razpadlega kamenja, značilno za polgoli in goli kras, imenujemo griža.
+10-1	1086-1091	Večje	_	_	_	HAS\_SIZE	_	
+10-2	1092-1099	kamnito	_	_	_	_	_	
+10-3	1099-1100	,	_	_	_	_	_	
+10-4	1101-1110	gruščnato	_	_	GENUS[22]	HAS\_FORM	_	
+10-5	1111-1118	površje	_	D.1 Abiotic	GENUS[22]	_	_	
+10-6	1119-1121	iz	_	_	_	COMPOSITION\_MEDIUM[35]	frame\_COMPOSITION	
+10-7	1122-1132	razpadlega	_	_	_	COMPOSITION\_MEDIUM[35]	_	
+10-8	1133-1140	kamenja	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[35]	_	
+10-9	1140-1141	,	_	_	_	_	_	
+10-10	1142-1150	značilno	_	_	_	HAS\_LOCATION[36]	_	
+10-11	1151-1153	za	_	_	_	HAS\_LOCATION[36]	_	
+10-12	1154-1161	polgoli	polgoli kras	C. Geome	_	HAS\_LOCATION[36]	_	
+10-13	1162-1164	in	_	_	_	HAS\_LOCATION[36]	_	
+10-14	1165-1169	goli	_	C. Geome[10]	_	HAS\_LOCATION[36]	_	
+10-15	1170-1174	kras	_	C. Geome[10]	_	HAS\_LOCATION[36]	_	
+10-16	1174-1175	,	_	_	_	_	_	
+10-17	1176-1185	imenujemo	_	_	DEFINITOR	_	_	
+10-18	1186-1191	griža	_	A.1 Surface landform	DEFINIENDUM	_	_	
+10-19	1191-1192	.	_	_	_	_	_	
+
+#Text=Posebna oblika škrapelj so lašti.
+11-1	1193-1200	Posebna	_	_	_	_	_	
+11-2	1201-1207	oblika	_	_	_	_	_	
+11-3	1208-1216	škrapelj	_	A.1 Surface landform	GENUS	_	_	
+11-4	1217-1219	so	_	_	DEFINITOR	_	_	
+11-5	1220-1225	lašti	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-6	1225-1226	.	_	_	_	_	_	
+
+#Text=Večje kotanje, v tlorisu bolj nepravilnih oblik, imenujemo uvale.
+12-1	1227-1232	Večje	_	_	_	HAS\_SIZE	_	
+12-2	1233-1240	kotanje	_	D.1 Abiotic	GENUS	_	_	
+12-3	1240-1241	,	_	_	_	_	_	
+12-4	1242-1243	v	_	_	_	HAS\_FORM[37]	_	
+12-5	1244-1251	tlorisu	_	_	_	HAS\_FORM[37]	frame\_FORM	
+12-6	1252-1256	bolj	_	_	_	HAS\_FORM[37]	_	
+12-7	1257-1268	nepravilnih	_	_	_	HAS\_FORM[37]	_	
+12-8	1269-1274	oblik	_	_	_	HAS\_FORM[37]	_	
+12-9	1274-1275	,	_	_	_	_	_	
+12-10	1276-1285	imenujemo	_	_	DEFINITOR	_	_	
+12-11	1286-1291	uvale	_	A.1 Surface landform	DEFINIENDUM	_	_	
+12-12	1291-1292	.	_	_	_	_	_	
+
+#Text=Osnovni mehanizem nastanka udornic je rušenje jamskih stropov do površja oziroma udor.
+13-1	1293-1300	Osnovni	_	_	_	HAS\_RESULT[38]	_	
+13-2	1301-1310	mehanizem	_	_	_	HAS\_RESULT[38]	_	
+13-3	1311-1319	nastanka	_	_	_	HAS\_RESULT[38]	_	
+13-4	1320-1327	udornic	_	A.1 Surface landform	_	HAS\_RESULT[38]	_	
+13-5	1328-1330	je	_	_	DEFINITOR	_	_	
+13-6	1331-1338	rušenje	_	B.1 Movement	GENUS[23]	DEFINED\_AS[39]	_	
+13-7	1339-1346	jamskih	_	_	GENUS[23]	DEFINED\_AS[39]	_	
+13-8	1347-1354	stropov	_	_	GENUS[23]	DEFINED\_AS[39]	_	
+13-9	1355-1357	do	_	_	_	DEFINED\_AS[39]	_	
+13-10	1358-1365	površja	_	_	_	DEFINED\_AS[39]	_	
+13-11	1366-1373	oziroma	_	_	_	_	_	
+13-12	1374-1378	udor	_	B.1 Movement	DEFINIENDUM	_	_	
+13-13	1378-1379	.	_	_	_	_	_	
+
+#Text=Ime cockpit izhaja z Jamajke, saj naj bi bile kotanje podobne arenam za petelinje boje (območje stožčastega krasa v severnem in osrednjem delu Jamajke se imenuje Cockpit Country).
+14-1	1380-1383	Ime	_	_	_	_	_	
+14-2	1384-1391	cockpit	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-3	1392-1398	izhaja	_	_	_	_	_	
+14-4	1399-1400	z	_	D.3.1 Geolocation[11]	_	_	_	
+14-5	1401-1408	Jamajke	_	D.3.1 Geolocation[11]	_	_	_	
+14-6	1408-1409	,	_	_	_	_	_	
+14-7	1410-1413	saj	_	_	_	_	_	
+14-8	1414-1417	naj	_	_	_	_	_	
+14-9	1418-1420	bi	_	_	_	_	_	
+14-10	1421-1425	bile	_	_	_	_	_	
+14-11	1426-1433	kotanje	_	D.1 Abiotic	GENUS	DEFINED\_AS[40]	_	
+14-12	1434-1441	podobne	_	_	_	DEFINED\_AS[40]	_	
+14-13	1442-1448	arenam	_	_	_	DEFINED\_AS[40]	_	
+14-14	1449-1451	za	_	_	_	DEFINED\_AS[40]	_	
+14-15	1452-1461	petelinje	_	_	_	DEFINED\_AS[40]	_	
+14-16	1462-1466	boje	_	_	_	DEFINED\_AS[40]	_	
+14-17	1467-1468	(	_	_	_	_	_	
+14-18	1468-1475	območje	_	_	_	_	_	
+14-19	1476-1487	stožčastega	_	C. Geome[12]	_	_	_	
+14-20	1488-1493	krasa	_	C. Geome[12]	_	_	_	
+14-21	1494-1495	v	_	_	_	_	_	
+14-22	1496-1504	severnem	_	_	_	_	_	
+14-23	1505-1507	in	_	_	_	_	_	
+14-24	1508-1517	osrednjem	_	_	_	_	_	
+14-25	1518-1522	delu	_	_	_	_	_	
+14-26	1523-1530	Jamajke	_	D.3.1 Geolocation	_	_	_	
+14-27	1531-1533	se	_	_	_	_	_	
+14-28	1534-1541	imenuje	_	_	_	_	_	
+14-29	1542-1549	Cockpit	_	D.3.1 Geolocation[13]	_	_	_	
+14-30	1550-1557	Country	_	D.3.1 Geolocation[13]	_	_	_	
+14-31	1557-1558	)	_	_	_	_	_	
+14-32	1558-1559	.	_	_	_	_	_	
+
+#Text=Sufozija je proces spiranja drobnega materiala krovnine v kraške kanale.
+15-1	1560-1568	Sufozija	_	B.4 Transformation	DEFINIENDUM	_	_	
+15-2	1569-1571	je	_	_	DEFINITOR	_	_	
+15-3	1572-1578	proces	_	_	_	DEFINED\_AS[41]	_	
+15-4	1579-1587	spiranja	_	B.2 Loss	GENUS	DEFINED\_AS[41]	_	
+15-5	1588-1596	drobnega	_	_	_	DEFINED\_AS[41]	_	
+15-6	1597-1606	materiala	_	_	_	DEFINED\_AS[41]	_	
+15-7	1607-1615	krovnine	_	D.1 Abiotic	_	DEFINED\_AS[41]	_	
+15-8	1616-1617	v	_	_	_	HAS\_LOCATION[42]	frame\_LOCATION	
+15-9	1618-1624	kraške	_	A.2 Underground landform[14]	_	HAS\_LOCATION[42]	_	
+15-10	1625-1631	kanale	_	A.2 Underground landform[14]	_	HAS\_LOCATION[42]	_	
+15-11	1631-1632	.	_	_	_	_	_	

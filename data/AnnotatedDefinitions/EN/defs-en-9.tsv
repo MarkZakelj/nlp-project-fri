@@ -1,0 +1,394 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=The result is the so-called lampenflora, that is, green plants (generally algae, fern, moss) developing on cave walls or formations close to a light source.
+1-1	0-3	The	_	_	_	_	_	
+1-2	4-10	result	_	_	_	_	_	
+1-3	11-13	is	_	_	_	_	_	
+1-4	14-17	the	_	_	_	_	_	
+1-5	18-27	so-called	_	_	_	_	_	
+1-6	28-39	lampenflora	lampenflora	D.2 Biotic	DEFINIENDUM	_	_	
+1-7	39-40	,	_	_	_	_	_	
+1-8	41-45	that	_	_	DEFINITOR[20]	_	_	
+1-9	46-48	is	_	_	DEFINITOR[20]	_	_	
+1-10	48-49	,	_	_	DEFINITOR[20]	_	_	
+1-11	50-55	green	_	D.2 Biotic[1]	GENUS[21]	_	_	
+1-12	56-62	plants	_	D.2 Biotic[1]	GENUS[21]	_	_	
+1-13	63-64	(	_	_	_	_	_	
+1-14	64-73	generally	_	_	_	_	_	
+1-15	74-79	algae	_	D.2 Biotic	SPECIES	_	_	
+1-16	79-80	,	_	_	_	_	_	
+1-17	81-85	fern	_	D.2 Biotic	SPECIES	_	_	
+1-18	85-86	,	_	_	_	_	_	
+1-19	87-91	moss	_	D.2 Biotic	SPECIES	_	_	
+1-20	91-92	)	_	_	_	_	_	
+1-21	93-103	developing	_	_	_	_	frame\_LOCATION[77]	
+1-22	104-106	on	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION[77]	
+1-23	107-111	cave	_	A.2 Underground landform	_	HAS\_LOCATION[55]	_	
+1-24	112-117	walls	_	_	_	HAS\_LOCATION[55]	_	
+1-25	118-120	or	_	_	_	HAS\_LOCATION[55]	_	
+1-26	121-131	formations	_	_	_	HAS\_LOCATION[55]	_	
+1-27	132-137	close	_	_	_	HAS\_LOCATION[55]	_	
+1-28	138-140	to	_	_	_	HAS\_LOCATION[55]	_	
+1-29	141-142	a	_	_	_	HAS\_LOCATION[55]	_	
+1-30	143-148	light	_	_	_	HAS\_LOCATION[55]	_	
+1-31	149-155	source	_	_	_	HAS\_LOCATION[55]	_	
+1-32	155-156	.	_	_	_	HAS\_LOCATION[55]	_	
+
+#Text=Visitor capacity is defined as the number of visitors to a given cave over a given time period, which does not permanently change the environmental parameters beyond their natural fluctuation range.
+2-1	157-164	Visitor	_	D.3 Property[2]	DEFINIENDUM[22]	_	_	
+2-2	165-173	capacity	_	D.3 Property[2]	DEFINIENDUM[22]	_	_	
+2-3	174-176	is	_	_	DEFINITOR[23]	_	_	
+2-4	177-184	defined	_	_	DEFINITOR[23]	_	_	
+2-5	185-187	as	_	_	DEFINITOR[23]	_	_	
+2-6	188-191	the	_	_	GENUS[24]	_	_	
+2-7	192-198	number	_	_	GENUS[24]	DEFINED\_AS[56]	_	
+2-8	199-201	of	_	_	GENUS[24]	DEFINED\_AS[56]	_	
+2-9	202-210	visitors	_	_	GENUS[24]	DEFINED\_AS[56]	_	
+2-10	211-213	to	_	_	_	DEFINED\_AS[56]	_	
+2-11	214-215	a	_	_	_	DEFINED\_AS[56]	_	
+2-12	216-221	given	_	_	_	DEFINED\_AS[56]	_	
+2-13	222-226	cave	_	A.2 Underground landform	_	DEFINED\_AS[56]	_	
+2-14	227-231	over	_	_	_	DEFINED\_AS[56]	_	
+2-15	232-233	a	_	_	_	DEFINED\_AS[56]	_	
+2-16	234-239	given	_	_	_	DEFINED\_AS[56]	_	
+2-17	240-244	time	_	_	_	DEFINED\_AS[56]	_	
+2-18	245-251	period	_	_	_	DEFINED\_AS[56]	_	
+2-19	251-252	,	_	_	_	DEFINED\_AS[56]	_	
+2-20	253-258	which	_	_	_	DEFINED\_AS[56]	_	
+2-21	259-263	does	_	_	_	DEFINED\_AS[56]	_	
+2-22	264-267	not	_	_	_	DEFINED\_AS[56]	_	
+2-23	268-279	permanently	_	_	_	DEFINED\_AS[56]	_	
+2-24	280-286	change	_	_	_	DEFINED\_AS[56]	_	
+2-25	287-290	the	_	_	_	DEFINED\_AS[56]	_	
+2-26	291-304	environmental	_	D.3 Property[3]	_	DEFINED\_AS[56]	_	
+2-27	305-315	parameters	_	D.3 Property[3]	_	DEFINED\_AS[56]	_	
+2-28	316-322	beyond	_	_	_	DEFINED\_AS[56]	_	
+2-29	323-328	their	_	_	_	DEFINED\_AS[56]	_	
+2-30	329-336	natural	_	_	_	DEFINED\_AS[56]	_	
+2-31	337-348	fluctuation	_	_	_	DEFINED\_AS[56]	_	
+2-32	349-354	range	_	_	_	DEFINED\_AS[56]	_	
+2-33	354-355	.	_	_	_	_	_	
+
+#Text=Allogeneic waters are defined as stream flow derived from nonlocal sources.
+3-1	356-366	Allogeneic	_	D.1 Abiotic[4]	DEFINIENDUM[25]	_	_	
+3-2	367-373	waters	_	D.1 Abiotic[4]	DEFINIENDUM[25]	_	_	
+3-3	374-377	are	_	_	DEFINITOR[26]	_	_	
+3-4	378-385	defined	_	_	DEFINITOR[26]	_	_	
+3-5	386-388	as	_	_	DEFINITOR[26]	_	_	
+3-6	389-395	stream	_	D.1 Abiotic[5]	GENUS[27]	DEFINED\_AS[57]	_	
+3-7	396-400	flow	_	D.1 Abiotic[5]	GENUS[27]	DEFINED\_AS[57]	_	
+3-8	401-408	derived	_	_	_	DEFINED\_AS[57]|HAS\_CAUSE[58]	frame\_CAUSE[78]	
+3-9	409-413	from	_	_	_	DEFINED\_AS[57]|HAS\_CAUSE[58]	frame\_CAUSE[78]	
+3-10	414-422	nonlocal	_	_	_	DEFINED\_AS[57]|HAS\_CAUSE[58]	_	
+3-11	423-430	sources	_	_	_	DEFINED\_AS[57]|HAS\_CAUSE[58]	_	
+3-12	430-431	.	_	_	_	_	_	
+
+#Text=Base level refers to sea level or the lowest level of master stream erosion.
+4-1	432-436	Base	_	D.3 Property[6]	DEFINIENDUM[28]	_	_	
+4-2	437-442	level	_	D.3 Property[6]	DEFINIENDUM[28]	_	_	
+4-3	443-449	refers	_	_	DEFINITOR[29]	_	_	
+4-4	450-452	to	_	_	DEFINITOR[29]	_	_	
+4-5	453-456	sea	_	D.3 Property[7]	GENUS[30]	DEFINED\_AS[59]	_	
+4-6	457-462	level	_	D.3 Property[7]	GENUS[30]	DEFINED\_AS[59]	_	
+4-7	463-465	or	_	_	_	DEFINED\_AS[59]	_	
+4-8	466-469	the	_	_	GENUS[31]	DEFINED\_AS[59]	_	
+4-9	470-476	lowest	_	_	GENUS[31]	DEFINED\_AS[59]	_	
+4-10	477-482	level	_	_	GENUS[31]	DEFINED\_AS[59]	_	
+4-11	483-485	of	_	_	GENUS[31]	DEFINED\_AS[59]	_	
+4-12	486-492	master	_	_	GENUS[31]	DEFINED\_AS[59]	_	
+4-13	493-499	stream	_	_	GENUS[31]	DEFINED\_AS[59]	_	
+4-14	500-507	erosion	_	B.2 Loss	GENUS[31]	DEFINED\_AS[59]	_	
+4-15	507-508	.	_	_	_	_	_	
+
+#Text=A cover-collapse sinkhole is a subtype of a subsidence sinkhole.
+5-1	509-510	A	_	_	_	_	_	
+5-2	511-525	cover-collapse	_	A.1 Surface landform[8]	DEFINIENDUM[32]	_	_	
+5-3	526-534	sinkhole	_	A.1 Surface landform[8]	DEFINIENDUM[32]	_	_	
+5-4	535-537	is	_	_	DEFINITOR[33]	_	_	
+5-5	538-539	a	_	_	DEFINITOR[33]	_	_	
+5-6	540-547	subtype	_	_	DEFINITOR[33]	_	_	
+5-7	548-550	of	_	_	DEFINITOR[33]	_	_	
+5-8	551-552	a	_	_	_	_	_	
+5-9	553-563	subsidence	_	A.1 Surface landform[9]	GENUS[34]	_	_	
+5-10	564-572	sinkhole	_	A.1 Surface landform[9]	GENUS[34]	_	_	
+5-11	572-573	.	_	_	_	_	_	
+
+#Text=According to European usage, suffosion dolines are small depressions usually only a few meters in diameter and depth.
+6-1	574-583	According	_	_	_	_	_	
+6-2	584-586	to	_	_	_	_	_	
+6-3	587-595	European	_	_	_	_	_	
+6-4	596-601	usage	_	_	_	_	_	
+6-5	601-602	,	_	_	_	_	_	
+6-6	603-612	suffosion	_	A.1 Surface landform[10]	DEFINIENDUM[35]	_	_	
+6-7	613-620	dolines	_	A.1 Surface landform[10]	DEFINIENDUM[35]	_	_	
+6-8	621-624	are	_	_	DEFINITOR	_	_	
+6-9	625-630	small	_	_	_	HAS\_SIZE	_	
+6-10	631-642	depressions	_	A.1 Surface landform	GENUS	HAS\_FORM	_	
+6-11	643-650	usually	_	_	_	HAS\_SIZE[60]	_	
+6-12	651-655	only	_	_	_	HAS\_SIZE[60]	_	
+6-13	656-657	a	_	_	_	HAS\_SIZE[60]	_	
+6-14	658-661	few	_	_	_	HAS\_SIZE[60]	_	
+6-15	662-668	meters	_	_	_	HAS\_SIZE[60]	_	
+6-16	669-671	in	_	_	_	HAS\_SIZE[60]	frame\_SIZE[79]	
+6-17	672-680	diameter	_	_	_	HAS\_SIZE[60]	frame\_SIZE[79]	
+6-18	681-684	and	_	_	_	HAS\_SIZE[60]	frame\_SIZE[79]	
+6-19	685-690	depth	_	_	_	HAS\_SIZE[60]	frame\_SIZE[79]	
+6-20	690-691	.	_	_	_	_	_	
+
+#Text=According to this concept, a sinkhole is part of a long-term process and it may have different forms and surface expressions at different times.
+7-1	692-701	According	_	_	_	_	_	
+7-2	702-704	to	_	_	_	_	_	
+7-3	705-709	this	_	_	_	_	_	
+7-4	710-717	concept	_	_	_	_	_	
+7-5	717-718	,	_	_	_	_	_	
+7-6	719-720	a	_	_	_	_	_	
+7-7	721-729	sinkhole	_	A.1 Surface landform	DEFINIENDUM	_	_	
+7-8	730-732	is	_	_	DEFINITOR[36]	_	_	
+7-9	733-737	part	_	_	DEFINITOR[36]	_	_	
+7-10	738-740	of	_	_	DEFINITOR[36]	_	_	
+7-11	741-742	a	_	_	DEFINITOR[36]	_	_	
+7-12	743-752	long-term	_	_	_	_	_	
+7-13	753-760	process	_	_	GENUS	_	_	
+7-14	761-764	and	_	_	_	_	_	
+7-15	765-767	it	_	_	_	_	_	
+7-16	768-771	may	_	_	_	HAS\_FORM[61]	frame\_FORM[80]	
+7-17	772-776	have	_	_	_	HAS\_FORM[61]	frame\_FORM[80]	
+7-18	777-786	different	_	_	_	HAS\_FORM[61]	frame\_FORM[80]	
+7-19	787-792	forms	_	_	_	HAS\_FORM[61]	_	
+7-20	793-796	and	_	_	_	HAS\_FORM[61]	_	
+7-21	797-804	surface	_	_	_	HAS\_FORM[61]	_	
+7-22	805-816	expressions	_	_	_	HAS\_FORM[61]	_	
+7-23	817-819	at	_	_	_	_	_	
+7-24	820-829	different	_	_	_	_	_	
+7-25	830-835	times	_	_	_	_	_	
+7-26	835-836	.	_	_	_	_	_	
+
+#Text=A cave system is a group of several interconnected caves explored separately and later joined by the discovery of interconnecting passages.
+8-1	837-838	A	_	_	_	_	_	
+8-2	839-843	cave	_	A.2 Underground landform[11]	DEFINIENDUM[37]	_	_	
+8-3	844-850	system	_	A.2 Underground landform[11]	DEFINIENDUM[37]	_	_	
+8-4	851-853	is	_	_	DEFINITOR[38]	_	_	
+8-5	854-855	a	_	_	DEFINITOR[38]	DEFINED\_AS[62]	_	
+8-6	856-861	group	_	_	DEFINITOR[38]	DEFINED\_AS[62]	_	
+8-7	862-864	of	_	_	DEFINITOR[38]	DEFINED\_AS[62]	_	
+8-8	865-872	several	_	_	GENUS[39]	DEFINED\_AS[62]	_	
+8-9	873-887	interconnected	_	_	GENUS[39]	DEFINED\_AS[62]	_	
+8-10	888-893	caves	_	A.2 Underground landform	GENUS[39]	DEFINED\_AS[62]	_	
+8-11	894-902	explored	_	_	_	DEFINED\_AS[62]	_	
+8-12	903-913	separately	_	_	_	DEFINED\_AS[62]	_	
+8-13	914-917	and	_	_	_	DEFINED\_AS[62]	_	
+8-14	918-923	later	_	_	_	DEFINED\_AS[62]	_	
+8-15	924-930	joined	_	_	_	DEFINED\_AS[62]	_	
+8-16	931-933	by	_	_	_	DEFINED\_AS[62]	_	
+8-17	934-937	the	_	_	_	DEFINED\_AS[62]	_	
+8-18	938-947	discovery	_	_	_	DEFINED\_AS[62]	_	
+8-19	948-950	of	_	_	_	DEFINED\_AS[62]	_	
+8-20	951-966	interconnecting	_	_	_	DEFINED\_AS[62]	_	
+8-21	967-975	passages	_	A.2 Underground landform	_	DEFINED\_AS[62]	_	
+8-22	975-976	.	_	_	_	_	_	
+
+#Text=Hypogene speleogenesis is defined as the formation of solution-enlarged permeability structures by water that recharges the cavernous zone from below, independent of recharge from the overlying or immediately adjacent surface (Ford, 2006; Klimchouk, 2007).
+9-1	977-985	Hypogene	_	B. Process[12]	DEFINIENDUM[40]	_	_	
+9-2	986-999	speleogenesis	_	B. Process[12]	DEFINIENDUM[40]	_	_	
+9-3	1000-1002	is	_	_	DEFINITOR[41]	_	_	
+9-4	1003-1010	defined	_	_	DEFINITOR[41]	_	_	
+9-5	1011-1013	as	_	_	DEFINITOR[41]	_	_	
+9-6	1014-1017	the	_	_	_	_	_	
+9-7	1018-1027	formation	_	B. Process	GENUS[42]	DEFINED\_AS[63]	_	
+9-8	1028-1030	of	_	_	GENUS[42]	DEFINED\_AS[63]	_	
+9-9	1031-1048	solution-enlarged	_	_	GENUS[42]	DEFINED\_AS[63]	_	
+9-10	1049-1061	permeability	_	_	GENUS[42]	DEFINED\_AS[63]	_	
+9-11	1062-1072	structures	_	_	GENUS[42]	DEFINED\_AS[63]	_	
+9-12	1073-1075	by	_	_	_	DEFINED\_AS[63]	_	
+9-13	1076-1081	water	_	D.1 Abiotic	_	DEFINED\_AS[63]|HAS\_CAUSE[64]	_	
+9-14	1082-1086	that	_	_	_	HAS\_CAUSE[64]	_	
+9-15	1087-1096	recharges	_	_	_	HAS\_CAUSE[64]	_	
+9-16	1097-1100	the	_	_	_	HAS\_CAUSE[64]	_	
+9-17	1101-1110	cavernous	_	_	_	HAS\_CAUSE[64]	_	
+9-18	1111-1115	zone	_	_	_	HAS\_CAUSE[64]	_	
+9-19	1116-1120	from	_	_	_	HAS\_CAUSE[64]	_	
+9-20	1121-1126	below	_	_	_	HAS\_CAUSE[64]	_	
+9-21	1126-1127	,	_	_	_	HAS\_CAUSE[64]	_	
+9-22	1128-1139	independent	_	_	_	HAS\_CAUSE[64]	_	
+9-23	1140-1142	of	_	_	_	HAS\_CAUSE[64]	_	
+9-24	1143-1151	recharge	_	B.3 Addition	_	HAS\_CAUSE[64]	_	
+9-25	1152-1156	from	_	_	_	HAS\_CAUSE[64]	_	
+9-26	1157-1160	the	_	_	_	HAS\_CAUSE[64]	_	
+9-27	1161-1170	overlying	_	_	_	HAS\_CAUSE[64]	_	
+9-28	1171-1173	or	_	_	_	HAS\_CAUSE[64]	_	
+9-29	1174-1185	immediately	_	_	_	HAS\_CAUSE[64]	_	
+9-30	1186-1194	adjacent	_	_	_	HAS\_CAUSE[64]	_	
+9-31	1195-1202	surface	_	_	_	HAS\_CAUSE[64]	_	
+9-32	1203-1204	(	_	_	_	_	_	
+9-33	1204-1208	Ford	_	_	_	_	_	
+9-34	1208-1209	,	_	_	_	_	_	
+9-35	1210-1214	2006	_	_	_	_	_	
+9-36	1214-1215	;	_	_	_	_	_	
+9-37	1216-1225	Klimchouk	_	_	_	_	_	
+9-38	1225-1226	,	_	_	_	_	_	
+9-39	1227-1231	2007	_	_	_	_	_	
+9-40	1231-1232	)	_	_	_	_	_	
+9-41	1232-1233	.	_	_	_	_	_	
+
+#Text=Fossil vertically extended collapse features known as breccia pipes, collapse columns, or geologic organs, and also termed vertical through structures, are a common by-product of hypogene speleogenesis in a variety of geological settings.
+10-1	1234-1240	Fossil	_	_	_	_	_	
+10-2	1241-1251	vertically	_	_	GENUS[43]	HAS\_FORM[65]	_	
+10-3	1252-1260	extended	_	_	GENUS[43]	HAS\_FORM[65]	_	
+10-4	1261-1269	collapse	_	_	GENUS[43]	HAS\_FORM[65]	_	
+10-5	1270-1278	features	_	_	GENUS[43]	HAS\_FORM[65]	_	
+10-6	1279-1284	known	_	_	DEFINITOR[44]	_	_	
+10-7	1285-1287	as	_	_	DEFINITOR[44]	_	_	
+10-8	1288-1295	breccia	_	A.2 Underground landform[13]	SPECIES[45]	_	_	
+10-9	1296-1301	pipes	_	A.2 Underground landform[13]	SPECIES[45]	_	_	
+10-10	1301-1302	,	_	_	_	_	_	
+10-11	1303-1311	collapse	_	A.2 Underground landform[14]	SPECIES[46]	_	_	
+10-12	1312-1319	columns	_	A.2 Underground landform[14]	SPECIES[46]	_	_	
+10-13	1319-1320	,	_	_	_	_	_	
+10-14	1321-1323	or	_	_	_	_	_	
+10-15	1324-1332	geologic	_	A.2 Underground landform[15]	SPECIES[47]	_	_	
+10-16	1333-1339	organs	_	A.2 Underground landform[15]	SPECIES[47]	_	_	
+10-17	1339-1340	,	_	_	_	_	_	
+10-18	1341-1344	and	_	_	_	_	_	
+10-19	1345-1349	also	_	_	DEFINITOR[48]	_	_	
+10-20	1350-1356	termed	_	_	DEFINITOR[48]	_	_	
+10-21	1357-1365	vertical	_	A.2 Underground landform[16]	DEFINIENDUM[49]	_	_	
+10-22	1366-1373	through	_	A.2 Underground landform[16]	DEFINIENDUM[49]	_	_	
+10-23	1374-1384	structures	_	A.2 Underground landform[16]	DEFINIENDUM[49]	_	_	
+10-24	1384-1385	,	_	_	_	_	_	
+10-25	1386-1389	are	_	_	_	_	_	
+10-26	1390-1391	a	_	_	_	_	_	
+10-27	1392-1398	common	_	_	_	_	_	
+10-28	1399-1409	by-product	_	_	_	HAS\_CAUSE[66]	frame\_CAUSE[81]	
+10-29	1410-1412	of	_	_	_	HAS\_CAUSE[66]	frame\_CAUSE[81]	
+10-30	1413-1421	hypogene	_	B. Process[17]	_	HAS\_CAUSE[66]	_	
+10-31	1422-1435	speleogenesis	_	B. Process[17]	_	HAS\_CAUSE[66]	_	
+10-32	1436-1438	in	_	_	_	_	_	
+10-33	1439-1440	a	_	_	_	_	_	
+10-34	1441-1448	variety	_	_	_	_	_	
+10-35	1449-1451	of	_	_	_	_	_	
+10-36	1452-1462	geological	_	_	_	_	_	
+10-37	1463-1471	settings	_	_	_	_	_	
+10-38	1471-1472	.	_	_	_	_	_	
+
+#Text=Speleogenesis is a result of dissolution of soluble rocks by groundwater.
+11-1	1473-1486	Speleogenesis	_	B.4 Transformation	DEFINIENDUM	_	_	
+11-2	1487-1489	is	_	_	DEFINITOR[50]	_	_	
+11-3	1490-1491	a	_	_	DEFINITOR[50]	_	frame\_CAUSE[82]	
+11-4	1492-1498	result	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[82]	
+11-5	1499-1501	of	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[82]	
+11-6	1502-1513	dissolution	_	B.4 Transformation	_	HAS\_CAUSE[67]	_	
+11-7	1514-1516	of	_	_	_	HAS\_CAUSE[67]	_	
+11-8	1517-1524	soluble	_	_	_	HAS\_CAUSE[67]	_	
+11-9	1525-1530	rocks	_	_	_	HAS\_CAUSE[67]	_	
+11-10	1531-1533	by	_	_	_	HAS\_CAUSE[67]	_	
+11-11	1534-1545	groundwater	_	D.1 Abiotic	_	HAS\_CAUSE[67]	_	
+11-12	1545-1546	.	_	_	_	_	_	
+
+#Text=Speleothems are deposits of secondary minerals (such as calcite) that form on the ceilings, walls, and floors of caves.
+12-1	1547-1558	Speleothems	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1559-1562	are	_	_	DEFINITOR	_	_	
+12-3	1563-1571	deposits	_	D.1 Abiotic	GENUS	_	_	
+12-4	1572-1574	of	_	_	_	_	_	
+12-5	1575-1584	secondary	_	_	_	_	_	
+12-6	1585-1593	minerals	_	D.1 Abiotic	_	_	_	
+12-7	1594-1595	(	_	_	_	_	_	
+12-8	1595-1599	such	_	_	_	_	_	
+12-9	1600-1602	as	_	_	_	_	_	
+12-10	1603-1610	calcite	_	D.1 Abiotic	_	_	_	
+12-11	1610-1611	)	_	_	_	_	_	
+12-12	1612-1616	that	_	_	_	_	_	
+12-13	1617-1621	form	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[83]	
+12-14	1622-1624	on	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[83]	
+12-15	1625-1628	the	_	_	_	HAS\_LOCATION[68]	frame\_LOCATION[83]	
+12-16	1629-1637	ceilings	_	_	_	HAS\_LOCATION[68]	_	
+12-17	1637-1638	,	_	_	_	HAS\_LOCATION[68]	_	
+12-18	1639-1644	walls	_	_	_	HAS\_LOCATION[68]	_	
+12-19	1644-1645	,	_	_	_	HAS\_LOCATION[68]	_	
+12-20	1646-1649	and	_	_	_	HAS\_LOCATION[68]	_	
+12-21	1650-1656	floors	_	_	_	HAS\_LOCATION[68]	_	
+12-22	1657-1659	of	_	_	_	HAS\_LOCATION[68]	_	
+12-23	1660-1665	caves	_	A.2 Underground landform	_	HAS\_LOCATION[68]	_	
+12-24	1665-1666	.	_	_	_	HAS\_LOCATION[68]	_	
+
+#Text=Straw stalactites are hollow tubes, about 5 mm in diameter, and are often very coarsely crystalline with the straw axis corresponding to the c-axis direction of the calcite crystals.
+13-1	1667-1672	Straw	_	A.2 Underground landform[18]	DEFINIENDUM[51]	_	_	
+13-2	1673-1684	stalactites	_	A.2 Underground landform[18]	DEFINIENDUM[51]	_	_	
+13-3	1685-1688	are	_	_	DEFINITOR	_	_	
+13-4	1689-1695	hollow	_	_	GENUS[52]	HAS\_FORM[69]	_	
+13-5	1696-1701	tubes	_	D.1 Abiotic	GENUS[52]	HAS\_FORM[69]	_	
+13-6	1701-1702	,	_	_	_	_	_	
+13-7	1703-1708	about	_	_	_	HAS\_SIZE[70]	_	
+13-8	1709-1710	5	_	_	_	HAS\_SIZE[70]	_	
+13-9	1711-1713	mm	_	_	_	HAS\_SIZE[70]	_	
+13-10	1714-1716	in	_	_	_	HAS\_SIZE[70]	frame\_SIZE[84]	
+13-11	1717-1725	diameter	_	_	_	HAS\_SIZE[70]	frame\_SIZE[84]	
+13-12	1725-1726	,	_	_	_	_	_	
+13-13	1727-1730	and	_	_	_	_	_	
+13-14	1731-1734	are	_	_	_	_	_	
+13-15	1735-1740	often	_	_	_	HAS\_FORM[71]	_	
+13-16	1741-1745	very	_	_	_	HAS\_FORM[71]	_	
+13-17	1746-1754	coarsely	_	_	_	HAS\_FORM[71]	_	
+13-18	1755-1766	crystalline	_	_	_	HAS\_FORM[71]	_	
+13-19	1767-1771	with	_	_	_	HAS\_FORM[71]	_	
+13-20	1772-1775	the	_	_	_	HAS\_FORM[71]	_	
+13-21	1776-1781	straw	_	_	_	HAS\_FORM[71]	_	
+13-22	1782-1786	axis	_	_	_	HAS\_FORM[71]	_	
+13-23	1787-1800	corresponding	_	_	_	HAS\_FORM[71]	_	
+13-24	1801-1803	to	_	_	_	HAS\_FORM[71]	_	
+13-25	1804-1807	the	_	_	_	HAS\_FORM[71]	_	
+13-26	1808-1814	c-axis	_	_	_	HAS\_FORM[71]	_	
+13-27	1815-1824	direction	_	_	_	HAS\_FORM[71]	_	
+13-28	1825-1827	of	_	_	_	HAS\_FORM[71]	_	
+13-29	1828-1831	the	_	_	_	HAS\_FORM[71]	_	
+13-30	1832-1839	calcite	_	_	_	HAS\_FORM[71]	_	
+13-31	1840-1848	crystals	_	_	_	HAS\_FORM[71]	_	
+13-32	1848-1849	.	_	_	_	_	_	
+
+#Text=Helictites are an erratic stalactite-like form that occurs when seepage rates are too slow for complete drops to form.
+14-1	1850-1860	Helictites	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	1861-1864	are	_	_	DEFINITOR	_	_	
+14-3	1865-1867	an	_	_	_	_	_	
+14-4	1868-1875	erratic	_	_	_	HAS\_FORM[72]	_	
+14-5	1876-1891	stalactite-like	_	_	GENUS[53]	HAS\_FORM[72]	_	
+14-6	1892-1896	form	_	_	GENUS[53]	HAS\_FORM[72]	_	
+14-7	1897-1901	that	_	_	_	_	_	
+14-8	1902-1908	occurs	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[85]	
+14-9	1909-1913	when	_	_	_	HAS\_CAUSE[73]	frame\_CAUSE[85]	
+14-10	1914-1921	seepage	_	_	_	HAS\_CAUSE[73]	_	
+14-11	1922-1927	rates	_	_	_	HAS\_CAUSE[73]	_	
+14-12	1928-1931	are	_	_	_	HAS\_CAUSE[73]	_	
+14-13	1932-1935	too	_	_	_	HAS\_CAUSE[73]	_	
+14-14	1936-1940	slow	_	_	_	HAS\_CAUSE[73]	_	
+14-15	1941-1944	for	_	_	_	HAS\_CAUSE[73]	_	
+14-16	1945-1953	complete	_	_	_	HAS\_CAUSE[73]	_	
+14-17	1954-1959	drops	_	_	_	HAS\_CAUSE[73]	_	
+14-18	1960-1962	to	_	_	_	HAS\_CAUSE[73]	_	
+14-19	1963-1967	form	_	_	_	HAS\_CAUSE[73]	_	
+14-20	1967-1968	.	_	_	_	_	_	
+
+#Text=Cave pearls are near-spherical, unattached speleothem hat form in pools agitated by water dripping from considerable heights.
+15-1	1969-1973	Cave	_	A.2 Underground landform[19]	DEFINIENDUM[54]	_	_	
+15-2	1974-1980	pearls	_	A.2 Underground landform[19]	DEFINIENDUM[54]	_	_	
+15-3	1981-1984	are	_	_	DEFINITOR	_	_	
+15-4	1985-1999	near-spherical	_	_	_	HAS\_FORM[74]	_	
+15-5	1999-2000	,	_	_	_	HAS\_FORM[74]	_	
+15-6	2001-2011	unattached	_	_	_	HAS\_FORM[74]	_	
+15-7	2012-2022	speleothem	_	A.2 Underground landform	GENUS	HAS\_FORM[74]	_	
+15-8	2023-2026	hat	_	_	_	_	_	
+15-9	2027-2031	form	_	_	_	HAS\_LOCATION[75]	frame\_LOCATION[86]	
+15-10	2032-2034	in	_	_	_	HAS\_LOCATION[75]	frame\_LOCATION[86]	
+15-11	2035-2040	pools	_	D.1 Abiotic	_	HAS\_LOCATION[75]	_	
+15-12	2041-2049	agitated	_	_	_	HAS\_CAUSE[76]	frame\_CAUSE[87]	
+15-13	2050-2052	by	_	_	_	HAS\_CAUSE[76]	frame\_CAUSE[87]	
+15-14	2053-2058	water	_	D.1 Abiotic	_	HAS\_CAUSE[76]	_	
+15-15	2059-2067	dripping	_	_	_	HAS\_CAUSE[76]	_	
+15-16	2068-2072	from	_	_	_	HAS\_CAUSE[76]	_	
+15-17	2073-2085	considerable	_	_	_	HAS\_CAUSE[76]	_	
+15-18	2086-2093	heights	_	_	_	HAS\_CAUSE[76]	_	
+15-19	2093-2094	.	_	_	_	_	_	

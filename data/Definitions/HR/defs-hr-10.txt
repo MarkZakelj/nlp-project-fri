@@ -1,0 +1,14 @@
+﻿doma: 1 Visoko okno u dvorani špilje ili prolaz formiran otapanjem. 2 Velika polukuglasta šupljina u svodu špilje formirana pucanjem stijena svoda ili njihovim mehaničkim trošenjem.
+domepit: Zastarjeli izraz za vertikalno okno u špilji. zavjesa, draperija: Pločasta ili valovita siga koja visi sa stropa špilje ili zidova i nalikuje zavjesi. 
+kamen kapanja: Opći izraz za naslage kalcita ili drugim minerala koje su formirane kapanjem vode u špiljama, uključujući stalagmite i stalaktite. 
+suha špilja: Špilja kojom ne teče voda, ali može biti prisutna voda koja kaplje.
+gnjurište: Mjesto u kanalu na kojem se voda nalazi tako blizu svoda špilje da se može proći samo ronjenjem.
+ekscentrik: Siga neprirodnog oblika ili obilježja.
+izvor: Mjesto izviranja krške vode iz akvifera.
+izvorišna špilja: Ulaz u špilju s izvorom vodotoka koji iz nje istječe.
+izviranje: Točka u krškoj regiji u kojoj podzemni vodotok izbija na površinu i dalje teče kao površinski vodotok.
+endokrš: Gornji dio krškog sistema ispod površine, sa slobodnom drenažom vode plus područje ispod razine vode. Uključuje sve podzemne šupljine i elemente otapanja koji su prisutni u okolnim stijenama.
+ulazna zona: Kod špilja, prijelaz između površine i podzemnih okoliša koji vodi u zonu sumraka.
+eogenetski krš: Produkt modifikacije otpanjem mlađih stijena koje su bile izložene meteorskoj dijagenezi, ubrzo nakon taloženja (Vacher i Mylroie, 2002).
+epigena špilja: Špilja nastala otapanjem vodom koja sadrži ugljični dioksid i koja potiče iz površinskih izvora ili izvora koji se nalaze blizu površine. (Palmer, 1991).
+epikrš: Relativno debeli dio krša (debljine 15 do 30 m), neposredno ispod sloja tla, a karakteriziran je ekstremnim frakturiranjem i pojačanim otapanjem. Odvojen je od freatske zone neaktivnim, relativno bezvodnim intervalom u kojem se lokalno može odvijati procjeđivanje. Mjestimično se mogu javiti rezevoari sa značajnim količinama vode i sustavi transporta vode (Williams, 1983)

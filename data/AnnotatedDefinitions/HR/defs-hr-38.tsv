@@ -1,0 +1,695 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=urušavanje  – prolom pokrova nad podzemnom šupljinom, koja je nastala korozijskim i erozijskim utjecajem protočnih voda ili sufozijom (v.) podloge.
+1-1	0-10	urušavanje	_	B.1 Movement	DEFINIENDUM	_	_	
+1-2	12-13	–	_	_	_	_	_	
+1-3	14-20	prolom	_	_	_	DEFINED\_AS[41]	_	
+1-4	21-28	pokrova	_	_	_	DEFINED\_AS[41]	_	
+1-5	29-32	nad	_	_	_	HAS\_LOCATION[42]	_	
+1-6	33-42	podzemnom	_	A.2 Underground landform[2]	_	HAS\_LOCATION[42]	_	
+1-7	43-52	šupljinom	_	A.2 Underground landform[2]	_	HAS\_LOCATION[42]	_	
+1-8	52-53	,	_	_	_	_	_	
+1-9	54-58	koja	_	_	_	_	_	
+1-10	59-61	je	_	_	_	_	_	
+1-11	62-69	nastala	_	_	_	_	_	
+1-12	70-81	korozijskim	_	_	_	_	_	
+1-13	82-83	i	_	_	_	_	_	
+1-14	84-94	erozijskim	_	_	_	_	_	
+1-15	95-104	utjecajem	_	_	_	_	_	
+1-16	105-114	protočnih	_	_	_	_	_	
+1-17	115-119	voda	_	_	_	_	_	
+1-18	120-123	ili	_	_	_	_	_	
+1-19	124-133	sufozijom	_	_	_	_	_	
+1-20	134-135	(	_	_	_	_	_	
+1-21	135-136	v	_	_	_	_	_	
+1-22	136-137	.	_	_	_	_	_	
+1-23	137-138	)	_	_	_	_	_	
+1-24	139-146	podloge	_	_	_	_	_	
+1-25	146-147	.	_	_	_	_	_	
+
+#Text=vadozna voda – voda koja se procjeđuje od površine do temeljnice. U kršu v. v. ponire i prokapljuje do podzemnih protočnih sustava ili nakupina stagnirajuće vode.
+2-1	149-156	vadozna	_	D.1 Abiotic[3]	DEFINIENDUM[23]	_	_	
+2-2	157-161	voda	_	D.1 Abiotic[3]	DEFINIENDUM[23]	_	_	
+2-3	162-163	–	_	_	_	_	_	
+2-4	164-168	voda	_	D.1 Abiotic	GENUS	_	_	
+2-5	169-173	koja	_	_	_	_	_	
+2-6	174-176	se	_	_	_	HAS\_FUNCTION[43]	_	
+2-7	177-187	procjeđuje	_	_	_	HAS\_FUNCTION[43]	_	
+2-8	188-190	od	_	_	_	HAS\_FUNCTION[43]	_	
+2-9	191-199	površine	_	_	_	HAS\_FUNCTION[43]	_	
+2-10	200-202	do	_	_	_	HAS\_FUNCTION[43]	_	
+2-11	203-213	temeljnice	_	_	_	HAS\_FUNCTION[43]	_	
+2-12	213-214	.	_	_	_	_	_	
+2-13	215-216	U	_	_	_	_	_	
+2-14	217-221	kršu	_	_	_	_	_	
+2-15	222-223	v	_	_	_	_	_	
+2-16	223-224	.	_	_	_	_	_	
+2-17	225-226	v	_	_	_	_	_	
+2-18	226-227	.	_	_	_	_	_	
+2-19	228-234	ponire	_	_	_	HAS\_FUNCTION[44]	_	
+2-20	235-236	i	_	_	_	HAS\_FUNCTION[44]	_	
+2-21	237-248	prokapljuje	_	_	_	HAS\_FUNCTION[44]	_	
+2-22	249-251	do	_	_	_	HAS\_FUNCTION[44]	_	
+2-23	252-261	podzemnih	_	_	_	HAS\_FUNCTION[44]	_	
+2-24	262-271	protočnih	_	_	_	HAS\_FUNCTION[44]	_	
+2-25	272-279	sustava	_	_	_	HAS\_FUNCTION[44]	_	
+2-26	280-283	ili	_	_	_	HAS\_FUNCTION[44]	_	
+2-27	284-292	nakupina	_	_	_	HAS\_FUNCTION[44]	_	
+2-28	293-305	stagnirajuće	_	_	_	HAS\_FUNCTION[44]	_	
+2-29	306-310	vode	_	_	_	HAS\_FUNCTION[44]	_	
+2-30	310-311	.	_	_	_	_	_	
+
+#Text=vapnenac – sedimentna stijena organogenog, kemijskog i klastičnog podrijetla, u čijem sastavu kalcijev karbonat (CaCO3) sudjeluje s preko 50%. Vapnenac je glavna stijena na kojoj se vrši krški proces (v. okršavanje).
+3-1	313-321	vapnenac	_	D.1 Abiotic	DEFINIENDUM	_	_	
+3-2	322-323	–	_	_	_	_	_	
+3-3	324-334	sedimentna	_	D.1 Abiotic[4]	GENUS[24]	_	_	
+3-4	335-342	stijena	_	D.1 Abiotic[4]	GENUS[24]	_	_	
+3-5	343-354	organogenog	_	_	_	HAS\_CAUSE[45]	_	
+3-6	354-355	,	_	_	_	HAS\_CAUSE[45]	_	
+3-7	356-365	kemijskog	_	_	_	HAS\_CAUSE[45]	_	
+3-8	366-367	i	_	_	_	HAS\_CAUSE[45]	_	
+3-9	368-378	klastičnog	_	_	_	HAS\_CAUSE[45]	_	
+3-10	379-389	podrijetla	_	_	_	HAS\_CAUSE[45]	_	
+3-11	389-390	,	_	_	_	_	_	
+3-12	391-392	u	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-13	393-398	čijem	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-14	399-406	sastavu	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-15	407-415	kalcijev	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[46]	_	
+3-16	416-424	karbonat	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[46]	_	
+3-17	425-426	(	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[46]	_	
+3-18	426-431	CaCO3	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[46]	_	
+3-19	431-432	)	_	D.1 Abiotic[5]	_	COMPOSITION\_MEDIUM[46]	_	
+3-20	433-442	sudjeluje	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-21	443-444	s	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-22	445-450	preko	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-23	451-454	50%	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+3-24	454-455	.	_	_	_	_	_	
+3-25	456-464	Vapnenac	_	_	_	_	_	
+3-26	465-467	je	_	_	_	_	_	
+3-27	468-474	glavna	_	_	_	_	_	
+3-28	475-482	stijena	_	_	_	_	_	
+3-29	483-485	na	_	_	_	_	_	
+3-30	486-491	kojoj	_	_	_	_	_	
+3-31	492-494	se	_	_	_	_	_	
+3-32	495-499	vrši	_	_	_	_	_	
+3-33	500-505	krški	_	_	_	_	_	
+3-34	506-512	proces	_	_	_	_	_	
+3-35	513-514	(	_	_	_	_	_	
+3-36	514-515	v	_	_	_	_	_	
+3-37	515-516	.	_	_	_	_	_	
+3-38	517-527	okršavanje	_	_	_	_	_	
+3-39	527-528	)	_	_	_	_	_	
+3-40	528-529	.	_	_	_	_	_	
+
+#Text=organogeni vapnenci nastaju dijagenezom organskih vapnenačkih dijelova (skelet, ljušture i sl.), epitet im se daje prema prevladavajućem organizmu: koraljni, foraminiferski, litotamnijski i dr.
+4-1	531-541	organogeni	_	_	DEFINIENDUM[25]	_	_	
+4-2	542-550	vapnenci	_	_	DEFINIENDUM[25]|GENUS[26]	_	_	
+4-3	551-558	nastaju	_	_	_	HAS\_CAUSE[47]	_	
+4-4	559-570	dijagenezom	_	B.4 Transformation	_	HAS\_CAUSE[47]	_	
+4-5	571-580	organskih	_	_	_	HAS\_CAUSE[47]	_	
+4-6	581-592	vapnenačkih	_	_	_	HAS\_CAUSE[47]	_	
+4-7	593-601	dijelova	_	_	_	HAS\_CAUSE[47]	_	
+4-8	602-603	(	_	_	_	HAS\_CAUSE[47]	_	
+4-9	603-609	skelet	_	_	_	HAS\_CAUSE[47]	_	
+4-10	609-610	,	_	_	_	HAS\_CAUSE[47]	_	
+4-11	611-619	ljušture	_	_	_	HAS\_CAUSE[47]	_	
+4-12	620-621	i	_	_	_	HAS\_CAUSE[47]	_	
+4-13	622-624	sl	_	_	_	HAS\_CAUSE[47]	_	
+4-14	624-625	.	_	_	_	HAS\_CAUSE[47]	_	
+4-15	625-626	)	_	_	_	HAS\_CAUSE[47]	_	
+4-16	626-627	,	_	_	_	_	_	
+4-17	628-634	epitet	_	_	_	_	_	
+4-18	635-637	im	_	_	_	_	_	
+4-19	638-640	se	_	_	_	_	_	
+4-20	641-645	daje	_	_	_	_	_	
+4-21	646-651	prema	_	_	_	_	_	
+4-22	652-667	prevladavajućem	_	_	_	_	_	
+4-23	668-677	organizmu	_	_	_	_	_	
+4-24	677-678	:	_	_	_	_	_	
+4-25	679-687	koraljni	koraljni vapnenci	D.1 Abiotic	SPECIES	_	_	
+4-26	687-688	,	_	_	_	_	_	
+4-27	689-703	foraminiferski	foraminiferski vapnenci	D.1 Abiotic	SPECIES	_	_	
+4-28	703-704	,	_	_	_	_	_	
+4-29	705-718	litotamnijski	litotamnijski vapnenci	D.1 Abiotic	SPECIES	_	_	
+4-30	719-720	i	_	_	_	_	_	
+4-31	721-723	dr	_	_	_	_	_	
+4-32	723-724	.	_	_	_	_	_	
+
+#Text=oblik taloženja vapnenca utječe na razvoj krškog reljefa; izrazite su reljefne razlike među bankovitim ili gromadastim vapnencima, pravilno uslojenim i u tanke slojeve (ploče, v.) staloženim vapnencima. Kreda (v.), bijela i lako drobljiva taložina, mineralnim sastavom odgovara vapnencu; nastala je taloženjem vapnenačkih dijelova mikroorganizama, uglavnom u periodu krede; otuda zajedničko ime.
+5-1	726-731	oblik	_	_	_	_	_	
+5-2	732-741	taloženja	_	_	_	_	_	
+5-3	742-750	vapnenca	_	_	_	_	_	
+5-4	751-757	utječe	_	_	_	_	_	
+5-5	758-760	na	_	_	_	_	_	
+5-6	761-767	razvoj	_	_	_	_	_	
+5-7	768-774	krškog	_	_	_	_	_	
+5-8	775-782	reljefa	_	_	_	_	_	
+5-9	782-783	;	_	_	_	_	_	
+5-10	784-792	izrazite	_	_	_	_	_	
+5-11	793-795	su	_	_	_	_	_	
+5-12	796-804	reljefne	_	_	_	_	_	
+5-13	805-812	razlike	_	_	_	_	_	
+5-14	813-817	među	_	_	_	_	_	
+5-15	818-828	bankovitim	_	_	_	_	_	
+5-16	829-832	ili	_	_	_	_	_	
+5-17	833-844	gromadastim	_	_	_	_	_	
+5-18	845-855	vapnencima	_	_	_	_	_	
+5-19	855-856	,	_	_	_	_	_	
+5-20	857-865	pravilno	_	_	_	_	_	
+5-21	866-875	uslojenim	_	_	_	_	_	
+5-22	876-877	i	_	_	_	_	_	
+5-23	878-879	u	_	_	_	_	_	
+5-24	880-885	tanke	_	_	_	_	_	
+5-25	886-893	slojeve	_	_	_	_	_	
+5-26	894-895	(	_	_	_	_	_	
+5-27	895-900	ploče	_	_	_	_	_	
+5-28	900-901	,	_	_	_	_	_	
+5-29	902-903	v	_	_	_	_	_	
+5-30	903-904	.	_	_	_	_	_	
+5-31	904-905	)	_	_	_	_	_	
+5-32	906-916	staloženim	_	_	_	_	_	
+5-33	917-927	vapnencima	_	_	_	_	_	
+5-34	927-928	.	_	_	_	_	_	
+5-35	929-934	Kreda	_	D.1 Abiotic	DEFINIENDUM	_	_	
+5-36	935-936	(	_	_	_	_	_	
+5-37	936-937	v	_	_	_	_	_	
+5-38	937-938	.	_	_	_	_	_	
+5-39	938-939	)	_	_	_	_	_	
+5-40	939-940	,	_	_	_	_	_	
+5-41	941-947	bijela	_	_	_	HAS\_FORM[48]	_	
+5-42	948-949	i	_	_	_	HAS\_FORM[48]	_	
+5-43	950-954	lako	_	_	_	HAS\_FORM[48]	_	
+5-44	955-964	drobljiva	_	_	_	HAS\_FORM[48]	_	
+5-45	965-973	taložina	_	D.1 Abiotic	GENUS	_	_	
+5-46	973-974	,	_	_	_	_	_	
+5-47	975-985	mineralnim	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+5-48	986-994	sastavom	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+5-49	995-1003	odgovara	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+5-50	1004-1012	vapnencu	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+5-51	1012-1013	;	_	_	_	_	_	
+5-52	1014-1021	nastala	_	_	_	HAS\_CAUSE[50]	_	
+5-53	1022-1024	je	_	_	_	HAS\_CAUSE[50]	_	
+5-54	1025-1035	taloženjem	_	_	_	HAS\_CAUSE[50]	_	
+5-55	1036-1047	vapnenačkih	_	_	_	HAS\_CAUSE[50]	_	
+5-56	1048-1056	dijelova	_	_	_	HAS\_CAUSE[50]	_	
+5-57	1057-1072	mikroorganizama	_	_	_	HAS\_CAUSE[50]	_	
+5-58	1072-1073	,	_	_	_	_	_	
+5-59	1074-1082	uglavnom	_	_	_	OCCURS\_IN\_TIME[51]	_	
+5-60	1083-1084	u	_	_	_	OCCURS\_IN\_TIME[51]	_	
+5-61	1085-1092	periodu	_	_	_	OCCURS\_IN\_TIME[51]	_	
+5-62	1093-1098	krede	_	_	_	OCCURS\_IN\_TIME[51]	_	
+5-63	1098-1099	;	_	_	_	_	_	
+5-64	1100-1105	otuda	_	_	_	_	_	
+5-65	1106-1116	zajedničko	_	_	_	_	_	
+5-66	1117-1120	ime	_	_	_	_	_	
+5-67	1120-1121	.	_	_	_	_	_	
+
+#Text=kemijski vapnenci nastaju izdvajanjem i taloženjem iz nestabilnog kalcijeva hidrobikarbonata. Pod utjecajem ekobiotskih uvjeta i procesa, na brzacima i vodopadima tekućica obara se sedra (v.). Rasprskavanjem i prozračivanjem prokapne vode izdvajaju se u podzemnim šupljinama sigaste tvorevine (v.) kalcita ili aragonita. U kemijske vapnence spadaju i oolitski vapnenci koji su izlučeni u obliku sitnih kuglica (ooida), tj. vapnenačke lupi ne su staložene oko fragmenta nekog materijala.
+6-1	1123-1131	kemijski	_	D.1 Abiotic[6]	DEFINIENDUM[27]	_	_	
+6-2	1132-1140	vapnenci	_	D.1 Abiotic[6]|D.1 Abiotic[7]	DEFINIENDUM[27]|GENUS[28]	_	_	
+6-3	1141-1148	nastaju	_	_	_	HAS\_CAUSE[52]	frame\_CAUSE	
+6-4	1149-1160	izdvajanjem	_	B.2 Loss	_	HAS\_CAUSE[52]	_	
+6-5	1161-1162	i	_	_	_	HAS\_CAUSE[52]	_	
+6-6	1163-1173	taloženjem	_	B.3 Addition	_	HAS\_CAUSE[52]	_	
+6-7	1174-1176	iz	_	_	_	HAS\_CAUSE[52]	_	
+6-8	1177-1188	nestabilnog	_	_	_	HAS\_CAUSE[52]	_	
+6-9	1189-1198	kalcijeva	_	D.1 Abiotic[8]	_	HAS\_CAUSE[52]	_	
+6-10	1199-1215	hidrobikarbonata	_	D.1 Abiotic[8]	_	HAS\_CAUSE[52]	_	
+6-11	1215-1216	.	_	_	_	_	_	
+6-12	1217-1220	Pod	_	_	_	_	_	
+6-13	1221-1230	utjecajem	_	_	_	_	_	
+6-14	1231-1242	ekobiotskih	_	_	_	_	_	
+6-15	1243-1249	uvjeta	_	_	_	_	_	
+6-16	1250-1251	i	_	_	_	_	_	
+6-17	1252-1259	procesa	_	_	_	_	_	
+6-18	1259-1260	,	_	_	_	_	_	
+6-19	1261-1263	na	_	_	_	_	_	
+6-20	1264-1272	brzacima	_	_	_	_	_	
+6-21	1273-1274	i	_	_	_	_	_	
+6-22	1275-1285	vodopadima	_	_	_	_	_	
+6-23	1286-1294	tekućica	_	_	_	_	_	
+6-24	1295-1300	obara	_	_	_	_	_	
+6-25	1301-1303	se	_	_	_	_	_	
+6-26	1304-1309	sedra	_	D.1 Abiotic	SPECIES	_	_	
+6-27	1310-1311	(	_	_	_	_	_	
+6-28	1311-1312	v	_	_	_	_	_	
+6-29	1312-1313	.	_	_	_	_	_	
+6-30	1313-1314	)	_	_	_	_	_	
+6-31	1314-1315	.	_	_	_	_	_	
+6-32	1316-1330	Rasprskavanjem	_	_	_	_	_	
+6-33	1331-1332	i	_	_	_	_	_	
+6-34	1333-1347	prozračivanjem	_	_	_	_	_	
+6-35	1348-1356	prokapne	_	_	_	_	_	
+6-36	1357-1361	vode	_	_	_	_	_	
+6-37	1362-1371	izdvajaju	_	_	_	_	_	
+6-38	1372-1374	se	_	_	_	_	_	
+6-39	1375-1376	u	_	_	_	_	_	
+6-40	1377-1386	podzemnim	_	_	_	_	_	
+6-41	1387-1397	šupljinama	_	_	_	_	_	
+6-42	1398-1405	sigaste	sigaste tvorevine kalcita[1]	D.1 Abiotic[9]	SPECIES[29]	_	_	
+6-43	1406-1415	tvorevine	sigaste tvorevine kalcita[1]	D.1 Abiotic[9]	SPECIES[29]	_	_	
+6-44	1416-1417	(	sigaste tvorevine kalcita[1]	D.1 Abiotic[9]	SPECIES[29]	_	_	
+6-45	1417-1418	v	sigaste tvorevine kalcita[1]	D.1 Abiotic[9]	SPECIES[29]	_	_	
+6-46	1418-1419	.	sigaste tvorevine kalcita[1]	D.1 Abiotic[9]	SPECIES[29]	_	_	
+6-47	1419-1420	)	sigaste tvorevine kalcita[1]	D.1 Abiotic[9]	SPECIES[29]	_	_	
+6-48	1421-1428	kalcita	sigaste tvorevine kalcita[1]	D.1 Abiotic[9]	SPECIES[29]	_	_	
+6-49	1429-1432	ili	_	_	_	_	_	
+6-50	1433-1442	aragonita	sigaste tvorevine aragonita	D.1 Abiotic	SPECIES	_	_	
+6-51	1442-1443	.	_	_	_	_	_	
+6-52	1444-1445	U	_	_	_	_	_	
+6-53	1446-1454	kemijske	_	_	_	_	_	
+6-54	1455-1463	vapnence	_	_	_	_	_	
+6-55	1464-1471	spadaju	_	_	_	_	_	
+6-56	1472-1473	i	_	_	_	_	_	
+6-57	1474-1482	oolitski	_	D.1 Abiotic[10]	SPECIES[30]	_	_	
+6-58	1483-1491	vapnenci	_	D.1 Abiotic[10]	SPECIES[30]	_	_	
+6-59	1492-1496	koji	_	_	_	_	_	
+6-60	1497-1499	su	_	_	_	_	_	
+6-61	1500-1508	izlučeni	_	_	_	_	_	
+6-62	1509-1510	u	_	_	_	_	_	
+6-63	1511-1517	obliku	_	_	_	_	_	
+6-64	1518-1524	sitnih	_	_	_	_	_	
+6-65	1525-1532	kuglica	_	_	_	_	_	
+6-66	1533-1534	(	_	_	_	_	_	
+6-67	1534-1539	ooida	_	_	_	_	_	
+6-68	1539-1540	)	_	_	_	_	_	
+6-69	1540-1541	,	_	_	_	_	_	
+6-70	1542-1544	tj	_	_	_	_	_	
+6-71	1544-1545	.	_	_	_	_	_	
+6-72	1546-1556	vapnenačke	_	_	_	_	_	
+6-73	1557-1561	lupi	_	_	_	_	_	
+6-74	1562-1564	ne	_	_	_	_	_	
+6-75	1565-1567	su	_	_	_	_	_	
+6-76	1568-1577	staložene	_	_	_	_	_	
+6-77	1578-1581	oko	_	_	_	_	_	
+6-78	1582-1591	fragmenta	_	_	_	_	_	
+6-79	1592-1597	nekog	_	_	_	_	_	
+6-80	1598-1608	materijala	_	_	_	_	_	
+6-81	1608-1609	.	_	_	_	_	_	
+
+#Text=klastični vapnenci su nastali cementiranjem (najčešće kalcijevim karbonatom) vapnenačkih valutica –  vapnenački konglomerat, kršja – vapnenačka breča, i pijeska – vapnenački arenit. Pored koraljnih grebena vidimo da se, uz rast organogenog vapnenca, znatni dijelovi lome, padaju i cementiraju u vapnenačku breču.
+7-1	1611-1620	klastični	_	D.1 Abiotic[11]	DEFINIENDUM[31]	_	_	
+7-2	1621-1629	vapnenci	_	D.1 Abiotic[11]|D.1 Abiotic[12]	DEFINIENDUM[31]|GENUS[32]	_	_	
+7-3	1630-1632	su	_	_	_	_	_	
+7-4	1633-1640	nastali	_	_	_	HAS\_CAUSE[53]	_	
+7-5	1641-1654	cementiranjem	_	B.4 Transformation	_	HAS\_CAUSE[53]	_	
+7-6	1655-1656	(	_	_	_	_	_	
+7-7	1656-1664	najčešće	_	_	_	_	_	
+7-8	1665-1675	kalcijevim	_	_	_	_	_	
+7-9	1676-1686	karbonatom	_	_	_	_	_	
+7-10	1686-1687	)	_	_	_	_	_	
+7-11	1688-1699	vapnenačkih	_	_	_	_	_	
+7-12	1700-1708	valutica	_	_	_	_	_	
+7-13	1709-1710	–	_	_	_	_	_	
+7-14	1712-1722	vapnenački	_	D.1 Abiotic[13]	SPECIES[33]	_	_	
+7-15	1723-1734	konglomerat	_	D.1 Abiotic[13]	SPECIES[33]	_	_	
+7-16	1734-1735	,	_	_	_	_	_	
+7-17	1736-1741	kršja	_	_	_	_	_	
+7-18	1742-1743	–	_	_	_	_	_	
+7-19	1744-1754	vapnenačka	_	D.1 Abiotic[14]	SPECIES[34]	_	_	
+7-20	1755-1760	breča	_	D.1 Abiotic[14]	SPECIES[34]	_	_	
+7-21	1760-1761	,	_	_	_	_	_	
+7-22	1762-1763	i	_	_	_	_	_	
+7-23	1764-1771	pijeska	_	_	_	_	_	
+7-24	1772-1773	–	_	_	_	_	_	
+7-25	1774-1784	vapnenački	_	_	SPECIES[35]	_	_	
+7-26	1785-1791	arenit	_	_	SPECIES[35]	_	_	
+7-27	1791-1792	.	_	_	_	_	_	
+7-28	1793-1798	Pored	_	_	_	_	_	
+7-29	1799-1808	koraljnih	_	_	_	_	_	
+7-30	1809-1816	grebena	_	_	_	_	_	
+7-31	1817-1823	vidimo	_	_	_	_	_	
+7-32	1824-1826	da	_	_	_	_	_	
+7-33	1827-1829	se	_	_	_	_	_	
+7-34	1829-1830	,	_	_	_	_	_	
+7-35	1831-1833	uz	_	_	_	_	_	
+7-36	1834-1838	rast	_	_	_	_	_	
+7-37	1839-1850	organogenog	_	_	_	_	_	
+7-38	1851-1859	vapnenca	_	_	_	_	_	
+7-39	1859-1860	,	_	_	_	_	_	
+7-40	1861-1867	znatni	_	_	_	_	_	
+7-41	1868-1876	dijelovi	_	_	_	_	_	
+7-42	1877-1881	lome	_	_	_	_	_	
+7-43	1881-1882	,	_	_	_	_	_	
+7-44	1883-1889	padaju	_	_	_	_	_	
+7-45	1890-1891	i	_	_	_	_	_	
+7-46	1892-1903	cementiraju	_	_	_	_	_	
+7-47	1904-1905	u	_	_	_	_	_	
+7-48	1906-1916	vapnenačku	_	_	_	_	_	
+7-49	1917-1922	breču	_	_	_	_	_	
+7-50	1922-1923	.	_	_	_	_	_	
+
+#Text=vrelo – općenito raširen narodni naziv za izbijanja vode iz krškog podzemlja; iz pukotina voda izbija, “vrije” naglo i u velikim količinama, za razliku od izvora koji se procjeđuju kroz propusne stijene.
+8-1	1925-1930	vrelo	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+8-2	1931-1932	–	_	_	_	_	_	
+8-3	1933-1941	općenito	_	_	_	_	_	
+8-4	1942-1949	raširen	_	_	_	_	_	
+8-5	1950-1957	narodni	_	_	_	_	_	
+8-6	1958-1963	naziv	_	_	_	_	_	
+8-7	1964-1966	za	_	_	_	_	_	
+8-8	1967-1976	izbijanja	_	B.1 Movement[15]	_	DEFINED\_AS[54]	_	
+8-9	1977-1981	vode	_	B.1 Movement[15]	_	DEFINED\_AS[54]	_	
+8-10	1982-1984	iz	_	_	_	DEFINED\_AS[54]	_	
+8-11	1985-1991	krškog	_	C. Geome[16]	_	DEFINED\_AS[54]	_	
+8-12	1992-2001	podzemlja	_	C. Geome[16]	_	DEFINED\_AS[54]	_	
+8-13	2001-2002	;	_	_	_	_	_	
+8-14	2003-2005	iz	_	_	_	HAS\_FUNCTION[55]	_	
+8-15	2006-2014	pukotina	_	A.2 Underground landform	_	HAS\_FUNCTION[55]	_	
+8-16	2015-2019	voda	_	_	_	HAS\_FUNCTION[55]	_	
+8-17	2020-2026	izbija	_	_	_	HAS\_FUNCTION[55]	_	
+8-18	2026-2027	,	_	_	_	HAS\_FUNCTION[55]	_	
+8-19	2028-2029	“	_	_	_	HAS\_FUNCTION[55]	_	
+8-20	2029-2034	vrije	_	_	_	HAS\_FUNCTION[55]	_	
+8-21	2034-2035	”	_	_	_	HAS\_FUNCTION[55]	_	
+8-22	2036-2041	naglo	_	_	_	HAS\_FUNCTION[55]	_	
+8-23	2042-2043	i	_	_	_	HAS\_FUNCTION[55]	_	
+8-24	2044-2045	u	_	_	_	HAS\_FUNCTION[55]	_	
+8-25	2046-2053	velikim	_	_	_	HAS\_FUNCTION[55]	_	
+8-26	2054-2064	količinama	_	_	_	HAS\_FUNCTION[55]	_	
+8-27	2064-2065	,	_	_	_	_	_	
+8-28	2066-2068	za	_	_	_	_	_	
+8-29	2069-2076	razliku	_	_	_	_	_	
+8-30	2077-2079	od	_	_	_	_	_	
+8-31	2080-2086	izvora	_	_	_	_	_	
+8-32	2087-2091	koji	_	_	_	_	_	
+8-33	2092-2094	se	_	_	_	_	_	
+8-34	2095-2105	procjeđuju	_	_	_	_	_	
+8-35	2106-2110	kroz	_	_	_	_	_	
+8-36	2111-2119	propusne	_	_	_	_	_	
+8-37	2120-2127	stijene	_	_	_	_	_	
+8-38	2127-2128	.	_	_	_	_	_	
+
+#Text=krška su specifičnost vrela, iz kojih u kišnom razdoblju istječe golema količina vode, te odjednom nastaje moćna tekućica, a u sušno doba presahnu; prema vrelu kod mjesta Vaucluse (Francuska) taj tip je nazvan “vokliško vrelo”, a sve češće se upotrebljava širi termin krško vrelo, jer je taj način izbijanja u skladu s podzemnim protjecanjem kroz pukotine, koje se vrši brzo i s velikim kolebanjima.
+9-1	2130-2135	krška	_	_	_	_	_	
+9-2	2136-2138	su	_	_	_	_	_	
+9-3	2139-2151	specifičnost	_	_	_	_	_	
+9-4	2152-2157	vrela	_	A.3 Hydrological form	GENUS	_	_	
+9-5	2157-2158	,	_	_	_	_	_	
+9-6	2159-2161	iz	_	_	_	HAS\_FUNCTION[56]	_	
+9-7	2162-2167	kojih	_	_	_	HAS\_FUNCTION[56]	_	
+9-8	2168-2169	u	_	_	_	HAS\_FUNCTION[56]	_	
+9-9	2170-2176	kišnom	_	_	_	HAS\_FUNCTION[56]	_	
+9-10	2177-2186	razdoblju	_	_	_	HAS\_FUNCTION[56]	_	
+9-11	2187-2194	istječe	_	_	_	HAS\_FUNCTION[56]	_	
+9-12	2195-2201	golema	_	_	_	HAS\_FUNCTION[56]	_	
+9-13	2202-2210	količina	_	_	_	HAS\_FUNCTION[56]	_	
+9-14	2211-2215	vode	_	_	_	HAS\_FUNCTION[56]	_	
+9-15	2215-2216	,	_	_	_	_	_	
+9-16	2217-2219	te	_	_	_	_	_	
+9-17	2220-2228	odjednom	_	_	_	_	_	
+9-18	2229-2236	nastaje	_	_	_	HAS\_RESULT[57]	_	
+9-19	2237-2242	moćna	_	_	_	HAS\_RESULT[57]	_	
+9-20	2243-2251	tekućica	_	_	_	HAS\_RESULT[57]	_	
+9-21	2251-2252	,	_	_	_	_	_	
+9-22	2253-2254	a	_	_	_	_	_	
+9-23	2255-2256	u	_	_	_	HAS\_FUNCTION[58]	_	
+9-24	2257-2262	sušno	_	_	_	HAS\_FUNCTION[58]	_	
+9-25	2263-2267	doba	_	_	_	HAS\_FUNCTION[58]	_	
+9-26	2268-2276	presahnu	_	_	_	HAS\_FUNCTION[58]	_	
+9-27	2276-2277	;	_	_	_	_	_	
+9-28	2278-2283	prema	_	_	_	_	_	
+9-29	2284-2289	vrelu	_	_	_	_	_	
+9-30	2290-2293	kod	_	_	_	_	_	
+9-31	2294-2300	mjesta	_	_	_	_	_	
+9-32	2301-2309	Vaucluse	_	D.3.1 Geolocation[17]	_	HAS\_POSITION[59]	_	
+9-33	2310-2311	(	_	D.3.1 Geolocation[17]	_	HAS\_POSITION[59]	_	
+9-34	2311-2320	Francuska	_	D.3.1 Geolocation[17]	_	HAS\_POSITION[59]	_	
+9-35	2320-2321	)	_	D.3.1 Geolocation[17]	_	HAS\_POSITION[59]	_	
+9-36	2322-2325	taj	_	_	_	_	_	
+9-37	2326-2329	tip	_	_	_	_	_	
+9-38	2330-2332	je	_	_	_	_	_	
+9-39	2333-2339	nazvan	_	_	_	_	_	
+9-40	2340-2341	“	_	_	_	_	_	
+9-41	2341-2349	vokliško	_	A.3 Hydrological form[18]	DEFINIENDUM[36]	_	_	
+9-42	2350-2355	vrelo	_	A.3 Hydrological form[18]	DEFINIENDUM[36]	_	_	
+9-43	2355-2356	”	_	_	_	_	_	
+9-44	2356-2357	,	_	_	_	_	_	
+9-45	2358-2359	a	_	_	_	_	_	
+9-46	2360-2363	sve	_	_	_	_	_	
+9-47	2364-2369	češće	_	_	_	_	_	
+9-48	2370-2372	se	_	_	_	_	_	
+9-49	2373-2385	upotrebljava	_	_	_	_	_	
+9-50	2386-2390	širi	_	_	_	_	_	
+9-51	2391-2397	termin	_	_	_	_	_	
+9-52	2398-2403	krško	_	A.3 Hydrological form[19]	DEFINIENDUM[37]	_	_	
+9-53	2404-2409	vrelo	_	A.3 Hydrological form[19]	DEFINIENDUM[37]	_	_	
+9-54	2409-2410	,	_	_	_	_	_	
+9-55	2411-2414	jer	_	_	_	_	_	
+9-56	2415-2417	je	_	_	_	_	_	
+9-57	2418-2421	taj	_	_	_	_	_	
+9-58	2422-2427	način	_	_	_	_	_	
+9-59	2428-2437	izbijanja	_	_	_	_	_	
+9-60	2438-2439	u	_	_	_	_	_	
+9-61	2440-2446	skladu	_	_	_	_	_	
+9-62	2447-2448	s	_	_	_	_	_	
+9-63	2449-2458	podzemnim	_	_	_	_	_	
+9-64	2459-2471	protjecanjem	_	_	_	_	_	
+9-65	2472-2476	kroz	_	_	_	_	_	
+9-66	2477-2485	pukotine	_	_	_	_	_	
+9-67	2485-2486	,	_	_	_	_	_	
+9-68	2487-2491	koje	_	_	_	_	_	
+9-69	2492-2494	se	_	_	_	_	_	
+9-70	2495-2499	vrši	_	_	_	_	_	
+9-71	2500-2504	brzo	_	_	_	_	_	
+9-72	2505-2506	i	_	_	_	_	_	
+9-73	2507-2508	s	_	_	_	_	_	
+9-74	2509-2516	velikim	_	_	_	_	_	
+9-75	2517-2528	kolebanjima	_	_	_	_	_	
+9-76	2528-2529	.	_	_	_	_	_	
+
+#Text=prema vremenskom toku istjecanja vrela se dijele na trajna, periodska i povremena. Povremeno ili “intermitentno” (v.) vrelo je specifična pojava, koja je od različitih dimenzija podzemnih šupljina i složenog protjecanja.
+10-1	2531-2536	prema	_	_	_	_	_	
+10-2	2537-2547	vremenskom	_	_	_	_	_	
+10-3	2548-2552	toku	_	_	_	_	_	
+10-4	2553-2563	istjecanja	_	_	_	_	_	
+10-5	2564-2569	vrela	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+10-6	2570-2572	se	_	_	_	_	_	
+10-7	2573-2579	dijele	_	_	_	_	_	
+10-8	2580-2582	na	_	_	_	_	_	
+10-9	2583-2589	trajna	trajno vrelo	A.3 Hydrological form	SPECIES	_	_	
+10-10	2589-2590	,	_	_	_	_	_	
+10-11	2591-2600	periodska	periodsko vrelo	A.3 Hydrological form	SPECIES	_	_	
+10-12	2601-2602	i	_	_	_	_	_	
+10-13	2603-2612	povremena	povremeno vrelo	A.3 Hydrological form	SPECIES	_	_	
+10-14	2612-2613	.	_	_	_	_	_	
+10-15	2614-2623	Povremeno	_	_	_	_	_	
+10-16	2624-2627	ili	_	_	_	_	_	
+10-17	2628-2629	“	_	_	_	_	_	
+10-18	2629-2642	intermitentno	intermitentno vrelo	A.3 Hydrological form	SPECIES	_	_	
+10-19	2642-2643	”	_	_	_	_	_	
+10-20	2644-2645	(	_	_	_	_	_	
+10-21	2645-2646	v	_	_	_	_	_	
+10-22	2646-2647	.	_	_	_	_	_	
+10-23	2647-2648	)	_	_	_	_	_	
+10-24	2649-2654	vrelo	_	_	_	_	_	
+10-25	2655-2657	je	_	_	_	_	_	
+10-26	2658-2668	specifična	_	_	_	_	_	
+10-27	2669-2675	pojava	_	_	_	_	_	
+10-28	2675-2676	,	_	_	_	_	_	
+10-29	2677-2681	koja	_	_	_	_	_	
+10-30	2682-2684	je	_	_	_	_	_	
+10-31	2685-2687	od	_	_	_	_	_	
+10-32	2688-2698	različitih	_	_	_	_	_	
+10-33	2699-2708	dimenzija	_	_	_	_	_	
+10-34	2709-2718	podzemnih	_	_	_	_	_	
+10-35	2719-2727	šupljina	_	_	_	_	_	
+10-36	2728-2729	i	_	_	_	_	_	
+10-37	2730-2738	složenog	_	_	_	_	_	
+10-38	2739-2750	protjecanja	_	_	_	_	_	
+10-39	2750-2751	.	_	_	_	_	_	
+
+#Text=s obzirom na prirodu pukotinskog protjecanja pod hidrostatskim tlakom vrela mogu biti sifonska ili uzlazna i prelivna, a po izgledu bunarasta, pukotinska, pećinska, spiljska i sl. U skladu s tlačnim pukotinskim protjecanjem su i podmorska vrela  vrulje (v.).
+11-1	2753-2754	s	_	_	_	_	_	
+11-2	2755-2762	obzirom	_	_	_	_	_	
+11-3	2763-2765	na	_	_	_	_	_	
+11-4	2766-2773	prirodu	_	_	_	_	_	
+11-5	2774-2785	pukotinskog	_	_	_	_	_	
+11-6	2786-2797	protjecanja	_	_	_	_	_	
+11-7	2798-2801	pod	_	_	_	_	_	
+11-8	2802-2815	hidrostatskim	_	_	_	_	_	
+11-9	2816-2822	tlakom	_	_	_	_	_	
+11-10	2823-2828	vrela	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+11-11	2829-2833	mogu	_	_	_	_	_	
+11-12	2834-2838	biti	_	_	_	_	_	
+11-13	2839-2847	sifonska	sifonsko vrelo	A.3 Hydrological form	SPECIES	_	_	
+11-14	2848-2851	ili	_	_	_	_	_	
+11-15	2852-2859	uzlazna	uzlazno vrelo	A.3 Hydrological form	SPECIES	_	_	
+11-16	2860-2861	i	_	_	_	_	_	
+11-17	2862-2870	prelivna	prelivno vrelo	A.3 Hydrological form	SPECIES	_	_	
+11-18	2870-2871	,	_	_	_	_	_	
+11-19	2872-2873	a	_	_	_	_	_	
+11-20	2874-2876	po	_	_	_	_	_	
+11-21	2877-2884	izgledu	_	_	_	_	_	
+11-22	2885-2894	bunarasta	bunarasto vrelo	A.3 Hydrological form	SPECIES	_	_	
+11-23	2894-2895	,	_	_	_	_	_	
+11-24	2896-2906	pukotinska	pukotinsko vrelo	A.3 Hydrological form	SPECIES	_	_	
+11-25	2906-2907	,	_	_	_	_	_	
+11-26	2908-2916	pećinska	pećinsko vrelo	A.3 Hydrological form	SPECIES	_	_	
+11-27	2916-2917	,	_	_	_	_	_	
+11-28	2918-2926	spiljska	spiljsko vrelo	A.3 Hydrological form	SPECIES	_	_	
+11-29	2927-2928	i	_	_	_	_	_	
+11-30	2929-2931	sl	_	_	_	_	_	
+11-31	2931-2932	.	_	_	_	_	_	
+11-32	2933-2934	U	_	_	_	_	_	
+11-33	2935-2941	skladu	_	_	_	_	_	
+11-34	2942-2943	s	_	_	_	_	_	
+11-35	2944-2951	tlačnim	_	_	_	_	_	
+11-36	2952-2963	pukotinskim	_	_	_	_	_	
+11-37	2964-2976	protjecanjem	_	_	_	_	_	
+11-38	2977-2979	su	_	_	_	_	_	
+11-39	2980-2981	i	_	_	_	_	_	
+11-40	2982-2991	podmorska	_	_	_	_	_	
+11-41	2992-2997	vrela	_	_	_	_	_	
+11-42	2999-3005	vrulje	vrulja	A.3 Hydrological form	SPECIES	_	_	
+11-43	3006-3007	(	_	_	_	_	_	
+11-44	3007-3008	v	_	_	_	_	_	
+11-45	3008-3009	.	_	_	_	_	_	
+11-46	3009-3010	)	_	_	_	_	_	
+11-47	3010-3011	.	_	_	_	_	_	
+
+#Text=vrtložni lonac – udubina koju voda pri padu izdubi u stjenovitom koritu, pokrećući vrtložasto blokove nanesenog kamenja i šljunka.
+12-1	3013-3021	vrtložni	_	A.3 Hydrological form[20]	DEFINIENDUM[38]	_	_	
+12-2	3022-3027	lonac	_	A.3 Hydrological form[20]	DEFINIENDUM[38]	_	_	
+12-3	3028-3029	–	_	_	_	_	_	
+12-4	3030-3037	udubina	_	A.1 Surface landform	GENUS	_	_	
+12-5	3038-3042	koju	_	_	_	HAS\_CAUSE[60]	_	
+12-6	3043-3047	voda	_	D.1 Abiotic	_	HAS\_CAUSE[60]	_	
+12-7	3048-3051	pri	_	_	_	HAS\_CAUSE[60]	_	
+12-8	3052-3056	padu	_	_	_	HAS\_CAUSE[60]	_	
+12-9	3057-3063	izdubi	_	_	_	HAS\_CAUSE[60]	_	
+12-10	3064-3065	u	_	_	_	HAS\_CAUSE[60]	_	
+12-11	3066-3077	stjenovitom	_	_	_	HAS\_CAUSE[60]	_	
+12-12	3078-3084	koritu	_	_	_	HAS\_CAUSE[60]	_	
+12-13	3084-3085	,	_	_	_	HAS\_CAUSE[60]	_	
+12-14	3086-3095	pokrećući	_	_	_	HAS\_CAUSE[60]	_	
+12-15	3096-3106	vrtložasto	_	_	_	HAS\_CAUSE[60]	_	
+12-16	3107-3114	blokove	_	_	_	HAS\_CAUSE[60]	_	
+12-17	3115-3124	nanesenog	_	_	_	HAS\_CAUSE[60]	_	
+12-18	3125-3132	kamenja	_	_	_	HAS\_CAUSE[60]	_	
+12-19	3133-3134	i	_	_	_	HAS\_CAUSE[60]	_	
+12-20	3135-3142	šljunka	_	_	_	HAS\_CAUSE[60]	_	
+12-21	3142-3143	.	_	_	_	_	_	
+
+#Text=vrulja – podmorsko vrelo pred krškim primorjem. Odraz je tlačnog protjecanja kroz šupljine krškog podzemlja, koje je nezavisno o morskoj razini.
+13-1	3145-3151	vrulja	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+13-2	3152-3153	–	_	_	_	_	_	
+13-3	3154-3163	podmorsko	_	_	_	HAS\_LOCATION	_	
+13-4	3164-3169	vrelo	_	A.3 Hydrological form	GENUS	_	_	
+13-5	3170-3174	pred	_	_	_	HAS\_LOCATION[61]	_	
+13-6	3175-3181	krškim	_	C. Geome[21]	_	HAS\_LOCATION[61]	_	
+13-7	3182-3191	primorjem	_	C. Geome[21]	_	HAS\_LOCATION[61]	_	
+13-8	3191-3192	.	_	_	_	_	_	
+13-9	3193-3198	Odraz	_	_	_	HAS\_CAUSE[62]	_	
+13-10	3199-3201	je	_	_	_	HAS\_CAUSE[62]	_	
+13-11	3202-3209	tlačnog	_	_	_	HAS\_CAUSE[62]	_	
+13-12	3210-3221	protjecanja	_	_	_	HAS\_CAUSE[62]	_	
+13-13	3222-3226	kroz	_	_	_	HAS\_CAUSE[62]	_	
+13-14	3227-3235	šupljine	_	_	_	HAS\_CAUSE[62]	_	
+13-15	3236-3242	krškog	_	_	_	HAS\_CAUSE[62]	_	
+13-16	3243-3252	podzemlja	_	_	_	HAS\_CAUSE[62]	_	
+13-17	3252-3253	,	_	_	_	_	_	
+13-18	3254-3258	koje	_	_	_	_	_	
+13-19	3259-3261	je	_	_	_	_	_	
+13-20	3262-3271	nezavisno	_	_	_	_	_	
+13-21	3272-3273	o	_	_	_	_	_	
+13-22	3274-3281	morskoj	_	_	_	_	_	
+13-23	3282-3288	razini	_	_	_	_	_	
+13-24	3288-3289	.	_	_	_	_	_	
+
+#Text=zaravan – ravna površina, izmodelirana egzogenim procesima i zasijeca građu zemljišta. Korozijske zaravni na kršu ističu se izrazitom uravnjenošću i izmodelirane su u čistim vapnencima (v. korozija, rubna) – v. sl. 8.
+14-1	3291-3298	zaravan	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-2	3299-3300	–	_	_	_	_	_	
+14-3	3301-3306	ravna	_	_	_	DEFINED\_AS[63]|HAS\_FORM[64]	_	
+14-4	3307-3315	površina	_	_	_	DEFINED\_AS[63]	_	
+14-5	3315-3316	,	_	_	_	_	_	
+14-6	3317-3329	izmodelirana	_	_	_	HAS\_CAUSE[65]	_	
+14-7	3330-3339	egzogenim	_	_	_	HAS\_CAUSE[65]	_	
+14-8	3340-3349	procesima	_	_	_	HAS\_CAUSE[65]	_	
+14-9	3350-3351	i	_	_	_	_	_	
+14-10	3352-3360	zasijeca	_	_	_	_	_	
+14-11	3361-3366	građu	_	_	_	_	_	
+14-12	3367-3376	zemljišta	_	_	_	_	_	
+14-13	3376-3377	.	_	_	_	_	_	
+14-14	3378-3388	Korozijske	_	_	SPECIES[39]	_	_	
+14-15	3389-3396	zaravni	_	_	SPECIES[39]	_	_	
+14-16	3397-3399	na	_	_	_	_	_	
+14-17	3400-3404	kršu	_	_	_	_	_	
+14-18	3405-3411	ističu	_	_	_	_	_	
+14-19	3412-3414	se	_	_	_	_	_	
+14-20	3415-3424	izrazitom	_	_	_	_	_	
+14-21	3425-3437	uravnjenošću	_	_	_	_	_	
+14-22	3438-3439	i	_	_	_	_	_	
+14-23	3440-3452	izmodelirane	_	_	_	_	_	
+14-24	3453-3455	su	_	_	_	_	_	
+14-25	3456-3457	u	_	_	_	_	_	
+14-26	3458-3464	čistim	_	_	_	_	_	
+14-27	3465-3475	vapnencima	_	_	_	_	_	
+14-28	3476-3477	(	_	_	_	_	_	
+14-29	3477-3478	v	_	_	_	_	_	
+14-30	3478-3479	.	_	_	_	_	_	
+14-31	3480-3488	korozija	_	_	_	_	_	
+14-32	3488-3489	,	_	_	_	_	_	
+14-33	3490-3495	rubna	_	_	_	_	_	
+14-34	3495-3496	)	_	_	_	_	_	
+14-35	3497-3498	–	_	_	_	_	_	
+14-36	3499-3500	v	_	_	_	_	_	
+14-37	3500-3501	.	_	_	_	_	_	
+14-38	3502-3504	sl	_	_	_	_	_	
+14-39	3504-3505	.	_	_	_	_	_	
+14-40	3506-3507	8	_	_	_	_	_	
+14-41	3507-3508	.	_	_	_	_	_	
+
+#Text=zasićena voda – voda koja je u kemijskom ekvilibriju s determinirajućim uvjetima, osobitim indeksom pH, te prestaje njena agresivnost (v. agre sivna voda). Pri temperaturi od 25°C i normalnom tlaku zasićena voda sadrži 30-50 ppm kalcija.
+15-1	3510-3518	zasićena	_	D.1 Abiotic[22]	DEFINIENDUM[40]	_	_	
+15-2	3519-3523	voda	_	D.1 Abiotic[22]	DEFINIENDUM[40]	_	_	
+15-3	3524-3525	–	_	_	_	_	_	
+15-4	3526-3530	voda	_	D.1 Abiotic	GENUS	_	_	
+15-5	3531-3535	koja	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-6	3536-3538	je	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-7	3539-3540	u	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-8	3541-3550	kemijskom	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-9	3551-3562	ekvilibriju	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-10	3563-3564	s	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-11	3565-3581	determinirajućim	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-12	3582-3590	uvjetima	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-13	3590-3591	,	_	_	_	_	_	
+15-14	3592-3600	osobitim	_	_	_	_	_	
+15-15	3601-3609	indeksom	_	_	_	_	_	
+15-16	3610-3612	pH	_	_	_	_	_	
+15-17	3612-3613	,	_	_	_	_	_	
+15-18	3614-3616	te	_	_	_	_	_	
+15-19	3617-3625	prestaje	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-20	3626-3631	njena	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-21	3632-3643	agresivnost	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-22	3644-3645	(	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-23	3645-3646	v	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-24	3646-3647	.	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-25	3648-3652	agre	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-26	3653-3658	sivna	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-27	3659-3663	voda	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-28	3663-3664	)	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-29	3664-3665	.	_	_	_	_	_	
+15-30	3666-3669	Pri	_	_	_	_	_	
+15-31	3670-3681	temperaturi	_	_	_	_	_	
+15-32	3682-3684	od	_	_	_	_	_	
+15-33	3685-3687	25	_	_	_	_	_	
+15-34	3687-3688	°	_	_	_	_	_	
+15-35	3688-3689	C	_	_	_	_	_	
+15-36	3690-3691	i	_	_	_	_	_	
+15-37	3692-3701	normalnom	_	_	_	_	_	
+15-38	3702-3707	tlaku	_	_	_	_	_	
+15-39	3708-3716	zasićena	_	_	_	_	_	
+15-40	3717-3721	voda	_	_	_	_	_	
+15-41	3722-3728	sadrži	_	_	_	CONTAINS[68]	_	
+15-42	3729-3731	30	_	_	_	CONTAINS[68]	_	
+15-43	3731-3732	-	_	_	_	CONTAINS[68]	_	
+15-44	3732-3734	50	_	_	_	CONTAINS[68]	_	
+15-45	3735-3738	ppm	_	_	_	CONTAINS[68]	_	
+15-46	3739-3746	kalcija	_	D.1 Abiotic	_	CONTAINS[68]	_	
+15-47	3746-3747	.	_	_	_	_	_	

@@ -1,0 +1,441 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=glade :   Limestone pavement having extensive growth of cedar trees.
+1-1	0-5	glade	_	A.4 Other	DEFINIENDUM	_	_	
+1-2	6-7	:	_	_	_	_	_	
+1-3	10-19	Limestone	_	D.1 Abiotic[2]	_	COMPOSITION\_MEDIUM	_	
+1-4	20-28	pavement	_	D.1 Abiotic[2]	_	_	_	
+1-5	29-35	having	_	_	_	_	frame\_CONTAINS	
+1-6	36-45	extensive	_	_	_	CONTAINS[32]	_	
+1-7	46-52	growth	_	_	_	CONTAINS[32]	_	
+1-8	53-55	of	_	_	_	CONTAINS[32]	_	
+1-9	56-61	cedar	cedar tree[1]	D.2 Biotic[3]	_	CONTAINS[32]	_	
+1-10	62-67	trees	cedar tree[1]	D.2 Biotic[3]	_	CONTAINS[32]	_	
+1-11	67-68	.	_	_	_	_	_	
+
+#Text=grike, gryke :   A vertical or subvertical fissure in a limestone pavement developed by solution along a joint. Synonym:  Kluftkarren.
+2-1	69-74	grike	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-2	74-75	,	_	_	_	_	_	
+2-3	76-81	gryke	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-4	82-83	:	_	_	_	_	_	
+2-5	86-87	A	_	_	_	_	_	
+2-6	88-96	vertical	_	_	_	HAS\_FORM[33]	_	
+2-7	97-99	or	_	_	_	HAS\_FORM[33]	_	
+2-8	100-111	subvertical	_	_	_	HAS\_FORM[33]	_	
+2-9	112-119	fissure	_	D.1 Abiotic	GENUS	HAS\_FORM[33]	_	
+2-10	120-122	in	_	_	_	COMPOSITION\_MEDIUM[34]	frame\_COMPOSITION[73]	
+2-11	123-124	a	_	_	_	COMPOSITION\_MEDIUM[34]	frame\_COMPOSITION[73]	
+2-12	125-134	limestone	_	D.1 Abiotic[4]	_	COMPOSITION\_MEDIUM[34]	_	
+2-13	135-143	pavement	_	D.1 Abiotic[4]	_	COMPOSITION\_MEDIUM[34]	_	
+2-14	144-153	developed	_	_	_	HAS\_CAUSE[35]	frame\_CAUSE[74]	
+2-15	154-156	by	_	_	_	HAS\_CAUSE[35]	frame\_CAUSE[74]	
+2-16	157-165	solution	_	B.2 Loss	_	HAS\_CAUSE[35]	_	
+2-17	166-171	along	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[75]	
+2-18	172-173	a	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[75]	
+2-19	174-179	joint	_	_	_	HAS\_LOCATION[36]	_	
+2-20	179-180	.	_	_	_	_	_	
+2-21	181-188	Synonym	_	_	_	_	_	
+2-22	188-189	:	_	_	_	_	_	
+2-23	191-202	Kluftkarren	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-24	202-203	.	_	_	_	_	_	
+
+#Text=grotto :  A small cave, natural or artificial.
+3-1	204-210	grotto	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-2	211-212	:	_	_	_	_	_	
+3-3	214-215	A	_	_	_	_	_	
+3-4	216-221	small	_	_	_	HAS\_SIZE	_	
+3-5	222-226	cave	_	A.2 Underground landform	GENUS	_	_	
+3-6	226-227	,	_	_	_	_	_	
+3-7	228-235	natural	_	_	_	HAS\_CAUSE[37]	_	
+3-8	236-238	or	_	_	_	HAS\_CAUSE[37]	_	
+3-9	239-249	artificial	_	_	_	HAS\_CAUSE[37]	_	
+3-10	249-250	.	_	_	_	_	_	
+
+#Text=grotto :  A room, in a cave system, of moderate dimensions but richly decorated.
+4-1	252-258	grotto	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-2	259-260	:	_	_	_	_	_	
+4-3	262-263	A	_	_	_	_	_	
+4-4	264-268	room	_	_	GENUS	_	_	
+4-5	268-269	,	_	_	_	_	_	
+4-6	270-272	in	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[76]	
+4-7	273-274	a	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[76]	
+4-8	275-279	cave	_	A.2 Underground landform[5]	_	HAS\_LOCATION[38]	_	
+4-9	280-286	system	_	A.2 Underground landform[5]	_	HAS\_LOCATION[38]	_	
+4-10	286-287	,	_	_	_	_	_	
+4-11	288-290	of	_	_	_	HAS\_SIZE[39]	frame\_SIZE	
+4-12	291-299	moderate	_	_	_	HAS\_SIZE[39]	_	
+4-13	300-310	dimensions	_	_	_	HAS\_SIZE[39]	frame\_SIZE	
+4-14	311-314	but	_	_	_	_	_	
+4-15	315-321	richly	_	_	_	HAS\_ATTRIBUTE[40]	_	
+4-16	322-331	decorated	_	_	_	HAS\_ATTRIBUTE[40]	_	
+4-17	331-332	.	_	_	_	_	_	
+
+#Text=gulf :  Steep-walled closed depression having a flat alluviated bottom; in some gulfs a stream flows across the bottom.
+5-1	333-337	gulf	_	A.1 Surface landform	DEFINIENDUM	_	_	
+5-2	338-339	:	_	_	_	_	_	
+5-3	341-353	Steep-walled	_	_	_	HAS\_FORM[41]	_	
+5-4	354-360	closed	_	A. Landform[6]	_	HAS\_FORM[41]	_	
+5-5	361-371	depression	_	A. Landform[6]	GENUS	HAS\_FORM[41]	_	
+5-6	372-378	having	_	_	_	HAS\_FORM[41]	_	
+5-7	379-380	a	_	_	_	HAS\_FORM[41]	_	
+5-8	381-385	flat	_	_	_	HAS\_FORM[41]	_	
+5-9	386-396	alluviated	_	_	_	HAS\_FORM[41]	_	
+5-10	397-403	bottom	_	_	_	HAS\_FORM[41]	_	
+5-11	403-404	;	_	_	_	_	_	
+5-12	405-407	in	_	_	_	_	_	
+5-13	408-412	some	_	_	_	_	_	
+5-14	413-418	gulfs	_	_	_	_	_	
+5-15	419-420	a	_	_	_	CONTAINS[42]	_	
+5-16	421-427	stream	_	D.1 Abiotic	_	CONTAINS[42]	_	
+5-17	428-433	flows	_	_	_	CONTAINS[42]	_	
+5-18	434-440	across	_	_	_	CONTAINS[42]	_	
+5-19	441-444	the	_	_	_	CONTAINS[42]	_	
+5-20	445-451	bottom	_	_	_	CONTAINS[42]	_	
+5-21	451-452	.	_	_	_	_	_	
+
+#Text=gypsum :  A mineral composed of hydrous calcium sulfate.
+6-1	453-459	gypsum	_	D.1 Abiotic	DEFINIENDUM	_	_	
+6-2	460-461	:	_	_	_	_	_	
+6-3	463-464	A	_	_	_	_	_	
+6-4	465-472	mineral	_	D.1 Abiotic	GENUS	_	_	
+6-5	473-481	composed	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[77]	
+6-6	482-484	of	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[77]	
+6-7	485-492	hydrous	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+6-8	493-500	calcium	_	D.1 Abiotic[7]	_	COMPOSITION\_MEDIUM[43]	_	
+6-9	501-508	sulfate	_	D.1 Abiotic[7]	_	COMPOSITION\_MEDIUM[43]	_	
+6-10	508-509	.	_	_	_	_	_	
+
+#Text=Halbkugelkarst :   Tropical karst topography containing domeshaped residual hills surrounding depressions, a kind of Kegelkarst. Also called Kugelkarst.
+7-1	510-524	Halbkugelkarst	_	C. Geome	DEFINIENDUM	_	_	
+7-2	525-526	:	_	_	_	_	_	
+7-3	529-537	Tropical	_	C. Geome[8]	_	_	_	
+7-4	538-543	karst	_	C. Geome[8]	GENUS	_	_	
+7-5	544-554	topography	_	C. Geome[8]	_	_	_	
+7-6	555-565	containing	_	_	_	CONTAINS[44]	frame\_CONTAINS	
+7-7	566-576	domeshaped	_	_	_	CONTAINS[44]	_	
+7-8	577-585	residual	_	_	_	CONTAINS[44]	_	
+7-9	586-591	hills	_	D.1 Abiotic	_	CONTAINS[44]	_	
+7-10	592-603	surrounding	_	_	_	CONTAINS[44]	_	
+7-11	604-615	depressions	_	D.1 Abiotic	_	CONTAINS[44]	_	
+7-12	615-616	,	_	_	_	_	_	
+7-13	617-618	a	_	_	_	_	_	
+7-14	619-623	kind	_	_	_	_	_	
+7-15	624-626	of	_	_	_	_	_	
+7-16	627-637	Kegelkarst	_	C. Geome	_	_	_	
+7-17	637-638	.	_	_	_	_	_	
+7-18	639-643	Also	_	_	_	_	_	
+7-19	644-650	called	_	_	_	_	_	
+7-20	651-661	Kugelkarst	_	C. Geome	DEFINIENDUM	_	_	
+7-21	661-662	.	_	_	_	_	_	
+
+#Text=half-blind valley :  Blind valley in which the stream overflows in floodtirae when the swallow hole can not accep t all the water.
+8-1	663-673	half-blind	_	A.1 Surface landform[9]	DEFINIENDUM[25]	_	_	
+8-2	674-680	valley	_	A.1 Surface landform[9]	DEFINIENDUM[25]	_	_	
+8-3	681-682	:	_	_	_	_	_	
+8-4	684-689	Blind	_	A.1 Surface landform[10]	_	_	_	
+8-5	690-696	valley	_	A.1 Surface landform[10]	GENUS	_	_	
+8-6	697-699	in	_	_	_	HAS\_FUNCTION[45]	frame\_FUNCTION[78]	
+8-7	700-705	which	_	_	_	HAS\_FUNCTION[45]	frame\_FUNCTION[78]	
+8-8	706-709	the	_	_	_	HAS\_FUNCTION[45]	_	
+8-9	710-716	stream	_	D.1 Abiotic	_	HAS\_FUNCTION[45]	_	
+8-10	717-726	overflows	_	_	_	HAS\_FUNCTION[45]	_	
+8-11	727-729	in	_	_	_	HAS\_FUNCTION[45]	_	
+8-12	730-740	floodtirae	_	_	_	HAS\_FUNCTION[45]	_	
+8-13	741-745	when	_	_	_	HAS\_CAUSE[46]	_	
+8-14	746-749	the	_	_	_	HAS\_CAUSE[46]	_	
+8-15	750-757	swallow	_	A.3 Hydrological form[11]	_	HAS\_CAUSE[46]	_	
+8-16	758-762	hole	_	A.3 Hydrological form[11]	_	HAS\_CAUSE[46]	_	
+8-17	763-766	can	_	_	_	HAS\_CAUSE[46]	_	
+8-18	767-770	not	_	_	_	HAS\_CAUSE[46]	_	
+8-19	771-776	accep	_	_	_	HAS\_CAUSE[46]	_	
+8-20	777-778	t	_	_	_	HAS\_CAUSE[46]	_	
+8-21	779-782	all	_	_	_	HAS\_CAUSE[46]	_	
+8-22	783-786	the	_	_	_	HAS\_CAUSE[46]	_	
+8-23	787-792	water	_	_	_	HAS\_CAUSE[46]	_	
+8-24	792-793	.	_	_	_	_	_	
+
+#Text=half tube :  Trace of a tube remaining in the roof or wall of a cave.
+9-1	794-798	half	_	A.2 Underground landform[12]	DEFINIENDUM[26]	_	_	
+9-2	799-803	tube	_	A.2 Underground landform[12]	DEFINIENDUM[26]	_	_	
+9-3	804-805	:	_	_	_	_	_	
+9-4	807-812	Trace	_	_	_	_	_	
+9-5	813-815	of	_	_	_	_	_	
+9-6	816-817	a	_	_	_	_	_	
+9-7	818-822	tube	_	_	_	_	_	
+9-8	823-832	remaining	_	_	_	_	_	
+9-9	833-835	in	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION[79]	
+9-10	836-839	the	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION[79]	
+9-11	840-844	roof	_	D.1 Abiotic	_	HAS\_LOCATION[47]	_	
+9-12	845-847	or	_	_	_	HAS\_LOCATION[47]	_	
+9-13	848-852	wall	_	_	_	HAS\_LOCATION[47]	_	
+9-14	853-855	of	_	_	_	HAS\_LOCATION[47]	_	
+9-15	856-857	a	_	_	_	HAS\_LOCATION[47]	_	
+9-16	858-862	cave	_	A.2 Underground landform	_	HAS\_LOCATION[47]	_	
+9-17	862-863	.	_	_	_	_	_	
+
+#Text=hall :  In a cave, a lofty chamber which is much longer than it is wide.
+10-1	866-870	hall	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	871-872	:	_	_	_	_	_	
+10-3	874-876	In	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION[80]	
+10-4	877-878	a	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION[80]	
+10-5	879-883	cave	_	A.2 Underground landform	_	HAS\_LOCATION[48]	_	
+10-6	883-884	,	_	_	_	_	_	
+10-7	885-886	a	_	_	_	HAS\_FORM[49]	_	
+10-8	887-892	lofty	_	_	_	HAS\_FORM[49]	_	
+10-9	893-900	chamber	_	A.2 Underground landform	GENUS	HAS\_FORM[49]	_	
+10-10	901-906	which	_	_	_	_	_	
+10-11	907-909	is	_	_	_	_	frame\_SIZE[81]	
+10-12	910-914	much	_	_	_	HAS\_SIZE[50]	frame\_SIZE[81]	
+10-13	915-921	longer	_	_	_	HAS\_SIZE[50]	_	
+10-14	922-926	than	_	_	_	HAS\_SIZE[50]	_	
+10-15	927-929	it	_	_	_	HAS\_SIZE[50]	_	
+10-16	930-932	is	_	_	_	HAS\_SIZE[50]	_	
+10-17	933-937	wide	_	_	_	HAS\_SIZE[50]	_	
+10-18	937-938	.	_	_	_	_	_	
+
+#Text=hanging blade :  A blade projecting down from the ceiling.
+11-1	940-947	hanging	_	A.2 Underground landform[13]	DEFINIENDUM[27]	_	_	
+11-2	948-953	blade	_	A.2 Underground landform[13]	DEFINIENDUM[27]	_	_	
+11-3	954-955	:	_	_	_	_	_	
+11-4	957-958	A	_	_	_	_	_	
+11-5	959-964	blade	_	A.2 Underground landform	GENUS	_	_	
+11-6	965-975	projecting	_	_	_	HAS\_FORM[51]	frame\_FORM[82]	
+11-7	976-980	down	_	_	_	HAS\_FORM[51]	frame\_FORM[82]	
+11-8	981-985	from	_	_	_	HAS\_FORM[51]	frame\_FORM[82]	
+11-9	986-989	the	_	_	_	HAS\_FORM[51]	_	
+11-10	990-997	ceiling	_	_	_	HAS\_FORM[51]	_	
+11-11	997-998	.	_	_	_	_	_	
+
+#Text=haystack hill :   In the tropics, rounded conical hill of limestone developed as a result of solution. Term being replaced by mogote.
+12-1	1000-1008	haystack	_	A.1 Surface landform[14]	DEFINIENDUM[28]	_	_	
+12-2	1009-1013	hill	_	A.1 Surface landform[14]	DEFINIENDUM[28]	_	_	
+12-3	1014-1015	:	_	_	_	_	_	
+12-4	1018-1020	In	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[83]	
+12-5	1021-1024	the	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[83]	
+12-6	1025-1032	tropics	_	_	_	HAS\_LOCATION[52]	_	
+12-7	1032-1033	,	_	_	_	_	_	
+12-8	1034-1041	rounded	_	_	_	HAS\_FORM[53]	_	
+12-9	1042-1049	conical	_	_	_	HAS\_FORM[53]	_	
+12-10	1050-1054	hill	_	D.1 Abiotic	GENUS	HAS\_FORM[53]	_	
+12-11	1055-1057	of	_	_	_	COMPOSITION\_MEDIUM[54]	frame\_COMPOSITION	
+12-12	1058-1067	limestone	_	_	_	COMPOSITION\_MEDIUM[54]	_	
+12-13	1068-1077	developed	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[84]	
+12-14	1078-1080	as	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[84]	
+12-15	1081-1082	a	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[84]	
+12-16	1083-1089	result	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[84]	
+12-17	1090-1092	of	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[84]	
+12-18	1093-1101	solution	_	B.2 Loss	_	HAS\_CAUSE[55]	_	
+12-19	1101-1102	.	_	_	_	_	_	
+12-20	1103-1107	Term	_	_	_	_	_	
+12-21	1108-1113	being	_	_	_	_	_	
+12-22	1114-1122	replaced	_	_	_	_	_	
+12-23	1123-1125	by	_	_	_	_	_	
+12-24	1126-1132	mogote	_	A.1 Surface landform	DEFINIENDUM	_	_	
+12-25	1132-1133	.	_	_	_	_	_	
+
+#Text=helictite :  A curved or angular twiglike lateral projection of calcium carbonate having a tiny central canal, found in caves. Synonym: eccentric stalactite.
+13-1	1134-1143	helictite	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-2	1144-1145	:	_	_	_	_	_	
+13-3	1147-1148	A	_	_	_	_	_	
+13-4	1149-1155	curved	_	_	_	HAS\_FORM[56]	_	
+13-5	1156-1158	or	_	_	_	HAS\_FORM[56]	_	
+13-6	1159-1166	angular	_	_	_	HAS\_FORM[56]	_	
+13-7	1167-1175	twiglike	_	_	_	HAS\_FORM[56]	_	
+13-8	1176-1183	lateral	_	_	_	HAS\_FORM[56]	_	
+13-9	1184-1194	projection	_	_	_	HAS\_FORM[56]	_	
+13-10	1195-1197	of	_	_	_	COMPOSITION\_MEDIUM[57]	frame\_COMPOSITION	
+13-11	1198-1205	calcium	_	D.1 Abiotic[15]	_	COMPOSITION\_MEDIUM[57]	_	
+13-12	1206-1215	carbonate	_	D.1 Abiotic[15]	_	COMPOSITION\_MEDIUM[57]	_	
+13-13	1216-1222	having	_	_	_	HAS\_FORM[58]	frame\_FORM[85]	
+13-14	1223-1224	a	_	_	_	HAS\_FORM[58]	frame\_FORM[85]	
+13-15	1225-1229	tiny	_	_	_	HAS\_FORM[58]	_	
+13-16	1230-1237	central	_	_	_	HAS\_FORM[58]	_	
+13-17	1238-1243	canal	_	_	_	HAS\_FORM[58]	_	
+13-18	1243-1244	,	_	_	_	_	_	
+13-19	1245-1250	found	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION[86]	
+13-20	1251-1253	in	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION[86]	
+13-21	1254-1259	caves	_	_	_	HAS\_LOCATION[59]	_	
+13-22	1259-1260	.	_	_	_	_	_	
+13-23	1261-1268	Synonym	_	_	_	_	_	
+13-24	1268-1269	:	_	_	_	_	_	
+13-25	1270-1279	eccentric	_	A.2 Underground landform[16]	DEFINIENDUM[29]	_	_	
+13-26	1280-1290	stalactite	_	A.2 Underground landform[16]	DEFINIENDUM[29]	_	_	
+13-27	1290-1291	.	_	_	_	_	_	
+
+#Text=heligmite :  An eccentric growing upward from a cave floor or from a shelf in a cave. A curved or angular thin stalagmite.
+14-1	1292-1301	heligmite	_	A.2 Underground landform	DEFINIENDUM	_	_	
+14-2	1302-1303	:	_	_	_	_	_	
+14-3	1305-1307	An	_	_	_	_	_	
+14-4	1308-1317	eccentric	_	_	_	_	_	
+14-5	1318-1325	growing	_	_	_	HAS\_LOCATION[60]	_	
+14-6	1326-1332	upward	_	_	_	HAS\_LOCATION[60]	_	
+14-7	1333-1337	from	_	_	_	HAS\_LOCATION[60]	_	
+14-8	1338-1339	a	_	_	_	HAS\_LOCATION[60]	_	
+14-9	1340-1344	cave	_	_	_	HAS\_LOCATION[60]	_	
+14-10	1345-1350	floor	_	_	_	HAS\_LOCATION[60]	_	
+14-11	1351-1353	or	_	_	_	HAS\_LOCATION[60]	_	
+14-12	1354-1358	from	_	_	_	HAS\_LOCATION[60]	_	
+14-13	1359-1360	a	_	_	_	HAS\_LOCATION[60]	_	
+14-14	1361-1366	shelf	_	_	_	HAS\_LOCATION[60]	_	
+14-15	1367-1369	in	_	_	_	HAS\_LOCATION[60]	_	
+14-16	1370-1371	a	_	_	_	HAS\_LOCATION[60]	_	
+14-17	1372-1376	cave	_	_	_	HAS\_LOCATION[60]	_	
+14-18	1376-1377	.	_	_	_	_	_	
+14-19	1378-1379	A	_	_	_	_	_	
+14-20	1380-1386	curved	_	_	_	HAS\_FORM[61]	_	
+14-21	1387-1389	or	_	_	_	HAS\_FORM[61]	_	
+14-22	1390-1397	angular	_	_	_	HAS\_FORM[61]	_	
+14-23	1398-1402	thin	_	_	_	HAS\_FORM[61]	_	
+14-24	1403-1413	stalagmite	_	A.2 Underground landform	GENUS	HAS\_FORM[61]	_	
+14-25	1413-1414	.	_	_	_	_	_	
+
+#Text=holokarst :  Cvijić's term for a karst area like that of the Dinaric Karst of Slovenia. Such areas have bare surfaces on thick deposits of limestone that extend below sea level, well-developed Karren, dolines, uvalas, poljes, deep ponors, and extensive cave systems; they have little or no surface drainage.
+15-1	1415-1424	holokarst	_	C. Geome	DEFINIENDUM	_	_	
+15-2	1425-1426	:	_	_	_	_	_	
+15-3	1428-1436	Cvijić's	_	_	_	_	_	
+15-4	1437-1441	term	_	_	_	_	_	
+15-5	1442-1445	for	_	_	_	_	_	
+15-6	1446-1447	a	_	_	_	_	_	
+15-7	1448-1453	karst	_	_	GENUS	_	_	
+15-8	1454-1458	area	_	_	_	_	_	
+15-9	1459-1463	like	_	_	_	_	_	
+15-10	1464-1468	that	_	_	_	_	_	
+15-11	1469-1471	of	_	_	_	_	_	
+15-12	1472-1475	the	_	_	_	_	_	
+15-13	1476-1483	Dinaric	_	D.3.1 Geolocation[17]	_	HAS\_POSITION[62]	_	
+15-14	1484-1489	Karst	_	D.3.1 Geolocation[17]	_	HAS\_POSITION[62]	_	
+15-15	1490-1492	of	_	_	_	_	_	
+15-16	1493-1501	Slovenia	_	D.3.1 Geolocation	_	_	_	
+15-17	1501-1502	.	_	_	_	_	_	
+15-18	1503-1507	Such	_	_	_	_	_	
+15-19	1508-1513	areas	_	_	_	_	_	
+15-20	1514-1518	have	_	_	_	_	_	
+15-21	1519-1523	bare	_	D.1 Abiotic[18]	_	CONTAINS[63]	_	
+15-22	1524-1532	surfaces	_	D.1 Abiotic[18]	_	CONTAINS[63]	_	
+15-23	1533-1535	on	_	_	_	COMPOSITION\_MEDIUM[64]	frame\_COMPOSITION	
+15-24	1536-1541	thick	_	_	_	COMPOSITION\_MEDIUM[64]	_	
+15-25	1542-1550	deposits	_	D.1 Abiotic[19]	_	COMPOSITION\_MEDIUM[64]	_	
+15-26	1551-1553	of	_	D.1 Abiotic[19]	_	COMPOSITION\_MEDIUM[64]	_	
+15-27	1554-1563	limestone	_	D.1 Abiotic[19]	_	COMPOSITION\_MEDIUM[64]	_	
+15-28	1564-1568	that	_	_	_	HAS\_LOCATION[65]	_	
+15-29	1569-1575	extend	_	_	_	HAS\_LOCATION[65]	_	
+15-30	1576-1581	below	_	_	_	HAS\_LOCATION[65]	_	
+15-31	1582-1585	sea	_	_	_	HAS\_LOCATION[65]	_	
+15-32	1586-1591	level	_	_	_	HAS\_LOCATION[65]	_	
+15-33	1591-1592	,	_	_	_	_	_	
+15-34	1593-1607	well-developed	_	_	_	_	_	
+15-35	1608-1614	Karren	_	A.1 Surface landform	_	CONTAINS[66]	_	
+15-36	1614-1615	,	_	_	_	CONTAINS[66]	_	
+15-37	1616-1623	dolines	_	A.1 Surface landform	_	CONTAINS[66]	_	
+15-38	1623-1624	,	_	_	_	CONTAINS[66]	_	
+15-39	1625-1631	uvalas	_	A.1 Surface landform	_	CONTAINS[66]	_	
+15-40	1631-1632	,	_	_	_	CONTAINS[66]	_	
+15-41	1633-1639	poljes	_	A.1 Surface landform	_	CONTAINS[66]	_	
+15-42	1639-1640	,	_	_	_	CONTAINS[66]	_	
+15-43	1641-1645	deep	_	A.3 Hydrological form[20]	_	CONTAINS[66]	_	
+15-44	1646-1652	ponors	_	A.3 Hydrological form[20]	_	CONTAINS[66]	_	
+15-45	1652-1653	,	_	_	_	CONTAINS[66]	_	
+15-46	1654-1657	and	_	_	_	CONTAINS[66]	_	
+15-47	1658-1667	extensive	_	_	_	CONTAINS[66]	_	
+15-48	1668-1672	cave	_	A.2 Underground landform[21]	_	CONTAINS[66]	_	
+15-49	1673-1680	systems	_	A.2 Underground landform[21]	_	CONTAINS[66]	_	
+15-50	1680-1681	;	_	_	_	_	_	
+15-51	1682-1686	they	_	_	_	_	_	
+15-52	1687-1691	have	_	_	_	HAS\_FUNCTION[67]	_	
+15-53	1692-1698	little	_	_	_	HAS\_FUNCTION[67]	_	
+15-54	1699-1701	or	_	_	_	HAS\_FUNCTION[67]	_	
+15-55	1702-1704	no	_	_	_	HAS\_FUNCTION[67]	_	
+15-56	1705-1712	surface	_	_	_	HAS\_FUNCTION[67]	_	
+15-57	1713-1721	drainage	_	_	_	HAS\_FUNCTION[67]	_	
+15-58	1721-1722	.	_	_	_	_	_	
+
+#Text=hum :  Karst inselberg. Residual hill of limestone on a fairly level floor, such as the isolated hills of limestone in poljes. In some tropical areas, used loosely as synonym for mogote.
+16-1	1723-1726	hum	_	A.1 Surface landform	DEFINIENDUM	_	_	
+16-2	1727-1728	:	_	_	_	_	_	
+16-3	1730-1735	Karst	_	A.1 Surface landform[22]	DEFINIENDUM[30]	_	_	
+16-4	1736-1745	inselberg	_	A.1 Surface landform[22]	DEFINIENDUM[30]	_	_	
+16-5	1745-1746	.	_	_	_	_	_	
+16-6	1747-1755	Residual	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+16-7	1756-1760	hill	_	_	GENUS	COMPOSITION\_MEDIUM[68]	_	
+16-8	1761-1763	of	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+16-9	1764-1773	limestone	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+16-10	1774-1776	on	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[87]	
+16-11	1777-1778	a	_	_	_	HAS\_LOCATION[69]	frame\_LOCATION[87]	
+16-12	1779-1785	fairly	_	_	_	HAS\_LOCATION[69]	_	
+16-13	1786-1791	level	_	_	_	HAS\_LOCATION[69]	_	
+16-14	1792-1797	floor	_	_	_	HAS\_LOCATION[69]	_	
+16-15	1797-1798	,	_	_	_	_	_	
+16-16	1799-1803	such	_	_	_	_	_	
+16-17	1804-1806	as	_	_	_	_	_	
+16-18	1807-1810	the	_	_	_	_	_	
+16-19	1811-1819	isolated	_	_	_	_	_	
+16-20	1820-1825	hills	_	_	_	_	_	
+16-21	1826-1828	of	_	_	_	_	_	
+16-22	1829-1838	limestone	_	D.1 Abiotic	_	_	_	
+16-23	1839-1841	in	_	_	_	_	_	
+16-24	1842-1848	poljes	_	A.1 Surface landform	_	_	_	
+16-25	1848-1849	.	_	_	_	_	_	
+16-26	1850-1852	In	_	_	_	_	_	
+16-27	1853-1857	some	_	_	_	_	_	
+16-28	1858-1866	tropical	_	_	_	_	_	
+16-29	1867-1872	areas	_	_	_	_	_	
+16-30	1872-1873	,	_	_	_	_	_	
+16-31	1874-1878	used	_	_	_	_	_	
+16-32	1879-1886	loosely	_	_	_	_	_	
+16-33	1887-1889	as	_	_	_	_	_	
+16-34	1890-1897	synonym	_	_	_	_	_	
+16-35	1898-1901	for	_	_	_	_	_	
+16-36	1902-1908	mogote	_	A.1 Surface landform	DEFINIENDUM	_	_	
+16-37	1908-1909	.	_	_	_	_	_	
+
+#Text=ice cave :  A cave, generally in lava or limestone, in which the average temperature is below 0°C., and which ordinarily contains perennial ice. Ice may have the form of stalactites, stalagmites, or flowstone.
+17-1	1910-1913	ice	_	A.2 Underground landform[23]	DEFINIENDUM[31]	_	_	
+17-2	1914-1918	cave	_	A.2 Underground landform[23]	DEFINIENDUM[31]	_	_	
+17-3	1919-1920	:	_	_	_	_	_	
+17-4	1922-1923	A	_	_	_	_	_	
+17-5	1924-1928	cave	_	_	GENUS	_	_	
+17-6	1928-1929	,	_	_	_	_	_	
+17-7	1930-1939	generally	_	_	_	COMPOSITION\_MEDIUM[70]	frame\_COMPOSITION[88]	
+17-8	1940-1942	in	_	_	_	COMPOSITION\_MEDIUM[70]	frame\_COMPOSITION[88]	
+17-9	1943-1947	lava	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[70]	_	
+17-10	1948-1950	or	_	_	_	COMPOSITION\_MEDIUM[70]	_	
+17-11	1951-1960	limestone	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[70]	_	
+17-12	1960-1961	,	_	_	_	_	_	
+17-13	1962-1964	in	_	_	_	_	_	
+17-14	1965-1970	which	_	_	_	_	_	
+17-15	1971-1974	the	_	_	_	HAS\_ATTRIBUTE[71]	_	
+17-16	1975-1982	average	_	_	_	HAS\_ATTRIBUTE[71]	_	
+17-17	1983-1994	temperature	_	_	_	HAS\_ATTRIBUTE[71]	_	
+17-18	1995-1997	is	_	_	_	HAS\_ATTRIBUTE[71]	_	
+17-19	1998-2003	below	_	_	_	HAS\_ATTRIBUTE[71]	_	
+17-20	2004-2005	0	_	_	_	HAS\_ATTRIBUTE[71]	_	
+17-21	2005-2006	°	_	_	_	HAS\_ATTRIBUTE[71]	_	
+17-22	2006-2007	C	_	_	_	HAS\_ATTRIBUTE[71]	_	
+17-23	2007-2008	.	_	_	_	_	_	
+17-24	2008-2009	,	_	_	_	_	_	
+17-25	2010-2013	and	_	_	_	_	_	
+17-26	2014-2019	which	_	_	_	_	_	
+17-27	2020-2030	ordinarily	_	_	_	_	_	
+17-28	2031-2039	contains	_	_	_	CONTAINS[72]	frame\_CONTAINS	
+17-29	2040-2049	perennial	_	D.1 Abiotic[24]	_	CONTAINS[72]	_	
+17-30	2050-2053	ice	_	D.1 Abiotic[24]	_	CONTAINS[72]	_	
+17-31	2053-2054	.	_	_	_	_	_	
+17-32	2055-2058	Ice	_	_	_	_	_	
+17-33	2059-2062	may	_	_	_	_	_	
+17-34	2063-2067	have	_	_	_	_	_	
+17-35	2068-2071	the	_	_	_	_	_	
+17-36	2072-2076	form	_	_	_	_	_	
+17-37	2077-2079	of	_	_	_	_	_	
+17-38	2080-2091	stalactites	_	_	_	_	_	
+17-39	2091-2092	,	_	_	_	_	_	
+17-40	2093-2104	stalagmites	_	_	_	_	_	
+17-41	2104-2105	,	_	_	_	_	_	
+17-42	2106-2108	or	_	_	_	_	_	
+17-43	2109-2118	flowstone	_	_	_	_	_	
+17-44	2118-2119	.	_	_	_	_	_	

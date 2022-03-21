@@ -1,0 +1,15 @@
+Holokras je popolni kras, ki ima razvite vse tipične kraške oblike, vključno s kraškimi polji.
+Cab je absorpcijski koeficient, ki je odvisen od temperature.
+Merokras je nepopolni kras, ki se deli na podtipe: kras v kredi v južni Angliji in severni Franciji, moravski kras, kras v Belgiji itd. Nekatere novejše tipologije po analogiji delijo kras na nižji in valovit srednjeevropski ter bolje razvit sredozemski kras.
+Laminarni tok je način pretakanja tekočine, pri katerem so tokovnice ves čas vzporedne; molekule vode se gibljejo vzporedno v smeri gibanja vodnega toka brez mešanja oziroma pravokotne komponente premikanja.
+Nastanek tega površja, ki ga imenujemo termokras, ni vezan na kraške procese, ampak je rezultat neenakomernega taljenja permafrosta poleti in zmrzovanja pozimi.
+Kamninsko gmoto, ki je neprepustna oziroma ni zmožna hraniti ali prevajati pomembnejših količin vode, za razliko od vodonosnika imenujemo akvifug.
+Kamnine, kot so glinenci ali meljevci, ki lahko vsebujejo pomembnejše količine vode, prepojene z vodo pa vode ne prevajajo, imenujemo akviklud.
+Piezometri so vrtine, v katerih se meri višino podzemne vode v vodonosnikih.
+Prepustnost je sposobnost kamnine, da prevaja tekočine.
+Prepustnost navadno opisujemo s parametrom, ki ga imenujemo hidravlična prevodnost.
+Zgornji del vadozne cone predstavlja tanka prst, ki jo imenujemo cona talnega prenikanja.
+Prehodno cono med vadozno in freatično cono imenujemo občasno zalita, epifreatična ali poplavna cona.
+Najnižja cona kraškega vodonosnika je nasičena ali freatična cona, ki jo literatura imenuje tudi prežeta cona.
+Napajanje je hidrološki proces, kjer površinske vode odtekajo v podzemlje.
+Kraška območja, ki se napajajo predvsem z alogenimi tokovi, imenujemo pretočni kras.

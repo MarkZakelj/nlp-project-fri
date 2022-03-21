@@ -1,0 +1,275 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Rečna struga je reliefna oblika, ki nastane z neposrednim delovanjem tekoče vode.
+1-1	0-5	Rečna	_	D.1 Abiotic[2]	DEFINIENDUM[21]	_	_	
+1-2	6-12	struga	_	D.1 Abiotic[2]	DEFINIENDUM[21]	_	_	
+1-3	13-15	je	_	_	DEFINITOR	_	_	
+1-4	16-24	reliefna	_	_	GENUS[22]	_	_	
+1-5	25-31	oblika	_	_	GENUS[22]	_	_	
+1-6	31-32	,	_	_	_	_	_	
+1-7	33-35	ki	_	_	_	HAS\_CAUSE[32]	_	
+1-8	36-43	nastane	_	_	_	HAS\_CAUSE[32]	frame\_CAUSE	
+1-9	44-45	z	_	_	_	HAS\_CAUSE[32]	_	
+1-10	46-57	neposrednim	_	_	_	HAS\_CAUSE[32]	_	
+1-11	58-68	delovanjem	_	_	_	HAS\_CAUSE[32]	_	
+1-12	69-75	tekoče	_	D.1 Abiotic[3]	_	HAS\_CAUSE[32]	_	
+1-13	76-80	vode	_	D.1 Abiotic[3]	_	HAS\_CAUSE[32]	_	
+1-14	80-81	.	_	_	_	_	_	
+
+#Text=Kraški izvir je naravni iztok kraške vode na površje.
+2-1	82-88	Kraški	_	A.3 Hydrological form[4]	DEFINIENDUM[23]	_	_	
+2-2	89-94	izvir	_	A.3 Hydrological form[4]	DEFINIENDUM[23]	_	_	
+2-3	95-97	je	_	_	DEFINITOR	_	_	
+2-4	98-105	naravni	_	_	_	HAS\_CAUSE	_	
+2-5	106-111	iztok	_	D.1 Abiotic	GENUS	_	_	
+2-6	112-118	kraške	_	D.1 Abiotic[5]	_	_	_	
+2-7	119-123	vode	_	D.1 Abiotic[5]	_	_	_	
+2-8	124-126	na	_	_	_	_	_	
+2-9	127-134	površje	_	D.1 Abiotic	_	_	_	
+2-10	134-135	.	_	_	_	_	_	
+
+#Text=Stropne kotlice so posledica delovanja kondenzne vode na kamnino.
+3-1	136-143	Stropne	_	A.2 Underground landform[6]	DEFINIENDUM[24]	_	_	
+3-2	144-151	kotlice	_	A.2 Underground landform[6]	DEFINIENDUM[24]	_	_	
+3-3	152-154	so	_	_	DEFINITOR	_	frame\_CAUSE[49]	
+3-4	155-164	posledica	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[49]	
+3-5	165-174	delovanja	_	_	_	HAS\_CAUSE[33]	_	
+3-6	175-184	kondenzne	_	_	_	HAS\_CAUSE[33]	_	
+3-7	185-189	vode	_	_	_	HAS\_CAUSE[33]	_	
+3-8	190-192	na	_	_	_	HAS\_CAUSE[33]	_	
+3-9	193-200	kamnino	_	D.1 Abiotic	_	HAS\_CAUSE[33]	_	
+3-10	200-201	.	_	_	_	_	_	
+
+#Text=Kraški vodonosnik je masa apnenca, ki zadržuje vodo, ki se steka s kraškega površja v podzemlje.
+4-1	202-208	Kraški	_	C. Geome[7]	DEFINIENDUM[25]	_	_	
+4-2	209-219	vodonosnik	_	C. Geome[7]	DEFINIENDUM[25]	_	_	
+4-3	220-222	je	_	_	DEFINITOR	_	_	
+4-4	223-227	masa	_	_	GENUS[26]	_	_	
+4-5	228-235	apnenca	_	D.1 Abiotic	GENUS[26]	_	_	
+4-6	235-236	,	_	_	_	_	_	
+4-7	237-239	ki	_	_	_	HAS\_FUNCTION[34]	_	
+4-8	240-248	zadržuje	_	_	_	HAS\_FUNCTION[34]	frame\_FUNCTION	
+4-9	249-253	vodo	_	D.1 Abiotic	_	HAS\_FUNCTION[34]	_	
+4-10	253-254	,	_	_	_	HAS\_FUNCTION[34]	_	
+4-11	255-257	ki	_	_	_	HAS\_FUNCTION[34]	_	
+4-12	258-260	se	_	_	_	HAS\_FUNCTION[34]	_	
+4-13	261-266	steka	_	_	_	HAS\_FUNCTION[34]	_	
+4-14	267-268	s	_	_	_	HAS\_FUNCTION[34]	_	
+4-15	269-277	kraškega	_	C. Geome[8]	_	HAS\_FUNCTION[34]	_	
+4-16	278-285	površja	_	C. Geome[8]	_	HAS\_FUNCTION[34]	_	
+4-17	286-287	v	_	_	_	HAS\_FUNCTION[34]	_	
+4-18	288-297	podzemlje	_	C. Geome	_	HAS\_FUNCTION[34]	_	
+4-19	297-298	.	_	_	_	_	_	
+
+#Text=Glavne oblike jamskega skalnega reliefa so žlebovi in žlebiči, kotlice in vdolbinice, štrline in odlomi ter odkruški.
+5-1	299-305	Glavne	_	_	_	_	_	
+5-2	306-312	oblike	_	_	_	_	_	
+5-3	313-321	jamskega	_	C. Geome[9]	DEFINIENDUM[27]	_	_	
+5-4	322-330	skalnega	_	C. Geome[9]	DEFINIENDUM[27]	_	_	
+5-5	331-338	reliefa	_	C. Geome[9]	DEFINIENDUM[27]	_	_	
+5-6	339-341	so	_	_	DEFINITOR	CONTAINS[35]	_	
+5-7	342-349	žlebovi	_	A.2 Underground landform	SPECIES	CONTAINS[35]	_	
+5-8	350-352	in	_	_	_	CONTAINS[35]	_	
+5-9	353-360	žlebiči	_	A.2 Underground landform	SPECIES	CONTAINS[35]	_	
+5-10	360-361	,	_	_	_	CONTAINS[35]	_	
+5-11	362-369	kotlice	_	A.2 Underground landform	SPECIES	CONTAINS[35]	_	
+5-12	370-372	in	_	_	_	CONTAINS[35]	_	
+5-13	373-383	vdolbinice	_	A.2 Underground landform	SPECIES	CONTAINS[35]	_	
+5-14	383-384	,	_	_	_	CONTAINS[35]	_	
+5-15	385-392	štrline	_	A.2 Underground landform	SPECIES	CONTAINS[35]	_	
+5-16	393-395	in	_	_	_	CONTAINS[35]	_	
+5-17	396-402	odlomi	_	A.2 Underground landform	SPECIES	CONTAINS[35]	_	
+5-18	403-406	ter	_	_	_	CONTAINS[35]	_	
+5-19	407-415	odkruški	_	A.2 Underground landform	SPECIES	CONTAINS[35]	_	
+5-20	415-416	.	_	_	_	_	_	
+
+#Text=Burja je suh, hladen, padajoč in sunkovit SV veter.
+6-1	417-422	Burja	_	A.4 Other	DEFINIENDUM	_	_	
+6-2	423-425	je	_	_	DEFINITOR	_	_	
+6-3	426-429	suh	_	_	_	DEFINED\_AS[36]	_	
+6-4	429-430	,	_	_	_	DEFINED\_AS[36]	_	
+6-5	431-437	hladen	_	_	_	DEFINED\_AS[36]	_	
+6-6	437-438	,	_	_	_	DEFINED\_AS[36]	_	
+6-7	439-446	padajoč	_	_	_	DEFINED\_AS[36]	_	
+6-8	447-449	in	_	_	_	DEFINED\_AS[36]	_	
+6-9	450-458	sunkovit	_	_	_	DEFINED\_AS[36]	_	
+6-10	459-461	SV	_	_	_	DEFINED\_AS[36]	_	
+6-11	462-467	veter	_	D.1 Abiotic	GENUS	DEFINED\_AS[36]	_	
+6-12	467-468	.	_	_	_	_	_	
+
+#Text=Kras, ki ga imenujemo tudi Tržaški, Goriški, Divaško – Komenski ali Sežanski Kras je okoli 500 km2 velika apneniška uravnava v jugozahodni Sloveniji.
+7-1	469-473	Kras	_	C. Geome	DEFINIENDUM	_	_	
+7-2	473-474	,	_	_	_	_	_	
+7-3	475-477	ki	_	_	_	_	_	
+7-4	478-480	ga	_	_	_	_	_	
+7-5	481-490	imenujemo	_	_	_	_	_	
+7-6	491-495	tudi	_	_	_	_	_	
+7-7	496-503	Tržaški	Tržaški Kras	D.3.1 Geolocation	_	_	_	
+7-8	503-504	,	_	_	_	_	_	
+7-9	505-512	Goriški	Goriški Kras	D.3.1 Geolocation	_	_	_	
+7-10	512-513	,	_	_	_	_	_	
+7-11	514-521	Divaško	Divaško – Komenski Kras[1]	D.3.1 Geolocation[10]	_	_	_	
+7-12	522-523	–	Divaško – Komenski Kras[1]	D.3.1 Geolocation[10]	_	_	_	
+7-13	524-532	Komenski	Divaško – Komenski Kras[1]	D.3.1 Geolocation[10]	_	_	_	
+7-14	533-536	ali	_	_	_	_	_	
+7-15	537-545	Sežanski	_	D.3.1 Geolocation[11]	_	_	_	
+7-16	546-550	Kras	_	D.3.1 Geolocation[11]	_	_	_	
+7-17	551-553	je	_	_	DEFINITOR	_	_	
+7-18	554-559	okoli	_	_	_	HAS\_SIZE[37]	_	
+7-19	560-563	500	_	_	_	HAS\_SIZE[37]	_	
+7-20	564-567	km2	_	_	_	HAS\_SIZE[37]	_	
+7-21	568-574	velika	_	_	_	HAS\_SIZE[37]	frame\_SIZE	
+7-22	575-584	apneniška	_	A.1 Surface landform[12]	_	COMPOSITION\_MEDIUM	_	
+7-23	585-593	uravnava	_	A.1 Surface landform[12]|D.1 Abiotic[13]	GENUS	_	_	
+7-24	594-595	v	_	_	_	HAS\_POSITION[38]	frame\_POSITION	
+7-25	596-607	jugozahodni	_	D.3.1 Geolocation[14]	_	HAS\_POSITION[38]	_	
+7-26	608-617	Sloveniji	_	D.3.1 Geolocation[14]	_	HAS\_POSITION[38]	_	
+7-27	617-618	.	_	_	_	_	_	
+
+#Text=Voda je element in hkrati medij, ki omogoča kemično raztapljanje karbonatov.
+8-1	619-623	Voda	_	D.1 Abiotic	DEFINIENDUM	_	_	
+8-2	624-626	je	_	_	DEFINITOR	_	_	
+8-3	627-634	element	_	_	GENUS	_	_	
+8-4	635-637	in	_	_	_	_	_	
+8-5	638-644	hkrati	_	_	_	_	_	
+8-6	645-650	medij	_	_	GENUS	_	_	
+8-7	650-651	,	_	_	_	_	_	
+8-8	652-654	ki	_	_	_	HAS\_FUNCTION[39]	_	
+8-9	655-662	omogoča	_	_	_	HAS\_FUNCTION[39]	frame\_FUNCTION	
+8-10	663-670	kemično	_	B.4 Transformation[15]	_	HAS\_FUNCTION[39]	_	
+8-11	671-683	raztapljanje	_	B.4 Transformation[15]|B.4 Transformation[16]	_	HAS\_FUNCTION[39]	_	
+8-12	684-694	karbonatov	_	D.1 Abiotic	_	HAS\_FUNCTION[39]	_	
+8-13	694-695	.	_	_	_	_	_	
+
+#Text=Škavnice so korozijske vdolbine z ravnim dnom, velike od nekaj cm2 do nekaj m2.
+9-1	696-704	Škavnice	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	705-707	so	_	_	DEFINITOR	_	_	
+9-3	708-718	korozijske	_	D.1 Abiotic[17]	GENUS[28]	HAS\_CAUSE	_	
+9-4	719-727	vdolbine	_	D.1 Abiotic[17]|D.1 Abiotic[18]	GENUS[28]	_	_	
+9-5	728-729	z	_	_	_	HAS\_FORM[40]	frame\_FORM	
+9-6	730-736	ravnim	_	_	_	HAS\_FORM[40]	_	
+9-7	737-741	dnom	_	D.1 Abiotic	_	HAS\_FORM[40]	_	
+9-8	741-742	,	_	_	_	_	_	
+9-9	743-749	velike	_	_	_	HAS\_SIZE[41]	frame\_SIZE	
+9-10	750-752	od	_	_	_	HAS\_SIZE[41]	_	
+9-11	753-758	nekaj	_	_	_	HAS\_SIZE[41]	_	
+9-12	759-762	cm2	_	_	_	HAS\_SIZE[41]	_	
+9-13	763-765	do	_	_	_	HAS\_SIZE[41]	_	
+9-14	766-771	nekaj	_	_	_	HAS\_SIZE[41]	_	
+9-15	772-774	m2	_	_	_	HAS\_SIZE[41]	_	
+9-16	774-775	.	_	_	_	_	_	
+
+#Text=Škraplje so korozijske razjede, ki nastajajo s korozijo vode bodisi na površju ali subkutano.
+10-1	776-784	Škraplje	_	A.1 Surface landform	DEFINIENDUM	_	_	
+10-2	785-787	so	_	_	DEFINITOR	_	_	
+10-3	788-798	korozijske	_	D.1 Abiotic[19]	GENUS[29]	HAS\_CAUSE	_	
+10-4	799-806	razjede	_	D.1 Abiotic[19]	GENUS[29]	_	_	
+10-5	806-807	,	_	_	_	_	_	
+10-6	808-810	ki	_	_	_	HAS\_CAUSE[42]	_	
+10-7	811-820	nastajajo	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE	
+10-8	821-822	s	_	_	_	HAS\_CAUSE[42]	_	
+10-9	823-831	korozijo	_	B.2 Loss	_	HAS\_CAUSE[42]	_	
+10-10	832-836	vode	_	_	_	HAS\_CAUSE[42]	_	
+10-11	837-843	bodisi	_	_	_	HAS\_LOCATION[43]	_	
+10-12	844-846	na	_	_	_	HAS\_LOCATION[43]	_	
+10-13	847-854	površju	_	D.1 Abiotic	_	HAS\_LOCATION[43]	_	
+10-14	855-858	ali	_	_	_	HAS\_LOCATION[43]	_	
+10-15	859-868	subkutano	_	_	_	HAS\_LOCATION[43]	_	
+10-16	868-869	.	_	_	_	_	_	
+
+#Text=Manjše, poklinaste škraplje imenuje splitkarren, nastanejo pa ob manjših nezveznostih v kamnini.
+11-1	870-876	Manjše	_	_	GENUS[30]	HAS\_FORM[44]|HAS\_SIZE[45]	_	
+11-2	876-877	,	_	_	GENUS[30]	HAS\_FORM[44]	_	
+11-3	878-888	poklinaste	_	_	GENUS[30]	HAS\_FORM[44]	_	
+11-4	889-897	škraplje	_	A.1 Surface landform	GENUS[30]	_	_	
+11-5	898-905	imenuje	_	_	DEFINITOR	_	_	
+11-6	906-917	splitkarren	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-7	917-918	,	_	_	_	_	_	
+11-8	919-928	nastanejo	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[50]	
+11-9	929-931	pa	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[50]	
+11-10	932-934	ob	_	_	_	HAS\_CAUSE[46]	frame\_CAUSE[50]	
+11-11	935-942	manjših	_	_	_	HAS\_CAUSE[46]	_	
+11-12	943-955	nezveznostih	_	D.3 Property	_	HAS\_CAUSE[46]	_	
+11-13	956-957	v	_	_	_	HAS\_CAUSE[46]	_	
+11-14	958-965	kamnini	_	_	_	HAS\_CAUSE[46]	_	
+11-15	965-966	.	_	_	_	_	_	
+
+#Text=Lezične škraplje so lahko globlje od 50 cm in dolge nekaj metrov, večje, do 30 m globoke in 2 m široke pa imenuje bogaz.
+12-1	967-974	Lezične	_	A.1 Surface landform[20]	DEFINIENDUM[31]	_	_	
+12-2	975-983	škraplje	_	A.1 Surface landform[20]	DEFINIENDUM[31]	_	_	
+12-3	984-986	so	_	_	DEFINITOR	_	frame\_SIZE[51]	
+12-4	987-992	lahko	_	_	_	HAS\_SIZE[47]	frame\_SIZE[51]	
+12-5	993-1000	globlje	_	_	_	HAS\_SIZE[47]	frame\_SIZE[51]	
+12-6	1001-1003	od	_	_	_	HAS\_SIZE[47]	_	
+12-7	1004-1006	50	_	_	_	HAS\_SIZE[47]	_	
+12-8	1007-1009	cm	_	_	_	HAS\_SIZE[47]	_	
+12-9	1010-1012	in	_	_	_	HAS\_SIZE[47]	_	
+12-10	1013-1018	dolge	_	_	_	HAS\_SIZE[47]	_	
+12-11	1019-1024	nekaj	_	_	_	HAS\_SIZE[47]	_	
+12-12	1025-1031	metrov	_	_	_	HAS\_SIZE[47]	_	
+12-13	1031-1032	,	_	_	_	_	_	
+12-14	1033-1038	večje	_	_	_	_	_	
+12-15	1038-1039	,	_	_	_	_	_	
+12-16	1040-1042	do	_	_	_	_	_	
+12-17	1043-1045	30	_	_	_	_	_	
+12-18	1046-1047	m	_	_	_	_	_	
+12-19	1048-1055	globoke	_	_	_	_	_	
+12-20	1056-1058	in	_	_	_	_	_	
+12-21	1059-1060	2	_	_	_	_	_	
+12-22	1061-1062	m	_	_	_	_	_	
+12-23	1063-1069	široke	_	_	_	_	_	
+12-24	1070-1072	pa	_	_	_	_	_	
+12-25	1073-1080	imenuje	_	_	_	_	_	
+12-26	1081-1086	bogaz	_	A.1 Surface landform	_	_	_	
+12-27	1086-1087	.	_	_	_	_	_	
+
+#Text=Žlebiči so polkrožne izjedenine, ki nastanejo po strmcu kamninskega bloka navzdol.
+13-1	1088-1095	Žlebiči	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	1096-1098	so	_	_	DEFINITOR	_	_	
+13-3	1099-1108	polkrožne	_	_	_	HAS\_FORM	_	
+13-4	1109-1119	izjedenine	_	D.1 Abiotic	GENUS	_	_	
+13-5	1119-1120	,	_	_	_	_	_	
+13-6	1121-1123	ki	_	_	_	HAS\_CAUSE[48]	_	
+13-7	1124-1133	nastanejo	_	_	_	HAS\_CAUSE[48]	frame\_CAUSE	
+13-8	1134-1136	po	_	_	_	HAS\_CAUSE[48]	_	
+13-9	1137-1143	strmcu	_	_	_	HAS\_CAUSE[48]	_	
+13-10	1144-1155	kamninskega	_	_	_	HAS\_CAUSE[48]	_	
+13-11	1156-1161	bloka	_	_	_	HAS\_CAUSE[48]	_	
+13-12	1162-1169	navzdol	_	_	_	HAS\_CAUSE[48]	_	
+13-13	1169-1170	.	_	_	_	_	_	
+
+#Text=Jennings (1985, str. 74) jih imenuje solution ripples, nastala pa naj bi zaradi utripajočega ritma vode, ki teče po površini kamnine.
+14-1	1171-1179	Jennings	_	_	_	_	_	
+14-2	1180-1181	(	_	_	_	_	_	
+14-3	1181-1185	1985	_	_	_	_	_	
+14-4	1185-1186	,	_	_	_	_	_	
+14-5	1187-1190	str	_	_	_	_	_	
+14-6	1190-1191	.	_	_	_	_	_	
+14-7	1192-1194	74	_	_	_	_	_	
+14-8	1194-1195	)	_	_	_	_	_	
+14-9	1196-1199	jih	_	_	_	_	_	
+14-10	1200-1207	imenuje	_	_	_	_	_	
+14-11	1208-1216	solution	_	_	_	_	_	
+14-12	1217-1224	ripples	_	_	_	_	_	
+14-13	1224-1225	,	_	_	_	_	_	
+14-14	1226-1233	nastala	_	_	_	_	_	
+14-15	1234-1236	pa	_	_	_	_	_	
+14-16	1237-1240	naj	_	_	_	_	_	
+14-17	1241-1243	bi	_	_	_	_	_	
+14-18	1244-1250	zaradi	_	_	_	_	_	
+14-19	1251-1263	utripajočega	_	_	_	_	_	
+14-20	1264-1269	ritma	_	_	_	_	_	
+14-21	1270-1274	vode	_	_	_	_	_	
+14-22	1274-1275	,	_	_	_	_	_	
+14-23	1276-1278	ki	_	_	_	_	_	
+14-24	1279-1283	teče	_	_	_	_	_	
+14-25	1284-1286	po	_	_	_	_	_	
+14-26	1287-1295	površini	_	_	_	_	_	
+14-27	1296-1303	kamnine	_	_	_	_	_	
+14-28	1303-1304	.	_	_	_	_	_	

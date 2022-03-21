@@ -1,0 +1,353 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=﻿dužinski profil: Karta špilje koja pokazuje profil po duljini špilje ili jednog kanala ili dvorane.
+1-1	0-9	﻿dužinski	_	E.1 Instrument[1]	DEFINIENDUM[19]	_	_	
+1-2	10-16	profil	_	E.1 Instrument[1]	DEFINIENDUM[19]	_	_	
+1-3	16-17	:	_	_	_	_	_	
+1-4	18-23	Karta	_	E.1 Instrument[2]	GENUS[20]	_	_	
+1-5	24-30	špilje	_	E.1 Instrument[2]	GENUS[20]	_	_	
+1-6	31-35	koja	_	_	_	HAS\_FUNCTION[36]	_	
+1-7	36-44	pokazuje	_	_	_	HAS\_FUNCTION[36]	_	
+1-8	45-51	profil	_	_	_	HAS\_FUNCTION[36]	_	
+1-9	52-54	po	_	_	_	HAS\_FUNCTION[36]	_	
+1-10	55-62	duljini	_	_	_	HAS\_FUNCTION[36]	_	
+1-11	63-69	špilje	_	A.2 Underground landform	_	HAS\_FUNCTION[36]	_	
+1-12	70-73	ili	_	_	_	HAS\_FUNCTION[36]	_	
+1-13	74-80	jednog	_	_	_	HAS\_FUNCTION[36]	_	
+1-14	81-87	kanala	_	A.2 Underground landform	_	HAS\_FUNCTION[36]	_	
+1-15	88-91	ili	_	_	_	HAS\_FUNCTION[36]	_	
+1-16	92-99	dvorane	_	A.2 Underground landform	_	HAS\_FUNCTION[36]	_	
+1-17	99-100	.	_	_	_	_	_	
+
+#Text=ponornica: Rijeka u krškom području koja ponire u podzemni kanal.
+2-1	102-111	ponornica	_	D.1 Abiotic	DEFINIENDUM	_	_	
+2-2	111-112	:	_	_	_	_	_	
+2-3	113-119	Rijeka	_	D.1 Abiotic	GENUS	_	_	
+2-4	120-121	u	_	_	_	HAS\_LOCATION[37]	frame\_LOCATION	
+2-5	122-128	krškom	_	C. Geome[3]	_	HAS\_LOCATION[37]	_	
+2-6	129-137	području	_	C. Geome[3]	_	HAS\_LOCATION[37]	_	
+2-7	138-142	koja	_	_	_	HAS\_FUNCTION[38]	_	
+2-8	143-149	ponire	_	_	_	HAS\_FUNCTION[38]	_	
+2-9	150-151	u	_	_	_	HAS\_LOCATION[39]	_	
+2-10	152-160	podzemni	_	A.2 Underground landform[4]	_	HAS\_LOCATION[39]	_	
+2-11	161-166	kanal	_	A.2 Underground landform[4]	_	HAS\_LOCATION[39]	_	
+2-12	166-167	.	_	_	_	HAS\_LOCATION[39]	_	
+
+#Text=ponirući potok: Vodotok koji ponire u krškom području.
+3-1	169-177	ponirući	_	D.1 Abiotic[5]	DEFINIENDUM[21]	_	_	
+3-2	178-183	potok	_	D.1 Abiotic[5]	DEFINIENDUM[21]	_	_	
+3-3	183-184	:	_	_	_	_	_	
+3-4	185-192	Vodotok	_	D.1 Abiotic	GENUS	_	_	
+3-5	193-197	koji	_	_	_	HAS\_FUNCTION[40]	_	
+3-6	198-204	ponire	_	_	_	HAS\_FUNCTION[40]	_	
+3-7	205-206	u	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION	
+3-8	207-213	krškom	_	C. Geome[6]	_	HAS\_LOCATION[41]	_	
+3-9	214-222	području	_	C. Geome[6]	_	HAS\_LOCATION[41]	_	
+3-10	222-223	.	_	_	_	_	_	
+
+#Text=lublinit: Vrlo mekana, sirasta ili spužvasta mješavina kalcita i vode.
+4-1	225-233	lublinit	_	D.1 Abiotic	DEFINIENDUM	_	_	
+4-2	233-234	:	_	_	_	_	_	
+4-3	235-239	Vrlo	_	_	_	HAS\_ATTRIBUTE[42]	_	
+4-4	240-246	mekana	_	_	_	HAS\_ATTRIBUTE[42]	_	
+4-5	246-247	,	_	_	_	HAS\_ATTRIBUTE[42]	_	
+4-6	248-255	sirasta	_	_	_	HAS\_ATTRIBUTE[42]	_	
+4-7	256-259	ili	_	_	_	HAS\_ATTRIBUTE[42]	_	
+4-8	260-269	spužvasta	_	_	_	HAS\_ATTRIBUTE[42]	_	
+4-9	270-279	mješavina	_	_	_	DEFINED\_AS[43]	_	
+4-10	280-287	kalcita	_	D.1 Abiotic	_	DEFINED\_AS[43]	_	
+4-11	288-289	i	_	_	_	DEFINED\_AS[43]	_	
+4-12	290-294	vode	_	D.1 Abiotic	_	DEFINED\_AS[43]	_	
+4-13	294-295	.	_	_	_	_	_	
+
+#Text=makrokaverna: Obuhvaća sve šupljine u stijeni koje imaju promjer veći od 20 cm. Obuhvaća i sve kanale ako su prohodni za ljude.
+5-1	298-310	makrokaverna	_	A.2 Underground landform	DEFINIENDUM	_	_	
+5-2	310-311	:	_	_	_	_	_	
+5-3	312-320	Obuhvaća	_	_	_	_	_	
+5-4	321-324	sve	_	_	_	_	_	
+5-5	325-333	šupljine	_	_	GENUS[22]	_	_	
+5-6	334-335	u	_	_	GENUS[22]	_	_	
+5-7	336-343	stijeni	_	_	GENUS[22]	_	_	
+5-8	344-348	koje	_	_	_	HAS\_SIZE[44]	_	
+5-9	349-354	imaju	_	_	_	HAS\_SIZE[44]	_	
+5-10	355-362	promjer	_	_	_	HAS\_SIZE[44]	_	
+5-11	363-367	veći	_	_	_	HAS\_SIZE[44]	_	
+5-12	368-370	od	_	_	_	HAS\_SIZE[44]	_	
+5-13	371-373	20	_	_	_	HAS\_SIZE[44]	_	
+5-14	374-376	cm	_	_	_	HAS\_SIZE[44]	_	
+5-15	376-377	.	_	_	_	_	_	
+5-16	378-386	Obuhvaća	_	_	_	_	_	
+5-17	387-388	i	_	_	_	_	_	
+5-18	389-392	sve	_	_	_	_	_	
+5-19	393-399	kanale	kanali	A.2 Underground landform	GENUS	_	_	
+5-20	400-403	ako	_	_	_	_	_	
+5-21	404-406	su	_	_	_	_	_	
+5-22	407-415	prohodni	_	_	_	HAS\_ATTRIBUTE[45]	_	
+5-23	416-418	za	_	_	_	HAS\_ATTRIBUTE[45]	_	
+5-24	419-424	ljude	_	_	_	HAS\_ATTRIBUTE[45]	_	
+5-25	424-425	.	_	_	_	_	_	
+
+#Text=mamilaran: 1 Varijetet zaobljene podvodne prevlake. 2 Zaobljena siga koja se sastoji od karbonatnog sloja koji prekriva čvrstu stijenu.
+6-1	427-436	mamilaran	_	D.1 Abiotic	DEFINIENDUM	_	_	
+6-2	436-437	:	_	_	_	_	_	
+6-3	438-439	1	_	_	_	_	_	
+6-4	440-449	Varijetet	_	_	_	_	_	
+6-5	450-459	zaobljene	_	_	_	HAS\_FORM	_	
+6-6	460-468	podvodne	_	D.1 Abiotic[7]	GENUS[23]	_	_	
+6-7	469-477	prevlake	_	D.1 Abiotic[7]	GENUS[23]	_	_	
+6-8	477-478	.	_	_	_	_	_	
+6-9	479-480	2	_	_	_	_	_	
+6-10	481-490	Zaobljena	_	_	_	HAS\_FORM	_	
+6-11	491-495	siga	_	D.1 Abiotic	GENUS	_	_	
+6-12	496-500	koja	_	_	_	_	_	
+6-13	501-503	se	_	_	_	_	frame\_COMPOSITION[69]	
+6-14	504-511	sastoji	_	_	_	_	frame\_COMPOSITION[69]	
+6-15	512-514	od	_	_	_	COMPOSITION\_MEDIUM[46]	frame\_COMPOSITION[69]	
+6-16	515-526	karbonatnog	_	D.1 Abiotic[8]	_	COMPOSITION\_MEDIUM[46]	_	
+6-17	527-532	sloja	_	D.1 Abiotic[8]	_	COMPOSITION\_MEDIUM[46]	_	
+6-18	533-537	koji	_	_	_	HAS\_LOCATION[47]	_	
+6-19	538-546	prekriva	_	_	_	HAS\_LOCATION[47]	_	
+6-20	547-553	čvrstu	_	_	_	HAS\_LOCATION[47]	_	
+6-21	554-561	stijenu	_	_	_	HAS\_LOCATION[47]	_	
+6-22	561-562	.	_	_	_	_	_	
+
+#Text=glavna špilja: Najprostraniji dio špilje do kojeg vode sporedni prolazi.
+7-1	564-570	glavna	_	A.2 Underground landform[9]	DEFINIENDUM[24]	_	_	
+7-2	571-577	špilja	_	A.2 Underground landform[9]	DEFINIENDUM[24]	_	_	
+7-3	577-578	:	_	_	_	_	_	
+7-4	579-593	Najprostraniji	_	_	_	DEFINED\_AS[48]	_	
+7-5	594-597	dio	_	_	GENUS[25]	DEFINED\_AS[48]	_	
+7-6	598-604	špilje	_	A.2 Underground landform	GENUS[25]	DEFINED\_AS[48]	_	
+7-7	605-607	do	_	_	_	_	_	
+7-8	608-613	kojeg	_	_	_	_	_	
+7-9	614-618	vode	_	_	_	_	_	
+7-10	619-627	sporedni	_	_	_	_	_	
+7-11	628-635	prolazi	_	_	_	_	_	
+7-12	635-636	.	_	_	_	_	_	
+
+#Text=razvedena špilja: Kompleksni model povezanih kanala, često u dva ili više nivoa u špilji.
+8-1	638-647	razvedena	_	A.2 Underground landform[10]	DEFINIENDUM[26]	_	_	
+8-2	648-654	špilja	_	A.2 Underground landform[10]	DEFINIENDUM[26]	_	_	
+8-3	654-655	:	_	_	_	_	_	
+8-4	656-666	Kompleksni	_	_	_	DEFINED\_AS[49]	_	
+8-5	667-672	model	_	_	GENUS[27]	DEFINED\_AS[49]	_	
+8-6	673-682	povezanih	_	_	GENUS[27]	DEFINED\_AS[49]	_	
+8-7	683-689	kanala	_	_	GENUS[27]	DEFINED\_AS[49]	_	
+8-8	689-690	,	_	_	_	_	_	
+8-9	691-696	često	_	_	_	_	_	
+8-10	697-698	u	_	_	_	_	_	
+8-11	699-702	dva	_	_	_	_	_	
+8-12	703-706	ili	_	_	_	_	_	
+8-13	707-711	više	_	_	_	_	_	
+8-14	712-717	nivoa	_	_	_	_	_	
+8-15	718-719	u	_	_	_	HAS\_LOCATION[50]	_	
+8-16	720-726	špilji	_	_	_	HAS\_LOCATION[50]	_	
+8-17	726-727	.	_	_	_	HAS\_LOCATION[50]	_	
+
+#Text=merokrš: Krška topografija sa samo djelomično razvijenim krškim oblicima kakva se nalazi u tankim, nečistim ili kredastim vapnencima gdje su uz površinsku drenažu i suhe doline prisutni i neki krški oblici.
+9-1	729-736	merokrš	_	C. Geome	DEFINIENDUM	_	_	
+9-2	736-737	:	_	_	_	_	_	
+9-3	738-743	Krška	_	C. Geome[11]	GENUS[28]	_	_	
+9-4	744-755	topografija	_	C. Geome[11]	GENUS[28]	_	_	
+9-5	756-758	sa	_	_	_	CONTAINS[51]	frame\_CONTAINS	
+9-6	759-763	samo	_	_	_	CONTAINS[51]	_	
+9-7	764-774	djelomično	_	_	_	CONTAINS[51]	_	
+9-8	775-785	razvijenim	_	_	_	CONTAINS[51]	_	
+9-9	786-792	krškim	_	_	_	CONTAINS[51]	_	
+9-10	793-801	oblicima	_	_	_	CONTAINS[51]	_	
+9-11	802-807	kakva	_	_	_	_	_	
+9-12	808-810	se	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[70]	
+9-13	811-817	nalazi	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[70]	
+9-14	818-819	u	_	_	_	HAS\_LOCATION[52]	frame\_LOCATION[70]	
+9-15	820-826	tankim	_	_	_	HAS\_LOCATION[52]	_	
+9-16	826-827	,	_	_	_	HAS\_LOCATION[52]	_	
+9-17	828-836	nečistim	_	_	_	HAS\_LOCATION[52]	_	
+9-18	837-840	ili	_	_	_	HAS\_LOCATION[52]	_	
+9-19	841-850	kredastim	_	_	_	HAS\_LOCATION[52]	_	
+9-20	851-861	vapnencima	_	D.1 Abiotic	_	HAS\_LOCATION[52]	_	
+9-21	862-866	gdje	_	_	_	_	_	
+9-22	867-869	su	_	_	_	_	_	
+9-23	870-872	uz	_	_	_	_	_	
+9-24	873-883	površinsku	_	_	_	_	_	
+9-25	884-891	drenažu	_	_	_	_	_	
+9-26	892-893	i	_	_	_	_	_	
+9-27	894-898	suhe	_	_	_	_	_	
+9-28	899-905	doline	_	_	_	_	_	
+9-29	906-914	prisutni	_	_	_	_	_	
+9-30	915-916	i	_	_	_	_	_	
+9-31	917-921	neki	_	_	_	_	_	
+9-32	922-927	krški	_	_	_	_	_	
+9-33	928-934	oblici	_	_	_	_	_	
+9-34	934-935	.	_	_	_	_	_	
+
+#Text=mezokaverna: Obuhvaća sve šupljine u stijeni s promjerom između 0,1 cm i 20 cm. Nisu dovoljno velike da bi ih se smatralo špiljama u sustavu špilja.
+10-1	938-949	mezokaverna	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	949-950	:	_	_	_	_	_	
+10-3	951-959	Obuhvaća	_	_	_	_	_	
+10-4	960-963	sve	_	_	_	_	_	
+10-5	964-972	šupljine	_	_	GENUS[29]	_	_	
+10-6	973-974	u	_	_	GENUS[29]	_	_	
+10-7	975-982	stijeni	_	_	GENUS[29]	_	_	
+10-8	983-984	s	_	_	_	HAS\_SIZE[53]	frame\_SIZE[71]	
+10-9	985-994	promjerom	_	_	_	HAS\_SIZE[53]	frame\_SIZE[71]	
+10-10	995-1001	između	_	_	_	HAS\_SIZE[53]	frame\_SIZE[71]	
+10-11	1002-1005	0,1	_	_	_	HAS\_SIZE[53]	_	
+10-12	1006-1008	cm	_	_	_	HAS\_SIZE[53]	_	
+10-13	1009-1010	i	_	_	_	HAS\_SIZE[53]	_	
+10-14	1011-1013	20	_	_	_	HAS\_SIZE[53]	_	
+10-15	1014-1016	cm	_	_	_	HAS\_SIZE[53]	_	
+10-16	1016-1017	.	_	_	_	_	_	
+10-17	1018-1022	Nisu	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-18	1023-1031	dovoljno	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-19	1032-1038	velike	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-20	1039-1041	da	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-21	1042-1044	bi	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-22	1045-1047	ih	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-23	1048-1050	se	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-24	1051-1059	smatralo	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-25	1060-1068	špiljama	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-26	1069-1070	u	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-27	1071-1078	sustavu	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-28	1079-1085	špilja	_	_	_	HAS\_ATTRIBUTE[54]	_	
+10-29	1085-1086	.	_	_	_	_	_	
+
+#Text=mikrokaverna: Obuhvaća sve šupljine u stijeni promjera manjeg od 0,1 cm, uključujući mikroskopske veličine.
+11-1	1088-1100	mikrokaverna	_	A.2 Underground landform	DEFINIENDUM	_	_	
+11-2	1100-1101	:	_	_	_	_	_	
+11-3	1102-1110	Obuhvaća	_	_	_	_	_	
+11-4	1111-1114	sve	_	_	_	_	_	
+11-5	1115-1123	šupljine	_	_	GENUS[30]	_	_	
+11-6	1124-1125	u	_	_	GENUS[30]	_	_	
+11-7	1126-1133	stijeni	_	_	GENUS[30]	_	_	
+11-8	1134-1142	promjera	_	_	_	HAS\_SIZE[55]	frame\_SIZE[72]	
+11-9	1143-1149	manjeg	_	_	_	HAS\_SIZE[55]	frame\_SIZE[72]	
+11-10	1150-1152	od	_	_	_	HAS\_SIZE[55]	frame\_SIZE[72]	
+11-11	1153-1156	0,1	_	_	_	HAS\_SIZE[55]	_	
+11-12	1157-1159	cm	_	_	_	HAS\_SIZE[55]	_	
+11-13	1159-1160	,	_	_	_	_	_	
+11-14	1161-1172	uključujući	_	_	_	HAS\_SIZE[56]	_	
+11-15	1173-1185	mikroskopske	_	_	_	HAS\_SIZE[56]	_	
+11-16	1186-1194	veličine	_	_	_	HAS\_SIZE[56]	_	
+11-17	1194-1195	.	_	_	_	_	_	
+
+#Text=mikro-obodna barijera: Mala obodna veličine nekoliko milimetara.
+12-1	1197-1209	mikro-obodna	_	A.2 Underground landform[12]	DEFINIENDUM[31]	_	_	
+12-2	1210-1218	barijera	_	A.2 Underground landform[12]	DEFINIENDUM[31]	_	_	
+12-3	1218-1219	:	_	_	_	_	_	
+12-4	1220-1224	Mala	_	_	_	_	_	
+12-5	1225-1231	obodna	obodna barijera	A.2 Underground landform	GENUS	_	_	
+12-6	1232-1240	veličine	_	_	_	HAS\_SIZE[57]	frame\_SIZE	
+12-7	1241-1249	nekoliko	_	_	_	HAS\_SIZE[57]	_	
+12-8	1250-1260	milimetara	_	_	_	HAS\_SIZE[57]	_	
+12-9	1260-1261	.	_	_	_	_	_	
+
+#Text=mikrokrš: Krška topografija kod koje su svi površinski oblici mali. Okoliš u kojem prevladavaju minorni krški oblici. Izraz je teško primjenjljiv jer ne postoje brojčane granice.
+13-1	1263-1271	mikrokrš	_	C. Geome	DEFINIENDUM	_	_	
+13-2	1271-1272	:	_	_	_	_	_	
+13-3	1273-1278	Krška	_	C. Geome[13]	GENUS[32]	_	_	
+13-4	1279-1290	topografija	_	C. Geome[13]	GENUS[32]	_	_	
+13-5	1291-1294	kod	_	_	_	HAS\_ATTRIBUTE[58]	frame\_ATTRIBUTE[73]	
+13-6	1295-1299	koje	_	_	_	HAS\_ATTRIBUTE[58]	frame\_ATTRIBUTE[73]	
+13-7	1300-1302	su	_	_	_	HAS\_ATTRIBUTE[58]	frame\_ATTRIBUTE[73]	
+13-8	1303-1306	svi	_	_	_	HAS\_ATTRIBUTE[58]	_	
+13-9	1307-1317	površinski	_	_	_	HAS\_ATTRIBUTE[58]	_	
+13-10	1318-1324	oblici	_	_	_	HAS\_ATTRIBUTE[58]	_	
+13-11	1325-1329	mali	_	_	_	HAS\_ATTRIBUTE[58]	_	
+13-12	1329-1330	.	_	_	_	_	_	
+13-13	1331-1337	Okoliš	_	_	GENUS	_	_	
+13-14	1338-1339	u	_	_	_	_	_	
+13-15	1340-1345	kojem	_	_	_	_	_	
+13-16	1346-1358	prevladavaju	_	_	_	CONTAINS[59]	frame\_CONTAINS	
+13-17	1359-1366	minorni	_	_	_	CONTAINS[59]	_	
+13-18	1367-1372	krški	_	_	_	CONTAINS[59]	_	
+13-19	1373-1379	oblici	_	_	_	CONTAINS[59]	_	
+13-20	1379-1380	.	_	_	_	_	_	
+13-21	1381-1386	Izraz	_	_	_	_	_	
+13-22	1387-1389	je	_	_	_	_	_	
+13-23	1390-1395	teško	_	_	_	_	_	
+13-24	1396-1408	primjenjljiv	_	_	_	_	_	
+13-25	1409-1412	jer	_	_	_	_	_	
+13-26	1413-1415	ne	_	_	_	_	_	
+13-27	1416-1423	postoje	_	_	_	_	_	
+13-28	1424-1432	brojčane	_	_	_	_	_	
+13-29	1433-1440	granice	_	_	_	_	_	
+13-30	1440-1441	.	_	_	_	_	_	
+
+#Text=mogot: Općenito rezidualno vapnenačko brdo strmih padina u tropskom krškom terenu.
+14-1	1443-1448	mogot	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-2	1448-1449	:	_	_	_	_	_	
+14-3	1450-1458	Općenito	_	_	_	HAS\_ATTRIBUTE[60]	_	
+14-4	1459-1469	rezidualno	_	_	_	HAS\_ATTRIBUTE[60]	_	
+14-5	1470-1480	vapnenačko	_	D.1 Abiotic[14]	GENUS[33]	_	_	
+14-6	1481-1485	brdo	_	D.1 Abiotic[14]	GENUS[33]	_	_	
+14-7	1486-1492	strmih	_	_	_	HAS\_FORM[61]	_	
+14-8	1493-1499	padina	_	_	_	HAS\_FORM[61]	_	
+14-9	1500-1501	u	_	_	_	HAS\_LOCATION[62]	frame\_LOCATION	
+14-10	1502-1510	tropskom	_	C. Geome[15]	_	HAS\_LOCATION[62]	_	
+14-11	1511-1517	krškom	_	C. Geome[15]	_	HAS\_LOCATION[62]	_	
+14-12	1518-1524	terenu	_	C. Geome[15]	_	HAS\_LOCATION[62]	_	
+14-13	1524-1525	.	_	_	_	_	_	
+
+#Text=špiljsklo mlijeko: Kriptokristalasta tvar bijele boje koja formira sige. Normalno je izgrađena od karbonatnih minerala i koja, kada je vlažna, na opip sliči kremi od sira, a kada je suha finom puderu. Može se sastojati od kalcita, hidromagnezita, neskuehonita, huntita, aragonita, magnezita ili dolomita.
+15-1	1528-1537	špiljsklo	_	D.1 Abiotic[16]	DEFINIENDUM[34]	_	_	
+15-2	1538-1545	mlijeko	_	D.1 Abiotic[16]	DEFINIENDUM[34]	_	_	
+15-3	1545-1546	:	_	_	_	_	_	
+15-4	1547-1564	Kriptokristalasta	_	D.1 Abiotic[17]	GENUS[35]	_	_	
+15-5	1565-1569	tvar	_	D.1 Abiotic[17]	GENUS[35]	_	_	
+15-6	1570-1576	bijele	_	_	_	HAS\_ATTRIBUTE[63]	_	
+15-7	1577-1581	boje	_	_	_	HAS\_ATTRIBUTE[63]	_	
+15-8	1582-1586	koja	_	_	_	_	_	
+15-9	1587-1594	formira	_	_	_	HAS\_FUNCTION[64]	frame\_FUNCTION	
+15-10	1595-1599	sige	_	D.1 Abiotic	_	HAS\_FUNCTION[64]	_	
+15-11	1599-1600	.	_	_	_	_	_	
+15-12	1601-1609	Normalno	_	_	_	_	_	
+15-13	1610-1612	je	_	_	_	_	_	
+15-14	1613-1622	izgrađena	_	_	_	COMPOSITION\_MEDIUM[65]	frame\_COMPOSITION[74]	
+15-15	1623-1625	od	_	_	_	COMPOSITION\_MEDIUM[65]	frame\_COMPOSITION[74]	
+15-16	1626-1637	karbonatnih	_	D.1 Abiotic[18]	_	COMPOSITION\_MEDIUM[65]	_	
+15-17	1638-1646	minerala	_	D.1 Abiotic[18]	_	COMPOSITION\_MEDIUM[65]	_	
+15-18	1647-1648	i	_	_	_	_	_	
+15-19	1649-1653	koja	_	_	_	_	_	
+15-20	1653-1654	,	_	_	_	_	_	
+15-21	1655-1659	kada	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-22	1660-1662	je	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-23	1663-1669	vlažna	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-24	1669-1670	,	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-25	1671-1673	na	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-26	1674-1678	opip	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-27	1679-1684	sliči	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-28	1685-1690	kremi	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-29	1691-1693	od	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-30	1694-1698	sira	_	_	_	HAS\_ATTRIBUTE[66]	_	
+15-31	1698-1699	,	_	_	_	_	_	
+15-32	1700-1701	a	_	_	_	_	_	
+15-33	1702-1706	kada	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-34	1707-1709	je	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-35	1710-1714	suha	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-36	1715-1720	finom	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-37	1721-1727	puderu	_	_	_	HAS\_ATTRIBUTE[67]	_	
+15-38	1727-1728	.	_	_	_	_	_	
+15-39	1729-1733	Može	_	_	_	COMPOSITION\_MEDIUM[68]	frame\_COMPOSITION[75]	
+15-40	1734-1736	se	_	_	_	COMPOSITION\_MEDIUM[68]	frame\_COMPOSITION[75]	
+15-41	1737-1746	sastojati	_	_	_	COMPOSITION\_MEDIUM[68]	frame\_COMPOSITION[75]	
+15-42	1747-1749	od	_	_	_	COMPOSITION\_MEDIUM[68]	frame\_COMPOSITION[75]	
+15-43	1750-1757	kalcita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[68]	_	
+15-44	1757-1758	,	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+15-45	1759-1773	hidromagnezita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[68]	_	
+15-46	1773-1774	,	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+15-47	1775-1787	neskuehonita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[68]	_	
+15-48	1787-1788	,	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+15-49	1789-1796	huntita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[68]	_	
+15-50	1796-1797	,	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+15-51	1798-1807	aragonita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[68]	_	
+15-52	1807-1808	,	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+15-53	1809-1818	magnezita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[68]	_	
+15-54	1819-1822	ili	_	_	_	COMPOSITION\_MEDIUM[68]	_	
+15-55	1823-1831	dolomita	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[68]	_	
+15-56	1831-1832	.	_	_	_	_	_	

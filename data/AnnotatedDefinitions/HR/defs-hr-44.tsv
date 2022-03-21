@@ -1,0 +1,400 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Klima , i vegetacija su bitni faktori u otapanju vapnenaca i evoluciji krškog reljefa .
+1-1	0-5	Klima	_	_	_	_	_	
+1-2	6-7	,	_	_	_	_	_	
+1-3	8-9	i	_	_	_	_	_	
+1-4	10-20	vegetacija	_	_	_	_	_	
+1-5	21-23	su	_	_	_	_	_	
+1-6	24-29	bitni	_	_	_	_	_	
+1-7	30-37	faktori	_	_	_	_	_	
+1-8	38-39	u	_	_	_	_	_	
+1-9	40-48	otapanju	_	_	_	_	_	
+1-10	49-58	vapnenaca	_	_	_	_	_	
+1-11	59-60	i	_	_	_	_	_	
+1-12	61-70	evoluciji	_	_	_	_	_	
+1-13	71-77	krškog	_	_	_	_	_	
+1-14	78-85	reljefa	_	_	_	_	_	
+1-15	86-87	.	_	_	_	_	_	
+
+#Text=Koeficijent disperzije je procijenjena veličina koja izražava širenje oblaka boje .
+2-1	89-100	Koeficijent	_	D.3 Property[5]	DEFINIENDUM[22]	_	_	
+2-2	101-111	disperzije	_	D.3 Property[5]	DEFINIENDUM[22]	_	_	
+2-3	112-114	je	_	_	_	_	_	
+2-4	115-127	procijenjena	_	_	_	DEFINED\_AS[34]	_	
+2-5	128-136	veličina	_	_	_	DEFINED\_AS[34]	_	
+2-6	137-141	koja	_	_	_	_	_	
+2-7	142-150	izražava	_	_	_	HAS\_FUNCTION[35]	_	
+2-8	151-158	širenje	_	_	_	HAS\_FUNCTION[35]	_	
+2-9	159-165	oblaka	_	_	_	HAS\_FUNCTION[35]	_	
+2-10	166-170	boje	_	_	_	HAS\_FUNCTION[35]	_	
+2-11	171-172	.	_	_	_	_	_	
+
+#Text=Krški ostjenjaci su konveksni mikrooblici razvijeni na više ili manje neravnoj površini matične stijene , nastali selektivnom krškom denudacijom ( fot . 33 , 34 ) .
+3-1	174-179	Krški	_	A.1 Surface landform[6]	DEFINIENDUM[23]	_	_	
+3-2	180-190	ostjenjaci	_	A.1 Surface landform[6]	DEFINIENDUM[23]	_	_	
+3-3	191-193	su	_	_	DEFINITOR	_	_	
+3-4	194-203	konveksni	_	A.1 Surface landform[7]	GENUS[24]	_	_	
+3-5	204-215	mikrooblici	_	A.1 Surface landform[7]	GENUS[24]	_	_	
+3-6	216-225	razvijeni	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[50]	
+3-7	226-228	na	_	_	_	HAS\_LOCATION[36]	frame\_LOCATION[50]	
+3-8	229-233	više	_	_	_	HAS\_LOCATION[36]	_	
+3-9	234-237	ili	_	_	_	HAS\_LOCATION[36]	_	
+3-10	238-243	manje	_	_	_	HAS\_LOCATION[36]	_	
+3-11	244-252	neravnoj	_	_	_	HAS\_LOCATION[36]	_	
+3-12	253-261	površini	_	_	_	HAS\_LOCATION[36]	_	
+3-13	262-269	matične	_	_	_	HAS\_LOCATION[36]	_	
+3-14	270-277	stijene	_	_	_	HAS\_LOCATION[36]	_	
+3-15	278-279	,	_	_	_	_	_	
+3-16	280-287	nastali	_	_	_	HAS\_CAUSE[37]	frame\_CAUSE	
+3-17	288-299	selektivnom	selektivna krška denudacija[1]	B.2 Loss[8]	_	HAS\_CAUSE[37]	_	
+3-18	300-306	krškom	selektivna krška denudacija[1]	B.2 Loss[8]	_	HAS\_CAUSE[37]	_	
+3-19	307-318	denudacijom	selektivna krška denudacija[1]	B.2 Loss[8]	_	HAS\_CAUSE[37]	_	
+3-20	319-320	(	_	_	_	_	_	
+3-21	321-324	fot	_	_	_	_	_	
+3-22	325-326	.	_	_	_	_	_	
+3-23	327-329	33	_	_	_	_	_	
+3-24	330-331	,	_	_	_	_	_	
+3-25	332-334	34	_	_	_	_	_	
+3-26	335-336	)	_	_	_	_	_	
+3-27	337-338	.	_	_	_	_	_	
+
+#Text=Lomljenje siga je rezultat prirodnih procesa ili je djelo ljudi .
+4-1	340-349	Lomljenje	_	B.4 Transformation[9]	DEFINIENDUM[25]	_	_	
+4-2	350-354	siga	_	B.4 Transformation[9]	DEFINIENDUM[25]	_	_	
+4-3	355-357	je	_	_	_	_	_	
+4-4	358-366	rezultat	_	_	_	HAS\_CAUSE[38]	frame\_CAUSE	
+4-5	367-376	prirodnih	_	_	_	HAS\_CAUSE[38]	_	
+4-6	377-384	procesa	_	_	_	HAS\_CAUSE[38]	_	
+4-7	385-388	ili	_	_	_	_	_	
+4-8	389-391	je	_	_	_	_	_	
+4-9	392-397	djelo	_	_	_	HAS\_CAUSE[39]	_	
+4-10	398-403	ljudi	_	_	_	HAS\_CAUSE[39]	_	
+4-11	404-405	.	_	_	_	_	_	
+
+#Text=Ombrograf je instrument sličan ombrometru , a dopunjen je satnim mehanizmom i pisačem za kontinuirano bilježenje nakupljene količine oborinske vode na papirnu traku .
+5-1	407-416	Ombrograf	_	E.1 Instrument	DEFINIENDUM	_	_	
+5-2	417-419	je	_	_	DEFINITOR	_	_	
+5-3	420-430	instrument	_	_	GENUS	_	_	
+5-4	431-437	sličan	_	_	_	_	_	
+5-5	438-448	ombrometru	_	_	_	_	_	
+5-6	449-450	,	_	_	_	_	_	
+5-7	451-452	a	_	_	_	_	_	
+5-8	453-461	dopunjen	_	_	_	_	_	
+5-9	462-464	je	_	_	_	_	_	
+5-10	465-471	satnim	_	_	_	_	_	
+5-11	472-482	mehanizmom	_	_	_	_	_	
+5-12	483-484	i	_	_	_	_	_	
+5-13	485-492	pisačem	_	_	_	_	_	
+5-14	493-495	za	_	_	_	_	_	
+5-15	496-508	kontinuirano	_	_	_	_	_	
+5-16	509-519	bilježenje	_	_	_	_	_	
+5-17	520-530	nakupljene	_	_	_	_	_	
+5-18	531-539	količine	_	_	_	_	_	
+5-19	540-549	oborinske	_	_	_	_	_	
+5-20	550-554	vode	_	_	_	_	_	
+5-21	555-557	na	_	_	_	_	_	
+5-22	558-565	papirnu	_	_	_	_	_	
+5-23	566-571	traku	_	_	_	_	_	
+5-24	572-573	.	_	_	_	_	_	
+
+#Text=Kontinentska padina je najizrazitiji element georeljefa ; odražava razlike između kopnenih blokova i tanje suboceanske kore .
+6-1	575-587	Kontinentska	_	C. Geome[10]	DEFINIENDUM[26]	_	_	
+6-2	588-594	padina	_	C. Geome[10]	DEFINIENDUM[26]	_	_	
+6-3	595-597	je	_	_	DEFINITOR	_	_	
+6-4	598-611	najizrazitiji	_	_	_	_	_	
+6-5	612-619	element	_	C. Geome[11]	GENUS[27]	_	_	
+6-6	620-630	georeljefa	_	C. Geome[11]	GENUS[27]	_	_	
+6-7	631-632	;	_	_	_	_	_	
+6-8	633-641	odražava	_	_	_	_	_	
+6-9	642-649	razlike	_	_	_	_	_	
+6-10	650-656	između	_	_	_	_	_	
+6-11	657-665	kopnenih	_	_	_	_	_	
+6-12	666-673	blokova	_	_	_	_	_	
+6-13	674-675	i	_	_	_	_	_	
+6-14	676-681	tanje	_	_	_	_	_	
+6-15	682-693	suboceanske	_	_	_	_	_	
+6-16	694-698	kore	_	_	_	_	_	
+6-17	699-700	.	_	_	_	_	_	
+
+#Text=Fluktuacija klime je nepostojanost klime koja se sastoji od bilo kavog oblika sistematske promjene , pravilne ili nepravilne izuzimajući trend i diskontinuitet , a karakteriziraju je barem dva maksimuma ( ili dva minimuma ) i jedan minimum ( ili jedan maksimum ) , uključujući vrijednost na krajnjim točkama promatranog perioda .
+7-1	702-713	Fluktuacija	_	D.3 Property[12]	DEFINIENDUM[28]	_	_	
+7-2	714-719	klime	_	D.3 Property[12]	DEFINIENDUM[28]	_	_	
+7-3	720-722	je	_	_	DEFINITOR	_	_	
+7-4	723-736	nepostojanost	_	D.3 Property[13]	_	DEFINED\_AS[40]	_	
+7-5	737-742	klime	_	D.3 Property[13]	_	DEFINED\_AS[40]	_	
+7-6	743-747	koja	_	_	_	_	_	
+7-7	748-750	se	_	_	_	CONTAINS[41]	frame\_CONTAINS[51]	
+7-8	751-758	sastoji	_	_	_	CONTAINS[41]	frame\_CONTAINS[51]	
+7-9	759-761	od	_	_	_	CONTAINS[41]	frame\_CONTAINS[51]	
+7-10	762-766	bilo	_	_	_	CONTAINS[41]	_	
+7-11	767-772	kavog	_	_	_	CONTAINS[41]	_	
+7-12	773-779	oblika	_	_	_	CONTAINS[41]	_	
+7-13	780-791	sistematske	_	_	_	CONTAINS[41]	_	
+7-14	792-800	promjene	_	_	_	CONTAINS[41]	_	
+7-15	801-802	,	_	_	_	CONTAINS[41]	_	
+7-16	803-811	pravilne	_	_	_	CONTAINS[41]	_	
+7-17	812-815	ili	_	_	_	CONTAINS[41]	_	
+7-18	816-826	nepravilne	_	_	_	CONTAINS[41]	_	
+7-19	827-838	izuzimajući	_	_	_	CONTAINS[41]	_	
+7-20	839-844	trend	_	_	_	CONTAINS[41]	_	
+7-21	845-846	i	_	_	_	CONTAINS[41]	_	
+7-22	847-861	diskontinuitet	_	_	_	CONTAINS[41]	_	
+7-23	862-863	,	_	_	_	_	_	
+7-24	864-865	a	_	_	_	_	_	
+7-25	866-881	karakteriziraju	_	_	_	_	_	
+7-26	882-884	je	_	_	_	_	_	
+7-27	885-890	barem	_	_	_	_	_	
+7-28	891-894	dva	_	_	_	_	_	
+7-29	895-904	maksimuma	_	_	_	_	_	
+7-30	905-906	(	_	_	_	_	_	
+7-31	907-910	ili	_	_	_	_	_	
+7-32	911-914	dva	_	_	_	_	_	
+7-33	915-923	minimuma	_	_	_	_	_	
+7-34	924-925	)	_	_	_	_	_	
+7-35	926-927	i	_	_	_	_	_	
+7-36	928-933	jedan	_	_	_	_	_	
+7-37	934-941	minimum	_	_	_	_	_	
+7-38	942-943	(	_	_	_	_	_	
+7-39	944-947	ili	_	_	_	_	_	
+7-40	948-953	jedan	_	_	_	_	_	
+7-41	954-962	maksimum	_	_	_	_	_	
+7-42	963-964	)	_	_	_	_	_	
+7-43	965-966	,	_	_	_	_	_	
+7-44	967-978	uključujući	_	_	_	_	_	
+7-45	979-989	vrijednost	_	_	_	_	_	
+7-46	990-992	na	_	_	_	_	_	
+7-47	993-1001	krajnjim	_	_	_	_	_	
+7-48	1002-1009	točkama	_	_	_	_	_	
+7-49	1010-1021	promatranog	_	_	_	_	_	
+7-50	1022-1029	perioda	_	_	_	_	_	
+7-51	1030-1031	.	_	_	_	_	_	
+
+#Text=Formiranje zaravni je lokalni i površinski proces , uvjetovan stabilnošću inundacionog nivoa , a ne razinom temeljnice .
+8-1	1033-1043	Formiranje	_	B. Process[14]	DEFINIENDUM[29]	_	_	
+8-2	1044-1051	zaravni	_	B. Process[14]	DEFINIENDUM[29]	_	_	
+8-3	1052-1054	je	_	_	DEFINITOR	_	_	
+8-4	1055-1062	lokalni	_	_	GENUS[30]	_	_	
+8-5	1063-1064	i	_	_	GENUS[30]	_	_	
+8-6	1065-1075	površinski	_	_	GENUS[30]	_	_	
+8-7	1076-1082	proces	_	_	GENUS[30]	_	_	
+8-8	1083-1084	,	_	_	_	_	_	
+8-9	1085-1094	uvjetovan	_	_	_	_	_	
+8-10	1095-1106	stabilnošću	_	_	_	_	_	
+8-11	1107-1119	inundacionog	_	_	_	_	_	
+8-12	1120-1125	nivoa	_	_	_	_	_	
+8-13	1126-1127	,	_	_	_	_	_	
+8-14	1128-1129	a	_	_	_	_	_	
+8-15	1130-1132	ne	_	_	_	_	_	
+8-16	1133-1140	razinom	_	_	_	_	_	
+8-17	1141-1151	temeljnice	_	_	_	_	_	
+8-18	1152-1153	.	_	_	_	_	_	
+
+#Text=Sutjeska ili klisura je duboko usječena riječna dolina , strmih stjenovitih padina najčešće u složenim ili kompozitnim dolinama koje se sastoje od suženja i proširenja .
+9-1	1155-1163	Sutjeska	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	1164-1167	ili	_	_	_	_	_	
+9-3	1168-1175	klisura	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-4	1176-1178	je	_	_	DEFINITOR	_	_	
+9-5	1179-1185	duboko	_	_	_	HAS\_FORM[42]	_	
+9-6	1186-1194	usječena	_	_	_	HAS\_FORM[42]	_	
+9-7	1195-1202	riječna	_	A.1 Surface landform[15]	GENUS[31]	_	_	
+9-8	1203-1209	dolina	_	A.1 Surface landform[15]	GENUS[31]	_	_	
+9-9	1210-1211	,	_	_	_	_	_	
+9-10	1212-1218	strmih	_	_	_	HAS\_FORM[43]	_	
+9-11	1219-1230	stjenovitih	_	_	_	HAS\_FORM[43]	_	
+9-12	1231-1237	padina	_	_	_	HAS\_FORM[43]	_	
+9-13	1238-1246	najčešće	_	_	_	_	_	
+9-14	1247-1248	u	_	_	_	HAS\_LOCATION[44]	frame\_LOCATION	
+9-15	1249-1257	složenim	složene ili kompozitne doline[2]	A.1 Surface landform[16]	_	HAS\_LOCATION[44]	_	
+9-16	1258-1261	ili	složene ili kompozitne doline[2]	A.1 Surface landform[16]	_	HAS\_LOCATION[44]	_	
+9-17	1262-1273	kompozitnim	složene ili kompozitne doline[2]	A.1 Surface landform[16]	_	HAS\_LOCATION[44]	_	
+9-18	1274-1282	dolinama	složene ili kompozitne doline[2]	A.1 Surface landform[16]	_	HAS\_LOCATION[44]	_	
+9-19	1283-1287	koje	_	_	_	_	_	
+9-20	1288-1290	se	_	_	_	_	_	
+9-21	1291-1298	sastoje	_	_	_	_	_	
+9-22	1299-1301	od	_	_	_	_	_	
+9-23	1302-1309	suženja	_	_	_	_	_	
+9-24	1310-1311	i	_	_	_	_	_	
+9-25	1312-1322	proširenja	_	_	_	_	_	
+9-26	1323-1324	.	_	_	_	_	_	
+
+#Text=Zaravni u kršu nisu , dakle , vezane za razinu temeljnice , već nastaju specifičnim procesom rubnog otapanja .
+10-1	1326-1333	Zaravni	_	A.1 Surface landform[17]	DEFINIENDUM[32]	_	_	
+10-2	1334-1335	u	_	A.1 Surface landform[17]	DEFINIENDUM[32]	_	_	
+10-3	1336-1340	kršu	_	A.1 Surface landform[17]	DEFINIENDUM[32]	_	_	
+10-4	1341-1345	nisu	_	_	_	_	_	
+10-5	1346-1347	,	_	_	_	_	_	
+10-6	1348-1353	dakle	_	_	_	_	_	
+10-7	1354-1355	,	_	_	_	_	_	
+10-8	1356-1362	vezane	_	_	_	_	_	
+10-9	1363-1365	za	_	_	_	_	_	
+10-10	1366-1372	razinu	_	_	_	_	_	
+10-11	1373-1383	temeljnice	_	_	_	_	_	
+10-12	1384-1385	,	_	_	_	_	_	
+10-13	1386-1389	već	_	_	_	_	_	
+10-14	1390-1397	nastaju	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE	
+10-15	1398-1409	specifičnim	_	_	_	HAS\_CAUSE[45]	_	
+10-16	1410-1418	procesom	proces rubnog otapanja[3]	B.2 Loss[18]	_	HAS\_CAUSE[45]	_	
+10-17	1419-1425	rubnog	proces rubnog otapanja[3]	B.2 Loss[18]	_	HAS\_CAUSE[45]	_	
+10-18	1426-1434	otapanja	proces rubnog otapanja[3]	B.2 Loss[18]	_	HAS\_CAUSE[45]	_	
+10-19	1435-1436	.	_	_	_	_	_	
+
+#Text=Karstifikacija je spor proces ; na nekim podzemnim mjestima procijenjena brzina joj iznosi približno 1,5 milimetar u 100 godina ( npr. u Škocjanskim jamama ) .
+11-1	1438-1452	Karstifikacija	_	B.4 Transformation	DEFINIENDUM	_	_	
+11-2	1453-1455	je	_	_	DEFINITOR	_	_	
+11-3	1456-1460	spor	_	_	_	_	_	
+11-4	1461-1467	proces	_	_	GENUS	_	_	
+11-5	1468-1469	;	_	_	_	_	_	
+11-6	1470-1472	na	_	_	_	_	_	
+11-7	1473-1478	nekim	_	_	_	_	_	
+11-8	1479-1488	podzemnim	_	_	_	_	_	
+11-9	1489-1497	mjestima	_	_	_	_	_	
+11-10	1498-1510	procijenjena	_	_	_	_	_	
+11-11	1511-1517	brzina	_	_	_	_	_	
+11-12	1518-1521	joj	_	_	_	_	_	
+11-13	1522-1528	iznosi	_	_	_	_	_	
+11-14	1529-1538	približno	_	_	_	_	_	
+11-15	1539-1542	1,5	_	_	_	_	_	
+11-16	1543-1552	milimetar	_	_	_	_	_	
+11-17	1553-1554	u	_	_	_	_	_	
+11-18	1555-1558	100	_	_	_	_	_	
+11-19	1559-1565	godina	_	_	_	_	_	
+11-20	1566-1567	(	_	_	_	_	_	
+11-21	1568-1571	npr	_	_	_	_	_	
+11-22	1571-1572	.	_	_	_	_	_	
+11-23	1573-1574	u	_	_	_	_	_	
+11-24	1575-1586	Škocjanskim	_	_	_	_	_	
+11-25	1587-1593	jamama	_	_	_	_	_	
+11-26	1594-1595	)	_	_	_	_	_	
+11-27	1596-1597	.	_	_	_	_	_	
+
+#Text=Vapnenac je prema tome stijena koja se sastoji samo od jednog minerala – kalcita , u kojoj su kristali vrlo sitni i orijentirani svaki u svom smjeru .
+12-1	1599-1607	Vapnenac	_	D.1 Abiotic	DEFINIENDUM	_	_	
+12-2	1608-1610	je	_	_	DEFINITOR	_	_	
+12-3	1611-1616	prema	_	_	_	_	_	
+12-4	1617-1621	tome	_	_	_	_	_	
+12-5	1622-1629	stijena	_	D.1 Abiotic	GENUS	_	_	
+12-6	1630-1634	koja	_	_	_	_	_	
+12-7	1635-1637	se	_	_	_	COMPOSITION\_MEDIUM[46]	frame\_COMPOSITION[52]	
+12-8	1638-1645	sastoji	_	_	_	COMPOSITION\_MEDIUM[46]	frame\_COMPOSITION[52]	
+12-9	1646-1650	samo	_	_	_	COMPOSITION\_MEDIUM[46]	frame\_COMPOSITION[52]	
+12-10	1651-1653	od	_	_	_	COMPOSITION\_MEDIUM[46]	frame\_COMPOSITION[52]	
+12-11	1654-1660	jednog	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+12-12	1661-1669	minerala	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+12-13	1670-1671	–	_	_	_	COMPOSITION\_MEDIUM[46]	_	
+12-14	1672-1679	kalcita	kalcit	D.1 Abiotic	_	COMPOSITION\_MEDIUM[46]	_	
+12-15	1680-1681	,	_	_	_	_	_	
+12-16	1682-1683	u	_	_	_	_	_	
+12-17	1684-1689	kojoj	_	_	_	_	_	
+12-18	1690-1692	su	_	_	_	_	_	
+12-19	1693-1701	kristali	_	_	_	_	_	
+12-20	1702-1706	vrlo	_	_	_	_	_	
+12-21	1707-1712	sitni	_	_	_	_	_	
+12-22	1713-1714	i	_	_	_	_	_	
+12-23	1715-1727	orijentirani	_	_	_	_	_	
+12-24	1728-1733	svaki	_	_	_	_	_	
+12-25	1734-1735	u	_	_	_	_	_	
+12-26	1736-1740	svom	_	_	_	_	_	
+12-27	1741-1747	smjeru	_	_	_	_	_	
+12-28	1748-1749	.	_	_	_	_	_	
+
+#Text=Blagodati špilja su čisti zrak , bez alergena i uzročnika bolesti , bez ozona i sa visokom koncentracijom iona .
+13-1	1751-1760	Blagodati	_	_	_	_	_	
+13-2	1761-1767	špilja	_	_	_	_	_	
+13-3	1768-1770	su	_	_	_	_	_	
+13-4	1771-1776	čisti	_	_	_	_	_	
+13-5	1777-1781	zrak	_	_	_	_	_	
+13-6	1782-1783	,	_	_	_	_	_	
+13-7	1784-1787	bez	_	_	_	_	_	
+13-8	1788-1796	alergena	_	_	_	_	_	
+13-9	1797-1798	i	_	_	_	_	_	
+13-10	1799-1808	uzročnika	_	_	_	_	_	
+13-11	1809-1816	bolesti	_	_	_	_	_	
+13-12	1817-1818	,	_	_	_	_	_	
+13-13	1819-1822	bez	_	_	_	_	_	
+13-14	1823-1828	ozona	_	_	_	_	_	
+13-15	1829-1830	i	_	_	_	_	_	
+13-16	1831-1833	sa	_	_	_	_	_	
+13-17	1834-1841	visokom	_	_	_	_	_	
+13-18	1842-1856	koncentracijom	_	_	_	_	_	
+13-19	1857-1861	iona	_	_	_	_	_	
+13-20	1862-1863	.	_	_	_	_	_	
+
+#Text=Žljebovi su tipovi grižina koji nastaju korozijskim djelovanje vode koja teče preko površine stijene .
+14-1	1865-1873	Žljebovi	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-2	1874-1876	su	_	_	DEFINITOR	_	_	
+14-3	1877-1883	tipovi	_	_	_	_	_	
+14-4	1884-1891	grižina	_	A.1 Surface landform	GENUS	_	_	
+14-5	1892-1896	koji	_	_	_	_	_	
+14-6	1897-1904	nastaju	_	_	_	HAS\_CAUSE[47]	frame\_CAUSE	
+14-7	1905-1916	korozijskim	korozijsko djelovanje vode[4]	B.2 Loss[19]	_	HAS\_CAUSE[47]	_	
+14-8	1917-1927	djelovanje	korozijsko djelovanje vode[4]	B.2 Loss[19]	_	HAS\_CAUSE[47]	_	
+14-9	1928-1932	vode	korozijsko djelovanje vode[4]	B.2 Loss[19]	_	HAS\_CAUSE[47]	_	
+14-10	1933-1937	koja	_	_	_	HAS\_CAUSE[47]	_	
+14-11	1938-1942	teče	_	_	_	HAS\_CAUSE[47]	_	
+14-12	1943-1948	preko	_	_	_	HAS\_CAUSE[47]	_	
+14-13	1949-1957	površine	_	_	_	HAS\_CAUSE[47]	_	
+14-14	1958-1965	stijene	_	_	_	HAS\_CAUSE[47]	_	
+14-15	1966-1967	.	_	_	_	_	_	
+
+#Text=Vapnenci kao karbonatne stijene koje se sastoje uglavnom od kalcita , ali i drugih minerala ( dolomit , kvarc , glina , organske tvari ) najčešće su bijele boje , a zbog oksida i hidroksida željeza mogu biti crvenkasti do žućkasti , odnosno primjesa ugljevite tvari i bitumena sivi , tj. smeđi .
+15-1	1969-1977	Vapnenci	_	D.1 Abiotic	DEFINIENDUM	_	_	
+15-2	1978-1981	kao	_	_	_	_	_	
+15-3	1982-1992	karbonatne	_	D.1 Abiotic[20]	GENUS[33]	_	_	
+15-4	1993-2000	stijene	_	D.1 Abiotic[20]	GENUS[33]	_	_	
+15-5	2001-2005	koje	_	_	_	_	_	
+15-6	2006-2008	se	_	_	_	_	_	
+15-7	2009-2016	sastoje	_	_	_	_	_	
+15-8	2017-2025	uglavnom	_	_	_	_	_	
+15-9	2026-2028	od	_	_	_	COMPOSITION\_MEDIUM[48]	_	
+15-10	2029-2036	kalcita	kalcit	D.1 Abiotic	_	COMPOSITION\_MEDIUM[48]	_	
+15-11	2037-2038	,	_	_	_	_	_	
+15-12	2039-2042	ali	_	_	_	_	_	
+15-13	2043-2044	i	_	_	_	_	_	
+15-14	2045-2051	drugih	_	_	_	_	_	
+15-15	2052-2060	minerala	_	_	_	_	_	
+15-16	2061-2062	(	_	_	_	_	_	
+15-17	2063-2070	dolomit	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+15-18	2071-2072	,	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+15-19	2073-2078	kvarc	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+15-20	2079-2080	,	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+15-21	2081-2086	glina	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+15-22	2087-2088	,	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+15-23	2089-2097	organske	_	D.1 Abiotic[21]	_	COMPOSITION\_MEDIUM[49]	_	
+15-24	2098-2103	tvari	_	D.1 Abiotic[21]	_	COMPOSITION\_MEDIUM[49]	_	
+15-25	2104-2105	)	_	_	_	_	_	
+15-26	2106-2114	najčešće	_	_	_	_	_	
+15-27	2115-2117	su	_	_	_	_	_	
+15-28	2118-2124	bijele	_	_	_	_	_	
+15-29	2125-2129	boje	_	_	_	_	_	
+15-30	2130-2131	,	_	_	_	_	_	
+15-31	2132-2133	a	_	_	_	_	_	
+15-32	2134-2138	zbog	_	_	_	_	_	
+15-33	2139-2145	oksida	_	_	_	_	_	
+15-34	2146-2147	i	_	_	_	_	_	
+15-35	2148-2158	hidroksida	_	_	_	_	_	
+15-36	2159-2166	željeza	_	_	_	_	_	
+15-37	2167-2171	mogu	_	_	_	_	_	
+15-38	2172-2176	biti	_	_	_	_	_	
+15-39	2177-2187	crvenkasti	_	_	_	_	_	
+15-40	2188-2190	do	_	_	_	_	_	
+15-41	2191-2199	žućkasti	_	_	_	_	_	
+15-42	2200-2201	,	_	_	_	_	_	
+15-43	2202-2209	odnosno	_	_	_	_	_	
+15-44	2210-2218	primjesa	_	_	_	_	_	
+15-45	2219-2228	ugljevite	_	_	_	_	_	
+15-46	2229-2234	tvari	_	_	_	_	_	
+15-47	2235-2236	i	_	_	_	_	_	
+15-48	2237-2245	bitumena	_	_	_	_	_	
+15-49	2246-2250	sivi	_	_	_	_	_	
+15-50	2251-2252	,	_	_	_	_	_	
+15-51	2253-2255	tj	_	_	_	_	_	
+15-52	2255-2256	.	_	_	_	_	_	
+15-53	2257-2262	smeđi	_	_	_	_	_	
+15-54	2263-2264	.	_	_	_	_	_	

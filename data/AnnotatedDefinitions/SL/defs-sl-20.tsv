@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Mlade nepreobražene udornice je poimenoval udorna brezna, za udornice v srednji fazi razvoja je ohranil poimenovanje udornice, stare udornice pa je poimenoval globoščaki.
+1-1	0-5	Mlade	_	_	_	_	_	
+1-2	6-19	nepreobražene	_	_	_	_	_	
+1-3	20-28	udornice	_	A.1 Surface landform	GENUS	_	_	
+1-4	29-31	je	_	_	DEFINITOR[22]	_	_	
+1-5	32-42	poimenoval	_	_	DEFINITOR[22]	_	_	
+1-6	43-49	udorna	_	A.1 Surface landform[3]	DEFINIENDUM[23]	_	_	
+1-7	50-56	brezna	_	A.1 Surface landform[3]	DEFINIENDUM[23]	_	_	
+1-8	56-57	,	_	_	_	_	_	
+1-9	58-60	za	_	_	_	_	_	
+1-10	61-69	udornice	_	A.1 Surface landform	_	_	_	
+1-11	70-71	v	_	_	_	_	_	
+1-12	72-79	srednji	_	_	_	_	_	
+1-13	80-84	fazi	_	_	_	_	_	
+1-14	85-92	razvoja	_	_	_	_	_	
+1-15	93-95	je	_	_	_	_	_	
+1-16	96-103	ohranil	_	_	_	_	_	
+1-17	104-116	poimenovanje	_	_	_	_	_	
+1-18	117-125	udornice	_	A.1 Surface landform	_	_	_	
+1-19	125-126	,	_	_	_	_	_	
+1-20	127-132	stare	_	A.1 Surface landform[4]	_	_	_	
+1-21	133-141	udornice	_	A.1 Surface landform[4]	_	_	_	
+1-22	142-144	pa	_	_	_	_	_	
+1-23	145-147	je	_	_	_	_	_	
+1-24	148-158	poimenoval	_	_	_	_	_	
+1-25	159-169	globoščaki	_	A.1 Surface landform	_	_	_	
+1-26	169-170	.	_	_	_	_	_	
+
+#Text=Oblika dnov udornic je rezultat razmerja med dinamiko premeščanja mase v dno in iz dna.
+2-1	171-177	Oblika	_	_	DEFINIENDUM[24]	_	_	
+2-2	178-182	dnov	_	_	DEFINIENDUM[24]	_	_	
+2-3	183-190	udornic	_	A.1 Surface landform	DEFINIENDUM[24]	_	_	
+2-4	191-193	je	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[54]	
+2-5	194-202	rezultat	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE[54]	
+2-6	203-211	razmerja	_	_	_	HAS\_CAUSE[43]	_	
+2-7	212-215	med	_	_	_	HAS\_CAUSE[43]	_	
+2-8	216-224	dinamiko	_	_	_	HAS\_CAUSE[43]	_	
+2-9	225-236	premeščanja	_	B.1 Movement[5]	_	HAS\_CAUSE[43]	_	
+2-10	237-241	mase	_	B.1 Movement[5]	_	HAS\_CAUSE[43]	_	
+2-11	242-243	v	_	_	_	HAS\_CAUSE[43]	_	
+2-12	244-247	dno	_	_	_	HAS\_CAUSE[43]	_	
+2-13	248-250	in	_	_	_	HAS\_CAUSE[43]	_	
+2-14	251-253	iz	_	_	_	HAS\_CAUSE[43]	_	
+2-15	254-257	dna	_	_	_	HAS\_CAUSE[43]	_	
+2-16	257-258	.	_	_	_	_	_	
+
+#Text=Udor je proces, s katerim nastajajo manjše udornice in po katerem se udornice imenujejo.
+3-1	259-263	Udor	_	B.1 Movement	DEFINIENDUM	_	_	
+3-2	264-266	je	_	_	DEFINITOR	_	_	
+3-3	267-273	proces	_	B. Process	GENUS	_	_	
+3-4	273-274	,	_	_	_	_	_	
+3-5	275-276	s	_	_	_	HAS\_RESULT[44]	_	
+3-6	277-284	katerim	_	_	_	HAS\_RESULT[44]	_	
+3-7	285-294	nastajajo	_	_	_	HAS\_RESULT[44]	_	
+3-8	295-301	manjše	_	_	_	HAS\_RESULT[44]	_	
+3-9	302-310	udornice	_	A.1 Surface landform	_	HAS\_RESULT[44]	_	
+3-10	311-313	in	_	_	_	_	_	
+3-11	314-316	po	_	_	_	_	_	
+3-12	317-324	katerem	_	_	_	_	_	
+3-13	325-327	se	_	_	_	_	_	
+3-14	328-336	udornice	_	A.1 Surface landform	_	_	_	
+3-15	337-346	imenujejo	_	_	_	_	_	
+3-16	346-347	.	_	_	_	_	_	
+
+#Text=Domačini na Krasu imenujejo udornice doli, medtem ko doline imenujejo manjše globeli, ki jih strokovna literatura navaja kot vrtače.
+4-1	348-356	Domačini	_	_	_	_	_	
+4-2	357-359	na	_	_	_	_	_	
+4-3	360-365	Krasu	_	_	_	_	_	
+4-4	366-375	imenujejo	_	_	_	_	_	
+4-5	376-384	udornice	_	A.1 Surface landform	_	_	_	
+4-6	385-389	doli	_	A.1 Surface landform	_	_	_	
+4-7	389-390	,	_	_	_	_	_	
+4-8	391-397	medtem	_	_	_	_	_	
+4-9	398-400	ko	_	_	_	_	_	
+4-10	401-407	doline	_	A.1 Surface landform	_	_	_	
+4-11	408-417	imenujejo	_	_	_	_	_	
+4-12	418-424	manjše	_	_	_	_	_	
+4-13	425-432	globeli	_	D.1 Abiotic	_	_	_	
+4-14	432-433	,	_	_	_	_	_	
+4-15	434-436	ki	_	_	_	_	_	
+4-16	437-440	jih	_	_	_	_	_	
+4-17	441-450	strokovna	_	_	_	_	_	
+4-18	451-461	literatura	_	_	_	_	_	
+4-19	462-468	navaja	_	_	_	_	_	
+4-20	469-472	kot	_	_	_	_	_	
+4-21	473-479	vrtače	_	A.1 Surface landform	_	_	_	
+4-22	479-480	.	_	_	_	_	_	
+
+#Text=Prevladujoč način na kraškem površju je kemično preperevanje oziroma korozija.
+5-1	481-492	Prevladujoč	_	_	_	_	_	
+5-2	493-498	način	_	_	_	_	_	
+5-3	499-501	na	_	_	_	HAS\_LOCATION[45]	frame\_LOCATION	
+5-4	502-509	kraškem	_	C. Geome[6]	_	HAS\_LOCATION[45]	_	
+5-5	510-517	površju	_	C. Geome[6]	_	HAS\_LOCATION[45]	_	
+5-6	518-520	je	_	_	_	_	_	
+5-7	521-528	kemično	_	B.4 Transformation[7]	DEFINIENDUM[25]	_	_	
+5-8	529-541	preperevanje	_	B.4 Transformation[7]	DEFINIENDUM[25]	_	_	
+5-9	542-549	oziroma	_	_	_	_	_	
+5-10	550-558	korozija	_	B.4 Transformation	DEFINIENDUM	_	_	
+5-11	558-559	.	_	_	_	_	_	
+
+#Text=Osnovne oblike pobočij udornic so: stena, melišče, pobočje z blagimi pobočnimi procesi, ki jih v nadaljevanju imenujem aktivna pobočja, ter uravnoteženo pobočje.
+6-1	560-567	Osnovne	_	_	_	_	_	
+6-2	568-574	oblike	_	_	DEFINIENDUM[26]	_	_	
+6-3	575-582	pobočij	_	D.1 Abiotic	DEFINIENDUM[26]	_	_	
+6-4	583-590	udornic	_	A.1 Surface landform	DEFINIENDUM[26]	_	_	
+6-5	591-593	so	_	_	_	_	_	
+6-6	593-594	:	_	_	_	_	_	
+6-7	595-600	stena	_	D.1 Abiotic	SPECIES	CONTAINS[46]	_	
+6-8	600-601	,	_	_	_	CONTAINS[46]	_	
+6-9	602-609	melišče	_	D.1 Abiotic	SPECIES	CONTAINS[46]	_	
+6-10	609-610	,	_	_	_	CONTAINS[46]	_	
+6-11	611-618	pobočje	_	D.1 Abiotic	SPECIES[27]	CONTAINS[46]	_	
+6-12	619-620	z	_	_	SPECIES[27]	CONTAINS[46]	_	
+6-13	621-628	blagimi	_	_	SPECIES[27]	CONTAINS[46]	_	
+6-14	629-638	pobočnimi	_	B. Process[8]	SPECIES[27]	CONTAINS[46]	_	
+6-15	639-646	procesi	_	B. Process[8]	SPECIES[27]	CONTAINS[46]	_	
+6-16	646-647	,	_	_	_	CONTAINS[46]	_	
+6-17	648-650	ki	_	_	_	CONTAINS[46]	_	
+6-18	651-654	jih	_	_	_	CONTAINS[46]	_	
+6-19	655-656	v	_	_	_	CONTAINS[46]	_	
+6-20	657-669	nadaljevanju	_	_	_	CONTAINS[46]	_	
+6-21	670-678	imenujem	_	_	_	CONTAINS[46]	_	
+6-22	679-686	aktivna	_	D.1 Abiotic[9]	SPECIES[28]	CONTAINS[46]	_	
+6-23	687-694	pobočja	_	D.1 Abiotic[9]	SPECIES[28]	CONTAINS[46]	_	
+6-24	694-695	,	_	_	_	CONTAINS[46]	_	
+6-25	696-699	ter	_	_	_	CONTAINS[46]	_	
+6-26	700-712	uravnoteženo	_	D.1 Abiotic[10]	SPECIES[29]	CONTAINS[46]	_	
+6-27	713-720	pobočje	_	D.1 Abiotic[10]	SPECIES[29]	CONTAINS[46]	_	
+6-28	720-721	.	_	_	_	_	_	
+
+#Text=Aktivna pobočja so deli pobočij udornic, kjer so aktivni pobočni procesi polzenja tal oziroma prepereline vzporedno s pobočjem navzdol.
+7-1	722-729	Aktivna	_	A.1 Surface landform[11]	DEFINIENDUM[30]	_	_	
+7-2	730-737	pobočja	_	A.1 Surface landform[11]	DEFINIENDUM[30]	_	_	
+7-3	738-740	so	_	_	DEFINITOR	_	_	
+7-4	741-745	deli	_	_	GENUS[31]	_	_	
+7-5	746-753	pobočij	_	_	GENUS[31]	_	_	
+7-6	754-761	udornic	_	A.1 Surface landform	GENUS[31]	_	_	
+7-7	761-762	,	_	_	_	_	_	
+7-8	763-767	kjer	_	_	_	HAS\_FUNCTION[47]	frame\_FUNCTION[55]	
+7-9	768-770	so	_	_	_	HAS\_FUNCTION[47]	frame\_FUNCTION[55]	
+7-10	771-778	aktivni	_	_	_	HAS\_FUNCTION[47]	frame\_FUNCTION[55]	
+7-11	779-786	pobočni	_	B. Process[12]	_	HAS\_FUNCTION[47]	_	
+7-12	787-794	procesi	_	B. Process[12]	_	HAS\_FUNCTION[47]	_	
+7-13	795-803	polzenja	_	B.1 Movement[13]	_	HAS\_FUNCTION[47]	_	
+7-14	804-807	tal	_	B.1 Movement[13]	_	HAS\_FUNCTION[47]	_	
+7-15	808-815	oziroma	_	_	_	HAS\_FUNCTION[47]	_	
+7-16	816-827	prepereline	_	D.1 Abiotic	_	HAS\_FUNCTION[47]	_	
+7-17	828-837	vzporedno	_	_	_	HAS\_FUNCTION[47]|HAS\_LOCATION[48]	_	
+7-18	838-839	s	_	_	_	HAS\_FUNCTION[47]|HAS\_LOCATION[48]	_	
+7-19	840-848	pobočjem	_	_	_	HAS\_FUNCTION[47]|HAS\_LOCATION[48]	_	
+7-20	849-856	navzdol	_	_	_	HAS\_FUNCTION[47]|HAS\_LOCATION[48]	_	
+7-21	856-857	.	_	_	_	_	_	
+
+#Text=Večje globeli, ki naj bi bile v tlorisu bolj nepravilnih oblik, imenujemo uvale.
+8-1	858-863	Večje	_	_	_	HAS\_SIZE	_	
+8-2	864-871	globeli	_	A.1 Surface landform	GENUS	_	_	
+8-3	871-872	,	_	_	_	_	_	
+8-4	873-875	ki	_	_	_	HAS\_FORM[49]	_	
+8-5	876-879	naj	_	_	_	HAS\_FORM[49]	_	
+8-6	880-882	bi	_	_	_	HAS\_FORM[49]	_	
+8-7	883-887	bile	_	_	_	HAS\_FORM[49]	_	
+8-8	888-889	v	_	_	_	HAS\_FORM[49]	frame\_FORM[56]	
+8-9	890-897	tlorisu	_	_	_	HAS\_FORM[49]	frame\_FORM[56]	
+8-10	898-902	bolj	_	_	_	HAS\_FORM[49]	_	
+8-11	903-914	nepravilnih	_	_	_	HAS\_FORM[49]	_	
+8-12	915-920	oblik	_	_	_	HAS\_FORM[49]	_	
+8-13	920-921	,	_	_	_	_	_	
+8-14	922-931	imenujemo	_	_	DEFINITOR	_	_	
+8-15	932-937	uvale	_	A.1 Surface landform	DEFINIENDUM	_	_	
+8-16	937-938	.	_	_	_	_	_	
+
+#Text=Udor stropa je najstarejša razlaga nastanka vseh udornic.
+9-1	939-943	Udor	_	B.1 Movement	DEFINIENDUM[32]	_	_	
+9-2	944-950	stropa	_	D.1 Abiotic	DEFINIENDUM[32]	_	_	
+9-3	951-953	je	_	_	_	HAS\_CAUSE[50]	_	
+9-4	954-965	najstarejša	_	_	_	HAS\_CAUSE[50]	_	
+9-5	966-973	razlaga	_	_	_	HAS\_CAUSE[50]	_	
+9-6	974-982	nastanka	_	_	_	HAS\_CAUSE[50]	_	
+9-7	983-987	vseh	_	_	_	_	_	
+9-8	988-995	udornic	_	A.1 Surface landform	_	_	_	
+9-9	995-996	.	_	_	_	_	_	
+
+#Text=Večje globeli od uval imenujemo kraška polja.
+10-1	997-1002	Večje	_	_	_	HAS\_SIZE[51]	frame\_SIZE	
+10-2	1003-1010	globeli	_	A.1 Surface landform	GENUS	HAS\_SIZE[51]	_	
+10-3	1011-1013	od	_	_	_	HAS\_SIZE[51]	frame\_SIZE	
+10-4	1014-1018	uval	_	A.1 Surface landform	_	HAS\_SIZE[51]	_	
+10-5	1019-1028	imenujemo	_	_	DEFINITOR	_	_	
+10-6	1029-1035	kraška	_	A.1 Surface landform[14]	DEFINIENDUM[33]	_	_	
+10-7	1036-1041	polja	_	A.1 Surface landform[14]	DEFINIENDUM[33]	_	_	
+10-8	1041-1042	.	_	_	_	_	_	
+
+#Text=Oblikovanje manjših udornic je dogodek, pri katerem se z enim udorom oblikuje celotna oblika, tj. manjša udornica.
+11-1	1043-1054	Oblikovanje	_	_	_	_	_	
+11-2	1055-1062	manjših	_	_	_	_	_	
+11-3	1063-1070	udornic	_	_	_	_	_	
+11-4	1071-1073	je	_	_	_	_	_	
+11-5	1074-1081	dogodek	_	_	_	_	_	
+11-6	1081-1082	,	_	_	_	_	_	
+11-7	1083-1086	pri	_	_	_	HAS\_CAUSE[52]	_	
+11-8	1087-1094	katerem	_	_	_	HAS\_CAUSE[52]	_	
+11-9	1095-1097	se	_	_	_	HAS\_CAUSE[52]	_	
+11-10	1098-1099	z	_	_	_	HAS\_CAUSE[52]	_	
+11-11	1100-1104	enim	_	_	_	HAS\_CAUSE[52]	_	
+11-12	1105-1111	udorom	_	B.1 Movement	_	HAS\_CAUSE[52]	_	
+11-13	1112-1120	oblikuje	_	_	_	HAS\_CAUSE[52]	_	
+11-14	1121-1128	celotna	_	_	_	HAS\_CAUSE[52]	_	
+11-15	1129-1135	oblika	_	_	_	HAS\_CAUSE[52]	_	
+11-16	1135-1136	,	_	_	_	_	_	
+11-17	1137-1139	tj	_	_	_	_	_	
+11-18	1139-1140	.	_	_	_	_	_	
+11-19	1141-1147	manjša	_	A.1 Surface landform[15]	DEFINIENDUM[34]	_	_	
+11-20	1148-1156	udornica	_	A.1 Surface landform[15]	DEFINIENDUM[34]	_	_	
+11-21	1156-1157	.	_	_	_	_	_	
+
+#Text=Kraška območja, ki jih prekrivajo ledeniki, imenujemo poledeneli kras (angl. glacierized karst).
+12-1	1158-1164	Kraška	_	C. Geome[16]	GENUS[35]	_	_	
+12-2	1165-1172	območja	_	C. Geome[16]	GENUS[35]	_	_	
+12-3	1172-1173	,	_	_	_	_	_	
+12-4	1174-1176	ki	_	_	_	HAS\_FORM[53]	_	
+12-5	1177-1180	jih	_	_	_	HAS\_FORM[53]	_	
+12-6	1181-1191	prekrivajo	_	_	_	HAS\_FORM[53]	_	
+12-7	1192-1200	ledeniki	_	D.1 Abiotic	_	HAS\_FORM[53]	_	
+12-8	1200-1201	,	_	_	_	_	_	
+12-9	1202-1211	imenujemo	_	_	DEFINITOR	_	_	
+12-10	1212-1222	poledeneli	_	C. Geome[17]	DEFINIENDUM[36]	_	_	
+12-11	1223-1227	kras	_	C. Geome[17]	DEFINIENDUM[36]	_	_	
+12-12	1228-1229	(	_	_	_	_	_	
+12-13	1229-1233	angl	_	_	_	_	_	
+12-14	1233-1234	.	_	_	_	_	_	
+12-15	1235-1246	glacierized	_	_	_	_	_	
+12-16	1247-1252	karst	_	_	_	_	_	
+12-17	1252-1253	)	_	_	_	_	_	
+12-18	1253-1254	.	_	_	_	_	_	
+
+#Text=Tip reliefa, ki združuje kraške reliefne oblike, kraško hidrologijo ter podedovane ledeniške erozijske in akumulacijske oblike, se imenuje ledeniški kras (angl. glaciated karst) ali glaciokras (angl. glaciokarst).
+13-1	1255-1258	Tip	_	_	_	_	_	
+13-2	1259-1266	reliefa	_	D.1 Abiotic	GENUS	_	_	
+13-3	1266-1267	,	_	_	_	_	_	
+13-4	1268-1270	ki	_	_	_	_	_	
+13-5	1271-1279	združuje	_	_	_	_	_	
+13-6	1280-1286	kraške	_	_	SPECIES[37]	_	_	
+13-7	1287-1295	reliefne	_	_	SPECIES[37]	_	_	
+13-8	1296-1302	oblike	_	_	SPECIES[37]	_	_	
+13-9	1302-1303	,	_	_	_	_	_	
+13-10	1304-1310	kraško	_	D.3 Property[18]	SPECIES[38]	_	_	
+13-11	1311-1322	hidrologijo	_	D.3 Property[18]	SPECIES[38]	_	_	
+13-12	1323-1326	ter	_	_	_	_	_	
+13-13	1327-1337	podedovane	_	_	_	_	_	
+13-14	1338-1347	ledeniške	ledeniška erozijska oblika[1]	D.1 Abiotic[19]	SPECIES[39]	_	_	
+13-15	1348-1357	erozijske	ledeniška erozijska oblika[1]	D.1 Abiotic[19]	SPECIES[39]	_	_	
+13-16	1358-1360	in	_	_	_	_	_	
+13-17	1361-1374	akumulacijske	ledeniška akumulacijska oblika[2]	D.1 Abiotic[20]	SPECIES[40]	_	_	
+13-18	1375-1381	oblike	ledeniška akumulacijska oblika[2]	D.1 Abiotic[20]	SPECIES[40]	_	_	
+13-19	1381-1382	,	_	_	_	_	_	
+13-20	1383-1385	se	_	_	DEFINITOR[41]	_	_	
+13-21	1386-1393	imenuje	_	_	DEFINITOR[41]	_	_	
+13-22	1394-1403	ledeniški	_	C. Geome[21]	DEFINIENDUM[42]	_	_	
+13-23	1404-1408	kras	_	C. Geome[21]	DEFINIENDUM[42]	_	_	
+13-24	1409-1410	(	_	_	_	_	_	
+13-25	1410-1414	angl	_	_	_	_	_	
+13-26	1414-1415	.	_	_	_	_	_	
+13-27	1416-1425	glaciated	_	_	_	_	_	
+13-28	1426-1431	karst	_	_	_	_	_	
+13-29	1431-1432	)	_	_	_	_	_	
+13-30	1433-1436	ali	_	_	_	_	_	
+13-31	1437-1447	glaciokras	_	C. Geome	DEFINIENDUM	_	_	
+13-32	1448-1449	(	_	_	_	_	_	
+13-33	1449-1453	angl	_	_	_	_	_	
+13-34	1453-1454	.	_	_	_	_	_	
+13-35	1455-1466	glaciokarst	_	_	_	_	_	
+13-36	1466-1467	)	_	_	_	_	_	
+13-37	1467-1468	.	_	_	_	_	_	

@@ -1,0 +1,402 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=kalcifikacija: Zamenjava primarnih trdnih snovi v živalskih ali rastlinskih ostankih s kalcijevim karbonatom. V slovenski kraški literaturi često prepojitev snovi s kalcijevim karbonatom.
+1-1	0-13	kalcifikacija	_	B.4 Transformation	DEFINIENDUM	_	_	
+1-2	13-14	:	_	_	_	_	_	
+1-3	15-24	Zamenjava	_	_	_	DEFINED\_AS[33]	_	
+1-4	25-34	primarnih	_	_	_	DEFINED\_AS[33]	_	
+1-5	35-41	trdnih	_	D.1 Abiotic[1]	_	DEFINED\_AS[33]	_	
+1-6	42-47	snovi	_	D.1 Abiotic[1]	_	DEFINED\_AS[33]	_	
+1-7	48-49	v	_	_	_	DEFINED\_AS[33]	_	
+1-8	50-59	živalskih	živalski ostanek	D.2 Biotic	_	DEFINED\_AS[33]	_	
+1-9	60-63	ali	_	_	_	DEFINED\_AS[33]	_	
+1-10	64-75	rastlinskih	_	D.2 Biotic[2]	_	DEFINED\_AS[33]	_	
+1-11	76-84	ostankih	_	D.2 Biotic[2]	_	DEFINED\_AS[33]	_	
+1-12	85-86	s	_	_	_	DEFINED\_AS[33]	_	
+1-13	87-97	kalcijevim	_	D.1 Abiotic[3]	_	DEFINED\_AS[33]	_	
+1-14	98-108	karbonatom	_	D.1 Abiotic[3]	_	DEFINED\_AS[33]	_	
+1-15	108-109	.	_	_	_	_	_	
+1-16	110-111	V	_	_	_	_	_	
+1-17	112-121	slovenski	_	_	_	_	_	
+1-18	122-128	kraški	_	_	_	_	_	
+1-19	129-139	literaturi	_	_	_	_	_	
+1-20	140-145	često	_	_	_	_	_	
+1-21	146-156	prepojitev	_	_	_	DEFINED\_AS[34]	_	
+1-22	157-162	snovi	_	_	_	DEFINED\_AS[34]	_	
+1-23	163-164	s	_	_	_	DEFINED\_AS[34]	_	
+1-24	165-175	kalcijevim	_	D.1 Abiotic[4]	_	DEFINED\_AS[34]	_	
+1-25	176-186	karbonatom	_	D.1 Abiotic[4]	_	DEFINED\_AS[34]	_	
+1-26	186-187	.	_	_	_	_	_	
+
+#Text=kalcitna žila: Tanka, nekaj milimetrov ali cm debela plast rekristaliziranega apnenca svetle barve, ki navadno moli iz jamske stene ali stropa za nekaj milimetrov, pa tudi centimetrov. Tudi kalcitno rebro ali kalcitna pola.
+2-1	192-200	kalcitna	_	A.2 Underground landform[5]	DEFINIENDUM[27]	_	_	
+2-2	201-205	žila	_	A.2 Underground landform[5]	DEFINIENDUM[27]	_	_	
+2-3	205-206	:	_	_	_	_	_	
+2-4	207-212	Tanka	_	_	_	HAS\_SIZE[35]	_	
+2-5	212-213	,	_	_	_	HAS\_SIZE[35]	_	
+2-6	214-219	nekaj	_	_	_	HAS\_SIZE[35]	_	
+2-7	220-230	milimetrov	_	_	_	HAS\_SIZE[35]	frame\_SIZE	
+2-8	231-234	ali	_	_	_	HAS\_SIZE[35]	_	
+2-9	235-237	cm	_	_	_	HAS\_SIZE[35]	_	
+2-10	238-244	debela	_	_	_	HAS\_SIZE[35]	_	
+2-11	245-250	plast	_	D.1 Abiotic	_	_	_	
+2-12	251-269	rekristaliziranega	_	D.1 Abiotic[6]	_	COMPOSITION\_MEDIUM[36]	_	
+2-13	270-277	apnenca	_	D.1 Abiotic[6]	_	COMPOSITION\_MEDIUM[36]	_	
+2-14	278-284	svetle	_	_	_	HAS\_ATTRIBUTE[37]	_	
+2-15	285-290	barve	_	_	_	HAS\_ATTRIBUTE[37]	_	
+2-16	290-291	,	_	_	_	_	_	
+2-17	292-294	ki	_	_	_	HAS\_LOCATION[38]	_	
+2-18	295-302	navadno	_	_	_	HAS\_LOCATION[38]	_	
+2-19	303-307	moli	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[63]	
+2-20	308-310	iz	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[63]	
+2-21	311-317	jamske	_	A.2 Underground landform[7]	_	HAS\_LOCATION[38]	_	
+2-22	318-323	stene	_	A.2 Underground landform[7]	_	HAS\_LOCATION[38]	_	
+2-23	324-327	ali	_	_	_	HAS\_LOCATION[38]	_	
+2-24	328-334	stropa	jamskega stropa	A.2 Underground landform	_	HAS\_LOCATION[38]	_	
+2-25	335-337	za	_	_	_	HAS\_LOCATION[38]	_	
+2-26	338-343	nekaj	_	_	_	HAS\_LOCATION[38]	_	
+2-27	344-354	milimetrov	_	_	_	HAS\_LOCATION[38]	_	
+2-28	354-355	,	_	_	_	HAS\_LOCATION[38]	_	
+2-29	356-358	pa	_	_	_	HAS\_LOCATION[38]	_	
+2-30	359-363	tudi	_	_	_	HAS\_LOCATION[38]	_	
+2-31	364-375	centimetrov	_	_	_	HAS\_LOCATION[38]	_	
+2-32	375-376	.	_	_	_	_	_	
+2-33	377-381	Tudi	_	_	_	_	_	
+2-34	382-390	kalcitno	_	A.2 Underground landform[8]	DEFINIENDUM[28]	_	_	
+2-35	391-396	rebro	_	A.2 Underground landform[8]	DEFINIENDUM[28]	_	_	
+2-36	397-400	ali	_	_	_	_	_	
+2-37	401-409	kalcitna	_	A.2 Underground landform[9]	DEFINIENDUM[29]	_	_	
+2-38	410-414	pola	_	A.2 Underground landform[9]	DEFINIENDUM[29]	_	_	
+2-39	414-415	.	_	_	_	_	_	
+
+#Text=kamin:Odprtina v jamskem stropu, ki ji običajno ne vidimo konca.
+3-1	420-425	kamin	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-2	425-426	:	_	_	_	_	_	
+3-3	426-434	Odprtina	_	D.1 Abiotic	GENUS	_	_	
+3-4	435-436	v	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION	
+3-5	437-444	jamskem	_	A.2 Underground landform[10]	_	HAS\_LOCATION[39]	_	
+3-6	445-451	stropu	_	A.2 Underground landform[10]	_	HAS\_LOCATION[39]	_	
+3-7	451-452	,	_	_	_	_	_	
+3-8	453-455	ki	_	_	_	_	_	
+3-9	456-458	ji	_	_	_	HAS\_SIZE[40]	_	
+3-10	459-467	običajno	_	_	_	HAS\_SIZE[40]	_	
+3-11	468-470	ne	_	_	_	HAS\_SIZE[40]	_	
+3-12	471-477	vidimo	_	_	_	HAS\_SIZE[40]	_	
+3-13	478-483	konca	_	_	_	HAS\_SIZE[40]	_	
+3-14	483-484	.	_	_	_	_	_	
+
+#Text=kanal: Nedostopen jamski rov v freatični coni; tudi dostopen enovit jamski rov brez bregov.
+4-1	489-494	kanal	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-2	494-495	:	_	_	_	_	_	
+4-3	496-506	Nedostopen	_	_	_	HAS\_ATTRIBUTE	_	
+4-4	507-513	jamski	_	A.2 Underground landform[11]	GENUS[30]	_	_	
+4-5	514-517	rov	_	A.2 Underground landform[11]	GENUS[30]	_	_	
+4-6	518-519	v	_	_	_	HAS\_LOCATION[41]	_	
+4-7	520-529	freatični	_	C. Geome[12]	_	HAS\_LOCATION[41]	_	
+4-8	530-534	coni	_	C. Geome[12]	_	HAS\_LOCATION[41]	_	
+4-9	534-535	;	_	_	_	_	_	
+4-10	536-540	tudi	_	_	_	_	_	
+4-11	541-549	dostopen	_	_	_	_	_	
+4-12	550-556	enovit	_	_	_	_	_	
+4-13	557-563	jamski	_	_	_	_	_	
+4-14	564-567	rov	_	_	_	_	_	
+4-15	568-572	brez	_	_	_	_	_	
+4-16	573-579	bregov	_	_	_	_	_	
+4-17	579-580	.	_	_	_	_	_	
+
+#Text=kapelica: Večja niša ali zaokrožena, bogato zakapana votlinica.
+5-1	585-593	kapelica	_	A.2 Underground landform	DEFINIENDUM	_	_	
+5-2	593-594	:	_	_	_	_	_	
+5-3	595-600	Večja	_	_	_	HAS\_SIZE	_	
+5-4	601-605	niša	_	A.2 Underground landform	GENUS	_	_	
+5-5	606-609	ali	_	_	_	_	_	
+5-6	610-620	zaokrožena	_	_	_	HAS\_FORM	_	
+5-7	620-621	,	_	_	_	_	_	
+5-8	622-628	bogato	_	_	_	HAS\_FORM[42]	_	
+5-9	629-637	zakapana	_	_	_	HAS\_FORM[42]	_	
+5-10	638-647	votlinica	_	D.1 Abiotic	_	HAS\_FORM[42]	_	
+5-11	647-648	.	_	_	_	_	_	
+
+#Text=karbonatna kamnina: Usedlina, ki jo v glavnem sestavljajo soli ogljikove kisline. Na Dinarskem krasu sta apnenec in dolomit najbolj razširjeni karbonatni kamnini, na katerih se razvija karbonatni kras.
+6-1	653-663	karbonatna	_	D.1 Abiotic[13]	DEFINIENDUM[31]	_	_	
+6-2	664-671	kamnina	_	D.1 Abiotic[13]	DEFINIENDUM[31]	_	_	
+6-3	671-672	:	_	_	_	_	_	
+6-4	673-681	Usedlina	_	D.1 Abiotic	GENUS	_	_	
+6-5	681-682	,	_	_	_	_	_	
+6-6	683-685	ki	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[64]	
+6-7	686-688	jo	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[64]	
+6-8	689-690	v	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[64]	
+6-9	691-698	glavnem	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[64]	
+6-10	699-710	sestavljajo	_	_	_	COMPOSITION\_MEDIUM[43]	frame\_COMPOSITION[64]	
+6-11	711-715	soli	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+6-12	716-725	ogljikove	_	D.1 Abiotic[14]	_	COMPOSITION\_MEDIUM[43]	_	
+6-13	726-733	kisline	_	D.1 Abiotic[14]	_	COMPOSITION\_MEDIUM[43]	_	
+6-14	733-734	.	_	_	_	_	_	
+6-15	735-737	Na	_	_	_	_	_	
+6-16	738-747	Dinarskem	_	C. Geome[15]|D.3.1 Geolocation[16]	_	_	_	
+6-17	748-753	krasu	_	C. Geome[15]|D.3.1 Geolocation[16]	_	_	_	
+6-18	754-757	sta	_	_	_	_	_	
+6-19	758-765	apnenec	_	D.1 Abiotic	_	_	_	
+6-20	766-768	in	_	_	_	_	_	
+6-21	769-776	dolomit	_	D.1 Abiotic	_	_	_	
+6-22	777-784	najbolj	_	_	_	_	_	
+6-23	785-795	razširjeni	_	_	_	_	_	
+6-24	796-806	karbonatni	_	_	_	_	_	
+6-25	807-814	kamnini	_	_	_	_	_	
+6-26	814-815	,	_	_	_	_	_	
+6-27	816-818	na	_	_	_	_	_	
+6-28	819-826	katerih	_	_	_	_	_	
+6-29	827-829	se	_	_	_	_	_	
+6-30	830-837	razvija	_	_	_	_	_	
+6-31	838-848	karbonatni	_	C. Geome[17]	_	_	_	
+6-32	849-853	kras	_	C. Geome[17]	_	_	_	
+6-33	853-854	.	_	_	_	_	_	
+
+#Text=kaverna: Umetna jama, napravljena cesto v vojne namene.
+7-1	859-866	kaverna	_	A.2 Underground landform	DEFINIENDUM	_	_	
+7-2	866-867	:	_	_	_	_	_	
+7-3	868-874	Umetna	_	_	_	_	_	
+7-4	875-879	jama	_	_	GENUS	_	_	
+7-5	879-880	,	_	_	_	_	_	
+7-6	881-892	napravljena	_	_	_	HAS\_FUNCTION[44]	_	
+7-7	893-898	cesto	često	_	_	HAS\_FUNCTION[44]	_	
+7-8	899-900	v	_	_	_	HAS\_FUNCTION[44]	_	
+7-9	901-906	vojne	_	_	_	HAS\_FUNCTION[44]	_	
+7-10	907-913	namene	_	_	_	HAS\_FUNCTION[44]	_	
+7-11	913-914	.	_	_	_	_	_	
+
+#Text=kevderc: Ljudsko ime za manjšo jamo, ki jo sestavlja ena sama manjša votlina.
+8-1	919-926	kevderc	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	926-927	:	_	_	_	_	_	
+8-3	928-935	Ljudsko	_	_	_	_	_	
+8-4	936-939	ime	_	_	_	_	_	
+8-5	940-942	za	_	_	_	_	_	
+8-6	943-949	manjšo	_	_	_	HAS\_SIZE	_	
+8-7	950-954	jamo	_	A.2 Underground landform	GENUS	_	_	
+8-8	954-955	,	_	_	_	_	_	
+8-9	956-958	ki	_	_	_	HAS\_FORM[45]	frame\_FORM[65]	
+8-10	959-961	jo	_	_	_	HAS\_FORM[45]	frame\_FORM[65]	
+8-11	962-971	sestavlja	_	_	_	HAS\_FORM[45]	frame\_FORM[65]	
+8-12	972-975	ena	_	_	_	HAS\_FORM[45]	_	
+8-13	976-980	sama	_	_	_	HAS\_FORM[45]	_	
+8-14	981-987	manjša	_	_	_	HAS\_FORM[45]	_	
+8-15	988-995	votlina	_	D.1 Abiotic	_	HAS\_FORM[45]	_	
+8-16	995-996	.	_	_	_	_	_	
+
+#Text=Klastokras: Kras v klastičnih kamninah (produ, konglomeratu, grušču breči, pesku, peščenjaku in pod.).
+9-1	1000-1010	Klastokras	_	C. Geome	DEFINIENDUM	_	_	
+9-2	1010-1011	:	_	_	_	_	_	
+9-3	1012-1016	Kras	_	C. Geome	GENUS	_	_	
+9-4	1017-1018	v	_	_	_	COMPOSITION\_MEDIUM[46]	frame\_COMPOSITION	
+9-5	1019-1029	klastičnih	_	D.1 Abiotic[18]	_	COMPOSITION\_MEDIUM[46]	_	
+9-6	1030-1038	kamninah	_	D.1 Abiotic[18]	_	COMPOSITION\_MEDIUM[46]	_	
+9-7	1039-1040	(	_	_	_	_	_	
+9-8	1040-1045	produ	_	_	_	_	_	
+9-9	1045-1046	,	_	_	_	_	_	
+9-10	1047-1059	konglomeratu	_	D.1 Abiotic	_	_	_	
+9-11	1059-1060	,	_	_	_	_	_	
+9-12	1061-1067	grušču	_	_	_	_	_	
+9-13	1068-1073	breči	_	_	_	_	_	
+9-14	1073-1074	,	_	_	_	_	_	
+9-15	1075-1080	pesku	_	D.1 Abiotic	_	_	_	
+9-16	1080-1081	,	_	_	_	_	_	
+9-17	1082-1092	peščenjaku	_	D.1 Abiotic	_	_	_	
+9-18	1093-1095	in	_	_	_	_	_	
+9-19	1096-1099	pod	_	_	_	_	_	
+9-20	1099-1100	.	_	_	_	_	_	
+9-21	1100-1101	)	_	_	_	_	_	
+9-22	1101-1102	.	_	_	_	_	_	
+
+#Text=koliševka, koleševka: Več deset metrov globoka in široka kotanja, običajno s skalnim, prepadnim pobočjem, z vidnim dnom. Po prevladujočem naziranju je udornega postanka. Ljudski izraz na Notranjskem, kjer se javlja tudi ime koleševc.
+10-1	1107-1116	koliševka	_	A.1 Surface landform	DEFINIENDUM	_	_	
+10-2	1116-1117	,	_	_	_	_	_	
+10-3	1118-1127	koleševka	_	A.1 Surface landform	DEFINIENDUM	_	_	
+10-4	1127-1128	:	_	_	_	_	_	
+10-5	1129-1132	Več	_	_	_	HAS\_SIZE[47]	_	
+10-6	1133-1138	deset	_	_	_	HAS\_SIZE[47]	_	
+10-7	1139-1145	metrov	_	_	_	HAS\_SIZE[47]	frame\_SIZE	
+10-8	1146-1153	globoka	_	_	_	HAS\_SIZE[47]	_	
+10-9	1154-1156	in	_	_	_	HAS\_SIZE[47]	_	
+10-10	1157-1163	široka	_	_	_	HAS\_SIZE[47]	_	
+10-11	1164-1171	kotanja	_	D.1 Abiotic	GENUS	_	_	
+10-12	1171-1172	,	_	_	_	_	_	
+10-13	1173-1181	običajno	_	_	_	HAS\_FORM[48]	_	
+10-14	1182-1183	s	_	_	_	HAS\_FORM[48]	_	
+10-15	1184-1191	skalnim	_	_	_	HAS\_FORM[48]	_	
+10-16	1191-1192	,	_	_	_	HAS\_FORM[48]	_	
+10-17	1193-1202	prepadnim	_	_	_	HAS\_FORM[48]	_	
+10-18	1203-1211	pobočjem	_	_	_	HAS\_FORM[48]	_	
+10-19	1211-1212	,	_	_	_	HAS\_FORM[48]	_	
+10-20	1213-1214	z	_	_	_	HAS\_FORM[48]	_	
+10-21	1215-1221	vidnim	_	_	_	HAS\_FORM[48]	_	
+10-22	1222-1226	dnom	_	_	_	HAS\_FORM[48]	_	
+10-23	1226-1227	.	_	_	_	_	_	
+10-24	1228-1230	Po	_	_	_	_	_	
+10-25	1231-1244	prevladujočem	_	_	_	_	_	
+10-26	1245-1254	naziranju	_	_	_	_	_	
+10-27	1255-1257	je	_	_	_	HAS\_CAUSE[49]	_	
+10-28	1258-1266	udornega	_	B.1 Movement[19]	_	HAS\_CAUSE[49]	_	
+10-29	1267-1275	postanka	_	B.1 Movement[19]	_	HAS\_CAUSE[49]	_	
+10-30	1275-1276	.	_	_	_	_	_	
+10-31	1277-1284	Ljudski	_	_	_	_	_	
+10-32	1285-1290	izraz	_	_	_	_	_	
+10-33	1291-1293	na	_	_	_	_	_	
+10-34	1294-1305	Notranjskem	_	_	_	_	_	
+10-35	1305-1306	,	_	_	_	_	_	
+10-36	1307-1311	kjer	_	_	_	_	_	
+10-37	1312-1314	se	_	_	_	_	_	
+10-38	1315-1321	javlja	_	_	_	_	_	
+10-39	1322-1326	tudi	_	_	_	_	_	
+10-40	1327-1330	ime	_	_	_	_	_	
+10-41	1331-1339	koleševc	_	_	_	_	_	
+10-42	1339-1340	.	_	_	_	_	_	
+
+#Text=kolks, kovk: Oblika fosilnega krasa. Kopasta holmasta vzpetina, nastala v osnovi domnevno v terciarni dobi.
+11-1	1345-1350	kolks	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-2	1350-1351	,	_	_	_	_	_	
+11-3	1352-1356	kovk	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-4	1356-1357	:	_	_	_	_	_	
+11-5	1358-1364	Oblika	_	_	_	HAS\_LOCATION[50]	_	
+11-6	1365-1374	fosilnega	_	C. Geome[20]	_	HAS\_LOCATION[50]	_	
+11-7	1375-1380	krasa	_	C. Geome[20]	_	HAS\_LOCATION[50]	_	
+11-8	1380-1381	.	_	_	_	_	_	
+11-9	1382-1389	Kopasta	_	_	_	HAS\_FORM[51]	_	
+11-10	1390-1398	holmasta	_	_	_	HAS\_FORM[51]	_	
+11-11	1399-1407	vzpetina	_	D.1 Abiotic	GENUS	_	_	
+11-12	1407-1408	,	_	_	_	_	_	
+11-13	1409-1416	nastala	_	_	_	OCCURS\_IN\_TIME[52]	frame\_TIME[66]	
+11-14	1417-1418	v	_	_	_	OCCURS\_IN\_TIME[52]	frame\_TIME[66]	
+11-15	1419-1425	osnovi	_	_	_	OCCURS\_IN\_TIME[52]	_	
+11-16	1426-1434	domnevno	_	_	_	OCCURS\_IN\_TIME[52]	_	
+11-17	1435-1436	v	_	_	_	OCCURS\_IN\_TIME[52]	_	
+11-18	1437-1446	terciarni	_	D.3 Property[21]	_	OCCURS\_IN\_TIME[52]	_	
+11-19	1447-1451	dobi	_	D.3 Property[21]	_	OCCURS\_IN\_TIME[52]	_	
+11-20	1451-1452	.	_	_	_	_	_	
+
+#Text=kondenzacijska voda: Voda, ki se zaradi kondenzacije nabira v kapljicah na jamskih stenah ali stropu, navadno na mestu mešanja toplejšega in hladnejšega zraka.
+12-1	1457-1471	kondenzacijska	_	A.3 Hydrological form[22]	DEFINIENDUM[32]	_	_	
+12-2	1472-1476	voda	_	A.3 Hydrological form[22]	DEFINIENDUM[32]	_	_	
+12-3	1476-1477	:	_	_	_	_	_	
+12-4	1478-1482	Voda	_	D.1 Abiotic	GENUS	_	_	
+12-5	1482-1483	,	_	_	_	_	_	
+12-6	1484-1486	ki	_	_	_	HAS\_CAUSE[53]	_	
+12-7	1487-1489	se	_	_	_	HAS\_CAUSE[53]	_	
+12-8	1490-1496	zaradi	_	_	_	HAS\_CAUSE[53]	_	
+12-9	1497-1509	kondenzacije	_	B.4 Transformation	_	HAS\_CAUSE[53]	_	
+12-10	1510-1516	nabira	_	_	_	HAS\_CAUSE[53]	_	
+12-11	1517-1518	v	_	_	_	HAS\_CAUSE[53]	_	
+12-12	1519-1528	kapljicah	_	_	_	HAS\_CAUSE[53]	_	
+12-13	1529-1531	na	_	_	_	HAS\_LOCATION[54]	_	
+12-14	1532-1539	jamskih	_	A.2 Underground landform[23]	_	HAS\_LOCATION[54]	_	
+12-15	1540-1546	stenah	_	A.2 Underground landform[23]	_	HAS\_LOCATION[54]	_	
+12-16	1547-1550	ali	_	_	_	HAS\_LOCATION[54]	_	
+12-17	1551-1557	stropu	_	A.2 Underground landform	_	HAS\_LOCATION[54]	_	
+12-18	1557-1558	,	_	_	_	HAS\_LOCATION[54]	_	
+12-19	1559-1566	navadno	_	_	_	HAS\_LOCATION[54]	_	
+12-20	1567-1569	na	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[67]	
+12-21	1570-1575	mestu	_	_	_	HAS\_LOCATION[54]	frame\_LOCATION[67]	
+12-22	1576-1583	mešanja	_	_	_	HAS\_LOCATION[54]	_	
+12-23	1584-1594	toplejšega	_	_	_	HAS\_LOCATION[54]	_	
+12-24	1595-1597	in	_	_	_	HAS\_LOCATION[54]	_	
+12-25	1598-1609	hladnejšega	_	_	_	HAS\_LOCATION[54]	_	
+12-26	1610-1615	zraka	_	_	_	HAS\_LOCATION[54]	_	
+12-27	1615-1616	.	_	_	_	_	_	
+
+#Text=konta: Uvala. Visokogorska uvala. Glaciokraška globel, več deset ali sto metrov dolga in široka, običajno skledaste oblike. Mnogokrat širša kot globlja. Ljudsko ime v Julijskih Alpah, kjer je zelo pogosta.
+13-1	1621-1626	konta	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	1626-1627	:	_	_	_	_	_	
+13-3	1628-1633	Uvala	_	A.1 Surface landform	_	_	_	
+13-4	1633-1634	.	_	_	_	_	_	
+13-5	1635-1647	Visokogorska	_	_	_	_	_	
+13-6	1648-1653	uvala	_	_	_	_	_	
+13-7	1653-1654	.	_	_	_	_	_	
+13-8	1655-1667	Glaciokraška	_	_	_	HAS\_LOCATION	_	
+13-9	1668-1674	globel	_	_	GENUS	_	_	
+13-10	1674-1675	,	_	_	_	_	_	
+13-11	1676-1679	več	_	_	_	HAS\_SIZE[55]	_	
+13-12	1680-1685	deset	_	_	_	HAS\_SIZE[55]	_	
+13-13	1686-1689	ali	_	_	_	HAS\_SIZE[55]	_	
+13-14	1690-1693	sto	_	_	_	HAS\_SIZE[55]	_	
+13-15	1694-1700	metrov	_	_	_	HAS\_SIZE[55]	frame\_SIZE	
+13-16	1701-1706	dolga	_	_	_	HAS\_SIZE[55]	_	
+13-17	1707-1709	in	_	_	_	HAS\_SIZE[55]	_	
+13-18	1710-1716	široka	_	_	_	HAS\_SIZE[55]	_	
+13-19	1716-1717	,	_	_	_	_	_	
+13-20	1718-1726	običajno	_	_	_	HAS\_FORM[56]	_	
+13-21	1727-1736	skledaste	_	_	_	HAS\_FORM[56]	_	
+13-22	1737-1743	oblike	_	_	_	HAS\_FORM[56]	frame\_FORM	
+13-23	1743-1744	.	_	_	_	_	_	
+13-24	1745-1754	Mnogokrat	_	_	_	HAS\_FORM[57]	_	
+13-25	1755-1760	širša	_	_	_	HAS\_FORM[57]	_	
+13-26	1761-1764	kot	_	_	_	HAS\_FORM[57]	_	
+13-27	1765-1772	globlja	_	_	_	HAS\_FORM[57]	_	
+13-28	1772-1773	.	_	_	_	_	_	
+13-29	1774-1781	Ljudsko	_	_	_	_	_	
+13-30	1782-1785	ime	_	_	_	_	_	
+13-31	1786-1787	v	_	_	_	_	_	
+13-32	1788-1797	Julijskih	_	_	_	_	_	
+13-33	1798-1803	Alpah	_	_	_	_	_	
+13-34	1803-1804	,	_	_	_	_	_	
+13-35	1805-1809	kjer	_	_	_	_	_	
+13-36	1810-1812	je	_	_	_	_	_	
+13-37	1813-1817	zelo	_	_	_	_	_	
+13-38	1818-1825	pogosta	_	_	_	_	_	
+13-39	1825-1826	.	_	_	_	_	_	
+
+#Text=Konvakuacija: Širjenje votline (rova) zaradi izpraznjenja jamskih sedimentov. Nastala votlina je konvakuacijska votlina.
+14-1	1831-1843	Konvakuacija	_	B.4 Transformation	DEFINIENDUM	_	_	
+14-2	1843-1844	:	_	_	_	_	_	
+14-3	1845-1853	Širjenje	_	B.4 Transformation[24]	GENUS	HAS\_CAUSE[58]	_	
+14-4	1854-1861	votline	_	B.4 Transformation[24]	_	HAS\_CAUSE[58]	_	
+14-5	1862-1863	(	_	_	_	HAS\_CAUSE[58]	_	
+14-6	1863-1867	rova	_	_	_	HAS\_CAUSE[58]	_	
+14-7	1867-1868	)	_	_	_	HAS\_CAUSE[58]	_	
+14-8	1869-1875	zaradi	_	_	_	HAS\_CAUSE[58]	_	
+14-9	1876-1888	izpraznjenja	_	_	_	HAS\_CAUSE[58]	_	
+14-10	1889-1896	jamskih	_	_	_	HAS\_CAUSE[58]	_	
+14-11	1897-1907	sedimentov	_	_	_	HAS\_CAUSE[58]	_	
+14-12	1907-1908	.	_	_	_	_	_	
+14-13	1909-1916	Nastala	_	_	_	_	_	
+14-14	1917-1924	votlina	_	_	_	_	_	
+14-15	1925-1927	je	_	_	_	_	_	
+14-16	1928-1942	konvakuacijska	_	A.2 Underground landform[25]	_	HAS\_RESULT[59]	_	
+14-17	1943-1950	votlina	_	A.2 Underground landform[25]	_	HAS\_RESULT[59]	_	
+14-18	1950-1951	.	_	_	_	_	_	
+
+#Text=korozija: V krasoslovju kemično ali v manjši meri fizikalno raztapljanje kraške kamnine, večji del s posredovanjem vode, ki vsebuje ogljikovo kislino. Tudi odnašanje raztopljenih snovi.
+15-1	1955-1963	korozija	_	B.2 Loss	DEFINIENDUM	_	_	
+15-2	1963-1964	:	_	_	_	_	_	
+15-3	1965-1966	V	_	_	_	_	_	
+15-4	1967-1978	krasoslovju	_	_	_	_	_	
+15-5	1979-1986	kemično	_	_	_	DEFINED\_AS[60]	_	
+15-6	1987-1990	ali	_	_	_	DEFINED\_AS[60]	_	
+15-7	1991-1992	v	_	_	_	DEFINED\_AS[60]	_	
+15-8	1993-1999	manjši	_	_	_	DEFINED\_AS[60]	_	
+15-9	2000-2004	meri	_	_	_	DEFINED\_AS[60]	_	
+15-10	2005-2014	fizikalno	_	_	_	DEFINED\_AS[60]	_	
+15-11	2015-2027	raztapljanje	_	B.2 Loss	_	DEFINED\_AS[60]	_	
+15-12	2028-2034	kraške	_	_	_	DEFINED\_AS[60]	_	
+15-13	2035-2042	kamnine	_	_	_	DEFINED\_AS[60]	_	
+15-14	2042-2043	,	_	_	_	_	_	
+15-15	2044-2049	večji	_	_	_	_	_	
+15-16	2050-2053	del	_	_	_	_	_	
+15-17	2054-2055	s	_	_	_	HAS\_CAUSE[61]	frame\_CAUSE[68]	
+15-18	2056-2069	posredovanjem	_	_	_	HAS\_CAUSE[61]	frame\_CAUSE[68]	
+15-19	2070-2074	vode	_	D.1 Abiotic	_	HAS\_CAUSE[61]	_	
+15-20	2074-2075	,	_	_	_	HAS\_CAUSE[61]	_	
+15-21	2076-2078	ki	_	_	_	HAS\_CAUSE[61]	_	
+15-22	2079-2086	vsebuje	_	_	_	HAS\_CAUSE[61]	_	
+15-23	2087-2096	ogljikovo	_	D.1 Abiotic[26]	_	HAS\_CAUSE[61]	_	
+15-24	2097-2104	kislino	_	D.1 Abiotic[26]	_	HAS\_CAUSE[61]	_	
+15-25	2104-2105	.	_	_	_	_	_	
+15-26	2106-2110	Tudi	_	_	_	_	_	
+15-27	2111-2120	odnašanje	_	B.2 Loss	_	DEFINED\_AS[62]	_	
+15-28	2121-2133	raztopljenih	_	_	_	DEFINED\_AS[62]	_	
+15-29	2134-2139	snovi	_	_	_	DEFINED\_AS[62]	_	
+15-30	2139-2140	.	_	_	_	_	_	

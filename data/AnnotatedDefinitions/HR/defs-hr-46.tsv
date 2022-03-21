@@ -1,0 +1,367 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Kaverne su podzemne šupljine koje nisu spojene s površinom , a također mogu biti izuzetno velike .
+1-1	0-7	Kaverne	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-2	8-10	su	_	_	DEFINITOR	_	_	
+1-3	11-19	podzemne	_	A.2 Underground landform[7]	GENUS[22]	_	_	
+1-4	20-28	šupljine	_	A.2 Underground landform[7]	GENUS[22]	_	_	
+1-5	29-33	koje	_	_	_	_	_	
+1-6	34-38	nisu	_	_	_	HAS\_ATTRIBUTE[30]	_	
+1-7	39-46	spojene	_	_	_	HAS\_ATTRIBUTE[30]	_	
+1-8	47-48	s	_	_	_	HAS\_ATTRIBUTE[30]	_	
+1-9	49-58	površinom	_	_	_	HAS\_ATTRIBUTE[30]	_	
+1-10	59-60	,	_	_	_	_	_	
+1-11	61-62	a	_	_	_	_	_	
+1-12	63-70	također	_	_	_	_	_	
+1-13	71-75	mogu	_	_	_	_	_	
+1-14	76-80	biti	_	_	_	_	_	
+1-15	81-89	izuzetno	_	_	_	_	_	
+1-16	90-96	velike	_	_	_	_	_	
+1-17	97-98	.	_	_	_	_	_	
+
+#Text=Anemolit je stalaktit povijen u jednom smje ru , pod utjecajem zračnog strujanja .
+2-1	100-108	Anemolit	_	A.2 Underground landform	DEFINIENDUM	_	_	
+2-2	109-111	je	_	_	DEFINITOR	_	_	
+2-3	112-121	stalaktit	_	A.2 Underground landform	GENUS	_	_	
+2-4	122-129	povijen	_	_	_	HAS\_FORM[31]	_	
+2-5	130-131	u	_	_	_	HAS\_FORM[31]	_	
+2-6	132-138	jednom	_	_	_	HAS\_FORM[31]	_	
+2-7	139-143	smje	_	_	_	HAS\_FORM[31]	_	
+2-8	144-146	ru	_	_	_	HAS\_FORM[31]	_	
+2-9	147-148	,	_	_	_	HAS\_FORM[31]	_	
+2-10	149-152	pod	_	_	_	HAS\_FORM[31]	_	
+2-11	153-162	utjecajem	_	_	_	HAS\_FORM[31]	_	
+2-12	163-170	zračnog	_	_	_	HAS\_FORM[31]	_	
+2-13	171-180	strujanja	_	_	_	HAS\_FORM[31]	_	
+2-14	181-182	.	_	_	_	_	_	
+
+#Text=Duboko okršavanje je rezultat dugotrajnog krškog procesa .
+3-1	184-190	Duboko	_	D.3 Property[8]	DEFINIENDUM[23]	_	_	
+3-2	191-201	okršavanje	_	D.3 Property[8]	DEFINIENDUM[23]	_	_	
+3-3	202-204	je	_	_	_	_	_	
+3-4	205-213	rezultat	_	_	_	HAS\_CAUSE[32]	frame\_CAUSE	
+3-5	214-225	dugotrajnog	_	_	_	HAS\_CAUSE[32]	_	
+3-6	226-232	krškog	krški proces[1]	B.4 Transformation[9]	_	HAS\_CAUSE[32]	_	
+3-7	233-240	procesa	krški proces[1]	B.4 Transformation[9]	_	HAS\_CAUSE[32]	_	
+3-8	241-242	.	_	_	_	_	_	
+
+#Text=Kiseline otapaju karbonatne stijene , a najčešća kiselina u prirodi je ugljična kiselina koja nastaje otapanjem ugljikovog dioksida ( CO2 ) u vodi .
+4-1	244-252	Kiseline	_	_	_	_	_	
+4-2	253-260	otapaju	_	_	_	_	_	
+4-3	261-271	karbonatne	_	_	_	_	_	
+4-4	272-279	stijene	_	_	_	_	_	
+4-5	280-281	,	_	_	_	_	_	
+4-6	282-283	a	_	_	_	_	_	
+4-7	284-292	najčešća	_	_	_	_	_	
+4-8	293-301	kiselina	_	D.1 Abiotic	GENUS	_	_	
+4-9	302-303	u	_	_	_	_	_	
+4-10	304-311	prirodi	_	_	_	_	_	
+4-11	312-314	je	_	_	_	_	_	
+4-12	315-323	ugljična	_	D.1 Abiotic[10]	DEFINIENDUM[24]	_	_	
+4-13	324-332	kiselina	_	D.1 Abiotic[10]	DEFINIENDUM[24]	_	_	
+4-14	333-337	koja	_	_	_	_	_	
+4-15	338-345	nastaje	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE	
+4-16	346-355	otapanjem	otapanje	B.2 Loss	_	HAS\_CAUSE[33]	_	
+4-17	356-366	ugljikovog	ugljikov dioksid (CO2)[2]	D.1 Abiotic[11]	_	HAS\_CAUSE[33]	_	
+4-18	367-375	dioksida	ugljikov dioksid (CO2)[2]	D.1 Abiotic[11]	_	HAS\_CAUSE[33]	_	
+4-19	376-377	(	ugljikov dioksid (CO2)[2]	D.1 Abiotic[11]	_	HAS\_CAUSE[33]	_	
+4-20	378-381	CO2	ugljikov dioksid (CO2)[2]	D.1 Abiotic[11]	_	HAS\_CAUSE[33]	_	
+4-21	382-383	)	ugljikov dioksid (CO2)[2]	D.1 Abiotic[11]	_	HAS\_CAUSE[33]	_	
+4-22	384-385	u	_	_	_	HAS\_CAUSE[33]	_	
+4-23	386-390	vodi	voda	D.1 Abiotic	_	HAS\_CAUSE[33]	_	
+4-24	391-392	.	_	_	_	_	_	
+
+#Text=Količina istjecanja je hidrološka veličina koja označava količinu protekle vode u jedinici vremena .
+5-1	394-402	Količina	_	D.3 Property[12]	DEFINIENDUM[25]	_	_	
+5-2	403-413	istjecanja	_	D.3 Property[12]	DEFINIENDUM[25]	_	_	
+5-3	414-416	je	_	_	DEFINITOR	_	_	
+5-4	417-427	hidrološka	_	D.3 Property[13]	GENUS[26]	_	_	
+5-5	428-436	veličina	_	D.3 Property[13]	GENUS[26]	_	_	
+5-6	437-441	koja	_	_	_	_	_	
+5-7	442-450	označava	_	_	_	HAS\_FUNCTION[34]	_	
+5-8	451-459	količinu	_	_	_	HAS\_FUNCTION[34]	_	
+5-9	460-468	protekle	_	_	_	HAS\_FUNCTION[34]	_	
+5-10	469-473	vode	_	_	_	HAS\_FUNCTION[34]	_	
+5-11	474-475	u	_	_	_	HAS\_FUNCTION[34]	_	
+5-12	476-484	jedinici	_	_	_	HAS\_FUNCTION[34]	_	
+5-13	485-492	vremena	_	_	_	HAS\_FUNCTION[34]	_	
+5-14	493-494	.	_	_	_	_	_	
+
+#Text=Korazija ima znatan udio u modeliranju krških podzemnih protočnih šupljina ; k. je specifičan proces pustinjskog modeliranja .
+6-1	496-504	Korazija	_	B.4 Transformation	DEFINIENDUM	_	_	
+6-2	505-508	ima	_	_	_	HAS\_FUNCTION[35]	frame\_FUNCTION[49]	
+6-3	509-515	znatan	_	_	_	HAS\_FUNCTION[35]	frame\_FUNCTION[49]	
+6-4	516-520	udio	_	_	_	HAS\_FUNCTION[35]	frame\_FUNCTION[49]	
+6-5	521-522	u	_	_	_	HAS\_FUNCTION[35]	frame\_FUNCTION[49]	
+6-6	523-534	modeliranju	_	_	_	HAS\_FUNCTION[35]	_	
+6-7	535-541	krških	krške podzemne protočne šupljine[3]	A.2 Underground landform[14]	_	HAS\_FUNCTION[35]	_	
+6-8	542-551	podzemnih	krške podzemne protočne šupljine[3]	A.2 Underground landform[14]	_	HAS\_FUNCTION[35]	_	
+6-9	552-561	protočnih	krške podzemne protočne šupljine[3]	A.2 Underground landform[14]	_	HAS\_FUNCTION[35]	_	
+6-10	562-570	šupljina	krške podzemne protočne šupljine[3]	A.2 Underground landform[14]	_	HAS\_FUNCTION[35]	_	
+6-11	571-572	;	_	_	_	_	_	
+6-12	573-574	k	_	_	_	_	_	
+6-13	574-575	.	_	_	_	_	_	
+6-14	576-578	je	_	_	_	_	_	
+6-15	579-589	specifičan	_	_	_	DEFINED\_AS[36]	_	
+6-16	590-596	proces	_	_	_	DEFINED\_AS[36]	_	
+6-17	597-608	pustinjskog	_	_	_	DEFINED\_AS[36]	_	
+6-18	609-620	modeliranja	_	_	_	DEFINED\_AS[36]	_	
+6-19	621-622	.	_	_	_	_	_	
+
+#Text=Površinske tekućice su rijeke i kroz vapnence protječu kanjonima , koje su usjekle vodom i trošnim materijalom iz nepropusnih stijena .
+7-1	624-634	Površinske	_	D.1 Abiotic[15]	DEFINIENDUM[27]	_	_	
+7-2	635-643	tekućice	_	D.1 Abiotic[15]	DEFINIENDUM[27]	_	_	
+7-3	644-646	su	_	_	DEFINITOR	_	_	
+7-4	647-653	rijeke	_	D.1 Abiotic	GENUS	_	_	
+7-5	654-655	i	_	_	_	_	_	
+7-6	656-660	kroz	_	_	_	HAS\_FUNCTION[37]	_	
+7-7	661-669	vapnence	vapnenac	D.1 Abiotic	_	HAS\_FUNCTION[37]	_	
+7-8	670-678	protječu	_	_	_	HAS\_FUNCTION[37]	_	
+7-9	679-688	kanjonima	kanjon	A.1 Surface landform	_	HAS\_FUNCTION[37]	_	
+7-10	689-690	,	_	_	_	_	_	
+7-11	691-695	koje	_	_	_	_	_	
+7-12	696-698	su	_	_	_	_	_	
+7-13	699-706	usjekle	_	_	_	_	_	
+7-14	707-712	vodom	_	_	_	_	_	
+7-15	713-714	i	_	_	_	_	_	
+7-16	715-722	trošnim	_	_	_	_	_	
+7-17	723-734	materijalom	_	_	_	_	_	
+7-18	735-737	iz	_	_	_	_	_	
+7-19	738-749	nepropusnih	_	_	_	_	_	
+7-20	750-757	stijena	_	_	_	_	_	
+7-21	758-759	.	_	_	_	_	_	
+
+#Text=Holocen je najmlađa epoha u geološkom razvoju Zemlje koja je započela prije 11,7 ka , odnosno završetkom posljednjeg glacijala i razdoblja mlađeg drijasa ( YD ) ( Alley i dr. , 1993 ; Gulliksen i dr. , 1998 ; Roberts , 2009 ) .
+8-1	761-768	Holocen	_	D.3 Property	DEFINIENDUM	_	_	
+8-2	769-771	je	_	_	DEFINITOR	_	_	
+8-3	772-780	najmlađa	_	_	_	_	_	
+8-4	781-786	epoha	_	_	GENUS[28]	_	_	
+8-5	787-788	u	_	_	GENUS[28]	_	_	
+8-6	789-798	geološkom	_	_	GENUS[28]	_	_	
+8-7	799-806	razvoju	_	_	GENUS[28]	_	_	
+8-8	807-813	Zemlje	_	_	GENUS[28]	_	_	
+8-9	814-818	koja	_	_	_	_	_	
+8-10	819-821	je	_	_	_	_	_	
+8-11	822-830	započela	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-12	831-836	prije	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-13	837-841	11,7	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-14	842-844	ka	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-15	845-846	,	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-16	847-854	odnosno	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-17	855-865	završetkom	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-18	866-877	posljednjeg	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-19	878-887	glacijala	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-20	888-889	i	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-21	890-899	razdoblja	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-22	900-906	mlađeg	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-23	907-914	drijasa	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-24	915-916	(	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-25	917-919	YD	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-26	920-921	)	_	_	_	OCCURS\_IN\_TIME[38]	_	
+8-27	922-923	(	_	_	_	_	_	
+8-28	924-929	Alley	_	_	_	_	_	
+8-29	930-931	i	_	_	_	_	_	
+8-30	932-934	dr	_	_	_	_	_	
+8-31	934-935	.	_	_	_	_	_	
+8-32	936-937	,	_	_	_	_	_	
+8-33	938-942	1993	_	_	_	_	_	
+8-34	943-944	;	_	_	_	_	_	
+8-35	945-954	Gulliksen	_	_	_	_	_	
+8-36	955-956	i	_	_	_	_	_	
+8-37	957-959	dr	_	_	_	_	_	
+8-38	959-960	.	_	_	_	_	_	
+8-39	961-962	,	_	_	_	_	_	
+8-40	963-967	1998	_	_	_	_	_	
+8-41	968-969	;	_	_	_	_	_	
+8-42	970-977	Roberts	_	_	_	_	_	
+8-43	978-979	,	_	_	_	_	_	
+8-44	980-984	2009	_	_	_	_	_	
+8-45	985-986	)	_	_	_	_	_	
+8-46	987-988	.	_	_	_	_	_	
+
+#Text=Pejzaž kukova je česta pojava na dolomitima .
+9-1	990-996	Pejzaž	_	C. Geome[16]	DEFINIENDUM[29]	_	_	
+9-2	997-1003	kukova	_	C. Geome[16]	DEFINIENDUM[29]	_	_	
+9-3	1004-1006	je	_	_	_	_	_	
+9-4	1007-1012	česta	_	_	_	_	_	
+9-5	1013-1019	pojava	_	_	_	_	_	
+9-6	1020-1022	na	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION	
+9-7	1023-1033	dolomitima	dolomit	D.1 Abiotic	_	HAS\_LOCATION[39]	_	
+9-8	1034-1035	.	_	_	_	_	_	
+
+#Text=Konglomerati su izgrađeni od valutica različitih vapnenačkih i klastičnih stijena koje su zbijene , dok je cement oskudan .
+10-1	1037-1049	Konglomerati	_	D.1 Abiotic	DEFINIENDUM	_	_	
+10-2	1050-1052	su	_	_	_	_	_	
+10-3	1053-1062	izgrađeni	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+10-4	1063-1065	od	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+10-5	1066-1074	valutica	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+10-6	1075-1085	različitih	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+10-7	1086-1097	vapnenačkih	vapnenačka stijena	D.1 Abiotic	_	COMPOSITION\_MEDIUM[40]	_	
+10-8	1098-1099	i	_	_	_	COMPOSITION\_MEDIUM[40]	_	
+10-9	1100-1110	klastičnih	klastična stijena[4]	D.1 Abiotic[17]	_	COMPOSITION\_MEDIUM[40]	_	
+10-10	1111-1118	stijena	klastična stijena[4]	D.1 Abiotic[17]	_	COMPOSITION\_MEDIUM[40]	_	
+10-11	1119-1123	koje	_	_	_	_	_	
+10-12	1124-1126	su	_	_	_	_	_	
+10-13	1127-1134	zbijene	_	_	_	_	_	
+10-14	1135-1136	,	_	_	_	_	_	
+10-15	1137-1140	dok	_	_	_	_	_	
+10-16	1141-1143	je	_	_	_	_	_	
+10-17	1144-1150	cement	_	_	_	_	_	
+10-18	1151-1158	oskudan	_	_	_	_	_	
+10-19	1159-1160	.	_	_	_	_	_	
+
+#Text=Izotopi su atomi nekog kemijskog elementa koji se razlikuju po broju neutrona u jezgri .
+11-1	1162-1169	Izotopi	_	D.1 Abiotic	DEFINIENDUM	_	_	
+11-2	1170-1172	su	_	_	DEFINITOR	_	_	
+11-3	1173-1178	atomi	_	D.1 Abiotic	GENUS	_	_	
+11-4	1179-1184	nekog	_	_	_	_	_	
+11-5	1185-1194	kemijskog	_	_	_	_	_	
+11-6	1195-1203	elementa	_	_	_	_	_	
+11-7	1204-1208	koji	_	_	_	_	_	
+11-8	1209-1211	se	_	_	_	HAS\_ATTRIBUTE[41]	_	
+11-9	1212-1221	razlikuju	_	_	_	HAS\_ATTRIBUTE[41]	_	
+11-10	1222-1224	po	_	_	_	HAS\_ATTRIBUTE[41]	_	
+11-11	1225-1230	broju	_	_	_	HAS\_ATTRIBUTE[41]	_	
+11-12	1231-1239	neutrona	_	_	_	HAS\_ATTRIBUTE[41]	_	
+11-13	1240-1241	u	_	_	_	HAS\_ATTRIBUTE[41]	_	
+11-14	1242-1248	jezgri	_	_	_	HAS\_ATTRIBUTE[41]	_	
+11-15	1249-1250	.	_	_	_	_	_	
+
+#Text=Totalizator je uređaj koji se postavlja na teško pristupačnim terenima .
+12-1	1252-1263	Totalizator	_	E.1 Instrument	DEFINIENDUM	_	_	
+12-2	1264-1266	je	_	_	DEFINITOR	_	_	
+12-3	1267-1273	uređaj	_	_	GENUS	_	_	
+12-4	1274-1278	koji	_	_	_	_	_	
+12-5	1279-1281	se	_	_	_	HAS\_FUNCTION[42]	_	
+12-6	1282-1291	postavlja	_	_	_	HAS\_FUNCTION[42]	_	
+12-7	1292-1294	na	_	_	_	HAS\_FUNCTION[42]	_	
+12-8	1295-1300	teško	_	_	_	HAS\_FUNCTION[42]	_	
+12-9	1301-1313	pristupačnim	_	_	_	HAS\_FUNCTION[42]	_	
+12-10	1314-1322	terenima	_	_	_	HAS\_FUNCTION[42]	_	
+12-11	1323-1324	.	_	_	_	_	_	
+
+#Text=Škrape su grižine oblikovane korozijom padalinske vode na ispucalu stijenu .
+13-1	1326-1332	Škrape	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-2	1333-1335	su	_	_	DEFINITOR	_	_	
+13-3	1336-1343	grižine	_	A.1 Surface landform	GENUS	_	_	
+13-4	1344-1354	oblikovane	_	_	_	HAS\_CAUSE[43]	frame\_CAUSE	
+13-5	1355-1364	korozijom	korozija	B.2 Loss	_	HAS\_CAUSE[43]	_	
+13-6	1365-1375	padalinske	padalinska voda[5]	D.1 Abiotic[18]	_	HAS\_CAUSE[43]	_	
+13-7	1376-1380	vode	padalinska voda[5]	D.1 Abiotic[18]	_	HAS\_CAUSE[43]	_	
+13-8	1381-1383	na	_	_	_	HAS\_CAUSE[43]	_	
+13-9	1384-1392	ispucalu	_	_	_	HAS\_CAUSE[43]	_	
+13-10	1393-1400	stijenu	stijena	D.1 Abiotic	_	HAS\_CAUSE[43]	_	
+13-11	1401-1402	.	_	_	_	_	_	
+
+#Text=Fluviokrš je karakterističan za dijelove u čijoj građi dominiraju stijenski kompleksi slabije vodopropusnosti ( dolomiti ) , i za dijelove gdje dolazi do izmjene vodopropusnih i nepropusnih naslaga .
+14-1	1404-1413	Fluviokrš	_	C. Geome	DEFINIENDUM	_	_	
+14-2	1414-1416	je	_	_	_	_	_	
+14-3	1417-1432	karakterističan	_	_	_	HAS\_LOCATION[44]	frame\_LOCATION[50]	
+14-4	1433-1435	za	_	_	_	HAS\_LOCATION[44]	frame\_LOCATION[50]	
+14-5	1436-1444	dijelove	_	_	_	HAS\_LOCATION[44]	frame\_LOCATION[50]	
+14-6	1445-1446	u	_	_	_	HAS\_LOCATION[44]	_	
+14-7	1447-1452	čijoj	_	_	_	HAS\_LOCATION[44]	_	
+14-8	1453-1458	građi	_	_	_	HAS\_LOCATION[44]	_	
+14-9	1459-1469	dominiraju	_	_	_	HAS\_LOCATION[44]	_	
+14-10	1470-1479	stijenski	_	D.1 Abiotic[19]	_	HAS\_LOCATION[44]	_	
+14-11	1480-1489	kompleksi	_	D.1 Abiotic[19]	_	HAS\_LOCATION[44]	_	
+14-12	1490-1497	slabije	_	_	_	HAS\_LOCATION[44]	_	
+14-13	1498-1513	vodopropusnosti	_	D.3 Property	_	HAS\_LOCATION[44]	_	
+14-14	1514-1515	(	_	_	_	HAS\_LOCATION[44]	_	
+14-15	1516-1524	dolomiti	_	D.1 Abiotic	_	HAS\_LOCATION[44]	_	
+14-16	1525-1526	)	_	_	_	HAS\_LOCATION[44]	_	
+14-17	1527-1528	,	_	_	_	_	_	
+14-18	1529-1530	i	_	_	_	_	_	
+14-19	1531-1533	za	_	_	_	_	_	
+14-20	1534-1542	dijelove	_	_	_	_	_	
+14-21	1543-1547	gdje	_	_	_	HAS\_LOCATION[45]	_	
+14-22	1548-1554	dolazi	_	_	_	HAS\_LOCATION[45]	_	
+14-23	1555-1557	do	_	_	_	HAS\_LOCATION[45]	_	
+14-24	1558-1565	izmjene	_	_	_	HAS\_LOCATION[45]	_	
+14-25	1566-1579	vodopropusnih	vodopropusne naslage	D.1 Abiotic	_	HAS\_LOCATION[45]	_	
+14-26	1580-1581	i	_	_	_	HAS\_LOCATION[45]	_	
+14-27	1582-1593	nepropusnih	nepropusne naslage[6]	D.1 Abiotic[20]	_	HAS\_LOCATION[45]	_	
+14-28	1594-1601	naslaga	nepropusne naslage[6]	D.1 Abiotic[20]	_	HAS\_LOCATION[45]	_	
+14-29	1602-1603	.	_	_	_	_	_	
+
+#Text=Dimnjak ili kamin je okomita udubina u stropu , a polica je stepeničasti prijelom na stranama spiljskih šup ljina .
+15-1	1605-1612	Dimnjak	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-2	1613-1616	ili	_	_	_	_	_	
+15-3	1617-1622	kamin	_	A.2 Underground landform	DEFINIENDUM	_	_	
+15-4	1623-1625	je	_	_	_	_	_	
+15-5	1626-1633	okomita	_	_	_	DEFINED\_AS[46]	_	
+15-6	1634-1641	udubina	_	_	_	DEFINED\_AS[46]	_	
+15-7	1642-1643	u	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION	
+15-8	1644-1650	stropu	_	A.2 Underground landform	_	HAS\_LOCATION[47]	_	
+15-9	1651-1652	,	_	_	_	_	_	
+15-10	1653-1654	a	_	_	_	_	_	
+15-11	1655-1661	polica	_	_	_	_	_	
+15-12	1662-1664	je	_	_	_	_	_	
+15-13	1665-1677	stepeničasti	_	_	_	_	_	
+15-14	1678-1686	prijelom	_	_	_	_	_	
+15-15	1687-1689	na	_	_	_	_	_	
+15-16	1690-1698	stranama	_	_	_	_	_	
+15-17	1699-1708	spiljskih	_	_	_	_	_	
+15-18	1709-1712	šup	_	_	_	_	_	
+15-19	1713-1718	ljina	_	_	_	_	_	
+15-20	1719-1720	.	_	_	_	_	_	
+
+#Text=Kao specifična područja ljuta u svijetu su poznate pojave gdje su nastale megagrižine kao šo su pinnacle , tsingy i shilin .
+16-1	1722-1725	Kao	_	_	_	_	_	
+16-2	1726-1736	specifična	_	_	_	_	_	
+16-3	1737-1745	područja	_	_	_	_	_	
+16-4	1746-1751	ljuta	_	_	_	_	_	
+16-5	1752-1753	u	_	_	_	_	_	
+16-6	1754-1761	svijetu	_	_	_	_	_	
+16-7	1762-1764	su	_	_	_	_	_	
+16-8	1765-1772	poznate	_	_	_	_	_	
+16-9	1773-1779	pojave	_	_	_	_	_	
+16-10	1780-1784	gdje	_	_	_	_	_	
+16-11	1785-1787	su	_	_	_	_	_	
+16-12	1788-1795	nastale	_	_	_	_	_	
+16-13	1796-1807	megagrižine	_	A.1 Surface landform	DEFINIENDUM	_	_	
+16-14	1808-1811	kao	_	_	_	_	_	
+16-15	1812-1814	šo	_	_	_	_	_	
+16-16	1815-1817	su	_	_	_	_	_	
+16-17	1818-1826	pinnacle	_	A.1 Surface landform	SPECIES	_	_	
+16-18	1827-1828	,	_	_	_	_	_	
+16-19	1829-1835	tsingy	_	A.1 Surface landform	SPECIES	_	_	
+16-20	1836-1837	i	_	_	_	_	_	
+16-21	1838-1844	shilin	_	A.1 Surface landform	SPECIES	_	_	
+16-22	1845-1846	.	_	_	_	_	_	
+
+#Text=Infiltracija je proces pri kojemu se voda s površine terena uvodi u tlo kroz njegovu površinu ili kroz plitke rupe ( udubine ) ili jame u tlu .
+17-1	1848-1860	Infiltracija	_	B.1 Movement	DEFINIENDUM	_	_	
+17-2	1861-1863	je	_	_	DEFINITOR	_	_	
+17-3	1864-1870	proces	_	_	GENUS	_	_	
+17-4	1871-1874	pri	_	_	_	_	_	
+17-5	1875-1881	kojemu	_	_	_	_	_	
+17-6	1882-1884	se	_	_	_	HAS\_FUNCTION[48]	_	
+17-7	1885-1889	voda	_	D.1 Abiotic	_	HAS\_FUNCTION[48]	_	
+17-8	1890-1891	s	_	_	_	HAS\_FUNCTION[48]	_	
+17-9	1892-1900	površine	_	_	_	HAS\_FUNCTION[48]	_	
+17-10	1901-1907	terena	_	_	_	HAS\_FUNCTION[48]	_	
+17-11	1908-1913	uvodi	_	_	_	HAS\_FUNCTION[48]	_	
+17-12	1914-1915	u	_	_	_	HAS\_FUNCTION[48]	_	
+17-13	1916-1919	tlo	_	_	_	HAS\_FUNCTION[48]	_	
+17-14	1920-1924	kroz	_	_	_	HAS\_FUNCTION[48]	_	
+17-15	1925-1932	njegovu	_	_	_	HAS\_FUNCTION[48]	_	
+17-16	1933-1941	površinu	_	_	_	HAS\_FUNCTION[48]	_	
+17-17	1942-1945	ili	_	_	_	HAS\_FUNCTION[48]	_	
+17-18	1946-1950	kroz	_	_	_	HAS\_FUNCTION[48]	_	
+17-19	1951-1957	plitke	_	A.2 Underground landform[21]	_	HAS\_FUNCTION[48]	_	
+17-20	1958-1962	rupe	_	A.2 Underground landform[21]	_	HAS\_FUNCTION[48]	_	
+17-21	1963-1964	(	_	_	_	HAS\_FUNCTION[48]	_	
+17-22	1965-1972	udubine	_	_	_	HAS\_FUNCTION[48]	_	
+17-23	1973-1974	)	_	_	_	HAS\_FUNCTION[48]	_	
+17-24	1975-1978	ili	_	_	_	HAS\_FUNCTION[48]	_	
+17-25	1979-1983	jame	_	A.2 Underground landform	_	HAS\_FUNCTION[48]	_	
+17-26	1984-1985	u	_	_	_	HAS\_FUNCTION[48]	_	
+17-27	1986-1989	tlu	_	_	_	HAS\_FUNCTION[48]	_	
+17-28	1990-1991	.	_	_	_	_	_	

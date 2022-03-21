@@ -1,0 +1,417 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=outflow cave - a cave from which a stream flows or formerly did so and which cannot be followed upstream to the surface.
+1-1	0-7	outflow	_	A.2 Underground landform[2]	DEFINIENDUM[26]	_	_	
+1-2	8-12	cave	_	A.2 Underground landform[2]	DEFINIENDUM[26]	_	_	
+1-3	13-14	-	_	_	_	_	_	
+1-4	15-16	a	_	_	_	_	_	
+1-5	17-21	cave	_	A.2 Underground landform	GENUS	_	_	
+1-6	22-26	from	_	_	_	HAS\_RESULT[37]	frame\_RESULT[72]	
+1-7	27-32	which	_	_	_	HAS\_RESULT[37]	frame\_RESULT[72]	
+1-8	33-34	a	_	_	_	HAS\_RESULT[37]	frame\_RESULT[72]	
+1-9	35-41	stream	_	D.1 Abiotic	_	HAS\_RESULT[37]	_	
+1-10	42-47	flows	_	B.1 Movement	_	HAS\_RESULT[37]	_	
+1-11	48-50	or	_	_	_	HAS\_RESULT[37]	_	
+1-12	51-59	formerly	_	_	_	HAS\_RESULT[37]	_	
+1-13	60-63	did	_	_	_	HAS\_RESULT[37]	_	
+1-14	64-66	so	_	_	_	_	_	
+1-15	67-70	and	_	_	_	_	_	
+1-16	71-76	which	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-17	77-83	cannot	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-18	84-86	be	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-19	87-95	followed	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-20	96-104	upstream	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-21	105-107	to	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-22	108-111	the	_	_	_	HAS\_ATTRIBUTE[38]	_	
+1-23	112-119	surface	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[38]	_	
+1-24	119-120	.	_	_	_	_	_	
+
+#Text=palaeokarst 'fossil' karst' - cave or karst features remnant from a previous period of karstification, characterized by the presence of ancient (buried) deposits, as lithified cave fills or breccias.
+2-1	124-135	palaeokarst	_	C. Geome	DEFINIENDUM	_	_	
+2-2	136-137	'	_	_	_	_	_	
+2-3	137-143	fossil	_	C. Geome[3]	DEFINIENDUM[27]	_	_	
+2-4	143-144	'	_	C. Geome[3]	DEFINIENDUM[27]	_	_	
+2-5	145-150	karst	_	C. Geome[3]	DEFINIENDUM[27]	_	_	
+2-6	150-151	'	_	_	DEFINIENDUM[27]	_	_	
+2-7	152-153	-	_	_	_	_	_	
+2-8	154-158	cave	cave feature	D.3 Property	_	_	_	
+2-9	159-161	or	_	_	_	_	_	
+2-10	162-167	karst	_	D.3 Property[4]	_	_	_	
+2-11	168-176	features	_	D.3 Property[4]	GENUS	_	_	
+2-12	177-184	remnant	_	_	_	HAS\_CAUSE[39]	frame\_CAUSE[73]	
+2-13	185-189	from	_	_	_	HAS\_CAUSE[39]	frame\_CAUSE[73]	
+2-14	190-191	a	_	_	_	HAS\_CAUSE[39]	_	
+2-15	192-200	previous	_	_	_	HAS\_CAUSE[39]	_	
+2-16	201-207	period	_	_	_	HAS\_CAUSE[39]	_	
+2-17	208-210	of	_	_	_	HAS\_CAUSE[39]	_	
+2-18	211-225	karstification	_	B. Process	_	HAS\_CAUSE[39]	_	
+2-19	225-226	,	_	_	_	_	_	
+2-20	227-240	characterized	_	_	_	HAS\_ATTRIBUTE[40]	frame\_ATTRIBUTE[74]	
+2-21	241-243	by	_	_	_	HAS\_ATTRIBUTE[40]	frame\_ATTRIBUTE[74]	
+2-22	244-247	the	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-23	248-256	presence	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-24	257-259	of	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-25	260-267	ancient	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-26	268-269	(	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-27	269-275	buried	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-28	275-276	)	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-29	277-285	deposits	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[40]	_	
+2-30	285-286	,	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-31	287-289	as	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-32	290-299	lithified	_	D.1 Abiotic[5]	_	HAS\_ATTRIBUTE[40]	_	
+2-33	300-304	cave	_	D.1 Abiotic[5]	_	HAS\_ATTRIBUTE[40]	_	
+2-34	305-310	fills	_	D.1 Abiotic[5]	_	HAS\_ATTRIBUTE[40]	_	
+2-35	311-313	or	_	_	_	HAS\_ATTRIBUTE[40]	_	
+2-36	314-322	breccias	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[40]	_	
+2-37	322-323	.	_	_	_	_	_	
+
+#Text=pendulite - a kind of stalactite which has been partly submerged and the submerged part covered with dog-tooth spar to give the appearance of a drumstick.
+3-1	327-336	pendulite	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-2	337-338	-	_	_	_	_	_	
+3-3	339-340	a	_	_	_	_	_	
+3-4	341-345	kind	_	_	_	_	_	
+3-5	346-348	of	_	_	_	_	_	
+3-6	349-359	stalactite	_	A.2 Underground landform	GENUS	_	_	
+3-7	360-365	which	_	_	_	HAS\_CAUSE[41]	_	
+3-8	366-369	has	_	_	_	HAS\_CAUSE[41]	_	
+3-9	370-374	been	_	_	_	HAS\_CAUSE[41]	_	
+3-10	375-381	partly	_	_	_	HAS\_CAUSE[41]	_	
+3-11	382-391	submerged	_	_	_	HAS\_CAUSE[41]	_	
+3-12	392-395	and	_	_	_	_	_	
+3-13	396-399	the	_	_	_	_	_	
+3-14	400-409	submerged	_	_	_	HAS\_FORM[42]	_	
+3-15	410-414	part	_	_	_	HAS\_FORM[42]	_	
+3-16	415-422	covered	_	_	_	HAS\_FORM[42]	_	
+3-17	423-427	with	_	_	_	HAS\_FORM[42]	_	
+3-18	428-437	dog-tooth	_	D.1 Abiotic[6]	_	HAS\_FORM[42]	_	
+3-19	438-442	spar	_	D.1 Abiotic[6]	_	HAS\_FORM[42]	_	
+3-20	443-445	to	_	_	_	HAS\_FORM[42]	_	
+3-21	446-450	give	_	_	_	HAS\_FORM[42]	_	
+3-22	451-454	the	_	_	_	HAS\_FORM[42]	_	
+3-23	455-465	appearance	_	_	_	HAS\_FORM[42]	_	
+3-24	466-468	of	_	_	_	HAS\_FORM[42]	_	
+3-25	469-470	a	_	_	_	HAS\_FORM[42]	_	
+3-26	471-480	drumstick	_	D.1 Abiotic	_	HAS\_FORM[42]	_	
+3-27	480-481	.	_	_	_	_	_	
+
+#Text=percolation water - water moving mainly downwards through pores, cracks and tight fissures, in the vadose zone.
+4-1	485-496	percolation	_	D.1 Abiotic[7]	DEFINIENDUM[28]	_	_	
+4-2	497-502	water	_	D.1 Abiotic[7]	DEFINIENDUM[28]	_	_	
+4-3	503-504	-	_	_	_	_	_	
+4-4	505-510	water	_	D.1 Abiotic	GENUS	_	_	
+4-5	511-517	moving	_	B.1 Movement	_	HAS\_FUNCTION[43]	_	
+4-6	518-524	mainly	_	_	_	HAS\_FUNCTION[43]	_	
+4-7	525-534	downwards	_	_	_	HAS\_FUNCTION[43]	_	
+4-8	535-542	through	_	_	_	HAS\_FUNCTION[43]	_	
+4-9	543-548	pores	_	D.1 Abiotic	_	HAS\_FUNCTION[43]	_	
+4-10	548-549	,	_	_	_	HAS\_FUNCTION[43]	_	
+4-11	550-556	cracks	_	D.1 Abiotic	_	HAS\_FUNCTION[43]	_	
+4-12	557-560	and	_	_	_	HAS\_FUNCTION[43]	_	
+4-13	561-566	tight	_	_	_	HAS\_FUNCTION[43]	_	
+4-14	567-575	fissures	_	D.1 Abiotic	_	HAS\_FUNCTION[43]	_	
+4-15	575-576	,	_	_	_	_	_	
+4-16	577-579	in	_	_	_	HAS\_LOCATION[44]	frame\_LOCATION[75]	
+4-17	580-583	the	_	_	_	HAS\_LOCATION[44]	frame\_LOCATION[75]	
+4-18	584-590	vadose	_	C. Geome[8]	_	HAS\_LOCATION[44]	_	
+4-19	591-595	zone	_	C. Geome[8]	_	HAS\_LOCATION[44]	_	
+4-20	595-596	.	_	_	_	_	_	
+
+#Text=permeability - the property of rock or soil permitting water to pass through it.
+5-1	600-612	permeability	_	D.3 Property	DEFINIENDUM	_	_	
+5-2	613-614	-	_	_	_	_	_	
+5-3	615-618	the	_	_	_	DEFINED\_AS[45]	frame\_DEFINED\_AS[76]	
+5-4	619-627	property	_	_	_	DEFINED\_AS[45]	frame\_DEFINED\_AS[76]	
+5-5	628-630	of	_	_	_	DEFINED\_AS[45]	frame\_DEFINED\_AS[76]	
+5-6	631-635	rock	_	D.1 Abiotic	_	DEFINED\_AS[45]	_	
+5-7	636-638	or	_	_	_	DEFINED\_AS[45]	_	
+5-8	639-643	soil	_	D.1 Abiotic	_	DEFINED\_AS[45]	_	
+5-9	644-654	permitting	_	_	_	DEFINED\_AS[45]|HAS\_FUNCTION[46]	frame\_FUNCTION	
+5-10	655-660	water	_	D.1 Abiotic	_	DEFINED\_AS[45]|HAS\_FUNCTION[46]	_	
+5-11	661-663	to	_	_	_	DEFINED\_AS[45]|HAS\_FUNCTION[46]	_	
+5-12	664-668	pass	_	_	_	DEFINED\_AS[45]|HAS\_FUNCTION[46]	_	
+5-13	669-676	through	_	_	_	DEFINED\_AS[45]|HAS\_FUNCTION[46]	_	
+5-14	677-679	it	_	_	_	DEFINED\_AS[45]|HAS\_FUNCTION[46]	_	
+5-15	679-680	.	_	_	_	_	_	
+
+#Text=phreatic water - water below the level at which all voids in the rock are completely filled with water.
+6-1	684-692	phreatic	_	D.1 Abiotic[9]	DEFINIENDUM[29]	_	_	
+6-2	693-698	water	_	D.1 Abiotic[9]	DEFINIENDUM[29]	_	_	
+6-3	699-700	-	_	_	_	_	_	
+6-4	701-706	water	_	D.1 Abiotic	GENUS	_	_	
+6-5	707-712	below	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION[77]	
+6-6	713-716	the	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION[77]	
+6-7	717-722	level	_	D.3 Property	_	HAS\_LOCATION[47]	_	
+6-8	723-725	at	_	_	_	HAS\_LOCATION[47]	_	
+6-9	726-731	which	_	_	_	HAS\_LOCATION[47]	_	
+6-10	732-735	all	_	_	_	HAS\_LOCATION[47]	_	
+6-11	736-741	voids	_	D.1 Abiotic	_	HAS\_LOCATION[47]	_	
+6-12	742-744	in	_	_	_	HAS\_LOCATION[47]	_	
+6-13	745-748	the	_	_	_	HAS\_LOCATION[47]	_	
+6-14	749-753	rock	_	D.1 Abiotic	_	HAS\_LOCATION[47]	_	
+6-15	754-757	are	_	_	_	HAS\_LOCATION[47]	_	
+6-16	758-768	completely	_	_	_	HAS\_LOCATION[47]	_	
+6-17	769-775	filled	_	_	_	HAS\_LOCATION[47]	_	
+6-18	776-780	with	_	_	_	HAS\_LOCATION[47]	_	
+6-19	781-786	water	_	_	_	HAS\_LOCATION[47]	_	
+6-20	786-787	.	_	_	_	_	_	
+
+#Text=phreatic zone - zone where voids in the rock are completely filled with water.
+7-1	791-799	phreatic	_	C. Geome[10]	DEFINIENDUM[30]	_	_	
+7-2	800-804	zone	_	C. Geome[10]	DEFINIENDUM[30]	_	_	
+7-3	805-806	-	_	_	_	_	_	
+7-4	807-811	zone	_	D.1 Abiotic	GENUS	_	_	
+7-5	812-817	where	_	_	_	HAS\_LOCATION[48]	frame\_LOCATION	
+7-6	818-823	voids	_	D.1 Abiotic	_	HAS\_LOCATION[48]	_	
+7-7	824-826	in	_	_	_	HAS\_LOCATION[48]	_	
+7-8	827-830	the	_	_	_	HAS\_LOCATION[48]	_	
+7-9	831-835	rock	_	D.1 Abiotic	_	HAS\_LOCATION[48]	_	
+7-10	836-839	are	_	_	_	HAS\_LOCATION[48]	_	
+7-11	840-850	completely	_	_	_	HAS\_LOCATION[48]	_	
+7-12	851-857	filled	_	_	_	HAS\_LOCATION[48]	_	
+7-13	858-862	with	_	_	_	HAS\_LOCATION[48]	_	
+7-14	863-868	water	_	D.1 Abiotic	_	HAS\_LOCATION[48]	_	
+7-15	868-869	.	_	_	_	_	_	
+
+#Text=pillar - a bedrock column from roof to floor left by the removal of surrounding rock.
+8-1	873-879	pillar	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	880-881	-	_	_	_	_	_	
+8-3	882-883	a	_	_	_	_	_	
+8-4	884-891	bedrock	_	D.1 Abiotic[11]	GENUS[31]	_	_	
+8-5	892-898	column	_	D.1 Abiotic[11]	GENUS[31]	_	_	
+8-6	899-903	from	_	_	_	HAS\_FORM[49]	_	
+8-7	904-908	roof	_	_	_	HAS\_FORM[49]	_	
+8-8	909-911	to	_	_	_	HAS\_FORM[49]	_	
+8-9	912-917	floor	_	_	_	HAS\_FORM[49]	_	
+8-10	918-922	left	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[78]	
+8-11	923-925	by	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[78]	
+8-12	926-929	the	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[78]	
+8-13	930-937	removal	_	_	_	HAS\_CAUSE[50]	_	
+8-14	938-940	of	_	_	_	HAS\_CAUSE[50]	_	
+8-15	941-952	surrounding	_	_	_	HAS\_CAUSE[50]	_	
+8-16	953-957	rock	_	D.1 Abiotic	_	HAS\_CAUSE[50]	_	
+8-17	957-958	.	_	_	_	_	_	
+
+#Text=pipe - a tubular cavity projecting as much as several metres down from the surface into' karst rocks and often filled with earth, sand, gravel, breccia, etc.
+9-1	962-966	pipe	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	967-968	-	_	_	_	_	_	
+9-3	969-970	a	_	_	_	_	_	
+9-4	971-978	tubular	_	_	_	HAS\_FORM	_	
+9-5	979-985	cavity	_	D.1 Abiotic	GENUS	_	_	
+9-6	986-996	projecting	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	frame\_SIZE	
+9-7	997-999	as	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-8	1000-1004	much	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-9	1005-1007	as	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-10	1008-1015	several	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-11	1016-1022	metres	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-12	1023-1027	down	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-13	1028-1032	from	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-14	1033-1036	the	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-15	1037-1044	surface	_	_	_	HAS\_LOCATION[51]|HAS\_SIZE[52]	_	
+9-16	1045-1049	into	_	_	_	HAS\_LOCATION[51]	_	
+9-17	1049-1050	'	_	_	_	HAS\_LOCATION[51]	_	
+9-18	1051-1056	karst	_	D.1 Abiotic[12]	_	HAS\_LOCATION[51]	_	
+9-19	1057-1062	rocks	_	D.1 Abiotic[12]	_	HAS\_LOCATION[51]	_	
+9-20	1063-1066	and	_	_	_	_	_	
+9-21	1067-1072	often	_	_	_	CONTAINS[53]	_	
+9-22	1073-1079	filled	_	_	_	CONTAINS[53]	frame\_CONTAINS[79]	
+9-23	1080-1084	with	_	_	_	CONTAINS[53]	frame\_CONTAINS[79]	
+9-24	1085-1090	earth	_	D.1 Abiotic	_	CONTAINS[53]	_	
+9-25	1090-1091	,	_	_	_	CONTAINS[53]	_	
+9-26	1092-1096	sand	_	D.1 Abiotic	_	CONTAINS[53]	_	
+9-27	1096-1097	,	_	_	_	CONTAINS[53]	_	
+9-28	1098-1104	gravel	_	D.1 Abiotic	_	CONTAINS[53]	_	
+9-29	1104-1105	,	_	_	_	CONTAINS[53]	_	
+9-30	1106-1113	breccia	_	D.1 Abiotic	_	CONTAINS[53]	_	
+9-31	1113-1114	,	_	_	_	CONTAINS[53]	_	
+9-32	1115-1118	etc	_	_	_	CONTAINS[53]	_	
+9-33	1118-1119	.	_	_	_	_	_	
+
+#Text=plunge pool - a swirlhole, generally of large size, occurring at the foot of a waterfall or rapid, on the surface or underground.
+10-1	1123-1129	plunge	_	D.1 Abiotic[13]	DEFINIENDUM[32]	_	_	
+10-2	1130-1134	pool	_	D.1 Abiotic[13]	DEFINIENDUM[32]	_	_	
+10-3	1135-1136	-	_	_	_	_	_	
+10-4	1137-1138	a	_	_	_	_	_	
+10-5	1139-1148	swirlhole	_	D.1 Abiotic	GENUS	_	_	
+10-6	1148-1149	,	_	_	_	_	_	
+10-7	1150-1159	generally	_	_	_	HAS\_SIZE[54]	_	
+10-8	1160-1162	of	_	_	_	HAS\_SIZE[54]	frame\_SIZE	
+10-9	1163-1168	large	_	_	_	HAS\_SIZE[54]	_	
+10-10	1169-1173	size	_	_	_	HAS\_SIZE[54]	_	
+10-11	1173-1174	,	_	_	_	_	_	
+10-12	1175-1184	occurring	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION[80]	
+10-13	1185-1187	at	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION[80]	
+10-14	1188-1191	the	_	_	_	HAS\_LOCATION[55]	frame\_LOCATION[80]	
+10-15	1192-1196	foot	_	_	_	HAS\_LOCATION[55]	_	
+10-16	1197-1199	of	_	_	_	HAS\_LOCATION[55]	_	
+10-17	1200-1201	a	_	_	_	HAS\_LOCATION[55]	_	
+10-18	1202-1211	waterfall	_	D.1 Abiotic	_	HAS\_LOCATION[55]	_	
+10-19	1212-1214	or	_	_	_	HAS\_LOCATION[55]	_	
+10-20	1215-1220	rapid	_	D.1 Abiotic	_	HAS\_LOCATION[55]	_	
+10-21	1220-1221	,	_	_	_	_	_	
+10-22	1222-1224	on	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[81]	
+10-23	1225-1228	the	_	_	_	HAS\_LOCATION[56]	frame\_LOCATION[81]	
+10-24	1229-1236	surface	_	_	_	HAS\_LOCATION[56]	_	
+10-25	1237-1239	or	_	_	_	HAS\_LOCATION[56]	_	
+10-26	1240-1251	underground	_	_	_	HAS\_LOCATION[56]	_	
+10-27	1251-1252	.	_	_	_	_	_	
+
+#Text=polje - a large closed depression draining underground, with a flat floor across which there may be an intermittent or perennial stream and which may be liable to flood and become a lake. the floor makes a sharp break with parts of surrounding slopes.
+11-1	1256-1261	polje	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-2	1262-1263	-	_	_	_	_	_	
+11-3	1264-1265	a	_	_	_	_	_	
+11-4	1266-1271	large	_	_	_	HAS\_SIZE	_	
+11-5	1272-1278	closed	_	D.1 Abiotic[14]	GENUS[33]	HAS\_FORM[57]	_	
+11-6	1279-1289	depression	_	D.1 Abiotic[14]|D.1 Abiotic[15]	GENUS[33]	HAS\_FORM[57]	_	
+11-7	1290-1298	draining	_	D.3 Property	_	HAS\_FUNCTION[58]	_	
+11-8	1299-1310	underground	_	_	_	HAS\_FUNCTION[58]	_	
+11-9	1310-1311	,	_	_	_	_	_	
+11-10	1312-1316	with	_	_	_	HAS\_FORM[59]	_	
+11-11	1317-1318	a	_	_	_	HAS\_FORM[59]	_	
+11-12	1319-1323	flat	_	D.1 Abiotic[16]	_	HAS\_FORM[59]	_	
+11-13	1324-1329	floor	_	D.1 Abiotic[16]	_	HAS\_FORM[59]	_	
+11-14	1330-1336	across	_	_	_	HAS\_FORM[59]	_	
+11-15	1337-1342	which	_	_	_	HAS\_FORM[59]	_	
+11-16	1343-1348	there	_	_	_	HAS\_FORM[59]	_	
+11-17	1349-1352	may	_	_	_	HAS\_FORM[59]	_	
+11-18	1353-1355	be	_	_	_	HAS\_FORM[59]	_	
+11-19	1356-1358	an	_	_	_	HAS\_FORM[59]	_	
+11-20	1359-1371	intermittent	_	A.3 Hydrological form	_	HAS\_FORM[59]	_	
+11-21	1372-1374	or	_	_	_	HAS\_FORM[59]	_	
+11-22	1375-1384	perennial	_	D.1 Abiotic[17]	_	HAS\_FORM[59]	_	
+11-23	1385-1391	stream	_	D.1 Abiotic[17]|D.1 Abiotic[18]	_	HAS\_FORM[59]	_	
+11-24	1392-1395	and	_	_	_	_	_	
+11-25	1396-1401	which	_	_	_	HAS\_RESULT[60]	_	
+11-26	1402-1405	may	_	_	_	HAS\_RESULT[60]	_	
+11-27	1406-1408	be	_	_	_	HAS\_RESULT[60]	_	
+11-28	1409-1415	liable	_	_	_	HAS\_RESULT[60]	_	
+11-29	1416-1418	to	_	_	_	HAS\_RESULT[60]	_	
+11-30	1419-1424	flood	_	B.3 Addition	_	HAS\_RESULT[60]	_	
+11-31	1425-1428	and	_	_	_	HAS\_RESULT[60]	_	
+11-32	1429-1435	become	_	_	_	HAS\_RESULT[60]	_	
+11-33	1436-1437	a	_	_	_	HAS\_RESULT[60]	_	
+11-34	1438-1442	lake	_	D.1 Abiotic	_	HAS\_RESULT[60]	_	
+11-35	1442-1443	.	_	_	_	_	_	
+11-36	1444-1447	the	_	_	_	HAS\_FORM[61]	_	
+11-37	1448-1453	floor	_	D.1 Abiotic	_	HAS\_FORM[61]	_	
+11-38	1454-1459	makes	_	_	_	HAS\_FORM[61]	_	
+11-39	1460-1461	a	_	_	_	HAS\_FORM[61]	_	
+11-40	1462-1467	sharp	_	_	_	HAS\_FORM[61]	_	
+11-41	1468-1473	break	_	_	_	HAS\_FORM[61]	_	
+11-42	1474-1478	with	_	_	_	HAS\_FORM[61]	_	
+11-43	1479-1484	parts	_	_	_	HAS\_FORM[61]	_	
+11-44	1485-1487	of	_	_	_	HAS\_FORM[61]	_	
+11-45	1488-1499	surrounding	_	_	_	HAS\_FORM[61]	_	
+11-46	1500-1506	slopes	_	D.1 Abiotic	_	HAS\_FORM[61]	_	
+11-47	1506-1507	.	_	_	_	_	_	
+
+#Text=polygonal karst - karst completely pitted by closed depressions so that divides between them form a crudely polygonal network.
+12-1	1511-1520	polygonal	_	C. Geome[19]	DEFINIENDUM[34]	_	_	
+12-2	1521-1526	karst	_	C. Geome[19]	DEFINIENDUM[34]	_	_	
+12-3	1527-1528	-	_	_	_	_	_	
+12-4	1529-1534	karst	_	C. Geome	GENUS	_	_	
+12-5	1535-1545	completely	_	_	_	_	_	
+12-6	1546-1552	pitted	_	D.3 Property[20]	_	HAS\_FORM[62]	_	
+12-7	1553-1555	by	_	D.3 Property[20]	_	HAS\_FORM[62]	_	
+12-8	1556-1562	closed	_	_	_	HAS\_FORM[62]	_	
+12-9	1563-1574	depressions	_	D.1 Abiotic	_	HAS\_FORM[62]	_	
+12-10	1575-1577	so	_	_	_	HAS\_FORM[63]	_	
+12-11	1578-1582	that	_	_	_	HAS\_FORM[63]	_	
+12-12	1583-1590	divides	_	_	_	HAS\_FORM[63]	_	
+12-13	1591-1598	between	_	_	_	HAS\_FORM[63]	_	
+12-14	1599-1603	them	_	_	_	HAS\_FORM[63]	_	
+12-15	1604-1608	form	_	_	_	HAS\_FORM[63]	frame\_FORM[82]	
+12-16	1609-1610	a	_	_	_	HAS\_FORM[63]	frame\_FORM[82]	
+12-17	1611-1618	crudely	_	_	_	HAS\_FORM[63]	_	
+12-18	1619-1628	polygonal	_	_	_	HAS\_FORM[63]	_	
+12-19	1629-1636	network	_	_	_	HAS\_FORM[63]	_	
+12-20	1636-1637	.	_	_	_	_	_	
+
+#Text=porosity - the property of rock or soil of having small voids between the constituent particles. the voids may not interconnect.
+13-1	1641-1649	porosity	_	D.3 Property	DEFINIENDUM	_	_	
+13-2	1650-1651	-	_	_	_	_	_	
+13-3	1652-1655	the	_	_	_	_	_	
+13-4	1656-1664	property	_	_	GENUS	DEFINED\_AS[64]	_	
+13-5	1665-1667	of	_	_	_	DEFINED\_AS[64]	_	
+13-6	1668-1672	rock	_	D.1 Abiotic	_	DEFINED\_AS[64]|COMPOSITION\_MEDIUM[65]	_	
+13-7	1673-1675	or	_	_	_	DEFINED\_AS[64]|COMPOSITION\_MEDIUM[65]	_	
+13-8	1676-1680	soil	_	D.1 Abiotic	_	DEFINED\_AS[64]|COMPOSITION\_MEDIUM[65]	_	
+13-9	1681-1683	of	_	_	_	DEFINED\_AS[64]	_	
+13-10	1684-1690	having	_	_	_	DEFINED\_AS[64]	_	
+13-11	1691-1696	small	_	_	_	DEFINED\_AS[64]	_	
+13-12	1697-1702	voids	_	D.1 Abiotic	_	DEFINED\_AS[64]	_	
+13-13	1703-1710	between	_	_	_	DEFINED\_AS[64]	_	
+13-14	1711-1714	the	_	_	_	DEFINED\_AS[64]	_	
+13-15	1715-1726	constituent	_	_	_	DEFINED\_AS[64]	_	
+13-16	1727-1736	particles	_	D.1 Abiotic	_	DEFINED\_AS[64]	_	
+13-17	1736-1737	.	_	_	_	_	_	
+13-18	1738-1741	the	_	_	_	_	_	
+13-19	1742-1747	voids	_	_	_	_	_	
+13-20	1748-1751	may	_	_	_	_	_	
+13-21	1752-1755	not	_	_	_	_	_	
+13-22	1756-1768	interconnect	_	_	_	_	_	
+13-23	1768-1769	.	_	_	_	_	_	
+
+#Text=pseudokarst - terrain with landforms which resemble those of karst but which are not the producer of karst processes.
+14-1	1773-1784	pseudokarst	_	C. Geome	DEFINIENDUM	_	_	
+14-2	1785-1786	-	_	_	_	_	_	
+14-3	1787-1794	terrain	_	D.1 Abiotic	GENUS	_	_	
+14-4	1795-1799	with	_	_	_	CONTAINS[66]	_	
+14-5	1800-1809	landforms	_	D.1 Abiotic	_	CONTAINS[66]	_	
+14-6	1810-1815	which	_	_	_	_	_	
+14-7	1816-1824	resemble	_	_	_	HAS\_FORM[67]	frame\_FORM	
+14-8	1825-1830	those	_	_	_	HAS\_FORM[67]	_	
+14-9	1831-1833	of	_	_	_	HAS\_FORM[67]	_	
+14-10	1834-1839	karst	_	C. Geome	_	HAS\_FORM[67]	_	
+14-11	1840-1843	but	_	_	_	_	_	
+14-12	1844-1849	which	_	_	_	HAS\_RESULT[68]	_	
+14-13	1850-1853	are	_	_	_	HAS\_RESULT[68]	_	
+14-14	1854-1857	not	_	_	_	HAS\_RESULT[68]	_	
+14-15	1858-1861	the	_	_	_	HAS\_RESULT[68]	_	
+14-16	1862-1870	producer	_	_	_	HAS\_RESULT[68]	_	
+14-17	1871-1873	of	_	_	_	HAS\_RESULT[68]	_	
+14-18	1874-1879	karst	_	_	_	HAS\_RESULT[68]	_	
+14-19	1880-1889	processes	_	_	_	HAS\_RESULT[68]	_	
+14-20	1889-1890	.	_	_	_	_	_	
+
+#Text=relict karst - old cave forms produced by earlier geomorphic processes within the present cycle of karstification and open to modification by present-day processes such as deposition of speleothems, sediments or skeletal deposits.
+15-1	1894-1900	relict	_	C. Geome[21]	DEFINIENDUM[35]	_	_	
+15-2	1901-1906	karst	_	C. Geome[21]	DEFINIENDUM[35]	_	_	
+15-3	1907-1908	-	_	_	_	_	_	
+15-4	1909-1912	old	_	_	_	OCCURS\_IN\_TIME	_	
+15-5	1913-1917	cave	_	A.2 Underground landform[22]	GENUS[36]	_	_	
+15-6	1918-1923	forms	_	A.2 Underground landform[22]	GENUS[36]	_	_	
+15-7	1924-1932	produced	_	_	_	HAS\_CAUSE[69]	frame\_CAUSE[83]	
+15-8	1933-1935	by	_	_	_	HAS\_CAUSE[69]	frame\_CAUSE[83]	
+15-9	1936-1943	earlier	_	_	_	HAS\_CAUSE[69]	_	
+15-10	1944-1954	geomorphic	_	B. Process[23]	_	HAS\_CAUSE[69]	_	
+15-11	1955-1964	processes	_	B. Process[23]	_	HAS\_CAUSE[69]	_	
+15-12	1965-1971	within	_	_	_	HAS\_CAUSE[69]	_	
+15-13	1972-1975	the	_	_	_	HAS\_CAUSE[69]	_	
+15-14	1976-1983	present	_	_	_	HAS\_CAUSE[69]	_	
+15-15	1984-1989	cycle	_	_	_	HAS\_CAUSE[69]	_	
+15-16	1990-1992	of	_	_	_	HAS\_CAUSE[69]	_	
+15-17	1993-2007	karstification	_	B. Process	_	HAS\_CAUSE[69]	_	
+15-18	2008-2011	and	_	_	_	_	_	
+15-19	2012-2016	open	_	_	_	HAS\_FUNCTION[70]	_	
+15-20	2017-2019	to	_	_	_	HAS\_FUNCTION[70]	_	
+15-21	2020-2032	modification	_	_	_	HAS\_FUNCTION[70]	_	
+15-22	2033-2035	by	_	_	_	HAS\_FUNCTION[70]	_	
+15-23	2036-2047	present-day	_	_	_	HAS\_FUNCTION[70]	_	
+15-24	2048-2057	processes	_	_	_	HAS\_FUNCTION[70]	_	
+15-25	2058-2062	such	_	_	_	_	_	
+15-26	2063-2065	as	_	_	_	_	_	
+15-27	2066-2076	deposition	_	B.3 Addition[24]	_	CONTAINS[71]	_	
+15-28	2077-2079	of	_	B.3 Addition[24]	_	CONTAINS[71]	_	
+15-29	2080-2091	speleothems	_	B.3 Addition[24]	_	CONTAINS[71]	_	
+15-30	2091-2092	,	_	_	_	CONTAINS[71]	_	
+15-31	2093-2102	sediments	deposition of sediments	B.3 Addition	_	CONTAINS[71]	_	
+15-32	2103-2105	or	_	_	_	CONTAINS[71]	_	
+15-33	2106-2114	skeletal	deposition of skeletal deposits[1]	B.3 Addition[25]	_	CONTAINS[71]	_	
+15-34	2115-2123	deposits	deposition of skeletal deposits[1]	B.3 Addition[25]	_	CONTAINS[71]	_	
+15-35	2123-2124	.	_	_	_	_	_	

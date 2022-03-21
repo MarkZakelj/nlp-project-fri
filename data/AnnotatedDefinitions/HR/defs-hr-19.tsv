@@ -1,0 +1,424 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=﻿ponor: Rupa ili ždrijelo u vapnenačkoj zatvorenoj depresiji kroz koju se voda gubi u podzemlju.
+1-1	0-6	﻿ponor	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+1-2	6-7	:	_	_	_	_	_	
+1-3	8-12	Rupa	_	_	GENUS	HAS\_FORM	_	
+1-4	13-16	ili	_	_	_	_	_	
+1-5	17-25	ždrijelo	_	_	GENUS	HAS\_FORM	_	
+1-6	26-27	u	_	_	_	HAS\_LOCATION[28]	frame\_LOCATION	
+1-7	28-39	vapnenačkoj	_	_	_	HAS\_LOCATION[28]	_	
+1-8	40-50	zatvorenoj	_	_	_	HAS\_LOCATION[28]	_	
+1-9	51-60	depresiji	_	_	_	HAS\_LOCATION[28]	_	
+1-10	61-65	kroz	_	_	_	HAS\_FUNCTION[29]	frame\_FUNCTION[56]	
+1-11	66-70	koju	_	_	_	HAS\_FUNCTION[29]	frame\_FUNCTION[56]	
+1-12	71-73	se	_	_	_	HAS\_FUNCTION[29]	_	
+1-13	74-78	voda	_	_	_	HAS\_FUNCTION[29]	_	
+1-14	79-83	gubi	_	_	_	HAS\_FUNCTION[29]	_	
+1-15	84-85	u	_	_	_	HAS\_FUNCTION[29]	_	
+1-16	86-95	podzemlju	_	_	_	HAS\_FUNCTION[29]	_	
+1-17	95-96	.	_	_	_	_	_	
+
+#Text=kotao: Opći izraz za bilo koju rupu, jamu ili depresiju koja je prirodno nastala u zemlji (i često je ispunjena vodom), a čiji oblik podsjeća na kotao ili zdjelu. Mogu biti promjera 2-8 m.
+2-1	98-103	kotao	_	A.1 Surface landform	DEFINIENDUM	_	_	
+2-2	103-104	:	_	_	_	_	_	
+2-3	105-109	Opći	_	_	_	_	_	
+2-4	110-115	izraz	_	_	_	_	_	
+2-5	116-118	za	_	_	_	_	_	
+2-6	119-123	bilo	_	_	_	_	_	
+2-7	124-128	koju	_	_	_	_	_	
+2-8	129-133	rupu	_	_	GENUS	_	_	
+2-9	133-134	,	_	_	_	_	_	
+2-10	135-139	jamu	_	_	GENUS	_	_	
+2-11	140-143	ili	_	_	_	_	_	
+2-12	144-153	depresiju	_	_	GENUS	_	_	
+2-13	154-158	koja	_	_	_	_	_	
+2-14	159-161	je	_	_	_	_	_	
+2-15	162-170	prirodno	_	_	_	HAS\_CAUSE[30]	_	
+2-16	171-178	nastala	_	_	_	HAS\_CAUSE[30]	_	
+2-17	179-180	u	_	_	_	HAS\_CAUSE[30]	_	
+2-18	181-187	zemlji	_	_	_	HAS\_CAUSE[30]	_	
+2-19	188-189	(	_	_	_	_	_	
+2-20	189-190	i	_	_	_	_	_	
+2-21	191-196	često	_	_	_	CONTAINS[31]	frame\_CONTAINS[57]	
+2-22	197-199	je	_	_	_	CONTAINS[31]	frame\_CONTAINS[57]	
+2-23	200-209	ispunjena	_	_	_	CONTAINS[31]	frame\_CONTAINS[57]	
+2-24	210-215	vodom	_	D.1 Abiotic	_	CONTAINS[31]	_	
+2-25	215-216	)	_	_	_	_	_	
+2-26	216-217	,	_	_	_	_	_	
+2-27	218-219	a	_	_	_	_	_	
+2-28	220-224	čiji	_	_	_	_	_	
+2-29	225-230	oblik	_	_	_	HAS\_FORM[32]	frame\_FORM[58]	
+2-30	231-239	podsjeća	_	_	_	HAS\_FORM[32]	frame\_FORM[58]	
+2-31	240-242	na	_	_	_	HAS\_FORM[32]	frame\_FORM[58]	
+2-32	243-248	kotao	_	_	_	HAS\_FORM[32]	_	
+2-33	249-252	ili	_	_	_	HAS\_FORM[32]	_	
+2-34	253-259	zdjelu	_	_	_	HAS\_FORM[32]	_	
+2-35	259-260	.	_	_	_	_	_	
+2-36	261-265	Mogu	_	_	_	_	_	
+2-37	266-270	biti	_	_	_	_	_	
+2-38	271-279	promjera	_	_	_	HAS\_SIZE[33]	frame\_SIZE	
+2-39	280-281	2	_	_	_	HAS\_SIZE[33]	_	
+2-40	281-282	-	_	_	_	HAS\_SIZE[33]	_	
+2-41	282-283	8	_	_	_	HAS\_SIZE[33]	_	
+2-42	284-285	m	_	_	_	HAS\_SIZE[33]	_	
+2-43	285-286	.	_	_	_	_	_	
+
+#Text=jama (pothole): Izraz kojim se u Engleskoj označava vertikalno ili vrlo strmo okno u vapnencu.
+3-1	289-293	jama	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-2	294-295	(	_	_	_	_	_	
+3-3	295-302	pothole	_	_	_	_	_	
+3-4	302-303	)	_	_	_	_	_	
+3-5	303-304	:	_	_	_	_	_	
+3-6	305-310	Izraz	_	_	_	_	_	
+3-7	311-316	kojim	_	_	_	_	_	
+3-8	317-319	se	_	_	_	_	_	
+3-9	320-321	u	_	_	_	_	_	
+3-10	322-331	Engleskoj	_	_	_	_	_	
+3-11	332-340	označava	_	_	_	_	_	
+3-12	341-351	vertikalno	_	_	_	HAS\_FORM[34]	_	
+3-13	352-355	ili	_	_	_	HAS\_FORM[34]	_	
+3-14	356-360	vrlo	_	_	_	HAS\_FORM[34]	_	
+3-15	361-366	strmo	_	_	_	HAS\_FORM[34]	_	
+3-16	367-371	okno	_	_	GENUS[16]	_	_	
+3-17	372-373	u	_	_	GENUS[16]	HAS\_LOCATION[35]	_	
+3-18	374-382	vapnencu	_	D.1 Abiotic	GENUS[16]	HAS\_LOCATION[35]	_	
+3-19	382-383	.	_	_	_	HAS\_LOCATION[35]	_	
+
+#Text=odgovarajuća špilja: Špilja koja je dovoljno velika da u nju stane čovjek (Curl, 1964).
+4-1	386-398	odgovarajuća	_	A.2 Underground landform[1]	DEFINIENDUM[17]	_	_	
+4-2	399-405	špilja	_	A.2 Underground landform[1]	DEFINIENDUM[17]	_	_	
+4-3	405-406	:	_	_	_	_	_	
+4-4	407-413	Špilja	_	A.2 Underground landform	GENUS	_	_	
+4-5	414-418	koja	_	_	_	_	_	
+4-6	419-421	je	_	_	_	_	_	
+4-7	422-430	dovoljno	_	_	_	HAS\_SIZE[36]	_	
+4-8	431-437	velika	_	_	_	HAS\_SIZE[36]	_	
+4-9	438-440	da	_	_	_	HAS\_SIZE[36]	_	
+4-10	441-442	u	_	_	_	HAS\_SIZE[36]	_	
+4-11	443-446	nju	_	_	_	HAS\_SIZE[36]	_	
+4-12	447-452	stane	_	_	_	HAS\_SIZE[36]	_	
+4-13	453-459	čovjek	_	_	_	HAS\_SIZE[36]	_	
+4-14	460-461	(	_	_	_	_	_	
+4-15	461-465	Curl	_	_	_	_	_	
+4-16	465-466	,	_	_	_	_	_	
+4-17	467-471	1964	_	_	_	_	_	
+4-18	471-472	)	_	_	_	_	_	
+4-19	472-473	.	_	_	_	_	_	
+
+#Text=odgovarajući ulaz: Špilja s dovoljno velikim ulazom da može ući čovjek (Curl, 1964).
+5-1	475-487	odgovarajući	_	A.2 Underground landform[2]	DEFINIENDUM[18]	_	_	
+5-2	488-492	ulaz	_	A.2 Underground landform[2]	DEFINIENDUM[18]	_	_	
+5-3	492-493	:	_	_	_	_	_	
+5-4	494-500	Špilja	_	A.2 Underground landform	GENUS	_	_	
+5-5	501-502	s	_	_	_	HAS\_SIZE[37]	_	
+5-6	503-511	dovoljno	_	_	_	HAS\_SIZE[37]	_	
+5-7	512-519	velikim	_	_	_	HAS\_SIZE[37]	_	
+5-8	520-526	ulazom	_	_	_	HAS\_SIZE[37]	_	
+5-9	527-529	da	_	_	_	HAS\_SIZE[37]	_	
+5-10	530-534	može	_	_	_	HAS\_SIZE[37]	_	
+5-11	535-538	ući	_	_	_	HAS\_SIZE[37]	_	
+5-12	539-545	čovjek	_	_	_	HAS\_SIZE[37]	_	
+5-13	546-547	(	_	_	_	_	_	
+5-14	547-551	Curl	_	_	_	_	_	
+5-15	551-552	,	_	_	_	_	_	
+5-16	553-557	1964	_	_	_	_	_	
+5-17	557-558	)	_	_	_	_	_	
+5-18	558-559	.	_	_	_	_	_	
+
+#Text=pseudokrš: Teren nalik krškom sa zatvorenim depresijama i ponornicama i špiljama ali koji je nastao drugim procesima nego što je otapanje stijena (von Knebel, 1906). Obuhvaćeni su procesi i forme kanaliziranja i termokrša (Otvos, 1976). Neki autori također uključuju teren kojeg karakteriziraju cijevi lave, morske špilje i deflacijske udubine. Izraz se također odnosio na pokriveni krš i krš nastao otapanjem stijena koje su relativno netopive, kao što je kvarcit i granit, ali se u općoj uporabi odnosi na varijetete pravog krša.
+6-1	561-570	pseudokrš	_	C. Geome	DEFINIENDUM	_	_	
+6-2	570-571	:	_	_	_	_	_	
+6-3	572-577	Teren	_	_	GENUS	_	_	
+6-4	578-583	nalik	_	_	_	HAS\_ATTRIBUTE[38]	frame\_ATTRIBUTE	
+6-5	584-590	krškom	krški teren	C. Geome	_	HAS\_ATTRIBUTE[38]	_	
+6-6	591-593	sa	_	_	_	CONTAINS[39]	frame\_CONTAINS	
+6-7	594-604	zatvorenim	_	_	_	CONTAINS[39]	_	
+6-8	605-616	depresijama	_	_	_	CONTAINS[39]	_	
+6-9	617-618	i	_	_	_	CONTAINS[39]	_	
+6-10	619-630	ponornicama	_	D.1 Abiotic	_	CONTAINS[39]	_	
+6-11	631-632	i	_	_	_	CONTAINS[39]	_	
+6-12	633-641	špiljama	_	A.2 Underground landform	_	CONTAINS[39]	_	
+6-13	642-645	ali	_	_	_	_	_	
+6-14	646-650	koji	_	_	_	_	_	
+6-15	651-653	je	_	_	_	_	_	
+6-16	654-660	nastao	_	_	_	HAS\_CAUSE[40]	_	
+6-17	661-667	drugim	_	_	_	HAS\_CAUSE[40]	_	
+6-18	668-677	procesima	_	_	_	HAS\_CAUSE[40]	_	
+6-19	678-682	nego	_	_	_	HAS\_CAUSE[40]	_	
+6-20	683-686	što	_	_	_	HAS\_CAUSE[40]	_	
+6-21	687-689	je	_	_	_	HAS\_CAUSE[40]	_	
+6-22	690-698	otapanje	_	_	_	HAS\_CAUSE[40]	_	
+6-23	699-706	stijena	_	_	_	HAS\_CAUSE[40]	_	
+6-24	707-708	(	_	_	_	_	_	
+6-25	708-711	von	_	_	_	_	_	
+6-26	712-718	Knebel	_	_	_	_	_	
+6-27	718-719	,	_	_	_	_	_	
+6-28	720-724	1906	_	_	_	_	_	
+6-29	724-725	)	_	_	_	_	_	
+6-30	725-726	.	_	_	_	_	_	
+6-31	727-737	Obuhvaćeni	_	_	_	_	_	
+6-32	738-740	su	_	_	_	_	_	
+6-33	741-748	procesi	_	_	_	_	_	
+6-34	749-750	i	_	_	_	_	_	
+6-35	751-756	forme	_	_	_	_	_	
+6-36	757-770	kanaliziranja	_	_	_	_	_	
+6-37	771-772	i	_	_	_	_	_	
+6-38	773-782	termokrša	_	_	_	_	_	
+6-39	783-784	(	_	_	_	_	_	
+6-40	784-789	Otvos	_	_	_	_	_	
+6-41	789-790	,	_	_	_	_	_	
+6-42	791-795	1976	_	_	_	_	_	
+6-43	795-796	)	_	_	_	_	_	
+6-44	796-797	.	_	_	_	_	_	
+6-45	798-802	Neki	_	_	_	_	_	
+6-46	803-809	autori	_	_	_	_	_	
+6-47	810-817	također	_	_	_	_	_	
+6-48	818-827	uključuju	_	_	_	_	_	
+6-49	828-833	teren	_	_	_	_	_	
+6-50	834-839	kojeg	_	_	_	_	_	
+6-51	840-855	karakteriziraju	_	_	_	_	_	
+6-52	856-862	cijevi	_	A.2 Underground landform[3]	_	CONTAINS[41]	_	
+6-53	863-867	lave	_	A.2 Underground landform[3]	_	CONTAINS[41]	_	
+6-54	867-868	,	_	_	_	CONTAINS[41]	_	
+6-55	869-875	morske	_	A.2 Underground landform[4]	_	CONTAINS[41]	_	
+6-56	876-882	špilje	_	A.2 Underground landform[4]	_	CONTAINS[41]	_	
+6-57	883-884	i	_	_	_	CONTAINS[41]	_	
+6-58	885-896	deflacijske	_	A.1 Surface landform[5]	_	CONTAINS[41]	_	
+6-59	897-904	udubine	_	A.1 Surface landform[5]	_	CONTAINS[41]	_	
+6-60	904-905	.	_	_	_	_	_	
+6-61	906-911	Izraz	_	_	_	_	_	
+6-62	912-914	se	_	_	_	_	_	
+6-63	915-922	također	_	_	_	_	_	
+6-64	923-930	odnosio	_	_	_	_	_	
+6-65	931-933	na	_	_	_	_	_	
+6-66	934-943	pokriveni	_	_	_	_	_	
+6-67	944-947	krš	_	_	_	_	_	
+6-68	948-949	i	_	_	_	_	_	
+6-69	950-953	krš	_	_	_	_	_	
+6-70	954-960	nastao	_	_	_	HAS\_CAUSE[42]	_	
+6-71	961-970	otapanjem	_	_	_	HAS\_CAUSE[42]	_	
+6-72	971-978	stijena	_	_	_	HAS\_CAUSE[42]	_	
+6-73	979-983	koje	_	_	_	HAS\_CAUSE[42]	_	
+6-74	984-986	su	_	_	_	HAS\_CAUSE[42]	_	
+6-75	987-996	relativno	_	_	_	HAS\_CAUSE[42]	_	
+6-76	997-1005	netopive	_	_	_	HAS\_CAUSE[42]	_	
+6-77	1005-1006	,	_	_	_	HAS\_CAUSE[42]	_	
+6-78	1007-1010	kao	_	_	_	HAS\_CAUSE[42]	_	
+6-79	1011-1014	što	_	_	_	HAS\_CAUSE[42]	_	
+6-80	1015-1017	je	_	_	_	HAS\_CAUSE[42]	_	
+6-81	1018-1025	kvarcit	_	_	_	HAS\_CAUSE[42]	_	
+6-82	1026-1027	i	_	_	_	HAS\_CAUSE[42]	_	
+6-83	1028-1034	granit	_	_	_	HAS\_CAUSE[42]	_	
+6-84	1034-1035	,	_	_	_	_	_	
+6-85	1036-1039	ali	_	_	_	_	_	
+6-86	1040-1042	se	_	_	_	_	_	
+6-87	1043-1044	u	_	_	_	_	_	
+6-88	1045-1050	općoj	_	_	_	_	_	
+6-89	1051-1058	uporabi	_	_	_	_	_	
+6-90	1059-1065	odnosi	_	_	_	_	_	
+6-91	1066-1068	na	_	_	_	_	_	
+6-92	1069-1079	varijetete	_	_	GENUS[19]	_	_	
+6-93	1080-1086	pravog	_	_	GENUS[19]	_	_	
+6-94	1087-1091	krša	_	C. Geome	GENUS[19]	_	_	
+6-95	1091-1092	.	_	_	_	_	_	
+
+#Text=konična splav: Konična siga izgrađena od skupa potopljenih kalcitnih splavi. Vrh konusa odgovara točki kapanja; kapanje uzrokuje da splavi tonu u toj točki.
+7-1	1094-1101	konična	_	A.2 Underground landform[6]	DEFINIENDUM[20]	_	_	
+7-2	1102-1107	splav	_	A.2 Underground landform[6]	DEFINIENDUM[20]	_	_	
+7-3	1107-1108	:	_	_	_	_	_	
+7-4	1109-1116	Konična	_	A.2 Underground landform[7]	_	HAS\_FORM	_	
+7-5	1117-1121	siga	_	A.2 Underground landform[7]|D.1 Abiotic[8]	GENUS	_	_	
+7-6	1122-1131	izgrađena	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+7-7	1132-1134	od	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+7-8	1135-1140	skupa	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+7-9	1141-1152	potopljenih	_	_	_	COMPOSITION\_MEDIUM[43]	_	
+7-10	1153-1162	kalcitnih	_	A.2 Underground landform[9]	_	COMPOSITION\_MEDIUM[43]	_	
+7-11	1163-1169	splavi	_	A.2 Underground landform[9]	_	COMPOSITION\_MEDIUM[43]	_	
+7-12	1169-1170	.	_	_	_	_	_	
+7-13	1171-1174	Vrh	_	_	_	_	_	
+7-14	1175-1181	konusa	_	_	_	_	_	
+7-15	1182-1190	odgovara	_	_	_	_	_	
+7-16	1191-1196	točki	_	_	_	_	_	
+7-17	1197-1204	kapanja	_	_	_	_	_	
+7-18	1204-1205	;	_	_	_	_	_	
+7-19	1206-1213	kapanje	_	_	_	_	_	
+7-20	1214-1222	uzrokuje	_	_	_	_	_	
+7-21	1223-1225	da	_	_	_	_	_	
+7-22	1226-1232	splavi	_	_	_	_	_	
+7-23	1233-1237	tonu	_	_	_	_	_	
+7-24	1238-1239	u	_	_	_	_	_	
+7-25	1240-1243	toj	_	_	_	_	_	
+7-26	1244-1249	točki	_	_	_	_	_	
+7-27	1249-1250	.	_	_	_	_	_	
+
+#Text=razgranata špilja: Špilja nastala otapanjem, a sastoji se od nepravilnih komora i galerija koje se pružaju prema van u različitim smjerovima od glavnog špiljskog sustava; tipičan model hipogenih špilja formiranih povećanom koncentracijom vodikovog sulfida u vodi (Palmer, 1991).
+8-1	1252-1262	razgranata	_	A.2 Underground landform[10]	DEFINIENDUM[21]	_	_	
+8-2	1263-1269	špilja	_	A.2 Underground landform[10]	DEFINIENDUM[21]	_	_	
+8-3	1269-1270	:	_	_	_	_	_	
+8-4	1271-1277	Špilja	_	A.2 Underground landform	GENUS	_	_	
+8-5	1278-1285	nastala	_	_	_	HAS\_CAUSE[44]	frame\_CAUSE	
+8-6	1286-1295	otapanjem	_	B.2 Loss	_	HAS\_CAUSE[44]	_	
+8-7	1295-1296	,	_	_	_	_	_	
+8-8	1297-1298	a	_	_	_	_	_	
+8-9	1299-1306	sastoji	_	_	_	CONTAINS[45]	frame\_CONTAINS[59]	
+8-10	1307-1309	se	_	_	_	CONTAINS[45]	frame\_CONTAINS[59]	
+8-11	1310-1312	od	_	_	_	CONTAINS[45]	frame\_CONTAINS[59]	
+8-12	1313-1324	nepravilnih	_	_	_	CONTAINS[45]	_	
+8-13	1325-1331	komora	_	A.2 Underground landform	_	CONTAINS[45]	_	
+8-14	1332-1333	i	_	_	_	CONTAINS[45]	_	
+8-15	1334-1342	galerija	_	A.2 Underground landform	_	CONTAINS[45]	_	
+8-16	1343-1347	koje	_	_	_	CONTAINS[45]	_	
+8-17	1348-1350	se	_	_	_	CONTAINS[45]	_	
+8-18	1351-1358	pružaju	_	_	_	CONTAINS[45]	_	
+8-19	1359-1364	prema	_	_	_	CONTAINS[45]	_	
+8-20	1365-1368	van	_	_	_	CONTAINS[45]	_	
+8-21	1369-1370	u	_	_	_	CONTAINS[45]	_	
+8-22	1371-1381	različitim	_	_	_	CONTAINS[45]	_	
+8-23	1382-1392	smjerovima	_	_	_	CONTAINS[45]	_	
+8-24	1393-1395	od	_	_	_	CONTAINS[45]	_	
+8-25	1396-1403	glavnog	_	_	_	CONTAINS[45]	_	
+8-26	1404-1413	špiljskog	_	_	_	CONTAINS[45]	_	
+8-27	1414-1421	sustava	_	_	_	CONTAINS[45]	_	
+8-28	1421-1422	;	_	_	_	_	_	
+8-29	1423-1430	tipičan	_	_	_	_	_	
+8-30	1431-1436	model	_	_	_	_	_	
+8-31	1437-1446	hipogenih	_	_	_	_	_	
+8-32	1447-1453	špilja	_	_	_	_	_	
+8-33	1454-1464	formiranih	_	_	_	_	_	
+8-34	1465-1474	povećanom	_	_	_	_	_	
+8-35	1475-1489	koncentracijom	_	_	_	_	_	
+8-36	1490-1499	vodikovog	_	_	_	_	_	
+8-37	1500-1507	sulfida	_	_	_	_	_	
+8-38	1508-1509	u	_	_	_	_	_	
+8-39	1510-1514	vodi	_	_	_	_	_	
+8-40	1515-1516	(	_	_	_	_	_	
+8-41	1516-1522	Palmer	_	_	_	_	_	
+8-42	1522-1523	,	_	_	_	_	_	
+8-43	1524-1528	1991	_	_	_	_	_	
+8-44	1528-1529	)	_	_	_	_	_	
+8-45	1529-1530	.	_	_	_	_	_	
+
+#Text=randpolje: Ravnica na rubu krškog područja zatvorena uzvisinama koja dobiva površinsku vodu iz nekrškog područja. Voda se drenira kroz podzemne kanale u krškom području.
+9-1	1532-1541	randpolje	_	A.1 Surface landform	DEFINIENDUM	_	_	
+9-2	1541-1542	:	_	_	_	_	_	
+9-3	1543-1550	Ravnica	_	A.1 Surface landform	GENUS	_	_	
+9-4	1551-1553	na	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION	
+9-5	1554-1558	rubu	_	_	_	HAS\_LOCATION[46]	_	
+9-6	1559-1565	krškog	_	C. Geome[11]	_	HAS\_LOCATION[46]	_	
+9-7	1566-1574	područja	_	C. Geome[11]	_	HAS\_LOCATION[46]	_	
+9-8	1575-1584	zatvorena	_	_	_	HAS\_ATTRIBUTE[47]	_	
+9-9	1585-1595	uzvisinama	_	_	_	HAS\_ATTRIBUTE[47]	_	
+9-10	1596-1600	koja	_	_	_	_	_	
+9-11	1601-1607	dobiva	_	_	_	HAS\_ATTRIBUTE[48]	_	
+9-12	1608-1618	površinsku	_	_	_	HAS\_ATTRIBUTE[48]	_	
+9-13	1619-1623	vodu	_	_	_	HAS\_ATTRIBUTE[48]	_	
+9-14	1624-1626	iz	_	_	_	HAS\_ATTRIBUTE[48]	_	
+9-15	1627-1635	nekrškog	_	_	_	HAS\_ATTRIBUTE[48]	_	
+9-16	1636-1644	područja	_	_	_	HAS\_ATTRIBUTE[48]	_	
+9-17	1644-1645	.	_	_	_	_	_	
+9-18	1646-1650	Voda	_	_	_	_	_	
+9-19	1651-1653	se	_	_	_	_	_	
+9-20	1654-1661	drenira	_	_	_	_	_	
+9-21	1662-1666	kroz	_	_	_	_	_	
+9-22	1667-1675	podzemne	_	_	_	_	_	
+9-23	1676-1682	kanale	_	_	_	_	_	
+9-24	1683-1684	u	_	_	_	_	_	
+9-25	1685-1691	krškom	_	_	_	_	_	
+9-26	1692-1700	području	_	_	_	_	_	
+9-27	1700-1701	.	_	_	_	_	_	
+
+#Text=reliktni krš: Stari krš koji nikad nije bio pokriven mlađim naslagama nakon što je formiran, tako da je otvoren modifikaciji današnjim procesima okršavanja.
+10-1	1704-1712	reliktni	_	C. Geome[12]	DEFINIENDUM[22]	_	_	
+10-2	1713-1716	krš	_	C. Geome[12]	DEFINIENDUM[22]	_	_	
+10-3	1716-1717	:	_	_	_	_	_	
+10-4	1718-1723	Stari	_	C. Geome[13]	GENUS[23]	_	_	
+10-5	1724-1727	krš	_	C. Geome[13]	GENUS[23]	_	_	
+10-6	1728-1732	koji	_	_	_	_	_	
+10-7	1733-1738	nikad	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-8	1739-1743	nije	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-9	1744-1747	bio	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-10	1748-1756	pokriven	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-11	1757-1763	mlađim	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-12	1764-1773	naslagama	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-13	1774-1779	nakon	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-14	1780-1783	što	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-15	1784-1786	je	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-16	1787-1795	formiran	_	_	_	HAS\_ATTRIBUTE[49]	_	
+10-17	1795-1796	,	_	_	_	_	_	
+10-18	1797-1801	tako	_	_	_	_	_	
+10-19	1802-1804	da	_	_	_	_	_	
+10-20	1805-1807	je	_	_	_	_	_	
+10-21	1808-1815	otvoren	_	_	_	HAS\_ATTRIBUTE[50]	_	
+10-22	1816-1828	modifikaciji	_	_	_	HAS\_ATTRIBUTE[50]	_	
+10-23	1829-1838	današnjim	_	_	_	HAS\_ATTRIBUTE[50]	_	
+10-24	1839-1848	procesima	_	B.4 Transformation[14]	_	HAS\_ATTRIBUTE[50]	_	
+10-25	1849-1859	okršavanja	_	B.4 Transformation[14]	_	HAS\_ATTRIBUTE[50]	_	
+10-26	1859-1860	.	_	_	_	_	_	
+
+#Text=rastvaranje: Otapanje siga njihovim kontaktom s nezasićenom vodom, često tijekom poplava.
+11-1	1862-1873	rastvaranje	_	B.2 Loss	DEFINIENDUM	_	_	
+11-2	1873-1874	:	_	_	_	_	_	
+11-3	1875-1883	Otapanje	_	B.2 Loss	GENUS[24]	_	_	
+11-4	1884-1888	siga	_	D.1 Abiotic	GENUS[24]	_	_	
+11-5	1889-1897	njihovim	_	_	_	_	_	
+11-6	1898-1907	kontaktom	_	_	_	HAS\_CAUSE[51]	_	
+11-7	1908-1909	s	_	_	_	HAS\_CAUSE[51]	_	
+11-8	1910-1921	nezasićenom	_	_	_	HAS\_CAUSE[51]	_	
+11-9	1922-1927	vodom	_	_	_	HAS\_CAUSE[51]	_	
+11-10	1927-1928	,	_	_	_	_	_	
+11-11	1929-1934	često	_	_	_	OCCURS\_IN\_TIME[52]	_	
+11-12	1935-1942	tijekom	_	_	_	OCCURS\_IN\_TIME[52]	_	
+11-13	1943-1950	poplava	_	_	_	OCCURS\_IN\_TIME[52]	_	
+11-14	1950-1951	.	_	_	_	_	_	
+
+#Text=resurgencija: U području krša, ponovno pojavljivanje vodotoka izljevom iz špilje vode koja je prije toga ušla u špilju poniranjem. također i točka u kojoj se to događa, izviranje.
+12-1	1953-1965	resurgencija	_	B.1 Movement	DEFINIENDUM[25]	_	_	
+12-2	1965-1966	:	_	_	DEFINIENDUM[25]	_	_	
+12-3	1967-1968	U	_	_	_	HAS\_LOCATION[53]	_	
+12-4	1969-1977	području	_	_	_	HAS\_LOCATION[53]	_	
+12-5	1978-1982	krša	_	_	_	HAS\_LOCATION[53]	_	
+12-6	1982-1983	,	_	_	_	HAS\_LOCATION[53]	_	
+12-7	1984-1991	ponovno	_	_	GENUS[26]	_	_	
+12-8	1992-2005	pojavljivanje	_	_	GENUS[26]	_	_	
+12-9	2006-2014	vodotoka	_	_	GENUS[26]	_	_	
+12-10	2015-2023	izljevom	_	_	_	HAS\_CAUSE[54]	_	
+12-11	2024-2026	iz	_	_	_	HAS\_CAUSE[54]	_	
+12-12	2027-2033	špilje	_	_	_	HAS\_CAUSE[54]	_	
+12-13	2034-2038	vode	_	_	_	_	_	
+12-14	2039-2043	koja	_	_	_	_	_	
+12-15	2044-2046	je	_	_	_	_	_	
+12-16	2047-2052	prije	_	_	_	_	_	
+12-17	2053-2057	toga	_	_	_	_	_	
+12-18	2058-2062	ušla	_	_	_	_	_	
+12-19	2063-2064	u	_	_	_	_	_	
+12-20	2065-2071	špilju	_	_	_	_	_	
+12-21	2072-2082	poniranjem	_	_	_	_	_	
+12-22	2082-2083	.	_	_	_	_	_	
+12-23	2084-2091	također	_	_	_	_	_	
+12-24	2092-2093	i	_	_	_	_	_	
+12-25	2094-2099	točka	_	_	_	_	_	
+12-26	2100-2101	u	_	_	_	_	_	
+12-27	2102-2107	kojoj	_	_	_	_	_	
+12-28	2108-2110	se	_	_	_	_	_	
+12-29	2111-2113	to	_	_	_	_	_	
+12-30	2114-2120	događa	_	_	_	_	_	
+12-31	2120-2121	,	_	_	_	_	_	
+12-32	2122-2131	izviranje	_	_	_	_	_	
+12-33	2131-2132	.	_	_	_	_	_	
+
+#Text=uskrsli krš: Paleokrš koji je reaktiviran.
+13-1	2134-2141	uskrsli	_	C. Geome[15]	DEFINIENDUM[27]	_	_	
+13-2	2142-2145	krš	_	C. Geome[15]	DEFINIENDUM[27]	_	_	
+13-3	2145-2146	:	_	_	_	_	_	
+13-4	2147-2155	Paleokrš	_	C. Geome	GENUS	_	_	
+13-5	2156-2160	koji	_	_	_	HAS\_ATTRIBUTE[55]	frame\_ATTRIBUTE[60]	
+13-6	2161-2163	je	_	_	_	HAS\_ATTRIBUTE[55]	frame\_ATTRIBUTE[60]	
+13-7	2164-2175	reaktiviran	_	_	_	HAS\_ATTRIBUTE[55]	_	
+13-8	2175-2176	.	_	_	_	_	_	

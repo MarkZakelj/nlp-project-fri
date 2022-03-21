@@ -1,0 +1,283 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Posamezni gobasti balvani, imenovani tudi kraške mize, so zaščitili apneniško podlago pod sabo pred dežjem in korozijo in se zato po zadnji ledeni dobi sčasoma relativno dvignili nad okolico.
+1-1	0-9	Posamezni	_	_	_	_	_	
+1-2	10-17	gobasti	_	A.1 Surface landform[1]	DEFINIENDUM[20]	_	_	
+1-3	18-25	balvani	_	A.1 Surface landform[1]	DEFINIENDUM[20]	_	_	
+1-4	25-26	,	_	_	_	_	_	
+1-5	27-36	imenovani	_	_	_	_	_	
+1-6	37-41	tudi	_	_	_	_	_	
+1-7	42-48	kraške	_	A.1 Surface landform[2]	DEFINIENDUM[21]	_	_	
+1-8	49-53	mize	_	A.1 Surface landform[2]	DEFINIENDUM[21]	_	_	
+1-9	53-54	,	_	_	_	_	_	
+1-10	55-57	so	_	_	_	HAS\_FUNCTION[31]	_	
+1-11	58-67	zaščitili	_	D.3 Property	_	HAS\_FUNCTION[31]	_	
+1-12	68-77	apneniško	_	D.1 Abiotic[3]	_	HAS\_FUNCTION[31]	_	
+1-13	78-85	podlago	_	D.1 Abiotic[3]	_	HAS\_FUNCTION[31]	_	
+1-14	86-89	pod	_	_	_	HAS\_FUNCTION[31]	_	
+1-15	90-94	sabo	_	_	_	HAS\_FUNCTION[31]	_	
+1-16	95-99	pred	_	_	_	HAS\_FUNCTION[31]	_	
+1-17	100-106	dežjem	_	D.1 Abiotic	_	HAS\_FUNCTION[31]	_	
+1-18	107-109	in	_	_	_	HAS\_FUNCTION[31]	_	
+1-19	110-118	korozijo	_	B.4 Transformation	_	HAS\_FUNCTION[31]	_	
+1-20	119-121	in	_	_	_	HAS\_FUNCTION[31]	_	
+1-21	122-124	se	_	_	_	_	_	
+1-22	125-129	zato	_	_	_	_	_	
+1-23	130-132	po	_	_	_	HAS\_RESULT[32]	_	
+1-24	133-139	zadnji	_	_	_	HAS\_RESULT[32]	_	
+1-25	140-146	ledeni	_	D.3 Property[4]	_	HAS\_RESULT[32]	_	
+1-26	147-151	dobi	_	D.3 Property[4]	_	HAS\_RESULT[32]	_	
+1-27	152-159	sčasoma	_	_	_	HAS\_RESULT[32]	_	
+1-28	160-169	relativno	_	_	_	HAS\_RESULT[32]	_	
+1-29	170-178	dvignili	_	_	_	HAS\_RESULT[32]	_	
+1-30	179-182	nad	_	_	_	HAS\_RESULT[32]	_	
+1-31	183-190	okolico	_	_	_	HAS\_RESULT[32]	_	
+1-32	190-191	.	_	_	_	_	_	
+
+#Text=Jame so bivališča vil, divjih žena, ajdov, velikanov, pritlikavcev, divjakov in podobno.
+2-1	192-196	Jame	_	A.2 Underground landform	DEFINIENDUM	_	_	
+2-2	197-199	so	_	_	DEFINITOR	_	_	
+2-3	200-209	bivališča	_	D.1 Abiotic	GENUS	_	_	
+2-4	210-213	vil	_	_	_	CONTAINS[33]	_	
+2-5	213-214	,	_	_	_	CONTAINS[33]	_	
+2-6	215-221	divjih	_	_	_	CONTAINS[33]	_	
+2-7	222-226	žena	_	_	_	CONTAINS[33]	_	
+2-8	226-227	,	_	_	_	CONTAINS[33]	_	
+2-9	228-233	ajdov	_	_	_	CONTAINS[33]	_	
+2-10	233-234	,	_	_	_	CONTAINS[33]	_	
+2-11	235-244	velikanov	_	_	_	CONTAINS[33]	_	
+2-12	244-245	,	_	_	_	CONTAINS[33]	_	
+2-13	246-258	pritlikavcev	_	_	_	CONTAINS[33]	_	
+2-14	258-259	,	_	_	_	CONTAINS[33]	_	
+2-15	260-268	divjakov	_	_	_	CONTAINS[33]	_	
+2-16	269-271	in	_	_	_	CONTAINS[33]	_	
+2-17	272-279	podobno	_	_	_	CONTAINS[33]	_	
+2-18	279-280	.	_	_	_	_	_	
+
+#Text=Manjše votline narečno imenujejo lisičina, brlog, rupa, luknja, kevderc, frlinka, jazbina, polšna, kamra, skedenj.
+3-1	281-287	Manjše	_	_	_	HAS\_FORM[34]	_	
+3-2	288-295	votline	_	A.2 Underground landform	GENUS	HAS\_FORM[34]	_	
+3-3	296-303	narečno	_	_	_	_	_	
+3-4	304-313	imenujejo	_	_	DEFINITOR	_	_	
+3-5	314-322	lisičina	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-6	322-323	,	_	_	_	_	_	
+3-7	324-329	brlog	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-8	329-330	,	_	_	_	_	_	
+3-9	331-335	rupa	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-10	335-336	,	_	_	_	_	_	
+3-11	337-343	luknja	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-12	343-344	,	_	_	_	_	_	
+3-13	345-352	kevderc	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-14	352-353	,	_	_	_	_	_	
+3-15	354-361	frlinka	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-16	361-362	,	_	_	_	_	_	
+3-17	363-370	jazbina	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-18	370-371	,	_	_	_	_	_	
+3-19	372-378	polšna	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-20	378-379	,	_	_	_	_	_	
+3-21	380-385	kamra	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-22	385-386	,	_	_	_	_	_	
+3-23	387-394	skedenj	_	A.2 Underground landform	DEFINIENDUM	_	_	
+3-24	394-395	.	_	_	_	_	_	
+
+#Text=Beseda jama lahko pomeni vodoravno votlino ali pa brezno, ki se poglablja navzdol.
+4-1	396-402	Beseda	_	_	_	_	_	
+4-2	403-407	jama	_	A.2 Underground landform	DEFINIENDUM	_	_	
+4-3	408-413	lahko	_	_	_	_	_	
+4-4	414-420	pomeni	_	_	DEFINITOR	_	_	
+4-5	421-430	vodoravno	_	_	_	HAS\_FORM[35]	_	
+4-6	431-438	votlino	_	A.2 Underground landform	GENUS	HAS\_FORM[35]	_	
+4-7	439-442	ali	_	_	_	_	_	
+4-8	443-445	pa	_	_	_	_	_	
+4-9	446-452	brezno	_	_	GENUS	_	_	
+4-10	452-453	,	_	_	_	_	_	
+4-11	454-456	ki	_	_	_	HAS\_FORM[36]	_	
+4-12	457-459	se	_	_	_	HAS\_FORM[36]	_	
+4-13	460-469	poglablja	_	_	_	HAS\_FORM[36]	_	
+4-14	470-477	navzdol	_	_	_	HAS\_FORM[36]	_	
+4-15	477-478	.	_	_	_	_	_	
+
+#Text=Nasprotje lijakastemu breznu je zvonasto brezno, ki se širi navzdol.
+5-1	479-488	Nasprotje	_	_	_	_	_	
+5-2	489-500	lijakastemu	_	A.2 Underground landform[5]	_	_	_	
+5-3	501-507	breznu	_	A.2 Underground landform[5]	_	_	_	
+5-4	508-510	je	_	_	_	_	_	
+5-5	511-519	zvonasto	_	A.2 Underground landform[6]	DEFINIENDUM[22]	_	_	
+5-6	520-526	brezno	_	A.2 Underground landform[6]	DEFINIENDUM[22]	_	_	
+5-7	526-527	,	_	_	_	_	_	
+5-8	528-530	ki	_	_	_	HAS\_FORM[37]	_	
+5-9	531-533	se	_	_	_	HAS\_FORM[37]	_	
+5-10	534-538	širi	_	_	_	HAS\_FORM[37]	_	
+5-11	539-546	navzdol	_	_	_	HAS\_FORM[37]	_	
+5-12	546-547	.	_	_	_	_	_	
+
+#Text=Ameriška kraška terminologija Monroe, 1970 definira vrtačo kot kotlasto ali lijakasto kotanjo v apnencu, s premerom do enega kilometra širine in globino od nekaj do več sto metrov.
+6-1	548-556	Ameriška	_	_	_	_	_	
+6-2	557-563	kraška	_	_	_	_	_	
+6-3	564-577	terminologija	_	_	_	_	_	
+6-4	578-584	Monroe	_	_	_	_	_	
+6-5	584-585	,	_	_	_	_	_	
+6-6	586-590	1970	_	_	_	_	_	
+6-7	591-599	definira	_	_	DEFINITOR	_	_	
+6-8	600-606	vrtačo	_	A.1 Surface landform	DEFINIENDUM	_	_	
+6-9	607-610	kot	_	_	DEFINITOR	_	_	
+6-10	611-619	kotlasto	kotlasta kotanja	D.1 Abiotic	_	HAS\_FORM[38]	_	
+6-11	620-623	ali	_	_	_	HAS\_FORM[38]	_	
+6-12	624-633	lijakasto	_	D.1 Abiotic[7]	_	HAS\_FORM[38]	_	
+6-13	634-641	kotanjo	_	D.1 Abiotic[7]	GENUS	_	_	
+6-14	642-643	v	_	_	_	COMPOSITION\_MEDIUM[39]	frame\_COMPOSITION	
+6-15	644-651	apnencu	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[39]	_	
+6-16	651-652	,	_	_	_	_	_	
+6-17	653-654	s	_	_	_	HAS\_SIZE[40]	frame\_SIZE[51]	
+6-18	655-663	premerom	_	_	_	HAS\_SIZE[40]	frame\_SIZE[51]	
+6-19	664-666	do	_	_	_	HAS\_SIZE[40]	_	
+6-20	667-672	enega	_	_	_	HAS\_SIZE[40]	_	
+6-21	673-682	kilometra	_	_	_	HAS\_SIZE[40]	_	
+6-22	683-689	širine	_	D.3 Property	_	HAS\_SIZE[40]	_	
+6-23	690-692	in	_	_	_	HAS\_SIZE[40]	_	
+6-24	693-700	globino	_	D.3 Property	_	HAS\_SIZE[40]	_	
+6-25	701-703	od	_	_	_	HAS\_SIZE[40]	_	
+6-26	704-709	nekaj	_	_	_	HAS\_SIZE[40]	_	
+6-27	710-712	do	_	_	_	HAS\_SIZE[40]	_	
+6-28	713-716	več	_	_	_	HAS\_SIZE[40]	_	
+6-29	717-720	sto	_	_	_	HAS\_SIZE[40]	_	
+6-30	721-727	metrov	_	_	_	HAS\_SIZE[40]	_	
+6-31	727-728	.	_	_	_	_	_	
+
+#Text=Umetno mlako so imenovali kal, ponekod tudi lokev ali lokva.
+7-1	729-735	Umetno	_	D.1 Abiotic[8]	GENUS[23]	_	_	
+7-2	736-741	mlako	_	D.1 Abiotic[8]	GENUS[23]	_	_	
+7-3	742-744	so	_	_	DEFINITOR[24]	_	_	
+7-4	745-754	imenovali	_	_	DEFINITOR[24]	_	_	
+7-5	755-758	kal	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-6	758-759	,	_	_	_	_	_	
+7-7	760-767	ponekod	_	_	_	_	_	
+7-8	768-772	tudi	_	_	_	_	_	
+7-9	773-778	lokev	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-10	779-782	ali	_	_	_	_	_	
+7-11	783-788	lokva	_	D.1 Abiotic	DEFINIENDUM	_	_	
+7-12	788-789	.	_	_	_	_	_	
+
+#Text=Zgornja meja epifreatične cone je piezometrična gladina katastrofalno visoke vode, spodnjo pa določa gladina vode ob izredni suši.
+8-1	790-797	Zgornja	_	_	GENUS[25]	_	_	
+8-2	798-802	meja	_	_	GENUS[25]	_	_	
+8-3	803-815	epifreatične	_	C. Geome[9]	_	_	_	
+8-4	816-820	cone	_	C. Geome[9]	_	_	_	
+8-5	821-823	je	_	_	DEFINITOR	_	_	
+8-6	824-837	piezometrična	_	D.3 Property[10]	DEFINIENDUM[26]	_	_	
+8-7	838-845	gladina	_	D.3 Property[10]	DEFINIENDUM[26]	_	_	
+8-8	846-859	katastrofalno	_	_	_	MEASURES[41]	_	
+8-9	860-866	visoke	_	_	_	MEASURES[41]	_	
+8-10	867-871	vode	_	D.1 Abiotic	_	MEASURES[41]	_	
+8-11	871-872	,	_	_	_	_	_	
+8-12	873-880	spodnjo	_	_	_	MEASURES[42]	_	
+8-13	881-883	pa	_	_	_	MEASURES[42]	_	
+8-14	884-890	določa	_	_	_	MEASURES[42]	frame\_MEASURES	
+8-15	891-898	gladina	_	D.3 Property[11]	_	MEASURES[42]	_	
+8-16	899-903	vode	_	D.3 Property[11]	_	MEASURES[42]	_	
+8-17	904-906	ob	_	_	_	MEASURES[42]	_	
+8-18	907-914	izredni	_	_	_	MEASURES[42]	_	
+8-19	915-919	suši	_	_	_	MEASURES[42]	_	
+8-20	919-920	.	_	_	_	_	_	
+
+#Text=Pas med najvišjo in najnižjo piezometrično vodno gladino imenujemo epifreatična cona.
+9-1	921-924	Pas	_	_	GENUS	DEFINED\_AS[43]	_	
+9-2	925-928	med	_	_	_	DEFINED\_AS[43]	_	
+9-3	929-937	najvišjo	_	_	_	DEFINED\_AS[43]	_	
+9-4	938-940	in	_	_	_	DEFINED\_AS[43]	_	
+9-5	941-949	najnižjo	_	_	_	DEFINED\_AS[43]	_	
+9-6	950-963	piezometrično	_	_	_	DEFINED\_AS[43]	_	
+9-7	964-969	vodno	_	_	_	DEFINED\_AS[43]	_	
+9-8	970-977	gladino	_	_	_	DEFINED\_AS[43]	_	
+9-9	978-987	imenujemo	_	_	DEFINITOR	_	_	
+9-10	988-1000	epifreatična	_	C. Geome[12]	DEFINIENDUM[27]	_	_	
+9-11	1001-1005	cona	_	C. Geome[12]	DEFINIENDUM[27]	_	_	
+9-12	1005-1006	.	_	_	_	_	_	
+
+#Text=Kontaktni kras je območje aktivnega hidrološkega stika med fluvialnim in kraškim geomorfnim sistemom.
+10-1	1007-1016	Kontaktni	_	C. Geome[13]	DEFINIENDUM[28]	_	_	
+10-2	1017-1021	kras	_	C. Geome[13]	DEFINIENDUM[28]	_	_	
+10-3	1022-1024	je	_	_	DEFINITOR	HAS\_LOCATION[44]	_	
+10-4	1025-1032	območje	_	_	GENUS	HAS\_LOCATION[44]	_	
+10-5	1033-1042	aktivnega	_	_	_	HAS\_LOCATION[44]	_	
+10-6	1043-1055	hidrološkega	_	_	_	HAS\_LOCATION[44]	_	
+10-7	1056-1061	stika	_	_	_	HAS\_LOCATION[44]	_	
+10-8	1062-1065	med	_	_	_	HAS\_LOCATION[44]	_	
+10-9	1066-1076	fluvialnim	fluvialni geomorfni sistem	C. Geome	_	HAS\_LOCATION[44]	_	
+10-10	1077-1079	in	_	_	_	HAS\_LOCATION[44]	_	
+10-11	1080-1087	kraškim	_	C. Geome[14]	_	HAS\_LOCATION[44]	_	
+10-12	1088-1098	geomorfnim	_	C. Geome[14]	_	HAS\_LOCATION[44]	_	
+10-13	1099-1107	sistemom	_	C. Geome[14]	_	HAS\_LOCATION[44]	_	
+10-14	1107-1108	.	_	_	_	_	_	
+
+#Text=Rezultat parageneze so daljše vodoravne jame približno na višini gladine podzemne vode.
+11-1	1109-1117	Rezultat	_	_	_	HAS\_CAUSE[45]	frame\_CAUSE	
+11-2	1118-1128	parageneze	_	B. Process	_	HAS\_CAUSE[45]	_	
+11-3	1129-1131	so	_	_	_	HAS\_CAUSE[45]	_	
+11-4	1132-1138	daljše	_	_	_	HAS\_FORM	_	
+11-5	1139-1148	vodoravne	_	A.2 Underground landform[15]	_	HAS\_FORM	_	
+11-6	1149-1153	jame	_	A.2 Underground landform[15]|A.2 Underground landform[16]	_	_	_	
+11-7	1154-1163	približno	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION[52]	
+11-8	1164-1166	na	_	_	_	HAS\_LOCATION[46]	frame\_LOCATION[52]	
+11-9	1167-1173	višini	_	_	_	HAS\_LOCATION[46]	_	
+11-10	1174-1181	gladine	_	_	_	HAS\_LOCATION[46]	_	
+11-11	1182-1190	podzemne	_	_	_	HAS\_LOCATION[46]	_	
+11-12	1191-1195	vode	_	_	_	HAS\_LOCATION[46]	_	
+11-13	1195-1196	.	_	_	_	_	_	
+
+#Text=Siga je kemična usedlina.
+12-1	1197-1201	Siga	_	A.2 Underground landform	DEFINIENDUM	_	_	
+12-2	1202-1204	je	_	_	DEFINITOR	_	_	
+12-3	1205-1212	kemična	_	_	GENUS[29]	_	_	
+12-4	1213-1221	usedlina	_	D.1 Abiotic	GENUS[29]	_	_	
+12-5	1221-1222	.	_	_	_	_	_	
+
+#Text=Ponvice so pregrade iz kalcijevega karbonata, velike od nekaj milimetrov do nekaj metrov.
+13-1	1223-1230	Ponvice	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-2	1231-1233	so	_	_	DEFINITOR	_	_	
+13-3	1234-1242	pregrade	_	D.1 Abiotic	GENUS	_	_	
+13-4	1243-1245	iz	_	_	_	COMPOSITION\_MEDIUM[47]	frame\_COMPOSITION	
+13-5	1246-1257	kalcijevega	_	D.1 Abiotic[17]	_	COMPOSITION\_MEDIUM[47]	_	
+13-6	1258-1267	karbonata	_	D.1 Abiotic[17]	_	COMPOSITION\_MEDIUM[47]	_	
+13-7	1267-1268	,	_	_	_	_	_	
+13-8	1269-1275	velike	_	_	_	HAS\_SIZE[48]	frame\_SIZE	
+13-9	1276-1278	od	_	_	_	HAS\_SIZE[48]	_	
+13-10	1279-1284	nekaj	_	_	_	HAS\_SIZE[48]	_	
+13-11	1285-1295	milimetrov	_	_	_	HAS\_SIZE[48]	_	
+13-12	1296-1298	do	_	_	_	HAS\_SIZE[48]	_	
+13-13	1299-1304	nekaj	_	_	_	HAS\_SIZE[48]	_	
+13-14	1305-1311	metrov	_	_	_	HAS\_SIZE[48]	_	
+13-15	1311-1312	.	_	_	_	_	_	
+
+#Text=Radon (Rn) je radioaktivni žlahtni plin brez vonja in barve.
+14-1	1313-1318	Radon	_	D.1 Abiotic	DEFINIENDUM	_	_	
+14-2	1319-1320	(	_	_	_	_	_	
+14-3	1320-1322	Rn	_	_	_	_	_	
+14-4	1322-1323	)	_	_	_	_	_	
+14-5	1324-1326	je	_	_	DEFINITOR	_	_	
+14-6	1327-1339	radioaktivni	_	D.1 Abiotic[18]	_	_	_	
+14-7	1340-1347	žlahtni	_	D.1 Abiotic[18]|D.1 Abiotic[19]	_	_	_	
+14-8	1348-1352	plin	_	D.1 Abiotic[18]|D.1 Abiotic[19]	GENUS	_	_	
+14-9	1353-1357	brez	_	_	_	HAS\_ATTRIBUTE[49]	frame\_ATTRIBUTE	
+14-10	1358-1363	vonja	_	D.3 Property	_	HAS\_ATTRIBUTE[49]	_	
+14-11	1364-1366	in	_	_	_	HAS\_ATTRIBUTE[49]	_	
+14-12	1367-1372	barve	_	D.3 Property	_	HAS\_ATTRIBUTE[49]	_	
+14-13	1372-1373	.	_	_	_	_	_	
+
+#Text=Speleogeneza je proces nastajanja, razvoja in izginjanja jam.
+15-1	1374-1386	Speleogeneza	_	B. Process	DEFINIENDUM	_	_	
+15-2	1387-1389	je	_	_	DEFINITOR	DEFINED\_AS[50]	_	
+15-3	1390-1396	proces	_	_	GENUS	DEFINED\_AS[50]	_	
+15-4	1397-1407	nastajanja	nastajanje jam	B.3 Addition	SPECIES	DEFINED\_AS[50]	_	
+15-5	1407-1408	,	_	_	_	DEFINED\_AS[50]	_	
+15-6	1409-1416	razvoja	razvoj jam	B.4 Transformation	SPECIES	DEFINED\_AS[50]	_	
+15-7	1417-1419	in	_	_	_	DEFINED\_AS[50]	_	
+15-8	1420-1430	izginjanja	_	B.2 Loss	SPECIES[30]	DEFINED\_AS[50]	_	
+15-9	1431-1434	jam	_	A.2 Underground landform	SPECIES[30]	DEFINED\_AS[50]	_	
+15-10	1434-1435	.	_	_	_	_	_	

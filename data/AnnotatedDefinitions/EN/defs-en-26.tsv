@@ -1,0 +1,339 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=helictite - a speleothem, which at one or more stages of its growth changes its axis from the vertical to give a curving or angular form.
+1-1	0-9	helictite	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-2	10-11	-	_	_	_	_	_	
+1-3	12-13	a	_	_	_	_	_	
+1-4	14-24	speleothem	_	A.2 Underground landform	GENUS	_	_	
+1-5	24-25	,	_	_	_	_	_	
+1-6	26-31	which	_	_	_	OCCURS\_IN\_TIME[27]	_	
+1-7	32-34	at	_	_	_	OCCURS\_IN\_TIME[27]	frame\_TIME[53]	
+1-8	35-38	one	_	_	_	OCCURS\_IN\_TIME[27]	frame\_TIME[53]	
+1-9	39-41	or	_	_	_	OCCURS\_IN\_TIME[27]	frame\_TIME[53]	
+1-10	42-46	more	_	_	_	OCCURS\_IN\_TIME[27]	frame\_TIME[53]	
+1-11	47-53	stages	_	_	_	OCCURS\_IN\_TIME[27]	frame\_TIME[53]	
+1-12	54-56	of	_	_	_	OCCURS\_IN\_TIME[27]	frame\_TIME[53]	
+1-13	57-60	its	_	_	_	OCCURS\_IN\_TIME[27]	_	
+1-14	61-67	growth	_	B.3 Addition	_	OCCURS\_IN\_TIME[27]	_	
+1-15	68-75	changes	_	_	_	OCCURS\_IN\_TIME[27]	_	
+1-16	76-79	its	_	_	_	OCCURS\_IN\_TIME[27]	_	
+1-17	80-84	axis	_	D.3 Property	_	OCCURS\_IN\_TIME[27]	_	
+1-18	85-89	from	_	_	_	OCCURS\_IN\_TIME[27]	_	
+1-19	90-93	the	_	_	_	OCCURS\_IN\_TIME[27]	_	
+1-20	94-102	vertical	_	_	_	OCCURS\_IN\_TIME[27]	_	
+1-21	103-105	to	_	_	_	HAS\_FORM[28]	_	
+1-22	106-110	give	_	_	_	HAS\_FORM[28]	_	
+1-23	111-112	a	_	_	_	HAS\_FORM[28]	_	
+1-24	113-120	curving	_	_	_	HAS\_FORM[28]	_	
+1-25	121-123	or	_	_	_	HAS\_FORM[28]	_	
+1-26	124-131	angular	_	_	_	HAS\_FORM[28]	_	
+1-27	132-136	form	_	_	_	HAS\_FORM[28]	_	
+1-28	136-137	.	_	_	_	_	_	
+
+#Text=hydrology - the scientific study of the nature, distribution and behaviour of water.
+2-1	141-150	hydrology	_	E.2 Method	DEFINIENDUM	_	_	
+2-2	151-152	-	_	_	_	_	_	
+2-3	153-156	the	_	_	_	_	_	
+2-4	157-167	scientific	_	E.2 Method[1]	GENUS[14]	DEFINED\_AS[29]	_	
+2-5	168-173	study	_	E.2 Method[1]	GENUS[14]	DEFINED\_AS[29]	_	
+2-6	174-176	of	_	_	_	DEFINED\_AS[29]	_	
+2-7	177-180	the	_	_	_	DEFINED\_AS[29]	_	
+2-8	181-187	nature	_	_	_	DEFINED\_AS[29]	_	
+2-9	187-188	,	_	_	_	DEFINED\_AS[29]	_	
+2-10	189-201	distribution	_	_	_	DEFINED\_AS[29]	_	
+2-11	202-205	and	_	_	_	DEFINED\_AS[29]	_	
+2-12	206-215	behaviour	_	_	_	DEFINED\_AS[29]	_	
+2-13	216-218	of	_	_	_	DEFINED\_AS[29]	_	
+2-14	219-224	water	_	D.1 Abiotic	_	DEFINED\_AS[29]	_	
+2-15	224-225	.	_	_	_	_	_	
+
+#Text=ice cave - a cave with perennial ice in it.
+3-1	229-232	ice	_	A.2 Underground landform[2]	DEFINIENDUM[15]	_	_	
+3-2	233-237	cave	_	A.2 Underground landform[2]	DEFINIENDUM[15]	_	_	
+3-3	238-239	-	_	_	_	_	_	
+3-4	240-241	a	_	_	_	_	_	
+3-5	242-246	cave	_	A.2 Underground landform	GENUS	_	_	
+3-6	247-251	with	_	_	_	CONTAINS[30]	frame\_CONTAINS	
+3-7	252-261	perennial	_	_	_	CONTAINS[30]	_	
+3-8	262-265	ice	_	D.1 Abiotic	_	CONTAINS[30]	_	
+3-9	266-268	in	_	_	_	CONTAINS[30]	frame\_CONTAINS[54]	
+3-10	269-271	it	_	_	_	CONTAINS[30]	frame\_CONTAINS[54]	
+3-11	271-272	.	_	_	_	_	_	
+
+#Text=inflow cave - a cave into which a stream enters or is known to have entered formerly but which cannot be followed downstream to the surface.
+4-1	276-282	inflow	_	A.3 Hydrological form[3]	DEFINIENDUM[16]	_	_	
+4-2	283-287	cave	_	A.3 Hydrological form[3]	DEFINIENDUM[16]	_	_	
+4-3	288-289	-	_	_	_	_	_	
+4-4	290-291	a	_	_	_	_	_	
+4-5	292-296	cave	_	A.2 Underground landform	GENUS	_	_	
+4-6	297-301	into	_	_	_	HAS\_FUNCTION[31]	_	
+4-7	302-307	which	_	_	_	HAS\_FUNCTION[31]	_	
+4-8	308-309	a	_	_	_	HAS\_FUNCTION[31]	_	
+4-9	310-316	stream	_	D.1 Abiotic	_	HAS\_FUNCTION[31]	_	
+4-10	317-323	enters	_	_	_	HAS\_FUNCTION[31]	_	
+4-11	324-326	or	_	_	_	HAS\_FUNCTION[31]	_	
+4-12	327-329	is	_	_	_	HAS\_FUNCTION[31]	_	
+4-13	330-335	known	_	_	_	HAS\_FUNCTION[31]	_	
+4-14	336-338	to	_	_	_	HAS\_FUNCTION[31]	_	
+4-15	339-343	have	_	_	_	HAS\_FUNCTION[31]	_	
+4-16	344-351	entered	_	_	_	HAS\_FUNCTION[31]	_	
+4-17	352-360	formerly	_	_	_	HAS\_FUNCTION[31]	_	
+4-18	361-364	but	_	_	_	_	_	
+4-19	365-370	which	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-20	371-377	cannot	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-21	378-380	be	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-22	381-389	followed	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-23	390-400	downstream	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-24	401-403	to	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-25	404-407	the	_	_	_	HAS\_ATTRIBUTE[32]	_	
+4-26	408-415	surface	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[32]	_	
+4-27	415-416	.	_	_	_	_	_	
+
+#Text=karren - the minor forms of karst as a result of solution of rock on the surface or underground.
+5-1	420-426	karren	_	_	DEFINIENDUM	_	_	
+5-2	427-428	-	_	_	_	_	_	
+5-3	429-432	the	_	_	GENUS[17]	_	_	
+5-4	433-438	minor	_	_	GENUS[17]	_	_	
+5-5	439-444	forms	_	_	GENUS[17]	_	_	
+5-6	445-447	of	_	_	GENUS[17]	_	_	
+5-7	448-453	karst	_	C. Geome	GENUS[17]	_	_	
+5-8	454-456	as	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[55]	
+5-9	457-458	a	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[55]	
+5-10	459-465	result	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[55]	
+5-11	466-468	of	_	_	_	HAS\_CAUSE[33]	frame\_CAUSE[55]	
+5-12	469-477	solution	_	B.2 Loss	_	HAS\_CAUSE[33]	_	
+5-13	478-480	of	_	_	_	HAS\_CAUSE[33]	_	
+5-14	481-485	rock	_	D.1 Abiotic	_	HAS\_CAUSE[33]	_	
+5-15	486-488	on	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION[56]	
+5-16	489-492	the	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION[56]	
+5-17	493-500	surface	_	D.1 Abiotic	_	HAS\_LOCATION[34]	_	
+5-18	501-503	or	_	_	_	HAS\_LOCATION[34]	_	
+5-19	504-515	underground	_	_	_	HAS\_LOCATION[34]	_	
+5-20	515-516	.	_	_	_	_	_	
+
+#Text=karst - tereain with special landforms and drainage characteristics on account of greater solubility of certain rocks in natural waters than is common.
+6-1	520-525	karst	_	C. Geome	DEFINIENDUM	_	_	
+6-2	526-527	-	_	_	_	_	_	
+6-3	528-535	tereain	terrain	D.1 Abiotic	GENUS	_	_	
+6-4	536-540	with	_	_	_	CONTAINS[35]	_	
+6-5	541-548	special	_	_	_	CONTAINS[35]	_	
+6-6	549-558	landforms	_	D.1 Abiotic	_	CONTAINS[35]	_	
+6-7	559-562	and	_	_	_	CONTAINS[35]	_	
+6-8	563-571	drainage	_	D.3 Property	_	CONTAINS[35]	_	
+6-9	572-587	characteristics	_	_	_	CONTAINS[35]	_	
+6-10	588-590	on	_	_	_	HAS\_CAUSE[36]	frame\_CAUSE[57]	
+6-11	591-598	account	_	_	_	HAS\_CAUSE[36]	frame\_CAUSE[57]	
+6-12	599-601	of	_	_	_	HAS\_CAUSE[36]	frame\_CAUSE[57]	
+6-13	602-609	greater	_	_	_	HAS\_CAUSE[36]	_	
+6-14	610-620	solubility	_	D.3 Property	_	HAS\_CAUSE[36]	_	
+6-15	621-623	of	_	_	_	HAS\_CAUSE[36]	_	
+6-16	624-631	certain	_	_	_	HAS\_CAUSE[36]	_	
+6-17	632-637	rocks	_	_	_	HAS\_CAUSE[36]	_	
+6-18	638-640	in	_	_	_	HAS\_CAUSE[36]	_	
+6-19	641-648	natural	_	_	_	HAS\_CAUSE[36]	_	
+6-20	649-655	waters	_	_	_	HAS\_CAUSE[36]	_	
+6-21	656-660	than	_	_	_	HAS\_CAUSE[36]	_	
+6-22	661-663	is	_	_	_	HAS\_CAUSE[36]	_	
+6-23	664-670	common	_	_	_	HAS\_CAUSE[36]	_	
+6-24	670-671	.	_	_	_	_	_	
+
+#Text=karst window - a dosed depression, not a polje, which has a stream flowing across its bottom.
+7-1	675-680	karst	_	A.1 Surface landform[4]	DEFINIENDUM[18]	_	_	
+7-2	681-687	window	_	A.1 Surface landform[4]	DEFINIENDUM[18]	_	_	
+7-3	688-689	-	_	_	_	_	_	
+7-4	690-691	a	_	_	_	_	_	
+7-5	692-697	dosed	_	_	_	HAS\_FORM	_	
+7-6	698-708	depression	_	D.1 Abiotic	GENUS	_	_	
+7-7	708-709	,	_	_	_	_	_	
+7-8	710-713	not	_	_	_	_	_	
+7-9	714-715	a	_	_	_	_	_	
+7-10	716-721	polje	_	A.1 Surface landform	_	_	_	
+7-11	721-722	,	_	_	_	_	_	
+7-12	723-728	which	_	_	_	CONTAINS[37]	frame\_CONTAINS[58]	
+7-13	729-732	has	_	_	_	CONTAINS[37]	frame\_CONTAINS[58]	
+7-14	733-734	a	_	_	_	CONTAINS[37]	frame\_CONTAINS[58]	
+7-15	735-741	stream	_	D.1 Abiotic	_	CONTAINS[37]	_	
+7-16	742-749	flowing	_	_	_	CONTAINS[37]	_	
+7-17	750-756	across	_	_	_	CONTAINS[37]	_	
+7-18	757-760	its	_	_	_	CONTAINS[37]	_	
+7-19	761-767	bottom	_	_	_	CONTAINS[37]	_	
+7-20	767-768	.	_	_	_	_	_	
+
+#Text=keyhole - a small passage or opening in a cave, which is round above and narrow below.
+8-1	772-779	keyhole	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	780-781	-	_	_	_	_	_	
+8-3	782-783	a	_	_	_	_	_	
+8-4	784-789	small	_	_	_	HAS\_SIZE	_	
+8-5	790-797	passage	_	D.1 Abiotic	GENUS[19]	_	_	
+8-6	798-800	or	_	_	GENUS[19]	_	_	
+8-7	801-808	opening	_	D.1 Abiotic	GENUS[19]	_	_	
+8-8	809-811	in	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[59]	
+8-9	812-813	a	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION[59]	
+8-10	814-818	cave	_	A.2 Underground landform	_	HAS\_LOCATION[38]	_	
+8-11	818-819	,	_	_	_	_	_	
+8-12	820-825	which	_	_	_	HAS\_FORM[39]	frame\_FORM[60]	
+8-13	826-828	is	_	_	_	HAS\_FORM[39]	frame\_FORM[60]	
+8-14	829-834	round	_	_	_	HAS\_FORM[39]	_	
+8-15	835-840	above	_	_	_	HAS\_FORM[39]	_	
+8-16	841-844	and	_	_	_	HAS\_FORM[39]	_	
+8-17	845-851	narrow	_	_	_	HAS\_FORM[39]	_	
+8-18	852-857	below	_	_	_	HAS\_FORM[39]	_	
+8-19	857-858	.	_	_	_	_	_	
+
+#Text=lava-cave - a cave in a lava flow; usually a tube or tunnel formed by flow of liquid lava through a solidified mass, or by roofing of an open channel of flowing lava.
+9-1	862-871	lava-cave	_	A.2 Underground landform	DEFINIENDUM	_	_	
+9-2	872-873	-	_	_	_	_	_	
+9-3	874-875	a	_	_	_	_	_	
+9-4	876-880	cave	_	A.2 Underground landform	GENUS	_	_	
+9-5	881-883	in	_	_	_	HAS\_LOCATION[40]	frame\_LOCATION[61]	
+9-6	884-885	a	_	_	_	HAS\_LOCATION[40]	frame\_LOCATION[61]	
+9-7	886-890	lava	_	D.1 Abiotic[5]	_	HAS\_LOCATION[40]	_	
+9-8	891-895	flow	_	D.1 Abiotic[5]	_	HAS\_LOCATION[40]	_	
+9-9	895-896	;	_	_	_	_	_	
+9-10	897-904	usually	_	_	_	HAS\_FORM[41]	_	
+9-11	905-906	a	_	_	_	HAS\_FORM[41]	_	
+9-12	907-911	tube	_	D.1 Abiotic	_	HAS\_FORM[41]	_	
+9-13	912-914	or	_	_	_	HAS\_FORM[41]	_	
+9-14	915-921	tunnel	_	D.1 Abiotic	_	HAS\_FORM[41]	_	
+9-15	922-928	formed	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[62]	
+9-16	929-931	by	_	_	_	HAS\_CAUSE[42]	frame\_CAUSE[62]	
+9-17	932-936	flow	_	D.3 Property[6]	_	HAS\_CAUSE[42]	_	
+9-18	937-939	of	_	D.3 Property[6]	_	HAS\_CAUSE[42]	_	
+9-19	940-946	liquid	_	D.3 Property[6]	_	HAS\_CAUSE[42]	_	
+9-20	947-951	lava	_	D.3 Property[6]	_	HAS\_CAUSE[42]	_	
+9-21	952-959	through	_	_	_	HAS\_CAUSE[42]	_	
+9-22	960-961	a	_	_	_	HAS\_CAUSE[42]	_	
+9-23	962-972	solidified	_	_	_	HAS\_CAUSE[42]	_	
+9-24	973-977	mass	_	_	_	HAS\_CAUSE[42]	_	
+9-25	977-978	,	_	_	_	_	_	
+9-26	979-981	or	_	_	_	_	_	
+9-27	982-984	by	_	_	_	HAS\_CAUSE[43]	_	
+9-28	985-992	roofing	_	B. Process	_	HAS\_CAUSE[43]	_	
+9-29	993-995	of	_	_	_	HAS\_CAUSE[43]	_	
+9-30	996-998	an	_	_	_	HAS\_CAUSE[43]	_	
+9-31	999-1003	open	_	D.1 Abiotic[7]	_	HAS\_CAUSE[43]	_	
+9-32	1004-1011	channel	_	D.1 Abiotic[7]	_	HAS\_CAUSE[43]	_	
+9-33	1012-1014	of	_	_	_	HAS\_CAUSE[43]	_	
+9-34	1015-1022	flowing	_	_	_	HAS\_CAUSE[43]	_	
+9-35	1023-1027	lava	_	D.1 Abiotic	_	HAS\_CAUSE[43]	_	
+9-36	1027-1028	.	_	_	_	_	_	
+
+#Text=limestone - a sedimentary rock consisting mainly of calcium carbonate cac03•
+10-1	1032-1041	limestone	_	D.1 Abiotic	DEFINIENDUM	_	_	
+10-2	1042-1043	-	_	_	_	_	_	
+10-3	1044-1045	a	_	_	_	_	_	
+10-4	1046-1057	sedimentary	_	D.1 Abiotic[8]	GENUS[20]	_	_	
+10-5	1058-1062	rock	_	D.1 Abiotic[8]	GENUS[20]	_	_	
+10-6	1063-1073	consisting	_	_	_	COMPOSITION\_MEDIUM[44]	frame\_COMPOSITION[63]	
+10-7	1074-1080	mainly	_	_	_	COMPOSITION\_MEDIUM[44]	frame\_COMPOSITION[63]	
+10-8	1081-1083	of	_	_	_	COMPOSITION\_MEDIUM[44]	frame\_COMPOSITION[63]	
+10-9	1084-1091	calcium	_	D.1 Abiotic[9]	_	COMPOSITION\_MEDIUM[44]	_	
+10-10	1092-1101	carbonate	_	D.1 Abiotic[9]	_	COMPOSITION\_MEDIUM[44]	_	
+10-11	1102-1107	cac03	_	_	_	_	_	
+10-12	1107-1108	•	_	_	_	_	_	
+
+#Text=live cave - a cave containing a stream or active speleothems.marble limestone recrystallized and hardened by pressure and heat.
+11-1	1112-1116	live	_	A.2 Underground landform[10]	DEFINIENDUM[21]	_	_	
+11-2	1117-1121	cave	_	A.2 Underground landform[10]	DEFINIENDUM[21]	_	_	
+11-3	1122-1123	-	_	_	_	_	_	
+11-4	1124-1125	a	_	_	_	_	_	
+11-5	1126-1130	cave	_	A.2 Underground landform	GENUS	_	_	
+11-6	1131-1141	containing	_	_	_	CONTAINS[45]	frame\_CONTAINS[64]	
+11-7	1142-1143	a	_	_	_	CONTAINS[45]	frame\_CONTAINS[64]	
+11-8	1144-1150	stream	_	D.1 Abiotic	_	CONTAINS[45]	_	
+11-9	1151-1153	or	_	_	_	CONTAINS[45]	_	
+11-10	1154-1160	active	_	_	_	CONTAINS[45]	_	
+11-11	1161-1179	speleothems.marble	_	_	_	CONTAINS[45]	_	
+11-12	1180-1189	limestone	_	_	_	_	_	
+11-13	1190-1204	recrystallized	_	_	_	_	_	
+11-14	1205-1208	and	_	_	_	_	_	
+11-15	1209-1217	hardened	_	_	_	_	_	
+11-16	1218-1220	by	_	_	_	_	_	
+11-17	1221-1229	pressure	_	_	_	_	_	
+11-18	1230-1233	and	_	_	_	_	_	
+11-19	1234-1238	heat	_	_	_	_	_	
+11-20	1238-1239	.	_	_	_	_	_	
+
+#Text=meander niche - a hemispherically roofed part of a cave formed by a stream meandering and cutting down at the same time.
+12-1	1243-1250	meander	_	A.2 Underground landform[11]	DEFINIENDUM[22]	_	_	
+12-2	1251-1256	niche	_	A.2 Underground landform[11]	DEFINIENDUM[22]	_	_	
+12-3	1257-1258	-	_	_	_	_	_	
+12-4	1259-1260	a	_	_	_	_	_	
+12-5	1261-1276	hemispherically	_	_	_	HAS\_FORM[46]	_	
+12-6	1277-1283	roofed	_	_	_	HAS\_FORM[46]	_	
+12-7	1284-1288	part	_	_	GENUS[23]	HAS\_FORM[46]	_	
+12-8	1289-1291	of	_	_	GENUS[23]	HAS\_FORM[46]	_	
+12-9	1292-1293	a	_	_	GENUS[23]	HAS\_FORM[46]	_	
+12-10	1294-1298	cave	_	A.2 Underground landform	GENUS[23]	HAS\_FORM[46]	_	
+12-11	1299-1305	formed	_	_	_	HAS\_CAUSE[47]	frame\_CAUSE[65]	
+12-12	1306-1308	by	_	_	_	HAS\_CAUSE[47]	frame\_CAUSE[65]	
+12-13	1309-1310	a	_	_	_	HAS\_CAUSE[47]	_	
+12-14	1311-1317	stream	_	D.1 Abiotic	_	HAS\_CAUSE[47]	_	
+12-15	1318-1328	meandering	_	_	_	HAS\_CAUSE[47]	_	
+12-16	1329-1332	and	_	_	_	HAS\_CAUSE[47]	_	
+12-17	1333-1340	cutting	_	_	_	HAS\_CAUSE[47]	_	
+12-18	1341-1345	down	_	_	_	HAS\_CAUSE[47]	_	
+12-19	1346-1348	at	_	_	_	HAS\_CAUSE[47]	_	
+12-20	1349-1352	the	_	_	_	HAS\_CAUSE[47]	_	
+12-21	1353-1357	same	_	_	_	HAS\_CAUSE[47]	_	
+12-22	1358-1362	time	_	_	_	HAS\_CAUSE[47]	_	
+12-23	1362-1363	.	_	_	_	_	_	
+
+#Text=moonmilk - a soft, white plastic speleothem consisting of calcite, hydrocalcite, hydromagnesite or huntite.
+13-1	1367-1375	moonmilk	_	A.2 Underground landform	DEFINIENDUM	_	_	
+13-2	1376-1377	-	_	_	_	_	_	
+13-3	1378-1379	a	_	_	_	_	_	
+13-4	1380-1384	soft	_	_	_	HAS\_FORM[48]	_	
+13-5	1384-1385	,	_	_	_	HAS\_FORM[48]	_	
+13-6	1386-1391	white	_	_	_	HAS\_FORM[48]	_	
+13-7	1392-1399	plastic	_	_	_	HAS\_FORM[48]	_	
+13-8	1400-1410	speleothem	_	A.2 Underground landform	GENUS	_	_	
+13-9	1411-1421	consisting	_	_	_	COMPOSITION\_MEDIUM[49]	frame\_COMPOSITION[66]	
+13-10	1422-1424	of	_	_	_	COMPOSITION\_MEDIUM[49]	frame\_COMPOSITION[66]	
+13-11	1425-1432	calcite	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+13-12	1432-1433	,	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+13-13	1434-1446	hydrocalcite	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+13-14	1446-1447	,	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+13-15	1448-1462	hydromagnesite	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+13-16	1463-1465	or	_	_	_	COMPOSITION\_MEDIUM[49]	_	
+13-17	1466-1473	huntite	_	D.1 Abiotic	_	COMPOSITION\_MEDIUM[49]	_	
+13-18	1473-1474	.	_	_	_	_	_	
+
+#Text=natural arch - an arch of rock formed by weathering.
+14-1	1478-1485	natural	_	D.1 Abiotic[12]	DEFINIENDUM[24]	_	_	
+14-2	1486-1490	arch	_	D.1 Abiotic[12]	DEFINIENDUM[24]	_	_	
+14-3	1491-1492	-	_	_	_	_	_	
+14-4	1493-1495	an	_	_	_	_	_	
+14-5	1496-1500	arch	_	D.1 Abiotic	GENUS[25]	_	_	
+14-6	1501-1503	of	_	_	GENUS[25]	_	frame\_COMPOSITION	
+14-7	1504-1508	rock	_	D.1 Abiotic	GENUS[25]	_	_	
+14-8	1509-1515	formed	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[67]	
+14-9	1516-1518	by	_	_	_	HAS\_CAUSE[50]	frame\_CAUSE[67]	
+14-10	1519-1529	weathering	_	B.4 Transformation	_	HAS\_CAUSE[50]	_	
+14-11	1529-1530	.	_	_	_	_	_	
+
+#Text=natural bridge - a bridge of rock spanning a ravine or valley and formed by erosive agents.
+15-1	1534-1541	natural	_	D.1 Abiotic[13]	DEFINIENDUM[26]	_	_	
+15-2	1542-1548	bridge	_	D.1 Abiotic[13]	DEFINIENDUM[26]	_	_	
+15-3	1549-1550	-	_	_	_	_	_	
+15-4	1551-1552	a	_	_	_	_	_	
+15-5	1553-1559	bridge	_	D.1 Abiotic	GENUS	_	_	
+15-6	1560-1562	of	_	_	_	_	_	
+15-7	1563-1567	rock	_	D.1 Abiotic	_	_	_	
+15-8	1568-1576	spanning	_	_	_	HAS\_FORM[51]	frame\_FORM[68]	
+15-9	1577-1578	a	_	_	_	HAS\_FORM[51]	frame\_FORM[68]	
+15-10	1579-1585	ravine	_	D.1 Abiotic	_	HAS\_FORM[51]	_	
+15-11	1586-1588	or	_	_	_	HAS\_FORM[51]	_	
+15-12	1589-1595	valley	_	D.1 Abiotic	_	HAS\_FORM[51]	_	
+15-13	1596-1599	and	_	_	_	_	_	
+15-14	1600-1606	formed	_	_	_	HAS\_CAUSE[52]	frame\_CAUSE[69]	
+15-15	1607-1609	by	_	_	_	HAS\_CAUSE[52]	frame\_CAUSE[69]	
+15-16	1610-1617	erosive	_	_	_	HAS\_CAUSE[52]	_	
+15-17	1618-1624	agents	_	_	_	HAS\_CAUSE[52]	_	
+15-18	1624-1625	.	_	_	_	_	_	

@@ -1,0 +1,243 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=travertine - compact calcium carbonate deposit, often banded, precipitated from spring, river or lake water. cf. tufa.
+1-1	0-10	travertine	_	D.1 Abiotic	DEFINIENDUM	_	_	
+1-2	11-12	-	_	_	_	_	_	
+1-3	13-20	compact	_	_	_	HAS\_ATTRIBUTE	_	
+1-4	21-28	calcium	_	D.1 Abiotic[2]	_	COMPOSITION\_MEDIUM[24]	_	
+1-5	29-38	carbonate	_	D.1 Abiotic[2]	_	COMPOSITION\_MEDIUM[24]	_	
+1-6	39-46	deposit	_	D.1 Abiotic[2]	GENUS	_	_	
+1-7	46-47	,	_	_	_	_	_	
+1-8	48-53	often	_	_	_	_	_	
+1-9	54-60	banded	_	_	_	HAS\_FORM	_	
+1-10	60-61	,	_	_	_	_	_	
+1-11	62-74	precipitated	_	_	_	HAS\_CAUSE[25]	_	
+1-12	75-79	from	_	_	_	HAS\_CAUSE[25]	_	
+1-13	80-86	spring	spring water	D.1 Abiotic	_	HAS\_CAUSE[25]	_	
+1-14	86-87	,	_	_	_	HAS\_CAUSE[25]	_	
+1-15	88-93	river	river water	D.1 Abiotic	_	HAS\_CAUSE[25]	_	
+1-16	94-96	or	_	_	_	HAS\_CAUSE[25]	_	
+1-17	97-101	lake	_	D.1 Abiotic[3]	_	HAS\_CAUSE[25]	_	
+1-18	102-107	water	_	D.1 Abiotic[3]	_	HAS\_CAUSE[25]	_	
+1-19	107-108	.	_	_	_	_	_	
+1-20	109-111	cf	_	_	_	_	_	
+1-21	111-112	.	_	_	_	_	_	
+1-22	113-117	tufa	_	D.1 Abiotic	_	_	_	
+1-23	117-118	.	_	_	_	_	_	
+
+#Text=tube - a cave passage of smooth surface, and elliptical or nearly circular in cross-section.
+2-1	122-126	tube	_	A.2 Underground landform	DEFINIENDUM	_	_	
+2-2	127-128	-	_	_	_	_	_	
+2-3	129-130	a	_	_	_	_	_	
+2-4	131-135	cave	_	A.2 Underground landform[4]	GENUS[17]	_	_	
+2-5	136-143	passage	_	A.2 Underground landform[4]	GENUS[17]	_	_	
+2-6	144-146	of	_	_	_	HAS\_FORM[26]	_	
+2-7	147-153	smooth	_	_	_	HAS\_FORM[26]	_	
+2-8	154-161	surface	_	D.1 Abiotic	_	HAS\_FORM[26]	_	
+2-9	161-162	,	_	_	_	_	_	
+2-10	163-166	and	_	_	_	_	_	
+2-11	167-177	elliptical	_	_	_	HAS\_FORM[27]	_	
+2-12	178-180	or	_	_	_	HAS\_FORM[27]	_	
+2-13	181-187	nearly	_	_	_	HAS\_FORM[27]	_	
+2-14	188-196	circular	_	_	_	HAS\_FORM[27]	_	
+2-15	197-199	in	_	_	_	HAS\_FORM[27]	_	
+2-16	200-213	cross-section	_	_	_	HAS\_FORM[27]	_	
+2-17	213-214	.	_	_	_	_	_	
+
+#Text=tufa - spongy or vesicular calcium carbonate deposited from spring, river or lake waters.
+3-1	218-222	tufa	_	D.1 Abiotic	DEFINIENDUM	_	_	
+3-2	223-224	-	_	_	_	_	_	
+3-3	225-231	spongy	spongy calcium carbonate	_	_	DEFINED\_AS[28]	_	
+3-4	232-234	or	_	_	_	DEFINED\_AS[28]	_	
+3-5	235-244	vesicular	_	D.1 Abiotic[5]	_	DEFINED\_AS[28]	_	
+3-6	245-252	calcium	_	D.1 Abiotic[5]	GENUS[18]	DEFINED\_AS[28]	_	
+3-7	253-262	carbonate	_	D.1 Abiotic[5]	GENUS[18]	DEFINED\_AS[28]	_	
+3-8	263-272	deposited	_	_	_	_	frame\_CAUSE[44]	
+3-9	273-277	from	_	_	_	HAS\_CAUSE[29]	frame\_CAUSE[44]	
+3-10	278-284	spring	spring water	D.1 Abiotic	_	HAS\_CAUSE[29]	_	
+3-11	284-285	,	_	_	_	HAS\_CAUSE[29]	_	
+3-12	286-291	river	river water	D.1 Abiotic	_	HAS\_CAUSE[29]	_	
+3-13	292-294	or	_	_	_	HAS\_CAUSE[29]	_	
+3-14	295-299	lake	_	D.1 Abiotic[6]	_	HAS\_CAUSE[29]	_	
+3-15	300-306	waters	_	D.1 Abiotic[6]	_	HAS\_CAUSE[29]	_	
+3-16	306-307	.	_	_	_	_	_	
+
+#Text=twilight zone - the part of a cave to which daylight penetrates.
+4-1	312-320	twilight	_	A.2 Underground landform[7]	DEFINIENDUM[19]	_	_	
+4-2	321-325	zone	_	A.2 Underground landform[7]	DEFINIENDUM[19]	_	_	
+4-3	326-327	-	_	_	_	_	_	
+4-4	328-331	the	_	_	_	HAS\_LOCATION[30]	frame\_LOCATION[45]	
+4-5	332-336	part	_	_	_	HAS\_LOCATION[30]	frame\_LOCATION[45]	
+4-6	337-339	of	_	_	_	HAS\_LOCATION[30]	frame\_LOCATION[45]	
+4-7	340-341	a	_	_	_	HAS\_LOCATION[30]	frame\_LOCATION[45]	
+4-8	342-346	cave	_	A.2 Underground landform	GENUS	HAS\_LOCATION[30]	_	
+4-9	347-349	to	_	_	_	HAS\_ATTRIBUTE[31]	_	
+4-10	350-355	which	_	_	_	HAS\_ATTRIBUTE[31]	_	
+4-11	356-364	daylight	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[31]	_	
+4-12	365-375	penetrates	_	_	_	HAS\_ATTRIBUTE[31]	_	
+4-13	375-376	.	_	_	_	_	_	
+
+#Text=uvala - a complex dosed depression with several lesser depressions within its rim.
+5-1	380-385	uvala	_	A.1 Surface landform	DEFINIENDUM	_	_	
+5-2	386-387	-	_	_	_	_	_	
+5-3	388-389	a	_	_	_	_	_	
+5-4	390-397	complex	_	_	_	HAS\_FORM[32]	_	
+5-5	398-403	dosed	closed depression[1]	_	_	HAS\_FORM[32]	_	
+5-6	404-414	depression	closed depression[1]	A.1 Surface landform	GENUS	_	_	
+5-7	415-419	with	_	_	_	HAS\_FORM[33]	_	
+5-8	420-427	several	_	_	_	HAS\_FORM[33]	_	
+5-9	428-434	lesser	_	_	_	HAS\_FORM[33]	_	
+5-10	435-446	depressions	_	A.1 Surface landform	_	HAS\_FORM[33]	_	
+5-11	447-453	within	_	_	_	HAS\_FORM[33]	frame\_FORM[46]	
+5-12	454-457	its	_	_	_	HAS\_FORM[33]	frame\_FORM[46]	
+5-13	458-461	rim	_	_	_	HAS\_FORM[33]	frame\_FORM[46]	
+5-14	461-462	.	_	_	_	_	_	
+
+#Text=vadose zone - the zone where voids in the rock are partly filled with air and through which water descends under gravity.
+6-1	466-472	vadose	_	C. Geome[8]	DEFINIENDUM[20]	_	_	
+6-2	473-477	zone	_	C. Geome[8]	DEFINIENDUM[20]	_	_	
+6-3	478-479	-	_	_	_	_	_	
+6-4	480-483	the	_	_	_	HAS\_LOCATION[34]	_	
+6-5	484-488	zone	_	D.1 Abiotic	GENUS	HAS\_LOCATION[34]	_	
+6-6	489-494	where	_	_	_	HAS\_LOCATION[34]	frame\_LOCATION	
+6-7	495-500	voids	_	D.1 Abiotic	_	HAS\_LOCATION[34]	_	
+6-8	501-503	in	_	_	_	HAS\_LOCATION[34]	_	
+6-9	504-507	the	_	_	_	HAS\_LOCATION[34]	_	
+6-10	508-512	rock	_	D.1 Abiotic	_	HAS\_LOCATION[34]	_	
+6-11	513-516	are	_	_	_	HAS\_LOCATION[34]	_	
+6-12	517-523	partly	_	_	_	HAS\_LOCATION[34]	_	
+6-13	524-530	filled	_	_	_	HAS\_LOCATION[34]	_	
+6-14	531-535	with	_	_	_	HAS\_LOCATION[34]	_	
+6-15	536-539	air	_	D.1 Abiotic	_	HAS\_LOCATION[34]	_	
+6-16	540-543	and	_	_	_	_	_	
+6-17	544-551	through	_	_	_	HAS\_FUNCTION[35]	frame\_FUNCTION[47]	
+6-18	552-557	which	_	_	_	HAS\_FUNCTION[35]	frame\_FUNCTION[47]	
+6-19	558-563	water	_	D.1 Abiotic	_	HAS\_FUNCTION[35]	_	
+6-20	564-572	descends	_	B.1 Movement	_	HAS\_FUNCTION[35]	_	
+6-21	573-578	under	_	_	_	HAS\_FUNCTION[35]	_	
+6-22	579-586	gravity	_	D.3 Property	_	HAS\_FUNCTION[35]	_	
+6-23	586-587	.	_	_	_	_	_	
+
+#Text=vauclusian spring - a spring rising up a deep, steeply inclined, waterfilled passage into a small surface pool.
+7-1	591-601	vauclusian	_	A.3 Hydrological form[9]	DEFINIENDUM[21]	_	_	
+7-2	602-608	spring	_	A.3 Hydrological form[9]	DEFINIENDUM[21]	_	_	
+7-3	609-610	-	_	_	_	_	_	
+7-4	611-612	a	_	_	_	_	_	
+7-5	613-619	spring	_	D.1 Abiotic	GENUS	_	_	
+7-6	620-626	rising	_	_	_	HAS\_FORM[36]	_	
+7-7	627-629	up	_	_	_	HAS\_FORM[36]	_	
+7-8	630-631	a	_	_	_	HAS\_FORM[36]	_	
+7-9	632-636	deep	_	_	_	HAS\_FORM[36]	_	
+7-10	636-637	,	_	_	_	HAS\_FORM[36]	_	
+7-11	638-645	steeply	_	_	_	HAS\_FORM[36]	_	
+7-12	646-654	inclined	_	_	_	HAS\_FORM[36]	_	
+7-13	654-655	,	_	_	_	HAS\_FORM[36]	_	
+7-14	656-667	waterfilled	_	_	_	HAS\_FORM[36]	_	
+7-15	668-675	passage	_	D.1 Abiotic	_	HAS\_FORM[36]	_	
+7-16	676-680	into	_	_	_	HAS\_FORM[36]	_	
+7-17	681-682	a	_	_	_	HAS\_FORM[36]	_	
+7-18	683-688	small	_	_	_	HAS\_FORM[36]	_	
+7-19	689-696	surface	_	_	_	HAS\_FORM[36]	_	
+7-20	697-701	pool	_	D.1 Abiotic	_	HAS\_FORM[36]	_	
+7-21	701-702	.	_	_	_	_	_	
+
+#Text=vermiculation - pattern of thin, worm-shaped coatings of day or silt on cave surfaces.
+8-1	706-719	vermiculation	_	A.2 Underground landform	DEFINIENDUM	_	_	
+8-2	720-721	-	_	_	_	_	_	
+8-3	722-729	pattern	_	_	_	HAS\_FORM[37]	_	
+8-4	730-732	of	_	_	_	HAS\_FORM[37]	_	
+8-5	733-737	thin	_	_	_	HAS\_FORM[37]	_	
+8-6	737-738	,	_	_	_	HAS\_FORM[37]	_	
+8-7	739-750	worm-shaped	-shaped	_	_	HAS\_FORM[37]	frame\_FORM	
+8-8	751-759	coatings	_	D.1 Abiotic	_	HAS\_FORM[37]	_	
+8-9	760-762	of	_	_	_	HAS\_FORM[37]	_	
+8-10	763-766	day	clay	D.1 Abiotic	_	HAS\_FORM[37]	_	
+8-11	767-769	or	_	_	_	_	_	
+8-12	770-774	silt	_	D.1 Abiotic	_	_	_	
+8-13	775-777	on	_	_	_	HAS\_LOCATION[38]	frame\_LOCATION	
+8-14	778-782	cave	_	D.1 Abiotic[10]	_	HAS\_LOCATION[38]	_	
+8-15	783-791	surfaces	_	D.1 Abiotic[10]	_	HAS\_LOCATION[38]	_	
+8-16	791-792	.	_	_	_	_	_	
+
+#Text=water table - the surface between phreatic water, which completely fills voids in the rock, and ground air, which partially fills higher voids.
+9-1	796-801	water	_	D.1 Abiotic[11]	DEFINIENDUM[22]	_	_	
+9-2	802-807	table	_	D.1 Abiotic[11]	DEFINIENDUM[22]	_	_	
+9-3	808-809	-	_	_	_	_	_	
+9-4	810-813	the	_	_	_	_	_	
+9-5	814-821	surface	_	D.1 Abiotic	_	_	_	
+9-6	822-829	between	_	_	_	HAS\_LOCATION[39]	frame\_LOCATION	
+9-7	830-838	phreatic	_	D.1 Abiotic[12]	_	HAS\_LOCATION[39]	_	
+9-8	839-844	water	_	D.1 Abiotic[12]|D.1 Abiotic[13]	_	HAS\_LOCATION[39]	_	
+9-9	844-845	,	_	_	_	HAS\_LOCATION[39]	_	
+9-10	846-851	which	_	_	_	HAS\_LOCATION[39]	_	
+9-11	852-862	completely	_	_	_	HAS\_LOCATION[39]	_	
+9-12	863-868	fills	_	_	_	HAS\_LOCATION[39]	_	
+9-13	869-874	voids	_	D.1 Abiotic	_	HAS\_LOCATION[39]	_	
+9-14	875-877	in	_	_	_	HAS\_LOCATION[39]	_	
+9-15	878-881	the	_	D.1 Abiotic	_	HAS\_LOCATION[39]	_	
+9-16	882-886	rock	_	_	_	HAS\_LOCATION[39]	_	
+9-17	886-887	,	_	_	_	HAS\_LOCATION[39]	_	
+9-18	888-891	and	_	_	_	HAS\_LOCATION[39]	_	
+9-19	892-898	ground	_	D.1 Abiotic[14]	_	HAS\_LOCATION[39]	_	
+9-20	899-902	air	_	D.1 Abiotic[14]	_	HAS\_LOCATION[39]	_	
+9-21	902-903	,	_	_	_	HAS\_LOCATION[39]	_	
+9-22	904-909	which	_	_	_	HAS\_LOCATION[39]	_	
+9-23	910-919	partially	_	_	_	HAS\_LOCATION[39]	_	
+9-24	920-925	fills	_	_	_	HAS\_LOCATION[39]	_	
+9-25	926-932	higher	_	_	_	HAS\_LOCATION[39]	_	
+9-26	933-938	voids	_	D.1 Abiotic	_	HAS\_LOCATION[39]	_	
+9-27	938-939	.	_	_	_	_	_	
+
+#Text=water tracing - determination of water connection between points of stream disappearance or of soil water seepage and points of reappearance on the surface or underground.
+10-1	943-948	water	_	E.2 Method[15]	DEFINIENDUM[23]	_	_	
+10-2	949-956	tracing	_	E.2 Method[15]	DEFINIENDUM[23]	_	_	
+10-3	957-958	-	_	_	_	_	_	
+10-4	959-972	determination	_	_	_	STUDIES[40]	frame\_DEFINED\_AS[48]	
+10-5	973-975	of	_	_	_	STUDIES[40]	frame\_DEFINED\_AS[48]	
+10-6	976-981	water	_	_	_	STUDIES[40]	_	
+10-7	982-992	connection	_	_	_	STUDIES[40]	_	
+10-8	993-1000	between	_	_	_	STUDIES[40]	_	
+10-9	1001-1007	points	_	_	_	STUDIES[40]	_	
+10-10	1008-1010	of	_	_	_	STUDIES[40]	_	
+10-11	1011-1017	stream	_	_	_	STUDIES[40]	_	
+10-12	1018-1031	disappearance	_	_	_	STUDIES[40]	_	
+10-13	1032-1034	or	_	_	_	STUDIES[40]	_	
+10-14	1035-1037	of	_	_	_	STUDIES[40]	_	
+10-15	1038-1042	soil	_	_	_	STUDIES[40]	_	
+10-16	1043-1048	water	_	_	_	STUDIES[40]	_	
+10-17	1049-1056	seepage	_	_	_	STUDIES[40]	_	
+10-18	1057-1060	and	_	_	_	STUDIES[40]	_	
+10-19	1061-1067	points	_	_	_	STUDIES[40]	_	
+10-20	1068-1070	of	_	_	_	STUDIES[40]	_	
+10-21	1071-1083	reappearance	_	_	_	STUDIES[40]	_	
+10-22	1084-1086	on	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION[49]	
+10-23	1087-1090	the	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION[49]	
+10-24	1091-1098	surface	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION[49]	
+10-25	1099-1101	or	_	_	_	HAS\_LOCATION[41]	_	
+10-26	1102-1113	underground	_	_	_	HAS\_LOCATION[41]	frame\_LOCATION	
+10-27	1113-1114	.	_	_	_	_	_	
+
+#Text=well - a deep rounded hole in a cave floor or on the surface in karst.
+11-1	1118-1122	well	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+11-2	1123-1124	-	_	_	_	_	_	
+11-3	1125-1126	a	_	_	_	_	_	
+11-4	1127-1131	deep	_	_	_	HAS\_FORM	_	
+11-5	1132-1139	rounded	_	_	_	HAS\_FORM	_	
+11-6	1140-1144	hole	_	D.1 Abiotic	GENUS	_	_	
+11-7	1145-1147	in	_	_	_	HAS\_LOCATION[42]	frame\_LOCATION[50]	
+11-8	1148-1149	a	_	_	_	HAS\_LOCATION[42]	frame\_LOCATION[50]	
+11-9	1150-1154	cave	_	A.2 Underground landform[16]	_	HAS\_LOCATION[42]	_	
+11-10	1155-1160	floor	_	A.2 Underground landform[16]	_	HAS\_LOCATION[42]	_	
+11-11	1161-1163	or	_	_	_	_	_	
+11-12	1164-1166	on	_	_	_	HAS\_LOCATION[43]	frame\_LOCATION[51]	
+11-13	1167-1170	the	_	_	_	HAS\_LOCATION[43]	frame\_LOCATION[51]	
+11-14	1171-1178	surface	_	_	_	HAS\_LOCATION[43]	_	
+11-15	1179-1181	in	_	_	_	HAS\_LOCATION[43]	_	
+11-16	1182-1187	karst	_	C. Geome	_	HAS\_LOCATION[43]	_	
+11-17	1187-1188	.	_	_	_	_	_	

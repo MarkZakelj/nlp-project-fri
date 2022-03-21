@@ -1,0 +1,360 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Osnovni mehanizem nastanka udornic je rušenje jamskih stropov do površja oziroma udor.
+1-1	0-7	Osnovni	_	_	_	_	_	
+1-2	8-17	mehanizem	_	_	_	_	_	
+1-3	18-26	nastanka	_	_	_	_	_	
+1-4	27-34	udornic	_	_	_	_	_	
+1-5	35-37	je	_	_	_	_	_	
+1-6	38-45	rušenje	_	_	_	_	_	
+1-7	46-53	jamskih	_	_	_	_	_	
+1-8	54-61	stropov	_	_	_	_	_	
+1-9	62-64	do	_	_	_	_	_	
+1-10	65-72	površja	_	_	_	_	_	
+1-11	73-80	oziroma	_	_	_	_	_	
+1-12	81-85	udor	_	_	_	_	_	
+1-13	85-86	.	_	_	_	_	_	
+
+#Text=Kontaktni kras je poseben tip oblikovanosti in delovanja površja, ki je na območjih, kjer vode pritekajo iz fluvialnega geomorfnega sistema v kraškega ali obratno.
+2-1	87-96	Kontaktni	_	C. Geome[2]	DEFINIENDUM[32]	_	_	
+2-2	97-101	kras	_	C. Geome[2]	DEFINIENDUM[32]	_	_	
+2-3	102-104	je	_	_	DEFINITOR	_	_	
+2-4	105-112	poseben	_	_	_	_	_	
+2-5	113-116	tip	_	D.3 Property[3]	GENUS[33]	_	_	
+2-6	117-130	oblikovanosti	_	D.3 Property[3]	GENUS[33]	_	_	
+2-7	131-133	in	_	_	GENUS[33]	_	_	
+2-8	134-143	delovanja	tip delovanja površja[1]	B. Process[4]	GENUS[33]	_	_	
+2-9	144-151	površja	tip delovanja površja[1]	B. Process[4]	GENUS[33]	_	_	
+2-10	151-152	,	_	_	_	_	_	
+2-11	153-155	ki	_	_	_	HAS\_LOCATION[46]	_	
+2-12	156-158	je	_	_	_	HAS\_LOCATION[46]	_	
+2-13	159-161	na	_	_	_	HAS\_LOCATION[46]	_	
+2-14	162-170	območjih	_	_	_	HAS\_LOCATION[46]	_	
+2-15	170-171	,	_	_	_	HAS\_LOCATION[46]	_	
+2-16	172-176	kjer	_	_	_	HAS\_LOCATION[46]	_	
+2-17	177-181	vode	_	D.1 Abiotic	_	HAS\_LOCATION[46]	_	
+2-18	182-191	pritekajo	_	_	_	HAS\_LOCATION[46]	_	
+2-19	192-194	iz	_	_	_	HAS\_LOCATION[46]	_	
+2-20	195-206	fluvialnega	_	C. Geome[5]	_	HAS\_LOCATION[46]	_	
+2-21	207-218	geomorfnega	_	C. Geome[5]	_	HAS\_LOCATION[46]	_	
+2-22	219-226	sistema	_	C. Geome[5]	_	HAS\_LOCATION[46]	_	
+2-23	227-228	v	_	_	_	HAS\_LOCATION[46]	_	
+2-24	229-237	kraškega	kraški geomorfni sistem	C. Geome	_	HAS\_LOCATION[46]	_	
+2-25	238-241	ali	_	_	_	HAS\_LOCATION[46]	_	
+2-26	242-249	obratno	_	_	_	HAS\_LOCATION[46]	_	
+2-27	249-250	.	_	_	_	_	_	
+
+#Text=Morfogeneza reliktnih vršajev je posledica popolne ali delne prekinitve dotoka vodnih tokov in nanašanja flišne naplavine na območje vršajev.
+3-1	251-262	Morfogeneza	_	_	_	_	_	
+3-2	263-272	reliktnih	_	_	_	_	_	
+3-3	273-280	vršajev	_	_	_	_	_	
+3-4	281-283	je	_	_	_	_	_	
+3-5	284-293	posledica	_	_	_	_	_	
+3-6	294-301	popolne	_	_	_	_	_	
+3-7	302-305	ali	_	_	_	_	_	
+3-8	306-311	delne	_	_	_	_	_	
+3-9	312-322	prekinitve	_	_	_	_	_	
+3-10	323-329	dotoka	_	_	_	_	_	
+3-11	330-336	vodnih	_	_	_	_	_	
+3-12	337-342	tokov	_	_	_	_	_	
+3-13	343-345	in	_	_	_	_	_	
+3-14	346-355	nanašanja	_	_	_	_	_	
+3-15	356-362	flišne	_	_	_	_	_	
+3-16	363-372	naplavine	_	_	_	_	_	
+3-17	373-375	na	_	_	_	_	_	
+3-18	376-383	območje	_	_	_	_	_	
+3-19	384-391	vršajev	_	_	_	_	_	
+3-20	391-392	.	_	_	_	_	_	
+
+#Text=Vršaje na krasu, ki nimajo aktivnega procesa sedimentacije rečnih nanosov, imenuje psevdovršaji.
+4-1	393-399	Vršaje	_	A.1 Surface landform	GENUS	_	_	
+4-2	400-402	na	_	_	_	HAS\_LOCATION[47]	frame\_LOCATION	
+4-3	403-408	krasu	_	C. Geome	_	HAS\_LOCATION[47]	_	
+4-4	408-409	,	_	_	_	_	_	
+4-5	410-412	ki	_	_	_	HAS\_FUNCTION[48]	_	
+4-6	413-419	nimajo	_	_	_	HAS\_FUNCTION[48]	_	
+4-7	420-429	aktivnega	_	_	_	HAS\_FUNCTION[48]	_	
+4-8	430-437	procesa	_	_	_	HAS\_FUNCTION[48]	_	
+4-9	438-451	sedimentacije	_	B.3 Addition	_	HAS\_FUNCTION[48]	_	
+4-10	452-458	rečnih	_	_	_	HAS\_FUNCTION[48]	_	
+4-11	459-466	nanosov	_	_	_	HAS\_FUNCTION[48]	_	
+4-12	466-467	,	_	_	_	_	_	
+4-13	468-475	imenuje	_	_	DEFINITOR	_	_	
+4-14	476-488	psevdovršaji	_	A.1 Surface landform	DEFINIENDUM	_	_	
+4-15	488-489	.	_	_	_	_	_	
+
+#Text=Vrtača je depresijska oblika, navadno globoka več metrov in je bolj široka kot globoka.
+5-1	490-496	Vrtača	_	A.1 Surface landform	DEFINIENDUM	_	_	
+5-2	497-499	je	_	_	DEFINITOR	_	_	
+5-3	500-511	depresijska	_	D.1 Abiotic[6]	GENUS[34]	_	_	
+5-4	512-518	oblika	_	D.1 Abiotic[6]	GENUS[34]	_	_	
+5-5	518-519	,	_	_	_	_	_	
+5-6	520-527	navadno	_	_	_	HAS\_SIZE[49]	_	
+5-7	528-535	globoka	_	_	_	HAS\_SIZE[49]	frame\_CAUSE	
+5-8	536-539	več	_	_	_	HAS\_SIZE[49]	_	
+5-9	540-546	metrov	_	_	_	HAS\_SIZE[49]	_	
+5-10	547-549	in	_	_	_	_	_	
+5-11	550-552	je	_	_	_	HAS\_FORM[50]	_	
+5-12	553-557	bolj	_	_	_	HAS\_FORM[50]	_	
+5-13	558-564	široka	_	_	_	HAS\_FORM[50]	_	
+5-14	565-568	kot	_	_	_	HAS\_FORM[50]	_	
+5-15	569-576	globoka	_	_	_	HAS\_FORM[50]	_	
+5-16	576-577	.	_	_	_	_	_	
+
+#Text=Kemično preperevanje oziroma raztapljanje kraških kamnin imenujemo korozija.
+6-1	578-585	Kemično	_	B.4 Transformation[7]	GENUS[35]	HAS\_CAUSE[51]	_	
+6-2	586-598	preperevanje	_	B.4 Transformation[7]	GENUS[35]	HAS\_CAUSE[51]	_	
+6-3	599-606	oziroma	_	_	_	HAS\_CAUSE[51]	_	
+6-4	607-619	raztapljanje	_	B.4 Transformation	_	HAS\_CAUSE[51]	_	
+6-5	620-627	kraških	_	D.1 Abiotic[8]	_	HAS\_CAUSE[51]	_	
+6-6	628-634	kamnin	_	D.1 Abiotic[8]	_	HAS\_CAUSE[51]	_	
+6-7	635-644	imenujemo	_	_	DEFINITOR	HAS\_CAUSE[51]	_	
+6-8	645-653	korozija	_	B.4 Transformation	DEFINIENDUM	_	_	
+6-9	653-654	.	_	_	_	_	_	
+
+#Text=Posledica korozije je prevotljenost podzemlja z jamami, na površju pa se oblikujejo različne površinske oblike, za katere je pomembna kombinacija dobro topnih kamnin, njihova razpokanost in zadostna količina meteorne vode.
+7-1	655-664	Posledica	_	_	_	HAS\_RESULT[52]	frame\_RESULT	
+7-2	665-673	korozije	_	B.4 Transformation	DEFINIENDUM	HAS\_RESULT[52]	_	
+7-3	674-676	je	_	_	_	HAS\_RESULT[52]	frame\_RESULT	
+7-4	677-690	prevotljenost	_	D.3 Property	_	HAS\_RESULT[52]	_	
+7-5	691-700	podzemlja	_	C. Geome	_	HAS\_RESULT[52]	_	
+7-6	701-702	z	_	_	_	HAS\_RESULT[52]	_	
+7-7	703-709	jamami	_	A.2 Underground landform	_	HAS\_RESULT[52]	_	
+7-8	709-710	,	_	_	_	_	_	
+7-9	711-713	na	_	_	_	HAS\_RESULT[53]	_	
+7-10	714-721	površju	_	C. Geome	_	HAS\_RESULT[53]	_	
+7-11	722-724	pa	_	_	_	HAS\_RESULT[53]	_	
+7-12	725-727	se	_	_	_	HAS\_RESULT[53]	frame\_RESULT[71]	
+7-13	728-738	oblikujejo	_	_	_	HAS\_RESULT[53]	frame\_RESULT[71]	
+7-14	739-747	različne	_	_	_	HAS\_RESULT[53]	_	
+7-15	748-758	površinske	_	D.1 Abiotic[9]	_	HAS\_RESULT[53]	_	
+7-16	759-765	oblike	_	D.1 Abiotic[9]	_	HAS\_RESULT[53]	_	
+7-17	765-766	,	_	_	_	HAS\_RESULT[53]	_	
+7-18	767-769	za	_	_	_	HAS\_RESULT[53]	_	
+7-19	770-776	katere	_	_	_	HAS\_RESULT[53]	_	
+7-20	777-779	je	_	_	_	HAS\_RESULT[53]	_	
+7-21	780-788	pomembna	_	_	_	HAS\_RESULT[53]	_	
+7-22	789-800	kombinacija	_	_	_	HAS\_RESULT[53]	_	
+7-23	801-806	dobro	_	_	_	HAS\_RESULT[53]	_	
+7-24	807-813	topnih	_	D.1 Abiotic[10]	_	HAS\_RESULT[53]	_	
+7-25	814-820	kamnin	_	D.1 Abiotic[10]	_	HAS\_RESULT[53]	_	
+7-26	820-821	,	_	_	_	HAS\_RESULT[53]	_	
+7-27	822-829	njihova	_	_	_	HAS\_RESULT[53]	_	
+7-28	830-841	razpokanost	_	D.3 Property	_	HAS\_RESULT[53]	_	
+7-29	842-844	in	_	_	_	HAS\_RESULT[53]	_	
+7-30	845-853	zadostna	_	_	_	HAS\_RESULT[53]	_	
+7-31	854-862	količina	_	_	_	HAS\_RESULT[53]	_	
+7-32	863-871	meteorne	_	_	_	HAS\_RESULT[53]	_	
+7-33	872-876	vode	_	_	_	HAS\_RESULT[53]	_	
+7-34	876-877	.	_	_	_	_	_	
+
+#Text=Proces, ki povzroča nastanek uravnav, imenujemo korozijsko uravnavanje (ang. corrosional planation) ter vključuje kombinacijo vertikalnega raztapljanja s padavinami, bočne korozije morfološko vzpetih delov, korozije pod naplavino ter zadenjske rečne erozije.
+8-1	878-884	Proces	_	_	GENUS	_	_	
+8-2	884-885	,	_	_	_	_	_	
+8-3	886-888	ki	_	_	_	HAS\_RESULT[54]	frame\_RESULT[72]	
+8-4	889-897	povzroča	_	_	_	HAS\_RESULT[54]	frame\_RESULT[72]	
+8-5	898-906	nastanek	_	_	_	HAS\_RESULT[54]	_	
+8-6	907-914	uravnav	_	D.1 Abiotic	_	HAS\_RESULT[54]	_	
+8-7	914-915	,	_	_	_	_	_	
+8-8	916-925	imenujemo	_	_	DEFINITOR	_	_	
+8-9	926-936	korozijsko	_	B.4 Transformation[11]	DEFINIENDUM[36]	_	_	
+8-10	937-948	uravnavanje	_	B.4 Transformation[11]	DEFINIENDUM[36]	_	_	
+8-11	949-950	(	_	_	_	_	_	
+8-12	950-953	ang	_	_	_	_	_	
+8-13	953-954	.	_	_	_	_	_	
+8-14	955-966	corrosional	_	_	_	_	_	
+8-15	967-976	planation	_	_	_	_	_	
+8-16	976-977	)	_	_	_	_	_	
+8-17	978-981	ter	_	_	_	_	_	
+8-18	982-991	vključuje	_	_	_	CONTAINS[55]	frame\_CONTAINS	
+8-19	992-1003	kombinacijo	_	_	_	CONTAINS[55]	_	
+8-20	1004-1016	vertikalnega	_	_	_	CONTAINS[55]	_	
+8-21	1017-1029	raztapljanja	_	B.4 Transformation	_	CONTAINS[55]	_	
+8-22	1030-1031	s	_	_	_	CONTAINS[55]	_	
+8-23	1032-1042	padavinami	_	_	_	CONTAINS[55]	_	
+8-24	1042-1043	,	_	_	_	_	_	
+8-25	1044-1049	bočne	_	B.4 Transformation[12]	_	CONTAINS[56]	_	
+8-26	1050-1058	korozije	_	B.4 Transformation[12]	_	CONTAINS[56]	_	
+8-27	1059-1069	morfološko	_	_	_	CONTAINS[56]	_	
+8-28	1070-1077	vzpetih	_	_	_	CONTAINS[56]	_	
+8-29	1078-1083	delov	_	_	_	CONTAINS[56]	_	
+8-30	1083-1084	,	_	_	_	_	_	
+8-31	1085-1093	korozije	_	B.4 Transformation	_	CONTAINS[57]	_	
+8-32	1094-1097	pod	_	_	_	CONTAINS[57]	_	
+8-33	1098-1107	naplavino	_	_	_	CONTAINS[57]	_	
+8-34	1108-1111	ter	_	_	_	_	_	
+8-35	1112-1121	zadenjske	_	_	_	CONTAINS[58]	_	
+8-36	1122-1127	rečne	_	B.4 Transformation[13]	_	CONTAINS[58]	_	
+8-37	1128-1135	erozije	_	B.4 Transformation[13]	_	CONTAINS[58]	_	
+8-38	1135-1136	.	_	_	_	_	_	
+
+#Text=Reliktni vršaji so značilne oblike kontaktnega krasa, ki nastanejo s postopno denudacijo flišne naplavine in kemično denudacijo karbonatne podlage na območjih vršajev.
+9-1	1137-1145	Reliktni	_	A.1 Surface landform[14]	DEFINIENDUM[37]	_	_	
+9-2	1146-1152	vršaji	_	A.1 Surface landform[14]	DEFINIENDUM[37]	_	_	
+9-3	1153-1155	so	_	_	DEFINITOR	_	_	
+9-4	1156-1164	značilne	_	_	_	_	_	
+9-5	1165-1171	oblike	_	_	GENUS[38]	_	_	
+9-6	1172-1183	kontaktnega	_	C. Geome[15]	GENUS[38]	_	_	
+9-7	1184-1189	krasa	_	C. Geome[15]	GENUS[38]	_	_	
+9-8	1189-1190	,	_	_	_	_	_	
+9-9	1191-1193	ki	_	_	_	HAS\_CAUSE[59]	frame\_CAUSE[73]	
+9-10	1194-1203	nastanejo	_	_	_	HAS\_CAUSE[59]	frame\_CAUSE[73]	
+9-11	1204-1205	s	_	_	_	HAS\_CAUSE[59]	frame\_CAUSE[73]	
+9-12	1206-1214	postopno	_	_	_	HAS\_CAUSE[59]	_	
+9-13	1215-1225	denudacijo	_	B.4 Transformation	_	HAS\_CAUSE[59]	_	
+9-14	1226-1232	flišne	_	D.1 Abiotic[16]	_	HAS\_CAUSE[59]	_	
+9-15	1233-1242	naplavine	_	D.1 Abiotic[16]	_	HAS\_CAUSE[59]	_	
+9-16	1243-1245	in	_	_	_	_	_	
+9-17	1246-1253	kemično	_	B.4 Transformation[17]	_	HAS\_CAUSE[60]	_	
+9-18	1254-1264	denudacijo	_	B.4 Transformation[17]	_	HAS\_CAUSE[60]	_	
+9-19	1265-1275	karbonatne	_	D.1 Abiotic[18]	_	HAS\_CAUSE[60]	_	
+9-20	1276-1283	podlage	_	D.1 Abiotic[18]	_	HAS\_CAUSE[60]	_	
+9-21	1284-1286	na	_	_	_	HAS\_LOCATION[61]	_	
+9-22	1287-1295	območjih	_	_	_	HAS\_LOCATION[61]	_	
+9-23	1296-1303	vršajev	_	A.1 Surface landform	_	HAS\_LOCATION[61]	_	
+9-24	1303-1304	.	_	_	_	_	_	
+
+#Text=Oblika udornic je rezultat ravnovesja med različnimi procesi v udornici, ki oblikujejo udornice v dinamičnem kraškem površju.
+10-1	1305-1311	Oblika	_	_	DEFINIENDUM[39]	_	_	
+10-2	1312-1319	udornic	_	A.1 Surface landform	DEFINIENDUM[39]	_	_	
+10-3	1320-1322	je	_	_	_	HAS\_CAUSE[62]	frame\_CAUSE[74]	
+10-4	1323-1331	rezultat	_	B. Process	_	HAS\_CAUSE[62]	frame\_CAUSE[74]	
+10-5	1332-1342	ravnovesja	_	D.3 Property	_	HAS\_CAUSE[62]	_	
+10-6	1343-1346	med	_	_	_	HAS\_CAUSE[62]	_	
+10-7	1347-1357	različnimi	_	_	_	HAS\_CAUSE[62]	_	
+10-8	1358-1365	procesi	_	_	_	HAS\_CAUSE[62]	_	
+10-9	1366-1367	v	_	_	_	HAS\_CAUSE[62]	_	
+10-10	1368-1376	udornici	_	A.1 Surface landform	_	HAS\_CAUSE[62]	_	
+10-11	1376-1377	,	_	_	_	_	_	
+10-12	1378-1380	ki	_	_	_	COMPOSITION\_MEDIUM[63]	_	
+10-13	1381-1391	oblikujejo	_	_	_	COMPOSITION\_MEDIUM[63]	_	
+10-14	1392-1400	udornice	_	A.1 Surface landform	_	COMPOSITION\_MEDIUM[63]	_	
+10-15	1401-1402	v	_	_	_	COMPOSITION\_MEDIUM[63]	frame\_COMPOSITION	
+10-16	1403-1413	dinamičnem	_	_	_	COMPOSITION\_MEDIUM[63]	_	
+10-17	1414-1421	kraškem	_	C. Geome[19]	_	COMPOSITION\_MEDIUM[63]	_	
+10-18	1422-1429	površju	_	C. Geome[19]	_	COMPOSITION\_MEDIUM[63]	_	
+10-19	1429-1430	.	_	_	_	_	_	
+
+#Text=Najpogostejše reliefne oblika na območju so vrtače.
+11-1	1431-1444	Najpogostejše	_	_	_	_	_	
+11-2	1445-1453	reliefne	_	D.1 Abiotic[20]	GENUS[40]	_	_	
+11-3	1454-1460	oblika	_	D.1 Abiotic[20]	GENUS[40]	_	_	
+11-4	1461-1463	na	_	_	_	_	_	
+11-5	1464-1471	območju	_	_	_	_	_	
+11-6	1472-1474	so	_	_	DEFINITOR	_	_	
+11-7	1475-1481	vrtače	_	A.1 Surface landform	DEFINIENDUM	_	_	
+11-8	1481-1482	.	_	_	_	_	_	
+
+#Text=Ledeniške krnice, ki so dodatno poglobljene zaradi zakrasevanja, imenujemo kraške krnice.
+12-1	1483-1492	Ledeniške	_	A.1 Surface landform[21]	GENUS[41]	_	_	
+12-2	1493-1499	krnice	_	A.1 Surface landform[21]	GENUS[41]	_	_	
+12-3	1499-1500	,	_	_	_	_	_	
+12-4	1501-1503	ki	_	_	_	HAS\_FORM[64]	_	
+12-5	1504-1506	so	_	_	_	HAS\_FORM[64]	_	
+12-6	1507-1514	dodatno	_	_	_	HAS\_FORM[64]	_	
+12-7	1515-1526	poglobljene	_	_	_	HAS\_FORM[64]	_	
+12-8	1527-1533	zaradi	_	_	_	HAS\_FORM[64]	_	
+12-9	1534-1546	zakrasevanja	_	B.4 Transformation	_	HAS\_FORM[64]	_	
+12-10	1546-1547	,	_	_	_	_	_	
+12-11	1548-1557	imenujemo	_	_	DEFINITOR	_	_	
+12-12	1558-1564	kraške	_	A.1 Surface landform[22]	DEFINIENDUM[42]	_	_	
+12-13	1565-1571	krnice	_	A.1 Surface landform[22]	DEFINIENDUM[42]	_	_	
+12-14	1571-1572	.	_	_	_	_	_	
+
+#Text=Kraška krnica je značilna reliefna oblika za Južne Alpe in Dinarsko gorstvo, kjer jo na južnem delu Dinarskega gorstva krajevno imenujejo do, na severnem delu pa navadno konta.
+13-1	1573-1579	Kraška	_	A.1 Surface landform[23]	DEFINIENDUM[43]	_	_	
+13-2	1580-1586	krnica	_	A.1 Surface landform[23]	DEFINIENDUM[43]	_	_	
+13-3	1587-1589	je	_	_	DEFINITOR	_	_	
+13-4	1590-1598	značilna	_	_	_	_	_	
+13-5	1599-1607	reliefna	_	D.1 Abiotic[24]	GENUS[44]	_	_	
+13-6	1608-1614	oblika	_	D.1 Abiotic[24]	GENUS[44]	_	_	
+13-7	1615-1617	za	_	_	_	HAS\_POSITION[65]	_	
+13-8	1618-1623	Južne	_	D.3.1 Geolocation[25]	_	HAS\_POSITION[65]	_	
+13-9	1624-1628	Alpe	_	D.3.1 Geolocation[25]	_	HAS\_POSITION[65]	_	
+13-10	1629-1631	in	_	_	_	HAS\_POSITION[65]	_	
+13-11	1632-1640	Dinarsko	_	D.3.1 Geolocation[26]	_	HAS\_POSITION[65]	_	
+13-12	1641-1648	gorstvo	_	D.3.1 Geolocation[26]	_	HAS\_POSITION[65]	_	
+13-13	1648-1649	,	_	_	_	_	_	
+13-14	1650-1654	kjer	_	_	_	DEFINED\_AS[66]	_	
+13-15	1655-1657	jo	_	_	_	DEFINED\_AS[66]	_	
+13-16	1658-1660	na	_	_	_	DEFINED\_AS[66]	_	
+13-17	1661-1667	južnem	_	_	_	DEFINED\_AS[66]	_	
+13-18	1668-1672	delu	_	_	_	DEFINED\_AS[66]	_	
+13-19	1673-1683	Dinarskega	_	_	_	DEFINED\_AS[66]	_	
+13-20	1684-1691	gorstva	_	_	_	DEFINED\_AS[66]	_	
+13-21	1692-1700	krajevno	_	_	_	DEFINED\_AS[66]	frame\_DEFINED\_AS[75]	
+13-22	1701-1710	imenujejo	_	_	_	DEFINED\_AS[66]	frame\_DEFINED\_AS[75]	
+13-23	1711-1713	do	_	A.1 Surface landform	_	DEFINED\_AS[66]	_	
+13-24	1713-1714	,	_	_	_	DEFINED\_AS[66]	_	
+13-25	1715-1717	na	_	_	_	DEFINED\_AS[66]	_	
+13-26	1718-1726	severnem	_	_	_	DEFINED\_AS[66]	_	
+13-27	1727-1731	delu	_	_	_	DEFINED\_AS[66]	_	
+13-28	1732-1734	pa	_	_	_	DEFINED\_AS[66]	_	
+13-29	1735-1742	navadno	_	_	_	DEFINED\_AS[66]	_	
+13-30	1743-1748	konta	_	A.1 Surface landform	_	DEFINED\_AS[66]	_	
+13-31	1748-1749	.	_	_	_	_	_	
+
+#Text=Nastanek in razporeditev večjih globeli, ki jih slovenska strokovna literatura prav tako imenuje udornice, sta vezana na specifične hidrološke procese na območjih koncentriranih podzemskih tokov, nihanja piezometričnega nivoja v podzemlju, na večjo agresivnost ali erozivnost vodnih tokov ali kombinacije teh dejavnikov.
+14-1	1750-1758	Nastanek	_	_	_	_	_	
+14-2	1759-1761	in	_	_	_	_	_	
+14-3	1762-1774	razporeditev	_	_	_	_	_	
+14-4	1775-1781	večjih	_	_	_	_	_	
+14-5	1782-1789	globeli	_	A.1 Surface landform	_	_	_	
+14-6	1789-1790	,	_	_	_	_	_	
+14-7	1791-1793	ki	_	_	_	_	_	
+14-8	1794-1797	jih	_	_	_	_	_	
+14-9	1798-1807	slovenska	_	_	_	_	_	
+14-10	1808-1817	strokovna	_	_	_	_	_	
+14-11	1818-1828	literatura	_	_	_	_	_	
+14-12	1829-1833	prav	_	_	_	_	_	
+14-13	1834-1838	tako	_	_	_	_	_	
+14-14	1839-1846	imenuje	_	_	_	_	_	
+14-15	1847-1855	udornice	_	A.1 Surface landform	DEFINIENDUM	_	_	
+14-16	1855-1856	,	_	_	_	_	_	
+14-17	1857-1860	sta	_	_	_	_	_	
+14-18	1861-1867	vezana	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[76]	
+14-19	1868-1870	na	_	_	_	HAS\_CAUSE[67]	frame\_CAUSE[76]	
+14-20	1871-1881	specifične	_	_	_	HAS\_CAUSE[67]	_	
+14-21	1882-1892	hidrološke	_	B. Process[27]	_	HAS\_CAUSE[67]	_	
+14-22	1893-1900	procese	_	B. Process[27]	_	HAS\_CAUSE[67]	_	
+14-23	1901-1903	na	_	_	_	HAS\_CAUSE[67]	_	
+14-24	1904-1912	območjih	_	_	_	HAS\_CAUSE[67]	_	
+14-25	1913-1927	koncentriranih	_	_	_	HAS\_CAUSE[67]	_	
+14-26	1928-1938	podzemskih	_	A.3 Hydrological form[28]	_	HAS\_CAUSE[67]	_	
+14-27	1939-1944	tokov	_	A.3 Hydrological form[28]	_	HAS\_CAUSE[67]	_	
+14-28	1944-1945	,	_	_	_	_	_	
+14-29	1946-1953	nihanja	_	_	_	HAS\_CAUSE[68]	_	
+14-30	1954-1969	piezometričnega	_	D.1 Abiotic[29]	_	HAS\_CAUSE[68]	_	
+14-31	1970-1976	nivoja	_	D.1 Abiotic[29]	_	HAS\_CAUSE[68]	_	
+14-32	1977-1978	v	_	_	_	HAS\_CAUSE[68]	_	
+14-33	1979-1988	podzemlju	_	C. Geome	_	HAS\_CAUSE[68]	_	
+14-34	1988-1989	,	_	_	_	_	_	
+14-35	1990-1992	na	_	_	_	_	_	
+14-36	1993-1998	večjo	_	_	_	HAS\_CAUSE[69]	_	
+14-37	1999-2010	agresivnost	_	D.3 Property	_	HAS\_CAUSE[69]	_	
+14-38	2011-2014	ali	_	_	_	HAS\_CAUSE[69]	_	
+14-39	2015-2025	erozivnost	_	D.1 Abiotic	_	HAS\_CAUSE[69]	_	
+14-40	2026-2032	vodnih	_	D.1 Abiotic[30]	_	HAS\_CAUSE[69]	_	
+14-41	2033-2038	tokov	_	D.1 Abiotic[30]	_	HAS\_CAUSE[69]	_	
+14-42	2039-2042	ali	_	_	_	_	_	
+14-43	2043-2054	kombinacije	_	_	_	_	_	
+14-44	2055-2058	teh	_	_	_	_	_	
+14-45	2059-2069	dejavnikov	_	_	_	_	_	
+14-46	2069-2070	.	_	_	_	_	_	
+
+#Text=Preoblikovanje udornic je rezultat součinkovanja mnogih geomorfnih procesov.
+15-1	2071-2085	Preoblikovanje	_	B.4 Transformation	DEFINIENDUM[45]	_	_	
+15-2	2086-2093	udornic	_	A.1 Surface landform	DEFINIENDUM[45]	_	_	
+15-3	2094-2096	je	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[77]	
+15-4	2097-2105	rezultat	_	_	_	HAS\_CAUSE[70]	frame\_CAUSE[77]	
+15-5	2106-2119	součinkovanja	_	_	_	HAS\_CAUSE[70]	_	
+15-6	2120-2126	mnogih	_	_	_	HAS\_CAUSE[70]	_	
+15-7	2127-2137	geomorfnih	_	B. Process[31]	_	HAS\_CAUSE[70]	_	
+15-8	2138-2146	procesov	_	B. Process[31]	_	HAS\_CAUSE[70]	_	
+15-9	2146-2147	.	_	_	_	_	_	

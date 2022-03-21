@@ -1,0 +1,544 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=Špilje su podzemne šupljine ili sustav šupljina u koje ne dopire ili se neznatno probija dnevna svjetlost te je za njihovo istraživanje potrebno umjetno osvjetljenje .
+1-1	0-6	Špilje	_	A.2 Underground landform	DEFINIENDUM	_	_	
+1-2	7-9	su	_	_	_	_	_	
+1-3	10-18	podzemne	_	A.2 Underground landform[6]	GENUS[31]	_	_	
+1-4	19-27	šupljine	_	A.2 Underground landform[6]	GENUS[31]	_	_	
+1-5	28-31	ili	_	_	_	_	_	
+1-6	32-38	sustav	_	A.2 Underground landform[7]	GENUS[32]	_	_	
+1-7	39-47	šupljina	_	A.2 Underground landform[7]	GENUS[32]	_	_	
+1-8	48-49	u	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-9	50-54	koje	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-10	55-57	ne	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-11	58-64	dopire	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-12	65-68	ili	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-13	69-71	se	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-14	72-80	neznatno	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-15	81-88	probija	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-16	89-95	dnevna	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-17	96-105	svjetlost	_	_	_	HAS\_ATTRIBUTE[50]	_	
+1-18	106-108	te	_	_	_	_	_	
+1-19	109-111	je	_	_	_	_	_	
+1-20	112-114	za	_	_	_	_	_	
+1-21	115-122	njihovo	_	_	_	_	_	
+1-22	123-135	istraživanje	_	_	_	_	_	
+1-23	136-144	potrebno	_	_	_	_	_	
+1-24	145-152	umjetno	_	_	_	_	_	
+1-25	153-165	osvjetljenje	_	_	_	_	_	
+1-26	166-167	.	_	_	_	_	_	
+
+#Text=S obzirom na izdašnost i mjesto pojave vrela se mogu podijeliti na : a ) povremena vrela b ) stalna vrela c ) povremena priobalna vrela d ) stalna priobalna vrela e ) stalne vrulje f ) povremene vrulje
+2-1	169-170	S	_	_	_	_	_	
+2-2	171-178	obzirom	_	_	_	_	_	
+2-3	179-181	na	_	_	_	_	_	
+2-4	182-191	izdašnost	_	_	_	_	_	
+2-5	192-193	i	_	_	_	_	_	
+2-6	194-200	mjesto	_	_	_	_	_	
+2-7	201-207	pojave	_	_	_	_	_	
+2-8	208-213	vrela	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+2-9	214-216	se	_	_	_	_	_	
+2-10	217-221	mogu	_	_	_	_	_	
+2-11	222-232	podijeliti	_	_	_	_	_	
+2-12	233-235	na	_	_	_	_	_	
+2-13	236-237	:	_	_	_	_	_	
+2-14	238-239	a	_	_	_	_	_	
+2-15	240-241	)	_	_	_	_	_	
+2-16	242-251	povremena	_	A.3 Hydrological form[8]	SPECIES[33]	_	_	
+2-17	252-257	vrela	_	A.3 Hydrological form[8]	SPECIES[33]	_	_	
+2-18	258-259	b	_	_	_	_	_	
+2-19	260-261	)	_	_	_	_	_	
+2-20	262-268	stalna	_	A.3 Hydrological form[9]	SPECIES[34]	_	_	
+2-21	269-274	vrela	_	A.3 Hydrological form[9]	SPECIES[34]	_	_	
+2-22	275-276	c	_	_	_	_	_	
+2-23	277-278	)	_	_	_	_	_	
+2-24	279-288	povremena	_	A.3 Hydrological form[10]	SPECIES[35]	_	_	
+2-25	289-298	priobalna	_	A.3 Hydrological form[10]	SPECIES[35]	_	_	
+2-26	299-304	vrela	_	A.3 Hydrological form[10]	SPECIES[35]	_	_	
+2-27	305-306	d	_	_	_	_	_	
+2-28	307-308	)	_	_	_	_	_	
+2-29	309-315	stalna	_	A.3 Hydrological form[11]	SPECIES[36]	_	_	
+2-30	316-325	priobalna	_	A.3 Hydrological form[11]	SPECIES[36]	_	_	
+2-31	326-331	vrela	_	A.3 Hydrological form[11]	SPECIES[36]	_	_	
+2-32	332-333	e	_	_	_	_	_	
+2-33	334-335	)	_	_	_	_	_	
+2-34	336-342	stalne	_	A.2 Underground landform[12]	SPECIES[37]	_	_	
+2-35	343-349	vrulje	_	A.2 Underground landform[12]	SPECIES[37]	_	_	
+2-36	350-351	f	_	_	_	_	_	
+2-37	352-353	)	_	_	_	_	_	
+2-38	354-363	povremene	_	A.3 Hydrological form[13]	SPECIES[38]	_	_	
+2-39	364-370	vrulje	_	A.3 Hydrological form[13]	SPECIES[38]	_	_	
+
+#Text=Ukrašena spilja obiluje različitim sigastim tvore vinama ( v. ) ; aragonitna spilja je ukrašena slikovi tim konkrecijama aragonita ( v. ) .
+3-1	372-380	Ukrašena	_	A.2 Underground landform[14]	DEFINIENDUM[39]	_	_	
+3-2	381-387	spilja	_	A.2 Underground landform[14]	DEFINIENDUM[39]	_	_	
+3-3	388-395	obiluje	_	_	_	_	_	
+3-4	396-406	različitim	_	_	_	_	_	
+3-5	407-415	sigastim	sigaste tvorevine[1]	D.1 Abiotic[15]	_	CONTAINS[51]	_	
+3-6	416-421	tvore	sigaste tvorevine[1]	D.1 Abiotic[15]	_	CONTAINS[51]	_	
+3-7	422-428	vinama	sigaste tvorevine[1]	D.1 Abiotic[15]	_	CONTAINS[51]	_	
+3-8	429-430	(	_	_	_	_	_	
+3-9	431-432	v	_	_	_	_	_	
+3-10	432-433	.	_	_	_	_	_	
+3-11	434-435	)	_	_	_	_	_	
+3-12	436-437	;	_	_	_	_	_	
+3-13	438-448	aragonitna	_	_	_	_	_	
+3-14	449-455	spilja	_	_	_	_	_	
+3-15	456-458	je	_	_	_	_	_	
+3-16	459-467	ukrašena	_	_	_	_	_	
+3-17	468-475	slikovi	_	_	_	_	_	
+3-18	476-479	tim	_	_	_	_	_	
+3-19	480-492	konkrecijama	_	_	_	_	_	
+3-20	493-502	aragonita	_	_	_	_	_	
+3-21	503-504	(	_	_	_	_	_	
+3-22	505-506	v	_	_	_	_	_	
+3-23	506-507	.	_	_	_	_	_	
+3-24	508-509	)	_	_	_	_	_	
+3-25	510-511	.	_	_	_	_	_	
+
+#Text=Speleološke ekspedicije su višednevna speleološka istraživanja nekog većeg speleološkog objekta ili više speleoloških objekata , čiji cilj je sustavno istraživanje svih njegovih nepoznatih dijelova ili pojava u njemu .
+4-1	513-524	Speleološke	_	E.2 Method[16]	DEFINIENDUM[40]	_	_	
+4-2	525-536	ekspedicije	_	E.2 Method[16]	DEFINIENDUM[40]	_	_	
+4-3	537-539	su	_	_	_	_	_	
+4-4	540-550	višednevna	_	_	_	DEFINED\_AS[52]	_	
+4-5	551-562	speleološka	_	_	_	DEFINED\_AS[52]	_	
+4-6	563-575	istraživanja	_	_	_	DEFINED\_AS[52]	_	
+4-7	576-581	nekog	_	_	_	DEFINED\_AS[52]	_	
+4-8	582-587	većeg	_	_	_	DEFINED\_AS[52]	_	
+4-9	588-600	speleološkog	speleološki objekt[2]	A.2 Underground landform[17]	_	DEFINED\_AS[52]	_	
+4-10	601-608	objekta	speleološki objekt[2]	A.2 Underground landform[17]	_	DEFINED\_AS[52]	_	
+4-11	609-612	ili	_	_	_	DEFINED\_AS[52]	_	
+4-12	613-617	više	_	_	_	DEFINED\_AS[52]	_	
+4-13	618-630	speleoloških	_	_	_	DEFINED\_AS[52]	_	
+4-14	631-639	objekata	_	_	_	DEFINED\_AS[52]	_	
+4-15	640-641	,	_	_	_	_	_	
+4-16	642-646	čiji	_	_	_	_	_	
+4-17	647-651	cilj	_	_	_	_	_	
+4-18	652-654	je	_	_	_	_	_	
+4-19	655-663	sustavno	_	_	_	_	_	
+4-20	664-676	istraživanje	_	_	_	_	_	
+4-21	677-681	svih	_	_	_	_	_	
+4-22	682-690	njegovih	_	_	_	_	_	
+4-23	691-701	nepoznatih	_	_	_	_	_	
+4-24	702-710	dijelova	_	_	_	_	_	
+4-25	711-714	ili	_	_	_	_	_	
+4-26	715-721	pojava	_	_	_	_	_	
+4-27	722-723	u	_	_	_	_	_	
+4-28	724-729	njemu	_	_	_	_	_	
+4-29	730-731	.	_	_	_	_	_	
+
+#Text=Izmjene i evolucija padina su najvažniji i najsloženiji proces kopnenog modeliranja .
+5-1	733-740	Izmjene	_	B.4 Transformation[18]	DEFINIENDUM[41]	_	_	
+5-2	741-742	i	_	B.4 Transformation[18]	DEFINIENDUM[41]	_	_	
+5-3	743-752	evolucija	_	B.4 Transformation[18]	DEFINIENDUM[41]	_	_	
+5-4	753-759	padina	_	B.4 Transformation[18]	DEFINIENDUM[41]	_	_	
+5-5	760-762	su	_	_	_	_	_	
+5-6	763-773	najvažniji	_	_	_	_	_	
+5-7	774-775	i	_	_	_	_	_	
+5-8	776-788	najsloženiji	_	_	_	_	_	
+5-9	789-795	proces	_	B. Process[19]	GENUS[42]	_	_	
+5-10	796-804	kopnenog	_	B. Process[19]	GENUS[42]	_	_	
+5-11	805-816	modeliranja	_	B. Process[19]	GENUS[42]	_	_	
+5-12	817-818	.	_	_	_	_	_	
+
+#Text=Temeljni uvjet za razvoj krša je prisutnost tektonski izlomljenih vodotopivih karbonatnih stijena te dovoljna količina vode iz padalina koja vrši funkciju geomorfološkog agensa .
+6-1	820-828	Temeljni	_	_	_	_	_	
+6-2	829-834	uvjet	_	_	_	_	_	
+6-3	835-837	za	_	_	_	_	_	
+6-4	838-844	razvoj	_	_	_	_	_	
+6-5	845-849	krša	_	_	_	_	_	
+6-6	850-852	je	_	_	_	_	_	
+6-7	853-863	prisutnost	_	_	_	_	_	
+6-8	864-873	tektonski	_	_	_	_	_	
+6-9	874-885	izlomljenih	_	_	_	_	_	
+6-10	886-897	vodotopivih	_	_	_	_	_	
+6-11	898-909	karbonatnih	_	_	_	_	_	
+6-12	910-917	stijena	_	_	_	_	_	
+6-13	918-920	te	_	_	_	_	_	
+6-14	921-929	dovoljna	_	_	_	_	_	
+6-15	930-938	količina	_	_	_	_	_	
+6-16	939-943	vode	_	_	_	_	_	
+6-17	944-946	iz	_	_	_	_	_	
+6-18	947-955	padalina	_	_	_	_	_	
+6-19	956-960	koja	_	_	_	_	_	
+6-20	961-965	vrši	_	_	_	_	_	
+6-21	966-974	funkciju	_	_	_	_	_	
+6-22	975-989	geomorfološkog	_	_	_	_	_	
+6-23	990-996	agensa	_	_	_	_	_	
+6-24	997-998	.	_	_	_	_	_	
+
+#Text=Obično se ledenice sastoje iz jednog vertikalnog kanala , koji se u donjem dijelu završava drugim , blago nagnutim ili horizontalnim kanalom ; ovaj je obično mnogo širi od vertikalnog .
+7-1	1000-1006	Obično	_	_	_	_	_	
+7-2	1007-1009	se	_	_	_	_	_	
+7-3	1010-1018	ledenice	_	A.2 Underground landform	DEFINIENDUM	_	_	
+7-4	1019-1026	sastoje	_	_	_	CONTAINS[53]	frame\_CONTAINS[63]	
+7-5	1027-1029	iz	_	_	_	CONTAINS[53]	frame\_CONTAINS[63]	
+7-6	1030-1036	jednog	_	_	_	CONTAINS[53]	_	
+7-7	1037-1048	vertikalnog	vertikalni kanal[3]	A.2 Underground landform[20]	_	CONTAINS[53]	_	
+7-8	1049-1055	kanala	vertikalni kanal[3]	A.2 Underground landform[20]	_	CONTAINS[53]	_	
+7-9	1056-1057	,	_	_	_	CONTAINS[53]	_	
+7-10	1058-1062	koji	_	_	_	CONTAINS[53]	_	
+7-11	1063-1065	se	_	_	_	CONTAINS[53]	_	
+7-12	1066-1067	u	_	_	_	CONTAINS[53]	_	
+7-13	1068-1074	donjem	_	_	_	CONTAINS[53]	_	
+7-14	1075-1081	dijelu	_	_	_	CONTAINS[53]	_	
+7-15	1082-1090	završava	_	_	_	CONTAINS[53]	_	
+7-16	1091-1097	drugim	_	_	_	CONTAINS[53]	_	
+7-17	1098-1099	,	_	_	_	CONTAINS[53]	_	
+7-18	1100-1105	blago	_	_	_	CONTAINS[53]	_	
+7-19	1106-1114	nagnutim	_	_	_	CONTAINS[53]	_	
+7-20	1115-1118	ili	_	_	_	CONTAINS[53]	_	
+7-21	1119-1132	horizontalnim	horizontalni kanal[4]	A.2 Underground landform[21]	_	CONTAINS[53]	_	
+7-22	1133-1140	kanalom	horizontalni kanal[4]	A.2 Underground landform[21]	_	CONTAINS[53]	_	
+7-23	1141-1142	;	_	_	_	_	_	
+7-24	1143-1147	ovaj	_	_	_	_	_	
+7-25	1148-1150	je	_	_	_	_	_	
+7-26	1151-1157	obično	_	_	_	_	_	
+7-27	1158-1163	mnogo	_	_	_	_	_	
+7-28	1164-1168	širi	_	_	_	_	_	
+7-29	1169-1171	od	_	_	_	_	_	
+7-30	1172-1183	vertikalnog	_	_	_	_	_	
+7-31	1184-1185	.	_	_	_	_	_	
+
+#Text=Morske špilje su djelomično potopljene morem i posebno su cijenjene zbog plavog refleksa sunčevog svjetla kroz morsku vodu i pojava prije loma zraka svjetlosti .
+8-1	1187-1193	Morske	_	A.2 Underground landform[22]	DEFINIENDUM[43]	_	_	
+8-2	1194-1200	špilje	_	A.2 Underground landform[22]	DEFINIENDUM[43]	_	_	
+8-3	1201-1203	su	_	_	_	_	_	
+8-4	1204-1214	djelomično	_	_	_	HAS\_ATTRIBUTE[54]	_	
+8-5	1215-1225	potopljene	_	_	_	HAS\_ATTRIBUTE[54]	_	
+8-6	1226-1231	morem	_	_	_	HAS\_ATTRIBUTE[54]	_	
+8-7	1232-1233	i	_	_	_	_	_	
+8-8	1234-1241	posebno	_	_	_	_	_	
+8-9	1242-1244	su	_	_	_	_	_	
+8-10	1245-1254	cijenjene	_	_	_	_	_	
+8-11	1255-1259	zbog	_	_	_	_	_	
+8-12	1260-1266	plavog	_	_	_	_	_	
+8-13	1267-1275	refleksa	_	_	_	_	_	
+8-14	1276-1284	sunčevog	_	_	_	_	_	
+8-15	1285-1292	svjetla	_	_	_	_	_	
+8-16	1293-1297	kroz	_	_	_	_	_	
+8-17	1298-1304	morsku	_	_	_	_	_	
+8-18	1305-1309	vodu	_	_	_	_	_	
+8-19	1310-1311	i	_	_	_	_	_	
+8-20	1312-1318	pojava	_	_	_	_	_	
+8-21	1319-1324	prije	_	_	_	_	_	
+8-22	1325-1329	loma	_	_	_	_	_	
+8-23	1330-1335	zraka	_	_	_	_	_	
+8-24	1336-1346	svjetlosti	_	_	_	_	_	
+8-25	1347-1348	.	_	_	_	_	_	
+
+#Text=Spiljski kompleks se sastoji iz raznovrsnih oblika : galerija ili hodnik je izdužena šupljina ; dvorana ili sala je veliki spiljski prostor u čijem nastajanju znatan udio imaju urušavanja stropnih dijelova ; kanali , rovovi i prolazi su uži i izduženi dijelovi , koji mogu biti spojni između većih šupljina ili se završavaju slijepo – slijepi kanal ili rov .
+9-1	1350-1358	Spiljski	_	A.2 Underground landform[23]	DEFINIENDUM[44]	_	_	
+9-2	1359-1367	kompleks	_	A.2 Underground landform[23]	DEFINIENDUM[44]	_	_	
+9-3	1368-1370	se	_	_	_	_	_	
+9-4	1371-1378	sastoji	_	_	_	_	_	
+9-5	1379-1381	iz	_	_	_	_	_	
+9-6	1382-1393	raznovrsnih	_	_	_	_	_	
+9-7	1394-1400	oblika	_	_	_	_	_	
+9-8	1401-1402	:	_	_	_	_	_	
+9-9	1403-1411	galerija	_	A.2 Underground landform	_	CONTAINS[55]	_	
+9-10	1412-1415	ili	_	_	_	CONTAINS[55]	_	
+9-11	1416-1422	hodnik	_	A.2 Underground landform	_	CONTAINS[55]	_	
+9-12	1423-1425	je	_	_	_	_	_	
+9-13	1426-1434	izdužena	_	_	_	_	_	
+9-14	1435-1443	šupljina	_	_	_	_	_	
+9-15	1444-1445	;	_	_	_	_	_	
+9-16	1446-1453	dvorana	_	A.2 Underground landform	_	CONTAINS[56]	_	
+9-17	1454-1457	ili	_	_	_	CONTAINS[56]	_	
+9-18	1458-1462	sala	_	A.2 Underground landform	_	CONTAINS[56]	_	
+9-19	1463-1465	je	_	_	_	_	_	
+9-20	1466-1472	veliki	_	_	_	_	_	
+9-21	1473-1481	spiljski	_	_	_	_	_	
+9-22	1482-1489	prostor	_	_	_	_	_	
+9-23	1490-1491	u	_	_	_	_	_	
+9-24	1492-1497	čijem	_	_	_	_	_	
+9-25	1498-1508	nastajanju	_	_	_	_	_	
+9-26	1509-1515	znatan	_	_	_	_	_	
+9-27	1516-1520	udio	_	_	_	_	_	
+9-28	1521-1526	imaju	_	_	_	_	_	
+9-29	1527-1537	urušavanja	_	_	_	_	_	
+9-30	1538-1546	stropnih	_	_	_	_	_	
+9-31	1547-1555	dijelova	_	_	_	_	_	
+9-32	1556-1557	;	_	_	_	_	_	
+9-33	1558-1564	kanali	_	A.2 Underground landform	_	CONTAINS	_	
+9-34	1565-1566	,	_	_	_	_	_	
+9-35	1567-1573	rovovi	_	A.2 Underground landform	_	CONTAINS	_	
+9-36	1574-1575	i	_	_	_	_	_	
+9-37	1576-1583	prolazi	_	A.2 Underground landform	_	CONTAINS	_	
+9-38	1584-1586	su	_	_	_	_	_	
+9-39	1587-1590	uži	_	_	_	_	_	
+9-40	1591-1592	i	_	_	_	_	_	
+9-41	1593-1601	izduženi	_	_	_	_	_	
+9-42	1602-1610	dijelovi	_	_	_	_	_	
+9-43	1611-1612	,	_	_	_	_	_	
+9-44	1613-1617	koji	_	_	_	_	_	
+9-45	1618-1622	mogu	_	_	_	_	_	
+9-46	1623-1627	biti	_	_	_	_	_	
+9-47	1628-1634	spojni	_	_	_	_	_	
+9-48	1635-1641	između	_	_	_	_	_	
+9-49	1642-1647	većih	_	_	_	_	_	
+9-50	1648-1656	šupljina	_	_	_	_	_	
+9-51	1657-1660	ili	_	_	_	_	_	
+9-52	1661-1663	se	_	_	_	_	_	
+9-53	1664-1674	završavaju	_	_	_	_	_	
+9-54	1675-1682	slijepo	_	_	_	_	_	
+9-55	1683-1684	–	_	_	_	_	_	
+9-56	1685-1692	slijepi	_	A.2 Underground landform[24]	_	CONTAINS[57]	_	
+9-57	1693-1698	kanal	_	A.2 Underground landform[24]	_	CONTAINS[57]	_	
+9-58	1699-1702	ili	_	_	_	_	_	
+9-59	1703-1706	rov	_	A.2 Underground landform	_	CONTAINS	_	
+9-60	1707-1708	.	_	_	_	_	_	
+
+#Text=Pećine ili špilje su speleološki objekti koji imaju jedan ili više horizontanih ili blago nagnutih kanala , dužine veće od 10 m ( prema UIS-Union International de Speleologie ) .
+10-1	1710-1716	Pećine	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-2	1717-1720	ili	_	_	_	_	_	
+10-3	1721-1727	špilje	_	A.2 Underground landform	DEFINIENDUM	_	_	
+10-4	1728-1730	su	_	_	DEFINITOR	_	_	
+10-5	1731-1742	speleološki	_	A.2 Underground landform[25]	GENUS[45]	_	_	
+10-6	1743-1750	objekti	_	A.2 Underground landform[25]	GENUS[45]	_	_	
+10-7	1751-1755	koji	_	_	_	_	_	
+10-8	1756-1761	imaju	_	_	_	_	_	
+10-9	1762-1767	jedan	_	_	_	CONTAINS[58]	_	
+10-10	1768-1771	ili	_	_	_	CONTAINS[58]	_	
+10-11	1772-1776	više	_	_	_	CONTAINS[58]	_	
+10-12	1777-1789	horizontanih	_	_	_	CONTAINS[58]	_	
+10-13	1790-1793	ili	_	_	_	CONTAINS[58]	_	
+10-14	1794-1799	blago	_	_	_	CONTAINS[58]	_	
+10-15	1800-1808	nagnutih	_	_	_	CONTAINS[58]	_	
+10-16	1809-1815	kanala	kanal	A.2 Underground landform	_	CONTAINS[58]	_	
+10-17	1816-1817	,	_	_	_	_	_	
+10-18	1818-1824	dužine	_	_	_	HAS\_SIZE[59]	_	
+10-19	1825-1829	veće	_	_	_	HAS\_SIZE[59]	_	
+10-20	1830-1832	od	_	_	_	HAS\_SIZE[59]	_	
+10-21	1833-1835	10	_	_	_	HAS\_SIZE[59]	_	
+10-22	1836-1837	m	_	_	_	HAS\_SIZE[59]	_	
+10-23	1838-1839	(	_	_	_	_	_	
+10-24	1840-1845	prema	_	_	_	_	_	
+10-25	1846-1855	UIS-Union	_	_	_	_	_	
+10-26	1856-1869	International	_	_	_	_	_	
+10-27	1870-1872	de	_	_	_	_	_	
+10-28	1873-1884	Speleologie	_	_	_	_	_	
+10-29	1885-1886	)	_	_	_	_	_	
+10-30	1887-1888	.	_	_	_	_	_	
+
+#Text=Bitni elementi svake podzemne akumulacije su napajanje , razina podzemne vode ( slobodne površine ili pod tlakom ) i tečenje .
+11-1	1890-1895	Bitni	_	_	_	_	_	
+11-2	1896-1904	elementi	_	_	_	_	_	
+11-3	1905-1910	svake	_	_	_	_	_	
+11-4	1911-1919	podzemne	_	_	_	_	_	
+11-5	1920-1931	akumulacije	_	_	_	_	_	
+11-6	1932-1934	su	_	_	_	_	_	
+11-7	1935-1944	napajanje	_	_	_	_	_	
+11-8	1945-1946	,	_	_	_	_	_	
+11-9	1947-1953	razina	_	_	_	_	_	
+11-10	1954-1962	podzemne	_	_	_	_	_	
+11-11	1963-1967	vode	_	_	_	_	_	
+11-12	1968-1969	(	_	_	_	_	_	
+11-13	1970-1978	slobodne	_	_	_	_	_	
+11-14	1979-1987	površine	_	_	_	_	_	
+11-15	1988-1991	ili	_	_	_	_	_	
+11-16	1992-1995	pod	_	_	_	_	_	
+11-17	1996-2002	tlakom	_	_	_	_	_	
+11-18	2003-2004	)	_	_	_	_	_	
+11-19	2005-2006	i	_	_	_	_	_	
+11-20	2007-2014	tečenje	_	_	_	_	_	
+11-21	2015-2016	.	_	_	_	_	_	
+
+#Text=Dubina speleološkog objekta je visinska razlika između ( najniže ) kote ulaza i najdublje točke u objektu ( koja se najčešće naziva „ dno “ ) .
+12-1	2018-2024	Dubina	_	D.3 Property[26]	DEFINIENDUM[46]	_	_	
+12-2	2025-2037	speleološkog	_	D.3 Property[26]	DEFINIENDUM[46]	_	_	
+12-3	2038-2045	objekta	_	D.3 Property[26]	DEFINIENDUM[46]	_	_	
+12-4	2046-2048	je	_	_	_	_	_	
+12-5	2049-2057	visinska	_	_	_	DEFINED\_AS[60]	_	
+12-6	2058-2065	razlika	_	_	_	DEFINED\_AS[60]	_	
+12-7	2066-2072	između	_	_	_	DEFINED\_AS[60]	_	
+12-8	2073-2074	(	_	_	_	DEFINED\_AS[60]	_	
+12-9	2075-2082	najniže	_	_	_	DEFINED\_AS[60]	_	
+12-10	2083-2084	)	_	_	_	DEFINED\_AS[60]	_	
+12-11	2085-2089	kote	_	_	_	DEFINED\_AS[60]	_	
+12-12	2090-2095	ulaza	_	_	_	DEFINED\_AS[60]	_	
+12-13	2096-2097	i	_	_	_	DEFINED\_AS[60]	_	
+12-14	2098-2107	najdublje	_	_	_	DEFINED\_AS[60]	_	
+12-15	2108-2113	točke	_	_	_	DEFINED\_AS[60]	_	
+12-16	2114-2115	u	_	_	_	DEFINED\_AS[60]	_	
+12-17	2116-2123	objektu	_	_	_	DEFINED\_AS[60]	_	
+12-18	2124-2125	(	_	_	_	_	_	
+12-19	2126-2130	koja	_	_	_	_	_	
+12-20	2131-2133	se	_	_	_	_	_	
+12-21	2134-2142	najčešće	_	_	_	_	_	
+12-22	2143-2149	naziva	_	_	_	_	_	
+12-23	2150-2151	„	_	_	_	_	_	
+12-24	2152-2155	dno	_	_	_	_	_	
+12-25	2156-2157	“	_	_	_	_	_	
+12-26	2158-2159	)	_	_	_	_	_	
+12-27	2160-2161	.	_	_	_	_	_	
+
+#Text=Morfološki tipovi škrapa koje prema veličini D. Ford i P. Williams ( 1994. ) dijele na mikroškrape ( microkarren ) čije su dimenzije manje od 1 cm ( najmanji oblici uočljivi su tek pod elektronskim mikroskopom ) , škrape ( karren ) dimenzija od 1 cm - 10 m , i velike škrape ( kluftkarren ) koje su veće od 10 m. Osnovno obilježje mikroškrapa prema njima je njihov razvoj u homogenim , fino granuliranim stijenama , a pojedini oblici nastaju kao posljedica korozijskog djelovanja vode koja je povučena kapilarnim tlakom .
+13-1	2163-2173	Morfološki	_	_	_	_	_	
+13-2	2174-2180	tipovi	_	_	_	_	_	
+13-3	2181-2187	škrapa	_	A.1 Surface landform	DEFINIENDUM	_	_	
+13-4	2188-2192	koje	_	_	_	_	_	
+13-5	2193-2198	prema	_	_	_	_	_	
+13-6	2199-2207	veličini	_	_	_	_	_	
+13-7	2208-2209	D	_	_	_	_	_	
+13-8	2209-2210	.	_	_	_	_	_	
+13-9	2211-2215	Ford	_	_	_	_	_	
+13-10	2216-2217	i	_	_	_	_	_	
+13-11	2218-2219	P	_	_	_	_	_	
+13-12	2219-2220	.	_	_	_	_	_	
+13-13	2221-2229	Williams	_	_	_	_	_	
+13-14	2230-2231	(	_	_	_	_	_	
+13-15	2232-2236	1994	_	_	_	_	_	
+13-16	2236-2237	.	_	_	_	_	_	
+13-17	2238-2239	)	_	_	_	_	_	
+13-18	2240-2246	dijele	_	_	_	_	_	
+13-19	2247-2249	na	_	_	_	_	_	
+13-20	2250-2261	mikroškrape	_	A.1 Surface landform	SPECIES	_	_	
+13-21	2262-2263	(	_	_	_	_	_	
+13-22	2264-2275	microkarren	_	A.1 Surface landform	SPECIES	_	_	
+13-23	2276-2277	)	_	_	_	_	_	
+13-24	2278-2282	čije	_	_	_	_	_	
+13-25	2283-2285	su	_	_	_	_	_	
+13-26	2286-2295	dimenzije	_	_	_	_	_	
+13-27	2296-2301	manje	_	_	_	_	_	
+13-28	2302-2304	od	_	_	_	_	_	
+13-29	2305-2306	1	_	_	_	_	_	
+13-30	2307-2309	cm	_	_	_	_	_	
+13-31	2310-2311	(	_	_	_	_	_	
+13-32	2312-2320	najmanji	_	_	_	_	_	
+13-33	2321-2327	oblici	_	_	_	_	_	
+13-34	2328-2336	uočljivi	_	_	_	_	_	
+13-35	2337-2339	su	_	_	_	_	_	
+13-36	2340-2343	tek	_	_	_	_	_	
+13-37	2344-2347	pod	_	_	_	_	_	
+13-38	2348-2360	elektronskim	_	_	_	_	_	
+13-39	2361-2372	mikroskopom	_	_	_	_	_	
+13-40	2373-2374	)	_	_	_	_	_	
+13-41	2375-2376	,	_	_	_	_	_	
+13-42	2377-2383	škrape	_	A.1 Surface landform	SPECIES	_	_	
+13-43	2384-2385	(	_	_	_	_	_	
+13-44	2386-2392	karren	_	A.1 Surface landform	SPECIES	_	_	
+13-45	2393-2394	)	_	_	_	_	_	
+13-46	2395-2404	dimenzija	_	_	_	_	_	
+13-47	2405-2407	od	_	_	_	_	_	
+13-48	2408-2409	1	_	_	_	_	_	
+13-49	2410-2412	cm	_	_	_	_	_	
+13-50	2413-2414	-	_	_	_	_	_	
+13-51	2415-2417	10	_	_	_	_	_	
+13-52	2418-2419	m	_	_	_	_	_	
+13-53	2420-2421	,	_	_	_	_	_	
+13-54	2422-2423	i	_	_	_	_	_	
+13-55	2424-2430	velike	_	A.1 Surface landform[27]	SPECIES[47]	_	_	
+13-56	2431-2437	škrape	_	A.1 Surface landform[27]	SPECIES[47]	_	_	
+13-57	2438-2439	(	_	_	_	_	_	
+13-58	2440-2451	kluftkarren	_	A.1 Surface landform	SPECIES	_	_	
+13-59	2452-2453	)	_	_	_	_	_	
+13-60	2454-2458	koje	_	_	_	_	_	
+13-61	2459-2461	su	_	_	_	_	_	
+13-62	2462-2466	veće	_	_	_	_	_	
+13-63	2467-2469	od	_	_	_	_	_	
+13-64	2470-2472	10	_	_	_	_	_	
+13-65	2473-2474	m	_	_	_	_	_	
+13-66	2474-2475	.	_	_	_	_	_	
+13-67	2476-2483	Osnovno	_	_	_	_	_	
+13-68	2484-2493	obilježje	_	_	_	_	_	
+13-69	2494-2505	mikroškrapa	_	_	_	_	_	
+13-70	2506-2511	prema	_	_	_	_	_	
+13-71	2512-2517	njima	_	_	_	_	_	
+13-72	2518-2520	je	_	_	_	_	_	
+13-73	2521-2527	njihov	_	_	_	_	_	
+13-74	2528-2534	razvoj	_	_	_	_	_	
+13-75	2535-2536	u	_	_	_	_	_	
+13-76	2537-2546	homogenim	_	_	_	_	_	
+13-77	2547-2548	,	_	_	_	_	_	
+13-78	2549-2553	fino	_	_	_	_	_	
+13-79	2554-2566	granuliranim	_	_	_	_	_	
+13-80	2567-2576	stijenama	_	_	_	_	_	
+13-81	2577-2578	,	_	_	_	_	_	
+13-82	2579-2580	a	_	_	_	_	_	
+13-83	2581-2589	pojedini	_	_	_	_	_	
+13-84	2590-2596	oblici	_	_	_	_	_	
+13-85	2597-2604	nastaju	_	_	_	_	_	
+13-86	2605-2608	kao	_	_	_	_	_	
+13-87	2609-2619	posljedica	_	_	_	_	_	
+13-88	2620-2631	korozijskog	_	_	_	_	_	
+13-89	2632-2642	djelovanja	_	_	_	_	_	
+13-90	2643-2647	vode	_	_	_	_	_	
+13-91	2648-2652	koja	_	_	_	_	_	
+13-92	2653-2655	je	_	_	_	_	_	
+13-93	2656-2664	povučena	_	_	_	_	_	
+13-94	2665-2675	kapilarnim	_	_	_	_	_	
+13-95	2676-2682	tlakom	_	_	_	_	_	
+13-96	2683-2684	.	_	_	_	_	_	
+
+#Text=Naslage cenoman-turona sastoje se uglavnom od vapnenaca s ulošcima sivog dolomita ( debljine 10 - 30 cm ) , a u nižim dijelovima od alternacije jednih i drugih .
+14-1	2686-2693	Naslage	_	D.1 Abiotic[28]	DEFINIENDUM[48]	_	_	
+14-2	2694-2708	cenoman-turona	_	D.1 Abiotic[28]	DEFINIENDUM[48]	_	_	
+14-3	2709-2716	sastoje	_	_	_	COMPOSITION\_MEDIUM[61]	frame\_COMPOSITION[64]	
+14-4	2717-2719	se	_	_	_	COMPOSITION\_MEDIUM[61]	frame\_COMPOSITION[64]	
+14-5	2720-2728	uglavnom	_	_	_	COMPOSITION\_MEDIUM[61]	frame\_COMPOSITION[64]	
+14-6	2729-2731	od	_	_	_	COMPOSITION\_MEDIUM[61]	frame\_COMPOSITION[64]	
+14-7	2732-2741	vapnenaca	vapnenac	D.1 Abiotic	_	COMPOSITION\_MEDIUM[61]	_	
+14-8	2742-2743	s	_	_	_	COMPOSITION\_MEDIUM[61]	_	
+14-9	2744-2752	ulošcima	_	_	_	COMPOSITION\_MEDIUM[61]	_	
+14-10	2753-2758	sivog	sivi dolomit[5]	D.1 Abiotic[29]	_	COMPOSITION\_MEDIUM[61]	_	
+14-11	2759-2767	dolomita	sivi dolomit[5]	D.1 Abiotic[29]	_	COMPOSITION\_MEDIUM[61]	_	
+14-12	2768-2769	(	_	_	_	_	_	
+14-13	2770-2778	debljine	_	_	_	_	_	
+14-14	2779-2781	10	_	_	_	_	_	
+14-15	2782-2783	-	_	_	_	_	_	
+14-16	2784-2786	30	_	_	_	_	_	
+14-17	2787-2789	cm	_	_	_	_	_	
+14-18	2790-2791	)	_	_	_	_	_	
+14-19	2792-2793	,	_	_	_	_	_	
+14-20	2794-2795	a	_	_	_	_	_	
+14-21	2796-2797	u	_	_	_	_	_	
+14-22	2798-2803	nižim	_	_	_	_	_	
+14-23	2804-2814	dijelovima	_	_	_	_	_	
+14-24	2815-2817	od	_	_	_	_	_	
+14-25	2818-2829	alternacije	_	_	_	_	_	
+14-26	2830-2836	jednih	_	_	_	_	_	
+14-27	2837-2838	i	_	_	_	_	_	
+14-28	2839-2845	drugih	_	_	_	_	_	
+14-29	2846-2847	.	_	_	_	_	_	
+
+#Text=Sige su sekundarni kemijski produkti ( mineralni talozi ) reakcije vode i primarnog minerala koji postoji u stijenama ili u talogu ( Ford i Wiliams , 2007 ; Palmer , 2007 ) .
+15-1	2849-2853	Sige	_	D.1 Abiotic	DEFINIENDUM	_	_	
+15-2	2854-2856	su	_	_	_	_	_	
+15-3	2857-2867	sekundarni	_	_	_	_	_	
+15-4	2868-2876	kemijski	_	_	_	_	_	
+15-5	2877-2885	produkti	_	_	_	_	_	
+15-6	2886-2887	(	_	_	_	_	_	
+15-7	2888-2897	mineralni	_	D.1 Abiotic[30]	GENUS[49]	_	_	
+15-8	2898-2904	talozi	_	D.1 Abiotic[30]	GENUS[49]	_	_	
+15-9	2905-2906	)	_	_	_	_	_	
+15-10	2907-2915	reakcije	_	_	_	HAS\_CAUSE[62]	_	
+15-11	2916-2920	vode	_	_	_	HAS\_CAUSE[62]	_	
+15-12	2921-2922	i	_	_	_	HAS\_CAUSE[62]	_	
+15-13	2923-2932	primarnog	_	_	_	HAS\_CAUSE[62]	_	
+15-14	2933-2941	minerala	_	_	_	HAS\_CAUSE[62]	_	
+15-15	2942-2946	koji	_	_	_	HAS\_CAUSE[62]	_	
+15-16	2947-2954	postoji	_	_	_	HAS\_CAUSE[62]	_	
+15-17	2955-2956	u	_	_	_	HAS\_CAUSE[62]	_	
+15-18	2957-2966	stijenama	_	_	_	HAS\_CAUSE[62]	_	
+15-19	2967-2970	ili	_	_	_	HAS\_CAUSE[62]	_	
+15-20	2971-2972	u	_	_	_	HAS\_CAUSE[62]	_	
+15-21	2973-2979	talogu	_	_	_	HAS\_CAUSE[62]	_	
+15-22	2980-2981	(	_	_	_	_	_	
+15-23	2982-2986	Ford	_	_	_	_	_	
+15-24	2987-2988	i	_	_	_	_	_	
+15-25	2989-2996	Wiliams	_	_	_	_	_	
+15-26	2997-2998	,	_	_	_	_	_	
+15-27	2999-3003	2007	_	_	_	_	_	
+15-28	3004-3005	;	_	_	_	_	_	
+15-29	3006-3012	Palmer	_	_	_	_	_	
+15-30	3013-3014	,	_	_	_	_	_	
+15-31	3015-3019	2007	_	_	_	_	_	
+15-32	3020-3021	)	_	_	_	_	_	
+15-33	3022-3023	.	_	_	_	_	_	

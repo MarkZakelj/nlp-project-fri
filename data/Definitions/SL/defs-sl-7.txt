@@ -1,0 +1,15 @@
+﻿Poglavitni recentni geomorfni procesi v dolcih so preperevanje (prvotni geomorfni proces, ki lahko preoblikuje površje brez stalnih površinskih vodnih tokov), denudacija (ki lahko preko trenja med preperelino in podlago pomaga oblikovati začetno obliko dolca ; proces je predstavil Penck kot posebno obliko denudacije, ki jo imenuje korazija, nastalo obliko pa korazijska dolina), polzenje, erozija (pomembna tam, kjer rastje ne varuje podlage), korozija (krajevno spremenljiva glede na debelino prsti – razčlenjevanje površja je močnejše, če je debelina prsti tanka ali manj prepustna ; korozija je najmočnejša v dnu dolca in ne na pobočjih, saj je dno dolca položnejše od pobočij, posledično se agresivna voda dlje časa zadržuje v dnu in ga ob tem korodira), akumulacija (gradivo se odlaga na stiku pobočja in dna dolca ter v dnu dolca) ter podzemsko spiranje prepereline in drobirja (lahko pomembno prispevajo k denudaciji).
+Dolec je plitva dolinasta reliefna oblika brez površinskega vodnega pretakanja, in je bolj plitva kot je dolga.
+Kopasti vrhovi so višji deli kraškega reliefa in predstavljajo najpogostejši tip kraške vzpetine.
+Fluviokras je tip kraškega površja, ki je v veliki meri razrezano z dolinami, večina katerih ima svoje začetne dele na krasu.
+Dolec je plitva dolinasta reliefna oblika na pobočju in brez površinskega vodnega pretakanja.
+Kopasti vrhovi so najpogostejši tip kraške vzpetine, ponavadi se pojavljajo med različnimi depresijskimi oblikami.
+Fluviokras je tip kraškega površja, ki je razrezano z rečnimi dolinami, večina njihovih začetnih delov pa je na krasu.
+Kraška polja so površinska kraška oblika.
+Kontaktni kras je območje, kjer se prepletata fluvialni in kraški geomorfni sistem na stiku kraških in nekraških kamnin.
+Jame kontaktnega krasa pogostno imenujemo paragenetske jame ali tudi epifreatične jame.
+Zatrepna dolina je značilna površinska oblika izvirnega kontaktnega krasa, ki nastane na območju izvirov, kjer vode pritekajo iz kraške kamnine.
+Iztek je končni del zatrepne doline.
+Kontaktni kras je tip reliefa, značilen za stik med kraškimi in nekraškimi kamninami.
+Ponorna dolina je depresijska oblika, ki jo izoblikujejo ponikalnice v krasu, vendar je dominantna vloga vrezovanje potoka, zato je vidnih le malo kraških potez (predvsem kraški ponor in dobro prevodni kanali, ki so sposobni odvajati vso alogeno vodo).
+Fluvisoli so obrečne prsti, ki so se razvile na rečnih naplavinah.

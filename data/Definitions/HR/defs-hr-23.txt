@@ -1,0 +1,15 @@
+﻿slijeganje otapanjem: Postupno slijeganje netopivih slojeva uslijed otapanja podinskih slojeva.
+sótano: U Meksiku, duboki vertikalni ponor u kršu koji može ali i ne mora voditi u špilju. 
+speleokronologija: Datiranje ili kronologija nastanka špilje ili njenih mineralnih naslaga ili ispune. Datiranje može biti relativno ili brojčano.
+speleofakt: Morfološki oblik zida špilje, uključujući speleogen, speleotem ili petromorf.
+speleogen: Element špilje koji je formiran erozijom ili trošenjem unutar špilje. Neka od površina koja je formirana otapanjem kao što je zdjelica, luster ili okno.
+speleogeneza: Proces formiranja špilje.
+speleolog: Znanstvenik koji se bavi speleologijom, odnosno proučava špilje i njihove sadržaje. Posebno onaj koji zaista ulazi u špilje.
+speleologija: Istraživanje i znanstveno izučavanje špilja. Fizičko i biološko, uključujući geološko, izučavanje njihove geneze, morfologije i mineralogije. Nauka koja izučava nastanak i razvoj jama i pećina i s njima povezanim oblicima. Izraz je prvi objavio Martel (1896).
+speleomorfologija: Znanstveno izučavanje špilja i drugih krških oblika i njihove promjene tijekom vremena.
+siga: Generičko ime za sekundarne kemijske precipitate u špiljama, uključujući špiljske koralje, špiljsku draperiju, špiljski oniks, špiljsku perlu, kamene brazde, heliktite, mjesečevo mlijeko, obodne barijere, stalaktite i stalagmite koji nastali pri kapanju vode zasićene Ca-hidrogenkarbonatom u vapnenačkim špiljama i kavernama. Najvećim dijelom su izgrađeni od kalcita ali mogu biti, vrlo rijetko, od gipsa i halita. 
+spelunker: Novinski ili laički izraz za špiljara.
+vršna škrapa: U kršu, velika duboka brazda koja se spušta niz strmi vrh. Jedna od brazda otapanja koje su međusobno razdvojene visokim hrptovima oštrih piramidalnih vrhova.
+čaša prskanja: Plitka udubina na vrhu stalagmita. Također i udubina u mulju ili nekom drugom materijalu uzrokovana udarom vode koja kapa.
+spužvasta špilja: Špilja koja se sastoji od nepravilnih, međusobno povezanih kanala.
+eruptirajući rog: Morska špilja sa zadnjim ili gornjim otvorom kroz koji voda izbija ili prska nakon što valovi uđu u špilju. 

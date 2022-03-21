@@ -1,0 +1,389 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Canonicalform|Canonical
+#T_SP=webanno.custom.Category|Category
+#T_SP=webanno.custom.Definitionelement|Def_element
+#T_SP=webanno.custom.Relation|Relation
+#T_SP=webanno.custom.Relation_definitor|Rel_verb_frame
+
+
+#Text=An  aquifer is a body  of rock that can store and transmit significant quantities of water (Gunn, 2004).
+1-1	0-2	An	_	_	_	_	_	
+1-2	4-11	aquifer	_	C. Geome	DEFINIENDUM	_	_	
+1-3	12-14	is	_	_	DEFINITOR[14]	_	_	
+1-4	15-16	a	_	_	DEFINITOR[14]	_	_	
+1-5	17-21	body	_	_	GENUS[15]	_	_	
+1-6	23-25	of	_	_	GENUS[15]	_	_	
+1-7	26-30	rock	_	D.1 Abiotic	GENUS[15]	_	_	
+1-8	31-35	that	_	_	_	_	_	
+1-9	36-39	can	_	_	_	HAS\_FUNCTION[46]	frame\_FUNCTION	
+1-10	40-45	store	_	_	_	HAS\_FUNCTION[46]	_	
+1-11	46-49	and	_	_	_	HAS\_FUNCTION[46]	_	
+1-12	50-58	transmit	_	_	_	HAS\_FUNCTION[46]	_	
+1-13	59-70	significant	_	_	_	HAS\_FUNCTION[46]	_	
+1-14	71-81	quantities	_	_	_	HAS\_FUNCTION[46]	_	
+1-15	82-84	of	_	_	_	HAS\_FUNCTION[46]	_	
+1-16	85-90	water	_	D.1 Abiotic	_	HAS\_FUNCTION[46]	_	
+1-17	91-92	(	_	_	_	_	_	
+1-18	92-96	Gunn	_	_	_	_	_	
+1-19	96-97	,	_	_	_	_	_	
+1-20	98-102	2004	_	_	_	_	_	
+1-21	102-103	)	_	_	_	_	_	
+1-22	103-104	.	_	_	_	_	_	
+
+#Text=Aragonite is a metastable modification  of CaCO3, which sometimes forms in seawater and transforms into calcite during diagenesis.
+2-1	107-116	Aragonite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+2-2	117-119	is	_	_	DEFINITOR[16]	_	_	
+2-3	120-121	a	_	_	DEFINITOR[16]	_	_	
+2-4	122-132	metastable	_	_	_	_	_	
+2-5	133-145	modification	_	_	GENUS[17]	_	_	
+2-6	147-149	of	_	_	GENUS[17]	_	_	
+2-7	150-155	CaCO3	_	D.1 Abiotic	GENUS[17]	_	_	
+2-8	155-156	,	_	_	_	_	_	
+2-9	157-162	which	_	_	_	_	_	
+2-10	163-172	sometimes	_	_	_	_	_	
+2-11	173-178	forms	_	_	_	OCCURS\_IN\_MEDIUM[47]	frame\_MEDIUM[66]	
+2-12	179-181	in	_	_	_	OCCURS\_IN\_MEDIUM[47]	frame\_MEDIUM[66]	
+2-13	182-190	seawater	_	_	_	OCCURS\_IN\_MEDIUM[47]	_	
+2-14	191-194	and	_	_	_	_	_	
+2-15	195-205	transforms	_	_	_	HAS\_RESULT[48]	frame\_RESULT[67]	
+2-16	206-210	into	_	_	_	HAS\_RESULT[48]	frame\_RESULT[67]	
+2-17	211-218	calcite	_	D.1 Abiotic	_	HAS\_RESULT[48]	_	
+2-18	219-225	during	_	_	_	HAS\_RESULT[48]	_	
+2-19	226-236	diagenesis	_	B.3 Addition	_	HAS\_RESULT[48]	_	
+2-20	236-237	.	_	_	_	_	_	
+
+#Text=When an aquifer is bounded on top and bottom by confining beds, it  is called  an artesian aquifer.
+3-1	240-244	When	_	_	_	_	_	
+3-2	245-247	an	_	_	_	_	_	
+3-3	248-255	aquifer	_	C. Geome	GENUS	_	_	
+3-4	256-258	is	_	_	_	_	_	
+3-5	259-266	bounded	_	_	_	HAS\_FORM[49]	frame\_FORM	
+3-6	267-269	on	_	_	_	HAS\_FORM[49]	_	
+3-7	270-273	top	_	_	_	HAS\_FORM[49]	_	
+3-8	274-277	and	_	_	_	HAS\_FORM[49]	_	
+3-9	278-284	bottom	_	_	_	HAS\_FORM[49]	_	
+3-10	285-287	by	_	_	_	HAS\_FORM[49]	frame\_FORM	
+3-11	288-297	confining	_	_	_	HAS\_FORM[49]	_	
+3-12	298-302	beds	_	_	_	HAS\_FORM[49]	_	
+3-13	302-303	,	_	_	_	_	_	
+3-14	304-306	it	_	_	_	_	_	
+3-15	308-310	is	_	_	DEFINITOR[18]	_	_	
+3-16	311-317	called	_	_	DEFINITOR[18]	_	_	
+3-17	319-321	an	_	_	_	_	_	
+3-18	322-330	artesian	_	C. Geome[1]	DEFINIENDUM[19]	_	_	
+3-19	331-338	aquifer	_	C. Geome[1]	DEFINIENDUM[19]	_	_	
+3-20	338-339	.	_	_	_	_	_	
+
+#Text=The  term  bedding-plane cave is strictly applied to a passage that has not enlarged by growth into a major tube or canyon, but has remained almost entirely on the bedding plane.
+4-1	342-345	The	_	_	_	_	_	
+4-2	347-351	term	_	_	_	_	_	
+4-3	353-366	bedding-plane	_	A.2 Underground landform[2]	DEFINIENDUM[20]	_	_	
+4-4	367-371	cave	_	A.2 Underground landform[2]	DEFINIENDUM[20]	_	_	
+4-5	372-374	is	_	_	DEFINITOR[21]	_	_	
+4-6	375-383	strictly	_	_	DEFINITOR[21]	_	_	
+4-7	384-391	applied	_	_	DEFINITOR[21]	_	_	
+4-8	392-394	to	_	_	DEFINITOR[21]	_	_	
+4-9	395-396	a	_	_	DEFINITOR[21]	_	_	
+4-10	397-404	passage	_	A.2 Underground landform	GENUS	_	_	
+4-11	405-409	that	_	_	_	_	_	
+4-12	410-413	has	_	_	_	_	_	
+4-13	414-417	not	_	_	_	HAS\_FORM[50]	_	
+4-14	418-426	enlarged	_	_	_	HAS\_FORM[50]	frame\_FORM[68]	
+4-15	427-429	by	_	_	_	HAS\_FORM[50]	frame\_FORM[68]	
+4-16	430-436	growth	_	_	_	HAS\_FORM[50]	frame\_FORM[68]	
+4-17	437-441	into	_	_	_	HAS\_FORM[50]	frame\_FORM[68]	
+4-18	442-443	a	_	_	_	HAS\_FORM[50]	frame\_FORM[68]	
+4-19	444-449	major	_	_	_	HAS\_FORM[50]	_	
+4-20	450-454	tube	_	A.2 Underground landform	_	HAS\_FORM[50]	_	
+4-21	455-457	or	_	_	_	HAS\_FORM[50]	_	
+4-22	458-464	canyon	_	A.1 Surface landform	_	HAS\_FORM[50]	_	
+4-23	464-465	,	_	_	_	_	_	
+4-24	466-469	but	_	_	_	_	_	
+4-25	470-473	has	_	_	_	HAS\_LOCATION[51]	_	
+4-26	474-482	remained	_	_	_	HAS\_LOCATION[51]	_	
+4-27	483-489	almost	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[69]	
+4-28	490-498	entirely	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[69]	
+4-29	499-501	on	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[69]	
+4-30	502-505	the	_	_	_	HAS\_LOCATION[51]	frame\_LOCATION[69]	
+4-31	506-513	bedding	_	_	_	HAS\_LOCATION[51]	_	
+4-32	514-519	plane	_	_	_	HAS\_LOCATION[51]	_	
+4-33	519-520	.	_	_	_	_	_	
+
+#Text=A cave is an airfilled underground void, large enough to be examined in some way by man.
+5-1	523-524	A	_	_	DEFINIENDUM[22]	_	_	
+5-2	525-529	cave	_	A.2 Underground landform	DEFINIENDUM[22]	_	_	
+5-3	530-532	is	_	_	DEFINITOR[23]	_	_	
+5-4	533-535	an	_	_	DEFINITOR[23]	_	_	
+5-5	536-545	airfilled	_	_	_	_	_	
+5-6	546-557	underground	_	_	GENUS[24]	_	_	
+5-7	558-562	void	_	_	GENUS[24]	_	_	
+5-8	562-563	,	_	_	_	_	_	
+5-9	564-569	large	_	_	_	HAS\_SIZE[52]	frame\_SIZE[70]	
+5-10	570-576	enough	_	_	_	HAS\_SIZE[52]	frame\_SIZE[70]	
+5-11	577-579	to	_	_	_	HAS\_SIZE[52]	_	
+5-12	580-582	be	_	_	_	HAS\_SIZE[52]	_	
+5-13	583-591	examined	_	_	_	HAS\_SIZE[52]	_	
+5-14	592-594	in	_	_	_	HAS\_SIZE[52]	_	
+5-15	595-599	some	_	_	_	HAS\_SIZE[52]	_	
+5-16	600-603	way	_	_	_	HAS\_SIZE[52]	_	
+5-17	604-606	by	_	_	_	HAS\_SIZE[52]	_	
+5-18	607-610	man	_	_	_	HAS\_SIZE[52]	_	
+5-19	610-611	.	_	_	_	_	_	
+
+#Text=Glacial cirques have been transformed by solution into closed depressions, and  are called cirque-dolines.
+6-1	614-621	Glacial	_	A.1 Surface landform[3]	GENUS[25]	_	_	
+6-2	622-629	cirques	_	A.1 Surface landform[3]	GENUS[25]	_	_	
+6-3	630-634	have	_	_	_	HAS\_CAUSE[53]	_	
+6-4	635-639	been	_	_	_	HAS\_CAUSE[53]	_	
+6-5	640-651	transformed	_	_	_	HAS\_CAUSE[53]	frame\_CAUSE[71]	
+6-6	652-654	by	_	_	_	HAS\_CAUSE[53]	frame\_CAUSE[71]	
+6-7	655-663	solution	_	B.4 Transformation	_	HAS\_CAUSE[53]	_	
+6-8	664-668	into	_	_	_	HAS\_CAUSE[53]	_	
+6-9	669-675	closed	_	A.1 Surface landform[4]	_	HAS\_CAUSE[53]	_	
+6-10	676-687	depressions	_	A.1 Surface landform[4]	_	HAS\_CAUSE[53]	_	
+6-11	687-688	,	_	_	_	_	_	
+6-12	689-692	and	_	_	_	_	_	
+6-13	694-697	are	_	_	DEFINITOR[26]	_	_	
+6-14	698-704	called	_	_	DEFINITOR[26]	_	_	
+6-15	705-719	cirque-dolines	cirque-doline	A.1 Surface landform	DEFINIENDUM	_	_	
+6-16	719-720	.	_	_	_	_	_	
+
+#Text=Less permeable rock below an aquifer that keeps groundwater from draining away  is called  a confining bed (also known as aquitard or aquiclude).
+7-1	723-727	Less	_	_	GENUS[27]	_	_	
+7-2	728-737	permeable	_	_	GENUS[27]	_	_	
+7-3	738-742	rock	_	D.1 Abiotic	GENUS[27]	_	_	
+7-4	743-748	below	_	_	GENUS[27]	_	_	
+7-5	749-751	an	_	_	GENUS[27]	_	_	
+7-6	752-759	aquifer	_	C. Geome	GENUS[27]	_	_	
+7-7	760-764	that	_	_	_	_	frame\_FUNCTION[72]	
+7-8	765-770	keeps	_	_	_	HAS\_FUNCTION[54]	frame\_FUNCTION[72]	
+7-9	771-782	groundwater	_	D.1 Abiotic	_	HAS\_FUNCTION[54]	_	
+7-10	783-787	from	_	_	_	HAS\_FUNCTION[54]	_	
+7-11	788-796	draining	_	_	_	HAS\_FUNCTION[54]	_	
+7-12	797-801	away	_	_	_	HAS\_FUNCTION[54]	_	
+7-13	803-805	is	_	_	DEFINITOR[28]	_	_	
+7-14	806-812	called	_	_	DEFINITOR[28]	_	_	
+7-15	814-815	a	_	_	DEFINITOR[28]	_	_	
+7-16	816-825	confining	_	D.1 Abiotic[5]	DEFINIENDUM[29]	_	_	
+7-17	826-829	bed	_	D.1 Abiotic[5]	DEFINIENDUM[29]	_	_	
+7-18	830-831	(	_	_	_	_	_	
+7-19	831-835	also	_	_	DEFINITOR[30]	_	_	
+7-20	836-841	known	_	_	DEFINITOR[30]	_	_	
+7-21	842-844	as	_	_	DEFINITOR[30]	_	_	
+7-22	845-853	aquitard	_	C. Geome	DEFINIENDUM	_	_	
+7-23	854-856	or	_	_	_	_	_	
+7-24	857-866	aquiclude	_	C. Geome	DEFINIENDUM	_	_	
+7-25	866-867	)	_	_	_	_	_	
+7-26	867-868	.	_	_	_	_	_	
+
+#Text=Karst formed by the influence surface river flow could be designated by the  term  of contact karst.
+8-1	871-876	Karst	_	C. Geome	GENUS	_	_	
+8-2	877-883	formed	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[73]	
+8-3	884-886	by	_	_	_	HAS\_CAUSE[55]	frame\_CAUSE[73]	
+8-4	887-890	the	_	_	_	HAS\_CAUSE[55]	_	
+8-5	891-900	influence	_	_	_	HAS\_CAUSE[55]	_	
+8-6	901-908	surface	_	_	_	HAS\_CAUSE[55]	_	
+8-7	909-914	river	_	B.1 Movement[6]	_	HAS\_CAUSE[55]	_	
+8-8	915-919	flow	_	B.1 Movement[6]	_	HAS\_CAUSE[55]	_	
+8-9	920-925	could	_	_	DEFINITOR[31]	_	_	
+8-10	926-928	be	_	_	DEFINITOR[31]	_	_	
+8-11	929-939	designated	_	_	DEFINITOR[31]	_	_	
+8-12	940-942	by	_	_	DEFINITOR[31]	_	_	
+8-13	943-946	the	_	_	DEFINITOR[31]	_	_	
+8-14	948-952	term	_	_	DEFINITOR[31]	_	_	
+8-15	954-956	of	_	_	_	_	_	
+8-16	957-964	contact	_	C. Geome[7]	DEFINIENDUM[32]	_	_	
+8-17	965-970	karst	_	C. Geome[7]	DEFINIENDUM[32]	_	_	
+8-18	970-971	.	_	_	_	_	_	
+
+#Text=Dolomite is a type  of rock that dissolves and is karstified similarly as limestone.
+9-1	974-982	Dolomite	_	D.1 Abiotic	DEFINIENDUM	_	_	
+9-2	983-985	is	_	_	DEFINITOR[33]	_	_	
+9-3	986-987	a	_	_	DEFINITOR[33]	_	_	
+9-4	988-992	type	_	_	DEFINITOR[33]	_	_	
+9-5	994-996	of	_	_	DEFINITOR[33]	_	_	
+9-6	997-1001	rock	_	D.1 Abiotic	GENUS	_	_	
+9-7	1002-1006	that	_	_	_	HAS\_ATTRIBUTE[56]	_	
+9-8	1007-1016	dissolves	_	B.2 Loss	_	HAS\_ATTRIBUTE[56]	_	
+9-9	1017-1020	and	_	_	_	HAS\_ATTRIBUTE[56]	_	
+9-10	1021-1023	is	_	_	_	HAS\_ATTRIBUTE[56]	_	
+9-11	1024-1034	karstified	_	B.4 Transformation	_	HAS\_ATTRIBUTE[56]	_	
+9-12	1035-1044	similarly	_	_	_	HAS\_ATTRIBUTE[56]	_	
+9-13	1045-1047	as	_	_	_	HAS\_ATTRIBUTE[56]	_	
+9-14	1048-1057	limestone	_	D.1 Abiotic	_	HAS\_ATTRIBUTE[56]	_	
+9-15	1057-1058	.	_	_	_	_	_	
+
+#Text=The vertical change in the level of the potentiometric surface at the well  is called  the drawdown.
+10-1	1061-1064	The	_	_	_	_	_	
+10-2	1065-1073	vertical	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-3	1074-1080	change	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-4	1081-1083	in	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-5	1084-1087	the	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-6	1088-1093	level	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-7	1094-1096	of	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-8	1097-1100	the	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-9	1101-1115	potentiometric	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-10	1116-1123	surface	_	_	GENUS[34]	DEFINED\_AS[57]	_	
+10-11	1124-1126	at	_	_	_	DEFINED\_AS[57]	_	
+10-12	1127-1130	the	_	_	_	DEFINED\_AS[57]	_	
+10-13	1131-1135	well	_	_	_	DEFINED\_AS[57]	_	
+10-14	1137-1139	is	_	_	DEFINITOR[35]	_	_	
+10-15	1140-1146	called	_	_	DEFINITOR[35]	_	_	
+10-16	1148-1151	the	_	_	DEFINITOR[35]	_	_	
+10-17	1152-1160	drawdown	_	B. Process	DEFINIENDUM	_	_	
+10-18	1160-1161	.	_	_	_	_	_	
+
+#Text=Dry valley is a valley that generally lacks a stream, although one may occasionally form during peak rainfall events.
+11-1	1164-1167	Dry	_	A.1 Surface landform[8]	DEFINIENDUM[36]	_	_	
+11-2	1168-1174	valley	_	A.1 Surface landform[8]	DEFINIENDUM[36]	_	_	
+11-3	1175-1177	is	_	_	DEFINITOR[37]	_	_	
+11-4	1178-1179	a	_	_	DEFINITOR[37]	_	_	
+11-5	1180-1186	valley	_	A.1 Surface landform	GENUS	_	_	
+11-6	1187-1191	that	_	_	_	_	_	
+11-7	1192-1201	generally	_	_	_	_	_	
+11-8	1202-1207	lacks	_	_	_	CONTAINS[58]	_	
+11-9	1208-1209	a	_	_	_	CONTAINS[58]	_	
+11-10	1210-1216	stream	_	A.3 Hydrological form	_	CONTAINS[58]	_	
+11-11	1216-1217	,	_	_	_	_	_	
+11-12	1218-1226	although	_	_	_	_	_	
+11-13	1227-1230	one	_	_	_	_	_	
+11-14	1231-1234	may	_	_	_	_	_	
+11-15	1235-1247	occasionally	_	_	_	_	_	
+11-16	1248-1252	form	_	_	_	_	_	
+11-17	1253-1259	during	_	_	_	_	_	
+11-18	1260-1264	peak	_	_	_	_	_	
+11-19	1265-1273	rainfall	_	_	_	_	_	
+11-20	1274-1280	events	_	_	_	_	_	
+11-21	1280-1281	.	_	_	_	_	_	
+
+#Text=Endokarst  is defined as  karst developing in the lower part of the karstosphere, where the internal (telluric) energy is dominant and the rock mass is under lithostatic pressure which exceeds its tensile strength.
+12-1	1284-1293	Endokarst	_	C. Geome	DEFINIENDUM	_	_	
+12-2	1295-1297	is	_	_	DEFINITOR[38]	_	_	
+12-3	1298-1305	defined	_	_	DEFINITOR[38]	_	_	
+12-4	1306-1308	as	_	_	DEFINITOR[38]	_	_	
+12-5	1310-1315	karst	_	C. Geome	GENUS	_	_	
+12-6	1316-1326	developing	_	_	_	_	_	
+12-7	1327-1329	in	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION[74]	
+12-8	1330-1333	the	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION[74]	
+12-9	1334-1339	lower	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION[74]	
+12-10	1340-1344	part	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION[74]	
+12-11	1345-1347	of	_	_	_	HAS\_LOCATION[59]	frame\_LOCATION[74]	
+12-12	1348-1351	the	_	_	_	HAS\_LOCATION[59]	_	
+12-13	1352-1364	karstosphere	_	C. Geome	_	HAS\_LOCATION[59]	_	
+12-14	1364-1365	,	_	_	_	_	_	
+12-15	1366-1371	where	_	_	_	HAS\_CAUSE[60]	frame\_CAUSE	
+12-16	1372-1375	the	_	_	_	HAS\_CAUSE[60]	_	
+12-17	1376-1384	internal	_	D. Entity/Element/Property[9]	_	HAS\_CAUSE[60]	_	
+12-18	1385-1386	(	_	D. Entity/Element/Property[9]	_	HAS\_CAUSE[60]	_	
+12-19	1386-1394	telluric	_	D. Entity/Element/Property[9]	_	HAS\_CAUSE[60]	_	
+12-20	1394-1395	)	_	D. Entity/Element/Property[9]	_	HAS\_CAUSE[60]	_	
+12-21	1396-1402	energy	_	D. Entity/Element/Property[9]	_	HAS\_CAUSE[60]	_	
+12-22	1403-1405	is	_	_	_	HAS\_CAUSE[60]	_	
+12-23	1406-1414	dominant	_	_	_	HAS\_CAUSE[60]	_	
+12-24	1415-1418	and	_	_	_	HAS\_CAUSE[60]	_	
+12-25	1419-1422	the	_	_	_	HAS\_CAUSE[60]	_	
+12-26	1423-1427	rock	_	D.1 Abiotic[10]	_	HAS\_CAUSE[60]	_	
+12-27	1428-1432	mass	_	D.1 Abiotic[10]	_	HAS\_CAUSE[60]	_	
+12-28	1433-1435	is	_	_	_	HAS\_CAUSE[60]	_	
+12-29	1436-1441	under	_	_	_	HAS\_CAUSE[60]	_	
+12-30	1442-1453	lithostatic	_	D. Entity/Element/Property[11]	_	HAS\_CAUSE[60]	_	
+12-31	1454-1462	pressure	_	D. Entity/Element/Property[11]	_	HAS\_CAUSE[60]	_	
+12-32	1463-1468	which	_	_	_	HAS\_CAUSE[60]	_	
+12-33	1469-1476	exceeds	_	_	_	HAS\_CAUSE[60]	_	
+12-34	1477-1480	its	_	_	_	HAS\_CAUSE[60]	_	
+12-35	1481-1488	tensile	_	_	_	HAS\_CAUSE[60]	_	
+12-36	1489-1497	strength	_	_	_	HAS\_CAUSE[60]	_	
+12-37	1497-1498	.	_	_	_	_	_	
+
+#Text=The epikarst  is defined as  the uppermost zone of exposed karst rock, in which permeability due to fissuring and karstification is higher and more uniformly distributed than in the rock mass below.
+13-1	1501-1504	The	_	_	_	_	_	
+13-2	1505-1513	epikarst	_	C. Geome	DEFINIENDUM	_	_	
+13-3	1515-1517	is	_	_	DEFINITOR[39]	_	_	
+13-4	1518-1525	defined	_	_	DEFINITOR[39]	_	_	
+13-5	1526-1528	as	_	_	DEFINITOR[39]	_	_	
+13-6	1530-1533	the	_	_	_	_	_	
+13-7	1534-1543	uppermost	_	_	_	HAS\_LOCATION[61]	frame\_LOCATION[75]	
+13-8	1544-1548	zone	_	_	GENUS[40]	HAS\_LOCATION[61]	frame\_LOCATION[75]	
+13-9	1549-1551	of	_	_	GENUS[40]	HAS\_LOCATION[61]	frame\_LOCATION[75]	
+13-10	1552-1559	exposed	_	_	GENUS[40]	HAS\_LOCATION[61]	_	
+13-11	1560-1565	karst	_	_	GENUS[40]	HAS\_LOCATION[61]	_	
+13-12	1566-1570	rock	_	D.1 Abiotic	GENUS[40]	HAS\_LOCATION[61]	_	
+13-13	1570-1571	,	_	_	_	_	_	
+13-14	1572-1574	in	_	_	_	_	_	
+13-15	1575-1580	which	_	_	_	_	_	
+13-16	1581-1593	permeability	_	D.3 Property	_	HAS\_ATTRIBUTE[62]	_	
+13-17	1594-1597	due	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-18	1598-1600	to	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-19	1601-1610	fissuring	_	B.4 Transformation	_	HAS\_ATTRIBUTE[62]	_	
+13-20	1611-1614	and	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-21	1615-1629	karstification	_	B.4 Transformation	_	HAS\_ATTRIBUTE[62]	_	
+13-22	1630-1632	is	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-23	1633-1639	higher	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-24	1640-1643	and	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-25	1644-1648	more	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-26	1649-1658	uniformly	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-27	1659-1670	distributed	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-28	1671-1675	than	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-29	1676-1678	in	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-30	1679-1682	the	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-31	1683-1687	rock	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-32	1688-1692	mass	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-33	1693-1698	below	_	_	_	HAS\_ATTRIBUTE[62]	_	
+13-34	1698-1699	.	_	_	_	_	_	
+
+#Text=The highly corroded zone near the surface is termed the epikarst or subcutaneous zone.
+14-1	1702-1705	The	_	_	_	_	_	
+14-2	1706-1712	highly	_	_	GENUS[41]	HAS\_FORM[63]	_	
+14-3	1713-1721	corroded	_	_	GENUS[41]	HAS\_FORM[63]	_	
+14-4	1722-1726	zone	_	_	GENUS[41]	_	_	
+14-5	1727-1731	near	_	_	_	HAS\_LOCATION[64]	frame\_LOCATION[76]	
+14-6	1732-1735	the	_	_	_	HAS\_LOCATION[64]	frame\_LOCATION[76]	
+14-7	1736-1743	surface	_	_	_	HAS\_LOCATION[64]	_	
+14-8	1744-1746	is	_	_	DEFINITOR[42]	_	_	
+14-9	1747-1753	termed	_	_	DEFINITOR[42]	_	_	
+14-10	1754-1757	the	_	_	_	_	_	
+14-11	1757-1758	 	_	_	_	_	_	
+14-12	1758-1766	epikarst	_	C. Geome	DEFINIENDUM	_	_	
+14-13	1766-1767	 	_	_	_	_	_	
+14-14	1767-1769	or	_	_	_	_	_	
+14-15	1770-1782	subcutaneous	_	C. Geome[12]	DEFINIENDUM[43]	_	_	
+14-16	1783-1787	zone	_	C. Geome[12]	DEFINIENDUM[43]	_	_	
+14-17	1787-1788	.	_	_	_	_	_	
+
+#Text=The  term  estavelle was first used in the Jura but is now used fairly widely for a hole which is at one time of the year a swallow hole and at another time a spring.
+15-1	1790-1793	The	_	_	DEFINITOR[44]	_	_	
+15-2	1795-1799	term	_	_	DEFINITOR[44]	_	_	
+15-3	1801-1810	estavelle	_	A.3 Hydrological form	DEFINIENDUM	_	_	
+15-4	1811-1814	was	_	_	_	_	_	
+15-5	1815-1820	first	_	_	_	_	_	
+15-6	1821-1825	used	_	_	_	_	_	
+15-7	1826-1828	in	_	_	_	_	_	
+15-8	1829-1832	the	_	_	_	_	_	
+15-9	1833-1837	Jura	_	D.3.1 Geolocation	_	_	_	
+15-10	1838-1841	but	_	_	_	_	_	
+15-11	1842-1844	is	_	_	DEFINITOR[45]	_	_	
+15-12	1845-1848	now	_	_	DEFINITOR[45]	_	_	
+15-13	1849-1853	used	_	_	DEFINITOR[45]	_	_	
+15-14	1854-1860	fairly	_	_	DEFINITOR[45]	_	_	
+15-15	1861-1867	widely	_	_	DEFINITOR[45]	_	_	
+15-16	1868-1871	for	_	_	DEFINITOR[45]	_	_	
+15-17	1872-1873	a	_	_	DEFINITOR[45]	_	_	
+15-18	1874-1878	hole	_	A.2 Underground landform	GENUS	_	_	
+15-19	1879-1884	which	_	_	_	_	_	
+15-20	1885-1887	is	_	_	_	_	_	
+15-21	1888-1890	at	_	_	_	OCCURS\_IN\_TIME[65]	frame\_TIME[77]	
+15-22	1891-1894	one	_	_	_	OCCURS\_IN\_TIME[65]	frame\_TIME[77]	
+15-23	1895-1899	time	_	_	_	OCCURS\_IN\_TIME[65]	frame\_TIME[77]	
+15-24	1900-1902	of	_	_	_	OCCURS\_IN\_TIME[65]	frame\_TIME[77]	
+15-25	1903-1906	the	_	_	_	OCCURS\_IN\_TIME[65]	frame\_TIME[77]	
+15-26	1907-1911	year	_	_	_	OCCURS\_IN\_TIME[65]	frame\_TIME[77]	
+15-27	1912-1913	a	_	_	_	OCCURS\_IN\_TIME[65]	_	
+15-28	1914-1921	swallow	_	A.3 Hydrological form[13]	_	OCCURS\_IN\_TIME[65]	_	
+15-29	1922-1926	hole	_	A.3 Hydrological form[13]	_	OCCURS\_IN\_TIME[65]	_	
+15-30	1927-1930	and	_	_	_	OCCURS\_IN\_TIME[65]	_	
+15-31	1931-1933	at	_	_	_	OCCURS\_IN\_TIME[65]	_	
+15-32	1934-1941	another	_	_	_	OCCURS\_IN\_TIME[65]	_	
+15-33	1942-1946	time	_	_	_	OCCURS\_IN\_TIME[65]	_	
+15-34	1947-1948	a	_	_	_	OCCURS\_IN\_TIME[65]	_	
+15-35	1949-1955	spring	_	A.3 Hydrological form	_	OCCURS\_IN\_TIME[65]	_	
+15-36	1955-1956	.	_	_	_	_	_	
