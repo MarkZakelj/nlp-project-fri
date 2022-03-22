@@ -9,3 +9,7 @@
 * Later test also on Slovenian language
 * Marine TLO dataset - cross domain testing
 * https://arxiv.org/pdf/2012.03418.pdf
+
+## Task 2:
+* non-hierarchical features
+* method with hand-crafted features : Semantic_RelationExtraction_with_Semantic_Patterns.pdf
