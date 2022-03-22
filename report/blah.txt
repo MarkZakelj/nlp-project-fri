@@ -1,9 +1,0 @@
--Termframe: 
-* Covers the field of Karstology in 3 languages, 2.5 million tokens, 2 million words in ENG
-* From this -> a collection of term definitions, which contain semantic relations to other terms(a frame)
-* 784 English definitions
-
--Task 1:
-* Extraction of Hyponymic Relations in French with Knowledge-Pattern-Based 
-Word Sketches : Pretty much what we are looking for - domain-indepedent but language specific?
-* Need to train 2 models here? ENG + SLO/CRO?
