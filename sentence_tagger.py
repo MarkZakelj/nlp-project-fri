@@ -33,7 +33,7 @@ if torch.cuda.is_available():
         print(f"Found GPU device: {torch.cuda.get_device_name(i)}")
     
 
-df_data = pd.read_csv("tokenized.csv", encoding="latin1").fillna(method="ffill")
+df_data = pd.read_csv("data/tokenized_EN.csv", encoding="latin1").fillna(method="ffill")
 df_data.shape
 
 
@@ -82,15 +82,15 @@ print(f"Number of labels: {num_labels}")
 MAX_LENGTH = 128
 BATCH_SIZE = 4
 
-
+#device = torch.device("cpu")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 n_gpu = torch.cuda.device_count()
 
 if torch.cuda.is_available():
     print(f"GPU device: {torch.cuda.get_device_name(0)}")
     
-gc.collect()
-torch.cuda.empty_cache()
+#gc.collect()
+#torch.cuda.empty_cache()
 
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
@@ -167,7 +167,7 @@ model = BertForTokenClassification.from_pretrained(
 if torch.cuda.is_available():
     torch.cuda.empty_cache() 
     model.cuda()
-stats = torch.cuda.memory_stats(device=device)
+#stats = torch.cuda.memory_stats(device=device)
     
 FULL_FINETUNING = True
 if FULL_FINETUNING:
@@ -214,7 +214,6 @@ scheduler = get_linear_schedule_with_warmup(
     t_total=total_steps
 )
 
-print(os.environ)
 
 
 def flat_accuracy(preds, labels):
@@ -237,7 +236,7 @@ for epoch_id in range(epochs):
     # Reset the total loss for this epoch.
     total_loss = 0
     
-    torch.cuda.empty_cache()
+    #torch.cuda.empty_cache()
 
     # Training loop
     for step, batch in tqdm(enumerate(train_dataloader)):
@@ -249,8 +248,15 @@ for epoch_id in range(epochs):
         # forward pass
         # This will return the loss (rather than the model output)
         # because we have provided the `labels`.
+        b_input_ids = torch.tensor(b_input_ids, dtype=torch.long, device=device)
+        b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
+        b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
         outputs = model(b_input_ids, token_type_ids=None,
                         attention_mask=b_input_mask, labels=b_labels)
+        
+        del b_input_ids
+        del b_input_mask
+        del b_labels
         # get the loss
         loss = outputs[0]
         # Perform a backward pass to calculate the gradients.
@@ -321,10 +327,6 @@ for epoch_id in range(epochs):
     print()
 
 torch.save(model, 'model/tagger_bert_dfd.pt')
-
-
-
-
 
 
 
