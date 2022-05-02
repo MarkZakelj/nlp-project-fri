@@ -80,7 +80,7 @@ print(f"Number of labels: {num_labels}")
 
 
 MAX_LENGTH = 128
-BATCH_SIZE = 4
+BATCH_SIZE = 8
 
 #device = torch.device("cpu")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -198,10 +198,9 @@ params_classifier = sum([np.prod(p.size()) for p in model_classifier_parameters]
 print(f"The classifier-only model has {params_classifier} trainable parameters")
 
 
-from transformers import AdamW
-from transformers import WarmupLinearSchedule as get_linear_schedule_with_warmup
+from transformers import get_linear_schedule_with_warmup
 
-epochs = 4
+epochs = 3
 max_grad_norm = 1.0
 
 # Total number of training steps is number of batches * number of epochs.
@@ -210,10 +209,9 @@ total_steps = len(train_dataloader) * epochs
 # Create the learning rate scheduler.
 scheduler = get_linear_schedule_with_warmup(
     optimizer,
-    warmup_steps=0,
-    t_total=total_steps
+    num_warmup_steps=0,
+    num_training_steps=total_steps
 )
-
 
 
 def flat_accuracy(preds, labels):
@@ -293,6 +291,10 @@ for epoch_id in range(epochs):
     for batch in valid_dataloader:
         batch = tuple(t.to(device) for t in batch)
         b_input_ids, b_input_mask, b_labels = batch
+        
+        b_input_ids = torch.tensor(b_input_ids, dtype=torch.long, device=device)
+        b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
+        b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
         # Telling the model not to compute or store gradients,
         # saving memory and speeding up validation
@@ -301,6 +303,7 @@ for epoch_id in range(epochs):
             # This will return the logits rather than the loss because we have not provided labels.
             outputs = model(b_input_ids, token_type_ids=None,
                             attention_mask=b_input_mask, labels=b_labels)
+            
         # Move logits and labels to CPU
         logits = outputs[1].detach().cpu().numpy()
         label_ids = b_labels.to('cpu').numpy()
@@ -313,6 +316,10 @@ for epoch_id in range(epochs):
 
         nb_eval_examples += b_input_ids.size(0)
         nb_eval_steps += 1
+        
+        del b_input_ids
+        del b_input_mask
+        del b_labels
         
 
     eval_loss = eval_loss / nb_eval_steps
@@ -328,5 +335,71 @@ for epoch_id in range(epochs):
 
 torch.save(model, 'model/tagger_bert_dfd.pt')
 
+# Loading a model (see docs for different options)
+model = torch.load('model/tagger_bert_dfd.pt', map_location=torch.device('cuda'))
 
+# Uncommend inline and show to show within the jupyter only.
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Use plot styling from seaborn.
+sns.set(style='darkgrid')
+
+# Increase the plot size and font size.
+sns.set(font_scale=1.5)
+plt.rcParams["figure.figsize"] = (12,6)
+
+# Plot the learning curve.
+plt.plot(loss_values, 'b-o', label="training loss")
+plt.plot(validation_loss_values, 'r-o', label="validation loss")
+
+# Label the plot.
+plt.title("Learning curve")
+plt.xlabel("Epoch")
+plt.ylabel("Loss")
+plt.legend()
+
+plt.show()
+#plt.savefig("training.png")
+
+
+# TEST
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Pytorch is using: {device}")
+
+predictions , true_labels = [], []
+for batch in tqdm(test_dataloader):
+    b_input_ids, b_input_mask, b_labels = batch
+    b_input_ids = torch.tensor(b_input_ids, dtype=torch.long, device=device)
+    b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
+    b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
+
+
+    b_input_ids.to(device)
+    b_input_mask.to(device)
+    b_labels.to(device)
+    
+    with torch.no_grad():
+        outputs = model(b_input_ids, token_type_ids=None,
+                        attention_mask=b_input_mask, labels=b_labels)
+
+    logits = outputs[1].detach().cpu().numpy()
+    label_ids = b_labels.to('cpu').numpy()
+
+    predictions.extend([list(p) for p in np.argmax(logits, axis=2)])
+    true_labels.extend(label_ids)
+    
+    del b_input_ids
+    del b_input_mask
+    del b_labels
+
+results_predicted = [[code2label[p_i] for (p_i, l_i) in zip(p, l) if code2label[l_i] != "PAD"] 
+                                      for p, l in zip(predictions, true_labels)]
+results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"] 
+                                 for l in true_labels]
+
+
+print(f"F1 score: {f1_score(results_true, results_predicted)}")
+print(f"Accuracy score: {accuracy_score(results_true, results_predicted)}")
+print(classification_report(results_true, results_predicted))
 
