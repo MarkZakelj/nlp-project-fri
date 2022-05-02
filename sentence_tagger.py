@@ -38,7 +38,7 @@ def load_data(tokenizer, df_data, batch_size, max_length):
     x_train, x_test = train_test_split(df_data, test_size=0.20, shuffle=False, random_state = 42)
     x_val, x_test = train_test_split(x_test, test_size=0.50, shuffle=False, random_state = 42)
     
-    agg_func = lambda s: [ [w,t] for w,t in zip(s["Word"].values.tolist(),s["Tag"].values.tolist())]
+    agg_func = lambda s: [ [w,p,t] for w,p,t in zip(s["Word"].values.tolist(),s["POS"].values.tolist(),s["Tag"].values.tolist())]
     
     x_train_grouped = x_train.groupby("Sentence").apply(agg_func)
     x_val_grouped = x_val.groupby("Sentence").apply(agg_func)
@@ -48,9 +48,9 @@ def load_data(tokenizer, df_data, batch_size, max_length):
     x_val_sentences = [[s[0] for s in sent] for sent in x_val_grouped.values]
     x_test_sentences = [[s[0] for s in sent] for sent in x_test_grouped.values]
     
-    x_train_tags = [[t[1] for t in tag] for tag in x_train_grouped.values]
-    x_val_tags = [[t[1] for t in tag] for tag in x_val_grouped.values]
-    x_test_tags = [[t[1] for t in tag] for tag in x_test_grouped.values]
+    x_train_tags = [[t[2] for t in tag] for tag in x_train_grouped.values]
+    x_val_tags = [[t[2] for t in tag] for tag in x_val_grouped.values]
+    x_test_tags = [[t[2] for t in tag] for tag in x_test_grouped.values]
     
     label2code = {label: i for i, label in enumerate(tag_list)}
     code2label = {v: k for k, v in label2code.items()}
@@ -62,7 +62,7 @@ def load_data(tokenizer, df_data, batch_size, max_length):
         input_id_list = []
         attention_mask_list = []
         label_id_list = []
-        
+        tokens_list = []
         for x,y in tqdm(zip(sentences,tags),total=len(tags)):
             tokens = []
             label_ids = []
@@ -74,7 +74,8 @@ def load_data(tokenizer, df_data, batch_size, max_length):
                 label_ids.extend([label2code[label]] * len(word_tokens))
     
             input_ids = tokenizer.convert_tokens_to_ids(tokens)
-    
+            
+            tokens_list.append(tokens)
             input_id_list.append(input_ids)
             label_id_list.append(label_ids)
     
@@ -86,12 +87,12 @@ def load_data(tokenizer, df_data, batch_size, max_length):
                          dtype="long", truncating="post")
         attention_mask_list = [[float(i != 0.0) for i in ii] for ii in input_id_list]
     
-        return input_id_list, attention_mask_list, label_id_list
+        return input_id_list, attention_mask_list, label_id_list, tokens_list
     
     
-    input_ids_train, attention_masks_train, label_ids_train = convert_to_input(x_train_sentences, x_train_tags)
-    input_ids_val, attention_masks_val, label_ids_val = convert_to_input(x_val_sentences, x_val_tags)
-    input_ids_test, attention_masks_test, label_ids_test = convert_to_input(x_test_sentences, x_test_tags)
+    input_ids_train, attention_masks_train, label_ids_train, _ = convert_to_input(x_train_sentences, x_train_tags)
+    input_ids_val, attention_masks_val, label_ids_val, _ = convert_to_input(x_val_sentences, x_val_tags)
+    input_ids_test, attention_masks_test, label_ids_test, tokens_list = convert_to_input(x_test_sentences, x_test_tags)
     
     train_inputs = torch.tensor(input_ids_train)
     train_tags = torch.tensor(label_ids_train)
@@ -119,12 +120,13 @@ def load_data(tokenizer, df_data, batch_size, max_length):
     test_dataloader = DataLoader(test_data, sampler=test_sampler, batch_size=batch_size)
 
 
-    return train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, x_test_sentences
+    return train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, tokens_list
 
 
 
 def train_model(train_dataloader, valid_dataloader, test_dataloader,
-                label2code, code2label, model_path='model/tagger_bert_dfd.pt'):
+                label2code, code2label,
+                epochs, model_path='model/tagger_bert_dfd.pt'):
     
     model = BertForTokenClassification.from_pretrained(
         "bert-base-cased",
@@ -166,7 +168,6 @@ def train_model(train_dataloader, valid_dataloader, test_dataloader,
     params_classifier = sum([np.prod(p.size()) for p in model_classifier_parameters])
     print(f"The classifier-only model has {params_classifier} trainable parameters")
     
-    epochs = 6
     max_grad_norm = 1.0
     
     # Total number of training steps is number of batches * number of epochs.
@@ -218,9 +219,7 @@ def train_model(train_dataloader, valid_dataloader, test_dataloader,
             outputs = model(b_input_ids, token_type_ids=None,
                             attention_mask=b_input_mask, labels=b_labels)
             
-            del b_input_ids
-            del b_input_mask
-            del b_labels
+            
             # get the loss
             loss = outputs[0]
             # Perform a backward pass to calculate the gradients.
@@ -233,7 +232,10 @@ def train_model(train_dataloader, valid_dataloader, test_dataloader,
             # update parameters
             optimizer.step()
             # Update the learning rate.
-            #scheduler.step()
+            scheduler.step()
+            del b_input_ids
+            del b_input_mask
+            del b_labels
     
         # Calculate the average loss over the training data.
         avg_train_loss = total_loss / len(train_dataloader)
@@ -345,17 +347,17 @@ n_gpu = torch.cuda.device_count()
 if torch.cuda.is_available():
     print(f"GPU device: {torch.cuda.get_device_name(0)}")
     
-df_data = pd.read_csv("data/tokenized_EN.csv", encoding="latin1").fillna(method="ffill")
+df_data = pd.read_csv("data/tokenized_pos_EN.csv", encoding="latin1").fillna(method="ffill")
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
 
 MAX_LENGTH = 128
 BATCH_SIZE = 8
 
-train_dataloader, valid_dataloader, test_dataloader, label2code, code2label,x_test_sentences = load_data(tokenizer, df_data, BATCH_SIZE, MAX_LENGTH)
+train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, test_sentences = load_data(tokenizer, df_data, BATCH_SIZE, MAX_LENGTH)
 
-model_path = 'model/tagger_bert_dfd.pt'
+model_path = 'model/tagger_bert6_dfd.pt'
 
-model = train_model(train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, model_path)
+#model = train_model(train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, 6, model_path)
 
 model = torch.load(model_path, map_location=torch.device('cuda'))
 
@@ -404,4 +406,130 @@ results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"]
 print(f"F1 score: {f1_score(results_true, results_predicted)}")
 print(f"Accuracy score: {accuracy_score(results_true, results_predicted)}")
 print(classification_report(results_true, results_predicted))
+
+def group_predictions(tokens, tags) :
+    new_tokens = []
+    new_tags = []
+    
+    new_token = ''
+    new_tag = ''
+    for i, token in enumerate(tokens):
+        if '-' != token and '##' not in token :
+            if new_token != '' :
+                if tokens[i-1] != '-' :
+                    new_tokens.append(new_token)
+                    new_tags.append(new_tag)
+                    
+                    if token == '^' :
+                        token = '-'
+                    new_token = token
+                    new_tag = tags[i]
+                else :
+                    new_token = new_token + token
+
+                    if not (new_tag == 'GEN' or new_tag == 'DFD'):
+                        new_tag = tags[i]
+            else :
+                new_token = token
+                new_tag = tags[i]
+        else :
+            if '##' in token :
+                token = token.replace('##', '')
+            new_token = new_token + token 
+            
+            if not (new_tag == 'GEN' or new_tag == 'DFD'):
+                new_tag = tags[i]
+        
+    new_tokens.append(tokens[-1])
+    new_tags.append(tags[-1])
+
+    return new_tokens, new_tags
+
+tokens = []
+tags = []
+for i, result_sentence in enumerate(results_predicted) :
+    new_tokens, new_tags = group_predictions(test_sentences[i], result_sentence)
+    
+    tokens.append(new_tokens)
+    tags.append(new_tags)
+
+
+from nltk.stem import WordNetLemmatizer
+import networkx as nx
+import seaborn as sns
+from matplotlib import pyplot as plt
+lemmatizer = WordNetLemmatizer()
+
+edge_list = []
+
+num_of_nodes = 0
+node_hash = {}
+
+for i, result_sentence in enumerate(tags) :
+    mask_dfd = [tag == 'DFD' for tag in result_sentence]
+    mask_gen = [tag == 'GEN' for tag in result_sentence]
+    
+    definiendums = []
+    geni = []
+    
+    defini = ''
+    for j, is_dfd in enumerate(mask_dfd) :
+        if is_dfd :
+            defini += ' ' + lemmatizer.lemmatize(tokens[i][j])
+        elif defini != '' :
+            definiendums.append(defini.strip().lower())
+            defini = ''
+            
+    genus = ''
+    for j, is_gen in enumerate(mask_gen) :
+        if is_gen :
+            genus += ' ' + lemmatizer.lemmatize(tokens[i][j])
+        elif genus != '' :
+            geni.append(genus.strip().lower())
+            genus = ''
+    
+    for defin in definiendums:
+        if defin not in node_hash :
+            node_hash[defin] = num_of_nodes
+            num_of_nodes += 1
+        
+        for gen in geni :
+            if gen not in node_hash :
+                node_hash[gen] = num_of_nodes
+                num_of_nodes += 1
+                
+            edge_list.append((node_hash[defin], node_hash[gen]))
+    
+
+node_name_hash = {}
+for node in node_hash :
+    node_name_hash[node_hash[node]] = node
+
+G = nx.DiGraph()
+
+for node in node_hash:
+    G.add_node(node_hash[node], label=node)
+    
+for edge in edge_list:
+    G.add_edge(edge[0], edge[1])
+    
+comp_gen = nx.weakly_connected_components(G)
+components = [c for c in comp_gen]
+
+col = sns.color_palette("hls", len(components))
+colors = [(0,0,0)] * len(node_hash)
+
+for cl, comp in enumerate(components) :
+    for node in list(comp) :
+        colors[node] = col[cl]
+
+    
+fig = plt.figure(figsize=(20, 20))
+layout = nx.spring_layout(G)
+nx.draw_networkx_nodes(G, layout, node_color=colors)
+nx.draw_networkx_edges(G, layout)
+nx.draw_networkx_labels(G, layout, node_name_hash)
+print('drawn')
+
+
 
