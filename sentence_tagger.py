@@ -119,7 +119,7 @@ def load_data(tokenizer, df_data, batch_size, max_length):
     test_dataloader = DataLoader(test_data, sampler=test_sampler, batch_size=batch_size)
 
 
-    return train_dataloader, valid_dataloader, test_dataloader, label2code, code2label
+    return train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, x_test_sentences
 
 
 
@@ -351,7 +351,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False
 MAX_LENGTH = 128
 BATCH_SIZE = 8
 
-train_dataloader, valid_dataloader, test_dataloader, label2code, code2label = load_data(tokenizer, df_data, BATCH_SIZE, MAX_LENGTH)
+train_dataloader, valid_dataloader, test_dataloader, label2code, code2label,x_test_sentences = load_data(tokenizer, df_data, BATCH_SIZE, MAX_LENGTH)
 
 model_path = 'model/tagger_bert_dfd.pt'
 
@@ -367,12 +367,15 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Pytorch is using: {device}")
 
 predictions , true_labels = [], []
+sentences = []
 for batch in tqdm(test_dataloader):
     b_input_ids, b_input_mask, b_labels = batch
+    
+    sentences.extend(b_input_ids)
+    
     b_input_ids = torch.tensor(b_input_ids, dtype=torch.long, device=device)
     b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
     b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
-
 
     b_input_ids.to(device)
     b_input_mask.to(device)
