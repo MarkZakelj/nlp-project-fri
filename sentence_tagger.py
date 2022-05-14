@@ -450,8 +450,8 @@ n_gpu = torch.cuda.device_count()
 if torch.cuda.is_available():
     print(f"GPU device: {torch.cuda.get_device_name(0)}")
     
-df_data = pd.read_csv("data/tokenized_reg_EN.csv", encoding="utf-8").fillna(method="ffill")
-test_data = pd.read_csv("data/tokenized_reg_EN_new.csv", encoding="utf-8").fillna(method="ffill")
+df_data = pd.read_csv("data/regions/tokenized_reg_EN.csv", encoding="utf-8").fillna(method="ffill")
+test_data = pd.read_csv("data/regions/tokenized_reg_EN_new.csv", encoding="utf-8").fillna(method="ffill")
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
 #tokenizer = AutoTokenizer.from_pretrained("EMBEDDIA/sloberta")
@@ -464,7 +464,7 @@ train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, tes
 
 model_path = 'model/tagger_bert6_reg_full.pt'
 
-model = train_model(train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, 6, model_path)
+model = train_model(train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, 16, model_path)
 
 model = torch.load(model_path, map_location=torch.device('cuda'))
 
@@ -510,7 +510,7 @@ results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"]
                                  for l in true_labels]
 
 
-scnd_tag = 'REG'
+scnd_tag = 'GEN'
 
 print(f"F1 score: {f1_score(results_true, results_predicted)}")
 print(f"Accuracy score: {accuracy_score(results_true, results_predicted)}")
