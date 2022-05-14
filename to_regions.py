@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Apr 30 18:05:52 2022
+Created on Sat May 14 16:10:27 2022
 
 @author: Kert PC
 """
@@ -16,16 +16,17 @@ from collections import defaultdict
 import pandas as pd
 import numpy as np
 
-
             
-data = pd.read_csv('data/raw_csv_sl.csv', encoding='utf-8')    
+data = pd.read_csv('data/raw_csv_regions_new.csv', encoding='utf-8')    
 rows = []
+
+regions = ['HAS_CAUSE', 'HAS_FORM', 'HAS_FUNCTION', 'HAS_LOCATION', 'HAS_SIZE']
 
 for dat in data.iterrows():
     sentence = dat[1]['SENTENCE']
     for ch in ',.:;!?)]}':
         sentence = sentence.replace(ch, ' ' + ch)
-    for ch in '([{':
+    for ch in '([{.':
         sentence = sentence.replace(ch, ch + ' ')
     
     definiendum = []
@@ -36,11 +37,16 @@ for dat in data.iterrows():
         for defi in definis: 
             for de in defi.split('|') :
                 definiendum.append(de)
-    if type(dat[1]['GENUS']) != float :
-        geni = dat[1]['GENUS'].split(' ')
+    geni = []
+    for reg in regions:
+        if type(dat[1][reg]) != float :
+            geni += dat[1][reg].split(' ')
+            
+    if len(geni) > 0 :
         for gen in geni: 
             for ge in gen.split('|'):
                 genus.append(ge)
+            
                 
     i = 0
     for token in sentence.split(' '): 
@@ -58,7 +64,7 @@ for dat in data.iterrows():
             word['Tag'] = 'DFD'
             definiendum.remove(token)
         elif token in genus :
-            word['Tag'] = 'GEN'
+            word['Tag'] = 'REG'
             genus.remove(token)
         else :
             word['Tag'] = 'O'
@@ -71,7 +77,7 @@ for dat in data.iterrows():
         print(definiendum)
     
 
-outfile = 'data/tokenized_SL.csv'
+outfile = 'data/tokenized_reg_EN_new.csv'
 with open(outfile, 'w', encoding="utf-8", newline="") as csvfile:
     fieldnames = ['Sentence', 'Word', 'Tag']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)

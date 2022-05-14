@@ -13,7 +13,7 @@ import gc
 
 import torch
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
-from transformers import BertTokenizer, BertConfig
+from transformers import BertTokenizer, BertConfig, AutoTokenizer, AutoModelForMaskedLM
 
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
@@ -38,7 +38,8 @@ def load_data(tokenizer, df_data, batch_size, max_length):
     x_train, x_test = train_test_split(df_data, test_size=0.20, shuffle=False, random_state = 42)
     x_val, x_test = train_test_split(x_test, test_size=0.50, shuffle=False, random_state = 42)
     
-    agg_func = lambda s: [ [w,p,t] for w,p,t in zip(s["Word"].values.tolist(),s["POS"].values.tolist(),s["Tag"].values.tolist())]
+    #agg_func = lambda s: [ [w,p,t] for w,p,t in zip(s["Word"].values.tolist(),s["POS"].values.tolist(),s["Tag"].values.tolist())]
+    agg_func = lambda s: [ [w,t] for w,t in zip(s["Word"].values.tolist(),s["Tag"].values.tolist())]
     
     x_train_grouped = x_train.groupby("Sentence").apply(agg_func)
     x_val_grouped = x_val.groupby("Sentence").apply(agg_func)
@@ -48,8 +49,8 @@ def load_data(tokenizer, df_data, batch_size, max_length):
     x_val_sentences = [[s[0] for s in sent] for sent in x_val_grouped.values]
     x_test_sentences = [[s[0] for s in sent] for sent in x_test_grouped.values]
     
-    x_train_tags = [[t[2] for t in tag] for tag in x_train_grouped.values]
-    x_val_tags = [[t[2] for t in tag] for tag in x_val_grouped.values]
+    x_train_tags = [[t[1] for t in tag] for tag in x_train_grouped.values]
+    x_val_tags = [[t[1] for t in tag] for tag in x_val_grouped.values]
     x_test_tags = [[t[2] for t in tag] for tag in x_test_grouped.values]
     
     label2code = {label: i for i, label in enumerate(tag_list)}
@@ -118,7 +119,101 @@ def load_data(tokenizer, df_data, batch_size, max_length):
     test_data = TensorDataset(test_inputs, test_masks, test_tags)
     test_sampler = SequentialSampler(test_data)
     test_dataloader = DataLoader(test_data, sampler=test_sampler, batch_size=batch_size)
+    test_dataloader = None
 
+    return train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, tokens_list
+
+
+def load_data_test(tokenizer, df_data, test_data, batch_size, max_length):
+    tag_list = df_data.Tag.unique()
+    tag_list = np.append(tag_list, "PAD")
+    print(f"Tags: {', '.join(map(str, tag_list))}")
+    
+    x_train, x_val = train_test_split(df_data, test_size=0.10, shuffle=False, random_state = 42)
+    #x_val, x_test = train_test_split(x_test, test_size=0.50, shuffle=False, random_state = 42)
+    x_test = test_data
+    
+    #agg_func = lambda s: [ [w,p,t] for w,p,t in zip(s["Word"].values.tolist(),s["POS"].values.tolist(),s["Tag"].values.tolist())]
+    agg_func = lambda s: [ [w,t] for w,t in zip(s["Word"].values.tolist(),s["Tag"].values.tolist())]
+    
+    x_train_grouped = x_train.groupby("Sentence").apply(agg_func)
+    x_val_grouped = x_val.groupby("Sentence").apply(agg_func)
+    x_test_grouped = x_test.groupby("Sentence").apply(agg_func)
+
+    x_train_sentences = [[s[0] for s in sent] for sent in x_train_grouped.values]
+    x_val_sentences = [[s[0] for s in sent] for sent in x_val_grouped.values]
+    x_test_sentences = [[s[0] for s in sent] for sent in x_test_grouped.values]
+    
+    x_train_tags = [[t[1] for t in tag] for tag in x_train_grouped.values]
+    x_val_tags = [[t[1] for t in tag] for tag in x_val_grouped.values]
+    x_test_tags = [[t[1] for t in tag] for tag in x_test_grouped.values]
+    
+    label2code = {label: i for i, label in enumerate(tag_list)}
+    code2label = {v: k for k, v in label2code.items()}
+    
+    num_labels = len(label2code)
+    print(f"Number of labels: {num_labels}")
+        
+    def convert_to_input(sentences,tags):
+        input_id_list = []
+        attention_mask_list = []
+        label_id_list = []
+        tokens_list = []
+        for x,y in tqdm(zip(sentences,tags),total=len(tags)):
+            tokens = []
+            label_ids = []
+            
+            for word, label in zip(x, y):
+                word_tokens = tokenizer.tokenize(word)
+                tokens.extend(word_tokens)
+                # Use the real label id for the first token of the word, and padding ids for the remaining tokens
+                label_ids.extend([label2code[label]] * len(word_tokens))
+    
+            input_ids = tokenizer.convert_tokens_to_ids(tokens)
+            
+            tokens_list.append(tokens)
+            input_id_list.append(input_ids)
+            label_id_list.append(label_ids)
+    
+        input_id_list = pad_sequences(input_id_list,
+                              maxlen=max_length, dtype="long", value=0.0,
+                              truncating="post", padding="post")
+        label_id_list = pad_sequences(label_id_list,
+                         maxlen=max_length, value=label2code["PAD"], padding="post",
+                         dtype="long", truncating="post")
+        attention_mask_list = [[float(i != 0.0) for i in ii] for ii in input_id_list]
+    
+        return input_id_list, attention_mask_list, label_id_list, tokens_list
+    
+    
+    input_ids_train, attention_masks_train, label_ids_train, _ = convert_to_input(x_train_sentences, x_train_tags)
+    input_ids_val, attention_masks_val, label_ids_val, _ = convert_to_input(x_val_sentences, x_val_tags)
+    input_ids_test, attention_masks_test, label_ids_test, tokens_list = convert_to_input(x_test_sentences, x_test_tags)
+    
+    train_inputs = torch.tensor(input_ids_train)
+    train_tags = torch.tensor(label_ids_train)
+    train_masks = torch.tensor(attention_masks_train)
+    
+    val_inputs = torch.tensor(input_ids_val)
+    val_tags = torch.tensor(label_ids_val)
+    val_masks = torch.tensor(attention_masks_val)
+    
+    test_inputs = torch.tensor(input_ids_test)
+    test_tags = torch.tensor(label_ids_test)
+    test_masks = torch.tensor(attention_masks_test)
+    
+    
+    train_data = TensorDataset(train_inputs, train_masks, train_tags)
+    train_sampler = RandomSampler(train_data)
+    train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=batch_size)
+    
+    valid_data = TensorDataset(val_inputs, val_masks, val_tags)
+    valid_sampler = SequentialSampler(valid_data)
+    valid_dataloader = DataLoader(valid_data, sampler=valid_sampler, batch_size=batch_size)
+    
+    test_data = TensorDataset(test_inputs, test_masks, test_tags)
+    test_sampler = SequentialSampler(test_data)
+    test_dataloader = DataLoader(test_data, sampler=test_sampler, batch_size=batch_size)
 
     return train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, tokens_list
 
@@ -127,13 +222,21 @@ def load_data(tokenizer, df_data, batch_size, max_length):
 def train_model(train_dataloader, valid_dataloader, test_dataloader,
                 label2code, code2label,
                 epochs, model_path='model/tagger_bert_dfd.pt'):
-    
+    """
     model = BertForTokenClassification.from_pretrained(
         "bert-base-cased",
         num_labels=len(label2code),
         output_attentions = False,
         output_hidden_states = False
     )
+    """
+    model = BertForTokenClassification.from_pretrained(
+        "EMBEDDIA/sloberta",
+        num_labels=len(label2code),
+        output_attentions = False,
+        output_hidden_states = False
+    )
+    
     
     if torch.cuda.is_available():
         torch.cuda.empty_cache() 
@@ -347,17 +450,21 @@ n_gpu = torch.cuda.device_count()
 if torch.cuda.is_available():
     print(f"GPU device: {torch.cuda.get_device_name(0)}")
     
-df_data = pd.read_csv("data/tokenized_pos_EN.csv", encoding="latin1").fillna(method="ffill")
+df_data = pd.read_csv("data/tokenized_reg_EN.csv", encoding="utf-8").fillna(method="ffill")
+test_data = pd.read_csv("data/tokenized_reg_EN_new.csv", encoding="utf-8").fillna(method="ffill")
+
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
+#tokenizer = AutoTokenizer.from_pretrained("EMBEDDIA/sloberta")
+
 
 MAX_LENGTH = 128
 BATCH_SIZE = 8
 
-train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, test_sentences = load_data(tokenizer, df_data, BATCH_SIZE, MAX_LENGTH)
+train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, test_sentences = load_data_test(tokenizer, df_data, test_data, BATCH_SIZE, MAX_LENGTH)
 
-model_path = 'model/tagger_bert6_dfd.pt'
+model_path = 'model/tagger_bert6_reg_full.pt'
 
-#model = train_model(train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, 6, model_path)
+model = train_model(train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, 6, model_path)
 
 model = torch.load(model_path, map_location=torch.device('cuda'))
 
@@ -403,6 +510,8 @@ results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"]
                                  for l in true_labels]
 
 
+scnd_tag = 'REG'
+
 print(f"F1 score: {f1_score(results_true, results_predicted)}")
 print(f"Accuracy score: {accuracy_score(results_true, results_predicted)}")
 print(classification_report(results_true, results_predicted))
@@ -427,7 +536,7 @@ def group_predictions(tokens, tags) :
                 else :
                     new_token = new_token + token
 
-                    if not (new_tag == 'GEN' or new_tag == 'DFD'):
+                    if not (new_tag == scnd_tag or new_tag == 'DFD'):
                         new_tag = tags[i]
             else :
                 new_token = token
@@ -437,7 +546,7 @@ def group_predictions(tokens, tags) :
                 token = token.replace('##', '')
             new_token = new_token + token 
             
-            if not (new_tag == 'GEN' or new_tag == 'DFD'):
+            if not (new_tag == scnd_tag or new_tag == 'DFD'):
                 new_tag = tags[i]
         
     new_tokens.append(tokens[-1])
@@ -452,6 +561,25 @@ for i, result_sentence in enumerate(results_predicted) :
     
     tokens.append(new_tokens)
     tags.append(new_tags)
+
+import csv
+
+outfile = 'data/annotated_SL.csv'
+with open(outfile, 'w', encoding="utf-8", newline="") as csvfile:
+    fieldnames = ['Sentence', 'Word', 'Tag']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for i, token in enumerate(tokens):
+        tag = tags[i]
+        
+        for j, tok in enumerate(token) :
+            sent = ''
+            if j == 0:
+                sent = 'Sentence ' + str(i+1) 
+            out = {'Sentence' : sent, 'Word' : tok, 'Tag' : tag[j]}
+            writer.writerow(out)
+
+
 
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 import networkx as nx
@@ -469,7 +597,7 @@ node_names = {}
 
 for i, result_sentence in enumerate(tags) :
     mask_dfd = [tag == 'DFD' for tag in result_sentence]
-    mask_gen = [tag == 'GEN' for tag in result_sentence]
+    mask_gen = [tag == scnd_tag for tag in result_sentence]
     
     definiendums = []
     definiendums_wh = []
@@ -496,7 +624,7 @@ for i, result_sentence in enumerate(tags) :
             genus_wh += ' ' + lemmatizer.lemmatize(tokens[i][j])
         elif genus != '' :
             geni.append(genus.strip().lower())
-            geni_wh(genus_wh.strip().lower())
+            geni_wh.append(genus_wh.strip().lower())
             genus_wh = ''
             genus = ''
     
