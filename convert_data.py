@@ -1,8 +1,17 @@
+"""
+Convert webanno .tsv annotations to csv files with four columns:
+- Sentence: unique number for each sentence
+- Word: word (token) in the sentence represented as string
+- hierarchical: hierarchical tag. One of ['DEFINIENDUM', 'DEFINITOR', 'GENUS']
+- non-hierarchical: non-hierarchical tag. One of many. (check in EDA.ipynb file)
+"""
+
 import pandas as pd
 import os
 import csv
 import re
 import copy
+import numpy as np
 import time
 import argparse
 from collections import defaultdict, namedtuple
@@ -49,8 +58,8 @@ def read_data(path, extensions=None):
         with os.scandir(path) as it:
             groups = []
             for entry in it:
-                if entry.is_file() and not entry.name.startswith('.') and os.path.splitext(entry.name)[
-                    1].lower() in extensions:
+                if entry.is_file() and not entry.name.startswith('.') \
+                        and os.path.splitext(entry.name)[1].lower() in extensions:
                     try:
                         groups.extend(read_sentences(os.path.join(path, entry.name)))
                         print(entry.name)
@@ -162,13 +171,13 @@ def main():
     tsv_file_or_folder = 'data/Termframe/AnnotatedDefinitions/EN'
     datalines, groups = read_data(tsv_file_or_folder, extensions=['.tsv'])
     df_full = concatenate_groups(groups)
-    df_full.to_csv('data/full_data.csv', index=False)
+    df_full.to_csv('data/full_data_EN.csv', index=False)
 
     # New Definitions - used for testing
     tsv_file_or_folder = 'data/Termframe/NewDefinitions/en'
     datalines, groups = read_data(tsv_file_or_folder, extensions=['.tsv'])
     df_full = concatenate_groups(groups)
-    df_full.to_csv('data/full_data_new.csv', index=False)
+    df_full.to_csv('data/full_data_new_EN.csv', index=False)
 
 
 if __name__ == '__main__':
