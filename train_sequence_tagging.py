@@ -372,9 +372,9 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
             # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
             # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
-            b_input_ids = b_input_ids.clone().detach().to(device)
-            b_input_mask = b_input_mask.clone().detach().to(device)
-            b_labels = b_labels.clone().detach().to(device)
+            b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
+            b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
+            b_labels = b_labels.clone().detach().type(torch.long).to(device)
 
             outputs = model(b_input_ids, token_type_ids=None,
                             attention_mask=b_input_mask, labels=b_labels)
@@ -423,9 +423,9 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
             # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
             # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
-            b_input_ids = b_input_ids.clone().detach().to(device)
-            b_input_mask = b_input_mask.clone().detach().to(device)
-            b_labels = b_labels.clone().detach().to(device)
+            b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
+            b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
+            b_labels = b_labels.clone().detach().type(torch.long).to(device)
 
             # Telling the model not to compute or store gradients,
             # saving memory and speeding up validation
@@ -534,9 +534,9 @@ def main():
                 # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
                 # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
-                b_input_ids = b_input_ids.clone().detach().to(device)
-                b_input_mask = b_input_mask.clone().detach().to(device)
-                b_labels = b_labels.clone().detach().to(device)
+                b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
+                b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
+                b_labels = b_labels.clone().detach().type(torch.long).to(device)
 
                 b_input_ids.to(device)
                 b_input_mask.to(device)
@@ -570,6 +570,7 @@ def main():
                 tags.extend(new_tags)
             ann_df = pd.DataFrame(data={'Sentence': sentence_ids, 'Word': tokens, 'Tag': tags})
             ann_df.to_csv(os.path.join(experiment_dir, conf['model_name'], 'annotation.csv'), index=False)
+
 
 if __name__ == '__main__':
     main()
