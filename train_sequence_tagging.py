@@ -17,12 +17,8 @@ from seqeval.metrics import f1_score
 from seqeval.metrics import accuracy_score
 from seqeval.metrics import classification_report
 
-
-
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-
 
 train_config = [
     {'experiment': 'EN_def+gen+definitor',
@@ -45,7 +41,7 @@ train_config = [
      'model_id': 'Bert_base-cased',
      'max_length': 128,
      'batch_size': 4,
-     'epochs': 2}
+     'epochs': 3},
 ]
 
 
@@ -66,6 +62,23 @@ def get_model_object(model_id, label2code):
             output_hidden_states=False
         )
     return model
+
+
+def check_config(configs):
+    must_have_keys = ['experiment', 'model_name', 'tokenizer_id', 'model_id', 'max_length', 'batch_size', 'epochs']
+    experiments = {}
+    for conf in configs:
+        for key in must_have_keys:
+            if key not in conf:
+                raise KeyError(f'Missing key in the config dictionary: {key} not found in  {conf}')
+        if conf['experiment'] not in experiments:
+            experiments[conf['experiment']] = set()
+        if conf['model_name'] in experiments[conf['experiment']]:
+            raise NameError(
+                f'This model is already a part of an experiment: {conf["model_name"]} already in {conf["experiment"]}')
+        experiments[conf['experiment']].add(conf['model_name'])
+    return True
+
 
 def group_predictions(tokens, tags):
     new_tokens = []
@@ -492,6 +505,7 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
 
 
 def main():
+    check_config(train_config)
     if torch.cuda.is_available():
         for i in range(torch.cuda.device_count()):
             print(f"Found GPU device: {torch.cuda.get_device_name(i)}")
