@@ -231,12 +231,19 @@ def train_model(train_dataloader, valid_dataloader, test_dataloader,
     )
     """
     model = BertForTokenClassification.from_pretrained(
+        "allenai/scibert_scivocab_cased",
+        num_labels=len(label2code),
+        output_attentions = False,
+        output_hidden_states = False
+        )
+    """
+    model = BertForTokenClassification.from_pretrained(
         "EMBEDDIA/sloberta",
         num_labels=len(label2code),
         output_attentions = False,
         output_hidden_states = False
     )
-    
+    """
     
     if torch.cuda.is_available():
         torch.cuda.empty_cache() 
@@ -450,10 +457,13 @@ n_gpu = torch.cuda.device_count()
 if torch.cuda.is_available():
     print(f"GPU device: {torch.cuda.get_device_name(0)}")
     
-df_data = pd.read_csv("data/regions/tokenized_reg_EN.csv", encoding="utf-8").fillna(method="ffill")
-test_data = pd.read_csv("data/regions/tokenized_reg_EN_new.csv", encoding="utf-8").fillna(method="ffill")
+#df_data = pd.read_csv("data/tokenized/tokenized_EN.csv", encoding="utf-8").fillna(method="ffill")
+#test_data = pd.read_csv("data/tokenized/tokenized_EN_new.csv", encoding="utf-8").fillna(method="ffill")
 
-tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
+df_data = pd.read_csv("data/tokenized/tokenized_EN.csv", encoding="utf-8").fillna(method="ffill")
+test_data = pd.read_csv("data/tokenized/tokenized_EN_new.csv", encoding="utf-8").fillna(method="ffill")
+
+tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_cased', do_lower_case=False)
 #tokenizer = AutoTokenizer.from_pretrained("EMBEDDIA/sloberta")
 
 
@@ -462,9 +472,9 @@ BATCH_SIZE = 8
 
 train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, test_sentences = load_data_test(tokenizer, df_data, test_data, BATCH_SIZE, MAX_LENGTH)
 
-model_path = 'model/tagger_bert6_reg_full.pt'
+model_path = 'model/tagger_scibert_full.pt'
 
-model = train_model(train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, 16, model_path)
+model = train_model(train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, 6, model_path)
 
 model = torch.load(model_path, map_location=torch.device('cuda'))
 
@@ -564,7 +574,7 @@ for i, result_sentence in enumerate(results_predicted) :
 
 import csv
 
-outfile = 'data/annotated_SL.csv'
+outfile = 'data/annotated_EN.csv'
 with open(outfile, 'w', encoding="utf-8", newline="") as csvfile:
     fieldnames = ['Sentence', 'Word', 'Tag']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)

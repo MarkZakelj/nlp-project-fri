@@ -18,7 +18,7 @@ import numpy as np
 
 
             
-data = pd.read_csv('data/raw_csv_sl.csv', encoding='utf-8')    
+data = pd.read_csv('data/raw_csv/raw_csv_regions.csv', encoding='utf-8')    
 rows = []
 
 for dat in data.iterrows():
@@ -71,7 +71,7 @@ for dat in data.iterrows():
         print(definiendum)
     
 
-outfile = 'data/tokenized_SL.csv'
+outfile = 'data/tokenized_EN.csv'
 with open(outfile, 'w', encoding="utf-8", newline="") as csvfile:
     fieldnames = ['Sentence', 'Word', 'Tag']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
