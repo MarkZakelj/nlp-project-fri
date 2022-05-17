@@ -15,6 +15,11 @@ experiment_config = [
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': ['DEFINIENDUM'],
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM']},
+    {'name': 'has-form',
+     'train': 'data/full_data_EN.csv',
+     'test': 'data/full_data_new_EN.csv',
+     'hierarchical': [],
+     'non-hierarchical': ['HAS_FORM']},
 ]
 
 ALLOWED_LANGUAGES = ['EN', 'SL']
@@ -73,6 +78,10 @@ def main():
         # prepare train data
         prepare_experiment(conf, as_test=False)
         if conf['test']:
+            if conf['train'] == conf['test']:
+                raise NameError(
+                    """Both train and test files are the same.
+                       If you dont need the test set, set the test key in config to None or empty string""")
             # check if its the same language on the train set
             if get_language(conf['train']) != get_language(conf['test']):
                 raise ValueError('Language of train and test set in the same experiment must be the same')
