@@ -173,11 +173,23 @@ def main():
     df_full = concatenate_groups(groups)
     df_full.to_csv('data/full_data_EN.csv', index=False)
 
+    # First batch of karst definitions SL:
+    tsv_file_or_folder = 'data/Termframe/AnnotatedDefinitions/SL'
+    datalines, groups = read_data(tsv_file_or_folder, extensions=['.tsv'])
+    df_full = concatenate_groups(groups)
+    df_full.to_csv('data/full_data_SL.csv', index=False)
+
     # New Definitions - used for testing
     tsv_file_or_folder = 'data/Termframe/NewDefinitions/en'
     datalines, groups = read_data(tsv_file_or_folder, extensions=['.tsv'])
     df_full = concatenate_groups(groups)
     df_full.to_csv('data/full_data_new_EN.csv', index=False)
+
+    # New Definitions SL - used for testing
+    tsv_file_or_folder = 'data/Termframe/NewDefinitions/sl'
+    datalines, groups = read_data(tsv_file_or_folder, extensions=['.tsv'])
+    df_full = concatenate_groups(groups)
+    df_full.to_csv('data/full_data_new_SL.csv', index=False)
 
 
 if __name__ == '__main__':
