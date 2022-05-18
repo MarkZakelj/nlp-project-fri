@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-
+import json
 import torch
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 
@@ -17,12 +17,8 @@ from seqeval.metrics import f1_score
 from seqeval.metrics import accuracy_score
 from seqeval.metrics import classification_report
 
-
-
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-
 
 train_config = [
     {'experiment': 'EN_def+gen',
@@ -40,7 +36,6 @@ train_config = [
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
-
 
     {'experiment': 'SL_def+gen',
      'model_name': 'Bert_base-cased_00',
@@ -100,16 +95,15 @@ train_config = [
 """
 
 
-
 def get_tokenizer(tokenizer_id):
     tokenizer = None
     if tokenizer_id == 'Bert_base-cased':
         tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
-    elif tokenizer_id == 'Scibert-cased' :
+    elif tokenizer_id == 'Scibert-cased':
         tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_cased', do_lower_case=False)
-    elif tokenizer_id == 'sloBERTa' :
+    elif tokenizer_id == 'sloBERTa':
         tokenizer = AutoTokenizer.from_pretrained('EMBEDDIA/sloberta', do_lower_case=False)
-    elif tokenizer_id == 'CroSloEngual' :
+    elif tokenizer_id == 'CroSloEngual':
         tokenizer = BertTokenizer.from_pretrained('EMBEDDIA/crosloengual-bert', do_lower_case=False)
     return tokenizer
 
@@ -123,29 +117,27 @@ def get_model_object(model_id, label2code):
             output_attentions=False,
             output_hidden_states=False
         )
-    elif model_id == 'Scibert-cased' :
+    elif model_id == 'Scibert-cased':
         model = BertForTokenClassification.from_pretrained(
             "allenai/scibert_scivocab_cased",
             num_labels=len(label2code),
             output_attentions=False,
             output_hidden_states=False
         )
-    elif model_id == 'sloBERTa' :
+    elif model_id == 'sloBERTa':
         model = BertForTokenClassification.from_pretrained(
             "EMBEDDIA/sloberta",
             num_labels=len(label2code),
             output_attentions=False,
             output_hidden_states=False
         )
-    elif model_id == 'CroSloEngual' :
+    elif model_id == 'CroSloEngual':
         model = BertForTokenClassification.from_pretrained(
             "EMBEDDIA/crosloengual-bert",
             num_labels=len(label2code),
             output_attentions=False,
             output_hidden_states=False
         )
-
-
 
     return model
 
@@ -471,9 +463,9 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
             # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
             # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
-            b_input_ids = b_input_ids.clone().detach().to(device)
-            b_input_mask = b_input_mask.clone().detach().to(device)
-            b_labels = b_labels.clone().detach().to(device)
+            b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
+            b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
+            b_labels = b_labels.clone().detach().type(torch.long).to(device)
 
             outputs = model(b_input_ids, token_type_ids=None,
                             attention_mask=b_input_mask, labels=b_labels)
@@ -591,6 +583,7 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
 
 
 def main():
+    check_config(train_config)
     if torch.cuda.is_available():
         for i in range(torch.cuda.device_count()):
             print(f"Found GPU device: {torch.cuda.get_device_name(i)}")
@@ -606,6 +599,7 @@ def main():
         test_file_path = os.path.join(experiment_dir, 'test.csv')
         model_path = os.path.join(experiment_dir, conf['model_name'], 'model.pt')
         if not os.path.exists(model_path):
+            json.dump(conf, open(os.path.join(experiment_dir, conf['model_name'], 'config_dict.json')))
             tokenizer = get_tokenizer(conf['tokenizer_id'])
             if os.path.exists(test_file_path):
                 df_test = pd.read_csv(test_file_path)
