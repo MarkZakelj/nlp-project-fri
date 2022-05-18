@@ -61,6 +61,7 @@ def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: l
 
 def prepare_regions(dataframe: pd.DataFrame):
     dfs = []
+    keys = []
     
     agg_func = lambda s: [[w, t] for w, t in zip(s["Word"].values.tolist(), s["Tag"].values.tolist())]
     df_grouped = dataframe.groupby("Sentence").apply(agg_func)
@@ -117,10 +118,11 @@ def prepare_regions(dataframe: pd.DataFrame):
                 
                 tsv_row[1] = tsv_row[1].strip()
                 dfs.append(pd.DataFrame([tsv_row], columns=['relation', 'sentence']))
+                keys.append(tsv_row[0])
 
     df = pd.concat(dfs)
 
-    return df
+    return df, keys
 
 def prepare_experiment(config: dict, as_test=False):
     """
@@ -136,12 +138,15 @@ def prepare_experiment(config: dict, as_test=False):
     df_with_tag = prepare_dataframe(df, config['hierarchical'], config['non-hierarchical'])
     experiment_name = language + "_reg_" + config['name']
     
-    df_with_reg = prepare_regions(df_with_tag)
+    df_with_reg, reg_keys = prepare_regions(df_with_tag)
     # create experiment dir if it doesnt exsist
     Path('data', 'experiments', experiment_name).mkdir(parents=False, exist_ok=True)
     out_filename = 'test.tsv' if as_test else 'train.tsv'
     df_with_reg.to_csv(os.path.join('data', 'experiments', experiment_name, out_filename), sep="\t", index=False, header=False)
-
+    
+    with open(os.path.join('data', 'experiments', experiment_name, 'answer_keys.txt'), 'w') as fp:
+        for i, key in enumerate(reg_keys):
+            fp.write("%s\n" % (str(8001+i) + '\t' + key))
 
 def main():
     for conf in experiment_config:
