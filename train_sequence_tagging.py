@@ -41,6 +41,15 @@ train_config = [
      'batch_size': 8,
      'epochs': 6},
     
+    {'experiment': 'EN_nonhier+def',
+     'model_name': 'Scibert-cased_00',
+     'tokenizer_id': 'Scibert-cased',
+     'model_id': 'Scibert-cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 5},
+    
+    
     
     {'experiment': 'SL_def+gen',
      'model_name': 'Bert_base-cased_00',
@@ -67,6 +76,15 @@ train_config = [
      'epochs': 6},
     
     {'experiment': 'SL_def+gen',
+     'model_name': 'CroSloEngual',
+     'tokenizer_id': 'CroSloEngual',
+     'model_id': 'CroSloEngual',
+     'max_length': 128,
+     'batch_size': 6,
+     'epochs': 6},
+    
+    
+    {'experiment': 'HR_def+gen',
      'model_name': 'CroSloEngual',
      'tokenizer_id': 'CroSloEngual',
      'model_id': 'CroSloEngual',
@@ -208,7 +226,7 @@ def load_data(tokenizer, df_train, batch_size, max_length):
 
     x_train_tags = [[t[1] for t in tag] for tag in x_train_grouped.values]
     x_val_tags = [[t[1] for t in tag] for tag in x_val_grouped.values]
-    x_test_tags = [[t[2] for t in tag] for tag in x_test_grouped.values]
+    x_test_tags = [[t[1] for t in tag] for tag in x_test_grouped.values]
 
     label2code = {label: i for i, label in enumerate(tag_list)}
     code2label = {v: k for k, v in label2code.items()}

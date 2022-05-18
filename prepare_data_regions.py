@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 18 16:41:59 2022
+
+@author: Kert PC
+"""
+
 import math
 from pathlib import Path
 import numpy as np
@@ -5,63 +12,22 @@ import pandas as pd
 import os
 
 experiment_config = [
-    {'name': 'def+gen+definitor',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM', 'GENUS', 'DEFINITOR'],
-     'non-hierarchical': []},
-    {'name': 'def+gen',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM', 'GENUS'],
-     'non-hierarchical': []},
-    {'name': 'top4nonhier+def',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM']},
+
     {'name': 'nonhier+def',
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': ['DEFINIENDUM'],
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']},
-    {'name': 'has-form',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': [],
-     'non-hierarchical': ['HAS_FORM']},
-
-    {'name': 'def+gen+definitor',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM', 'GENUS', 'DEFINITOR'],
-     'non-hierarchical': []},
-    {'name': 'def+gen',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM', 'GENUS'],
-     'non-hierarchical': []},
-    {'name': 'top4nonhier+def',
+    
+    {'name': 'nonhier+def',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
      'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM']},
-    {'name': 'has-form',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': [],
-     'non-hierarchical': ['HAS_FORM']},
-    
-    {'name': 'def+gen',
-     'train': 'data/full_data_HR.csv',
-     'test': '',
-     'hierarchical': ['DEFINIENDUM', 'GENUS'],
-     'non-hierarchical': []},
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']},
 ]
 
 
-
-ALLOWED_LANGUAGES = ['EN', 'SL', 'HR']
+ALLOWED_LANGUAGES = ['EN', 'SL']
 
 
 def get_language(filename, check=True):
@@ -93,6 +59,69 @@ def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: l
     return df
 
 
+def prepare_regions(dataframe: pd.DataFrame):
+    dfs = []
+    
+    agg_func = lambda s: [[w, t] for w, t in zip(s["Word"].values.tolist(), s["Tag"].values.tolist())]
+    df_grouped = dataframe.groupby("Sentence").apply(agg_func)
+    
+    
+    for _, sentence in df_grouped.items():
+        dfds = []
+        regs = []
+        
+        start = -1
+        end = -1
+        typ = None
+        
+        for i, word in enumerate(sentence) :
+            if start == -1 :
+                if word[1] != 'O' :
+                    start = i
+                    typ = word[1]
+            else :
+                if word[1] != typ :
+                    end = i
+                    
+                    nu_reg = {'start' : start, 'end' : end, 'type' : typ}
+                    if typ == 'DEFINIENDUM' :
+                        dfds.append(nu_reg)
+                    else :
+                        regs.append(nu_reg)
+                    
+                    start = -1
+                    end = -1
+                    typ = None
+        
+        for dfd in dfds :
+            for reg in regs :
+                nu_sent = sentence.copy()
+                
+                if dfd['end'] < reg['start'] :
+                    nu_sent.insert(reg['end'], ['</e2>', reg['type']])
+                    nu_sent.insert(reg['start'], ['<e2>', reg['type']])
+                    
+                    nu_sent.insert(dfd['end'], ['</e1>', 'DEFINIENDUM'])
+                    nu_sent.insert(dfd['start'], ['<e1>', 'DEFINIENDUM'])
+                else :
+                    nu_sent.insert(dfd['end'], ['</e1>', 'DEFINIENDUM'])
+                    nu_sent.insert(dfd['start'], ['<e1>', 'DEFINIENDUM'])
+                    
+                    nu_sent.insert(reg['end'], ['</e2>', reg['type']])
+                    nu_sent.insert(reg['start'], ['<e2>', reg['type']])
+                
+                tsv_row = [reg['type'] + '(e1,e2)', '']
+                
+                for word in nu_sent :
+                    tsv_row[1] += word[0] + ' '
+                
+                tsv_row[1] = tsv_row[1].strip()
+                dfs.append(pd.DataFrame([tsv_row], columns=['relation', 'sentence']))
+
+    df = pd.concat(dfs)
+
+    return df
+
 def prepare_experiment(config: dict, as_test=False):
     """
     Create experiment folder based on language and experiment configuration
@@ -105,11 +134,13 @@ def prepare_experiment(config: dict, as_test=False):
     language = get_language(full_dataframe_path)
     df = pd.read_csv(full_dataframe_path)
     df_with_tag = prepare_dataframe(df, config['hierarchical'], config['non-hierarchical'])
-    experiment_name = language + "_" + config['name']
+    experiment_name = language + "_reg_" + config['name']
+    
+    df_with_reg = prepare_regions(df_with_tag)
     # create experiment dir if it doesnt exsist
     Path('data', 'experiments', experiment_name).mkdir(parents=False, exist_ok=True)
-    out_filename = 'test.csv' if as_test else 'train.csv'
-    df_with_tag.to_csv(os.path.join('data', 'experiments', experiment_name, out_filename), index=False)
+    out_filename = 'test.tsv' if as_test else 'train.tsv'
+    df_with_reg.to_csv(os.path.join('data', 'experiments', experiment_name, out_filename), sep="\t", index=False, header=False)
 
 
 def main():
