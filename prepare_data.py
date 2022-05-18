@@ -10,6 +10,11 @@ experiment_config = [
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': ['DEFINIENDUM', 'GENUS', 'DEFINITOR'],
      'non-hierarchical': []},
+    {'name': 'def+gen',
+     'train': 'data/full_data_EN.csv',
+     'test': 'data/full_data_new_EN.csv',
+     'hierarchical': ['DEFINIENDUM', 'GENUS'],
+     'non-hierarchical': []},
     {'name': 'top4nonhier+def',
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
@@ -20,7 +25,29 @@ experiment_config = [
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': [],
      'non-hierarchical': ['HAS_FORM']},
+
+    {'name': 'def+gen+definitor',
+     'train': 'data/full_data_SL.csv',
+     'test': 'data/full_data_new_SL.csv',
+     'hierarchical': ['DEFINIENDUM', 'GENUS', 'DEFINITOR'],
+     'non-hierarchical': []},
+    {'name': 'def+gen',
+     'train': 'data/full_data_SL.csv',
+     'test': 'data/full_data_new_SL.csv',
+     'hierarchical': ['DEFINIENDUM', 'GENUS'],
+     'non-hierarchical': []},
+    {'name': 'top4nonhier+def',
+     'train': 'data/full_data_SL.csv',
+     'test': 'data/full_data_new_SL.csv',
+     'hierarchical': ['DEFINIENDUM'],
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM']},
+    {'name': 'has-form',
+     'train': 'data/full_data_SL.csv',
+     'test': 'data/full_data_new_SL.csv',
+     'hierarchical': [],
+     'non-hierarchical': ['HAS_FORM']},
 ]
+
 
 ALLOWED_LANGUAGES = ['EN', 'SL']
 

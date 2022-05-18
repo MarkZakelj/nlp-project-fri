@@ -654,7 +654,7 @@ Sentence 26,Swallow,DFD
 ,into,O
 ,an,O
 ,underground,O
-,channelÛin,O
+,channel√≥in,O
 ,other,O
 ,words,O
 ,",",O
@@ -814,29 +814,6 @@ Sentence 33,Concentrated,O
 ,sink,O
 ,underground,O
 ,at,O
-,swallow,O
-,holes,O
-,(,O
-,also,O
-,known,O
-,as,O
-,swallets,DFD
-,",",O
-,stream-sinks,DFD
-,or,O
-,ponors,DFD
-,),O
-,.,O
-Sentence 34,Concentrated,O
-,inflows,O
-,of,O
-,water,O
-,from,O
-,allogenic,O
-,sources,O
-,sink,O
-,underground,O
-,at,O
 ,swallow,DFD
 ,holes,DFD
 ,(,O
@@ -850,7 +827,53 @@ Sentence 34,Concentrated,O
 ,ponors,O
 ,),O
 ,.,O
-Sentence 35,In,O
+Sentence 34,Concentrated,O
+,inflows,O
+,of,O
+,water,O
+,from,O
+,allogenic,O
+,sources,O
+,sink,O
+,underground,O
+,at,O
+,swallow,O
+,holes,O
+,(,O
+,also,O
+,known,O
+,as,O
+,swallets,O
+,",",O
+,stream-sinks,DFD
+,or,O
+,ponors,DFD
+,),O
+,.,O
+Sentence 35,Concentrated,O
+,inflows,O
+,of,O
+,water,O
+,from,O
+,allogenic,O
+,sources,O
+,sink,O
+,underground,O
+,at,O
+,swallow,O
+,holes,O
+,(,O
+,also,O
+,known,O
+,as,O
+,swallets,DFD
+,",",O
+,stream-sinks,O
+,or,O
+,ponors,O
+,),O
+,.,O
+Sentence 36,In,O
 ,contrast,O
 ,",",O
 ,travertine,DFD
@@ -873,7 +896,7 @@ Sentence 35,In,O
 ,plant,O
 ,content,O
 ,.,O
-Sentence 36,Tufa,DFD
+Sentence 37,Tufa,DFD
 ,refers,O
 ,to,O
 ,softer,O
@@ -891,7 +914,7 @@ Sentence 36,Tufa,DFD
 ,by,O
 ,evaporation,O
 ,.,O
-Sentence 37,Ideal,O
+Sentence 38,Ideal,O
 ,cave,DFD
 ,pearls,DFD
 ,are,O
@@ -903,13 +926,13 @@ Sentence 37,Ideal,O
 ,.2,O
 ,to,O
 ,10,O
-,-,O
+,‚Äì,O
 ,15,O
 ,mm,O
 ,in,O
 ,diameter,O
 ,.,O
-Sentence 38,Opal,DFD
+Sentence 39,Opal,DFD
 ,(,O
 ,cristobalite,DFD
 ,),O
@@ -930,7 +953,7 @@ Sentence 38,Opal,DFD
 ,gypsum,O
 ,speleothems,O
 ,.,O
-Sentence 39,The,O
+Sentence 40,The,O
 ,static,DFD
 ,cave,DFD
 ,is,O
@@ -959,7 +982,7 @@ Sentence 39,The,O
 ,warmer,O
 ,air,O
 ,.,O
-Sentence 40,Sedimentologists,O
+Sentence 41,Sedimentologists,O
 ,define,O
 ,primary,DFD
 ,porosity,DFD
@@ -987,7 +1010,7 @@ Sentence 40,Sedimentologists,O
 ,during,O
 ,diagenesis,O
 ,.,O
-Sentence 41,Shaft-like,O
+Sentence 42,Shaft-like,O
 ,depressions,GEN
 ,deeply,O
 ,flooded,O
@@ -1003,7 +1026,7 @@ Sentence 41,Shaft-like,O
 ,blue,DFD
 ,holes,DFD
 ,.,O
-Sentence 42,Suffosion,DFD
+Sentence 43,Suffosion,DFD
 ,is,O
 ,the,O
 ,process,GEN
@@ -1028,7 +1051,7 @@ Sentence 42,Suffosion,DFD
 ,chemical,O
 ,solution,O
 ,.,O
-Sentence 43,The,O
+Sentence 44,The,O
 ,word,O
 ,polje,DFD
 ,signifies,O
@@ -1058,7 +1081,7 @@ Sentence 43,The,O
 ,Sweeting,O
 ,1972,O
 ,",",O
-,Roglic,O
+,Rogliƒç,O
 ,1974,O
 ,),O
 ,",",O
@@ -1080,51 +1103,11 @@ Sentence 43,The,O
 ,1994,O
 ,),O
 ,.,O
-Sentence 44,The,O
-,word,O
-,ë,O
-,tower,O
-,í,O
-,therefore,O
-,subsumes,O
-,a,O
-,myriad,O
-,of,O
-,forms,O
-,",",O
-,and,O
-,a,O
-,variety,O
-,of,O
-,terms,O
-,in,O
-,different,O
-,languages,O
-,has,O
-,been,O
-,used,O
-,to,O
-,describe,O
-,them,O
-,",",O
-,including,O
-,turm,O
-,",",O
-,mogote,DFD
-,",",O
-,cone,DFD
-,",",O
-,piton,DFD
-,",",O
-,hum,DFD
-,and,O
-,pepino,O
-,.,O
 Sentence 45,The,O
 ,word,O
-,ë,O
+,‚Äò,O
 ,tower,DFD
-,í,O
+,‚Äô,O
 ,therefore,O
 ,subsumes,O
 ,a,O
@@ -1150,7 +1133,7 @@ Sentence 45,The,O
 ,including,O
 ,turm,DFD
 ,",",O
-,mogote,O
+,mogote,DFD
 ,",",O
 ,cone,O
 ,",",O
@@ -1162,9 +1145,49 @@ Sentence 45,The,O
 ,.,O
 Sentence 46,The,O
 ,word,O
-,ë,O
+,‚Äò,O
 ,tower,O
-,í,O
+,‚Äô,O
+,therefore,O
+,subsumes,O
+,a,O
+,myriad,O
+,of,O
+,forms,O
+,",",O
+,and,O
+,a,O
+,variety,O
+,of,O
+,terms,O
+,in,O
+,different,O
+,languages,O
+,has,O
+,been,O
+,used,O
+,to,O
+,describe,O
+,them,O
+,",",O
+,including,O
+,turm,O
+,",",O
+,mogote,O
+,",",O
+,cone,DFD
+,",",O
+,piton,DFD
+,",",O
+,hum,DFD
+,and,O
+,pepino,O
+,.,O
+Sentence 47,The,O
+,word,O
+,‚Äò,O
+,tower,O
+,‚Äô,O
 ,therefore,O
 ,subsumes,O
 ,a,O
@@ -1200,7 +1223,7 @@ Sentence 46,The,O
 ,and,O
 ,pepino,DFD
 ,.,O
-Sentence 47,Breccia,DFD
+Sentence 48,Breccia,DFD
 ,pipes,DFD
 ,are,O
 ,common,O
@@ -1220,7 +1243,7 @@ Sentence 47,Breccia,DFD
 ,interstratal,O
 ,dissolution,O
 ,.,O
-Sentence 48,Gypsum,DFD
+Sentence 49,Gypsum,DFD
 ,tumuli,DFD
 ,(,O
 ,bubbles,O
@@ -1256,7 +1279,7 @@ Sentence 48,Gypsum,DFD
 ,1996,O
 ,),O
 ,.,O
-Sentence 49,Gypsum,O
+Sentence 50,Gypsum,O
 ,tumuli,O
 ,(,O
 ,bubbles,DFD
@@ -1292,7 +1315,7 @@ Sentence 49,Gypsum,O
 ,1996,O
 ,),O
 ,.,O
-Sentence 50,Clasts,GEN
+Sentence 51,Clasts,GEN
 ,with,O
 ,microrills,O
 ,are,O
@@ -1304,7 +1327,7 @@ Sentence 50,Clasts,GEN
 ,1932,O
 ,),O
 ,.,O
-Sentence 51,Solution,DFD
+Sentence 52,Solution,DFD
 ,runnels,DFD
 ,are,O
 ,normal,O
@@ -1325,7 +1348,7 @@ Sentence 51,Solution,DFD
 ,linear,O
 ,threads,O
 ,.,O
-Sentence 52,Solution,DFD
+Sentence 53,Solution,DFD
 ,dolines,DFD
 ,are,O
 ,a,O
@@ -1345,7 +1368,7 @@ Sentence 52,Solution,DFD
 ,support,O
 ,them,O
 ,.,O
-Sentence 53,Pinnacle,DFD
+Sentence 54,Pinnacle,DFD
 ,karst,DFD
 ,is,O
 ,a,O
@@ -1380,7 +1403,7 @@ Sentence 53,Pinnacle,DFD
 ,New,O
 ,Guinea,O
 ,.,O
-Sentence 54,Caves,DFD
+Sentence 55,Caves,DFD
 ,are,O
 ,natural,GEN
 ,museums,GEN
@@ -1402,7 +1425,7 @@ Sentence 54,Caves,DFD
 ,past,O
 ,environments,O
 ,.,O
-Sentence 55,Blue,DFD
+Sentence 56,Blue,DFD
 ,holes,DFD
 ,are,O
 ,water-filled,O
@@ -1427,7 +1450,7 @@ Sentence 55,Blue,DFD
 ,water,O
 ,chemistries,O
 ,.,O
-Sentence 56,Blue,DFD
+Sentence 57,Blue,DFD
 ,holes,DFD
 ,are,O
 ,the,O
@@ -1449,12 +1472,12 @@ Sentence 56,Blue,DFD
 ,sea-level,O
 ,fluctuations,O
 ,.,O
-Sentence 57,The,O
+Sentence 58,The,O
 ,term,O
-,ì,O
+,‚Äú,O
 ,blue,DFD
 ,hole,DFD
-,î,O
+,‚Äù,O
 ,has,O
 ,been,O
 ,used,O
@@ -1471,7 +1494,7 @@ Sentence 57,The,O
 ,defined,O
 ,as,O
 ,:,O
-,ì,O
+,‚Äú,O
 ,subsurface,GEN
 ,voids,GEN
 ,that,O
@@ -1488,7 +1511,7 @@ Sentence 57,The,O
 ,to,O
 ,the,O
 ,Earth,O
-,í,O
+,‚Äô,O
 ,s,O
 ,surface,O
 ,;,O
@@ -1524,7 +1547,7 @@ Sentence 57,The,O
 ,cave,O
 ,passages,O
 ,.,O
-Sentence 58,Carbon,DFD
+Sentence 59,Carbon,DFD
 ,dioxide,DFD
 ,in,O
 ,aqueous,O
@@ -1547,7 +1570,7 @@ Sentence 58,Carbon,DFD
 ,of,O
 ,limestone,O
 ,.,O
-Sentence 59,Diagenesis,DFD
+Sentence 60,Diagenesis,DFD
 ,is,O
 ,a,O
 ,term,O
@@ -1586,7 +1609,7 @@ Sentence 59,Diagenesis,DFD
 ,mud,O
 ,and,O
 ,debris,O
-Sentence 60,Dolostone,DFD
+Sentence 61,Dolostone,DFD
 ,is,O
 ,a,O
 ,major,O
@@ -1594,7 +1617,7 @@ Sentence 60,Dolostone,DFD
 ,of,GEN
 ,diagenesis,GEN
 ,.,O
-Sentence 61,Carbonatites,DFD
+Sentence 62,Carbonatites,DFD
 ,are,O
 ,intrusive,O
 ,igneous,O
@@ -1602,7 +1625,7 @@ Sentence 61,Carbonatites,DFD
 ,composed,O
 ,of,O
 ,60,O
-,ñ,O
+,‚Äì,O
 ,90%,O
 ,carbonate,O
 ,minerals,O
@@ -1611,14 +1634,14 @@ Sentence 61,Carbonatites,DFD
 ,calcite,O
 ,.,O
 ,rocks,O
-Sentence 62,Pit,DFD
+Sentence 63,Pit,DFD
 ,caves,DFD
 ,are,O
 ,vertical,O
 ,shafts,GEN
 ,",",O
 ,1,O
-,ñ,O
+,‚Äì,O
 ,2,O
 ,m,O
 ,in,O
@@ -1630,7 +1653,7 @@ Sentence 62,Pit,DFD
 ,m,O
 ,deep,O
 ,.,O
-Sentence 63,Mogotes,DFD
+Sentence 64,Mogotes,DFD
 ,are,O
 ,isolated,O
 ,karst,GEN
@@ -1646,7 +1669,7 @@ Sentence 63,Mogotes,DFD
 ,northern,O
 ,section,O
 ,.,O
-Sentence 64,Fenglin,DFD
+Sentence 65,Fenglin,DFD
 ,is,O
 ,an,O
 ,extreme,O
@@ -1675,7 +1698,7 @@ Sentence 64,Fenglin,DFD
 ,1980,O
 ,),O
 ,.,O
-Sentence 65,The,O
+Sentence 66,The,O
 ,principal,O
 ,surface,O
 ,karst,GEN
@@ -1686,7 +1709,7 @@ Sentence 65,The,O
 ,dolines,DFD
 ,",",O
 ,10,O
-,ñ,O
+,‚Äì,O
 ,100,O
 ,m,O
 ,in,O
@@ -1699,7 +1722,7 @@ Sentence 65,The,O
 ,in,O
 ,depth,O
 ,.,O
-Sentence 66,Vertical,DFD
+Sentence 67,Vertical,DFD
 ,shafts,DFD
 ,are,O
 ,common,O
@@ -1724,7 +1747,7 @@ Sentence 66,Vertical,DFD
 ,and,O
 ,sediment,O
 ,.,O
-Sentence 67,The,O
+Sentence 68,The,O
 ,term,O
 ,sinkhole,DFD
 ,is,O
@@ -1773,7 +1796,7 @@ Sentence 67,The,O
 ,stream-sink,O
 ,),O
 ,.,O
-Sentence 68,Shakehole,DFD
+Sentence 69,Shakehole,DFD
 ,is,O
 ,a,O
 ,term,O
@@ -1793,7 +1816,7 @@ Sentence 68,Shakehole,DFD
 ,overlying,O
 ,limestone,O
 ,.,O
-Sentence 69,Collapse,DFD
+Sentence 70,Collapse,DFD
 ,refers,O
 ,to,O
 ,rapid,O
@@ -1817,7 +1840,7 @@ Sentence 69,Collapse,DFD
 ,the,O
 ,surface,O
 ,.,O
-Sentence 70,Fovals,DFD
+Sentence 71,Fovals,DFD
 ,are,O
 ,brown-greyish,O
 ,formations,GEN
@@ -1842,7 +1865,7 @@ Sentence 70,Fovals,DFD
 ,rocky,O
 ,walls,O
 ,.,O
-Sentence 71,Glacier,O
+Sentence 72,Glacier,O
 ,pseudokarst,O
 ,also,O
 ,develops,O
@@ -1863,10 +1886,10 @@ Sentence 71,Glacier,O
 ,isolation,O
 ,known,O
 ,as,O
-,ì,O
+,‚Äú,O
 ,kettle,DFD
 ,holes,DFD
-,î,O
+,‚Äù,O
 ,",",O
 ,or,O
 ,assembled,O
@@ -1876,12 +1899,12 @@ Sentence 71,Glacier,O
 ,pseudokarst,O
 ,hillocks,O
 ,termed,O
-,ì,O
+,‚Äú,O
 ,hummocky,O
 ,moraine,O
-,î,O
+,‚Äù,O
 ,.,O
-Sentence 72,The,O
+Sentence 73,The,O
 ,springs,GEN
 ,in,O
 ,allogenic,O
@@ -1914,7 +1937,7 @@ Sentence 72,The,O
 ,sinking,O
 ,streams,O
 ,.,O
-Sentence 73,Autogenic,O
+Sentence 74,Autogenic,O
 ,karst,O
 ,aquifers,O
 ,feed,O
@@ -1923,7 +1946,7 @@ Sentence 73,Autogenic,O
 ,as,O
 ,exsurgences,DFD
 ,.,O
-Sentence 74,K,DFD
+Sentence 75,K,DFD
 ,is,O
 ,a,O
 ,term,O
@@ -1936,7 +1959,7 @@ Sentence 74,K,DFD
 ,and,O
 ,fractures,O
 ,.,O
-Sentence 75,An,O
+Sentence 76,An,O
 ,important,O
 ,methodology,GEN
 ,is,O
@@ -1964,7 +1987,7 @@ Sentence 75,An,O
 ,et,O
 ,al,O
 ,.,O
-Sentence 76,The,O
+Sentence 77,The,O
 ,smaller,O
 ,numbers,O
 ,of,O
@@ -1982,7 +2005,7 @@ Sentence 76,The,O
 ,of,O
 ,fengcong,DFD
 ,karst,DFD
-,ó,O
+,‚Äî,O
 ,fragments,O
 ,of,O
 ,a,O
@@ -1998,7 +2021,7 @@ Sentence 76,The,O
 ,fenglin,O
 ,landforms,O
 ,.,O
-Sentence 77,A,O
+Sentence 78,A,O
 ,paleocave,DFD
 ,system,DFD
 ,is,O
@@ -2030,7 +2053,7 @@ Sentence 77,A,O
 ,1999,O
 ,),O
 ,.,O
-Sentence 78,A,O
+Sentence 79,A,O
 ,paleocave,DFD
 ,hydrocarbon,DFD
 ,reservoir,DFD
@@ -2056,7 +2079,7 @@ Sentence 78,A,O
 ,fracture,O
 ,porosity,O
 ,.,O
-Sentence 79,The,O
+Sentence 80,The,O
 ,phreatic,DFD
 ,zone,DFD
 ,is,O
@@ -2082,8 +2105,8 @@ Sentence 79,The,O
 ,hyporheic,O
 ,zone,O
 ,.,O
-Sentence 80,The,O
-,arÍtes,DFD
+Sentence 81,The,O
+,ar√™tes,DFD
 ,are,O
 ,naked,O
 ,",",O
@@ -2105,7 +2128,7 @@ Sentence 80,The,O
 ,m,O
 ,high,O
 ,.,O
-Sentence 81,Microrills,DFD
+Sentence 82,Microrills,DFD
 ,are,O
 ,the,O
 ,smallest,O
@@ -2117,7 +2140,7 @@ Sentence 81,Microrills,DFD
 ,rilling,O
 ,appearance,O
 ,.,O
-Sentence 82,Rainpits,DFD
+Sentence 83,Rainpits,DFD
 ,are,O
 ,small,O
 ,cup-like,O
@@ -2139,7 +2162,7 @@ Sentence 82,Rainpits,DFD
 ,from,O
 ,0,O
 ,.5,O
-,ñ,O
+,‚Äì,O
 ,5,O
 ,cm,O
 ,and,O
@@ -2162,7 +2185,7 @@ Sentence 82,Rainpits,DFD
 ,by,O
 ,coalescence,O
 ,.,O
-Sentence 83,Decantation,DFD
+Sentence 84,Decantation,DFD
 ,runnels,DFD
 ,are,O
 ,rills,GEN
@@ -2206,11 +2229,11 @@ Sentence 83,Decantation,DFD
 ,soil,O
 ,remnants,O
 ,.,O
-Sentence 84,The,O
+Sentence 85,The,O
 ,term,O
-,ì,O
+,‚Äú,O
 ,cutters,DFD
-,î,O
+,‚Äù,O
 ,is,O
 ,commonly,O
 ,used,O
@@ -2239,11 +2262,11 @@ Sentence 84,The,O
 ,soil,O
 ,cover,O
 ,.,O
-Sentence 85,The,O
+Sentence 86,The,O
 ,term,O
-,ì,O
+,‚Äú,O
 ,cutters,O
-,î,O
+,‚Äù,O
 ,is,O
 ,commonly,O
 ,used,O
@@ -2272,7 +2295,7 @@ Sentence 85,The,O
 ,soil,O
 ,cover,O
 ,.,O
-Sentence 86,Karst,DFD
+Sentence 87,Karst,DFD
 ,is,O
 ,terrain,GEN
 ,with,O
@@ -2298,7 +2321,7 @@ Sentence 86,Karst,DFD
 ,porosity,O
 ,underground,O
 ,.,O
-Sentence 87,Aragonite,DFD
+Sentence 88,Aragonite,DFD
 ,is,O
 ,a,O
 ,main,O
@@ -2317,7 +2340,7 @@ Sentence 87,Aragonite,DFD
 ,with,O
 ,calcite,O
 ,.,O
-Sentence 88,Halite,DFD
+Sentence 89,Halite,DFD
 ,is,O
 ,known,O
 ,to,O
@@ -2346,15 +2369,15 @@ Sentence 88,Halite,DFD
 ,and,O
 ,stalagmites,O
 ,.,O
-Sentence 89,A,O
+Sentence 90,A,O
 ,spectacular,O
 ,form,O
 ,of,O
 ,gypsum,GEN
 ,is,O
-,ì,DFD
+,‚Äú,DFD
 ,chandelier,DFD
-,î,DFD
+,‚Äù,DFD
 ,stalactites,DFD
 ,",",O
 ,such,O
@@ -2369,21 +2392,21 @@ Sentence 89,A,O
 ,New,O
 ,Mexico,O
 ,.,O
-Sentence 90,The,O
+Sentence 91,The,O
 ,caves,DFD
 ,are,O
 ,the,O
 ,world,O
-,í,O
+,‚Äô,O
 ,s,O
 ,largest,O
 ,known,O
 ,examples,O
 ,of,GEN
-,ì,O
+,‚Äú,O
 ,flank-margin,DFD
 ,caves,O
-,î,O
+,‚Äù,O
 ,",",O
 ,a,O
 ,type,GEN
@@ -2409,7 +2432,7 @@ Sentence 90,The,O
 ,coastlines,O
 ,sea-water,O
 ,freshwater,O
-Sentence 91,Morphometry,DFD
+Sentence 92,Morphometry,DFD
 ,is,O
 ,the,O
 ,measurement,GEN
@@ -2421,16 +2444,16 @@ Sentence 91,Morphometry,DFD
 ,shape,O
 ,),O
 ,.,O
-Sentence 92,The,O
+Sentence 93,The,O
 ,outstanding,O
 ,landforms,GEN
 ,are,O
 ,dissolutional,DFD
 ,corridors,DFD
 ,(,O
-,ì,O
+,‚Äú,O
 ,streets,O
-,î,O
+,‚Äù,O
 ,),O
 ,in,O
 ,the,O
@@ -2452,7 +2475,7 @@ Sentence 92,The,O
 ,1978,O
 ,),O
 ,.,O
-Sentence 93,Paleokarst,DFD
+Sentence 94,Paleokarst,DFD
 ,is,O
 ,a,O
 ,worldwide,O
@@ -2480,7 +2503,7 @@ Sentence 93,Paleokarst,DFD
 ,the,O
 ,Holocene,O
 ,.,O
-Sentence 94,Caves,DFD
+Sentence 95,Caves,DFD
 ,without,DFD
 ,roofs,DFD
 ,are,O
@@ -2496,7 +2519,7 @@ Sentence 94,Caves,DFD
 ,scientific,O
 ,attention,O
 ,.,O
-Sentence 95,Paleokarst,DFD
+Sentence 96,Paleokarst,DFD
 ,aquifers,DFD
 ,are,O
 ,important,O
@@ -2518,7 +2541,7 @@ Sentence 95,Paleokarst,DFD
 ,underground,O
 ,mining,O
 ,operations,O
-Sentence 96,Palynology,DFD
+Sentence 97,Palynology,DFD
 ,",",O
 ,the,O
 ,study,GEN
@@ -2551,7 +2574,7 @@ Sentence 96,Palynology,DFD
 ,ancient,O
 ,environments,O
 ,.,O
-Sentence 97,Palynology,DFD
+Sentence 98,Palynology,DFD
 ,is,O
 ,an,O
 ,integral,O
@@ -2583,7 +2606,7 @@ Sentence 97,Palynology,DFD
 ,climatic,O
 ,reconstruction,O
 ,.,O
-Sentence 98,Paragenesis,DFD
+Sentence 99,Paragenesis,DFD
 ,is,O
 ,the,O
 ,term,O
@@ -2612,10 +2635,10 @@ Sentence 98,Paragenesis,DFD
 ,of,O
 ,sediment,O
 ,.,O
-Sentence 99,ì,O
+Sentence 100,‚Äú,O
 ,Network,DFD
 ,mazes,DFD
-,î,O
+,‚Äù,O
 ,are,O
 ,angular,GEN
 ,grids,GEN
@@ -2626,10 +2649,10 @@ Sentence 99,ì,O
 ,by,O
 ,fractures,O
 ,.,O
-Sentence 100,ì,O
+Sentence 101,‚Äú,O
 ,Spongework,DFD
 ,mazes,DFD
-,î,O
+,‚Äù,O
 ,are,O
 ,irregular,O
 ,cavities,GEN
@@ -2652,7 +2675,7 @@ Sentence 100,ì,O
 ,sponge,O
 ,.,O
 ,cavities,O
-Sentence 101,Large,O
+Sentence 102,Large,O
 ,allogenic,O
 ,streams,O
 ,penetrate,O
@@ -2689,7 +2712,7 @@ Sentence 101,Large,O
 ,steep,O
 ,slope,O
 ,.,O
-Sentence 102,A,O
+Sentence 103,A,O
 ,pre-ponor,DFD
 ,retention,DFD
 ,is,O
@@ -2714,7 +2737,7 @@ Sentence 102,A,O
 ,above,O
 ,the,O
 ,ponor,O
-Sentence 103,Pseudokarstic,DFD
+Sentence 104,Pseudokarstic,DFD
 ,caves,DFD
 ,are,O
 ,natural,GEN
@@ -2741,7 +2764,7 @@ Sentence 103,Pseudokarstic,DFD
 ,than,O
 ,dissolution,O
 ,.,O
-Sentence 104,Emanation,DFD
+Sentence 105,Emanation,DFD
 ,is,O
 ,the,O
 ,net,GEN
@@ -2783,7 +2806,7 @@ Sentence 104,Emanation,DFD
 ,the,O
 ,material,O
 ,.,O
-Sentence 105,Exhalation,DFD
+Sentence 106,Exhalation,DFD
 ,is,O
 ,the,O
 ,proportion,GEN
@@ -2797,7 +2820,7 @@ Sentence 105,Exhalation,DFD
 ,the,O
 ,atmosphere,O
 ,.,O
-Sentence 106,Whiting,DFD
+Sentence 107,Whiting,DFD
 ,is,O
 ,a,O
 ,specific,O
@@ -2816,9 +2839,9 @@ Sentence 106,Whiting,DFD
 ,is,O
 ,<,O
 ,44,O
-,µm,O
+,¬µm,O
 ,.,O
-Sentence 107,Littoral,DFD
+Sentence 108,Littoral,DFD
 ,caves,DFD
 ,",",O
 ,more,O
@@ -2848,7 +2871,7 @@ Sentence 107,Littoral,DFD
 ,former,O
 ,coastlines,O
 ,.,O
-Sentence 108,Littoral,O
+Sentence 109,Littoral,O
 ,caves,DFD
 ,",",O
 ,more,O
@@ -2878,7 +2901,7 @@ Sentence 108,Littoral,O
 ,former,O
 ,coastlines,O
 ,.,O
-Sentence 109,Slabs,DFD
+Sentence 110,Slabs,DFD
 ,are,O
 ,fragments,GEN
 ,of,GEN
@@ -2894,7 +2917,7 @@ Sentence 109,Slabs,DFD
 ,in,O
 ,volume,O
 ,.,O
-Sentence 110,Moonmilk,DFD
+Sentence 111,Moonmilk,DFD
 ,is,O
 ,a,O
 ,precipitate,GEN
@@ -2907,11 +2930,11 @@ Sentence 110,Moonmilk,DFD
 ,microbiological,O
 ,reactions,O
 ,.,O
-Sentence 111,The,O
+Sentence 112,The,O
 ,term,O
-,ì,O
+,‚Äú,O
 ,margin,DFD
-,î,O
+,‚Äù,O
 ,refers,O
 ,to,O
 ,the,GEN
@@ -2929,14 +2952,14 @@ Sentence 111,The,O
 ,and,O
 ,the,O
 ,term,O
-,ì,O
+,‚Äú,O
 ,flank,O
-,î,O
+,‚Äù,O
 ,refers,O
 ,to,O
 ,the,O
 ,cave,O
-,í,O
+,‚Äô,O
 ,s,O
 ,position,O
 ,under,O
@@ -2951,7 +2974,7 @@ Sentence 111,The,O
 ,the,O
 ,island,O
 ,.,O
-Sentence 112,Speleotherapy,DFD
+Sentence 113,Speleotherapy,DFD
 ,is,O
 ,a,O
 ,special,O
@@ -2968,7 +2991,7 @@ Sentence 112,Speleotherapy,DFD
 ,specific,O
 ,microclimate,O
 ,.,O
-Sentence 113,Springs,GEN
+Sentence 114,Springs,GEN
 ,in,O
 ,autogenic,O
 ,aquifers,O
@@ -2999,7 +3022,7 @@ Sentence 113,Springs,GEN
 ,and,O
 ,composition,O
 ,.,O
-Sentence 114,Open,DFD
+Sentence 115,Open,DFD
 ,anchialine,DFD
 ,pools,DFD
 ,are,O
@@ -3013,7 +3036,7 @@ Sentence 114,Open,DFD
 ,cave,O
 ,corridors,O
 ,.,O
-Sentence 115,Fungi,DFD
+Sentence 116,Fungi,DFD
 ,are,O
 ,important,O
 ,decomposers,GEN
@@ -3041,7 +3064,7 @@ Sentence 115,Fungi,DFD
 ,.,O
 ,in,O
 ,caves,O
-Sentence 116,Glaciokarstic,DFD
+Sentence 117,Glaciokarstic,DFD
 ,varves,DFD
 ,are,O
 ,silty,O
@@ -3054,7 +3077,7 @@ Sentence 116,Glaciokarstic,DFD
 ,calcite,O
 ,flakes,O
 ,.,O
-Sentence 117,Vulcanospeleology,DFD
+Sentence 118,Vulcanospeleology,DFD
 ,is,O
 ,the,O
 ,study,GEN
@@ -3063,7 +3086,7 @@ Sentence 117,Vulcanospeleology,DFD
 ,in,O
 ,volcanic,O
 ,rocks,O
-,ó,O
+,‚Äî,O
 ,primarily,O
 ,lava,O
 ,tube,O
@@ -3074,7 +3097,7 @@ Sentence 117,Vulcanospeleology,DFD
 ,volcanic,O
 ,conduits,O
 ,.,O
-Sentence 118,The,O
+Sentence 119,The,O
 ,term,O
 ,anchialine,DFD
 ,was,O
@@ -3107,7 +3130,7 @@ Sentence 118,The,O
 ,the,O
 ,tides,O
 ,.,O
-Sentence 119,Entrances,DFD
+Sentence 120,Entrances,DFD
 ,are,O
 ,accidental,O
 ,intersections,GEN
@@ -3118,7 +3141,7 @@ Sentence 119,Entrances,DFD
 ,surface,O
 ,erosion,O
 ,.,O
-Sentence 120,The,O
+Sentence 121,The,O
 ,fengcong,DFD
 ,is,O
 ,defined,O
@@ -3135,7 +3158,7 @@ Sentence 120,The,O
 ,limestone,O
 ,foot-slopes,O
 ,.,O
-Sentence 121,The,O
+Sentence 122,The,O
 ,fenglin,DFD
 ,is,O
 ,defined,O
@@ -3167,7 +3190,7 @@ Sentence 121,The,O
 ,loose,O
 ,sediment,O
 ,.,O
-Sentence 122,Radiolocation,DFD
+Sentence 123,Radiolocation,DFD
 ,is,O
 ,a,O
 ,technique,GEN
@@ -3203,7 +3226,7 @@ Sentence 122,Radiolocation,DFD
 ,the,O
 ,survey,O
 ,.,O
-Sentence 123,Various,O
+Sentence 124,Various,O
 ,names,O
 ,have,O
 ,been,O
@@ -3277,13 +3300,13 @@ Sentence 123,Various,O
 ,are,O
 ,known,O
 ,as,O
-,ì,O
+,‚Äú,O
 ,haystacks,O
-,î,O
+,‚Äù,O
 ,and,O
 ,pepinos,O
 ,.,O
-Sentence 124,Various,O
+Sentence 125,Various,O
 ,names,O
 ,have,O
 ,been,O
@@ -3357,13 +3380,13 @@ Sentence 124,Various,O
 ,are,O
 ,known,O
 ,as,O
-,ì,O
+,‚Äú,O
 ,haystacks,O
-,î,O
+,‚Äù,O
 ,and,O
 ,pepinos,O
 ,.,O
-Sentence 125,An,O
+Sentence 126,An,O
 ,artificial,DFD
 ,underground,DFD
 ,reservoir,DFD
@@ -3387,7 +3410,7 @@ Sentence 125,An,O
 ,stored,O
 ,water,O
 ,.,O
-Sentence 126,Valleys,DFD
+Sentence 127,Valleys,DFD
 ,are,O
 ,a,O
 ,feature,GEN
@@ -3398,7 +3421,7 @@ Sentence 126,Valleys,DFD
 ,",",O
 ,the,O
 ,exceptions,O
-,ë,O
+,‚Äò,O
 ,being,O
 ,areas,O
 ,of,O
@@ -3425,7 +3448,7 @@ Sentence 126,Valleys,DFD
 ,valley,O
 ,networks,O
 ,.,O
-Sentence 127,Pocket,DFD
+Sentence 128,Pocket,DFD
 ,valleys,DFD
 ,(,O
 ,or,O
@@ -3454,7 +3477,7 @@ Sentence 127,Pocket,DFD
 ,karst,O
 ,areas,O
 ,.,O
-Sentence 128,Pocket,O
+Sentence 129,Pocket,O
 ,valleys,GEN
 ,(,O
 ,or,O
@@ -3483,7 +3506,7 @@ Sentence 128,Pocket,O
 ,karst,O
 ,areas,O
 ,.,O
-Sentence 129,Sinkholes,DFD
+Sentence 130,Sinkholes,DFD
 ,or,O
 ,dolines,O
 ,are,O
@@ -3507,7 +3530,7 @@ Sentence 129,Sinkholes,DFD
 ,2007,O
 ,),O
 ,.,O
-Sentence 130,Sinkholes,O
+Sentence 131,Sinkholes,O
 ,or,O
 ,dolines,DFD
 ,are,O
@@ -3531,7 +3554,7 @@ Sentence 130,Sinkholes,O
 ,2007,O
 ,),O
 ,.,O
-Sentence 131,In,O
+Sentence 132,In,O
 ,most,O
 ,references,O
 ,",",O
@@ -3551,7 +3574,7 @@ Sentence 131,In,O
 ,several,O
 ,dolines,O
 ,.,O
-Sentence 132,Uvalas,DFD
+Sentence 133,Uvalas,DFD
 ,are,O
 ,hollows,GEN
 ,with,O
@@ -3565,7 +3588,7 @@ Sentence 132,Uvalas,DFD
 ,one,O
 ,doline,O
 ,.,O
-Sentence 133,The,O
+Sentence 134,The,O
 ,term,O
 ,uvala,DFD
 ,is,O
@@ -3590,7 +3613,7 @@ Sentence 133,The,O
 ,by,O
 ,sinkholes,O
 ,.,O
-Sentence 134,A,O
+Sentence 135,A,O
 ,typical,O
 ,sinkhole,DFD
 ,is,O
@@ -3607,7 +3630,7 @@ Sentence 134,A,O
 ,its,O
 ,bottom,O
 ,.,O
-Sentence 135,Paleokarst,DFD
+Sentence 136,Paleokarst,DFD
 ,is,O
 ,karst,GEN
 ,terrain,GEN
@@ -3619,7 +3642,7 @@ Sentence 135,Paleokarst,DFD
 ,younger,O
 ,sediments,O
 ,.,O
-Sentence 136,Basins,GEN
+Sentence 137,Basins,GEN
 ,designed,O
 ,and,DFD
 ,maintained,O
@@ -3636,7 +3659,7 @@ Sentence 136,Basins,GEN
 ,filtration,DFD
 ,basins,DFD
 ,.,O
-Sentence 137,The,O
+Sentence 138,The,O
 ,Jelar,DFD
 ,Breccia,DFD
 ,is,O
@@ -3656,7 +3679,7 @@ Sentence 137,The,O
 ,sorted,O
 ,debris,O
 ,.,O
-Sentence 138,Smaller,DFD
+Sentence 139,Smaller,DFD
 ,relief,DFD
 ,features,DFD
 ,are,O
@@ -3673,7 +3696,7 @@ Sentence 138,Smaller,DFD
 ,and,O
 ,caves,O
 ,.,O
-Sentence 139,Karren,DFD
+Sentence 140,Karren,DFD
 ,is,O
 ,a,O
 ,common,O
@@ -3689,14 +3712,14 @@ Sentence 139,Karren,DFD
 ,surfaces,O
 ,.,O
 ,rock,O
-Sentence 140,Characteristic,O
+Sentence 141,Characteristic,O
 ,form,O
 ,of,O
 ,corrosion,O
 ,is,O
 ,rillenkarren,DFD
 ,.,O
-Sentence 141,Karst,DFD
+Sentence 142,Karst,DFD
 ,poljes,DFD
 ,are,O
 ,the,O
@@ -3707,7 +3730,7 @@ Sentence 141,Karst,DFD
 ,in,O
 ,karst,O
 ,.,O
-Sentence 142,Uvalas,DFD
+Sentence 143,Uvalas,DFD
 ,are,O
 ,large,O
 ,",",O
@@ -3722,11 +3745,11 @@ Sentence 142,Uvalas,DFD
 ,plan,O
 ,form,O
 ,.,O
-Sentence 143,The,O
+Sentence 144,The,O
 ,word,O
-,ì,O
+,‚Äú,O
 ,uvala,DFD
-,î,O
+,‚Äù,O
 ,is,O
 ,a,O
 ,common,O
@@ -3742,7 +3765,7 @@ Sentence 143,The,O
 ,large,O
 ,depression,GEN
 ,.,O
-Sentence 144,The,O
+Sentence 145,The,O
 ,cave,DFD
 ,roof,DFD
 ,collapse,DFD
@@ -3772,7 +3795,7 @@ Sentence 144,The,O
 ,doline,O
 ,.,O
 ,collapse,O
-Sentence 145,Caves,DFD
+Sentence 146,Caves,DFD
 ,are,O
 ,active,O
 ,or,O
@@ -3784,7 +3807,7 @@ Sentence 145,Caves,DFD
 ,drainage,GEN
 ,system,GEN
 ,.,O
-Sentence 146,The,O
+Sentence 147,The,O
 ,dissolution,DFD
 ,of,DFD
 ,rock,DFD
@@ -3799,7 +3822,7 @@ Sentence 146,The,O
 ,karst,O
 ,.,O
 ,dissolution,O
-Sentence 147,Shilin,DFD
+Sentence 148,Shilin,DFD
 ,is,O
 ,a,O
 ,type,O
@@ -3821,7 +3844,7 @@ Sentence 147,Shilin,DFD
 ,2002,O
 ,),O
 ,.,O
-Sentence 148,Stone,DFD
+Sentence 149,Stone,DFD
 ,forest,DFD
 ,refers,O
 ,to,O
@@ -3846,7 +3869,7 @@ Sentence 148,Stone,DFD
 ,karst,O
 ,plateau,O
 ,.,O
-Sentence 149,Karst,O
+Sentence 150,Karst,O
 ,process,O
 ,is,O
 ,a,O
@@ -3911,7 +3934,7 @@ Sentence 149,Karst,O
 ,carbon,O
 ,),O
 ,.,O
-Sentence 150,Karst,DFD
+Sentence 151,Karst,DFD
 ,springs,DFD
 ,are,O
 ,boundaries,GEN
@@ -3925,7 +3948,7 @@ Sentence 150,Karst,DFD
 ,surface,O
 ,environments,O
 ,.,O
-Sentence 151,In,O
+Sentence 152,In,O
 ,karst,O
 ,regions,O
 ,of,O
@@ -3946,7 +3969,7 @@ Sentence 151,In,O
 ,carbonate,O
 ,formation,O
 ,.,O
-Sentence 152,Gypsum,DFD
+Sentence 153,Gypsum,DFD
 ,crusts,DFD
 ,form,O
 ,as,O
@@ -3969,7 +3992,7 @@ Sentence 152,Gypsum,DFD
 ,as,O
 ,snottites,O
 ,.,O
-Sentence 153,The,O
+Sentence 154,The,O
 ,silicification,O
 ,process,O
 ,is,O
@@ -3992,7 +4015,7 @@ Sentence 153,The,O
 ,hydraulic,O
 ,conductivity,O
 ,.,O
-Sentence 154,The,O
+Sentence 155,The,O
 ,epikarst,DFD
 ,is,O
 ,a,O
@@ -4018,7 +4041,7 @@ Sentence 154,The,O
 ,karst,O
 ,systems,O
 ,.,O
-Sentence 155,The,O
+Sentence 156,The,O
 ,hyporheic,DFD
 ,zone,DFD
 ,is,O
@@ -4060,7 +4083,7 @@ Sentence 155,The,O
 ,alluvial,O
 ,aquifer,O
 ,system,O
-Sentence 156,The,O
+Sentence 157,The,O
 ,hyporheic,DFD
 ,zone,DFD
 ,is,O
@@ -4085,7 +4108,7 @@ Sentence 156,The,O
 ,of,O
 ,animals,O
 ,.,O
-Sentence 157,Sand,DFD
+Sentence 158,Sand,DFD
 ,is,O
 ,a,O
 ,cave,GEN
@@ -4106,7 +4129,7 @@ Sentence 157,Sand,DFD
 ,quartz,O
 ,grains,O
 ,.,O
-Sentence 158,Goethite,DFD
+Sentence 159,Goethite,DFD
 ,is,O
 ,a,O
 ,very,O
@@ -4134,7 +4157,7 @@ Sentence 158,Goethite,DFD
 ,and,O
 ,springs,O
 ,.,O
-Sentence 159,Various,O
+Sentence 160,Various,O
 ,forms,O
 ,of,O
 ,flowstone,DFD
@@ -4169,7 +4192,7 @@ Sentence 159,Various,O
 ,in,O
 ,layers,O
 ,",",O
-Sentence 160,Lowland,DFD
+Sentence 161,Lowland,DFD
 ,is,O
 ,a,O
 ,lower,GEN
@@ -4180,7 +4203,7 @@ Sentence 160,Lowland,DFD
 ,sloping,O
 ,hills,O
 ,.,O
-Sentence 161,Smaller,O
+Sentence 162,Smaller,O
 ,fluvial,DFD
 ,karst,DFD
 ,forms,DFD
@@ -4209,7 +4232,7 @@ Sentence 161,Smaller,O
 ,per,O
 ,km2,O
 ,.,O
-Sentence 162,Smaller,O
+Sentence 163,Smaller,O
 ,fluvial,O
 ,karst,O
 ,forms,O
@@ -4238,7 +4261,7 @@ Sentence 162,Smaller,O
 ,per,O
 ,km2,O
 ,.,O
-Sentence 163,Scallops,DFD
+Sentence 164,Scallops,DFD
 ,are,O
 ,shallow,GEN
 ,niches,GEN
@@ -4257,7 +4280,7 @@ Sentence 163,Scallops,DFD
 ,eddies,O
 ,.,O
 ,eddies,O
-Sentence 164,The,O
+Sentence 165,The,O
 ,exokarstic,DFD
 ,storey,DFD
 ,represents,O
@@ -4282,7 +4305,7 @@ Sentence 164,The,O
 ,.0,O
 ,km,O
 ,.,O
-Sentence 165,In,O
+Sentence 166,In,O
 ,structural,O
 ,geology,O
 ,",",O
@@ -4313,7 +4336,7 @@ Sentence 165,In,O
 ,1996,O
 ,),O
 ,.,O
-Sentence 166,Fission-track,DFD
+Sentence 167,Fission-track,DFD
 ,method,DFD
 ,is,O
 ,a,O
@@ -4340,7 +4363,7 @@ Sentence 166,Fission-track,DFD
 ,of,O
 ,238U,O
 ,.,O
-Sentence 167,Flowstone,DFD
+Sentence 168,Flowstone,DFD
 ,is,O
 ,a,O
 ,general,O
@@ -4370,7 +4393,7 @@ Sentence 167,Flowstone,DFD
 ,or,O
 ,walls,O
 ,.,O
-Sentence 168,The,O
+Sentence 169,The,O
 ,term,O
 ,fluviokarst,DFD
 ,is,O
@@ -4411,7 +4434,7 @@ Sentence 168,The,O
 ,2002a,O
 ,),O
 ,.,O
-Sentence 169,Kluftkarren,DFD
+Sentence 170,Kluftkarren,DFD
 ,or,O
 ,grikes,DFD
 ,are,O
@@ -4450,7 +4473,7 @@ Sentence 169,Kluftkarren,DFD
 ,karst,O
 ,system,O
 ,.,O
-Sentence 170,Hypogene,DFD
+Sentence 171,Hypogene,DFD
 ,karst,DFD
 ,is,O
 ,defined,O
@@ -4497,7 +4520,7 @@ Sentence 170,Hypogene,DFD
 ,),O
 ,.,O
 ,caves,O
-Sentence 171,The,O
+Sentence 172,The,O
 ,inphase,DFD
 ,component,DFD
 ,is,O
@@ -4519,7 +4542,7 @@ Sentence 171,The,O
 ,amplitude,O
 ,peaks,O
 ,.,O
-Sentence 172,Karren,DFD
+Sentence 173,Karren,DFD
 ,is,O
 ,a,O
 ,common,O
@@ -4539,7 +4562,7 @@ Sentence 172,Karren,DFD
 ,),O
 ,.,O
 ,dissolution,O
-Sentence 173,Karren,DFD
+Sentence 174,Karren,DFD
 ,range,O
 ,from,O
 ,1,O
@@ -4564,7 +4587,7 @@ Sentence 173,Karren,DFD
 ,be,O
 ,longer,O
 ,.,O
-Sentence 174,In,O
+Sentence 175,In,O
 ,the,O
 ,most,O
 ,general,O
@@ -4602,7 +4625,7 @@ Sentence 174,In,O
 ,underground,O
 ,.,O
 ,process,O
-Sentence 175,Karstification,DFD
+Sentence 176,Karstification,DFD
 ,is,O
 ,the,O
 ,geologic,GEN
@@ -4637,11 +4660,11 @@ Sentence 175,Karstification,DFD
 ,near,O
 ,the,O
 ,Earth,O
-,í,O
+,‚Äô,O
 ,s,O
 ,surface,O
 ,.,O
-Sentence 176,The,O
+Sentence 177,The,O
 ,term,O
 ,karst,DFD
 ,describes,O
@@ -4668,7 +4691,7 @@ Sentence 176,The,O
 ,ground,O
 ,water,O
 ,.,O
-Sentence 177,The,O
+Sentence 178,The,O
 ,term,O
 ,karst,DFD
 ,applies,O
@@ -4702,7 +4725,7 @@ Sentence 177,The,O
 ,and,O
 ,halite,O
 ,.,O
-Sentence 178,Karst,DFD
+Sentence 179,Karst,DFD
 ,is,O
 ,defined,O
 ,as,O
@@ -4757,7 +4780,7 @@ Sentence 178,Karst,DFD
 ,limestone,O
 ,or,O
 ,dolomite,O
-Sentence 179,Karst,DFD
+Sentence 180,Karst,DFD
 ,is,O
 ,the,O
 ,term,O
@@ -4776,7 +4799,7 @@ Sentence 179,Karst,DFD
 ,and,O
 ,gypsum,O
 ,.,O
-Sentence 180,Lampenflora,DFD
+Sentence 181,Lampenflora,DFD
 ,is,O
 ,a,O
 ,complex,GEN
@@ -4799,7 +4822,7 @@ Sentence 180,Lampenflora,DFD
 ,around,O
 ,lamps,O
 ,.,O
-Sentence 181,The,O
+Sentence 182,The,O
 ,Kras,DFD
 ,is,O
 ,a,O
@@ -4816,7 +4839,7 @@ Sentence 181,The,O
 ,Adriatic,O
 ,Sea,O
 ,.,O
-Sentence 182,The,O
+Sentence 183,The,O
 ,word,O
 ,epikarst,DFD
 ,came,O
@@ -4864,7 +4887,7 @@ Sentence 182,The,O
 ,2012,O
 ,),O
 ,.,O
-Sentence 183,Dry,DFD
+Sentence 184,Dry,DFD
 ,valleys,DFD
 ,are,O
 ,often,O
@@ -4885,7 +4908,7 @@ Sentence 183,Dry,DFD
 ,1973,O
 ,),O
 ,.,O
-Sentence 184,Time,DFD
+Sentence 185,Time,DFD
 ,series,DFD
 ,analysis,DFD
 ,are,O
@@ -4913,7 +4936,7 @@ Sentence 184,Time,DFD
 ,karst,O
 ,systems,O
 ,.,O
-Sentence 185,Speleogenesis,DFD
+Sentence 186,Speleogenesis,DFD
 ,(,O
 ,karstic,O
 ,),O
@@ -4939,7 +4962,7 @@ Sentence 185,Speleogenesis,DFD
 ,movement,O
 ,),O
 ,.,O
-Sentence 186,Aggressiveness,O
+Sentence 187,Aggressiveness,O
 ,is,O
 ,an,O
 ,attribute,O
@@ -4961,7 +4984,7 @@ Sentence 186,Aggressiveness,O
 ,the,O
 ,rock,O
 ,.,O
-Sentence 187,Tafoni,DFD
+Sentence 188,Tafoni,DFD
 ,geomorphology,DFD
 ,designates,O
 ,a,O
@@ -4982,7 +5005,7 @@ Sentence 187,Tafoni,DFD
 ,coastal,O
 ,carbonates,O
 ,.,O
-Sentence 188,Sea,DFD
+Sentence 189,Sea,DFD
 ,caves,DFD
 ,",",O
 ,also,O
@@ -5002,7 +5025,7 @@ Sentence 188,Sea,DFD
 ,wave,O
 ,action,O
 ,.,O
-Sentence 189,Sea,O
+Sentence 190,Sea,O
 ,caves,DFD
 ,",",O
 ,also,O
@@ -5022,7 +5045,7 @@ Sentence 189,Sea,O
 ,wave,O
 ,action,O
 ,.,O
-Sentence 190,In,O
+Sentence 191,In,O
 ,desert,O
 ,environments,O
 ,",",O
@@ -5047,7 +5070,7 @@ Sentence 190,In,O
 ,high,O
 ,PCO2,O
 ,.,O
-Sentence 191,The,O
+Sentence 192,The,O
 ,term,O
 ,epigenesis,DFD
 ,is,O
@@ -5073,19 +5096,19 @@ Sentence 191,The,O
 ,complementary,O
 ,syngenesis,O
 ,.,O
-Sentence 192,Hypogene,DFD
+Sentence 193,Hypogene,DFD
 ,karstification,DFD
 ,is,O
 ,defined,O
 ,as,O
 ,upward,O
 ,movement,GEN
-,"""",O
+,ÔøΩ,O
 ,of,O
 ,the,O
 ,cave-forming,O
 ,agent,O
-,"""",O
+,ÔøΩ,O
 ,(,O
 ,sensu,O
 ,Klimchouk,O
@@ -5095,7 +5118,7 @@ Sentence 192,Hypogene,DFD
 ,2012,O
 ,),O
 ,.,O
-Sentence 193,The,O
+Sentence 194,The,O
 ,term,O
 ,doline,DFD
 ,",",O
@@ -5130,7 +5153,7 @@ Sentence 193,The,O
 ,to,O
 ,karst,O
 ,.,O
-Sentence 194,Caves,DFD
+Sentence 195,Caves,DFD
 ,are,O
 ,natural,O
 ,underground,O
@@ -5144,7 +5167,7 @@ Sentence 194,Caves,DFD
 ,directly,O
 ,observed,O
 ,.,O
-Sentence 195,Influxes,O
+Sentence 196,Influxes,O
 ,of,O
 ,sediment,O
 ,into,O
@@ -5190,7 +5213,7 @@ Sentence 195,Influxes,O
 ,a,O
 ,phreatic,O
 ,environment,O
-Sentence 196,Clastic,DFD
+Sentence 197,Clastic,DFD
 ,sediments,DFD
 ,are,O
 ,an,O
@@ -5220,7 +5243,7 @@ Sentence 196,Clastic,DFD
 ,clastic,O
 ,sediment,O
 ,.,O
-Sentence 197,The,O
+Sentence 198,The,O
 ,epiphreatic,DFD
 ,zone,DFD
 ,is,O
@@ -5241,7 +5264,7 @@ Sentence 197,The,O
 ,fluctuates,O
 ,between,O
 ,.,O
-Sentence 198,Specific,DFD
+Sentence 199,Specific,DFD
 ,karstic,DFD
 ,ablation,DFD
 ,is,O
@@ -5266,7 +5289,7 @@ Sentence 198,Specific,DFD
 ,affected,O
 ,region,O
 ,.,O
-Sentence 199,Poljes,DFD
+Sentence 200,Poljes,DFD
 ,are,O
 ,an,O
 ,important,O
@@ -5297,7 +5320,7 @@ Sentence 199,Poljes,DFD
 ,large-scale,O
 ,agriculture,O
 ,.,O
-Sentence 200,A,O
+Sentence 201,A,O
 ,blind,DFD
 ,valley,DFD
 ,is,O
@@ -5314,7 +5337,7 @@ Sentence 200,A,O
 ,stream,O
 ,sinks,O
 ,.,O
-Sentence 201,Ghost,DFD
+Sentence 202,Ghost,DFD
 ,rock,DFD
 ,karstification,DFD
 ,is,O
@@ -5353,7 +5376,7 @@ Sentence 201,Ghost,DFD
 ,through,O
 ,fractures,O
 ,.,O
-Sentence 202,Dolines,DFD
+Sentence 203,Dolines,DFD
 ,are,O
 ,a,O
 ,sign,O
@@ -5386,7 +5409,7 @@ Sentence 202,Dolines,DFD
 ,underground,O
 ,water,O
 ,.,O
-Sentence 203,The,O
+Sentence 204,The,O
 ,shape,O
 ,of,O
 ,unroofed,DFD
@@ -5434,7 +5457,7 @@ Sentence 203,The,O
 ,and,O
 ,hydrological,O
 ,conditions,O
-Sentence 204,Karst,DFD
+Sentence 205,Karst,DFD
 ,waters,DFD
 ,are,O
 ,an,O
@@ -5454,7 +5477,7 @@ Sentence 204,Karst,DFD
 ,economic,O
 ,good,O
 ,.,O
-Sentence 205,In,O
+Sentence 206,In,O
 ,Slovenia,O
 ,",",O
 ,the,O
@@ -5483,7 +5506,7 @@ Sentence 205,In,O
 ,outflowing,O
 ,water,O
 ,.,O
-Sentence 206,Karst,DFD
+Sentence 207,Karst,DFD
 ,poljes,DFD
 ,are,O
 ,natural,O
@@ -5507,7 +5530,7 @@ Sentence 206,Karst,DFD
 ,river,O
 ,basins,O
 ,.,O
-Sentence 207,The,O
+Sentence 208,The,O
 ,oldest,O
 ,explanation,O
 ,of,O
@@ -5524,7 +5547,7 @@ Sentence 207,The,O
 ,collapse,O
 ,(,O
 ,Cviji,O
-,c,O
+,ÔøΩ,O
 ,",",O
 ,1893,O
 ,),O
@@ -5534,14 +5557,14 @@ Sentence 207,The,O
 ,which,O
 ,the,O
 ,term,O
-,"""",O
+,ÔøΩ,O
 ,collapse,O
 ,doline,O
-,"""",O
+,ÔøΩ,O
 ,was,O
 ,coined,O
 ,.,O
-Sentence 208,Equipotential,DFD
+Sentence 209,Equipotential,DFD
 ,surfaces,DFD
 ,are,O
 ,locations,O
@@ -5557,7 +5580,7 @@ Sentence 208,Equipotential,DFD
 ,at,O
 ,piezometers,O
 ,.,O
-Sentence 209,Collapse,DFD
+Sentence 210,Collapse,DFD
 ,dolines,DFD
 ,are,O
 ,large,O
@@ -5581,7 +5604,7 @@ Sentence 209,Collapse,DFD
 ,of,O
 ,slopes,O
 ,.,O
-Sentence 210,Caves,DFD
+Sentence 211,Caves,DFD
 ,are,O
 ,an,O
 ,important,O
@@ -5604,7 +5627,7 @@ Sentence 210,Caves,DFD
 ,only,O
 ,components,O
 ,.,O
-Sentence 211,In,O
+Sentence 212,In,O
 ,instances,O
 ,where,O
 ,dissolution,O
@@ -5620,7 +5643,7 @@ Sentence 211,In,O
 ,probably,O
 ,form,O
 ,.,O
-Sentence 212,The,O
+Sentence 213,The,O
 ,first,O
 ,type,O
 ,is,O
@@ -5640,7 +5663,7 @@ Sentence 212,The,O
 ,karst,O
 ,subsurface,O
 ,.,O
-Sentence 213,The,O
+Sentence 214,The,O
 ,third,O
 ,type,O
 ,is,O
@@ -5680,7 +5703,7 @@ Sentence 213,The,O
 ,structural,O
 ,factors,O
 ,.,O
-Sentence 214,active,DFD
+Sentence 215,active,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -5693,7 +5716,7 @@ Sentence 214,active,DFD
 ,in,O
 ,it,O
 ,.,O
-Sentence 215,aeolian,DFD
+Sentence 216,aeolian,DFD
 ,calcarenite,DFD
 ,-,O
 ,a,O
@@ -5727,7 +5750,7 @@ Sentence 215,aeolian,DFD
 ,organic,O
 ,remains,O
 ,.,O
-Sentence 216,aragonite,DFD
+Sentence 217,aragonite,DFD
 ,-,O
 ,a,O
 ,less,O
@@ -5744,7 +5767,7 @@ Sentence 216,aragonite,DFD
 ,and,O
 ,orthorhombic,O
 ,.,O
-Sentence 217,bare,DFD
+Sentence 218,bare,DFD
 ,karst,DFD
 ,-,O
 ,karst,GEN
@@ -5753,7 +5776,7 @@ Sentence 217,bare,DFD
 ,exposed,O
 ,bedrock,O
 ,.,O
-Sentence 218,bathyphreatic,DFD
+Sentence 219,bathyphreatic,DFD
 ,-,O
 ,referring,O
 ,to,O
@@ -5771,7 +5794,7 @@ Sentence 218,bathyphreatic,DFD
 ,phreatic,O
 ,zone,O
 ,.,O
-Sentence 219,bed,DFD
+Sentence 220,bed,DFD
 ,-,O
 ,a,O
 ,depositional,O
@@ -5784,7 +5807,7 @@ Sentence 219,bed,DFD
 ,unconsolidated,O
 ,sediment,O
 ,.,O
-Sentence 220,bedding-grike,DFD
+Sentence 221,bedding-grike,DFD
 ,-,O
 ,a,GEN
 ,narrow,O
@@ -5808,7 +5831,7 @@ Sentence 220,bedding-grike,DFD
 ,along,O
 ,a,O
 ,bedding-plane,O
-Sentence 221,bedding,DFD
+Sentence 222,bedding,DFD
 ,plane,DFD
 ,-,O
 ,a,O
@@ -5821,7 +5844,7 @@ Sentence 221,bedding,DFD
 ,planar,O
 ,.,O
 ,planar,O
-Sentence 222,bedding-plane,DFD
+Sentence 223,bedding-plane,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -5838,7 +5861,7 @@ Sentence 222,bedding-plane,DFD
 ,a,O
 ,result,O
 ,.,O
-Sentence 223,biospeleology,DFD
+Sentence 224,biospeleology,DFD
 ,-,O
 ,the,O
 ,scientific,O
@@ -5849,7 +5872,7 @@ Sentence 223,biospeleology,DFD
 ,in,O
 ,caves,O
 ,.,O
-Sentence 224,blind,DFD
+Sentence 225,blind,DFD
 ,shaft,DFD
 ,-,O
 ,a,O
@@ -5876,7 +5899,7 @@ Sentence 224,blind,DFD
 ,its,O
 ,height,O
 ,.,O
-Sentence 225,blind,DFD
+Sentence 226,blind,DFD
 ,valley,DFD
 ,-,O
 ,a,O
@@ -5899,7 +5922,7 @@ Sentence 225,blind,DFD
 ,the,O
 ,valley,O
 ,.,O
-Sentence 226,blowhole,DFD
+Sentence 227,blowhole,DFD
 ,-,O
 ,a,O
 ,hole,GEN
@@ -5921,7 +5944,7 @@ Sentence 226,blowhole,DFD
 ,and,O
 ,water,O
 ,.,O
-Sentence 227,blowhole,DFD
+Sentence 228,blowhole,DFD
 ,-,O
 ,a,O
 ,hole,GEN
@@ -5946,7 +5969,7 @@ Sentence 227,blowhole,DFD
 ,nullarbor,O
 ,plain,O
 ,.,O
-Sentence 228,branchwork,DFD
+Sentence 229,branchwork,DFD
 ,-,O
 ,a,O
 ,dendritic,O
@@ -5968,7 +5991,7 @@ Sentence 228,branchwork,DFD
 ,or,O
 ,passage,O
 ,.,O
-Sentence 229,breccia,DFD
+Sentence 230,breccia,DFD
 ,-,O
 ,angular,O
 ,fragments,GEN
@@ -5990,7 +6013,7 @@ Sentence 229,breccia,DFD
 ,.,O
 ,of,O
 ,rock,O
-Sentence 230,canopy,DFD
+Sentence 231,canopy,DFD
 ,-,O
 ,a,O
 ,compound,O
@@ -6017,7 +6040,7 @@ Sentence 230,canopy,DFD
 ,outer,O
 ,edge,O
 ,.,O
-Sentence 231,canyon,DFD
+Sentence 232,canyon,DFD
 ,-,O
 ,a,O
 ,deep,O
@@ -6044,7 +6067,7 @@ Sentence 231,canyon,DFD
 ,karst,O
 ,area,O
 ,.,O
-Sentence 232,canyon,DFD
+Sentence 233,canyon,DFD
 ,-,O
 ,a,O
 ,deep,O
@@ -6069,7 +6092,7 @@ Sentence 232,canyon,DFD
 ,cave,O
 ,passage,O
 ,.,O
-Sentence 233,cave,DFD
+Sentence 234,cave,DFD
 ,-,O
 ,a,O
 ,natural,O
@@ -6109,7 +6132,7 @@ Sentence 233,cave,DFD
 ,need,O
 ,qualification,O
 ,.,O
-Sentence 234,cave,DFD
+Sentence 235,cave,DFD
 ,blister,DFD
 ,-,O
 ,an,O
@@ -6120,7 +6143,7 @@ Sentence 234,cave,DFD
 ,egg-shell,GEN
 ,calcite,GEN
 ,.,O
-Sentence 235,cave,DFD
+Sentence 236,cave,DFD
 ,coral,DFD
 ,-,O
 ,very,O
@@ -6141,7 +6164,7 @@ Sentence 235,cave,DFD
 ,in,O
 ,patches,O
 ,.,O
-Sentence 236,cave,DFD
+Sentence 237,cave,DFD
 ,earth,DFD
 ,-,O
 ,clay,O
@@ -6159,7 +6182,7 @@ Sentence 236,cave,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 237,cave,DFD
+Sentence 238,cave,DFD
 ,ecology,DFD
 ,-,O
 ,the,O
@@ -6186,7 +6209,7 @@ Sentence 237,cave,DFD
 ,climatic,O
 ,influences,O
 ,.,O
-Sentence 238,cave,DFD
+Sentence 239,cave,DFD
 ,fill,DFD
 ,-,O
 ,transported,O
@@ -6216,7 +6239,7 @@ Sentence 238,cave,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 239,cave,DFD
+Sentence 240,cave,DFD
 ,pearl,DFD
 ,-,O
 ,a,O
@@ -6235,7 +6258,7 @@ Sentence 239,cave,DFD
 ,water,O
 ,drips,O
 ,.,O
-Sentence 240,cave,DFD
+Sentence 241,cave,DFD
 ,spring,DFD
 ,-,O
 ,a,O
@@ -6251,7 +6274,7 @@ Sentence 240,cave,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 241,cave,DFD
+Sentence 242,cave,DFD
 ,system,DFD
 ,-,O
 ,a,O
@@ -6277,7 +6300,7 @@ Sentence 241,cave,DFD
 ,and,O
 ,passages,O
 ,.,O
-Sentence 242,cavern,DFD
+Sentence 243,cavern,DFD
 ,-,O
 ,a,O
 ,very,O
@@ -6287,7 +6310,7 @@ Sentence 242,cavern,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 243,cenote,DFD
+Sentence 244,cenote,DFD
 ,-,O
 ,a,O
 ,partly,O
@@ -6296,7 +6319,7 @@ Sentence 243,cenote,DFD
 ,wall-sided,O
 ,doline,GEN
 ,.,O
-Sentence 244,chamber,DFD
+Sentence 245,chamber,DFD
 ,-,O
 ,the,O
 ,largest,O
@@ -6318,7 +6341,7 @@ Sentence 244,chamber,DFD
 ,great,O
 ,height,O
 ,.,O
-Sentence 245,choke,DFD
+Sentence 246,choke,DFD
 ,-,O
 ,rock,GEN
 ,debris,GEN
@@ -6331,7 +6354,7 @@ Sentence 245,choke,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 246,column,DFD
+Sentence 247,column,DFD
 ,-,O
 ,a,O
 ,speleothem,GEN
@@ -6363,7 +6386,7 @@ Sentence 246,column,DFD
 ,meet,O
 ,bedrock,O
 ,.,O
-Sentence 247,conduit,DFD
+Sentence 248,conduit,DFD
 ,-,O
 ,an,O
 ,underground,O
@@ -6392,7 +6415,7 @@ Sentence 247,conduit,DFD
 ,stream,O
 ,course,O
 ,.,O
-Sentence 248,corrosion,DFD
+Sentence 249,corrosion,DFD
 ,-,O
 ,the,O
 ,wearing,GEN
@@ -6412,7 +6435,7 @@ Sentence 248,corrosion,DFD
 ,especially,O
 ,water,O
 ,.,O
-Sentence 249,curtain,DFD
+Sentence 250,curtain,DFD
 ,-,O
 ,a,O
 ,speleothem,GEN
@@ -6441,7 +6464,7 @@ Sentence 249,curtain,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 250,dark,DFD
+Sentence 251,dark,DFD
 ,zone,DFD
 ,-,O
 ,the,O
@@ -6455,7 +6478,7 @@ Sentence 250,dark,DFD
 ,not,O
 ,reach,O
 ,.,O
-Sentence 251,decomposers,DFD
+Sentence 252,decomposers,DFD
 ,-,O
 ,living,GEN
 ,things,GEN
@@ -6502,7 +6525,7 @@ Sentence 251,decomposers,DFD
 ,of,O
 ,animals,O
 ,.,O
-Sentence 252,doline,DFD
+Sentence 253,doline,DFD
 ,-,O
 ,a,O
 ,closed,O
@@ -6542,7 +6565,7 @@ Sentence 252,doline,DFD
 ,in,O
 ,dimension,O
 ,.,O
-Sentence 253,dolomite,DFD
+Sentence 254,dolomite,DFD
 ,-,O
 ,a,O
 ,mineral,GEN
@@ -6556,7 +6579,7 @@ Sentence 253,dolomite,DFD
 ,and,O
 ,calcium,O
 ,.,O
-Sentence 254,dome,DFD
+Sentence 255,dome,DFD
 ,-,O
 ,a,O
 ,large,O
@@ -6593,7 +6616,7 @@ Sentence 254,dome,DFD
 ,the,O
 ,form,O
 ,.,O
-Sentence 255,driphole,DFD
+Sentence 256,driphole,DFD
 ,-,O
 ,a,O
 ,hole,GEN
@@ -6608,7 +6631,7 @@ Sentence 255,driphole,DFD
 ,.,O
 ,cave,O
 ,floor,O
-Sentence 256,dripline,DFD
+Sentence 257,dripline,DFD
 ,-,O
 ,a,O
 ,line,GEN
@@ -6639,7 +6662,7 @@ Sentence 256,dripline,DFD
 ,the,O
 ,cave,O
 ,.,O
-Sentence 257,dripstone,DFD
+Sentence 258,dripstone,DFD
 ,-,O
 ,a,O
 ,deposit,GEN
@@ -6657,7 +6680,7 @@ Sentence 257,dripstone,DFD
 ,of,O
 ,calcite,O
 ,.,O
-Sentence 258,dry,DFD
+Sentence 259,dry,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -6671,7 +6694,7 @@ Sentence 258,dry,DFD
 ,dead,O
 ,cave,O
 ,.,O
-Sentence 259,dry,O
+Sentence 260,dry,O
 ,cave,DFD
 ,-,O
 ,a,O
@@ -6685,7 +6708,7 @@ Sentence 259,dry,O
 ,dead,DFD
 ,cave,O
 ,.,O
-Sentence 260,dry,DFD
+Sentence 261,dry,DFD
 ,valley,DFD
 ,-,O
 ,a,O
@@ -6696,7 +6719,7 @@ Sentence 260,dry,DFD
 ,stream,O
 ,channel,O
 ,.,O
-Sentence 261,dynamic,DFD
+Sentence 262,dynamic,DFD
 ,phreas,DFD
 ,-,O
 ,a,O
@@ -6718,7 +6741,7 @@ Sentence 261,dynamic,DFD
 ,hydrostatic,O
 ,pressure,O
 ,.,O
-Sentence 262,erosion,DFD
+Sentence 263,erosion,DFD
 ,-,O
 ,the,O
 ,wearing,GEN
@@ -6751,7 +6774,7 @@ Sentence 262,erosion,DFD
 ,and,O
 ,glaciers,O
 ,.,O
-Sentence 263,exsurgence,DFD
+Sentence 264,exsurgence,DFD
 ,-,O
 ,a,O
 ,spring,GEN
@@ -6761,7 +6784,7 @@ Sentence 263,exsurgence,DFD
 ,percolation,O
 ,water,O
 ,.,O
-Sentence 264,fault,DFD
+Sentence 265,fault,DFD
 ,-,O
 ,a,O
 ,fracture,GEN
@@ -6786,7 +6809,7 @@ Sentence 264,fault,DFD
 ,the,O
 ,fault,O
 ,plane,O
-Sentence 265,fault,DFD
+Sentence 266,fault,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -6812,7 +6835,7 @@ Sentence 265,fault,DFD
 ,along,O
 ,it,O
 ,.,O
-Sentence 266,fault,DFD
+Sentence 267,fault,DFD
 ,plane,DFD
 ,-,O
 ,a,O
@@ -6827,7 +6850,7 @@ Sentence 266,fault,DFD
 ,taken,O
 ,place,O
 ,.,O
-Sentence 267,fissure,DFD
+Sentence 268,fissure,DFD
 ,-,O
 ,an,O
 ,open,O
@@ -6837,7 +6860,7 @@ Sentence 267,fissure,DFD
 ,or,O
 ,soil,O
 ,.,O
-Sentence 268,flowstone,DFD
+Sentence 269,flowstone,DFD
 ,-,O
 ,a,O
 ,deposit,GEN
@@ -6862,7 +6885,7 @@ Sentence 268,flowstone,DFD
 ,.,O
 ,travertine,O
 ,.,O
-Sentence 269,fluorometer,DFD
+Sentence 270,fluorometer,DFD
 ,-,O
 ,an,O
 ,instrument,GEN
@@ -6881,7 +6904,7 @@ Sentence 269,fluorometer,DFD
 ,dye,O
 ,gauging,O
 ,.,O
-Sentence 270,glacier,DFD
+Sentence 271,glacier,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -6893,7 +6916,7 @@ Sentence 270,glacier,DFD
 ,a,O
 ,glacier,O
 ,.,O
-Sentence 271,grike,DFD
+Sentence 272,grike,DFD
 ,-,O
 ,a,GEN
 ,deep,O
@@ -6919,7 +6942,7 @@ Sentence 271,grike,DFD
 ,a,O
 ,joint,O
 ,.,O
-Sentence 272,gypsum,DFD
+Sentence 273,gypsum,DFD
 ,flower,DFD
 ,-,O
 ,an,O
@@ -6934,7 +6957,7 @@ Sentence 272,gypsum,DFD
 ,cave,O
 ,surface,O
 ,.,O
-Sentence 273,half-blind,DFD
+Sentence 274,half-blind,DFD
 ,valley,DFD
 ,-,O
 ,a,O
@@ -6958,7 +6981,7 @@ Sentence 273,half-blind,DFD
 ,of,O
 ,flood,O
 ,.,O
-Sentence 274,half-tube,DFD
+Sentence 275,half-tube,DFD
 ,-,O
 ,a,O
 ,semi-eylindrical,O
@@ -6975,7 +6998,7 @@ Sentence 274,half-tube,DFD
 ,or,O
 ,anastomosing,O
 ,.,O
-Sentence 275,helictite,DFD
+Sentence 276,helictite,DFD
 ,-,O
 ,a,O
 ,speleothem,GEN
@@ -7003,7 +7026,7 @@ Sentence 275,helictite,DFD
 ,angular,O
 ,form,O
 ,.,O
-Sentence 276,hydrology,DFD
+Sentence 277,hydrology,DFD
 ,-,O
 ,the,O
 ,scientific,GEN
@@ -7018,7 +7041,7 @@ Sentence 276,hydrology,DFD
 ,of,O
 ,water,O
 ,.,O
-Sentence 277,ice,DFD
+Sentence 278,ice,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -7029,7 +7052,7 @@ Sentence 277,ice,DFD
 ,in,O
 ,it,O
 ,.,O
-Sentence 278,inflow,DFD
+Sentence 279,inflow,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -7056,7 +7079,7 @@ Sentence 278,inflow,DFD
 ,the,O
 ,surface,O
 ,.,O
-Sentence 279,karren,DFD
+Sentence 280,karren,DFD
 ,-,O
 ,the,GEN
 ,minor,GEN
@@ -7076,7 +7099,7 @@ Sentence 279,karren,DFD
 ,or,O
 ,underground,O
 ,.,O
-Sentence 280,karst,DFD
+Sentence 281,karst,DFD
 ,-,O
 ,tereain,GEN
 ,with,O
@@ -7100,7 +7123,7 @@ Sentence 280,karst,DFD
 ,is,O
 ,common,O
 ,.,O
-Sentence 281,karst,DFD
+Sentence 282,karst,DFD
 ,window,DFD
 ,-,O
 ,a,O
@@ -7120,7 +7143,7 @@ Sentence 281,karst,DFD
 ,its,O
 ,bottom,O
 ,.,O
-Sentence 282,keyhole,DFD
+Sentence 283,keyhole,DFD
 ,-,O
 ,a,O
 ,small,O
@@ -7139,7 +7162,7 @@ Sentence 282,keyhole,DFD
 ,narrow,O
 ,below,O
 ,.,O
-Sentence 283,lava-cave,DFD
+Sentence 284,lava-cave,DFD
 ,-,O
 ,a,O
 ,cave,GEN
@@ -7175,7 +7198,7 @@ Sentence 283,lava-cave,DFD
 ,flowing,O
 ,lava,O
 ,.,O
-Sentence 284,limestone,DFD
+Sentence 285,limestone,DFD
 ,-,O
 ,a,O
 ,sedimentary,GEN
@@ -7186,8 +7209,8 @@ Sentence 284,limestone,DFD
 ,calcium,O
 ,carbonate,O
 ,cac03,O
-,ï,O
-Sentence 285,live,DFD
+,‚Ä¢,O
+Sentence 286,live,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -7208,7 +7231,7 @@ Sentence 285,live,DFD
 ,and,O
 ,heat,O
 ,.,O
-Sentence 286,meander,DFD
+Sentence 287,meander,DFD
 ,niche,DFD
 ,-,O
 ,a,GEN
@@ -7231,7 +7254,7 @@ Sentence 286,meander,DFD
 ,same,O
 ,time,O
 ,.,O
-Sentence 287,moonmilk,DFD
+Sentence 288,moonmilk,DFD
 ,-,O
 ,a,O
 ,soft,O
@@ -7249,7 +7272,7 @@ Sentence 287,moonmilk,DFD
 ,or,O
 ,huntite,O
 ,.,O
-Sentence 288,natural,DFD
+Sentence 289,natural,DFD
 ,arch,DFD
 ,-,O
 ,an,O
@@ -7260,7 +7283,7 @@ Sentence 288,natural,DFD
 ,by,O
 ,weathering,O
 ,.,O
-Sentence 289,natural,DFD
+Sentence 290,natural,DFD
 ,bridge,DFD
 ,-,O
 ,a,O
@@ -7278,7 +7301,7 @@ Sentence 289,natural,DFD
 ,erosive,O
 ,agents,O
 ,.,O
-Sentence 290,outflow,DFD
+Sentence 291,outflow,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -7302,7 +7325,7 @@ Sentence 290,outflow,DFD
 ,the,O
 ,surface,O
 ,.,O
-Sentence 291,palaeokarst,O
+Sentence 292,palaeokarst,O
 ,',DFD
 ,fossil,DFD
 ,',DFD
@@ -7339,7 +7362,7 @@ Sentence 291,palaeokarst,O
 ,or,O
 ,breccias,O
 ,.,O
-Sentence 292,palaeokarst,DFD
+Sentence 293,palaeokarst,DFD
 ,',O
 ,fossil,O
 ,',O
@@ -7376,7 +7399,7 @@ Sentence 292,palaeokarst,DFD
 ,or,O
 ,breccias,O
 ,.,O
-Sentence 293,pendulite,DFD
+Sentence 294,pendulite,DFD
 ,-,O
 ,a,O
 ,kind,O
@@ -7403,7 +7426,7 @@ Sentence 293,pendulite,DFD
 ,a,O
 ,drumstick,O
 ,.,O
-Sentence 294,percolation,DFD
+Sentence 295,percolation,DFD
 ,water,DFD
 ,-,O
 ,water,GEN
@@ -7423,7 +7446,7 @@ Sentence 294,percolation,DFD
 ,vadose,O
 ,zone,O
 ,.,O
-Sentence 295,permeability,DFD
+Sentence 296,permeability,DFD
 ,-,O
 ,the,O
 ,property,O
@@ -7444,7 +7467,7 @@ Sentence 295,permeability,DFD
 ,pass,O
 ,through,O
 ,it,O
-Sentence 296,phreatic,DFD
+Sentence 297,phreatic,DFD
 ,water,DFD
 ,-,O
 ,water,GEN
@@ -7464,7 +7487,7 @@ Sentence 296,phreatic,DFD
 ,with,O
 ,water,O
 ,.,O
-Sentence 297,phreatic,DFD
+Sentence 298,phreatic,DFD
 ,zone,DFD
 ,-,O
 ,zone,GEN
@@ -7479,7 +7502,7 @@ Sentence 297,phreatic,DFD
 ,with,O
 ,water,O
 ,.,O
-Sentence 298,pillar,DFD
+Sentence 299,pillar,DFD
 ,-,O
 ,a,O
 ,bedrock,GEN
@@ -7496,7 +7519,7 @@ Sentence 298,pillar,DFD
 ,surrounding,O
 ,rock,O
 ,.,O
-Sentence 299,pipe,DFD
+Sentence 300,pipe,DFD
 ,-,O
 ,a,O
 ,tubular,O
@@ -7539,7 +7562,7 @@ Sentence 299,pipe,DFD
 ,from,O
 ,the,O
 ,surface,O
-Sentence 300,plunge,DFD
+Sentence 301,plunge,DFD
 ,pool,DFD
 ,-,O
 ,a,O
@@ -7566,7 +7589,7 @@ Sentence 300,plunge,DFD
 ,or,O
 ,underground,O
 ,.,O
-Sentence 301,polje,DFD
+Sentence 302,polje,DFD
 ,-,O
 ,a,O
 ,large,O
@@ -7615,7 +7638,7 @@ Sentence 301,polje,DFD
 ,.,O
 ,depression,O
 ,stream,O
-Sentence 302,polygonal,DFD
+Sentence 303,polygonal,DFD
 ,karst,DFD
 ,-,O
 ,karst,GEN
@@ -7635,7 +7658,7 @@ Sentence 302,polygonal,DFD
 ,polygonal,O
 ,network,O
 ,.,O
-Sentence 303,porosity,DFD
+Sentence 304,porosity,DFD
 ,-,O
 ,the,O
 ,property,GEN
@@ -7661,7 +7684,7 @@ Sentence 303,porosity,DFD
 ,rock,O
 ,or,O
 ,soil,O
-Sentence 304,pseudokarst,DFD
+Sentence 305,pseudokarst,DFD
 ,-,O
 ,terrain,GEN
 ,with,O
@@ -7681,7 +7704,7 @@ Sentence 304,pseudokarst,DFD
 ,karst,O
 ,processes,O
 ,.,O
-Sentence 305,relict,DFD
+Sentence 306,relict,DFD
 ,karst,DFD
 ,-,O
 ,old,O
@@ -7716,7 +7739,7 @@ Sentence 305,relict,DFD
 ,skeletal,O
 ,deposits,O
 ,.,O
-Sentence 306,resurgence,DFD
+Sentence 307,resurgence,DFD
 ,-,O
 ,a,O
 ,spring,GEN
@@ -7739,7 +7762,7 @@ Sentence 306,resurgence,DFD
 ,the,O
 ,surface,O
 ,.,O
-Sentence 307,salt,DFD
+Sentence 308,salt,DFD
 ,weathering,DFD
 ,-,O
 ,detachment,GEN
@@ -7761,7 +7784,7 @@ Sentence 307,salt,DFD
 ,salt,O
 ,solutions,O
 ,.,O
-Sentence 308,sea,DFD
+Sentence 309,sea,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -7780,7 +7803,7 @@ Sentence 308,sea,DFD
 ,or,O
 ,solution,O
 ,.,O
-Sentence 309,shaft,DFD
+Sentence 310,shaft,DFD
 ,-,O
 ,a,O
 ,vertical,O
@@ -7796,14 +7819,14 @@ Sentence 309,shaft,DFD
 ,than,O
 ,broad,O
 ,.,O
-Sentence 310,shawl,DFD
+Sentence 311,shawl,DFD
 ,-,O
 ,a,O
 ,simple,O
 ,triangular-shaped,O
 ,curtain,GEN
 ,.,O
-Sentence 311,show,DFD
+Sentence 312,show,DFD
 ,cave,DFD
 ,-,O
 ,a,O
@@ -7820,7 +7843,7 @@ Sentence 311,show,DFD
 ,guided,O
 ,visits,O
 ,.,O
-Sentence 312,siphon,DFD
+Sentence 313,siphon,DFD
 ,-,O
 ,a,O
 ,water-filled,O
@@ -7849,7 +7872,7 @@ Sentence 312,siphon,DFD
 ,inverted,O
 ,u,O
 ,.,O
-Sentence 313,solution,DFD
+Sentence 314,solution,DFD
 ,-,O
 ,in,O
 ,karst,O
@@ -7872,7 +7895,7 @@ Sentence 313,solution,DFD
 ,with,O
 ,water,O
 ,.,O
-Sentence 314,solution,DFD
+Sentence 315,solution,DFD
 ,flute,DFD
 ,-,O
 ,a,O
@@ -7903,7 +7926,7 @@ Sentence 314,solution,DFD
 ,its,O
 ,neighbours,O
 ,.,O
-Sentence 315,solution,DFD
+Sentence 316,solution,DFD
 ,pan,DFD
 ,-,O
 ,a,O
@@ -7939,7 +7962,7 @@ Sentence 315,solution,DFD
 ,rock,O
 ,fragments,O
 ,.,O
-Sentence 316,solution,DFD
+Sentence 317,solution,DFD
 ,runnel,DFD
 ,-,O
 ,a,O
@@ -7969,7 +7992,7 @@ Sentence 316,solution,DFD
 ,its,O
 ,length,O
 ,.,O
-Sentence 317,speleogen,DFD
+Sentence 318,speleogen,DFD
 ,-,O
 ,a,O
 ,cave,GEN
@@ -7996,7 +8019,7 @@ Sentence 317,speleogen,DFD
 ,rock,O
 ,pendants,O
 ,.,O
-Sentence 318,speleology,DFD
+Sentence 319,speleology,DFD
 ,-,O
 ,the,O
 ,exploration,O
@@ -8011,7 +8034,7 @@ Sentence 318,speleology,DFD
 ,related,O
 ,phenomena,O
 ,.,O
-Sentence 319,speleothem,DFD
+Sentence 320,speleothem,DFD
 ,-,O
 ,a,O
 ,secondary,O
@@ -8025,7 +8048,7 @@ Sentence 319,speleothem,DFD
 ,commonly,O
 ,calcite,O
 ,.,O
-Sentence 320,splash,DFD
+Sentence 321,splash,DFD
 ,cup,DFD
 ,-,O
 ,a,O
@@ -8038,7 +8061,7 @@ Sentence 320,splash,DFD
 ,a,O
 ,stalagmite,O
 ,.,O
-Sentence 321,spongework,DFD
+Sentence 322,spongework,DFD
 ,-,O
 ,a,O
 ,complex,O
@@ -8067,7 +8090,7 @@ Sentence 321,spongework,DFD
 ,metre,O
 ,across,O
 ,.,O
-Sentence 322,spring,DFD
+Sentence 323,spring,DFD
 ,-,O
 ,a,O
 ,natural,O
@@ -8090,7 +8113,7 @@ Sentence 322,spring,DFD
 ,surface,O
 ,water,O
 ,.,O
-Sentence 323,stalactite,DFD
+Sentence 324,stalactite,DFD
 ,-,O
 ,a,GEN
 ,speleothem,GEN
@@ -8115,7 +8138,7 @@ Sentence 323,stalactite,DFD
 ,hollow,O
 ,tube,O
 ,.,O
-Sentence 324,stalagmite,DFD
+Sentence 325,stalagmite,DFD
 ,-,O
 ,a,GEN
 ,speleothem,GEN
@@ -8133,7 +8156,7 @@ Sentence 324,stalagmite,DFD
 ,from,O
 ,drips,O
 ,.,O
-Sentence 325,steephead,DFD
+Sentence 326,steephead,DFD
 ,-,O
 ,a,O
 ,steep-sided,O
@@ -8156,7 +8179,7 @@ Sentence 325,steephead,DFD
 ,did,O
 ,so,O
 ,.,O
-Sentence 326,straw,DFD
+Sentence 327,straw,DFD
 ,-,O
 ,a,O
 ,long,O
@@ -8171,7 +8194,7 @@ Sentence 326,straw,DFD
 ,in,O
 ,diameter,O
 ,.,O
-Sentence 327,subcutaneous,DFD
+Sentence 328,subcutaneous,DFD
 ,zone,DFD
 ,-,O
 ,the,O
@@ -8217,7 +8240,7 @@ Sentence 327,subcutaneous,DFD
 ,on,O
 ,a,O
 ,karst,O
-Sentence 328,subjacent,DFD
+Sentence 329,subjacent,DFD
 ,karst,DFD
 ,-,O
 ,karst,GEN
@@ -8242,7 +8265,7 @@ Sentence 328,subjacent,DFD
 ,karst,O
 ,development,O
 ,.,O
-Sentence 329,sump,DFD
+Sentence 330,sump,DFD
 ,-,O
 ,a,O
 ,point,O
@@ -8257,7 +8280,7 @@ Sentence 329,sump,DFD
 ,the,O
 ,roof,O
 ,.,O
-Sentence 330,swirlhole,DFD
+Sentence 331,swirlhole,DFD
 ,-,O
 ,a,O
 ,hole,O
@@ -8279,7 +8302,7 @@ Sentence 330,swirlhole,DFD
 ,pebble,O
 ,tools,O
 ,.,O
-Sentence 331,syngenetic,DFD
+Sentence 332,syngenetic,DFD
 ,karst,DFD
 ,-,O
 ,karst,GEN
@@ -8307,7 +8330,7 @@ Sentence 331,syngenetic,DFD
 ,dune,O
 ,sand,O
 ,.,O
-Sentence 332,tafoni,DFD
+Sentence 333,tafoni,DFD
 ,-,O
 ,roughly,O
 ,hemispherical,O
@@ -8323,7 +8346,7 @@ Sentence 332,tafoni,DFD
 ,in,O
 ,caves,O
 ,.,O
-Sentence 333,through,DFD
+Sentence 334,through,DFD
 ,cave,DFD
 ,-,O
 ,a,GEN
@@ -8350,7 +8373,7 @@ Sentence 333,through,DFD
 ,a,O
 ,stream,O
 ,.,O
-Sentence 334,tower,DFD
+Sentence 335,tower,DFD
 ,karst,DFD
 ,-,O
 ,conekarst,GEN
@@ -8381,7 +8404,7 @@ Sentence 334,tower,DFD
 ,within,O
 ,them,O
 ,.,O
-Sentence 335,tracer,DFD
+Sentence 336,tracer,DFD
 ,-,O
 ,a,O
 ,material,O
@@ -8405,7 +8428,7 @@ Sentence 335,tracer,DFD
 ,travel,O
 ,time,O
 ,.,O
-Sentence 336,Karst,DFD
+Sentence 337,Karst,DFD
 ,is,O
 ,a,O
 ,landscape,GEN
@@ -8430,7 +8453,7 @@ Sentence 336,Karst,DFD
 ,permafrost,O
 ,areas,O
 ,.,O
-Sentence 337,Karst,DFD
+Sentence 338,Karst,DFD
 ,is,O
 ,a,O
 ,product,GEN
@@ -8458,7 +8481,7 @@ Sentence 337,Karst,DFD
 ,continental,O
 ,land,O
 ,masses,O
-Sentence 338,Karst,DFD
+Sentence 339,Karst,DFD
 ,is,O
 ,terrain,GEN
 ,with,O
@@ -8485,7 +8508,7 @@ Sentence 338,Karst,DFD
 ,underground,O
 ,.,O
 ,rock,O
-Sentence 339,Karst,DFD
+Sentence 340,Karst,DFD
 ,is,O
 ,the,O
 ,term,O
@@ -8520,11 +8543,11 @@ Sentence 339,Karst,DFD
 ,and,O
 ,gypsum,O
 ,.,O
-Sentence 340,ì,O
+Sentence 341,‚Äú,O
 ,Karst,DFD
 ,conduit,DFD
 ,networks,DFD
-,î,O
+,‚Äù,O
 ,are,O
 ,defined,O
 ,as,O
@@ -8564,7 +8587,7 @@ Sentence 340,ì,O
 ,1989,O
 ,),O
 ,.,O
-Sentence 341,Karst,DFD
+Sentence 342,Karst,DFD
 ,depression,DFD
 ,is,O
 ,a,O
@@ -8578,7 +8601,7 @@ Sentence 341,Karst,DFD
 ,and,O
 ,poljes,O
 ,.,O
-Sentence 342,Karst,DFD
+Sentence 343,Karst,DFD
 ,topography,DFD
 ,is,O
 ,a,O
@@ -8592,7 +8615,7 @@ Sentence 342,Karst,DFD
 ,bedrock,O
 ,.,O
 ,bedrock,O
-Sentence 343,In,O
+Sentence 344,In,O
 ,geology,O
 ,",",O
 ,the,O
@@ -8611,7 +8634,7 @@ Sentence 343,In,O
 ,in,O
 ,Kras,O
 ,.,O
-Sentence 344,Short,GEN
+Sentence 345,Short,GEN
 ,steep-sided,GEN
 ,valleys,GEN
 ,caused,O
@@ -8633,11 +8656,11 @@ Sentence 344,Short,GEN
 ,karst,DFD
 ,windows,DFD
 ,.,O
-Sentence 345,The,O
+Sentence 346,The,O
 ,term,O
-,ì,O
+,‚Äú,O
 ,karstosphere,DFD
-,î,O
+,‚Äù,O
 ,was,O
 ,introduced,O
 ,by,O
@@ -8663,7 +8686,7 @@ Sentence 345,The,O
 ,karstifiable,O
 ,rocks,O
 ,.,O
-Sentence 346,A,O
+Sentence 347,A,O
 ,konta,DFD
 ,is,O
 ,a,O
@@ -8683,7 +8706,7 @@ Sentence 346,A,O
 ,Pleistocene,O
 ,glaciation,O
 ,.,O
-Sentence 347,Limestone,DFD
+Sentence 348,Limestone,DFD
 ,is,O
 ,composed,O
 ,of,O
@@ -8701,7 +8724,7 @@ Sentence 347,Limestone,DFD
 ,and,O
 ,calcite,O
 ,.,O
-Sentence 348,A,O
+Sentence 349,A,O
 ,losing,DFD
 ,streamflow,DFD
 ,is,O
@@ -8720,7 +8743,7 @@ Sentence 348,A,O
 ,localized,O
 ,areas,O
 ,.,O
-Sentence 349,A,O
+Sentence 350,A,O
 ,losing,DFD
 ,streamflow,DFD
 ,can,O
@@ -8741,7 +8764,7 @@ Sentence 349,A,O
 ,downstream,O
 ,.,O
 ,water,O
-Sentence 350,Joints,GEN
+Sentence 351,Joints,GEN
 ,that,O
 ,cross,O
 ,many,O
@@ -8779,7 +8802,7 @@ Sentence 350,Joints,GEN
 ,1989,O
 ,),O
 ,.,O
-Sentence 351,travertine,DFD
+Sentence 352,travertine,DFD
 ,-,O
 ,compact,O
 ,calcium,O
@@ -8802,7 +8825,7 @@ Sentence 351,travertine,DFD
 ,.,O
 ,tufa,O
 ,.,O
-Sentence 352,tube,DFD
+Sentence 353,tube,DFD
 ,-,O
 ,a,O
 ,cave,GEN
@@ -8819,7 +8842,7 @@ Sentence 352,tube,DFD
 ,in,O
 ,cross-section,O
 ,.,O
-Sentence 353,tufa,DFD
+Sentence 354,tufa,DFD
 ,-,O
 ,spongy,O
 ,or,O
@@ -8835,7 +8858,7 @@ Sentence 353,tufa,DFD
 ,lake,O
 ,waters,O
 ,.,O
-Sentence 354,twilight,DFD
+Sentence 355,twilight,DFD
 ,zone,DFD
 ,-,O
 ,the,O
@@ -8848,7 +8871,7 @@ Sentence 354,twilight,DFD
 ,daylight,O
 ,penetrates,O
 ,.,O
-Sentence 355,uvala,DFD
+Sentence 356,uvala,DFD
 ,-,O
 ,a,O
 ,complex,O
@@ -8862,7 +8885,7 @@ Sentence 355,uvala,DFD
 ,its,O
 ,rim,O
 ,.,O
-Sentence 356,vadose,DFD
+Sentence 357,vadose,DFD
 ,zone,DFD
 ,-,O
 ,the,O
@@ -8885,7 +8908,7 @@ Sentence 356,vadose,DFD
 ,under,O
 ,gravity,O
 ,.,O
-Sentence 357,vauclusian,DFD
+Sentence 358,vauclusian,DFD
 ,spring,DFD
 ,-,O
 ,a,O
@@ -8906,7 +8929,7 @@ Sentence 357,vauclusian,DFD
 ,surface,O
 ,pool,O
 ,.,O
-Sentence 358,vermiculation,DFD
+Sentence 359,vermiculation,DFD
 ,-,O
 ,pattern,O
 ,of,O
@@ -8922,7 +8945,7 @@ Sentence 358,vermiculation,DFD
 ,cave,O
 ,surfaces,O
 ,.,O
-Sentence 359,water,DFD
+Sentence 360,water,DFD
 ,table,DFD
 ,-,O
 ,the,O
@@ -8950,7 +8973,7 @@ Sentence 359,water,DFD
 ,voids,O
 ,.,O
 ,water,O
-Sentence 360,water,DFD
+Sentence 361,water,DFD
 ,tracing,DFD
 ,-,O
 ,determination,O
@@ -8977,7 +9000,7 @@ Sentence 360,water,DFD
 ,or,O
 ,underground,O
 ,.,O
-Sentence 361,well,DFD
+Sentence 362,well,DFD
 ,-,O
 ,a,O
 ,deep,O
@@ -8994,7 +9017,7 @@ Sentence 361,well,DFD
 ,in,O
 ,karst,O
 ,.,O
-Sentence 362,active,DFD
+Sentence 363,active,DFD
 ,cave,DFD
 ,:,O
 ,Cave,GEN
@@ -9003,7 +9026,7 @@ Sentence 362,active,DFD
 ,running,O
 ,stream,O
 ,.,O
-Sentence 363,active,DFD
+Sentence 364,active,DFD
 ,cave,DFD
 ,:,O
 ,Cave,GEN
@@ -9017,7 +9040,7 @@ Sentence 363,active,DFD
 ,live,O
 ,cave,O
 ,.,O
-Sentence 364,aggressive,DFD
+Sentence 365,aggressive,DFD
 ,water,DFD
 ,:,O
 ,Water,GEN
@@ -9053,7 +9076,7 @@ Sentence 364,aggressive,DFD
 ,other,O
 ,acids,O
 ,.,O
-Sentence 365,anastomosis,DFD
+Sentence 366,anastomosis,DFD
 ,:,O
 ,A,O
 ,network,O
@@ -9087,7 +9110,7 @@ Sentence 365,anastomosis,DFD
 ,",",O
 ,labryrinth,O
 ,.,O
-Sentence 366,anthodite,DFD
+Sentence 367,anthodite,DFD
 ,:,O
 ,A,O
 ,cave,GEN
@@ -9125,7 +9148,7 @@ Sentence 366,anthodite,DFD
 ,radiating,O
 ,long,O
 ,needlelike,O
-Sentence 367,apron,DFD
+Sentence 368,apron,DFD
 ,:,O
 ,A,O
 ,smooth,O
@@ -9144,7 +9167,7 @@ Sentence 367,apron,DFD
 ,limestone,O
 ,cliffs,O
 ,.,O
-Sentence 368,aquifer,DFD
+Sentence 369,aquifer,DFD
 ,:,O
 ,A,O
 ,ground-water,GEN
@@ -9166,7 +9189,7 @@ Sentence 368,aquifer,DFD
 ,or,O
 ,spring,O
 ,.,O
-Sentence 369,aragonite,DFD
+Sentence 370,aragonite,DFD
 ,:,O
 ,A,O
 ,mineral,GEN
@@ -9185,7 +9208,7 @@ Sentence 369,aragonite,DFD
 ,crystal,O
 ,form,O
 ,.,O
-Sentence 370,arete,O
+Sentence 371,arete,O
 ,and,O
 ,pinnacle,DFD
 ,karst,DFD
@@ -9233,7 +9256,7 @@ Sentence 370,arete,O
 ,and,O
 ,more,O
 ,.,O
-Sentence 371,arete,DFD
+Sentence 372,arete,DFD
 ,and,O
 ,pinnacle,O
 ,karst,O
@@ -9281,7 +9304,7 @@ Sentence 371,arete,DFD
 ,and,O
 ,more,O
 ,.,O
-Sentence 372,backflooding,DFD
+Sentence 373,backflooding,DFD
 ,:,O
 ,Temporarily,O
 ,rising,GEN
@@ -9334,7 +9357,7 @@ Sentence 372,backflooding,DFD
 ,calcite,O
 ,precipitation,O
 ,.,O
-Sentence 373,bacon,DFD
+Sentence 374,bacon,DFD
 ,:,O
 ,Thin,O
 ,",",O
@@ -9365,7 +9388,7 @@ Sentence 373,bacon,DFD
 ,;,O
 ,drapery,O
 ,.,O
-Sentence 374,balcony,DFD
+Sentence 375,balcony,DFD
 ,:,O
 ,Any,O
 ,projection,GEN
@@ -9384,7 +9407,7 @@ Sentence 374,balcony,DFD
 ,more,O
 ,persons,O
 ,.,O
-Sentence 375,beachrock,DFD
+Sentence 376,beachrock,DFD
 ,:,O
 ,A,O
 ,friable,O
@@ -9413,7 +9436,7 @@ Sentence 375,beachrock,DFD
 ,less,O
 ,than,O
 ,15,O
-,∞,O
+,¬∞,O
 ,.,O
 ,Also,O
 ,known,O
@@ -9421,7 +9444,7 @@ Sentence 375,beachrock,DFD
 ,beach,O
 ,standstone,O
 ,.,O
-Sentence 376,bedding-plane,DFD
+Sentence 377,bedding-plane,DFD
 ,cave,DFD
 ,:,O
 ,A,O
@@ -9447,7 +9470,7 @@ Sentence 376,bedding-plane,DFD
 ,two,O
 ,beds,O
 ,.,O
-Sentence 377,blade,DFD
+Sentence 378,blade,DFD
 ,:,O
 ,In,O
 ,a,O
@@ -9484,7 +9507,7 @@ Sentence 377,blade,DFD
 ,or,O
 ,bridge,O
 ,.,O
-Sentence 378,blanket,DFD
+Sentence 379,blanket,DFD
 ,:,O
 ,A,O
 ,thick,O
@@ -9503,7 +9526,7 @@ Sentence 378,blanket,DFD
 ,;,O
 ,drapery,O
 ,.,O
-Sentence 379,blind,DFD
+Sentence 380,blind,DFD
 ,valley,DFD
 ,:,O
 ,A,O
@@ -9536,7 +9559,7 @@ Sentence 379,blind,DFD
 ,marginal,O
 ,polje,O
 ,.,O
-Sentence 380,blowhole,DFD
+Sentence 381,blowhole,DFD
 ,:,O
 ,A,O
 ,hole,GEN
@@ -9556,7 +9579,7 @@ Sentence 380,blowhole,DFD
 ,incoming,O
 ,waves,O
 ,.,O
-Sentence 381,blowhole,DFD
+Sentence 382,blowhole,DFD
 ,:,O
 ,A,O
 ,small,O
@@ -9601,7 +9624,7 @@ Sentence 381,blowhole,DFD
 ,flows,O
 ,intermittently,O
 ,.,O
-Sentence 382,blue,DFD
+Sentence 383,blue,DFD
 ,hole,DFD
 ,:,O
 ,A,O
@@ -9621,7 +9644,7 @@ Sentence 382,blue,DFD
 ,boiling,O
 ,spring,O
 ,.,O
-Sentence 383,blue,DFD
+Sentence 384,blue,DFD
 ,hole,DFD
 ,:,O
 ,A,O
@@ -9629,7 +9652,7 @@ Sentence 383,blue,DFD
 ,solution,O
 ,sinkhole,GEN
 ,.,O
-Sentence 384,bogaz,DFD
+Sentence 385,bogaz,DFD
 ,:,O
 ,A,O
 ,long,O
@@ -9650,7 +9673,7 @@ Sentence 384,bogaz,DFD
 ,;,O
 ,kanjon,O
 ,.,O
-Sentence 385,boiling,DFD
+Sentence 386,boiling,DFD
 ,spring,DFD
 ,:,O
 ,A,O
@@ -9663,7 +9686,7 @@ Sentence 385,boiling,DFD
 ,blue,O
 ,hole,O
 ,.,O
-Sentence 386,bone-breccia,DFD
+Sentence 387,bone-breccia,DFD
 ,:,O
 ,Cave,GEN
 ,breccia,GEN
@@ -9672,7 +9695,7 @@ Sentence 386,bone-breccia,DFD
 ,bone,O
 ,.,O
 ,breccia,O
-Sentence 387,botryoid,O
+Sentence 388,botryoid,O
 ,:,O
 ,A,O
 ,grapelike,O
@@ -9694,7 +9717,7 @@ Sentence 387,botryoid,O
 ,grape,DFD
 ,formation,DFD
 ,.,O
-Sentence 388,botryoid,DFD
+Sentence 389,botryoid,DFD
 ,:,O
 ,A,O
 ,grapelike,O
@@ -9716,7 +9739,7 @@ Sentence 388,botryoid,DFD
 ,grape,O
 ,formation,O
 ,.,O
-Sentence 389,botryoid,O
+Sentence 390,botryoid,O
 ,:,O
 ,A,O
 ,grapelike,O
@@ -9738,7 +9761,7 @@ Sentence 389,botryoid,O
 ,grape,O
 ,formation,O
 ,.,O
-Sentence 390,bourne,DFD
+Sentence 391,bourne,DFD
 ,:,O
 ,Intermittent,O
 ,stream,GEN
@@ -9751,7 +9774,7 @@ Sentence 390,bourne,DFD
 ,chalk,O
 ,country,O
 ,.,O
-Sentence 391,boxwork,DFD
+Sentence 392,boxwork,DFD
 ,:,O
 ,Network,O
 ,of,O
@@ -9775,7 +9798,7 @@ Sentence 391,boxwork,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 392,bridge,DFD
+Sentence 393,bridge,DFD
 ,:,O
 ,In,O
 ,a,O
@@ -9793,7 +9816,7 @@ Sentence 392,bridge,DFD
 ,also,O
 ,natural,O
 ,bridge,O
-Sentence 393,buried,DFD
+Sentence 394,buried,DFD
 ,karst,DFD
 ,:,O
 ,Karst,GEN
@@ -9810,7 +9833,7 @@ Sentence 393,buried,DFD
 ,;,O
 ,paleokarst,O
 ,.,O
-Sentence 394,calcarenite,DFD
+Sentence 395,calcarenite,DFD
 ,:,O
 ,Limestone,GEN
 ,or,GEN
@@ -9846,7 +9869,7 @@ Sentence 394,calcarenite,DFD
 ,2,O
 ,millimeters,O
 ,.,O
-Sentence 395,calcilutite,O
+Sentence 396,calcilutite,O
 ,:,O
 ,Clastic,O
 ,limestone,GEN
@@ -9871,7 +9894,7 @@ Sentence 395,calcilutite,O
 ,calcareous,DFD
 ,mudstone,DFD
 ,.,O
-Sentence 396,calcilutite,DFD
+Sentence 397,calcilutite,DFD
 ,:,O
 ,Clastic,O
 ,limestone,GEN
@@ -9896,7 +9919,7 @@ Sentence 396,calcilutite,DFD
 ,calcareous,O
 ,mudstone,O
 ,.,O
-Sentence 397,calcirudite,DFD
+Sentence 398,calcirudite,DFD
 ,:,O
 ,A,O
 ,fragmental,O
@@ -9912,7 +9935,7 @@ Sentence 397,calcirudite,DFD
 ,2,O
 ,millimeters,O
 ,.,O
-Sentence 398,calcite,DFD
+Sentence 399,calcite,DFD
 ,:,O
 ,A,O
 ,mineral,GEN
@@ -9937,7 +9960,7 @@ Sentence 398,calcite,DFD
 ,of,O
 ,limestone,O
 ,.,O
-Sentence 399,calcite,DFD
+Sentence 400,calcite,DFD
 ,bubble,DFD
 ,:,O
 ,A,O
@@ -9968,7 +9991,7 @@ Sentence 399,calcite,DFD
 ,jagged,O
 ,crystals,O
 ,.,O
-Sentence 400,canopy,DFD
+Sentence 401,canopy,DFD
 ,:,O
 ,A,O
 ,compound,O
@@ -9996,7 +10019,7 @@ Sentence 400,canopy,DFD
 ,outer,O
 ,edge,O
 ,.,O
-Sentence 401,canyon,DFD
+Sentence 402,canyon,DFD
 ,:,O
 ,A,O
 ,steep-walled,O
@@ -10011,7 +10034,7 @@ Sentence 401,canyon,DFD
 ,running,O
 ,water,O
 ,.,O
-Sentence 402,canyon,DFD
+Sentence 403,canyon,DFD
 ,:,O
 ,A,O
 ,valley,GEN
@@ -10032,7 +10055,7 @@ Sentence 402,canyon,DFD
 ,karst,O
 ,valley,O
 ,.,O
-Sentence 403,capillary,DFD
+Sentence 404,capillary,DFD
 ,stalagmite,DFD
 ,:,O
 ,Hollow,O
@@ -10078,7 +10101,7 @@ Sentence 403,capillary,DFD
 ,of,O
 ,aragonite,O
 ,.,O
-Sentence 404,carbonate,DFD
+Sentence 405,carbonate,DFD
 ,:,O
 ,A,O
 ,rock,GEN
@@ -10094,7 +10117,7 @@ Sentence 404,carbonate,DFD
 ,or,O
 ,dolomite,O
 ,.,O
-Sentence 405,cave,DFD
+Sentence 406,cave,DFD
 ,:,O
 ,A,O
 ,natural,O
@@ -10122,7 +10145,7 @@ Sentence 405,cave,DFD
 ,of,O
 ,limestone,O
 ,.,O
-Sentence 406,cave,DFD
+Sentence 407,cave,DFD
 ,breakdown,DFD
 ,:,O
 ,Enlargement,GEN
@@ -10142,7 +10165,7 @@ Sentence 406,cave,DFD
 ,and,O
 ,ceiling,O
 ,.,O
-Sentence 407,cave,DFD
+Sentence 408,cave,DFD
 ,breakdown,DFD
 ,:,O
 ,Heaps,GEN
@@ -10165,7 +10188,7 @@ Sentence 407,cave,DFD
 ,cave,O
 ,breccia,O
 ,.,O
-Sentence 408,cave,DFD
+Sentence 409,cave,DFD
 ,breccia,DFD
 ,:,O
 ,Angular,O
@@ -10200,7 +10223,7 @@ Sentence 408,cave,DFD
 ,in,O
 ,a,O
 ,cave,O
-Sentence 409,cave,DFD
+Sentence 410,cave,DFD
 ,coral,DFD
 ,:,O
 ,A,O
@@ -10240,7 +10263,7 @@ Sentence 409,cave,DFD
 ,knobstone,O
 ,.,O
 ,calcite,O
-Sentence 410,cave,O
+Sentence 411,cave,O
 ,coral,DFD
 ,:,O
 ,A,O
@@ -10280,7 +10303,7 @@ Sentence 410,cave,O
 ,knobstone,O
 ,.,O
 ,calcite,O
-Sentence 411,cave,DFD
+Sentence 412,cave,DFD
 ,earth,DFD
 ,",",O
 ,cave,O
@@ -10327,7 +10350,7 @@ Sentence 411,cave,DFD
 ,sand,O
 ,deposits,O
 ,.,O
-Sentence 412,cave,DFD
+Sentence 413,cave,DFD
 ,earth,O
 ,",",O
 ,cave,O
@@ -10374,7 +10397,7 @@ Sentence 412,cave,DFD
 ,sand,O
 ,deposits,O
 ,.,O
-Sentence 413,cave,O
+Sentence 414,cave,O
 ,flower,O
 ,:,O
 ,An,O
@@ -10407,7 +10430,7 @@ Sentence 413,cave,O
 ,-,DFD
 ,pholite,DFD
 ,.,O
-Sentence 414,cave,DFD
+Sentence 415,cave,DFD
 ,flower,DFD
 ,:,O
 ,An,O
@@ -10440,7 +10463,7 @@ Sentence 414,cave,DFD
 ,-,O
 ,pholite,O
 ,.,O
-Sentence 415,cave,O
+Sentence 416,cave,O
 ,flower,DFD
 ,:,O
 ,An,O
@@ -10473,7 +10496,7 @@ Sentence 415,cave,O
 ,-,O
 ,pholite,O
 ,.,O
-Sentence 416,cave,DFD
+Sentence 417,cave,DFD
 ,formation,DFD
 ,:,O
 ,Secondary,O
@@ -10498,7 +10521,7 @@ Sentence 416,cave,DFD
 ,also,O
 ,speleothem,O
 ,.,O
-Sentence 417,cave,DFD
+Sentence 418,cave,DFD
 ,group,DFD
 ,:,O
 ,A,O
@@ -10528,7 +10551,7 @@ Sentence 417,cave,DFD
 ,cave,O
 ,series,O
 ,.,O
-Sentence 418,cave,DFD
+Sentence 419,cave,DFD
 ,guano,DFD
 ,:,O
 ,Accumulations,O
@@ -10549,7 +10572,7 @@ Sentence 418,cave,DFD
 ,.,O
 ,in,O
 ,caves,O
-Sentence 419,cave,DFD
+Sentence 420,cave,DFD
 ,ice,DFD
 ,:,O
 ,Ice,GEN
@@ -10577,7 +10600,7 @@ Sentence 419,cave,DFD
 ,in,O
 ,a,O
 ,cave,O
-Sentence 420,cave-in,DFD
+Sentence 421,cave-in,DFD
 ,:,O
 ,The,O
 ,collapse,O
@@ -10610,7 +10633,7 @@ Sentence 420,cave-in,DFD
 ,from,O
 ,above,O
 ,.,O
-Sentence 421,cave,DFD
+Sentence 422,cave,DFD
 ,marble,DFD
 ,:,O
 ,Banded,O
@@ -10633,7 +10656,7 @@ Sentence 421,cave,DFD
 ,onyx,O
 ,marble,O
 ,.,O
-Sentence 422,cave,DFD
+Sentence 423,cave,DFD
 ,pearl,DFD
 ,:,O
 ,Small,O
@@ -10656,7 +10679,7 @@ Sentence 422,cave,DFD
 ,",",O
 ,pisolith,O
 ,.,O
-Sentence 423,cave,O
+Sentence 424,cave,O
 ,pearl,O
 ,:,O
 ,Small,O
@@ -10679,7 +10702,7 @@ Sentence 423,cave,O
 ,",",O
 ,pisolith,DFD
 ,.,O
-Sentence 424,cave,DFD
+Sentence 425,cave,DFD
 ,series,DFD
 ,:,O
 ,A,O
@@ -10699,7 +10722,7 @@ Sentence 424,cave,DFD
 ,cave,O
 ,group,O
 ,.,O
-Sentence 425,cave,DFD
+Sentence 426,cave,DFD
 ,spring,DFD
 ,:,O
 ,A,O
@@ -10712,7 +10735,7 @@ Sentence 425,cave,DFD
 ,cave,O
 ,system,O
 ,.,O
-Sentence 426,cave,DFD
+Sentence 427,cave,DFD
 ,spring,DFD
 ,:,O
 ,An,O
@@ -10727,7 +10750,7 @@ Sentence 426,cave,DFD
 ,other,O
 ,cavities,O
 ,.,O
-Sentence 427,cavern,DFD
+Sentence 428,cavern,DFD
 ,:,O
 ,A,O
 ,cave,GEN
@@ -10741,7 +10764,7 @@ Sentence 427,cavern,DFD
 ,larger-than-average,O
 ,size,O
 ,.,O
-Sentence 428,ceiling,DFD
+Sentence 429,ceiling,DFD
 ,block,DFD
 ,:,O
 ,Roughly,O
@@ -10770,7 +10793,7 @@ Sentence 428,ceiling,DFD
 ,ceiling,O
 ,slab,O
 ,.,O
-Sentence 429,ceiling,DFD
+Sentence 430,ceiling,DFD
 ,cavity,DFD
 ,:,O
 ,Solutional,O
@@ -10793,7 +10816,7 @@ Sentence 429,ceiling,DFD
 ,bedding,O
 ,plane,O
 ,.,O
-Sentence 430,ceiling,DFD
+Sentence 431,ceiling,DFD
 ,meander,DFD
 ,:,O
 ,A,O
@@ -10805,7 +10828,7 @@ Sentence 430,ceiling,DFD
 ,cave,O
 ,ceiling,O
 ,.,O
-Sentence 431,ceiling,DFD
+Sentence 432,ceiling,DFD
 ,slab,DFD
 ,",",O
 ,roof,O
@@ -10840,7 +10863,7 @@ Sentence 431,ceiling,DFD
 ,ceiling,O
 ,block,O
 ,.,O
-Sentence 432,ceiling,O
+Sentence 433,ceiling,O
 ,slab,DFD
 ,",",O
 ,roof,DFD
@@ -10875,7 +10898,7 @@ Sentence 432,ceiling,O
 ,ceiling,O
 ,block,O
 ,.,O
-Sentence 433,ceiling,DFD
+Sentence 434,ceiling,DFD
 ,tube,DFD
 ,:,O
 ,A,O
@@ -10889,7 +10912,7 @@ Sentence 433,ceiling,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 434,cenote,DFD
+Sentence 435,cenote,DFD
 ,:,O
 ,Steep-walled,O
 ,natural,O
@@ -10924,7 +10947,7 @@ Sentence 434,cenote,DFD
 ,natural,O
 ,well,O
 ,.,O
-Sentence 435,chalk,DFD
+Sentence 436,chalk,DFD
 ,:,O
 ,Soft,O
 ,poorly,O
@@ -10953,7 +10976,7 @@ Sentence 435,chalk,DFD
 ,crystalline,O
 ,calcite,O
 ,.,O
-Sentence 436,chamber,DFD
+Sentence 437,chamber,DFD
 ,:,O
 ,The,O
 ,largest,O
@@ -10979,7 +11002,7 @@ Sentence 436,chamber,DFD
 ,great,O
 ,height,O
 ,.,O
-Sentence 437,chasm,DFD
+Sentence 438,chasm,DFD
 ,:,O
 ,A,O
 ,deep,O
@@ -11002,7 +11025,7 @@ Sentence 437,chasm,DFD
 ,deep,O
 ,canyon,O
 ,.,O
-Sentence 438,chimney,DFD
+Sentence 439,chimney,DFD
 ,:,O
 ,A,O
 ,narrow,O
@@ -11025,7 +11048,7 @@ Sentence 438,chimney,DFD
 ,dome,O
 ,pit,O
 ,.,O
-Sentence 439,chockstone,DFD
+Sentence 440,chockstone,DFD
 ,:,O
 ,A,O
 ,rock,GEN
@@ -11038,7 +11061,7 @@ Sentence 439,chockstone,DFD
 ,cave,O
 ,passage,O
 ,.,O
-Sentence 440,choke,DFD
+Sentence 441,choke,DFD
 ,:,O
 ,Rock,O
 ,debris,GEN
@@ -11050,7 +11073,7 @@ Sentence 440,choke,DFD
 ,a,O
 ,passage,O
 ,.,O
-Sentence 441,chute,DFD
+Sentence 442,chute,DFD
 ,:,O
 ,An,O
 ,inclined,O
@@ -11061,7 +11084,7 @@ Sentence 441,chute,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 442,clay,DFD
+Sentence 443,clay,DFD
 ,fill,DFD
 ,:,O
 ,Dry,O
@@ -11074,7 +11097,7 @@ Sentence 442,clay,DFD
 ,cave,O
 ,passage,O
 ,.,O
-Sentence 443,clay,DFD
+Sentence 444,clay,DFD
 ,filling,DFD
 ,:,O
 ,According,O
@@ -11098,7 +11121,7 @@ Sentence 443,clay,DFD
 ,of,O
 ,flowstone,O
 ,.,O
-Sentence 444,clint,DFD
+Sentence 445,clint,DFD
 ,:,O
 ,Slabs,GEN
 ,of,O
@@ -11127,7 +11150,7 @@ Sentence 444,clint,DFD
 ,",",O
 ,Flachkarren,O
 ,.,O
-Sentence 445,clint,O
+Sentence 446,clint,O
 ,:,O
 ,Slabs,GEN
 ,of,O
@@ -11156,7 +11179,7 @@ Sentence 445,clint,O
 ,",",O
 ,Flachkarren,DFD
 ,.,O
-Sentence 446,closed,DFD
+Sentence 447,closed,DFD
 ,depression,DFD
 ,:,O
 ,A,O
@@ -11179,7 +11202,7 @@ Sentence 446,closed,DFD
 ,size,O
 ,.,O
 ,enclosed,O
-Sentence 447,cockpit,DFD
+Sentence 448,cockpit,DFD
 ,:,O
 ,A,O
 ,star-shaped,O
@@ -11213,7 +11236,7 @@ Sentence 447,cockpit,DFD
 ,a,O
 ,Kegelkarst,O
 ,.,O
-Sentence 448,cockpit,DFD
+Sentence 449,cockpit,DFD
 ,karst,DFD
 ,:,O
 ,Tropical,O
@@ -11259,7 +11282,7 @@ Sentence 448,cockpit,DFD
 ,tower,O
 ,karst,O
 ,.,O
-Sentence 449,collapse,DFD
+Sentence 450,collapse,DFD
 ,breccia,DFD
 ,:,O
 ,A,O
@@ -11308,7 +11331,7 @@ Sentence 449,collapse,DFD
 ,solution,O
 ,breccia,O
 ,.,O
-Sentence 450,collapse,DFD
+Sentence 451,collapse,DFD
 ,sink,DFD
 ,:,O
 ,A,O
@@ -11329,7 +11352,7 @@ Sentence 450,collapse,DFD
 ,also,O
 ,doline,O
 ,.,O
-Sentence 451,conduit,DFD
+Sentence 452,conduit,DFD
 ,:,O
 ,A,O
 ,subterranean,O
@@ -11349,7 +11372,7 @@ Sentence 451,conduit,DFD
 ,also,O
 ,siphon,O
 ,.,O
-Sentence 452,cone,DFD
+Sentence 453,cone,DFD
 ,karst,DFD
 ,:,O
 ,A,O
@@ -11386,7 +11409,7 @@ Sentence 452,cone,DFD
 ,cockpit,O
 ,karst,O
 ,.,O
-Sentence 453,constructive,DFD
+Sentence 454,constructive,DFD
 ,waterfall,DFD
 ,:,O
 ,A,O
@@ -11399,7 +11422,7 @@ Sentence 453,constructive,DFD
 ,stream,O
 ,.,O
 ,dam,O
-Sentence 454,conulite,DFD
+Sentence 455,conulite,DFD
 ,:,O
 ,A,O
 ,hollow,O
@@ -11436,7 +11459,7 @@ Sentence 454,conulite,DFD
 ,depression,O
 ,.,O
 ,calcite,O
-Sentence 455,corridor,DFD
+Sentence 456,corridor,DFD
 ,:,O
 ,A,O
 ,fairly,O
@@ -11459,7 +11482,7 @@ Sentence 455,corridor,DFD
 ,in,O
 ,a,O
 ,cave,O
-Sentence 456,corridor,DFD
+Sentence 457,corridor,DFD
 ,:,O
 ,Intersecting,O
 ,linear,O
@@ -11485,7 +11508,7 @@ Sentence 456,corridor,DFD
 ,;,O
 ,zanjon,O
 ,.,O
-Sentence 457,corrosion,DFD
+Sentence 458,corrosion,DFD
 ,:,O
 ,Erosion,GEN
 ,by,O
@@ -11498,7 +11521,7 @@ Sentence 457,corrosion,DFD
 ,also,O
 ,corrasion,O
 ,.,O
-Sentence 458,corrosion,O
+Sentence 459,corrosion,O
 ,:,O
 ,Erosion,GEN
 ,by,O
@@ -11511,7 +11534,7 @@ Sentence 458,corrosion,O
 ,also,O
 ,corrasion,DFD
 ,.,O
-Sentence 459,cove,DFD
+Sentence 460,cove,DFD
 ,:,O
 ,Narrow,O
 ,steep-sided,O
@@ -11523,7 +11546,7 @@ Sentence 459,cove,DFD
 ,.,O
 ,limestone,O
 ,plateaus,O
-Sentence 460,covered,DFD
+Sentence 461,covered,DFD
 ,karst,DFD
 ,:,DFD
 ,A,O
@@ -11563,7 +11586,7 @@ Sentence 460,covered,DFD
 ,buried,O
 ,karst,O
 ,.,O
-Sentence 461,crawl,DFD
+Sentence 462,crawl,DFD
 ,",",O
 ,crawlway,O
 ,:,O
@@ -11587,7 +11610,7 @@ Sentence 461,crawl,DFD
 ,meander,O
 ,niche,O
 ,.,O
-Sentence 462,crawl,O
+Sentence 463,crawl,O
 ,",",O
 ,crawlway,DFD
 ,:,O
@@ -11611,7 +11634,7 @@ Sentence 462,crawl,O
 ,meander,O
 ,niche,O
 ,.,O
-Sentence 463,crevice,DFD
+Sentence 464,crevice,DFD
 ,karst,DFD
 ,:,O
 ,An,O
@@ -11654,7 +11677,7 @@ Sentence 463,crevice,DFD
 ,New,O
 ,Guinea,O
 ,.,O
-Sentence 464,crust,DFD
+Sentence 465,crust,DFD
 ,stone,DFD
 ,:,O
 ,A,O
@@ -11681,7 +11704,7 @@ Sentence 464,crust,DFD
 ,Kentucky,O
 ,caves,O
 ,.,O
-Sentence 465,crystal,DFD
+Sentence 466,crystal,DFD
 ,cave,DFD
 ,:,O
 ,A,O
@@ -11707,7 +11730,7 @@ Sentence 465,crystal,DFD
 ,mineral,O
 ,crystals,O
 ,.,O
-Sentence 466,crystal,DFD
+Sentence 467,crystal,DFD
 ,pool,DFD
 ,:,O
 ,In,O
@@ -11725,7 +11748,7 @@ Sentence 466,crystal,DFD
 ,containing,O
 ,crystals,O
 ,.,O
-Sentence 467,cul-de-sac,O
+Sentence 468,cul-de-sac,O
 ,",",O
 ,dead,DFD
 ,end,DFD
@@ -11738,7 +11761,7 @@ Sentence 467,cul-de-sac,O
 ,one,O
 ,entry,O
 ,.,O
-Sentence 468,cul-de-sac,DFD
+Sentence 469,cul-de-sac,DFD
 ,",",O
 ,dead,O
 ,end,O
@@ -11751,7 +11774,7 @@ Sentence 468,cul-de-sac,DFD
 ,one,O
 ,entry,O
 ,.,O
-Sentence 469,cupola,O
+Sentence 470,cupola,O
 ,:,O
 ,A,O
 ,hemispheric,O
@@ -11763,7 +11786,7 @@ Sentence 469,cupola,O
 ,.,O
 ,Halb-kugel,DFD
 ,.,O
-Sentence 470,cupola,DFD
+Sentence 471,cupola,DFD
 ,:,O
 ,A,O
 ,hemispheric,O
@@ -11775,7 +11798,7 @@ Sentence 470,cupola,DFD
 ,.,O
 ,Halb-kugel,O
 ,.,O
-Sentence 471,current,DFD
+Sentence 472,current,DFD
 ,marking,DFD
 ,:,O
 ,Shallow,O
@@ -11802,7 +11825,7 @@ Sentence 471,current,DFD
 ,also,O
 ,scallop,O
 ,.,O
-Sentence 472,current,O
+Sentence 473,current,O
 ,marking,O
 ,:,O
 ,Shallow,O
@@ -11829,7 +11852,7 @@ Sentence 472,current,O
 ,also,O
 ,scallop,DFD
 ,.,O
-Sentence 473,curtain,DFD
+Sentence 474,curtain,DFD
 ,:,O
 ,A,O
 ,wavy,O
@@ -11862,9 +11885,44 @@ Sentence 473,curtain,DFD
 ,;,O
 ,blanket,DFD
 ,;,O
+,drapery,O
+,.,O
+Sentence 475,curtain,O
+,:,O
+,A,O
+,wavy,O
+,or,O
+,folded,O
+,sheet,O
+,of,O
+,flowstone,O
+,hanging,O
+,from,O
+,the,O
+,roof,O
+,or,O
+,projecting,O
+,from,O
+,the,O
+,wall,O
+,of,O
+,a,O
+,cave,O
+,;,O
+,often,O
+,translucent,O
+,and,O
+,resonant,O
+,.,O
+,See,O
+,also,O
+,bacon,O
+,;,O
+,blanket,O
+,;,O
 ,drapery,DFD
 ,.,O
-Sentence 474,cutter,DFD
+Sentence 476,cutter,DFD
 ,:,O
 ,Solution,O
 ,crevice,O
@@ -11875,7 +11933,7 @@ Sentence 474,cutter,DFD
 ,phosphate,O
 ,deposits,O
 ,.,O
-Sentence 475,cutter,O
+Sentence 477,cutter,O
 ,:,O
 ,A,O
 ,Karren-like,O
@@ -11897,7 +11955,7 @@ Sentence 475,cutter,O
 ,also,O
 ,Karren,O
 ,.,O
-Sentence 476,cutter,DFD
+Sentence 478,cutter,DFD
 ,:,O
 ,A,O
 ,Karren-like,O
@@ -11919,7 +11977,7 @@ Sentence 476,cutter,DFD
 ,also,O
 ,Karren,O
 ,.,O
-Sentence 477,cutter,O
+Sentence 479,cutter,O
 ,:,O
 ,A,O
 ,Karren-like,O
@@ -11941,7 +11999,7 @@ Sentence 477,cutter,O
 ,also,O
 ,Karren,O
 ,.,O
-Sentence 478,dead,DFD
+Sentence 480,dead,DFD
 ,cave,DFD
 ,:,O
 ,A,O
@@ -11956,7 +12014,7 @@ Sentence 478,dead,DFD
 ,has,O
 ,cersed,O
 ,.,O
-Sentence 479,doline,DFD
+Sentence 481,doline,DFD
 ,:,O
 ,A,O
 ,basin,O
@@ -12048,7 +12106,7 @@ Sentence 479,doline,DFD
 ,individual,O
 ,examples,O
 ,.,O
-Sentence 480,doline,DFD
+Sentence 482,doline,DFD
 ,lake,DFD
 ,:,O
 ,A,O
@@ -12059,7 +12117,7 @@ Sentence 480,doline,DFD
 ,a,O
 ,doline,O
 ,.,O
-Sentence 481,dolomite,DFD
+Sentence 483,dolomite,DFD
 ,:,O
 ,A,O
 ,mineral,GEN
@@ -12069,21 +12127,7 @@ Sentence 481,dolomite,DFD
 ,magnesium,O
 ,carbonate,O
 ,.,O
-Sentence 482,dolomite,DFD
-,:,O
-,Rock,GEN
-,chiefly,O
-,composed,O
-,of,O
-,the,O
-,mineral,O
-,dolomite,O
-,.,O
-,Also,O
-,called,O
-,dolostone,O
-,.,O
-Sentence 483,dolomite,O
+Sentence 484,dolomite,DFD
 ,:,O
 ,Rock,GEN
 ,chiefly,O
@@ -12097,7 +12141,7 @@ Sentence 483,dolomite,O
 ,called,O
 ,dolostone,DFD
 ,.,O
-Sentence 484,dolomitization,DFD
+Sentence 485,dolomitization,DFD
 ,:,O
 ,The,O
 ,process,GEN
@@ -12119,7 +12163,7 @@ Sentence 484,dolomitization,DFD
 ,calcium,O
 ,carbonate,O
 ,.,O
-Sentence 485,drapery,DFD
+Sentence 486,drapery,O
 ,:,O
 ,A,O
 ,thin,O
@@ -12133,11 +12177,11 @@ Sentence 485,drapery,DFD
 ,.,O
 ,See,O
 ,also,O
-,bacon,O
+,bacon,DFD
 ,;,O
-,blanket,O
+,blanket,DFD
 ,.,O
-Sentence 486,drapery,O
+Sentence 487,drapery,DFD
 ,:,O
 ,A,O
 ,thin,O
@@ -12151,11 +12195,11 @@ Sentence 486,drapery,O
 ,.,O
 ,See,O
 ,also,O
-,bacon,DFD
+,bacon,O
 ,;,O
-,blanket,DFD
+,blanket,O
 ,.,O
-Sentence 487,driphole,DFD
+Sentence 488,driphole,DFD
 ,:,O
 ,Hole,GEN
 ,in,O
@@ -12167,7 +12211,7 @@ Sentence 487,driphole,DFD
 ,fast-dripping,O
 ,water,O
 ,.,O
-Sentence 488,driphole,DFD
+Sentence 489,driphole,DFD
 ,:,O
 ,Hollow,GEN
 ,space,GEN
@@ -12185,65 +12229,7 @@ Sentence 488,driphole,DFD
 ,stalactite,O
 ,.,O
 ,space,O
-Sentence 489,dripstone,DFD
-,:,O
-,Calcium,GEN
-,carbonate,GEN
-,deposited,O
-,from,O
-,water,O
-,dripping,O
-,from,O
-,the,O
-,ceiling,O
-,or,O
-,wall,O
-,of,O
-,a,O
-,cave,O
-,or,O
-,from,O
-,the,O
-,overhanging,O
-,edge,O
-,of,O
-,a,O
-,rock,O
-,shelter,O
-,;,O
-,commonly,O
-,refers,O
-,to,O
-,the,O
-,rock,O
-,in,O
-,stalactites,O
-,",",O
-,stalagmites,O
-,",",O
-,and,O
-,other,O
-,similar,O
-,speleothems,O
-,;,O
-,in,O
-,some,O
-,places,O
-,composed,O
-,of,O
-,aragonite,O
-,or,O
-,gypsum,O
-,.,O
-,See,O
-,also,O
-,flowstone,O
-,.,O
-,Calcium,O
-,carbonate,O
-,rock,O
-,shelter,O
-Sentence 490,dripstone,O
+Sentence 490,dripstone,DFD
 ,:,O
 ,Calcium,GEN
 ,carbonate,GEN
@@ -12513,9 +12499,36 @@ Sentence 499,flattener,DFD
 ,.,O
 ,See,O
 ,also,O
+,crawl,O
+,.,O
+Sentence 500,flattener,O
+,:,O
+,A,O
+,cave,GEN
+,passage,GEN
+,",",O
+,which,O
+,though,O
+,wide,O
+,",",O
+,is,O
+,so,O
+,low,O
+,that,O
+,movement,O
+,is,O
+,only,O
+,possible,O
+,in,O
+,a,O
+,prone,O
+,position,O
+,.,O
+,See,O
+,also,O
 ,crawl,DFD
 ,.,O
-Sentence 500,floe,DFD
+Sentence 501,floe,DFD
 ,calcite,DFD
 ,:,O
 ,Very,O
@@ -12540,7 +12553,7 @@ Sentence 500,floe,DFD
 ,.,O
 ,thin,O
 ,film,O
-Sentence 501,flowstone,DFD
+Sentence 502,flowstone,DFD
 ,:,O
 ,Deposits,GEN
 ,of,O
@@ -12578,7 +12591,7 @@ Sentence 501,flowstone,DFD
 ,also,O
 ,dripstone,O
 ,.,O
-Sentence 502,fluviokarst,DFD
+Sentence 503,fluviokarst,DFD
 ,:,O
 ,A,O
 ,predominantly,O
@@ -12597,7 +12610,7 @@ Sentence 502,fluviokarst,DFD
 ,fluvial,O
 ,activity,O
 ,.,O
-Sentence 503,foiba,DFD
+Sentence 504,foiba,DFD
 ,:,O
 ,A,O
 ,deep,O
@@ -12619,7 +12632,7 @@ Sentence 503,foiba,DFD
 ,underground,O
 ,course,O
 ,.,O
-Sentence 504,foiba,DFD
+Sentence 505,foiba,DFD
 ,:,O
 ,A,O
 ,natural,O
@@ -12647,7 +12660,7 @@ Sentence 504,foiba,DFD
 ,dome,O
 ,pit,O
 ,.,O
-Sentence 505,fungling,DFD
+Sentence 506,fungling,DFD
 ,:,O
 ,Isolated,O
 ,limestone,O
@@ -12661,7 +12674,7 @@ Sentence 505,fungling,DFD
 ,to,O
 ,mogote,O
 ,.,O
-Sentence 506,gallery,DFD
+Sentence 507,gallery,DFD
 ,:,O
 ,A,O
 ,rather,O
@@ -12674,7 +12687,7 @@ Sentence 506,gallery,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 507,glaciokarst,DFD
+Sentence 508,glaciokarst,DFD
 ,:,O
 ,A,O
 ,glaciated,O
@@ -12687,7 +12700,7 @@ Sentence 507,glaciokarst,DFD
 ,karst,O
 ,characteristics,O
 ,.,O
-Sentence 508,glade,DFD
+Sentence 509,glade,DFD
 ,:,O
 ,An,O
 ,elongate,O
@@ -12713,7 +12726,7 @@ Sentence 508,glade,DFD
 ,low,O
 ,divides,O
 ,.,O
-Sentence 509,glade,DFD
+Sentence 510,glade,DFD
 ,:,O
 ,Limestone,O
 ,pavement,O
@@ -12724,7 +12737,7 @@ Sentence 509,glade,DFD
 ,cedar,O
 ,trees,O
 ,.,O
-Sentence 510,grike,O
+Sentence 511,grike,DFD
 ,",",O
 ,gryke,DFD
 ,:,O
@@ -12746,9 +12759,9 @@ Sentence 510,grike,O
 ,.,O
 ,Synonym,O
 ,:,O
-,Kluftkarren,DFD
+,Kluftkarren,O
 ,.,O
-Sentence 511,grike,DFD
+Sentence 512,grike,O
 ,",",O
 ,gryke,O
 ,:,O
@@ -12770,9 +12783,9 @@ Sentence 511,grike,DFD
 ,.,O
 ,Synonym,O
 ,:,O
-,Kluftkarren,O
+,Kluftkarren,DFD
 ,.,O
-Sentence 512,grotto,DFD
+Sentence 513,grotto,DFD
 ,:,O
 ,A,O
 ,small,O
@@ -12782,7 +12795,7 @@ Sentence 512,grotto,DFD
 ,or,O
 ,artificial,O
 ,.,O
-Sentence 513,grotto,DFD
+Sentence 514,grotto,DFD
 ,:,O
 ,A,O
 ,room,GEN
@@ -12799,7 +12812,7 @@ Sentence 513,grotto,DFD
 ,richly,O
 ,decorated,O
 ,.,O
-Sentence 514,gulf,DFD
+Sentence 515,gulf,DFD
 ,:,O
 ,Steep-walled,O
 ,closed,O
@@ -12820,7 +12833,7 @@ Sentence 514,gulf,DFD
 ,the,O
 ,bottom,O
 ,.,O
-Sentence 515,gypsum,DFD
+Sentence 516,gypsum,DFD
 ,:,O
 ,A,O
 ,mineral,GEN
@@ -12830,7 +12843,7 @@ Sentence 515,gypsum,DFD
 ,calcium,O
 ,sulfate,O
 ,.,O
-Sentence 516,Halbkugelkarst,DFD
+Sentence 517,Halbkugelkarst,DFD
 ,:,O
 ,Tropical,O
 ,karst,GEN
@@ -12851,7 +12864,7 @@ Sentence 516,Halbkugelkarst,DFD
 ,called,O
 ,Kugelkarst,DFD
 ,.,O
-Sentence 517,half-blind,DFD
+Sentence 518,half-blind,DFD
 ,valley,DFD
 ,:,O
 ,Blind,O
@@ -12875,7 +12888,7 @@ Sentence 517,half-blind,DFD
 ,the,O
 ,water,O
 ,.,O
-Sentence 518,half,DFD
+Sentence 519,half,DFD
 ,tube,DFD
 ,:,O
 ,Trace,O
@@ -12892,7 +12905,7 @@ Sentence 518,half,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 519,hall,DFD
+Sentence 520,hall,DFD
 ,:,O
 ,In,O
 ,a,O
@@ -12910,7 +12923,7 @@ Sentence 519,hall,DFD
 ,is,O
 ,wide,O
 ,.,O
-Sentence 520,hanging,DFD
+Sentence 521,hanging,DFD
 ,blade,DFD
 ,:,O
 ,A,O
@@ -12921,7 +12934,7 @@ Sentence 520,hanging,DFD
 ,the,O
 ,ceiling,O
 ,.,O
-Sentence 521,haystack,DFD
+Sentence 522,haystack,DFD
 ,hill,DFD
 ,:,O
 ,In,O
@@ -12946,7 +12959,7 @@ Sentence 521,haystack,DFD
 ,by,O
 ,mogote,O
 ,.,O
-Sentence 522,haystack,O
+Sentence 523,haystack,O
 ,hill,GEN
 ,:,O
 ,In,O
@@ -12971,7 +12984,7 @@ Sentence 522,haystack,O
 ,by,O
 ,mogote,DFD
 ,.,O
-Sentence 523,helictite,O
+Sentence 524,helictite,O
 ,:,O
 ,A,O
 ,curved,O
@@ -12998,7 +13011,7 @@ Sentence 523,helictite,O
 ,eccentric,DFD
 ,stalactite,DFD
 ,.,O
-Sentence 524,helictite,DFD
+Sentence 525,helictite,DFD
 ,:,O
 ,A,O
 ,curved,O
@@ -13025,7 +13038,7 @@ Sentence 524,helictite,DFD
 ,eccentric,O
 ,stalactite,O
 ,.,O
-Sentence 525,heligmite,DFD
+Sentence 526,heligmite,DFD
 ,:,O
 ,An,O
 ,eccentric,O
@@ -13050,9 +13063,9 @@ Sentence 525,heligmite,DFD
 ,thin,O
 ,stalagmite,GEN
 ,.,O
-Sentence 526,holokarst,DFD
+Sentence 527,holokarst,DFD
 ,:,O
-,Cvijic's,O
+,Cvijiƒá's,O
 ,term,O
 ,for,O
 ,a,O
@@ -13108,43 +13121,6 @@ Sentence 526,holokarst,DFD
 ,surface,O
 ,drainage,O
 ,.,O
-Sentence 527,hum,DFD
-,:,O
-,Karst,O
-,inselberg,O
-,.,O
-,Residual,O
-,hill,GEN
-,of,O
-,limestone,O
-,on,O
-,a,O
-,fairly,O
-,level,O
-,floor,O
-,",",O
-,such,O
-,as,O
-,the,O
-,isolated,O
-,hills,O
-,of,O
-,limestone,O
-,in,O
-,poljes,O
-,.,O
-,In,O
-,some,O
-,tropical,O
-,areas,O
-,",",O
-,used,O
-,loosely,O
-,as,O
-,synonym,O
-,for,O
-,mogote,DFD
-,.,O
 Sentence 528,hum,O
 ,:,O
 ,Karst,DFD
@@ -13182,7 +13158,81 @@ Sentence 528,hum,O
 ,for,O
 ,mogote,O
 ,.,O
-Sentence 529,ice,DFD
+Sentence 529,hum,DFD
+,:,O
+,Karst,O
+,inselberg,O
+,.,O
+,Residual,O
+,hill,GEN
+,of,O
+,limestone,O
+,on,O
+,a,O
+,fairly,O
+,level,O
+,floor,O
+,",",O
+,such,O
+,as,O
+,the,O
+,isolated,O
+,hills,O
+,of,O
+,limestone,O
+,in,O
+,poljes,O
+,.,O
+,In,O
+,some,O
+,tropical,O
+,areas,O
+,",",O
+,used,O
+,loosely,O
+,as,O
+,synonym,O
+,for,O
+,mogote,O
+,.,O
+Sentence 530,hum,O
+,:,O
+,Karst,O
+,inselberg,O
+,.,O
+,Residual,O
+,hill,GEN
+,of,O
+,limestone,O
+,on,O
+,a,O
+,fairly,O
+,level,O
+,floor,O
+,",",O
+,such,O
+,as,O
+,the,O
+,isolated,O
+,hills,O
+,of,O
+,limestone,O
+,in,O
+,poljes,O
+,.,O
+,In,O
+,some,O
+,tropical,O
+,areas,O
+,",",O
+,used,O
+,loosely,O
+,as,O
+,synonym,O
+,for,O
+,mogote,DFD
+,.,O
+Sentence 531,ice,DFD
 ,cave,DFD
 ,:,O
 ,A,O
@@ -13202,7 +13252,7 @@ Sentence 529,ice,DFD
 ,is,O
 ,below,O
 ,0,O
-,∞,O
+,¬∞,O
 ,C,O
 ,.,O
 ,",",O
@@ -13226,7 +13276,7 @@ Sentence 529,ice,DFD
 ,or,O
 ,flowstone,O
 ,.,O
-Sentence 530,Sanidine,DFD
+Sentence 532,Sanidine,DFD
 ,is,O
 ,a,O
 ,typical,O
@@ -13243,7 +13293,7 @@ Sentence 530,Sanidine,DFD
 ,rock-forming,O
 ,mineral,O
 ,of,O
-,Koûuf,O
+,Ko≈æuf,O
 ,6,O
 ,.5,O
 ,-,O
@@ -13256,12 +13306,31 @@ Sentence 530,Sanidine,DFD
 ,(,O
 ,Boev,O
 ,&,O
-,Jelenkovic,O
+,Jelenkoviƒá,O
 ,",",O
 ,2012,O
 ,),O
 ,.,O
-Sentence 531,Smectite,DFD
+Sentence 533,Smectite,DFD
+,(,O
+,montmorillonite,O
+,),O
+,is,O
+,a,O
+,layered,O
+,clay,O
+,mineral,GEN
+,",",O
+,product,O
+,of,O
+,intensive,O
+,acidic,O
+,weathering,O
+,of,O
+,volcaniclastic,O
+,material,O
+,.,O
+Sentence 534,Smectite,O
 ,(,O
 ,montmorillonite,DFD
 ,),O
@@ -13280,7 +13349,7 @@ Sentence 531,Smectite,DFD
 ,volcaniclastic,O
 ,material,O
 ,.,O
-Sentence 532,Input,DFD
+Sentence 535,Input,DFD
 ,caves,DFD
 ,are,O
 ,either,O
@@ -13292,10 +13361,10 @@ Sentence 532,Input,DFD
 ,prominent,O
 ,fractures,O
 ,(,O
-,éivovska,O
+,≈Ωivovska,O
 ,Propast,O
 ,",",O
-,Dragoûelska,O
+,Drago≈æelska,O
 ,Propast,O
 ,),O
 ,or,O
@@ -13308,19 +13377,19 @@ Sentence 532,Input,DFD
 ,passages,O
 ,(,O
 ,Aramiska,O
-,Peötera,O
+,Pe≈°tera,O
 ,",",O
 ,Garnikovska,O
 ,Propast,O
 ,",",O
 ,Mala,O
-,Peötera,O
+,Pe≈°tera,O
 ,and,O
-,Peöti,O
+,Pe≈°ti,O
 ,Cave,O
 ,),O
 ,.,O
-Sentence 533,The,O
+Sentence 536,The,O
 ,juvenile,DFD
 ,pattern,DFD
 ,is,O
@@ -13344,7 +13413,7 @@ Sentence 533,The,O
 ,impermeable,O
 ,cover,O
 ,.,O
-Sentence 534,Smaller,DFD
+Sentence 537,Smaller,DFD
 ,scale,DFD
 ,forms,DFD
 ,in,DFD
@@ -13369,7 +13438,7 @@ Sentence 534,Smaller,DFD
 ,),O
 ,.,O
 ,passage,O
-Sentence 535,Smaller,O
+Sentence 538,Smaller,O
 ,scale,O
 ,forms,O
 ,in,O
@@ -13394,7 +13463,7 @@ Sentence 535,Smaller,O
 ,),O
 ,.,O
 ,passage,O
-Sentence 536,As,O
+Sentence 539,As,O
 ,a,O
 ,consequence,O
 ,",",O
@@ -13436,7 +13505,7 @@ Sentence 536,As,O
 ,2004,O
 ,),O
 ,.,O
-Sentence 537,Hard,DFD
+Sentence 540,Hard,DFD
 ,data,DFD
 ,are,O
 ,defined,O
@@ -13484,7 +13553,7 @@ Sentence 537,Hard,DFD
 ,literature,O
 ,information,O
 ,.,O
-Sentence 538,Hard,O
+Sentence 541,Hard,O
 ,data,DFD
 ,are,O
 ,defined,O
@@ -13532,7 +13601,7 @@ Sentence 538,Hard,O
 ,literature,O
 ,information,O
 ,.,O
-Sentence 539,The,O
+Sentence 542,The,O
 ,step-wise,DFD
 ,calibration,DFD
 ,is,O
@@ -13557,7 +13626,7 @@ Sentence 539,The,O
 ,et,O
 ,al,O
 ,.,O
-Sentence 540,Karst,DFD
+Sentence 543,Karst,DFD
 ,is,O
 ,a,O
 ,very,O
@@ -13612,7 +13681,7 @@ Sentence 540,Karst,DFD
 ,in,O
 ,water,O
 ,.,O
-Sentence 541,The,O
+Sentence 544,The,O
 ,term,O
 ,secondary,DFD
 ,porosity,DFD
@@ -13634,7 +13703,7 @@ Sentence 541,The,O
 ,the,O
 ,post-petrification,O
 ,period,O
-Sentence 542,Gravitational,DFD
+Sentence 545,Gravitational,DFD
 ,water,DFD
 ,is,O
 ,the,O
@@ -13653,7 +13722,7 @@ Sentence 542,Gravitational,DFD
 ,underground,O
 ,system,O
 ,.,O
-Sentence 543,Storage,DFD
+Sentence 546,Storage,DFD
 ,coefficient,DFD
 ,",",O
 ,S,O
@@ -13692,7 +13761,7 @@ Sentence 543,Storage,DFD
 ,1,O
 ,m,O
 ,.,O
-Sentence 544,Specific,DFD
+Sentence 547,Specific,DFD
 ,yield,DFD
 ,is,O
 ,defined,O
@@ -13718,7 +13787,7 @@ Sentence 544,Specific,DFD
 ,the,O
 ,aquifer,O
 ,.,O
-Sentence 545,Permeability,DFD
+Sentence 548,Permeability,DFD
 ,",",O
 ,K,O
 ,",",O
@@ -13750,7 +13819,7 @@ Sentence 545,Permeability,DFD
 ,pressure,O
 ,gradient,O
 ,.,O
-Sentence 546,Surface,DFD
+Sentence 549,Surface,DFD
 ,karst,DFD
 ,forms,DFD
 ,are,O
@@ -13771,7 +13840,7 @@ Sentence 546,Surface,DFD
 ,1983,O
 ,),O
 ,.,O
-Sentence 547,inflow,DFD
+Sentence 550,inflow,DFD
 ,cave,DFD
 ,",",O
 ,influent,O
@@ -13787,7 +13856,7 @@ Sentence 547,inflow,DFD
 ,formerly,O
 ,entered,O
 ,.,O
-Sentence 548,inflow,O
+Sentence 551,inflow,O
 ,cave,DFD
 ,",",O
 ,influent,DFD
@@ -13803,7 +13872,7 @@ Sentence 548,inflow,O
 ,formerly,O
 ,entered,O
 ,.,O
-Sentence 549,jama,DFD
+Sentence 552,jama,DFD
 ,:,O
 ,Vertical,GEN
 ,or,O
@@ -13817,7 +13886,7 @@ Sentence 549,jama,DFD
 ,as,O
 ,abime,DFD
 ,or,O
-,aven,DFD
+,aven,O
 ,in,O
 ,France,O
 ,and,O
@@ -13826,7 +13895,7 @@ Sentence 549,jama,DFD
 ,in,O
 ,England,O
 ,.,O
-Sentence 550,jama,O
+Sentence 553,jama,O
 ,:,O
 ,Vertical,GEN
 ,or,O
@@ -13840,7 +13909,7 @@ Sentence 550,jama,O
 ,as,O
 ,abime,O
 ,or,O
-,aven,O
+,aven,DFD
 ,in,O
 ,France,O
 ,and,O
@@ -13849,7 +13918,7 @@ Sentence 550,jama,O
 ,in,O
 ,England,O
 ,.,O
-Sentence 551,joint-plane,DFD
+Sentence 554,joint-plane,DFD
 ,cave,DFD
 ,:,O
 ,A,O
@@ -13866,7 +13935,7 @@ Sentence 551,joint-plane,DFD
 ,joint,O
 ,planes,O
 ,.,O
-Sentence 552,Karren,DFD
+Sentence 555,Karren,DFD
 ,:,O
 ,Channels,GEN
 ,or,O
@@ -13900,7 +13969,7 @@ Sentence 552,Karren,DFD
 ,by,O
 ,ridges,O
 ,.,O
-Sentence 553,Rillenkarren,DFD
+Sentence 556,Rillenkarren,DFD
 ,:,O
 ,Type,O
 ,of,O
@@ -13918,7 +13987,7 @@ Sentence 553,Rillenkarren,DFD
 ,centimeters,O
 ,apart,O
 ,.,O
-Sentence 554,Rinnenkarren,DFD
+Sentence 557,Rinnenkarren,DFD
 ,:,O
 ,Type,O
 ,of,O
@@ -13930,7 +13999,7 @@ Sentence 554,Rinnenkarren,DFD
 ,centimeters,O
 ,apart,O
 ,.,O
-Sentence 555,Kluftkarren,DFD
+Sentence 558,Kluftkarren,DFD
 ,:,O
 ,Type,O
 ,of,O
@@ -13941,7 +14010,7 @@ Sentence 555,Kluftkarren,DFD
 ,by,O
 ,solution,O
 ,.,O
-Sentence 556,Spitzkarren,DFD
+Sentence 559,Spitzkarren,DFD
 ,:,O
 ,Type,O
 ,of,O
@@ -13958,7 +14027,7 @@ Sentence 556,Spitzkarren,DFD
 ,or,O
 ,pinnacles,O
 ,.,O
-Sentence 557,Meanderkarren,DFD
+Sentence 560,Meanderkarren,DFD
 ,:,O
 ,Type,O
 ,of,O
@@ -13970,7 +14039,7 @@ Sentence 557,Meanderkarren,DFD
 ,meandering,O
 ,channels,O
 ,.,O
-Sentence 558,Rundkarren,DFD
+Sentence 561,Rundkarren,DFD
 ,:,O
 ,Karren,GEN
 ,having,O
@@ -13990,7 +14059,7 @@ Sentence 558,Rundkarren,DFD
 ,or,O
 ,peat,O
 ,.,O
-Sentence 559,Fachkarren,DFD
+Sentence 562,Fachkarren,DFD
 ,:,O
 ,Type,O
 ,of,O
@@ -14001,7 +14070,7 @@ Sentence 559,Fachkarren,DFD
 ,English,O
 ,clint,O
 ,.,O
-Sentence 560,Bodenkarren,DFD
+Sentence 563,Bodenkarren,DFD
 ,:,O
 ,Karren,GEN
 ,formed,O
@@ -14013,7 +14082,7 @@ Sentence 560,Bodenkarren,DFD
 ,",",O
 ,lapils,O
 ,.,O
-Sentence 561,Karrenfeld,DFD
+Sentence 564,Karrenfeld,DFD
 ,:,O
 ,An,O
 ,area,O
@@ -14023,7 +14092,7 @@ Sentence 561,Karrenfeld,DFD
 ,by,O
 ,Karren,O
 ,.,O
-Sentence 562,karst,DFD
+Sentence 565,karst,DFD
 ,:,O
 ,A,O
 ,terrain,GEN
@@ -14111,7 +14180,7 @@ Sentence 562,karst,DFD
 ,tower,O
 ,karst,O
 ,.,O
-Sentence 563,karst,DFD
+Sentence 566,karst,DFD
 ,barre,DFD
 ,:,O
 ,A,O
@@ -14127,7 +14196,7 @@ Sentence 563,karst,DFD
 ,low,O
 ,permeability,O
 ,.,O
-Sentence 564,karst,DFD
+Sentence 567,karst,DFD
 ,base,DFD
 ,level,DFD
 ,:,O
@@ -14140,7 +14209,7 @@ Sentence 564,karst,DFD
 ,take,O
 ,place,O
 ,.,O
-Sentence 565,karst,DFD
+Sentence 568,karst,DFD
 ,bridge,DFD
 ,:,O
 ,A,O
@@ -14151,7 +14220,7 @@ Sentence 565,karst,DFD
 ,in,O
 ,limestone,O
 ,.,O
-Sentence 566,karst,DFD
+Sentence 569,karst,DFD
 ,fens,DFD
 ,:,O
 ,Marshes,O
@@ -14164,7 +14233,7 @@ Sentence 566,karst,DFD
 ,solution,O
 ,fens,O
 ,.,O
-Sentence 567,karst,DFD
+Sentence 570,karst,DFD
 ,lake,DFD
 ,:,O
 ,A,O
@@ -14180,7 +14249,7 @@ Sentence 567,karst,DFD
 ,in,O
 ,limestone,O
 ,.,O
-Sentence 568,karst,DFD
+Sentence 571,karst,DFD
 ,margin,DFD
 ,plain,DFD
 ,:,O
@@ -14224,7 +14293,7 @@ Sentence 568,karst,DFD
 ,Karstrandebene,O
 ,.,O
 ,on,O
-Sentence 569,karst,DFD
+Sentence 572,karst,DFD
 ,plain,DFD
 ,:,O
 ,A,O
@@ -14250,7 +14319,7 @@ Sentence 569,karst,DFD
 ,karst,O
 ,plateau,O
 ,.,O
-Sentence 570,karst,DFD
+Sentence 573,karst,DFD
 ,pond,DFD
 ,:,O
 ,Closed,GEN
@@ -14263,7 +14332,7 @@ Sentence 570,karst,DFD
 ,standing,O
 ,water,O
 ,.,O
-Sentence 571,karst,DFD
+Sentence 574,karst,DFD
 ,river,DFD
 ,:,O
 ,A,O
@@ -14275,7 +14344,7 @@ Sentence 571,karst,DFD
 ,karst,O
 ,spring,O
 ,.,O
-Sentence 572,karst,DFD
+Sentence 575,karst,DFD
 ,spring,DFD
 ,:,O
 ,A,O
@@ -14285,7 +14354,7 @@ Sentence 572,karst,DFD
 ,karstified,O
 ,limestone,O
 ,.,O
-Sentence 573,karst,DFD
+Sentence 576,karst,DFD
 ,topography,DFD
 ,:,O
 ,Topography,GEN
@@ -14296,14 +14365,14 @@ Sentence 573,karst,DFD
 ,solutional,O
 ,origin,O
 ,.,O
-Sentence 574,karst,DFD
+Sentence 577,karst,DFD
 ,valley,DFD
 ,:,O
 ,Elongate,O
 ,solution,O
 ,valley,GEN
 ,.,O
-Sentence 575,karst,DFD
+Sentence 578,karst,DFD
 ,valley,DFD
 ,:,O
 ,Valley,GEN
@@ -14315,7 +14384,7 @@ Sentence 575,karst,DFD
 ,cavern,O
 ,roof,O
 ,.,O
-Sentence 576,karst,DFD
+Sentence 579,karst,DFD
 ,window,DFD
 ,:,O
 ,Depression,GEN
@@ -14339,7 +14408,7 @@ Sentence 576,karst,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 577,karst,DFD
+Sentence 580,karst,DFD
 ,window,DFD
 ,:,O
 ,A,O
@@ -14354,7 +14423,7 @@ Sentence 577,karst,DFD
 ,seen,O
 ,through,O
 ,.,O
-Sentence 578,karstification,DFD
+Sentence 581,karstification,DFD
 ,:,O
 ,Action,GEN
 ,by,O
@@ -14394,7 +14463,7 @@ Sentence 578,karstification,DFD
 ,and,O
 ,shafts,O
 ,.,O
-Sentence 579,karstland,DFD
+Sentence 582,karstland,DFD
 ,:,O
 ,A,O
 ,region,GEN
@@ -14403,7 +14472,7 @@ Sentence 579,karstland,DFD
 ,karst,O
 ,topography,O
 ,.,O
-Sentence 580,katavothron,DFD
+Sentence 583,katavothron,DFD
 ,:,O
 ,A,O
 ,closed,O
@@ -14412,7 +14481,7 @@ Sentence 580,katavothron,DFD
 ,swallow,O
 ,hole,O
 ,.,O
-Sentence 581,Kegelkarst,DFD
+Sentence 584,Kegelkarst,DFD
 ,:,O
 ,A,O
 ,general,O
@@ -14450,7 +14519,7 @@ Sentence 581,Kegelkarst,DFD
 ,or,O
 ,passageways,O
 ,.,O
-Sentence 582,keyhole,DFD
+Sentence 585,keyhole,DFD
 ,:,O
 ,A,O
 ,small,O
@@ -14482,7 +14551,7 @@ Sentence 582,keyhole,DFD
 ,out,O
 ,below,O
 ,.,O
-Sentence 583,knobstone,DFD
+Sentence 586,knobstone,DFD
 ,:,O
 ,Speleothem,GEN
 ,",",O
@@ -14499,9 +14568,9 @@ Sentence 583,knobstone,DFD
 ,cave,O
 ,coral,O
 ,.,O
-Sentence 584,kras,DFD
+Sentence 587,kras,DFD
 ,",",O
-,krö,DFD
+,kr≈°,DFD
 ,:,O
 ,A,O
 ,Slavic,O
@@ -14524,7 +14593,7 @@ Sentence 584,kras,DFD
 ,:,O
 ,karst,O
 ,.,O
-Sentence 585,level,DFD
+Sentence 588,level,DFD
 ,:,O
 ,Within,O
 ,a,O
@@ -14541,7 +14610,7 @@ Sentence 585,level,DFD
 ,horizontal,O
 ,plane,O
 ,.,O
-Sentence 586,level,DFD
+Sentence 589,level,DFD
 ,:,O
 ,The,O
 ,altitudinal,O
@@ -14555,7 +14624,7 @@ Sentence 586,level,DFD
 ,outside,O
 ,surface,O
 ,.,O
-Sentence 587,light,DFD
+Sentence 590,light,DFD
 ,hole,DFD
 ,:,O
 ,Fossil,O
@@ -14564,7 +14633,7 @@ Sentence 587,light,DFD
 ,swallow,GEN
 ,hole,GEN
 ,.,O
-Sentence 588,limestone,DFD
+Sentence 591,limestone,DFD
 ,:,O
 ,A,O
 ,sedimentary,O
@@ -14576,7 +14645,7 @@ Sentence 588,limestone,DFD
 ,carbonate,O
 ,",",O
 ,CaCO,O
-Sentence 589,limestone,DFD
+Sentence 592,limestone,DFD
 ,pavement,DFD
 ,:,O
 ,A,O
@@ -14606,7 +14675,7 @@ Sentence 589,limestone,DFD
 ,solution,O
 ,pans,O
 ,.,O
-Sentence 590,live,DFD
+Sentence 593,live,DFD
 ,cave,DFD
 ,:,O
 ,Cave,GEN
@@ -14626,7 +14695,7 @@ Sentence 590,live,DFD
 ,active,O
 ,cave,O
 ,.,O
-Sentence 591,live,O
+Sentence 594,live,O
 ,cave,DFD
 ,:,O
 ,Cave,GEN
@@ -14646,7 +14715,7 @@ Sentence 591,live,O
 ,active,O
 ,cave,O
 ,.,O
-Sentence 592,lost,DFD
+Sentence 595,lost,DFD
 ,river,DFD
 ,:,O
 ,In,O
@@ -14663,7 +14732,7 @@ Sentence 592,lost,DFD
 ,underground,O
 ,course,O
 ,.,O
-Sentence 593,lycopodium,DFD
+Sentence 596,lycopodium,DFD
 ,spores,DFD
 ,:,O
 ,Spores,GEN
@@ -14691,7 +14760,7 @@ Sentence 593,lycopodium,DFD
 ,karst,O
 ,areas,O
 ,.,O
-Sentence 594,meander,DFD
+Sentence 597,meander,DFD
 ,:,O
 ,In,O
 ,a,O
@@ -14719,7 +14788,7 @@ Sentence 594,meander,DFD
 ,meander,O
 ,niche,O
 ,.,O
-Sentence 595,meander,DFD
+Sentence 598,meander,DFD
 ,niche,DFD
 ,:,O
 ,A,O
@@ -14751,7 +14820,7 @@ Sentence 595,meander,DFD
 ,a,O
 ,passage,O
 ,.,O
-Sentence 596,merokarst,DFD
+Sentence 599,merokarst,DFD
 ,:,O
 ,Defined,O
 ,by,O
@@ -14791,7 +14860,7 @@ Sentence 596,merokarst,DFD
 ,formed,O
 ,holokarst,O
 ,.,O
-Sentence 597,microkarst,DFD
+Sentence 600,microkarst,DFD
 ,:,O
 ,Karst,GEN
 ,topography,O
@@ -14811,7 +14880,7 @@ Sentence 597,microkarst,DFD
 ,karst,O
 ,features,O
 ,.,O
-Sentence 598,Mischungskorrosion,DFD
+Sentence 601,Mischungskorrosion,DFD
 ,:,O
 ,Dissolving,O
 ,of,O
@@ -14843,7 +14912,7 @@ Sentence 598,Mischungskorrosion,DFD
 ,a,O
 ,nonlinear,O
 ,re,O
-,a,O
+,¬í,O
 ,ation,O
 ,exists,O
 ,between,O
@@ -14857,7 +14926,7 @@ Sentence 598,Mischungskorrosion,DFD
 ,carbon,O
 ,dioxide,O
 ,.,O
-Sentence 599,mogote,O
+Sentence 602,mogote,O
 ,:,O
 ,A,O
 ,steep-sided,O
@@ -14906,7 +14975,7 @@ Sentence 599,mogote,O
 ,the,O
 ,Tropics,O
 ,.,O
-Sentence 600,mogote,DFD
+Sentence 603,mogote,DFD
 ,:,O
 ,A,O
 ,steep-sided,O
@@ -14955,7 +15024,7 @@ Sentence 600,mogote,DFD
 ,the,O
 ,Tropics,O
 ,.,O
-Sentence 601,moon,DFD
+Sentence 604,moon,DFD
 ,milk,DFD
 ,:,O
 ,A,O
@@ -14989,7 +15058,7 @@ Sentence 601,moon,DFD
 ,is,O
 ,common,O
 ,.,O
-Sentence 602,mud,DFD
+Sentence 605,mud,DFD
 ,stalagmite,DFD
 ,:,O
 ,Stalagmite,GEN
@@ -15009,7 +15078,7 @@ Sentence 602,mud,DFD
 ,calcium,O
 ,carbonate,O
 ,.,O
-Sentence 603,naked,DFD
+Sentence 606,naked,DFD
 ,karst,DFD
 ,",",O
 ,bare,O
@@ -15022,7 +15091,7 @@ Sentence 603,naked,DFD
 ,exposed,O
 ,bedrock,O
 ,.,O
-Sentence 604,naked,O
+Sentence 607,naked,O
 ,karst,DFD
 ,",",O
 ,bare,DFD
@@ -15035,7 +15104,7 @@ Sentence 604,naked,O
 ,exposed,O
 ,bedrock,O
 ,.,O
-Sentence 605,natural,DFD
+Sentence 608,natural,DFD
 ,arch,DFD
 ,:,O
 ,A,O
@@ -15059,7 +15128,7 @@ Sentence 605,natural,DFD
 ,or,O
 ,valley,O
 ,.,O
-Sentence 606,natural,DFD
+Sentence 609,natural,DFD
 ,bridge,DFD
 ,:,O
 ,A,O
@@ -15074,7 +15143,7 @@ Sentence 606,natural,DFD
 ,eroded,O
 ,away,O
 ,.,O
-Sentence 607,natural,DFD
+Sentence 610,natural,DFD
 ,tunnel,DFD
 ,:,O
 ,A,O
@@ -15098,7 +15167,7 @@ Sentence 607,natural,DFD
 ,cross,O
 ,section,O
 ,.,O
-Sentence 608,natural,DFD
+Sentence 611,natural,DFD
 ,well,DFD
 ,:,O
 ,A,O
@@ -15123,7 +15192,7 @@ Sentence 608,natural,DFD
 ,a,O
 ,cenote,O
 ,.,O
-Sentence 609,network,DFD
+Sentence 612,network,DFD
 ,:,O
 ,A,O
 ,complex,O
@@ -15141,7 +15210,7 @@ Sentence 609,network,DFD
 ,:,O
 ,labyrinth,O
 ,.,O
-Sentence 610,nip,DFD
+Sentence 613,nip,DFD
 ,:,O
 ,An,O
 ,undercutting,O
@@ -15168,7 +15237,7 @@ Sentence 610,nip,DFD
 ,or,O
 ,solution,O
 ,.,O
-Sentence 611,outflow,DFD
+Sentence 614,outflow,DFD
 ,cave,DFD
 ,:,O
 ,Cave,GEN
@@ -15187,7 +15256,7 @@ Sentence 611,outflow,DFD
 ,effluent,O
 ,cave,O
 ,.,O
-Sentence 612,outflow,O
+Sentence 615,outflow,O
 ,cave,DFD
 ,:,O
 ,Cave,GEN
@@ -15206,7 +15275,7 @@ Sentence 612,outflow,O
 ,effluent,DFD
 ,cave,O
 ,.,O
-Sentence 613,paleokarst,DFD
+Sentence 616,paleokarst,DFD
 ,:,O
 ,A,O
 ,karstified,O
@@ -15236,7 +15305,7 @@ Sentence 613,paleokarst,DFD
 ,later,O
 ,sediments,O
 ,",",O
-Sentence 614,palette,DFD
+Sentence 617,palette,DFD
 ,:,O
 ,In,O
 ,a,O
@@ -15271,7 +15340,7 @@ Sentence 614,palette,DFD
 ,;,O
 ,shield,O
 ,.,O
-Sentence 615,partition,DFD
+Sentence 618,partition,DFD
 ,:,O
 ,A,O
 ,nearly,O
@@ -15284,7 +15353,7 @@ Sentence 615,partition,DFD
 ,cave,O
 ,.,O
 ,residual,O
-Sentence 616,pepino,DFD
+Sentence 619,pepino,DFD
 ,hill,DFD
 ,:,O
 ,Rounded,O
@@ -15307,7 +15376,7 @@ Sentence 616,pepino,DFD
 ,by,O
 ,mogote,O
 ,.,O
-Sentence 617,phreas,O
+Sentence 620,phreas,O
 ,",",O
 ,phreatic,DFD
 ,water,DFD
@@ -15325,7 +15394,7 @@ Sentence 617,phreas,O
 ,water,O
 ,table,O
 ,.,O
-Sentence 618,phreas,DFD
+Sentence 621,phreas,DFD
 ,",",O
 ,phreatic,O
 ,water,O
@@ -15343,7 +15412,7 @@ Sentence 618,phreas,DFD
 ,water,O
 ,table,O
 ,.,O
-Sentence 619,phreatic,DFD
+Sentence 622,phreatic,DFD
 ,zone,DFD
 ,:,O
 ,The,O
@@ -15361,7 +15430,7 @@ Sentence 619,phreatic,DFD
 ,with,O
 ,water,O
 ,.,O
-Sentence 620,pillar,DFD
+Sentence 623,pillar,DFD
 ,:,O
 ,A,O
 ,column,O
@@ -15380,7 +15449,7 @@ Sentence 620,pillar,DFD
 ,rock,O
 ,pillar,O
 ,.,O
-Sentence 621,pillar,DFD
+Sentence 624,pillar,DFD
 ,:,O
 ,A,O
 ,stalactitestalagmite,O
@@ -15400,7 +15469,7 @@ Sentence 621,pillar,DFD
 ,a,O
 ,column,O
 ,.,O
-Sentence 622,pillar,DFD
+Sentence 625,pillar,DFD
 ,:,O
 ,A,O
 ,tall,O
@@ -15435,7 +15504,7 @@ Sentence 622,pillar,DFD
 ,by,O
 ,water,O
 ,.,O
-Sentence 623,piping,DFD
+Sentence 626,piping,DFD
 ,:,O
 ,Formation,O
 ,of,O
@@ -15463,7 +15532,7 @@ Sentence 623,piping,DFD
 ,critical,O
 ,value,O
 ,.,O
-Sentence 624,pit,DFD
+Sentence 627,pit,DFD
 ,:,O
 ,A,O
 ,deep,O
@@ -15481,7 +15550,7 @@ Sentence 624,pit,DFD
 ,vertical,O
 ,walls,O
 ,.,O
-Sentence 625,piton,DFD
+Sentence 628,piton,DFD
 ,:,O
 ,Limestone,O
 ,hill,GEN
@@ -15490,7 +15559,7 @@ Sentence 625,piton,DFD
 ,pointed,O
 ,peak,O
 ,.,O
-Sentence 626,pitted,DFD
+Sentence 629,pitted,DFD
 ,plain,DFD
 ,:,O
 ,Plain,GEN
@@ -15502,7 +15571,7 @@ Sentence 626,pitted,DFD
 ,closed,O
 ,depressions,O
 ,.,O
-Sentence 627,pocket,DFD
+Sentence 630,pocket,DFD
 ,:,O
 ,Solution,O
 ,cavity,GEN
@@ -15532,7 +15601,7 @@ Sentence 627,pocket,DFD
 ,or,O
 ,bedding,O
 ,.,O
-Sentence 628,polje,O
+Sentence 631,polje,O
 ,:,O
 ,In,O
 ,areas,O
@@ -15582,7 +15651,7 @@ Sentence 628,polje,O
 ,interior,DFD
 ,valley,DFD
 ,.,O
-Sentence 629,polje,DFD
+Sentence 632,polje,DFD
 ,:,O
 ,In,O
 ,areas,O
@@ -15632,7 +15701,7 @@ Sentence 629,polje,DFD
 ,interior,O
 ,valley,O
 ,.,O
-Sentence 630,polygonal,DFD
+Sentence 633,polygonal,DFD
 ,karst,DFD
 ,:,O
 ,A,O
@@ -15675,7 +15744,7 @@ Sentence 630,polygonal,DFD
 ,doline-karst,O
 ,terrain,O
 ,.,O
-Sentence 631,ponor,DFD
+Sentence 634,ponor,DFD
 ,:,O
 ,Hole,GEN
 ,in,O
@@ -15704,7 +15773,7 @@ Sentence 631,ponor,DFD
 ,swallow,O
 ,hole,O
 ,.,O
-Sentence 632,pool,DFD
+Sentence 635,pool,DFD
 ,deposit,DFD
 ,:,O
 ,Crystalline,GEN
@@ -15718,7 +15787,7 @@ Sentence 632,pool,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 633,pore,DFD
+Sentence 636,pore,DFD
 ,deposit,DFD
 ,:,O
 ,Mineral,GEN
@@ -15748,7 +15817,7 @@ Sentence 633,pore,DFD
 ,form,O
 ,drops,O
 ,.,O
-Sentence 634,porthole,DFD
+Sentence 637,porthole,DFD
 ,:,O
 ,A,O
 ,nearly,O
@@ -15768,7 +15837,7 @@ Sentence 634,porthole,DFD
 ,also,O
 ,window,O
 ,.,O
-Sentence 635,pothole,DFD
+Sentence 638,pothole,DFD
 ,:,O
 ,A,O
 ,small,O
@@ -15809,7 +15878,7 @@ Sentence 635,pothole,DFD
 ,nature,O
 ,mill,O
 ,.,O
-Sentence 636,pothole,DFD
+Sentence 639,pothole,DFD
 ,:,O
 ,Term,O
 ,used,O
@@ -15824,7 +15893,7 @@ Sentence 636,pothole,DFD
 ,in,O
 ,limestone,O
 ,.,O
-Sentence 637,pseudokarst,DFD
+Sentence 640,pseudokarst,DFD
 ,:,O
 ,Karstlike,O
 ,terrain,O
@@ -15880,7 +15949,7 @@ Sentence 637,pseudokarst,DFD
 ,a,O
 ,lava,O
 ,field,O
-Sentence 638,residual,DFD
+Sentence 641,residual,DFD
 ,clay,DFD
 ,:,O
 ,Clay,O
@@ -15900,7 +15969,7 @@ Sentence 638,residual,DFD
 ,by,O
 ,solution,O
 ,.,O
-Sentence 639,resurgence,DFD
+Sentence 642,resurgence,DFD
 ,:,O
 ,Point,GEN
 ,at,O
@@ -15950,7 +16019,7 @@ Sentence 639,resurgence,DFD
 ,surface,O
 ,headwaters,O
 ,.,O
-Sentence 640,rice,DFD
+Sentence 643,rice,DFD
 ,paddy,DFD
 ,:,O
 ,In,O
@@ -15962,7 +16031,7 @@ Sentence 640,rice,DFD
 ,rimstone,O
 ,pool,GEN
 ,.,GEN
-Sentence 641,rift,DFD
+Sentence 644,rift,DFD
 ,:,O
 ,A,O
 ,long,O
@@ -15976,7 +16045,7 @@ Sentence 641,rift,DFD
 ,or,O
 ,faults,O
 ,.,O
-Sentence 642,rill,DFD
+Sentence 645,rill,DFD
 ,:,O
 ,Small,O
 ,solution,O
@@ -15995,7 +16064,7 @@ Sentence 642,rill,DFD
 ,semiarid,O
 ,areas,O
 ,.,O
-Sentence 643,Rillenstein,DFD
+Sentence 646,Rillenstein,DFD
 ,:,O
 ,Microsolution,O
 ,grooves,O
@@ -16005,7 +16074,7 @@ Sentence 643,Rillenstein,DFD
 ,rock,O
 ,surface,O
 ,.,O
-Sentence 644,rimstone,DFD
+Sentence 647,rimstone,DFD
 ,:,O
 ,Calcareous,O
 ,deposits,O
@@ -16021,7 +16090,7 @@ Sentence 644,rimstone,DFD
 ,in,O
 ,caves,O
 ,.,O
-Sentence 645,rimstone,DFD
+Sentence 648,rimstone,DFD
 ,barrage,DFD
 ,",",O
 ,rimstone,O
@@ -16063,7 +16132,7 @@ Sentence 645,rimstone,DFD
 ,",",O
 ,around,O
 ,springs,O
-Sentence 646,rimstone,DFD
+Sentence 649,rimstone,DFD
 ,barrage,O
 ,",",O
 ,rimstone,O
@@ -16105,7 +16174,7 @@ Sentence 646,rimstone,DFD
 ,",",O
 ,around,O
 ,springs,O
-Sentence 647,rimstone,DFD
+Sentence 650,rimstone,DFD
 ,barrage,O
 ,",",O
 ,rimstone,O
@@ -16147,7 +16216,7 @@ Sentence 647,rimstone,DFD
 ,",",O
 ,around,O
 ,springs,O
-Sentence 648,rimstone,O
+Sentence 651,rimstone,O
 ,barrage,O
 ,",",O
 ,rimstone,O
@@ -16189,7 +16258,7 @@ Sentence 648,rimstone,O
 ,",",O
 ,around,O
 ,springs,O
-Sentence 649,rimstone,DFD
+Sentence 652,rimstone,DFD
 ,pool,DFD
 ,:,O
 ,Pool,GEN
@@ -16201,7 +16270,7 @@ Sentence 649,rimstone,DFD
 ,rimstone,O
 ,dam,O
 ,.,O
-Sentence 650,rise,DFD
+Sentence 653,rise,DFD
 ,:,O
 ,Spring,GEN
 ,rising,O
@@ -16223,7 +16292,7 @@ Sentence 650,rise,DFD
 ,.,O
 ,in,O
 ,limestone,O
-Sentence 651,rock,DFD
+Sentence 654,rock,DFD
 ,pillar,DFD
 ,:,O
 ,A,O
@@ -16261,7 +16330,7 @@ Sentence 651,rock,DFD
 ,mass,O
 ,of,O
 ,bedrock,O
-Sentence 652,rock,DFD
+Sentence 655,rock,DFD
 ,pinnacle,DFD
 ,:,O
 ,A,O
@@ -16278,7 +16347,7 @@ Sentence 652,rock,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 653,rock,DFD
+Sentence 656,rock,DFD
 ,shelter,DFD
 ,:,O
 ,Shallow,O
@@ -16345,7 +16414,7 @@ Sentence 653,rock,DFD
 ,unindurated,O
 ,limestone,O
 ,.,O
-Sentence 654,roof,DFD
+Sentence 657,roof,DFD
 ,crust,DFD
 ,:,O
 ,Flowstone,GEN
@@ -16372,7 +16441,7 @@ Sentence 654,roof,DFD
 ,crack,O
 ,sources,O
 ,.,O
-Sentence 655,room,DFD
+Sentence 658,room,DFD
 ,:,O
 ,A,O
 ,part,O
@@ -16391,7 +16460,7 @@ Sentence 655,room,DFD
 ,:,O
 ,chamber,O
 ,.,O
-Sentence 656,room,O
+Sentence 659,room,O
 ,:,O
 ,A,O
 ,part,O
@@ -16410,7 +16479,7 @@ Sentence 656,room,O
 ,:,O
 ,chamber,DFD
 ,.,O
-Sentence 657,sand,DFD
+Sentence 660,sand,DFD
 ,stalagmite,DFD
 ,:,O
 ,A,O
@@ -16425,7 +16494,7 @@ Sentence 657,sand,DFD
 ,cemented,O
 ,sandstone,O
 ,.,O
-Sentence 658,scaling,DFD
+Sentence 661,scaling,DFD
 ,chip,DFD
 ,:,O
 ,A,O
@@ -16459,7 +16528,7 @@ Sentence 658,scaling,DFD
 ,breakdown,O
 ,.,O
 ,limestone,O
-Sentence 659,scaling,DFD
+Sentence 662,scaling,DFD
 ,plate,DFD
 ,:,O
 ,A,O
@@ -16499,7 +16568,7 @@ Sentence 659,scaling,DFD
 ,spaced,O
 ,joints,O
 ,.,O
-Sentence 660,scallop,DFD
+Sentence 663,scallop,DFD
 ,:,O
 ,Oval,O
 ,hollow,GEN
@@ -16554,7 +16623,7 @@ Sentence 660,scallop,DFD
 ,in,O
 ,America,O
 ,.,O
-Sentence 661,sea,DFD
+Sentence 664,sea,DFD
 ,cave,DFD
 ,:,O
 ,A,O
@@ -16575,7 +16644,7 @@ Sentence 661,sea,DFD
 ,by,O
 ,water,O
 ,.,O
-Sentence 662,shaft,DFD
+Sentence 665,shaft,DFD
 ,:,O
 ,A,O
 ,vertical,O
@@ -16584,7 +16653,7 @@ Sentence 662,shaft,DFD
 ,a,O
 ,cave,O
 ,.,O
-Sentence 663,shake,DFD
+Sentence 666,shake,DFD
 ,",",O
 ,shakehole,DFD
 ,:,O
@@ -16604,30 +16673,7 @@ Sentence 663,shake,DFD
 ,by,O
 ,subsidence,O
 ,.,O
-Sentence 664,shake,DFD
-,",",O
-,shakehole,O
-,:,O
-,Hole,GEN
-,formed,O
-,by,O
-,solution,O
-,",",O
-,subsidence,O
-,",",O
-,and,O
-,compaction,O
-,in,O
-,loose,O
-,draft,O
-,or,O
-,alluvium,O
-,overlying,O
-,beds,O
-,of,O
-,limestone,O
-,.,O
-Sentence 665,shake,O
+Sentence 667,shake,DFD
 ,",",O
 ,shakehole,DFD
 ,:,O
@@ -16650,7 +16696,7 @@ Sentence 665,shake,O
 ,of,O
 ,limestone,O
 ,.,O
-Sentence 666,shawl,DFD
+Sentence 668,shawl,DFD
 ,:,O
 ,Simple,O
 ,triangular-shaped,O
@@ -16678,7 +16724,7 @@ Sentence 666,shawl,DFD
 ,trickling,O
 ,water,O
 ,.,O
-Sentence 667,shield,DFD
+Sentence 669,shield,DFD
 ,:,O
 ,A,O
 ,disk-shaped,O
@@ -16690,28 +16736,7 @@ Sentence 667,shield,DFD
 ,high,O
 ,angle,O
 ,.,O
-Sentence 668,sink,DFD
-,",",O
-,sinkhole,O
-,:,O
-,General,O
-,terms,O
-,for,O
-,closed,GEN
-,depressions,GEN
-,.,O
-,They,O
-,may,O
-,be,O
-,basin,O
-,",",O
-,funnel,O
-,",",O
-,or,O
-,cylindrical,O
-,shaped,O
-,.,O
-Sentence 669,sink,O
+Sentence 670,sink,DFD
 ,",",O
 ,sinkhole,DFD
 ,:,O
@@ -16732,7 +16757,7 @@ Sentence 669,sink,O
 ,cylindrical,O
 ,shaped,O
 ,.,O
-Sentence 670,sinkhole,DFD
+Sentence 671,sinkhole,DFD
 ,plain,DFD
 ,:,O
 ,Plain,GEN
@@ -16755,7 +16780,7 @@ Sentence 670,sinkhole,DFD
 ,is,O
 ,subterranean,O
 ,.,O
-Sentence 671,sinkhole,DFD
+Sentence 672,sinkhole,DFD
 ,pond,DFD
 ,:,O
 ,Small,O
@@ -16782,7 +16807,7 @@ Sentence 671,sinkhole,DFD
 ,water,O
 ,table,O
 ,.,O
-Sentence 672,sinking,DFD
+Sentence 673,sinking,DFD
 ,creek,DFD
 ,:,O
 ,A,O
@@ -16792,7 +16817,7 @@ Sentence 672,sinking,DFD
 ,disappears,O
 ,underground,O
 ,.,O
-Sentence 673,sinter,DFD
+Sentence 674,sinter,DFD
 ,:,O
 ,A,O
 ,mineral,GEN
@@ -16841,7 +16866,7 @@ Sentence 673,sinter,DFD
 ,onyx,O
 ,marble,O
 ,.,O
-Sentence 674,siphon,DFD
+Sentence 675,siphon,DFD
 ,:,O
 ,In,O
 ,speleology,O
@@ -16860,7 +16885,7 @@ Sentence 674,siphon,DFD
 ,surface,O
 ,.,O
 ,water,O
-Sentence 675,slump,DFD
+Sentence 676,slump,DFD
 ,pit,DFD
 ,:,O
 ,A,O
@@ -16880,7 +16905,7 @@ Sentence 675,slump,DFD
 ,the,O
 ,fill,O
 ,.,O
-Sentence 676,solution,GEN
+Sentence 677,solution,GEN
 ,pan,O
 ,:,O
 ,Shallow,O
@@ -16902,15 +16927,15 @@ Sentence 676,solution,GEN
 ,.,O
 ,Synonyms,O
 ,:,O
-,Kamenitza,O
+,Kamenitza,DFD
 ,;,O
 ,Opferkessel,DFD
 ,;,O
 ,panhole,DFD
 ,;,O
-,tinajita,DFD
+,tinajita,O
 ,.,O
-Sentence 677,solution,DFD
+Sentence 678,solution,DFD
 ,pan,DFD
 ,:,O
 ,Shallow,O
@@ -16940,7 +16965,7 @@ Sentence 677,solution,DFD
 ,;,O
 ,tinajita,O
 ,.,O
-Sentence 678,solution,GEN
+Sentence 679,solution,GEN
 ,pan,O
 ,:,O
 ,Shallow,O
@@ -16962,15 +16987,15 @@ Sentence 678,solution,GEN
 ,.,O
 ,Synonyms,O
 ,:,O
-,Kamenitza,DFD
+,Kamenitza,O
 ,;,O
 ,Opferkessel,O
 ,;,O
 ,panhole,O
 ,;,O
-,tinajita,O
+,tinajita,DFD
 ,.,O
-Sentence 679,solution,DFD
+Sentence 680,solution,DFD
 ,pipe,DFD
 ,:,O
 ,A,O
@@ -17012,7 +17037,7 @@ Sentence 679,solution,DFD
 ,geologic,O
 ,organ,O
 ,.,O
-Sentence 680,sotano,DFD
+Sentence 681,sotano,DFD
 ,:,O
 ,Term,O
 ,used,O
@@ -17036,7 +17061,7 @@ Sentence 680,sotano,DFD
 ,cave,O
 ,.,O
 ,deep,O
-Sentence 681,speleogen,DFD
+Sentence 682,speleogen,DFD
 ,:,O
 ,A,O
 ,secondary,O
@@ -17056,7 +17081,7 @@ Sentence 681,speleogen,DFD
 ,scallop,O
 ,.,O
 ,cave,O
-Sentence 682,speleology,DFD
+Sentence 683,speleology,DFD
 ,:,O
 ,The,O
 ,scientific,GEN
@@ -17072,7 +17097,7 @@ Sentence 682,speleology,DFD
 ,related,O
 ,features,O
 ,.,O
-Sentence 683,speleothem,DFD
+Sentence 684,speleothem,DFD
 ,:,O
 ,A,O
 ,secondary,O
@@ -17093,7 +17118,7 @@ Sentence 683,speleothem,DFD
 ,cave,O
 ,formation,O
 ,.,O
-Sentence 684,Spitzkegelkarst,DFD
+Sentence 685,Spitzkegelkarst,DFD
 ,:,O
 ,Tropical,O
 ,karst,GEN
@@ -17107,7 +17132,7 @@ Sentence 684,Spitzkegelkarst,DFD
 ,.,O
 ,sharply,O
 ,pointed,O
-Sentence 685,splash,DFD
+Sentence 686,splash,DFD
 ,cup,DFD
 ,:,O
 ,The,O
@@ -17120,7 +17145,7 @@ Sentence 685,splash,DFD
 ,a,O
 ,stalagmite,O
 ,.,O
-Sentence 686,spongework,DFD
+Sentence 687,spongework,DFD
 ,:,O
 ,A,O
 ,complex,O
@@ -17143,7 +17168,7 @@ Sentence 686,spongework,DFD
 ,or,O
 ,small,O
 ,.,O
-Sentence 687,spring,DFD
+Sentence 688,spring,DFD
 ,:,O
 ,Any,O
 ,natural,O
@@ -17168,7 +17193,7 @@ Sentence 687,spring,DFD
 ,surface,O
 ,water,O
 ,.,O
-Sentence 688,squeeze,DFD
+Sentence 689,squeeze,DFD
 ,:,O
 ,A,O
 ,narrow,O
@@ -17194,7 +17219,7 @@ Sentence 688,squeeze,DFD
 ,any,O
 ,direction,O
 ,.,O
-Sentence 689,stagmalite,DFD
+Sentence 690,stagmalite,DFD
 ,:,O
 ,A,O
 ,general,O
@@ -17208,7 +17233,7 @@ Sentence 689,stagmalite,DFD
 ,by,O
 ,dripstone,O
 ,.,O
-Sentence 690,stalactite,DFD
+Sentence 691,stalactite,DFD
 ,:,O
 ,A,O
 ,cylindrical,O
@@ -17243,7 +17268,7 @@ Sentence 690,stalactite,DFD
 ,its,O
 ,center,O
 ,.,O
-Sentence 691,stalagmite,DFD
+Sentence 692,stalagmite,DFD
 ,:,O
 ,A,O
 ,deposit,O
@@ -17272,7 +17297,7 @@ Sentence 691,stalagmite,DFD
 ,CO2,O
 ,.,O
 ,cave,O
-Sentence 692,steephead,DFD
+Sentence 693,steephead,DFD
 ,:,O
 ,A,O
 ,deeply,O
@@ -17301,7 +17326,7 @@ Sentence 692,steephead,DFD
 ,may,O
 ,emerge,O
 ,.,O
-Sentence 693,straw,DFD
+Sentence 694,straw,DFD
 ,stalactite,DFD
 ,:,O
 ,Thin,O
@@ -17326,7 +17351,7 @@ Sentence 693,straw,DFD
 ,soda,O
 ,straw,O
 ,.,O
-Sentence 694,straw,DFD
+Sentence 695,straw,DFD
 ,stalactite,GEN
 ,:,O
 ,Thin,O
@@ -17351,7 +17376,7 @@ Sentence 694,straw,DFD
 ,soda,DFD
 ,straw,O
 ,.,O
-Sentence 695,stream,DFD
+Sentence 696,stream,DFD
 ,sink,DFD
 ,:,O
 ,Point,O
@@ -17365,7 +17390,7 @@ Sentence 695,stream,DFD
 ,the,O
 ,ground,O
 ,.,O
-Sentence 696,streamtube,DFD
+Sentence 697,streamtube,DFD
 ,:,O
 ,A,O
 ,cave,O
@@ -17389,7 +17414,7 @@ Sentence 696,streamtube,DFD
 ,possess,O
 ,scallops,O
 ,.,O
-Sentence 697,struga,DFD
+Sentence 698,struga,DFD
 ,:,O
 ,A,O
 ,corridor,GEN
@@ -17402,7 +17427,7 @@ Sentence 697,struga,DFD
 ,karst,O
 ,country,O
 ,.,O
-Sentence 698,subjacent,DFD
+Sentence 699,subjacent,DFD
 ,karst,DFD
 ,:,O
 ,Karst,GEN
@@ -17421,7 +17446,7 @@ Sentence 698,subjacent,DFD
 ,surface,O
 ,formation,O
 ,.,O
-Sentence 699,submarine,DFD
+Sentence 700,submarine,DFD
 ,spring,DFD
 ,:,O
 ,Large,O
@@ -17442,7 +17467,7 @@ Sentence 699,submarine,DFD
 ,of,O
 ,lava,O
 ,.,O
-Sentence 700,subsidence,DFD
+Sentence 701,subsidence,DFD
 ,:,O
 ,Lowering,O
 ,of,O
@@ -17469,7 +17494,7 @@ Sentence 700,subsidence,DFD
 ,of,O
 ,caves,O
 ,.,O
-Sentence 701,subterranean,DFD
+Sentence 702,subterranean,DFD
 ,river,DFD
 ,:,O
 ,Underground,GEN
@@ -17482,7 +17507,7 @@ Sentence 701,subterranean,DFD
 ,necessarily,O
 ,large,O
 ,.,O
-Sentence 702,sump,DFD
+Sentence 703,sump,DFD
 ,:,O
 ,A,O
 ,pool,O
@@ -17510,7 +17535,7 @@ Sentence 702,sump,DFD
 ,been,O
 ,determined,O
 ,.,O
-Sentence 703,swallet,O
+Sentence 704,swallet,O
 ,",",O
 ,swallow,DFD
 ,hole,DFD
@@ -17562,7 +17587,7 @@ Sentence 703,swallet,O
 ,no,O
 ,depression,O
 ,.,O
-Sentence 704,swallet,DFD
+Sentence 705,swallet,DFD
 ,",",O
 ,swallow,O
 ,hole,O
@@ -17614,7 +17639,7 @@ Sentence 704,swallet,DFD
 ,no,O
 ,depression,O
 ,.,O
-Sentence 705,syngenetic,DFD
+Sentence 706,syngenetic,DFD
 ,karst,DFD
 ,:,O
 ,Karst,GEN
@@ -17635,7 +17660,7 @@ Sentence 705,syngenetic,DFD
 ,occurred,O
 ,simultaneously,O
 ,.,O
-Sentence 706,terraced,DFD
+Sentence 707,terraced,DFD
 ,flowstone,DFD
 ,:,O
 ,Shallow,O
@@ -17645,7 +17670,7 @@ Sentence 706,terraced,DFD
 ,outward-sloping,O
 ,walls,O
 ,.,O
-Sentence 707,threshold,DFD
+Sentence 708,threshold,DFD
 ,:,O
 ,That,O
 ,part,O
@@ -17661,7 +17686,7 @@ Sentence 707,threshold,DFD
 ,some,O
 ,degree,O
 ,.,O
-Sentence 708,through,DFD
+Sentence 709,through,DFD
 ,cave,DFD
 ,:,O
 ,Cave,GEN
@@ -17683,7 +17708,7 @@ Sentence 708,through,DFD
 ,:,O
 ,Durchgangshohle,O
 ,.,O
-Sentence 709,through,O
+Sentence 710,through,O
 ,cave,O
 ,:,O
 ,Cave,GEN
@@ -17705,7 +17730,7 @@ Sentence 709,through,O
 ,:,O
 ,Durchgangshohle,DFD
 ,.,O
-Sentence 710,torca,DFD
+Sentence 711,torca,DFD
 ,:,O
 ,Large,O
 ,closed,GEN
@@ -17719,7 +17744,7 @@ Sentence 710,torca,DFD
 ,a,O
 ,doline,O
 ,.,O
-Sentence 711,torricellian,DFD
+Sentence 712,torricellian,DFD
 ,chamber,DFD
 ,:,O
 ,A,O
@@ -17752,7 +17777,7 @@ Sentence 711,torricellian,DFD
 ,air-water,O
 ,surfaces,O
 ,.,O
-Sentence 712,tourelle,DFD
+Sentence 713,tourelle,DFD
 ,:,O
 ,A,O
 ,little,O
@@ -17787,7 +17812,7 @@ Sentence 712,tourelle,DFD
 ,rounded,O
 ,tops,O
 ,.,O
-Sentence 713,tower,DFD
+Sentence 714,tower,DFD
 ,karst,DFD
 ,",",O
 ,Turmkarst,O
@@ -17822,7 +17847,7 @@ Sentence 713,tower,DFD
 ,flat,O
 ,tops,O
 ,.,O
-Sentence 714,tower,O
+Sentence 715,tower,O
 ,karst,O
 ,",",O
 ,Turmkarst,DFD
@@ -17857,7 +17882,7 @@ Sentence 714,tower,O
 ,flat,O
 ,tops,O
 ,.,O
-Sentence 715,travertine,DFD
+Sentence 716,travertine,DFD
 ,:,O
 ,Calcium,GEN
 ,carbonate,GEN
@@ -17918,7 +17943,7 @@ Sentence 715,travertine,DFD
 ,cave,O
 ,onyx,O
 ,.,O
-Sentence 716,tube,DFD
+Sentence 717,tube,DFD
 ,:,O
 ,A,O
 ,smooth-surfaced,O
@@ -17932,7 +17957,7 @@ Sentence 716,tube,DFD
 ,cross,O
 ,section,O
 ,.,O
-Sentence 717,turlough,DFD
+Sentence 718,turlough,DFD
 ,:,O
 ,A,O
 ,depression,GEN
@@ -17960,7 +17985,7 @@ Sentence 717,turlough,DFD
 ,ground,O
 ,water,O
 ,.,O
-Sentence 718,uvala,DFD
+Sentence 719,uvala,DFD
 ,:,O
 ,Large,O
 ,closed,O
@@ -17977,7 +18002,7 @@ Sentence 718,uvala,DFD
 ,doline,O
 ,.,O
 ,depression,O
-Sentence 719,vadose,DFD
+Sentence 720,vadose,DFD
 ,water,DFD
 ,:,O
 ,Water,GEN
@@ -17996,7 +18021,7 @@ Sentence 719,vadose,DFD
 ,.,O
 ,aeration,O
 ,saturation,O
-Sentence 720,valley,DFD
+Sentence 721,valley,DFD
 ,sink,DFD
 ,:,O
 ,An,O
@@ -18013,7 +18038,7 @@ Sentence 720,valley,DFD
 ,valleylike,O
 ,depression,O
 ,.,O
-Sentence 721,vauclusian,DFD
+Sentence 722,vauclusian,DFD
 ,spring,DFD
 ,:,O
 ,A,O
@@ -18048,7 +18073,7 @@ Sentence 721,vauclusian,DFD
 ,gushing,O
 ,spring,O
 ,.,O
-Sentence 722,vauclusian,O
+Sentence 723,vauclusian,O
 ,spring,DFD
 ,:,O
 ,A,O
@@ -18083,7 +18108,7 @@ Sentence 722,vauclusian,O
 ,gushing,DFD
 ,spring,O
 ,.,O
-Sentence 723,wall,DFD
+Sentence 724,wall,DFD
 ,slab,DFD
 ,:,O
 ,A,O
@@ -18114,7 +18139,7 @@ Sentence 723,wall,DFD
 ,nearly,O
 ,vertical,O
 ,.,O
-Sentence 724,water,DFD
+Sentence 725,water,DFD
 ,trap,DFD
 ,:,O
 ,A,O
@@ -18143,7 +18168,7 @@ Sentence 724,water,DFD
 ,:,O
 ,trap,O
 ,.,O
-Sentence 725,well,DFD
+Sentence 726,well,DFD
 ,:,O
 ,A,O
 ,shaft,GEN
@@ -18164,7 +18189,7 @@ Sentence 725,well,DFD
 ,or,O
 ,minerals,O
 ,.,O
-Sentence 726,well,DFD
+Sentence 727,well,DFD
 ,:,O
 ,A,O
 ,deep,O
@@ -18191,7 +18216,7 @@ Sentence 726,well,DFD
 ,deep,O
 ,vertical,O
 ,rounded,O
-Sentence 727,window,DFD
+Sentence 728,window,DFD
 ,:,O
 ,In,O
 ,speleology,O
@@ -18228,7 +18253,7 @@ Sentence 727,window,DFD
 ,a,O
 ,porthole,O
 ,.,O
-Sentence 728,window,DFD
+Sentence 729,window,DFD
 ,:,O
 ,The,O
 ,opening,GEN
@@ -18243,7 +18268,7 @@ Sentence 728,window,DFD
 ,.,O
 ,small,O
 ,natural,O
-Sentence 729,zanjon,DFD
+Sentence 730,zanjon,DFD
 ,:,O
 ,In,O
 ,Puerto,O
@@ -18289,7 +18314,7 @@ Sentence 729,zanjon,DFD
 ,by,O
 ,solution,O
 ,.,O
-Sentence 730,zone,DFD
+Sentence 731,zone,DFD
 ,of,DFD
 ,aeration,DFD
 ,:,O
@@ -18315,7 +18340,7 @@ Sentence 730,zone,DFD
 ,vadose,O
 ,water,O
 ,.,O
-Sentence 731,Zwischenhohle,DFD
+Sentence 732,Zwischenhohle,DFD
 ,:,O
 ,Cave,GEN
 ,in,O
@@ -18351,7 +18376,7 @@ Sentence 731,Zwischenhohle,DFD
 ,to,O
 ,daylight,O
 ,.,O
-Sentence 732,Jamas,DFD
+Sentence 733,Jamas,DFD
 ,are,O
 ,shafts,GEN
 ,of,O
@@ -18365,7 +18390,7 @@ Sentence 732,Jamas,DFD
 ,carbonate,O
 ,massive,O
 ,.,O
-Sentence 733,The,O
+Sentence 734,The,O
 ,zone,DFD
 ,of,DFD
 ,vertical,DFD
@@ -18397,7 +18422,7 @@ Sentence 733,The,O
 ,groundwater,O
 ,level,O
 ,.,O
-Sentence 734,Mines,DFD
+Sentence 735,Mines,DFD
 ,are,O
 ,fresh,O
 ,excavations,GEN
@@ -18434,7 +18459,7 @@ Sentence 734,Mines,DFD
 ,1993,O
 ,),O
 ,.,O
-Sentence 735,Mineral,GEN
+Sentence 736,Mineral,GEN
 ,deposits,GEN
 ,take,O
 ,on,O
@@ -18455,7 +18480,7 @@ Sentence 735,Mineral,GEN
 ,as,O
 ,speleothems,DFD
 ,.,O
-Sentence 736,The,O
+Sentence 737,The,O
 ,underground,GEN
 ,pathways,GEN
 ,in,O
@@ -18479,7 +18504,7 @@ Sentence 736,The,O
 ,as,O
 ,conduits,DFD
 ,.,O
-Sentence 737,A,O
+Sentence 738,A,O
 ,typical,O
 ,aeolian,DFD
 ,cave,DFD
@@ -18491,42 +18516,6 @@ Sentence 737,A,O
 ,in,O
 ,solid,O
 ,rock,O
-,.,O
-Sentence 738,Lava,O
-,conduits,O
-,(,O
-,also,O
-,known,O
-,as,O
-,tubes,DFD
-,",",O
-,tunnels,DFD
-,",",O
-,or,O
-,pyroducts,DFD
-,),O
-,form,O
-,on,O
-,the,O
-,sides,O
-,of,O
-,volcanoes,O
-,within,O
-,streams,O
-,of,O
-,lava,O
-,by,O
-,a,O
-,process,O
-,called,O
-,inflation,O
-,or,O
-,by,O
-,the,O
-,crusting,O
-,over,O
-,of,O
-,channels,O
 ,.,O
 Sentence 739,Lava,DFD
 ,conduits,DFD
@@ -18564,7 +18553,79 @@ Sentence 739,Lava,DFD
 ,of,O
 ,channels,O
 ,.,O
-Sentence 740,Biofilms,O
+Sentence 740,Lava,O
+,conduits,O
+,(,O
+,also,O
+,known,O
+,as,O
+,tubes,DFD
+,",",O
+,tunnels,DFD
+,",",O
+,or,O
+,pyroducts,O
+,),O
+,form,O
+,on,O
+,the,O
+,sides,O
+,of,O
+,volcanoes,O
+,within,O
+,streams,O
+,of,O
+,lava,O
+,by,O
+,a,O
+,process,O
+,called,O
+,inflation,O
+,or,O
+,by,O
+,the,O
+,crusting,O
+,over,O
+,of,O
+,channels,O
+,.,O
+Sentence 741,Lava,O
+,conduits,O
+,(,O
+,also,O
+,known,O
+,as,O
+,tubes,O
+,",",O
+,tunnels,O
+,",",O
+,or,O
+,pyroducts,DFD
+,),O
+,form,O
+,on,O
+,the,O
+,sides,O
+,of,O
+,volcanoes,O
+,within,O
+,streams,O
+,of,O
+,lava,O
+,by,O
+,a,O
+,process,O
+,called,O
+,inflation,O
+,or,O
+,by,O
+,the,O
+,crusting,O
+,over,O
+,of,O
+,channels,O
+,.,O
+Sentence 742,Biofilms,O
 ,on,O
 ,subaerial,O
 ,cave-wall,O
@@ -18592,7 +18653,7 @@ Sentence 740,Biofilms,O
 ,sulfidic,O
 ,caves,O
 ,.,O
-Sentence 741,Biofilms,O
+Sentence 743,Biofilms,O
 ,on,O
 ,subaerial,O
 ,cave-wall,DFD
@@ -18620,7 +18681,7 @@ Sentence 741,Biofilms,O
 ,sulfidic,O
 ,caves,O
 ,.,O
-Sentence 742,Biofilms,DFD
+Sentence 744,Biofilms,DFD
 ,on,O
 ,subaerial,O
 ,cave-wall,O
@@ -18648,7 +18709,7 @@ Sentence 742,Biofilms,DFD
 ,sulfidic,O
 ,caves,O
 ,.,O
-Sentence 743,Biofilms,O
+Sentence 745,Biofilms,O
 ,on,O
 ,subaerial,O
 ,cave-wall,O
@@ -18676,14 +18737,14 @@ Sentence 743,Biofilms,O
 ,sulfidic,O
 ,caves,O
 ,.,O
-Sentence 744,The,O
+Sentence 746,The,O
 ,Slav,O
 ,term,O
 ,doline,DFD
 ,means,O
-,ì,O
+,‚Äú,O
 ,depression,O
-,î,O
+,‚Äù,O
 ,and,O
 ,in,O
 ,a,O
@@ -18716,7 +18777,7 @@ Sentence 744,The,O
 ,karst,O
 ,dolines,O
 ,.,O
-Sentence 745,A,O
+Sentence 747,A,O
 ,tiankeng,DFD
 ,is,O
 ,a,O
@@ -18749,7 +18810,7 @@ Sentence 745,A,O
 ,2006,O
 ,),O
 ,.,O
-Sentence 746,A,O
+Sentence 748,A,O
 ,particular,O
 ,type,O
 ,of,O
@@ -18784,7 +18845,7 @@ Sentence 746,A,O
 ,submerged,O
 ,cavities,O
 ,.,O
-Sentence 747,Subsidence,DFD
+Sentence 749,Subsidence,DFD
 ,dolines,DFD
 ,are,O
 ,closed,GEN
@@ -18797,7 +18858,7 @@ Sentence 747,Subsidence,DFD
 ,an,O
 ,area,O
 ,.,O
-Sentence 748,Intersection,DFD
+Sentence 750,Intersection,DFD
 ,dolines,DFD
 ,are,O
 ,depressions,GEN
@@ -18835,7 +18896,7 @@ Sentence 748,Intersection,DFD
 ,chemical,O
 ,erosion,O
 ,.,O
-Sentence 749,A,O
+Sentence 751,A,O
 ,compound,DFD
 ,hollow,DFD
 ,is,O
@@ -18850,7 +18911,7 @@ Sentence 749,A,O
 ,simpler,O
 ,forms,O
 ,.,O
-Sentence 750,A,O
+Sentence 752,A,O
 ,polygenetic,DFD
 ,sink,DFD
 ,is,O
@@ -18870,7 +18931,7 @@ Sentence 750,A,O
 ,morphogenetic,O
 ,process,O
 ,.,O
-Sentence 751,A,O
+Sentence 753,A,O
 ,tecto-karstic,DFD
 ,hollow,DFD
 ,is,O
@@ -18890,7 +18951,7 @@ Sentence 751,A,O
 ,karst,O
 ,processes,O
 ,.,O
-Sentence 752,Poljes,DFD
+Sentence 754,Poljes,DFD
 ,are,O
 ,the,O
 ,largest,O
@@ -18905,7 +18966,7 @@ Sentence 752,Poljes,DFD
 ,largest,O
 ,closed,O
 ,depressions,O
-Sentence 753,In,O
+Sentence 755,In,O
 ,1895,O
 ,",",O
 ,Cvijic,O
@@ -18934,7 +18995,7 @@ Sentence 753,In,O
 ,steep,O
 ,slopes,O
 ,.,O
-Sentence 754,A,O
+Sentence 756,A,O
 ,peripheral,DFD
 ,polje,DFD
 ,is,O
@@ -18955,7 +19016,7 @@ Sentence 754,A,O
 ,stream,O
 ,network,O
 ,.,O
-Sentence 755,A,O
+Sentence 757,A,O
 ,base-level,DFD
 ,polje,DFD
 ,is,O
@@ -18990,7 +19051,7 @@ Sentence 755,A,O
 ,high-level,O
 ,periods,O
 ,.,O
-Sentence 756,The,O
+Sentence 758,The,O
 ,precise,O
 ,scientific,O
 ,name,O
@@ -19008,7 +19069,7 @@ Sentence 756,The,O
 ,of,O
 ,tides,O
 ,.,O
-Sentence 757,Sea,DFD
+Sentence 759,Sea,DFD
 ,caves,DFD
 ,are,O
 ,caves,GEN
@@ -19025,7 +19086,7 @@ Sentence 757,Sea,DFD
 ,exposed,O
 ,bedrock,O
 ,.,O
-Sentence 758,The,O
+Sentence 760,The,O
 ,flank,DFD
 ,margin,DFD
 ,caves,DFD
@@ -19075,7 +19136,7 @@ Sentence 758,The,O
 ,(,O
 ,Fig,O
 ,.,O
-Sentence 759,Blue,DFD
+Sentence 761,Blue,DFD
 ,holes,DFD
 ,are,O
 ,defined,O
@@ -19096,7 +19157,7 @@ Sentence 759,Blue,DFD
 ,to,O
 ,the,O
 ,Earth,O
-,í,O
+,‚Äô,O
 ,s,O
 ,surface,O
 ,;,O
@@ -19132,7 +19193,7 @@ Sentence 759,Blue,DFD
 ,cave,O
 ,passages,O
 ,.,O
-Sentence 760,Limonite,DFD
+Sentence 762,Limonite,DFD
 ,is,O
 ,a,O
 ,generic,O
@@ -19151,7 +19212,7 @@ Sentence 760,Limonite,DFD
 ,and,O
 ,hydroxides,O
 ,.,O
-Sentence 761,The,O
+Sentence 763,The,O
 ,sandstone,DFD
 ,is,O
 ,a,O
@@ -19168,7 +19229,7 @@ Sentence 761,The,O
 ,to,O
 ,erosion,O
 ,.,O
-Sentence 762,Karst,DFD
+Sentence 764,Karst,DFD
 ,forms,DFD
 ,are,O
 ,surface,O
@@ -19201,7 +19262,7 @@ Sentence 762,Karst,DFD
 ,.,O
 ,solutional,O
 ,processes,O
-Sentence 763,Collapse,DFD
+Sentence 765,Collapse,DFD
 ,dolines,DFD
 ,are,O
 ,common,O
@@ -19219,7 +19280,7 @@ Sentence 763,Collapse,DFD
 ,large,O
 ,caves,O
 ,.,O
-Sentence 764,Karst,DFD
+Sentence 766,Karst,DFD
 ,poljes,DFD
 ,are,O
 ,large,O
@@ -19241,7 +19302,7 @@ Sentence 764,Karst,DFD
 ,water,O
 ,drainage,O
 ,.,O
-Sentence 765,Remnants,GEN
+Sentence 767,Remnants,GEN
 ,of,GEN
 ,old,GEN
 ,river,GEN
@@ -19284,7 +19345,7 @@ Sentence 765,Remnants,GEN
 ,lower,O
 ,position,O
 ,.,O
-Sentence 766,Calcretes,DFD
+Sentence 768,Calcretes,DFD
 ,are,O
 ,carbonate,GEN
 ,deposits,GEN
@@ -19308,7 +19369,7 @@ Sentence 766,Calcretes,DFD
 ,near-surface,O
 ,evaporation,O
 ,.,O
-Sentence 767,Riedl,O
+Sentence 769,Riedl,O
 ,defined,O
 ,the,O
 ,marginal,DFD
@@ -19361,7 +19422,7 @@ Sentence 767,Riedl,O
 ,the,O
 ,sea,O
 ,.,O
-Sentence 768,The,O
+Sentence 770,The,O
 ,halocline,DFD
 ,is,O
 ,a,O
@@ -19380,7 +19441,7 @@ Sentence 768,The,O
 ,limnic,O
 ,),O
 ,.,O
-Sentence 769,Glaciers,DFD
+Sentence 771,Glaciers,DFD
 ,are,O
 ,sedimentary,GEN
 ,formations,GEN
@@ -19401,11 +19462,11 @@ Sentence 769,Glaciers,DFD
 ,the,O
 ,previous,O
 ,season,O
-,í,O
+,‚Äô,O
 ,s,O
 ,accumulation,O
 ,.,O
-Sentence 770,Denuded,DFD
+Sentence 772,Denuded,DFD
 ,karst,DFD
 ,is,O
 ,former,GEN
@@ -19442,7 +19503,7 @@ Sentence 770,Denuded,DFD
 ,intrastratal,O
 ,development,O
 ,.,O
-Sentence 771,Open,DFD
+Sentence 773,Open,DFD
 ,karst,DFD
 ,is,O
 ,karst,GEN
@@ -19462,7 +19523,7 @@ Sentence 771,Open,DFD
 ,intrastratal,O
 ,karstification,O
 ,.,O
-Sentence 772,Gypsum,DFD
+Sentence 774,Gypsum,DFD
 ,needles,DFD
 ,are,O
 ,straight,GEN
@@ -19480,7 +19541,7 @@ Sentence 772,Gypsum,DFD
 ,some,O
 ,caves,O
 ,.,O
-Sentence 773,As,O
+Sentence 775,As,O
 ,the,O
 ,name,O
 ,implies,O
@@ -19512,7 +19573,7 @@ Sentence 773,As,O
 ,of,O
 ,micrometers,O
 ,.,O
-Sentence 774,In,O
+Sentence 776,In,O
 ,porous,O
 ,media,O
 ,aquifers,O
@@ -19532,7 +19593,7 @@ Sentence 774,In,O
 ,of,O
 ,water,O
 ,.,O
-Sentence 775,Porosity,DFD
+Sentence 777,Porosity,DFD
 ,is,O
 ,defined,O
 ,as,O
@@ -19557,7 +19618,7 @@ Sentence 775,Porosity,DFD
 ,a,O
 ,percentage,O
 ,.,O
-Sentence 776,Karst,DFD
+Sentence 778,Karst,DFD
 ,springs,DFD
 ,are,O
 ,the,O
@@ -19567,7 +19628,7 @@ Sentence 776,Karst,DFD
 ,conduit,O
 ,systems,O
 ,.,O
-Sentence 777,Hydrothermal,DFD
+Sentence 779,Hydrothermal,DFD
 ,karst,DFD
 ,is,O
 ,a,O
@@ -19577,7 +19638,7 @@ Sentence 777,Hydrothermal,DFD
 ,hypogene,GEN
 ,karst,GEN
 ,.,O
-Sentence 778,Network,DFD
+Sentence 780,Network,DFD
 ,caves,DFD
 ,are,O
 ,angular,GEN
@@ -19600,7 +19661,7 @@ Sentence 778,Network,DFD
 ,soluble,O
 ,rocks,O
 ,.,O
-Sentence 779,A,O
+Sentence 781,A,O
 ,particular,O
 ,type,O
 ,of,O
@@ -19628,7 +19689,7 @@ Sentence 779,A,O
 ,opaque,O
 ,ice,O
 ,.,O
-Sentence 780,Longitudinal,DFD
+Sentence 782,Longitudinal,DFD
 ,rills,DFD
 ,/,O
 ,flutes,O
@@ -19651,7 +19712,7 @@ Sentence 780,Longitudinal,DFD
 ,rock,O
 ,face,O
 ,.,O
-Sentence 781,Longitudinal,O
+Sentence 783,Longitudinal,O
 ,rills,O
 ,/,O
 ,flutes,DFD
@@ -19674,7 +19735,7 @@ Sentence 781,Longitudinal,O
 ,rock,O
 ,face,O
 ,.,O
-Sentence 782,Dissolutional,DFD
+Sentence 784,Dissolutional,DFD
 ,potholes,DFD
 ,are,O
 ,sharp-edged,O
@@ -19685,12 +19746,12 @@ Sentence 782,Dissolutional,DFD
 ,stream,O
 ,beds,O
 ,.,O
-Sentence 783,Scallops,DFD
+Sentence 785,Scallops,DFD
 ,are,O
 ,spoon-shaped,GEN
 ,hollows,GEN
 ,.,O
-Sentence 784,The,O
+Sentence 786,The,O
 ,term,O
 ,anastamose,DFD
 ,refers,O
@@ -19720,7 +19781,7 @@ Sentence 784,The,O
 ,interweaving,O
 ,channels,O
 ,.,O
-Sentence 785,Pendants,DFD
+Sentence 787,Pendants,DFD
 ,are,O
 ,positive,GEN
 ,forms,GEN
@@ -19731,13 +19792,13 @@ Sentence 785,Pendants,DFD
 ,",",O
 ,typically,O
 ,B10,O
-,ó,O
+,‚Äî,O
 ,100,O
 ,cm,O
 ,in,O
 ,dimension,O
 ,.,O
-Sentence 786,Cupolas,DFD
+Sentence 788,Cupolas,DFD
 ,are,O
 ,characteristic,O
 ,features,GEN
@@ -19745,7 +19806,7 @@ Sentence 786,Cupolas,DFD
 ,thermal,GEN
 ,caves,GEN
 ,.,O
-Sentence 787,A,O
+Sentence 789,A,O
 ,cutter,DFD
 ,is,O
 ,a,O
@@ -19777,7 +19838,7 @@ Sentence 787,A,O
 ,rounded,O
 ,pinnacles,O
 ,.,O
-Sentence 788,Regions,GEN
+Sentence 790,Regions,GEN
 ,where,GEN
 ,closed,GEN
 ,depressions,GEN
@@ -19802,7 +19863,7 @@ Sentence 788,Regions,GEN
 ,doline,O
 ,karst,O
 ,.,O
-Sentence 789,Regions,GEN
+Sentence 791,Regions,GEN
 ,where,GEN
 ,closed,GEN
 ,depressions,GEN
@@ -19827,7 +19888,7 @@ Sentence 789,Regions,GEN
 ,doline,DFD
 ,karst,DFD
 ,.,O
-Sentence 790,Caves,DFD
+Sentence 792,Caves,DFD
 ,are,O
 ,natural,O
 ,subterranean,O
@@ -19848,7 +19909,7 @@ Sentence 790,Caves,DFD
 ,exploration,O
 ,.,O
 ,subterranean,O
-Sentence 791,Aragonite,DFD
+Sentence 793,Aragonite,DFD
 ,is,O
 ,the,O
 ,metastable,O
@@ -19880,7 +19941,7 @@ Sentence 791,Aragonite,DFD
 ,often,O
 ,twinned,O
 ,.,O
-Sentence 792,The,O
+Sentence 794,The,O
 ,term,O
 ,wad,DFD
 ,is,O
@@ -19913,7 +19974,7 @@ Sentence 792,The,O
 ,iron,O
 ,oxides,O
 ,.,O
-Sentence 793,The,DFD
+Sentence 795,The,DFD
 ,fracture,DFD
 ,aperture,DFD
 ,d,O
@@ -19944,7 +20005,7 @@ Sentence 793,The,DFD
 ,given,O
 ,fracture,O
 ,.,O
-Sentence 794,Knickpoints,DFD
+Sentence 796,Knickpoints,DFD
 ,are,O
 ,sudden,O
 ,changes,GEN
@@ -19954,7 +20015,7 @@ Sentence 794,Knickpoints,DFD
 ,of,O
 ,a,O
 ,river,O
-,í,O
+,‚Äô,O
 ,s,O
 ,long,O
 ,profile,O
@@ -19980,7 +20041,7 @@ Sentence 794,Knickpoints,DFD
 ,water,O
 ,table,O
 ,.,O
-Sentence 795,A,O
+Sentence 797,A,O
 ,room,DFD
 ,is,O
 ,a,O
@@ -20012,7 +20073,7 @@ Sentence 795,A,O
 ,in,O
 ,shape,O
 ,.,O
-Sentence 796,Pits,DFD
+Sentence 798,Pits,DFD
 ,are,O
 ,the,O
 ,ultimate,O
@@ -20021,7 +20082,7 @@ Sentence 796,Pits,DFD
 ,vadose,GEN
 ,passage,GEN
 ,.,O
-Sentence 797,The,O
+Sentence 799,The,O
 ,term,O
 ,flute,DFD
 ,has,O
@@ -20041,7 +20102,7 @@ Sentence 797,The,O
 ,cave,O
 ,passages,O
 ,.,O
-Sentence 798,The,O
+Sentence 800,The,O
 ,result,O
 ,is,O
 ,the,O
@@ -20073,7 +20134,7 @@ Sentence 798,The,O
 ,light,O
 ,source,O
 ,.,O
-Sentence 799,Visitor,DFD
+Sentence 801,Visitor,DFD
 ,capacity,DFD
 ,is,O
 ,defined,O
@@ -20106,7 +20167,7 @@ Sentence 799,Visitor,DFD
 ,fluctuation,O
 ,range,O
 ,.,O
-Sentence 800,Allogeneic,DFD
+Sentence 802,Allogeneic,DFD
 ,waters,DFD
 ,are,O
 ,defined,O
@@ -20122,7 +20183,7 @@ Sentence 800,Allogeneic,DFD
 ,from,O
 ,nonlocal,O
 ,sources,O
-Sentence 801,Base,DFD
+Sentence 803,Base,DFD
 ,level,DFD
 ,refers,O
 ,to,O
@@ -20137,7 +20198,7 @@ Sentence 801,Base,DFD
 ,stream,GEN
 ,erosion,GEN
 ,.,O
-Sentence 802,A,O
+Sentence 804,A,O
 ,cover-collapse,DFD
 ,sinkhole,DFD
 ,is,O
@@ -20148,7 +20209,7 @@ Sentence 802,A,O
 ,subsidence,GEN
 ,sinkhole,GEN
 ,.,O
-Sentence 803,According,O
+Sentence 805,According,O
 ,to,O
 ,European,O
 ,usage,O
@@ -20168,7 +20229,7 @@ Sentence 803,According,O
 ,and,O
 ,depth,O
 ,.,O
-Sentence 804,According,O
+Sentence 806,According,O
 ,to,O
 ,this,O
 ,concept,O
@@ -20194,7 +20255,7 @@ Sentence 804,According,O
 ,different,O
 ,times,O
 ,.,O
-Sentence 805,A,O
+Sentence 807,A,O
 ,cave,DFD
 ,system,DFD
 ,is,O
@@ -20216,7 +20277,7 @@ Sentence 805,A,O
 ,interconnecting,O
 ,passages,O
 ,.,O
-Sentence 806,Hypogene,DFD
+Sentence 808,Hypogene,DFD
 ,speleogenesis,DFD
 ,is,O
 ,defined,O
@@ -20258,7 +20319,7 @@ Sentence 806,Hypogene,DFD
 ,),O
 ,.,O
 ,water,O
-Sentence 807,Fossil,O
+Sentence 809,Fossil,O
 ,vertically,GEN
 ,extended,GEN
 ,collapse,GEN
@@ -20296,7 +20357,7 @@ Sentence 807,Fossil,O
 ,geological,O
 ,settings,O
 ,.,O
-Sentence 808,Speleogenesis,DFD
+Sentence 810,Speleogenesis,DFD
 ,is,O
 ,a,O
 ,result,O
@@ -20308,7 +20369,7 @@ Sentence 808,Speleogenesis,DFD
 ,by,O
 ,groundwater,O
 ,.,O
-Sentence 809,Speleothems,DFD
+Sentence 811,Speleothems,DFD
 ,are,O
 ,deposits,GEN
 ,of,O
@@ -20332,7 +20393,7 @@ Sentence 809,Speleothems,DFD
 ,of,O
 ,caves,O
 ,.,O
-Sentence 810,Straw,DFD
+Sentence 812,Straw,DFD
 ,stalactites,DFD
 ,are,O
 ,hollow,GEN
@@ -20364,7 +20425,7 @@ Sentence 810,Straw,DFD
 ,calcite,O
 ,crystals,O
 ,.,O
-Sentence 811,Helictites,DFD
+Sentence 813,Helictites,DFD
 ,are,O
 ,an,O
 ,erratic,O
@@ -20384,7 +20445,7 @@ Sentence 811,Helictites,DFD
 ,to,O
 ,form,O
 ,.,O
-Sentence 812,Cave,DFD
+Sentence 814,Cave,DFD
 ,pearls,DFD
 ,are,O
 ,near-spherical,O
