@@ -595,11 +595,12 @@ def main():
 
     for conf in train_config:
         experiment_dir = os.path.join('data', 'experiments', conf['experiment'])
+        Path(experiment_dir, conf['model_name']).mkdir(parents=False, exist_ok=True)
         df_train = pd.read_csv(os.path.join(experiment_dir, 'train.csv'))
         test_file_path = os.path.join(experiment_dir, 'test.csv')
         model_path = os.path.join(experiment_dir, conf['model_name'], 'model.pt')
         if not os.path.exists(model_path):
-            json.dump(conf, open(os.path.join(experiment_dir, conf['model_name'], 'config_dict.json')))
+            json.dump(conf, open(os.path.join(experiment_dir, conf['model_name'], 'config_dict.json'), 'w'))
             tokenizer = get_tokenizer(conf['tokenizer_id'])
             if os.path.exists(test_file_path):
                 df_test = pd.read_csv(test_file_path)
@@ -612,7 +613,7 @@ def main():
             model_object = get_model_object(conf['model_id'], label2code)
             model = train_model(model_object, train_dataloader, valid_dataloader, code2label, conf['epochs'])
             # create model dir if it doesn't exist
-            Path(experiment_dir, conf['model_name']).mkdir(parents=False, exist_ok=True)
+
             torch.save(model, model_path)
 
             # TEST
