@@ -95,6 +95,7 @@ train_config = [
 """
 
 
+
 def get_tokenizer(tokenizer_id):
     tokenizer = None
     if tokenizer_id == 'Bert_base-cased':
@@ -582,6 +583,8 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
     return model
 
 
+FORCE = True
+
 def main():
     check_config(train_config)
     if torch.cuda.is_available():
@@ -599,8 +602,9 @@ def main():
         df_train = pd.read_csv(os.path.join(experiment_dir, 'train.csv'))
         test_file_path = os.path.join(experiment_dir, 'test.csv')
         model_path = os.path.join(experiment_dir, conf['model_name'], 'model.pt')
-        if not os.path.exists(model_path):
-            json.dump(conf, open(os.path.join(experiment_dir, conf['model_name'], 'config_dict.json'), 'w'))
+        if not os.path.exists(model_path) or FORCE:
+            print(f'TRAINING {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
+            json.dump(conf, open(os.path.join(experiment_dir, conf['model_name'], 'config_dict.json'), 'w'), indent=4)
             tokenizer = get_tokenizer(conf['tokenizer_id'])
             if os.path.exists(test_file_path):
                 df_test = pd.read_csv(test_file_path)
@@ -652,7 +656,9 @@ def main():
             results_predicted = [[code2label[p_i] for (p_i, l_i) in zip(p, l) if code2label[l_i] != "PAD"]
                                  for p, l in zip(predictions, true_labels)]
             results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"] for l in true_labels]
-            print(classification_report(results_true, results_predicted))
+            report = classification_report(results_true, results_predicted)
+            with open(os.path.join(experiment_dir, conf['model_name'], 'results.txt'), 'w') as fl:
+                fl.write(report)
 
             tokens = []
             tags = []
