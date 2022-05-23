@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-
+import json
 import torch
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 
@@ -48,9 +48,9 @@ train_config = [
      'max_length': 128,
      'batch_size': 8,
      'epochs': 5},
-    
-    
-    
+
+
+
     {'experiment': 'SL_def+gen',
      'model_name': 'Bert_base-cased_00',
      'tokenizer_id': 'Bert_base-cased',
@@ -82,8 +82,8 @@ train_config = [
      'max_length': 128,
      'batch_size': 6,
      'epochs': 6},
-    
-    
+
+
     {'experiment': 'HR_def+gen',
      'model_name': 'CroSloEngual',
      'tokenizer_id': 'CroSloEngual',
@@ -123,11 +123,11 @@ def get_tokenizer(tokenizer_id):
     tokenizer = None
     if tokenizer_id == 'Bert_base-cased' :
         tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
-    elif tokenizer_id == 'Scibert-cased' :
+    elif tokenizer_id == 'Scibert-cased':
         tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_cased', do_lower_case=False)
-    elif tokenizer_id == 'sloBERTa' :
+    elif tokenizer_id == 'sloBERTa':
         tokenizer = AutoTokenizer.from_pretrained('EMBEDDIA/sloberta', do_lower_case=False)
-    elif tokenizer_id == 'CroSloEngual' :
+    elif tokenizer_id == 'CroSloEngual':
         tokenizer = BertTokenizer.from_pretrained('EMBEDDIA/crosloengual-bert', do_lower_case=False)
     return tokenizer
 
@@ -141,29 +141,46 @@ def get_model_object(model_id, label2code):
             output_attentions=False,
             output_hidden_states=False
         )
-    elif model_id == 'Scibert-cased' :
+    elif model_id == 'Scibert-cased':
         model = BertForTokenClassification.from_pretrained(
             "allenai/scibert_scivocab_cased",
             num_labels=len(label2code),
             output_attentions=False,
             output_hidden_states=False
         )
-    elif model_id == 'sloBERTa' :
+    elif model_id == 'sloBERTa':
         model = BertForTokenClassification.from_pretrained(
             "EMBEDDIA/sloberta",
             num_labels=len(label2code),
             output_attentions=False,
             output_hidden_states=False
         )
-    elif model_id == 'CroSloEngual' :
+    elif model_id == 'CroSloEngual':
         model = BertForTokenClassification.from_pretrained(
             "EMBEDDIA/crosloengual-bert",
             num_labels=len(label2code),
             output_attentions=False,
             output_hidden_states=False
         )
-        
+
     return model
+
+
+def check_config(configs):
+    must_have_keys = ['experiment', 'model_name', 'tokenizer_id', 'model_id', 'max_length', 'batch_size', 'epochs']
+    experiments = {}
+    for conf in configs:
+        for key in must_have_keys:
+            if key not in conf:
+                raise KeyError(f'Missing key in the config dictionary: {key} not found in  {conf}')
+        if conf['experiment'] not in experiments:
+            experiments[conf['experiment']] = set()
+        if conf['model_name'] in experiments[conf['experiment']]:
+            raise NameError(
+                f'This model is already a part of an experiment: {conf["model_name"]} already in {conf["experiment"]}')
+        experiments[conf['experiment']].add(conf['model_name'])
+    return True
+
 
 def group_predictions(tokens, tags):
     new_tokens = []
@@ -470,9 +487,9 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
             # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
             # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
-            b_input_ids = b_input_ids.clone().detach().type(torch.LongTensor).to(device)
-            b_input_mask = b_input_mask.clone().detach().type(torch.LongTensor).to(device)
-            b_labels = b_labels.clone().detach().type(torch.LongTensor).to(device)
+            b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
+            b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
+            b_labels = b_labels.clone().detach().type(torch.long).to(device)
 
             outputs = model(b_input_ids, token_type_ids=None,
                             attention_mask=b_input_mask, labels=b_labels)
@@ -521,9 +538,9 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
             # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
             # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
-            b_input_ids = b_input_ids.clone().detach().type(torch.LongTensor).to(device)
-            b_input_mask = b_input_mask.clone().detach().type(torch.LongTensor).to(device)
-            b_labels = b_labels.clone().detach().type(torch.LongTensor).to(device)
+            b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
+            b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
+            b_labels = b_labels.clone().detach().type(torch.long).to(device)
 
             # Telling the model not to compute or store gradients,
             # saving memory and speeding up validation
@@ -589,7 +606,10 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
     return model
 
 
+FORCE = True
+
 def main():
+    check_config(train_config)
     if torch.cuda.is_available():
         for i in range(torch.cuda.device_count()):
             print(f"Found GPU device: {torch.cuda.get_device_name(i)}")
@@ -600,12 +620,14 @@ def main():
     print(device)
 
     for conf in train_config:
-        print(conf)
         experiment_dir = os.path.join('data', 'experiments', conf['experiment'])
+        Path(experiment_dir, conf['model_name']).mkdir(parents=False, exist_ok=True)
         df_train = pd.read_csv(os.path.join(experiment_dir, 'train.csv'))
         test_file_path = os.path.join(experiment_dir, 'test.csv')
         model_path = os.path.join(experiment_dir, conf['model_name'], 'model.pt')
-        if not os.path.exists(model_path):
+        if not os.path.exists(model_path) or FORCE:
+            print(f'TRAINING {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
+            json.dump(conf, open(os.path.join(experiment_dir, conf['model_name'], 'config_dict.json'), 'w'), indent=4)
             tokenizer = get_tokenizer(conf['tokenizer_id'])
             if os.path.exists(test_file_path):
                 df_test = pd.read_csv(test_file_path)
@@ -618,7 +640,7 @@ def main():
             model_object = get_model_object(conf['model_id'], label2code)
             model = train_model(model_object, train_dataloader, valid_dataloader, code2label, conf['epochs'])
             # create model dir if it doesn't exist
-            Path(experiment_dir, conf['model_name']).mkdir(parents=False, exist_ok=True)
+
             torch.save(model, model_path)
 
             # TEST
@@ -633,9 +655,9 @@ def main():
                 # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
                 # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
-                b_input_ids = b_input_ids.clone().detach().type(torch.LongTensor).to(device)
-                b_input_mask = b_input_mask.clone().detach().type(torch.LongTensor).to(device)
-                b_labels = b_labels.clone().detach().type(torch.LongTensor).to(device)
+                b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
+                b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
+                b_labels = b_labels.clone().detach().type(torch.long).to(device)
 
                 b_input_ids.to(device)
                 b_input_mask.to(device)
@@ -657,7 +679,9 @@ def main():
             results_predicted = [[code2label[p_i] for (p_i, l_i) in zip(p, l) if code2label[l_i] != "PAD"]
                                  for p, l in zip(predictions, true_labels)]
             results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"] for l in true_labels]
-            print(classification_report(results_true, results_predicted))
+            report = classification_report(results_true, results_predicted)
+            with open(os.path.join(experiment_dir, conf['model_name'], 'results.txt'), 'w') as fl:
+                fl.write(report)
 
             tokens = []
             tags = []
@@ -669,6 +693,7 @@ def main():
                 tags.extend(new_tags)
             ann_df = pd.DataFrame(data={'Sentence': sentence_ids, 'Word': tokens, 'Tag': tags})
             ann_df.to_csv(os.path.join(experiment_dir, conf['model_name'], 'annotation.csv'), index=False)
+
 
 if __name__ == '__main__':
     main()
