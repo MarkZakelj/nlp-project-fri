@@ -620,7 +620,7 @@ def main():
                                  for p, l in zip(predictions, true_labels)]
             results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"] for l in true_labels]
             report = classification_report(results_true, results_predicted)
-            with open(os.path.join(experiment_dir, conf['model_id'], 'results.txt'), 'w') as fl:
+            with open(os.path.join(experiment_dir, model_id_path, 'results.txt'), 'w') as fl:
                 fl.write(report)
 
             tokens = []
