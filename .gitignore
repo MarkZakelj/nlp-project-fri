@@ -3,4 +3,4 @@ __pycache__
 model/*
 .ipynb_checkpoints/
 data/experiments
-data/*.csv
+data/*
