@@ -150,19 +150,19 @@ def concatenate_groups(groups):
     # concatenate all term-frames into single pandas dataframe
     df_full = None
     for i, sentence in enumerate(groups):
-        df = sentence.iloc[:, [1, 4, 5]].copy()
+        df = sentence.iloc[:, [1, 3, 4, 5, 6]].copy()
         df.loc[:, 1] = i
         if df_full is None:
             df_full = df
         else:
             df_full = pd.concat([df_full, df], axis=0)
-    for col_num in [5, 6]:
-        # get rid of '\' character in the tag
+    for col_num in [4, 5, 6, 7]:
+        # get rid of '\' character in the tag and [<num>]
         df_full[col_num] = df_full[col_num].apply(
-            lambda x: x[:x.find('[')].replace('\\', '') if not type(x) == float else x)
+            lambda x: x[:x.find('[')].replace('\\', '').replace(' ', '_') if not type(x) == float else x)
 
-    df_full = df_full.reset_index(drop=True).iloc[:, [3, 0, 1, 2]]
-    df_full.columns = ['Sentence', 'Word', 'hierarchical', 'non-hierarchical']
+    df_full = df_full.reset_index(drop=True).loc[:, [1, 2, 4, 5, 6, 7]]
+    df_full.columns = ['Sentence', 'Word', 'category', 'hierarchical', 'non-hierarchical', 'non-hierarchical-definitor']
     return df_full
 
 
@@ -178,6 +178,12 @@ def main():
     datalines, groups = read_data(tsv_file_or_folder, extensions=['.tsv'])
     df_full = concatenate_groups(groups)
     df_full.to_csv('data/full_data_SL.csv', index=False)
+
+    # First batch of karst definitions SL:
+    tsv_file_or_folder = 'data/Termframe/AnnotatedDefinitions/HR'
+    datalines, groups = read_data(tsv_file_or_folder, extensions=['.tsv'])
+    df_full = concatenate_groups(groups)
+    df_full.to_csv('data/full_data_HR.csv', index=False)
 
     # New Definitions - used for testing
     tsv_file_or_folder = 'data/Termframe/NewDefinitions/en'
