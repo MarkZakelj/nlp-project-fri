@@ -26,14 +26,15 @@ train_config = [
     {'experiment': 'EN_def+gen+definitor_btag',
      'model_id': 'bert-base-cased',
      'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
+     'batch_size': 4,
+     'epochs': 4},
     {'experiment': 'EN_def+gen+definitor_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-
+     'batch_size': 4,
+     'epochs': 4}
+    ]
+"""
     {'experiment': 'EN_def+gen_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
@@ -80,7 +81,7 @@ train_config = [
      'batch_size': 6,
      'epochs': 6},
 ]
-
+"""
 
 def get_tokenizer_object(model_id):
     tokenizer = AutoTokenizer.from_pretrained(model_id, do_lower_case=False)
@@ -97,14 +98,14 @@ def get_model_object(model_id, label2code):
     return model
 
 
-def model_id_to_path(model_id):
+def model_id_to_path(model_id) :
     """prepare model_id so it can be a name of one directory - character / will create two directories
     example: EMBEDDIA/sloberta --> EMBEDDIA_sloberta"""
     model_path = model_id.replace('/', '_')
     return model_path
 
 
-def check_config(configs):
+def check_config(configs) :
     must_have_keys = ['experiment', 'model_id', 'max_length', 'batch_size', 'epochs']
     experiments = {}
     for conf in configs:
