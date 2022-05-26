@@ -71,13 +71,13 @@ def get_label(args):
 
 def compute_metrics(preds, labels, label_list):
     assert len(preds) == len(labels)
-    f1 = metrics.f1_score(labels, preds, average='macro')
-    pr = metrics.precision_score(labels, preds, average='macro')
-    re = metrics.recall_score(labels, preds, average='macro')
+    f1 = metrics.f1_score(labels, preds, average='macro', zero_division=0)
+    pr = metrics.precision_score(labels, preds, average='macro', zero_division=0)
+    re = metrics.recall_score(labels, preds, average='macro', zero_division=0)
     
-    f1_all = metrics.f1_score(labels, preds, average=None)
-    pr_all = metrics.precision_score(labels, preds, average=None)
-    re_all = metrics.recall_score(labels, preds, average=None)
+    f1_all = metrics.f1_score(labels, preds, average=None, zero_division=0)
+    pr_all = metrics.precision_score(labels, preds, average=None, zero_division=0)
+    re_all = metrics.recall_score(labels, preds, average=None, zero_division=0)
     
     result = {"acc": simple_accuracy(preds, labels),
               "f1" : f1,
@@ -378,7 +378,7 @@ def main():
     print(device)
     
     do_train = True
-    do_test = True
+    do_test = False
 
     for conf in train_config:
         conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], model_id_to_path(conf['model_id']))
