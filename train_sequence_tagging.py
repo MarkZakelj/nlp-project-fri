@@ -568,8 +568,9 @@ def main():
         df_train = pd.read_csv(os.path.join(experiment_dir, 'train.csv'))
         test_file_path = os.path.join(experiment_dir, 'test.csv')
         model_path = os.path.join(experiment_dir, model_id_path, 'model.pt')
-        if not os.path.exists(model_path) or FORCE:
-            print(f"""TRAINING {conf["model_id"]} on experiment: {conf["experiment"]}""")
+        anno_path = os.path.join(experiment_dir, model_id_path, 'annotation.csv')
+
+        if not os.path.exists(model_path) or (not os.path.exists(anno_path) and os.path.exists(model_path)) or FORCE:
             json.dump(conf, open(os.path.join(experiment_dir, model_id_path, 'config_dict.json'), 'w'), indent=4)
             tokenizer = get_tokenizer_object(conf['model_id'])
             if os.path.exists(test_file_path):
@@ -580,14 +581,18 @@ def main():
                 train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, test_sentences = load_data(
                     tokenizer, df_train, conf['batch_size'], conf['max_length'])
 
+        if not os.path.exists(model_path) or FORCE:
+            print(f"""TRAINING {conf["model_id"]} on experiment: {conf["experiment"]}""")
             model_object = get_model_object(conf['model_id'], label2code)
             model = train_model(model_object, train_dataloader, valid_dataloader, code2label, conf['epochs'])
 
             torch.save(model, model_path)
 
+        if (not os.path.exists(anno_path) and os.path.exists(model_path)) or FORCE:
             # TEST
             if not os.path.exists(test_file_path):
                 continue
+            print(f"""TESTING {conf["model_id"]} on experiment: {conf["experiment"]}""")
             model = torch.load(model_path, map_location=device)
             predictions, true_labels = [], []
             sentences = []

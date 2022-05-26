@@ -131,7 +131,7 @@ def prepare_experiment(config: dict, as_test=False):
     btag_name = "_btag" if config['B-tags'] else ''
     experiment_name = f"{language}_{config['name']}{btag_name}"
     # create experiment dir if it doesnt exsist
-    Path('data', 'experiments', experiment_name).mkdir(parents=False, exist_ok=True)
+    Path('data', 'experiments', experiment_name).mkdir(parents=True, exist_ok=True)
     out_filename = 'test.csv' if as_test else 'train.csv'
     df_with_tag.to_csv(os.path.join('data', 'experiments', experiment_name, out_filename), index=False)
 
