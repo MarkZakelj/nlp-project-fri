@@ -50,14 +50,6 @@ train_config = [
      'max_length': 128,
      'batch_size': 4,
      'epochs': 5},
-
-    {'experiment': 'SL_reg_nonhier+def',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 5},
     
     {'experiment': 'SL_reg_nonhier+def',
      'model_name': 'CroSloEngual',
@@ -65,7 +57,17 @@ train_config = [
      'model_id': 'CroSloEngual',
      'max_length': 128,
      'batch_size': 4,
+     'epochs': 5},
+
+    {'experiment': 'SL_reg_nonhier+def',
+     'model_name': 'Bert_base-cased_00',
+     'tokenizer_id': 'Bert_base-cased',
+     'model_id': 'Bert_base-cased',
+     'max_length': 128,
+     'batch_size': 4,
      'epochs': 5}
+    
+    
 ]
 
 
@@ -407,8 +409,8 @@ def main():
 
     print(device)
     
-    do_train = False
-    do_test = True
+    do_train = True
+    do_test = False
 
     for conf in train_config:
         conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], conf['model_name'])
