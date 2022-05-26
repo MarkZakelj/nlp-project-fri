@@ -16,6 +16,7 @@ import json
 import torch
 import torch.nn as nn
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
+from sklearn import metrics
 
 from keras.preprocessing.sequence import pad_sequences
 
@@ -71,12 +72,29 @@ train_config = [
 def get_label(args):
     return [label.strip() for label in open(os.path.join(args['data_dir'], 'labels.txt'), "r", encoding="utf-8")]
 
-def compute_metrics(preds, labels):
+def compute_metrics(preds, labels, label_list):
     assert len(preds) == len(labels)
-    return {
-                "acc": simple_accuracy(preds, labels)
-                #"f1": official_f1(),
-    }
+    f1 = metrics.f1_score(labels, preds, average='macro')
+    pr = metrics.precision_score(labels, preds, average='macro')
+    re = metrics.recall_score(labels, preds, average='macro')
+    
+    f1_all = metrics.f1_score(labels, preds, average=None)
+    pr_all = metrics.precision_score(labels, preds, average=None)
+    re_all = metrics.recall_score(labels, preds, average=None)
+    
+    result = {"acc": simple_accuracy(preds, labels),
+              "f1" : f1,
+              "pr" : pr,
+              "re" : re}
+    
+    per_class_result = {}
+    
+    for i in range(1, max(labels) + 1) :
+        per_class_result[i] = {"f1" : f1_all[i-1],
+                               "pr" : pr_all[i-1],
+                               "re" : re_all[i-1]}
+    
+    return result, per_class_result
 
 def simple_accuracy(preds, labels):
     return (preds == labels).mean()
@@ -307,16 +325,16 @@ class RelationExtractorTrainer(object):
         eval_loss = eval_loss / nb_eval_steps
         results = {"loss": eval_loss}
         preds = np.argmax(preds, axis=1)
-        write_prediction(self.args, os.path.join(self.args['eval_dir'], "proposed_answers.txt"), preds)
+        write_prediction(self.args, os.path.join(self.args['eval_dir'], "annotation.txt"), preds)
 
-        result = compute_metrics(preds, out_label_ids)
+        result, per_class_results = compute_metrics(preds, out_label_ids, get_label(self.args))
         results.update(result)
 
         logger.info("***** Eval results *****")
         for key in sorted(results.keys()):
             logger.info("  {} = {:.4f}".format(key, results[key]))
 
-        return results
+        return results, per_class_results
 
     def save_model(self):
         # Save model checkpoint (Overwrite)
@@ -331,11 +349,11 @@ class RelationExtractorTrainer(object):
 
     def load_model(self):
         # Check whether model exists
-        if not os.path.exists(self.args['model_dir']):
+        if not os.path.exists(os.path.join(self.args['model_dir'], 'model.pt')):
             raise Exception("Model doesn't exists! Train first!")
 
         self.args = torch.load(os.path.join(self.args['model_dir'], "training_args.bin"))
-        self.model = RBERT.from_pretrained(self.args['model_dir'], args=self.args)
+        self.model = RBERT.from_pretrained(os.path.join(self.args['model_dir'], 'model.pt'), args=self.args)
         self.model.to(self.device)
         logger.info("***** Model Loaded *****")
 
@@ -357,6 +375,24 @@ def set_seed(seed):
         torch.cuda.manual_seed_all(seed)
 
 
+def writeout_results(results, class_results, args) :
+    labels = get_label(args)
+    writeout = ''
+    
+    with open(args['model_dir'] + '/results.txt', "w", encoding="utf-8") as f:
+        writeout += "{}\t{}\t{}\t{}\n".format(' ', 'Precision', 'Recall', 'F1')
+        writeout += "{}\t{}\t{}\t{}\n".format('Macro AVG', round(results['pr'], 2), round(results['re'], 2), round(results['f1'], 2))
+        
+        for classs in class_results :
+            writeout += "{}\t{}\t{}\t{}\n".format(labels[classs],
+                                              round(class_results[classs]['pr'], 2),
+                                              round(class_results[classs]['re'], 2),
+                                              round(class_results[classs]['f1'], 2))
+            
+        f.write(writeout)
+        
+    return writeout
+
 
 FORCE = False
 
@@ -370,6 +406,9 @@ def main():
         device = torch.device('cpu')
 
     print(device)
+    
+    do_train = False
+    do_test = True
 
     for conf in train_config:
         conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], conf['model_name'])
@@ -380,7 +419,7 @@ def main():
         set_seed(1)
         Path(conf['model_dir']).mkdir(parents=False, exist_ok=True)
         
-        if not os.path.exists(os.path.join(conf['model_dir'], 'model.pt')) or FORCE:
+        if (not os.path.exists(os.path.join(conf['model_dir'], 'model.pt')) or FORCE) and do_train:
             print(f'TRAINING {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
             json.dump(conf, open(os.path.join(conf['model_dir'], 'config_dict.json'), 'w'), indent=4)
             
@@ -395,10 +434,24 @@ def main():
 
             trainer.save_model()
 
-            trainer.evaluate('test')
+            results, class_results = trainer.evaluate('test')
+            print(writeout_results(results, class_results, conf)) 
         else :
-            print(f'Already trained {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
-
+            if do_train :
+                print(f'Already trained {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
+            
+            
+        if do_test and os.path.exists(os.path.join(conf['model_dir'], 'model.pt')) :
+            print(f'Testing {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
+            tokenizer = get_tokenizer(conf['tokenizer_id'])
+        
+            test_dataset = load_and_cache_examples(conf, tokenizer, mode="test")
+            trainer = RelationExtractorTrainer(conf, train_dataset=None, test_dataset=test_dataset)  
+            trainer.load_model()
+            
+            results, class_results = trainer.evaluate('test')
+            print(writeout_results(results, class_results, conf)) 
+            
 
 if __name__ == '__main__':
     main()
