@@ -1,0 +1,404 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 26 13:16:37 2022
+
+@author: Kert PC
+"""
+
+import os
+import logging
+from pathlib import Path
+import numpy as np
+import pandas as pd
+from tqdm import tqdm, trange
+import random
+import json
+import torch
+import torch.nn as nn
+from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
+
+from keras.preprocessing.sequence import pad_sequences
+
+from sklearn.model_selection import train_test_split
+from transformers import BertTokenizer, BertPreTrainedModel, AdamW, AutoTokenizer, BertConfig, BertModel
+from transformers import get_linear_schedule_with_warmup
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from rbert_model import RBERT 
+from rbert_data_loader import load_and_cache_examples
+
+logger = logging.getLogger(__name__)
+
+ADDITIONAL_SPECIAL_TOKENS = ["<e1>", "</e1>", "<e2>", "</e2>"]
+
+train_config = [
+    {'experiment': 'EN_reg_nonhier+def',
+     'model_name': 'Bert_base-cased_00',
+     'tokenizer_id': 'Bert_base-cased',
+     'model_id': 'Bert_base-cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 5},
+    
+    {'experiment': 'EN_reg_nonhier+def',
+     'model_name': 'Scibert-cased_00',
+     'tokenizer_id': 'Scibert-cased',
+     'model_id': 'Scibert-cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 5},
+
+    {'experiment': 'SL_reg_nonhier+def',
+     'model_name': 'Bert_base-cased_00',
+     'tokenizer_id': 'Bert_base-cased',
+     'model_id': 'Bert_base-cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 5},
+    
+    {'experiment': 'SL_reg_nonhier+def',
+     'model_name': 'CroSloEngual',
+     'tokenizer_id': 'CroSloEngual',
+     'model_id': 'CroSloEngual',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 5}
+]
+
+
+def get_label(args):
+    return [label.strip() for label in open(os.path.join(args['data_dir'], 'labels.txt'), "r", encoding="utf-8")]
+
+def compute_metrics(preds, labels):
+    assert len(preds) == len(labels)
+    return {
+                "acc": simple_accuracy(preds, labels)
+                #"f1": official_f1(),
+    }
+
+def simple_accuracy(preds, labels):
+    return (preds == labels).mean()
+
+
+def write_prediction(args, output_file, preds):
+    """
+    For official evaluation script
+    :param output_file: prediction_file_path (e.g. eval/proposed_answers.txt)
+    :param preds: [0,1,0,2,18,...]
+    """
+    relation_labels = get_label(args)
+    with open(output_file, "w", encoding="utf-8") as f:
+        for idx, pred in enumerate(preds):
+            f.write("{}\t{}\n".format(8001 + idx, relation_labels[pred]))
+            
+
+def get_tokenizer(tokenizer_id):
+    tokenizer = None
+    if tokenizer_id == 'Bert_base-cased' :
+        tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
+    elif tokenizer_id == 'Scibert-cased':
+        tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_cased', do_lower_case=False)
+    elif tokenizer_id == 'sloBERTa':
+        tokenizer = AutoTokenizer.from_pretrained('EMBEDDIA/sloberta', do_lower_case=False)
+    elif tokenizer_id == 'CroSloEngual':
+        tokenizer = BertTokenizer.from_pretrained('EMBEDDIA/crosloengual-bert', do_lower_case=False)
+        
+        
+    tokenizer.add_special_tokens({"additional_special_tokens": ADDITIONAL_SPECIAL_TOKENS})
+    return tokenizer
+
+
+def get_model_name(model_id):
+    model = ''
+    
+    if model_id == 'Bert_base-cased':
+        model = "bert-base-cased"
+    elif model_id == 'Scibert-cased':
+        model = "allenai/scibert_scivocab_cased"
+    elif model_id == 'sloBERTa':
+        model = "EMBEDDIA/sloberta"
+    elif model_id == 'CroSloEngual':
+        model = "EMBEDDIA/crosloengual-bert"
+
+    return model
+
+
+def check_config(configs):
+    must_have_keys = ['experiment', 'model_name', 'tokenizer_id', 'model_id', 'max_length', 'batch_size', 'epochs']
+    experiments = {}
+    for conf in configs:
+        for key in must_have_keys:
+            if key not in conf:
+                raise KeyError(f'Missing key in the config dictionary: {key} not found in  {conf}')
+        if conf['experiment'] not in experiments:
+            experiments[conf['experiment']] = set()
+        if conf['model_name'] in experiments[conf['experiment']]:
+            raise NameError(
+                f'This model is already a part of an experiment: {conf["model_name"]} already in {conf["experiment"]}')
+        experiments[conf['experiment']].add(conf['model_name'])
+    return True
+
+
+class RelationExtractorTrainer(object):
+    def __init__(self, args, train_dataset=None, dev_dataset=None, test_dataset=None):
+        self.args = args
+        self.train_dataset = train_dataset
+        self.dev_dataset = dev_dataset
+        self.test_dataset = test_dataset
+
+        self.save_steps = 250
+        self.logging_steps = 250
+
+        self.label_lst = get_label(args)
+        self.num_labels = len(self.label_lst)
+
+        self.config = BertConfig.from_pretrained(
+            get_model_name(args['model_id']),
+            num_labels=self.num_labels,
+            finetuning_task=args['experiment'],
+            id2label={str(i): label for i, label in enumerate(self.label_lst)},
+            label2id={label: i for i, label in enumerate(self.label_lst)},
+        )
+        self.model = RBERT.from_pretrained(get_model_name(args['model_id']), config=self.config, args=args)
+
+        # GPU or CPU
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.model.to(self.device)
+
+    def train(self):
+        train_sampler = RandomSampler(self.train_dataset)
+        train_dataloader = DataLoader(
+            self.train_dataset,
+            sampler=train_sampler,
+            batch_size=self.args['batch_size'],
+        )
+
+        t_total = len(train_dataloader) * self.args['epochs']
+
+        # Prepare optimizer and schedule (linear warmup and decay)
+        no_decay = ["bias", "LayerNorm.weight"]
+        optimizer_grouped_parameters = [
+            {
+                "params": [p for n, p in self.model.named_parameters() if not any(nd in n for nd in no_decay)],
+                "weight_decay": 0.01,
+            },
+            {
+                "params": [p for n, p in self.model.named_parameters() if any(nd in n for nd in no_decay)],
+                "weight_decay": 0.0,
+            },
+        ]
+        optimizer = AdamW(
+            optimizer_grouped_parameters,
+            lr=2e-5,
+            eps=1e-8,
+        )
+        scheduler = get_linear_schedule_with_warmup(
+            optimizer,
+            num_warmup_steps=0,
+            num_training_steps=t_total,
+        )
+
+        # Train!
+        logger.info("***** Running training *****")
+        logger.info("  Num examples = %d", len(self.train_dataset))
+        logger.info("  Num Epochs = %d", self.args['epochs'])
+        logger.info("  Total train batch size = %d", self.args['batch_size'])
+        logger.info("  Gradient Accumulation steps = %d", 1)
+        logger.info("  Total optimization steps = %d", t_total)
+        logger.info("  Logging steps = %d", self.logging_steps)
+        logger.info("  Save steps = %d", self.save_steps)
+
+        global_step = 0
+        tr_loss = 0.0
+        self.model.zero_grad()
+        max_grad_norm = 1.0
+        
+        train_iterator = trange(int(self.args['epochs']), desc="Epoch")
+
+        for _ in train_iterator:
+            epoch_iterator = tqdm(train_dataloader, desc="Iteration")
+            for step, batch in enumerate(epoch_iterator):
+                self.model.train()
+                batch = tuple(t.to(self.device) for t in batch)  # GPU or CPU
+                inputs = {
+                    "input_ids": batch[0],
+                    "attention_mask": batch[1],
+                    "token_type_ids": batch[2],
+                    "labels": batch[3],
+                    "e1_mask": batch[4],
+                    "e2_mask": batch[5],
+                }
+                outputs = self.model(**inputs)
+                loss = outputs[0]
+                gradient_accumulation_steps = 1
+                
+                if gradient_accumulation_steps > 1:
+                    loss = loss / gradient_accumulation_steps
+                
+                loss.backward()
+                
+                tr_loss += loss.item()
+                if (step + 1) % gradient_accumulation_steps == 0:
+                    torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_grad_norm)
+
+                    optimizer.step()
+                    scheduler.step()  # Update learning rate schedule
+                    self.model.zero_grad()
+                    global_step += 1
+
+                    if self.logging_steps > 0 and global_step % self.logging_steps == 0:
+                        self.evaluate("test")  # There is no dev set for semeval task
+
+                    if self.save_steps > 0 and global_step % self.save_steps == 0:
+                        self.save_model()
+
+
+        return global_step, tr_loss / global_step
+
+    def evaluate(self, mode):
+        # We use test dataset because semeval doesn't have dev dataset
+        if mode == "test":
+            dataset = self.test_dataset
+        elif mode == "dev":
+            dataset = self.dev_dataset
+        else:
+            raise Exception("Only dev and test dataset available")
+
+        eval_sampler = SequentialSampler(dataset)
+        eval_dataloader = DataLoader(dataset, sampler=eval_sampler, batch_size=self.args['batch_size'])
+
+        # Eval!
+        logger.info("***** Running evaluation on %s dataset *****", mode)
+        logger.info("  Num examples = %d", len(dataset))
+        logger.info("  Batch size = %d", self.args['batch_size'])
+        eval_loss = 0.0
+        nb_eval_steps = 0
+        preds = None
+        out_label_ids = None
+
+        self.model.eval()
+
+        for batch in tqdm(eval_dataloader, desc="Evaluating"):
+            batch = tuple(t.to(self.device) for t in batch)
+            with torch.no_grad():
+                inputs = {
+                    "input_ids": batch[0],
+                    "attention_mask": batch[1],
+                    "token_type_ids": batch[2],
+                    "labels": batch[3],
+                    "e1_mask": batch[4],
+                    "e2_mask": batch[5],
+                }
+                outputs = self.model(**inputs)
+                tmp_eval_loss, logits = outputs[:2]
+
+                eval_loss += tmp_eval_loss.mean().item()
+            nb_eval_steps += 1
+
+            if preds is None:
+                preds = logits.detach().cpu().numpy()
+                out_label_ids = inputs["labels"].detach().cpu().numpy()
+            else:
+                preds = np.append(preds, logits.detach().cpu().numpy(), axis=0)
+                out_label_ids = np.append(out_label_ids, inputs["labels"].detach().cpu().numpy(), axis=0)
+
+        eval_loss = eval_loss / nb_eval_steps
+        results = {"loss": eval_loss}
+        preds = np.argmax(preds, axis=1)
+        write_prediction(self.args, os.path.join(self.args['eval_dir'], "proposed_answers.txt"), preds)
+
+        result = compute_metrics(preds, out_label_ids)
+        results.update(result)
+
+        logger.info("***** Eval results *****")
+        for key in sorted(results.keys()):
+            logger.info("  {} = {:.4f}".format(key, results[key]))
+
+        return results
+
+    def save_model(self):
+        # Save model checkpoint (Overwrite)
+        if not os.path.exists(self.args['model_dir']):
+            os.makedirs(self.args['model_dir'])
+        model_to_save = self.model.module if hasattr(self.model, "module") else self.model
+        model_to_save.save_pretrained(os.path.join(self.args['model_dir'], 'model.pt'))
+
+        # Save training arguments together with the trained model
+        torch.save(self.args, os.path.join(self.args['model_dir'], "training_args.bin"))
+        logger.info("Saving model checkpoint to %s", self.args['model_dir'])
+
+    def load_model(self):
+        # Check whether model exists
+        if not os.path.exists(self.args['model_dir']):
+            raise Exception("Model doesn't exists! Train first!")
+
+        self.args = torch.load(os.path.join(self.args['model_dir'], "training_args.bin"))
+        self.model = RBERT.from_pretrained(self.args['model_dir'], args=self.args)
+        self.model.to(self.device)
+        logger.info("***** Model Loaded *****")
+
+
+
+def init_logger():
+    logging.basicConfig(
+        format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
+        datefmt="%m/%d/%Y %H:%M:%S",
+        level=logging.INFO,
+    )
+
+
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
+
+
+FORCE = False
+
+def main():
+    check_config(train_config)
+    if torch.cuda.is_available():
+        for i in range(torch.cuda.device_count()):
+            print(f"Found GPU device: {torch.cuda.get_device_name(i)}")
+        device = torch.device('cuda')
+    else:
+        device = torch.device('cpu')
+
+    print(device)
+
+    for conf in train_config:
+        conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], conf['model_name'])
+        conf['eval_dir'] = conf['model_dir']
+        conf['data_dir'] = os.path.join('data', 'experiments', conf['experiment'])
+        
+        init_logger()
+        set_seed(1)
+        Path(conf['model_dir']).mkdir(parents=False, exist_ok=True)
+        
+        if not os.path.exists(os.path.join(conf['model_dir'], 'model.pt')) or FORCE:
+            print(f'TRAINING {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
+            json.dump(conf, open(os.path.join(conf['model_dir'], 'config_dict.json'), 'w'), indent=4)
+            
+            tokenizer = get_tokenizer(conf['tokenizer_id'])
+            
+            train_dataset = load_and_cache_examples(conf, tokenizer, mode="train")
+            test_dataset = load_and_cache_examples(conf, tokenizer, mode="test")
+            
+            trainer = RelationExtractorTrainer(conf, train_dataset=train_dataset, test_dataset=test_dataset)
+            trainer.train()    
+            # create model dir if it doesn't exist
+
+            trainer.save_model()
+
+            trainer.evaluate('test')
+        else :
+            print(f'Already trained {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
+
+
+if __name__ == '__main__':
+    main()

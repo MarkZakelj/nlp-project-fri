@@ -31,7 +31,7 @@ train_config = [
      'model_id': 'Bert_base-cased',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 6},
+     'epochs': 3},
     
     {'experiment': 'EN_def+gen',
      'model_name': 'Scibert-cased_00',
@@ -39,16 +39,16 @@ train_config = [
      'model_id': 'Scibert-cased',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 6},
+     'epochs': 2},
     
-    {'experiment': 'EN_nonhier+def',
-     'model_name': 'Scibert-cased_00',
-     'tokenizer_id': 'Scibert-cased',
-     'model_id': 'Scibert-cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 5},
-
+    #{'experiment': 'EN_nonhier+def',
+    # 'model_name': 'Scibert-cased_00',
+    # 'tokenizer_id': 'Scibert-cased',
+    # 'model_id': 'Scibert-cased',
+    # 'max_length': 128,
+    # 'batch_size': 8,
+    # 'epochs': 5},
+    
 
 
     {'experiment': 'SL_def+gen',
@@ -57,15 +57,15 @@ train_config = [
      'model_id': 'Bert_base-cased',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 6},
+     'epochs': 3},
     
-    {'experiment': 'SL_def+gen',
-     'model_name': 'Scibert-cased_00',
-     'tokenizer_id': 'Scibert-cased',
-     'model_id': 'Scibert-cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
+    #{'experiment': 'SL_def+gen',
+    # 'model_name': 'Scibert-cased_00',
+    # 'tokenizer_id': 'Scibert-cased',
+    # 'model_id': 'Scibert-cased',
+    # 'max_length': 128,
+    # 'batch_size': 8,
+    # 'epochs': 5},
     
     {'experiment': 'SL_def+gen',
      'model_name': 'sloBERTa',
@@ -73,7 +73,7 @@ train_config = [
      'model_id': 'sloBERTa',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 6},
+     'epochs': 3},
     
     {'experiment': 'SL_def+gen',
      'model_name': 'CroSloEngual',
@@ -81,19 +81,17 @@ train_config = [
      'model_id': 'CroSloEngual',
      'max_length': 128,
      'batch_size': 6,
-     'epochs': 6},
-
-
-    {'experiment': 'HR_def+gen',
-     'model_name': 'CroSloEngual',
-     'tokenizer_id': 'CroSloEngual',
-     'model_id': 'CroSloEngual',
-     'max_length': 128,
-     'batch_size': 6,
-     'epochs': 6}
+     'epochs': 3}
     
 ]
 """
+     {'experiment': 'HR_def+gen',
+      'model_name': 'CroSloEngual',
+      'tokenizer_id': 'CroSloEngual',
+      'model_id': 'CroSloEngual',
+      'max_length': 128,
+      'batch_size': 6,
+      'epochs': 6}
     {'experiment': 'EN_top4nonhier+def',
      'model_name': 'Bert_base-cased_00',
      'tokenizer_id': 'Bert_base-cased',
@@ -606,7 +604,7 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
     return model
 
 
-FORCE = True
+FORCE = False
 
 def main():
     check_config(train_config)

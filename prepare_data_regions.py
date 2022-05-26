@@ -111,7 +111,7 @@ def prepare_regions(dataframe: pd.DataFrame):
                     nu_sent.insert(reg['end'], ['</e2>', reg['type']])
                     nu_sent.insert(reg['start'], ['<e2>', reg['type']])
                 
-                tsv_row = [reg['type'] + '(e1,e2)', '']
+                tsv_row = [reg['type'], '']
                 
                 for word in nu_sent :
                     tsv_row[1] += word[0] + ' '
@@ -147,6 +147,13 @@ def prepare_experiment(config: dict, as_test=False):
     with open(os.path.join('data', 'experiments', experiment_name, 'answer_keys.txt'), 'w') as fp:
         for i, key in enumerate(reg_keys):
             fp.write("%s\n" % (str(8001+i) + '\t' + key))
+            
+            
+    with open(os.path.join('data', 'experiments', experiment_name, 'labels.txt'), 'w') as fp:    
+        fp.write("%s\n" % 'Other')
+        for rel_tag in config['non-hierarchical'] :
+            fp.write("%s\n" % rel_tag)
+    
 
 def main():
     for conf in experiment_config:
