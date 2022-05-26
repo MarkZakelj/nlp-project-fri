@@ -121,7 +121,7 @@ train_config = [
 
 def get_tokenizer(tokenizer_id):
     tokenizer = None
-    if tokenizer_id == 'Bert_base-cased':
+    if tokenizer_id == 'Bert_base-cased' :
         tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
     elif tokenizer_id == 'Scibert-cased':
         tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_cased', do_lower_case=False)
