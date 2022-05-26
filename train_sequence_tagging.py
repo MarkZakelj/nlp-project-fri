@@ -17,155 +17,95 @@ from seqeval.metrics import f1_score
 from seqeval.metrics import accuracy_score
 from seqeval.metrics import classification_report
 
-
-
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
+MODEL_IDS = {'bert-base-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
 
 train_config = [
-    {'experiment': 'EN_def+gen',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
+    {'experiment': 'EN_def+gen+definitor_btag',
+     'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 3},
-    
-    {'experiment': 'EN_def+gen',
-     'model_name': 'Scibert-cased_00',
-     'tokenizer_id': 'Scibert-cased',
-     'model_id': 'Scibert-cased',
+     'epochs': 6},
+    {'experiment': 'EN_def+gen+definitor_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 2},
-    
-    #{'experiment': 'EN_nonhier+def',
-    # 'model_name': 'Scibert-cased_00',
-    # 'tokenizer_id': 'Scibert-cased',
-    # 'model_id': 'Scibert-cased',
-    # 'max_length': 128,
-    # 'batch_size': 8,
-    # 'epochs': 5},
-    
+     'epochs': 6},
+
+    {'experiment': 'EN_def+gen_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'EN_def+gen_btag',
+     'model_id': 'bert-base-cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
 
 
-    {'experiment': 'SL_def+gen',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
+    {'experiment': 'EN_nonhier+def_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 3},
-    
-    #{'experiment': 'SL_def+gen',
-    # 'model_name': 'Scibert-cased_00',
-    # 'tokenizer_id': 'Scibert-cased',
-    # 'model_id': 'Scibert-cased',
-    # 'max_length': 128,
-    # 'batch_size': 8,
-    # 'epochs': 5},
-    
-    {'experiment': 'SL_def+gen',
-     'model_name': 'sloBERTa',
-     'tokenizer_id': 'sloBERTa',
-     'model_id': 'sloBERTa',
+     'epochs': 6},
+
+    {'experiment': 'EN_top4nonhier+def_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 3},
-    
-    {'experiment': 'SL_def+gen',
-     'model_name': 'CroSloEngual',
-     'tokenizer_id': 'CroSloEngual',
-     'model_id': 'CroSloEngual',
+     'epochs': 6},
+
+
+    {'experiment': 'SL_def+gen_btag',
+     'model_id': 'bert-base-cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'SL_def+gen_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'SL_def+gen_btag',
+     'model_id': 'EMBEDDIA/sloberta',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'SL_def+gen_btag',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 6,
-     'epochs': 3}
-    
+     'epochs': 6},
 ]
-"""
-     {'experiment': 'HR_def+gen',
-      'model_name': 'CroSloEngual',
-      'tokenizer_id': 'CroSloEngual',
-      'model_id': 'CroSloEngual',
-      'max_length': 128,
-      'batch_size': 6,
-      'epochs': 6}
-    {'experiment': 'EN_top4nonhier+def',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 10},
-    {'experiment': 'EN_has-form',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 2},
-    {'experiment': 'EN_has-form',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 2}
-"""
 
 
-
-def get_tokenizer(tokenizer_id):
-    tokenizer = None
-    if tokenizer_id == 'Bert_base-cased' :
-        tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
-    elif tokenizer_id == 'Scibert-cased':
-        tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_cased', do_lower_case=False)
-    elif tokenizer_id == 'sloBERTa':
-        tokenizer = AutoTokenizer.from_pretrained('EMBEDDIA/sloberta', do_lower_case=False)
-    elif tokenizer_id == 'CroSloEngual':
-        tokenizer = BertTokenizer.from_pretrained('EMBEDDIA/crosloengual-bert', do_lower_case=False)
+def get_tokenizer_object(model_id):
+    tokenizer = AutoTokenizer.from_pretrained(model_id, do_lower_case=False)
     return tokenizer
 
 
 def get_model_object(model_id, label2code):
-    model = None
-    if model_id == 'Bert_base-cased':
-        model = BertForTokenClassification.from_pretrained(
-            "bert-base-cased",
-            num_labels=len(label2code),
-            output_attentions=False,
-            output_hidden_states=False
-        )
-    elif model_id == 'Scibert-cased':
-        model = BertForTokenClassification.from_pretrained(
-            "allenai/scibert_scivocab_cased",
-            num_labels=len(label2code),
-            output_attentions=False,
-            output_hidden_states=False
-        )
-    elif model_id == 'sloBERTa':
-        model = BertForTokenClassification.from_pretrained(
-            "EMBEDDIA/sloberta",
-            num_labels=len(label2code),
-            output_attentions=False,
-            output_hidden_states=False
-        )
-    elif model_id == 'CroSloEngual':
-        model = BertForTokenClassification.from_pretrained(
-            "EMBEDDIA/crosloengual-bert",
-            num_labels=len(label2code),
-            output_attentions=False,
-            output_hidden_states=False
-        )
-
+    model = BertForTokenClassification.from_pretrained(
+        model_id,
+        num_labels=len(label2code),
+        output_attentions=False,
+        output_hidden_states=False
+    )
     return model
 
 
+def model_id_to_path(model_id):
+    """prepare model_id so it can be a name of one directory - character / will create two directories
+    example: EMBEDDIA/sloberta --> EMBEDDIA_sloberta"""
+    model_path = model_id.replace('/', '_')
+    return model_path
+
+
 def check_config(configs):
-    must_have_keys = ['experiment', 'model_name', 'tokenizer_id', 'model_id', 'max_length', 'batch_size', 'epochs']
+    must_have_keys = ['experiment', 'model_id', 'max_length', 'batch_size', 'epochs']
     experiments = {}
     for conf in configs:
         for key in must_have_keys:
@@ -173,14 +113,16 @@ def check_config(configs):
                 raise KeyError(f'Missing key in the config dictionary: {key} not found in  {conf}')
         if conf['experiment'] not in experiments:
             experiments[conf['experiment']] = set()
-        if conf['model_name'] in experiments[conf['experiment']]:
+        if conf['model_id'] in experiments[conf['experiment']]:
             raise NameError(
-                f'This model is already a part of an experiment: {conf["model_name"]} already in {conf["experiment"]}')
-        experiments[conf['experiment']].add(conf['model_name'])
+                f'This model is already a part of an experiment: {conf["model_id"]} already in {conf["experiment"]}')
+        experiments[conf['experiment']].add(conf['model_id'])
     return True
 
 
 def group_predictions(tokens, tags):
+    if len(tokens) != len(tags):
+        raise ValueError('tokens list must be the same length as tags list')
     new_tokens = []
     new_tags = []
 
@@ -532,10 +474,6 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
             batch = tuple(t.to(device) for t in batch)
             b_input_ids, b_input_mask, b_labels = batch
 
-            # b_input_ids = torch.tensor(b_input_ids, dtype=torch.long, device=device)
-            # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
-            # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
-
             b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
             b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
             b_labels = b_labels.clone().detach().type(torch.long).to(device)
@@ -606,7 +544,9 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
 
 FORCE = False
 
+
 def main():
+    print(f'FORCE is {FORCE} - models {"will" if FORCE else "wont"} be retrained')
     check_config(train_config)
     if torch.cuda.is_available():
         for i in range(torch.cuda.device_count()):
@@ -618,15 +558,20 @@ def main():
     print(device)
 
     for conf in train_config:
+        if conf['model_id'] not in MODEL_IDS:
+            raise NameError(
+                f"""{conf['model_id']} not in recognized MODEL_IDS. Either add it to the
+                exsisting MODEL_IDS, or change the model_id in the configuration""")
+        model_id_path = model_id_to_path(conf['model_id'])
         experiment_dir = os.path.join('data', 'experiments', conf['experiment'])
-        Path(experiment_dir, conf['model_name']).mkdir(parents=False, exist_ok=True)
+        Path(experiment_dir, model_id_path).mkdir(parents=False, exist_ok=True)
         df_train = pd.read_csv(os.path.join(experiment_dir, 'train.csv'))
         test_file_path = os.path.join(experiment_dir, 'test.csv')
-        model_path = os.path.join(experiment_dir, conf['model_name'], 'model.pt')
+        model_path = os.path.join(experiment_dir, model_id_path, 'model.pt')
         if not os.path.exists(model_path) or FORCE:
-            print(f'TRAINING {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
-            json.dump(conf, open(os.path.join(experiment_dir, conf['model_name'], 'config_dict.json'), 'w'), indent=4)
-            tokenizer = get_tokenizer(conf['tokenizer_id'])
+            print(f"""TRAINING {conf["model_id"]} on experiment: {conf["experiment"]}""")
+            json.dump(conf, open(os.path.join(experiment_dir, model_id_path, 'config_dict.json'), 'w'), indent=4)
+            tokenizer = get_tokenizer_object(conf['model_id'])
             if os.path.exists(test_file_path):
                 df_test = pd.read_csv(test_file_path)
                 train_dataloader, valid_dataloader, test_dataloader, label2code, code2label, test_sentences = load_data_test(
@@ -637,21 +582,18 @@ def main():
 
             model_object = get_model_object(conf['model_id'], label2code)
             model = train_model(model_object, train_dataloader, valid_dataloader, code2label, conf['epochs'])
-            # create model dir if it doesn't exist
 
             torch.save(model, model_path)
 
             # TEST
+            if not os.path.exists(test_file_path):
+                continue
             model = torch.load(model_path, map_location=device)
             predictions, true_labels = [], []
             sentences = []
             for batch in tqdm(test_dataloader):
                 b_input_ids, b_input_mask, b_labels = batch
                 sentences.extend(b_input_ids)
-
-                # b_input_ids = torch.tensor(b_input_ids, dtype=torch.long, device=device)
-                # b_input_mask = torch.tensor(b_input_mask, dtype=torch.long, device=device)
-                # b_labels = torch.tensor(b_labels, dtype=torch.long, device=device)
 
                 b_input_ids = b_input_ids.clone().detach().type(torch.long).to(device)
                 b_input_mask = b_input_mask.clone().detach().type(torch.long).to(device)
@@ -678,7 +620,7 @@ def main():
                                  for p, l in zip(predictions, true_labels)]
             results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"] for l in true_labels]
             report = classification_report(results_true, results_predicted)
-            with open(os.path.join(experiment_dir, conf['model_name'], 'results.txt'), 'w') as fl:
+            with open(os.path.join(experiment_dir, conf['model_id'], 'results.txt'), 'w') as fl:
                 fl.write(report)
 
             tokens = []
@@ -690,7 +632,7 @@ def main():
                 tokens.extend(new_tokens)
                 tags.extend(new_tags)
             ann_df = pd.DataFrame(data={'Sentence': sentence_ids, 'Word': tokens, 'Tag': tags})
-            ann_df.to_csv(os.path.join(experiment_dir, conf['model_name'], 'annotation.csv'), index=False)
+            ann_df.to_csv(os.path.join(experiment_dir, model_id_path, 'annotation.csv'), index=False)
 
 
 if __name__ == '__main__':
