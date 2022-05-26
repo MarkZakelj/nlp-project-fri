@@ -87,14 +87,16 @@ def compute_metrics(preds, labels, label_list):
     result = {"acc": simple_accuracy(preds, labels),
               "f1" : f1,
               "pr" : pr,
-              "re" : re}
+              "re" : re,
+              "supp" : len(labels)}
     
     per_class_result = {}
     
     for i in range(1, max(labels) + 1) :
         per_class_result[i] = {"f1" : f1_all[i-1],
                                "pr" : pr_all[i-1],
-                               "re" : re_all[i-1]}
+                               "re" : re_all[i-1],
+                               "supp" : np.count_nonzero(labels == i)}
     
     return result, per_class_result
 
@@ -382,14 +384,21 @@ def writeout_results(results, class_results, args) :
     writeout = ''
     
     with open(args['model_dir'] + '/results.txt', "w", encoding="utf-8") as f:
-        writeout += "{}\t{}\t{}\t{}\n".format(' ', 'Precision', 'Recall', 'F1')
-        writeout += "{}\t{}\t{}\t{}\n".format('Macro AVG', round(results['pr'], 2), round(results['re'], 2), round(results['f1'], 2))
+        writeout += "{}\t{}\t{}\t{}\t{}\n".format(' ', 'Precision', 'Recall', 'F1', 'Support')
+        
         
         for classs in class_results :
-            writeout += "{}\t{}\t{}\t{}\n".format(labels[classs],
+            writeout += "{}\t{}\t{}\t{}\t{}\n".format(labels[classs],
                                               round(class_results[classs]['pr'], 2),
                                               round(class_results[classs]['re'], 2),
-                                              round(class_results[classs]['f1'], 2))
+                                              round(class_results[classs]['f1'], 2),
+                                              class_results[classs]['supp'])
+            
+        writeout += "{}\t{}\t{}\t{}\t{}\n".format('Macro AVG',
+                                              round(results['pr'], 2),
+                                              round(results['re'], 2),
+                                              round(results['f1'], 2),
+                                              results['supp'])
             
         f.write(writeout)
         
@@ -409,8 +418,8 @@ def main():
 
     print(device)
     
-    do_train = True
-    do_test = False
+    do_train = False
+    do_test = True
 
     for conf in train_config:
         conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], conf['model_name'])
