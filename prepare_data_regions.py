@@ -17,13 +17,7 @@ experiment_config = [
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']},
-    
-    {'name': 'nonhier+def',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']},
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']}
 ]
 
 

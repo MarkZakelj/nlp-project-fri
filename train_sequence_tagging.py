@@ -58,6 +58,17 @@ train_config = [
      'batch_size': 8,
      'epochs': 6},
 
+    {'experiment': 'SL_def+gen+definitor_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'SL_def+gen+definitor_btag',
+     'model_id': 'EMBEDDIA/sloberta',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+
 
     {'experiment': 'SL_def+gen_btag',
      'model_id': 'bert-base-cased',
@@ -78,6 +89,17 @@ train_config = [
      'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 6,
+     'epochs': 6},
+
+    {'experiment': 'SL_top4nonhier+def_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'SL_top4nonhier+def_btag',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
+     'max_length': 128,
+     'batch_size': 8,
      'epochs': 6},
 ]
 
