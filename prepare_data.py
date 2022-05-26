@@ -9,54 +9,64 @@ experiment_config = [
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': ['DEFINIENDUM', 'GENUS', 'DEFINITOR'],
-     'non-hierarchical': []},
+     'non-hierarchical': [],
+     'B-tags': True},
     {'name': 'def+gen',
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': ['DEFINIENDUM', 'GENUS'],
-     'non-hierarchical': []},
+     'non-hierarchical': [],
+     'B-tags': True},
     {'name': 'top4nonhier+def',
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM']},
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM'],
+     'B-tags': True},
     {'name': 'nonhier+def',
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']},
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
+     'B-tags': True},
     {'name': 'has-form',
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
      'hierarchical': [],
-     'non-hierarchical': ['HAS_FORM']},
+     'non-hierarchical': ['HAS_FORM'],
+     'B-tags': True},
 
     {'name': 'def+gen+definitor',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
      'hierarchical': ['DEFINIENDUM', 'GENUS', 'DEFINITOR'],
-     'non-hierarchical': []},
+     'non-hierarchical': [],
+     'B-tags': True},
     {'name': 'def+gen',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
      'hierarchical': ['DEFINIENDUM', 'GENUS'],
-     'non-hierarchical': []},
+     'non-hierarchical': [],
+     'B-tags': True},
     {'name': 'top4nonhier+def',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
      'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM']},
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM'],
+     'B-tags': True},
     {'name': 'has-form',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
      'hierarchical': [],
-     'non-hierarchical': ['HAS_FORM']},
+     'non-hierarchical': ['HAS_FORM'],
+     'B-tags': True},
     
     {'name': 'def+gen',
      'train': 'data/full_data_HR.csv',
      'test': '',
      'hierarchical': ['DEFINIENDUM', 'GENUS'],
-     'non-hierarchical': []},
+     'non-hierarchical': [],
+     'B-tags': True},
 ]
 
 
@@ -73,7 +83,7 @@ def get_language(filename, check=True):
     return lang
 
 
-def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: list) -> pd.DataFrame:
+def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: list, btags=True) -> pd.DataFrame:
     """merge hierarchical column and non-hierarchical column into one Tag column"""
     df = dataframe.copy()
     # set unwanted tags to NaN
@@ -87,10 +97,23 @@ def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: l
         return hier_tag
 
     df['Tag'] = df.apply(lambda x: merge_tags(x['hierarchical'], x['non-hierarchical']), axis=1)
-    df = df.drop(columns=['hierarchical', 'non-hierarchical'])
+    df = df[['Sentence', 'Word', 'Tag']]
+    df_cpy = df.copy()
+
+    in_region = False
+    for row in df.iterrows():
+        tag = row[1]['Tag']
+        if type(tag) == str:
+            prefix = 'B-'
+            if in_region:
+                prefix = 'I-'
+            df_cpy.loc[row[0], 'Tag'] = prefix + tag
+            in_region = True
+        else:
+            in_region = False
     # set Nan values is Tag column to 'O' - Other
-    df.loc[df['Tag'].isna(), ['Tag']] = 'O'
-    return df
+    df_cpy.loc[df['Tag'].isna(), ['Tag']] = 'O'
+    return df_cpy
 
 
 def prepare_experiment(config: dict, as_test=False):
@@ -104,7 +127,7 @@ def prepare_experiment(config: dict, as_test=False):
     full_dataframe_path = config['train'] if not as_test else config['test']
     language = get_language(full_dataframe_path)
     df = pd.read_csv(full_dataframe_path)
-    df_with_tag = prepare_dataframe(df, config['hierarchical'], config['non-hierarchical'])
+    df_with_tag = prepare_dataframe(df, config['hierarchical'], config['non-hierarchical'], config['B-tags'])
     experiment_name = language + "_" + config['name']
     # create experiment dir if it doesnt exsist
     Path('data', 'experiments', experiment_name).mkdir(parents=False, exist_ok=True)
