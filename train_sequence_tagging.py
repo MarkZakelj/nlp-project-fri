@@ -27,12 +27,18 @@ train_config = [
      'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 4,
-     'epochs': 4}
+     'epochs': 4},
     #{'experiment': 'EN_def+gen+definitor_btag',
     # 'model_id': 'allenai/scibert_scivocab_cased',
     # 'max_length': 128,
     # 'batch_size': 4,
     # 'epochs': 4}
+    
+    {'experiment': 'SL_def+gen',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 2},
     ]
 """
     {'experiment': 'EN_def+gen_btag',

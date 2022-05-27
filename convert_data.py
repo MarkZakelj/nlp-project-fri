@@ -96,7 +96,7 @@ def read_data(path, extensions=None):
                     #     new[colid] = val
                     #     new[COLNAME2POS['TOKEN']] = row[COLNAME2POS['TOKEN']]
                     #     new_rows.append(new)
-        g = g.append(new_rows)
+        # g = g.append(new_rows)
         # g = pd.concat(g, new_rows)
         new_groups.append(g)
     groups = new_groups
