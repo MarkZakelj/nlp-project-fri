@@ -30,6 +30,9 @@ import seaborn as sns
 from rbert_model import RBERT 
 from rbert_data_loader import load_and_cache_examples
 
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 logger = logging.getLogger(__name__)
 
 ADDITIONAL_SPECIAL_TOKENS = ["<e1>", "</e1>", "<e2>", "</e2>"]
@@ -49,24 +52,7 @@ train_config = [
      'model_id': 'Scibert-cased',
      'max_length': 128,
      'batch_size': 4,
-     'epochs': 5},
-    
-    {'experiment': 'SL_reg_nonhier+def',
-     'model_name': 'CroSloEngual',
-     'tokenizer_id': 'CroSloEngual',
-     'model_id': 'CroSloEngual',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 5},
-
-    {'experiment': 'SL_reg_nonhier+def',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 5}
-    
+     'epochs': 5},   
     
 ]
 

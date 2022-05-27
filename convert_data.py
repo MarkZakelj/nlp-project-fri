@@ -15,6 +15,9 @@ import numpy as np
 import time
 import argparse
 from collections import defaultdict, namedtuple
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 
 COLNAME2POS = {val: k for k, val in enumerate(
     ['TOKENID', 'POSITION', 'TOKEN', 'CANONICAL', 'CATEGORY', 'DEF_ELEMENT', 'RELATION', 'REL_VERB_FRAME'])}
