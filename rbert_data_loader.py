@@ -186,13 +186,21 @@ def convert_examples_to_features(
         token_type_ids = token_type_ids + ([pad_token_segment_id] * padding_length)
 
         # e1 mask, e2 mask
-        e1_mask = [0] * len(attention_mask)
-        e2_mask = [0] * len(attention_mask)
-
-        for i in range(e11_p, e12_p + 1):
-            e1_mask[i] = 1
-        for i in range(e21_p, e22_p + 1):
-            e2_mask[i] = 1
+        length = len(attention_mask)
+        e1_mask = [0] * length
+        e2_mask = [0] * length
+        
+        if e11_p < length :
+            for i in range(e11_p, min(length, e12_p + 1)):
+                e1_mask[i] = 1  
+        else :
+            continue
+                
+        if e21_p < length :
+            for i in range(e21_p, min(length, e22_p + 1)):
+                e2_mask[i] = 1
+        else :
+            continue
 
         assert len(input_ids) == max_seq_len, "Error with input length {} vs {}".format(len(input_ids), max_seq_len)
         assert len(attention_mask) == max_seq_len, "Error with attention mask length {} vs {}".format(

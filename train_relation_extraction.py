@@ -30,39 +30,34 @@ import seaborn as sns
 from rbert_model import RBERT 
 from rbert_data_loader import load_and_cache_examples
 
+from train_sequence_tagging import MODEL_IDS, model_id_to_path, check_config
+
 logger = logging.getLogger(__name__)
+
 
 ADDITIONAL_SPECIAL_TOKENS = ["<e1>", "</e1>", "<e2>", "</e2>"]
 
 train_config = [
     {'experiment': 'EN_reg_nonhier+def',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
+     'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 5},
     
     {'experiment': 'EN_reg_nonhier+def',
-     'model_name': 'Scibert-cased_00',
-     'tokenizer_id': 'Scibert-cased',
-     'model_id': 'Scibert-cased',
+     'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 5},
     
     {'experiment': 'SL_reg_nonhier+def',
-     'model_name': 'CroSloEngual',
-     'tokenizer_id': 'CroSloEngual',
-     'model_id': 'CroSloEngual',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 5},
 
     {'experiment': 'SL_reg_nonhier+def',
-     'model_name': 'Bert_base-cased_00',
-     'tokenizer_id': 'Bert_base-cased',
-     'model_id': 'Bert_base-cased',
+     'model_id': 'EMBEDDIA/sloberta',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 5}
@@ -76,25 +71,27 @@ def get_label(args):
 
 def compute_metrics(preds, labels, label_list):
     assert len(preds) == len(labels)
-    f1 = metrics.f1_score(labels, preds, average='macro')
-    pr = metrics.precision_score(labels, preds, average='macro')
-    re = metrics.recall_score(labels, preds, average='macro')
+    f1 = metrics.f1_score(labels, preds, average='macro', zero_division=0)
+    pr = metrics.precision_score(labels, preds, average='macro', zero_division=0)
+    re = metrics.recall_score(labels, preds, average='macro', zero_division=0)
     
-    f1_all = metrics.f1_score(labels, preds, average=None)
-    pr_all = metrics.precision_score(labels, preds, average=None)
-    re_all = metrics.recall_score(labels, preds, average=None)
+    f1_all = metrics.f1_score(labels, preds, average=None, zero_division=0)
+    pr_all = metrics.precision_score(labels, preds, average=None, zero_division=0)
+    re_all = metrics.recall_score(labels, preds, average=None, zero_division=0)
     
     result = {"acc": simple_accuracy(preds, labels),
               "f1" : f1,
               "pr" : pr,
-              "re" : re}
+              "re" : re,
+              "supp" : len(labels)}
     
     per_class_result = {}
     
     for i in range(1, max(labels) + 1) :
         per_class_result[i] = {"f1" : f1_all[i-1],
                                "pr" : pr_all[i-1],
-                               "re" : re_all[i-1]}
+                               "re" : re_all[i-1],
+                               "supp" : np.count_nonzero(labels == i)}
     
     return result, per_class_result
 
@@ -102,64 +99,28 @@ def simple_accuracy(preds, labels):
     return (preds == labels).mean()
 
 
-def write_prediction(args, output_file, preds):
+def write_prediction(args, output_file, preds) :
     """
     For official evaluation script
     :param output_file: prediction_file_path (e.g. eval/proposed_answers.txt)
     :param preds: [0,1,0,2,18,...]
     """
     relation_labels = get_label(args)
-    with open(output_file, "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f :
         for idx, pred in enumerate(preds):
             f.write("{}\t{}\n".format(8001 + idx, relation_labels[pred]))
             
 
-def get_tokenizer(tokenizer_id):
+def get_tokenizer(tokenizer_id) :
     tokenizer = None
-    if tokenizer_id == 'Bert_base-cased' :
-        tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
-    elif tokenizer_id == 'Scibert-cased':
-        tokenizer = BertTokenizer.from_pretrained('allenai/scibert_scivocab_cased', do_lower_case=False)
-    elif tokenizer_id == 'sloBERTa':
-        tokenizer = AutoTokenizer.from_pretrained('EMBEDDIA/sloberta', do_lower_case=False)
-    elif tokenizer_id == 'CroSloEngual':
-        tokenizer = BertTokenizer.from_pretrained('EMBEDDIA/crosloengual-bert', do_lower_case=False)
+    if tokenizer_id == 'EMBEDDIA/sloberta' :
+        tokenizer = AutoTokenizer.from_pretrained(tokenizer_id, do_lower_case=False)
+    else :
+        tokenizer = BertTokenizer.from_pretrained(tokenizer_id, do_lower_case=False)
         
         
     tokenizer.add_special_tokens({"additional_special_tokens": ADDITIONAL_SPECIAL_TOKENS})
     return tokenizer
-
-
-def get_model_name(model_id):
-    model = ''
-    
-    if model_id == 'Bert_base-cased':
-        model = "bert-base-cased"
-    elif model_id == 'Scibert-cased':
-        model = "allenai/scibert_scivocab_cased"
-    elif model_id == 'sloBERTa':
-        model = "EMBEDDIA/sloberta"
-    elif model_id == 'CroSloEngual':
-        model = "EMBEDDIA/crosloengual-bert"
-
-    return model
-
-
-def check_config(configs):
-    must_have_keys = ['experiment', 'model_name', 'tokenizer_id', 'model_id', 'max_length', 'batch_size', 'epochs']
-    experiments = {}
-    for conf in configs:
-        for key in must_have_keys:
-            if key not in conf:
-                raise KeyError(f'Missing key in the config dictionary: {key} not found in  {conf}')
-        if conf['experiment'] not in experiments:
-            experiments[conf['experiment']] = set()
-        if conf['model_name'] in experiments[conf['experiment']]:
-            raise NameError(
-                f'This model is already a part of an experiment: {conf["model_name"]} already in {conf["experiment"]}')
-        experiments[conf['experiment']].add(conf['model_name'])
-    return True
-
 
 class RelationExtractorTrainer(object):
     def __init__(self, args, train_dataset=None, dev_dataset=None, test_dataset=None):
@@ -175,13 +136,13 @@ class RelationExtractorTrainer(object):
         self.num_labels = len(self.label_lst)
 
         self.config = BertConfig.from_pretrained(
-            get_model_name(args['model_id']),
+            args['model_id'],
             num_labels=self.num_labels,
             finetuning_task=args['experiment'],
             id2label={str(i): label for i, label in enumerate(self.label_lst)},
             label2id={label: i for i, label in enumerate(self.label_lst)},
         )
-        self.model = RBERT.from_pretrained(get_model_name(args['model_id']), config=self.config, args=args)
+        self.model = RBERT.from_pretrained(args['model_id'], config=self.config, args=args)
 
         # GPU or CPU
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -382,14 +343,21 @@ def writeout_results(results, class_results, args) :
     writeout = ''
     
     with open(args['model_dir'] + '/results.txt', "w", encoding="utf-8") as f:
-        writeout += "{}\t{}\t{}\t{}\n".format(' ', 'Precision', 'Recall', 'F1')
-        writeout += "{}\t{}\t{}\t{}\n".format('Macro AVG', round(results['pr'], 2), round(results['re'], 2), round(results['f1'], 2))
+        writeout += "{}\t{}\t{}\t{}\t{}\n".format(' ', 'Precision', 'Recall', 'F1', 'Support')
+        
         
         for classs in class_results :
-            writeout += "{}\t{}\t{}\t{}\n".format(labels[classs],
+            writeout += "{}\t{}\t{}\t{}\t{}\n".format(labels[classs],
                                               round(class_results[classs]['pr'], 2),
                                               round(class_results[classs]['re'], 2),
-                                              round(class_results[classs]['f1'], 2))
+                                              round(class_results[classs]['f1'], 2),
+                                              class_results[classs]['supp'])
+            
+        writeout += "{}\t{}\t{}\t{}\t{}\n".format('Macro AVG',
+                                              round(results['pr'], 2),
+                                              round(results['re'], 2),
+                                              round(results['f1'], 2),
+                                              results['supp'])
             
         f.write(writeout)
         
@@ -413,7 +381,7 @@ def main():
     do_test = False
 
     for conf in train_config:
-        conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], conf['model_name'])
+        conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], model_id_to_path(conf['model_id']))
         conf['eval_dir'] = conf['model_dir']
         conf['data_dir'] = os.path.join('data', 'experiments', conf['experiment'])
         
@@ -422,10 +390,10 @@ def main():
         Path(conf['model_dir']).mkdir(parents=False, exist_ok=True)
         
         if (not os.path.exists(os.path.join(conf['model_dir'], 'model.pt')) or FORCE) and do_train:
-            print(f'TRAINING {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
+            print(f'TRAINING {model_id_to_path(conf["model_id"])}')
             json.dump(conf, open(os.path.join(conf['model_dir'], 'config_dict.json'), 'w'), indent=4)
             
-            tokenizer = get_tokenizer(conf['tokenizer_id'])
+            tokenizer = get_tokenizer(conf['model_id'])
             
             train_dataset = load_and_cache_examples(conf, tokenizer, mode="train")
             test_dataset = load_and_cache_examples(conf, tokenizer, mode="test")
@@ -440,12 +408,12 @@ def main():
             print(writeout_results(results, class_results, conf)) 
         else :
             if do_train :
-                print(f'Already trained {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
+                print(f'Already trained {model_id_to_path(conf["model_id"])}')
             
             
         if do_test and os.path.exists(os.path.join(conf['model_dir'], 'model.pt')) :
-            print(f'Testing {conf["model_name"]} with tokenizer {conf["tokenizer_id"]} and model {conf["model_id"]}')
-            tokenizer = get_tokenizer(conf['tokenizer_id'])
+            print(f'Testing {model_id_to_path(conf["model_id"])}')
+            tokenizer = get_tokenizer(conf['model_id'])
         
             test_dataset = load_and_cache_examples(conf, tokenizer, mode="test")
             trainer = RelationExtractorTrainer(conf, train_dataset=None, test_dataset=test_dataset)  
