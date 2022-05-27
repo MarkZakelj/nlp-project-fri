@@ -51,6 +51,12 @@ train_config = [
      'epochs': 5},
     
     {'experiment': 'SL_reg_nonhier+def',
+     'model_id': 'bert-base-cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 5},
+    
+    {'experiment': 'SL_reg_nonhier+def',
      'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 4,

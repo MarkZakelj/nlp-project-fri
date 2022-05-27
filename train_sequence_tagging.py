@@ -23,16 +23,16 @@ import seaborn as sns
 MODEL_IDS = {'bert-base-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
 
 train_config = [
-    {'experiment': 'EN_def+gen+definitor_btag',
+    {'experiment': 'EN_def+gen',
      'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 4,
-     'epochs': 4},
-    {'experiment': 'EN_def+gen+definitor_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 4,
      'epochs': 4}
+    #{'experiment': 'EN_def+gen+definitor_btag',
+    # 'model_id': 'allenai/scibert_scivocab_cased',
+    # 'max_length': 128,
+    # 'batch_size': 4,
+    # 'epochs': 4}
     ]
 """
     {'experiment': 'EN_def+gen_btag',
@@ -143,6 +143,14 @@ def check_config(configs) :
     return True
 
 
+def is_float(element) -> bool:
+    try:
+        float(element)
+        return True
+    except ValueError:
+        return False
+
+
 def group_predictions(tokens, tags):
     if len(tokens) != len(tags):
         raise ValueError('tokens list must be the same length as tags list')
@@ -154,32 +162,55 @@ def group_predictions(tokens, tags):
     for i, token in enumerate(tokens):
         if token != '-' and '##' not in token:
             if new_token != '':
-                if tokens[i - 1] != '-':
-                    new_tokens.append(new_token)
-                    new_tags.append(new_tag)
-
-                    if token == '^':
-                        token = '-'
-                    new_token = token
-                    new_tag = tags[i]
-                else:
-                    new_token = new_token + token
-
-                    if new_tag != 'O':
+                if tokens[i - 1] != '-' and tokens[i - 1] != '\'':
+                    if (tokens[i - 1].isnumeric() and token == '.') or (tokens[i - 1] == '.' and token.isnumeric()) or token == '%' or token == '\'':
+                        new_token = new_token + token
+                        if new_tag != 'O':
+                            new_tag = tags[i]
+                    else:
+                        new_tokens.append(new_token)
+                        new_tags.append(new_tag)
+    
+                        new_token = token
                         new_tag = tags[i]
+                else :
+                    if token.isnumeric() :
+                        new_tokens.append(new_token)
+                        new_tags.append(new_tag)
+    
+                        new_token = token
+                        new_tag = tags[i]
+                    else :
+                        new_token = new_token + token
+    
+                        if new_tag != 'O':
+                            new_tag = tags[i]
             else:
                 new_token = token
                 new_tag = tags[i]
         else:
-            if '##' in token:
-                token = token.replace('##', '')
-            new_token = new_token + token
+            if token == '-' and is_float(new_token) :
+                new_tokens.append(new_token)
+                new_tags.append(new_tag)
 
-            if new_tag != 'O':
+                new_token = token
                 new_tag = tags[i]
+            else :
+                if '##' in token:
+                    token = token.replace('##', '')
+                new_token = new_token + token
+                
+                
+        
+                if new_tag != 'O':
+                    new_tag = tags[i]
 
-    new_tokens.append(tokens[-1])
-    new_tags.append(tags[-1])
+    if tokens[-1] == '.' :
+        new_tokens.append(tokens[-1])
+        new_tags.append(tags[-1])
+    else :
+        new_tokens.append(new_token)
+        new_tags.append(new_tag)
 
     return new_tokens, new_tags
 

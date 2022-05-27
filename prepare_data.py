@@ -30,14 +30,15 @@ experiment_config = [
      'hierarchical': ['DEFINIENDUM', 'GENUS'],
      'non-hierarchical': [],
      'non-hierarchical-definitor': [],
-     'B-tags': True},
+     'B-tags': False},
+    
     {'name': 'def+gen',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
      'hierarchical': ['DEFINIENDUM', 'GENUS'],
      'non-hierarchical': [],
      'non-hierarchical-definitor': [],
-     'B-tags': True},
+     'B-tags': False},
 
     {'name': 'top4nonhier+def',
      'train': 'data/full_data_EN.csv',
@@ -46,6 +47,7 @@ experiment_config = [
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM'],
      'non-hierarchical-definitor': [],
      'B-tags': True},
+    
     {'name': 'top4nonhier+def',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
