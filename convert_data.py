@@ -57,7 +57,7 @@ def read_data(path, extensions=None):
     elif os.path.isdir(path):
         with os.scandir(path) as it:
             groups = []
-            for entry in it:
+            for entry in sorted(it, key=lambda e: e.name):
                 if entry.is_file() and not entry.name.startswith('.') \
                         and os.path.splitext(entry.name)[1].lower() in extensions:
                     try:
