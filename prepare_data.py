@@ -31,7 +31,7 @@ experiment_config = [
      'non-hierarchical': [],
      'non-hierarchical-definitor': [],
      'B-tags': False},
-    
+
     {'name': 'def+gen',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
@@ -47,7 +47,7 @@ experiment_config = [
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM'],
      'non-hierarchical-definitor': [],
      'B-tags': True},
-    
+
     {'name': 'top4nonhier+def',
      'train': 'data/full_data_SL.csv',
      'test': 'data/full_data_new_SL.csv',
@@ -63,6 +63,13 @@ experiment_config = [
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
      'non-hierarchical-definitor': [],
      'B-tags': True},
+    {'name': 'nonhier+def',
+     'train': 'data/full_data_EN.csv',
+     'test': 'data/full_data_new_EN.csv',
+     'hierarchical': ['DEFINIENDUM'],
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
+     'non-hierarchical-definitor': [],
+     'B-tags': False},
 ]
 
 ALLOWED_LANGUAGES = ['EN', 'SL', 'HR']
@@ -77,7 +84,8 @@ def get_language(filename, check=True):
     return lang
 
 
-def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: list, non_hier_def_cols: list, btags=True) -> pd.DataFrame:
+def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: list, non_hier_def_cols: list,
+                      btags=True) -> pd.DataFrame:
     """merge hierarchical, non-hierarchical and non-hierarchical-definitor columns into one Tag column"""
     df = dataframe.copy()
     # set unwanted tags to NaN
@@ -95,7 +103,8 @@ def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: l
             return non_hier_def_tag
         return hier_tag
 
-    df['Tag'] = df.apply(lambda x: merge_tags(x['hierarchical'], x['non-hierarchical'], x['non-hierarchical-definitor']), axis=1)
+    df['Tag'] = df.apply(
+        lambda x: merge_tags(x['hierarchical'], x['non-hierarchical'], x['non-hierarchical-definitor']), axis=1)
     df = df[['Sentence', 'Word', 'Tag']]
     df_cpy = df.copy()
 
