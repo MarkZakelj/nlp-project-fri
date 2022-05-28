@@ -101,17 +101,17 @@ def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: l
 
     if btags:
         # add B- and I- prefixes to tags
-        in_region = False
+        last_tag = None
         for row in df.iterrows():
             tag = row[1]['Tag']
             if type(tag) == str:
                 prefix = 'B-'
-                if in_region:
+                if tag == last_tag:
                     prefix = 'I-'
                 df_cpy.loc[row[0], 'Tag'] = prefix + tag
-                in_region = True
+                last_tag = tag
             else:
-                in_region = False
+                last_tag = None
     # set Nan values is Tag column to 'O' - Other
     df_cpy.loc[df['Tag'].isna(), ['Tag']] = 'O'
     return df_cpy
