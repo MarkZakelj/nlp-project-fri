@@ -90,7 +90,7 @@ def main():
                 outputs = model(all_input_ids, all_attention_mask, all_token_type_ids, None, all_e1_mask, all_e2_mask)
                 logits = outputs[0].detach().cpu().numpy()
 
-            logits[logits < 7] = 0
+            logits[logits < 8] = 0
             for idx in range(logits.shape[0]):
                 word_class_scores[word_masks[idx]] += logits[idx, :] / window_size
             torch.cuda.empty_cache()
