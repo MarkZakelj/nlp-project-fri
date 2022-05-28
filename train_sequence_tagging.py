@@ -17,6 +17,8 @@ from seqeval.metrics import f1_score
 from seqeval.metrics import accuracy_score
 from seqeval.metrics import classification_report
 
+from sklearn import metrics
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -27,11 +29,16 @@ warnings.simplefilter(action='ignore', category=UserWarning)
 MODEL_IDS = {'bert-base-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
 
 train_config = [
-    {'experiment': 'EN_def+gen',
-     'model_id': 'bert-base-cased',
+    #{'experiment': 'EN_def+gen',
+    # 'model_id': 'bert-base-cased',
+    # 'max_length': 128,
+    # 'batch_size': 4,
+    # 'epochs': 4},
+    {'experiment': 'EN_nonhier+def',
+     'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 4,
-     'epochs': 4},
+     'epochs': 3},
     #{'experiment': 'EN_def+gen+definitor_btag',
     # 'model_id': 'allenai/scibert_scivocab_cased',
     # 'max_length': 128,
@@ -691,6 +698,11 @@ def main():
             report = classification_report(results_true, results_predicted)
             with open(os.path.join(experiment_dir, model_id_path, 'results.txt'), 'w') as fl:
                 fl.write(report)
+                
+            report_tbt = metrics.classification_report(sum(results_true, []), sum(results_predicted, []), target_names=list(label2code)[:-1])
+            with open(os.path.join(experiment_dir, model_id_path, 'results_tbt.txt'), 'w') as fl:
+                fl.write(report_tbt)
+            
 
             tokens = []
             tags = []

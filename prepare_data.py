@@ -62,7 +62,7 @@ experiment_config = [
      'hierarchical': ['DEFINIENDUM'],
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
      'non-hierarchical-definitor': [],
-     'B-tags': True},
+     'B-tags': False},
 ]
 
 ALLOWED_LANGUAGES = ['EN', 'SL', 'HR']
