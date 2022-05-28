@@ -40,7 +40,7 @@ python train_relation_extraction.py
 
 ## Generate graphs
 ```
-# install nltk packages (**used only once**, since the packages are saved locally)
+# install nltk packages (used only once, since the packages are saved locally)
 pyhton install_nltk_packages.py
 
 # generate graphs
