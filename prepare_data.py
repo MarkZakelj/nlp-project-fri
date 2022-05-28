@@ -39,6 +39,23 @@ experiment_config = [
      'non-hierarchical': [],
      'non-hierarchical-definitor': [],
      'B-tags': False},
+    
+    {'name': 'def',
+     'train': 'data/full_data_EN.csv',
+     'test': 'data/full_data_new_EN.csv',
+     'hierarchical': ['DEFINIENDUM'],
+     'non-hierarchical': [],
+     'non-hierarchical-definitor': [],
+     'B-tags': False},
+    
+    {'name': 'def',
+     'train': 'data/full_data_SL.csv',
+     'test': 'data/full_data_new_SL.csv',
+     'hierarchical': ['DEFINIENDUM'],
+     'non-hierarchical': [],
+     'non-hierarchical-definitor': [],
+     'B-tags': False},
+
 
     {'name': 'top4nonhier+def',
      'train': 'data/full_data_EN.csv',

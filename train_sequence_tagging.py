@@ -45,6 +45,30 @@ train_config = [
     # 'batch_size': 4,
     # 'epochs': 4}
     
+    {'experiment': 'EN_def',
+     'model_id': 'bert-base-cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+    
+    {'experiment': 'EN_def',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+    
+    {'experiment': 'SL_def',
+     'model_id': 'bert-base-cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+    
+    {'experiment': 'SL_def',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+    
     {'experiment': 'SL_def+gen',
      'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
@@ -699,7 +723,7 @@ def main():
             with open(os.path.join(experiment_dir, model_id_path, 'results.txt'), 'w') as fl:
                 fl.write(report)
                 
-            report_tbt = metrics.classification_report(sum(results_true, []), sum(results_predicted, []), target_names=list(label2code)[:-1])
+            report_tbt = metrics.classification_report(sum(results_true, []), sum(results_predicted, []))
             with open(os.path.join(experiment_dir, model_id_path, 'results_tbt.txt'), 'w') as fl:
                 fl.write(report_tbt)
             
