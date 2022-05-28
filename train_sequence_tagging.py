@@ -20,6 +20,10 @@ from seqeval.metrics import classification_report
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+import warnings
+warnings.simplefilter(action='ignore', category=UserWarning)
+
+
 MODEL_IDS = {'bert-base-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
 
 train_config = [
