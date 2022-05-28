@@ -236,10 +236,34 @@ if __name__ == '__main__':
     prediction.insert(8, ['O'] * len(gt[8]))
     prediction.insert(15, ['O'] * len(gt[15]))  
     
+    mapper = {
+        'O' : 0,
+        'HAS_CAUSE' : 1,
+        'HAS_LOCATION' : 2,
+        'HAS_FORM' : 3,
+        'COMPOSITION_MEDIUM' : 4,
+        'HAS_FUNCTION' : 5,
+        'HAS_SIZE' : 6,
+        'DEFINIENDUM' : 7
+        }
     
+    def label_2_code(label) :
+        return mapper[label]
+
     from sklearn import metrics
     
-    report = metrics.classification_report(gt, prediction)
+    
+    nu_gt = []
+    nu_pred = []
+    
+    for i, g in enumerate(gt) :
+        nu_gt.append(list(map(label_2_code, gt[i])))
+        nu_pred.append(list(map(label_2_code, prediction[i])))
+        
+    nu_gt = sum(nu_gt, [])
+    nu_pred = sum(nu_pred, [])
+    
+    report = metrics.classification_report(nu_gt, nu_pred, target_names=list(mapper))
     with open(os.path.join(conf['model_dir'], 'results_reg.txt'), 'w') as fl:
         fl.write(report)
     
