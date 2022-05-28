@@ -61,13 +61,12 @@ train_config = [
      'max_length': 128,
      'batch_size': 4,
      'epochs': 5},
-
-    {'experiment': 'SL_reg_nonhier+def',
-     'model_id': 'EMBEDDIA/sloberta',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 5}
-    
+    # SHIT!
+    #{'experiment': 'SL_reg_nonhier+def',
+    # 'model_id': 'EMBEDDIA/sloberta',
+    # 'max_length': 128,
+    # 'batch_size': 4,
+    # 'epochs': 5}
     
 ]
 
@@ -77,9 +76,9 @@ def get_label(args):
 
 def compute_metrics(preds, labels, label_list):
     assert len(preds) == len(labels)
-    f1 = metrics.f1_score(labels, preds, average='macro', zero_division=0)
-    pr = metrics.precision_score(labels, preds, average='macro', zero_division=0)
-    re = metrics.recall_score(labels, preds, average='macro', zero_division=0)
+    f1 = metrics.f1_score(labels, preds, average='weighted', zero_division=0)
+    pr = metrics.precision_score(labels, preds, average='weighted', zero_division=0)
+    re = metrics.recall_score(labels, preds, average='weighted', zero_division=0)
     
     f1_all = metrics.f1_score(labels, preds, average=None, zero_division=0)
     pr_all = metrics.precision_score(labels, preds, average=None, zero_division=0)
@@ -93,12 +92,19 @@ def compute_metrics(preds, labels, label_list):
     
     per_class_result = {}
     
-    for i in range(1, max(labels) + 1) :
-        per_class_result[i] = {"f1" : f1_all[i-1],
-                               "pr" : pr_all[i-1],
-                               "re" : re_all[i-1],
-                               "supp" : np.count_nonzero(labels == i)}
-    
+    if len(f1_all) < 7 :
+        for i in range(1, len(f1_all) + 1) :
+            per_class_result[i] = {"f1" : f1_all[i - 1],
+                                   "pr" : pr_all[i - 1],
+                                   "re" : re_all[i - 1],
+                                   "supp" : np.count_nonzero(labels == i)}
+    else :
+        for i in range(1, len(f1_all)) :
+            per_class_result[i] = {"f1" : f1_all[i],
+                                   "pr" : pr_all[i],
+                                   "re" : re_all[i],
+                                   "supp" : np.count_nonzero(labels == i)}
+            
     return result, per_class_result
 
 def simple_accuracy(preds, labels):
@@ -351,7 +357,7 @@ def writeout_results(results, class_results, args) :
     with open(args['model_dir'] + '/results.txt', "w", encoding="utf-8") as f:
         writeout += "{}\t{}\t{}\t{}\t{}\n".format(' ', 'Precision', 'Recall', 'F1', 'Support')
         
-        
+        print(class_results)
         for classs in class_results :
             writeout += "{}\t{}\t{}\t{}\t{}\n".format(labels[classs],
                                               round(class_results[classs]['pr'], 2),
@@ -359,7 +365,7 @@ def writeout_results(results, class_results, args) :
                                               round(class_results[classs]['f1'], 2),
                                               class_results[classs]['supp'])
             
-        writeout += "{}\t{}\t{}\t{}\t{}\n".format('Macro AVG',
+        writeout += "{}\t{}\t{}\t{}\t{}\n".format('Weighted AVG',
                                               round(results['pr'], 2),
                                               round(results['re'], 2),
                                               round(results['f1'], 2),
@@ -384,7 +390,7 @@ def main():
     print(device)
     
     do_train = True
-    do_test = False
+    do_test = True
 
     for conf in train_config:
         conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], model_id_to_path(conf['model_id']))

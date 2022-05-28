@@ -10,12 +10,20 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import os
+from tqdm import tqdm
+import random
 
 experiment_config = [
 
     {'name': 'nonhier+def',
      'train': 'data/full_data_EN.csv',
      'test': 'data/full_data_new_EN.csv',
+     'hierarchical': ['DEFINIENDUM'],
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']},
+    
+    {'name': 'nonhier+def',
+     'train': 'data/full_data_SL.csv',
+     'test': 'data/full_data_new_SL.csv',
      'hierarchical': ['DEFINIENDUM'],
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']}
 ]
@@ -53,7 +61,7 @@ def prepare_dataframe(dataframe: pd.DataFrame, hier_cols: list, non_hier_cols: l
     return df
 
 
-def prepare_regions(dataframe: pd.DataFrame):
+def prepare_regions(dataframe: pd.DataFrame, as_test: bool):
     dfs = []
     keys = []
     
@@ -71,12 +79,28 @@ def prepare_regions(dataframe: pd.DataFrame):
         
         for i, word in enumerate(sentence) :
             if start == -1 :
-                if word[1] != 'O' :
+                if not as_test or word[1] != 'O' :
                     start = i
                     typ = word[1]
             else :
                 if word[1] != typ :
                     end = i
+                    
+                    if typ == 'O' :
+                        typ = 'Other'
+                        
+                        length = end - start
+                        if length < 2 :
+                            start = -1
+                            end = -1
+                            typ = None
+                            continue
+                        else :
+                            rand_length = min(int(random.random() * length + 2), 7, length)
+                            #rand_start_offset = max(min(int(random.random() * (length - rand_length)), end), start)
+                            
+                            #start += rand_start_offset
+                            end = start + rand_length
                     
                     nu_reg = {'start' : start, 'end' : end, 'type' : typ}
                     if typ == 'DEFINIENDUM' :
@@ -132,7 +156,7 @@ def prepare_experiment(config: dict, as_test=False):
     df_with_tag = prepare_dataframe(df, config['hierarchical'], config['non-hierarchical'])
     experiment_name = language + "_reg_" + config['name']
     
-    df_with_reg, reg_keys = prepare_regions(df_with_tag)
+    df_with_reg, reg_keys = prepare_regions(df_with_tag, as_test)
     # create experiment dir if it doesnt exsist
     Path('data', 'experiments', experiment_name).mkdir(parents=True, exist_ok=True)
     out_filename = 'test.tsv' if as_test else 'train.tsv'
@@ -150,7 +174,7 @@ def prepare_experiment(config: dict, as_test=False):
     
 
 def main():
-    for conf in experiment_config:
+    for conf in tqdm(experiment_config):
         # prepare train data
         prepare_experiment(conf, as_test=False)
         if conf['test']:

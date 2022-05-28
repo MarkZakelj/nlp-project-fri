@@ -94,19 +94,19 @@ class TermFrameProcessor(object):
                 lines.append(line)
             return lines
 
-    def _create_examples(self, lines, set_type):
+    def _create_examples(self, lines, set_type, verbose=False):
         """Creates examples for the training and dev sets."""
         examples = []
         for (i, line) in enumerate(lines):
             guid = "%s-%s" % (set_type, i)
             text_a = line[1]
             label = self.relation_labels.index(line[0])
-            if i % 1000 == 0:
+            if i % 1000 == 0 and verbose:
                 logger.info(line)
             examples.append(InputExample(guid=guid, text_a=text_a, label=label))
         return examples
 
-    def get_examples(self, mode):
+    def get_examples(self, mode, verbose=False):
         """
         Args:
             mode: train, dev, test
@@ -116,9 +116,9 @@ class TermFrameProcessor(object):
             file_to_read = 'train.tsv'
         elif mode == "test":
             file_to_read = 'test.tsv'
-
-        logger.info("LOOKING AT {}".format(os.path.join(self.args['data_dir'], file_to_read)))
-        return self._create_examples(self._read_tsv(os.path.join(self.args['data_dir'], file_to_read)), mode)
+        if verbose :
+            logger.info("LOOKING AT {}".format(os.path.join(self.args['data_dir'], file_to_read)))
+        return self._create_examples(self._read_tsv(os.path.join(self.args['data_dir'], file_to_read)), mode, verbose)
 
 def convert_examples_to_features(
     examples,
@@ -132,10 +132,11 @@ def convert_examples_to_features(
     sequence_a_segment_id=0,
     add_sep_token=False,
     mask_padding_with_zero=True,
+    verbose=False
 ):
     features = []
     for (ex_index, example) in enumerate(examples):
-        if ex_index % 5000 == 0:
+        if ex_index % 5000 == 0 and verbose:
             logger.info("Writing example %d of %d" % (ex_index, len(examples)))
 
         tokens_a = tokenizer.tokenize(example.text_a)
@@ -212,7 +213,7 @@ def convert_examples_to_features(
 
         label_id = int(example.label)
 
-        if ex_index < 5:
+        if ex_index < 5 and verbose:
             logger.info("*** Example ***")
             logger.info("guid: %s" % example.guid)
             logger.info("tokens: %s" % " ".join([str(x) for x in tokens]))
@@ -237,7 +238,7 @@ def convert_examples_to_features(
     return features
 
 
-def load_and_cache_examples(args, tokenizer, mode):
+def load_and_cache_examples(args, tokenizer, mode, verbose=False):
     processor = TermFrameProcessor(args)
 
     # Load data features from cache or dataset file
@@ -257,11 +258,11 @@ def load_and_cache_examples(args, tokenizer, mode):
     else:
         logger.info("Creating features from dataset file at %s", args['data_dir'])
         if mode == "train":
-            examples = processor.get_examples("train")
+            examples = processor.get_examples("train", verbose)
         elif mode == "dev":
-            examples = processor.get_examples("dev")
+            examples = processor.get_examples("dev", verbose)
         elif mode == "test":
-            examples = processor.get_examples("test")
+            examples = processor.get_examples("test", verbose)
         else:
             raise Exception("For mode, Only train, dev, test is available")
 
