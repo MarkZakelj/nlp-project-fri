@@ -29,53 +29,48 @@ warnings.simplefilter(action='ignore', category=UserWarning)
 MODEL_IDS = {'bert-base-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
 
 train_config = [
-    #{'experiment': 'EN_def+gen',
-    # 'model_id': 'bert-base-cased',
-    # 'max_length': 128,
-    # 'batch_size': 4,
-    # 'epochs': 4},
-    {'experiment': 'EN_nonhier+def',
-     'model_id': 'allenai/scibert_scivocab_cased',
+    {'experiment': 'EN_def+gen',
+     'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 3},
-    #{'experiment': 'EN_def+gen+definitor_btag',
-    # 'model_id': 'allenai/scibert_scivocab_cased',
-    # 'max_length': 128,
-    # 'batch_size': 4,
-    # 'epochs': 4}
-    
+
     {'experiment': 'EN_def',
      'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
-    
+
     {'experiment': 'EN_def',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
-    
+
     {'experiment': 'SL_def',
      'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
-    
+
     {'experiment': 'SL_def',
      'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
-    
+
+    {'experiment': 'EN_def+gen+definitor_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+
     {'experiment': 'SL_def+gen',
      'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 2},
-    ]
-"""
+
     {'experiment': 'EN_def+gen_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
@@ -87,8 +82,12 @@ train_config = [
      'batch_size': 8,
      'epochs': 6},
 
-
     {'experiment': 'EN_nonhier+def_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'EN_nonhier+def',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 8,
@@ -110,7 +109,6 @@ train_config = [
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
-
 
     {'experiment': 'SL_def+gen_btag',
      'model_id': 'bert-base-cased',
@@ -144,7 +142,7 @@ train_config = [
      'batch_size': 8,
      'epochs': 6},
 ]
-"""
+
 
 def get_tokenizer_object(model_id):
     tokenizer = AutoTokenizer.from_pretrained(model_id, do_lower_case=False)
@@ -161,14 +159,14 @@ def get_model_object(model_id, label2code):
     return model
 
 
-def model_id_to_path(model_id) :
+def model_id_to_path(model_id):
     """prepare model_id so it can be a name of one directory - character / will create two directories
     example: EMBEDDIA/sloberta --> EMBEDDIA_sloberta"""
     model_path = model_id.replace('/', '_')
     return model_path
 
 
-def check_config(configs) :
+def check_config(configs):
     must_have_keys = ['experiment', 'model_id', 'max_length', 'batch_size', 'epochs']
     experiments = {}
     for conf in configs:
@@ -204,52 +202,51 @@ def group_predictions(tokens, tags):
         if token != '-' and '##' not in token:
             if new_token != '':
                 if tokens[i - 1] != '-' and tokens[i - 1] != '\'':
-                    if (tokens[i - 1].isnumeric() and token == '.') or (tokens[i - 1] == '.' and token.isnumeric()) or token == '%' or token == '\'':
+                    if (tokens[i - 1].isnumeric() and token == '.') or (
+                            tokens[i - 1] == '.' and token.isnumeric()) or token == '%' or token == '\'':
                         new_token = new_token + token
                         if new_tag != 'O':
                             new_tag = tags[i]
                     else:
                         new_tokens.append(new_token)
                         new_tags.append(new_tag)
-    
+
                         new_token = token
                         new_tag = tags[i]
-                else :
-                    if token.isnumeric() :
+                else:
+                    if token.isnumeric():
                         new_tokens.append(new_token)
                         new_tags.append(new_tag)
-    
+
                         new_token = token
                         new_tag = tags[i]
-                    else :
+                    else:
                         new_token = new_token + token
-    
+
                         if new_tag != 'O':
                             new_tag = tags[i]
             else:
                 new_token = token
                 new_tag = tags[i]
         else:
-            if token == '-' and is_float(new_token) :
+            if token == '-' and is_float(new_token):
                 new_tokens.append(new_token)
                 new_tags.append(new_tag)
 
                 new_token = token
                 new_tag = tags[i]
-            else :
+            else:
                 if '##' in token:
                     token = token.replace('##', '')
                 new_token = new_token + token
-                
-                
-        
+
                 if new_tag != 'O':
                     new_tag = tags[i]
 
-    if tokens[-1] == '.' :
+    if tokens[-1] == '.':
         new_tokens.append(tokens[-1])
         new_tags.append(tags[-1])
-    else :
+    else:
         new_tokens.append(new_token)
         new_tags.append(new_tag)
 
@@ -638,6 +635,7 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
 
 
 FORCE = False
+FORCE_TEST = True
 
 
 def main():
@@ -665,7 +663,8 @@ def main():
         model_path = os.path.join(experiment_dir, model_id_path, 'model.pt')
         anno_path = os.path.join(experiment_dir, model_id_path, 'annotation.csv')
 
-        if not os.path.exists(model_path) or (not os.path.exists(anno_path) and os.path.exists(model_path)) or FORCE:
+        if not os.path.exists(model_path) or (
+                not os.path.exists(anno_path) and os.path.exists(model_path)) or FORCE or FORCE_TEST:
             json.dump(conf, open(os.path.join(experiment_dir, model_id_path, 'config_dict.json'), 'w'), indent=4)
             tokenizer = get_tokenizer_object(conf['model_id'])
             if os.path.exists(test_file_path):
@@ -683,7 +682,7 @@ def main():
 
             torch.save(model, model_path)
 
-        if (not os.path.exists(anno_path) and os.path.exists(model_path)) or FORCE:
+        if (not os.path.exists(anno_path) and os.path.exists(model_path)) or FORCE or FORCE_TEST:
             # TEST
             if not os.path.exists(test_file_path):
                 continue
@@ -722,11 +721,11 @@ def main():
             report = classification_report(results_true, results_predicted)
             with open(os.path.join(experiment_dir, model_id_path, 'results.txt'), 'w') as fl:
                 fl.write(report)
-                
+
             report_tbt = metrics.classification_report(sum(results_true, []), sum(results_predicted, []))
             with open(os.path.join(experiment_dir, model_id_path, 'results_tbt.txt'), 'w') as fl:
                 fl.write(report_tbt)
-            
+
 
             tokens = []
             tags = []
