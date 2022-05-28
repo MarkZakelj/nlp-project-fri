@@ -1,4 +1,5 @@
 import os
+import gc
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -24,9 +25,9 @@ import seaborn as sns
 
 import warnings
 warnings.simplefilter(action='ignore', category=UserWarning)
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
-
-MODEL_IDS = {'bert-base-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
+MODEL_IDS = {'bert-base-cased', 'bert-large-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
 
 train_config = [
     {'experiment': 'EN_def+gen',
@@ -65,12 +66,11 @@ train_config = [
      'batch_size': 4,
      'epochs': 4},
 
-    {'experiment': 'SL_def+gen',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
+    {'experiment': 'EN_def+gen',
+     'model_id': 'bert-large-cased',
      'max_length': 128,
      'batch_size': 4,
-     'epochs': 2},
-
+     'epochs': 6},
     {'experiment': 'EN_def+gen_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
@@ -99,23 +99,28 @@ train_config = [
      'batch_size': 8,
      'epochs': 6},
 
-    {'experiment': 'SL_def+gen+definitor_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
+    {'experiment': 'EN_def+gen_btag',
+     'model_id': 'bert-large-cased',
      'max_length': 128,
      'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'SL_def+gen+definitor_btag',
-     'model_id': 'EMBEDDIA/sloberta',
+     'epochs': 6}, 
+    
+    {'experiment': 'SL_def+gen',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-
+     'batch_size': 4,
+     'epochs': 2},
     {'experiment': 'SL_def+gen_btag',
      'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
     {'experiment': 'SL_def+gen_btag',
+     'model_id': 'bert-large-cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6}, 
+    {'experiment': 'SL_def+gen_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 8,
@@ -125,12 +130,34 @@ train_config = [
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
+
     {'experiment': 'SL_def+gen_btag',
      'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 6,
      'epochs': 6},
-
+    ]
+"""
+    {'experiment': 'EN_nonhier+def_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'EN_top4nonhier+def_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'SL_def+gen+definitor_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'SL_def+gen+definitor_btag',
+     'model_id': 'EMBEDDIA/sloberta',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
     {'experiment': 'SL_top4nonhier+def_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
@@ -142,7 +169,7 @@ train_config = [
      'batch_size': 8,
      'epochs': 6},
 ]
-
+"""
 
 def get_tokenizer_object(model_id):
     tokenizer = AutoTokenizer.from_pretrained(model_id, do_lower_case=False)
@@ -542,6 +569,7 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
             del b_input_ids
             del b_input_mask
             del b_labels
+            del batch
 
         # Calculate the average loss over the training data.
         avg_train_loss = total_loss / len(train_dataloader)
@@ -594,6 +622,7 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
             del b_input_ids
             del b_input_mask
             del b_labels
+            del batch
 
         eval_loss = eval_loss / nb_eval_steps
         validation_loss_values.append(eval_loss)
@@ -634,6 +663,11 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
     return model
 
 
+def free_gpu_cache():                        
+    gc.collect()
+    torch.cuda.empty_cache()
+
+
 FORCE = False
 FORCE_TEST = True
 
@@ -665,6 +699,7 @@ def main():
 
         if not os.path.exists(model_path) or (
                 not os.path.exists(anno_path) and os.path.exists(model_path)) or FORCE or FORCE_TEST:
+            free_gpu_cache()
             json.dump(conf, open(os.path.join(experiment_dir, model_id_path, 'config_dict.json'), 'w'), indent=4)
             tokenizer = get_tokenizer_object(conf['model_id'])
             if os.path.exists(test_file_path):
@@ -715,6 +750,8 @@ def main():
                 del b_input_ids
                 del b_input_mask
                 del b_labels
+            del model
+
             results_predicted = [[code2label[p_i] for (p_i, l_i) in zip(p, l) if code2label[l_i] != "PAD"]
                                  for p, l in zip(predictions, true_labels)]
             results_true = [[code2label[l_i] for l_i in l if code2label[l_i] != "PAD"] for l in true_labels]
@@ -737,6 +774,8 @@ def main():
                 tags.extend(new_tags)
             ann_df = pd.DataFrame(data={'Sentence': sentence_ids, 'Word': tokens, 'Tag': tags})
             ann_df.to_csv(os.path.join(experiment_dir, model_id_path, 'annotation.csv'), index=False)
+
+        
 
 
 if __name__ == '__main__':

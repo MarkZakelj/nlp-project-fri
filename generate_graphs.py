@@ -1,4 +1,5 @@
 from doctest import OPTIONFLAGS_BY_NAME
+from pkgutil import extend_path
 from attr import attr
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 import networkx as nx
@@ -10,23 +11,29 @@ import os
 from sklearn.model_selection import PredefinedSplit
 ps = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
+import warnings
 
+########################## PARAMETERS ##########################
+SECOND_TAG = 'GENUS'
+MAX_WCC_TO_DISPLAY = 3
+################################################################
 
-####################### DEFINED FUNCTIONS #######################
 
 def get_path(experiment_path, prev_mo):
     pred_path = None 
     mo = None
     gt_path = os.path.join(experiment_path, "test.csv")
     model_dirs = [f for f in os.listdir(experiment_path) if os.path.isdir(os.path.join(experiment_path,f))]
-    
+    global ex_path
+    ex_path = experiment_path
+
     for mo, model in enumerate(model_dirs):
         if prev_mo >= mo:
             continue
         elif prev_mo == len(model_dirs)-1:
             mo = -1
         else:
-            print(model)
+            print(experiment_path.split("/")[-1],"/",model)
             pred_path = os.path.join(experiment_path,model,"annotation.csv")
             global model_dir
             model_dir = model
@@ -49,13 +56,14 @@ def get_data(gt_path, pred_path):
     if header1 == header2:
         header = header1
     else:
-        raise Exception("Error, different headers in .csv files!") 
+        warnings.warn("Warning: different headers in .csv files!")
 
     pred_data = []
     for row1,row2 in zip(csvreader1,csvreader2):
         if row1[header.index('Word')] != row2[header.index('Word')]:
             print(row1, row2)
-            raise Exception("Error, words in rows are not the same!") 
+            print("Error: words in rows are not the same!")
+            return None, None
         else:
             gt_data.append(row1)
             pred_data.append(row2)
@@ -76,7 +84,7 @@ def get_tag_masks(data):
     mask_definiendum, mask_second_tag = [],[]
     for row in data:
         mask_definiendum.append(['DEFINIENDUM' in tag for tag in row][TAG_COL])
-        mask_second_tag.append([second_tag in tag for tag in row][TAG_COL])
+        mask_second_tag.append([SECOND_TAG in tag for tag in row][TAG_COL])
     return mask_definiendum, mask_second_tag
 
 def get_gt_stems_lemmas(data, mask):
@@ -186,13 +194,13 @@ def plot_graph(G, G_correct, G_false, G_u, \
     nx.draw_networkx_labels(G, layout, false_node_names, font_size=16, font_color="red")
     # plt.tight_layout()
     # plt.axis("off")
-    fig.savefig(os.path.join(gt_path,model_dir,"graph.png"))
+    fig.savefig(os.path.join(ex_path,model_dir,"graph.png"))
 
     # max wcc
     f = plt.figure(figsize=(20, 20))
     G_ = nx.MultiDiGraph()
     for i, max_wcc in enumerate(sorted(nx.weakly_connected_components(G), key=len, reverse=True)):
-        if i in range(2):
+        if i in range(MAX_WCC_TO_DISPLAY):
             G_.add_nodes_from(nx.subgraph(G, max_wcc).nodes(data=True))
             G_.add_edges_from([e for e in nx.subgraph(G, max_wcc).edges])
         else:
@@ -222,7 +230,7 @@ def plot_graph(G, G_correct, G_false, G_u, \
     nx.draw_networkx_labels(G_mwcc, pos, correct_wcc_names, font_size=23, font_color="green")
     nx.draw_networkx_labels(G_mwcc, pos, false_wcc_names, font_size=23, font_color="red")
 
-    f.savefig(os.path.join(gt_path,model_dir,"max_wcc_graph.png"))
+    f.savefig(os.path.join(ex_path,model_dir,"max_wcc_graph.png"))
 
 
 def main(gt_data, pred_data):
@@ -344,23 +352,24 @@ def main(gt_data, pred_data):
 
 
 
-########################## PARAMETERS ##########################
-second_tag = 'GENUS'
-################################################################
+####################################################################
+#                              main                                #
+####################################################################
 
 
 root = os.getcwd()
 experiments_paths = [os.path.join(root,"data/experiments",f) for f in  \
                     os.listdir(os.path.join(root,"data/experiments")) \
-                    if os.path.isdir(os.path.join(root,"data/experiments",f))]
+                    if os.path.isdir(os.path.join(root,"data/experiments",f)) and "reg" not in f]
 mo = -1
 for experiment_path in experiments_paths:
     gt_path, pred_path, mo = get_path(experiment_path, mo)
     if pred_path == None:
         mo = -1
         continue
-
+    
     gt_data, pred_data = get_data(gt_path, pred_path)
-    print("Extracted data")
-    main(gt_data, pred_data)
-    print("Graph drawn")
+    if gt_data != None and pred_data != None:
+        print("Extracted data...")
+        main(gt_data, pred_data)
+        print("Graph drawn and can be found in the experiment folder.")
