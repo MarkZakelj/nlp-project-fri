@@ -28,19 +28,19 @@ train_config = [
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
-    #{'experiment': 'EN_def+gen+definitor_btag',
-    # 'model_id': 'allenai/scibert_scivocab_cased',
-    # 'max_length': 128,
-    # 'batch_size': 4,
-    # 'epochs': 4}
+
+    {'experiment': 'EN_def+gen+definitor_btag',
+    'model_id': 'allenai/scibert_scivocab_cased',
+    'max_length': 128,
+    'batch_size': 4,
+    'epochs': 4},
     
     {'experiment': 'SL_def+gen',
      'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 2},
-    ]
-"""
+
     {'experiment': 'EN_def+gen_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
@@ -109,7 +109,7 @@ train_config = [
      'batch_size': 8,
      'epochs': 6},
 ]
-"""
+
 
 def get_tokenizer_object(model_id):
     tokenizer = AutoTokenizer.from_pretrained(model_id, do_lower_case=False)
@@ -602,7 +602,7 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
     return model
 
 
-FORCE = False
+FORCE = True
 
 
 def main():
