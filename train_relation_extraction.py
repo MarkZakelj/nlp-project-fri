@@ -31,6 +31,8 @@ from rbert_model import RBERT
 from rbert_data_loader import load_and_cache_examples
 
 from train_sequence_tagging import MODEL_IDS, model_id_to_path, check_config
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 logger = logging.getLogger(__name__)
 
