@@ -1,0 +1,45 @@
+name = 'data config'
+
+[[default_datasets]]
+train = 'data/full_data_EN.csv'
+test = 'data/full_data_new_EN.csv'
+[[default_datasets]]
+train = 'data/full_data_SL.csv'
+test = 'data/full_data_new_SL.csv'
+
+
+[[data]]
+name = 'def'
+hierarchical = ['DEFINIENDUM']
+non-hierarchical = []
+non-hierarchical-definitor = []
+B-tags = false
+
+[[data]]
+name = 'def+gen'
+hierarchical = ['DEFINIENDUM', 'GENUS']
+non-hierarchical = []
+non-hierarchical-definitor = []
+B-tags = true
+
+[[data]]
+name = 'def+gen+definitor'
+hierarchical = ['DEFINIENDUM', 'GENUS', 'DEFINITOR']
+non-hierarchical = []
+non-hierarchical-definitor = []
+B-tags = true
+
+[[data]]
+name = 'top4nonhier+def'
+hierarchical = ['DEFINIENDUM']
+non-hierarchical = ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM']
+non-hierarchical-definitor = []
+B-tags = true
+
+[[data]]
+name = 'nonhier+def'
+hierarchical = ['DEFINIENDUM']
+non-hierarchical = ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']
+non-hierarchical-definitor = []
+B-tags = true
+

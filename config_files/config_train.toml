@@ -1,0 +1,98 @@
+name = 'train configurations'
+
+[default_values]
+max_length = 128
+batch_size = 4
+epochs = 4
+
+[[train]]
+experiment = 'EN_def'
+[[train.model]]
+model_id = 'bert-base-cased'
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+
+[[train]]
+experiment = 'EN_def+gen_btag'
+[[train.model]]
+model_id = 'bert-base-cased'
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+
+[[train]]
+experiment = 'EN_def+gen+definitor_btag'
+[[train.model]]
+model_id = 'bert-base-cased'
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+
+[[train]]
+experiment = 'EN_nonhier+def_btag'
+[[train.model]]
+model_id = 'bert-base-cased'
+epochs = 6
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+epochs = 6
+
+[[train]]
+experiment = 'EN_top4nonhier+def_btag'
+[[train.model]]
+model_id = 'bert-base-cased'
+epochs = 6
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+epochs = 6
+
+# SLOVENIAN LANGUAGE EXPERIMENTS
+
+[[train]]
+experiment = 'SL_def'
+[[train.model]]
+model_id = 'EMBEDDIA/crosloengual-bert'
+[[train.model]]
+model_id = 'EMBEDDIA/sloberta'
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+
+[[train]]
+experiment = 'SL_def+gen'
+[[train.model]]
+model_id = 'EMBEDDIA/crosloengual-bert'
+[[train.model]]
+model_id = 'EMBEDDIA/sloberta'
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+
+[[train]]
+experiment = 'SL_def+gen+definitor_btag'
+[[train.model]]
+model_id = 'EMBEDDIA/crosloengual-bert'
+[[train.model]]
+model_id = 'EMBEDDIA/sloberta'
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+
+[[train]]
+experiment = 'SL_nonhier+def_btag'
+[[train.model]]
+model_id = 'EMBEDDIA/crosloengual-bert'
+epochs = 6
+[[train.model]]
+model_id = 'EMBEDDIA/sloberta'
+epochs = 6
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+epochs = 6
+
+[[train]]
+experiment = 'SL_top4nonhier+def_btag'
+[[train.model]]
+model_id = 'EMBEDDIA/crosloengual-bert'
+epochs = 6
+[[train.model]]
+model_id = 'EMBEDDIA/sloberta'
+epochs = 6
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+epochs = 6

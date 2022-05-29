@@ -27,114 +27,96 @@ from transformers import get_linear_schedule_with_warmup
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from rbert_model import RBERT 
+from rbert_model import RBERT
 from rbert_data_loader import load_and_cache_examples
 
-from train_sequence_tagging import MODEL_IDS, model_id_to_path, check_config
+from train_sequence_tagging import MODEL_IDS, model_id_to_path
 import warnings
+
+import config_util
+
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 logger = logging.getLogger(__name__)
 
-
 ADDITIONAL_SPECIAL_TOKENS = ["<e1>", "</e1>", "<e2>", "</e2>"]
+TRAIN_CONFIG = config_util.get_train_reg_config()
 
-train_config = [
-    {'experiment': 'EN_reg_nonhier+def',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 5},
-    
-    {'experiment': 'EN_reg_nonhier+def',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 5},
-    
-    {'experiment': 'SL_reg_nonhier+def',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 5},
-    
-    {'experiment': 'SL_reg_nonhier+def',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 5},
-    # SHIT!
-    #{'experiment': 'SL_reg_nonhier+def',
-    # 'model_id': 'EMBEDDIA/sloberta',
-    # 'max_length': 128,
-    # 'batch_size': 4,
-    # 'epochs': 5}
-    
-]
+
+# uncomment the next variable to override the default config
+# TRAIN_CONFIG = [
+#     {'experiment': 'EN_reg_nonhier+def',
+#      'model_id': 'bert-base-cased',
+#      'max_length': 128,
+#      'batch_size': 4,
+#      'epochs': 5},
+# ]
 
 
 def get_label(args):
     return [label.strip() for label in open(os.path.join(args['data_dir'], 'labels.txt'), "r", encoding="utf-8")]
+
 
 def compute_metrics(preds, labels, label_list):
     assert len(preds) == len(labels)
     f1 = metrics.f1_score(labels, preds, average='weighted', zero_division=0)
     pr = metrics.precision_score(labels, preds, average='weighted', zero_division=0)
     re = metrics.recall_score(labels, preds, average='weighted', zero_division=0)
-    
+
     f1_all = metrics.f1_score(labels, preds, average=None, zero_division=0)
     pr_all = metrics.precision_score(labels, preds, average=None, zero_division=0)
     re_all = metrics.recall_score(labels, preds, average=None, zero_division=0)
-    
+
     result = {"acc": simple_accuracy(preds, labels),
-              "f1" : f1,
-              "pr" : pr,
-              "re" : re,
-              "supp" : len(labels)}
-    
+              "f1": f1,
+              "pr": pr,
+              "re": re,
+              "supp": len(labels)}
+
     per_class_result = {}
-    
-    if len(f1_all) < 7 :
-        for i in range(1, len(f1_all) + 1) :
-            per_class_result[i] = {"f1" : f1_all[i - 1],
-                                   "pr" : pr_all[i - 1],
-                                   "re" : re_all[i - 1],
-                                   "supp" : np.count_nonzero(labels == i)}
-    else :
-        for i in range(1, len(f1_all)) :
-            per_class_result[i] = {"f1" : f1_all[i],
-                                   "pr" : pr_all[i],
-                                   "re" : re_all[i],
-                                   "supp" : np.count_nonzero(labels == i)}
-            
+
+    if len(f1_all) < 7:
+        for i in range(1, len(f1_all) + 1):
+            per_class_result[i] = {"f1": f1_all[i - 1],
+                                   "pr": pr_all[i - 1],
+                                   "re": re_all[i - 1],
+                                   "supp": np.count_nonzero(labels == i)}
+    else:
+        for i in range(1, len(f1_all)):
+            per_class_result[i] = {"f1": f1_all[i],
+                                   "pr": pr_all[i],
+                                   "re": re_all[i],
+                                   "supp": np.count_nonzero(labels == i)}
+
     return result, per_class_result
+
 
 def simple_accuracy(preds, labels):
     return (preds == labels).mean()
 
 
-def write_prediction(args, output_file, preds) :
+def write_prediction(args, output_file, preds):
     """
     For official evaluation script
     :param output_file: prediction_file_path (e.g. eval/proposed_answers.txt)
     :param preds: [0,1,0,2,18,...]
     """
     relation_labels = get_label(args)
-    with open(output_file, "w", encoding="utf-8") as f :
+    with open(output_file, "w", encoding="utf-8") as f:
         for idx, pred in enumerate(preds):
             f.write("{}\t{}\n".format(8001 + idx, relation_labels[pred]))
-            
 
-def get_tokenizer(tokenizer_id) :
+
+def get_tokenizer(tokenizer_id):
     tokenizer = None
-    if tokenizer_id == 'EMBEDDIA/sloberta' :
+    if tokenizer_id == 'EMBEDDIA/sloberta':
         tokenizer = AutoTokenizer.from_pretrained(tokenizer_id, do_lower_case=False)
-    else :
+    else:
         tokenizer = BertTokenizer.from_pretrained(tokenizer_id, do_lower_case=False)
-        
-        
+
     tokenizer.add_special_tokens({"additional_special_tokens": ADDITIONAL_SPECIAL_TOKENS})
     return tokenizer
+
 
 class RelationExtractorTrainer(object):
     def __init__(self, args, train_dataset=None, dev_dataset=None, test_dataset=None):
@@ -209,7 +191,7 @@ class RelationExtractorTrainer(object):
         tr_loss = 0.0
         self.model.zero_grad()
         max_grad_norm = 1.0
-        
+
         train_iterator = trange(int(self.args['epochs']), desc="Epoch")
 
         for _ in train_iterator:
@@ -228,12 +210,12 @@ class RelationExtractorTrainer(object):
                 outputs = self.model(**inputs)
                 loss = outputs[0]
                 gradient_accumulation_steps = 1
-                
+
                 if gradient_accumulation_steps > 1:
                     loss = loss / gradient_accumulation_steps
-                
+
                 loss.backward()
-                
+
                 tr_loss += loss.item()
                 if (step + 1) % gradient_accumulation_steps == 0:
                     torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_grad_norm)
@@ -248,7 +230,6 @@ class RelationExtractorTrainer(object):
 
                     if self.save_steps > 0 and global_step % self.save_steps == 0:
                         self.save_model()
-
 
         return global_step, tr_loss / global_step
 
@@ -335,7 +316,6 @@ class RelationExtractorTrainer(object):
         logger.info("***** Model Loaded *****")
 
 
-
 def init_logger():
     logging.basicConfig(
         format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
@@ -352,36 +332,36 @@ def set_seed(seed):
         torch.cuda.manual_seed_all(seed)
 
 
-def writeout_results(results, class_results, args) :
+def writeout_results(results, class_results, args):
     labels = get_label(args)
     writeout = ''
-    
+
     with open(args['model_dir'] + '/results.txt', "w", encoding="utf-8") as f:
         writeout += "{}\t{}\t{}\t{}\t{}\n".format(' ', 'Precision', 'Recall', 'F1', 'Support')
-        
+
         print(class_results)
-        for classs in class_results :
+        for classs in class_results:
             writeout += "{}\t{}\t{}\t{}\t{}\n".format(labels[classs],
-                                              round(class_results[classs]['pr'], 2),
-                                              round(class_results[classs]['re'], 2),
-                                              round(class_results[classs]['f1'], 2),
-                                              class_results[classs]['supp'])
-            
+                                                      round(class_results[classs]['pr'], 2),
+                                                      round(class_results[classs]['re'], 2),
+                                                      round(class_results[classs]['f1'], 2),
+                                                      class_results[classs]['supp'])
+
         writeout += "{}\t{}\t{}\t{}\t{}\n".format('Weighted AVG',
-                                              round(results['pr'], 2),
-                                              round(results['re'], 2),
-                                              round(results['f1'], 2),
-                                              results['supp'])
-            
+                                                  round(results['pr'], 2),
+                                                  round(results['re'], 2),
+                                                  round(results['f1'], 2),
+                                                  results['supp'])
+
         f.write(writeout)
-        
+
     return writeout
 
 
 FORCE = False
 
+
 def main():
-    check_config(train_config)
     if torch.cuda.is_available():
         for i in range(torch.cuda.device_count()):
             print(f"Found GPU device: {torch.cuda.get_device_name(i)}")
@@ -390,52 +370,51 @@ def main():
         device = torch.device('cpu')
 
     print(device)
-    
+
     do_train = True
     do_test = True
 
-    for conf in train_config:
+    for conf in TRAIN_CONFIG:
         conf['model_dir'] = os.path.join('data', 'experiments', conf['experiment'], model_id_to_path(conf['model_id']))
         conf['eval_dir'] = conf['model_dir']
         conf['data_dir'] = os.path.join('data', 'experiments', conf['experiment'])
-        
+
         init_logger()
         set_seed(1)
         Path(conf['model_dir']).mkdir(parents=False, exist_ok=True)
-        
+
         if (not os.path.exists(os.path.join(conf['model_dir'], 'model.pt')) or FORCE) and do_train:
             print(f'TRAINING {model_id_to_path(conf["model_id"])}')
             json.dump(conf, open(os.path.join(conf['model_dir'], 'config_dict.json'), 'w'), indent=4)
-            
+
             tokenizer = get_tokenizer(conf['model_id'])
-            
+
             train_dataset = load_and_cache_examples(conf, tokenizer, mode="train")
             test_dataset = load_and_cache_examples(conf, tokenizer, mode="test")
-            
+
             trainer = RelationExtractorTrainer(conf, train_dataset=train_dataset, test_dataset=test_dataset)
-            trainer.train()    
+            trainer.train()
             # create model dir if it doesn't exist
 
             trainer.save_model()
 
             results, class_results = trainer.evaluate('test')
-            print(writeout_results(results, class_results, conf)) 
-        else :
-            if do_train :
+            print(writeout_results(results, class_results, conf))
+        else:
+            if do_train:
                 print(f'Already trained {model_id_to_path(conf["model_id"])}')
-            
-            
-        if do_test and os.path.exists(os.path.join(conf['model_dir'], 'model.pt')) :
+
+        if do_test and os.path.exists(os.path.join(conf['model_dir'], 'model.pt')):
             print(f'Testing {model_id_to_path(conf["model_id"])}')
             tokenizer = get_tokenizer(conf['model_id'])
-        
+
             test_dataset = load_and_cache_examples(conf, tokenizer, mode="test")
-            trainer = RelationExtractorTrainer(conf, train_dataset=None, test_dataset=test_dataset)  
+            trainer = RelationExtractorTrainer(conf, train_dataset=None, test_dataset=test_dataset)
             trainer.load_model()
-            
+
             results, class_results = trainer.evaluate('test')
-            print(writeout_results(results, class_results, conf)) 
-            
+            print(writeout_results(results, class_results, conf))
+
 
 if __name__ == '__main__':
     main()

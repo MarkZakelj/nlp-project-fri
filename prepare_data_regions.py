@@ -12,21 +12,9 @@ import pandas as pd
 import os
 from tqdm import tqdm
 import random
+import config_util
 
-experiment_config = [
-
-    {'name': 'nonhier+def',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']},
-    
-    {'name': 'nonhier+def',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']}
-]
+EXPERIMENT_CONFIG = config_util.get_data_reg_config()
 
 
 ALLOWED_LANGUAGES = ['EN', 'SL']
@@ -174,7 +162,7 @@ def prepare_experiment(config: dict, as_test=False):
     
 
 def main():
-    for conf in tqdm(experiment_config):
+    for conf in tqdm(EXPERIMENT_CONFIG):
         # prepare train data
         prepare_experiment(conf, as_test=False)
         if conf['test']:
