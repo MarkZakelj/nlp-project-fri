@@ -43,7 +43,6 @@ TRAIN_CONFIG = config_util.get_train_config()
 # ]
 
 
-
 def get_tokenizer_object(model_id):
     tokenizer = AutoTokenizer.from_pretrained(model_id, do_lower_case=False)
     return tokenizer
