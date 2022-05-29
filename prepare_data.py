@@ -5,92 +5,14 @@ import pandas as pd
 import os
 from tqdm import tqdm
 import json
+import config_util
 
 HIERARCHICAL_TAGS = ['DEFINIENDUM', 'GENUS', 'DEFINITOR']
 NON_HIERARCHICAL_TAGS = ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']
 
-experiment_config = [
-    {'name': 'def+gen+definitor',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM', 'GENUS', 'DEFINITOR'],
-     'non-hierarchical': [],
-     'non-hierarchical-definitor': [],
-     'B-tags': True},
-    {'name': 'def+gen+definitor',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM', 'GENUS', 'DEFINITOR'],
-     'non-hierarchical': [],
-     'non-hierarchical-definitor': [],
-     'B-tags': True},
+EXPERIMENT_CONFIG = config_util.get_data_config()
 
-    {'name': 'def+gen',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM', 'GENUS'],
-     'non-hierarchical': [],
-     'non-hierarchical-definitor': [],
-     'B-tags': False},
-
-    {'name': 'def+gen',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM', 'GENUS'],
-     'non-hierarchical': [],
-     'non-hierarchical-definitor': [],
-     'B-tags': False},
-
-    {'name': 'def',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': [],
-     'non-hierarchical-definitor': [],
-     'B-tags': False},
-
-    {'name': 'def',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': [],
-     'non-hierarchical-definitor': [],
-     'B-tags': False},
-
-
-    {'name': 'top4nonhier+def',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM'],
-     'non-hierarchical-definitor': [],
-     'B-tags': True},
-
-    {'name': 'top4nonhier+def',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM'],
-     'non-hierarchical-definitor': [],
-     'B-tags': True},
-
-    {'name': 'nonhier+def',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
-     'non-hierarchical-definitor': [],
-     'B-tags': True},
-    {'name': 'nonhier+def',
-     'train': 'data/full_data_SL.csv',
-     'test': 'data/full_data_new_SL.csv',
-     'hierarchical': ['DEFINIENDUM'],
-     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
-     'non-hierarchical-definitor': [],
-     'B-tags': True},
-]
-
-ALLOWED_LANGUAGES = ['EN', 'SL', 'HR']
+ALLOWED_LANGUAGES = ['EN', 'SL']
 
 
 def get_language(filename, check=True):
@@ -165,11 +87,11 @@ def prepare_experiment(config: dict, as_test=False):
     df_with_tag.to_csv(os.path.join('data', 'experiments', experiment_name, out_filename), index=False)
     if not as_test:
         with open(os.path.join('data', 'experiments', experiment_name, 'config.json'), 'w') as f:
-            json.dump(config, f)
+            json.dump(config, f, indent=4)
 
 
 def main():
-    for conf in tqdm(experiment_config):
+    for conf in tqdm(EXPERIMENT_CONFIG):
         # prepare train data
         prepare_experiment(conf, as_test=False)
         if conf['test']:

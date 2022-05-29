@@ -15,7 +15,6 @@ from transformers import BertTokenizer, BertForTokenClassification, AdamW, AutoT
 from transformers import get_linear_schedule_with_warmup
 
 from seqeval.metrics import f1_score
-from seqeval.metrics import accuracy_score
 from seqeval.metrics import classification_report
 
 from sklearn import metrics
@@ -25,127 +24,23 @@ import seaborn as sns
 
 import warnings
 
+import config_util
+
 warnings.simplefilter(action='ignore', category=UserWarning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 MODEL_IDS = ['bert-base-cased', 'bert-large-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta',
              'EMBEDDIA/crosloengual-bert']
-train_config = [
-    {'experiment': 'EN_def',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-    {'experiment': 'EN_def',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
 
-    {'experiment': 'EN_def+gen',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-    {'experiment': 'EN_def+gen',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-
-    {'experiment': 'EN_def+gen+definitor_btag',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-    {'experiment': 'EN_def+gen+definitor_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-
-    {'experiment': 'EN_nonhier+def_btag',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'EN_nonhier+def_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-
-    {'experiment': 'EN_top4nonhier+def_btag',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'EN_top4nonhier+def_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-
-
-    {'experiment': 'SL_def',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-    {'experiment': 'SL_def',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-
-    {'experiment': 'SL_def+gen',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-    {'experiment': 'SL_def+gen',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-
-    {'experiment': 'SL_def+gen+definitor_btag',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-    {'experiment': 'SL_def+gen+definitor_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 4},
-
-    {'experiment': 'SL_nonhier+def_btag',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'SL_nonhier+def_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-
-    {'experiment': 'SL_top4nonhier+def_btag',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'SL_top4nonhier+def_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-
-
-
-
-]
+TRAIN_CONFIG = config_util.get_train_config()
+# if you want to run only some configs, uncomment next variable and change it to your liking
+# TRAIN_CONFIG = [
+#     {'experiment': 'EN_def+gen_btag',
+#      'model_id': 'allenai/scibert_scivocab_cased',
+#      'max_length': 128,
+#      'batch_size': 4,
+#      'epochs': 4},
+# ]
 
 
 
@@ -169,22 +64,6 @@ def model_id_to_path(model_id):
     example: EMBEDDIA/sloberta --> EMBEDDIA_sloberta"""
     model_path = model_id.replace('/', '_')
     return model_path
-
-
-def check_config(configs):
-    must_have_keys = ['experiment', 'model_id', 'max_length', 'batch_size', 'epochs']
-    experiments = {}
-    for conf in configs:
-        for key in must_have_keys:
-            if key not in conf:
-                raise KeyError(f'Missing key in the config dictionary: {key} not found in  {conf}')
-        if conf['experiment'] not in experiments:
-            experiments[conf['experiment']] = set()
-        if conf['model_id'] in experiments[conf['experiment']]:
-            raise NameError(
-                f'This model is already a part of an experiment: {conf["model_id"]} already in {conf["experiment"]}')
-        experiments[conf['experiment']].add(conf['model_id'])
-    return True
 
 
 def is_float(element) -> bool:
@@ -647,12 +526,11 @@ def free_gpu_cache():
 
 
 FORCE = False
-FORCE_TEST = True
+FORCE_TEST = False
 
 
 def main():
     print(f'FORCE is {FORCE} - models {"will" if FORCE else "wont"} be retrained')
-    check_config(train_config)
     if torch.cuda.is_available():
         for i in range(torch.cuda.device_count()):
             print(f"Found GPU device: {torch.cuda.get_device_name(i)}")
@@ -662,14 +540,19 @@ def main():
 
     print(device)
 
-    for conf in train_config:
+    for conf in TRAIN_CONFIG:
         if conf['model_id'] not in MODEL_IDS:
             raise NameError(
                 f"""{conf['model_id']} not in recognized MODEL_IDS. Either add it to the
                 exsisting MODEL_IDS, or change the model_id in the configuration""")
         model_id_path = model_id_to_path(conf['model_id'])
         experiment_dir = os.path.join('data', 'experiments', conf['experiment'])
-        Path(experiment_dir, model_id_path).mkdir(parents=False, exist_ok=True)
+        try:
+            Path(experiment_dir, model_id_path).mkdir(parents=False, exist_ok=True)
+        except FileNotFoundError:
+            print(f'The experiment doesnt exist: {conf["experiment"]}')
+            print('change the config_train.toml file!')
+            continue
         df_train = pd.read_csv(os.path.join(experiment_dir, 'train.csv'))
         test_file_path = os.path.join(experiment_dir, 'test.csv')
         model_path = os.path.join(experiment_dir, model_id_path, 'model.pt')
@@ -737,9 +620,13 @@ def main():
             with open(os.path.join(experiment_dir, model_id_path, 'results.txt'), 'w') as fl:
                 fl.write(report)
 
-            report_tbt = metrics.classification_report(sum(results_true, []), sum(results_predicted, []))
+            # tag by tag without B- and I- tags
+            results_true_clean = [[lab.replace('B-', 'I-')] for sent in results_true for lab in sent]
+            results_pred_clean = [[lab.replace('B-', 'I-')] for sent in results_predicted for lab in sent]
+            report_tbt = classification_report(results_true_clean, results_pred_clean)
             with open(os.path.join(experiment_dir, model_id_path, 'results_tbt.txt'), 'w') as fl:
                 fl.write(report_tbt)
+
 
             tokens = []
             tags = []
