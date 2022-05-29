@@ -53,6 +53,9 @@ python train_sequence_tagging.py
 
 # train relation extractor
 python train_relation_extraction.py
+
+# run experimental relation extraction (after training relation extractor)
+python relation_extraction_growing_window.py
 ```
 
 ## Generate graphs
@@ -65,7 +68,7 @@ python generate_graphs.py
 ```
 
 **Example of a complete graph of relations**
-![Image of a generated graph](/assets/graph.png)
+![Image of a generated graph](/assets/graph_slo.png)
 
 **Example of a graph with largest connected componens**
-![Image of a generated graph](/assets/max_wcc_graph.png)
+![Image of a generated graph](/assets/max_wcc_graph_en.png)
