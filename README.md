@@ -21,7 +21,7 @@ To use this repository as intended you should have a NVIDIA GPU with appropriate
 - `assets`: files used in README.md
 - `config_files`: configuration parameters for each of the experiments
 - `data`: folder with the `Termframe` dataset, all the pre-processed data is saved here after running the
-          scripts as well as new `experiments` folder with different datasets and models 
+          scripts as well as new `experiments` folder with different datasets and models that is created automatically by running the scripts.
 
 ## Environment creation and activation
 
@@ -61,7 +61,7 @@ python train_relation_extraction.py
 ## Generate graphs
 ```
 # install nltk packages (used only once, since the packages are saved locally)
-pyhton install_nltk_packages.py
+python install_nltk_packages.py
 
 # generate graphs
 python generate_graphs.py
