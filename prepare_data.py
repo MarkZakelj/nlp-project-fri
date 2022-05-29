@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import os
 from tqdm import tqdm
+import json
 
 HIERARCHICAL_TAGS = ['DEFINIENDUM', 'GENUS', 'DEFINITOR']
 NON_HIERARCHICAL_TAGS = ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE']
@@ -81,12 +82,12 @@ experiment_config = [
      'non-hierarchical-definitor': [],
      'B-tags': True},
     {'name': 'nonhier+def',
-     'train': 'data/full_data_EN.csv',
-     'test': 'data/full_data_new_EN.csv',
+     'train': 'data/full_data_SL.csv',
+     'test': 'data/full_data_new_SL.csv',
      'hierarchical': ['DEFINIENDUM'],
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
      'non-hierarchical-definitor': [],
-     'B-tags': False},
+     'B-tags': True},
 ]
 
 ALLOWED_LANGUAGES = ['EN', 'SL', 'HR']
@@ -162,6 +163,9 @@ def prepare_experiment(config: dict, as_test=False):
     Path('data', 'experiments', experiment_name).mkdir(parents=True, exist_ok=True)
     out_filename = 'test.csv' if as_test else 'train.csv'
     df_with_tag.to_csv(os.path.join('data', 'experiments', experiment_name, out_filename), index=False)
+    if not as_test:
+        with open(os.path.join('data', 'experiments', experiment_name, 'config.json'), 'w') as f:
+            json.dump(config, f)
 
 
 def main():
