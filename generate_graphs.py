@@ -161,15 +161,15 @@ def plot_graph(G_pred, G_gt, G_correct, G_false, G_u, \
     options = {"edgecolors": "tab:gray", "node_size": 200, "alpha": 0.9}
 
     # nodes
-    nx.draw_networkx_nodes(G, layout, nodelist=G_u.nodes, node_color="tab:gray", **options_) #gt nodes
+    nx.draw_networkx_nodes(G, layout, nodelist=G_u.nodes, node_color="tab:gray", **options_) #undetected nodes
     nx.draw_networkx_nodes(G, layout, nodelist=G_false.nodes, node_color="tab:red", **options_) #false nodes
     nx.draw_networkx_nodes(G, layout, nodelist=G_correct.nodes, node_color="tab:green", **options) #correct nodes
     # edges
     nx.draw_networkx_edges(G, layout, width=1, alpha=0.5, arrowsize=11, arrowstyle='->')
     # labels
     nx.draw_networkx_labels(G, layout, u_node_names, font_size=16, font_color="gray")
-    nx.draw_networkx_labels(G, layout, correct_node_names, font_size=16, font_color="green")
     nx.draw_networkx_labels(G, layout, false_node_names, font_size=16, font_color="red")
+    nx.draw_networkx_labels(G, layout, correct_node_names, font_size=16, font_color="green")
     fig.savefig(os.path.join(save_dir,"graph.png"))
 
     # max wcc
@@ -210,8 +210,9 @@ def plot_graph(G_pred, G_gt, G_correct, G_false, G_u, \
     nx.draw_networkx_edges(G_mwcc, pos, width=7, alpha=0.5, arrowsize=80, arrowstyle='->')
     # labels
     nx.draw_networkx_labels(G_mwcc, pos, undetected_wcc_names, font_size=25, font_color="grey")
-    nx.draw_networkx_labels(G_mwcc, pos, correct_wcc_names, font_size=25, font_color="green")
     nx.draw_networkx_labels(G_mwcc, pos, false_wcc_names, font_size=25, font_color="red")
+    nx.draw_networkx_labels(G_mwcc, pos, correct_wcc_names, font_size=25, font_color="green")
+
     f.savefig(os.path.join(save_dir,"max_wcc_graph.png"))
 
 
@@ -260,6 +261,14 @@ def main(gt_data, pred_data, save_dir):
     def pad(word):
         return ' '+word+' '
 
+    def correction(stems_1, lemmas_1, stems_2, lemmas_2):
+        correct = [(s2,l2) for s1,l1 in zip(stems_1, lemmas_1) \
+                        for s2,l2 in zip(stems_2, lemmas_2) \
+                        if l1[0]==l2[0] and (l1[1] in l2[1] or l2[1] in l1[1])]
+        correct_stems = [g[0] for g in correct]
+        correct_lemmas = [g[1] for g in correct]
+        return correct_stems, correct_lemmas
+
     # correction
     undetected_definiendum_stems = [w for w in undetected_definiendum_stems if w not in correct_definiendum_stems]
     undetected_definiendum_lemmas = [w for w in undetected_definiendum_lemmas if w not in correct_definiendum_lemmas]
@@ -275,31 +284,29 @@ def main(gt_data, pred_data, save_dir):
     false_genus_lemmas = [(s1,w1) for s1,w1 in false_genus_lemmas for s2,w2 in gt_genus_lemmas \
                             if s1==s2 and (pad(w1) not in pad(w2) and pad(w2) not in pad(w1))]
 
-    pred_definiendum = [(s2,l2) for s1,l1 in zip(pred_definiendum_stems, pred_definiendum_lemmas) \
-                          for s2,l2 in zip(gt_definiendum_stems, gt_definiendum_lemmas) \
-                          if l1[0]==l2[0] and (l1[1] in l2[1] or l2[1] in l1[1])]
-    pred_definiendum_stems = [g[0] for g in pred_definiendum]
-    pred_definiendum_lemmas = [g[1] for g in pred_definiendum]
+    pred_definiendum_stems, pred_definiendum_lemmas = correction(
+                                                    pred_definiendum_stems, pred_definiendum_lemmas,
+                                                    gt_definiendum_stems, gt_definiendum_lemmas)
+    pred_genus_stems, pred_genus_lemmas = correction(
+                                                pred_genus_stems, pred_genus_lemmas,
+                                                gt_genus_stems, gt_genus_lemmas)
 
-    pred_genus = [(s2,l2) for s1,l1 in zip(pred_genus_stems, pred_genus_lemmas) \
-                          for s2,l2 in zip(gt_genus_stems, gt_genus_lemmas) \
-                          if l1[0]==l2[0] and (l1[1] in l2[1] or l2[1] in l1[1])]
-    pred_genus_stems = [g[0] for g in pred_genus]
-    pred_genus_lemmas = [g[1] for g in pred_genus]
-           
-    correct_definiendum_stems = [(s1,w1) for s1,w1 in pred_definiendum_stems for s2,w2 in correct_definiendum_stems \
-                                if s1==s2 and (w1 in w2 or w2 in w1)]
-    correct_definiendum_lemmas = [(s1,w1) for s1,w1 in pred_definiendum_lemmas for s2,w2 in correct_definiendum_lemmas \
-                                if s1==s2 and (w1 in w2 or w2 in w1)]
-    correct_genus_stems = [(s1,w1) for s1,w1 in pred_genus_stems for s2,w2 in correct_genus_stems \
-                                if s1==s2 and (w1 in w2 or w2 in w1)]
-    correct_genus_lemmas = [(s1,w1) for s1,w1 in pred_genus_lemmas for s2,w2 in correct_genus_lemmas \
-                                if s1==s2 and (w1 in w2 or w2 in w1)]
+    correct_definiendum_stems, correct_definiendum_lemmas = correction(
+                                                pred_definiendum_stems, pred_definiendum_lemmas,
+                                                correct_definiendum_stems, correct_definiendum_lemmas)
+    correct_genus_stems, correct_genus_lemmas = correction(
+                                                pred_genus_stems, pred_genus_lemmas,
+                                                correct_genus_stems, correct_genus_lemmas)
 
     pred_definiendum_stems += false_definiendum_stems
     pred_definiendum_lemmas += false_definiendum_lemmas
     pred_genus_stems += false_genus_stems
     pred_genus_lemmas += false_genus_lemmas
+
+    gt_definiendum_stems = correct_definiendum_stems + undetected_definiendum_stems
+    gt_definiendum_lemmas = correct_definiendum_lemmas + undetected_definiendum_lemmas
+    gt_genus_stems = correct_genus_stems + undetected_genus_stems
+    gt_genus_lemmas = correct_genus_lemmas + undetected_genus_lemmas
 
     # print("After correction:")
     # print(len(gt_definiendum_lemmas+gt_genus_lemmas))
@@ -318,13 +325,6 @@ def main(gt_data, pred_data, save_dir):
                                                         false_genus_stems, false_genus_lemmas)
     undetected_edge_list, undetected_nodes =  generate_nodes_and_edges_list(undetected_definiendum_stems, undetected_definiendum_lemmas, \
                                                     undetected_genus_stems, undetected_genus_lemmas)
-    
-    # print("Number of nodes")
-    # print(len(gt_nodes))
-    # print(len(pred_nodes))
-    # print(len(correct_nodes))
-    # print(len(false_nodes))
-    # print(len(undetected_nodes))
 
     G_pred, pred_node_names = generate_graph_with_node_names(pred_edge_list, pred_nodes)
     G_gt, gt_node_names = generate_graph_with_node_names(gt_edge_list, gt_nodes)
