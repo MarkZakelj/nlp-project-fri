@@ -60,7 +60,7 @@ def get_data(gt_path, pred_path):
 
     pred_data = []
     for row1,row2 in zip(csvreader1,csvreader2):
-        if row1[header.index('Word')] != row2[header.index('Word')]:
+        if row1[header.index('Word')] != row2[header.index('Word')] and row2[1] != '[UNK]':
             print(row1, row2)
             print("Error: words in rows are not the same!")
             return None, None
@@ -360,7 +360,9 @@ def main(gt_data, pred_data):
 root = os.getcwd()
 experiments_paths = [os.path.join(root,"data/experiments",f) for f in  \
                     os.listdir(os.path.join(root,"data/experiments")) \
-                    if os.path.isdir(os.path.join(root,"data/experiments",f)) and "reg" not in f]
+                    if os.path.isdir(os.path.join(root,"data/experiments",f)) and "reg" not in f and 'gen' in f]
+for p in experiments_paths:
+    print(p)
 mo = -1
 for experiment_path in experiments_paths:
     gt_path, pred_path, mo = get_path(experiment_path, mo)
@@ -373,3 +375,4 @@ for experiment_path in experiments_paths:
         print("Extracted data...")
         main(gt_data, pred_data)
         print("Graph drawn and can be found in the experiment folder.")
+    print()
