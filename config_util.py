@@ -53,9 +53,9 @@ def get_train_config():
 
 
 def get_train_reg_config():
-    train_config = toml.load(open('config_files/config_train_reg.toml'))
+    train_config = toml.load(open('config_files/config_train_reg.toml'))['train']
     check_train_config(train_config)
-    return train_config['train']
+    return train_config
 
 
 def list_experiments():
