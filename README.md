@@ -47,5 +47,8 @@ pyhton install_nltk_packages.py
 python generate_graphs.py
 ```
 
-**Example of a generated graph**
+**Example of a complete graph of relations**
 ![Image of a generated graph](/assets/graph.png)
+
+**Example of a graph with largest connected componens**
+![Image of a generated graph](/assets/max_wcc_graph.png)

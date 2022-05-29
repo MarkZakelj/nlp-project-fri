@@ -153,7 +153,7 @@ def plot_graph(G_pred, G_gt, G_correct, G_false, G_u, \
     G.add_edges_from([e for e in G_gt.edges])
 
 
-    fig = plt.figure(figsize=(20, 20))
+    fig = plt.figure(figsize=(20, 20), frameon=False)
     layout = nx.spring_layout(G, seed=3113794657)
 
     # options
@@ -170,10 +170,12 @@ def plot_graph(G_pred, G_gt, G_correct, G_false, G_u, \
     nx.draw_networkx_labels(G, layout, u_node_names, font_size=16, font_color="gray")
     nx.draw_networkx_labels(G, layout, false_node_names, font_size=16, font_color="red")
     nx.draw_networkx_labels(G, layout, correct_node_names, font_size=16, font_color="green")
+    #fig.suptitle('Complete graph of relations', fontsize=16)
+    plt.tight_layout()
     fig.savefig(os.path.join(save_dir,"graph.png"))
 
     # max wcc
-    f = plt.figure(figsize=(20, 20))
+    f = plt.figure(figsize=(20, 20),  frameon=False)
     G_ = nx.MultiDiGraph()
     for i, max_wcc in enumerate(sorted(nx.weakly_connected_components(G), key=len, reverse=True)):
         if i in range(MAX_WCC_TO_DISPLAY):
@@ -212,7 +214,8 @@ def plot_graph(G_pred, G_gt, G_correct, G_false, G_u, \
     nx.draw_networkx_labels(G_mwcc, pos, undetected_wcc_names, font_size=25, font_color="grey")
     nx.draw_networkx_labels(G_mwcc, pos, false_wcc_names, font_size=25, font_color="red")
     nx.draw_networkx_labels(G_mwcc, pos, correct_wcc_names, font_size=25, font_color="green")
-
+    #fig.suptitle('Relations graph of largest {} connected componens'.format(MAX_WCC_TO_DISPLAY), fontsize=16)
+    plt.tight_layout()
     f.savefig(os.path.join(save_dir,"max_wcc_graph.png"))
 
 
