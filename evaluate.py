@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import auc
-plt.rcParams['font.size'] = '15'
+plt.rcParams['font.size'] = '17'
 
 import config_util
 
@@ -40,7 +40,7 @@ def curve_precision(experiment, model, drop_def=False):
 
     tags = []
     fig = plt.figure(figsize=(10, 8))
-    for tag in df_true_new['Tag'].unique():
+    for tag in sorted(df_true_new['Tag'].unique()):
         cond = False
         if drop_def:
             cond = tag == 'DEFINIENDUM'
@@ -58,14 +58,14 @@ def curve_precision(experiment, model, drop_def=False):
             y.append(np.mean(percents >= perc))
         plt.plot(x, y)
         print(f'{tag}: precision AUC: {auc(x, y)}')
-    plt.xlabel('Threshold')
-    plt.ylabel('Precision')
-    plt.legend(tags, prop={'size': 12}, loc="lower left")
+    plt.xlabel('Threshold', fontsize=25)
+    plt.ylabel('Precision', fontsize=25)
+    plt.legend(tags, prop={'size': 13}, loc="lower left")
 
     plt.grid()
     plt.title('Precision curves')
     plt.ylim(0, 1.1)
-    plt.show()
+    plt.savefig('precision.png', bbox_inches='tight')
 
 
     return entities
@@ -101,7 +101,7 @@ def curve_recall(experiment, model, drop_def=False):
     df_true_new['Tag'] = df_true_new['Tag'].apply(lambda x: x.lstrip('B-').lstrip('I-'))
     tags = []
     fig = plt.figure(figsize=(10, 8))
-    for tag in df_true_new['Tag'].unique():
+    for tag in sorted(df_true_new['Tag'].unique()):
         cond = False
         if drop_def:
             cond = tag == 'DEFINIENDUM'
@@ -118,14 +118,14 @@ def curve_recall(experiment, model, drop_def=False):
             y.append(np.mean(percents >= perc))
         plt.plot(x, y)
         print(f'{tag}: recall AUC: {auc(x, y)}')
-    plt.xlabel('Threshold')
-    plt.ylabel('Recall')
-    plt.legend(tags, prop={'size': 12}, loc="lower left")
+    plt.xlabel('Threshold', fontsize=25)
+    plt.ylabel('Recall', fontsize=25)
+    plt.legend(tags, prop={'size': 13}, loc="lower left")
     plt.grid()
     plt.title('Recall curves')
     plt.ylim(0, 1.1)
-    plt.show()
-
+    # plt.show()
+    plt.savefig('recall.png', bbox_inches='tight')
 
 
 
@@ -138,9 +138,9 @@ def main():
     mod = mods[0]
     print(exp, mod)
     print()
-    curve_precision(exp, mod, drop_def=True)
+    curve_precision(exp, mod, True)
     print()
-    curve_recall(exp, mod, drop_def=True)
+    curve_recall(exp, mod, True)
 
 
 if __name__ == '__main__':

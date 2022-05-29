@@ -31,9 +31,6 @@ conda env create -f environment.yml
 
 # activate environment
 conda activate nlp
-
-# close environment (after you are done using it)
-conda deactivate
 ```
 
 ## Preprocessing data

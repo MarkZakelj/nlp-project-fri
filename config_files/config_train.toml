@@ -20,6 +20,13 @@ model_id = 'bert-base-cased'
 model_id = 'allenai/scibert_scivocab_cased'
 
 [[train]]
+experiment = 'EN_def+gen'
+[[train.model]]
+model_id = 'bert-base-cased'
+[[train.model]]
+model_id = 'allenai/scibert_scivocab_cased'
+
+[[train]]
 experiment = 'EN_def+gen+definitor_btag'
 [[train.model]]
 model_id = 'bert-base-cased'
@@ -77,22 +84,16 @@ model_id = 'allenai/scibert_scivocab_cased'
 experiment = 'SL_nonhier+def_btag'
 [[train.model]]
 model_id = 'EMBEDDIA/crosloengual-bert'
-epochs = 6
 [[train.model]]
 model_id = 'EMBEDDIA/sloberta'
-epochs = 6
 [[train.model]]
 model_id = 'allenai/scibert_scivocab_cased'
-epochs = 6
 
 [[train]]
 experiment = 'SL_top4nonhier+def_btag'
 [[train.model]]
 model_id = 'EMBEDDIA/crosloengual-bert'
-epochs = 6
 [[train.model]]
 model_id = 'EMBEDDIA/sloberta'
-epochs = 6
 [[train.model]]
 model_id = 'allenai/scibert_scivocab_cased'
-epochs = 6

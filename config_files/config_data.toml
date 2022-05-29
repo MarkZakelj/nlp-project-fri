@@ -23,6 +23,13 @@ non-hierarchical-definitor = []
 B-tags = true
 
 [[data]]
+name = 'def+gen'
+hierarchical = ['DEFINIENDUM', 'GENUS']
+non-hierarchical = []
+non-hierarchical-definitor = []
+B-tags = false
+
+[[data]]
 name = 'def+gen+definitor'
 hierarchical = ['DEFINIENDUM', 'GENUS', 'DEFINITOR']
 non-hierarchical = []
