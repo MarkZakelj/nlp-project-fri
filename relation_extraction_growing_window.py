@@ -34,7 +34,7 @@ train_config = [
 ]
 
 
-def predict_line(line, threshold=7.5) :
+def predict_line(line, threshold=7) :
     examples = processor._create_examples(line, 'train')
     features = convert_examples_to_features(
         examples, conf['max_length'], tokenizer, add_sep_token=False
@@ -63,7 +63,7 @@ def predict_line(line, threshold=7.5) :
 def tokenize_sentence(csv_name, grouped_predictions) :
     tagged_sentences = []
     
-    with open(os.path.join(conf['model_dir'], 'test_reg.csv'), 'w', encoding="utf-8") as fa:
+    with open(os.path.join(conf['model_dir'], csv_name), 'w', encoding="utf-8") as fa:
         fa.write('Sentence,Word,Tag\n')
         
         for sent_idx, preds in enumerate(grouped_predictions) :
@@ -244,6 +244,7 @@ if __name__ == '__main__':
             
         gt = tokenize_sentence('test_reg.csv', arr_test_sent)
         prediction = tokenize_sentence('annotation_reg.csv', all_preds)
+        print('Annotations saved to ' + os.path.join(conf['model_dir'], 'annotation_reg.csv'))
         
         if 'EN' in conf['def_experiment'] :
             prediction.insert(8, ['O'] * len(gt[8]))
@@ -253,3 +254,4 @@ if __name__ == '__main__':
         report = metrics.classification_report(sum(gt, []), sum(prediction, []))
         with open(os.path.join(conf['model_dir'], 'results_reg.txt'), 'w') as fl:
             fl.write(report)
+            print('Results saved to ' + os.path.join(conf['model_dir'], 'results_reg.txt'))

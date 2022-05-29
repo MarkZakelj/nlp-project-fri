@@ -354,6 +354,7 @@ def writeout_results(results, class_results, args):
                                                   results['supp'])
 
         f.write(writeout)
+        print('Token-by-token results saved to ' + args['model_dir'] + '/results.txt')
 
     return writeout
 
@@ -399,6 +400,7 @@ def main():
             trainer.save_model()
 
             results, class_results = trainer.evaluate('test')
+            print('Annotations saved to ' + os.path.join(conf['eval_dir'], "annotation.txt"))
             print(writeout_results(results, class_results, conf))
         else:
             if do_train:
@@ -413,6 +415,7 @@ def main():
             trainer.load_model()
 
             results, class_results = trainer.evaluate('test')
+            print('Annotations saved to ' + os.path.join(conf['eval_dir'], "annotation.txt"))
             print(writeout_results(results, class_results, conf))
 
 

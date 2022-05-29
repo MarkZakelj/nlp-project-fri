@@ -618,6 +618,7 @@ def main():
             report = classification_report(results_true, results_predicted)
             with open(os.path.join(experiment_dir, model_id_path, 'results.txt'), 'w') as fl:
                 fl.write(report)
+                print('Seqeval results saved to ' + os.path.join(experiment_dir, model_id_path, 'results.txt'))
 
             # tag by tag without B- and I- tags
             results_true_clean = [[lab.replace('B-', 'I-')] for sent in results_true for lab in sent]
@@ -625,7 +626,7 @@ def main():
             report_tbt = classification_report(results_true_clean, results_pred_clean)
             with open(os.path.join(experiment_dir, model_id_path, 'results_tbt.txt'), 'w') as fl:
                 fl.write(report_tbt)
-
+                print('Token-by-token results saved to ' + os.path.join(experiment_dir, model_id_path, 'results_tbt.txt'))
 
             tokens = []
             tags = []
@@ -637,6 +638,7 @@ def main():
                 tags.extend(new_tags)
             ann_df = pd.DataFrame(data={'Sentence': sentence_ids, 'Word': tokens, 'Tag': tags})
             ann_df.to_csv(os.path.join(experiment_dir, model_id_path, 'annotation.csv'), index=False)
+            print('Annotations saved to ' + os.path.join(experiment_dir, model_id_path, 'annotation.csv'))
 
 
 if __name__ == '__main__':
