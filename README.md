@@ -3,6 +3,27 @@
 
 To use this repository as intended you should have a NVIDIA GPU with appropriate NVIDIA driver and CUDA versions that are compatible with PyTorch and Tensorflow.
 
+## Repository folder structure
+- `assets`: files used in README.md
+- `config_files`: configuration parameters for each of the experiments
+- `data`: folder with the `Termframe` dataset, all the pre-processed data is saved here after running the
+          scripts as well as new `experiments` folder with different datasets and models with . 
+
+    .
+    ├── assets
+    ├── config_files
+    ├── data                        # root folder of experiments and multiple `.csv` files with preproessed 
+    |   |                             and split datasets after running preprocessing scripts
+    │   ├── experiments             # folder with different dataset setups and models
+    |   |   ├── experiment_1        # folder with a particular dataset setup split into train and test data
+    |   │   │   ├── model_1         # folders with a particular model configuration, saved model, 
+    |   |   |   ├── model_2           and results from that model, as well as generated graphs
+    |   |   |   └── ...
+    │   │   ├── experiment_2
+    |   |   └── ... 
+    │   └── Termframe               # Termframe dataset with its original folder structure
+    └── ...
+
 ## Environment creation and activation
 
 ```
@@ -16,7 +37,7 @@ conda activate nlp
 conda deactivate
 ```
 
-## Convert and prepare data
+## Preprocessing data
 ```
 # convert data from .tsv to .csv format
 python convert_data.py
