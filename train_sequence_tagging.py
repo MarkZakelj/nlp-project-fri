@@ -24,137 +24,115 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import warnings
+
 warnings.simplefilter(action='ignore', category=UserWarning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-MODEL_IDS = {'bert-base-cased', 'bert-large-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
-
+MODEL_IDS = ['bert-base-cased', 'bert-large-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta',
+             'EMBEDDIA/crosloengual-bert']
 train_config = [
-    {'experiment': 'EN_def+gen',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 3},
-
     {'experiment': 'EN_def',
      'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
-
     {'experiment': 'EN_def',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
 
-    {'experiment': 'SL_def',
+    {'experiment': 'EN_def+gen',
      'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
-
-    {'experiment': 'SL_def',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
+    {'experiment': 'EN_def+gen',
+     'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
 
+    {'experiment': 'EN_def+gen+definitor_btag',
+     'model_id': 'bert-base-cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
     {'experiment': 'EN_def+gen+definitor_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 4,
      'epochs': 4},
 
-    {'experiment': 'EN_def+gen',
-     'model_id': 'bert-large-cased',
-     'max_length': 128,
-     'batch_size': 4,
-     'epochs': 6},
-    {'experiment': 'EN_def+gen_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'EN_def+gen_btag',
+    {'experiment': 'EN_nonhier+def_btag',
      'model_id': 'bert-base-cased',
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
-
     {'experiment': 'EN_nonhier+def_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'EN_nonhier+def',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
 
     {'experiment': 'EN_top4nonhier+def_btag',
+     'model_id': 'bert-base-cased',
+     'max_length': 128,
+     'batch_size': 8,
+     'epochs': 6},
+    {'experiment': 'EN_top4nonhier+def_btag',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
 
-    {'experiment': 'EN_def+gen_btag',
-     'model_id': 'bert-large-cased',
+
+    {'experiment': 'SL_def',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6}, 
-    
+     'batch_size': 4,
+     'epochs': 4},
+    {'experiment': 'SL_def',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+
     {'experiment': 'SL_def+gen',
      'model_id': 'EMBEDDIA/crosloengual-bert',
      'max_length': 128,
      'batch_size': 4,
-     'epochs': 2},
-    {'experiment': 'SL_def+gen_btag',
-     'model_id': 'bert-base-cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'SL_def+gen_btag',
-     'model_id': 'bert-large-cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6}, 
-    {'experiment': 'SL_def+gen_btag',
+     'epochs': 4},
+    {'experiment': 'SL_def+gen',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+
+    {'experiment': 'SL_def+gen+definitor_btag',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+    {'experiment': 'SL_def+gen+definitor_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 4},
+
+    {'experiment': 'SL_nonhier+def_btag',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
+     'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
-    {'experiment': 'SL_def+gen_btag',
-     'model_id': 'EMBEDDIA/sloberta',
+    {'experiment': 'SL_nonhier+def_btag',
+     'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
 
-    {'experiment': 'SL_def+gen_btag',
+    {'experiment': 'SL_top4nonhier+def_btag',
      'model_id': 'EMBEDDIA/crosloengual-bert',
-     'max_length': 128,
-     'batch_size': 6,
-     'epochs': 6},
-    ]
-"""
-    {'experiment': 'EN_nonhier+def_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'EN_top4nonhier+def_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'SL_def+gen+definitor_btag',
-     'model_id': 'allenai/scibert_scivocab_cased',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
-    {'experiment': 'SL_def+gen+definitor_btag',
-     'model_id': 'EMBEDDIA/sloberta',
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
@@ -163,13 +141,13 @@ train_config = [
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
-    {'experiment': 'SL_top4nonhier+def_btag',
-     'model_id': 'EMBEDDIA/crosloengual-bert',
-     'max_length': 128,
-     'batch_size': 8,
-     'epochs': 6},
+
+
+
+
 ]
-"""
+
+
 
 def get_tokenizer_object(model_id):
     tokenizer = AutoTokenizer.from_pretrained(model_id, do_lower_case=False)
@@ -663,7 +641,7 @@ def train_model(model, train_dataloader, valid_dataloader, code2label, epochs):
     return model
 
 
-def free_gpu_cache():                        
+def free_gpu_cache():
     gc.collect()
     torch.cuda.empty_cache()
 
@@ -763,7 +741,6 @@ def main():
             with open(os.path.join(experiment_dir, model_id_path, 'results_tbt.txt'), 'w') as fl:
                 fl.write(report_tbt)
 
-
             tokens = []
             tags = []
             sentence_ids = []
@@ -774,8 +751,6 @@ def main():
                 tags.extend(new_tags)
             ann_df = pd.DataFrame(data={'Sentence': sentence_ids, 'Word': tokens, 'Tag': tags})
             ann_df.to_csv(os.path.join(experiment_dir, model_id_path, 'annotation.csv'), index=False)
-
-        
 
 
 if __name__ == '__main__':
