@@ -29,6 +29,9 @@ import config_util
 warnings.simplefilter(action='ignore', category=UserWarning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
+FORCE = False
+FORCE_TEST = False
+
 MODEL_IDS = ['bert-base-cased', 'bert-large-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta',
              'EMBEDDIA/crosloengual-bert']
 
@@ -523,9 +526,6 @@ def free_gpu_cache():
     gc.collect()
     torch.cuda.empty_cache()
 
-
-FORCE = False
-FORCE_TEST = False
 
 
 def main():

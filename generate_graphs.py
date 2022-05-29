@@ -1,21 +1,17 @@
-from doctest import OPTIONFLAGS_BY_NAME
-from pkgutil import extend_path
-from sqlite3 import enable_shared_cache
-from attr import attr
-from nltk.stem import PorterStemmer, WordNetLemmatizer
-import networkx as nx
-import seaborn as sns
-from matplotlib import pyplot as plt
 import csv
 import os
 
-from sklearn.model_selection import PredefinedSplit
+import networkx as nx
+from matplotlib import pyplot as plt
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+
 ps = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
 import warnings
 
 ########################## PARAMETERS ##########################
-SECOND_TAG = 'GENUS'
+SECOND_TAG = 'GENUS' #GENUS, HAS_LOCATION, HAS_FORM, HAS_FUNCTION, HAS_SIZE, COMPOSITION, DEFINED_AS
+                     #HAS_ATTRIBUTE, HAS_CAUSE, HAS_RESULT, MEASURES, CONTAINS
 MAX_WCC_TO_DISPLAY = 3
 ################################################################
 
@@ -89,7 +85,7 @@ def get_stems_lemmas(gt_data, masks, gt_stems, gt_lemmas):
         if is_tag:
             sent_nr = gt_data[i][SENT_COL] # serves as a node number
             word = lemmatizer.lemmatize(gt_data[i][WORD_COL]).strip().lower()
-            if len(word) > 1:
+            if len(word) > 2:
                 for j, (s, l) in enumerate(gt_lemmas):
                     # correct predictions
                     if word in l and sent_nr == s and \

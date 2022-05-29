@@ -3,6 +3,26 @@
 
 To use this repository as intended you should have a NVIDIA GPU with appropriate NVIDIA driver and CUDA versions that are compatible with PyTorch and Tensorflow.
 
+## Repository folder structure
+    .
+    ├── assets
+    ├── config_files
+    ├── data                        # root folder of experiments and multiple and preprocessed data
+    │   ├── experiments             # folder with different dataset setups and models
+    |   |   ├── experiment_1        # folder with a particular dataset setup split into train and test data
+    |   │   │   ├── model_1         # model configuration, saved model, results, generated graphs
+    |   |   |   ├── model_2
+    |   |   |   └── ...
+    │   │   ├── experiment_2
+    |   |   └── ... 
+    │   └── Termframe               # Termframe dataset with its original folder structure
+    └── ...
+
+- `assets`: files used in README.md
+- `config_files`: configuration parameters for each of the experiments
+- `data`: folder with the `Termframe` dataset, all the pre-processed data is saved here after running the
+          scripts as well as new `experiments` folder with different datasets and models that is created automatically by running the scripts.
+
 ## Environment creation and activation
 
 ```
@@ -16,7 +36,7 @@ conda activate nlp
 conda deactivate
 ```
 
-## Convert and prepare data
+## Preprocessing data
 ```
 # convert data from .tsv to .csv format
 python convert_data.py
@@ -41,7 +61,7 @@ python train_relation_extraction.py
 ## Generate graphs
 ```
 # install nltk packages (used only once, since the packages are saved locally)
-pyhton install_nltk_packages.py
+python install_nltk_packages.py
 
 # generate graphs
 python generate_graphs.py
