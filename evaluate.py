@@ -3,11 +3,12 @@ import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.metrics import auc
 plt.rcParams['font.size'] = '15'
 
 import config_util
 
-def curve_precision(experiment, model):
+def curve_precision(experiment, model, drop_def=False):
     df_true = pd.read_csv(os.path.join('data/experiments', experiment, 'test.csv'))
     df_anno = pd.read_csv(os.path.join('data/experiments', experiment, model, 'annotation.csv'))
     df_anno['Tag'] = df_anno['Tag'].apply(lambda x: x.lstrip('B-').lstrip('I-'))
@@ -40,7 +41,10 @@ def curve_precision(experiment, model):
     tags = []
     fig = plt.figure(figsize=(10, 8))
     for tag in df_true_new['Tag'].unique():
-        if tag == 'O':
+        cond = False
+        if drop_def:
+            cond = tag == 'DEFINIENDUM'
+        if tag == 'O' or cond:
             continue
         tags.append(tag)
         percents = df_true_new[df_true_new['Tag'] == tag].groupby('Entity').apply(
@@ -53,6 +57,7 @@ def curve_precision(experiment, model):
             x.append(perc)
             y.append(np.mean(percents >= perc))
         plt.plot(x, y)
+        print(f'{tag}: precision AUC: {auc(x, y)}')
     plt.xlabel('Threshold')
     plt.ylabel('Precision')
     plt.legend(tags, prop={'size': 12}, loc="lower left")
@@ -66,7 +71,7 @@ def curve_precision(experiment, model):
     return entities
 
 
-def curve_recall(experiment, model):
+def curve_recall(experiment, model, drop_def=False):
     df_true = pd.read_csv(os.path.join('data/experiments', experiment, 'test.csv'))
     df_anno = pd.read_csv(os.path.join('data/experiments', experiment, model, 'annotation.csv'))
 
@@ -97,7 +102,10 @@ def curve_recall(experiment, model):
     tags = []
     fig = plt.figure(figsize=(10, 8))
     for tag in df_true_new['Tag'].unique():
-        if tag == 'O':
+        cond = False
+        if drop_def:
+            cond = tag == 'DEFINIENDUM'
+        if tag == 'O' or cond:
             continue
         tags.append(tag)
         percents = df_true_new[df_true_new['Tag'] == tag].groupby('Entity').apply(lambda x: sum(x['Tag'] == x['Anno']) / len(x)).to_numpy()
@@ -109,9 +117,10 @@ def curve_recall(experiment, model):
             x.append(perc)
             y.append(np.mean(percents >= perc))
         plt.plot(x, y)
+        print(f'{tag}: recall AUC: {auc(x, y)}')
     plt.xlabel('Threshold')
     plt.ylabel('Recall')
-    plt.legend(tags)
+    plt.legend(tags, prop={'size': 12}, loc="lower left")
     plt.grid()
     plt.title('Recall curves')
     plt.ylim(0, 1.1)
@@ -128,8 +137,10 @@ def main():
     mods = config_util.list_models(exp)
     mod = mods[0]
     print(exp, mod)
-    curve_precision(exp, mod)
-    curve_recall(exp, mod)
+    print()
+    curve_precision(exp, mod, drop_def=True)
+    print()
+    curve_recall(exp, mod, drop_def=True)
 
 
 if __name__ == '__main__':
