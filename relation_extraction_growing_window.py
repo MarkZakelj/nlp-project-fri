@@ -18,12 +18,12 @@ from tqdm import tqdm
 from sklearn import metrics
 
 train_config = [
-    #{'experiment': 'EN_reg_nonhier+def',
-    # 'def_experiment': 'EN_def',
-    # 'model_id': 'allenai/scibert_scivocab_cased',
-    # 'def_model_id': 'allenai/scibert_scivocab_cased',
-    # 'max_length' : 128
-    # },
+    {'experiment': 'EN_reg_nonhier+def',
+     'def_experiment': 'EN_def',
+     'model_id': 'allenai/scibert_scivocab_cased',
+     'def_model_id': 'allenai/scibert_scivocab_cased',
+     'max_length' : 128
+    },
     
     {'experiment': 'SL_reg_nonhier+def',
      'def_experiment': 'SL_def',
@@ -34,7 +34,7 @@ train_config = [
 ]
 
 
-def predict_line(line, threshold=7) :
+def predict_line(line, threshold=7.5) :
     examples = processor._create_examples(line, 'train')
     features = convert_examples_to_features(
         examples, conf['max_length'], tokenizer, add_sep_token=False

@@ -29,6 +29,13 @@ warnings.simplefilter(action='ignore', category=UserWarning)
 MODEL_IDS = {'bert-base-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta', 'EMBEDDIA/crosloengual-bert'}
 
 train_config = [
+        
+    {'experiment': 'SL_nonhier+def',
+     'model_id': 'EMBEDDIA/crosloengual-bert',
+     'max_length': 128,
+     'batch_size': 4,
+     'epochs': 6},
+
     {'experiment': 'EN_def+gen',
      'model_id': 'bert-base-cased',
      'max_length': 128,
@@ -87,6 +94,7 @@ train_config = [
      'max_length': 128,
      'batch_size': 8,
      'epochs': 6},
+    
     {'experiment': 'EN_nonhier+def',
      'model_id': 'allenai/scibert_scivocab_cased',
      'max_length': 128,

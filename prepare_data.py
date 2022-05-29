@@ -87,6 +87,14 @@ experiment_config = [
      'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
      'non-hierarchical-definitor': [],
      'B-tags': False},
+    
+    {'name': 'nonhier+def',
+     'train': 'data/full_data_SL.csv',
+     'test': 'data/full_data_new_SL.csv',
+     'hierarchical': ['DEFINIENDUM'],
+     'non-hierarchical': ['HAS_CAUSE', 'HAS_LOCATION', 'HAS_FORM', 'COMPOSITION_MEDIUM', 'HAS_FUNCTION', 'HAS_SIZE'],
+     'non-hierarchical-definitor': [],
+     'B-tags': False},
 ]
 
 ALLOWED_LANGUAGES = ['EN', 'SL', 'HR']
