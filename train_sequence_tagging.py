@@ -11,13 +11,11 @@ from torch.utils.data import TensorDataset, DataLoader, RandomSampler, Sequentia
 from keras.preprocessing.sequence import pad_sequences
 
 from sklearn.model_selection import train_test_split
-from transformers import BertTokenizer, BertForTokenClassification, AdamW, AutoTokenizer
+from transformers import BertForTokenClassification, AdamW, AutoTokenizer
 from transformers import get_linear_schedule_with_warmup
 
 from seqeval.metrics import f1_score
 from seqeval.metrics import classification_report
-
-from sklearn import metrics
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -29,8 +27,8 @@ import config_util
 warnings.simplefilter(action='ignore', category=UserWarning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-FORCE = False
-FORCE_TEST = False
+FORCE = True
+FORCE_TEST = True
 
 MODEL_IDS = ['bert-base-cased', 'bert-large-cased', 'allenai/scibert_scivocab_cased', 'EMBEDDIA/sloberta',
              'EMBEDDIA/crosloengual-bert']

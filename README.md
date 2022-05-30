@@ -32,14 +32,20 @@ To use this repository as intended you should have a NVIDIA GPU with appropriate
           scripts as well as new `experiments` folder with different datasets setups and models that is created automatically by running the scripts.
 - `report`: folder with the scientific paper
 
-## Environment creation and activation
+## Dependencies, environment creation and activation
+
+ - python>=3.7
+ - pytorch>=1.8.0
+ - cudatoolkit>=11.1
+ [Find a compatible version with your cuda](https://pytorch.org/get-started/previous-versions/))
 
 ```
 # create new environment and install all dependencies
-conda env create -f environment.yml
+conda create --name <env_name> python=3.9
+conda env update -f environment.yml
 
 # activate environment
-conda activate nlp
+conda activate <env_name>
 ```
 
 ## Preprocessing data

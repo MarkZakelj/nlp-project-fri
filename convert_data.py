@@ -10,11 +10,8 @@ import pandas as pd
 import os
 import csv
 import re
-import copy
-import numpy as np
 import time
-import argparse
-from collections import defaultdict, namedtuple
+from collections import defaultdict
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 

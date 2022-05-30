@@ -70,7 +70,7 @@ def get_raw_stems_lemmas(data, mask):
         if is_tag:
             stem += ' ' + ps.stem(data[i][WORD_COL])
             lemma += ' ' + lemmatizer.lemmatize(data[i][WORD_COL])
-            sent_nr = gt_data[i][SENT_COL] # serves as a node number
+            sent_nr = data[i][SENT_COL] # serves as a node number
         elif stem != '':
             stems.append((sent_nr, stem.strip().lower()))
             lemmas.append((sent_nr, lemma.strip().lower()))
@@ -336,23 +336,31 @@ def main():
         else:
             raise Exception("No test.csv file found, you should run data pre-processing scripts.")    
         model_dirs = [f for f in os.listdir(experiment_path) if os.path.isdir(os.path.join(experiment_path,f))]
-        for model in model_dirs:
-            if os.path.exists(os.path.join(experiment_path,model,"annotation.csv")):
-                pred_path = os.path.join(experiment_path,model,"annotation.csv")
-            else:
-                raise Exception("No annotation.csv file found, you should run data pre-processing scripts.") 
-            
-            # FETCH DATA AND GENERATE GRAPHS
-            save_dir = os.path.join(experiment_path,model)
-            print(save_dir)
-            gt_data, pred_data = get_data(gt_path, pred_path)
-            if gt_data and pred_data:
-                print("Succesfully extracted data, starting drawing...")
-                preprocess_and_draw(gt_data, pred_data, save_dir)
-                print("Graph drawn and can be found in the experiment folder.")
-            else:
-                print("Moving to next experiment...")
+        if len(model_dirs)!=0:
+            for model in model_dirs:
+                if os.path.exists(os.path.join(experiment_path,model,"annotation.csv")):
+                    pred_path = os.path.join(experiment_path,model,"annotation.csv")
+                else:
+                    print("No annotation.csv file found, you should run data pre-processing scripts.")
+                    continue
+                
+                # FETCH DATA AND GENERATE GRAPHS
+                save_dir = os.path.join(experiment_path,model)
+                print(save_dir)
+                gt_data, pred_data = get_data(gt_path, pred_path)
+                if gt_data and pred_data:
+                    print("Succesfully extracted data, starting drawing...")
+                    preprocess_and_draw(gt_data, pred_data, save_dir)
+                    print("Graph drawn and can be found in the experiment folder.")
+                else:
+                    print("Moving to next experiment...")
+                print()
+                
+        else:
+            print("No trained models found in:\n{}".format(experiment_path))
             print()
+            continue
+        
 
 
 if __name__ == '__main__':
