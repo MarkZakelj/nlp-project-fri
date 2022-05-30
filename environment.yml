@@ -1,4 +1,3 @@
-name: relations
 channels:
   - pytorch
   - anaconda
@@ -16,5 +15,6 @@ dependencies:
   - tensorflow
   - networkx
   - nltk
+  - pip
   - pip:
     - transformers

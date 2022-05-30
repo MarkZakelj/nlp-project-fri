@@ -37,7 +37,8 @@ To use this repository as intended you should have a NVIDIA GPU with appropriate
  - python>=3.7
  - pytorch>=1.8.0
  - cudatoolkit>=11.1
- [Find a compatible version with your cuda](https://pytorch.org/get-started/previous-versions/))
+ - dependencies in the environment.yml can be installed automatically with the comand below (solving the environment might take a while) or manually (pip is recommended for installing transformers)
+ - [pytorch and cudatoolkit versions](https://pytorch.org/get-started/previous-versions/) have to be installed manually
 
 ```
 # create new environment and install all dependencies
