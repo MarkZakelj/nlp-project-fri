@@ -247,7 +247,7 @@ if __name__ == '__main__':
     
         for i, pred in enumerate(all_preds) :
             if len(pred) == 0 :
-                prediction.append(['O'] * len(gt[i]))
+                prediction.insert(i, ['O'] * len(gt[i]))
         
         print('Annotations saved to ' + os.path.join(conf['model_dir'], 'annotation_reg.csv'))
         
