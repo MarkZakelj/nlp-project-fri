@@ -244,14 +244,18 @@ if __name__ == '__main__':
             
         gt = tokenize_sentence('test_reg.csv', arr_test_sent)
         prediction = tokenize_sentence('annotation_reg.csv', all_preds)
+        
+        fixed_prediction = []
+        for i, pred in enumerate(all_preds) :
+            if len(pred) == 0 :
+                fixed_prediction.append(['O'] * len(gt[i]))
+            else :
+                fixed_prediction.append(prediction[i])
+        
         print('Annotations saved to ' + os.path.join(conf['model_dir'], 'annotation_reg.csv'))
         
-        if 'EN' in conf['def_experiment'] :
-            prediction.insert(8, ['O'] * len(gt[8]))
-            prediction.insert(15, ['O'] * len(gt[15]))
-        else :
-            prediction.insert(43, ['O'] * len(gt[43]))
-        report = metrics.classification_report(sum(gt, []), sum(prediction, []))
+        
+        report = metrics.classification_report(sum(gt, []), sum(fixed_prediction, []))
         with open(os.path.join(conf['model_dir'], 'results_reg.txt'), 'w') as fl:
             fl.write(report)
             print('Results saved to ' + os.path.join(conf['model_dir'], 'results_reg.txt'))
