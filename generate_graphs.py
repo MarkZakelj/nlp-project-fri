@@ -70,7 +70,7 @@ def get_raw_stems_lemmas(data, mask):
         if is_tag:
             stem += ' ' + ps.stem(data[i][WORD_COL])
             lemma += ' ' + lemmatizer.lemmatize(data[i][WORD_COL])
-            sent_nr = gt_data[i][SENT_COL] # serves as a node number
+            sent_nr = data[i][SENT_COL] # serves as a node number
         elif stem != '':
             stems.append((sent_nr, stem.strip().lower()))
             lemmas.append((sent_nr, lemma.strip().lower()))
@@ -215,7 +215,7 @@ def plot_graph(G_pred, G_gt, G_correct, G_false, G_u, \
     f.savefig(os.path.join(save_dir,"max_wcc_graph.png"))
 
 
-def main(gt_data, pred_data, save_dir):
+def preprocess_and_draw(gt_data, pred_data, save_dir):
 
     #for edges
     gt_mask_definiendum, gt_mask_genus = get_tag_masks(gt_data)
@@ -249,13 +249,6 @@ def main(gt_data, pred_data, save_dir):
                                 undetected_mask_definiendum, gt_definiendum_stems, gt_definiendum_lemmas)
     undetected_genus_stems, undetected_genus_lemmas = get_stems_lemmas(gt_data, \
                                 undetected_mask_genus, gt_genus_stems, gt_genus_lemmas)
-
-    # print("Before correction:")
-    # print(len(gt_definiendum_lemmas+gt_genus_lemmas))
-    # print(len(pred_definiendum_lemmas+pred_genus_lemmas))
-    # print(len(correct_definiendum_lemmas+correct_genus_lemmas))
-    # print(len(false_definiendum_lemmas+false_genus_lemmas))
-    # print(len(undetected_definiendum_lemmas+undetected_genus_lemmas))
 
     def pad(word):
         return ' '+word+' '
@@ -307,13 +300,7 @@ def main(gt_data, pred_data, save_dir):
     gt_genus_stems = correct_genus_stems + undetected_genus_stems
     gt_genus_lemmas = correct_genus_lemmas + undetected_genus_lemmas
 
-    # print("After correction:")
-    # print(len(gt_definiendum_lemmas+gt_genus_lemmas))
-    # print(len(pred_definiendum_lemmas+pred_genus_lemmas))
-    # print(len(correct_definiendum_lemmas+correct_genus_lemmas))
-    # print(len(false_definiendum_lemmas+false_genus_lemmas))
-    # print(len(undetected_definiendum_lemmas+undetected_genus_lemmas))  
-
+    # nodes and edges 
     pred_edge_list, pred_nodes =  generate_nodes_and_edges_list(pred_definiendum_stems, pred_definiendum_lemmas, \
                                                         pred_genus_stems, pred_genus_lemmas)
     gt_edge_list, gt_nodes =  generate_nodes_and_edges_list(gt_definiendum_stems, gt_definiendum_lemmas, \
@@ -331,43 +318,50 @@ def main(gt_data, pred_data, save_dir):
     G_false, false_node_names = generate_graph_with_node_names(false_edge_list, false_nodes)
     G_undetected, undetected_node_names = generate_graph_with_node_names(undetected_edge_list, undetected_nodes)
     
+    # drawing
     plot_graph(G_pred, G_gt, G_correct, G_false, G_undetected, \
                 correct_node_names, false_node_names, undetected_node_names, save_dir)
 
 
+def main():
+    root = os.getcwd()
+    experiments_paths = [os.path.join(root,"data/experiments",f) for f in  \
+                        os.listdir(os.path.join(root,"data/experiments")) \
+                        if os.path.isdir(os.path.join(root,"data/experiments",f)) and "reg" not in f and 'gen' in f]
 
-
-####################################################################
-#                              main                                #
-####################################################################
-
-
-root = os.getcwd()
-experiments_paths = [os.path.join(root,"data/experiments",f) for f in  \
-                    os.listdir(os.path.join(root,"data/experiments")) \
-                    if os.path.isdir(os.path.join(root,"data/experiments",f)) and "reg" not in f and 'gen' in f]
-
-for experiment_path in experiments_paths:
-    # FETCH DATA PATHS
-    if os.path.exists(os.path.join(experiment_path, "test.csv")):
-        gt_path = os.path.join(experiment_path, "test.csv")
-    else:
-        raise Exception("No test.csv file found, you should run data pre-processing scripts.")    
-    model_dirs = [f for f in os.listdir(experiment_path) if os.path.isdir(os.path.join(experiment_path,f))]
-    for model in model_dirs:
-        if os.path.exists(os.path.join(experiment_path,model,"annotation.csv")):
-            pred_path = os.path.join(experiment_path,model,"annotation.csv")
+    for experiment_path in experiments_paths:
+        # FETCH DATA PATHS
+        if os.path.exists(os.path.join(experiment_path, "test.csv")):
+            gt_path = os.path.join(experiment_path, "test.csv")
         else:
-            raise Exception("No annotation.csv file found, you should run data pre-processing scripts.") 
+            raise Exception("No test.csv file found, you should run data pre-processing scripts.")    
+        model_dirs = [f for f in os.listdir(experiment_path) if os.path.isdir(os.path.join(experiment_path,f))]
+        if len(model_dirs)!=0:
+            for model in model_dirs:
+                if os.path.exists(os.path.join(experiment_path,model,"annotation.csv")):
+                    pred_path = os.path.join(experiment_path,model,"annotation.csv")
+                else:
+                    print("No annotation.csv file found, you should run data pre-processing scripts.")
+                    continue
+                
+                # FETCH DATA AND GENERATE GRAPHS
+                save_dir = os.path.join(experiment_path,model)
+                print(save_dir)
+                gt_data, pred_data = get_data(gt_path, pred_path)
+                if gt_data and pred_data:
+                    print("Succesfully extracted data, starting drawing...")
+                    preprocess_and_draw(gt_data, pred_data, save_dir)
+                    print("Graph drawn and can be found in the experiment folder.")
+                else:
+                    print("Moving to next experiment...")
+                print()
+                
+        else:
+            print("No trained models found in:\n{}".format(experiment_path))
+            print()
+            continue
         
-        # FETCH DATA AND GENERATE GRAPHS
-        save_dir = os.path.join(experiment_path,model)
-        print(save_dir)
-        gt_data, pred_data = get_data(gt_path, pred_path)
-        if gt_data and pred_data:
-            print("Succesfully extracted data, starting drawing...")
-            main(gt_data, pred_data, save_dir)
-            print("Graph drawn and can be found in the experiment folder.")
-        else:
-            print("Moving to next experiment...")
-        print()
+
+
+if __name__ == '__main__':
+    main()
