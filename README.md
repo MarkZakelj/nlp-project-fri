@@ -41,12 +41,16 @@ To use this repository as intended you should have a NVIDIA GPU with appropriate
  - [pytorch and cudatoolkit versions](https://pytorch.org/get-started/previous-versions/) have to be installed manually
 
 ```
-# create new environment and install all dependencies
+# create new environment
 conda create --name <env_name> python=3.9
-conda env update -f environment.yml
 
 # activate environment
 conda activate <env_name>
+
+# install dependencies
+conda env update -f environment.yml
+
+# don't forget to manually install pytorch with cudatoolkit
 ```
 
 ## Preprocessing data
